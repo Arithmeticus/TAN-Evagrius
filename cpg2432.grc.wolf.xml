@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Wolf.TAN-TEI.001"
+  xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ἑξακόσια προγνωστικὰ προβλήματα</title>
+        <author>Evagrius Ponticus</author>
+        <respStmt>
+          <resp>edited by</resp>
+          <persName><forename>Johann Christoph</forename>
+            <surname>Wolf</surname></persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl><persName><surname>Wolf</surname>, <persName>Johann Christoph</persName></persName>.
+              <title>Anecdota graeca sacra et profana: Ex codicibus manu exaratis nunc primum in
+              lucem edita, versione Latina donata et notis illustrata</title>. 4 vols. Hamburg: Apud
+            Theodorum Christophorum Felginer, <date>1722</date>. </bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Transcribed February 2013 by <persName>Joel Kalvesmaki</persName>, corrected against copy
+          secured through Google Books.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
+          Footnotes, apparatus, translation, etc. have been omitted.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>No corrections were found to be needed.</p>
+        </correction>
+        <normalization>
+          <p>Transcription should reflect the original.</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Fragment of the Kephalaia Gnostika from Wolf's Analecta graeca</name>
+      <rights-excluding-sources rights-holder="kalvesmaki">
+      <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+      <name>Exclusive of rights held and licenses offered by rightsholders of the source or sources
+        listed below, this data file, insofar as it constitutes an independent work, is licensed
+        under a Creative Commons Attribution 4.0 International License.</name>
+    </rights-excluding-sources>
+    <source>
+      <IRI>http://www.worldcat.org/oclc/7907597</IRI>
+      <name>Anecdota græca sacra et profana : ex codicibus manu exaratis nunc primum in lucem edita,
+        versione Latina donata et notis illustrata / Johann Christoph Wolf, 1722-1724</name>
+    </source>
+    <declarations>
+      <work>
+        <IRI>tag:kalvesmaki.com,2014:cpg2432</IRI>
+        <name xml:lang="eng">The Kephalaia Gnostika, written by Evagrius Ponticus</name>
+      </work>
+      <div-type xml:id="century">
+        <IRI>tag:kalvesmaki.com,2014:div-type-century</IRI>
+        <name xml:lang="eng">century</name>
+      </div-type>
+      <div-type xml:id="chapter">
+        <IRI>http://dbpedia.org/resource/Chapter_(books)</IRI>
+        <name xml:lang="eng">chapter</name>
+        <name xml:lang="grc">κεφάλαιον</name>
+      </div-type>
+      <recommended-tokenization which="general-words-only-1"/>
+      <filter/>
+    </declarations>
+    <agent xml:id="kalvesmaki" roles="editor provider">
+      <IRI>http://viaf.org/viaf/299582703</IRI>             <IRI>tag:kalvesmaki.com,2014:self</IRI>
+      <name xml:lang="eng">Joel Kalvesmaki</name>
+    </agent>
+    <role xml:id="provider">
+      <IRI>http://schema.org/provider</IRI>
+      <name xml:lang="eng">Provider</name>
+    </role>
+    <role xml:id="editor">
+      <IRI>http://schema.org/editor</IRI>
+      <name xml:lang="eng">Editor</name>
+    </role>
+    <change when="2014-10-31" who="kalvesmaki">Started TAN-TEI file.</change>
+  </head>
+  <text>
+    <body xml:lang="grc">
+      <div type="century" n="IV">
+        <div type="chapter" n="46">
+          <pb n="3:167"/>
+          <p>Τέσσαρες ἀρχαὶ <lb/>τὰ τέσσαρα στοιχεῖα, δη- <pb
+              n="3:168" break="no"/>λοῦσι, καὶ τὸ φανὲν σκεῦ-<lb break="no"/>ος τὸν παχύτερον
+              κόσ-<lb break="no"/>μον σημαίνει, καὶ τὰ <lb/>διάφορα ζῶα τῆς τῶν <lb/>ἀνθρώπων
+            καταστάσεώς <lb/>ἐστι σύμβολα.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Hausherr.TAN-TEI.001"
+  xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ἑξακόσια προγνωστικὰ προβλήματα</title>
+        <author>Evagrius Ponticus</author>
+        <respStmt>
+          <resp>edited by</resp>
+          <persName><forename>Irénée</forename>
+            <surname>Hausherr</surname></persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl>
+            <persName><surname>Hausherr</surname>, <forename>Irénée</forename></persName>.
+              "<title>Nouveaux Fragments Grecs d’Évagre Le Pontique</title>." <title type="journal"
+              >Orientalia Christiana Periodica</title> 5 (<date>1939</date>): 229–33. [Presents <msIdentifier>
+              <placeName>Moscow</placeName>
+              <idno>425</idno>
+            </msIdentifier> (16th c.), fols. 216v-219]</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Transcribed February 2013 by <persName>Joel Kalvesmaki</persName>, corrected against
+          volume owned by Dumbarton Oaks Research Library and Collection.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
+          Footnotes, apparatus, translation, etc. have been omitted.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>No corrections were found to be needed.</p>
+        </correction>
+        <normalization>
+          <p>Transcription should reflect the original.</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Fragments of the Kephalaia Gnostika preserved in MS Moscow 425</name>
+      <rights-excluding-sources rights-holder="kalvesmaki">
+      <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+      <name>Exclusive of rights held and licenses offered by rightsholders of the source or sources
+        listed below, this data file, insofar as it constitutes an independent work, is licensed
+        under a Creative Commons Attribution 4.0 International License.</name>
+    </rights-excluding-sources>
+    <source>
+      <IRI>urn:uuid:4664feb0-2600-4212-a570-f9d58cb55e96</IRI>
+      <name> Irénée Hausherr, "Nouveaux Fragments Grecs d’Évagre Le Pontique." Orientalia Christiana
+        Periodica 5 (1939): 229–33.</name>
+    </source>
+    <declarations>
+      <work>
+        <IRI>tag:kalvesmaki.com,2014:cpg2432</IRI>
+        <name xml:lang="eng">The Kephalaia Gnostika, written by Evagrius Ponticus</name>
+      </work>
+      <div-type xml:id="century">
+        <IRI>tag:kalvesmaki.com,2014:div-type-century</IRI>
+        <name xml:lang="eng">century</name>
+      </div-type>
+      <div-type xml:id="chapter">
+        <IRI>http://dbpedia.org/resource/Chapter_(books)</IRI>
+        <name xml:lang="eng">chapter</name>
+        <name xml:lang="grc">κεφάλαιον</name>
+      </div-type>
+      <recommended-tokenization which="general-words-only-1"/>
+      <filter/>
+    </declarations>
+    <agent xml:id="kalvesmaki" roles="editor provider">
+      <IRI>http://viaf.org/viaf/299582703</IRI>             <IRI>tag:kalvesmaki.com,2014:self</IRI>
+      <name xml:lang="eng">Joel Kalvesmaki</name>
+    </agent>
+    <role xml:id="provider">
+      <IRI>http://schema.org/provider</IRI>
+      <name xml:lang="eng">Provider</name>
+    </role>
+    <role xml:id="editor">
+      <IRI>http://schema.org/editor</IRI>
+      <name xml:lang="eng">Editor</name>
+    </role>
+    <change when="2014-10-31" who="kalvesmaki">Started TAN-TEI file.</change>
+  </head>
+  <text>
+    <body xml:lang="grc">
+      <div type="century" n="I">
+        <div type="chapter" n="39">
+          <p><pb n="230"/>I. 39. Ἀρετῆς γεγόναμεν σπέρματα, κακίας δὲ οὔ· οὐ γὰρ <lb/>εἴ τινος
+            δεκτικοί ἐσμεν, τούτου πάντως καὶ τὴν δύναμιν ἔχομεν, ἐπεὶ <lb/>καὶ μὴ εἶναι δυνάμενοι,
+            τοῦ μὴ ὄντος οὐκ ἔχομεν δύναμιν· εἴπερ αἱ <lb/>δυνάμεις ποιότητες, τὸ δὲ μὴ ὄν οὐκ ἔστι
+            ποιότης. = E 11.</p>
+        </div>
+        <div type="chapter" n="53">
+          <p>I. 53. Τὰ μὲν τῷ νοῒ μαχόμενα δαιμόνια καλοῦνται πτηνά, θηρία <lb/>δὲ τὰ τὸν θυμὸν
+            ἐκταράσσοντα, κτήνη δὲ ὀνομάζεται τὰ τὴν ἐπιθυμίαν <lb/>κινοῦντα. = E 4.</p>
+        </div>
+        <div type="chapter" n="78">
+          <p>I. 78. Ἀπόταξις μὲν πρώτη ἐστὶ κατάλειψις κοσμικῶν πραγμάτων <lb/>ἑκούσιος τῆς τοῦ Θεοῦ
+            γνώσεως ἕνεκεν· = E 5.</p>
+        </div>
+        <div type="chapter" n="79">
+          <p>I. 79. ἀπόταξις δὲ δευτέρα ἀπόθεσις κακίας χάριτι Θεοῦ καὶ <lb/>σπουδῇ τοῦ ἀνθρώπου
+            προσγινομένη· = E 5.</p>
+        </div>
+        <div type="chapter" n="80">
+          <p>I. 80. ἀπόταξις δὲ τρίτη ἐστὶ χωρισμὸς ἀγνοίας τῶν πεφυκότων <lb/>ἐμφανίζεσθαι τοῖς
+            ἀνθρώποις κατ᾿ ἀναλογίαν τῆς καταστάσεως. = E 5.</p>
+        </div>
+        <div type="chapter" n="81">
+          <p>I. 81. Δόξα οὖν καὶ φῶς τοῦ νοός ἐστιν ἡ γνῶσις, δόξα δὲ καὶ <lb/>φῶς ζωῆς ἡ ἀπάθεια. =
+            E 7.</p>
+        </div>
+      </div>
+      <div type="century" n="II">
+        <div type="chapter" n="6">
+          <p>II. 6. Ψυχὴ δὲ ἡ τὴν πρακτικὴν σὺν Θεῷ κατορθώσασα καὶ <lb/>λυθεῖσα τοῦ σώματος, ἐν
+            ἐκείνοις γίνεται τοῖς τῆς γνώσεως τόποις, ἐν <lb/>οἷς αὐτὴν τὸ τῆς ἀπαθείας πτερὸν
+            καταπαύσει. = E 4.</p>
+        </div>
+        <div type="chapter" n="10">
+          <p>II. 10. Τερπνὰ μὲν τὰ διὰ τῶν αἰσθήσεων ἡμῖν προσπίπτοντα <lb/>πράγματα· τερπνοτέρα δὲ
+            πολλῷ μᾶλλον τούτων ἐστίν ἡ θεωρία, <lb/>ἀλλ᾿ ἐπειδὴ μὴ φθάνει τὴν γνῶσιν ἡ αἴσθησις διὰ
+            τὴν ἡμετέραν ἀσθέ-<lb break="no"/>νειαν, αὐτὴ προτιμοτέρα εἶναι δοκεῖ τῆς μηδέπω
+            παρούσης. = E6.</p>
+        </div>
+        <div type="chapter" n="83">
+          <p>II. 83. Ὥσπερ αἱ αἰσθήσεις ἀλλοιοῦνται διαφόρων ἀντιλαμβα-<lb break="no"/>νόμεναι
+            ποιοτήτων, οὕτω καὶ ὁ νοῦς ἀλλοιοῦται ποικίλαις θεωρίαις <lb/>ἐνατενίζων ἀεί. = E 7.</p>
+        </div>
+      </div>
+      <div type="century" n="III">
+        <div type="chapter" n="59">
+          <p>III. 59. Εἰ πᾶσα κακία ἐκ τοῦ λογιστικοῦ, ἐκ τοῦ ἐπιθυμητικοῦ, <lb/>ἢ ἐκ τοῦ θυμικοῦ
+            πέφυκε γίνεσθαι, ταύταις δὲ ταῖς δυνάμεσιν ἔστιν <lb/>εὖ ἢ κακῶς χρήσασθαι, παρὰ τὴν
+            χρῆσιν δηλονότι τούτων τῶν μερῶν <lb/>ἐπισυμβαίνουσιν ἡμῖν αἱ κακίαι· εἰ δὲ τοῦτο οὕτως
+            ἔχει, οὐδὲν τῶν <lb/>ὑπὸ Θεοῦ γεγονότων ἐστὶ πονηρόν. = E 8.</p>
+        </div>
+      </div>
+      <div type="century" n="IV">
+        <div type="chapter" n="31">
+          <p>IV. 31. Ὥσπερ ὁ κρυπτόμενος ἀστὴρ τοῦ κρύπτοντος αὐτὸν <lb/>ἀστέρος ἀνώτερος
+            ἀποδείκνυται, οὕτως ὁ μᾶλλον πρᾳῢς τοῦ ἧττον <lb/>πρᾳέος ἐν τῷ αἰῶνι τῷ μέλλοντι
+            ὑψηλότερος εὑρεθήσεται. = E 9.</p>
+        </div>
+        <div type="chapter" n="33">
+          <p>IV. 33. Τοὺς ἀνελεήμονας μετὰ θάνατον ἀνελεήμονες ὑποδέχονται <lb/>
+            <pb n="231"/><lb/>δαίμονες, τοὺς δὲ μᾶλλον ἀνελεήμονας οἱ μᾶλλον τούτων ἀπανθρω-<lb
+              break="no"/>πότεροι. Εἰ δὲ τοῦτο οὕτως ἔχει, λέληθεν ἄρα τοὺς ἑαυτοὺς ἐκ τοῦ <lb/>
+            σώματος ὑπεξάγοντας, ὁποῖοι αὐτοῖς μετὰ τὴν ἔξοδον ὑπαντιάζουσι <lb/>δαίμονες· καὶ γὰρ
+            λόγος ἐστὶ μηδένα τῶν βουλήσει Θεοῦ ἐξιόντων <lb/>τοῖς τοιούτοις παραδίδοσθαι δαίμοσιν.
+            = E 10.</p>
+        </div>
+        <div type="chapter" n="68">
+          <p>IV. 68. Οἴκου μὲν εἰκόνα σώζει τὸ σῶμα τὸ τῆς ψυχῆς, αἱ δὲ <lb/>αἰσθήσεις θυρίδων
+            ἐπέχουσι λόγον, δι᾿ ὧν παρακύπτων ὁ νοῦς βλέπει <lb/>τὰ αἰσθητά. = E13.</p>
+        </div>
+        <div type="chapter" n="70">
+          <p>IV. 70. Οὐ πάντων οὖν ἐστι τὸ λέγειν· ἔκβαλλε ἐκ φυλακῆς τὴν <lb/>ψυχήν μου ἀλλὰ τῶν
+            δυναμένων διὰ καθαρότητα ψυχῆς καὶ χωρὶς τοῦ <lb/>σώματος τούτου τῇ θεωρίᾳ τῶν γεγονότων
+            ἐπιβάλλειν. = E13.</p>
+        </div>
+      </div>
+      <div type="century" n="V">
+        <div type="chapter" n="27">
+          <p>V. 27. Ὁ θυμὸς μὲν ταρασσόμενος τὸν ὁρῶντα τυφλοῖ, ἐπιθυμία <lb/>δὲ ἀλόγως κινουμένη τὰ
+            ὁρώμενα πράγματα κρύπτει. = E14.</p>
+        </div>
+        <div type="chapter" n="41">
+          <p>V. 41. Ὁ τὸν νοητὸν κόσμον ἐν ἑαυτῷ περιφέρων τυπούμενον, <lb/>παύεται μὲν ἁπάσης
+            ἐπιθυμίας φθαρτῆς· αἰσχύνεται δὲ ἐπὶ τούτοις <lb/>λοιπὸν ἐφ᾿ οἷς πρότερον ἥδετο, τοῦ
+            λογισμοῦ πολλάκις ἐγκαλοῦντος <lb/>αὐτῷ τὰ τὴς προτέρας ἀναισθησίας. = E15.</p>
+        </div>
+        <div type="chapter" n="45">
+          <p>V. 45. Ὁ νοῦς μὲν κεφαλὴ τῆς ψυχῆς ὀνομάζεται, αἱ δὲ ἀρεταὶ <lb/>τριχῶν ἐπέχουσι λόγον,
+            ὧν στερηθεὶς Ναζιραῖος, τῆς γνώσεώς τε χω-<lb break="no"/>ρίζεται καὶ δέσμιος ὑπὸ τῶν
+            πολεμίων ἀπάγεται. = E 17.</p>
+        </div>
+        <div type="chapter" n="57">
+          <p>V. 57. Ὥσπερ νῦν μὲν διὰ τῶν αἰσθήσεων τοῖς αἰσθητοῖς ἐπι-<lb break="no"/>βάλλομεν
+            πράγμασιν, ὕστερον δὲ καθαρθέντες, καὶ τοὺς λόγους τούτων <lb/>ἐπιγινώσκομεν· οὕτω
+            πρότερον μὲν ὀψόμεθα αὐτὰ τὰ πράγματα, ἐπὶ <lb/>πλεῖον δὲ καθαρθέντες, καὶ τὴν περὶ
+            αὐτῶν θεωρίαν εἰσόμεθα, μεθ’ ἣν <lb/>ἔστι γνῶναι λοιπὸν καὶ αὐτὴν τὴν ἁγίαν Τριάδα. = E
+            18.</p>
+        </div>
+        <div type="chapter" n="90">
+          <p>V. 90. Τὰ πράγματα ὡς ἔχει φύσεως ἢ νοῦς καθαρὸς ὁρᾷ, ἢ <lb/>λόγος πνευματικὸς σαφῶς
+            παρίστησιν· ὁ δὲ ἀμφοτέρων ἐστηρημένος <lb/>πρὸς κακηγορίαν χωρήσει τοῦ συγγράφεως. = E
+            2.</p>
+        </div>
+      </div>
+      <div type="century" n="VI">
+        <div type="chapter" n="21">
+          <p>VI. 21. Ἀρετὴ δέ ἐστιν ἕξις ἀρίστη ψυχῆς λογικῆς, καθ᾿ ἣν δυσκί-<lb break="no"/>νητος
+            γίνεται πρὸς κακίαν. = E 24.</p>
+        </div>
+        <div type="chapter" n="22">
+          <p>VI. 22. Εἰ αἰσθητοὶ λόγοι ἐν τῷ αἰῶνι τῷ μέλλοντι παριστῶσι <lb/>τὰ πράγματα οἱ σοφοὶ
+            δηλονότι τοῦ αἰῶνος τούτου λήψονται τὴν <lb/>βασιλείαν τῶν οὐρανῶν. Εἰ δὲ καθαρότης ὁρᾷ
+            διανοίας καὶ λόγος <lb/>σημαίνει ταύτην κατάλληλος, μακρὰν οἱ σοφοὶ γενήσονται τῆς
+            γνώσεως <lb/>τοῦ Θεοῦ. = E 19.</p>
+        </div>
+        <div type="chapter" n="52">
+          <p>VI. 52. Πολλὰ πάθη κέκρυπται ἐν ταῖς ψυχαῖς ἡμῶν, ἅπερ λαν-<lb break="no"/>θάνοντα ἡμᾶς
+            οἱ ὀξύτεροι τῶν πειρασμῶν φανεροῦσι, καὶ δεῖ πάσῃ <lb/>φυλακῇ τηρεῖν τὴν καρδίαν, μήποτε
+            παραφανέντος ἐκείνου τοῦ πράγ-<lb break="no"/>ματος, πρὸς ὃ τὸ πάθος κεκτήμεθα,
+            συναρπασθέντες ἐξαίφνης ὑπὸ <lb/>δαιμόνων, δράσωμέν τι τῶν ἀπηγορευμένων παρὰ Θεοῦ. = E 22.<lb/>
+            <pb n="232"/></p>
+        </div>
+        <div type="chapter" n="55">
+          <p>VI. 55. Ὁ νοῦς τὸ τηνικαῦτα ἐπιβάλλει τοῖς νοητοῖς, ὁπηνίκα <lb/>ἂν μηκέτι ποιῶται τοῖς
+            ἀπὸ τοῦ παθητικοῦ μέρους τῆς ψυχῆς λογι-<lb break="no"/>σμοῖς. = E 23.</p>
+        </div>
+        <div type="chapter" n="62">
+          <p>VI. 62. Στεῖρά ἐστι ψυχὴ λογικὴ ἡ πάντοτε μανθάνουσα καὶ <lb/>μηδέποτε εἰς ἐπίγνωσιν
+            ἀληθείας ἐλθεῖν βουλομένη· = E 24.</p>
+        </div>
+        <div type="chapter" n="63">
+          <p>VI. 63. Ὥσπερ οἱ τὰς ὄψεις κεκαθαρμένοι καὶ τῷ ἡλίῳ ἐνα-<lb break="no"/>τενίζοντες εἰς
+            δάκρυά τε προσπίπτουσι καὶ τὸν ἀέρα ποικίλοις χρώ-<lb break="no"/>μασι κεκραμένον
+            ὁρῶσιν, οὕτω καὶ ὁ καθαρὸς νοῦς ὑπὸ ὀργῆς <lb/>ταρασσόμενος περιδράξασθαι τῆς θεωρίας
+            ἀδυνατεῖ καὶ νεφέλας τινὰς <lb/>περιπετομένας τοῖς πράγμασιν ὁρᾷ. = E 25.</p>
+        </div>
+      </div>
+      <div type="century" n="V">
+        <div type="chapter" n="42">
+          <p>E 16. Ὁ ἐν τῇ διανοίᾳ κόσμος κτιζόμενος μεθ’ ἡμέραν μὲν δυσ-<lb break="no"/>διάγνωστος
+            εἶναι δοκεῖ, τῶν αἰσθήσεων περισπωσῶν τὸν νοῦν, καὶ <lb/>τοῦ αἰσθητοῦ φωτὸς
+            περιλάμποντος· νύκτωρ δὲ ἔστιν ἰδεῖν αὐτὸν <lb/>περιφανῶς κατὰ τὸν καιρὸν τῆς προσευχῆς
+            ἐκτυπούμενον.</p>
+        </div>
+      </div>
+      <div type="century" n="VI">
+        <div type="chapter" n="51">
+          <p>E 20. Εἰ πασῶν τῶν τῆς ψυχῆς δυνάμεων τὸ λογιστικὸν μέρος <lb/>ἐστὶ τιμιώτατον, τοῦτο
+            δὲ μόνον τῇ σοφίᾳ ποιοῦται, προτέρα ἂν εἴη <lb/>πασῶν τῶν ἀρετῶν ἡ σοφία· ταύτην γὰρ καὶ
+            υἱοθεσίας πνεῦμα ὁ <lb/>σοφὸς ἡμῶν διδάσκαλος εἴρηκεν.<lb/>
+            <pb n="233"/></p>
+        </div>
+        <div type="chapter" n="25">
+          <p>E 21. Ὅταν ἀδυνατήσωσι δαίμονες κινῆσαι λογισμοὺς γνωστικῷ, <lb/>τὸ τηνικαῦτα τῶν
+            ὀφθαλμῶν αὐτοῦ δράσσονται καὶ τούτους πάνυ <lb/>καταψυχρώσαντες εἰς βαρύτατον αὐτοὺς
+            ὕπνον καθέλκουσι· ψυχρὰ <lb/>γὰρ πάντα τὰ τῶν δαιμόνων σώματα καὶ κρυστάλλῳ
+            παρεμφερῆ.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

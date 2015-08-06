@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_Preville.TAN-TEI.001"
+  xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ἑξακόσια προγνωστικὰ προβλήματα</title>
+        <author>Evagrius Ponticus</author>
+        <respStmt>
+          <resp>edited by</resp>
+          <persName><forename>J.</forename>
+            <surname>de Préville</surname></persName>
+          <persName>
+            <persName>L.</persName>
+            <surname>Regnault</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl><persName><forename>J.</forename>
+              <surname>de Préville</surname></persName> and <persName><forename>L.</forename>
+              <surname>Regnault</surname></persName>, <title>Dorothée de Gaza. Oeuvres
+              spirituelles</title>. Sources chrétiennes 92. Paris: Éditions du Cerf,
+              <date>1963</date>. </bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Transcribed February 2013 by <persName>Luke Dysinger</persName>, OSB corrected by
+            <persName>Joel Kalvesmaki</persName> against TLG.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
+          Footnotes, apparatus, translation, etc. have been omitted.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>No corrections were found to be needed.</p>
+        </correction>
+        <normalization>
+          <p>Transcription should reflect the original.</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Fragments of the Kephalaia Gnostica preserved in Dorotheos of Gaza</name>
+      <rights-excluding-sources rights-holder="kalvesmaki">
+      <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+      <name>Exclusive of rights held and licenses offered by rightsholders of the source or sources
+        listed below, this data file, insofar as it constitutes an independent work, is licensed
+        under a Creative Commons Attribution 4.0 International License.</name>
+    </rights-excluding-sources>
+    <source>
+      <IRI>http://lccn.loc.gov/67007974</IRI>
+      <name xml:lang="fra">Œuvres spirituelles [de] Dorothée de Gaza. Published/Created Paris,
+        Éditions du Cerf, 1963. Lucien Regnault and J. de Préville, ed. and tr.</name>
+    </source>
+    <declarations>
+      <work>
+        <IRI>tag:kalvesmaki.com,2014:cpg2432</IRI>
+        <name xml:lang="eng">The Kephalaia Gnostika, written by Evagrius Ponticus</name>
+      </work>
+      <div-type xml:id="century">
+        <IRI>tag:kalvesmaki.com,2014:div-type-century</IRI>
+        <name xml:lang="eng">century</name>
+      </div-type>
+      <div-type xml:id="chapter">
+        <IRI>http://dbpedia.org/resource/Chapter_(books)</IRI>
+        <name xml:lang="eng">chapter</name>
+        <name xml:lang="grc">κεφάλαιον</name>
+      </div-type>
+      <recommended-tokenization which="general-words-only-1"/>
+      <filter/>
+    </declarations>
+    <agent xml:id="kalvesmaki" roles="editor provider">
+      <IRI>http://viaf.org/viaf/299582703</IRI>             <IRI>tag:kalvesmaki.com,2014:self</IRI>
+      <name xml:lang="eng">Joel Kalvesmaki</name>
+    </agent>
+    <agent xml:id="dysinger" roles="editor">
+      <IRI>http://viaf.org/viaf/102135890</IRI>
+      <name xml:lang="eng">Luke Dysinger</name>
+    </agent>
+    <role xml:id="provider">
+      <IRI>http://schema.org/provider</IRI>
+      <name xml:lang="eng">Provider</name>
+    </role>
+    <role xml:id="editor">
+      <IRI>http://schema.org/editor</IRI>
+      <name xml:lang="eng">Editor</name>
+    </role>
+    <change when="2014-10-31" who="kalvesmaki">Started TAN-TEI file.</change>
+  </head>
+  <text>
+    <body xml:lang="grc">
+      <div type="century" n="IV">
+        <div type="chapter" n="76">
+          <pb n="126"/>
+          <p> Ἔλεγε καὶ Εὐάγριος ὅτι ἐμπαθής τις ὢν καὶ <lb/>προσευχόμενος ταχυτέραν αὐτῷ γενέσθαι
+            τὴν ἔξοδον, ἔοικεν <lb/>ἀνθρώπῳ παρακαλοῦντι τὸν τέκτονα ταχέως συντρίψαι τὴν
+            <lb/>κλίνην τοῦ ἀσθενοῦντος. Διὰ γὰρ τοῦ σώματος τούτου <lb/>περισπᾶται ἡ ψυχὴ ἀπὸ τῶν
+            παθῶν αὐτῆς καὶ παρακαλεῖται·</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1987.TAN-TEI.001"
+  xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Σχόλια εἰς τὰς Παροιμίας </title>
+        <author>Evagrius Ponticus</author>
+        <respStmt>
+          <resp>edited by</resp>
+          <persName><forename>Paul</forename>
+            <surname>Géhin</surname></persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl><persName><surname>Géhin</surname>, <forename>Paul</forename></persName>.
+              <title>Scholies aux Proverbes</title>. Paris: Éditions du Cerf, <date>1987</date>.
+          </bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Transcribed February 2013 by <persName>Joel Kalvesmaki</persName>, corrected against
+          <lb/> volume owned by Dumbarton Oaks Research Library and Collection.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Only the main Greek text relevant to the Kephalaia gnostika has been transcribed. <lb/>
+          Footnotes, apparatus, translation, etc. have been omitted.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>No corrections were found to be needed.</p>
+        </correction>
+        <normalization>
+          <p>Transcription should reflect the original.</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Fragments of the Kephalaia Gnostika preserved in Evagrius's scholia on the Proverbs</name>
+      <rights-excluding-sources rights-holder="kalvesmaki">
+      <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+      <name>Exclusive of rights held and licenses offered by rightsholders of the source or sources
+        listed below, this data file, insofar as it constitutes an independent work, is licensed
+        under a Creative Commons Attribution 4.0 International License.</name>
+    </rights-excluding-sources>
+    <source>
+      <IRI>http://lccn.loc.gov/88168756</IRI>
+      <name>Scholies aux Proverbes / Evagre le Pontique ; introduction, texte critique, traduction,
+        notes, appendices et index par Paul Géhin. Paris : Cerf, 1987.</name>
+    </source>
+    <declarations>
+      <work>
+        <IRI>tag:kalvesmaki.com,2014:cpg2432</IRI>
+        <name xml:lang="eng">The Kephalaia Gnostika, written by Evagrius Ponticus</name>
+      </work>
+      <div-type xml:id="century">
+        <IRI>tag:kalvesmaki.com,2014:div-type-century</IRI>
+        <name xml:lang="eng">century</name>
+      </div-type>
+      <div-type xml:id="chapter">
+        <IRI>http://dbpedia.org/resource/Chapter_(books)</IRI>
+        <name xml:lang="eng">chapter</name>
+        <name xml:lang="grc">κεφάλαιον</name>
+      </div-type>
+      <div-type xml:id="variant">
+        <IRI>tag:kalvesmaki.com,2014:div-type-variant</IRI>
+        <name xml:lang="eng">variant</name>
+      </div-type>
+      <recommended-tokenization which="general-words-only-1"/>
+      <filter/>
+    </declarations>
+    <agent xml:id="kalvesmaki" roles="editor provider">
+      <IRI>http://viaf.org/viaf/299582703</IRI>             <IRI>tag:kalvesmaki.com,2014:self</IRI>
+      <name xml:lang="eng">Joel Kalvesmaki</name>
+    </agent>
+    <role xml:id="provider">
+      <IRI>http://schema.org/provider</IRI>
+      <name xml:lang="eng">Provider</name>
+    </role>
+    <role xml:id="editor">
+      <IRI>http://schema.org/editor</IRI>
+      <name xml:lang="eng">Editor</name>
+    </role>
+    <change when="2014-10-31" who="kalvesmaki">Started TAN-TEI file.</change>
+  </head>
+  <text>
+    <body xml:lang="grc">
+      <div type="century" n="V">
+        <div type="chapter" n="77">
+          <p><pb n="104"/>Πύλας δὲ δυναστῶν τὰς <lb/>ἀρετὰς τῶν σοφῶν λέγει· </p>
+        </div>
+      </div>
+      <div type="century" n="I">
+        <div type="chapter" n="40">
+          <div type="variant" n="a">
+            <p><pb n="152"/>62. Ἦν ὅτε οὐκ ἦν κακία καὶ ἔσται ὅτε οὐκ ἔσται· <lb/>οὐκ ἦν δὲ ὅτε οὐκ
+              ἦν ἀρετή, οὐδὲ ἔσται ὅτε οὐκ ἔσται· <lb/>ἀνεξάλειπτα γὰρ τὰ σπέρματα τῆς ἀρετῆς.
+              Πείθει δέ με <lb/>καὶ οὗτος παρ’ ὀλίγον καὶ οὐ τελείως ἐν παντὶ κακῷ γεγονὼς <lb/>καὶ
+              ὁ πλούσιος ἐν τῷ ᾅδῃ διὰ κακίαν κρινόμενος καὶ <pb n="154"/>οἰκτείρων τοὺς ἀδελφούς.
+              Τὸ δὲ ἐλεεῖν σπέρμα τυγχάνει τὸ <lb/>κάλλιστον τῆς ἀρετῆς.</p>
+          </div>
+        </div>
+        <div type="chapter" n="40">
+          <div type="variant" n="b">
+            <p>Procope: Ἦν ὅτε οὐκ ἦν κακία καὶ ἔσται ὅτε οὐκ ἔσται· οὐκ ἦν <lb/>δὲ ὅτε οὐκ ἦν
+              ἀρετή, οὐδὲ ἔσται ὅτε οὐκ ἔσται· ἀνεξάλειπτα γὰρ τὰ <lb/>σπέρματα τῆς ἀρετῆς. Πείθει
+              δέ με καὶ οὗτος παρ’ ὀλίγον καὶ οὐ <lb/>τελείως ἐν παντὶ κακῷ γεγονὼς καὶ ὁ πλούσιος
+              ἐν τῷ ᾅδῃ διὰ τὴν <lb/>κακίαν κρινόμενος καὶ οἰκτείρων τοὺς ἀδελφούς. Τὸ δὲ ἐλεεῖν
+              σπέρμα <lb/> τυγχάνει τὸ κάλλιστον τῆς ἀρετῆς.</p>
+          </div>
+        </div>
+      </div>
+      <div type="century" n="V">
+        <div type="chapter" n="44">
+          <div type="variant" n="a"><p><pb n="300"/>206. Εἰ «θυμὸς δρακόντων ὁ οἶνος αὐτῶν», ἀκόλαστον <lb/>δὲ ὁ οἶνος,
+            ἀκόλαστον ἄρα ὁ θυμός, ἀκολάστους τοὺς <pb n="302"/>ἀνθρώπους ποιῶν, καὶ ὑβριστικὸν ἡ
+            ὀργή· αὕτη γὰρ ἡ <lb/>μέθη ἀπὸ ζέοντος τοῦ θυμοῦ πέφυκε γίνεσθαι. Εἰ δὲ οἴνου <lb/>οἱ
+            ναζιραῖοι κατὰ τὸν νόμον ἀπέχονται, θυμοῦ ἄρα τοὺς <lb/>ναζιραίους ἐκτὸς εἶναι
+            νενομοθέτηται.</p></div>
+        </div>
+        <div type="chapter" n="44">
+          <div type="variant" n="b"><p>Procope: Εἰ δὲ «θυμὸς δρακόντων ὁ οἶνος αὐτῶν», ἀκόλαστον <lb/>δὲ ὁ οἶνος, ἀκόλαστος
+            ἄρα ὁ θυμός, ἀκολάστους ποιῶν τοὺς ἀνθρώπους, <lb/>καὶ ὑβριστικὸν ἡ ὀργή· γίνεται ἀπὸ
+            ζέοντος τοῦ θυμοῦ. Οἴνου <lb/>δὲ ἀπεχόμενοι ναζιραῖοι ἐκτὸς εἶναι θυμοῦ
+            προσετάττοντο.</p></div>
+        </div>
+        <div type="chapter" n="77">
+          <div type="variant" n="a"><p><pb n="360"/>267. Αἱ πύλαι τῶν σοφῶν αἱ πρακτικαί εἰσιν ἀρεταὶ <lb/>δι‘ ὧν εἰσέρχεται
+            σοφία θεοῦ.</p></div>
+        </div>
+        <div type="chapter" n="77">
+          <div type="variant" n="b"><p>
+            <pb n="362"/>Procope: Πύλαι δὲ τῶν σοφῶν αἱ πρακτικαὶ ἀρεταὶ δι’ ὧν εἰσέρχε- <lb/>ται
+            σοφία θεοῦ.</p></div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

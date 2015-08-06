@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_eng_Dysinger.TAN-TEI.001"
+  xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</title>
+        <author>Evagrius Ponticus</author>
+        <respStmt>
+          <resp>translated by</resp>
+          <persName><forename>Luke</forename>
+            <surname>Dysinger</surname>, O.S.B.</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+          <biblStruct type="title">
+            <monogr>
+              <title>St. Evagrius Ponticus (345-399)</title>
+              <author>
+                <name>Evagrius Ponticus</name>
+              </author>
+              <editor>Fr. <forename>Luke</forename>
+                <surname>Dysinger</surname>, O.S.B. </editor>
+              <imprint>
+                <pubPlace>Valyermo, California</pubPlace>
+                <publisher>Fr. Luke Dysinger, O.S.B.</publisher>
+                <date>1990</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Assembled 2011-2012 by <persName>Joel Kalvesmaki</persName>, based on public-domain
+          material found on the website of the translator.</p>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>Unnecessary spacing and reduplication silently corrected.</p>
+        </correction>
+        <normalization>
+          <p>Transcription does not reflect the translator's original orthography (small caps not
+            reflected); color; italics; indentation. It also does not distinguish author's
+            metanarrative from the translation.</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <list>
+        <item>
+          <date when="2012-05-12">12 May 2012</date> Updated by Joel Kalvesmaki</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name>CPG2431-eng-Dysinger.TAN-TEI.xml</name>
+    <name xml:lang="eng">Dysinger's translation of the Gnostikos</name>
+      <rights-excluding-sources rights-holder="kalvesmaki">
+      <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+      <name>Exclusive of rights held and licenses offered by rightsholders of the source or
+        sources listed below, this data file, insofar as it constitutes an independent work, is
+        licensed under a Creative Commons Attribution 4.0 International License.</name>
+    </rights-excluding-sources>
+    <source>
+      <IRI>tag:kalvesmaki.com,2014:external_Evagrius_Gnostikos_eng_Dysinger</IRI>
+      <name>Dysinger's online translation</name>
+      <location when-accessed="2013-04-13"
+        >http://www.ldysinger.com/Evagrius/02_Gno-Keph/00a_start.htm</location>
+    </source>
+    <declarations>
+      <work>
+        <IRI>tag:kalvesmaki.com,2014:cpg2431</IRI>
+        <name xml:lang="eng">The Gnostikos, written by Evagrius Ponticus</name>
+      </work>
+      <div-type xml:id="title">
+        <IRI>http://dbpedia.org/resource/Title_(publishing)</IRI>
+        <name xml:lang="eng">title</name>
+      </div-type>
+      <div-type xml:id="chapter">
+        <IRI>http://dbpedia.org/resource/Chapter_(books)</IRI>
+        <name xml:lang="eng">chapter</name>
+        <name xml:lang="grc">κεφάλαιον</name>
+      </div-type>
+      <recommended-tokenization which="general-1"/>
+      <filter>
+        <normalization>
+          <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
+          <name>Small caps removed.</name>
+        </normalization>
+        <normalization>
+          <IRI>tag:kalvesmaki.com,2014:normalization-color-off</IRI>
+          <name>Color removed.</name>
+        </normalization>
+        <normalization>
+          <IRI>tag:kalvesmaki.com,2014:normalization-italics-off</IRI>
+          <name>Italics removed.</name>
+        </normalization>
+        <normalization>
+          <IRI>tag:kalvesmaki.com,2014:normalization-xrefs-off</IRI>
+          <name>Translator's references to other primary sources removed.</name>
+        </normalization>
+        <normalization>
+          <IRI>tag:kalvesmaki.com,2014:normalization-character-del:U+0308</IRI>
+          <name>Removed stray U+0308 COMBINING DIAERESIS</name>
+        </normalization>
+      </filter>
+    </declarations>
+    <agent xml:id="kalvesmaki" roles="editor">
+      <IRI>http://viaf.org/viaf/299582703</IRI>
+      <IRI>tag:kalvesmaki.com,2014:self</IRI>
+      <name xml:lang="eng">Joel Kalvesmaki</name>
+    </agent>
+    <role xml:id="editor">
+      <IRI>http://schema.org/editor</IRI>
+      <name xml:lang="eng">Editor</name>
+    </role>
+    <change when="2014-10-29" who="kalvesmaki">Started TAN-TEI file.</change>
+    <comment when="2014-10-29" who="kalvesmaki">From the source: 
+      Translation by Luke Dysinger, O.S.B. (translation in public domain). Greek
+      fragments from: [1] Socrates’ Ecclesiastical History, [2] Guillaumont; [3] retroversion
+      from Syriac by Frankenberg[1]Evagrius’ Gnostikos does not
+        survive as a complete text in the original Greek. Fragments have been gleaned from a
+        variety of sources, chiefly Socrates’ Ecclesiastical History. The following is based on
+        these, as well as Frankenberg’s Greek retroversion from a Syriac MS: “Frb.”: Evagrius
+        Ponticus, Abhandlungen der königlichen Gesellschaft der Wissenschaften zu Göttingen,
+        Phil.-hist. Klasse, Neue Folge, vol. 13, no. 2 (Berlin, 1912). Frankenberg's MS is
+        designated S1 in. A. &amp; C. Guillaumont, Évagre le Pontique, Le Gnostique ou A celui
+        qui est devenu digne de la science, Sources Chrétiennes nº 356, (Paris, 1989)
+        88-193.</comment>
+  </head>
+  <text>
+    <body xml:lang="eng">
+      <div type="title" n="1">
+        <p>The Gnostikos [Knower], or  One Who is Worthy of Knowledge</p>
+      </div>
+      <div type="chapter" n="2">
+        <p>2. The ascetic is one who is concerned solely with the achievement of perfect freedom in
+          the portion of the soul subject to compulsions. </p>
+      </div>
+      <div type="chapter" n="3">
+        <p>3. But the Knower [gnostikos] has the significance [logos] of salt for the impure and
+          light for the pure. (cf. Mt 5:13-14) </p>
+      </div>
+      <div type="chapter" n="1">
+        <p>1. The ascetics will understand the deep purposes of asceticism; the knowers (gnostikoi)
+          will behold matters of knowledge. </p>
+      </div>
+      <div type="chapter" n="4">
+        <p>4. The knowledge that reaches us from external [things] tries by means of the logoi to
+          indirectly teach material [things]. However the [knowledge] which by God’s grace is innate
+          [within us] directly presents matters to the mind; and in beholding them, the nous
+          welcomes their logoi. </p>
+        <p>And opposing the first is &lt;error; against the second is&gt; anger and indignation
+          &lt;and what flows from them&gt;. </p>
+      </div>
+      <div type="chapter" n="5">
+        <p>5. All virtues clear the road before the Knower; but superior to all other [virtues] is
+          freedom from anger. Indeed, one who has touched knowledge yet is easily moved to anger is
+          like a man who pierces himself in the eyes with a metal stylus. </p>
+      </div>
+      <div type="chapter" n="6">
+        <p>6. The Knower can remain secure in going down among [the brethren] because he does not
+          make a habit of going down among [them]. </p>
+        <p>Additionally, he strives to practice all the virtues, equally, continuously, and in
+          proper order; for there is an orderly sequence among them and within himself; for the
+          intellect is naturally betrayed by that which is weakest. </p>
+      </div>
+      <div type="chapter" n="7">
+        <p>7. The Knower will at all times practice almsgiving and be ready to do good. And, if he
+          lacks money, he will shake the branches of his soul. </p>
+        <p>Because in all things it is his nature to do good by means of money. This is what was not
+          done by the five virgins whose lamps went out. </p>
+      </div>
+      <div type="chapter" n="8">
+        <p>8. It is shameful for the knower to be involved in a lawsuit, whether as plaintiff or
+          defendant: if as plaintiff, [it is shameful] because he will not have endured patiently;
+          if as defendent, because he he will have acted unjustly. </p>
+      </div>
+      <div type="chapter" n="9">
+        <p>9. Knowledge, when it is preserved, teaches the one who possesses it how it may be
+          safeguarded and progressively increased. </p>
+      </div>
+      <div type="chapter" n="10">
+        <p>10. If only the Knower could, at the time when he interprets the Scriptures, be free from
+          anger, hatred, sadness, bodily suffering and anxieties! </p>
+      </div>
+      <div type="chapter" n="11">
+        <p>11. Avoid, before becoming perfected, meeting many people or frequenting them overmuch,
+          lest your intellect be filled with images. </p>
+      </div>
+      <div type="chapter" n="12">
+        <p>12. Those things among what relates to praktike, physike, and theologike that are useful
+          for our salvation, [we are] invited to speak about and to perform unto death. But those
+          things that are indifferent it is not necessary to speak about or to perform, because of
+          those who are easily scandalized. </p>
+      </div>
+      <div type="chapter" n="13">
+        <p>13. It is proper for the knower to speak to monks and seculars concerning a proper way of
+          life, as well as to explain in part doctrines concerning physike and theologike "without
+          which no one will see the Lord." (Heb 12:14) </p>
+      </div>
+      <div type="chapter" n="14">
+        <p>14. To priests alone, [and only to those who are among the best, reply if they question
+          you what is symbolized by the mysteries they perform and which purify the interior man:
+          the vessels which they receive designate the passionate part of the soul and the rational
+          part; concerning their inseparable mixture, the power of each, and the accomplishing of
+          the activities of each in view of a single purpose. </p>
+        <p>And tell them, too, who is the symbol of that which perfects them, and who they are who,
+          with him, repel those that those who erect obstacle[s] to pure conduct; and, among living
+          beings, who have the memory and some do not. </p>
+      </div>
+      <div type="chapter" n="15">
+        <p>15. Learn to know the logoi and the laws of circumstances ["fitting times"], [ways of]
+          life, and occupations, so that you can easily tell each what is useful for him. </p>
+      </div>
+      <div type="chapter" n="16">
+        <p>16. It is necessary that you have the matter for the explanation of what is said, and
+          that you embrace everything, even if a part escapes you. For it is indeed proper to an
+          angel that nothing of what is upon the earth escapes it. </p>
+      </div>
+      <div type="chapter" n="17">
+        <p>17. It is necessary also to know the definitions of things, especially those of the
+          virtues and vices; this, indeed, is the source [and the beginning] of knowledge and
+          ignorance, of the kingdom of heaven and of torment. </p>
+      </div>
+      <div type="chapter" n="18">
+        <p>18. It is necessary to search, therefore, concerning allegorical and literal passages
+          relevant to the praktike, physike, and theologike. </p>
+        <p> [1] If it is relevant to the praktike it is necessary to examine whether it treats </p>
+        <p> [1a] of thumos and what comes from it, </p>
+        <p> [1b] or rather of epithumia and what follows it, </p>
+        <p> [1c] or again of the nous and its movements. </p>
+        <p> [2] If it is pertains to the physike, it is necessary to note whether it makes known one
+          of the doctrines concerning nature, and which one. </p>
+        <p> [3] And if it is an allegorical passage concerning theologike it is necessary to examine
+          as far as possible whether it provides information on the Trinity and whether it is seen
+          [in its] simplicity or seen as The Unity. But if it is none of these, then it is a simple
+          contemplationor perhaps makes known a prophecy </p>
+      </div>
+      <div type="chapter" n="19">
+        <p>19. It is good to know also the customary [terminology] of the sacred Scriptures, and to
+          establish them as far as possible by means of proofs. </p>
+      </div>
+      <div type="chapter" n="20">
+        <p>20. It is necessary to know this: that all texts of an ethical character do not comprise
+          a contemplation of an ethical character; no more does a text concerning nature [comprise]
+          a contemplation on nature; but such as is of an ethical character comprises a
+          contemplation of nature; and such as treat of nature comprise a contemplation of ethics,
+          and the same for theology. </p>
+        <p>What is said, in effect, of the fornication and the adultery of Jerusalem, [cf. Ez.
+          16:15-34] the animals of dry land and waters, and the birds, the clean and the unclean,
+          [cf. Lev.11:2-19] the sun that "rises, sets, and returns to its place," [cf. Eccl.1:5]
+          relate : </p>
+        <p>in the first place to theology; </p>
+        <p>in the second place to ethics; </p>
+        <p>and in the third place to physics. </p>
+        <p>Now the first text relates to ethics and the two others to physics. </p>
+      </div>
+      <div type="chapter" n="21">
+        <p>21. Do not allegorize the words of blameworthy persons and do not seek anything spiritual
+          in them, unless through his divine plan God has acted [through them], as in the cases of
+          Balaam (cf. Num 24: 17-19) and Kaiphas: (cf. Jn 11:49-51) for the former predicted the
+          birth, and the second the death of the Savior. </p>
+      </div>
+      <div type="chapter" n="22">
+        <p>22. It is necessary that the Knower be neither gloomy nor intimidating. For the first is
+          ignorance of the logoi of things which have come into existence; the second is not
+          desiring "that all men be saved and come to Knowledge of the truth." (1Tim 2.4) </p>
+      </div>
+      <div type="chapter" n="23">
+        <p>23. It is necessary sometimes to feign ignorance because those who question are not
+          worthy of an answer: and [in this] you will be truthful, since you are linked to a body
+          and you [thus] do not yet possess complete knowledge. </p>
+      </div>
+      <div type="chapter" n="24">
+        <p>24. Take care that you never, for the sake of profit, well-being, or fleeting glory, talk
+          about those things which should not be revealed, and [thus] be cast out of the sacred
+          precincts, like those selling the pigeon chicks in the temple. (cf. Mt 21, 12-13). </p>
+      </div>
+      <div type="chapter" n="25">
+        <p>25. [Concerning] those who dispute without having Knowledge: it is necessary to make them
+          approach the truth by proceeding not from the end, but from the beginning; and it is not
+          necessary for gnostikoi to tell the young anything, nor to let them touch books of this
+          sort, for they are not able to resist the falls that this contemplation entails. That is
+          why, to those who are still besieged by passions it is necessary to speak not words of
+          peace, but how they will triumph over their adversaries: indeed, as Ecclesiastes says,
+          "there is no discharge [from service] on the day of battle."(Eccl. 8:8) Those, therefore,
+          who are still afflicted with the passions and who peer into the logoi of bodies and
+          incorporeal [beings] resemble invalids who [carry on] discuss[ions] concerning health. For
+          it is when the soul is [only] with difficulty shaken by the passions that it is invited to
+          taste these sweet rays of honey. </p>
+      </div>
+      <div type="chapter" n="26">
+        <p>26. These [should] not be the same occasions: - [1] that of explication and [2] that of
+          [investigative] discussion. And it is necessary to reprimand those who prematurely raise
+          objections; for this is indeed the habit of heretics and those who [enjoy] controversy.
+        </p>
+      </div>
+      <div type="chapter" n="27">
+        <p>27. Do not, without [careful] consideration, speak about God [in Himself]; nor should you
+          ever define the Deity: for it is only of {things which are made or} are composite that
+          there can be definitions. </p>
+      </div>
+      <div type="chapter" n="28">
+        <p>28. Hold in your mind the five causes of abandonment, so that you may perceive the [kinds
+          of] faint-heartedness which are destroyed by affliction. </p>
+        <p> [1] Indeed, abandonment reveals virtue which is hidden. </p>
+        <p> [2] When the former has been neglected, it reestablishes it through punishment. </p>
+        <p> [3] And it becomes the cause of salvation for others. </p>
+        <p> [4] And when virtue has become preeminent, it teaches humility to those who posses it
+          [only] in part. </p>
+        <p> [5] Indeed, he hates the evil which is the cause of the experience. Now experience is
+          the offspring of abandonment, and this abandonment is the daughter of apatheia. <note
+            place="below">[Guil rtrv. 136]¨{ γενικοὶ ἐγκαταλείψεων τρόποι . . . ὅτι μιδεῖ κακίαν ὁ
+            πειραθεὶς κακίαν, πεῖρα δὲ τῆς ἐγκαταλείψεως ἔγγονος ιν Μαχ Ξονφ;} βυτ ηερε προβ; αἰτίαι
+            - εἴδη [1 137] διὰ κεκρυμμένην ἀρετήν, ἵνα φανερωθῃ, . . .[2 138] πρὸς δοκιμήν . . .πρὸς
+            κόλασιν;</note>
+        </p>
+      </div>
+      <div type="chapter" n="29">
+        <p>29. Those you teach are saying to you always: "[Friend], go up higher!" (Lk. 14:10). It
+          would, indeed, be shameful (cf. Lk 14:9) having [once] ascended, for you to be brought
+          down again by your hearers. </p>
+      </div>
+      <div type="chapter" n="30">
+        <p>30. Avarice lies not in possessing money, but in longing for it. The steward is said to
+          be a reasoning purse. </p>
+      </div>
+      <div type="chapter" n="31">
+        <p>31. Exhort the elders to mastery of anger and the young to mastery of the stomach. For
+          against the former strive the demons of the soul, and against the latter, for the most
+          part, those of the body. </p>
+      </div>
+      <div type="chapter" n="32">
+        <p>32. Close your mouth to those who slander in your hearing; and do not be amazed when you
+          are accused by many, for this is a temptation from the demons. For it is necessary for the
+          gnostikos to be free from hatred and memory of evil, even when this is not what he wants.
+        </p>
+      </div>
+      <div type="chapter" n="33">
+        <p>33. [Although] unaware of it, he is himself cured - the one healing others through the
+          Lord. For the medicine which the gnostikos applies cures his neighbor insofar as it can,
+          but [it cures] him of necessity. </p>
+      </div>
+      <div type="chapter" n="34">
+        <p>34. You must not interpret spiritually everything that lends itself to allegory, but
+          rather only that which is fitting to the subject; because if you do not act thus, you pass
+          much time on Jonas’ boat, explaining every part of its equipment. And you will be humorous
+          to your listeners, rather than useful to them: all of these sitting around you will remind
+          you of this or that equipment, and by laughing [they] will remind you of what you have
+          forgotten. <note place="below">[Guil retrv.152-153]¨...πάντα οἷα ἀλληγορίαν ἐπιδέχεσθαί
+            ἐστι ... πρᾶγμα ...τῶν σκευῶν τῶν ἐν τῷ πλοίῳ</note>
+        </p>
+      </div>
+      <div type="chapter" n="35">
+        <p>35. Invite the monks who come to you to speak concerning ethics, but not concerning
+          doctrine, unless there are found some who could be devoted to these matters. <note
+            place="below">[Guil retrv..154-155] ... παρακάλει ... περὶ ἠθικῆς ... περὶ τῶν δογμάτων
+            ... ὕλαι</note>
+        </p>
+      </div>
+      <div type="chapter" n="36">
+        <p>36. [You must] keep hidden from seculars and from the young the exalted logoi concerning
+          judgement, for this easily engenders [their] contempt: for they do not understand the
+          suffering of the reasoning soul condemned to ignorance. </p>
+      </div>
+      <div type="chapter" n="37">
+        <p>37. St. Paul afflicted his body, reducing it to servitude (cf. ICor. 9:27): you,
+          therefore, must not neglect your diet throughout your life; and do not { humiliate }
+          apatheia with a thickened body. </p>
+      </div>
+      <div type="chapter" n="38">
+        <p>38. Do not worry about food or garments: remember rather Abner the Levite, who after
+          receiving the Ark of the Lord became rich out of poverty, and renowned out of ["after
+          being held in"] contempt. </p>
+      </div>
+      <div type="chapter" n="39">
+        <p>39. A Bitter accuser of the gnostikos is his own conscience, and he cannot hide anything
+          from it because it [sees] into the [secret] knowledge of the heart. </p>
+      </div>
+      <div type="chapter" n="40">
+        <p>40. Be on your guard with regard to the fact that for each created thing there is not
+          only a single logos, but a large number, according to the measure of each one. For the
+          holy powers attain to the true logoi of the objects, but not unto the first, that which is
+          known solely by Christ. </p>
+      </div>
+      <div type="chapter" n="41">
+        <p>41. Every proposition has a predicate or a genus, or a distinction, or a species, or a
+          property, or an accident, or that which is composed of these things. But on the subject of
+          the Blessed Trinity, nothing of what has been said [here] is admissible. In silence let
+          the ineffable be adored! </p>
+      </div>
+      <div type="chapter" n="42">
+        <p>42. The temptation of the Knower is a spurious conjecture which presents itself to the
+          intellect either as [really] existing { when it does not exist, as not existing when it
+          does exist, or as existing } in some manner which it is not. </p>
+      </div>
+      <div type="chapter" n="43">
+        <p>43. The sin of the gnostikos is false knowledge concerning matters themselves or their
+          contemplations, which is caused by some passion or because this is not in sight of the
+          good that is being [investigatively] discussed. <note place="below">[Guil retrv..170-171]
+            ἁμαρτία γνωστικοῦ . . . γνῶσις ψευδὴς αὐτῶν τῶν πραγμάτων ἢ τῆς θεωρίας αὐτῶν . . .
+            τὴν ζήτησιν[29] ποιεῖσθα</note>
+        </p>
+      </div>
+      <div type="chapter" n="44">
+        <p>44. There are four virtues necessary for contemplation, according to the teaching of the
+          just Gregory: prudence, courage, temperance, and justice.</p>
+        <p> (1) The work of prudence, it is said, is the contemplation of the holy and intelligent
+          powers apart from their logoi; for this latter belongs to wisdom alone, according to the
+          tradition we have received. </p>
+        <p> (2) Courage is steadfast perseverance in the truth, even to the point of combat, as well
+          as refraining from entry into that which has no existence. </p>
+        <p> (3) The reception of the first sower’s seed and the rejection of what is sown
+          secondarily - this is the proper work of continence, according to [Gregory’s] explanation. </p>
+        <p> (4) Justice’s task is to give to each, according to his worth, a word: that is,
+          proclaiming some things darkly; using parables to make other things known; and clearly
+          explaining still others for the benefit of the simple. </p>
+      </div>
+      <div type="chapter" n="45">
+        <p>45. That column of truth, the Cappadocian Basil has said: the Knowledge which comes from
+          men is strengthened by careful meditation and diligent exercise; however the [knowledge]
+          that by God’s grace has come to be within us [is strengthened] by justice, by the refusal
+          to indulge anger, and by compassion. The first [Knowledge] can be received by those still
+          subject to passion; the second [Knowledge] is received only by those [who have achieved]
+          apatheia - those who are also able at the time of prayer to contemplate the illuminating
+          gentle radiance proper to their nous. </p>
+      </div>
+      <div type="chapter" n="46">
+        <p>46. The holy luminary of Egypt, Athanasius, said: "Moses received the command to place
+          the table standing towards the North. The Knowers must know which [temptation] blows
+          against them: and they are to stand firm against all species of temptation; and with eager
+          zeal feed those who appear. </p>
+      </div>
+      <div type="chapter" n="47">
+        <p>47. IT was said by the angel of the church of Thumis, Serapion, that the intellect by
+          drinking spiritual knowledge is perfectly purified; Charity heals the burning parts of the
+          irascible self The flux of evil desiring is stanched by self-control. </p>
+      </div>
+      <div type="chapter" n="48">
+        <p>48. "Exercise yourself continuously in the logoi of providence and judgment," said the
+          great Knower and teacher Didymus, "and strive to bear in your memory their material
+          [expressions]: for nearly all are brought to stumbling through this. And you will discover
+          the logoi of judgment in the diversity of bodies and worlds, and those of providence in
+          the means by which we return from vice and ignorance to virtue or to knowledge." </p>
+      </div>
+      <div type="chapter" n="49">
+        <p>49. The goal of the praktike is to purify the intellect and to render it free of
+          passions; that of the gnostike is to reveal the truth hidden in all beings; but to
+          distance the intellect from matter and to turn it towards the First Cause - this is a gift
+          of theology. <note place="below">[Guil rtrv.190-191] ... τὴν ἀλήθειαν κεκρυμμένην ἐν πᾶσι
+            τοῖς γεγονόσιν . . . τὸ ἀφίστασθαι τὸν νοῦν ἀπὸ τῶν ὑλῶν καὶ τρέπεσθαι πρὸς . . .πρὸς
+            τὴν πρώτην αἰτίαν . . . θεολογική [θεολογία]</note>
+        </p>
+      </div>
+      <div type="chapter" n="50">
+        <p>50. Gazing fixedly upon the archetype, I strive to engrave the images without neglecting
+          anything which might accomplish the gaining [back] of the fallen-away. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

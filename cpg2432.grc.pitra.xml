@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Pitra.TAN-TEI.001"
+  xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+  xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ἑξακόσια προγνωστικὰ προβλήματα</title>
+        <author>Evagrius Ponticus</author>
+        <respStmt>
+          <resp>edited by</resp>
+          <persName><forename>Jean-Baptiste</forename>
+            <surname>Pitra</surname></persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl><persName><surname>Pitra</surname>, <persName>Jean-Baptiste</persName></persName>.
+              <title>Analecta sacra spicilegio Solesmensi parata</title>. Paris: A. Jouby et Roger,
+              <date>1876</date>. </bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Transcribed February 2013 by <persName>Joel Kalvesmaki</persName>, corrected against copy
+          secured through Google Books.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
+          Footnotes, apparatus, translation, etc. have been omitted.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <correction>
+          <p>No corrections were found to be needed.</p>
+        </correction>
+        <normalization>
+          <p>Transcription should reflect the original.</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Fragments of the Kephalaia Gnostika from Pitra's edition of the scholia on
+      the Psalms</name>
+      <rights-excluding-sources rights-holder="kalvesmaki">
+      <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+      <name>Exclusive of rights held and licenses offered by rightsholders of the source or sources
+        listed below, this data file, insofar as it constitutes an independent work, is licensed
+        under a Creative Commons Attribution 4.0 International License.</name>
+    </rights-excluding-sources>
+    <source>
+      <IRI>http://www.worldcat.org/oclc/20553841</IRI>
+      <name>Analecta sacra spicilegio Solesmensi parata / J B Pitra 1876-1891</name>
+    </source>
+    <declarations>
+      <work>
+        <IRI>tag:kalvesmaki.com,2014:cpg2432</IRI>
+        <name xml:lang="eng">The Kephalaia Gnostika, written by Evagrius Ponticus</name>
+      </work>
+      <div-type xml:id="century">
+        <IRI>tag:kalvesmaki.com,2014:div-type-century</IRI>
+        <name xml:lang="eng">century</name>
+      </div-type>
+      <div-type xml:id="chapter">
+        <IRI>http://dbpedia.org/resource/Chapter_(books)</IRI>
+        <name xml:lang="eng">chapter</name>
+        <name xml:lang="grc">κεφάλαιον</name>
+      </div-type>
+      <recommended-tokenization which="general-words-only-1"/>
+      <filter/>
+    </declarations>
+    <agent xml:id="kalvesmaki" roles="editor provider">
+      <IRI>http://viaf.org/viaf/299582703</IRI>
+      <IRI>tag:kalvesmaki.com,2014:self</IRI>
+      <name xml:lang="eng">Joel Kalvesmaki</name>
+    </agent>
+    <role xml:id="provider">
+      <IRI>http://schema.org/provider</IRI>
+      <name xml:lang="eng">Provider</name>
+    </role>
+    <role xml:id="editor">
+      <IRI>http://schema.org/editor</IRI>
+      <name xml:lang="eng">Editor</name>
+    </role>
+    <change when="2014-10-31" who="kalvesmaki">Started TAN-TEI file.</change>
+  </head>
+  <text>
+    <body xml:lang="grc">
+      <div type="century" n="IV">
+        <div type="chapter" n="21">
+          <pb n="3:40"/>
+          <p><desc>Sch. 7 on Ps. 44.82-3</desc> Ἢ πᾶσα δύναμις τῶν οὐρανῶν τῇ <lb/>τῶν γεγονότων
+            κέχρισται θεωρίᾳ. Ὁ δὲ Χρισ-<lb break="no"/>τὸς παρὰ πάντας κέχρηται καὶ μετόχους
+            <lb/>αὐτοὐ, δηλονότι τῇ τῆς μονάδος κέχρισται <pb n="3:41"/> γνώσει. Διὸ καὶ μόνος
+            λέγεται ἐν δεξιᾷ κα-<lb break="no"/>θέζεσθαι τοῦ Πατρὸς Χριστός. Χριστὸν δέ <lb/>φημι,
+            τὸν μετὰ Θεοῦ Λόγον, ἐπιδημήσαντα <lb/>Κύριον.</p>
+        </div>
+      </div>
+      <div type="century" n="V">
+        <div type="chapter" n="82">
+          <pb n="3:52"/>
+          <p><desc>Sch. 6 on Ps. 50.20</desc> Τὰ τείχη Ἱερουσαλὴμ τὴν ἀπάθειαν ση-<lb break="no"
+            />μαίνει τῆς ψυχῆς, ἥντινα διαφθείραντες οἱ <pb n="3:53"/> δαίμονες, τὰ τῆς μοιχείας
+            πάθη εἰσένεγκαν· </p>
+        </div>
+      </div>
+      <div type="century" n="I">
+        <div type="chapter" n="70">
+          <pb n="3:96"/>
+          <p><desc>Sch. 15 on Ps. 72.23</desc> Μετὰ θεοῦ λέγεται εἶναι, πρῶτος μὲν ὁ <lb/>τὴν ἁγίαν
+            γινώσκων Τριάδα, καὶ μετ’ αὐτὸν, <lb/>ὁ τοὺς λόγους τοὺς περὶ τῶν νοητῶν θεω-<lb
+              break="no"/>ρῶν· τρίτος δὲ πάλιν ὁ καὶ αὐτὰ τὰ ἀσώματα <lb/>βλέπων· καὶ πάλιν τέταρτος
+            ὁ τὴν θεωρίαν <lb/>ἐπιστάμενος τῶν αἰώνων· ὁ δὲ τὴν τῆς ψυ-<lb break="no"/>χῆς ἀπάθειαν
+            κεκτημένος, πέμπτος ἂν τού-<lb break="no"/>τοις συγκαταχθείη δικαίως.</p>
+        </div>
+      </div>
+      <div type="century" n="V">
+        <div type="chapter" n="70">
+          <pb n="3:131"/>
+          <p><desc>Sch. 2 on Ps. 78.7</desc> Τόπος γνώσεως Θεοῦ καὶ νοῦς.</p>
+        </div>
+        <div type="chapter" n="49">
+          <pb n="3:138"/>
+          <p><desc>Sch. 4 on Ps. 80.10</desc> Πρόσφατός εστι θεὸς, ὁ μηδὲν οὐσιῶσαι <lb/>δυνάμενος,
+            ἢ ὁ τῇ κακίᾳ πεποιημένος, καὶ <lb/>παρὰ τοῖς ἔθνεσι νενομισμένος.</p>
+        </div>
+      </div>
+      <div type="century" n="VI">
+        <div type="chapter" n="49">
+          <pb n="3:143"/>
+          <p><desc>Sch. 1 on Ps. 83.3</desc> εἰς τὸν ναὸν τοῦ Θεοῦ, ὅστις ἐστιν ἡ θεωρία <lb/>τῶν
+            ἀσωμάτων.</p>
+        </div>
+      </div>
+      <div type="century" n="I">
+        <div type="chapter" n="36">
+          <pb n="3:234"/>
+          <p><desc>Sch. 6 on Ps. 113.13</desc> Οὐ ταὐτὸν αἴσθησις καὶ αἰσθητήριον, οὐ-<lb break="no"
+            />δἐ αἰσθητηκόν τε καὶ αἰσθητόν· Αἴσθησις <lb/>μὲν γάρ ἐστιν ἡ δύναμις καθ’ ἣν εἰώθαμεν
+            <lb/>ἀντιλαμβάνεσθαι τῶν ὑλῶν. Αἰσθητήριον δὲ, <lb/>τὸ ὄργανον ἐν ᾧ καθίδρυται αὕτη·
+              Αἰσθητι-<lb break="no"/>κὸν δὲ τὸ ζῶον τὸ κεκτημένον τὰς αἰσθή-<lb break="no"/>σεις·
+            Αἰσθητὸν δὲ τὸ πεφυσικὸς ταῖς αἰσθή-<lb break="no"/>σεσιν ὑποπίπτειν. Ἀλλ’ οὐχ οὕτως ἐπὶ
+            τῶν <lb/>εἰδώλων· πάντων μὲν γὰρ τούτων ἐστήρην-<lb break="no"/>ται· μόνα δὲ ἔχει τὰ τῶν
+            φυσικῶν αἰσθητη-<lb break="no"/>ρίων μιμήματα, οἷον ὀφθαλμοὺς καὶ ὦτα <lb/>καὶ ῥῖνας καὶ
+            τὰ ἑξῆς.</p>
+        </div>
+      </div>
+      <div type="century" n="V">
+        <div type="chapter" n="48">
+          <pb n="3:330"/>
+          <p><desc>Sch. 2 on Ps. 131.7</desc> Προσκυνοῦμεν <lb/>τὴν σάρκα τοῦ σωτῆρος [οὐ] διὰ τὴν
+            φύσιν, <lb/>ἀλλ' ἐπειδὴ ὁ Χριστός ἐστιν ἐν αὐτῇ· καὶ ἡ <lb/>μὲν σὰρξ προσκυνητὴ διὰ τὸν
+            Θεὸν Λόγον, τὸν ἐν αὐτῇ.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
