@@ -81,10 +81,12 @@
     </source>
     <declarations>
       <work>
+        <IRI>tag:evagriusponticus.net,2015:cpg2431</IRI>
         <IRI>tag:kalvesmaki.com,2014:cpg2431</IRI>
         <name xml:lang="eng">The Gnostikos, written by Evagrius Ponticus</name>
       </work>
       <version>
+        <IRI>tag:evagriusponticus.net,2015:cpg2431,syr_BL_Add._14578</IRI>
         <IRI>tag:kalvesmaki.com,2014:cpg2431,syr_BL_Add._14578</IRI>
         <name>Frankenberg's transcription of the Syriac</name>
       </version>

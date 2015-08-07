@@ -102,10 +102,12 @@
     </see-also>
     <declarations>
       <work>
+        <IRI>tag:evagriusponticus.net,2015:cpg2431</IRI>
         <IRI>tag:kalvesmaki.com,2014:cpg2431</IRI>
         <name xml:lang="eng">The Gnostikos, written by Evagrius Ponticus</name>
       </work>
       <version>
+        <IRI>tag:evagriusponticus.net,2015:cpg2430,grc-1989</IRI>
         <IRI>tag:kalvesmaki.com,2014:cpg2430,grc-1989</IRI>
         <name xml:lang="eng">The Guillamonts' ancient Greek edition of the Gnostikos</name>
       </version>
@@ -132,11 +134,6 @@
       <IRI>http://viaf.org/viaf/299582703</IRI>
       <IRI>tag:kalvesmaki.com,2014:self</IRI>
       <name xml:lang="eng">Joel Kalvesmaki</name>
-    </agent>
-    <agent xml:id="example" roles="editor">
-      <IRI>http://viaf.org/viaf/example</IRI>
-      <IRI>http://example.org/24929</IRI>
-      <name xml:lang="eng">Example Contributor</name>
     </agent>
     <role xml:id="editor">
       <IRI>http://schema.org/editor</IRI>

@@ -83,10 +83,12 @@
     </source>
     <declarations>
       <work>
+        <IRI>tag:evagriusponticus.net,2015:cpg2431</IRI>
         <IRI>tag:kalvesmaki.com,2014:cpg2431</IRI>
         <name xml:lang="eng">The Gnostikos, written by Evagrius Ponticus</name>
       </work>
       <version>
+        <IRI>tag:evagriusponticus.net,2015:cpg2431,grc1912</IRI>
         <IRI>tag:kalvesmaki.com,2014:cpg2431,grc1912</IRI>
         <name>Frankenberg's Greek retroversion</name>
       </version>

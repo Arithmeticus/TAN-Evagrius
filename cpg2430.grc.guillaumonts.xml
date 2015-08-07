@@ -22,6 +22,7 @@
       <name>CPG2430-grc-Guillaumonts.TAN-TEI.xml</name>
       <name xml:lang="eng">Guillaumonts' Greek edition of the Praktikos of Evagrios Pontikos,
          prepared for the Text Alignment Protocol</name>
+      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430.grc.guillaumonts.xml</master-location>
       <rights-excluding-sources rights-holder="kalvesmaki">
          <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
          <name>Exclusive of rights held and licenses offered by rightsholders of the source or
@@ -49,11 +50,13 @@
       <declarations>
          <work>
             <IRI>http://dbpedia.org/resource/Praktikos</IRI>
-            <IRI>tag:kalvesmaki.com,2014:cpg2430</IRI>
+            <IRI>tag:evagriusponticus.net,2015:cpg2430</IRI>
+        <IRI>tag:kalvesmaki.com,2014:cpg2430</IRI>
             <name xml:lang="eng">Evagrius Ponticus, Praktikos</name>
          </work>
          <recommended-tokenization which="general-words-only-1"/>
          <version>
+            <IRI>tag:evagriusponticus.net,2015:cpg2430,grc-1971</IRI>
             <IRI>tag:kalvesmaki.com,2014:cpg2430,grc-1971</IRI>
             <name xml:lang="eng">The Guillamonts' ancient Greek version of the Praktikos</name>
          </version>
@@ -93,26 +96,15 @@
             </replace>
          </filter>
       </declarations>
-      <agent xml:id="kalvesmaki" roles="provider editor">
+      <agent xml:id="kalvesmaki" roles="editor">
          <IRI>http://viaf.org/viaf/299582703</IRI>
          <IRI>tag:kalvesmaki.com,2014:self</IRI>
          <name xml:lang="eng">Joel Kalvesmaki</name>
-      </agent>
-      <agent xml:id="example" roles="editor">
-         <IRI>http://viaf.org/viaf/example</IRI>
-         <IRI>http://example.org/24929</IRI>
-         <name xml:lang="eng">Example Contributor</name>
       </agent>
       <role xml:id="editor">
          <IRI>http://schema.org/editor</IRI>
          <name xml:lang="eng">Editor</name>
       </role>
-      <role xml:id="provider">
-         <IRI>http://schema.org/provider</IRI>
-         <name xml:lang="eng">Provider</name>
-      </role>
-      <agentrole when-from="2013-12-31" when-to="2014-01-21" who="kalvesmaki example"
-         roles="provider"/>
       <change when="2015-05-05" who="kalvesmaki">Removed non-normalized Unicode and falsely
          introduced combining characters</change>
       <change when="2014-08-26" who="kalvesmaki">updated to suit changes in validation
@@ -132,7 +124,7 @@
          by purchasing the full critical edition, through http://www.editionsducerf.fr </comment>
    </head>
    <text>
-      <body xml:lang="grc">
+      <body xml:lang="grc" in-progress="false">
          <div type="preface" n="">
             <div type="title" n="1">
                <pb n="482"/>

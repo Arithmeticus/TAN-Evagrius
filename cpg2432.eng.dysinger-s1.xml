@@ -81,10 +81,12 @@
     </source>
     <declarations>
       <work>
+        <IRI>tag:evagriusponticus.net,2015:cpg2432</IRI>
         <IRI>tag:kalvesmaki.com,2014:cpg2432</IRI>
         <name xml:lang="eng">The Kephalaia Gnostika, written by Evagrius Ponticus</name>
       </work>
       <version>
+        <IRI>tag:evagriusponticus.net,2015:cpg2432,S2-eng-Dysinger</IRI>
         <IRI>tag:kalvesmaki.com,2014:cpg2432#S2-eng-Dysinger</IRI>
         <name>Dysinger's English translation of S2</name>
       </version>

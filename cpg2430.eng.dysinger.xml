@@ -141,7 +141,7 @@
         </normalization>
       </filter>
     </declarations>
-    <agent xml:id="kalvesmaki" roles="provider editor">
+    <agent xml:id="kalvesmaki" roles="editor">
       <IRI>http://viaf.org/viaf/299582703</IRI>
       <IRI>tag:kalvesmaki.com,2014:self</IRI>
       <name xml:lang="eng">Joel Kalvesmaki</name>
@@ -149,10 +149,6 @@
     <role xml:id="editor">
       <IRI>http://schema.org/editor</IRI>
       <name xml:lang="eng">Editor</name>
-    </role>
-    <role xml:id="provider">
-      <IRI>http://schema.org/provider</IRI>
-      <name xml:lang="eng">Provider</name>
     </role>
     <change when="2014-10-15" who="kalvesmaki">Created new TAN-T file.</change>
     <comment when="2014-10-29" who="kalvesmaki">From the source: Translation by Luke Dysinger,
