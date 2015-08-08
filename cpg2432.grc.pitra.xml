@@ -51,7 +51,8 @@
   <head xmlns="tag:textalign.net,2015:ns">
     <name xml:lang="eng">Fragments of the Kephalaia Gnostika from Pitra's edition of the scholia on
       the Psalms</name>
-      <rights-excluding-sources rights-holder="kalvesmaki">
+    <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.grc.pitra.xml</master-location>
+    <rights-excluding-sources rights-holder="kalvesmaki">
       <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
       <name>Exclusive of rights held and licenses offered by rightsholders of the source or sources
         listed below, this data file, insofar as it constitutes an independent work, is licensed
@@ -92,10 +93,12 @@
       <IRI>http://schema.org/editor</IRI>
       <name xml:lang="eng">Editor</name>
     </role>
+    <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
+      release.</change>
     <change when="2014-10-31" who="kalvesmaki">Started TAN-TEI file.</change>
   </head>
   <text>
-    <body xml:lang="grc">
+    <body xml:lang="grc" in-progress="false">
       <div type="century" n="IV">
         <div type="chapter" n="21">
           <pb n="3:40"/>

@@ -4,8 +4,9 @@
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Frankenberg.TAN-TEI.001"
-  xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+  xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,7 +53,7 @@
           available at Archive.org.</p>
       </projectDesc>
       <samplingDecl>
-        <p>Onle the facing Greek retroversion has been transcribed.</p>
+        <p>Only the facing Greek retroversion has been transcribed.</p>
       </samplingDecl>
       <editorialDecl>
         <correction>
@@ -70,7 +71,8 @@
     <name>CPG2430-grc-Frankenberg.TAN-TEI.xml</name>
     <name xml:lang="eng">Frankenberg's Greek retroversion of a Syriac translation of the
       Gnostikos</name>
-      <rights-excluding-sources rights-holder="kalvesmaki">
+    <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2431.grc.frankenberg.tei.xml</master-location>
+    <rights-excluding-sources rights-holder="kalvesmaki">
       <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
       <name>Exclusive of rights held and licenses offered by rightsholders of the source or sources
         listed below, this data file, insofar as it constitutes an independent work, is licensed
@@ -113,10 +115,12 @@
       <IRI>http://schema.org/editor</IRI>
       <name xml:lang="eng">Editor</name>
     </role>
+    <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
+      release.</change>
     <change when="2014-10-29" who="kalvesmaki">Started TAN-TEI file.</change>
   </head>
   <text>
-    <body xml:lang="grc">
+    <body xml:lang="grc" in-progress="false">
       <div type="title" n="1">
         <p>liber gnosticus aus add. 14578 fol. 11bβ—16bα</p>
       </div>

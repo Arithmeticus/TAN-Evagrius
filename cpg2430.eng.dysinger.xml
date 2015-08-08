@@ -71,7 +71,7 @@
   <head xmlns="tag:textalign.net,2015:ns">
     <name>CPG2430-eng-Dysinger.TAN-TEI.xml</name>
     <name xml:lang="eng">Dysinger's English translation of the Praktikos of Evagrios Pontikos,
-      prepared for the Text Alignment Protocol</name>
+      prepared for the Text Alignment Network</name>
     <master-location>cpg2430.eng.dysinger.tei.xml</master-location>
     <rights-excluding-sources rights-holder="kalvesmaki">
       <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
@@ -92,11 +92,13 @@
     <declarations>
       <work>
         <IRI>http://dbpedia.org/resource/Praktikos</IRI>
-        <IRI>tag:kalvesmaki.com,2014:cpg2040</IRI>
+        <IRI>tag:evagriusponticus.net,2015:cpg2430</IRI>
+        <IRI>tag:kalvesmaki.com,2014:cpg2430</IRI>
         <name xml:lang="eng">The Praktikos, written by Evagrius Ponticus</name>
       </work>
       <version>
-        <IRI>tag:kalvesmaki.com,2014:cpg2040,eng-1997</IRI>
+        <IRI>tag:evagriusponticus.net,2015:cpg2430,eng-1997</IRI>
+        <IRI>tag:kalvesmaki.com,2014:cpg2430,eng-1997</IRI>
         <name xml:lang="eng">Fr. Luke Dysinger's translation of the ancient Greek version of the
           Praktikos</name>
       </version>
@@ -150,6 +152,8 @@
       <IRI>http://schema.org/editor</IRI>
       <name xml:lang="eng">Editor</name>
     </role>
+    <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
+      release.</change>
     <change when="2014-10-15" who="kalvesmaki">Created new TAN-T file.</change>
     <comment when="2014-10-29" who="kalvesmaki">From the source: Translation by Luke Dysinger,
       O.S.B. (translation in public domain) Greek text based on: Sources Chrétiennes N° 171;&amp; PG

@@ -67,6 +67,7 @@
   </teiHeader>
   <head xmlns="tag:textalign.net,2015:ns">
     <name xml:lang="eng">Dysinger's translation of the Kephalaia Gnostika, Syriac S2</name>
+    <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.eng.dysinger-s1.xml</master-location>
     <rights-excluding-sources rights-holder="kalvesmaki">
       <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
       <name>Exclusive of rights held and licenses offered by rightsholders of the source or sources
@@ -184,7 +185,7 @@
       59-85. </comment>
   </head>
   <text>
-    <body xml:lang="eng">
+    <body xml:lang="eng" in-progress="false">
       <div type="century" n="I">
         <div type="chapter" n="29">
           <p n="S1">[S1:</p>

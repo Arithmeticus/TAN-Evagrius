@@ -21,7 +21,7 @@
    <head xmlns="tag:textalign.net,2015:ns">
       <name>CPG2430-grc-Guillaumonts.TAN-TEI.xml</name>
       <name xml:lang="eng">Guillaumonts' Greek edition of the Praktikos of Evagrios Pontikos,
-         prepared for the Text Alignment Protocol</name>
+         prepared for the Text Alignment Network</name>
       <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430.grc.guillaumonts.xml</master-location>
       <rights-excluding-sources rights-holder="kalvesmaki">
          <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
@@ -51,7 +51,7 @@
          <work>
             <IRI>http://dbpedia.org/resource/Praktikos</IRI>
             <IRI>tag:evagriusponticus.net,2015:cpg2430</IRI>
-        <IRI>tag:kalvesmaki.com,2014:cpg2430</IRI>
+            <IRI>tag:kalvesmaki.com,2014:cpg2430</IRI>
             <name xml:lang="eng">Evagrius Ponticus, Praktikos</name>
          </work>
          <recommended-tokenization which="general-words-only-1"/>
@@ -84,16 +84,10 @@
          <filter>
             <normalization>
                <for-lang>grc</for-lang>
+               <IRI>tag:textalign.net,2015:normalization:hyphens-discretionary-removed</IRI>
                <IRI>urn:uuid:38cca000-8527-11e3-99c5-0002a5d5c51b</IRI>
                <name xml:lang="eng">Line-end hyphens that break up words have been removed.</name>
             </normalization>
-            <replace xpath="//div">
-               <pattern>&lt;lb( break="no")?/></pattern>
-               <comment who="kalvesmaki" when="2014-04-10">Really this shouldn't be allowed because
-                  the source is print, not digital, but it is included here just to test the
-                  spec.</comment>
-               <replacement/>
-            </replace>
          </filter>
       </declarations>
       <agent xml:id="kalvesmaki" roles="editor">
@@ -105,19 +99,15 @@
          <IRI>http://schema.org/editor</IRI>
          <name xml:lang="eng">Editor</name>
       </role>
+      <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
+         release.</change>
       <change when="2015-05-05" who="kalvesmaki">Removed non-normalized Unicode and falsely
          introduced combining characters</change>
       <change when="2014-08-26" who="kalvesmaki">updated to suit changes in validation
          schema</change>
-      <change who="kalvesmaki" when="2014-05-15">Developed new TEI-compliant line for
-         transcriptions.</change>
       <change when="2014-02-02" who="kalvesmaki">Eliminated line breaks, hyphenations.</change>
-      <change when="2014-01-31" who="kalvesmaki">Altered in concert with changes to RNG
-         core.</change>
       <change when="2014-01-27" who="kalvesmaki">Adjusted in concert with TAN-T.rnc adjustments to
          emulate TEI in the body. Changed source. </change>
-      <change when="2014-01-24" who="kalvesmaki">Began new file, based upon predecessor model,
-         urn:uuid:85c5a1cc-51a1-11e3-822c-ce3f5508acd9::2014-01-16 </change>
       <comment when="2014-05-01" who="kalvesmaki">Rights to use and disseminate the Greek text,
          without scholarly apparatus, was granted by Éditions du Cerf on 2014-04-28. I am grateful
          to them for their generosity, and encourage users of this data to show their appreciation
@@ -244,9 +234,6 @@
                δὲ κουφότερος ὁ δεύτερος πόλεμος τοῦ πρώτου διότι οὐκ ἔστιν εὑρεῖν ἐπὶ τῆς γῆς
                ἀνθρώπους πικροτέρους δαιμόνων ἢ πᾶσαν ἀθρόως αὐτῶν ὑποδεχομένους τὴν κακουργίαν.</p>
          </div>
-         <!-- First example of a cut-in header/title. There is no standardize way to handle the 
-		 identification of these elements, so I just picked one. Anyone aligning this text with another 
-		 that adopts a different convention will need to reconcile the two.-->
          <div type="title" n="2">
             <p><pb n="506"/>Περὶ τῶν ὀκτὼ λογισμῶν</p>
          </div>

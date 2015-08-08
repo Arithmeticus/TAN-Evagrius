@@ -21,7 +21,7 @@
    <head xmlns="tag:textalign.net,2015:ns">
       <name>CPG2430-syr-BL14578.TAN-T.xml</name>
       <name xml:lang="eng">Syriac translation of the Praktikos of Evagrios Pontikos, prepared for
-         the Text Alignment Protocol</name>
+         the Text Alignment Network</name>
       <rights-excluding-sources rights-holder="kalvesmaki">
          <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
          <name>This data file is licensed under a Creative Commons Attribution 4.0 International
@@ -35,7 +35,8 @@
       <declarations>
          <work>
             <IRI>http://dbpedia.org/resource/Praktikos</IRI>
-            <IRI>tag:kalvesmaki.com,2014:cpg2040</IRI>
+            <IRI>tag:evagriusponticus.net,2015:cpg2430</IRI>
+            <IRI>tag:kalvesmaki.com,2014:cpg2430</IRI>
             <name xml:lang="eng">The Praktikos, written by Evagrius Ponticus</name>
          </work>
          <recommended-tokenization which="general-words-only-1"/>
@@ -67,12 +68,12 @@
             <name xml:lang="eng">epilogue</name>
          </div-type>
       </declarations>
-      <agent xml:id="kalvesmaki" roles="provider editor">
+      <agent xml:id="kalvesmaki" roles="editor">
          <IRI>http://viaf.org/viaf/299582703</IRI>
          <IRI>tag:kalvesmaki.com,2014:self</IRI>
          <name xml:lang="eng">Joel Kalvesmaki</name>
       </agent>
-      <agent xml:id="example" roles="editor">
+      <agent xml:id="bali" roles="transcriber">
          <IRI>urn:uuid:f2a18fe0-8798-11e3-ab84-0002a5d5c51b</IRI>
          <name xml:lang="eng">Joseph Bali</name>
       </agent>
@@ -81,22 +82,18 @@
          <name xml:lang="eng">Editor</name>
       </role>
       <role xml:id="transcriber">
-         <IRI>http://id.loc.gov/vocabulary/relators/trc</IRI>
-         <name xml:lang="eng">Transcriber</name>
+         <IRI>http://id.loc.gov/vocabulary/relators/dtc</IRI>
+         <name xml:lang="eng">Data contributer</name>
       </role>
-      <role xml:id="provider">
-         <IRI>http://schema.org/provider</IRI>
-         <name xml:lang="eng">Provider</name>
-      </role>
+      <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
+         release.</change>
       <change when="2014-08-26" who="kalvesmaki">updated to suit changes in validation schema</change>
       <change when="2014-05-15" who="kalvesmaki">Updated typing of divs.</change>
       <change when="2014-03-11" who="kalvesmaki">Moved to new tag uri id.</change>
       <change when="2014-02-16" who="kalvesmaki">Moved five tokens from p1 s7 to p1 s8.</change>
-      <change when="2014-01-31" who="kalvesmaki">Altered in concert with changes to RNG
-         core.</change>
       <change when="2014-01-27" who="kalvesmaki">Started new TAN file.</change>
       <comment when="2014-01-24" who="kalvesmaki">This document was prepared as a test for
-         developing a text model for the Text Alignment Protocol (TAN-T) independent of, but
+         developing a text model for the Text Alignment Network (TAN-T) independent of, but
          informed by, TEI.</comment>
    </head>
    <text>

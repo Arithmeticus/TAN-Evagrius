@@ -74,7 +74,8 @@
   <head xmlns="tag:textalign.net,2015:ns">
     <name>CPG2431-grc-Guillaumonts.TAN-TEI.xml</name>
     <name xml:lang="eng">Guillaumonts' Greek edition of the Gnostikos of Evagrios Pontikos, prepared
-      for the Text Alignment Protocol</name>
+      for the Text Alignment Network</name>
+    <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2431.grc.guillaumonts.tei.xml</master-location>
     <rights-excluding-sources rights-holder="kalvesmaki">
       <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
       <name>Exclusive of rights held and licenses offered by rightsholders of the source or sources
@@ -139,6 +140,8 @@
       <IRI>http://schema.org/editor</IRI>
       <name xml:lang="eng">Editor</name>
     </role>
+    <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
+      release.</change>
     <change when="2014-10-29" who="kalvesmaki">Started TAN-TEI file.</change>
     <comment when="2014-05-01" who="kalvesmaki">Rights to use and disseminate the Greek text,
       without scholarly apparatus, was granted by Éditions du Cerf on 2014-04-28. I am grateful to
@@ -146,7 +149,7 @@
       purchasing the full critical edition, through http://www.editionsducerf.fr </comment>
   </head>
   <text>
-    <body xml:lang="grc">
+    <body xml:lang="grc" in-progress="false">
       <div type="title" n="1">
         <p><pb n="88"/>Ο ΓΝΩΣΤΙΚΟΣ <lb/>Η <lb/>ΠΡΟΣ ΤΟΝ ΚΑΤΑΞΙΩΘΕΝΤΑ ΓΝΩΣΕΩΣ</p>
       </div>

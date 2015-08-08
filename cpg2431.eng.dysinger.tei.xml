@@ -4,8 +4,9 @@
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_eng_Dysinger.TAN-TEI.001"
-  xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+  xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -66,11 +67,12 @@
   <head xmlns="tag:textalign.net,2015:ns">
     <name>CPG2431-eng-Dysinger.TAN-TEI.xml</name>
     <name xml:lang="eng">Dysinger's translation of the Gnostikos</name>
-      <rights-excluding-sources rights-holder="kalvesmaki">
+    <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2431.eng.dysinger.tei.xml</master-location>
+    <rights-excluding-sources rights-holder="kalvesmaki">
       <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
-      <name>Exclusive of rights held and licenses offered by rightsholders of the source or
-        sources listed below, this data file, insofar as it constitutes an independent work, is
-        licensed under a Creative Commons Attribution 4.0 International License.</name>
+      <name>Exclusive of rights held and licenses offered by rightsholders of the source or sources
+        listed below, this data file, insofar as it constitutes an independent work, is licensed
+        under a Creative Commons Attribution 4.0 International License.</name>
     </rights-excluding-sources>
     <source>
       <IRI>tag:kalvesmaki.com,2014:external_Evagrius_Gnostikos_eng_Dysinger</IRI>
@@ -126,22 +128,22 @@
       <IRI>http://schema.org/editor</IRI>
       <name xml:lang="eng">Editor</name>
     </role>
+    <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
+      release.</change>
     <change when="2014-10-29" who="kalvesmaki">Started TAN-TEI file.</change>
-    <comment when="2014-10-29" who="kalvesmaki">From the source: 
-      Translation by Luke Dysinger, O.S.B. (translation in public domain). Greek
-      fragments from: [1] Socrates’ Ecclesiastical History, [2] Guillaumont; [3] retroversion
-      from Syriac by Frankenberg[1]Evagrius’ Gnostikos does not
-        survive as a complete text in the original Greek. Fragments have been gleaned from a
-        variety of sources, chiefly Socrates’ Ecclesiastical History. The following is based on
-        these, as well as Frankenberg’s Greek retroversion from a Syriac MS: “Frb.”: Evagrius
-        Ponticus, Abhandlungen der königlichen Gesellschaft der Wissenschaften zu Göttingen,
-        Phil.-hist. Klasse, Neue Folge, vol. 13, no. 2 (Berlin, 1912). Frankenberg's MS is
-        designated S1 in. A. &amp; C. Guillaumont, Évagre le Pontique, Le Gnostique ou A celui
-        qui est devenu digne de la science, Sources Chrétiennes nº 356, (Paris, 1989)
-        88-193.</comment>
+    <comment when="2014-10-29" who="kalvesmaki">From the source: Translation by Luke Dysinger,
+      O.S.B. (translation in public domain). Greek fragments from: [1] Socrates’ Ecclesiastical
+      History, [2] Guillaumont; [3] retroversion from Syriac by Frankenberg[1]Evagrius’ Gnostikos
+      does not survive as a complete text in the original Greek. Fragments have been gleaned from a
+      variety of sources, chiefly Socrates’ Ecclesiastical History. The following is based on these,
+      as well as Frankenberg’s Greek retroversion from a Syriac MS: “Frb.”: Evagrius Ponticus,
+      Abhandlungen der königlichen Gesellschaft der Wissenschaften zu Göttingen, Phil.-hist. Klasse,
+      Neue Folge, vol. 13, no. 2 (Berlin, 1912). Frankenberg's MS is designated S1 in. A. &amp; C.
+      Guillaumont, Évagre le Pontique, Le Gnostique ou A celui qui est devenu digne de la science,
+      Sources Chrétiennes nº 356, (Paris, 1989) 88-193.</comment>
   </head>
   <text>
-    <body xml:lang="eng">
+    <body xml:lang="eng" in-progress="false">
       <div type="title" n="1">
         <p>The Gnostikos [Knower], or  One Who is Worthy of Knowledge</p>
       </div>
@@ -411,8 +413,8 @@
         <p>43. The sin of the gnostikos is false knowledge concerning matters themselves or their
           contemplations, which is caused by some passion or because this is not in sight of the
           good that is being [investigatively] discussed. <note place="below">[Guil retrv..170-171]
-            ἁμαρτία γνωστικοῦ . . . γνῶσις ψευδὴς αὐτῶν τῶν πραγμάτων ἢ τῆς θεωρίας αὐτῶν . . .
-            τὴν ζήτησιν[29] ποιεῖσθα</note>
+            ἁμαρτία γνωστικοῦ . . . γνῶσις ψευδὴς αὐτῶν τῶν πραγμάτων ἢ τῆς θεωρίας αὐτῶν . . . τὴν
+            ζήτησιν[29] ποιεῖσθα</note>
         </p>
       </div>
       <div type="chapter" n="44">
