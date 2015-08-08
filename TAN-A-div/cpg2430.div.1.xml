@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
+   id="tag:kalvesmaki@gmail.com,2014:cpg2430-TAN-A-div-et-al-1">
+   <head>
+      <name>Div-based alignment of multiple versions of Evagrius's Praktikos along with works
+         quoted</name>
+      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430.div.1.xml</master-location>
+      <rights-excluding-sources rights-holder="kalvesmaki">
+         <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+         <name>Creative Commons Attribution 4.0 International License</name>
+         <desc>This license is granted independent of rights and licenses associated with the
+            sources. </desc>
+      </rights-excluding-sources>
+      <source xml:id="grc">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
+         <name>Transcription of Greek edition by the Guillaumonts</name>
+         <location when-accessed="2015-08-07-04:00">../cpg2430.grc.guillaumonts.xml</location>
+      </source>
+      <source xml:id="eng-Dy">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_eng_Dysinger.TAN-TEI.001</IRI>
+         <name>Transcription of 1997 English translation by Dysinger</name>
+         <location when-accessed="2015-08-07-04:00">../cpg2430.eng.dysinger.xml</location>
+      </source>
+      <source xml:id="syr">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001</IRI>
+         <name>Transcription of Syriac edition in BL Add. 14,578.</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2430.syr.bl14578.tei.xml</location>
+      </source>
+      <source xml:id="lxx">
+         <IRI>tag:kalvesmaki.com,2014:lxx-grc-1979-rahlfs.TAN-T.001</IRI>
+         <name>Rahlfs's edition of the Septuagint</name>
+         <location when-accessed="2015-08-08-04:00">../../bible/lxx.grc.rahlfs.xml</location>
+         <location when-accessed="2015-08-07-04:00"
+            >https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/lxx.grc.rahlfs.xml</location>
+      </source>
+      <source xml:id="nt-grc">
+         <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
+         <name>SBL's Greek New Testament</name>
+         <location when-accessed="2015-08-08-04:00">../../bible/nt.grc.sbl-2010.xml</location>
+         <location when-accessed="2015-08-08-04:00"
+            >https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.grc.sbl-2010.xml</location>
+      </source>
+      <source xml:id="nt-syr">
+         <IRI>tag:kalvesmaki.com,2014:nt-syr-1905-BFBS</IRI>
+         <name>1905 Bible Society Syriac New Testament</name>
+         <location when-accessed="2015-08-08-04:00">../../bible/nt.syr.bfbs-1905.xml</location>
+         <location when-accessed="2015-08-08-04:00"
+            >https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.syr.bfbs-1905.xml</location>
+      </source>
+      <declarations>
+         <tokenization src="grc syr lxx nt-grc nt-syr" which="general-words-only-1"/>
+         <tokenization src="eng-Dy" which="general-1"/>
+         <implicit-div-type-refs src="lxx nt-grc nt-syr"/>
+      </declarations>
+      <agent xml:id="kalvesmaki" roles="creator">
+         <IRI>http://viaf.org/viaf/299582703</IRI>
+         <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
+         <name xml:lang="eng">Joel Kalvesmaki</name>
+      </agent>
+      <role xml:id="creator">
+         <IRI>http://schema.org/creator</IRI>
+         <name xml:lang="eng">creator</name>
+      </role>
+      <change when="2014-10-15" who="kalvesmaki">Started file</change>
+      <change when="2014-11-16" who="kalvesmaki">Added new Biblical x-refs.</change>
+   </head>
+   <body>
+      <align>
+         <div-ref src="grc" ref="preface.:section.2"/>
+         <div-ref src="lxx" ref="Ps 126 1"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="preface.:section.2"/>
+         <div-ref src="lxx" ref="Isa 14 12"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="preface.:section.2"/>
+         <div-ref src="lxx" ref="Isa 31 5" strength="0.5"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="preface.:section.3"/>
+         <div-ref src="nt-grc" ref="Jn 5 44"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="preface.:section.5"/>
+         <div-ref src="nt-grc" ref="1Co 7 1"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="preface.:section.6"/>
+         <div-ref src="nt-grc" ref="2Co 4 10"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="preface.:section.7"/>
+         <div-ref src="lxx" ref="Prov 3 18"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="preface.:section.9"/>
+         <div-ref src="nt-grc" ref="Mt 7 6"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.12"/>
+         <div-ref src="lxx" ref="Ps 90 6"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.12"/>
+         <div-ref src="nt-grc" ref="Jn 4 21 - Jn 4 24" strength="0.5"/>
+      </align>
+      <align strength="0.5">
+         <div-ref src="grc" ref="chapter.13"/>
+         <div-ref src="nt-grc" ref="1Th 2 6"/>
+      </align>
+      <align strength="0.5">
+         <div-ref src="grc" ref="chapter.17"/>
+         <div-ref src="lxx" ref="Judg 7 5 - Judg 7 7"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.21"/>
+         <div-ref src="nt-grc" ref="Eph 4 26"/>
+      </align>
+      <align strength="0.5">
+         <div-ref src="grc" ref="chapter.26"/>
+         <div-ref src="lxx" ref="Gen 32 7"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.27"/>
+         <div-ref src="lxx" ref="Ps 41 6"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.38"/>
+         <div-ref src="nt-grc" ref="1Co 13 13"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.38"/>
+         <div-ref src="lxx" ref="Lev 11 22"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.46"/>
+         <div-ref src="nt-grc" ref="Ac 1 24"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.49"/>
+         <div-ref src="nt-grc" ref="1Th 5 17"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.50"/>
+         <div-ref src="lxx" ref="Ps 10 2"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.53"/>
+         <div-ref src="nt-grc" ref="Ro 13 14"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.71"/>
+         <div-ref src="nt-grc" ref="Eph 5 19"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.72"/>
+         <div-ref src="lxx" ref="Ps 17 39"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.72"/>
+         <div-ref src="lxx" ref="Ps 26 2"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.90"/>
+         <div-ref src="lxx" ref="Ps 125 6"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.93"/>
+         <div-ref src="nt-grc" ref="Ac 9 15"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter.97"/>
+         <div-ref src="nt-grc" ref="Mt 19 21"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="epilogue."/>
+         <div-ref src="lxx" ref="Mal 3 20"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="epilogue."/>
+         <div-ref src="lxx" ref="Ps 103 13"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="epilogue."/>
+         <div-ref src="nt-grc" ref="1Co 3 6, 1Co 3 7"/>
+      </align>
+
+   </body>
+</TAN-A-div>

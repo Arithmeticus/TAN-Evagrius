@@ -113,7 +113,7 @@
    <text>
       <body xml:lang="syr" in-progress="false">
          <div type="century" n="I">
-            <div type="title" n="">
+            <div type="title" n="t">
                <p>ܡܐܬܐ ܩܕܡܝܬܐ܀ </p>
             </div>
             <div type="chapter" n="1">
@@ -547,12 +547,12 @@
                   ܡܫܬܡܠܐ܀ <lb/></p>
 
             </div>
-            <div type="epilogue" n="">
+            <div type="epilogue" n="epi">
                <p> ܫܠ̣ܡ̇ܬ ܩܕܡܝܬܐ܀ </p>
             </div>
          </div>
          <div type="century" n="II">
-            <div type="title" n="">
+            <div type="title" n="t">
                <pb n="61"/>
                <p> ܡܐܬܐ ܕܬܪ̈ܬܝܢ܀ </p>
             </div>
@@ -944,13 +944,13 @@
                   ܕܠܗ ܢܚܙܐ ܒܡܫܝܚܐ. ܟܕ ܒܝܕ ܚܘܠܦܐ ܡܝܬܪܐ ܢܩܘܡ ܩܕܡܘܗܝ܀ <lb/></p>
                <pb n="99"/>
             </div>
-            <div type="epilogue" n="">
+            <div type="epilogue" n="epi">
                <p> ܫܠ̣ܡ̇ܬ ܕܬܪ̈ܬܝܢ܀ </p>
             </div>
 
          </div>
          <div type="century" n="III">
-            <div type="title" n="">
+            <div type="title" n="t">
                <p> ܡܐܬܐ ܕܬܠܬ܀ </p>
             </div>
             <div type="chapter" n="1">
@@ -1349,13 +1349,13 @@
                   ܕܠܥܫܘ̈ܩܐ ܡ̇ܟܣ ܠܗܘܢ ܠܫܐܕ̈ܐ܀ <lb/></p>
 
             </div>
-            <div type="epilogue" n="">
+            <div type="epilogue" n="epi">
                <p> ܫܠ̣ܡ̇ܬ ܡܐܬܐ ܕܬܠܬ܀ </p>
             </div>
          </div>
 
          <div type="century" n="IV">
-            <div type="title" n="">
+            <div type="title" n="t">
                <pb n="137"/>
                <p> ܡܐܬܐ ܕܐܪܒܥ܀ </p>
             </div>
@@ -1765,12 +1765,12 @@
                   ܠܢܦܫ̈ܬܐ ܕܠܐ ܕܟ̣ܝ̈ܢ ܡܥ̣ܕܐ ܕܬܫܬܟܚ. ܚ̣ܙܝܐ ܕܝܢ ܒܕܟ̣ܝ̈ܬܐ <lb/> ܒܠܚܘܕ܀ <lb/></p>
 
             </div>
-            <div type="epilogue" n="">
+            <div type="epilogue" n="epi">
                <p> ܫ̣ܠܡ̇ܬ ܡܐܬܐ ܕܐܪܒܥ܀ <pb n="177"/></p>
             </div>
          </div>
          <div type="century" n="V">
-            <div type="title" n="">
+            <div type="title" n="t">
                <p> ܡܐܬܐ ܕܚܡܫ܀ </p>
             </div>
             <div type="chapter" n="1">
@@ -2173,12 +2173,12 @@
                   ܗ̇ܘ ܕܝܢ ܕܓܠܝܙ ܡܢ ܬܪ̈ܬܝܗܝܢ܆ ܠܘܬ ܥܕܠܝܐ ܕܡܟܬܒܢܐ ܫ̇ܪܟ܀ <lb/></p>
 
             </div>
-            <div type="epilogue" n="">
+            <div type="epilogue" n="epi">
                <p> ܫ̣ܠܡ̇ܬ ܡܐܬܐ ܕܚܡܫ܀ </p>
             </div>
          </div>
          <div type="century" n="VI">
-            <div type="title" n="">
+            <div type="title" n="t">
                <pb n="217"/>
                <p> ܡܐܬܐ ܕܫܬ܀ </p>
             </div>
@@ -2593,7 +2593,7 @@
                   ܒܝܫܘܬܐ ܠܘܬ ܡܝܬܪܘܬܐ܆ ܘܡܢ ܠܐ ܝܕܥܬܐ ܠܘܬ ܝܕܥܬܐ ܢ̇ܗܦܟ܀ </p>
                <pb n="257"/>
             </div>
-            <div type="epilogue" n="">
+            <div type="epilogue" n="epi">
                <p> — ܥ̇ܩܒܘ ܠܡ̈ܠܝܢ ܐܚܝ̈ܢ. ܘܦ̇ܫܩܘ ܚܦܝܛܐܝܬ ܦ̈ܠܐܬܐ ܕܡܐܘ̈ܬܐ܇ ܕܡܢܝܢܐ <lb/> ܕܝܘ̈ܡܬܐ ܫܬܐ
                   ܕܒ̣ܪܝܬܐ܀ <lb/> ܫ̣ܠܡ ܡܐܘ̈ܬܐ ܫܬ ܕܐܘܓܪܝܣ ܛܘܒܢܐ܀ </p>
             </div>

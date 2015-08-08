@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
+   id="tag:kalvesmaki@gmail.com,2014:cpg2431-TAN-A-div-et-al-1">
+   <head>
+      <name>Div-based alignment of multiple versions of Evagrius's Gnostikos along with works
+         quoted</name>
+      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2431.div.1.xml</master-location>
+      <rights-excluding-sources rights-holder="kalvesmaki">
+         <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+         <name>Creative Commons Attribution 4.0 International License</name>
+         <desc>This license is granted independent of rights and licenses associated with the
+            source. </desc>
+      </rights-excluding-sources>
+      <source xml:id="grc">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001</IRI>
+         <name>Transcription of Greek edition by the Guillaumonts</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2431.grc.guillaumonts.tei.xml</location>
+      </source>
+      <source xml:id="eng-Dy">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_eng_Dysinger.TAN-TEI.001</IRI>
+         <name>Transcription of 1997 English translation by Dysinger</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2431.eng.dysinger.tei.xml</location>
+      </source>
+      <source xml:id="syr">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_Frankenberg.TAN-TEI.001</IRI>
+         <name>Frankenberg's transcription of Syriac edition in BL Add. 14,578.</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2431.syr.frankenberg.tei.xml</location>
+      </source>
+      <source xml:id="grc-Fr">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Frankenberg.TAN-TEI.001</IRI>
+         <name>Frankenberg's Greek retroversion of a Syriac translation of the Gnostikos</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2431.grc.frankenberg.tei.xml</location>
+      </source>
+      <source xml:id="lxx">
+         <IRI>tag:kalvesmaki.com,2014:lxx-grc-1979-rahlfs.TAN-T.001</IRI>
+         <name>Rahlfs's edition of the Septuagint</name>
+         <location when-accessed="2015-08-08-04:00">../../bible/lxx.grc.rahlfs.xml</location>
+         <location when-accessed="2015-08-08-04:00"
+            >https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/lxx.grc.rahlfs.xml</location>
+      </source>
+      <source xml:id="nt-grc">
+         <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
+         <name>SBL's Greek New Testament</name>
+         <location when-accessed="2015-08-08-04:00">../../bible/nt.grc.sbl-2010.xml</location>
+         <location when-accessed="2015-08-08-04:00"
+            >https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.grc.sbl-2010.xml</location>
+      </source>
+      <source xml:id="nt-syr">
+         <IRI>tag:kalvesmaki.com,2014:nt-syr-1905-BFBS</IRI>
+         <name>1905 Bible Society Syriac New Testament</name>
+         <location when-accessed="2015-08-08-04:00">../../bible/nt.syr.bfbs-1905.xml</location>
+         <location when-accessed="2015-08-08-04:00"
+            >https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.syr.bfbs-1905.xml</location>
+      </source>
+      <declarations>
+         <tokenization src="grc eng-Dy syr grc-Fr lxx nt-grc nt-syr" which="general-words-only-1"/>
+         <implicit-div-type-refs src="lxx nt-grc nt-syr"/>
+      </declarations>
+      <agent xml:id="kalvesmaki" roles="creator">
+         <IRI>http://viaf.org/viaf/299582703</IRI>
+         <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
+         <name xml:lang="eng">Joel Kalvesmaki</name>
+      </agent>
+      <role xml:id="creator">
+         <IRI>http://schema.org/creator</IRI>
+         <name xml:lang="eng">creator</name>
+      </role>
+      <change when="2015-08-07-04:00" who="kalvesmaki">Streamlined alignments to allow more compact
+         div refs.</change>
+      <change when="2015-08-08-04:00" who="kalvesmaki">Started file</change>
+   </head>
+   <body>
+      <align>
+         <div-ref src="grc" ref="chapter 46"/>
+         <div-ref strength="0.5" src="lxx" ref="Exod 26 35"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 20"/>
+         <div-ref strength="0.5" src="lxx" ref="Lev 11 2 - Lev 11 19"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 21"/>
+         <div-ref strength="0.5" src="lxx" ref="Num 24 17 - Num 24 19"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 38"/>
+         <div-ref strength="0.5" src="lxx" ref="2Kgdms 6 10, 2Kgdms 6 11"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 20"/>
+         <div-ref strength="0.5" src="lxx" ref="Eccl 1 5"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 25"/>
+         <div-ref src="lxx" ref="Eccl 8 8"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 20"/>
+         <div-ref strength="0.5" src="lxx" ref="Ezek 16 15 - Ezek 16 34"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 34"/>
+         <div-ref src="lxx" ref="Jonah 1 5"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 3"/>
+         <div-ref strength="0.5" src="nt-grc" ref="Mt 5 13, Mt 5 14"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 38"/>
+         <div-ref src="nt-grc" ref="Mt 6 25"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 44"/>
+         <div-ref strength="0.5" src="nt-grc" ref="Mt 13 25"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 24"/>
+         <div-ref strength="0.5" src="nt-grc" ref="Mt 21 12 - Mt 21 13"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 7"/>
+         <div-ref strength="0.5" src="nt-grc" ref="Mt 25 1 - Mt 25 13"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 38"/>
+         <div-ref strength="0.5" src="nt-grc" ref="Lu 12 22"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 29"/>
+         <div-ref src="nt-grc" ref="Lu 14 10"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 21"/>
+         <div-ref strength="0.5" src="nt-grc" ref="Jn 11 49 - Jn 11 51"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 37"/>
+         <div-ref strength="0.5" src="nt-grc" ref="1Co 9 27"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 22"/>
+         <div-ref src="nt-grc" ref="1Tim 2 4"/>
+      </align>
+      <align>
+         <div-ref src="grc" ref="chapter 13"/>
+         <div-ref src="nt-grc" ref="Heb 12 14"/>
+      </align>
+   </body>
+</TAN-A-div>

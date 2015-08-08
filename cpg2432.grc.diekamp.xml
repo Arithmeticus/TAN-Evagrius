@@ -97,7 +97,7 @@
     <change when="2014-10-31" who="kalvesmaki">Started TAN-TEI file.</change>
   </head>
   <text>
-    <body xml:lang="grc">
+    <body xml:lang="grc" in-progress="false">
       <div type="century" n="IV">
         <div type="chapter" n="16">
           <pb n="263"/>

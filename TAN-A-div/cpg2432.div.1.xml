@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../SERVER/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
+   id="tag:kalvesmaki@gmail.com,2014:cpg2432-TAN-A-div-et-al-1">
+   <head>
+      <name>Div-based alignment of multiple versions of Evagrius's Kephalaia Gnostika along with
+         works quoted</name>
+      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.div.1.xml</master-location>
+      <rights-excluding-sources rights-holder="kalvesmaki">
+         <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+         <name>Creative Commons Attribution 4.0 International License</name>
+         <desc>This license is granted independent of rights and licenses associated with the
+            source. </desc>
+      </rights-excluding-sources>
+      <source xml:id="S1">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S1.TAN-TEI.001</IRI>
+         <name>Syriac edition of S1 by Guillaumont</name>
+         <location when-accessed="2015-08-08">../cpg2432.syr.guillaumont-s1.xml</location>
+      </source>
+      <source xml:id="S1-Dy">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_eng_Dysinger_S1.TAN-TEI.001</IRI>
+         <name>1997 English translation of the Kephalaia Gnostika, S1 by Dysinger</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.eng.dysinger-s1.xml</location>
+      </source>
+      <source xml:id="S1-Fr">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Frankenberg.TAN-TEI.001</IRI>
+         <name>Frankenberg's Greek retroversion of Syriac S1</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.Frankenberg.xml</location>
+      </source>
+      <source xml:id="S2">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001</IRI>
+         <name>Transcription of Syriac edition of S2 by Guillaumont</name>
+         <location when-accessed="2015-08-08">../cpg2432.syr.guillaumont-s2.xml</location>
+      </source>
+      <source xml:id="S2-Dy">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_eng_Dysinger_S2.TAN-TEI.001</IRI>
+         <name>Transcription of 1997 English translation of the Kephalaia Gnostika, S2 by
+            Dysinger</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.eng.dysinger-s2.xml</location>
+      </source>
+      <source xml:id="grc-PG4">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Cordier.TAN-TEI.001</IRI>
+         <name>Fragments preserved PG 4</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.cordier.xml</location>
+      </source>
+      <source xml:id="grc-PG12">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_la_Rue.TAN-TEI.001</IRI>
+         <name>Fragments preserved PG 12</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.de_la_Rue.xml</location>
+      </source>
+      <source xml:id="grc-PG86a">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Mai-1825.TAN-TEI.001</IRI>
+         <name>Fragment preserved in PG 86a</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.Mai-1825.xml</location>
+      </source>
+      <source xml:id="grc-PG39">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Mai-1852.TAN-TEI.001</IRI>
+         <name>Fragment preserved in PG 39</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.Mai-1852.xml</location>
+      </source>
+      <source xml:id="grc-Bars">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_Angelis-Noah.TAN-TEI.001</IRI>
+         <name>Fragments preserved in the correspondence of Barsanouphios and John</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.de_Angelis-Noah.xml</location>
+      </source>
+      <source xml:id="grc-Dor">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_Preville.TAN-TEI.001</IRI>
+         <name>A fragment preserved in Dorotheus of Gaza</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.de_Préville.xml</location>
+      </source>
+      <source xml:id="grc-Oct">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Devreesse.TAN-TEI.001</IRI>
+         <name>A fragment preserved in a scholion on the Octateuch</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.devreesse.xml</location>
+      </source>
+      <source xml:id="grc-DP">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Diekamp.TAN-TEI.001</IRI>
+         <name>Fragments preserved in the Doctrina patrum</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.diekamp.xml</location>
+      </source>
+      <source xml:id="grc-EpF">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gribomont.TAN-TEI.001</IRI>
+         <name>Fragment preserved in the Epistula fidei</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.gribomont.xml</location>
+      </source>
+      <source xml:id="grc-Géh1987">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1987.TAN-TEI.001</IRI>
+         <name>Fragments preserved in the scholia on the Proverbs</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.géhin-1987.xml</location>
+      </source>
+      <source xml:id="grc-Géh1996">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1996.TAN-TEI.001</IRI>
+         <name>Fragments preserved in Vat. gr. 2028</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.géhin-1996.xml</location>
+      </source>
+      <source xml:id="grc-Géh1998">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1998.TAN-TEI.001</IRI>
+         <name>Fragments preserved in Περὶ διαφορῶν πονηρῶν λογισμῶν</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.géhin-1998.xml</location>
+      </source>
+      <source xml:id="grc-Hau">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Hausherr.TAN-TEI.001</IRI>
+         <name>Fragments preserved in MS Moscow 425</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.hausherr.xml</location>
+      </source>
+      <source xml:id="grc-Mu1931">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1931.TAN-TEI.001</IRI>
+         <name>Fragments preserved in Milan, Ambr. gr. 681 (Q 74 sup.)</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.Muyldermans-1931.xml</location>
+      </source>
+      <source xml:id="grc-Mu1932">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1932.TAN-TEI.001</IRI>
+         <name>Fragments preserved in Paris BnF gr. 2748</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.Muyldermans-1932.xml</location>
+      </source>
+      <source xml:id="grc-Pitra">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Pitra.TAN-TEI.001</IRI>
+         <name>Fragments preserved in Pitra's edition of the scholia on the Psalms</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.Pitra.xml</location>
+      </source>
+      <source xml:id="grc-Wolf">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Wolf.TAN-TEI.001</IRI>
+         <name>Fragment preserved in Wolf's Analecta graeca</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.Wolf.xml</location>
+      </source>
+      <source xml:id="lxx">
+         <IRI>tag:kalvesmaki.com,2014:lxx-grc-1979-rahlfs.TAN-T.001</IRI>
+         <name>Rahlfs's edition of the Septuagint</name>
+         <location when-accessed="2015-08-08-04:00">../../bible/lxx.grc.rahlfs.xml</location>
+         <location when-accessed="2015-08-08-04:00"
+            >https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/lxx.grc.rahlfs.xml</location>
+      </source>
+      <source xml:id="nt-grc">
+         <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
+         <name>SBL's Greek New Testament</name>
+         <location when-accessed="2015-08-08-04:00">../../bible/nt.grc.sbl-2010.xml</location>
+         <location when-accessed="2015-08-08-04:00"
+            >https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.grc.sbl-2010.xml</location>
+      </source>
+      <source xml:id="nt-syr">
+         <IRI>tag:kalvesmaki.com,2014:nt-syr-1905-BFBS</IRI>
+         <name>1905 Bible Society Syriac New Testament</name>
+         <location when-accessed="2015-08-08-04:00">../../bible/nt.syr.bfbs-1905.xml</location>
+         <location when-accessed="2015-08-08-04:00"
+            >https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.syr.bfbs-1905.xml</location>
+      </source>
+      <declarations>
+         <implicit-div-type-refs src="lxx nt-grc nt-syr S1 S2"/>
+      </declarations>
+      <agent xml:id="kalvesmaki" roles="creator">
+         <IRI>http://viaf.org/viaf/299582703</IRI>
+         <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
+         <name xml:lang="eng">Joel Kalvesmaki</name>
+      </agent>
+      <role xml:id="creator">
+         <IRI>http://schema.org/creator</IRI>
+         <name xml:lang="eng">creator</name>
+      </role>
+      <change when="2015-08-07-04:00" who="kalvesmaki">Streamlined alignments to allow more compact
+         div refs.</change>
+      <change when="2014-10-29" who="kalvesmaki">Started file</change>
+   </head>
+   <body>
+      <align>
+         <div-ref src="S1" ref="I 14"/>
+         <div-ref src="lxx" ref="Ps 103 24"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="I 20"/>
+         <div-ref src="nt-grc" ref="Mt 24 35"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 23"/>
+         <div-ref src="lxx" ref="4Kgdms 14 20"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 23"/>
+         <div-ref src="lxx" ref="Ps 77 25"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 25"/>
+         <div-ref src="nt-grc" ref="Lu 22 31"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 26"/>
+         <div-ref src="nt-grc" ref="1Co 7 31"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 31"/>
+         <div-ref src="lxx" ref="Deut 32 9"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 32"/>
+         <div-ref src="lxx" ref="Gen 16 - Gen 17"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 35"/>
+         <div-ref src="nt-grc" ref="1Jn 1 5"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 40"/>
+         <div-ref src="nt-grc" ref="Lu 16 19, Lu 16 20, Lu 16 31"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 43"/>
+         <div-ref src="nt-grc" ref="Eph 3 10"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 60"/>
+         <div-ref src="nt-grc" ref="Lu 16 1, Lu 16 2, Lu 16 8"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="I 65"/>
+         <div-ref src="nt-grc" ref="Jn 5 22"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 66"/>
+         <div-ref src="nt-grc" ref="1Co 6 18"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 66"/>
+         <div-ref src="nt-grc" ref="Ro 12 13"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="I 71"/>
+         <div-ref src="lxx" ref="Ps 144 3"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="I 71"/>
+         <div-ref src="lxx" ref="Ps 146 5"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 72"/>
+         <div-ref src="lxx" ref="Eccl 2 14"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 73"/>
+         <div-ref src="lxx" ref="Ps 72 4"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 75"/>
+         <div-ref src="nt-grc" ref="2Tim 4 8"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 82"/>
+         <div-ref src="nt-grc" ref="2Th 1 5"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 82"/>
+         <div-ref src="nt-grc" ref="1Pe 4 5"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 82"/>
+         <div-ref src="nt-grc" ref="Re 22 12"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 90"/>
+         <div-ref src="nt-grc" ref="Lu 13 32"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="II 2"/>
+         <div-ref src="nt-grc" ref="Eph 3 10"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="II 21"/>
+         <div-ref src="nt-grc" ref="Eph 3 10"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="II 23"/>
+         <div-ref src="nt-grc" ref="Col 1 15"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="II 26"/>
+         <div-ref src="nt-grc" ref="Mt 3 12"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="II 36"/>
+         <div-ref src="nt-grc" ref="Ro 8 29"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="II 50"/>
+         <div-ref src="lxx" ref="Eccl 12 3"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="II 55"/>
+         <div-ref src="nt-grc" ref="Eph 4 8"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="II 55"/>
+         <div-ref src="lxx" ref="Job 1 15"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="II 59"/>
+         <div-ref src="nt-grc" ref="2Th 1 5"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="II 60"/>
+         <div-ref src="nt-grc" ref="Lu 22 30"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="II 77"/>
+         <div-ref src="nt-grc" ref="2Tim 4 8"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="II 89"/>
+         <div-ref src="nt-grc" ref="Mk 16 19"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 1"/>
+         <div-ref src="nt-grc" ref="Mt 11 27"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="III 9"/>
+         <div-ref src="lxx" ref="Prov 14 9"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="III 9"/>
+         <div-ref src="nt-grc" ref="Lu 13 32"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 11"/>
+         <div-ref src="nt-grc" ref="Eph 3 10"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="III 25"/>
+         <div-ref src="nt-grc" ref="1Co 15 42"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 33"/>
+         <div-ref src="nt-grc" ref="1Co 15 53 - 1Co 15 54"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 37"/>
+         <div-ref src="nt-grc" ref="1Co 15 41"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 40"/>
+         <div-ref src="nt-grc" ref="1Co 15 52"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="III 40"/>
+         <div-ref src="nt-grc" ref="2Tim 4 8"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 47"/>
+         <div-ref src="nt-grc" ref="1Co 15 52"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="III 47"/>
+         <div-ref src="nt-grc" ref="2Tim 4 8"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="III 47"/>
+         <div-ref src="nt-grc" ref="2Th 1 5"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 52"/>
+         <div-ref src="lxx" ref="Mal 3 20"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="III 54"/>
+         <div-ref src="nt-grc" ref="1Co 15 52"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 56"/>
+         <div-ref src="lxx" ref="Gen 2 9"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 60"/>
+         <div-ref src="nt-grc" ref="2Tim 4 7"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 64"/>
+         <div-ref src="lxx" ref="Ps 18 11"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 64"/>
+         <div-ref src="lxx" ref="Ps 118 103"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 67"/>
+         <div-ref src="lxx" ref="Exod 33 3"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="III 68"/>
+         <div-ref src="lxx" ref="Gen 2 2"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="III 68"/>
+         <div-ref src="nt-grc" ref="2Th 1 5"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 71"/>
+         <div-ref src="lxx" ref="Gen 2 7"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 71"/>
+         <div-ref src="nt-grc" ref="1Co 15 45"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 72"/>
+         <div-ref src="nt-grc" ref="Ro 8 17"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 73"/>
+         <div-ref src="nt-grc" ref="1Th 5 2"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 74"/>
+         <div-ref src="nt-grc" ref="1Tim 4 5"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="III 81"/>
+         <div-ref src="nt-grc" ref="Eph 3 10"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="III 89"/>
+         <div-ref src="lxx" ref="Ps 115 3"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 2"/>
+         <div-ref src="nt-grc" ref="Ro 1 19"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 7"/>
+         <div-ref src="nt-grc" ref="Eph 3 10"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 8"/>
+         <div-ref src="nt-grc" ref="Ro 8 17"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 11"/>
+         <div-ref src="lxx" ref="Hab 3 2"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 12"/>
+         <div-ref src="nt-grc" ref="Ro 2 29"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 13"/>
+         <div-ref src="nt-grc" ref="Heb 2 14"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 17"/>
+         <div-ref src="nt-grc" ref="Jn 8 23"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="IV 21"/>
+         <div-ref src="nt-grc" ref="Mk 16 19"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 23"/>
+         <div-ref src="nt-grc" ref="Mt 17 1 - Mt 17 8"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 24"/>
+         <div-ref src="nt-grc" ref="Col 1 18"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 24"/>
+         <div-ref src="nt-grc" ref="Re 1 5"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 26"/>
+         <div-ref src="nt-grc" ref="Lu 13 32"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 27"/>
+         <div-ref src="lxx" ref="Num 15 32 - Num 15 34"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 26"/>
+         <div-ref src="nt-grc" ref="Mt 20 6"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 28"/>
+         <div-ref src="lxx" ref="Exod 29 2"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="IV 29"/>
+         <div-ref src="nt-grc" ref="Mt 24 29"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="IV 29"/>
+         <div-ref src="lxx" ref="Mal 3 20"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 30"/>
+         <div-ref src="nt-grc" ref="Ro 11 33"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 32"/>
+         <div-ref src="lxx" ref="Exod 29 13"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 34"/>
+         <div-ref src="nt-grc" ref="Mt 5 26"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 34"/>
+         <div-ref src="nt-grc" ref="Lu 12 59"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 36"/>
+         <div-ref src="lxx" ref="Exod 29 13"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 40"/>
+         <div-ref src="nt-grc" ref="Mt 16 19"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 42"/>
+         <div-ref src="nt-grc" ref="Mt 19 29"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 42"/>
+         <div-ref src="nt-grc" ref="Jn 17 3"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 36"/>
+         <div-ref src="lxx" ref="Gen 28 12 - Gen 28 13"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="IV 45"/>
+         <div-ref src="lxx" ref="Judg 6 19 - Judg 6 24"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 45"/>
+         <div-ref src="lxx" ref="Judg 13 15 - Judg 13 21"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 46"/>
+         <div-ref src="nt-grc" ref="Ac 10 11 - Ac 10 16"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 48"/>
+         <div-ref src="lxx" ref="Exod 28 4"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 52"/>
+         <div-ref src="lxx" ref="Exod 28 36"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 53"/>
+         <div-ref src="lxx" ref="Gen 11 4 - Gen 11 9"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="IV 54"/>
+         <div-ref src="nt-grc" ref="Ac 2 5 - Ac 2 13"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 55"/>
+         <div-ref src="nt-grc" ref="Jam 1 22 - Jam 1 24"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 56"/>
+         <div-ref src="lxx" ref="Exod 28 4"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="IV 57"/>
+         <div-ref src="nt-grc" ref="Mt 14 15 - Mt 14 21"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="IV 57"/>
+         <div-ref src="nt-grc" ref="Mt 15 32 - Mt 15 38"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="IV 57"/>
+         <div-ref src="nt-grc" ref="Jn 2 1 - Jn 2 10"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="IV 57"/>
+         <div-ref src="nt-grc" ref="Jn 9 1 - Jn 9 7"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 59"/>
+         <div-ref src="nt-grc" ref="Lu 11 26"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 63"/>
+         <div-ref src="lxx" ref="Exod 25 17"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 64"/>
+         <div-ref src="lxx" ref="Exod 12 38"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 66"/>
+         <div-ref src="lxx" ref="Exod 28 4"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="IV 67"/>
+         <div-ref src="lxx" ref="Prov 20 27"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 70"/>
+         <div-ref src="lxx" ref="Ps 141 8"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 72"/>
+         <div-ref src="lxx" ref="Exod 28 42"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 69, IV 75, IV 79"/>
+         <div-ref src="lxx" ref="Exod 28 4"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="IV 82"/>
+         <div-ref src="lxx" ref="Josh 20 2, Josh 20 3"/>
+      </align>
+      <!-- Josh 20.4-6 doesn't exist in the main text of Rahlfs LXX [!], so it's suppressed for now -->
+      <!--<align>
+            <div source="S1" ref="century IV chapter 83"/>
+            <div source="lxx" ref="Josh 20 4 - Josh 20 6"/>
+        </align>-->
+      <align>
+         <div-ref src="S1" ref="V 1"/>
+         <div-ref src="nt-grc" ref="Ro 5 14"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="V 3"/>
+         <div-ref src="nt-grc" ref="1Co 13 9, 1Co 13 12"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="V 3"/>
+         <div-ref src="nt-grc" ref="2Tim 4 7"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 8"/>
+         <div-ref src="lxx" ref="Exod 23 10, Exod 23 11"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 10"/>
+         <div-ref src="lxx" ref="Exod 22 29"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 13"/>
+         <div-ref src="lxx" ref="Exod 19 9"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 16"/>
+         <div-ref src="lxx" ref="Exod 20 21"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 30"/>
+         <div-ref src="nt-grc" ref="Lu 17 21"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 30"/>
+         <div-ref src="nt-grc" ref="Mt 12 43 - Mt 12 45"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 30"/>
+         <div-ref src="nt-grc" ref="Lu 11 24 - Lu 11 26"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 31"/>
+         <div-ref src="nt-grc" ref="Eph 6 16"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 32"/>
+         <div-ref src="lxx" ref="Prov 9 2"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="V 33"/>
+         <div-ref src="nt-grc" ref="Lu 16 3"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="V 33"/>
+         <div-ref src="nt-grc" ref="Lu 16 5 - Lu 16 8"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 34"/>
+         <div-ref src="nt-grc" ref="Eph 6 17"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 35"/>
+         <div-ref src="lxx" ref="Gen 3 19"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 36"/>
+         <div-ref src="lxx" ref="Josh 13 1"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 37"/>
+         <div-ref src="lxx" ref="Job 40 25"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="V 39"/>
+         <div-ref src="lxx" ref="Exod 24 11"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 40"/>
+         <div-ref src="lxx" ref="Exod 19 3"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 43"/>
+         <div-ref src="nt-grc" ref="Jn 14 6"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 44"/>
+         <div-ref src="lxx" ref="Deut 32 33"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 44"/>
+         <div-ref src="lxx" ref="Num 6 3"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 45"/>
+         <div-ref src="lxx" ref="Judg 16 19 - Judg 16 21"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 49"/>
+         <div-ref src="lxx" ref="Ps 80 10"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 67"/>
+         <div-ref src="lxx" ref="Ps 35 10"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 69"/>
+         <div-ref src="lxx" ref="Gen 2 9"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 71"/>
+         <div-ref src="lxx" ref="1Kgdms 17 4, 1Kgdms 17 51"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 72"/>
+         <div-ref src="lxx" ref="Gen 2 10"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 74"/>
+         <div-ref src="nt-grc" ref="Mt 5 14"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="V 84"/>
+         <div-ref src="nt-grc" ref="Eph 3 10"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="VI 1"/>
+         <div-ref src="lxx" ref="Ps 23 3"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="VI 3"/>
+         <div-ref src="nt-grc" ref="Ro 5 14"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 6"/>
+         <div-ref src="nt-grc" ref="Mt 10 34"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 7"/>
+         <div-ref src="nt-grc" ref="Jn 11 25"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 7"/>
+         <div-ref src="lxx" ref="Gen 17 12"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 7"/>
+         <div-ref src="nt-grc" ref="Col 2 11"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="VI 14"/>
+         <div-ref src="nt-grc" ref="Col 1 19"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="VI 14"/>
+         <div-ref src="nt-grc" ref="Ro 9 5"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 15"/>
+         <div-ref src="nt-grc" ref="1Co 15 25"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="VI 24"/>
+         <div-ref src="nt-grc" ref="Lu 20 36"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 24"/>
+         <div-ref src="nt-grc" ref="Lu 19 17 - Lu 19 19"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 27"/>
+         <div-ref src="lxx" ref="Ps 85 9"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="VI 30"/>
+         <div-ref src="nt-grc" ref="1Co 3 7"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 33"/>
+         <div-ref src="nt-grc" ref="1Co 15 28"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="VI 34"/>
+         <div-ref src="nt-grc" ref="Php 3 21"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="VI 34"/>
+         <div-ref src="nt-grc" ref="Ro 8 29"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 36"/>
+         <div-ref src="lxx" ref="Job 40 19"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 36"/>
+         <div-ref src="lxx" ref="Job 41 25"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="VI 43"/>
+         <div-ref src="nt-grc" ref="2Th 1 5"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="VI 45"/>
+         <div-ref src="lxx" ref="Gen 1 27"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="VI 47"/>
+         <div-ref src="nt-grc" ref="2Th 1 5"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="VI 47"/>
+         <div-ref src="lxx" ref="Num 32 1 - Num 32 5"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="VI 47"/>
+         <div-ref src="lxx" ref="Josh 1 14 - Josh 1 15"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 51"/>
+         <div-ref src="nt-grc" ref="Ro 8 15"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 52"/>
+         <div-ref src="lxx" ref="Prov 4 23"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 56"/>
+         <div-ref src="nt-grc" ref="Ac 1 11"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 61"/>
+         <div-ref src="nt-grc" ref="Mt 22 32"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 61"/>
+         <div-ref src="lxx" ref="Deut 18 11"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 61"/>
+         <div-ref src="lxx" ref="1Kgdms 28 7 - 1Kgdms 28 20"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 64"/>
+         <div-ref src="nt-grc" ref="Mt 9 2 - Mt 9 7"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 66"/>
+         <div-ref src="lxx" ref="Josh 5 2, Josh 5 3"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 70"/>
+         <div-ref src="nt-grc" ref="1Co 15 27"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 74"/>
+         <div-ref src="lxx" ref="Ps 9 17"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 76"/>
+         <div-ref src="nt-grc" ref="Eph 4 10"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="VI 77"/>
+         <div-ref src="nt-grc" ref="Lu 1 26 - Lu 1 38"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="VI 77"/>
+         <div-ref src="nt-grc" ref="Eph 3 9"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S1" ref="VI 77"/>
+         <div-ref src="nt-grc" ref="Eph 2 11 - Eph 2 13"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 84"/>
+         <div-ref src="lxx" ref="Eccl 11 10"/>
+      </align>
+      <align exclusive="true">
+         <div-ref src="S2" ref="VI 88"/>
+         <div-ref src="lxx" ref="Judg 5 20"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 89"/>
+         <div-ref src="nt-grc" ref="Col 1 18"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="VI 89"/>
+         <div-ref src="nt-grc" ref="Ro 8 29"/>
+      </align>
+   </body>
+</TAN-A-div>
