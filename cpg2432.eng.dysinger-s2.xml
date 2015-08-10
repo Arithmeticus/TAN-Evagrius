@@ -109,6 +109,7 @@
         <name xml:lang="eng">epilogue</name>
       </div-type>
       <recommended-tokenization which="general-1"/>
+      <recommended-div-type-refs>implicit</recommended-div-type-refs>
       <filter>
         <normalization>
           <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
@@ -137,6 +138,7 @@
       <IRI>http://schema.org/editor</IRI>
       <name xml:lang="eng">Editor</name>
     </role>
+    <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2014-10-30" who="kalvesmaki">Started TAN-TEI file.</change>
     <comment when="2014-10-30" who="kalvesmaki">From the source: Translation by Luke Dysinger,
       O.S.B. (translation in public domain) Note that the the majority of the Greek text below is

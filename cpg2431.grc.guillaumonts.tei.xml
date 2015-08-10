@@ -122,6 +122,7 @@
         <name xml:lang="grc">κεφάλαιον</name>
       </div-type>
       <recommended-tokenization which="general-words-only-1"/>
+      <recommended-div-type-refs>implicit</recommended-div-type-refs>
       <filter>
         <normalization>
           <for-lang>grc</for-lang>
@@ -140,6 +141,7 @@
       <IRI>http://schema.org/editor</IRI>
       <name xml:lang="eng">Editor</name>
     </role>
+    <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
       release.</change>
     <change when="2014-10-29" who="kalvesmaki">Started TAN-TEI file.</change>
@@ -150,7 +152,7 @@
   </head>
   <text>
     <body xml:lang="grc" in-progress="false">
-      <div type="title" n="1">
+      <div type="title" n="ti">
         <p><pb n="88"/>Ο ΓΝΩΣΤΙΚΟΣ <lb/>Η <lb/>ΠΡΟΣ ΤΟΝ ΚΑΤΑΞΙΩΘΕΝΤΑ ΓΝΩΣΕΩΣ</p>
       </div>
       <div type="chapter" n="1">

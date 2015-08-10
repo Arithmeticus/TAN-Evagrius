@@ -109,6 +109,7 @@
         <name xml:lang="eng">epilogue</name>
       </div-type>
       <recommended-tokenization which="general-1"/>
+      <recommended-div-type-refs>implicit</recommended-div-type-refs>
       <filter>
         <normalization>
           <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>

@@ -96,6 +96,7 @@
         <name xml:lang="grc">κεφάλαιον</name>
       </div-type>
       <recommended-tokenization which="general-1"/>
+      <recommended-div-type-refs>implicit</recommended-div-type-refs>
       <filter>
         <normalization>
           <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
@@ -128,6 +129,7 @@
       <IRI>http://schema.org/editor</IRI>
       <name xml:lang="eng">Editor</name>
     </role>
+    <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
       release.</change>
     <change when="2014-10-29" who="kalvesmaki">Started TAN-TEI file.</change>
@@ -144,7 +146,7 @@
   </head>
   <text>
     <body xml:lang="eng" in-progress="false">
-      <div type="title" n="1">
+      <div type="title" n="ti">
         <p>The Gnostikos [Knower], or  One Who is Worthy of Knowledge</p>
       </div>
       <div type="chapter" n="2">

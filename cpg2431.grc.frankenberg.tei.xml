@@ -104,6 +104,7 @@
         <name xml:lang="grc">κεφάλαιον</name>
       </div-type>
       <recommended-tokenization which="general-words-only-1"/>
+      <recommended-div-type-refs>implicit</recommended-div-type-refs>
       <filter/>
     </declarations>
     <agent xml:id="kalvesmaki" roles="editor">
@@ -115,13 +116,14 @@
       <IRI>http://schema.org/editor</IRI>
       <name xml:lang="eng">Editor</name>
     </role>
+    <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
       release.</change>
     <change when="2014-10-29" who="kalvesmaki">Started TAN-TEI file.</change>
   </head>
   <text>
     <body xml:lang="grc" in-progress="false">
-      <div type="title" n="1">
+      <div type="title" n="ti">
         <p>liber gnosticus aus add. 14578 fol. 11bβ—16bα</p>
       </div>
       <div type="chapter" n="1">
