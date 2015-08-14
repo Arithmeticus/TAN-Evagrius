@@ -72,7 +72,7 @@
     <name>CPG2430-eng-Dysinger.TAN-TEI.xml</name>
     <name xml:lang="eng">Dysinger's English translation of the Praktikos of Evagrios Pontikos,
       prepared for the Text Alignment Network</name>
-    <master-location>cpg2430.eng.dysinger.tei.xml</master-location>
+    <master-location>cpg2430.eng.dysinger.xml</master-location>
     <rights-excluding-sources rights-holder="kalvesmaki">
       <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
       <name xml:lang="eng">Creative Commons Attribution 4.0 International License.</name>
