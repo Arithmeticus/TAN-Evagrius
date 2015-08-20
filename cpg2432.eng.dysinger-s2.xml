@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI TAN-version="1"
   id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_eng_Dysinger_S2.TAN-TEI.001"
   xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -138,7 +138,7 @@
       <IRI>http://schema.org/editor</IRI>
       <name xml:lang="eng">Editor</name>
     </role>
-    <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
+    <change when="2015-08-20-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2014-10-30" who="kalvesmaki">Started TAN-TEI file.</change>
     <comment when="2014-10-30" who="kalvesmaki">From the source: Translation by Luke Dysinger,
       O.S.B. (translation in public domain) Note that the the majority of the Greek text below is
@@ -646,7 +646,7 @@
             body - if today and tomorrow he accomplishes miracles and the third day it is finished.
           </p>
         </div>
-        <div type="epilogue" n="">
+        <div type="epilogue" n="ep">
           <p n="S2">The End of the First [Century]</p>
         </div>
       </div>
@@ -1084,7 +1084,7 @@
             Lk 9:30) are those who have seen the first and blessed light, which we will see in
             Christ, when by an excellent change we will rise before him.</p>
         </div>
-        <div type="epilogue" n="">
+        <div type="epilogue" n="ep">
           <p n="S2">The End of the Second [Century]</p>
         </div>
       </div>
@@ -1521,7 +1521,7 @@
             chases the nous far from contemplation at the moment the demons resume[their role] as
             slanderers.</p>
         </div>
-        <div type="epilogue" n="">
+        <div type="epilogue" n="ep">
           <p n="S2">THE END of the THIRD [CENTURY]</p>
         </div>
       </div>
@@ -1972,7 +1972,7 @@
             that sees: for while impure souls may become dialecticians, seeing is reserved to the
             pure.</p>
         </div>
-        <div type="epilogue" n="">
+        <div type="epilogue" n="ep">
           <p n="S2">The End of the Fourth Century</p>
         </div>
       </div>
@@ -2410,7 +2410,7 @@
             the spiritual saying of the wise makes them know. But one who is deprived of these two
             proceeds to indict the writer. 1.</p>
         </div>
-        <div type="epilogue" n="">
+        <div type="epilogue" n="ep">
           <p n="S2">The End of the Fifth [Century]</p>
         </div>
       </div>
@@ -2859,7 +2859,7 @@
           <p n="S2">VI,90. Whoever will have obtained spiritual knowledge will help the holy angels
             and will return reasoning souls from vice to virtue and from ignorance to knowledge.</p>
         </div>
-        <div type="epilogue" n="">
+        <div type="epilogue" n="ep">
           <p n="S2">Scrutinize our words, O our brothers, and explicate with zeal these centuries,
             according to the number of the six days of creation.</p>
           <p n="S2">The End of the Six Centuries of the Blessed Evagrius</p>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI TAN-version="1"
   id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Frankenberg.TAN-TEI.001"
   xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -104,7 +104,7 @@
       <IRI>http://schema.org/editor</IRI>
       <name xml:lang="eng">Editor</name>
     </role>
-    <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
+    <change when="2015-08-20-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
       release.</change>
     <change when="2014-10-31" who="kalvesmaki">Started TAN-TEI file.</change>
@@ -3373,7 +3373,7 @@
             εκ της κακιας προς την αρετην <lb/>και εκ της αγνοιας προς την αληθειας επιγνωσιν
             ρυομενοις συνυπουργειτω. </p>
         </div>
-        <div type="epilogue" n="">
+        <div type="epilogue" n="ep">
           <p><pb n="423"/>
             <foreign xml:lang="Syr">&#x0722;</foreign>. Επιζητειτε λογους μου αδελφοι καληι διανοιαι
             εξηγουμενοι τοις εχομενοις <lb/>τουτου του σκοπου του ημιν εν αριθμωι τουτωι των
