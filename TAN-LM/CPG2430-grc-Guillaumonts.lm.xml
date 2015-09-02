@@ -46,6 +46,7 @@
             <for-lang>grc</for-lang>
             <IRI>tag:kalvesmaki.com,2014:tan-r-mor:grc:perseus</IRI>
             <name xml:lang="eng">Perseus Greek morphology</name>
+            <location when-accessed="2015-08-21-04:00">../../class-3/TAN-R-MOR/grc.kalvesmaki.com%2C2014.1.xml</location>
             <location when-accessed="2015-08-05-04:00">https://raw.githubusercontent.com/Arithmeticus/TAN-class-3/master/TAN-R-mor/grc.kalvesmaki.com%2C2014.1.xml</location>
          </morphology>
          <rename-div-types>
