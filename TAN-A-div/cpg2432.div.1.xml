@@ -6,8 +6,7 @@
 <TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
    id="tag:kalvesmaki@gmail.com,2014:cpg2432-TAN-A-div-et-al-1">
    <head>
-      <name>Div-based alignment of multiple versions of Evagrius's Kephalaia Gnostika along with
-         works quoted</name>
+      <name>Alignment of Evagrius's Kephalaia Gnostika and works cited</name>
       <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.div.1.xml</master-location>
       <rights-excluding-sources rights-holder="kalvesmaki">
          <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
