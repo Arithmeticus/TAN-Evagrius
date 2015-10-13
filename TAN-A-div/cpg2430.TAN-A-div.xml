@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
+   id="tag:kalvesmaki@gmail.com,2014:cpg2430-TAN-A-div-et-al-1">
+   <head>
+      <name>Alignment of Evagrius's Praktikos and works cited</name>
+      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A-div/cpg2430.TAN-A-div.xml</master-location>
+      <rights-excluding-sources include="HEAD"/>
+      <inclusion xml:id="HEAD">
+         <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
+         <name>Alignment of the works of Evagrius</name>
+         <location when-accessed="2015-10-12-04:00">HEAD.evagrius.TAN-A-div.xml</location>
+      </inclusion>
+      <inclusion xml:id="bible">
+         <IRI>tag:kalvesmaki.com,2014:tan-a-div:bible:for-evagrius</IRI>
+         <name>Bible versions relevant for alignment with the works of Evagrius</name>
+         <location when-accessed="2015-10-12-04:00">bible-for-evagrius.TAN-A-div.xml</location>
+      </inclusion>
+      <source xml:id="pr">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
+         <name>Transcription of Greek edition of the Praktikos by the Guillaumonts</name>
+         <location when-accessed="2015-08-07-04:00">../cpg2430.grc.guillaumonts.xml</location>
+      </source>
+      <source xml:id="pr-eng-Dy">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_eng_Dysinger.TAN-TEI.001</IRI>
+         <name>Transcription of 1997 English translation by Dysinger</name>
+         <location when-accessed="2015-08-07-04:00">../cpg2430.eng.dysinger.xml</location>
+      </source>
+      <source xml:id="pr-syr">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001</IRI>
+         <name>Transcription of Syriac edition in BL Add. 14,578.</name>
+         <location when-accessed="2015-08-08-04:00">../cpg2430.syr.bl14578.tei.xml</location>
+      </source>
+      <source include="bible"/>
+      <declarations>
+         <tokenization src="pr pr-syr" which="general-words-only-1"/>
+         <tokenization include="bible"/>
+         <tokenization src="pr-eng-Dy" which="general-1"/>
+         <implicit-div-type-refs include="bible"/>
+      </declarations>
+      <agent include="HEAD"/>
+      <role include="HEAD"/>
+      <change when="2015-10-12" who="kalvesmaki">Adapted for inclusions</change>
+      <change when="2014-10-15" who="kalvesmaki">Started file</change>
+      <change when="2014-11-16" who="kalvesmaki">Added new Biblical x-refs.</change>
+   </head>
+   <body>
+      <align>
+         <div-ref src="pr" ref="preface.:section.2"/>
+         <div-ref src="lxx" ref="Ps 126:1"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="preface.:section.2"/>
+         <div-ref src="lxx" ref="Isa 14:12"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="preface.:section.2"/>
+         <div-ref src="lxx" ref="Isa 31:5" strength="0.5"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="preface.:section.3"/>
+         <div-ref src="nt" ref="Jn 5:44"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="preface.:section.5"/>
+         <div-ref src="nt" ref="1Co 7:1"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="preface.:section.6"/>
+         <div-ref src="nt" ref="2Co 4:10"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="preface.:section.7"/>
+         <div-ref src="lxx" ref="Prov 3:18"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="preface.:section.9"/>
+         <div-ref src="nt" ref="Mt 7:6"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.12"/>
+         <div-ref src="lxx" ref="Ps 90:6"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.12"/>
+         <div-ref src="nt" ref="Jn 4:21 - Jn 4:24" strength="0.5"/>
+      </align>
+      <align strength="0.5">
+         <div-ref src="pr" ref="chapter.13"/>
+         <div-ref src="nt" ref="1Th 2:6"/>
+      </align>
+      <align strength="0.5">
+         <div-ref src="pr" ref="chapter.17"/>
+         <div-ref src="lxx" ref="Judg 7:5 - Judg 7:7"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.21"/>
+         <div-ref src="nt" ref="Eph 4:26"/>
+      </align>
+      <align strength="0.5">
+         <div-ref src="pr" ref="chapter.26"/>
+         <div-ref src="lxx" ref="Gen 32:7"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.27"/>
+         <div-ref src="lxx" ref="Ps 41:6"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.38"/>
+         <div-ref src="nt" ref="1Co 13:13"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.38"/>
+         <div-ref src="lxx" ref="Lev 11:22"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.46"/>
+         <div-ref src="nt" ref="Ac 1:24"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.49"/>
+         <div-ref src="nt" ref="1Th 5:17"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.50"/>
+         <div-ref src="lxx" ref="Ps 10:2"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.53"/>
+         <div-ref src="nt" ref="Ro 13:14"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.71"/>
+         <div-ref src="nt" ref="Eph 5:19"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.72"/>
+         <div-ref src="lxx" ref="Ps 17:39"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.72"/>
+         <div-ref src="lxx" ref="Ps 26:2"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.90"/>
+         <div-ref src="lxx" ref="Ps 125:6"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.93"/>
+         <div-ref src="nt" ref="Ac 9:15"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="chapter.97"/>
+         <div-ref src="nt" ref="Mt 19:21"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="epilogue."/>
+         <div-ref src="lxx" ref="Mal 3:20"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="epilogue."/>
+         <div-ref src="lxx" ref="Ps 103:13"/>
+      </align>
+      <align>
+         <div-ref src="pr" ref="epilogue."/>
+         <div-ref src="nt" ref="1Co 3:6, 1Co 3:7"/>
+      </align>
+   </body>
+</TAN-A-div>

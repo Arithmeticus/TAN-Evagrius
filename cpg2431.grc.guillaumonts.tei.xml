@@ -73,15 +73,15 @@
   </teiHeader>
   <head xmlns="tag:textalign.net,2015:ns">
     <name>CPG2431-grc-Guillaumonts.TAN-TEI.xml</name>
-    <name xml:lang="eng">Guillaumonts' Greek edition of the Gnostikos of Evagrios Pontikos, prepared
-      for the Text Alignment Network</name>
+    <name xml:lang="eng">Guillaumonts' Greek edition of the Gnostikos of Evagrios Pontikos</name>
     <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2431.grc.guillaumonts.tei.xml</master-location>
-    <rights-excluding-sources rights-holder="kalvesmaki">
-      <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
-      <name>Exclusive of rights held and licenses offered by rightsholders of the source or sources
-        listed below, this data file, insofar as it constitutes an independent work, is licensed
-        under a Creative Commons Attribution 4.0 International License.</name>
-    </rights-excluding-sources>
+    <rights-excluding-sources include="TAN-T"/>
+    <inclusion xml:id="TAN-T">
+      <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
+      <name>Guillaumonts' Greek edition of the Praktikos of Evagrios Pontikos, prepared for the
+        Text Alignment Network</name>
+      <location when-accessed="2015-10-13-04:00">CPG2430.grc.guillaumonts.xml</location>
+    </inclusion>
     <source>
       <IRI>http://lccn.loc.gov/90165214</IRI>
       <name xml:lang="fra">Le gnostique, ou, A celui qui est devenu digne de la science / Evagre le
@@ -112,15 +112,7 @@
         <IRI>tag:kalvesmaki.com,2014:cpg2430,grc-1989</IRI>
         <name xml:lang="eng">The Guillamonts' ancient Greek edition of the Gnostikos</name>
       </version>
-      <div-type xml:id="title">
-        <IRI>http://dbpedia.org/resource/Title_(publishing)</IRI>
-        <name xml:lang="eng">title</name>
-      </div-type>
-      <div-type xml:id="chapter">
-        <IRI>http://dbpedia.org/resource/Chapter_(books)</IRI>
-        <name xml:lang="eng">chapter</name>
-        <name xml:lang="grc">κεφάλαιον</name>
-      </div-type>
+      <div-type include="TAN-T"/>
       <recommended-tokenization which="general-words-only-1"/>
       <recommended-div-type-refs>implicit</recommended-div-type-refs>
       <filter>
@@ -132,15 +124,9 @@
         </normalization>
       </filter>
     </declarations>
-    <agent xml:id="kalvesmaki" roles="editor">
-      <IRI>http://viaf.org/viaf/299582703</IRI>
-      <IRI>tag:kalvesmaki.com,2014:self</IRI>
-      <name xml:lang="eng">Joel Kalvesmaki</name>
-    </agent>
-    <role xml:id="editor">
-      <IRI>http://schema.org/editor</IRI>
-      <name xml:lang="eng">Editor</name>
-    </role>
+    <agent include="TAN-T"/>
+    <role include="TAN-T"/>
+    <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
       release.</change>
@@ -152,285 +138,57 @@
   </head>
   <text>
     <body xml:lang="grc" in-progress="false">
-      <div type="title" n="ti">
-        <p><pb n="88"/>Ο ΓΝΩΣΤΙΚΟΣ <lb/>Η <lb/>ΠΡΟΣ ΤΟΝ ΚΑΤΑΞΙΩΘΕΝΤΑ ΓΝΩΣΕΩΣ</p>
-      </div>
-      <div type="chapter" n="1">
-        <p><supplied>&lt;α´&gt;</supplied></p>
-        <p>Πρακτικοὶ λόγους νοήσουσι πρακτικούς, γνωστικοὶ δὲ <lb/>ὄψονται γνωστικά.</p>
-      </div>
-      <div type="chapter" n="2">
-        <p><pb n="90"/><supplied>&lt;β´&gt;</supplied></p>
-        <p>Πρακτικὸς μέν ἐστιν ὁ τὸ παθητικὸν μέρος τῆς ψυχῆς <lb/>μόνον ἀπαθὲς κεκτημένος.</p>
-      </div>
-      <div type="chapter" n="3">
-        <p><supplied>&lt;γ´&gt;</supplied></p>
-        <p>Γνωστικὸς δὲ <cit>
-            <quote>ὁ ἁλὸς μὲν λόγον ἐπέχων τοῖς ἀκαθάρτοις, <lb/>φωτὸς δὲ τοῖς καθαροῖς</quote>
-            <ref cRef="Mt 5.13 - Mt 5.14"/>
-          </cit>. </p>
-      </div>
-      <div type="chapter" n="4">
-        <p><pb n="92"/><supplied>&lt;δ´&gt;</supplied></p>
-        <p>Ἡ μὲν ἔξωθεν ἡμῖν συμβαίνουσα γνῶσις, διὰ τῶν λόγων <lb/>ὑποδεικνύειν πειρᾶται τὰς ὕλας·
-          ἡ δὲ ἐκ Θεοῦ χάριτος <lb/>ἐγγινομένη, αὐτοψεὶ τῇ διανοίᾳ παρίστησι τὰ πράγματα, πρὸς<lb/>
-          ἃ βλέπων ὁ νοῦς, τοὺς αὐτῶν λόγους προσίεται· ἀντίκειται δὲ <lb/>τῇ μὲν προτέρᾳ
-            <supplied>&lt;ἡ πλάνη· τῇ δὲ δευτέρᾳ&gt;</supplied> ὀργὴ καὶ θυμός·<lb/>
-          <supplied>&lt;καὶ τὰ τούτοις παρακολουθοῦντα&gt;</supplied>. </p>
-      </div>
-      <div type="chapter" n="5">
-        <p><pb n="94"/><supplied>&lt;ε´&gt;</supplied></p>
-        <p>Πᾶσαι τῷ γνωστικῷ ὁδοποιοῦσιν αἱ ἀρεταί· ὑπὲρ δὲ πάσας <lb/>ἡ ἀοργησία. Ὁ γὰρ γνώσεως
-          ἐφαψάμενος καὶ πρὸς ὀργὴν <lb/>ῥᾳδίως κινούμενος, ὅμοιός ἐστι τῷ σιδηρᾷ περόνῃ τοὺς ἑαυτοῦ
-          <lb/>ὀφθαλμοὺς κατανύττοντι. </p>
-      </div>
-      <div type="chapter" n="6">
-        <p><pb n="96"/><supplied>&lt;ϛ´&gt;</supplied></p>
-        <p>Ἀσφαλιζέσθω δὲ ἐν ταῖς συγκαταβάσεσιν ὁ γνωστικός, <lb/>μήποτε λάθῃ αὐτὸν ἕξις γινομένη ἡ
-          συγκατάβασις, καὶ <lb/>πειράσθω πάσας ἐπίσης ἀεὶ τὰς ἀρετὰς κατορθοῦν, ἵνα<lb/>
-          ἀντακολουθῶσιν ἀλλήλαις καὶ ἐν αὐτῷ, διὰ τὸ πεφυκέναι τὸν <lb/>νοῦν ὑπὸ τῆς ἐλαττουμένης
-          προδίδοσθαι.</p>
-      </div>
-      <div type="chapter" n="7">
-        <p><pb n="98"/><supplied>&lt;ζ´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="8">
-        <p><pb n="100"/><supplied>&lt;η´&gt;</supplied></p>
-        <p>Αἰσχρὸν γνωστικῷ τὸ δικάζεσθαι καὶ ἀδικουμένῳ καὶ <lb/>ἀδικοῦντι· ἀδικουμένῳ μὲν ὅτι οὐχ
-          ὑπέμεινεν, ἀδικοῦντι δὲ ὅτι <lb/>ἠδίκησε.</p>
-      </div>
-      <div type="chapter" n="9">
-        <p><supplied>&lt;θ´&gt;</supplied></p>
-        <p>Ἡ γνῶσις συντηρουμένη διδάσκει τὸν μετέχοντα αὐτῆς <lb/>ὅπως ἂν διαφυλαχθῇ καὶ ἐπὶ
-          μείζονα προέλθοι. </p>
-      </div>
-      <div type="chapter" n="10">
-        <p><pb n="102"/><supplied>&lt;ι´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="11">
-        <p><pb n="104"/><supplied>&lt;ια´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="12">
-        <p><pb n="106"/><supplied>&lt;ιβ´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="13">
-        <p><supplied>&lt;ιγ´&gt;</supplied></p>
-        <p>Δίκαιον τοῖς μοναχοῖς καὶ τοῖς κοσμικοῖς περὶ πολιτείας <lb/>ὀρθῆς διαλέγεσθαι καὶ ὅσα
-          τῆς φυσικῆς ἢ θεολογικῆς δόγματα <lb/>σαφηνίζειν ἐκ μέρους, <cit>
-            <quote>ὧν χωρὶς οὐδεὶς ὄψεται τὸν Κύριον</quote>
-            <ref cRef="Heb 12.14"/>
-          </cit>. </p>
-      </div>
-      <div type="chapter" n="14">
-        <p><pb n="108"/><supplied>&lt;ιδ´&gt;</supplied><pb n="110"/></p>
-      </div>
-      <div type="chapter" n="15">
-        <p><pb n="112"/><supplied>&lt;ιε´&gt;</supplied></p>
-        <p>Γνώριζε καιρῶν καὶ βίων καὶ ἐπιτηδευμάτων τοὺς λόγους <lb/>καὶ τοὺς νόμους, ἵνα ἔχῃς
-          ἑκάστῳ τὰ συμφέροντα ῥᾳδίως <lb/>λέγειν. </p>
-      </div>
-      <div type="chapter" n="16">
-        <p><pb n="114"/><supplied>&lt;ιϛ´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="17">
-        <p><supplied>&lt;ιζ´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="18">
-        <p><pb n="116"/><supplied>&lt;ιη´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="19">
-        <p><pb n="118"/><supplied>&lt;ιθ´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="20">
-        <p><supplied>&lt;κ´&gt;</supplied><pb n="120"/></p>
-      </div>
-      <div type="chapter" n="21">
-        <p><pb n="122"/><supplied>&lt;κα´&gt;</supplied></p>
-        <p>Τοὺς τῶν ψεκτῶν προσώπων λόγους οὐκ ἀλληγορήσεις, οὐδὲ <lb/>ζητήσεις τι πνευματικὸν ἐν
-          αὐτοῖς, πλὴν εἰ μὴ δι’ οἰκονομίαν ὁ <lb/>Θεὸς ἐνήργησεν, ὡς ἐν τῷ <cit type="allusion">
-            <quote>Βαλαὰμ</quote>
-            <ref cRef="Num 24.17 - Num 24.19"/>
-          </cit> καὶ <cit type="allusion">
-            <quote>Καϊάφᾳ</quote>
-            <ref cRef="Jn 11.49 - Jn 11.51"/>
-          </cit>, ἵνα ὁ μὲν <lb/>περὶ γενέσεως, ὁ δὲ περὶ θανάτου τοῦ Σωτῆρος ἡμῶν προείπῃ.</p>
-      </div>
-      <div type="chapter" n="22">
-        <p><supplied>&lt;κβ´&gt;</supplied></p>
-        <p>Δεῖ δὲ μὴ σκυθρωπὸν εἶναι τὸν γνωστικὸν μηδὲ δυσπρόσι-<lb break="no"/>τον· τὸ μὲν γὰρ
-          ἀγνοοῦντός ἐστι τοὺς λόγους τῶν γινομένων· <lb/>τὸ δὲ μὴ βουλομένου <cit>
-            <quote>πάντας ἀνθρώπους σωθῆναι καὶ εἰς <lb/>ἐπίγνωσιν ἀληθείας ἐλθεῖν</quote>
-            <ref cRef="1Ti 2.4"/>
-          </cit>. </p>
-      </div>
-      <div type="chapter" n="23">
-        <p><pb n="124"/><supplied>&lt;κγ´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="24">
-        <p><pb n="126"/><supplied>&lt;κδ´&gt;</supplied></p>
-        <p>Πρόσεχε σεαυτῷ μήποτε κέρδους ἕνεκεν ἢ τοῦ εὐπαθεῖν, ἢ <lb/>δόξης χάριν παρερχομένης,
-          εἴπῃς τι τῶν ἀπορρήτων καὶ βληθῇς <lb/>ἔξω τῶν ἱερῶν περιβόλων, ὡς καὶ αὐτὸς <cit
-            type="allusion">
-            <quote>ἐν τῷ ναῷ τὰ τῆς <lb/>περιστερᾶς τέκνα πιπράσκων</quote>
-            <ref cRef="Mat 21.12 - Mat 21.13"/>
-          </cit>. </p>
-      </div>
-      <div type="chapter" n="25">
-        <p><pb n="128"/><supplied>&lt;κε´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="26">
-        <p><pb n="130"/><supplied>&lt;κϛ´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="27">
-        <p><pb n="132"/><supplied>&lt;κζ´&gt;</supplied></p>
-        <p>Μὴ ἀπερισκέπτως θεολογήσῃς, μηδέποτε ὁρίζου τὸ θεῖον· <lb/>τῶν γὰρ
-            <supplied>&lt;γεγονότων καὶ&gt;</supplied> συνθέτων εἰσὶν οἱ ὅροι. </p>
-      </div>
-      <div type="chapter" n="28">
-        <p><pb n="134"/><supplied>&lt;κη´&gt;</supplied></p>
-        <p>.............................................. <lb/>........ὅτι μισεῖ κακίαν ὁ πειραθεὶς
-          κακίαν, πεῖρα δὲ τῆς <lb/>ἐγκαταλείψεως ἔγγονος............................. <pb n="136"
-            /><pb n="138"/><pb n="140"/></p>
-      </div>
-      <div type="chapter" n="29">
-        <p><pb n="142"/><supplied>&lt;κθ´&gt;</supplied></p>
-        <p>Οἱ διδασκόμενοι λεγέτωσάν σοι ἀεὶ τό· <cit>
-            <quote>φίλε προσανάβηθι <lb/>ἄνω</quote>
-            <ref cRef="Lk 14.10"/>
-          </cit>· αἰσχρὸν γάρ ἐστιν ἀναβάντα σε πάλιν ὑπὸ τῶν ἀκουόντων <lb/>κατενεχθῆναι.</p>
-      </div>
-      <div type="chapter" n="30">
-        <p><supplied>&lt;λ´&gt;</supplied></p>
-        <p>Φιλάργυρός ἐστιν οὐχ ὁ ἔχων χρήματα, ἀλλ’ ὁ ἐφιέμενος <lb/>τούτων· τὸν γὰρ οἰκονόμον
-          εἶναί φασι βαλάντιον λογικόν. <pb n="144"/></p>
-      </div>
-      <div type="chapter" n="31">
-        <p><pb n="146"/><supplied>&lt;λα´&gt;</supplied></p>
-        <p>Γέροντας μὲν θυμοῦ, τοὺς δὲ νέους γαστρὸς κρατεῖν <lb/>παρακάλει· τοὺς μὲν γὰρ οἱ
-          ψυχικοί, τοὺς δὲ ἐπὶ πλεῖστον οἱ <lb/>σωματικοὶ διαμάχονται δαίμονες. </p>
-      </div>
-      <div type="chapter" n="32">
-        <p><pb n="148"/><supplied>&lt;λβ´&gt;</supplied></p>
-        <p>Ἔμφραττε στόματα τῶν καταλαλούντων ἐν ἀκοαῖς σου· καὶ <lb/>μὴ θαυμάσῃς ὑπὸ πλείστων
-          κατηγορούμενος· οὗτος γὰρ ὁ <lb/>πειρασμὸς ἐκ δαιμόνων· τὸν γὰρ γνωστικὸν ἐλεύθερον εἶναι
-          δεῖ <lb/>μίσους καὶ μνησικακίας, καὶ μὴ βουλομένων. </p>
-      </div>
-      <div type="chapter" n="33">
-        <p><pb n="150"/><supplied>&lt;λγ´&gt;</supplied></p>
-        <p>Λέληθεν ἴσως ἑαυτὸν θεραπεύων ὁ διὰ τὸν Κύριον τοὺς <lb/>ἀνθρώπους ἰώμενος· ὃ γὰρ
-          προσάγει φάρμακον ὁ γνωστικός, <lb/>τὸν μὲν πλησίον ἐνδεχομένως, ἑαυτὸν δὲ
-            <supplied>&lt;ἀναγκαίως&gt;</supplied> ἰᾶται. </p>
-      </div>
-      <div type="chapter" n="34">
-        <p><pb n="152"/><supplied>&lt;λδ´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="35">
-        <p><pb n="154"/><supplied>&lt;λε´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="36">
-        <p><supplied>&lt;λϛ´&gt;</supplied></p>
-        <p>Λανθανέτω τοὺς κοσμικοὺς καὶ τοὺς νέους ὁ περὶ κρίσεως <lb/>ὑψηλότερος λόγος, γεννῶν
-          ῥᾳδίως τὴν καταφρόνησιν· οὐ γὰρ <lb/>ἴσασιν ὀδύνην ψυχῆς λογικῆς καταδικασθείσης τὴν
-          ἄγνοιαν. <pb n="156"/></p>
-      </div>
-      <div type="chapter" n="37">
-        <p><pb n="158"/><supplied>&lt;λζ´&gt;</supplied></p>
-        <p>Ὁ ἅγιος Παῦλος <cit type="allusion">
-            <quote>ὑποπιάζων ἐδουλαγώγει τὸ σῶμα</quote>
-            <ref cRef="1Co 9.27"/>
-          </cit>· μὴ <lb/>ἀμελήσῃς οὖν τῆς διαίτης ἐν τῇ ζωῇ σου καὶ μὴ καθυβρίσῃς τὴν <lb/>ἀπάθειαν
-          σώματι παχεῖ <supplied>&lt;ταπεινώσας&gt;</supplied> αὐτήν. </p>
-      </div>
-      <div type="chapter" n="38">
-        <p><pb n="160"/><supplied>&lt;λη´&gt;</supplied></p>
-        <p><cit>
-            <quote>Μὴ μεριμνήσῃς περὶ βρωμάτων ἢ ἐνδυμάτων</quote>
-            <ref cRef="Mt 6.25"/>
-            <ref cRef="Lk 12.22"/>
-          </cit>, ἀλλὰ <lb/>μέμνησο τοῦ <cit type="allusion">
-            <quote>Ἀβενὴρ τοῦ λευίτου ὃς τὴν κιβωτὸν ὑποδεξάμενος <lb/>τοῦ Κυρίου, πλούσιος ἐκ
-              πενήτων καὶ ἔνδοξος ἐξ ἀτίμων<lb/> γέγονε</quote>
-            <ref cRef="2Sa 6.10 - 2Sa 6.11"/>
-          </cit>. </p>
-      </div>
-      <div type="chapter" n="39">
-        <p><pb n="162"/><supplied>&lt;λθ´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="40">
-        <p><pb n="164"/><supplied>&lt;μ´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="41">
-        <p><pb n="166"/><supplied>&lt;μα´&gt;</supplied></p>
-        <p>Πᾶσα πρότασις ἢ γένος ἔχει κατηγορούμενον, ἢ διαφοράν, ἢ <lb/>εἶδος, ἢ ἴδιον, ἢ
-          συμβεβηκός, ἢ τὸ ἐκ τούτων συγκείμενον· <lb/>οὐδὲν δὲ ἐπὶ τῆς ἁγίας Τριάδος τῶν εἰρημένων
-          ἔστι λαβεῖν. <lb/>Σιωπῇ προσκυνείσθω τὸ ἄρρητον.<pb n="168"/>
-        </p>
-      </div>
-      <div type="chapter" n="42">
-        <p><pb n="170"/><supplied>&lt;μβ´&gt;</supplied></p>
-        <p>Πειρασμὸς γνωστικοῦ ἐστιν ὑπόληψις ψευδὴς περὶ τὸν νοῦν <lb/>ἱσταμένη τοῦ ὑπάρχοντος μὲν
-            <supplied>&lt;ὡς μὴ ὑπάρχοντος, τοῦ δὲ μὴ <lb/>ὑπάρχοντος ὡς ὑπάρχοντος, καὶ τοῦ
-            ὑπάρχοντος μὲν&gt;</supplied> μὴ <lb/>οὕτως δὲ ὑπάρχοντος ὥσπερ γέγονε. </p>
-      </div>
-      <div type="chapter" n="43">
-        <p><supplied>&lt;μγ´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="44">
-        <p><pb n="172"/><supplied>&lt;μδ´&gt;</supplied></p>
-        <p>Τέσσαρας ἀρετὰς καὶ τῆς θεωρίας αὐτῆς, παρὰ τοῦ δικαίου <lb/>Γρηγορίου μεμαθήκαμεν εἶναι,
-          φρόνησιν καὶ ἀνδρείαν, σωφρο-<lb break="no"/>σύνην καὶ δικαιοσύνην· καὶ φρονήσεως μὲν
-          ἔργον ἔλεγεν εἶναι <lb/>τὸ θεωρεῖν τὰς νοερὰς καὶ ἁγίας δυνάμεις δίχα τῶν λόγων·
-          <lb/>τούτους γὰρ ὑπὸ τῆς σοφίας μόνης δηλοῦσθαι παραδέδωκεν· <pb n="174"/> ἀνδρείας δὲ τὸ
-          ἐγκαρτερεῖν τοῖς ἀληθέσι καὶ πολεμούμενον, <lb/>καὶ μὴ ἐμβατεύειν εἰς τὰ μὴ ὄντα· <cit
-            type="allusion">
-            <quote>τὸ δὲ παρὰ τοῦ πρώτου <lb/>γεωργοῦ δέχεσθαι τὰ σπέρματα καὶ ἀπωθεῖσθαι τὸν
-              <lb/>ἐπισπορέα</quote>
-            <ref cRef="Mat 13.25"/>
-          </cit>, τῆς σωφροσύνης ἴδιον ἀπεκρίνατο εἶναι· δικαιο-<lb break="no"/>σύνης δὲ πάλιν, τὸ
-          κατ’ ἀξίαν ἑκάστῳ τοὺς λόγους ἀποδιδόναι, <lb/>τὰ μὲν σκοτεινῶς ἀπαγγέλλουσαν, τὰ δὲ δι’
-          αἰνιγμάτων <lb/>σημαίνουσαν, τινὰ δὲ καὶ φανεροῦσαν πρὸς ὠφέλειαν τῶν <lb/>ἁπλουστέρων.
-            <pb n="176"/></p>
-      </div>
-      <div type="chapter" n="45">
-        <p><pb n="178"/><supplied>&lt;με´&gt;</supplied></p>
-        <p>Τῆς ἀληθείας ὁ στύλος ὁ καππαδόκης Βασίλειος· τὴν μὲν <lb/>ἀπὸ ἀνθρώπων, φησίν,
-          ἐπισυμβαίνουσαν γνῶσιν, προσεχὴς <lb/>μελέτη καὶ γυμνασία κρατύνει· τὴν δὲ ἐκ Θεοῦ χάριτος
-          <lb/>ἐγγινομένην, δικαιοσύνη καὶ ἀοργησία καὶ ἔλεος· καὶ τὴν μὲν <lb/>προτέραν, δυνατὸν
-          καὶ τοὺς ἐμπαθεῖς ὑποδέξασθαι· τῆς δὲ <lb/>δευτέρας οἱ ἀπαθεῖς μόνοι εἰσὶ δεκτικοί· οἳ καὶ
-          παρὰ τὸν καιρὸν <lb/>τῆς προσευχῆς τὸ οἰκεῖον φέγγος τοῦ νοῦ περιλάμπον αὐτοὺς
-          <lb/>θεωροῦσιν. <pb n="180"/></p>
-      </div>
-      <div type="chapter" n="46">
-        <p><pb n="182"/><supplied>&lt;μϛ´&gt;</supplied></p>
-        <p>Τῶν Αἰγυπτίων ὁ ἅγιος φωστὴρ Ἀθανάσιος· τὴν τράπεζαν, <lb/>φησί, <cit type="allusion">
-            <quote>Μωϋσῆς εἰς τὸ βόρειον μέρος στῆσαι προστάσσεται</quote>
-            <ref cRef="Ex 26.35"/>
-          </cit>· <lb/>γινωσκέτωσαν οἱ γνωστικοὶ τίς ὁ πνέων ἐστὶ κατ’ αὐτῶν, καὶ <lb/>πάντα
-          πειρασμὸν γενναίως ὑπομενέτωσαν, καὶ μετὰ προθυμίας <lb/>τοὺς προσιόντας τρεφέτωσαν. </p>
-      </div>
-      <div type="chapter" n="47">
-        <p><pb n="184"/><supplied>&lt;μζ´&gt;</supplied></p>
-        <p>Ἔλεγεν ὁ τῆς Θμουϊτῶν ἐκκλησίας ἄγγελος Σαραπίων ὅτι ὁ <lb/>νοῦς μὲν πεπωκὼς πνευματικὴν
-          γνῶσιν τελείως καθαίρεται, <lb/>ἀγάπη δὲ τὰ φλεγμαίνοντα μόρια τοῦ θυμοῦ θεραπεύει·<lb/>
-          πονηρὰς δὲ ἐπιθυμίας ἐπιρρεούσας ἵστησιν ἐγκράτεια. </p>
-      </div>
-      <div type="chapter" n="48">
-        <p><pb n="186"/><supplied>&lt;μη´&gt;</supplied></p>
-        <p>Τοὺς περὶ προνοίας καὶ κρίσεως κατὰ σαυτὸν ἀεὶ γύμναζε <lb/>λόγους, φησὶν ὁ μέγας καὶ
-          γνωστικὸς διδάσκαλος Δίδυμος, καὶ <lb/>τούτων τὰς ὕλας διὰ μνήμης φέρειν πειράθητι·
-          ἅπαντες γὰρ <lb/>σχεδὸν ἐν τούτοις προσπταίουσι. Καὶ τοὺς μὲν περὶ κρίσεως <lb/>λόγους ἐν
-          τῇ διαφορᾷ τῶν σωμάτων καὶ τῶν κόσμων εὑρήσεις· <lb/>τοὺς δὲ περὶ προνοίας ἐν τοῖς τρόποις
-          τοῖς ἀπὸ κακίας καὶ <lb/>ἀγνωσίας ἐπὶ τὴν ἀρετὴν ἢ ἐπὶ τὴν γνῶσιν ἡμᾶς ἐπανάγουσι. <pb
-            n="188"/></p>
-      </div>
-      <div type="chapter" n="49">
-        <p><pb n="190"/><supplied>&lt;μθ´&gt;</supplied></p>
-      </div>
-      <div type="chapter" n="50">
-        <p><pb n="192"/><supplied>&lt;ν´&gt;</supplied></p>
-        <p>Πρὸς τὸ ἀρχέτυπον βλέπων ἀεὶ πειρῶ γράφειν τὰς εἰκόνας <lb/>μηδὲν παρεὶς τῶν συντελούντων
-          πρὸς τὸ κερδᾶναι τὴν <lb/>ἐκπεσοῦσαν.</p>
-      </div>
+      <div type="title" n="ti"> <p><pb n="88"/>Ο ΓΝΩΣΤΙΚΟΣ <lb/>Η <lb/>ΠΡΟΣ ΤΟΝ ΚΑΤΑΞΙΩΘΕΝΤΑ ΓΝΩΣΕΩΣ</p> </div>
+      <div type="chapter" n="1"> <p><supplied>&lt;α´&gt;</supplied></p> <p>Πρακτικοὶ λόγους νοήσουσι πρακτικούς, γνωστικοὶ δὲ <lb/>ὄψονται γνωστικά.</p> </div>
+      <div type="chapter" n="2"> <p><pb n="90"/><supplied>&lt;β´&gt;</supplied></p> <p>Πρακτικὸς μέν ἐστιν ὁ τὸ παθητικὸν μέρος τῆς ψυχῆς <lb/>μόνον ἀπαθὲς κεκτημένος.</p> </div>
+      <div type="chapter" n="3"> <p><supplied>&lt;γ´&gt;</supplied></p> <p>Γνωστικὸς δὲ <cit> <quote>ὁ ἁλὸς μὲν λόγον ἐπέχων τοῖς ἀκαθάρτοις, <lb/>φωτὸς δὲ τοῖς καθαροῖς</quote> <ref cRef="Mt 5.13 - Mt 5.14"/> </cit>. </p> </div>
+      <div type="chapter" n="4"> <p><pb n="92"/><supplied>&lt;δ´&gt;</supplied></p> <p>Ἡ μὲν ἔξωθεν ἡμῖν συμβαίνουσα γνῶσις, διὰ τῶν λόγων <lb/>ὑποδεικνύειν πειρᾶται τὰς ὕλας· ἡ δὲ ἐκ Θεοῦ χάριτος <lb/>ἐγγινομένη, αὐτοψεὶ τῇ διανοίᾳ παρίστησι τὰ πράγματα, πρὸς<lb/> ἃ βλέπων ὁ νοῦς, τοὺς αὐτῶν λόγους προσίεται· ἀντίκειται δὲ <lb/>τῇ μὲν προτέρᾳ <supplied>&lt;ἡ πλάνη· τῇ δὲ δευτέρᾳ&gt;</supplied> ὀργὴ καὶ θυμός·<lb/> <supplied>&lt;καὶ τὰ τούτοις παρακολουθοῦντα&gt;</supplied>. </p> </div>
+      <div type="chapter" n="5"> <p><pb n="94"/><supplied>&lt;ε´&gt;</supplied></p> <p>Πᾶσαι τῷ γνωστικῷ ὁδοποιοῦσιν αἱ ἀρεταί· ὑπὲρ δὲ πάσας <lb/>ἡ ἀοργησία. Ὁ γὰρ γνώσεως ἐφαψάμενος καὶ πρὸς ὀργὴν <lb/>ῥᾳδίως κινούμενος, ὅμοιός ἐστι τῷ σιδηρᾷ περόνῃ τοὺς ἑαυτοῦ <lb/>ὀφθαλμοὺς κατανύττοντι. </p> </div>
+      <div type="chapter" n="6"> <p><pb n="96"/><supplied>&lt;ϛ´&gt;</supplied></p> <p>Ἀσφαλιζέσθω δὲ ἐν ταῖς συγκαταβάσεσιν ὁ γνωστικός, <lb/>μήποτε λάθῃ αὐτὸν ἕξις γινομένη ἡ συγκατάβασις, καὶ <lb/>πειράσθω πάσας ἐπίσης ἀεὶ τὰς ἀρετὰς κατορθοῦν, ἵνα<lb/> ἀντακολουθῶσιν ἀλλήλαις καὶ ἐν αὐτῷ, διὰ τὸ πεφυκέναι τὸν <lb/>νοῦν ὑπὸ τῆς ἐλαττουμένης προδίδοσθαι.</p> </div>
+      <div type="chapter" n="7"> <p><pb n="98"/><supplied>&lt;ζ´&gt;</supplied></p> </div>
+      <div type="chapter" n="8"> <p><pb n="100"/><supplied>&lt;η´&gt;</supplied></p> <p>Αἰσχρὸν γνωστικῷ τὸ δικάζεσθαι καὶ ἀδικουμένῳ καὶ <lb/>ἀδικοῦντι· ἀδικουμένῳ μὲν ὅτι οὐχ ὑπέμεινεν, ἀδικοῦντι δὲ ὅτι <lb/>ἠδίκησε.</p> </div>
+      <div type="chapter" n="9"> <p><supplied>&lt;θ´&gt;</supplied></p> <p>Ἡ γνῶσις συντηρουμένη διδάσκει τὸν μετέχοντα αὐτῆς <lb/>ὅπως ἂν διαφυλαχθῇ καὶ ἐπὶ μείζονα προέλθοι. </p> </div>
+      <div type="chapter" n="10"> <p><pb n="102"/><supplied>&lt;ι´&gt;</supplied></p> </div>
+      <div type="chapter" n="11"> <p><pb n="104"/><supplied>&lt;ια´&gt;</supplied></p> </div>
+      <div type="chapter" n="12"> <p><pb n="106"/><supplied>&lt;ιβ´&gt;</supplied></p> </div>
+      <div type="chapter" n="13"> <p><supplied>&lt;ιγ´&gt;</supplied></p> <p>Δίκαιον τοῖς μοναχοῖς καὶ τοῖς κοσμικοῖς περὶ πολιτείας <lb/>ὀρθῆς διαλέγεσθαι καὶ ὅσα τῆς φυσικῆς ἢ θεολογικῆς δόγματα <lb/>σαφηνίζειν ἐκ μέρους, <cit> <quote>ὧν χωρὶς οὐδεὶς ὄψεται τὸν Κύριον</quote> <ref cRef="Heb 12.14"/> </cit>. </p> </div>
+      <div type="chapter" n="14"> <p><pb n="108"/><supplied>&lt;ιδ´&gt;</supplied><pb n="110"/></p> </div>
+      <div type="chapter" n="15"> <p><pb n="112"/><supplied>&lt;ιε´&gt;</supplied></p> <p>Γνώριζε καιρῶν καὶ βίων καὶ ἐπιτηδευμάτων τοὺς λόγους <lb/>καὶ τοὺς νόμους, ἵνα ἔχῃς ἑκάστῳ τὰ συμφέροντα ῥᾳδίως <lb/>λέγειν. </p> </div>
+      <div type="chapter" n="16"> <p><pb n="114"/><supplied>&lt;ιϛ´&gt;</supplied></p> </div>
+      <div type="chapter" n="17"> <p><supplied>&lt;ιζ´&gt;</supplied></p> </div>
+      <div type="chapter" n="18"> <p><pb n="116"/><supplied>&lt;ιη´&gt;</supplied></p> </div>
+      <div type="chapter" n="19"> <p><pb n="118"/><supplied>&lt;ιθ´&gt;</supplied></p> </div>
+      <div type="chapter" n="20"> <p><supplied>&lt;κ´&gt;</supplied><pb n="120"/></p> </div>
+      <div type="chapter" n="21"> <p><pb n="122"/><supplied>&lt;κα´&gt;</supplied></p> <p>Τοὺς τῶν ψεκτῶν προσώπων λόγους οὐκ ἀλληγορήσεις, οὐδὲ <lb/>ζητήσεις τι πνευματικὸν ἐν αὐτοῖς, πλὴν εἰ μὴ δι’ οἰκονομίαν ὁ <lb/>Θεὸς ἐνήργησεν, ὡς ἐν τῷ <cit type="allusion"> <quote>Βαλαὰμ</quote> <ref cRef="Num 24.17 - Num 24.19"/> </cit> καὶ <cit type="allusion"> <quote>Καϊάφᾳ</quote> <ref cRef="Jn 11.49 - Jn 11.51"/> </cit>, ἵνα ὁ μὲν <lb/>περὶ γενέσεως, ὁ δὲ περὶ θανάτου τοῦ Σωτῆρος ἡμῶν προείπῃ.</p> </div>
+      <div type="chapter" n="22"> <p><supplied>&lt;κβ´&gt;</supplied></p> <p>Δεῖ δὲ μὴ σκυθρωπὸν εἶναι τὸν γνωστικὸν μηδὲ δυσπρόσι-<lb break="no"/>τον· τὸ μὲν γὰρ ἀγνοοῦντός ἐστι τοὺς λόγους τῶν γινομένων· <lb/>τὸ δὲ μὴ βουλομένου <cit> <quote>πάντας ἀνθρώπους σωθῆναι καὶ εἰς <lb/>ἐπίγνωσιν ἀληθείας ἐλθεῖν</quote> <ref cRef="1Ti 2.4"/> </cit>. </p> </div>
+      <div type="chapter" n="23"> <p><pb n="124"/><supplied>&lt;κγ´&gt;</supplied></p> </div>
+      <div type="chapter" n="24"> <p><pb n="126"/><supplied>&lt;κδ´&gt;</supplied></p> <p>Πρόσεχε σεαυτῷ μήποτε κέρδους ἕνεκεν ἢ τοῦ εὐπαθεῖν, ἢ <lb/>δόξης χάριν παρερχομένης, εἴπῃς τι τῶν ἀπορρήτων καὶ βληθῇς <lb/>ἔξω τῶν ἱερῶν περιβόλων, ὡς καὶ αὐτὸς <cit type="allusion"> <quote>ἐν τῷ ναῷ τὰ τῆς <lb/>περιστερᾶς τέκνα πιπράσκων</quote> <ref cRef="Mat 21.12 - Mat 21.13"/> </cit>. </p> </div>
+      <div type="chapter" n="25"> <p><pb n="128"/><supplied>&lt;κε´&gt;</supplied></p> </div>
+      <div type="chapter" n="26"> <p><pb n="130"/><supplied>&lt;κϛ´&gt;</supplied></p> </div>
+      <div type="chapter" n="27"> <p><pb n="132"/><supplied>&lt;κζ´&gt;</supplied></p> <p>Μὴ ἀπερισκέπτως θεολογήσῃς, μηδέποτε ὁρίζου τὸ θεῖον· <lb/>τῶν γὰρ <supplied>&lt;γεγονότων καὶ&gt;</supplied> συνθέτων εἰσὶν οἱ ὅροι. </p> </div>
+      <div type="chapter" n="28"> <p><pb n="134"/><supplied>&lt;κη´&gt;</supplied></p> <p>.............................................. <lb/>........ὅτι μισεῖ κακίαν ὁ πειραθεὶς κακίαν, πεῖρα δὲ τῆς <lb/>ἐγκαταλείψεως ἔγγονος............................. <pb n="136" /><pb n="138"/><pb n="140"/></p> </div>
+      <div type="chapter" n="29"> <p><pb n="142"/><supplied>&lt;κθ´&gt;</supplied></p> <p>Οἱ διδασκόμενοι λεγέτωσάν σοι ἀεὶ τό· <cit> <quote>φίλε προσανάβηθι <lb/>ἄνω</quote> <ref cRef="Lk 14.10"/> </cit>· αἰσχρὸν γάρ ἐστιν ἀναβάντα σε πάλιν ὑπὸ τῶν ἀκουόντων <lb/>κατενεχθῆναι.</p> </div>
+      <div type="chapter" n="30"> <p><supplied>&lt;λ´&gt;</supplied></p> <p>Φιλάργυρός ἐστιν οὐχ ὁ ἔχων χρήματα, ἀλλ’ ὁ ἐφιέμενος <lb/>τούτων· τὸν γὰρ οἰκονόμον εἶναί φασι βαλάντιον λογικόν. <pb n="144"/></p> </div>
+      <div type="chapter" n="31"> <p><pb n="146"/><supplied>&lt;λα´&gt;</supplied></p> <p>Γέροντας μὲν θυμοῦ, τοὺς δὲ νέους γαστρὸς κρατεῖν <lb/>παρακάλει· τοὺς μὲν γὰρ οἱ ψυχικοί, τοὺς δὲ ἐπὶ πλεῖστον οἱ <lb/>σωματικοὶ διαμάχονται δαίμονες. </p> </div>
+      <div type="chapter" n="32"> <p><pb n="148"/><supplied>&lt;λβ´&gt;</supplied></p> <p>Ἔμφραττε στόματα τῶν καταλαλούντων ἐν ἀκοαῖς σου· καὶ <lb/>μὴ θαυμάσῃς ὑπὸ πλείστων κατηγορούμενος· οὗτος γὰρ ὁ <lb/>πειρασμὸς ἐκ δαιμόνων· τὸν γὰρ γνωστικὸν ἐλεύθερον εἶναι δεῖ <lb/>μίσους καὶ μνησικακίας, καὶ μὴ βουλομένων. </p> </div>
+      <div type="chapter" n="33"> <p><pb n="150"/><supplied>&lt;λγ´&gt;</supplied></p> <p>Λέληθεν ἴσως ἑαυτὸν θεραπεύων ὁ διὰ τὸν Κύριον τοὺς <lb/>ἀνθρώπους ἰώμενος· ὃ γὰρ προσάγει φάρμακον ὁ γνωστικός, <lb/>τὸν μὲν πλησίον ἐνδεχομένως, ἑαυτὸν δὲ <supplied>&lt;ἀναγκαίως&gt;</supplied> ἰᾶται. </p> </div>
+      <div type="chapter" n="34"> <p><pb n="152"/><supplied>&lt;λδ´&gt;</supplied></p> </div>
+      <div type="chapter" n="35"> <p><pb n="154"/><supplied>&lt;λε´&gt;</supplied></p> </div>
+      <div type="chapter" n="36"> <p><supplied>&lt;λϛ´&gt;</supplied></p> <p>Λανθανέτω τοὺς κοσμικοὺς καὶ τοὺς νέους ὁ περὶ κρίσεως <lb/>ὑψηλότερος λόγος, γεννῶν ῥᾳδίως τὴν καταφρόνησιν· οὐ γὰρ <lb/>ἴσασιν ὀδύνην ψυχῆς λογικῆς καταδικασθείσης τὴν ἄγνοιαν. <pb n="156"/></p> </div>
+      <div type="chapter" n="37"> <p><pb n="158"/><supplied>&lt;λζ´&gt;</supplied></p> <p>Ὁ ἅγιος Παῦλος <cit type="allusion"> <quote>ὑποπιάζων ἐδουλαγώγει τὸ σῶμα</quote> <ref cRef="1Co 9.27"/> </cit>· μὴ <lb/>ἀμελήσῃς οὖν τῆς διαίτης ἐν τῇ ζωῇ σου καὶ μὴ καθυβρίσῃς τὴν <lb/>ἀπάθειαν σώματι παχεῖ <supplied>&lt;ταπεινώσας&gt;</supplied> αὐτήν. </p> </div>
+      <div type="chapter" n="38"> <p><pb n="160"/><supplied>&lt;λη´&gt;</supplied></p> <p><cit> <quote>Μὴ μεριμνήσῃς περὶ βρωμάτων ἢ ἐνδυμάτων</quote> <ref cRef="Mt 6.25"/> <ref cRef="Lk 12.22"/> </cit>, ἀλλὰ <lb/>μέμνησο τοῦ <cit type="allusion"> <quote>Ἀβενὴρ τοῦ λευίτου ὃς τὴν κιβωτὸν ὑποδεξάμενος <lb/>τοῦ Κυρίου, πλούσιος ἐκ πενήτων καὶ ἔνδοξος ἐξ ἀτίμων<lb/> γέγονε</quote> <ref cRef="2Sa 6.10 - 2Sa 6.11"/> </cit>. </p> </div>
+      <div type="chapter" n="39"> <p><pb n="162"/><supplied>&lt;λθ´&gt;</supplied></p> </div>
+      <div type="chapter" n="40"> <p><pb n="164"/><supplied>&lt;μ´&gt;</supplied></p> </div>
+      <div type="chapter" n="41"> <p><pb n="166"/><supplied>&lt;μα´&gt;</supplied></p> <p>Πᾶσα πρότασις ἢ γένος ἔχει κατηγορούμενον, ἢ διαφοράν, ἢ <lb/>εἶδος, ἢ ἴδιον, ἢ συμβεβηκός, ἢ τὸ ἐκ τούτων συγκείμενον· <lb/>οὐδὲν δὲ ἐπὶ τῆς ἁγίας Τριάδος τῶν εἰρημένων ἔστι λαβεῖν. <lb/>Σιωπῇ προσκυνείσθω τὸ ἄρρητον.<pb n="168"/> </p> </div>
+      <div type="chapter" n="42"> <p><pb n="170"/><supplied>&lt;μβ´&gt;</supplied></p> <p>Πειρασμὸς γνωστικοῦ ἐστιν ὑπόληψις ψευδὴς περὶ τὸν νοῦν <lb/>ἱσταμένη τοῦ ὑπάρχοντος μὲν <supplied>&lt;ὡς μὴ ὑπάρχοντος, τοῦ δὲ μὴ <lb/>ὑπάρχοντος ὡς ὑπάρχοντος, καὶ τοῦ ὑπάρχοντος μὲν&gt;</supplied> μὴ <lb/>οὕτως δὲ ὑπάρχοντος ὥσπερ γέγονε. </p> </div>
+      <div type="chapter" n="43"> <p><supplied>&lt;μγ´&gt;</supplied></p> </div>
+      <div type="chapter" n="44"> <p><pb n="172"/><supplied>&lt;μδ´&gt;</supplied></p> <p>Τέσσαρας ἀρετὰς καὶ τῆς θεωρίας αὐτῆς, παρὰ τοῦ δικαίου <lb/>Γρηγορίου μεμαθήκαμεν εἶναι, φρόνησιν καὶ ἀνδρείαν, σωφρο-<lb break="no"/>σύνην καὶ δικαιοσύνην· καὶ φρονήσεως μὲν ἔργον ἔλεγεν εἶναι <lb/>τὸ θεωρεῖν τὰς νοερὰς καὶ ἁγίας δυνάμεις δίχα τῶν λόγων· <lb/>τούτους γὰρ ὑπὸ τῆς σοφίας μόνης δηλοῦσθαι παραδέδωκεν· <pb n="174"/> ἀνδρείας δὲ τὸ ἐγκαρτερεῖν τοῖς ἀληθέσι καὶ πολεμούμενον, <lb/>καὶ μὴ ἐμβατεύειν εἰς τὰ μὴ ὄντα· <cit type="allusion"> <quote>τὸ δὲ παρὰ τοῦ πρώτου <lb/>γεωργοῦ δέχεσθαι τὰ σπέρματα καὶ ἀπωθεῖσθαι τὸν <lb/>ἐπισπορέα</quote> <ref cRef="Mat 13.25"/> </cit>, τῆς σωφροσύνης ἴδιον ἀπεκρίνατο εἶναι· δικαιο-<lb break="no"/>σύνης δὲ πάλιν, τὸ κατ’ ἀξίαν ἑκάστῳ τοὺς λόγους ἀποδιδόναι, <lb/>τὰ μὲν σκοτεινῶς ἀπαγγέλλουσαν, τὰ δὲ δι’ αἰνιγμάτων <lb/>σημαίνουσαν, τινὰ δὲ καὶ φανεροῦσαν πρὸς ὠφέλειαν τῶν <lb/>ἁπλουστέρων. <pb n="176"/></p> </div>
+      <div type="chapter" n="45"> <p><pb n="178"/><supplied>&lt;με´&gt;</supplied></p> <p>Τῆς ἀληθείας ὁ στύλος ὁ καππαδόκης Βασίλειος· τὴν μὲν <lb/>ἀπὸ ἀνθρώπων, φησίν, ἐπισυμβαίνουσαν γνῶσιν, προσεχὴς <lb/>μελέτη καὶ γυμνασία κρατύνει· τὴν δὲ ἐκ Θεοῦ χάριτος <lb/>ἐγγινομένην, δικαιοσύνη καὶ ἀοργησία καὶ ἔλεος· καὶ τὴν μὲν <lb/>προτέραν, δυνατὸν καὶ τοὺς ἐμπαθεῖς ὑποδέξασθαι· τῆς δὲ <lb/>δευτέρας οἱ ἀπαθεῖς μόνοι εἰσὶ δεκτικοί· οἳ καὶ παρὰ τὸν καιρὸν <lb/>τῆς προσευχῆς τὸ οἰκεῖον φέγγος τοῦ νοῦ περιλάμπον αὐτοὺς <lb/>θεωροῦσιν. <pb n="180"/></p> </div>
+      <div type="chapter" n="46"> <p><pb n="182"/><supplied>&lt;μϛ´&gt;</supplied></p> <p>Τῶν Αἰγυπτίων ὁ ἅγιος φωστὴρ Ἀθανάσιος· τὴν τράπεζαν, <lb/>φησί, <cit type="allusion"> <quote>Μωϋσῆς εἰς τὸ βόρειον μέρος στῆσαι προστάσσεται</quote> <ref cRef="Ex 26.35"/> </cit>· <lb/>γινωσκέτωσαν οἱ γνωστικοὶ τίς ὁ πνέων ἐστὶ κατ’ αὐτῶν, καὶ <lb/>πάντα πειρασμὸν γενναίως ὑπομενέτωσαν, καὶ μετὰ προθυμίας <lb/>τοὺς προσιόντας τρεφέτωσαν. </p> </div>
+      <div type="chapter" n="47"> <p><pb n="184"/><supplied>&lt;μζ´&gt;</supplied></p> <p>Ἔλεγεν ὁ τῆς Θμουϊτῶν ἐκκλησίας ἄγγελος Σαραπίων ὅτι ὁ <lb/>νοῦς μὲν πεπωκὼς πνευματικὴν γνῶσιν τελείως καθαίρεται, <lb/>ἀγάπη δὲ τὰ φλεγμαίνοντα μόρια τοῦ θυμοῦ θεραπεύει·<lb/> πονηρὰς δὲ ἐπιθυμίας ἐπιρρεούσας ἵστησιν ἐγκράτεια. </p> </div>
+      <div type="chapter" n="48"> <p><pb n="186"/><supplied>&lt;μη´&gt;</supplied></p> <p>Τοὺς περὶ προνοίας καὶ κρίσεως κατὰ σαυτὸν ἀεὶ γύμναζε <lb/>λόγους, φησὶν ὁ μέγας καὶ γνωστικὸς διδάσκαλος Δίδυμος, καὶ <lb/>τούτων τὰς ὕλας διὰ μνήμης φέρειν πειράθητι· ἅπαντες γὰρ <lb/>σχεδὸν ἐν τούτοις προσπταίουσι. Καὶ τοὺς μὲν περὶ κρίσεως <lb/>λόγους ἐν τῇ διαφορᾷ τῶν σωμάτων καὶ τῶν κόσμων εὑρήσεις· <lb/>τοὺς δὲ περὶ προνοίας ἐν τοῖς τρόποις τοῖς ἀπὸ κακίας καὶ <lb/>ἀγνωσίας ἐπὶ τὴν ἀρετὴν ἢ ἐπὶ τὴν γνῶσιν ἡμᾶς ἐπανάγουσι. <pb n="188"/></p> </div>
+      <div type="chapter" n="49"> <p><pb n="190"/><supplied>&lt;μθ´&gt;</supplied></p> </div>
+      <div type="chapter" n="50"> <p><pb n="192"/><supplied>&lt;ν´&gt;</supplied></p> <p>Πρὸς τὸ ἀρχέτυπον βλέπων ἀεὶ πειρῶ γράφειν τὰς εἰκόνας <lb/>μηδὲν παρεὶς τῶν συντελούντων πρὸς τὸ κερδᾶναι τὴν <lb/>ἐκπεσοῦσαν.</p> </div>
     </body>
   </text>
 </TEI>

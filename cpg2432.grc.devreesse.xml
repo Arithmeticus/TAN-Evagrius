@@ -54,12 +54,12 @@
     <name xml:lang="eng">Fragments of the Kephalaia Gnostica preserved in scholia on the
       Octateuch</name>
     <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.grc.devreesse.xml</master-location>
-    <rights-excluding-sources rights-holder="kalvesmaki">
-      <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
-      <name>Exclusive of rights held and licenses offered by rightsholders of the source or sources
-        listed below, this data file, insofar as it constitutes an independent work, is licensed
-        under a Creative Commons Attribution 4.0 International License.</name>
-    </rights-excluding-sources>
+    <rights-excluding-sources include="WORK"/>
+    <inclusion xml:id="WORK">
+      <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001</IRI>
+      <name>Guillaumont's edition of Syriac S2 of the Kephalaia Gnostika</name>
+      <location when-accessed="2015-10-13-04:00">CPG2432.syr.guillaumont-s2.xml</location>
+    </inclusion>
     <source>
       <IRI>http://lccn.loc.gov/ltf90006847</IRI>
       <name xml:lang="fra">Devreesse, Robert, 1894-1978. Les anciens commentateurs grecs de
@@ -67,41 +67,15 @@
         apostolica vaticana, 1959.</name>
     </source>
     <declarations>
-      <work>
-        <IRI>tag:evagriusponticus.net,2015:cpg2432</IRI>
-        <IRI>tag:kalvesmaki.com,2014:cpg2432</IRI>
-        <name xml:lang="eng">The Kephalaia Gnostika, written by Evagrius Ponticus</name>
-      </work>
-      <div-type xml:id="century">
-        <IRI>tag:kalvesmaki.com,2014:div-type-century</IRI>
-        <name xml:lang="eng">century</name>
-      </div-type>
-      <div-type xml:id="chapter">
-        <IRI>http://dbpedia.org/resource/Chapter_(books)</IRI>
-        <name xml:lang="eng">chapter</name>
-        <name xml:lang="grc">κεφάλαιον</name>
-      </div-type>
+      <work include="WORK"/>
+      <div-type include="WORK"/>
       <recommended-tokenization which="general-words-only-1"/>
       <recommended-div-type-refs>implicit</recommended-div-type-refs>
       <filter/>
     </declarations>
-    <agent xml:id="kalvesmaki" roles="editor">
-      <IRI>http://viaf.org/viaf/299582703</IRI>
-      <IRI>tag:kalvesmaki.com,2014:self</IRI>
-      <name xml:lang="eng">Joel Kalvesmaki</name>
-    </agent>
-    <agent xml:id="dysinger" roles="contributor">
-      <IRI>http://viaf.org/viaf/102135890</IRI>
-      <name xml:lang="eng">Luke Dysinger</name>
-    </agent>
-    <role xml:id="contributor">
-      <IRI>http://id.loc.gov/vocabulary/relators/dtc</IRI>
-      <name xml:lang="eng">Data contributer</name>
-    </role>
-    <role xml:id="editor">
-      <IRI>http://schema.org/editor</IRI>
-      <name xml:lang="eng">Editor</name>
-    </role>
+    <agent include="WORK"/>
+    <role include="WORK"/>
+    <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
       release.</change>
@@ -110,12 +84,7 @@
   <text>
     <body xml:lang="grc" in-progress="false">
       <div type="century" n="VI">
-        <div type="chapter" n="61">
-          <pb n="173"/>
-          <p>εἰ ὁ θεὸς “οὐκ ἔστιν θεὸς νεκρῶν ἀλλὰ ζώντων” (Mt 22.32), κατὰ δὲ Μωυσέα τὸν ἅγιον οἱ
-            ἐγγαστρίμυθοι τοὺς νεκροὺς ἐρωτῶσιν (Dt 18.11), ἡ τοῦ Σαοὺλ ἐγγαστρίμυθος οὐ τὸν Σαμουήλ
-            ἀνήγαγεν ἐκ νεκρῶν, εἴπερ μὴ νεκρὸς ἀλλὰ ζῶν ἐστιν Σαμουήλ.</p>
-        </div>
+        <div type="chapter" n="61"> <pb n="173"/> <p>εἰ ὁ θεὸς “οὐκ ἔστιν θεὸς νεκρῶν ἀλλὰ ζώντων” (Mt 22.32), κατὰ δὲ Μωυσέα τὸν ἅγιον οἱ ἐγγαστρίμυθοι τοὺς νεκροὺς ἐρωτῶσιν (Dt 18.11), ἡ τοῦ Σαοὺλ ἐγγαστρίμυθος οὐ τὸν Σαμουήλ ἀνήγαγεν ἐκ νεκρῶν, εἴπερ μὴ νεκρὸς ἀλλὰ ζῶν ἐστιν Σαμουήλ.</p> </div>
       </div>
     </body>
   </text>

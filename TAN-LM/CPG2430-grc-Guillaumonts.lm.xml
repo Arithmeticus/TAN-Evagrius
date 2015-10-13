@@ -10,18 +10,15 @@
       <desc xml:lang="eng">Morphology of the Praktikos, in accordance with the Text Alignment
          Network.</desc>
       <master-location>CPG2430-grc-Guillaumonts.lm.xml</master-location>
-      <rights-excluding-sources rights-holder="kalvesmaki">
-         <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
-         <name>Creative Commons Attribution 4.0 International License</name>
-         <desc>Exclusive of rights and licenses associated with the source or sources listed below,
-            this data file, insofar as it constitutes an independent work, is licensed under a
-            Creative Commons Attribution 4.0 International License.</desc>
-      </rights-excluding-sources>
+      <rights-excluding-sources include="HEAD"/>
+      <inclusion xml:id="HEAD">
+         <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
+         <name>Alignment of the works of Evagrius</name>
+         <location when-accessed="2015-10-12-04:00">../TAN-A-div/HEAD.evagrius.TAN-A-div.xml</location>
+      </inclusion>
       <source>
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
          <name>Guillaumonts' Greek edition of the Praktikos of Evagrios Pontikos</name>
-         <!--<location when-accessed="2015-06-08-04:00">../cpg2430.grc.guillaumonts.xml</location>-->
-         <!-- add temp location below -->
          <location when-accessed="2015-06-08-04:00">../cpg2430.grc.guillaumonts.xml</location>
       </source>
       <declarations>
@@ -53,24 +50,9 @@
             <rename old="preface" new="pr"></rename>
          </rename-div-types>
       </declarations>
-      <agent xml:id="kalvesmaki" roles="provider editor">
-         <IRI>http://viaf.org/viaf/299582703</IRI>
-         <IRI>tag:kalvesmaki.com,2014:self</IRI>
-         <name xml:lang="eng">Joel Kalvesmaki</name>
-      </agent>
-      <agent xml:id="example" roles="editor">
-         <IRI>http://viaf.org/viaf/example</IRI>
-         <IRI>http://example.org/24929</IRI>
-         <name xml:lang="eng">Example Contributor</name>
-      </agent>
-      <role xml:id="editor">
-         <IRI>http://schema.org/editor</IRI>
-         <name xml:lang="eng">Editor</name>
-      </role>
-      <role xml:id="provider">
-         <IRI>http://schema.org/provider</IRI>
-         <name xml:lang="eng">Provider</name>
-      </role>
+      <agent include="HEAD"/>
+      <role include="HEAD"/>
+      <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
       <change when="2014-03-11" who="kalvesmaki">Added refined morphology through c8. Added
          computer-generated morphology for c9-c12 + c100</change>
       <change when="2014-02-10" who="kalvesmaki">Corrected up through p1:s7</change>

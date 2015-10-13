@@ -60,53 +60,27 @@
     <name xml:lang="eng">Fragments of the Kephalaia Gnostika from Muyldermans's edition of MS Paris
       BnF gr. 2748</name>
     <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.grc.muyldermans-1932.xml</master-location>
-    <rights-excluding-sources rights-holder="kalvesmaki">
-      <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
-      <name>Exclusive of rights held and licenses offered by rightsholders of the source or sources
-        listed below, this data file, insofar as it constitutes an independent work, is licensed
-        under a Creative Commons Attribution 4.0 International License.</name>
-    </rights-excluding-sources>
+    <rights-excluding-sources include="WORK"/>
+    <inclusion xml:id="WORK">
+      <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001</IRI>
+      <name>Guillaumont's edition of Syriac S2 of the Kephalaia Gnostika</name>
+      <location when-accessed="2015-10-13-04:00">CPG2432.syr.guillaumont-s2.xml</location>
+    </inclusion>
     <source>
       <IRI>http://www.worldcat.org/oclc/7564753</IRI>
       <name>À travers la tradition manuscrite d'Evagre le Pontique; essai sur les manuscrits grecs
         conservés à la Bibliothèque nationale de Paris, Joseph Muyldermans</name>
     </source>
     <declarations>
-      <work>
-        <IRI>tag:evagriusponticus.net,2015:cpg2432</IRI>
-        <IRI>tag:kalvesmaki.com,2014:cpg2432</IRI>
-        <name xml:lang="eng">The Kephalaia Gnostika, written by Evagrius Ponticus</name>
-      </work>
-      <div-type xml:id="century">
-        <IRI>tag:kalvesmaki.com,2014:div-type-century</IRI>
-        <name xml:lang="eng">century</name>
-      </div-type>
-      <div-type xml:id="chapter">
-        <IRI>http://dbpedia.org/resource/Chapter_(books)</IRI>
-        <name xml:lang="eng">chapter</name>
-        <name xml:lang="grc">κεφάλαιον</name>
-      </div-type>
-      <div-type xml:id="epilogue">
-        <IRI>http://dbpedia.org/resource/Epilogue</IRI>
-        <name xml:lang="eng">epilogue</name>
-      </div-type>
+      <work include="WORK"/>
+      <div-type include="WORK"/>
       <recommended-tokenization which="general-words-only-1"/>
       <recommended-div-type-refs>implicit</recommended-div-type-refs>
       <filter/>
     </declarations>
-    <agent xml:id="kalvesmaki" roles="editor provider">
-      <IRI>http://viaf.org/viaf/299582703</IRI>
-      <IRI>tag:kalvesmaki.com,2014:self</IRI>
-      <name xml:lang="eng">Joel Kalvesmaki</name>
-    </agent>
-    <role xml:id="provider">
-      <IRI>http://schema.org/provider</IRI>
-      <name xml:lang="eng">Provider</name>
-    </role>
-    <role xml:id="editor">
-      <IRI>http://schema.org/editor</IRI>
-      <name xml:lang="eng">Editor</name>
-    </role>
+    <agent include="WORK"/>
+    <role include="WORK"/>
+    <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
       release.</change>
@@ -115,36 +89,13 @@
   <text>
     <body xml:lang="grc" in-progress="false">
       <div type="century" n="III">
-        <div type="chapter" n="35">
-          <p><pb n="85"/><locus>Paris BnF gr. 2748, fol. 162, no. 3</locus>3. Νοῦν μὲν καθαίρει
-            πνευματικὴ γνῶσις· θυμὸν δὲ θεραπεύει <lb/>ἀγάπη· ἐπιθυμίαν δὲ ῥέουσαν ἵστησιν
-            ἐγκράτεια.</p>
-        </div>
+        <div type="chapter" n="35"> <p><pb n="85"/><locus>Paris BnF gr. 2748, fol. 162, no. 3</locus>3. Νοῦν μὲν καθαίρει πνευματικὴ γνῶσις· θυμὸν δὲ θεραπεύει <lb/>ἀγάπη· ἐπιθυμίαν δὲ ῥέουσαν ἵστησιν ἐγκράτεια.</p> </div>
       </div>
       <div type="century" n="I">
-        <div type="chapter" n="36">
-          <p><pb n="89"/><locus>Paris BnF gr. 2748, fol. 163, no. 29</locus> Αἴσθησις μέν ἐστιν ἡ
-            δύναμις καθ’ ἣν ἀντιλαμβανόμεθα τῶν <lb/>ὑλῶν· αἰσθητήριον δὲ τὸ ὄργανον δι’ οὗ πέφυκεν
-            αὕτη ἐνεργεῖν· <lb/>αἰσθητικὸν δὲ αὐτὸ τὸ κεκτημένον τὴν αἴσθησιν· αἰσθητὸν δὲ τὸ <lb/>
-            αἰσθήσεσιν ὑποπίπτειν.</p>
-        </div>
-        <div type="chapter" n="42">
-          <p><locus>Paris BnF gr. 2748, fol. 163, no. 30</locus> Ἐκεῖ λέγεται παρεῖναι ὁ θεὸς ὅπου
-            ἐνεργεῖ· καὶ μᾶλλον <lb/>παρεῖναι, ὅπου πλέον ἐνεργεῖ· ἐνεργῶν δὲ πλέον ἐν ταῖς νοεραῖς
-            <lb/>δυνάμεσιν, ἐν αὐταῖς ἐστι πλέον.</p>
-        </div>
-        <div type="chapter" n="15">
-          <p><pb n="93"/><locus>Paris BnF gr. 2748, fol. 164–164v, no. 66</locus> Ἀναιρουμένων τῶν
-            τεσσάρων, ἀναιροῦνται καὶ τὰ πέντε· <lb/>ἀναιρουμένων δὲ τῶν πέντε, οὐκ ἀναιροῦνται καὶ
-            τὰ τέσσαρα· τῇ <lb/>διαζεύξει γὰρ τῆς ψυχῆς ἀναιρουμένων τῶν τεσσάρων στοιχείων τοῦ
-            <lb/> σώματος, ἀναιροῦνται καὶ αἱ πέντε αἰσθήσεις· ἀναιρουμένων δὲ τῶν <lb/>πέντε
-            αἰσθήσεων τῇ φιλοσόφῳ νεκρώσει τοῦ σώματος, οὐκ ἀναιροῦν-<lb break="no"/>ται καὶ τὰ
-            τέσσαρα τούτου στοιχεῖα.</p>
-        </div>
-        <div type="chapter" n="69">
-          <p><locus>Paris BnF gr. 2748, fol. 164–164v, no. 67</locus>67. Ὁ εἰς γνώσιν ἐλθὼν, ἔχει
-            τὸν μετ' αὐτόν· ὁ εἰς ἄγνοιαν ἐλθὼν, <lb/>οὐκ ἔχει τὸν μετ' αὐτόν· </p>
-        </div>
+        <div type="chapter" n="36"> <p><pb n="89"/><locus>Paris BnF gr. 2748, fol. 163, no. 29</locus> Αἴσθησις μέν ἐστιν ἡ δύναμις καθ’ ἣν ἀντιλαμβανόμεθα τῶν <lb/>ὑλῶν· αἰσθητήριον δὲ τὸ ὄργανον δι’ οὗ πέφυκεν αὕτη ἐνεργεῖν· <lb/>αἰσθητικὸν δὲ αὐτὸ τὸ κεκτημένον τὴν αἴσθησιν· αἰσθητὸν δὲ τὸ <lb/> αἰσθήσεσιν ὑποπίπτειν.</p> </div>
+        <div type="chapter" n="42"> <p><locus>Paris BnF gr. 2748, fol. 163, no. 30</locus> Ἐκεῖ λέγεται παρεῖναι ὁ θεὸς ὅπου ἐνεργεῖ· καὶ μᾶλλον <lb/>παρεῖναι, ὅπου πλέον ἐνεργεῖ· ἐνεργῶν δὲ πλέον ἐν ταῖς νοεραῖς <lb/>δυνάμεσιν, ἐν αὐταῖς ἐστι πλέον.</p> </div>
+        <div type="chapter" n="15"> <p><pb n="93"/><locus>Paris BnF gr. 2748, fol. 164–164v, no. 66</locus> Ἀναιρουμένων τῶν τεσσάρων, ἀναιροῦνται καὶ τὰ πέντε· <lb/>ἀναιρουμένων δὲ τῶν πέντε, οὐκ ἀναιροῦνται καὶ τὰ τέσσαρα· τῇ <lb/>διαζεύξει γὰρ τῆς ψυχῆς ἀναιρουμένων τῶν τεσσάρων στοιχείων τοῦ <lb/> σώματος, ἀναιροῦνται καὶ αἱ πέντε αἰσθήσεις· ἀναιρουμένων δὲ τῶν <lb/>πέντε αἰσθήσεων τῇ φιλοσόφῳ νεκρώσει τοῦ σώματος, οὐκ ἀναιροῦν-<lb break="no"/>ται καὶ τὰ τέσσαρα τούτου στοιχεῖα.</p> </div>
+        <div type="chapter" n="69"> <p><locus>Paris BnF gr. 2748, fol. 164–164v, no. 67</locus>67. Ὁ εἰς γνώσιν ἐλθὼν, ἔχει τὸν μετ' αὐτόν· ὁ εἰς ἄγνοιαν ἐλθὼν, <lb/>οὐκ ἔχει τὸν μετ' αὐτόν· </p> </div>
       </div>
     </body>
   </text>

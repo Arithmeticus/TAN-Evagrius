@@ -9,12 +9,12 @@
       <name>CPG2430-grc-Guillaumonts+CPG2430-syr-BL14578.TAN-A.xml</name>
       <name xml:lang="eng">The first TAN-A file created in the Text Alignment Protocol.</name>
       <master-location>cpg2430.grc-Guillaumonts+syr-BL14578.token.1.xml</master-location>
-      <rights-excluding-sources rights-holder="kalvesmaki">
-         <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
-         <name>Creative Commons Attribution 4.0 International License</name>
-         <desc>This license is granted independent of rights and licenses associated with the
-            sources. </desc>
-      </rights-excluding-sources>
+      <rights-excluding-sources include="HEAD"/>
+      <inclusion xml:id="HEAD">
+         <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
+         <name>Alignment of the works of Evagrius</name>
+         <location when-accessed="2015-10-12-04:00">../TAN-A-div/HEAD.evagrius.TAN-A-div.xml</location>
+      </inclusion>
       <source xml:id="grc">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
          <name>CPG2430-grc-Guillaumonts.TAN-T.xml</name>
@@ -48,24 +48,9 @@
          </reuse-type>
          <tokenization src="syr grc" which="general-words-only-1"/>
       </declarations>
-      <agent xml:id="kalvesmaki" roles="creator editor">
-         <IRI>http://viaf.org/viaf/299582703</IRI>
-         <IRI>tag:kalvesmaki.com,2014:self</IRI>
-         <name xml:lang="eng">Joel Kalvesmaki</name>
-      </agent>
-      <agent xml:id="example" roles="editor">
-         <IRI>http://viaf.org/viaf/example</IRI>
-         <IRI>http://example.org/24929</IRI>
-         <name xml:lang="eng">Example Contributor</name>
-      </agent>
-      <role xml:id="editor">
-         <IRI>http://schema.org/editor</IRI>
-         <name xml:lang="eng">Editor</name>
-      </role>
-      <role xml:id="creator">
-         <IRI>http://schema.org/creator</IRI>
-         <name xml:lang="eng">creator</name>
-      </role>
+      <agent include="HEAD"/>
+      <role include="HEAD"/>
+      <change when="2015-10-12" who="kalvesmaki">Adapted for inclusions</change>
       <change when="2015-06-25-04:00" who="kalvesmaki">Altered suffix, infix, prefix values to @char
          values</change>
       <change when="2014-08-26" who="kalvesmaki">updated to suit changes in validation

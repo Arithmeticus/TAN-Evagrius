@@ -68,12 +68,12 @@
   <head xmlns="tag:textalign.net,2015:ns">
     <name xml:lang="eng">Dysinger's translation of the Kephalaia Gnostika, Syriac S2</name>
     <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.eng.dysinger-s1.xml</master-location>
-    <rights-excluding-sources rights-holder="kalvesmaki">
-      <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
-      <name>Exclusive of rights held and licenses offered by rightsholders of the source or sources
-        listed below, this data file, insofar as it constitutes an independent work, is licensed
-        under a Creative Commons Attribution 4.0 International License.</name>
-    </rights-excluding-sources>
+    <rights-excluding-sources include="WORK"/>
+    <inclusion xml:id="WORK">
+      <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001</IRI>
+      <name>Guillaumont's edition of Syriac S2 of the Kephalaia Gnostika</name>
+      <location when-accessed="2015-10-13-04:00">CPG2432.syr.guillaumont-s2.xml</location>
+    </inclusion>
     <source>
       <IRI>tag:kalvesmaki.com,2014:external_Evagrius_Kephalaia_Gnostika_eng_Dysinger_S2</IRI>
       <name>Dysinger's online translation</name>
@@ -81,33 +81,13 @@
         >http://www.ldysinger.com/Evagrius/02_Gno-Keph/00a_start.htm</location>
     </source>
     <declarations>
-      <work>
-        <IRI>tag:evagriusponticus.net,2015:cpg2432</IRI>
-        <IRI>tag:kalvesmaki.com,2014:cpg2432</IRI>
-        <name xml:lang="eng">The Kephalaia Gnostika, written by Evagrius Ponticus</name>
-      </work>
+      <work include="WORK"/>
       <version>
         <IRI>tag:evagriusponticus.net,2015:cpg2432,S2-eng-Dysinger</IRI>
         <IRI>tag:kalvesmaki.com,2014:cpg2432#S2-eng-Dysinger</IRI>
         <name>Dysinger's English translation of S2</name>
       </version>
-      <div-type xml:id="title">
-        <IRI>http://dbpedia.org/resource/Title_(publishing)</IRI>
-        <name xml:lang="eng">title</name>
-      </div-type>
-      <div-type xml:id="century">
-        <IRI>tag:kalvesmaki.com,2014:div-type-century</IRI>
-        <name xml:lang="eng">century</name>
-      </div-type>
-      <div-type xml:id="chapter">
-        <IRI>http://dbpedia.org/resource/Chapter_(books)</IRI>
-        <name xml:lang="eng">chapter</name>
-        <name xml:lang="grc">κεφάλαιον</name>
-      </div-type>
-      <div-type xml:id="epilogue">
-        <IRI>http://dbpedia.org/resource/Epilogue</IRI>
-        <name xml:lang="eng">epilogue</name>
-      </div-type>
+      <div-type include="WORK"/>
       <recommended-tokenization which="general-1"/>
       <recommended-div-type-refs>implicit</recommended-div-type-refs>
       <filter>
@@ -133,15 +113,9 @@
         </normalization>
       </filter>
     </declarations>
-    <agent xml:id="kalvesmaki" roles="editor">
-      <IRI>http://viaf.org/viaf/299582703</IRI>
-      <IRI>tag:kalvesmaki.com,2014:self</IRI>
-      <name xml:lang="eng">Joel Kalvesmaki</name>
-    </agent>
-    <role xml:id="editor">
-      <IRI>http://schema.org/editor</IRI>
-      <name xml:lang="eng">Editor</name>
-    </role>
+    <agent include="WORK"/>
+    <role include="WORK"/>
+    <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2014-10-30" who="kalvesmaki">Started TAN-TEI file.</change>
     <comment when="2014-10-30" who="kalvesmaki">From the source: Translation by Luke Dysinger,
       O.S.B. (translation in public domain) Note that the the majority of the Greek text below is
@@ -188,483 +162,111 @@
   <text>
     <body xml:lang="eng" in-progress="false">
       <div type="century" n="I">
-        <div type="chapter" n="29">
-          <p n="S1">[S1:</p>
-        </div>
-        <div type="chapter" n="35">
-          <p n="S1">: Even as the light, as it makes us see all, does not need another light with
-            which it will be seen, so God as well when he makes everything seen, does not need
-            another light with which he will be known; He, in fact, in his essence,"He is light"</p>
-        </div>
-        <div type="chapter" n="36">
-          <p n="S1">: This is not the same thing as the sense and the organ of sense , nor the
-            sensitive and the sensible. The sense, in fact, is the power with which we are
-            accustomed to feel the matter; the organ of the senses is the member in which the sense
-            resides; the sensitive is the living subject which possesses the sense organs; the
-            sensible is that which falls under the organs of sense. But the nous is not like that,
-            because it is deprived of one of the four.</p>
-        </div>
-        <div type="chapter" n="37">
-          <p n="S1">: The spiritual sense is the dispassion of the reasoning soul, which is produced
-            by the grace of God</p>
-        </div>
-        <div type="chapter" n="38">
-          <p n="S1">: Just as, being awake, we say diverse things about dreams and that, when we are
-            asleep, we learn them by experience, so all that we learn about God, when we were
-            outside of him, it is when we will have been inside of him that we will receive the
-            demonstration of them by experience.</p>
-        </div>
-        <div type="chapter" n="39">
-          <p n="S1">: When we were first made, the seeds of virtue were found naturally in us, but
-            malice not at all. It is not that, in fact, that to which we are susceptible, has its
-            power also in us, because that, because we can not have been that, the power of what we
-            are not is not in us, if powers are qualities and what is not is not a quality.</p>
-        </div>
-        <div type="chapter" n="40">
-          <p n="S1">: There was a time when evil did not exist, and there will be a time when it
-            will no longer exist; but there was never a time when virtue did not exist, and there
-            will never be a time when it will not exist. Indestructible, in effect, are the seeds of
-            virtue. I am also convinced of this by the rich man who was condemned in the Shéol
-            because of his evil and had pity for his brothers; thus to have pity is a beautiful seed
-            of virtue</p>
-        </div>
-        <div type="chapter" n="41">
-          <p n="S1">: If death is second compared to life, and sickness second compared to health,
-            it is evident that evil is second by comparison to virtue. Death and sickness of the
-            soul, in effect, is evil, and virtue is more ancient also than that which is in the
-            middle.</p>
-        </div>
-        <div type="chapter" n="43">
-          <p n="S1">God is everywhere, and He is not somewhere; He is everywhere, because everything
-            that has been produced is by His "wisdom full of variety"; but He is not somewhere,
-            because He is not from among beings.</p>
-        </div>
-        <div type="chapter" n="44">
-          <p n="S1">: If the kingdom of heaven is known by what came before everything and what
-            contains everything, the torment also of those who will be judged will be known by what
-            is opposed</p>
-        </div>
-        <div type="chapter" n="45">
-          <p n="S1">: There is nothing among the bodiless which is in power in bodies; and bodiless
-            is our nous, when it renders itself similar to God</p>
-        </div>
-        <div type="chapter" n="46">
-          <p n="S1">: All that is in power in the body, it possesses in act, and they are of the
-            same nature as those from which they derive. But the nous which contemplates God is
-            liberated from imprint and matter</p>
-        </div>
-        <div type="chapter" n="47">
-          <p n="S1">: There is nothing which could be in power in the soul which similarly could be
-            naturally in it also in act; it is by liberty, in effect, that it grows and it is the
-            power of God which perfects it</p>
-        </div>
-        <div type="chapter" n="48">
-          <p n="S1">: The imprints which are in the bodies similarly exist in those which have
-            engendered them. But the soul, by the liberty which was given it by God, imprints its
-            being as it wishes, either to render itself similar to God, or to render itself similar
-            to the animals</p>
-        </div>
-        <div type="chapter" n="49">
-          <p n="S1">: It is not the Unity which apart from itself puts itself in motion; but it is
-            put in motion by the receptivity of the nous, which, by its negligence, turns away its
-            face and, by the fact of being deprived of it, engenders ignorance </p>
-        </div>
-        <div type="chapter" n="50">
-          <p n="S1">: All that was produced was produced for the knowledge of God; but among beings,
-            some are firsts, and others seconds. Older than the first beings is (spiritual)
-            knowledge, and (older) than the second beings is movement</p>
-        </div>
-        <div type="chapter" n="51">
-          <p n="S1">: Movement is the cause of evil, and the destroyer of evil is virtue; but the
-            names of virtue are in the modes of conduct, and the cause of these is movement</p>
-        </div>
-        <div type="chapter" n="52">
-          <p n="S1">: When the true knowledge will be in those which are first by their genesis,
-            then those also will obtain by grace also the knowledge of the holy Trinity.</p>
-        </div>
-        <div type="chapter" n="53">
-          <p n="S1">[S1=S2: The demons which fight with the nous are called birds, animals those
-            which trouble thumos, and beasts those which excite epithumia</p>
-        </div>
-        <div type="chapter" n="54">
-          <p n="S1">: Without end is the fullness of those who are first by their genesis, and
-            within ends is the emptiness contained . The second beings are coextensive with
-            emptiness , and they will rest when the perfect fullness will lead those who are
-            receptive of it toward the knowledge of the Unity of the Holy Trinity.</p>
-        </div>
-        <div type="chapter" n="55">
-          <p n="S1">: Those who are first by their genesis will be delivered only from the act of
-            corruption; but the deliverance from all will be achieved when the will of the Lord of
-            all will have occurred</p>
-        </div>
-        <div type="chapter" n="56">
-          <p n="S1">: The good will be cause of knowledge and of torment, and the bad47 of torment
-            only.</p>
-        </div>
-        <div type="chapter" n="57">
-          <p n="S1">: Men dread the Sheol, and demons are terrified by the abyss.</p>
-        </div>
-        <div type="chapter" n="58">
-          <p n="S1">: Among deaths, some are caused by the first condemnation. For others that cause
-            is liberating grace; and the cause of the third death is remission that is done through
-            mercy. But immortal are those for whom none of these occur.</p>
-        </div>
-        <div type="chapter" n="59">
-          <p n="S1">: Just as light and shadow are accidental things of the air, the same for the
-            reasonable soul virtue and evil, knowledge and ignorance, virtue and knowledge being
-            both first in it</p>
-        </div>
-        <div type="chapter" n="60">
-          <p n="S1">: If today they receive the well advised accountant in their houses it is
-            obvious that yesterday they sat down and counted their bonds. However, he was called
-            well advised because he gave to his colleagues part of the assets of the property.</p>
-        </div>
-        <div type="chapter" n="61">
-          <p n="S1">: There are none of the second beings which would not be 49 susceptible of the
-            knowledge, and none of the first beings which would be contained in a place.</p>
-        </div>
-        <div type="chapter" n="62">
-          <p n="S1">: Knowledge is said to be in a place, when it frequents the intellections of
-            creatures, but in no place when it admires the Holy Trinity</p>
-        </div>
-        <div type="chapter" n="63">
-          <p n="S1">: Whether the logikoi would be or would not be, that is the affair of the will
-            of the Creator; but that they would be mortal or immortal, that is the affair of their
-            will</p>
-        </div>
-        <div type="chapter" n="64">
-          <p n="S1">: All reasonable nature, in fact, is susceptible of an opposition.50 The true
-            life of the logikoi is their activity in spirit, and their death is the activity against
-            nature.</p>
-        </div>
-        <div type="chapter" n="65">
-          <p n="S1">: In the growth of the intellections of the creatures there are works and
-            combats. But in contemplation of the Holy Trinity it is peace and an ineffable
-            quietude.</p>
-        </div>
-        <div type="chapter" n="66">
-          <p n="S1">: The virtues are said to be before us, facing the senses which see them; but it
-            is behind us that are said to be the bad actions, because they are accomplished in the
-            shadows. We are ordered, in fact, to "flee fornication" and to "pursue hospitality".</p>
-        </div>
-        <div type="chapter" n="67">
-          <p n="S1">: Who will know the sustasis of this world, the activity of the elements and the
-            practice of this instrument, how it will become a chariot by the practice of the
-            commandments and will raise itself up by a spiritual ascension toward the Holy
-            Trinity.</p>
-        </div>
-        <div type="chapter" n="68">
-          <p n="S1">: Among the holy angels there is a predominance of the nous, among the humans,
-            predominance of the épithumia, and among the demons predominance of the thumos. The
-            Fathers say that the first approach the intermediaries by the mouth, and the last the
-            intermediaries by the nostrils</p>
-        </div>
-        <div type="chapter" n="69">
-          <p n="S1">: The one who leads in knowledge has someone after him; but he who leads in
-            ignorance has none.</p>
-        </div>
-        <div type="chapter" n="71">
-          <p n="S1">: The end of the knowledge of nature is the knowledge of holy Unity; but to
-            incomprehensibility, as the Fathers say, there is no end, as it is written: "There is no
-            limit to His intelligence".</p>
-        </div>
-        <div type="chapter" n="72">
-          <p n="S1">: The Lord has pity on those to whom he gives spiritual knowledge, because it is
-            written: "The just walk in the light and the insane in the shadows". But the Lord has
-            pity also on the insane, in that it is not right away that He torments him but He fixes
-            for him a model in order that he converts and lives.</p>
-        </div>
-        <div type="chapter" n="74">
-          <p n="S1">: The light of the nous is divided in three, that is: in the knowledge of the
-            adorable and holy Trinity, in bodiless and embodied nature, and in the intellection of
-            the natures of creatures</p>
-        </div>
-        <div type="chapter" n="76">
-          <p n="S1">It is not to the true knowledge which is hidden in the natures that ignorance is
-            made the opposite, but to the knowledge of children. But, when children have become
-            adults, they will win over ignorance.</p>
-        </div>
-        <div type="chapter" n="77">
-          <p n="S1">THE nous of all the logikoi which are imprinted in the resemblance of their
-            Creator is Christ our Savior; and it is He who perfects them in the knowledge of the
-            holy Trinity.</p>
-        </div>
-        <div type="chapter" n="78">
-          <p n="S1">The first renunciation of the world, which is done in the soul, is such: that
-            with good will one abandons the things of this world for the science of God.</p>
-        </div>
-        <div type="chapter" n="79">
-          <p n="S1">The second renunciation is distancing oneself from evil, which is produced by
-            the application of man and by the grace of God.</p>
-        </div>
-        <div type="chapter" n="80">
-          <p n="S1">The third renunciation is the separation from ignorance, which usually appears
-            to men as certain fantasies in combat, according to the degree of their growth.</p>
-        </div>
-        <div type="chapter" n="81">
-          <p n="S1">The glory and light of the nous is spiritual knowledge, the glory and light of
-            the soul is its apatheia.</p>
-        </div>
-        <div type="chapter" n="84">
-          <p n="S1">The nous of the logikoi is receptive of knowledge and ignorance, epithumiais
-            receptive of chastity and of luxury, and following the thumos go love and hatred That
-            which is first among the firsts is accompanied by what is first among the seconds, and
-            what is first among the seconds (is accompanied) by what is first among the thirds.</p>
-        </div>
-        <div type="chapter" n="85">
-          <p n="S1">The nous wanders, when it becomes impassioned, that it is to say it is
-            uncontrollable when it achieves its diverse desires. But it restrains itself in its rush
-            and renounces its distractions which surround it when it becomes dispassionate and when
-            it has arrived in the company of those who are bodiless, those who fulfill all its
-            spiritual desires.</p>
-        </div>
-        <div type="chapter" n="86">
-          <p n="S1">[S1=S2: Love is the excellent state of the reasonable soul, which in this cannot
-            love anything which is among corruptible things more than the knowledge of God.</p>
-        </div>
-        <div type="chapter" n="87">
-          <p n="S1">Everything that was created was created for the knowledge of God; on the other
-            hand, everything that was created for something else is less than what it was created
-            for; in consequence, the knowledge of God is superior to everything, because everything
-            was created for it.</p>
-        </div>
-        <div type="chapter" n="88">
-          <p n="S1">: Natural knowledge is true understanding of those created for the knowledge of
-            the Holy Trinity.</p>
-        </div>
-        <div type="chapter" n="89">
-          <p n="S1">All reasoning nature was naturally made to understand true knowledge, and God is
-            essential knowledge. The reasoning nature that has been created therefore has opposed to
-            it the fact of not being created; and opposed to liberty are evil and ignorance; but not
-            one of those things is opposed to God.</p>
-        </div>
-        <div type="chapter" n="90">
-          <p n="S1">If today is the Friday when our Savior was crucified, all those who have died in
-            Christ are the symbol of his tomb because with them the justice of God was buried, that
-            which will be resuscitated on the third day, re clothed in a spiritual body. True
-            indeed, is the word of our Savior, that "today and tomorrow He works miracles and on the
-            third day it is completed."</p>
-        </div>
+        <div type="chapter" n="29"> <p n="S1">[S1:</p> </div>
+        <div type="chapter" n="35"> <p n="S1">: Even as the light, as it makes us see all, does not need another light with which it will be seen, so God as well when he makes everything seen, does not need another light with which he will be known; He, in fact, in his essence,"He is light"</p> </div>
+        <div type="chapter" n="36"> <p n="S1">: This is not the same thing as the sense and the organ of sense , nor the sensitive and the sensible. The sense, in fact, is the power with which we are accustomed to feel the matter; the organ of the senses is the member in which the sense resides; the sensitive is the living subject which possesses the sense organs; the sensible is that which falls under the organs of sense. But the nous is not like that, because it is deprived of one of the four.</p> </div>
+        <div type="chapter" n="37"> <p n="S1">: The spiritual sense is the dispassion of the reasoning soul, which is produced by the grace of God</p> </div>
+        <div type="chapter" n="38"> <p n="S1">: Just as, being awake, we say diverse things about dreams and that, when we are asleep, we learn them by experience, so all that we learn about God, when we were outside of him, it is when we will have been inside of him that we will receive the demonstration of them by experience.</p> </div>
+        <div type="chapter" n="39"> <p n="S1">: When we were first made, the seeds of virtue were found naturally in us, but malice not at all. It is not that, in fact, that to which we are susceptible, has its power also in us, because that, because we can not have been that, the power of what we are not is not in us, if powers are qualities and what is not is not a quality.</p> </div>
+        <div type="chapter" n="40"> <p n="S1">: There was a time when evil did not exist, and there will be a time when it will no longer exist; but there was never a time when virtue did not exist, and there will never be a time when it will not exist. Indestructible, in effect, are the seeds of virtue. I am also convinced of this by the rich man who was condemned in the Shéol because of his evil and had pity for his brothers; thus to have pity is a beautiful seed of virtue</p> </div>
+        <div type="chapter" n="41"> <p n="S1">: If death is second compared to life, and sickness second compared to health, it is evident that evil is second by comparison to virtue. Death and sickness of the soul, in effect, is evil, and virtue is more ancient also than that which is in the middle.</p> </div>
+        <div type="chapter" n="43"> <p n="S1">God is everywhere, and He is not somewhere; He is everywhere, because everything that has been produced is by His "wisdom full of variety"; but He is not somewhere, because He is not from among beings.</p> </div>
+        <div type="chapter" n="44"> <p n="S1">: If the kingdom of heaven is known by what came before everything and what contains everything, the torment also of those who will be judged will be known by what is opposed</p> </div>
+        <div type="chapter" n="45"> <p n="S1">: There is nothing among the bodiless which is in power in bodies; and bodiless is our nous, when it renders itself similar to God</p> </div>
+        <div type="chapter" n="46"> <p n="S1">: All that is in power in the body, it possesses in act, and they are of the same nature as those from which they derive. But the nous which contemplates God is liberated from imprint and matter</p> </div>
+        <div type="chapter" n="47"> <p n="S1">: There is nothing which could be in power in the soul which similarly could be naturally in it also in act; it is by liberty, in effect, that it grows and it is the power of God which perfects it</p> </div>
+        <div type="chapter" n="48"> <p n="S1">: The imprints which are in the bodies similarly exist in those which have engendered them. But the soul, by the liberty which was given it by God, imprints its being as it wishes, either to render itself similar to God, or to render itself similar to the animals</p> </div>
+        <div type="chapter" n="49"> <p n="S1">: It is not the Unity which apart from itself puts itself in motion; but it is put in motion by the receptivity of the nous, which, by its negligence, turns away its face and, by the fact of being deprived of it, engenders ignorance </p> </div>
+        <div type="chapter" n="50"> <p n="S1">: All that was produced was produced for the knowledge of God; but among beings, some are firsts, and others seconds. Older than the first beings is (spiritual) knowledge, and (older) than the second beings is movement</p> </div>
+        <div type="chapter" n="51"> <p n="S1">: Movement is the cause of evil, and the destroyer of evil is virtue; but the names of virtue are in the modes of conduct, and the cause of these is movement</p> </div>
+        <div type="chapter" n="52"> <p n="S1">: When the true knowledge will be in those which are first by their genesis, then those also will obtain by grace also the knowledge of the holy Trinity.</p> </div>
+        <div type="chapter" n="53"> <p n="S1">[S1=S2: The demons which fight with the nous are called birds, animals those which trouble thumos, and beasts those which excite epithumia</p> </div>
+        <div type="chapter" n="54"> <p n="S1">: Without end is the fullness of those who are first by their genesis, and within ends is the emptiness contained . The second beings are coextensive with emptiness , and they will rest when the perfect fullness will lead those who are receptive of it toward the knowledge of the Unity of the Holy Trinity.</p> </div>
+        <div type="chapter" n="55"> <p n="S1">: Those who are first by their genesis will be delivered only from the act of corruption; but the deliverance from all will be achieved when the will of the Lord of all will have occurred</p> </div>
+        <div type="chapter" n="56"> <p n="S1">: The good will be cause of knowledge and of torment, and the bad47 of torment only.</p> </div>
+        <div type="chapter" n="57"> <p n="S1">: Men dread the Sheol, and demons are terrified by the abyss.</p> </div>
+        <div type="chapter" n="58"> <p n="S1">: Among deaths, some are caused by the first condemnation. For others that cause is liberating grace; and the cause of the third death is remission that is done through mercy. But immortal are those for whom none of these occur.</p> </div>
+        <div type="chapter" n="59"> <p n="S1">: Just as light and shadow are accidental things of the air, the same for the reasonable soul virtue and evil, knowledge and ignorance, virtue and knowledge being both first in it</p> </div>
+        <div type="chapter" n="60"> <p n="S1">: If today they receive the well advised accountant in their houses it is obvious that yesterday they sat down and counted their bonds. However, he was called well advised because he gave to his colleagues part of the assets of the property.</p> </div>
+        <div type="chapter" n="61"> <p n="S1">: There are none of the second beings which would not be 49 susceptible of the knowledge, and none of the first beings which would be contained in a place.</p> </div>
+        <div type="chapter" n="62"> <p n="S1">: Knowledge is said to be in a place, when it frequents the intellections of creatures, but in no place when it admires the Holy Trinity</p> </div>
+        <div type="chapter" n="63"> <p n="S1">: Whether the logikoi would be or would not be, that is the affair of the will of the Creator; but that they would be mortal or immortal, that is the affair of their will</p> </div>
+        <div type="chapter" n="64"> <p n="S1">: All reasonable nature, in fact, is susceptible of an opposition.50 The true life of the logikoi is their activity in spirit, and their death is the activity against nature.</p> </div>
+        <div type="chapter" n="65"> <p n="S1">: In the growth of the intellections of the creatures there are works and combats. But in contemplation of the Holy Trinity it is peace and an ineffable quietude.</p> </div>
+        <div type="chapter" n="66"> <p n="S1">: The virtues are said to be before us, facing the senses which see them; but it is behind us that are said to be the bad actions, because they are accomplished in the shadows. We are ordered, in fact, to "flee fornication" and to "pursue hospitality".</p> </div>
+        <div type="chapter" n="67"> <p n="S1">: Who will know the sustasis of this world, the activity of the elements and the practice of this instrument, how it will become a chariot by the practice of the commandments and will raise itself up by a spiritual ascension toward the Holy Trinity.</p> </div>
+        <div type="chapter" n="68"> <p n="S1">: Among the holy angels there is a predominance of the nous, among the humans, predominance of the épithumia, and among the demons predominance of the thumos. The Fathers say that the first approach the intermediaries by the mouth, and the last the intermediaries by the nostrils</p> </div>
+        <div type="chapter" n="69"> <p n="S1">: The one who leads in knowledge has someone after him; but he who leads in ignorance has none.</p> </div>
+        <div type="chapter" n="71"> <p n="S1">: The end of the knowledge of nature is the knowledge of holy Unity; but to incomprehensibility, as the Fathers say, there is no end, as it is written: "There is no limit to His intelligence".</p> </div>
+        <div type="chapter" n="72"> <p n="S1">: The Lord has pity on those to whom he gives spiritual knowledge, because it is written: "The just walk in the light and the insane in the shadows". But the Lord has pity also on the insane, in that it is not right away that He torments him but He fixes for him a model in order that he converts and lives.</p> </div>
+        <div type="chapter" n="74"> <p n="S1">: The light of the nous is divided in three, that is: in the knowledge of the adorable and holy Trinity, in bodiless and embodied nature, and in the intellection of the natures of creatures</p> </div>
+        <div type="chapter" n="76"> <p n="S1">It is not to the true knowledge which is hidden in the natures that ignorance is made the opposite, but to the knowledge of children. But, when children have become adults, they will win over ignorance.</p> </div>
+        <div type="chapter" n="77"> <p n="S1">THE nous of all the logikoi which are imprinted in the resemblance of their Creator is Christ our Savior; and it is He who perfects them in the knowledge of the holy Trinity.</p> </div>
+        <div type="chapter" n="78"> <p n="S1">The first renunciation of the world, which is done in the soul, is such: that with good will one abandons the things of this world for the science of God.</p> </div>
+        <div type="chapter" n="79"> <p n="S1">The second renunciation is distancing oneself from evil, which is produced by the application of man and by the grace of God.</p> </div>
+        <div type="chapter" n="80"> <p n="S1">The third renunciation is the separation from ignorance, which usually appears to men as certain fantasies in combat, according to the degree of their growth.</p> </div>
+        <div type="chapter" n="81"> <p n="S1">The glory and light of the nous is spiritual knowledge, the glory and light of the soul is its apatheia.</p> </div>
+        <div type="chapter" n="84"> <p n="S1">The nous of the logikoi is receptive of knowledge and ignorance, epithumiais receptive of chastity and of luxury, and following the thumos go love and hatred That which is first among the firsts is accompanied by what is first among the seconds, and what is first among the seconds (is accompanied) by what is first among the thirds.</p> </div>
+        <div type="chapter" n="85"> <p n="S1">The nous wanders, when it becomes impassioned, that it is to say it is uncontrollable when it achieves its diverse desires. But it restrains itself in its rush and renounces its distractions which surround it when it becomes dispassionate and when it has arrived in the company of those who are bodiless, those who fulfill all its spiritual desires.</p> </div>
+        <div type="chapter" n="86"> <p n="S1">[S1=S2: Love is the excellent state of the reasonable soul, which in this cannot love anything which is among corruptible things more than the knowledge of God.</p> </div>
+        <div type="chapter" n="87"> <p n="S1">Everything that was created was created for the knowledge of God; on the other hand, everything that was created for something else is less than what it was created for; in consequence, the knowledge of God is superior to everything, because everything was created for it.</p> </div>
+        <div type="chapter" n="88"> <p n="S1">: Natural knowledge is true understanding of those created for the knowledge of the Holy Trinity.</p> </div>
+        <div type="chapter" n="89"> <p n="S1">All reasoning nature was naturally made to understand true knowledge, and God is essential knowledge. The reasoning nature that has been created therefore has opposed to it the fact of not being created; and opposed to liberty are evil and ignorance; but not one of those things is opposed to God.</p> </div>
+        <div type="chapter" n="90"> <p n="S1">If today is the Friday when our Savior was crucified, all those who have died in Christ are the symbol of his tomb because with them the justice of God was buried, that which will be resuscitated on the third day, re clothed in a spiritual body. True indeed, is the word of our Savior, that "today and tomorrow He works miracles and on the third day it is completed."</p> </div>
       </div>
       <div type="century" n="II">
-        <div type="chapter" n="6">
-          <p n="S1"> The praktike soul that by the grace of God has triumphed and is part of the
-            body will be in those regions of knowledge where the wings of its apatheia will
-            sendit.</p>
-        </div>
-        <div type="chapter" n="10">
-          <p n="S1">] Desirable are things that are known through the organs of sense, but most
-            desirable is the contemplation of true knowledge. But because sensation cannot attain
-            knowledge due to its infirmity, it regards as superior what is closer, rather than that
-            which is distant and [truly superior to it.</p>
-        </div>
-        <div type="chapter" n="32">
-          <p n="S1">] Just as is not material things that nourish the body, but rather their powers;
-            so also it is not [external] matters themselves that make the soulgrow, but the
-            varieties of the knowledge of [external matters.</p>
-        </div>
-        <div type="chapter" n="35">
-          <p n="S1">] The nous, also, has five spiritual senses, by which it sees and feels the
-            minds of creatures. Vision shows it beings as [external objects; through hearing it
-            receives the logoi that concern them; through smell it revels in the holy and unmixed
-            fragrance, while the palate of his mouth delights in them;by touching it receives
-            exactly the certainty that is true in them.</p>
-        </div>
-        <div type="chapter" n="45">
-          <p n="S1">] The sense organs and the nous share in sensible [things, but the only the nous
-            has understanding of both both the intelligible (noetic) and sensible, indeed, itbecomes
-            a seer of both objects and their logoi.</p>
-        </div>
-        <div type="chapter" n="83">
-          <p n="S1"> Just as in the organs of sense, the senses are changed by differentqualities
-            and colors, so too the nous is changed when it gazes upon different contemplations</p>
-        </div>
+        <div type="chapter" n="6"> <p n="S1"> The praktike soul that by the grace of God has triumphed and is part of the body will be in those regions of knowledge where the wings of its apatheia will sendit.</p> </div>
+        <div type="chapter" n="10"> <p n="S1">] Desirable are things that are known through the organs of sense, but most desirable is the contemplation of true knowledge. But because sensation cannot attain knowledge due to its infirmity, it regards as superior what is closer, rather than that which is distant and [truly superior to it.</p> </div>
+        <div type="chapter" n="32"> <p n="S1">] Just as is not material things that nourish the body, but rather their powers; so also it is not [external] matters themselves that make the soulgrow, but the varieties of the knowledge of [external matters.</p> </div>
+        <div type="chapter" n="35"> <p n="S1">] The nous, also, has five spiritual senses, by which it sees and feels the minds of creatures. Vision shows it beings as [external objects; through hearing it receives the logoi that concern them; through smell it revels in the holy and unmixed fragrance, while the palate of his mouth delights in them;by touching it receives exactly the certainty that is true in them.</p> </div>
+        <div type="chapter" n="45"> <p n="S1">] The sense organs and the nous share in sensible [things, but the only the nous has understanding of both both the intelligible (noetic) and sensible, indeed, itbecomes a seer of both objects and their logoi.</p> </div>
+        <div type="chapter" n="83"> <p n="S1"> Just as in the organs of sense, the senses are changed by differentqualities and colors, so too the nous is changed when it gazes upon different contemplations</p> </div>
       </div>
       <div type="century" n="III">
-        <div type="chapter" n="31">
-          <p n="S1">It is possible to say what the movement of the nous is, but its nature is
-            ineffable, because it has not been constituted of the four elements.</p>
-        </div>
-        <div type="chapter" n="35">
-          <p n="S1">] The nous is healed by knowledge; the thumos, by love; and theépithumia, by
-            chastity. And the cause of the first is the second, and that of the second is the
-            third.</p>
-        </div>
-        <div type="chapter" n="36">
-          <p n="S1">The world is the sustasis of the natures that have been constituted of different
-            bodies and contain different logikoi for growth in the knowledge of God.</p>
-        </div>
-        <div type="chapter" n="59">
-          <p n="S1"> If all evil is created by the three parts of the soul, that is by
-            thelogistikon, by epithumia, or by thumos, and if it is possible to use these either
-            well or badly, it is clear that evil is created by their use contrary to nature. And if
-            this is the case, there is nothing that has been created by God that is evil.</p>
-        </div>
-        <div type="chapter" n="69">
-          <p n="S1">] Of all creation, only the nous is receptive of the knowledge of the Holy
-            Trinity.</p>
-        </div>
-        <div type="chapter" n="76">
-          <p n="S1"> When we were formed in the womb we lived the life of plants, when we were
-            children, we lived the lives of animals, and when we becameadults, we live the life
-            either of angels or of demons; that is, by virtue or bycontempt.</p>
-        </div>
-        <div type="chapter" n="78">
-          <p n="S1"> The angels and the demons approach our world but we do notapproach their
-            worlds. Indeed, we can not move closer to God's angels, nor can we imagine defiling the
-            demons worse than they are.</p>
-        </div>
-        <div type="chapter" n="90">
-          <p n="S1"> The demons do not cease slandering the gnostic, even when it is not at fault in
-            order to attract them to the nous by thumos. Indeed, it is as if a dark cloud stands
-            before the mind and drives the nous away at the time of contemplation if the demons are
-            not reproved as slanderers.</p>
-        </div>
+        <div type="chapter" n="31"> <p n="S1">It is possible to say what the movement of the nous is, but its nature is ineffable, because it has not been constituted of the four elements.</p> </div>
+        <div type="chapter" n="35"> <p n="S1">] The nous is healed by knowledge; the thumos, by love; and theépithumia, by chastity. And the cause of the first is the second, and that of the second is the third.</p> </div>
+        <div type="chapter" n="36"> <p n="S1">The world is the sustasis of the natures that have been constituted of different bodies and contain different logikoi for growth in the knowledge of God.</p> </div>
+        <div type="chapter" n="59"> <p n="S1"> If all evil is created by the three parts of the soul, that is by thelogistikon, by epithumia, or by thumos, and if it is possible to use these either well or badly, it is clear that evil is created by their use contrary to nature. And if this is the case, there is nothing that has been created by God that is evil.</p> </div>
+        <div type="chapter" n="69"> <p n="S1">] Of all creation, only the nous is receptive of the knowledge of the Holy Trinity.</p> </div>
+        <div type="chapter" n="76"> <p n="S1"> When we were formed in the womb we lived the life of plants, when we were children, we lived the lives of animals, and when we becameadults, we live the life either of angels or of demons; that is, by virtue or bycontempt.</p> </div>
+        <div type="chapter" n="78"> <p n="S1"> The angels and the demons approach our world but we do notapproach their worlds. Indeed, we can not move closer to God's angels, nor can we imagine defiling the demons worse than they are.</p> </div>
+        <div type="chapter" n="90"> <p n="S1"> The demons do not cease slandering the gnostic, even when it is not at fault in order to attract them to the nous by thumos. Indeed, it is as if a dark cloud stands before the mind and drives the nous away at the time of contemplation if the demons are not reproved as slanderers.</p> </div>
       </div>
       <div type="century" n="IV">
-        <div type="chapter" n="39">
-          <p n="S1">If in the world to come God shows His riches to the logikoi, it is evident that
-            in this world they possess a part of it</p>
-        </div>
-        <div type="chapter" n="40">
-          <p n="S1">The key of the kingdom of the heavens is the spiritual gift which reveals to the
-            nous the contemplation of the spiritual praktiké, the intellection which is in the
-            natures and the logoi that concern the divinity.</p>
-        </div>
-        <div type="chapter" n="41">
-          <p n="S1">Christ, before his coming, appeared to men in various forms; and in His coming,
-            He appeared to them in the truth of their bodies.</p>
-        </div>
-        <div type="chapter" n="49">
-          <p n="S1">While all pleasure which comes from the practice of good actions proceeds from
-            the world to come, the pleasure of spiritual knowledge remains with the nous in this
-            world and in the world to come.</p>
-        </div>
-        <div type="chapter" n="50">
-          <p n="S1">There is one good love which remains eternally, that which is the love of the
-            true knowledge.</p>
-        </div>
-        <div type="chapter" n="54">
-          <p n="S1">In all the languages, the names and the words are known, and they inform about
-            the objects. Thus, the language of the holy Spirit informs64 about the differences in
-            the intellections.</p>
-        </div>
-        <div type="chapter" n="55">
-          <p n="S1">The utterances of the virtues are the mirror of the virtues; he who thus
-            "listens" to the virtues and does not "practice them," he sees only the shadow of the
-            virtues as in a mirror. But the true virtue is the exact face of the soul.</p>
-        </div>
-        <div type="chapter" n="64">
-          <p n="S1">If the first Israel, many of whom were not from Israel, accompanied him, is it
-            also with the new Israel many among the Egyptians 67 did not go out? </p>
-        </div>
-        <div type="chapter" n="67">
-          <p n="S1">The sensible things move the soul to make it take on their shapes: just as the
-            intelligible intellections move the nous to make it take on their contemplation</p>
-        </div>
-        <div type="chapter" n="75">
-          <p n="S1">The spiritual "linen" is the justice of the soul, by which it is accustomed to
-            win fame in works of beautiful actions and in the science of faith.</p>
-        </div>
-        <div type="chapter" n="76">
-          <p n="S1">He who is full of passions and prays for his departure from this world to occur
-            rapidly resembles a man who is sick and who asks the cabinet maker to quickly break up
-            his bed before he gets well.</p>
-        </div>
-        <div type="chapter" n="77">
-          <p n="S1">The sensible things are outside of the nous, and their view is inside it. But it
-            is not therefore that way in regard to the holy Trinity, because that is essential
-            knowledge.</p>
-        </div>
+        <div type="chapter" n="39"> <p n="S1">If in the world to come God shows His riches to the logikoi, it is evident that in this world they possess a part of it</p> </div>
+        <div type="chapter" n="40"> <p n="S1">The key of the kingdom of the heavens is the spiritual gift which reveals to the nous the contemplation of the spiritual praktiké, the intellection which is in the natures and the logoi that concern the divinity.</p> </div>
+        <div type="chapter" n="41"> <p n="S1">Christ, before his coming, appeared to men in various forms; and in His coming, He appeared to them in the truth of their bodies.</p> </div>
+        <div type="chapter" n="49"> <p n="S1">While all pleasure which comes from the practice of good actions proceeds from the world to come, the pleasure of spiritual knowledge remains with the nous in this world and in the world to come.</p> </div>
+        <div type="chapter" n="50"> <p n="S1">There is one good love which remains eternally, that which is the love of the true knowledge.</p> </div>
+        <div type="chapter" n="54"> <p n="S1">In all the languages, the names and the words are known, and they inform about the objects. Thus, the language of the holy Spirit informs64 about the differences in the intellections.</p> </div>
+        <div type="chapter" n="55"> <p n="S1">The utterances of the virtues are the mirror of the virtues; he who thus "listens" to the virtues and does not "practice them," he sees only the shadow of the virtues as in a mirror. But the true virtue is the exact face of the soul.</p> </div>
+        <div type="chapter" n="64"> <p n="S1">If the first Israel, many of whom were not from Israel, accompanied him, is it also with the new Israel many among the Egyptians 67 did not go out? </p> </div>
+        <div type="chapter" n="67"> <p n="S1">The sensible things move the soul to make it take on their shapes: just as the intelligible intellections move the nous to make it take on their contemplation</p> </div>
+        <div type="chapter" n="75"> <p n="S1">The spiritual "linen" is the justice of the soul, by which it is accustomed to win fame in works of beautiful actions and in the science of faith.</p> </div>
+        <div type="chapter" n="76"> <p n="S1">He who is full of passions and prays for his departure from this world to occur rapidly resembles a man who is sick and who asks the cabinet maker to quickly break up his bed before he gets well.</p> </div>
+        <div type="chapter" n="77"> <p n="S1">The sensible things are outside of the nous, and their view is inside it. But it is not therefore that way in regard to the holy Trinity, because that is essential knowledge.</p> </div>
       </div>
       <div type="century" n="V">
-        <div type="chapter" n="38">
-          <p n="S1"> He who fights for apatheia will arm himself with the commandments of God, and
-            he who (fights) for the truth, will choose to arm himself with knowledge, and thus he
-            will go out against their enemies. There will be a defeat of the first, when he will not
-            do what is commanded of him and (defeat) of the second, when, in his doctrine, he will
-            fall from the truth and will become the head of the erroneous doctrines.</p>
-        </div>
-        <div type="chapter" n="39">
-          <p n="S1"> "The place of God" (Exod, 24:1) is called peace, and peace is the state of
-            dispassion of the reasonable nature. He who therefore wishes that his God resides in him
-            will purify with care his soul of all passions.</p>
-        </div>
-        <div type="chapter" n="55">
-          <p n="S1">The holy Trinity is not a thing having qualities, for that pertains to
-            creatures.</p>
-        </div>
-        <div type="chapter" n="56">
-          <p n="S1">He who was separated from things was deprived also of their contemplation; and
-            he from whom was removed the contemplations will find himself outside of things. But the
-            holy Trinity is not the same; we believed, in fact, that it is the essential
-            knowledge.</p>
-        </div>
-        <div type="chapter" n="58">
-          <p n="S1"> The senses discern the sensible, and the nous their contemplation.</p>
-        </div>
-        <div type="chapter" n="59">
-          <p n="S1">Sense does not discern sense; the sense organs do not discern the other sense
-            organs, but the sense. The nous discerns the sense organs and the sense.</p>
-        </div>
-        <div type="chapter" n="61">
-          <p n="S1">When we consider matter, we remember their contemplation; and, once we have
-            received the contemplation, we come to the memory of matter But it is not how it happens
-            also in the contemplation of the Holy Trinity</p>
-        </div>
-        <div type="chapter" n="62">
-          <p n="S1">The Holy Trinity is not a thing having composition or qualities, whether missing
-            or in excess; it is in fact, a unique essence, which in everything is always equal to
-            itself</p>
-        </div>
-        <div type="chapter" n="63">
-          <p n="S1">In the contemplation of beings, there are ascents and descents, according to the
-            diligence or the negligence. But it is not the same in the contemplation of the Holy
-            Trinity. It is, in fact, a vision that is equal to itself, where there is neither ascent
-            or descent.</p>
-        </div>
-        <div type="chapter" n="72">
-          <p n="S1"> If "the four arms " were divided from only one source, let us understand with
-            discernment their exits and their regions.</p>
-        </div>
-        <div type="chapter" n="73">
-          <p n="S1"> The nous is in admiration, when it looks at the natures, and it is not troubled
-            when it meets a related and beloved contemplation.</p>
-        </div>
-        <div type="chapter" n="75">
-          <p n="S1"> The more the nous divests itself of passions, the more it looks at the
-            intellections; and the more its zeal presses the more the knowledge enriches itself</p>
-        </div>
-        <div type="chapter" n="79">
-          <p n="S1"> To perceive the contemplation of the natures appertains to the power of the
-            nous; but to look at the holy Trinity does not appertain to its powers alone; but that
-            is a superior gift of grace</p>
-        </div>
+        <div type="chapter" n="38"> <p n="S1"> He who fights for apatheia will arm himself with the commandments of God, and he who (fights) for the truth, will choose to arm himself with knowledge, and thus he will go out against their enemies. There will be a defeat of the first, when he will not do what is commanded of him and (defeat) of the second, when, in his doctrine, he will fall from the truth and will become the head of the erroneous doctrines.</p> </div>
+        <div type="chapter" n="39"> <p n="S1"> "The place of God" (Exod, 24:1) is called peace, and peace is the state of dispassion of the reasonable nature. He who therefore wishes that his God resides in him will purify with care his soul of all passions.</p> </div>
+        <div type="chapter" n="55"> <p n="S1">The holy Trinity is not a thing having qualities, for that pertains to creatures.</p> </div>
+        <div type="chapter" n="56"> <p n="S1">He who was separated from things was deprived also of their contemplation; and he from whom was removed the contemplations will find himself outside of things. But the holy Trinity is not the same; we believed, in fact, that it is the essential knowledge.</p> </div>
+        <div type="chapter" n="58"> <p n="S1"> The senses discern the sensible, and the nous their contemplation.</p> </div>
+        <div type="chapter" n="59"> <p n="S1">Sense does not discern sense; the sense organs do not discern the other sense organs, but the sense. The nous discerns the sense organs and the sense.</p> </div>
+        <div type="chapter" n="61"> <p n="S1">When we consider matter, we remember their contemplation; and, once we have received the contemplation, we come to the memory of matter But it is not how it happens also in the contemplation of the Holy Trinity</p> </div>
+        <div type="chapter" n="62"> <p n="S1">The Holy Trinity is not a thing having composition or qualities, whether missing or in excess; it is in fact, a unique essence, which in everything is always equal to itself</p> </div>
+        <div type="chapter" n="63"> <p n="S1">In the contemplation of beings, there are ascents and descents, according to the diligence or the negligence. But it is not the same in the contemplation of the Holy Trinity. It is, in fact, a vision that is equal to itself, where there is neither ascent or descent.</p> </div>
+        <div type="chapter" n="72"> <p n="S1"> If "the four arms " were divided from only one source, let us understand with discernment their exits and their regions.</p> </div>
+        <div type="chapter" n="73"> <p n="S1"> The nous is in admiration, when it looks at the natures, and it is not troubled when it meets a related and beloved contemplation.</p> </div>
+        <div type="chapter" n="75"> <p n="S1"> The more the nous divests itself of passions, the more it looks at the intellections; and the more its zeal presses the more the knowledge enriches itself</p> </div>
+        <div type="chapter" n="79"> <p n="S1"> To perceive the contemplation of the natures appertains to the power of the nous; but to look at the holy Trinity does not appertain to its powers alone; but that is a superior gift of grace</p> </div>
       </div>
       <div type="century" n="VI">
-        <div type="chapter" n="79">
-          <p n="S1"> The body of Christ is connatural with our body; his soul also is of the nature
-            of our souls; in the same way also his divinity is coessential with the Father.</p>
-        </div>
-        <div type="chapter" n="81">
-          <p n="S1"> Just as it is not possible for a reasoning nature to be with the body apart
-            from the world, so it is not possible for a reasoning nature , apart from the body, to
-            be in the new world.</p>
-        </div>
-        <div type="chapter" n="82">
-          <p n="S1"> One says that God dwells in his creation in the same way as a builder in his
-            house.</p>
-        </div>
-        <div type="chapter" n="84">
-          <p n="S1"> Thumos slips into the heart and epithumia of the flesh into the blood. Because
-            of this we have received the command to distance the heart from anger and the flesh from
-            vice.</p>
-        </div>
-        <div type="chapter" n="88">
-          <p n="S1"> "It is not only the holy angels who work with us for our salvation, but also
-            the saints, our companions, who themselves were of assistance in the Gospel to Our
-            Lord"</p>
-        </div>
+        <div type="chapter" n="79"> <p n="S1"> The body of Christ is connatural with our body; his soul also is of the nature of our souls; in the same way also his divinity is coessential with the Father.</p> </div>
+        <div type="chapter" n="81"> <p n="S1"> Just as it is not possible for a reasoning nature to be with the body apart from the world, so it is not possible for a reasoning nature , apart from the body, to be in the new world.</p> </div>
+        <div type="chapter" n="82"> <p n="S1"> One says that God dwells in his creation in the same way as a builder in his house.</p> </div>
+        <div type="chapter" n="84"> <p n="S1"> Thumos slips into the heart and epithumia of the flesh into the blood. Because of this we have received the command to distance the heart from anger and the flesh from vice.</p> </div>
+        <div type="chapter" n="88"> <p n="S1"> "It is not only the holy angels who work with us for our salvation, but also the saints, our companions, who themselves were of assistance in the Gospel to Our Lord"</p> </div>
       </div>
     </body>
   </text>

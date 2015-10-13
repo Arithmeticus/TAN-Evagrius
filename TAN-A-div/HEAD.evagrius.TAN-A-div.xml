@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
+   id="tag:kalvesmaki.com,2014:tan-a-div:evagrius">
+   <head>
+      <name>Alignment of the works of Evagrius</name>
+      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/HEAD.evagrius.TAN-A-div.xml</master-location>
+      <rights-excluding-sources rights-holder="kalvesmaki">
+         <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+         <name>Creative Commons Attribution 4.0 International License</name>
+         <desc>This license is granted independent of rights and licenses associated with the
+            sources. </desc>
+      </rights-excluding-sources>
+      <inclusion xml:id="cpg2430">
+         <IRI>tag:kalvesmaki@gmail.com,2014:cpg2430-TAN-A-div-et-al-1</IRI>
+         <name>Alignment of Evagrius's Praktikos and works cited</name>
+         <location when-accessed="2015-10-12-04:00">cpg2430.TAN-A-div.xml</location>
+      </inclusion>
+      <source include="cpg2430"/>
+      <declarations/>
+      <agent xml:id="kalvesmaki" roles="editor">
+         <IRI>http://viaf.org/viaf/299582703</IRI>
+         <IRI>tag:kalvesmaki.com,2014:self</IRI>
+         <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
+         <name xml:lang="eng">Joel Kalvesmaki</name>
+      </agent>
+      <role xml:id="editor">
+         <IRI>http://schema.org/editor</IRI>
+         <name xml:lang="eng">editor</name>
+      </role>
+      <change when="2015-10-12" who="kalvesmaki">Started file</change>
+   </head>
+   <body/>
+</TAN-A-div>

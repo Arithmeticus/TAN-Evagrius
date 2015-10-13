@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
+   id="tag:kalvesmaki.com,2014:tan-a-div:bible:for-evagrius">
+   <head>
+      <name>Alignment of the works of Evagrius</name>
+      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/bible-for-evagrius.TAN-A-div.xml</master-location>
+      <rights-excluding-sources include="HEAD"/>
+      <inclusion xml:id="HEAD">
+         <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
+         <name>Bible versions relevant for alignment with the works of Evagrius</name>
+         <location when-accessed="2015-10-12-04:00">HEAD.evagrius.TAN-A-div.xml</location>
+      </inclusion>
+      <source xml:id="lxx">
+         <IRI>tag:kalvesmaki.com,2014:lxx-grc-1979-rahlfs.TAN-T.001</IRI>
+         <name>Rahlfs's edition of the Septuagint</name>
+         <location when-accessed="2015-08-08-04:00">../../bible/lxx.grc.rahlfs.xml</location>
+         <location when-accessed="2015-08-07-04:00"
+            >https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/lxx.grc.rahlfs.xml</location>
+      </source>
+      <source xml:id="nt">
+         <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
+         <name>SBL's Greek New Testament</name>
+         <location when-accessed="2015-08-08-04:00">../../bible/nt.grc.sbl-2010.xml</location>
+         <location when-accessed="2015-08-08-04:00"
+            >https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.grc.sbl-2010.xml</location>
+      </source>
+      <source xml:id="nt-syr">
+         <IRI>tag:kalvesmaki.com,2014:nt-syr-1905-BFBS</IRI>
+         <name>1905 Bible Society Syriac New Testament</name>
+         <location when-accessed="2015-08-08-04:00">../../bible/nt.syr.bfbs-1905.xml</location>
+         <location when-accessed="2015-08-08-04:00"
+            >https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.syr.bfbs-1905.xml</location>
+      </source>
+      <declarations>
+         <implicit-div-type-refs src="lxx nt nt-syr"/>
+         <tokenization src="lxx nt nt-syr" which="general-words-only-1"/>
+      </declarations>
+      <agent include="HEAD"/>
+      <role include="HEAD"/>
+      <change when="2015-10-12" who="kalvesmaki">Started file</change>
+   </head>
+   <body/>
+</TAN-A-div>

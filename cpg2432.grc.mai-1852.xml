@@ -52,48 +52,26 @@
   <head xmlns="tag:textalign.net,2015:ns">
     <name xml:lang="eng">Fragments preserved PG 39</name>
     <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.grc.mai-1852.xml</master-location>
-    <rights-excluding-sources rights-holder="kalvesmaki">
-      <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
-      <name>Exclusive of rights held and licenses offered by rightsholders of the source or sources
-        listed below, this data file, insofar as it constitutes an independent work, is licensed
-        under a Creative Commons Attribution 4.0 International License.</name>
-    </rights-excluding-sources>
+    <rights-excluding-sources include="WORK"/>
+    <inclusion xml:id="WORK">
+      <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001</IRI>
+      <name>Guillaumont's edition of Syriac S2 of the Kephalaia Gnostika</name>
+      <location when-accessed="2015-10-13-04:00">CPG2432.syr.guillaumont-s2.xml</location>
+    </inclusion>
     <source>
       <IRI>http://dbpedia.org/resource/Patrologia_Graeca</IRI>
       <name>Patrologia Graeca</name>
     </source>
     <declarations>
-      <work>
-        <IRI>tag:evagriusponticus.net,2015:cpg2432</IRI>
-        <IRI>tag:kalvesmaki.com,2014:cpg2432</IRI>
-        <name xml:lang="eng">The Kephalaia Gnostika, written by Evagrius Ponticus</name>
-      </work>
-      <div-type xml:id="century">
-        <IRI>tag:kalvesmaki.com,2014:div-type-century</IRI>
-        <name xml:lang="eng">century</name>
-      </div-type>
-      <div-type xml:id="chapter">
-        <IRI>http://dbpedia.org/resource/Chapter_(books)</IRI>
-        <name xml:lang="eng">chapter</name>
-        <name xml:lang="grc">κεφάλαιον</name>
-      </div-type>
+      <work include="WORK"/>
+      <div-type include="WORK"/>
       <recommended-tokenization which="general-words-only-1"/>
       <recommended-div-type-refs>implicit</recommended-div-type-refs>
       <filter/>
     </declarations>
-    <agent xml:id="kalvesmaki" roles="editor provider">
-      <IRI>http://viaf.org/viaf/299582703</IRI>
-      <IRI>tag:kalvesmaki.com,2014:self</IRI>
-      <name xml:lang="eng">Joel Kalvesmaki</name>
-    </agent>
-    <role xml:id="provider">
-      <IRI>http://schema.org/provider</IRI>
-      <name xml:lang="eng">Provider</name>
-    </role>
-    <role xml:id="editor">
-      <IRI>http://schema.org/editor</IRI>
-      <name xml:lang="eng">Editor</name>
-    </role>
+    <agent include="WORK"/>
+    <role include="WORK"/>
+    <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
       release.</change>
@@ -102,12 +80,7 @@
   <text>
     <body xml:lang="grc" in-progress="false">
       <div type="century" n="IV">
-        <div type="chapter" n="70">
-          <pb n="39:1604"/>
-          <p><desc>Sch. 5 on Ps. 141.8</desc> οὐ πάντων <lb/>δὲ ἔστιν τοῦτο λέγειν, “Ἔκβαλε ἐκ
-            φυλακῆς τὴν <lb/>ψυχήν μου,” ἀλλ’ ἢ τῶν δυναμένων διὰ καθαρότητα <lb/>καρδίας, καὶ χωρὶς
-            τοῦ σώματος τούτου ἐπιβαλεῖν <lb/>τῇ θεωρίᾳ τῶν γεγονότων. </p>
-        </div>
+        <div type="chapter" n="70"> <pb n="39:1604"/> <p><desc>Sch. 5 on Ps. 141.8</desc> οὐ πάντων <lb/>δὲ ἔστιν τοῦτο λέγειν, “Ἔκβαλε ἐκ φυλακῆς τὴν <lb/>ψυχήν μου,” ἀλλ’ ἢ τῶν δυναμένων διὰ καθαρότητα <lb/>καρδίας, καὶ χωρὶς τοῦ σώματος τούτου ἐπιβαλεῖν <lb/>τῇ θεωρίᾳ τῶν γεγονότων. </p> </div>
       </div>
     </body>
   </text>
