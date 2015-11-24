@@ -68,1974 +68,1972 @@
    </head>
    <body reuse-type="trans" bitext-relation="cred">
       <align>
-         <tok src="grc" ref="preface :title 1" ord="1"/>
-         <tok src="grc" ref="preface :title 1" ord="2"/>
+         <tok src="grc" ref="preface :title 1" pos="1"/>
+         <tok src="grc" ref="preface :title 1" pos="2"/>
       </align>
       <align reuse-type="para trans">
-         <tok src="syr" ref="preface :title 1" ord="1"/>
-         <tok src="syr" ref="preface :title 1" ord="2"/>
-         <tok src="syr" ref="preface :title 1" ord="3"/>
-         <tok src="syr" ref="preface :title 1" ord="4"/>
-         <tok src="syr" ref="preface :title 1" ord="5"/>
-         <tok src="syr" ref="preface :title 1" ord="6"/>
-         <tok src="syr" ref="preface :title 1" ord="7"/>
-         <tok src="syr" ref="preface :title 1" ord="8"/>
+         <tok src="syr" ref="preface :title 1" pos="1"/>
+         <tok src="syr" ref="preface :title 1" pos="2"/>
+         <tok src="syr" ref="preface :title 1" pos="3"/>
+         <tok src="syr" ref="preface :title 1" pos="4"/>
+         <tok src="syr" ref="preface :title 1" pos="5"/>
+         <tok src="syr" ref="preface :title 1" pos="6"/>
+         <tok src="syr" ref="preface :title 1" pos="7"/>
+         <tok src="syr" ref="preface :title 1" pos="8"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :title 1" ord="9"/>
-         <tok src="syr" ref="preface :title 1" ord="10"/>
-         <tok src="syr" ref="preface :title 1" ord="11"/>
-         <tok src="syr" ref="preface :title 1" ord="12"/>
-         <tok src="syr" ref="preface :title 1" ord="13"/>
-         <tok src="syr" ref="preface :title 1" ord="14"/>
-         <tok src="syr" ref="preface :title 1" ord="15"/>
-         <tok src="syr" ref="preface :title 1" ord="16"/>
+         <tok src="syr" ref="preface :title 1" pos="9"/>
+         <tok src="syr" ref="preface :title 1" pos="10"/>
+         <tok src="syr" ref="preface :title 1" pos="11"/>
+         <tok src="syr" ref="preface :title 1" pos="12"/>
+         <tok src="syr" ref="preface :title 1" pos="13"/>
+         <tok src="syr" ref="preface :title 1" pos="14"/>
+         <tok src="syr" ref="preface :title 1" pos="15"/>
+         <tok src="syr" ref="preface :title 1" pos="16"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="1"/>
-         <tok src="syr" ref="preface :section 1" ord="1"/>
+         <tok src="grc" ref="preface :section 1" pos="1"/>
+         <tok src="syr" ref="preface :section 1" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="2"/>
-         <tok src="syr" ref="preface :section 1" ord="6"/>
+         <tok src="grc" ref="preface :section 1" pos="2"/>
+         <tok src="syr" ref="preface :section 1" pos="6"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="4"/>
-         <tok src="syr" ref="preface :section 1" ord="5"/>
+         <tok src="grc" ref="preface :section 1" pos="4"/>
+         <tok src="syr" ref="preface :section 1" pos="5"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="3"/>
-         <tok src="syr" ref="preface :section 1" ord="4"/>
-         <tok src="syr" ref="preface :section 1" ord="3"/>
+         <tok src="grc" ref="preface :section 1" pos="3"/>
+         <tok src="syr" ref="preface :section 1" pos="4"/>
+         <tok src="syr" ref="preface :section 1" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="5"/>
-         <tok src="syr" ref="preface :section 1" ord="7"/>
+         <tok src="grc" ref="preface :section 1" pos="5"/>
+         <tok src="syr" ref="preface :section 1" pos="7"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="6"/>
-         <tok src="grc" ref="preface :section 1" ord="8"/>
-         <tok src="syr" ref="preface :section 1" ord="9"/>
+         <tok src="grc" ref="preface :section 1" pos="6"/>
+         <tok src="grc" ref="preface :section 1" pos="8"/>
+         <tok src="syr" ref="preface :section 1" pos="9"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="7"/>
-         <tok src="syr" ref="preface :section 1" ord="10"/>
+         <tok src="grc" ref="preface :section 1" pos="7"/>
+         <tok src="syr" ref="preface :section 1" pos="10"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="12"/>
-         <tok src="syr" ref="preface :section 1" ord="11"/>
-         <tok src="syr" ref="preface :section 1" ord="12"/>
-         <tok src="syr" ref="preface :section 1" ord="13"/>
+         <tok src="grc" ref="preface :section 1" pos="12"/>
+         <tok src="syr" ref="preface :section 1" pos="11"/>
+         <tok src="syr" ref="preface :section 1" pos="12"/>
+         <tok src="syr" ref="preface :section 1" pos="13"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="9"/>
-         <tok src="grc" ref="preface :section 1" ord="10"/>
-         <tok src="grc" ref="preface :section 1" ord="11"/>
-         <tok src="syr" ref="preface :section 1" ord="14"/>
+         <tok src="grc" ref="preface :section 1" pos="9"/>
+         <tok src="grc" ref="preface :section 1" pos="10"/>
+         <tok src="grc" ref="preface :section 1" pos="11"/>
+         <tok src="syr" ref="preface :section 1" pos="14"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 1" ord="15"/>
-         <tok src="syr" ref="preface :section 1" ord="16"/>
+         <tok src="syr" ref="preface :section 1" pos="15"/>
+         <tok src="syr" ref="preface :section 1" pos="16"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="14"/>
-         <tok src="syr" ref="preface :section 1" ord="18"/>
+         <tok src="grc" ref="preface :section 1" pos="14"/>
+         <tok src="syr" ref="preface :section 1" pos="18"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="13"/>
-         <tok src="syr" ref="preface :section 1" ord="19"/>
+         <tok src="grc" ref="preface :section 1" pos="13"/>
+         <tok src="syr" ref="preface :section 1" pos="19"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="15"/>
-         <tok src="syr" ref="preface :section 1" ord="20"/>
-         <tok src="syr" ref="preface :section 1" ord="17"/>
+         <tok src="grc" ref="preface :section 1" pos="15"/>
+         <tok src="syr" ref="preface :section 1" pos="20"/>
+         <tok src="syr" ref="preface :section 1" pos="17"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 1" ord="25"/>
+         <tok src="syr" ref="preface :section 1" pos="25"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="16"/>
-         <tok src="grc" ref="preface :section 1" ord="26"/>
-         <tok src="syr" ref="preface :section 1" ord="21"/>
+         <tok src="grc" ref="preface :section 1" pos="16"/>
+         <tok src="grc" ref="preface :section 1" pos="26"/>
+         <tok src="syr" ref="preface :section 1" pos="21"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 1" ord="8"/>
+         <tok src="syr" ref="preface :section 1" pos="8"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="17"/>
-         <tok src="grc" ref="preface :section 1" ord="18"/>
-         <tok src="syr" ref="preface :section 1" ord="22"/>
+         <tok src="grc" ref="preface :section 1" pos="17"/>
+         <tok src="grc" ref="preface :section 1" pos="18"/>
+         <tok src="syr" ref="preface :section 1" pos="22"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="19"/>
-         <tok src="syr" ref="preface :section 1" ord="23"/>
+         <tok src="grc" ref="preface :section 1" pos="19"/>
+         <tok src="syr" ref="preface :section 1" pos="23"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="20"/>
-         <tok src="grc" ref="preface :section 1" ord="23"/>
-         <tok src="syr" ref="preface :section 1" ord="24"/>
+         <tok src="grc" ref="preface :section 1" pos="20"/>
+         <tok src="grc" ref="preface :section 1" pos="23"/>
+         <tok src="syr" ref="preface :section 1" pos="24"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="21"/>
-         <tok src="grc" ref="preface :section 1" ord="22"/>
-         <tok src="syr" ref="preface :section 1" ord="26"/>
+         <tok src="grc" ref="preface :section 1" pos="21"/>
+         <tok src="grc" ref="preface :section 1" pos="22"/>
+         <tok src="syr" ref="preface :section 1" pos="26"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="24"/>
-         <tok src="syr" ref="preface :section 1" ord="27"/>
+         <tok src="grc" ref="preface :section 1" pos="24"/>
+         <tok src="syr" ref="preface :section 1" pos="27"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="25"/>
-         <tok src="syr" ref="preface :section 1" ord="28"/>
+         <tok src="grc" ref="preface :section 1" pos="25"/>
+         <tok src="syr" ref="preface :section 1" pos="28"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="27"/>
-         <tok src="syr" ref="preface :section 1" ord="29"/>
+         <tok src="grc" ref="preface :section 1" pos="27"/>
+         <tok src="syr" ref="preface :section 1" pos="29"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="28"/>
-         <tok src="syr" ref="preface :section 1" ord="31"/>
+         <tok src="grc" ref="preface :section 1" pos="28"/>
+         <tok src="syr" ref="preface :section 1" pos="31"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="29"/>
-         <tok src="syr" ref="preface :section 1" ord="32"/>
+         <tok src="grc" ref="preface :section 1" pos="29"/>
+         <tok src="syr" ref="preface :section 1" pos="32"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="30"/>
-         <tok src="syr" ref="preface :section 1" ord="35"/>
+         <tok src="grc" ref="preface :section 1" pos="30"/>
+         <tok src="syr" ref="preface :section 1" pos="35"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="37"/>
-         <tok src="syr" ref="preface :section 1" ord="46"/>
+         <tok src="grc" ref="preface :section 1" pos="37"/>
+         <tok src="syr" ref="preface :section 1" pos="46"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="38"/>
-         <tok src="grc" ref="preface :section 1" ord="39"/>
-         <tok src="syr" ref="preface :section 1" ord="47"/>
+         <tok src="grc" ref="preface :section 1" pos="38"/>
+         <tok src="grc" ref="preface :section 1" pos="39"/>
+         <tok src="syr" ref="preface :section 1" pos="47"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="38"/>
-         <tok src="grc" ref="preface :section 1" ord="40"/>
-         <tok src="syr" ref="preface :section 1" ord="48"/>
+         <tok src="grc" ref="preface :section 1" pos="38"/>
+         <tok src="grc" ref="preface :section 1" pos="40"/>
+         <tok src="syr" ref="preface :section 1" pos="48"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="43"/>
-         <tok src="syr" ref="preface :section 1" ord="50"/>
+         <tok src="grc" ref="preface :section 1" pos="43"/>
+         <tok src="syr" ref="preface :section 1" pos="50"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="44"/>
-         <tok src="syr" ref="preface :section 1" ord="51"/>
-         <tok src="syr" ref="preface :section 1" ord="52"/>
+         <tok src="grc" ref="preface :section 1" pos="44"/>
+         <tok src="syr" ref="preface :section 1" pos="51"/>
+         <tok src="syr" ref="preface :section 1" pos="52"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="45"/>
-         <tok src="syr" ref="preface :section 1" ord="53"/>
+         <tok src="grc" ref="preface :section 1" pos="45"/>
+         <tok src="syr" ref="preface :section 1" pos="53"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="46"/>
-         <tok src="grc" ref="preface :section 1" ord="48"/>
-         <tok src="syr" ref="preface :section 1" ord="54"/>
+         <tok src="grc" ref="preface :section 1" pos="46"/>
+         <tok src="grc" ref="preface :section 1" pos="48"/>
+         <tok src="syr" ref="preface :section 1" pos="54"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="46"/>
-         <tok src="grc" ref="preface :section 1" ord="47"/>
-         <tok src="syr" ref="preface :section 1" ord="55"/>
+         <tok src="grc" ref="preface :section 1" pos="46"/>
+         <tok src="grc" ref="preface :section 1" pos="47"/>
+         <tok src="syr" ref="preface :section 1" pos="55"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="41"/>
-         <tok src="grc" ref="preface :section 1" ord="42"/>
-         <tok src="syr" ref="preface :section 1" ord="49"/>
+         <tok src="grc" ref="preface :section 1" pos="41"/>
+         <tok src="grc" ref="preface :section 1" pos="42"/>
+         <tok src="syr" ref="preface :section 1" pos="49"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="49"/>
-         <tok src="grc" ref="preface :section 1" ord="50"/>
-         <tok src="syr" ref="preface :section 1" ord="56"/>
+         <tok src="grc" ref="preface :section 1" pos="49"/>
+         <tok src="grc" ref="preface :section 1" pos="50"/>
+         <tok src="syr" ref="preface :section 1" pos="56"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="51"/>
-         <tok src="syr" ref="preface :section 1" ord="52"/>
+         <tok src="grc" ref="preface :section 1" pos="51"/>
+         <tok src="syr" ref="preface :section 1" pos="52"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 1" ord="52"/>
-         <tok src="syr" ref="preface :section 1" ord="60"/>
-         <tok src="syr" ref="preface :section 1" ord="61"/>
+         <tok src="grc" ref="preface :section 1" pos="52"/>
+         <tok src="syr" ref="preface :section 1" pos="60"/>
+         <tok src="syr" ref="preface :section 1" pos="61"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 1" ord="57"/>
-         <tok src="syr" ref="preface :section 1" ord="58"/>
-         <tok src="syr" ref="preface :section 1" ord="59"/>
+         <tok src="syr" ref="preface :section 1" pos="57"/>
+         <tok src="syr" ref="preface :section 1" pos="58"/>
+         <tok src="syr" ref="preface :section 1" pos="59"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="1"/>
-         <tok src="grc" ref="preface :section 2" ord="3"/>
-         <tok src="syr" ref="preface :section 2" ord="1"/>
+         <tok src="grc" ref="preface :section 2" pos="1"/>
+         <tok src="grc" ref="preface :section 2" pos="3"/>
+         <tok src="syr" ref="preface :section 2" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="2"/>
+         <tok src="grc" ref="preface :section 2" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="5"/>
-         <tok src="syr" ref="preface :section 2" ord="2"/>
+         <tok src="grc" ref="preface :section 2" pos="5"/>
+         <tok src="syr" ref="preface :section 2" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="4"/>
-         <tok src="syr" ref="preface :section 2" ord="3"/>
+         <tok src="grc" ref="preface :section 2" pos="4"/>
+         <tok src="syr" ref="preface :section 2" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="6"/>
-         <tok src="grc" ref="preface :section 2" ord="7"/>
-         <tok src="syr" ref="preface :section 2" ord="4"/>
+         <tok src="grc" ref="preface :section 2" pos="6"/>
+         <tok src="grc" ref="preface :section 2" pos="7"/>
+         <tok src="syr" ref="preface :section 2" pos="4"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="8"/>
-         <tok src="grc" ref="preface :section 2" ord="11"/>
-         <tok src="syr" ref="preface :section 2" ord="5"/>
+         <tok src="grc" ref="preface :section 2" pos="8"/>
+         <tok src="grc" ref="preface :section 2" pos="11"/>
+         <tok src="syr" ref="preface :section 2" pos="5"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="8"/>
-         <tok src="grc" ref="preface :section 2" ord="9"/>
-         <tok src="grc" ref="preface :section 2" ord="10"/>
-         <tok src="syr" ref="preface :section 2" ord="6"/>
+         <tok src="grc" ref="preface :section 2" pos="8"/>
+         <tok src="grc" ref="preface :section 2" pos="9"/>
+         <tok src="grc" ref="preface :section 2" pos="10"/>
+         <tok src="syr" ref="preface :section 2" pos="6"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="13"/>
-         <tok src="grc" ref="preface :section 2" ord="14"/>
-         <tok src="grc" ref="preface :section 2" ord="15"/>
-         <tok src="syr" ref="preface :section 2" ord="8"/>
-         <tok src="syr" ref="preface :section 2" ord="9"/>
+         <tok src="grc" ref="preface :section 2" pos="13"/>
+         <tok src="grc" ref="preface :section 2" pos="14"/>
+         <tok src="grc" ref="preface :section 2" pos="15"/>
+         <tok src="syr" ref="preface :section 2" pos="8"/>
+         <tok src="syr" ref="preface :section 2" pos="9"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="18"/>
-         <tok src="grc" ref="preface :section 2" ord="21"/>
-         <tok src="syr" ref="preface :section 2" ord="12"/>
+         <tok src="grc" ref="preface :section 2" pos="18"/>
+         <tok src="grc" ref="preface :section 2" pos="21"/>
+         <tok src="syr" ref="preface :section 2" pos="12"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="19"/>
-         <tok src="grc" ref="preface :section 2" ord="20"/>
-         <tok src="syr" ref="preface :section 2" ord="13"/>
+         <tok src="grc" ref="preface :section 2" pos="19"/>
+         <tok src="grc" ref="preface :section 2" pos="20"/>
+         <tok src="syr" ref="preface :section 2" pos="13"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="26"/>
-         <tok src="grc" ref="preface :section 2" ord="27"/>
-         <tok src="syr" ref="preface :section 2" ord="21"/>
+         <tok src="grc" ref="preface :section 2" pos="26"/>
+         <tok src="grc" ref="preface :section 2" pos="27"/>
+         <tok src="syr" ref="preface :section 2" pos="21"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="37"/>
-         <tok src="syr" ref="preface :section 2" ord="37"/>
-         <tok src="syr" ref="preface :section 2" ord="38"/>
+         <tok src="grc" ref="preface :section 2" pos="37"/>
+         <tok src="syr" ref="preface :section 2" pos="37"/>
+         <tok src="syr" ref="preface :section 2" pos="38"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="38"/>
-         <tok src="syr" ref="preface :section 2" ord="39"/>
+         <tok src="grc" ref="preface :section 2" pos="38"/>
+         <tok src="syr" ref="preface :section 2" pos="39"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="39"/>
-         <tok src="syr" ref="preface :section 2" ord="40"/>
+         <tok src="grc" ref="preface :section 2" pos="39"/>
+         <tok src="syr" ref="preface :section 2" pos="40"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="41"/>
-         <tok src="syr" ref="preface :section 2" ord="41"/>
+         <tok src="grc" ref="preface :section 2" pos="41"/>
+         <tok src="syr" ref="preface :section 2" pos="41"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="40"/>
-         <tok src="syr" ref="preface :section 2" ord="42"/>
+         <tok src="grc" ref="preface :section 2" pos="40"/>
+         <tok src="syr" ref="preface :section 2" pos="42"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="42"/>
-         <tok src="syr" ref="preface :section 2" ord="43"/>
+         <tok src="grc" ref="preface :section 2" pos="42"/>
+         <tok src="syr" ref="preface :section 2" pos="43"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="43"/>
-         <tok src="syr" ref="preface :section 2" ord="44"/>
+         <tok src="grc" ref="preface :section 2" pos="43"/>
+         <tok src="syr" ref="preface :section 2" pos="44"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="39"/>
-         <tok src="grc" ref="preface :section 2" ord="44"/>
-         <tok src="syr" ref="preface :section 2" ord="45"/>
+         <tok src="grc" ref="preface :section 2" pos="39"/>
+         <tok src="grc" ref="preface :section 2" pos="44"/>
+         <tok src="syr" ref="preface :section 2" pos="45"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="41"/>
-         <tok src="syr" ref="preface :section 2" ord="46"/>
+         <tok src="grc" ref="preface :section 2" pos="41"/>
+         <tok src="syr" ref="preface :section 2" pos="46"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="40"/>
-         <tok src="syr" ref="preface :section 2" ord="47"/>
+         <tok src="grc" ref="preface :section 2" pos="40"/>
+         <tok src="syr" ref="preface :section 2" pos="47"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="45"/>
-         <tok src="syr" ref="preface :section 2" ord="48"/>
+         <tok src="grc" ref="preface :section 2" pos="45"/>
+         <tok src="syr" ref="preface :section 2" pos="48"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="46"/>
-         <tok src="syr" ref="preface :section 2" ord="49"/>
+         <tok src="grc" ref="preface :section 2" pos="46"/>
+         <tok src="syr" ref="preface :section 2" pos="49"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="47"/>
-         <tok src="grc" ref="preface :section 2" ord="48"/>
-         <tok src="syr" ref="preface :section 2" ord="50"/>
+         <tok src="grc" ref="preface :section 2" pos="47"/>
+         <tok src="grc" ref="preface :section 2" pos="48"/>
+         <tok src="syr" ref="preface :section 2" pos="50"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="49"/>
-         <tok src="syr" ref="preface :section 2" ord="51"/>
+         <tok src="grc" ref="preface :section 2" pos="49"/>
+         <tok src="syr" ref="preface :section 2" pos="51"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="50"/>
-         <tok src="syr" ref="preface :section 2" ord="52"/>
+         <tok src="grc" ref="preface :section 2" pos="50"/>
+         <tok src="syr" ref="preface :section 2" pos="52"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="51"/>
-         <tok src="syr" ref="preface :section 2" ord="53"/>
+         <tok src="grc" ref="preface :section 2" pos="51"/>
+         <tok src="syr" ref="preface :section 2" pos="53"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="52"/>
-         <tok src="grc" ref="preface :section 2" ord="53"/>
-         <tok src="syr" ref="preface :section 2" ord="54"/>
+         <tok src="grc" ref="preface :section 2" pos="52"/>
+         <tok src="grc" ref="preface :section 2" pos="53"/>
+         <tok src="syr" ref="preface :section 2" pos="54"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="55"/>
-         <tok src="syr" ref="preface :section 2" ord="55"/>
+         <tok src="grc" ref="preface :section 2" pos="55"/>
+         <tok src="syr" ref="preface :section 2" pos="55"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="54"/>
-         <tok src="syr" ref="preface :section 2" ord="56"/>
+         <tok src="grc" ref="preface :section 2" pos="54"/>
+         <tok src="syr" ref="preface :section 2" pos="56"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="56"/>
-         <tok src="grc" ref="preface :section 2" ord="59"/>
-         <tok src="syr" ref="preface :section 2" ord="57"/>
+         <tok src="grc" ref="preface :section 2" pos="56"/>
+         <tok src="grc" ref="preface :section 2" pos="59"/>
+         <tok src="syr" ref="preface :section 2" pos="57"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="57"/>
-         <tok src="syr" ref="preface :section 2" ord="58"/>
+         <tok src="grc" ref="preface :section 2" pos="57"/>
+         <tok src="syr" ref="preface :section 2" pos="58"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="58"/>
-         <tok src="syr" ref="preface :section 2" ord="59"/>
-         <tok src="syr" ref="preface :section 2" ord="60"/>
+         <tok src="grc" ref="preface :section 2" pos="58"/>
+         <tok src="syr" ref="preface :section 2" pos="59"/>
+         <tok src="syr" ref="preface :section 2" pos="60"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="62"/>
-         <tok src="syr" ref="preface :section 2" ord="61"/>
+         <tok src="grc" ref="preface :section 2" pos="62"/>
+         <tok src="syr" ref="preface :section 2" pos="61"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="60"/>
-         <tok src="syr" ref="preface :section 2" ord="63"/>
+         <tok src="grc" ref="preface :section 2" pos="60"/>
+         <tok src="syr" ref="preface :section 2" pos="63"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 2" ord="62"/>
+         <tok src="syr" ref="preface :section 2" pos="62"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="63"/>
-         <tok src="syr" ref="preface :section 2" ord="64"/>
+         <tok src="grc" ref="preface :section 2" pos="63"/>
+         <tok src="syr" ref="preface :section 2" pos="64"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 2" ord="65"/>
+         <tok src="syr" ref="preface :section 2" pos="65"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="65"/>
-         <tok src="syr" ref="preface :section 2" ord="66"/>
+         <tok src="grc" ref="preface :section 2" pos="65"/>
+         <tok src="syr" ref="preface :section 2" pos="66"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="66"/>
-         <tok src="syr" ref="preface :section 2" ord="67"/>
-         <tok src="syr" ref="preface :section 2" ord="68"/>
-         <tok src="syr" ref="preface :section 2" ord="69"/>
+         <tok src="grc" ref="preface :section 2" pos="66"/>
+         <tok src="syr" ref="preface :section 2" pos="67"/>
+         <tok src="syr" ref="preface :section 2" pos="68"/>
+         <tok src="syr" ref="preface :section 2" pos="69"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="68"/>
-         <tok src="syr" ref="preface :section 2" ord="70"/>
+         <tok src="grc" ref="preface :section 2" pos="68"/>
+         <tok src="syr" ref="preface :section 2" pos="70"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="67"/>
-         <tok src="syr" ref="preface :section 2" ord="71"/>
+         <tok src="grc" ref="preface :section 2" pos="67"/>
+         <tok src="syr" ref="preface :section 2" pos="71"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="69"/>
-         <tok src="syr" ref="preface :section 2" ord="72"/>
-         <tok src="syr" ref="preface :section 2" ord="73" chars="1"/>
+         <tok src="grc" ref="preface :section 2" pos="69"/>
+         <tok src="syr" ref="preface :section 2" pos="72"/>
+         <tok src="syr" ref="preface :section 2" pos="73" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="70"/>
-         <tok src="syr" ref="preface :section 2" ord="73"/>
+         <tok src="grc" ref="preface :section 2" pos="70"/>
+         <tok src="syr" ref="preface :section 2" pos="73"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="71"/>
-         <tok src="grc" ref="preface :section 2" ord="72"/>
-         <tok src="grc" ref="preface :section 2" ord="73"/>
-         <tok src="syr" ref="preface :section 2" ord="74"/>
+         <tok src="grc" ref="preface :section 2" pos="71"/>
+         <tok src="grc" ref="preface :section 2" pos="72"/>
+         <tok src="grc" ref="preface :section 2" pos="73"/>
+         <tok src="syr" ref="preface :section 2" pos="74"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="74"/>
-         <tok src="grc" ref="preface :section 2" ord="75"/>
-         <tok src="grc" ref="preface :section 2" ord="77"/>
-         <tok src="syr" ref="preface :section 2" ord="75"/>
-         <tok src="syr" ref="preface :section 2" ord="76"/>
+         <tok src="grc" ref="preface :section 2" pos="74"/>
+         <tok src="grc" ref="preface :section 2" pos="75"/>
+         <tok src="grc" ref="preface :section 2" pos="77"/>
+         <tok src="syr" ref="preface :section 2" pos="75"/>
+         <tok src="syr" ref="preface :section 2" pos="76"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 2" ord="76"/>
-         <tok src="grc" ref="preface :section 2" ord="78"/>
-         <tok src="syr" ref="preface :section 2" ord="77"/>
-         <tok src="syr" ref="preface :section 2" ord="78"/>
+         <tok src="grc" ref="preface :section 2" pos="76"/>
+         <tok src="grc" ref="preface :section 2" pos="78"/>
+         <tok src="syr" ref="preface :section 2" pos="77"/>
+         <tok src="syr" ref="preface :section 2" pos="78"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="1"/>
-         <tok src="grc" ref="preface :section 3" ord="3"/>
-         <tok src="syr" ref="preface :section 3" ord="1"/>
+         <tok src="grc" ref="preface :section 3" pos="1"/>
+         <tok src="grc" ref="preface :section 3" pos="3"/>
+         <tok src="syr" ref="preface :section 3" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="2"/>
-         <tok src="syr" ref="preface :section 3" ord="2"/>
+         <tok src="grc" ref="preface :section 3" pos="2"/>
+         <tok src="syr" ref="preface :section 3" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="4"/>
-         <tok src="grc" ref="preface :section 3" ord="5"/>
-         <tok src="syr" ref="preface :section 3" ord="3"/>
+         <tok src="grc" ref="preface :section 3" pos="4"/>
+         <tok src="grc" ref="preface :section 3" pos="5"/>
+         <tok src="syr" ref="preface :section 3" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="10"/>
-         <tok src="syr" ref="preface :section 3" ord="4"/>
-         <tok src="syr" ref="preface :section 3" ord="5"/>
+         <tok src="grc" ref="preface :section 3" pos="10"/>
+         <tok src="syr" ref="preface :section 3" pos="4"/>
+         <tok src="syr" ref="preface :section 3" pos="5"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="8"/>
-         <tok src="syr" ref="preface :section 3" ord="7"/>
+         <tok src="grc" ref="preface :section 3" pos="8"/>
+         <tok src="syr" ref="preface :section 3" pos="7"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 3" ord="6"/>
+         <tok src="syr" ref="preface :section 3" pos="6"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="6"/>
-         <tok src="grc" ref="preface :section 3" ord="7"/>
-         <tok src="syr" ref="preface :section 3" ord="7"/>
-         <tok src="syr" ref="preface :section 3" ord="8"/>
+         <tok src="grc" ref="preface :section 3" pos="6"/>
+         <tok src="grc" ref="preface :section 3" pos="7"/>
+         <tok src="syr" ref="preface :section 3" pos="7"/>
+         <tok src="syr" ref="preface :section 3" pos="8"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="20"/>
-         <tok src="syr" ref="preface :section 3" ord="29"/>
+         <tok src="grc" ref="preface :section 3" pos="20"/>
+         <tok src="syr" ref="preface :section 3" pos="29"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="23"/>
-         <tok src="syr" ref="preface :section 3" ord="32"/>
+         <tok src="grc" ref="preface :section 3" pos="23"/>
+         <tok src="syr" ref="preface :section 3" pos="32"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="26"/>
-         <tok src="syr" ref="preface :section 3" ord="34"/>
+         <tok src="grc" ref="preface :section 3" pos="26"/>
+         <tok src="syr" ref="preface :section 3" pos="34"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="24"/>
-         <tok src="grc" ref="preface :section 3" ord="25"/>
-         <tok src="syr" ref="preface :section 3" ord="33"/>
+         <tok src="grc" ref="preface :section 3" pos="24"/>
+         <tok src="grc" ref="preface :section 3" pos="25"/>
+         <tok src="syr" ref="preface :section 3" pos="33"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="14" cert="high"/>
-         <tok src="grc" ref="preface :section 3" ord="21"/>
-         <tok src="syr" ref="preface :section 3" ord="30"/>
-         <tok src="syr" ref="preface :section 3" ord="31"/>
+         <tok src="grc" ref="preface :section 3" pos="14" cert="high"/>
+         <tok src="grc" ref="preface :section 3" pos="21"/>
+         <tok src="syr" ref="preface :section 3" pos="30"/>
+         <tok src="syr" ref="preface :section 3" pos="31"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="40"/>
-         <tok src="grc" ref="preface :section 3" ord="41"/>
-         <tok src="grc" ref="preface :section 3" ord="42"/>
-         <tok src="syr" ref="preface :section 3" ord="48"/>
+         <tok src="grc" ref="preface :section 3" pos="40"/>
+         <tok src="grc" ref="preface :section 3" pos="41"/>
+         <tok src="grc" ref="preface :section 3" pos="42"/>
+         <tok src="syr" ref="preface :section 3" pos="48"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="43"/>
-         <tok src="grc" ref="preface :section 3" ord="44"/>
-         <tok src="syr" ref="preface :section 3" ord="49"/>
+         <tok src="grc" ref="preface :section 3" pos="43"/>
+         <tok src="grc" ref="preface :section 3" pos="44"/>
+         <tok src="syr" ref="preface :section 3" pos="49"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="46"/>
-         <tok src="syr" ref="preface :section 3" ord="50"/>
+         <tok src="grc" ref="preface :section 3" pos="46"/>
+         <tok src="syr" ref="preface :section 3" pos="50"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="45"/>
-         <tok src="grc" ref="preface :section 3" ord="47"/>
-         <tok src="syr" ref="preface :section 3" ord="51"/>
+         <tok src="grc" ref="preface :section 3" pos="45"/>
+         <tok src="grc" ref="preface :section 3" pos="47"/>
+         <tok src="syr" ref="preface :section 3" pos="51"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="31"/>
-         <tok src="syr" ref="preface :section 3" ord="35"/>
+         <tok src="grc" ref="preface :section 3" pos="31"/>
+         <tok src="syr" ref="preface :section 3" pos="35"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="32"/>
-         <tok src="syr" ref="preface :section 3" ord="37"/>
+         <tok src="grc" ref="preface :section 3" pos="32"/>
+         <tok src="syr" ref="preface :section 3" pos="37"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="33"/>
-         <tok src="syr" ref="preface :section 3" ord="38"/>
-         <tok src="syr" ref="preface :section 3" ord="39"/>
+         <tok src="grc" ref="preface :section 3" pos="33"/>
+         <tok src="syr" ref="preface :section 3" pos="38"/>
+         <tok src="syr" ref="preface :section 3" pos="39"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="34"/>
-         <tok src="syr" ref="preface :section 3" ord="36"/>
+         <tok src="grc" ref="preface :section 3" pos="34"/>
+         <tok src="syr" ref="preface :section 3" pos="36"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="48"/>
-         <tok src="syr" ref="preface :section 3" ord="52"/>
+         <tok src="grc" ref="preface :section 3" pos="48"/>
+         <tok src="syr" ref="preface :section 3" pos="52"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="49"/>
-         <tok src="syr" ref="preface :section 3" ord="53"/>
+         <tok src="grc" ref="preface :section 3" pos="49"/>
+         <tok src="syr" ref="preface :section 3" pos="53"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="67"/>
-         <tok src="syr" ref="preface :section 3" ord="79"/>
+         <tok src="grc" ref="preface :section 3" pos="67"/>
+         <tok src="syr" ref="preface :section 3" pos="79"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="54"/>
-         <tok src="syr" ref="preface :section 3" ord="59"/>
+         <tok src="grc" ref="preface :section 3" pos="54"/>
+         <tok src="syr" ref="preface :section 3" pos="59"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="55"/>
-         <tok src="syr" ref="preface :section 3" ord="61"/>
+         <tok src="grc" ref="preface :section 3" pos="55"/>
+         <tok src="syr" ref="preface :section 3" pos="61"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="56"/>
-         <tok src="syr" ref="preface :section 3" ord="62"/>
-         <tok src="syr" ref="preface :section 3" ord="63"/>
+         <tok src="grc" ref="preface :section 3" pos="56"/>
+         <tok src="syr" ref="preface :section 3" pos="62"/>
+         <tok src="syr" ref="preface :section 3" pos="63"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="57"/>
-         <tok src="syr" ref="preface :section 3" ord="66"/>
+         <tok src="grc" ref="preface :section 3" pos="57"/>
+         <tok src="syr" ref="preface :section 3" pos="66"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="58"/>
-         <tok src="grc" ref="preface :section 3" ord="59"/>
-         <tok src="syr" ref="preface :section 3" ord="68"/>
-         <tok src="syr" ref="preface :section 3" ord="69"/>
+         <tok src="grc" ref="preface :section 3" pos="58"/>
+         <tok src="grc" ref="preface :section 3" pos="59"/>
+         <tok src="syr" ref="preface :section 3" pos="68"/>
+         <tok src="syr" ref="preface :section 3" pos="69"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="62"/>
-         <tok src="syr" ref="preface :section 3" ord="65"/>
+         <tok src="grc" ref="preface :section 3" pos="62"/>
+         <tok src="syr" ref="preface :section 3" pos="65"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="63"/>
-         <tok src="syr" ref="preface :section 3" ord="71"/>
+         <tok src="grc" ref="preface :section 3" pos="63"/>
+         <tok src="syr" ref="preface :section 3" pos="71"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="64"/>
-         <tok src="syr" ref="preface :section 3" ord="72"/>
+         <tok src="grc" ref="preface :section 3" pos="64"/>
+         <tok src="syr" ref="preface :section 3" pos="72"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="65"/>
-         <tok src="syr" ref="preface :section 3" ord="74"/>
+         <tok src="grc" ref="preface :section 3" pos="65"/>
+         <tok src="syr" ref="preface :section 3" pos="74"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="66"/>
-         <tok src="syr" ref="preface :section 3" ord="76"/>
-         <tok src="syr" ref="preface :section 3" ord="77"/>
-         <tok src="syr" ref="preface :section 3" ord="78"/>
-         <tok src="syr" ref="preface :section 3" ord="79" chars="1"/>
+         <tok src="grc" ref="preface :section 3" pos="66"/>
+         <tok src="syr" ref="preface :section 3" pos="76"/>
+         <tok src="syr" ref="preface :section 3" pos="77"/>
+         <tok src="syr" ref="preface :section 3" pos="78"/>
+         <tok src="syr" ref="preface :section 3" pos="79" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="77"/>
-         <tok src="syr" ref="preface :section 3" ord="85"/>
+         <tok src="grc" ref="preface :section 3" pos="77"/>
+         <tok src="syr" ref="preface :section 3" pos="85"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="78"/>
-         <tok src="syr" ref="preface :section 3" ord="86"/>
+         <tok src="grc" ref="preface :section 3" pos="78"/>
+         <tok src="syr" ref="preface :section 3" pos="86"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="87"/>
-         <tok src="syr" ref="preface :section 3" ord="93"/>
+         <tok src="grc" ref="preface :section 3" pos="87"/>
+         <tok src="syr" ref="preface :section 3" pos="93"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="90"/>
-         <tok src="syr" ref="preface :section 3" ord="99"/>
+         <tok src="grc" ref="preface :section 3" pos="90"/>
+         <tok src="syr" ref="preface :section 3" pos="99"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 3" ord="93"/>
-         <tok src="syr" ref="preface :section 3" ord="102"/>
+         <tok src="grc" ref="preface :section 3" pos="93"/>
+         <tok src="syr" ref="preface :section 3" pos="102"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 4" ord="1"/>
-         <tok src="grc" ref="preface :section 4" ord="3"/>
-         <tok src="syr" ref="preface :section 4" ord="1"/>
+         <tok src="grc" ref="preface :section 4" pos="1"/>
+         <tok src="grc" ref="preface :section 4" pos="3"/>
+         <tok src="syr" ref="preface :section 4" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 4" ord="2"/>
-         <tok src="syr" ref="preface :section 4" ord="2"/>
+         <tok src="grc" ref="preface :section 4" pos="2"/>
+         <tok src="syr" ref="preface :section 4" pos="2"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 4" ord="3"/>
-         <tok src="syr" ref="preface :section 4" ord="4"/>
-         <tok src="syr" ref="preface :section 4" ord="5"/>
-         <tok src="syr" ref="preface :section 4" ord="6"/>
-         <tok src="syr" ref="preface :section 4" ord="7"/>
+         <tok src="syr" ref="preface :section 4" pos="3"/>
+         <tok src="syr" ref="preface :section 4" pos="4"/>
+         <tok src="syr" ref="preface :section 4" pos="5"/>
+         <tok src="syr" ref="preface :section 4" pos="6"/>
+         <tok src="syr" ref="preface :section 4" pos="7"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 4" ord="6"/>
-         <tok src="syr" ref="preface :section 4" ord="8"/>
-         <tok src="syr" ref="preface :section 4" ord="9"/>
+         <tok src="grc" ref="preface :section 4" pos="6"/>
+         <tok src="syr" ref="preface :section 4" pos="8"/>
+         <tok src="syr" ref="preface :section 4" pos="9"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 4" ord="10"/>
-         <tok src="syr" ref="preface :section 4" ord="10"/>
+         <tok src="grc" ref="preface :section 4" pos="10"/>
+         <tok src="syr" ref="preface :section 4" pos="10"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 4" ord="7"/>
-         <tok src="grc" ref="preface :section 4" ord="8"/>
-         <tok src="grc" ref="preface :section 4" ord="9"/>
-         <tok src="syr" ref="preface :section 4" ord="11"/>
-         <tok src="syr" ref="preface :section 4" ord="12"/>
+         <tok src="grc" ref="preface :section 4" pos="7"/>
+         <tok src="grc" ref="preface :section 4" pos="8"/>
+         <tok src="grc" ref="preface :section 4" pos="9"/>
+         <tok src="syr" ref="preface :section 4" pos="11"/>
+         <tok src="syr" ref="preface :section 4" pos="12"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 4" ord="11"/>
-         <tok src="syr" ref="preface :section 4" ord="13"/>
+         <tok src="grc" ref="preface :section 4" pos="11"/>
+         <tok src="syr" ref="preface :section 4" pos="13"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 4" ord="15"/>
-         <tok src="syr" ref="preface :section 4" ord="14"/>
+         <tok src="grc" ref="preface :section 4" pos="15"/>
+         <tok src="syr" ref="preface :section 4" pos="14"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 4" ord="12"/>
-         <tok src="grc" ref="preface :section 4" ord="16"/>
-         <tok src="syr" ref="preface :section 4" ord="15"/>
+         <tok src="grc" ref="preface :section 4" pos="12"/>
+         <tok src="grc" ref="preface :section 4" pos="16"/>
+         <tok src="syr" ref="preface :section 4" pos="15"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 4" ord="13"/>
-         <tok src="grc" ref="preface :section 4" ord="14"/>
-         <tok src="syr" ref="preface :section 4" ord="16"/>
+         <tok src="grc" ref="preface :section 4" pos="13"/>
+         <tok src="grc" ref="preface :section 4" pos="14"/>
+         <tok src="syr" ref="preface :section 4" pos="16"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 4" ord="15"/>
-         <tok src="syr" ref="preface :section 4" ord="17"/>
+         <tok src="grc" ref="preface :section 4" pos="15"/>
+         <tok src="syr" ref="preface :section 4" pos="17"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 4" ord="17"/>
-         <tok src="syr" ref="preface :section 4" ord="18"/>
+         <tok src="grc" ref="preface :section 4" pos="17"/>
+         <tok src="syr" ref="preface :section 4" pos="18"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 4" ord="18"/>
-         <tok src="grc" ref="preface :section 4" ord="19"/>
-         <tok src="syr" ref="preface :section 4" ord="19"/>
+         <tok src="grc" ref="preface :section 4" pos="18"/>
+         <tok src="grc" ref="preface :section 4" pos="19"/>
+         <tok src="syr" ref="preface :section 4" pos="19"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 4" ord="20"/>
-         <tok src="grc" ref="preface :section 4" ord="21"/>
-         <tok src="syr" ref="preface :section 4" ord="20"/>
+         <tok src="grc" ref="preface :section 4" pos="20"/>
+         <tok src="grc" ref="preface :section 4" pos="21"/>
+         <tok src="syr" ref="preface :section 4" pos="20"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 5" ord="1"/>
-         <tok src="grc" ref="preface :section 5" ord="3"/>
-         <tok src="syr" ref="preface :section 5" ord="1"/>
+         <tok src="grc" ref="preface :section 5" pos="1"/>
+         <tok src="grc" ref="preface :section 5" pos="3"/>
+         <tok src="syr" ref="preface :section 5" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 5" ord="2"/>
-         <tok src="syr" ref="preface :section 5" ord="2"/>
+         <tok src="grc" ref="preface :section 5" pos="2"/>
+         <tok src="syr" ref="preface :section 5" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 5" ord="4"/>
-         <tok src="syr" ref="preface :section 5" ord="3"/>
+         <tok src="grc" ref="preface :section 5" pos="4"/>
+         <tok src="syr" ref="preface :section 5" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 5" ord="5"/>
-         <tok src="grc" ref="preface :section 5" ord="6"/>
-         <tok src="grc" ref="preface :section 5" ord="7"/>
-         <tok src="syr" ref="preface :section 5" ord="5"/>
+         <tok src="grc" ref="preface :section 5" pos="5"/>
+         <tok src="grc" ref="preface :section 5" pos="6"/>
+         <tok src="grc" ref="preface :section 5" pos="7"/>
+         <tok src="syr" ref="preface :section 5" pos="5"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 5" ord="4"/>
+         <tok src="syr" ref="preface :section 5" pos="4"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 5" ord="6"/>
-         <tok src="syr" ref="preface :section 5" ord="7"/>
-         <tok src="syr" ref="preface :section 5" ord="8"/>
+         <tok src="syr" ref="preface :section 5" pos="6"/>
+         <tok src="syr" ref="preface :section 5" pos="7"/>
+         <tok src="syr" ref="preface :section 5" pos="8"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 5" ord="14"/>
+         <tok src="syr" ref="preface :section 5" pos="14"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 5" ord="8"/>
-         <tok src="syr" ref="preface :section 5" ord="9"/>
+         <tok src="grc" ref="preface :section 5" pos="8"/>
+         <tok src="syr" ref="preface :section 5" pos="9"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 5" ord="9"/>
-         <tok src="syr" ref="preface :section 5" ord="11"/>
+         <tok src="grc" ref="preface :section 5" pos="9"/>
+         <tok src="syr" ref="preface :section 5" pos="11"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 5" ord="10"/>
-         <tok src="syr" ref="preface :section 5" ord="12"/>
+         <tok src="grc" ref="preface :section 5" pos="10"/>
+         <tok src="syr" ref="preface :section 5" pos="12"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 5" ord="11"/>
-         <tok src="syr" ref="preface :section 5" ord="13" chars="1"/>
+         <tok src="grc" ref="preface :section 5" pos="11"/>
+         <tok src="syr" ref="preface :section 5" pos="13" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 5" ord="13"/>
-         <tok src="syr" ref="preface :section 5" ord="13"/>
-         <tok src="syr" ref="preface :section 5" ord="15"/>
+         <tok src="grc" ref="preface :section 5" pos="13"/>
+         <tok src="syr" ref="preface :section 5" pos="13"/>
+         <tok src="syr" ref="preface :section 5" pos="15"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 5" ord="12"/>
-         <tok src="grc" ref="preface :section 5" ord="14"/>
-         <tok src="syr" ref="preface :section 5" ord="16"/>
-         <tok src="syr" ref="preface :section 5" ord="17"/>
+         <tok src="grc" ref="preface :section 5" pos="12"/>
+         <tok src="grc" ref="preface :section 5" pos="14"/>
+         <tok src="syr" ref="preface :section 5" pos="16"/>
+         <tok src="syr" ref="preface :section 5" pos="17"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 5" ord="15"/>
-         <tok src="syr" ref="preface :section 5" ord="18"/>
+         <tok src="grc" ref="preface :section 5" pos="15"/>
+         <tok src="syr" ref="preface :section 5" pos="18"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 5" ord="16"/>
-         <tok src="syr" ref="preface :section 5" ord="19"/>
+         <tok src="grc" ref="preface :section 5" pos="16"/>
+         <tok src="syr" ref="preface :section 5" pos="19"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 5" ord="17"/>
-         <tok src="syr" ref="preface :section 5" ord="20"/>
+         <tok src="grc" ref="preface :section 5" pos="17"/>
+         <tok src="syr" ref="preface :section 5" pos="20"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 5" ord="18"/>
-         <tok src="syr" ref="preface :section 5" ord="21"/>
+         <tok src="grc" ref="preface :section 5" pos="18"/>
+         <tok src="syr" ref="preface :section 5" pos="21"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="1"/>
-         <tok src="grc" ref="preface :section 6" ord="3"/>
-         <tok src="syr" ref="preface :section 6" ord="1"/>
+         <tok src="grc" ref="preface :section 6" pos="1"/>
+         <tok src="grc" ref="preface :section 6" pos="3"/>
+         <tok src="syr" ref="preface :section 6" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="2"/>
-         <tok src="syr" ref="preface :section 6" ord="2"/>
+         <tok src="grc" ref="preface :section 6" pos="2"/>
+         <tok src="syr" ref="preface :section 6" pos="2"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 6" ord="3"/>
+         <tok src="syr" ref="preface :section 6" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="4"/>
-         <tok src="syr" ref="preface :section 6" ord="4"/>
+         <tok src="grc" ref="preface :section 6" pos="4"/>
+         <tok src="syr" ref="preface :section 6" pos="4"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="5"/>
-         <tok src="syr" ref="preface :section 6" ord="5"/>
+         <tok src="grc" ref="preface :section 6" pos="5"/>
+         <tok src="syr" ref="preface :section 6" pos="5"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="33"/>
-         <tok src="grc" ref="preface :section 6" ord="36"/>
-         <tok src="syr" ref="preface :section 6" ord="17"/>
+         <tok src="grc" ref="preface :section 6" pos="33"/>
+         <tok src="grc" ref="preface :section 6" pos="36"/>
+         <tok src="syr" ref="preface :section 6" pos="17"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="34"/>
-         <tok src="syr" ref="preface :section 6" ord="18"/>
+         <tok src="grc" ref="preface :section 6" pos="34"/>
+         <tok src="syr" ref="preface :section 6" pos="18"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="38"/>
-         <tok src="grc" ref="preface :section 6" ord="39"/>
-         <tok src="syr" ref="preface :section 6" ord="19"/>
-         <tok src="syr" ref="preface :section 6" ord="20"/>
+         <tok src="grc" ref="preface :section 6" pos="38"/>
+         <tok src="grc" ref="preface :section 6" pos="39"/>
+         <tok src="syr" ref="preface :section 6" pos="19"/>
+         <tok src="syr" ref="preface :section 6" pos="20"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="37"/>
-         <tok src="syr" ref="preface :section 6" ord="21"/>
+         <tok src="grc" ref="preface :section 6" pos="37"/>
+         <tok src="syr" ref="preface :section 6" pos="21"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="40"/>
-         <tok src="syr" ref="preface :section 6" ord="22"/>
-         <tok src="syr" ref="preface :section 6" ord="23" chars="1"/>
+         <tok src="grc" ref="preface :section 6" pos="40"/>
+         <tok src="syr" ref="preface :section 6" pos="22"/>
+         <tok src="syr" ref="preface :section 6" pos="23" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="6"/>
-         <tok src="syr" ref="preface :section 6" ord="6"/>
+         <tok src="grc" ref="preface :section 6" pos="6"/>
+         <tok src="syr" ref="preface :section 6" pos="6"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="7"/>
-         <tok src="grc" ref="preface :section 6" ord="8"/>
-         <tok src="syr" ref="preface :section 6" ord="7"/>
+         <tok src="grc" ref="preface :section 6" pos="7"/>
+         <tok src="grc" ref="preface :section 6" pos="8"/>
+         <tok src="syr" ref="preface :section 6" pos="7"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="42"/>
-         <tok src="syr" ref="preface :section 6" ord="24"/>
+         <tok src="grc" ref="preface :section 6" pos="42"/>
+         <tok src="syr" ref="preface :section 6" pos="24"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="9"/>
-         <tok src="grc" ref="preface :section 6" ord="10"/>
-         <tok src="syr" ref="preface :section 6" ord="8"/>
+         <tok src="grc" ref="preface :section 6" pos="9"/>
+         <tok src="grc" ref="preface :section 6" pos="10"/>
+         <tok src="syr" ref="preface :section 6" pos="8"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="11"/>
-         <tok src="grc" ref="preface :section 6" ord="12"/>
-         <tok src="grc" ref="preface :section 6" ord="13"/>
-         <tok src="syr" ref="preface :section 6" ord="9"/>
+         <tok src="grc" ref="preface :section 6" pos="11"/>
+         <tok src="grc" ref="preface :section 6" pos="12"/>
+         <tok src="grc" ref="preface :section 6" pos="13"/>
+         <tok src="syr" ref="preface :section 6" pos="9"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="41"/>
-         <tok src="syr" ref="preface :section 6" ord="25"/>
-         <tok src="syr" ref="preface :section 6" ord="26"/>
+         <tok src="grc" ref="preface :section 6" pos="41"/>
+         <tok src="syr" ref="preface :section 6" pos="25"/>
+         <tok src="syr" ref="preface :section 6" pos="26"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="14"/>
-         <tok src="syr" ref="preface :section 6" ord="10"/>
+         <tok src="grc" ref="preface :section 6" pos="14"/>
+         <tok src="syr" ref="preface :section 6" pos="10"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="15"/>
-         <tok src="grc" ref="preface :section 6" ord="16"/>
-         <tok src="syr" ref="preface :section 6" ord="11"/>
+         <tok src="grc" ref="preface :section 6" pos="15"/>
+         <tok src="grc" ref="preface :section 6" pos="16"/>
+         <tok src="syr" ref="preface :section 6" pos="11"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="18"/>
-         <tok src="syr" ref="preface :section 6" ord="12"/>
+         <tok src="grc" ref="preface :section 6" pos="18"/>
+         <tok src="syr" ref="preface :section 6" pos="12"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="17"/>
+         <tok src="grc" ref="preface :section 6" pos="17"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="23"/>
-         <tok src="syr" ref="preface :section 6" ord="13"/>
+         <tok src="grc" ref="preface :section 6" pos="23"/>
+         <tok src="syr" ref="preface :section 6" pos="13"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="22"/>
-         <tok src="syr" ref="preface :section 6" ord="14"/>
+         <tok src="grc" ref="preface :section 6" pos="22"/>
+         <tok src="syr" ref="preface :section 6" pos="14"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="20"/>
-         <tok src="grc" ref="preface :section 6" ord="21"/>
-         <tok src="syr" ref="preface :section 6" ord="16"/>
+         <tok src="grc" ref="preface :section 6" pos="20"/>
+         <tok src="grc" ref="preface :section 6" pos="21"/>
+         <tok src="syr" ref="preface :section 6" pos="16"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 6" ord="26"/>
-         <tok src="grc" ref="preface :section 6" ord="27"/>
-         <tok src="syr" ref="preface :section 6" ord="15"/>
+         <tok src="grc" ref="preface :section 6" pos="26"/>
+         <tok src="grc" ref="preface :section 6" pos="27"/>
+         <tok src="syr" ref="preface :section 6" pos="15"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 7" ord="1"/>
-         <tok src="grc" ref="preface :section 7" ord="3"/>
-         <tok src="syr" ref="preface :section 7" ord="1"/>
+         <tok src="grc" ref="preface :section 7" pos="1"/>
+         <tok src="grc" ref="preface :section 7" pos="3"/>
+         <tok src="syr" ref="preface :section 7" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 7" ord="2"/>
-         <tok src="syr" ref="preface :section 7" ord="2"/>
+         <tok src="grc" ref="preface :section 7" pos="2"/>
+         <tok src="syr" ref="preface :section 7" pos="2"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 7" ord="3"/>
-         <tok src="syr" ref="preface :section 7" ord="4"/>
+         <tok src="syr" ref="preface :section 7" pos="3"/>
+         <tok src="syr" ref="preface :section 7" pos="4"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 7" ord="4"/>
-         <tok src="syr" ref="preface :section 7" ord="5"/>
+         <tok src="grc" ref="preface :section 7" pos="4"/>
+         <tok src="syr" ref="preface :section 7" pos="5"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 7" ord="6"/>
-         <tok src="syr" ref="preface :section 7" ord="6"/>
+         <tok src="grc" ref="preface :section 7" pos="6"/>
+         <tok src="syr" ref="preface :section 7" pos="6"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 7" ord="5"/>
-         <tok src="syr" ref="preface :section 7" ord="7"/>
+         <tok src="grc" ref="preface :section 7" pos="5"/>
+         <tok src="syr" ref="preface :section 7" pos="7"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 7" ord="7"/>
-         <tok src="syr" ref="preface :section 7" ord="8"/>
-         <tok src="syr" ref="preface :section 7" ord="9"/>
+         <tok src="grc" ref="preface :section 7" pos="7"/>
+         <tok src="syr" ref="preface :section 7" pos="8"/>
+         <tok src="syr" ref="preface :section 7" pos="9"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 7" ord="8"/>
-         <tok src="grc" ref="preface :section 7" ord="9"/>
-         <tok src="syr" ref="preface :section 7" ord="10"/>
+         <tok src="grc" ref="preface :section 7" pos="8"/>
+         <tok src="grc" ref="preface :section 7" pos="9"/>
+         <tok src="syr" ref="preface :section 7" pos="10"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 7" ord="10"/>
-         <tok src="syr" ref="preface :section 7" ord="11"/>
+         <tok src="grc" ref="preface :section 7" pos="10"/>
+         <tok src="syr" ref="preface :section 7" pos="11"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 7" ord="11"/>
-         <tok src="grc" ref="preface :section 7" ord="12"/>
-         <tok src="syr" ref="preface :section 7" ord="12"/>
+         <tok src="grc" ref="preface :section 7" pos="11"/>
+         <tok src="grc" ref="preface :section 7" pos="12"/>
+         <tok src="syr" ref="preface :section 7" pos="12"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 7" ord="13"/>
-         <tok src="syr" ref="preface :section 7" ord="13"/>
+         <tok src="grc" ref="preface :section 7" pos="13"/>
+         <tok src="syr" ref="preface :section 7" pos="13"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 7" ord="14"/>
-         <tok src="grc" ref="preface :section 7" ord="15"/>
-         <tok src="syr" ref="preface :section 7" ord="14"/>
+         <tok src="grc" ref="preface :section 7" pos="14"/>
+         <tok src="grc" ref="preface :section 7" pos="15"/>
+         <tok src="syr" ref="preface :section 7" pos="14"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 7" ord="16"/>
-         <tok src="grc" ref="preface :section 7" ord="17"/>
-         <tok src="grc" ref="preface :section 7" ord="18"/>
-         <tok src="grc" ref="preface :section 7" ord="19"/>
+         <tok src="grc" ref="preface :section 7" pos="16"/>
+         <tok src="grc" ref="preface :section 7" pos="17"/>
+         <tok src="grc" ref="preface :section 7" pos="18"/>
+         <tok src="grc" ref="preface :section 7" pos="19"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 8" ord="1"/>
-         <tok src="syr" ref="preface :section 8" ord="2"/>
-         <tok src="syr" ref="preface :section 8" ord="3"/>
-         <tok src="syr" ref="preface :section 8" ord="4"/>
-         <tok src="syr" ref="preface :section 8" ord="5"/>
-         <tok src="syr" ref="preface :section 8" ord="6"/>
+         <tok src="syr" ref="preface :section 8" pos="1"/>
+         <tok src="syr" ref="preface :section 8" pos="2"/>
+         <tok src="syr" ref="preface :section 8" pos="3"/>
+         <tok src="syr" ref="preface :section 8" pos="4"/>
+         <tok src="syr" ref="preface :section 8" pos="5"/>
+         <tok src="syr" ref="preface :section 8" pos="6"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="6"/>
-         <tok src="grc" ref="preface :section 8" ord="7"/>
-         <tok src="syr" ref="preface :section 8" ord="10"/>
+         <tok src="grc" ref="preface :section 8" pos="6"/>
+         <tok src="grc" ref="preface :section 8" pos="7"/>
+         <tok src="syr" ref="preface :section 8" pos="10"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="10"/>
-         <tok src="grc" ref="preface :section 8" ord="11"/>
-         <tok src="syr" ref="preface :section 8" ord="7"/>
+         <tok src="grc" ref="preface :section 8" pos="10"/>
+         <tok src="grc" ref="preface :section 8" pos="11"/>
+         <tok src="syr" ref="preface :section 8" pos="7"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 8" ord="8"/>
+         <tok src="syr" ref="preface :section 8" pos="8"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 8" ord="11"/>
+         <tok src="syr" ref="preface :section 8" pos="11"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="4" cert="high"/>
-         <tok src="syr" ref="preface :section 8" ord="9" cert="high"/>
+         <tok src="grc" ref="preface :section 8" pos="4" cert="high"/>
+         <tok src="syr" ref="preface :section 8" pos="9" cert="high"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="13"/>
-         <tok src="syr" ref="preface :section 8" ord="14"/>
+         <tok src="grc" ref="preface :section 8" pos="13"/>
+         <tok src="syr" ref="preface :section 8" pos="14"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="12"/>
-         <tok src="grc" ref="preface :section 8" ord="14"/>
-         <tok src="syr" ref="preface :section 8" ord="16"/>
+         <tok src="grc" ref="preface :section 8" pos="12"/>
+         <tok src="grc" ref="preface :section 8" pos="14"/>
+         <tok src="syr" ref="preface :section 8" pos="16"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="22"/>
-         <tok src="grc" ref="preface :section 8" ord="23"/>
-         <tok src="syr" ref="preface :section 8" ord="19"/>
+         <tok src="grc" ref="preface :section 8" pos="22"/>
+         <tok src="grc" ref="preface :section 8" pos="23"/>
+         <tok src="syr" ref="preface :section 8" pos="19"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="21"/>
-         <tok src="syr" ref="preface :section 8" ord="21"/>
+         <tok src="grc" ref="preface :section 8" pos="21"/>
+         <tok src="syr" ref="preface :section 8" pos="21"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 8" ord="17"/>
+         <tok src="syr" ref="preface :section 8" pos="17"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="18"/>
-         <tok src="grc" ref="preface :section 8" ord="19"/>
-         <tok src="syr" ref="preface :section 8" ord="28"/>
+         <tok src="grc" ref="preface :section 8" pos="18"/>
+         <tok src="grc" ref="preface :section 8" pos="19"/>
+         <tok src="syr" ref="preface :section 8" pos="28"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="20"/>
-         <tok src="syr" ref="preface :section 8" ord="25"/>
-         <tok src="syr" ref="preface :section 8" ord="26"/>
+         <tok src="grc" ref="preface :section 8" pos="20"/>
+         <tok src="syr" ref="preface :section 8" pos="25"/>
+         <tok src="syr" ref="preface :section 8" pos="26"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="21"/>
-         <tok src="syr" ref="preface :section 8" ord="27"/>
+         <tok src="grc" ref="preface :section 8" pos="21"/>
+         <tok src="syr" ref="preface :section 8" pos="27"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="17"/>
-         <tok src="syr" ref="preface :section 8" ord="25" chars="1"/>
+         <tok src="grc" ref="preface :section 8" pos="17"/>
+         <tok src="syr" ref="preface :section 8" pos="25" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="26"/>
-         <tok src="grc" ref="preface :section 8" ord="27"/>
-         <tok src="syr" ref="preface :section 8" ord="31"/>
+         <tok src="grc" ref="preface :section 8" pos="26"/>
+         <tok src="grc" ref="preface :section 8" pos="27"/>
+         <tok src="syr" ref="preface :section 8" pos="31"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="24"/>
-         <tok src="grc" ref="preface :section 8" ord="25"/>
-         <tok src="syr" ref="preface :section 8" ord="32"/>
-         <tok src="syr" ref="preface :section 8" ord="34"/>
+         <tok src="grc" ref="preface :section 8" pos="24"/>
+         <tok src="grc" ref="preface :section 8" pos="25"/>
+         <tok src="syr" ref="preface :section 8" pos="32"/>
+         <tok src="syr" ref="preface :section 8" pos="34"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="28"/>
-         <tok src="syr" ref="preface :section 8" ord="33"/>
+         <tok src="grc" ref="preface :section 8" pos="28"/>
+         <tok src="syr" ref="preface :section 8" pos="33"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="34"/>
-         <tok src="syr" ref="preface :section 8" ord="37" chars="1"/>
+         <tok src="grc" ref="preface :section 8" pos="34"/>
+         <tok src="syr" ref="preface :section 8" pos="37" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="36"/>
-         <tok src="syr" ref="preface :section 8" ord="39"/>
+         <tok src="grc" ref="preface :section 8" pos="36"/>
+         <tok src="syr" ref="preface :section 8" pos="39"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="35"/>
-         <tok src="syr" ref="preface :section 8" ord="37"/>
-         <tok src="syr" ref="preface :section 8" ord="38"/>
+         <tok src="grc" ref="preface :section 8" pos="35"/>
+         <tok src="syr" ref="preface :section 8" pos="37"/>
+         <tok src="syr" ref="preface :section 8" pos="38"/>
       </align>
       <align reuse-type="para">
-         <tok src="grc" ref="preface :section 8" ord="37"/>
-         <tok src="syr" ref="preface :section 8" ord="40"/>
-         <tok src="syr" ref="preface :section 8" ord="41"/>
-         <tok src="syr" ref="preface :section 8" ord="42"/>
+         <tok src="grc" ref="preface :section 8" pos="37"/>
+         <tok src="syr" ref="preface :section 8" pos="40"/>
+         <tok src="syr" ref="preface :section 8" pos="41"/>
+         <tok src="syr" ref="preface :section 8" pos="42"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="39"/>
-         <tok src="syr" ref="preface :section 8" ord="43" chars="1"/>
+         <tok src="grc" ref="preface :section 8" pos="39"/>
+         <tok src="syr" ref="preface :section 8" pos="43" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="30"/>
-         <tok src="grc" ref="preface :section 8" ord="31"/>
-         <tok src="syr" ref="preface :section 8" ord="35"/>
+         <tok src="grc" ref="preface :section 8" pos="30"/>
+         <tok src="grc" ref="preface :section 8" pos="31"/>
+         <tok src="syr" ref="preface :section 8" pos="35"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="32"/>
-         <tok src="grc" ref="preface :section 8" ord="33"/>
-         <tok src="syr" ref="preface :section 8" ord="36"/>
+         <tok src="grc" ref="preface :section 8" pos="32"/>
+         <tok src="grc" ref="preface :section 8" pos="33"/>
+         <tok src="syr" ref="preface :section 8" pos="36"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="38"/>
-         <tok src="syr" ref="preface :section 8" ord="43"/>
-         <tok src="syr" ref="preface :section 8" ord="44"/>
+         <tok src="grc" ref="preface :section 8" pos="38"/>
+         <tok src="syr" ref="preface :section 8" pos="43"/>
+         <tok src="syr" ref="preface :section 8" pos="44"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="40"/>
-         <tok src="grc" ref="preface :section 8" ord="41"/>
-         <tok src="syr" ref="preface :section 8" ord="45"/>
+         <tok src="grc" ref="preface :section 8" pos="40"/>
+         <tok src="grc" ref="preface :section 8" pos="41"/>
+         <tok src="syr" ref="preface :section 8" pos="45"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="42"/>
-         <tok src="syr" ref="preface :section 8" ord="46"/>
+         <tok src="grc" ref="preface :section 8" pos="42"/>
+         <tok src="syr" ref="preface :section 8" pos="46"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="49"/>
-         <tok src="syr" ref="preface :section 8" ord="54"/>
+         <tok src="grc" ref="preface :section 8" pos="49"/>
+         <tok src="syr" ref="preface :section 8" pos="54"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="50"/>
-         <tok src="syr" ref="preface :section 8" ord="53"/>
+         <tok src="grc" ref="preface :section 8" pos="50"/>
+         <tok src="syr" ref="preface :section 8" pos="53"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="51"/>
-         <tok src="grc" ref="preface :section 8" ord="52"/>
-         <tok src="syr" ref="preface :section 8" ord="55"/>
+         <tok src="grc" ref="preface :section 8" pos="51"/>
+         <tok src="grc" ref="preface :section 8" pos="52"/>
+         <tok src="syr" ref="preface :section 8" pos="55"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="53"/>
-         <tok src="syr" ref="preface :section 8" ord="56"/>
+         <tok src="grc" ref="preface :section 8" pos="53"/>
+         <tok src="syr" ref="preface :section 8" pos="56"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 8" ord="57"/>
+         <tok src="syr" ref="preface :section 8" pos="57"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="55"/>
-         <tok src="syr" ref="preface :section 8" ord="58"/>
+         <tok src="grc" ref="preface :section 8" pos="55"/>
+         <tok src="syr" ref="preface :section 8" pos="58"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="56"/>
-         <tok src="syr" ref="preface :section 8" ord="59"/>
+         <tok src="grc" ref="preface :section 8" pos="56"/>
+         <tok src="syr" ref="preface :section 8" pos="59"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="57"/>
-         <tok src="syr" ref="preface :section 8" ord="60"/>
-         <tok src="syr" ref="preface :section 8" ord="61"/>
-         <tok src="syr" ref="preface :section 8" ord="62"/>
+         <tok src="grc" ref="preface :section 8" pos="57"/>
+         <tok src="syr" ref="preface :section 8" pos="60"/>
+         <tok src="syr" ref="preface :section 8" pos="61"/>
+         <tok src="syr" ref="preface :section 8" pos="62"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="59"/>
-         <tok src="syr" ref="preface :section 8" ord="63"/>
+         <tok src="grc" ref="preface :section 8" pos="59"/>
+         <tok src="syr" ref="preface :section 8" pos="63"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="60"/>
-         <tok src="syr" ref="preface :section 8" ord="64"/>
-         <tok src="syr" ref="preface :section 8" ord="65"/>
+         <tok src="grc" ref="preface :section 8" pos="60"/>
+         <tok src="syr" ref="preface :section 8" pos="64"/>
+         <tok src="syr" ref="preface :section 8" pos="65"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 8" ord="66"/>
-         <tok src="syr" ref="preface :section 8" ord="67"/>
-         <tok src="syr" ref="preface :section 8" ord="68"/>
-         <tok src="syr" ref="preface :section 8" ord="69"/>
-         <tok src="syr" ref="preface :section 8" ord="70"/>
-         <tok src="syr" ref="preface :section 8" ord="71"/>
-         <tok src="syr" ref="preface :section 8" ord="72"/>
+         <tok src="syr" ref="preface :section 8" pos="66"/>
+         <tok src="syr" ref="preface :section 8" pos="67"/>
+         <tok src="syr" ref="preface :section 8" pos="68"/>
+         <tok src="syr" ref="preface :section 8" pos="69"/>
+         <tok src="syr" ref="preface :section 8" pos="70"/>
+         <tok src="syr" ref="preface :section 8" pos="71"/>
+         <tok src="syr" ref="preface :section 8" pos="72"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="64"/>
-         <tok src="syr" ref="preface :section 8" ord="73"/>
+         <tok src="grc" ref="preface :section 8" pos="64"/>
+         <tok src="syr" ref="preface :section 8" pos="73"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="63"/>
-         <tok src="syr" ref="preface :section 8" ord="74"/>
+         <tok src="grc" ref="preface :section 8" pos="63"/>
+         <tok src="syr" ref="preface :section 8" pos="74"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="43"/>
-         <tok src="grc" ref="preface :section 8" ord="44"/>
-         <tok src="syr" ref="preface :section 8" ord="47"/>
+         <tok src="grc" ref="preface :section 8" pos="43"/>
+         <tok src="grc" ref="preface :section 8" pos="44"/>
+         <tok src="syr" ref="preface :section 8" pos="47"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="45"/>
-         <tok src="grc" ref="preface :section 8" ord="46"/>
-         <tok src="syr" ref="preface :section 8" ord="48"/>
+         <tok src="grc" ref="preface :section 8" pos="45"/>
+         <tok src="grc" ref="preface :section 8" pos="46"/>
+         <tok src="syr" ref="preface :section 8" pos="48"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="47"/>
-         <tok src="syr" ref="preface :section 8" ord="49"/>
+         <tok src="grc" ref="preface :section 8" pos="47"/>
+         <tok src="syr" ref="preface :section 8" pos="49"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 8" ord="48"/>
-         <tok src="syr" ref="preface :section 8" ord="50"/>
-         <tok src="syr" ref="preface :section 8" ord="51"/>
+         <tok src="grc" ref="preface :section 8" pos="48"/>
+         <tok src="syr" ref="preface :section 8" pos="50"/>
+         <tok src="syr" ref="preface :section 8" pos="51"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="4"/>
-         <tok src="grc" ref="preface :section 9" ord="5"/>
-         <tok src="syr" ref="preface :section 9" ord="8"/>
+         <tok src="grc" ref="preface :section 9" pos="4"/>
+         <tok src="grc" ref="preface :section 9" pos="5"/>
+         <tok src="syr" ref="preface :section 9" pos="8"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="6"/>
-         <tok src="grc" ref="preface :section 9" ord="7"/>
-         <tok src="syr" ref="preface :section 9" ord="9"/>
+         <tok src="grc" ref="preface :section 9" pos="6"/>
+         <tok src="grc" ref="preface :section 9" pos="7"/>
+         <tok src="syr" ref="preface :section 9" pos="9"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="8"/>
-         <tok src="syr" ref="preface :section 9" ord="10" chars="1"/>
+         <tok src="grc" ref="preface :section 9" pos="8"/>
+         <tok src="syr" ref="preface :section 9" pos="10" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="42"/>
-         <tok src="grc" ref="preface :section 9" ord="43"/>
-         <tok src="syr" ref="preface :section 9" ord="45"/>
+         <tok src="grc" ref="preface :section 9" pos="42"/>
+         <tok src="grc" ref="preface :section 9" pos="43"/>
+         <tok src="syr" ref="preface :section 9" pos="45"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="2"/>
-         <tok src="syr" ref="preface :section 9" ord="7"/>
-         <tok src="syr" ref="preface :section 9" ord="10"/>
+         <tok src="grc" ref="preface :section 9" pos="2"/>
+         <tok src="syr" ref="preface :section 9" pos="7"/>
+         <tok src="syr" ref="preface :section 9" pos="10"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="9"/>
-         <tok src="grc" ref="preface :section 9" ord="10"/>
-         <tok src="syr" ref="preface :section 9" ord="11"/>
+         <tok src="grc" ref="preface :section 9" pos="9"/>
+         <tok src="grc" ref="preface :section 9" pos="10"/>
+         <tok src="syr" ref="preface :section 9" pos="11"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="11"/>
-         <tok src="grc" ref="preface :section 9" ord="12"/>
-         <tok src="syr" ref="preface :section 9" ord="12"/>
-         <tok src="syr" ref="preface :section 9" ord="13"/>
+         <tok src="grc" ref="preface :section 9" pos="11"/>
+         <tok src="grc" ref="preface :section 9" pos="12"/>
+         <tok src="syr" ref="preface :section 9" pos="12"/>
+         <tok src="syr" ref="preface :section 9" pos="13"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="18"/>
-         <tok src="syr" ref="preface :section 9" ord="15"/>
+         <tok src="grc" ref="preface :section 9" pos="18"/>
+         <tok src="syr" ref="preface :section 9" pos="15"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="29"/>
-         <tok src="syr" ref="preface :section 9" ord="21"/>
+         <tok src="grc" ref="preface :section 9" pos="29"/>
+         <tok src="syr" ref="preface :section 9" pos="21"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="32"/>
-         <tok src="syr" ref="preface :section 9" ord="38"/>
-         <tok src="syr" ref="preface :section 9" ord="39"/>
-         <tok src="syr" ref="preface :section 9" ord="40" chars="1"/>
+         <tok src="grc" ref="preface :section 9" pos="32"/>
+         <tok src="syr" ref="preface :section 9" pos="38"/>
+         <tok src="syr" ref="preface :section 9" pos="39"/>
+         <tok src="syr" ref="preface :section 9" pos="40" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="33"/>
-         <tok src="syr" ref="preface :section 9" ord="40"/>
+         <tok src="grc" ref="preface :section 9" pos="33"/>
+         <tok src="syr" ref="preface :section 9" pos="40"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="34"/>
-         <tok src="grc" ref="preface :section 9" ord="35"/>
-         <tok src="syr" ref="preface :section 9" ord="41"/>
+         <tok src="grc" ref="preface :section 9" pos="34"/>
+         <tok src="grc" ref="preface :section 9" pos="35"/>
+         <tok src="syr" ref="preface :section 9" pos="41"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="36"/>
-         <tok src="syr" ref="preface :section 9" ord="42"/>
+         <tok src="grc" ref="preface :section 9" pos="36"/>
+         <tok src="syr" ref="preface :section 9" pos="42"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="37"/>
-         <tok src="syr" ref="preface :section 9" ord="43"/>
-         <tok src="syr" ref="preface :section 9" ord="44"/>
-         <tok src="syr" ref="preface :section 9" ord="45" chars="1"/>
+         <tok src="grc" ref="preface :section 9" pos="37"/>
+         <tok src="syr" ref="preface :section 9" pos="43"/>
+         <tok src="syr" ref="preface :section 9" pos="44"/>
+         <tok src="syr" ref="preface :section 9" pos="45" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="31"/>
-         <tok src="syr" ref="preface :section 9" ord="35"/>
+         <tok src="grc" ref="preface :section 9" pos="31"/>
+         <tok src="syr" ref="preface :section 9" pos="35"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="45"/>
-         <tok src="syr" ref="preface :section 9" ord="55"/>
+         <tok src="grc" ref="preface :section 9" pos="45"/>
+         <tok src="syr" ref="preface :section 9" pos="55"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="53"/>
-         <tok src="grc" ref="preface :section 9" ord="54"/>
-         <tok src="syr" ref="preface :section 9" ord="61"/>
+         <tok src="grc" ref="preface :section 9" pos="53"/>
+         <tok src="grc" ref="preface :section 9" pos="54"/>
+         <tok src="syr" ref="preface :section 9" pos="61"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="73"/>
-         <tok src="syr" ref="preface :section 9" ord="74"/>
+         <tok src="grc" ref="preface :section 9" pos="73"/>
+         <tok src="syr" ref="preface :section 9" pos="74"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="81"/>
-         <tok src="syr" ref="preface :section 9" ord="80"/>
+         <tok src="grc" ref="preface :section 9" pos="81"/>
+         <tok src="syr" ref="preface :section 9" pos="80"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="82"/>
-         <tok src="syr" ref="preface :section 9" ord="79"/>
+         <tok src="grc" ref="preface :section 9" pos="82"/>
+         <tok src="syr" ref="preface :section 9" pos="79"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="84"/>
-         <tok src="syr" ref="preface :section 9" ord="83"/>
+         <tok src="grc" ref="preface :section 9" pos="84"/>
+         <tok src="syr" ref="preface :section 9" pos="83"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="85"/>
-         <tok src="grc" ref="preface :section 9" ord="86"/>
-         <tok src="grc" ref="preface :section 9" ord="87"/>
-         <tok src="syr" ref="preface :section 9" ord="84"/>
-         <tok src="syr" ref="preface :section 9" ord="86"/>
+         <tok src="grc" ref="preface :section 9" pos="85"/>
+         <tok src="grc" ref="preface :section 9" pos="86"/>
+         <tok src="grc" ref="preface :section 9" pos="87"/>
+         <tok src="syr" ref="preface :section 9" pos="84"/>
+         <tok src="syr" ref="preface :section 9" pos="86"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="55"/>
-         <tok src="grc" ref="preface :section 9" ord="56"/>
-         <tok src="syr" ref="preface :section 9" ord="62"/>
-         <tok src="syr" ref="preface :section 9" ord="63"/>
+         <tok src="grc" ref="preface :section 9" pos="55"/>
+         <tok src="grc" ref="preface :section 9" pos="56"/>
+         <tok src="syr" ref="preface :section 9" pos="62"/>
+         <tok src="syr" ref="preface :section 9" pos="63"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="88"/>
-         <tok src="syr" ref="preface :section 9" ord="85"/>
+         <tok src="grc" ref="preface :section 9" pos="88"/>
+         <tok src="syr" ref="preface :section 9" pos="85"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="80"/>
-         <tok src="grc" ref="preface :section 9" ord="83"/>
-         <tok src="syr" ref="preface :section 9" ord="81"/>
-         <tok src="syr" ref="preface :section 9" ord="82"/>
+         <tok src="grc" ref="preface :section 9" pos="80"/>
+         <tok src="grc" ref="preface :section 9" pos="83"/>
+         <tok src="syr" ref="preface :section 9" pos="81"/>
+         <tok src="syr" ref="preface :section 9" pos="82"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="90"/>
-         <tok src="syr" ref="preface :section 9" ord="88"/>
+         <tok src="grc" ref="preface :section 9" pos="90"/>
+         <tok src="syr" ref="preface :section 9" pos="88"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="74"/>
-         <tok src="syr" ref="preface :section 9" ord="75"/>
+         <tok src="grc" ref="preface :section 9" pos="74"/>
+         <tok src="syr" ref="preface :section 9" pos="75"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="75"/>
-         <tok src="grc" ref="preface :section 9" ord="76"/>
-         <tok src="syr" ref="preface :section 9" ord="76"/>
+         <tok src="grc" ref="preface :section 9" pos="75"/>
+         <tok src="grc" ref="preface :section 9" pos="76"/>
+         <tok src="syr" ref="preface :section 9" pos="76"/>
       </align>
       <align>
-         <tok src="syr" ref="preface :section 9" ord="87"/>
-         <tok src="syr" ref="preface :section 9" ord="89"/>
+         <tok src="syr" ref="preface :section 9" pos="87"/>
+         <tok src="syr" ref="preface :section 9" pos="89"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="77"/>
-         <tok src="syr" ref="preface :section 9" ord="77"/>
+         <tok src="grc" ref="preface :section 9" pos="77"/>
+         <tok src="syr" ref="preface :section 9" pos="77"/>
       </align>
       <align>
-         <tok src="grc" ref="preface :section 9" ord="78"/>
-         <tok src="grc" ref="preface :section 9" ord="79"/>
-         <tok src="syr" ref="preface :section 9" ord="78"/>
+         <tok src="grc" ref="preface :section 9" pos="78"/>
+         <tok src="grc" ref="preface :section 9" pos="79"/>
+         <tok src="syr" ref="preface :section 9" pos="78"/>
       </align>
       <align>
-         <tok src="grc" ref="title 1" ord="3"/>
-         <tok src="syr" ref="title 1" ord="10"/>
+         <tok src="grc" ref="title 1" pos="3"/>
+         <tok src="syr" ref="title 1" pos="10"/>
       </align>
       <align>
-         <tok src="grc" ref="title 1" ord="1"/>
-         <tok src="grc" ref="title 1" ord="2"/>
+         <tok src="grc" ref="title 1" pos="1"/>
+         <tok src="grc" ref="title 1" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="title 1" ord="4"/>
-         <tok src="grc" ref="title 1" ord="5"/>
-         <tok src="grc" ref="title 1" ord="6"/>
+         <tok src="grc" ref="title 1" pos="4 - 6"/>
       </align>
       <align>
-         <tok src="syr" ref="title 1" ord="1"/>
-         <tok src="syr" ref="title 1" ord="2"/>
-         <tok src="syr" ref="title 1" ord="3"/>
-         <tok src="syr" ref="title 1" ord="4"/>
-         <tok src="syr" ref="title 1" ord="5"/>
-         <tok src="syr" ref="title 1" ord="6"/>
-         <tok src="syr" ref="title 1" ord="7"/>
-         <tok src="syr" ref="title 1" ord="8"/>
+         <tok src="syr" ref="title 1" pos="1"/>
+         <tok src="syr" ref="title 1" pos="2"/>
+         <tok src="syr" ref="title 1" pos="3"/>
+         <tok src="syr" ref="title 1" pos="4"/>
+         <tok src="syr" ref="title 1" pos="5"/>
+         <tok src="syr" ref="title 1" pos="6"/>
+         <tok src="syr" ref="title 1" pos="7"/>
+         <tok src="syr" ref="title 1" pos="8"/>
       </align>
       <align>
-         <tok src="syr" ref="title 1" ord="9"/>
-         <tok src="syr" ref="title 1" ord="11"/>
+         <tok src="syr" ref="title 1" pos="9"/>
+         <tok src="syr" ref="title 1" pos="11"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 1" ord="1"/>
-         <tok src="syr" ref="chapter 1" ord="1"/>
+         <tok src="grc" ref="chapter 1" pos="1"/>
+         <tok src="syr" ref="chapter 1" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 1" ord="2"/>
-         <tok src="syr" ref="chapter 1" ord="2"/>
+         <tok src="grc" ref="chapter 1" pos="2"/>
+         <tok src="syr" ref="chapter 1" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 1" ord="3"/>
-         <tok src="syr" ref="chapter 1" ord="3"/>
+         <tok src="grc" ref="chapter 1" pos="3"/>
+         <tok src="syr" ref="chapter 1" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 1" ord="4"/>
-         <tok src="syr" ref="chapter 1" ord="4"/>
+         <tok src="grc" ref="chapter 1" pos="4"/>
+         <tok src="syr" ref="chapter 1" pos="4"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 1" ord="5"/>
-         <tok src="grc" ref="chapter 1" ord="6"/>
-         <tok src="syr" ref="chapter 1" ord="5"/>
+         <tok src="grc" ref="chapter 1" pos="5"/>
+         <tok src="grc" ref="chapter 1" pos="6"/>
+         <tok src="syr" ref="chapter 1" pos="5"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 1" ord="7"/>
-         <tok src="grc" ref="chapter 1" ord="8"/>
-         <tok src="syr" ref="chapter 1" ord="6"/>
+         <tok src="grc" ref="chapter 1" pos="7"/>
+         <tok src="grc" ref="chapter 1" pos="8"/>
+         <tok src="syr" ref="chapter 1" pos="6"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 1" ord="9"/>
-         <tok src="syr" ref="chapter 1" ord="8"/>
+         <tok src="grc" ref="chapter 1" pos="9"/>
+         <tok src="syr" ref="chapter 1" pos="8"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 1" ord="10"/>
-         <tok src="syr" ref="chapter 1" ord="10"/>
-         <tok src="syr" ref="chapter 1" ord="9"/>
+         <tok src="grc" ref="chapter 1" pos="10"/>
+         <tok src="syr" ref="chapter 1" pos="10"/>
+         <tok src="syr" ref="chapter 1" pos="9"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 1" ord="11"/>
-         <tok src="grc" ref="chapter 1" ord="9"/>
-         <tok src="syr" ref="chapter 1" ord="11"/>
+         <tok src="grc" ref="chapter 1" pos="11"/>
+         <tok src="grc" ref="chapter 1" pos="9"/>
+         <tok src="syr" ref="chapter 1" pos="11"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 1" ord="12"/>
-         <tok src="syr" ref="chapter 1" ord="12"/>
-         <tok src="syr" ref="chapter 1" ord="13"/>
+         <tok src="grc" ref="chapter 1" pos="12"/>
+         <tok src="syr" ref="chapter 1" pos="12"/>
+         <tok src="syr" ref="chapter 1" pos="13"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 1" ord="13"/>
-         <tok src="grc" ref="chapter 1" ord="9"/>
-         <tok src="syr" ref="chapter 1" ord="14"/>
+         <tok src="grc" ref="chapter 1" pos="13"/>
+         <tok src="grc" ref="chapter 1" pos="9"/>
+         <tok src="syr" ref="chapter 1" pos="14"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 1" ord="14"/>
-         <tok src="syr" ref="chapter 1" ord="15"/>
-         <tok src="syr" ref="chapter 1" ord="16" cert="low"/>
-         <tok src="syr" ref="chapter 1" ord="17" cert="low"/>
-         <tok src="syr" ref="chapter 1" ord="18"/>
+         <tok src="grc" ref="chapter 1" pos="14"/>
+         <tok src="syr" ref="chapter 1" pos="15"/>
+         <tok src="syr" ref="chapter 1" pos="16" cert="low"/>
+         <tok src="syr" ref="chapter 1" pos="17" cert="low"/>
+         <tok src="syr" ref="chapter 1" pos="18"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 1" ord="15"/>
-         <tok src="syr" ref="chapter 1" ord="7"/>
+         <tok src="grc" ref="chapter 1" pos="15"/>
+         <tok src="syr" ref="chapter 1" pos="7"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 2" ord="1"/>
-         <tok src="syr" ref="chapter 2" ord="1"/>
+         <tok src="grc" ref="chapter 2" pos="1"/>
+         <tok src="syr" ref="chapter 2" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 2" ord="2"/>
-         <tok src="syr" ref="chapter 2" ord="2"/>
+         <tok src="grc" ref="chapter 2" pos="2"/>
+         <tok src="syr" ref="chapter 2" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 2" ord="3"/>
-         <tok src="syr" ref="chapter 2" ord="3"/>
+         <tok src="grc" ref="chapter 2" pos="3"/>
+         <tok src="syr" ref="chapter 2" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 2" ord="4"/>
-         <tok src="syr" ref="chapter 2" ord="4"/>
+         <tok src="grc" ref="chapter 2" pos="4"/>
+         <tok src="syr" ref="chapter 2" pos="4"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 2" ord="5"/>
-         <tok src="syr" ref="chapter 2" ord="5"/>
-         <tok src="syr" ref="chapter 2" ord="6"/>
+         <tok src="grc" ref="chapter 2" pos="5"/>
+         <tok src="syr" ref="chapter 2" pos="5"/>
+         <tok src="syr" ref="chapter 2" pos="6"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 2" ord="6"/>
-         <tok src="syr" ref="chapter 2" ord="7"/>
+         <tok src="grc" ref="chapter 2" pos="6"/>
+         <tok src="syr" ref="chapter 2" pos="7"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 2" ord="7"/>
-         <tok src="syr" ref="chapter 2" ord="8"/>
+         <tok src="grc" ref="chapter 2" pos="7"/>
+         <tok src="syr" ref="chapter 2" pos="8"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 2" ord="8"/>
-         <tok src="syr" ref="chapter 2" ord="9"/>
+         <tok src="grc" ref="chapter 2" pos="8"/>
+         <tok src="syr" ref="chapter 2" pos="9"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 2" ord="10"/>
-         <tok src="grc" ref="chapter 2" ord="9"/>
-         <tok src="syr" ref="chapter 2" ord="11"/>
-         <tok src="syr" ref="chapter 2" ord="12"/>
+         <tok src="grc" ref="chapter 2" pos="10"/>
+         <tok src="grc" ref="chapter 2" pos="9"/>
+         <tok src="syr" ref="chapter 2" pos="11"/>
+         <tok src="syr" ref="chapter 2" pos="12"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 2" ord="11"/>
-         <tok src="syr" ref="chapter 2" ord="10"/>
+         <tok src="grc" ref="chapter 2" pos="11"/>
+         <tok src="syr" ref="chapter 2" pos="10"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 3" ord="1"/>
-         <tok src="syr" ref="chapter 3" ord="1"/>
+         <tok src="grc" ref="chapter 3" pos="1"/>
+         <tok src="syr" ref="chapter 3" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 3" ord="2"/>
-         <tok src="syr" ref="chapter 3" ord="2"/>
+         <tok src="grc" ref="chapter 3" pos="2"/>
+         <tok src="syr" ref="chapter 3" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 3" ord="3"/>
-         <tok src="syr" ref="chapter 3" ord="3"/>
+         <tok src="grc" ref="chapter 3" pos="3"/>
+         <tok src="syr" ref="chapter 3" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 3" ord="4"/>
-         <tok src="syr" ref="chapter 3" ord="4"/>
+         <tok src="grc" ref="chapter 3" pos="4"/>
+         <tok src="syr" ref="chapter 3" pos="4"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 3" ord="5"/>
-         <tok src="syr" ref="chapter 3" ord="5"/>
+         <tok src="grc" ref="chapter 3" pos="5"/>
+         <tok src="syr" ref="chapter 3" pos="5"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 3" ord="6"/>
-         <tok src="grc" ref="chapter 3" ord="7"/>
-         <tok src="syr" ref="chapter 3" ord="7"/>
+         <tok src="grc" ref="chapter 3" pos="6"/>
+         <tok src="grc" ref="chapter 3" pos="7"/>
+         <tok src="syr" ref="chapter 3" pos="7"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 3" ord="6"/>
-         <tok src="grc" ref="chapter 3" ord="8"/>
-         <tok src="syr" ref="chapter 3" ord="6"/>
+         <tok src="grc" ref="chapter 3" pos="6"/>
+         <tok src="grc" ref="chapter 3" pos="8"/>
+         <tok src="syr" ref="chapter 3" pos="6"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 3" ord="9"/>
-         <tok src="syr" ref="chapter 3" ord="8"/>
+         <tok src="grc" ref="chapter 3" pos="9"/>
+         <tok src="syr" ref="chapter 3" pos="8"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 3" ord="10"/>
-         <tok src="grc" ref="chapter 3" ord="11"/>
-         <tok src="syr" ref="chapter 3" ord="9"/>
-         <tok src="syr" ref="chapter 3" ord="10"/>
+         <tok src="grc" ref="chapter 3" pos="10"/>
+         <tok src="grc" ref="chapter 3" pos="11"/>
+         <tok src="syr" ref="chapter 3" pos="9"/>
+         <tok src="syr" ref="chapter 3" pos="10"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 3" ord="12"/>
-         <tok src="grc" ref="chapter 3" ord="13"/>
-         <tok src="syr" ref="chapter 3" ord="11"/>
+         <tok src="grc" ref="chapter 3" pos="12"/>
+         <tok src="grc" ref="chapter 3" pos="13"/>
+         <tok src="syr" ref="chapter 3" pos="11"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 3" ord="16"/>
-         <tok src="grc" ref="chapter 3" ord="17"/>
-         <tok src="grc" ref="chapter 3" ord="18"/>
-         <tok src="syr" ref="chapter 3" ord="16"/>
-         <tok src="syr" ref="chapter 3" ord="17"/>
+         <tok src="grc" ref="chapter 3" pos="16"/>
+         <tok src="grc" ref="chapter 3" pos="17"/>
+         <tok src="grc" ref="chapter 3" pos="18"/>
+         <tok src="syr" ref="chapter 3" pos="16"/>
+         <tok src="syr" ref="chapter 3" pos="17"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 3" ord="14"/>
-         <tok src="syr" ref="chapter 3" ord="12"/>
-         <tok src="syr" ref="chapter 3" ord="13" chars="1"/>
+         <tok src="grc" ref="chapter 3" pos="14"/>
+         <tok src="syr" ref="chapter 3" pos="12"/>
+         <tok src="syr" ref="chapter 3" pos="13" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 3" ord="15"/>
-         <tok src="syr" ref="chapter 3" ord="13"/>
-         <tok src="syr" ref="chapter 3" ord="14"/>
-         <tok src="syr" ref="chapter 3" ord="15"/>
+         <tok src="grc" ref="chapter 3" pos="15"/>
+         <tok src="syr" ref="chapter 3" pos="13"/>
+         <tok src="syr" ref="chapter 3" pos="14"/>
+         <tok src="syr" ref="chapter 3" pos="15"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 3" ord="2"/>
-         <tok src="syr" ref="chapter 3" ord="14"/>
+         <tok src="grc" ref="chapter 3" pos="2"/>
+         <tok src="syr" ref="chapter 3" pos="14"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="1"/>
-         <tok src="syr" ref="chapter 4" ord="1"/>
+         <tok src="grc" ref="chapter 4" pos="1"/>
+         <tok src="syr" ref="chapter 4" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="2"/>
-         <tok src="grc" ref="chapter 4" ord="5"/>
-         <tok src="syr" ref="chapter 4" ord="2"/>
-         <tok src="syr" ref="chapter 4" ord="3"/>
-         <tok src="syr" ref="chapter 4" ord="4" chars="1"/>
+         <tok src="grc" ref="chapter 4" pos="2"/>
+         <tok src="grc" ref="chapter 4" pos="5"/>
+         <tok src="syr" ref="chapter 4" pos="2"/>
+         <tok src="syr" ref="chapter 4" pos="3"/>
+         <tok src="syr" ref="chapter 4" pos="4" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="3"/>
-         <tok src="syr" ref="chapter 4" ord="5"/>
+         <tok src="grc" ref="chapter 4" pos="3"/>
+         <tok src="syr" ref="chapter 4" pos="5"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="4"/>
-         <tok src="syr" ref="chapter 4" ord="4"/>
+         <tok src="grc" ref="chapter 4" pos="4"/>
+         <tok src="syr" ref="chapter 4" pos="4"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="7"/>
-         <tok src="syr" ref="chapter 4" ord="7"/>
-         <tok src="syr" ref="chapter 4" ord="8"/>
+         <tok src="grc" ref="chapter 4" pos="7"/>
+         <tok src="syr" ref="chapter 4" pos="7"/>
+         <tok src="syr" ref="chapter 4" pos="8"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="9"/>
-         <tok src="syr" ref="chapter 4" ord="9"/>
+         <tok src="grc" ref="chapter 4" pos="9"/>
+         <tok src="syr" ref="chapter 4" pos="9"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="10"/>
-         <tok src="grc" ref="chapter 4" ord="12"/>
-         <tok src="syr" ref="chapter 4" ord="10"/>
-         <tok src="syr" ref="chapter 4" ord="9"/>
+         <tok src="grc" ref="chapter 4" pos="10"/>
+         <tok src="grc" ref="chapter 4" pos="12"/>
+         <tok src="syr" ref="chapter 4" pos="10"/>
+         <tok src="syr" ref="chapter 4" pos="9"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="11"/>
-         <tok src="syr" ref="chapter 4" ord="11"/>
+         <tok src="grc" ref="chapter 4" pos="11"/>
+         <tok src="syr" ref="chapter 4" pos="11"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="17"/>
-         <tok src="syr" ref="chapter 4" ord="17"/>
+         <tok src="grc" ref="chapter 4" pos="17"/>
+         <tok src="syr" ref="chapter 4" pos="17"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="18"/>
-         <tok src="syr" ref="chapter 4" ord="18"/>
+         <tok src="grc" ref="chapter 4" pos="18"/>
+         <tok src="syr" ref="chapter 4" pos="18"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="23"/>
-         <tok src="syr" ref="chapter 4" ord="27"/>
+         <tok src="grc" ref="chapter 4" pos="23"/>
+         <tok src="syr" ref="chapter 4" pos="27"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="24"/>
-         <tok src="syr" ref="chapter 4" ord="28"/>
+         <tok src="grc" ref="chapter 4" pos="24"/>
+         <tok src="syr" ref="chapter 4" pos="28"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="28"/>
-         <tok src="syr" ref="chapter 4" ord="33"/>
-         <tok src="syr" ref="chapter 4" ord="34"/>
+         <tok src="grc" ref="chapter 4" pos="28"/>
+         <tok src="syr" ref="chapter 4" pos="33"/>
+         <tok src="syr" ref="chapter 4" pos="34"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="14"/>
-         <tok src="syr" ref="chapter 4" ord="14"/>
+         <tok src="grc" ref="chapter 4" pos="14"/>
+         <tok src="syr" ref="chapter 4" pos="14"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="21"/>
-         <tok src="syr" ref="chapter 4" ord="21"/>
-         <tok src="syr" ref="chapter 4" ord="22"/>
+         <tok src="grc" ref="chapter 4" pos="21"/>
+         <tok src="syr" ref="chapter 4" pos="21"/>
+         <tok src="syr" ref="chapter 4" pos="22"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="19"/>
-         <tok src="syr" ref="chapter 4" ord="19"/>
+         <tok src="grc" ref="chapter 4" pos="19"/>
+         <tok src="syr" ref="chapter 4" pos="19"/>
       </align>
       <align>
-         <tok src="syr" ref="chapter 4" ord="20"/>
+         <tok src="syr" ref="chapter 4" pos="20"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="5"/>
-         <tok src="syr" ref="chapter 4" ord="6"/>
+         <tok src="grc" ref="chapter 4" pos="5"/>
+         <tok src="syr" ref="chapter 4" pos="6"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="6"/>
+         <tok src="grc" ref="chapter 4" pos="6"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="8"/>
+         <tok src="grc" ref="chapter 4" pos="8"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="13"/>
-         <tok src="syr" ref="chapter 4" ord="12"/>
-         <tok src="syr" ref="chapter 4" ord="13" chars="1"/>
+         <tok src="grc" ref="chapter 4" pos="13"/>
+         <tok src="syr" ref="chapter 4" pos="12"/>
+         <tok src="syr" ref="chapter 4" pos="13" chars="1"/>
       </align>
       <align>
-         <tok src="syr" ref="chapter 4" ord="15"/>
+         <tok src="syr" ref="chapter 4" pos="15"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="15"/>
-         <tok src="syr" ref="chapter 4" ord="16"/>
+         <tok src="grc" ref="chapter 4" pos="15"/>
+         <tok src="syr" ref="chapter 4" pos="16"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 4" ord="16"/>
+         <tok src="grc" ref="chapter 4" pos="16"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="1"/>
-         <tok src="syr" ref="chapter 5" ord="1"/>
+         <tok src="grc" ref="chapter 5" pos="1"/>
+         <tok src="syr" ref="chapter 5" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="2"/>
-         <tok src="grc" ref="chapter 5" ord="4"/>
-         <tok src="syr" ref="chapter 5" ord="3"/>
+         <tok src="grc" ref="chapter 5" pos="2"/>
+         <tok src="grc" ref="chapter 5" pos="4"/>
+         <tok src="syr" ref="chapter 5" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="3"/>
+         <tok src="grc" ref="chapter 5" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="5"/>
-         <tok src="grc" ref="chapter 5" ord="6"/>
-         <tok src="syr" ref="chapter 5" ord="4"/>
+         <tok src="grc" ref="chapter 5" pos="5"/>
+         <tok src="grc" ref="chapter 5" pos="6"/>
+         <tok src="syr" ref="chapter 5" pos="4"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="10"/>
-         <tok src="syr" ref="chapter 5" ord="11"/>
+         <tok src="grc" ref="chapter 5" pos="10"/>
+         <tok src="syr" ref="chapter 5" pos="11"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="23"/>
-         <tok src="syr" ref="chapter 5" ord="21"/>
+         <tok src="grc" ref="chapter 5" pos="23"/>
+         <tok src="syr" ref="chapter 5" pos="21"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="24"/>
-         <tok src="syr" ref="chapter 5" ord="22"/>
+         <tok src="grc" ref="chapter 5" pos="24"/>
+         <tok src="syr" ref="chapter 5" pos="22"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="25"/>
-         <tok src="syr" ref="chapter 5" ord="23"/>
-         <tok src="syr" ref="chapter 5" ord="27"/>
+         <tok src="grc" ref="chapter 5" pos="25"/>
+         <tok src="syr" ref="chapter 5" pos="23"/>
+         <tok src="syr" ref="chapter 5" pos="27"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="26"/>
-         <tok src="syr" ref="chapter 5" ord="24"/>
+         <tok src="grc" ref="chapter 5" pos="26"/>
+         <tok src="syr" ref="chapter 5" pos="24"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="27"/>
-         <tok src="syr" ref="chapter 5" ord="26"/>
+         <tok src="grc" ref="chapter 5" pos="27"/>
+         <tok src="syr" ref="chapter 5" pos="26"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="29"/>
-         <tok src="syr" ref="chapter 5" ord="28"/>
+         <tok src="grc" ref="chapter 5" pos="29"/>
+         <tok src="syr" ref="chapter 5" pos="28"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="30"/>
-         <tok src="syr" ref="chapter 5" ord="29"/>
+         <tok src="grc" ref="chapter 5" pos="30"/>
+         <tok src="syr" ref="chapter 5" pos="29"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="31"/>
-         <tok src="syr" ref="chapter 5" ord="30"/>
-         <tok src="syr" ref="chapter 5" ord="31" chars="1"/>
+         <tok src="grc" ref="chapter 5" pos="31"/>
+         <tok src="syr" ref="chapter 5" pos="30"/>
+         <tok src="syr" ref="chapter 5" pos="31" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="32"/>
-         <tok src="syr" ref="chapter 5" ord="31"/>
+         <tok src="grc" ref="chapter 5" pos="32"/>
+         <tok src="syr" ref="chapter 5" pos="31"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="33"/>
-         <tok src="syr" ref="chapter 5" ord="32"/>
+         <tok src="grc" ref="chapter 5" pos="33"/>
+         <tok src="syr" ref="chapter 5" pos="32"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="34"/>
-         <tok src="syr" ref="chapter 5" ord="33"/>
+         <tok src="grc" ref="chapter 5" pos="34"/>
+         <tok src="syr" ref="chapter 5" pos="33"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="35"/>
-         <tok src="syr" ref="chapter 5" ord="34"/>
+         <tok src="grc" ref="chapter 5" pos="35"/>
+         <tok src="syr" ref="chapter 5" pos="34"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="36"/>
-         <tok src="grc" ref="chapter 5" ord="37"/>
-         <tok src="syr" ref="chapter 5" ord="35"/>
+         <tok src="grc" ref="chapter 5" pos="36"/>
+         <tok src="grc" ref="chapter 5" pos="37"/>
+         <tok src="syr" ref="chapter 5" pos="35"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="38"/>
-         <tok src="syr" ref="chapter 5" ord="36"/>
+         <tok src="grc" ref="chapter 5" pos="38"/>
+         <tok src="syr" ref="chapter 5" pos="36"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="39"/>
-         <tok src="syr" ref="chapter 5" ord="37"/>
-         <tok src="syr" ref="chapter 5" ord="38"/>
+         <tok src="grc" ref="chapter 5" pos="39"/>
+         <tok src="syr" ref="chapter 5" pos="37"/>
+         <tok src="syr" ref="chapter 5" pos="38"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="40"/>
-         <tok src="syr" ref="chapter 5" ord="39"/>
+         <tok src="grc" ref="chapter 5" pos="40"/>
+         <tok src="syr" ref="chapter 5" pos="39"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="41"/>
-         <tok src="syr" ref="chapter 5" ord="40"/>
+         <tok src="grc" ref="chapter 5" pos="41"/>
+         <tok src="syr" ref="chapter 5" pos="40"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="42"/>
-         <tok src="syr" ref="chapter 5" ord="42"/>
+         <tok src="grc" ref="chapter 5" pos="42"/>
+         <tok src="syr" ref="chapter 5" pos="42"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 5" ord="45"/>
-         <tok src="syr" ref="chapter 5" ord="44"/>
+         <tok src="grc" ref="chapter 5" pos="45"/>
+         <tok src="syr" ref="chapter 5" pos="44"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="1"/>
-         <tok src="syr" ref="chapter 6" ord="1"/>
+         <tok src="grc" ref="chapter 6" pos="1"/>
+         <tok src="syr" ref="chapter 6" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="2"/>
-         <tok src="syr" ref="chapter 6" ord="2"/>
+         <tok src="grc" ref="chapter 6" pos="2"/>
+         <tok src="syr" ref="chapter 6" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="3"/>
-         <tok src="syr" ref="chapter 6" ord="7"/>
+         <tok src="grc" ref="chapter 6" pos="3"/>
+         <tok src="syr" ref="chapter 6" pos="7"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="5"/>
-         <tok src="grc" ref="chapter 6" ord="7"/>
-         <tok src="syr" ref="chapter 6" ord="5"/>
-         <tok src="syr" ref="chapter 6" ord="6"/>
+         <tok src="grc" ref="chapter 6" pos="5"/>
+         <tok src="grc" ref="chapter 6" pos="7"/>
+         <tok src="syr" ref="chapter 6" pos="5"/>
+         <tok src="syr" ref="chapter 6" pos="6"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="6"/>
-         <tok src="syr" ref="chapter 6" ord="4"/>
+         <tok src="grc" ref="chapter 6" pos="6"/>
+         <tok src="syr" ref="chapter 6" pos="4"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="8"/>
-         <tok src="grc" ref="chapter 6" ord="9"/>
-         <tok src="syr" ref="chapter 6" ord="8"/>
+         <tok src="grc" ref="chapter 6" pos="8"/>
+         <tok src="grc" ref="chapter 6" pos="9"/>
+         <tok src="syr" ref="chapter 6" pos="8"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="10"/>
-         <tok src="syr" ref="chapter 6" ord="9"/>
+         <tok src="grc" ref="chapter 6" pos="10"/>
+         <tok src="syr" ref="chapter 6" pos="9"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="11"/>
-         <tok src="syr" ref="chapter 6" ord="10"/>
+         <tok src="grc" ref="chapter 6" pos="11"/>
+         <tok src="syr" ref="chapter 6" pos="10"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="12"/>
-         <tok src="syr" ref="chapter 6" ord="11"/>
-         <tok src="syr" ref="chapter 6" ord="12"/>
+         <tok src="grc" ref="chapter 6" pos="12"/>
+         <tok src="syr" ref="chapter 6" pos="11"/>
+         <tok src="syr" ref="chapter 6" pos="12"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="13"/>
-         <tok src="syr" ref="chapter 6" ord="13"/>
+         <tok src="grc" ref="chapter 6" pos="13"/>
+         <tok src="syr" ref="chapter 6" pos="13"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="15"/>
-         <tok src="grc" ref="chapter 6" ord="16"/>
-         <tok src="syr" ref="chapter 6" ord="14"/>
+         <tok src="grc" ref="chapter 6" pos="15"/>
+         <tok src="grc" ref="chapter 6" pos="16"/>
+         <tok src="syr" ref="chapter 6" pos="14"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="17"/>
-         <tok src="grc" ref="chapter 6" ord="18"/>
-         <tok src="grc" ref="chapter 6" ord="19"/>
-         <tok src="syr" ref="chapter 6" ord="15"/>
+         <tok src="grc" ref="chapter 6" pos="17"/>
+         <tok src="grc" ref="chapter 6" pos="18"/>
+         <tok src="grc" ref="chapter 6" pos="19"/>
+         <tok src="syr" ref="chapter 6" pos="15"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="21"/>
-         <tok src="grc" ref="chapter 6" ord="22"/>
-         <tok src="syr" ref="chapter 6" ord="16"/>
+         <tok src="grc" ref="chapter 6" pos="21"/>
+         <tok src="grc" ref="chapter 6" pos="22"/>
+         <tok src="syr" ref="chapter 6" pos="16"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="4"/>
+         <tok src="grc" ref="chapter 6" pos="4"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="14"/>
-         <tok src="syr" ref="chapter 6" ord="14" chars="1"/>
+         <tok src="grc" ref="chapter 6" pos="14"/>
+         <tok src="syr" ref="chapter 6" pos="14" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="20"/>
-         <tok src="syr" ref="chapter 6" ord="16" chars="1"/>
+         <tok src="grc" ref="chapter 6" pos="20"/>
+         <tok src="syr" ref="chapter 6" pos="16" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="23"/>
-         <tok src="syr" ref="chapter 6" ord="17"/>
+         <tok src="grc" ref="chapter 6" pos="23"/>
+         <tok src="syr" ref="chapter 6" pos="17"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="24"/>
-         <tok src="syr" ref="chapter 6" ord="18" chars="1"/>
+         <tok src="grc" ref="chapter 6" pos="24"/>
+         <tok src="syr" ref="chapter 6" pos="18" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="25"/>
-         <tok src="grc" ref="chapter 6" ord="26"/>
-         <tok src="syr" ref="chapter 6" ord="18"/>
-         <tok src="syr" ref="chapter 6" ord="19"/>
+         <tok src="grc" ref="chapter 6" pos="25"/>
+         <tok src="grc" ref="chapter 6" pos="26"/>
+         <tok src="syr" ref="chapter 6" pos="18"/>
+         <tok src="syr" ref="chapter 6" pos="19"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="43"/>
-         <tok src="syr" ref="chapter 6" ord="29"/>
+         <tok src="grc" ref="chapter 6" pos="43"/>
+         <tok src="syr" ref="chapter 6" pos="29"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="44"/>
-         <tok src="syr" ref="chapter 6" ord="30" chars="1"/>
+         <tok src="grc" ref="chapter 6" pos="44"/>
+         <tok src="syr" ref="chapter 6" pos="30" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="45"/>
-         <tok src="grc" ref="chapter 6" ord="46"/>
-         <tok src="syr" ref="chapter 6" ord="30"/>
+         <tok src="grc" ref="chapter 6" pos="45"/>
+         <tok src="grc" ref="chapter 6" pos="46"/>
+         <tok src="syr" ref="chapter 6" pos="30"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="39"/>
-         <tok src="syr" ref="chapter 6" ord="26"/>
+         <tok src="grc" ref="chapter 6" pos="39"/>
+         <tok src="syr" ref="chapter 6" pos="26"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="40"/>
-         <tok src="syr" ref="chapter 6" ord="27" chars="1"/>
+         <tok src="grc" ref="chapter 6" pos="40"/>
+         <tok src="syr" ref="chapter 6" pos="27" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="41"/>
-         <tok src="grc" ref="chapter 6" ord="42"/>
-         <tok src="syr" ref="chapter 6" ord="27"/>
-         <tok src="syr" ref="chapter 6" ord="28"/>
+         <tok src="grc" ref="chapter 6" pos="41"/>
+         <tok src="grc" ref="chapter 6" pos="42"/>
+         <tok src="syr" ref="chapter 6" pos="27"/>
+         <tok src="syr" ref="chapter 6" pos="28"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="35"/>
-         <tok src="syr" ref="chapter 6" ord="24"/>
+         <tok src="grc" ref="chapter 6" pos="35"/>
+         <tok src="syr" ref="chapter 6" pos="24"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="36"/>
-         <tok src="syr" ref="chapter 6" ord="25" chars="1"/>
+         <tok src="grc" ref="chapter 6" pos="36"/>
+         <tok src="syr" ref="chapter 6" pos="25" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="37"/>
-         <tok src="grc" ref="chapter 6" ord="38"/>
-         <tok src="syr" ref="chapter 6" ord="25"/>
+         <tok src="grc" ref="chapter 6" pos="37"/>
+         <tok src="grc" ref="chapter 6" pos="38"/>
+         <tok src="syr" ref="chapter 6" pos="25"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="31"/>
-         <tok src="syr" ref="chapter 6" ord="22"/>
+         <tok src="grc" ref="chapter 6" pos="31"/>
+         <tok src="syr" ref="chapter 6" pos="22"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="32"/>
-         <tok src="syr" ref="chapter 6" ord="23" chars="1"/>
+         <tok src="grc" ref="chapter 6" pos="32"/>
+         <tok src="syr" ref="chapter 6" pos="23" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="33"/>
-         <tok src="grc" ref="chapter 6" ord="34"/>
-         <tok src="syr" ref="chapter 6" ord="23"/>
+         <tok src="grc" ref="chapter 6" pos="33"/>
+         <tok src="grc" ref="chapter 6" pos="34"/>
+         <tok src="syr" ref="chapter 6" pos="23"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="27"/>
-         <tok src="syr" ref="chapter 6" ord="20"/>
+         <tok src="grc" ref="chapter 6" pos="27"/>
+         <tok src="syr" ref="chapter 6" pos="20"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="28"/>
-         <tok src="syr" ref="chapter 6" ord="21" chars="1"/>
+         <tok src="grc" ref="chapter 6" pos="28"/>
+         <tok src="syr" ref="chapter 6" pos="21" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="29"/>
-         <tok src="grc" ref="chapter 6" ord="30"/>
-         <tok src="syr" ref="chapter 6" ord="21"/>
+         <tok src="grc" ref="chapter 6" pos="29"/>
+         <tok src="grc" ref="chapter 6" pos="30"/>
+         <tok src="syr" ref="chapter 6" pos="21"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="62"/>
-         <tok src="syr" ref="chapter 6" ord="42"/>
+         <tok src="grc" ref="chapter 6" pos="62"/>
+         <tok src="syr" ref="chapter 6" pos="42"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="61"/>
-         <tok src="grc" ref="chapter 6" ord="63"/>
-         <tok src="syr" ref="chapter 6" ord="41"/>
+         <tok src="grc" ref="chapter 6" pos="61"/>
+         <tok src="grc" ref="chapter 6" pos="63"/>
+         <tok src="syr" ref="chapter 6" pos="41"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="65"/>
-         <tok src="syr" ref="chapter 6" ord="43"/>
+         <tok src="grc" ref="chapter 6" pos="65"/>
+         <tok src="syr" ref="chapter 6" pos="43"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="64"/>
-         <tok src="syr" ref="chapter 6" ord="41" chars="2, last-1 - last"/>
-         <tok src="syr" ref="chapter 6" ord="45" chars="1, last-1 - last"/>
+         <tok src="grc" ref="chapter 6" pos="64"/>
+         <tok src="syr" ref="chapter 6" pos="41" chars="2, last-1 - last"/>
+         <tok src="syr" ref="chapter 6" pos="45" chars="1, last-1 - last"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="66"/>
-         <tok src="syr" ref="chapter 6" ord="44"/>
+         <tok src="grc" ref="chapter 6" pos="66"/>
+         <tok src="syr" ref="chapter 6" pos="44"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="67"/>
-         <tok src="syr" ref="chapter 6" ord="45"/>
+         <tok src="grc" ref="chapter 6" pos="67"/>
+         <tok src="syr" ref="chapter 6" pos="45"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="68"/>
-         <tok src="syr" ref="chapter 6" ord="46"/>
+         <tok src="grc" ref="chapter 6" pos="68"/>
+         <tok src="syr" ref="chapter 6" pos="46"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="70"/>
-         <tok src="syr" ref="chapter 6" ord="47"/>
+         <tok src="grc" ref="chapter 6" pos="70"/>
+         <tok src="syr" ref="chapter 6" pos="47"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="69"/>
-         <tok src="syr" ref="chapter 6" ord="48"/>
+         <tok src="grc" ref="chapter 6" pos="69"/>
+         <tok src="syr" ref="chapter 6" pos="48"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="71"/>
-         <tok src="syr" ref="chapter 6" ord="49"/>
+         <tok src="grc" ref="chapter 6" pos="71"/>
+         <tok src="syr" ref="chapter 6" pos="49"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="72"/>
-         <tok src="syr" ref="chapter 6" ord="50"/>
+         <tok src="grc" ref="chapter 6" pos="72"/>
+         <tok src="syr" ref="chapter 6" pos="50"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="73"/>
-         <tok src="syr" ref="chapter 6" ord="51"/>
+         <tok src="grc" ref="chapter 6" pos="73"/>
+         <tok src="syr" ref="chapter 6" pos="51"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="74"/>
-         <tok src="grc" ref="chapter 6" ord="75"/>
-         <tok src="grc" ref="chapter 6" ord="76"/>
-         <tok src="syr" ref="chapter 6" ord="52"/>
+         <tok src="grc" ref="chapter 6" pos="74"/>
+         <tok src="grc" ref="chapter 6" pos="75"/>
+         <tok src="grc" ref="chapter 6" pos="76"/>
+         <tok src="syr" ref="chapter 6" pos="52"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="47"/>
-         <tok src="syr" ref="chapter 6" ord="31"/>
-         <tok src="syr" ref="chapter 6" ord="32" chars="last-2 - last"/>
+         <tok src="grc" ref="chapter 6" pos="47"/>
+         <tok src="syr" ref="chapter 6" pos="31"/>
+         <tok src="syr" ref="chapter 6" pos="32" chars="last-2 - last"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="48"/>
-         <tok src="syr" ref="chapter 6" ord="32"/>
+         <tok src="grc" ref="chapter 6" pos="48"/>
+         <tok src="syr" ref="chapter 6" pos="32"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="49"/>
-         <tok src="syr" ref="chapter 6" ord="33"/>
+         <tok src="grc" ref="chapter 6" pos="49"/>
+         <tok src="syr" ref="chapter 6" pos="33"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="51"/>
-         <tok src="grc" ref="chapter 6" ord="52"/>
-         <tok src="syr" ref="chapter 6" ord="34"/>
+         <tok src="grc" ref="chapter 6" pos="51"/>
+         <tok src="grc" ref="chapter 6" pos="52"/>
+         <tok src="syr" ref="chapter 6" pos="34"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="53"/>
-         <tok src="syr" ref="chapter 6" ord="35"/>
+         <tok src="grc" ref="chapter 6" pos="53"/>
+         <tok src="syr" ref="chapter 6" pos="35"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="54"/>
-         <tok src="syr" ref="chapter 6" ord="36"/>
+         <tok src="grc" ref="chapter 6" pos="54"/>
+         <tok src="syr" ref="chapter 6" pos="36"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="55"/>
-         <tok src="syr" ref="chapter 6" ord="37"/>
+         <tok src="grc" ref="chapter 6" pos="55"/>
+         <tok src="syr" ref="chapter 6" pos="37"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="57"/>
-         <tok src="syr" ref="chapter 6" ord="38"/>
+         <tok src="grc" ref="chapter 6" pos="57"/>
+         <tok src="syr" ref="chapter 6" pos="38"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="60"/>
-         <tok src="syr" ref="chapter 6" ord="40"/>
+         <tok src="grc" ref="chapter 6" pos="60"/>
+         <tok src="syr" ref="chapter 6" pos="40"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 6" ord="56"/>
-         <tok src="grc" ref="chapter 6" ord="58"/>
-         <tok src="grc" ref="chapter 6" ord="59"/>
-         <tok src="syr" ref="chapter 6" ord="39"/>
+         <tok src="grc" ref="chapter 6" pos="56"/>
+         <tok src="grc" ref="chapter 6" pos="58"/>
+         <tok src="grc" ref="chapter 6" pos="59"/>
+         <tok src="syr" ref="chapter 6" pos="39"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 7" ord="1"/>
-         <tok src="syr" ref="chapter 7" ord="1"/>
+         <tok src="grc" ref="chapter 7" pos="1"/>
+         <tok src="syr" ref="chapter 7" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 7" ord="2"/>
-         <tok src="grc" ref="chapter 7" ord="6"/>
-         <tok src="syr" ref="chapter 7" ord="2"/>
+         <tok src="grc" ref="chapter 7" pos="2"/>
+         <tok src="grc" ref="chapter 7" pos="6"/>
+         <tok src="syr" ref="chapter 7" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 7" ord="3"/>
+         <tok src="grc" ref="chapter 7" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 7" ord="4"/>
-         <tok src="grc" ref="chapter 7" ord="5"/>
-         <tok src="syr" ref="chapter 7" ord="3"/>
+         <tok src="grc" ref="chapter 7" pos="4"/>
+         <tok src="grc" ref="chapter 7" pos="5"/>
+         <tok src="syr" ref="chapter 7" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 7" ord="9"/>
-         <tok src="grc" ref="chapter 7" ord="10"/>
-         <tok src="syr" ref="chapter 7" ord="8"/>
+         <tok src="grc" ref="chapter 7" pos="9"/>
+         <tok src="grc" ref="chapter 7" pos="10"/>
+         <tok src="syr" ref="chapter 7" pos="8"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 7" ord="14"/>
-         <tok src="syr" ref="chapter 7" ord="15"/>
+         <tok src="grc" ref="chapter 7" pos="14"/>
+         <tok src="syr" ref="chapter 7" pos="15"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 7" ord="15"/>
-         <tok src="grc" ref="chapter 7" ord="16"/>
-         <tok src="syr" ref="chapter 7" ord="16"/>
+         <tok src="grc" ref="chapter 7" pos="15"/>
+         <tok src="grc" ref="chapter 7" pos="16"/>
+         <tok src="syr" ref="chapter 7" pos="16"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 8" ord="1"/>
-         <tok src="syr" ref="chapter 8" ord="1"/>
+         <tok src="grc" ref="chapter 8" pos="1"/>
+         <tok src="syr" ref="chapter 8" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 8" ord="2"/>
-         <tok src="grc" ref="chapter 8" ord="5"/>
-         <tok src="syr" ref="chapter 8" ord="2"/>
+         <tok src="grc" ref="chapter 8" pos="2"/>
+         <tok src="grc" ref="chapter 8" pos="5"/>
+         <tok src="syr" ref="chapter 8" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 8" ord="3"/>
-         <tok src="grc" ref="chapter 8" ord="4"/>
-         <tok src="syr" ref="chapter 8" ord="4"/>
+         <tok src="grc" ref="chapter 8" pos="3"/>
+         <tok src="grc" ref="chapter 8" pos="4"/>
+         <tok src="syr" ref="chapter 8" pos="4"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 8" ord="6"/>
-         <tok src="syr" ref="chapter 8" ord="6"/>
+         <tok src="grc" ref="chapter 8" pos="6"/>
+         <tok src="syr" ref="chapter 8" pos="6"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 8" ord="8"/>
-         <tok src="syr" ref="chapter 8" ord="7"/>
+         <tok src="grc" ref="chapter 8" pos="8"/>
+         <tok src="syr" ref="chapter 8" pos="7"/>
       </align>
       <align>
-         <tok src="grc" ref="chapter 8" ord="7"/>
-         <tok src="syr" ref="chapter 8" ord="8"/>
+         <tok src="grc" ref="chapter 8" pos="7"/>
+         <tok src="syr" ref="chapter 8" pos="8"/>
       </align>
       <align>
-         <tok src="syr" ref="chapter 8" ord="3"/>
+         <tok src="syr" ref="chapter 8" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="title 2" ord="1"/>
-         <tok src="syr" ref="title 2" ord="2"/>
+         <tok src="grc" ref="title 2" pos="1"/>
+         <tok src="syr" ref="title 2" pos="2"/>
       </align>
       <align>
-         <tok src="syr" ref="title 2" ord="1"/>
+         <tok src="syr" ref="title 2" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="title 2" ord="2"/>
-         <tok src="syr" ref="title 2" ord="3"/>
+         <tok src="grc" ref="title 2" pos="2"/>
+         <tok src="syr" ref="title 2" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="title 2" ord="3"/>
-         <tok src="syr" ref="title 2" ord="4"/>
+         <tok src="grc" ref="title 2" pos="3"/>
+         <tok src="syr" ref="title 2" pos="4"/>
       </align>
       <align>
-         <tok src="grc" ref="title 2" ord="4"/>
-         <tok src="syr" ref="title 2" ord="5"/>
+         <tok src="grc" ref="title 2" pos="4"/>
+         <tok src="syr" ref="title 2" pos="5"/>
       </align>
    </body>
 </TAN-A-tok>

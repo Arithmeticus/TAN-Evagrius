@@ -41,7 +41,7 @@
          </rights-source-only>
       </source>
       <see-also>
-         <relationship>auxiliary</relationship>
+         <relationship which="auxiliary"/>
          <IRI>tag:kalvesmaki.com,2014:Dysinger_website_Praktikos</IRI>
          <name>Dysinger's handtyped Greek</name>
          <desc>Initial, base digital text used as the starting point for an accurate rendition of
