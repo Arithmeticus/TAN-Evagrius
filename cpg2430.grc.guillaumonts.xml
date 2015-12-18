@@ -85,6 +85,10 @@
             <IRI>tag:textalign.net,2015:div-type:variant</IRI>
             <name xml:lang="eng">variant</name>
          </div-type>
+         <div-type xml:id="note">
+            <IRI>http://dbpedia.org/resource/Note_(typography)</IRI>
+            <name xml:lang="eng">note</name>
+         </div-type>
          <filter>
             <normalization>
                <for-lang>grc</for-lang>

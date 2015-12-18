@@ -164,11 +164,15 @@
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="I 20"/>
-         <div-ref src="nt" ref="Mt 24:35"/>
+         <div-ref src="nt nt-syr" ref="Mt 24:35"/>
       </align>
       <align>
          <div-ref src="S1" ref="I 23"/>
-         <div-ref src="lxx" ref="4Kgdms 14:20"/>
+         <div-ref src="lxx" ref="Isa 1:19"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 23"/>
+         <div-ref src="lxx" ref="2Kgdms 14:20"/>
       </align>
       <align>
          <div-ref src="S1" ref="I 23"/>
@@ -195,6 +199,10 @@
          <div-ref src="lxx" ref="Gen 16 - Gen 17"/>
       </align>
       <align>
+         <div-ref src="S1" ref="I 32"/>
+         <div-ref src="nt" ref="Gal 4:21 - Gal 4:31"/>
+      </align>
+      <align>
          <div-ref src="S1" ref="I 35"/>
          <div-ref src="nt" ref="1Jn 1:5"/>
       </align>
@@ -207,12 +215,17 @@
          <div-ref src="nt" ref="Eph 3:10"/>
       </align>
       <align>
+         <comment when="2015-12-15" who="kalvesmaki">causation</comment>
+         <div-ref src="S1" ref="I 51"/>
+         <div-ref src="S1" ref="I 56"/>
+      </align>
+      <align>
          <div-ref src="S1" ref="I 60"/>
          <div-ref src="nt" ref="Lu 16:1, Lu 16:2, Lu 16:8"/>
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="I 65"/>
-         <div-ref src="nt" ref="Jn 5:22"/>
+         <div-ref src="nt nt-syr" ref="Jn 5:22"/>
       </align>
       <align>
          <div-ref src="S1" ref="I 66"/>
@@ -228,6 +241,8 @@
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="I 71"/>
+         <comment when="2015-11-23" who="kalvesmaki">The LXX entry is a surrogate; Guillaumont says
+            this is drawn exclusively from the Peshitta</comment>
          <div-ref src="lxx" ref="Ps 146:5"/>
       </align>
       <align>
@@ -268,7 +283,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="II 23"/>
-         <div-ref src="nt" ref="Col 1:15"/>
+         <div-ref src="nt nt-syr" ref="Col 1:15"/>
       </align>
       <align>
          <div-ref src="S1" ref="II 26"/>
@@ -284,7 +299,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="II 55"/>
-         <div-ref src="nt" ref="Eph 4:8"/>
+         <div-ref src="nt nt-syr" ref="Eph 4:8"/>
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="II 55"/>
@@ -292,7 +307,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="II 59"/>
-         <div-ref src="nt" ref="2Th 1:5"/>
+         <div-ref src="nt nt-syr" ref="2Th 1:5"/>
       </align>
       <align>
          <div-ref src="S1" ref="II 60"/>
@@ -300,7 +315,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="II 77"/>
-         <div-ref src="nt" ref="2Tim 4:8"/>
+         <div-ref src="nt nt-syr" ref="2Tim 4:8"/>
       </align>
       <align>
          <div-ref src="S1" ref="II 89"/>
@@ -316,7 +331,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="III 9"/>
-         <div-ref src="nt" ref="Lu 13:32"/>
+         <div-ref src="nt nt-syr" ref="Lu 13:32"/>
       </align>
       <align>
          <div-ref src="S1" ref="III 11"/>
@@ -324,7 +339,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="III 25"/>
-         <div-ref src="nt" ref="1Co 15:42"/>
+         <div-ref src="nt nt-syr" ref="1Co 15:42"/>
       </align>
       <align>
          <div-ref src="S1" ref="III 33"/>
@@ -340,7 +355,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="III 40"/>
-         <div-ref src="nt" ref="2Tim 4:8"/>
+         <div-ref src="nt nt-syr" ref="2Tim 4:8"/>
       </align>
       <align>
          <div-ref src="S1" ref="III 47"/>
@@ -348,11 +363,11 @@
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="III 47"/>
-         <div-ref src="nt" ref="2Tim 4:8"/>
+         <div-ref src="nt nt-syr" ref="2Tim 4:8"/>
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="III 47"/>
-         <div-ref src="nt" ref="2Th 1:5"/>
+         <div-ref src="nt nt-syr" ref="2Th 1:5"/>
       </align>
       <align>
          <div-ref src="S1" ref="III 52"/>
@@ -360,7 +375,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="III 54"/>
-         <div-ref src="nt" ref="1Co 15:52"/>
+         <div-ref src="nt nt-syr" ref="1Co 15:52"/>
       </align>
       <align>
          <div-ref src="S1" ref="III 56"/>
@@ -388,7 +403,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="III 68"/>
-         <div-ref src="nt" ref="2Th 1:5"/>
+         <div-ref src="nt nt-syr" ref="2Th 1:5"/>
       </align>
       <align>
          <div-ref src="S1" ref="III 71"/>
@@ -412,7 +427,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="III 81"/>
-         <div-ref src="nt" ref="Eph 3:10"/>
+         <div-ref src="nt nt-syr" ref="Eph 3:10"/>
       </align>
       <align>
          <div-ref src="S1" ref="III 89"/>
@@ -448,7 +463,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="IV 21"/>
-         <div-ref src="nt" ref="Mk 16:19"/>
+         <div-ref src="nt nt-syr" ref="Mk 16:19"/>
       </align>
       <align>
          <div-ref src="S1" ref="IV 23"/>
@@ -480,7 +495,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="IV 29"/>
-         <div-ref src="nt" ref="Mt 24:29"/>
+         <div-ref src="nt nt-syr" ref="Mt 24:29"/>
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="IV 29"/>
@@ -548,7 +563,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="IV 54"/>
-         <div-ref src="nt" ref="Ac 2:5 - Ac 2:13"/>
+         <div-ref src="nt nt-syr" ref="Ac 2:5 - Ac 2:13"/>
       </align>
       <align>
          <div-ref src="S1" ref="IV 55"/>
@@ -560,19 +575,19 @@
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="IV 57"/>
-         <div-ref src="nt" ref="Mt 14:15 - Mt 14:21"/>
+         <div-ref src="nt nt-syr" ref="Mt 14:15 - Mt 14:21"/>
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="IV 57"/>
-         <div-ref src="nt" ref="Mt 15:32 - Mt 15:38"/>
+         <div-ref src="nt nt-syr" ref="Mt 15:32 - Mt 15:38"/>
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="IV 57"/>
-         <div-ref src="nt" ref="Jn 2:1 - Jn 2:10"/>
+         <div-ref src="nt nt-syr" ref="Jn 2:1 - Jn 2:10"/>
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="IV 57"/>
-         <div-ref src="nt" ref="Jn 9:1 - Jn 9:7"/>
+         <div-ref src="nt nt-syr" ref="Jn 9:1 - Jn 9:7"/>
       </align>
       <align>
          <div-ref src="S1" ref="IV 59"/>
@@ -621,11 +636,11 @@
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="V 3"/>
-         <div-ref src="nt" ref="1Co 13:9, 1Co 13:12"/>
+         <div-ref src="nt nt-syr" ref="1Co 13:9, 1Co 13:12"/>
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="V 3"/>
-         <div-ref src="nt" ref="2Tim 4:7"/>
+         <div-ref src="nt nt-syr" ref="2Tim 4:7"/>
       </align>
       <align>
          <div-ref src="S1" ref="V 8"/>
@@ -665,11 +680,11 @@
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="V 33"/>
-         <div-ref src="nt" ref="Lu 16:3"/>
+         <div-ref src="nt nt-syr" ref="Lu 16:3"/>
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="V 33"/>
-         <div-ref src="nt" ref="Lu 16:5 - Lu 16:8"/>
+         <div-ref src="nt nt-syr" ref="Lu 16:5 - Lu 16:8"/>
       </align>
       <align>
          <div-ref src="S1" ref="V 34"/>
@@ -717,7 +732,7 @@
       </align>
       <align>
          <div-ref src="S1" ref="V 67"/>
-         <div-ref src="lxx" ref="Ps 35:10"/>
+         <div-ref src="lxx" ref="Ps 1:3, Ps 35:10"/>
       </align>
       <align>
          <div-ref src="S1" ref="V 69"/>
@@ -737,7 +752,7 @@
       </align>
       <align>
          <div-ref src="S1" ref="V 84"/>
-         <div-ref src="nt" ref="Eph 3:10"/>
+         <div-ref src="nt" ref="Eph 3:10, 1Co 3:16 - 1Co 3:17, 1Co 6:19 - 1Co 6:20"/>
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="VI 1"/>
@@ -745,7 +760,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="VI 3"/>
-         <div-ref src="nt" ref="Ro 5:14"/>
+         <div-ref src="nt nt-syr" ref="Ro 5:14"/>
       </align>
       <align>
          <div-ref src="S1" ref="VI 6"/>
@@ -765,11 +780,11 @@
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="VI 14"/>
-         <div-ref src="nt" ref="Col 1:19"/>
+         <div-ref src="nt nt-syr" ref="Col 1:19"/>
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="VI 14"/>
-         <div-ref src="nt" ref="Ro 9:5"/>
+         <div-ref src="nt nt-syr" ref="Ro 9:5"/>
       </align>
       <align>
          <div-ref src="S1" ref="VI 15"/>
@@ -786,10 +801,11 @@
       <align>
          <div-ref src="S1" ref="VI 27"/>
          <div-ref src="lxx" ref="Ps 85:9"/>
+         <div-ref src="nt" ref="Php 2:9"/>
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="VI 30"/>
-         <div-ref src="nt" ref="1Co 3:7"/>
+         <div-ref src="nt nt-syr" ref="1Co 3:7"/>
       </align>
       <align>
          <div-ref src="S1" ref="VI 33"/>
@@ -797,11 +813,11 @@
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="VI 34"/>
-         <div-ref src="nt" ref="Php 3:21"/>
+         <div-ref src="nt nt-syr" ref="Php 3:21"/>
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="VI 34"/>
-         <div-ref src="nt" ref="Ro 8:29"/>
+         <div-ref src="nt nt-syr" ref="Ro 8:29"/>
       </align>
       <align>
          <div-ref src="S1" ref="VI 36"/>
@@ -813,7 +829,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="VI 43"/>
-         <div-ref src="nt" ref="2Th 1:5"/>
+         <div-ref src="nt nt-syr" ref="2Th 1:5"/>
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="VI 45"/>
@@ -821,7 +837,7 @@
       </align>
       <align exclusive="true">
          <div-ref src="S1" ref="VI 47"/>
-         <div-ref src="nt" ref="2Th 1:5"/>
+         <div-ref src="nt nt-syr" ref="2Th 1:5"/>
       </align>
       <align exclusive="true">
          <div-ref src="S2" ref="VI 47"/>
