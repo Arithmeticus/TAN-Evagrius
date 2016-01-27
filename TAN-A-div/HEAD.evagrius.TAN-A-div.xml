@@ -6,7 +6,10 @@
 <TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
    id="tag:kalvesmaki.com,2014:tan-a-div:evagrius">
    <head>
-      <name>Alignment of the works of Evagrius</name>
+      <name>Head TAN file for Evagrius collection</name>
+      <desc>This file is intended to be lightweight TAN-A-div file, to serve as a HEAD for other TAN
+         files in the library, particularly to populate rights-excluding sources, agent, 
+         role, topic, and contextual see-also.</desc>
       <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/HEAD.evagrius.TAN-A-div.xml</master-location>
       <rights-excluding-sources rights-holder="kalvesmaki">
          <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
@@ -14,13 +17,36 @@
          <desc>This license is granted independent of rights and licenses associated with the
             sources. </desc>
       </rights-excluding-sources>
-      <inclusion xml:id="cpg2430">
-         <IRI>tag:kalvesmaki@gmail.com,2014:cpg2430-TAN-A-div-et-al-1</IRI>
-         <name>Alignment of Evagrius's Praktikos and works cited</name>
-         <location when-accessed="2015-10-12-04:00">cpg2430.TAN-A-div.xml</location>
-      </inclusion>
-      <source include="cpg2430"/>
-      <declarations/>
+      <source xml:id="titular-source">
+         <comment when="2015-12-27" who="kalvesmaki">This source included only to validate the
+            TAN-A-div file, which is intended only as a core repository of metadata (see desc
+            above).</comment>
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
+         <name>CPG2430-grc-Guillaumonts.TAN-TEI.xml</name>
+         <location when-accessed="2015-12-27T12:03:59.703-05:00"
+            >../CPG2430.grc.guillaumonts.xml</location>
+      </source>
+      <see-also>
+         <relationship which="context"/>
+         <IRI>tag:kalvesmaki.com,2014:tan-x:evagrius</IRI>
+         <name>Assertions about matters discussed in the Evagrius TAN collection</name>
+         <location when-accessed="2015-12-23T14:40:30.787-05:00"
+            >../TAN-X/evagrius-TAN-X.xml</location>
+      </see-also>
+      <declarations>
+         <topic xml:id="causality">
+            <IRI>http://dbpedia.org/page/Causality</IRI>
+            <name>Causality</name>
+         </topic>
+         <topic xml:id="Jerusalem">
+            <IRI>http://dbpedia.org/page/Jerusalem</IRI>
+            <name>Jerusalem</name>
+         </topic>
+         <topic xml:id="gluttony">
+            <IRI>http://dbpedia.org/page/Gluttony</IRI>
+            <name>gluttony</name>
+         </topic>
+      </declarations>
       <agent xml:id="kalvesmaki" roles="editor">
          <IRI>http://viaf.org/viaf/299582703</IRI>
          <IRI>tag:kalvesmaki.com,2014:self</IRI>
@@ -32,6 +58,7 @@
          <name xml:lang="eng">editor</name>
       </role>
       <change when="2015-10-12" who="kalvesmaki">Started file</change>
+      <change when="2015-12-27" who="kalvesmaki">Streamlined.</change>
    </head>
    <body/>
 </TAN-A-div>

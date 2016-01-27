@@ -135,12 +135,16 @@
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
          <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
          <location when-accessed="2015-09-11-04:00"
-            >file:/Users/joelk/Dropbox/TAN/SERVER/release/1/dev/examples/ar.cat.grc.1949.minio-paluello-obj.xml</location>
+            >http://textalign.net/release/1/dev/examples/ar.cat.grc.1949.minio-paluello-obj.xml</location>
+         <location when-accessed="2015-12-25-04:00">../../../SERVER/release/1/dev/examples/ar.cat.grc.1949.minio-paluello-obj.xml</location>
       </source>
+      <see-also include="HEAD"/>
       <declarations>
          <tokenization include="bible"/>
+         <tokenization which="general-words-only-1" src="S1 S1-Dy S1-Fr S2 S2-Dy grc-PG4 grc-PG12 grc-PG86a grc-PG39 grc-Bars grc-Dor grc-Oct grc-DP grc-EpF grc-Géh1987 grc-Géh1996 grc-Géh1998 grc-Hau grc-Mu1931 grc-Mu1932 grc-Pitra grc-Wolf ar-cat"/>
          <implicit-div-type-refs include="bible"/>
          <implicit-div-type-refs src="S1 S2 ar-cat"/>
+         <topic include="HEAD"/>
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>
@@ -214,10 +218,16 @@
          <div-ref src="S1" ref="I 43"/>
          <div-ref src="nt" ref="Eph 3:10"/>
       </align>
-      <align>
-         <comment when="2015-12-15" who="kalvesmaki">causation</comment>
+      <align topic="causality">
          <div-ref src="S1" ref="I 51"/>
          <div-ref src="S1" ref="I 56"/>
+      </align>
+      <align topic="Jerusalem">
+         <div-ref ref="century.I:chapter.31" src="S2-Dy"/>
+         <div-ref ref="century.V:chapter.6" src="S2-Dy"/>
+         <div-ref ref="century.V:chapter.21" src="S2-Dy"/>
+         <div-ref ref="century.V:chapter.88" src="S2-Dy"/>
+         <div-ref ref="century.VI:chapter.49" src="S2-Dy"/>
       </align>
       <align>
          <div-ref src="S1" ref="I 60"/>

@@ -36,9 +36,8 @@
       </source>
       <source include="bible"/>
       <declarations>
-         <tokenization src="pr pr-syr" which="general-words-only-1"/>
+         <tokenization src="pr-eng-Dy pr pr-syr" which="general-words-only-1"/>
          <tokenization include="bible"/>
-         <tokenization src="pr-eng-Dy" which="general-1"/>
          <implicit-div-type-refs include="bible"/>
       </declarations>
       <agent include="HEAD"/>

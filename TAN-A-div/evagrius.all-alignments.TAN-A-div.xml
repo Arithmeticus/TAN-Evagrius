@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
+   id="tag:kalvesmaki.com,2014:tan-a-div:evagrius-all-aligments">
+   <head>
+      <name>Alignment of all works of Evagrius in the current collection</name>
+      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/HEAD.evagrius.TAN-A-div.xml</master-location>
+      <rights-excluding-sources include="HEAD"/>
+      <inclusion xml:id="HEAD">
+         <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
+         <name>Alignment of the works of Evagrius</name>
+         <location when-accessed="2015-10-12-04:00">HEAD.evagrius.TAN-A-div.xml</location>
+      </inclusion>
+      <inclusion xml:id="cpg2430">
+         <IRI>tag:kalvesmaki@gmail.com,2014:cpg2430-TAN-A-div-et-al-1</IRI>
+         <name>Alignment of Evagrius's Praktikos and works cited</name>
+         <location when-accessed="2015-10-12-04:00">cpg2430.TAN-A-div.xml</location>
+      </inclusion>
+      <inclusion xml:id="cpg2431">
+         <IRI>tag:kalvesmaki@gmail.com,2014:cpg2431-TAN-A-div-et-al-1</IRI>
+         <name>Alignment of Evagrius's Gnostikos and works cited</name>
+         <location when-accessed="2015-12-27T11:50:13.763-05:00">cpg2431.TAN-A-div.xml</location>
+      </inclusion>
+      <inclusion xml:id="cpg2432">
+         <IRI>tag:kalvesmaki@gmail.com,2014:cpg2432-TAN-A-div-et-al-1</IRI>
+         <name>Alignment of Evagrius's Kephalaia Gnostika and works cited</name>
+         <location when-accessed="2015-12-27T11:50:41.954-05:00">cpg2432.TAN-A-div.xml</location>
+      </inclusion>
+      <source include="cpg2430 cpg2431 cpg2432"/>
+      <declarations>
+         <tokenization include="cpg2430 cpg2431 cpg2432"/>
+         <implicit-div-type-refs include="cpg2430 cpg2431 cpg2432"/>
+         <topic include="HEAD"/>
+      </declarations>
+      <agent include="HEAD"/>
+      <role include="HEAD"/>
+      <change when="2015-12-27" who="kalvesmaki">Started file</change>
+   </head>
+   <body>
+      <align include="cpg2430 cpg2431 cpg2432"/>
+   </body>
+</TAN-A-div>

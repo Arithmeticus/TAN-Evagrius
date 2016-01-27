@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div-edit.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
@@ -55,6 +55,7 @@
    </head>
    <body>
       <align>
+         <!--<div-ref src="*" ref="δικαιον|just"/>-->
          <div-ref src="gn" ref="46"/>
          <div-ref strength="0.5" src="lxx" ref="Exod 26:35"/>
       </align>
