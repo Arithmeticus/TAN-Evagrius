@@ -89,6 +89,10 @@
             <IRI>http://dbpedia.org/resource/Note_(typography)</IRI>
             <name xml:lang="eng">note</name>
          </div-type>
+         <div-type xml:id="paragraph">
+            <IRI>http://dbpedia.org/page/Paragraph</IRI>
+            <name>paragraph</name>
+         </div-type>
          <filter>
             <normalization>
                <for-lang>grc</for-lang>
