@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/experimental/TAN-X.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/experimental/TAN-X.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-X xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-x:evagrius" TAN-version="1">
+<?xml-model href="../../TAN-1-dev/schemas/TAN-rdf.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-rdf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-rdf xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-x:evagrius" TAN-version="1">
     <head>
         <name>Assertions about matters discussed in the Evagrius TAN collection</name>
         <rights-excluding-sources include="HEAD"/>
         <inclusion xml:id="HEAD">
             <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
             <name>Alignment of the works of Evagrius</name>
-            <location when-accessed="2015-12-23T13:37:42.858-05:00"
-                >../TAN-A-div/HEAD.evagrius.TAN-A-div.xml</location>
+            <location href="../TAN-A-div/HEAD.evagrius.TAN-A-div.xml" when-accessed="2015-12-23T13:37:42.858-05:00"/>
         </inclusion>
         <declarations>
             <work xml:id="kg">
@@ -35,7 +34,7 @@
                 <desc>
                     <IRI>tag:kalvesmaki.com,2014:vocabularies:rda:2015-12-23</IRI>
                     <name>RDA work properties</name>
-                    <location when-accessed="2015-12-23">http://rdaregistry.info/Elements/w.xml</location>
+                    <location href="http://rdaregistry.info/Elements/w.xml" when-accessed="2015-12-23"/>
                 </desc>
                 <desc>Description</desc>
             </verb>
@@ -47,4 +46,4 @@
     <body claimant="kalvesmaki" subject="kg">
         <claim verb="annotated-by" object="kg-comm-stang kg-comm-s1-guillaumont kg-comm-s2-guillaumont"/>
     </body>
-</TAN-X>
+</TAN-rdf>
