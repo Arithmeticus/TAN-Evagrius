@@ -3,17 +3,16 @@
 <?xml-model href="../../TAN-1-dev/schemas/TAN-A-tok.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-tok.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-tok.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-A-tok xmlns="tag:textalign.net,2015:ns" TAN-version="1"
-   id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts+syr_BL14578.TAN-A.001">
+<TAN-A-tok xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts+syr_BL14578.TAN-A.001">
    <head>
       <name>CPG2430-grc-Guillaumonts+CPG2430-syr-BL14578.TAN-A.xml</name>
       <name xml:lang="eng">The first TAN-A file created in the Text Alignment Protocol.</name>
-      <master-location>cpg2430.grc-Guillaumonts+syr-BL14578.token.1.xml</master-location>
+      <master-location href="cpg2430.grc-Guillaumonts+syr-BL14578.token.1.xml"/>
       <rights-excluding-sources include="HEAD"/>
       <inclusion xml:id="HEAD">
          <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
          <name>Alignment of the works of Evagrius</name>
-         <location when-accessed="2015-10-12-04:00">../TAN-A-div/HEAD.evagrius.TAN-A-div.xml</location>
+         <location href="../TAN-A-div/HEAD.evagrius.TAN-A-div.xml" when-accessed="2015-10-12-04:00"/>
       </inclusion>
       <source xml:id="grc">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
@@ -23,12 +22,12 @@
             <name>SHA-1</name>
             <value>da39a3ee5e6b4b890afd807090d3255bfef95601</value>
          </checksum>
-         <location when-accessed="2015-02-24">../cpg2430.grc.guillaumonts.xml</location>
+         <location href="../cpg2430.grc.guillaumonts.xml" when-accessed="2015-02-24"/>
       </source>
       <source xml:id="syr">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001</IRI>
          <name>CPG2430-syr-BL14578.TAN-TEI.xml</name>
-         <location when-accessed="2014-05-24">../cpg2430.syr.bl14578.tei.xml</location>
+         <location href="../cpg2430.syr.bl14578.tei.xml" when-accessed="2014-05-24"/>
       </source>
       <declarations>
          <bitext-relation xml:id="cred">

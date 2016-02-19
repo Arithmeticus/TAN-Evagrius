@@ -3,14 +3,13 @@
 <?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
-   id="tag:kalvesmaki.com,2014:tan-a-div:evagrius">
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki.com,2014:tan-a-div:evagrius">
    <head>
       <name>Head TAN file for Evagrius collection</name>
       <desc>This file is intended to be lightweight TAN-A-div file, to serve as a HEAD for other TAN
          files in the library, particularly to populate rights-excluding sources, agent, 
          role, topic, and contextual see-also.</desc>
-      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/HEAD.evagrius.TAN-A-div.xml</master-location>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/HEAD.evagrius.TAN-A-div.xml"/>
       <rights-excluding-sources rights-holder="kalvesmaki">
          <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
          <name>Creative Commons Attribution 4.0 International License</name>
@@ -23,15 +22,13 @@
             above).</comment>
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
          <name>CPG2430-grc-Guillaumonts.TAN-TEI.xml</name>
-         <location when-accessed="2015-12-27T12:03:59.703-05:00"
-            >../CPG2430.grc.guillaumonts.xml</location>
+         <location href="../CPG2430.grc.guillaumonts.xml" when-accessed="2015-12-27T12:03:59.703-05:00"/>
       </source>
       <see-also>
          <relationship which="context"/>
          <IRI>tag:kalvesmaki.com,2014:tan-x:evagrius</IRI>
          <name>Assertions about matters discussed in the Evagrius TAN collection</name>
-         <location when-accessed="2015-12-23T14:40:30.787-05:00"
-            >../TAN-X/evagrius-TAN-X.xml</location>
+         <location href="../TAN-rdf/evagrius-TAN-rdf.xml" when-accessed="2015-12-23T14:40:30.787-05:00"/>
       </see-also>
       <declarations>
          <topic xml:id="causality">
@@ -45,6 +42,12 @@
          <topic xml:id="gluttony">
             <IRI>http://dbpedia.org/page/Gluttony</IRI>
             <name>gluttony</name>
+         </topic>
+         <topic xml:id="form">
+            <IRI>tag:kalvesmaki.com,2015:topic:εἶδος</IRI>
+            <name>form (philosophical)</name>
+            <desc>Common techincal term in ancient philosophy to describe both the shape of physical
+               bodies and immaterial, ideal forms.</desc>
          </topic>
       </declarations>
       <agent xml:id="kalvesmaki" roles="editor">

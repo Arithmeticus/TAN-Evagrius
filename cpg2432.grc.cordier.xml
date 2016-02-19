@@ -3,60 +3,56 @@
 <?xml-model href="../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI TAN-version="1"
-  id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Cordier.TAN-TEI.001"
-  xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude"
-  xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
-  xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<TEI xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Cordier.TAN-TEI.001">
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Ἑξακόσια προγνωστικὰ προβλήματα</title>
         <author>Evagrius Ponticus</author>
         <respStmt>
           <resp>edited by</resp>
-          <persName><forename>Balthasar</forename>
-            <surname>Cordier</surname></persName>
+          <persName instant="false" full="yes"><forename full="yes">Balthasar</forename>
+            <surname full="yes">Cordier</surname></persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <p/>
+        <p part="N"/>
       </publicationStmt>
-      <sourceDesc>
-        <listBibl>
-          <bibl><persName><forename>Balthasar</forename>
-              <surname>Cordier</surname></persName>. Patrologia Graeca 4.</bibl>
+      <sourceDesc default="false">
+        <listBibl default="false">
+          <bibl default="false" status="draft"><persName instant="false" full="yes"><forename full="yes">Balthasar</forename>
+              <surname full="yes">Cordier</surname></persName>. Patrologia Graeca 4.</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <projectDesc>
-        <p>Transcribed February 2013 by <persName>Luke Dysinger</persName>, OSB. Corrected by
-            <persName>Joel Kalvesmaki</persName> against scan of PG 4 secured through Religion and
+      <projectDesc default="false">
+        <p part="N">Transcribed February 2013 by <persName instant="false" full="yes">Luke Dysinger</persName>, OSB. Corrected by
+            <persName instant="false" full="yes">Joel Kalvesmaki</persName> against scan of PG 4 secured through Religion and
           Technology Center, Inc., http://www.reltech.org/.</p>
       </projectDesc>
-      <samplingDecl>
-        <p>Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
+      <samplingDecl default="false">
+        <p part="N">Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
           Footnotes, apparatus, translation, etc. have been omitted.</p>
       </samplingDecl>
-      <editorialDecl>
-        <correction>
-          <p>No corrections were made.</p>
+      <editorialDecl default="false">
+        <correction default="false" status="unknown" method="silent">
+          <p part="N">No corrections were made.</p>
         </correction>
-        <normalization>
-          <p>Should reflect original source.</p>
+        <normalization default="false" method="silent">
+          <p part="N">Should reflect original source.</p>
         </normalization>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
   <head xmlns="tag:textalign.net,2015:ns">
     <name xml:lang="eng">Fragments preserved PG 4</name>
-    <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.grc.cordier.xml</master-location>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.grc.cordier.xml"/>
     <rights-excluding-sources include="WORK"/>
     <inclusion xml:id="WORK">
       <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001</IRI>
       <name>Guillaumont's edition of Syriac S2 of the Kephalaia Gnostika</name>
-      <location when-accessed="2015-10-13-04:00">CPG2432.syr.guillaumont-s2.xml</location>
+      <location href="CPG2432.syr.guillaumont-s2.xml" when-accessed="2015-10-13-04:00"/>
     </inclusion>
     <source>
       <IRI>http://dbpedia.org/resource/Patrologia_Graeca</IRI>
@@ -79,11 +75,11 @@
   </head>
   <text>
     <body xml:lang="grc" in-progress="false">
-      <div type="century" n="II">
-        <div type="chapter" n="78"> <pb n="173"/> <p> Ἕκαστον τάγμα <lb/>τῶν οὐρανίων δυνάμεων, ἢ ὅλον ἐκ τῶν κάτω, ἢ ὅλον <lb/>ἐκ τῶν ἄνω, ἢ ἐκ τῶν ἄνω καὶ ἐκ τῶν κάτω συνέστη-<lb break="no"/>κε.</p> </div>
+      <div type="century" n="II" part="N" org="uniform" sample="complete">
+        <div type="chapter" n="78" part="N" org="uniform" sample="complete"> <pb n="173"/> <p part="N"> Ἕκαστον τάγμα <lb/>τῶν οὐρανίων δυνάμεων, ἢ ὅλον ἐκ τῶν κάτω, ἢ ὅλον <lb/>ἐκ τῶν ἄνω, ἢ ἐκ τῶν ἄνω καὶ ἐκ τῶν κάτω συνέστη-<lb break="no"/>κε.</p> </div>
       </div>
-      <div type="century" n="V">
-        <div type="chapter" n="11"> <p>Ἐξ ἀγγελικῆς καταστάσεως καὶ ἀρχαγγελικῆς, ψυ-<lb break="n"/>χικὴ κατάστασις γίνεται· ἐκ δὲ τῆς ψυχικῆς, δαιμο-<lb break="n"/>νιώδης καὶ ἀνθρωπίνη· ἐκ δὲ τῆς ἀνθρωπίνης, ἄγγε-<lb break="n"/>λοι πάλιν καὶ δαίμονες γίνονται. </p> </div>
+      <div type="century" n="V" part="N" org="uniform" sample="complete">
+        <div type="chapter" n="11" part="N" org="uniform" sample="complete"> <p part="N">Ἐξ ἀγγελικῆς καταστάσεως καὶ ἀρχαγγελικῆς, ψυ-<lb break="n"/>χικὴ κατάστασις γίνεται· ἐκ δὲ τῆς ψυχικῆς, δαιμο-<lb break="n"/>νιώδης καὶ ἀνθρωπίνη· ἐκ δὲ τῆς ἀνθρωπίνης, ἄγγε-<lb break="n"/>λοι πάλιν καὶ δαίμονες γίνονται. </p> </div>
       </div>
     </body>
   </text>

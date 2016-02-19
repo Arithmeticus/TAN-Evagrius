@@ -3,38 +3,37 @@
 <?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
-   id="tag:kalvesmaki@gmail.com,2014:cpg2430-TAN-A-div-et-al-1">
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki@gmail.com,2014:cpg2430-TAN-A-div-et-al-1">
    <head>
       <name>Alignment of Evagrius's Praktikos and works cited</name>
-      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A-div/cpg2430.TAN-A-div.xml</master-location>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A-div/cpg2430.TAN-A-div.xml"/>
       <rights-excluding-sources include="HEAD"/>
       <inclusion xml:id="HEAD">
          <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
          <name>Alignment of the works of Evagrius</name>
-         <location when-accessed="2015-10-12-04:00">HEAD.evagrius.TAN-A-div.xml</location>
+         <location href="HEAD.evagrius.TAN-A-div.xml" when-accessed="2015-10-12-04:00"/>
       </inclusion>
       <inclusion xml:id="bible">
          <IRI>tag:kalvesmaki.com,2014:tan-a-div:bible:for-evagrius</IRI>
          <name>Bible versions relevant for alignment with the works of Evagrius</name>
-         <location when-accessed="2015-10-12-04:00">bible-for-evagrius.TAN-A-div.xml</location>
+         <location href="bible-for-evagrius.TAN-A-div.xml" when-accessed="2015-10-12-04:00"/>
       </inclusion>
       <source xml:id="pr">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
          <name>Transcription of Greek edition of the Praktikos by the Guillaumonts</name>
-         <location when-accessed="2015-08-07-04:00">../cpg2430.grc.guillaumonts.xml</location>
+         <location href="../cpg2430.grc.guillaumonts.xml" when-accessed="2015-08-07-04:00"/>
       </source>
       <source xml:id="pr-eng-Dy">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_eng_Dysinger.TAN-TEI.001</IRI>
          <name>Transcription of 1997 English translation by Dysinger</name>
-         <location when-accessed="2015-08-07-04:00">../cpg2430.eng.dysinger.xml</location>
+         <location href="../cpg2430.eng.dysinger.xml" when-accessed="2015-08-07-04:00"/>
       </source>
       <source xml:id="pr-syr">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001</IRI>
          <name>Transcription of Syriac edition in BL Add. 14,578.</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2430.syr.bl14578.tei.xml</location>
+         <location href="../cpg2430.syr.bl14578.tei.xml" when-accessed="2015-08-08-04:00"/>
       </source>
-      <source include="bible"/>
+      <!--<source include="bible"/>-->
       <declarations>
          <tokenization src="pr-eng-Dy pr pr-syr" which="general-words-only-1"/>
          <tokenization include="bible"/>

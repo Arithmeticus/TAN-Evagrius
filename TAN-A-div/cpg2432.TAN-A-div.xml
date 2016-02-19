@@ -3,140 +3,138 @@
 <?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
-   id="tag:kalvesmaki@gmail.com,2014:cpg2432-TAN-A-div-et-al-1">
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki@gmail.com,2014:cpg2432-TAN-A-div-et-al-1">
    <head>
       <name>Alignment of Evagrius's Kephalaia Gnostika and works cited</name>
-      <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A-div/cpg2432.TAN-A-div.xml</master-location>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A-div/cpg2432.TAN-A-div.xml"/>
       <rights-excluding-sources include="HEAD"/>
       <inclusion xml:id="HEAD">
          <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
          <name>Alignment of the works of Evagrius</name>
-         <location when-accessed="2015-10-12-04:00">HEAD.evagrius.TAN-A-div.xml</location>
+         <location href="HEAD.evagrius.TAN-A-div.xml" when-accessed="2015-10-12-04:00"/>
       </inclusion>
       <inclusion xml:id="bible">
          <IRI>tag:kalvesmaki.com,2014:tan-a-div:bible:for-evagrius</IRI>
          <name>Bible versions relevant for alignment with the works of Evagrius</name>
-         <location when-accessed="2015-10-12-04:00">bible-for-evagrius.TAN-A-div.xml</location>
+         <location href="bible-for-evagrius.TAN-A-div.xml" when-accessed="2015-10-12-04:00"/>
       </inclusion>
       <source xml:id="S1">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S1.TAN-TEI.001</IRI>
          <name>Syriac edition of S1 by Guillaumont</name>
-         <location when-accessed="2015-08-08">../cpg2432.syr.guillaumont-s1.xml</location>
+         <location href="../cpg2432.syr.guillaumont-s1.xml" when-accessed="2015-08-08"/>
       </source>
       <source xml:id="S1-Dy">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_eng_Dysinger_S1.TAN-TEI.001</IRI>
          <name>1997 English translation of the Kephalaia Gnostika, S1 by Dysinger</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.eng.dysinger-s1.xml</location>
+         <location href="../cpg2432.eng.dysinger-s1.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="S1-Fr">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Frankenberg.TAN-TEI.001</IRI>
          <name>Frankenberg's Greek retroversion of Syriac S1</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.Frankenberg.xml</location>
+         <location href="../cpg2432.grc.Frankenberg.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="S2">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001</IRI>
          <name>Transcription of Syriac edition of S2 by Guillaumont</name>
-         <location when-accessed="2015-08-08">../cpg2432.syr.guillaumont-s2.xml</location>
+         <location href="../cpg2432.syr.guillaumont-s2.xml" when-accessed="2015-08-08"/>
       </source>
       <source xml:id="S2-Dy">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_eng_Dysinger_S2.TAN-TEI.001</IRI>
          <name>Transcription of 1997 English translation of the Kephalaia Gnostika, S2 by
             Dysinger</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.eng.dysinger-s2.xml</location>
+         <location href="../cpg2432.eng.dysinger-s2.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-PG4">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Cordier.TAN-TEI.001</IRI>
          <name>Fragments preserved PG 4</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.cordier.xml</location>
+         <location href="../cpg2432.grc.cordier.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-PG12">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_la_Rue.TAN-TEI.001</IRI>
          <name>Fragments preserved PG 12</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.de_la_Rue.xml</location>
+         <location href="../cpg2432.grc.de_la_Rue.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-PG86a">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Mai-1825.TAN-TEI.001</IRI>
          <name>Fragment preserved in PG 86a</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.Mai-1825.xml</location>
+         <location href="../cpg2432.grc.Mai-1825.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-PG39">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Mai-1852.TAN-TEI.001</IRI>
          <name>Fragment preserved in PG 39</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.Mai-1852.xml</location>
+         <location href="../cpg2432.grc.Mai-1852.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-Bars">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_Angelis-Noah.TAN-TEI.001</IRI>
          <name>Fragments preserved in the correspondence of Barsanouphios and John</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.de_Angelis-Noah.xml</location>
+         <location href="../cpg2432.grc.de_Angelis-Noah.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-Dor">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_Preville.TAN-TEI.001</IRI>
          <name>A fragment preserved in Dorotheus of Gaza</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.de_Préville.xml</location>
+         <location href="../cpg2432.grc.de_Préville.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-Oct">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Devreesse.TAN-TEI.001</IRI>
          <name>A fragment preserved in a scholion on the Octateuch</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.devreesse.xml</location>
+         <location href="../cpg2432.grc.devreesse.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-DP">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Diekamp.TAN-TEI.001</IRI>
          <name>Fragments preserved in the Doctrina patrum</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.diekamp.xml</location>
+         <location href="../cpg2432.grc.diekamp.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-EpF">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gribomont.TAN-TEI.001</IRI>
          <name>Fragment preserved in the Epistula fidei</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.gribomont.xml</location>
+         <location href="../cpg2432.grc.gribomont.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-Géh1987">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1987.TAN-TEI.001</IRI>
          <name>Fragments preserved in the scholia on the Proverbs</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.géhin-1987.xml</location>
+         <location href="../cpg2432.grc.géhin-1987.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-Géh1996">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1996.TAN-TEI.001</IRI>
          <name>Fragments preserved in Vat. gr. 2028</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.géhin-1996.xml</location>
+         <location href="../cpg2432.grc.géhin-1996.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-Géh1998">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1998.TAN-TEI.001</IRI>
          <name>Fragments preserved in Περὶ διαφορῶν πονηρῶν λογισμῶν</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.géhin-1998.xml</location>
+         <location href="../cpg2432.grc.géhin-1998.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-Hau">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Hausherr.TAN-TEI.001</IRI>
          <name>Fragments preserved in MS Moscow 425</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.hausherr.xml</location>
+         <location href="../cpg2432.grc.hausherr.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-Mu1931">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1931.TAN-TEI.001</IRI>
          <name>Fragments preserved in Milan, Ambr. gr. 681 (Q 74 sup.)</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.Muyldermans-1931.xml</location>
+         <location href="../cpg2432.grc.Muyldermans-1931.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-Mu1932">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1932.TAN-TEI.001</IRI>
          <name>Fragments preserved in Paris BnF gr. 2748</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.Muyldermans-1932.xml</location>
+         <location href="../cpg2432.grc.Muyldermans-1932.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-Pitra">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Pitra.TAN-TEI.001</IRI>
          <name>Fragments preserved in Pitra's edition of the scholia on the Psalms</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.Pitra.xml</location>
+         <location href="../cpg2432.grc.Pitra.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="grc-Wolf">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Wolf.TAN-TEI.001</IRI>
          <name>Fragment preserved in Wolf's Analecta graeca</name>
-         <location when-accessed="2015-08-08-04:00">../cpg2432.grc.Wolf.xml</location>
+         <location href="../cpg2432.grc.Wolf.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <source include="bible"/>
       <source xml:id="ar-cat">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
          <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
-         <location when-accessed="2015-09-11-04:00"
-            >http://textalign.net/release/1/dev/examples/ar.cat.grc.1949.minio-paluello-obj.xml</location>
-         <location when-accessed="2015-12-25-04:00">../../../SERVER/release/1/dev/examples/ar.cat.grc.1949.minio-paluello-obj.xml</location>
+         <location href="http://textalign.net/release/1/dev/examples/ar.cat.grc.1949.minio-paluello-obj.xml" when-accessed="2015-09-11-04:00"/>
+         <location href="../../../SERVER/release/1/dev/examples/ar.cat.grc.1949.minio-paluello-obj.xml" when-accessed="2015-12-25-04:00"/>
       </source>
       <see-also include="HEAD"/>
       <declarations>
@@ -218,6 +216,11 @@
          <div-ref src="S1" ref="I 43"/>
          <div-ref src="nt" ref="Eph 3:10"/>
       </align>
+      <align topic="form">
+         <div-ref src="S1" ref="I 46"/>
+         <div-ref src="S1" ref="III 31"/>
+         <div-ref src="S1" ref="V 62"/>
+      </align>
       <align topic="causality">
          <div-ref src="S1" ref="I 51"/>
          <div-ref src="S1" ref="I 56"/>
@@ -261,7 +264,7 @@
       </align>
       <align>
          <div-ref src="S1" ref="I 73"/>
-         <div-ref src="lxx" ref="Ps 72:4"/>
+         <div-ref src="lxx" ref="Ps 62:4"/>
       </align>
       <align>
          <div-ref src="S1" ref="I 75"/>
@@ -278,6 +281,10 @@
       <align>
          <div-ref src="S1" ref="I 82"/>
          <div-ref src="nt" ref="Re 22:12"/>
+      </align>
+      <align>
+         <div-ref src="S1" ref="I 87"/>
+         <div-ref src="lxx" ref="Wis 13:5"/>
       </align>
       <align>
          <div-ref src="S1" ref="I 90"/>

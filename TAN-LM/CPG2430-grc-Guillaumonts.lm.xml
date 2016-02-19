@@ -3,23 +3,22 @@
 <?xml-model href="../../TAN-1-dev/schemas/TAN-LM.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-LM.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-LM.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-LM TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-LM.001"
-   xmlns="tag:textalign.net,2015:ns">
+<TAN-LM xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-LM.001">
    <head>
       <name>TAN-T model.TAN-LM.xml</name>
       <desc xml:lang="eng">Morphology of the Praktikos, in accordance with the Text Alignment
          Network.</desc>
-      <master-location>CPG2430-grc-Guillaumonts.lm.xml</master-location>
+      <master-location href="CPG2430-grc-Guillaumonts.lm.xml"/>
       <rights-excluding-sources include="HEAD"/>
       <inclusion xml:id="HEAD">
          <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
          <name>Alignment of the works of Evagrius</name>
-         <location when-accessed="2015-10-12-04:00">../TAN-A-div/HEAD.evagrius.TAN-A-div.xml</location>
+         <location href="../TAN-A-div/HEAD.evagrius.TAN-A-div.xml" when-accessed="2015-10-12-04:00"/>
       </inclusion>
       <source>
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
          <name>Guillaumonts' Greek edition of the Praktikos of Evagrios Pontikos</name>
-         <location when-accessed="2015-06-08-04:00">../cpg2430.grc.guillaumonts.xml</location>
+         <location href="../cpg2430.grc.guillaumonts.xml" when-accessed="2015-06-08-04:00"/>
       </source>
       <declarations>
          <tokenization which="general-words-only-1"/>
@@ -43,11 +42,11 @@
             <for-lang>grc</for-lang>
             <IRI>tag:kalvesmaki.com,2014:tan-r-mor:grc:perseus</IRI>
             <name xml:lang="eng">Perseus Greek morphology</name>
-            <location when-accessed="2015-08-21-04:00">../../class-3/TAN-R-MOR/grc.kalvesmaki.com%2C2014.1.xml</location>
-            <location when-accessed="2015-08-05-04:00">https://raw.githubusercontent.com/Arithmeticus/TAN-class-3/master/TAN-R-mor/grc.kalvesmaki.com%2C2014.1.xml</location>
+            <location href="../../class-3/TAN-R-MOR/grc.kalvesmaki.com%2C2014.1.xml" when-accessed="2015-08-21-04:00"/>
+            <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-class-3/master/TAN-R-mor/grc.kalvesmaki.com%2C2014.1.xml" when-accessed="2015-08-05-04:00"/>
          </morphology>
          <rename-div-types>
-            <rename old="preface" new="pr"></rename>
+            <rename old="preface" new="pr"/>
          </rename-div-types>
       </declarations>
       <agent include="HEAD"/>

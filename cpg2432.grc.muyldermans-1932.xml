@@ -3,33 +3,29 @@
 <?xml-model href="../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI TAN-version="1"
-  id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1932.TAN-TEI.001"
-  xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude"
-  xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
-  xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<TEI xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1932.TAN-TEI.001">
+  <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>Ἑξακόσια προγνωστικὰ προβλήματα</title>
         <author>Evagrius Ponticus</author>
         <respStmt>
           <resp>edited by</resp>
-          <persName><forename>Joseph</forename>
-            <surname>Muyldermans</surname></persName>
+          <persName instant="false" full="yes"><forename full="yes">Joseph</forename>
+            <surname full="yes">Muyldermans</surname></persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <p/>
+        <p part="N"/>
       </publicationStmt>
-      <sourceDesc>
-        <listBibl>
-          <bibl><persName><surname>Muyldermans</surname>, <forename>Joseph</forename></persName>.
+      <sourceDesc default="false">
+        <listBibl default="false">
+          <bibl default="false" status="draft"><persName instant="false" full="yes"><surname full="yes">Muyldermans</surname>, <forename full="yes">Joseph</forename></persName>.
               <title>À travers la tradition Manuscrite d’Evagre Le Pontique: Essai Sur Les
               Manuscrits Grecs Conservés à La Bibliothèque Nationale De Paris</title>.
               <series>Bibliothèque Du Muséon</series> 3. Louvain: Bureaux du Muséon,
-              <date>1932</date>. [Presents <msIdentifier>
-              <placeName>Paris</placeName>
+              <date instant="false">1932</date>. [Presents <msIdentifier>
+              <placeName instant="false" full="yes">Paris</placeName>
               <repository>BN</repository>
               <collection>gr.</collection>
               <idno>2748</idno>
@@ -38,20 +34,20 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <projectDesc>
-        <p>Transcribed February 2013 by <persName>Joel Kalvesmaki</persName>, corrected against
+      <projectDesc default="false">
+        <p part="N">Transcribed February 2013 by <persName instant="false" full="yes">Joel Kalvesmaki</persName>, corrected against
           volume owned by Dumbarton Oaks Research Library and Collection.</p>
       </projectDesc>
-      <samplingDecl>
-        <p>Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
+      <samplingDecl default="false">
+        <p part="N">Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
           Footnotes, apparatus, translation, etc. have been omitted.</p>
       </samplingDecl>
-      <editorialDecl>
-        <correction>
-          <p>No corrections were found to be needed.</p>
+      <editorialDecl default="false">
+        <correction default="false" status="unknown" method="silent">
+          <p part="N">No corrections were found to be needed.</p>
         </correction>
-        <normalization>
-          <p>Transcription should reflect the original.</p>
+        <normalization default="false" method="silent">
+          <p part="N">Transcription should reflect the original.</p>
         </normalization>
       </editorialDecl>
     </encodingDesc>
@@ -59,12 +55,12 @@
   <head xmlns="tag:textalign.net,2015:ns">
     <name xml:lang="eng">Fragments of the Kephalaia Gnostika from Muyldermans's edition of MS Paris
       BnF gr. 2748</name>
-    <master-location>https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.grc.muyldermans-1932.xml</master-location>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.grc.muyldermans-1932.xml"/>
     <rights-excluding-sources include="WORK"/>
     <inclusion xml:id="WORK">
       <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001</IRI>
       <name>Guillaumont's edition of Syriac S2 of the Kephalaia Gnostika</name>
-      <location when-accessed="2015-10-13-04:00">CPG2432.syr.guillaumont-s2.xml</location>
+      <location href="CPG2432.syr.guillaumont-s2.xml" when-accessed="2015-10-13-04:00"/>
     </inclusion>
     <source>
       <IRI>http://www.worldcat.org/oclc/7564753</IRI>
@@ -88,14 +84,14 @@
   </head>
   <text>
     <body xml:lang="grc" in-progress="false">
-      <div type="century" n="III">
-        <div type="chapter" n="35"> <p><pb n="85"/><locus>Paris BnF gr. 2748, fol. 162, no. 3</locus>3. Νοῦν μὲν καθαίρει πνευματικὴ γνῶσις· θυμὸν δὲ θεραπεύει <lb/>ἀγάπη· ἐπιθυμίαν δὲ ῥέουσαν ἵστησιν ἐγκράτεια.</p> </div>
+      <div type="century" n="III" part="N" org="uniform" sample="complete">
+        <div type="chapter" n="35" part="N" org="uniform" sample="complete"> <p part="N"><pb n="85"/><locus>Paris BnF gr. 2748, fol. 162, no. 3</locus> 3. Νοῦν μὲν καθαίρει πνευματικὴ γνῶσις· θυμὸν δὲ θεραπεύει <lb/>ἀγάπη· ἐπιθυμίαν δὲ ῥέουσαν ἵστησιν ἐγκράτεια.</p> </div>
       </div>
-      <div type="century" n="I">
-        <div type="chapter" n="36"> <p><pb n="89"/><locus>Paris BnF gr. 2748, fol. 163, no. 29</locus> Αἴσθησις μέν ἐστιν ἡ δύναμις καθ’ ἣν ἀντιλαμβανόμεθα τῶν <lb/>ὑλῶν· αἰσθητήριον δὲ τὸ ὄργανον δι’ οὗ πέφυκεν αὕτη ἐνεργεῖν· <lb/>αἰσθητικὸν δὲ αὐτὸ τὸ κεκτημένον τὴν αἴσθησιν· αἰσθητὸν δὲ τὸ <lb/> αἰσθήσεσιν ὑποπίπτειν.</p> </div>
-        <div type="chapter" n="42"> <p><locus>Paris BnF gr. 2748, fol. 163, no. 30</locus> Ἐκεῖ λέγεται παρεῖναι ὁ θεὸς ὅπου ἐνεργεῖ· καὶ μᾶλλον <lb/>παρεῖναι, ὅπου πλέον ἐνεργεῖ· ἐνεργῶν δὲ πλέον ἐν ταῖς νοεραῖς <lb/>δυνάμεσιν, ἐν αὐταῖς ἐστι πλέον.</p> </div>
-        <div type="chapter" n="15"> <p><pb n="93"/><locus>Paris BnF gr. 2748, fol. 164–164v, no. 66</locus> Ἀναιρουμένων τῶν τεσσάρων, ἀναιροῦνται καὶ τὰ πέντε· <lb/>ἀναιρουμένων δὲ τῶν πέντε, οὐκ ἀναιροῦνται καὶ τὰ τέσσαρα· τῇ <lb/>διαζεύξει γὰρ τῆς ψυχῆς ἀναιρουμένων τῶν τεσσάρων στοιχείων τοῦ <lb/> σώματος, ἀναιροῦνται καὶ αἱ πέντε αἰσθήσεις· ἀναιρουμένων δὲ τῶν <lb/>πέντε αἰσθήσεων τῇ φιλοσόφῳ νεκρώσει τοῦ σώματος, οὐκ ἀναιροῦν-<lb break="no"/>ται καὶ τὰ τέσσαρα τούτου στοιχεῖα.</p> </div>
-        <div type="chapter" n="69"> <p><locus>Paris BnF gr. 2748, fol. 164–164v, no. 67</locus>67. Ὁ εἰς γνώσιν ἐλθὼν, ἔχει τὸν μετ' αὐτόν· ὁ εἰς ἄγνοιαν ἐλθὼν, <lb/>οὐκ ἔχει τὸν μετ' αὐτόν· </p> </div>
+      <div type="century" n="I" part="N" org="uniform" sample="complete">
+        <div type="chapter" n="36" part="N" org="uniform" sample="complete"> <p part="N"><pb n="89"/><locus>Paris BnF gr. 2748, fol. 163, no. 29</locus> Αἴσθησις μέν ἐστιν ἡ δύναμις καθ’ ἣν ἀντιλαμβανόμεθα τῶν <lb/>ὑλῶν· αἰσθητήριον δὲ τὸ ὄργανον δι’ οὗ πέφυκεν αὕτη ἐνεργεῖν· <lb/>αἰσθητικὸν δὲ αὐτὸ τὸ κεκτημένον τὴν αἴσθησιν· αἰσθητὸν δὲ τὸ <lb/> αἰσθήσεσιν ὑποπίπτειν.</p> </div>
+        <div type="chapter" n="42" part="N" org="uniform" sample="complete"> <p part="N"><locus>Paris BnF gr. 2748, fol. 163, no. 30</locus> Ἐκεῖ λέγεται παρεῖναι ὁ θεὸς ὅπου ἐνεργεῖ· καὶ μᾶλλον <lb/>παρεῖναι, ὅπου πλέον ἐνεργεῖ· ἐνεργῶν δὲ πλέον ἐν ταῖς νοεραῖς <lb/>δυνάμεσιν, ἐν αὐταῖς ἐστι πλέον.</p> </div>
+        <div type="chapter" n="15" part="N" org="uniform" sample="complete"> <p part="N"><pb n="93"/><locus>Paris BnF gr. 2748, fol. 164–164v, no. 66</locus> Ἀναιρουμένων τῶν τεσσάρων, ἀναιροῦνται καὶ τὰ πέντε· <lb/>ἀναιρουμένων δὲ τῶν πέντε, οὐκ ἀναιροῦνται καὶ τὰ τέσσαρα· τῇ <lb/>διαζεύξει γὰρ τῆς ψυχῆς ἀναιρουμένων τῶν τεσσάρων στοιχείων τοῦ <lb/> σώματος, ἀναιροῦνται καὶ αἱ πέντε αἰσθήσεις· ἀναιρουμένων δὲ τῶν <lb/>πέντε αἰσθήσεων τῇ φιλοσόφῳ νεκρώσει τοῦ σώματος, οὐκ ἀναιροῦν-<lb break="no"/>ται καὶ τὰ τέσσαρα τούτου στοιχεῖα.</p> </div>
+        <div type="chapter" n="69" part="N" org="uniform" sample="complete"> <p part="N"><locus>Paris BnF gr. 2748, fol. 164–164v, no. 67</locus>67. Ὁ εἰς γνώσιν ἐλθὼν, ἔχει τὸν μετ' αὐτόν· ὁ εἰς ἄγνοιαν ἐλθὼν, <lb/>οὐκ ἔχει τὸν μετ' αὐτόν· </p> </div>
       </div>
     </body>
   </text>
