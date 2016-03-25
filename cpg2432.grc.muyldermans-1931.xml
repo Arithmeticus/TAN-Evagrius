@@ -68,8 +68,8 @@
     <declarations>
       <work include="WORK"/>
       <div-type include="WORK"/>
-      <recommended-tokenization which="general-words-only-1"/>
-      <recommended-div-type-refs>implicit</recommended-div-type-refs>
+      <token-definition which="general-words-only-1"/>
+      
       <filter/>
     </declarations>
     <agent include="WORK"/>
@@ -84,8 +84,7 @@
     <body xml:lang="grc" in-progress="false">
       <div type="century" n="I" part="N" org="uniform" sample="complete">
         <div type="title" n="ti" part="N" org="uniform" sample="complete"> <p part="N"><pb n="56"/>66v Εὐαγρίου κεφάλαια.</p> </div>
-        <div type="chapter" n="1" part="N" org="uniform" sample="complete"> <p part="N">1. Τῷ πρώτῳ ἀγαθῷ οὐδέν ἐστιν ἐναντίον, διότι κατ’ οὐσίαν <lb/>ἐστίν· ἐναντίον δὲ οὐδὲν τῇ οὐσίᾳ.</p> </div>
-        <lb/>
+        <div type="chapter" n="1" part="N" org="uniform" sample="complete"> <p part="N">1. Τῷ πρώτῳ ἀγαθῷ οὐδέν ἐστιν ἐναντίον, διότι κατ’ οὐσίαν <lb/>ἐστίν· ἐναντίον δὲ οὐδὲν τῇ οὐσίᾳ.</p> <lb/></div>
         <div type="chapter" n="2" part="N" org="uniform" sample="complete"> <p part="N">2. Ἡ ἐναντιότης ἐν ταῖς ποιότησιν· αἱ δὲ ποιότητες ἐν τοῖς <lb/>κτίσμασιν· ἡ ἐναντιότης ἄρα ἐν τοῖς κτίσμασιν.</p> </div>
         <div type="chapter" n="3" part="N" org="uniform" sample="complete"> <p part="N">3. Πᾶσα λογικὴ φύσις οὐσία γινώσκουσά ἐστιν· ὁ δὲ Θεὸς ἡμῶν <lb/>αὐτὸ γινωσκόμενόν ἐστιν, ἀμερίστως μὲν ἐγγινόμενος, οἷ ἂν <lb/>ἐγγένηται· καθάπερ ἡ ἐπίγειος ἐπιστήμη· διαφέρων δὲ ταύτης <lb/>τὸ ἐνυπόστατος εἶναι.</p> </div>
         <div type="chapter" n="4" part="N" org="uniform" sample="complete"> <p part="N">4. Πάντα τὰ γεγονότα ἢ τῶν ἐναντίων ἐστὶν δεκτικὰ, ἢ ἐκ <lb/>τῶν ἐναντίων συνέστικεν· οὐ πάντα δὲ τὰ τῶν ἐναντίων δεκτικὰ <lb/>καὶ τοῖς ἐκ τῶν ἐναντίων συνεστῶσι συνέζευκται.<pb n="57"/> </p> </div>

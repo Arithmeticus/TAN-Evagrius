@@ -7,7 +7,7 @@
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
-        <title>Λόγος γνόστικος</title>
+        <title>Λόγος γνώστικος</title>
         <author>Evagrius Ponticus</author>
         <respStmt>
           <resp>edited by</resp>
@@ -89,8 +89,8 @@
         <name>Frankenberg's Greek retroversion</name>
       </version>
       <div-type include="WORK"/>
-      <recommended-tokenization which="general-words-only-1"/>
-      <recommended-div-type-refs>implicit</recommended-div-type-refs>
+      <token-definition which="general-words-only-1"/>
+      
       <filter/>
     </declarations>
     <agent include="WORK"/>

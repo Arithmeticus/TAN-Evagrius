@@ -138,10 +138,8 @@
       </source>
       <see-also include="HEAD"/>
       <declarations>
-         <tokenization include="bible"/>
-         <tokenization which="general-words-only-1" src="S1 S1-Dy S1-Fr S2 S2-Dy grc-PG4 grc-PG12 grc-PG86a grc-PG39 grc-Bars grc-Dor grc-Oct grc-DP grc-EpF grc-Géh1987 grc-Géh1996 grc-Géh1998 grc-Hau grc-Mu1931 grc-Mu1932 grc-Pitra grc-Wolf ar-cat"/>
-         <implicit-div-type-refs include="bible"/>
-         <implicit-div-type-refs src="S1 S2 ar-cat"/>
+         <token-definition include="bible"/>
+         <token-definition which="general-words-only-1" src="S1 S1-Dy S1-Fr S2 S2-Dy grc-PG4 grc-PG12 grc-PG86a grc-PG39 grc-Bars grc-Dor grc-Oct grc-DP grc-EpF grc-Géh1987 grc-Géh1996 grc-Géh1998 grc-Hau grc-Mu1931 grc-Mu1932 grc-Pitra grc-Wolf ar-cat"/>
          <topic include="HEAD"/>
       </declarations>
       <agent include="HEAD"/>
@@ -226,11 +224,11 @@
          <div-ref src="S1" ref="I 56"/>
       </align>
       <align topic="Jerusalem">
-         <div-ref ref="century.I:chapter.31" src="S2-Dy"/>
-         <div-ref ref="century.V:chapter.6" src="S2-Dy"/>
-         <div-ref ref="century.V:chapter.21" src="S2-Dy"/>
-         <div-ref ref="century.V:chapter.88" src="S2-Dy"/>
-         <div-ref ref="century.VI:chapter.49" src="S2-Dy"/>
+         <div-ref ref="I 31" src="S2-Dy"/>
+         <div-ref ref="V 6" src="S2-Dy"/>
+         <div-ref ref="V 21" src="S2-Dy"/>
+         <div-ref ref="V 88" src="S2-Dy"/>
+         <div-ref ref="VI 49" src="S2-Dy"/>
       </align>
       <align>
          <div-ref src="S1" ref="I 60"/>

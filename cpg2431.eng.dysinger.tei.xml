@@ -80,8 +80,8 @@
     <declarations>
       <work include="WORK"/>
       <div-type include="WORK"/>
-      <recommended-tokenization which="general-1"/>
-      <recommended-div-type-refs>implicit</recommended-div-type-refs>
+      <token-definition which="general-1"/>
+      
       <filter>
         <normalization>
           <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>

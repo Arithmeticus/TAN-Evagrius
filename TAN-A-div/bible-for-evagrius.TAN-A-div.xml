@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" 
+   phase="full"
+   type="application/xml"xschematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki.com,2014:tan-a-div:bible:for-evagrius">
    <head>
-      <name>Alignment of the works of Evagrius</name>
+      <name>Alignment of versions of the Bible relevant to the works of Evagrius</name>
       <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/bible-for-evagrius.TAN-A-div.xml"/>
       <rights-excluding-sources include="HEAD"/>
       <inclusion xml:id="HEAD">
@@ -32,12 +35,21 @@
          <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.syr.bfbs-1905.xml" when-accessed="2015-08-08-04:00"/>
       </source>
       <declarations>
-         <implicit-div-type-refs src="lxx nt nt-syr"/>
-         <tokenization src="lxx nt nt-syr" which="general-words-only-1"/>
+         <token-definition src="lxx nt-syr nt" which="general-words-only-1"/>
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>
       <change when="2015-10-12" who="kalvesmaki">Started file</change>
    </head>
-   <body/>
+   <body>
+      <!--<equate-works src="nt nt-syr"/>-->
+      <!--<equate-div-types>
+         <div-type-ref src="lxx" div-type-ref="bk"/>
+         <div-type-ref src="nt" div-type-ref="bk"/>
+      </equate-div-types>-->
+      <!--<align>
+         <div-ref src="nt" ref="Lu 1 1 - Lu 1 7"/>
+         <div-ref src="lxx" ref="Gen 1 1 - Gen 1 5"/>
+      </align>-->
+   </body>
 </TAN-A-div>

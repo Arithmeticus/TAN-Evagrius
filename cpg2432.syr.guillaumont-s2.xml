@@ -82,8 +82,8 @@
             <IRI>tag:kalvesmaki.com,2014:div-type-century</IRI>
             <name xml:lang="eng">century</name>
          </div-type>
-         <recommended-tokenization which="general-words-only-1"/>
-         <recommended-div-type-refs>implicit</recommended-div-type-refs>
+         <token-definition which="general-words-only-1"/>
+         
          <filter/>
       </declarations>
       <agent include="TAN-T"/>

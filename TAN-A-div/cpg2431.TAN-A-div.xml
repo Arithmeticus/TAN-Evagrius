@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" phase="half" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki@gmail.com,2014:cpg2431-TAN-A-div-et-al-1">
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
+   id="tag:kalvesmaki@gmail.com,2014:cpg2431-TAN-A-div-et-al-1">
    <head>
       <name>Alignment of Evagrius's Gnostikos and works cited</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A-div/cpg2431.TAN-A-div.xml"/>
+      <master-location
+         href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A-div/cpg2431.TAN-A-div.xml"/>
       <rights-excluding-sources include="HEAD"/>
       <inclusion xml:id="HEAD">
          <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
@@ -28,10 +30,33 @@
          <name>Transcription of 1997 English translation by Dysinger</name>
          <location href="../cpg2431.eng.dysinger.tei.xml" when-accessed="2015-08-08-04:00"/>
       </source>
-      <source xml:id="syr">
+      <source xml:id="syr-S1-14578">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_Frankenberg.TAN-TEI.001</IRI>
          <name>Frankenberg's transcription of Syriac edition in BL Add. 14,578.</name>
          <location href="../cpg2431.syr.frankenberg.tei.xml" when-accessed="2015-08-08-04:00"/>
+      </source>
+      <source xml:id="syr-S1-14581">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd14581</IRI>
+         <name>Transcription of the Gnostikos preserved in BL Add. 14581</name>
+         <location href="../cpg2431.syr.BLAdd14581.xml" when-accessed="2016-03-19-04:00"/>
+      </source>
+      <source xml:id="syr-S3-17167">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd17167</IRI>
+         <name>Transcription of the Gnostikos preserved in BL Add. 17167</name>
+         <location href="../cpg2431.syr.BLAdd17167.xml"
+            when-accessed="2016-03-19T18:43:47.816-04:00"/>
+      </source>
+      <source xml:id="syr-S2-17165">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd17165</IRI>
+         <name>Transcription of the Gnostikos preserved in BL Add. 17165</name>
+         <location href="../cpg2431.syr.BLAdd17165.xml"
+            when-accessed="2016-03-19T18:43:47.816-04:00"/>
+      </source>
+      <source xml:id="syr-S2-14616">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd14616</IRI>
+         <name>Transcription of the Gnostikos preserved in BL Add. 14616</name>
+         <location href="../cpg2431.syr.BLAdd14616.xml"
+            when-accessed="2016-03-19T22:46:01.073-04:00"/>
       </source>
       <source xml:id="gn-grc-Fr">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Frankenberg.TAN-TEI.001</IRI>
@@ -40,10 +65,8 @@
       </source>
       <source include="bible"/>
       <declarations>
-         <tokenization src="gn gn-eng-Dy syr gn-grc-Fr" which="general-words-only-1"/>
-         <tokenization include="bible"/>
-         <implicit-div-type-refs src="gn gn-eng-Dy syr gn-grc-Fr"/>
-         <implicit-div-type-refs include="bible"/>
+         <token-definition src="gn gn-eng-Dy gn-grc-Fr" which="general-words-only-1"/>
+         <token-definition include="bible"/>
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>
@@ -54,7 +77,6 @@
    </head>
    <body>
       <align>
-         <!--<div-ref src="*" ref="δικαιον|just"/>-->
          <div-ref src="gn" ref="46"/>
          <div-ref strength="0.5" src="lxx" ref="Exod 26:35"/>
       </align>

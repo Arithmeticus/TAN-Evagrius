@@ -63,8 +63,8 @@
     <declarations>
       <work include="WORK"/>
       <div-type include="WORK"/>
-      <recommended-tokenization which="general-words-only-1"/>
-      <recommended-div-type-refs>implicit</recommended-div-type-refs>
+      <token-definition which="general-words-only-1"/>
+      
       <filter/>
     </declarations>
     <agent include="WORK"/>

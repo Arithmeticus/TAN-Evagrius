@@ -110,15 +110,10 @@
         <name xml:lang="eng">The Guillamonts' ancient Greek edition of the Gnostikos</name>
       </version>
       <div-type include="TAN-T"/>
-      <recommended-tokenization which="general-words-only-1"/>
-      <recommended-div-type-refs>implicit</recommended-div-type-refs>
+      <token-definition which="general-words-only-1"/>
+      
       <filter>
-        <normalization>
-          <for-lang>grc</for-lang>
-          <IRI>tag:kalvesmaki.com,2014:normalization-discretionaryhyphens-off</IRI>
-          <name xml:lang="eng">Discretionary (line-end) hyphens that break up words have been
-            removed.</name>
-        </normalization>
+        <normalization which="no hyphens"/>
       </filter>
     </declarations>
     <agent include="TAN-T"/>

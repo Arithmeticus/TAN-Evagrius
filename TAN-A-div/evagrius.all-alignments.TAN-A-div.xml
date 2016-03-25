@@ -30,8 +30,7 @@
       </inclusion>
       <source include="cpg2430 cpg2431 cpg2432"/>
       <declarations>
-         <tokenization include="cpg2430 cpg2431 cpg2432"/>
-         <implicit-div-type-refs include="cpg2430 cpg2431 cpg2432"/>
+         <token-definition include="cpg2430 cpg2431 cpg2432"/>
          <topic include="HEAD"/>
       </declarations>
       <agent include="HEAD"/>

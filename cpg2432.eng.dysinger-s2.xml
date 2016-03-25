@@ -83,8 +83,8 @@
         <name>Dysinger's English translation of S2</name>
       </version>
       <div-type include="WORK"/>
-      <recommended-tokenization which="general-1"/>
-      <recommended-div-type-refs>implicit</recommended-div-type-refs>
+      <token-definition which="general-1"/>
+      
       <filter>
         <normalization>
           <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>

@@ -73,8 +73,8 @@
             <name>Syriac S1</name>
          </version>
          <div-type include="WORK"/>
-         <recommended-tokenization which="general-words-only-1"/>
-         <recommended-div-type-refs>implicit</recommended-div-type-refs>
+         <token-definition which="general-words-only-1"/>
+         
          <filter/>
       </declarations>
       <agent include="WORK"/>
@@ -368,8 +368,7 @@
             <div type="epilogue" n="epi" part="N" org="uniform" sample="complete"> <p part="N"> ܫܠ̣ܡ̈ܬ ܡܐܬܐ ܕܬܠܬ܆ ܕܚܣܝܪܐ ܪ̈ܝܫܐ ܥܣܪܐ܀ </p> </div>
          </div>
          <div type="century" n="IV" part="N" org="uniform" sample="complete">
-            <pb n="136"/>
-            <div type="title" n="t" part="N" org="uniform" sample="complete"> <p part="N"> ܡܐܬܐ ܕܐܪܒܥ܀ </p> </div>
+            <div type="title" n="t" part="N" org="uniform" sample="complete"><pb n="136"/> <p part="N"> ܡܐܬܐ ܕܐܪܒܥ܀ </p> </div>
             <div type="chapter" n="1" part="N" org="uniform" sample="complete"> <p part="N">ܐ — ܐܠܗܐ ܢ̣ܨܒ ܠܗ — ܡܠܝ̈ܠܐ. ܪܒ̇ܝܬ̇ ܐܢܘܢ ܕܝܢ ܚܟܡܬܗ܆ ܟܕ ܩ̇ܪܝܐ̇ <lb/> ܠܗܘܢ ܟܬܒ̈ܐ ܒܟܠ ܦܘܪܫܢ܀ </p> </div>
             <div type="chapter" n="2" part="N" org="uniform" sample="complete"> <p part="N">ܒ — ܡܬܝܕܥܢܘܬܗ ܕܐܠܗܐ܆ ܒܐܝܠܝܢ ܕܩ̇ܕܝܡܝܢ ܒܗܘܝܗܘܢ ܐܝܬܝܗ̇ <lb/> ܠܐ ܡܬܕܪܟܢܘܬܗ ܕܝܢ ܒܡܫܝܚܗ ܐܝܬܝܗ̇܀ </p> </div>
             <div type="chapter" n="3" part="N" org="uniform" sample="complete"> <p part="N">ܓ — ܡܬܝܕܥܢܘܬܗ ܕܡܫܝܚܐ܆ ܒܐܝܠܝܢ ܕܬܪ̈ܝܢܝܢ ܒܗܘܝܗܘܢ ܐܝܬܝܗ̇ <lb/> ܠܐ ܡܬܕܪܟܢܘܬܗ ܕܝܢ ܒܐܒܘܗܝ ܐܝܬܝܗ̇܀ </p> </div>
