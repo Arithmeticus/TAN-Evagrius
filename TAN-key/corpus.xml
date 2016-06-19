@@ -1,0 +1,3709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <items>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:nocpg01</URN>
+         <attribution-notes>Letter written by a Loukios (otherwise unknown) to Evagrius.</attribution-notes>
+         <authorship>other</authorship>
+         <cpg>nocpg01</cpg>
+         <description>Included in this corpus because of its importance for contextualizing the Antirrhetikos, and because it has no CPG number.</description>
+         <edition-possibilities>
+            <element>nocpg01 edition Greek</element>
+            <element>nocpg01 edition Syriac</element>
+            <element>nocpg01 edition Armenian</element>
+            <element>nocpg01 edition Georgian</element>
+            <element>nocpg01 edition Latin</element>
+            <element>nocpg01 edition Ethiopic</element>
+            <element>nocpg01 edition Old Russian</element>
+            <element>nocpg01 edition Arabic</element>
+            <element>nocpg01 edition Coptic</element>
+            <element>nocpg01 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>nocpg01</label>
+         <osce>pending</osce>
+         <title-en>Letter of Loukios</title-en>
+         <translation-possibilities>
+            <element>nocpg01 translation English</element>
+            <element>nocpg01 translation French</element>
+            <element>nocpg01 translation German</element>
+            <element>nocpg01 translation Italian</element>
+            <element>nocpg01 translation Spanish</element>
+            <element>nocpg01 translation Russian</element>
+            <element>nocpg01 translation Polish</element>
+            <element>nocpg01 translation Japanese</element>
+            <element>nocpg01 translation Chinese</element>
+            <element>nocpg01 translation Dutch</element>
+            <element>nocpg01 translation Flemish</element>
+            <element>nocpg01 translation Arabic</element>
+            <element>nocpg01 translation Serbian</element>
+            <element>nocpg01 translation Romanian</element>
+            <element>nocpg01 translation Slovenian</element>
+            <element>nocpg01 translation Portuguese</element>
+            <element>nocpg01 translation Korean</element>
+            <element>nocpg01 translation Turkish</element>
+            <element>nocpg01 translation Danish</element>
+            <element>nocpg01 translation Hungarian</element>
+            <element>nocpg01 translation Ukranian</element>
+            <element>nocpg01 translation Finnish</element>
+            <element>nocpg01 translation Norwegian</element>
+            <element>nocpg01 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Arabic</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:nocpg02</URN>
+         <authorship>certain</authorship>
+         <cpg>nocpg02</cpg>
+         <description>Fourteen chapters.</description>
+         <edition-possibilities>
+            <element>nocpg02 edition Greek</element>
+            <element>nocpg02 edition Syriac</element>
+            <element>nocpg02 edition Armenian</element>
+            <element>nocpg02 edition Georgian</element>
+            <element>nocpg02 edition Latin</element>
+            <element>nocpg02 edition Ethiopic</element>
+            <element>nocpg02 edition Old Russian</element>
+            <element>nocpg02 edition Arabic</element>
+            <element>nocpg02 edition Coptic</element>
+            <element>nocpg02 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>nocpg02</label>
+         <osce>pending</osce>
+         <textual-notes>Part of the pseudo-supplement to the Kephalaia Gnostika (BL Add. 14578, fols. 148v-149; Frankenberg ed. 460-68 [nos. 44-57]; also in Armenian). See also Skemmata (CPG 2433).</textual-notes>
+         <title-en>14 Chapters</title-en>
+         <translation-possibilities>
+            <element>nocpg02 translation English</element>
+            <element>nocpg02 translation French</element>
+            <element>nocpg02 translation German</element>
+            <element>nocpg02 translation Italian</element>
+            <element>nocpg02 translation Spanish</element>
+            <element>nocpg02 translation Russian</element>
+            <element>nocpg02 translation Polish</element>
+            <element>nocpg02 translation Japanese</element>
+            <element>nocpg02 translation Chinese</element>
+            <element>nocpg02 translation Dutch</element>
+            <element>nocpg02 translation Flemish</element>
+            <element>nocpg02 translation Arabic</element>
+            <element>nocpg02 translation Serbian</element>
+            <element>nocpg02 translation Romanian</element>
+            <element>nocpg02 translation Slovenian</element>
+            <element>nocpg02 translation Portuguese</element>
+            <element>nocpg02 translation Korean</element>
+            <element>nocpg02 translation Turkish</element>
+            <element>nocpg02 translation Danish</element>
+            <element>nocpg02 translation Hungarian</element>
+            <element>nocpg02 translation Ukranian</element>
+            <element>nocpg02 translation Finnish</element>
+            <element>nocpg02 translation Norwegian</element>
+            <element>nocpg02 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Syriac</element>
+            <element>Armenian</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:nocpg03</URN>
+         <authorship>certain</authorship>
+         <cpg>nocpg03</cpg>
+         <description>Twelve brief chapters culled from Doctrina Patrum §34. See Casiday, Evagrius Ponticus 183&amp;ndash;184</description>
+         <edition-possibilities>
+            <element>nocpg03 edition Greek</element>
+            <element>nocpg03 edition Syriac</element>
+            <element>nocpg03 edition Armenian</element>
+            <element>nocpg03 edition Georgian</element>
+            <element>nocpg03 edition Latin</element>
+            <element>nocpg03 edition Ethiopic</element>
+            <element>nocpg03 edition Old Russian</element>
+            <element>nocpg03 edition Arabic</element>
+            <element>nocpg03 edition Coptic</element>
+            <element>nocpg03 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <label>nocpg03</label>
+         <osce>pending</osce>
+         <title-en>Definitions</title-en>
+         <translation-possibilities>
+            <element>nocpg03 translation English</element>
+            <element>nocpg03 translation French</element>
+            <element>nocpg03 translation German</element>
+            <element>nocpg03 translation Italian</element>
+            <element>nocpg03 translation Spanish</element>
+            <element>nocpg03 translation Russian</element>
+            <element>nocpg03 translation Polish</element>
+            <element>nocpg03 translation Japanese</element>
+            <element>nocpg03 translation Chinese</element>
+            <element>nocpg03 translation Dutch</element>
+            <element>nocpg03 translation Flemish</element>
+            <element>nocpg03 translation Arabic</element>
+            <element>nocpg03 translation Serbian</element>
+            <element>nocpg03 translation Romanian</element>
+            <element>nocpg03 translation Slovenian</element>
+            <element>nocpg03 translation Portuguese</element>
+            <element>nocpg03 translation Korean</element>
+            <element>nocpg03 translation Turkish</element>
+            <element>nocpg03 translation Danish</element>
+            <element>nocpg03 translation Hungarian</element>
+            <element>nocpg03 translation Ukranian</element>
+            <element>nocpg03 translation Finnish</element>
+            <element>nocpg03 translation Norwegian</element>
+            <element>nocpg03 translation Swedish</element>
+         </translation-possibilities>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:nocpg04</URN>
+         <authorship>certain</authorship>
+         <cpg>nocpg04</cpg>
+         <description>Paris BN 2748, ff. 153&amp;ndash;83v, published by Muyldermans. Of the 69 chapters, 53 are drawn from other chapters in the corpus. See Casiday, Evagrius Ponticus 172&amp;ndash;173</description>
+         <edition-possibilities>
+            <element>nocpg04 edition Greek</element>
+            <element>nocpg04 edition Syriac</element>
+            <element>nocpg04 edition Armenian</element>
+            <element>nocpg04 edition Georgian</element>
+            <element>nocpg04 edition Latin</element>
+            <element>nocpg04 edition Ethiopic</element>
+            <element>nocpg04 edition Old Russian</element>
+            <element>nocpg04 edition Arabic</element>
+            <element>nocpg04 edition Coptic</element>
+            <element>nocpg04 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <label>nocpg04</label>
+         <osce>pending</osce>
+         <title-en>Excerpts</title-en>
+         <translation-possibilities>
+            <element>nocpg04 translation English</element>
+            <element>nocpg04 translation French</element>
+            <element>nocpg04 translation German</element>
+            <element>nocpg04 translation Italian</element>
+            <element>nocpg04 translation Spanish</element>
+            <element>nocpg04 translation Russian</element>
+            <element>nocpg04 translation Polish</element>
+            <element>nocpg04 translation Japanese</element>
+            <element>nocpg04 translation Chinese</element>
+            <element>nocpg04 translation Dutch</element>
+            <element>nocpg04 translation Flemish</element>
+            <element>nocpg04 translation Arabic</element>
+            <element>nocpg04 translation Serbian</element>
+            <element>nocpg04 translation Romanian</element>
+            <element>nocpg04 translation Slovenian</element>
+            <element>nocpg04 translation Portuguese</element>
+            <element>nocpg04 translation Korean</element>
+            <element>nocpg04 translation Turkish</element>
+            <element>nocpg04 translation Danish</element>
+            <element>nocpg04 translation Hungarian</element>
+            <element>nocpg04 translation Ukranian</element>
+            <element>nocpg04 translation Finnish</element>
+            <element>nocpg04 translation Norwegian</element>
+            <element>nocpg04 translation Swedish</element>
+         </translation-possibilities>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:nocpg05</URN>
+         <authorship>certain</authorship>
+         <cpg>nocpg05</cpg>
+         <description>Fragment preserved on Acts 10:11-12; edited in Cramer’s Catenæ græcorum patrum in novum testamentum, 3:177</description>
+         <edition-possibilities>
+            <element>nocpg05 edition Greek</element>
+            <element>nocpg05 edition Syriac</element>
+            <element>nocpg05 edition Armenian</element>
+            <element>nocpg05 edition Georgian</element>
+            <element>nocpg05 edition Latin</element>
+            <element>nocpg05 edition Ethiopic</element>
+            <element>nocpg05 edition Old Russian</element>
+            <element>nocpg05 edition Arabic</element>
+            <element>nocpg05 edition Coptic</element>
+            <element>nocpg05 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <label>nocpg05</label>
+         <osce>pending</osce>
+         <title-en>Scholia on Acts</title-en>
+         <title-la>Scholia in Acta apostolorum</title-la>
+         <translation-possibilities>
+            <element>nocpg05 translation English</element>
+            <element>nocpg05 translation French</element>
+            <element>nocpg05 translation German</element>
+            <element>nocpg05 translation Italian</element>
+            <element>nocpg05 translation Spanish</element>
+            <element>nocpg05 translation Russian</element>
+            <element>nocpg05 translation Polish</element>
+            <element>nocpg05 translation Japanese</element>
+            <element>nocpg05 translation Chinese</element>
+            <element>nocpg05 translation Dutch</element>
+            <element>nocpg05 translation Flemish</element>
+            <element>nocpg05 translation Arabic</element>
+            <element>nocpg05 translation Serbian</element>
+            <element>nocpg05 translation Romanian</element>
+            <element>nocpg05 translation Slovenian</element>
+            <element>nocpg05 translation Portuguese</element>
+            <element>nocpg05 translation Korean</element>
+            <element>nocpg05 translation Turkish</element>
+            <element>nocpg05 translation Danish</element>
+            <element>nocpg05 translation Hungarian</element>
+            <element>nocpg05 translation Ukranian</element>
+            <element>nocpg05 translation Finnish</element>
+            <element>nocpg05 translation Norwegian</element>
+            <element>nocpg05 translation Swedish</element>
+         </translation-possibilities>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2430</URN>
+         <authorship>certain</authorship>
+         <cpg>2430</cpg>
+         <description>First of a trilogy (along with Gnostikos and the Kephalaia gnostika, below) considered fundamental to Evagrius's thought. This treatise contains 100 chapters discussing the preliminary disciplines of the ascetic life, especially the passions.</description>
+         <edition-possibilities>
+            <element>2430 edition Greek</element>
+            <element>2430 edition Syriac</element>
+            <element>2430 edition Armenian</element>
+            <element>2430 edition Georgian</element>
+            <element>2430 edition Latin</element>
+            <element>2430 edition Ethiopic</element>
+            <element>2430 edition Old Russian</element>
+            <element>2430 edition Arabic</element>
+            <element>2430 edition Coptic</element>
+            <element>2430 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Ἐπειδή μοι πρώην δεδήλωκας ἀπὸ τοῦ ἁγίου ὄρους ἐν τῇ Σκίτει καθεζομένῳ</incipit>
+         <label>2430</label>
+         <osce>pending</osce>
+         <title-el>Λόγος πράκτικος</title-el>
+         <title-en>Praktikos</title-en>
+         <title-en-Sinkewicz-abbreviation>Praktikos</title-en-Sinkewicz-abbreviation>
+         <title-la>Practicus et epistula ad Anatolium</title-la>
+         <translation-possibilities>
+            <element>2430 translation English</element>
+            <element>2430 translation French</element>
+            <element>2430 translation German</element>
+            <element>2430 translation Italian</element>
+            <element>2430 translation Spanish</element>
+            <element>2430 translation Russian</element>
+            <element>2430 translation Polish</element>
+            <element>2430 translation Japanese</element>
+            <element>2430 translation Chinese</element>
+            <element>2430 translation Dutch</element>
+            <element>2430 translation Flemish</element>
+            <element>2430 translation Arabic</element>
+            <element>2430 translation Serbian</element>
+            <element>2430 translation Romanian</element>
+            <element>2430 translation Slovenian</element>
+            <element>2430 translation Portuguese</element>
+            <element>2430 translation Korean</element>
+            <element>2430 translation Turkish</element>
+            <element>2430 translation Danish</element>
+            <element>2430 translation Hungarian</element>
+            <element>2430 translation Ukranian</element>
+            <element>2430 translation Finnish</element>
+            <element>2430 translation Norwegian</element>
+            <element>2430 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Latin (not extant)</element>
+            <element>Syriac</element>
+            <element>Armenian</element>
+            <element>Ethiopic</element>
+            <element>Georgian</element>
+            <element>Arabic</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2431</URN>
+         <authorship>certain</authorship>
+         <cpg>2431</cpg>
+         <description>Second part of the trilogy (see Praktikos), comprising 50 chapters. In this treatise gnostika, mental or spiritual formation, is discussed.</description>
+         <edition-possibilities>
+            <element>2431 edition Greek</element>
+            <element>2431 edition Syriac</element>
+            <element>2431 edition Armenian</element>
+            <element>2431 edition Georgian</element>
+            <element>2431 edition Latin</element>
+            <element>2431 edition Ethiopic</element>
+            <element>2431 edition Old Russian</element>
+            <element>2431 edition Arabic</element>
+            <element>2431 edition Coptic</element>
+            <element>2431 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>fragmentary</greek-text>
+         <incipit>Πρακτικοὶ λόγους νοήσουσι πρακτικούς, γνωστικοὶ δὲ ὄψονται γνωστικά</incipit>
+         <label>2431</label>
+         <osce>pending</osce>
+         <textual-notes>About 60% of the Greek survives.</textual-notes>
+         <title-el>Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</title-el>
+         <title-en>Gnostikos</title-en>
+         <title-en-Sinkewicz-abbreviation>Gnostikos</title-en-Sinkewicz-abbreviation>
+         <title-la>Gnosticus</title-la>
+         <translation-possibilities>
+            <element>2431 translation English</element>
+            <element>2431 translation French</element>
+            <element>2431 translation German</element>
+            <element>2431 translation Italian</element>
+            <element>2431 translation Spanish</element>
+            <element>2431 translation Russian</element>
+            <element>2431 translation Polish</element>
+            <element>2431 translation Japanese</element>
+            <element>2431 translation Chinese</element>
+            <element>2431 translation Dutch</element>
+            <element>2431 translation Flemish</element>
+            <element>2431 translation Arabic</element>
+            <element>2431 translation Serbian</element>
+            <element>2431 translation Romanian</element>
+            <element>2431 translation Slovenian</element>
+            <element>2431 translation Portuguese</element>
+            <element>2431 translation Korean</element>
+            <element>2431 translation Turkish</element>
+            <element>2431 translation Danish</element>
+            <element>2431 translation Hungarian</element>
+            <element>2431 translation Ukranian</element>
+            <element>2431 translation Finnish</element>
+            <element>2431 translation Norwegian</element>
+            <element>2431 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Latin (not extant)</element>
+            <element>Syriac</element>
+            <element>Armenian</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2432</URN>
+         <authorship>certain</authorship>
+         <cpg>2432</cpg>
+         <description>Third part of the trilogy (see Praktikos), comprising 540 chapters (90 chapters in six "centuries") discussing the highest levels of contemplation. This text is frequently considered to be behind the condemnations of Origen in 553.</description>
+         <edition-possibilities>
+            <element>2432 edition Greek</element>
+            <element>2432 edition Syriac</element>
+            <element>2432 edition Armenian</element>
+            <element>2432 edition Georgian</element>
+            <element>2432 edition Latin</element>
+            <element>2432 edition Ethiopic</element>
+            <element>2432 edition Old Russian</element>
+            <element>2432 edition Arabic</element>
+            <element>2432 edition Coptic</element>
+            <element>2432 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>fragmentary</greek-text>
+         <incipit>Τῷ πρώτῳ ἀγαθῷ οὐδέν ἐστιν ἐναντίον, διότι κατ' οὐσίαν ἐστίν· ἐναντίον δὲ οὐδὲν τῇ οὐσίᾳ.</incipit>
+         <label>2432</label>
+         <osce>pending</osce>
+         <textual-notes>Because of how little survives in Greek, the Syriac translations are key, especially the so-called unexpurgated version (frequently called S2). It is unclear whether the sole Arabic MS (Coptic Patriarchate MS Theol. 152, fol. 147r&amp;ndash;177v) is taken from the Greek or Syriac and if the latter, which version.</textual-notes>
+         <title-el>Ἑξακόσια προγνωστικὰ προβλήματα</title-el>
+         <title-en>Kephalaia gnostika</title-en>
+         <title-en-Sinkewicz-abbreviation>KG</title-en-Sinkewicz-abbreviation>
+         <title-la>Kephalaia gnostica</title-la>
+         <translation-possibilities>
+            <element>2432 translation English</element>
+            <element>2432 translation French</element>
+            <element>2432 translation German</element>
+            <element>2432 translation Italian</element>
+            <element>2432 translation Spanish</element>
+            <element>2432 translation Russian</element>
+            <element>2432 translation Polish</element>
+            <element>2432 translation Japanese</element>
+            <element>2432 translation Chinese</element>
+            <element>2432 translation Dutch</element>
+            <element>2432 translation Flemish</element>
+            <element>2432 translation Arabic</element>
+            <element>2432 translation Serbian</element>
+            <element>2432 translation Romanian</element>
+            <element>2432 translation Slovenian</element>
+            <element>2432 translation Portuguese</element>
+            <element>2432 translation Korean</element>
+            <element>2432 translation Turkish</element>
+            <element>2432 translation Danish</element>
+            <element>2432 translation Hungarian</element>
+            <element>2432 translation Ukranian</element>
+            <element>2432 translation Finnish</element>
+            <element>2432 translation Norwegian</element>
+            <element>2432 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Syriac</element>
+            <element>Armenian</element>
+            <element>Arabic</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2433</URN>
+         <authorship>certain</authorship>
+         <cpg>2433</cpg>
+         <edition-possibilities>
+            <element>2433 edition Greek</element>
+            <element>2433 edition Syriac</element>
+            <element>2433 edition Armenian</element>
+            <element>2433 edition Georgian</element>
+            <element>2433 edition Latin</element>
+            <element>2433 edition Ethiopic</element>
+            <element>2433 edition Old Russian</element>
+            <element>2433 edition Arabic</element>
+            <element>2433 edition Coptic</element>
+            <element>2433 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Ὁ Χριστὸς
+ᾗ μέν ἑστι Χριστὸς, ἔχει τὴν γνῶσιν τὴν οὐσιώδη</incipit>
+         <label>2433</label>
+         <osce>pending</osce>
+         <textual-notes>Sixty-five sentences culled by textual scholars in three sections: 39 taken from the Gnostic Chapters, 23 from On Thoughts, and 3 unparalleled (and so termed a supplement). The Greek, Armenian, and Syriac versions of this text differ in sequence, number, and selection. This text, according to Mar Babai (569-628), who wrote an extensive commentary on the Kephalaia gnostica, was a supplement to the 540 chapters of the 600 promised in the Kephalaia gnostica (Mar Babai's version of Reflections contained only 60 chapters). Gennadius's reference to 'sententiae obscurae' may attest to an early Latin translation of this text. See also 14 Chapters (nocpg02).</textual-notes>
+         <title-el>Σκέμματα</title-el>
+         <title-en>Skemmata or Reflections</title-en>
+         <title-en-Sinkewicz-abbreviation>Reflections</title-en-Sinkewicz-abbreviation>
+         <title-la>Capita cognoscitiua</title-la>
+         <translation-possibilities>
+            <element>2433 translation English</element>
+            <element>2433 translation French</element>
+            <element>2433 translation German</element>
+            <element>2433 translation Italian</element>
+            <element>2433 translation Spanish</element>
+            <element>2433 translation Russian</element>
+            <element>2433 translation Polish</element>
+            <element>2433 translation Japanese</element>
+            <element>2433 translation Chinese</element>
+            <element>2433 translation Dutch</element>
+            <element>2433 translation Flemish</element>
+            <element>2433 translation Arabic</element>
+            <element>2433 translation Serbian</element>
+            <element>2433 translation Romanian</element>
+            <element>2433 translation Slovenian</element>
+            <element>2433 translation Portuguese</element>
+            <element>2433 translation Korean</element>
+            <element>2433 translation Turkish</element>
+            <element>2433 translation Danish</element>
+            <element>2433 translation Hungarian</element>
+            <element>2433 translation Ukranian</element>
+            <element>2433 translation Finnish</element>
+            <element>2433 translation Norwegian</element>
+            <element>2433 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Syriac</element>
+            <element>Armenian</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2434</URN>
+         <authorship>certain</authorship>
+         <cpg>2434</cpg>
+         <description>Lists of Scriptures that are effective in combatting the eight passions. The text is organized according to the eight passions with scriptures listed according to their biblical order.</description>
+         <edition-possibilities>
+            <element>2434 edition Greek</element>
+            <element>2434 edition Syriac</element>
+            <element>2434 edition Armenian</element>
+            <element>2434 edition Georgian</element>
+            <element>2434 edition Latin</element>
+            <element>2434 edition Ethiopic</element>
+            <element>2434 edition Old Russian</element>
+            <element>2434 edition Arabic</element>
+            <element>2434 edition Coptic</element>
+            <element>2434 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <incipit>Της λογικης φυσεως της υπο τον ουρανον το μεν πολεμειται το δε βοηθει τω πολεμουμενω τε και καρτερως επεγειρει κατ αυτου την μαχην και συνισται</incipit>
+         <label>2434</label>
+         <osce>pending</osce>
+         <title-el>Ἀντιῤῥητικός</title-el>
+         <title-en>Antirrhetikos</title-en>
+         <title-en-Sinkewicz-abbreviation>Antirrhetikos</title-en-Sinkewicz-abbreviation>
+         <title-la>Antirrheticus</title-la>
+         <translation-possibilities>
+            <element>2434 translation English</element>
+            <element>2434 translation French</element>
+            <element>2434 translation German</element>
+            <element>2434 translation Italian</element>
+            <element>2434 translation Spanish</element>
+            <element>2434 translation Russian</element>
+            <element>2434 translation Polish</element>
+            <element>2434 translation Japanese</element>
+            <element>2434 translation Chinese</element>
+            <element>2434 translation Dutch</element>
+            <element>2434 translation Flemish</element>
+            <element>2434 translation Arabic</element>
+            <element>2434 translation Serbian</element>
+            <element>2434 translation Romanian</element>
+            <element>2434 translation Slovenian</element>
+            <element>2434 translation Portuguese</element>
+            <element>2434 translation Korean</element>
+            <element>2434 translation Turkish</element>
+            <element>2434 translation Danish</element>
+            <element>2434 translation Hungarian</element>
+            <element>2434 translation Ukranian</element>
+            <element>2434 translation Finnish</element>
+            <element>2434 translation Norwegian</element>
+            <element>2434 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Latin (not extant)</element>
+            <element>Syriac</element>
+            <element>Armenian</element>
+            <element>Georgian</element>
+            <element>Sogdian</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2435</URN>
+         <authorship>certain</authorship>
+         <cpg>2435</cpg>
+         <description>A set of 137 chapters on the monastic life, written in distychs, in imitation of the Proverbs, directed probably to a monastic community in Jerusalem associated with Melania and Rufinus. Evagrius discusses matters foundational to the coenobitic monastic life, so the material resembles, in some ways, a rule.</description>
+         <edition-possibilities>
+            <element>2435 edition Greek</element>
+            <element>2435 edition Syriac</element>
+            <element>2435 edition Armenian</element>
+            <element>2435 edition Georgian</element>
+            <element>2435 edition Latin</element>
+            <element>2435 edition Ethiopic</element>
+            <element>2435 edition Old Russian</element>
+            <element>2435 edition Arabic</element>
+            <element>2435 edition Coptic</element>
+            <element>2435 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Κληρονόμοι θεοῦ ἀκούσατε λόγων θεοῦ, συγκληρονόμοι δὲ Χριστοῦ δέξασθε ῥήσεις Χριστοῦ</incipit>
+         <label>2435</label>
+         <osce>pending</osce>
+         <textual-notes>Often associated with CPG 2436 under the designation 'The Mirrors.'</textual-notes>
+         <title-el>Πρὸς τοὺς ἐν κοινοβίοις ἢ συνοδίαις μοναχούς</title-el>
+         <title-en>Chapters to Monks</title-en>
+         <title-en-Sinkewicz-abbreviation>Monks</title-en-Sinkewicz-abbreviation>
+         <title-la>Sententiae ad monachos</title-la>
+         <translation-possibilities>
+            <element>2435 translation English</element>
+            <element>2435 translation French</element>
+            <element>2435 translation German</element>
+            <element>2435 translation Italian</element>
+            <element>2435 translation Spanish</element>
+            <element>2435 translation Russian</element>
+            <element>2435 translation Polish</element>
+            <element>2435 translation Japanese</element>
+            <element>2435 translation Chinese</element>
+            <element>2435 translation Dutch</element>
+            <element>2435 translation Flemish</element>
+            <element>2435 translation Arabic</element>
+            <element>2435 translation Serbian</element>
+            <element>2435 translation Romanian</element>
+            <element>2435 translation Slovenian</element>
+            <element>2435 translation Portuguese</element>
+            <element>2435 translation Korean</element>
+            <element>2435 translation Turkish</element>
+            <element>2435 translation Danish</element>
+            <element>2435 translation Hungarian</element>
+            <element>2435 translation Ukranian</element>
+            <element>2435 translation Finnish</element>
+            <element>2435 translation Norwegian</element>
+            <element>2435 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Latin</element>
+            <element>Syriac</element>
+            <element>Armenian</element>
+            <element>Coptic</element>
+            <element>Ethiopic</element>
+            <element>Georgian</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2436</URN>
+         <authorship>certain</authorship>
+         <cpg>2436</cpg>
+         <description>56 sentences of spiritual instruction addressed to a virgin (unnamed, but probably an associate of Melania and Rufinus), written in distychs, in imitation of the Proverbs. Evagrius discusses matters foundational to the coenobitic monastic life for women, so the material resembles, in some ways, a rule.</description>
+         <edition-possibilities>
+            <element>2436 edition Greek</element>
+            <element>2436 edition Syriac</element>
+            <element>2436 edition Armenian</element>
+            <element>2436 edition Georgian</element>
+            <element>2436 edition Latin</element>
+            <element>2436 edition Ethiopic</element>
+            <element>2436 edition Old Russian</element>
+            <element>2436 edition Arabic</element>
+            <element>2436 edition Coptic</element>
+            <element>2436 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Ἀγάπα τὸν κύριον καὶ ἀγαπήσει σε, καὶ δούλευε αὐτῷ καὶ φωτιεῖ τὴν καρδίαν σου.</incipit>
+         <label>2436</label>
+         <osce>pending</osce>
+         <textual-notes>Often associated with CPG 2435 under the designation 'The Mirrors.'</textual-notes>
+         <title-el>Παραίνεσις πρὸς παρθένον</title-el>
+         <title-en>Chapters to a Virgin</title-en>
+         <title-en-Sinkewicz-abbreviation>Virgin</title-en-Sinkewicz-abbreviation>
+         <title-la>Sententiae ad Virginem</title-la>
+         <translation-possibilities>
+            <element>2436 translation English</element>
+            <element>2436 translation French</element>
+            <element>2436 translation German</element>
+            <element>2436 translation Italian</element>
+            <element>2436 translation Spanish</element>
+            <element>2436 translation Russian</element>
+            <element>2436 translation Polish</element>
+            <element>2436 translation Japanese</element>
+            <element>2436 translation Chinese</element>
+            <element>2436 translation Dutch</element>
+            <element>2436 translation Flemish</element>
+            <element>2436 translation Arabic</element>
+            <element>2436 translation Serbian</element>
+            <element>2436 translation Romanian</element>
+            <element>2436 translation Slovenian</element>
+            <element>2436 translation Portuguese</element>
+            <element>2436 translation Korean</element>
+            <element>2436 translation Turkish</element>
+            <element>2436 translation Danish</element>
+            <element>2436 translation Hungarian</element>
+            <element>2436 translation Ukranian</element>
+            <element>2436 translation Finnish</element>
+            <element>2436 translation Norwegian</element>
+            <element>2436 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Latin</element>
+            <element>Syriac</element>
+            <element>Armenian</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2437</URN>
+         <authorship>certain</authorship>
+         <cpg>2437</cpg>
+         <description>A collection of 62 letters (see also CPG 2438, 2439; cover letters to other treatises, e.g., CPG 2430, 2434) of various lengths, all providing spiritual counsel to various figures such as Rufinus, St. Melania the Elder, St. Gregory Nazianzus, Bp. John of Jerusalem.</description>
+         <edition-possibilities>
+            <element>2437 edition Greek</element>
+            <element>2437 edition Syriac</element>
+            <element>2437 edition Armenian</element>
+            <element>2437 edition Georgian</element>
+            <element>2437 edition Latin</element>
+            <element>2437 edition Ethiopic</element>
+            <element>2437 edition Old Russian</element>
+            <element>2437 edition Arabic</element>
+            <element>2437 edition Coptic</element>
+            <element>2437 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>fragmentary</greek-text>
+         <label>2437</label>
+         <osce>pending</osce>
+         <title-en>62 Letters</title-en>
+         <title-en-Sinkewicz-abbreviation>Letters</title-en-Sinkewicz-abbreviation>
+         <title-la>Epistula lxii</title-la>
+         <translation-possibilities>
+            <element>2437 translation English</element>
+            <element>2437 translation French</element>
+            <element>2437 translation German</element>
+            <element>2437 translation Italian</element>
+            <element>2437 translation Spanish</element>
+            <element>2437 translation Russian</element>
+            <element>2437 translation Polish</element>
+            <element>2437 translation Japanese</element>
+            <element>2437 translation Chinese</element>
+            <element>2437 translation Dutch</element>
+            <element>2437 translation Flemish</element>
+            <element>2437 translation Arabic</element>
+            <element>2437 translation Serbian</element>
+            <element>2437 translation Romanian</element>
+            <element>2437 translation Slovenian</element>
+            <element>2437 translation Portuguese</element>
+            <element>2437 translation Korean</element>
+            <element>2437 translation Turkish</element>
+            <element>2437 translation Danish</element>
+            <element>2437 translation Hungarian</element>
+            <element>2437 translation Ukranian</element>
+            <element>2437 translation Finnish</element>
+            <element>2437 translation Norwegian</element>
+            <element>2437 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Syriac</element>
+            <element>Armenian</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2438</URN>
+         <authorship>certain</authorship>
+         <cpg>2438</cpg>
+         <description>Evagrius's last (?) and longest extant letter. It deals extensively with Christology and the ministry of letter writing, as well as the apokatastasis (the restoration of all things at the end of time). Although one Syriac MS describes the recipient as Melania the Elder (attested in Jerome's 'ad eam'?), this is generally regarded as incorrect. See the arguments of Bunge (in his German translation), who considers Rufinus to be more likely.</description>
+         <edition-possibilities>
+            <element>2438 edition Greek</element>
+            <element>2438 edition Syriac</element>
+            <element>2438 edition Armenian</element>
+            <element>2438 edition Georgian</element>
+            <element>2438 edition Latin</element>
+            <element>2438 edition Ethiopic</element>
+            <element>2438 edition Old Russian</element>
+            <element>2438 edition Arabic</element>
+            <element>2438 edition Coptic</element>
+            <element>2438 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <incipit>το λεγομενον οτι ο δηχθεις υπ' εχιδνης</incipit>
+         <label>2438</label>
+         <osce>pending</osce>
+         <title-en>Letter to Melania</title-en>
+         <title-en-Sinkewicz-abbreviation>Letter to Melania</title-en-Sinkewicz-abbreviation>
+         <title-la>Epistula ad Melaniam</title-la>
+         <translation-possibilities>
+            <element>2438 translation English</element>
+            <element>2438 translation French</element>
+            <element>2438 translation German</element>
+            <element>2438 translation Italian</element>
+            <element>2438 translation Spanish</element>
+            <element>2438 translation Russian</element>
+            <element>2438 translation Polish</element>
+            <element>2438 translation Japanese</element>
+            <element>2438 translation Chinese</element>
+            <element>2438 translation Dutch</element>
+            <element>2438 translation Flemish</element>
+            <element>2438 translation Arabic</element>
+            <element>2438 translation Serbian</element>
+            <element>2438 translation Romanian</element>
+            <element>2438 translation Slovenian</element>
+            <element>2438 translation Portuguese</element>
+            <element>2438 translation Korean</element>
+            <element>2438 translation Turkish</element>
+            <element>2438 translation Danish</element>
+            <element>2438 translation Hungarian</element>
+            <element>2438 translation Ukranian</element>
+            <element>2438 translation Finnish</element>
+            <element>2438 translation Norwegian</element>
+            <element>2438 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2439</URN>
+         <attribution-notes>The letter was included in the first printed editions of Basil's letters, despite the mixed attributions in manuscripts. In 1923 Bousset and Melcher in separate publications argued that it should be attributed to Evagrius. Authorship is all but certain.</attribution-notes>
+         <authorship>certain</authorship>
+         <cpg>2439</cpg>
+         <description>Evagrius's first extant letter, dealing with Trinitarian doctrine and his flight from Pontus, among other things. It was written around 380, and reflects Evagrius's tutelage with Gregory of Nazianzus during the latter's stormy tenure in Constantinople.</description>
+         <edition-possibilities>
+            <element>2439 edition Greek</element>
+            <element>2439 edition Syriac</element>
+            <element>2439 edition Armenian</element>
+            <element>2439 edition Georgian</element>
+            <element>2439 edition Latin</element>
+            <element>2439 edition Ethiopic</element>
+            <element>2439 edition Old Russian</element>
+            <element>2439 edition Arabic</element>
+            <element>2439 edition Coptic</element>
+            <element>2439 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Πολλάκις ἐθαύμασα τί ποτε πεπόνθατε</incipit>
+         <label>2439</label>
+         <osce>pending</osce>
+         <title-en>Dogmatic Letter</title-en>
+         <title-en-Sinkewicz-abbreviation>Letter on Faith</title-en-Sinkewicz-abbreviation>
+         <title-la>Sermo sive dogmatica epistula de sanctissima trinitate</title-la>
+         <translation-possibilities>
+            <element>2439 translation English</element>
+            <element>2439 translation French</element>
+            <element>2439 translation German</element>
+            <element>2439 translation Italian</element>
+            <element>2439 translation Spanish</element>
+            <element>2439 translation Russian</element>
+            <element>2439 translation Polish</element>
+            <element>2439 translation Japanese</element>
+            <element>2439 translation Chinese</element>
+            <element>2439 translation Dutch</element>
+            <element>2439 translation Flemish</element>
+            <element>2439 translation Arabic</element>
+            <element>2439 translation Serbian</element>
+            <element>2439 translation Romanian</element>
+            <element>2439 translation Slovenian</element>
+            <element>2439 translation Portuguese</element>
+            <element>2439 translation Korean</element>
+            <element>2439 translation Turkish</element>
+            <element>2439 translation Danish</element>
+            <element>2439 translation Hungarian</element>
+            <element>2439 translation Ukranian</element>
+            <element>2439 translation Finnish</element>
+            <element>2439 translation Norwegian</element>
+            <element>2439 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2440</URN>
+         <authorship>certain</authorship>
+         <cpg>2440</cpg>
+         <description>Twin treatises on prayer and other monastic disciplines.</description>
+         <edition-possibilities>
+            <element>2440 edition Greek</element>
+            <element>2440 edition Syriac</element>
+            <element>2440 edition Armenian</element>
+            <element>2440 edition Georgian</element>
+            <element>2440 edition Latin</element>
+            <element>2440 edition Ethiopic</element>
+            <element>2440 edition Old Russian</element>
+            <element>2440 edition Arabic</element>
+            <element>2440 edition Coptic</element>
+            <element>2440 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2440</label>
+         <osce>pending</osce>
+         <textual-notes>Some MSS include a 3rd treatise, unedited, incipit Memento semper promissionum tuarum. See CPG, s.v.</textual-notes>
+         <title-en>Protrepticus</title-en>
+         <title-en-Sinkewicz-abbreviation>Admonitions</title-en-Sinkewicz-abbreviation>
+         <title-la>Protrepticus et paraeneticus</title-la>
+         <translation-possibilities>
+            <element>2440 translation English</element>
+            <element>2440 translation French</element>
+            <element>2440 translation German</element>
+            <element>2440 translation Italian</element>
+            <element>2440 translation Spanish</element>
+            <element>2440 translation Russian</element>
+            <element>2440 translation Polish</element>
+            <element>2440 translation Japanese</element>
+            <element>2440 translation Chinese</element>
+            <element>2440 translation Dutch</element>
+            <element>2440 translation Flemish</element>
+            <element>2440 translation Arabic</element>
+            <element>2440 translation Serbian</element>
+            <element>2440 translation Romanian</element>
+            <element>2440 translation Slovenian</element>
+            <element>2440 translation Portuguese</element>
+            <element>2440 translation Korean</element>
+            <element>2440 translation Turkish</element>
+            <element>2440 translation Danish</element>
+            <element>2440 translation Hungarian</element>
+            <element>2440 translation Ukranian</element>
+            <element>2440 translation Finnish</element>
+            <element>2440 translation Norwegian</element>
+            <element>2440 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2441</URN>
+         <authorship>certain</authorship>
+         <cpg>2441</cpg>
+         <description>Treatise in eleven sections describing the basic disciplines for living the monastic life. At the forefront is a concern to cultivate hesychia—stillness or tranquility—and to advance the fight against evil powers. Advice centers on diet, dress, work, companionship, dwelling, visitation habits, wealth, possessions, commerce, fasting, vigils, and prayer. Evagrius enjoins the constant contemplation of death, of Hades and its torments, of the day of judgment, of the punishments in store for the wicked, and of rewards for the righteous, all as a weapon against harmful thoughts.</description>
+         <edition-possibilities>
+            <element>2441 edition Greek</element>
+            <element>2441 edition Syriac</element>
+            <element>2441 edition Armenian</element>
+            <element>2441 edition Georgian</element>
+            <element>2441 edition Latin</element>
+            <element>2441 edition Ethiopic</element>
+            <element>2441 edition Old Russian</element>
+            <element>2441 edition Arabic</element>
+            <element>2441 edition Coptic</element>
+            <element>2441 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Ἐν τῷ Ἱερεμίᾳ εἴρηται τὸ, Καὶ σὺ μὴ λάβῃς σεαυτῷ γυναῖκα ἐν τῷ τόπῳ τούτῳ</incipit>
+         <label>2441</label>
+         <osce>pending</osce>
+         <title-el>Ὑπωτύπωσις ἢ Τῶν κατὰ μοναχῶν πραγμάτων τὰ αἰτία, καὶ ἡ καθ᾿ ἡσυχίαν τούτων παράθεσις</title-el>
+         <title-en>Hypotyposis or Principles of the Monastic Life</title-en>
+         <title-en-Sinkewicz-abbreviation>Foundations</title-en-Sinkewicz-abbreviation>
+         <title-la>Rerum monachalium rationes</title-la>
+         <translation-possibilities>
+            <element>2441 translation English</element>
+            <element>2441 translation French</element>
+            <element>2441 translation German</element>
+            <element>2441 translation Italian</element>
+            <element>2441 translation Spanish</element>
+            <element>2441 translation Russian</element>
+            <element>2441 translation Polish</element>
+            <element>2441 translation Japanese</element>
+            <element>2441 translation Chinese</element>
+            <element>2441 translation Dutch</element>
+            <element>2441 translation Flemish</element>
+            <element>2441 translation Arabic</element>
+            <element>2441 translation Serbian</element>
+            <element>2441 translation Romanian</element>
+            <element>2441 translation Slovenian</element>
+            <element>2441 translation Portuguese</element>
+            <element>2441 translation Korean</element>
+            <element>2441 translation Turkish</element>
+            <element>2441 translation Danish</element>
+            <element>2441 translation Hungarian</element>
+            <element>2441 translation Ukranian</element>
+            <element>2441 translation Finnish</element>
+            <element>2441 translation Norwegian</element>
+            <element>2441 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2442</URN>
+         <authorship>certain</authorship>
+         <cpg>2442</cpg>
+         <description>Collection of 33 chapters relating physical and spiritual ailments to each other. The last 17 appear to be drawn from a commentary on Proverbs he wrote (see CPG 2456).</description>
+         <edition-possibilities>
+            <element>2442 edition Greek</element>
+            <element>2442 edition Syriac</element>
+            <element>2442 edition Armenian</element>
+            <element>2442 edition Georgian</element>
+            <element>2442 edition Latin</element>
+            <element>2442 edition Ethiopic</element>
+            <element>2442 edition Old Russian</element>
+            <element>2442 edition Arabic</element>
+            <element>2442 edition Coptic</element>
+            <element>2442 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Ἴκτερος, ἔστιν ἕξις χειρίστη ψυχῆς λογικῆς, καθ' ἣν ἐσφαλμένως Θεόν τε καὶ τὴν τῶν γεγονότων θεωρίαν ὁρᾷ.</incipit>
+         <label>2442</label>
+         <osce>pending</osce>
+         <title-el>Κεφάλαια λγʹ κατ᾿ ἀκολουθίαν</title-el>
+         <title-en>Thirty-Three Chapters</title-en>
+         <title-en-Sinkewicz-abbreviation>Chapters 33</title-en-Sinkewicz-abbreviation>
+         <title-la>Capitula xxxiii (definitiones passionum animae rationalis)</title-la>
+         <translation-possibilities>
+            <element>2442 translation English</element>
+            <element>2442 translation French</element>
+            <element>2442 translation German</element>
+            <element>2442 translation Italian</element>
+            <element>2442 translation Spanish</element>
+            <element>2442 translation Russian</element>
+            <element>2442 translation Polish</element>
+            <element>2442 translation Japanese</element>
+            <element>2442 translation Chinese</element>
+            <element>2442 translation Dutch</element>
+            <element>2442 translation Flemish</element>
+            <element>2442 translation Arabic</element>
+            <element>2442 translation Serbian</element>
+            <element>2442 translation Romanian</element>
+            <element>2442 translation Slovenian</element>
+            <element>2442 translation Portuguese</element>
+            <element>2442 translation Korean</element>
+            <element>2442 translation Turkish</element>
+            <element>2442 translation Danish</element>
+            <element>2442 translation Hungarian</element>
+            <element>2442 translation Ukranian</element>
+            <element>2442 translation Finnish</element>
+            <element>2442 translation Norwegian</element>
+            <element>2442 translation Swedish</element>
+         </translation-possibilities>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2443</URN>
+         <authorship>certain</authorship>
+         <cpg>2443</cpg>
+         <description>Three works, CPG 2443 through 2445, are very similar, comprising 24, 24, and 26 proverbs, respectively. These brief texts resemble other ancient Christian collections of proverbs, many of which originate with non-Christian authors, but adapted to a Christian context.</description>
+         <edition-possibilities>
+            <element>2443 edition Greek</element>
+            <element>2443 edition Syriac</element>
+            <element>2443 edition Armenian</element>
+            <element>2443 edition Georgian</element>
+            <element>2443 edition Latin</element>
+            <element>2443 edition Ethiopic</element>
+            <element>2443 edition Old Russian</element>
+            <element>2443 edition Arabic</element>
+            <element>2443 edition Coptic</element>
+            <element>2443 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Ἀρχὴ σωτηρίας ἡ ἑαυτοῦ κατάγνωσις.</incipit>
+         <label>2443</label>
+         <osce>pending</osce>
+         <title-el>Κεφάλαια ἢ παραίνεσις</title-el>
+         <title-en>Paraeneticus</title-en>
+         <title-en-Sinkewicz-abbreviation>Maxims 1</title-en-Sinkewicz-abbreviation>
+         <title-la>Capita paraenetica</title-la>
+         <translation-possibilities>
+            <element>2443 translation English</element>
+            <element>2443 translation French</element>
+            <element>2443 translation German</element>
+            <element>2443 translation Italian</element>
+            <element>2443 translation Spanish</element>
+            <element>2443 translation Russian</element>
+            <element>2443 translation Polish</element>
+            <element>2443 translation Japanese</element>
+            <element>2443 translation Chinese</element>
+            <element>2443 translation Dutch</element>
+            <element>2443 translation Flemish</element>
+            <element>2443 translation Arabic</element>
+            <element>2443 translation Serbian</element>
+            <element>2443 translation Romanian</element>
+            <element>2443 translation Slovenian</element>
+            <element>2443 translation Portuguese</element>
+            <element>2443 translation Korean</element>
+            <element>2443 translation Turkish</element>
+            <element>2443 translation Danish</element>
+            <element>2443 translation Hungarian</element>
+            <element>2443 translation Ukranian</element>
+            <element>2443 translation Finnish</element>
+            <element>2443 translation Norwegian</element>
+            <element>2443 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Syriac</element>
+            <element>Armenian</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2444</URN>
+         <authorship>certain</authorship>
+         <cpg>2444</cpg>
+         <description>See CPG 2443.</description>
+         <edition-possibilities>
+            <element>2444 edition Greek</element>
+            <element>2444 edition Syriac</element>
+            <element>2444 edition Armenian</element>
+            <element>2444 edition Georgian</element>
+            <element>2444 edition Latin</element>
+            <element>2444 edition Ethiopic</element>
+            <element>2444 edition Old Russian</element>
+            <element>2444 edition Arabic</element>
+            <element>2444 edition Coptic</element>
+            <element>2444 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Ἄτοπόν ἐστιν τὸ διώκοντα τὰς τιμὰς φεύγειν τοὺς πόνους, δι' ὧν αἱ τιμαί.</incipit>
+         <label>2444</label>
+         <osce>pending</osce>
+         <title-el>Γνῶμαι κατ᾿ ἀλφάβητον</title-el>
+         <title-en>Spiritual Chapters Alphabetized</title-en>
+         <title-en-Sinkewicz-abbreviation>Maxims 2</title-en-Sinkewicz-abbreviation>
+         <title-la>Spiritales sententiae per alphabeticum dispositae</title-la>
+         <translation-possibilities>
+            <element>2444 translation English</element>
+            <element>2444 translation French</element>
+            <element>2444 translation German</element>
+            <element>2444 translation Italian</element>
+            <element>2444 translation Spanish</element>
+            <element>2444 translation Russian</element>
+            <element>2444 translation Polish</element>
+            <element>2444 translation Japanese</element>
+            <element>2444 translation Chinese</element>
+            <element>2444 translation Dutch</element>
+            <element>2444 translation Flemish</element>
+            <element>2444 translation Arabic</element>
+            <element>2444 translation Serbian</element>
+            <element>2444 translation Romanian</element>
+            <element>2444 translation Slovenian</element>
+            <element>2444 translation Portuguese</element>
+            <element>2444 translation Korean</element>
+            <element>2444 translation Turkish</element>
+            <element>2444 translation Danish</element>
+            <element>2444 translation Hungarian</element>
+            <element>2444 translation Ukranian</element>
+            <element>2444 translation Finnish</element>
+            <element>2444 translation Norwegian</element>
+            <element>2444 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2445</URN>
+         <authorship>certain</authorship>
+         <cpg>2445</cpg>
+         <description>See CPG 2443.</description>
+         <edition-possibilities>
+            <element>2445 edition Greek</element>
+            <element>2445 edition Syriac</element>
+            <element>2445 edition Armenian</element>
+            <element>2445 edition Georgian</element>
+            <element>2445 edition Latin</element>
+            <element>2445 edition Ethiopic</element>
+            <element>2445 edition Old Russian</element>
+            <element>2445 edition Arabic</element>
+            <element>2445 edition Coptic</element>
+            <element>2445 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Ἀρχὴ ἀγάπης ὑπόληψις δόξης.</incipit>
+         <label>2445</label>
+         <osce>pending</osce>
+         <title-en>Assorted Chapters</title-en>
+         <title-en-Sinkewicz-abbreviation>Maxims 3</title-en-Sinkewicz-abbreviation>
+         <title-la>Aliae sententiae</title-la>
+         <translation-possibilities>
+            <element>2445 translation English</element>
+            <element>2445 translation French</element>
+            <element>2445 translation German</element>
+            <element>2445 translation Italian</element>
+            <element>2445 translation Spanish</element>
+            <element>2445 translation Russian</element>
+            <element>2445 translation Polish</element>
+            <element>2445 translation Japanese</element>
+            <element>2445 translation Chinese</element>
+            <element>2445 translation Dutch</element>
+            <element>2445 translation Flemish</element>
+            <element>2445 translation Arabic</element>
+            <element>2445 translation Serbian</element>
+            <element>2445 translation Romanian</element>
+            <element>2445 translation Slovenian</element>
+            <element>2445 translation Portuguese</element>
+            <element>2445 translation Korean</element>
+            <element>2445 translation Turkish</element>
+            <element>2445 translation Danish</element>
+            <element>2445 translation Hungarian</element>
+            <element>2445 translation Ukranian</element>
+            <element>2445 translation Finnish</element>
+            <element>2445 translation Norwegian</element>
+            <element>2445 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2446</URN>
+         <authorship>dubious</authorship>
+         <cpg>2446</cpg>
+         <edition-possibilities>
+            <element>2446 edition Greek</element>
+            <element>2446 edition Syriac</element>
+            <element>2446 edition Armenian</element>
+            <element>2446 edition Georgian</element>
+            <element>2446 edition Latin</element>
+            <element>2446 edition Ethiopic</element>
+            <element>2446 edition Old Russian</element>
+            <element>2446 edition Arabic</element>
+            <element>2446 edition Coptic</element>
+            <element>2446 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <label>2446</label>
+         <osce>pending</osce>
+         <textual-notes>Only the first sentence has been edited.</textual-notes>
+         <title-en>Six Chapters</title-en>
+         <title-la>Sententiae sex</title-la>
+         <translation-possibilities>
+            <element>2446 translation English</element>
+            <element>2446 translation French</element>
+            <element>2446 translation German</element>
+            <element>2446 translation Italian</element>
+            <element>2446 translation Spanish</element>
+            <element>2446 translation Russian</element>
+            <element>2446 translation Polish</element>
+            <element>2446 translation Japanese</element>
+            <element>2446 translation Chinese</element>
+            <element>2446 translation Dutch</element>
+            <element>2446 translation Flemish</element>
+            <element>2446 translation Arabic</element>
+            <element>2446 translation Serbian</element>
+            <element>2446 translation Romanian</element>
+            <element>2446 translation Slovenian</element>
+            <element>2446 translation Portuguese</element>
+            <element>2446 translation Korean</element>
+            <element>2446 translation Turkish</element>
+            <element>2446 translation Danish</element>
+            <element>2446 translation Hungarian</element>
+            <element>2446 translation Ukranian</element>
+            <element>2446 translation Finnish</element>
+            <element>2446 translation Norwegian</element>
+            <element>2446 translation Swedish</element>
+         </translation-possibilities>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2447</URN>
+         <authorship>certain</authorship>
+         <cpg>2447</cpg>
+         <description>Lengthy treatise (thirty-two sections by Sinkewicz's new numbering) introducing the ascetic life. The wide array of topics concern primarily praktika, but gnostika is certainly not neglected. Subjects include voluntary exile, virtue, humility, battle with the thoughts (not enumerated here), cultivation of godly thoughts, work, poverty, spiritual direction, gossip, jealousy, demons, prayer, and communal life. The preface indicates that this treatise was also a letter sent to a monk Eulogios, the recipient of CPG 2448.</description>
+         <edition-possibilities>
+            <element>2447 edition Greek</element>
+            <element>2447 edition Syriac</element>
+            <element>2447 edition Armenian</element>
+            <element>2447 edition Georgian</element>
+            <element>2447 edition Latin</element>
+            <element>2447 edition Ethiopic</element>
+            <element>2447 edition Old Russian</element>
+            <element>2447 edition Arabic</element>
+            <element>2447 edition Coptic</element>
+            <element>2447 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Οἱ τον οὐράνιον χῶρον νεμόμενοι τοῖς πόνοις, οὐ τῇ γαστρὶ, οὐδὲ τῇ μερίμνῃ τῶν φθαρτῶν ἀτενίζουσι·</incipit>
+         <label>2447</label>
+         <osce>pending</osce>
+         <textual-notes>The Greek text has been greatly enhanced by Sinkewicz's edition, which publishes for the first time the longer rescension of Lavra Γ ʹ 93.</textual-notes>
+         <title-el>Λόγος πρὸς Εὐλόγιον μοναχόν</title-el>
+         <title-en>Treatise to the Monk Eulogius or To Eulogius on the Confession of Thoughts and Counsel in Their Regard</title-en>
+         <title-en-Sinkewicz-abbreviation>Eulogios</title-en-Sinkewicz-abbreviation>
+         <title-la>Tractatus ad Eulogium</title-la>
+         <translation-possibilities>
+            <element>2447 translation English</element>
+            <element>2447 translation French</element>
+            <element>2447 translation German</element>
+            <element>2447 translation Italian</element>
+            <element>2447 translation Spanish</element>
+            <element>2447 translation Russian</element>
+            <element>2447 translation Polish</element>
+            <element>2447 translation Japanese</element>
+            <element>2447 translation Chinese</element>
+            <element>2447 translation Dutch</element>
+            <element>2447 translation Flemish</element>
+            <element>2447 translation Arabic</element>
+            <element>2447 translation Serbian</element>
+            <element>2447 translation Romanian</element>
+            <element>2447 translation Slovenian</element>
+            <element>2447 translation Portuguese</element>
+            <element>2447 translation Korean</element>
+            <element>2447 translation Turkish</element>
+            <element>2447 translation Danish</element>
+            <element>2447 translation Hungarian</element>
+            <element>2447 translation Ukranian</element>
+            <element>2447 translation Finnish</element>
+            <element>2447 translation Norwegian</element>
+            <element>2447 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Syriac</element>
+            <element>Armenian</element>
+            <element>Ethiopic</element>
+            <element>Georgian</element>
+            <element>Arabic</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2448</URN>
+         <authorship>certain</authorship>
+         <cpg>2448</cpg>
+         <description>Address to the monk Eulogios (the recipient of CPG 2447). This brief treatise concisely describes the evil thoughts and the virtues opposed to them. Each of nine chapters epitomizes the characteristics of a vice, then that of its antithetical virtue. The sequence is: (1) gluttony versus abstinence, (2) fornication versus chastity, (3) avarice versus freedom from possessions, (4) sadness versus joy, (5) anger versus patience, (6) acedia versus perseverance, (7) vainglory versus freedom from vainglory, (8) jealousy vesus freedom from jealousy, (9) pride versus humility. This departs from the traditional eight vices, because Evagrius inserts jealousy (recurs in CPG 2447).</description>
+         <edition-possibilities>
+            <element>2448 edition Greek</element>
+            <element>2448 edition Syriac</element>
+            <element>2448 edition Armenian</element>
+            <element>2448 edition Georgian</element>
+            <element>2448 edition Latin</element>
+            <element>2448 edition Ethiopic</element>
+            <element>2448 edition Old Russian</element>
+            <element>2448 edition Arabic</element>
+            <element>2448 edition Coptic</element>
+            <element>2448 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Ἀναγκαῖον ἡγοῦμαι καὶ τὰς ἀντιζύγους τῶν ἀρετῶν κακίας δι' ἐπιτόμου ὑποτάξαι τῇ σῇ φιλοπονίᾳ·</incipit>
+         <label>2448</label>
+         <osce>pending</osce>
+         <title-el>Περὶ τὰς ἀντιζήλους τῶν ἀρετῶν κακίας</title-el>
+         <title-en>On the Vices Opposed to the Virtues</title-en>
+         <title-en-Sinkewicz-abbreviation>Vices</title-en-Sinkewicz-abbreviation>
+         <title-la>De vitiis quae opposita sunt virtutibus</title-la>
+         <translation-possibilities>
+            <element>2448 translation English</element>
+            <element>2448 translation French</element>
+            <element>2448 translation German</element>
+            <element>2448 translation Italian</element>
+            <element>2448 translation Spanish</element>
+            <element>2448 translation Russian</element>
+            <element>2448 translation Polish</element>
+            <element>2448 translation Japanese</element>
+            <element>2448 translation Chinese</element>
+            <element>2448 translation Dutch</element>
+            <element>2448 translation Flemish</element>
+            <element>2448 translation Arabic</element>
+            <element>2448 translation Serbian</element>
+            <element>2448 translation Romanian</element>
+            <element>2448 translation Slovenian</element>
+            <element>2448 translation Portuguese</element>
+            <element>2448 translation Korean</element>
+            <element>2448 translation Turkish</element>
+            <element>2448 translation Danish</element>
+            <element>2448 translation Hungarian</element>
+            <element>2448 translation Ukranian</element>
+            <element>2448 translation Finnish</element>
+            <element>2448 translation Norwegian</element>
+            <element>2448 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Syriac</element>
+            <element>Armenian</element>
+            <element>Georgian</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2449</URN>
+         <attribution-notes>Attributed tentatively to Nilus of Ancyra</attribution-notes>
+         <authorship>dubious</authorship>
+         <cpg>2449</cpg>
+         <edition-possibilities>
+            <element>2449 edition Greek</element>
+            <element>2449 edition Syriac</element>
+            <element>2449 edition Armenian</element>
+            <element>2449 edition Georgian</element>
+            <element>2449 edition Latin</element>
+            <element>2449 edition Ethiopic</element>
+            <element>2449 edition Old Russian</element>
+            <element>2449 edition Arabic</element>
+            <element>2449 edition Coptic</element>
+            <element>2449 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <label>2449</label>
+         <osce>pending</osce>
+         <title-en>On Masters and Disciples</title-en>
+         <translation-possibilities>
+            <element>2449 translation English</element>
+            <element>2449 translation French</element>
+            <element>2449 translation German</element>
+            <element>2449 translation Italian</element>
+            <element>2449 translation Spanish</element>
+            <element>2449 translation Russian</element>
+            <element>2449 translation Polish</element>
+            <element>2449 translation Japanese</element>
+            <element>2449 translation Chinese</element>
+            <element>2449 translation Dutch</element>
+            <element>2449 translation Flemish</element>
+            <element>2449 translation Arabic</element>
+            <element>2449 translation Serbian</element>
+            <element>2449 translation Romanian</element>
+            <element>2449 translation Slovenian</element>
+            <element>2449 translation Portuguese</element>
+            <element>2449 translation Korean</element>
+            <element>2449 translation Turkish</element>
+            <element>2449 translation Danish</element>
+            <element>2449 translation Hungarian</element>
+            <element>2449 translation Ukranian</element>
+            <element>2449 translation Finnish</element>
+            <element>2449 translation Norwegian</element>
+            <element>2449 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Latin</element>
+            <element>Syriac</element>
+            <element>Armenian</element>
+            <element>Arabic</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2450</URN>
+         <authorship>certain</authorship>
+         <cpg>2450</cpg>
+         <description>Relatively lengthy treatise of 43 sections. Evagrius analyzes closely the tactics of demons and the counterattacks available to the ascetic. He explains relationships between the various evil thoughts, and provides a glimpse into the epistemic, anthropological, and cosmological notions that undergird his advice on spiritual warfare.</description>
+         <edition-possibilities>
+            <element>2450 edition Greek</element>
+            <element>2450 edition Syriac</element>
+            <element>2450 edition Armenian</element>
+            <element>2450 edition Georgian</element>
+            <element>2450 edition Latin</element>
+            <element>2450 edition Ethiopic</element>
+            <element>2450 edition Old Russian</element>
+            <element>2450 edition Arabic</element>
+            <element>2450 edition Coptic</element>
+            <element>2450 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Τῶν ἀντικειμένων δαιμόνων τῇ πρακτικῇ, πρῶτοι κατὰ τὸν πόλεμον συνίστανται</incipit>
+         <label>2450</label>
+         <osce>pending</osce>
+         <textual-notes>Only the first half (about twenty-three chapters) are reproduced in the Philokalia published by Nikodomeos the Hagiorite; they roughly correspond to the Guillaumont edition.</textual-notes>
+         <title-el>Περὶ διαφορῶν πονηρῶν λογισμῶν</title-el>
+         <title-en>On the [Evil] Thoughts</title-en>
+         <title-en-Sinkewicz-abbreviation>Thoughts</title-en-Sinkewicz-abbreviation>
+         <title-la>De malignis cogitationibus</title-la>
+         <translation-possibilities>
+            <element>2450 translation English</element>
+            <element>2450 translation French</element>
+            <element>2450 translation German</element>
+            <element>2450 translation Italian</element>
+            <element>2450 translation Spanish</element>
+            <element>2450 translation Russian</element>
+            <element>2450 translation Polish</element>
+            <element>2450 translation Japanese</element>
+            <element>2450 translation Chinese</element>
+            <element>2450 translation Dutch</element>
+            <element>2450 translation Flemish</element>
+            <element>2450 translation Arabic</element>
+            <element>2450 translation Serbian</element>
+            <element>2450 translation Romanian</element>
+            <element>2450 translation Slovenian</element>
+            <element>2450 translation Portuguese</element>
+            <element>2450 translation Korean</element>
+            <element>2450 translation Turkish</element>
+            <element>2450 translation Danish</element>
+            <element>2450 translation Hungarian</element>
+            <element>2450 translation Ukranian</element>
+            <element>2450 translation Finnish</element>
+            <element>2450 translation Norwegian</element>
+            <element>2450 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2451</URN>
+         <authorship>certain</authorship>
+         <cpg>2451</cpg>
+         <description>A brief but rich treatise of eight chapters, one for each evil thought (in this order): gluttony, fornication, avarice, anger, sadness, acedia, vainglory, pride. Each chapter contains mostly brief aphorisms, frequently set in pairs, occasionally punctuated by longer discursive paragraphs. Evagrius's advice, on how to combat the evil thoughts, is filled with metaphorical imagery, intended, as so many of his works, to be read slowly and contemplated.</description>
+         <edition-possibilities>
+            <element>2451 edition Greek</element>
+            <element>2451 edition Syriac</element>
+            <element>2451 edition Armenian</element>
+            <element>2451 edition Georgian</element>
+            <element>2451 edition Latin</element>
+            <element>2451 edition Ethiopic</element>
+            <element>2451 edition Old Russian</element>
+            <element>2451 edition Arabic</element>
+            <element>2451 edition Coptic</element>
+            <element>2451 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Ἀρχὴ καρποφορίας, ἄνθος, καὶ ἀρχὴ πρακτικῆς, ἐγκράτεια·</incipit>
+         <label>2451</label>
+         <osce>pending</osce>
+         <title-el>Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</title-el>
+         <title-en>The Eight Spirits of Wickedness</title-en>
+         <title-en-Sinkewicz-abbreviation>Eight Thoughts</title-en-Sinkewicz-abbreviation>
+         <title-la>De octo spiritibus malitiae</title-la>
+         <translation-possibilities>
+            <element>2451 translation English</element>
+            <element>2451 translation French</element>
+            <element>2451 translation German</element>
+            <element>2451 translation Italian</element>
+            <element>2451 translation Spanish</element>
+            <element>2451 translation Russian</element>
+            <element>2451 translation Polish</element>
+            <element>2451 translation Japanese</element>
+            <element>2451 translation Chinese</element>
+            <element>2451 translation Dutch</element>
+            <element>2451 translation Flemish</element>
+            <element>2451 translation Arabic</element>
+            <element>2451 translation Serbian</element>
+            <element>2451 translation Romanian</element>
+            <element>2451 translation Slovenian</element>
+            <element>2451 translation Portuguese</element>
+            <element>2451 translation Korean</element>
+            <element>2451 translation Turkish</element>
+            <element>2451 translation Danish</element>
+            <element>2451 translation Hungarian</element>
+            <element>2451 translation Ukranian</element>
+            <element>2451 translation Finnish</element>
+            <element>2451 translation Norwegian</element>
+            <element>2451 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Latin</element>
+            <element>Syriac</element>
+            <element>Armenian</element>
+            <element>Arabic</element>
+            <element>Coptic</element>
+            <element>Ethiopic</element>
+            <element>Georgian</element>
+            <element>Old Russian</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2452</URN>
+         <attribution-notes>Shown in the 1930s to be by Evagrius, despite its attribution in the Greek manuscript tradition to St. Nilus.</attribution-notes>
+         <authorship>certain</authorship>
+         <cpg>2452</cpg>
+         <description>One of Evagrius's most widely read treatises, consisting of a prologue and 153 chapters on prayer.</description>
+         <edition-possibilities>
+            <element>2452 edition Greek</element>
+            <element>2452 edition Syriac</element>
+            <element>2452 edition Armenian</element>
+            <element>2452 edition Georgian</element>
+            <element>2452 edition Latin</element>
+            <element>2452 edition Ethiopic</element>
+            <element>2452 edition Old Russian</element>
+            <element>2452 edition Arabic</element>
+            <element>2452 edition Coptic</element>
+            <element>2452 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Πυρέττοντά με τῷ φλογμῷ τῶν παθῶν, συνήθως ἀνεκτήσω</incipit>
+         <label>2452</label>
+         <osce>pending</osce>
+         <title-el>Περὶ προσευχῆς ἢ Λόγος εἰς ρνγʹ κεφαλαῖα διειλημμένος</title-el>
+         <title-en>On Prayer</title-en>
+         <title-en-Sinkewicz-abbreviation>Prayer</title-en-Sinkewicz-abbreviation>
+         <title-la>De oratione</title-la>
+         <translation-possibilities>
+            <element>2452 translation English</element>
+            <element>2452 translation French</element>
+            <element>2452 translation German</element>
+            <element>2452 translation Italian</element>
+            <element>2452 translation Spanish</element>
+            <element>2452 translation Russian</element>
+            <element>2452 translation Polish</element>
+            <element>2452 translation Japanese</element>
+            <element>2452 translation Chinese</element>
+            <element>2452 translation Dutch</element>
+            <element>2452 translation Flemish</element>
+            <element>2452 translation Arabic</element>
+            <element>2452 translation Serbian</element>
+            <element>2452 translation Romanian</element>
+            <element>2452 translation Slovenian</element>
+            <element>2452 translation Portuguese</element>
+            <element>2452 translation Korean</element>
+            <element>2452 translation Turkish</element>
+            <element>2452 translation Danish</element>
+            <element>2452 translation Hungarian</element>
+            <element>2452 translation Ukranian</element>
+            <element>2452 translation Finnish</element>
+            <element>2452 translation Norwegian</element>
+            <element>2452 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Syriac</element>
+            <element>Armenian</element>
+            <element>Ethiopic</element>
+            <element>Georgian</element>
+            <element>Arabic</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2453</URN>
+         <authorship>certain</authorship>
+         <cpg>2453</cpg>
+         <description>First chapter is taken from the Hypotyposis (CPG 2441).</description>
+         <edition-possibilities>
+            <element>2453 edition Greek</element>
+            <element>2453 edition Syriac</element>
+            <element>2453 edition Armenian</element>
+            <element>2453 edition Georgian</element>
+            <element>2453 edition Latin</element>
+            <element>2453 edition Ethiopic</element>
+            <element>2453 edition Old Russian</element>
+            <element>2453 edition Arabic</element>
+            <element>2453 edition Coptic</element>
+            <element>2453 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2453</label>
+         <osce>pending</osce>
+         <title-en>Three Chapters on Prayer</title-en>
+         <title-la>Capita tria de oratione</title-la>
+         <translation-possibilities>
+            <element>2453 translation English</element>
+            <element>2453 translation French</element>
+            <element>2453 translation German</element>
+            <element>2453 translation Italian</element>
+            <element>2453 translation Spanish</element>
+            <element>2453 translation Russian</element>
+            <element>2453 translation Polish</element>
+            <element>2453 translation Japanese</element>
+            <element>2453 translation Chinese</element>
+            <element>2453 translation Dutch</element>
+            <element>2453 translation Flemish</element>
+            <element>2453 translation Arabic</element>
+            <element>2453 translation Serbian</element>
+            <element>2453 translation Romanian</element>
+            <element>2453 translation Slovenian</element>
+            <element>2453 translation Portuguese</element>
+            <element>2453 translation Korean</element>
+            <element>2453 translation Turkish</element>
+            <element>2453 translation Danish</element>
+            <element>2453 translation Hungarian</element>
+            <element>2453 translation Ukranian</element>
+            <element>2453 translation Finnish</element>
+            <element>2453 translation Norwegian</element>
+            <element>2453 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2454</URN>
+         <authorship>certain</authorship>
+         <cpg>2454</cpg>
+         <description>A text of 58 chapters in two sections (of 16 and 42 chapters, after longer and shorter recensions are collated). The chapters are generally proverbial admonitions to monks regarding the life of virtue and combat with the evil thoughts.</description>
+         <edition-possibilities>
+            <element>2454 edition Greek</element>
+            <element>2454 edition Syriac</element>
+            <element>2454 edition Armenian</element>
+            <element>2454 edition Georgian</element>
+            <element>2454 edition Latin</element>
+            <element>2454 edition Ethiopic</element>
+            <element>2454 edition Old Russian</element>
+            <element>2454 edition Arabic</element>
+            <element>2454 edition Coptic</element>
+            <element>2454 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Ἀκρασίαν βρωμάτων περικόπτει νηστεία, ἀκολασίαν δὲ πορνείας περιαιρεῖ ἐγκράτεια μετὰ προσευχῆς.</incipit>
+         <label>2454</label>
+         <osce>pending</osce>
+         <title-el>Παραίνεσις πρὸς μοναχούς</title-el>
+         <title-en>Counsel to Monks</title-en>
+         <title-en-Sinkewicz-abbreviation>Exhortations to Monks</title-en-Sinkewicz-abbreviation>
+         <title-la>Institutio or Paraenesis ad monachos</title-la>
+         <translation-possibilities>
+            <element>2454 translation English</element>
+            <element>2454 translation French</element>
+            <element>2454 translation German</element>
+            <element>2454 translation Italian</element>
+            <element>2454 translation Spanish</element>
+            <element>2454 translation Russian</element>
+            <element>2454 translation Polish</element>
+            <element>2454 translation Japanese</element>
+            <element>2454 translation Chinese</element>
+            <element>2454 translation Dutch</element>
+            <element>2454 translation Flemish</element>
+            <element>2454 translation Arabic</element>
+            <element>2454 translation Serbian</element>
+            <element>2454 translation Romanian</element>
+            <element>2454 translation Slovenian</element>
+            <element>2454 translation Portuguese</element>
+            <element>2454 translation Korean</element>
+            <element>2454 translation Turkish</element>
+            <element>2454 translation Danish</element>
+            <element>2454 translation Hungarian</element>
+            <element>2454 translation Ukranian</element>
+            <element>2454 translation Finnish</element>
+            <element>2454 translation Norwegian</element>
+            <element>2454 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2455</URN>
+         <attribution-notes>Derive from catenae of scriptural commentary (incorrectly attributing them to Origen or Athanasius) and unedited MSS.</attribution-notes>
+         <authorship>certain</authorship>
+         <cpg>2455</cpg>
+         <description>Evagrius's comments on the Psalms. These scholia originate apparently from an extensive, now lost, commentary on the Psalms.</description>
+         <edition-possibilities>
+            <element>2455 edition Greek</element>
+            <element>2455 edition Syriac</element>
+            <element>2455 edition Armenian</element>
+            <element>2455 edition Georgian</element>
+            <element>2455 edition Latin</element>
+            <element>2455 edition Ethiopic</element>
+            <element>2455 edition Old Russian</element>
+            <element>2455 edition Arabic</element>
+            <element>2455 edition Coptic</element>
+            <element>2455 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>βουλὴ ἀσεβῶν ἐστι λογισμὸς ἐμπαθὴς αἰσθητοῖς πράγμασι τὸν νοῦν προσδεσμῶν.</incipit>
+         <label>2455</label>
+         <mss>
+            <element>&lt;a href='images/Vat.Gr.754.262.jpg'&gt;Vat. gr. 754, fol. 262&lt;/a&gt;</element>
+            <element>&lt;a href='images/Vat.Gr.754.263.jpg'&gt;Vat. gr. 754, fol. 263&lt;/a&gt;</element>
+         </mss>
+         <osce>pending</osce>
+         <textual-notes>Rondeau is preparing an edition.</textual-notes>
+         <title-el>Σχόλια εἰς τοὺς Ψάλμους</title-el>
+         <title-en>Scholia on the Psalms</title-en>
+         <title-en-Sinkewicz-abbreviation>S-Ps.</title-en-Sinkewicz-abbreviation>
+         <title-la>Scholia in Psalmos</title-la>
+         <translation-possibilities>
+            <element>2455 translation English</element>
+            <element>2455 translation French</element>
+            <element>2455 translation German</element>
+            <element>2455 translation Italian</element>
+            <element>2455 translation Spanish</element>
+            <element>2455 translation Russian</element>
+            <element>2455 translation Polish</element>
+            <element>2455 translation Japanese</element>
+            <element>2455 translation Chinese</element>
+            <element>2455 translation Dutch</element>
+            <element>2455 translation Flemish</element>
+            <element>2455 translation Arabic</element>
+            <element>2455 translation Serbian</element>
+            <element>2455 translation Romanian</element>
+            <element>2455 translation Slovenian</element>
+            <element>2455 translation Portuguese</element>
+            <element>2455 translation Korean</element>
+            <element>2455 translation Turkish</element>
+            <element>2455 translation Danish</element>
+            <element>2455 translation Hungarian</element>
+            <element>2455 translation Ukranian</element>
+            <element>2455 translation Finnish</element>
+            <element>2455 translation Norwegian</element>
+            <element>2455 translation Swedish</element>
+         </translation-possibilities>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2456</URN>
+         <authorship>certain</authorship>
+         <cpg>2456</cpg>
+         <edition-possibilities>
+            <element>2456 edition Greek</element>
+            <element>2456 edition Syriac</element>
+            <element>2456 edition Armenian</element>
+            <element>2456 edition Georgian</element>
+            <element>2456 edition Latin</element>
+            <element>2456 edition Ethiopic</element>
+            <element>2456 edition Old Russian</element>
+            <element>2456 edition Arabic</element>
+            <element>2456 edition Coptic</element>
+            <element>2456 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Παροιμία ἐστὶν λόγος δι' αἰσθητῶν πραγμάτων σημαίνων πράγματα νοητά.</incipit>
+         <label>2456</label>
+         <osce>pending</osce>
+         <title-en>Commentary on the Proverbs</title-en>
+         <title-en-Sinkewicz-abbreviation>S-Prov.</title-en-Sinkewicz-abbreviation>
+         <title-la>Expositio in Proverbia Salomonis</title-la>
+         <translation-possibilities>
+            <element>2456 translation English</element>
+            <element>2456 translation French</element>
+            <element>2456 translation German</element>
+            <element>2456 translation Italian</element>
+            <element>2456 translation Spanish</element>
+            <element>2456 translation Russian</element>
+            <element>2456 translation Polish</element>
+            <element>2456 translation Japanese</element>
+            <element>2456 translation Chinese</element>
+            <element>2456 translation Dutch</element>
+            <element>2456 translation Flemish</element>
+            <element>2456 translation Arabic</element>
+            <element>2456 translation Serbian</element>
+            <element>2456 translation Romanian</element>
+            <element>2456 translation Slovenian</element>
+            <element>2456 translation Portuguese</element>
+            <element>2456 translation Korean</element>
+            <element>2456 translation Turkish</element>
+            <element>2456 translation Danish</element>
+            <element>2456 translation Hungarian</element>
+            <element>2456 translation Ukranian</element>
+            <element>2456 translation Finnish</element>
+            <element>2456 translation Norwegian</element>
+            <element>2456 translation Swedish</element>
+         </translation-possibilities>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2457</URN>
+         <authorship>certain</authorship>
+         <cpg>2457</cpg>
+         <edition-possibilities>
+            <element>2457 edition Greek</element>
+            <element>2457 edition Syriac</element>
+            <element>2457 edition Armenian</element>
+            <element>2457 edition Georgian</element>
+            <element>2457 edition Latin</element>
+            <element>2457 edition Ethiopic</element>
+            <element>2457 edition Old Russian</element>
+            <element>2457 edition Arabic</element>
+            <element>2457 edition Coptic</element>
+            <element>2457 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2457</label>
+         <osce>pending</osce>
+         <title-en>Commentary on the Parables and the Proverbs</title-en>
+         <title-la>Expositio in Parabolas et in Proverbia Salomonis</title-la>
+         <translation-possibilities>
+            <element>2457 translation English</element>
+            <element>2457 translation French</element>
+            <element>2457 translation German</element>
+            <element>2457 translation Italian</element>
+            <element>2457 translation Spanish</element>
+            <element>2457 translation Russian</element>
+            <element>2457 translation Polish</element>
+            <element>2457 translation Japanese</element>
+            <element>2457 translation Chinese</element>
+            <element>2457 translation Dutch</element>
+            <element>2457 translation Flemish</element>
+            <element>2457 translation Arabic</element>
+            <element>2457 translation Serbian</element>
+            <element>2457 translation Romanian</element>
+            <element>2457 translation Slovenian</element>
+            <element>2457 translation Portuguese</element>
+            <element>2457 translation Korean</element>
+            <element>2457 translation Turkish</element>
+            <element>2457 translation Danish</element>
+            <element>2457 translation Hungarian</element>
+            <element>2457 translation Ukranian</element>
+            <element>2457 translation Finnish</element>
+            <element>2457 translation Norwegian</element>
+            <element>2457 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2458.1</URN>
+         <authorship>certain</authorship>
+         <cpg>2458.1</cpg>
+         <edition-possibilities>
+            <element>2458.1 edition Greek</element>
+            <element>2458.1 edition Syriac</element>
+            <element>2458.1 edition Armenian</element>
+            <element>2458.1 edition Georgian</element>
+            <element>2458.1 edition Latin</element>
+            <element>2458.1 edition Ethiopic</element>
+            <element>2458.1 edition Old Russian</element>
+            <element>2458.1 edition Arabic</element>
+            <element>2458.1 edition Coptic</element>
+            <element>2458.1 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <label>2458.1</label>
+         <osce>pending</osce>
+         <textual-notes>Collections of sayings found in the later (esp. 9th-10th c.) compilations of patristic biblical exegesis. Remains to be edited.</textual-notes>
+         <title-el>Σχόλια εἰς τὸν Γένεσιν, Ἀρίθμους, καὶ Βασιλείους</title-el>
+         <title-en>Scholia on Genesis, Numbers, and Kings</title-en>
+         <title-la>Scholia in Genesim, Numeros et Reges</title-la>
+         <translation-possibilities>
+            <element>2458.1 translation English</element>
+            <element>2458.1 translation French</element>
+            <element>2458.1 translation German</element>
+            <element>2458.1 translation Italian</element>
+            <element>2458.1 translation Spanish</element>
+            <element>2458.1 translation Russian</element>
+            <element>2458.1 translation Polish</element>
+            <element>2458.1 translation Japanese</element>
+            <element>2458.1 translation Chinese</element>
+            <element>2458.1 translation Dutch</element>
+            <element>2458.1 translation Flemish</element>
+            <element>2458.1 translation Arabic</element>
+            <element>2458.1 translation Serbian</element>
+            <element>2458.1 translation Romanian</element>
+            <element>2458.1 translation Slovenian</element>
+            <element>2458.1 translation Portuguese</element>
+            <element>2458.1 translation Korean</element>
+            <element>2458.1 translation Turkish</element>
+            <element>2458.1 translation Danish</element>
+            <element>2458.1 translation Hungarian</element>
+            <element>2458.1 translation Ukranian</element>
+            <element>2458.1 translation Finnish</element>
+            <element>2458.1 translation Norwegian</element>
+            <element>2458.1 translation Swedish</element>
+         </translation-possibilities>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2458.2</URN>
+         <authorship>certain</authorship>
+         <cpg>2458.2</cpg>
+         <edition-possibilities>
+            <element>2458.2 edition Greek</element>
+            <element>2458.2 edition Syriac</element>
+            <element>2458.2 edition Armenian</element>
+            <element>2458.2 edition Georgian</element>
+            <element>2458.2 edition Latin</element>
+            <element>2458.2 edition Ethiopic</element>
+            <element>2458.2 edition Old Russian</element>
+            <element>2458.2 edition Arabic</element>
+            <element>2458.2 edition Coptic</element>
+            <element>2458.2 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <label>2458.2</label>
+         <osce>pending</osce>
+         <textual-notes>Collections of sayings found in the later (esp. 9th-10th c.) compilations of patristic biblical exegesis. Remains to be edited.</textual-notes>
+         <title-el>Σχόλια εἰς τὸν Ἰώβ</title-el>
+         <title-en>Scholia on Job</title-en>
+         <title-la>Scholia in Iob</title-la>
+         <translation-possibilities>
+            <element>2458.2 translation English</element>
+            <element>2458.2 translation French</element>
+            <element>2458.2 translation German</element>
+            <element>2458.2 translation Italian</element>
+            <element>2458.2 translation Spanish</element>
+            <element>2458.2 translation Russian</element>
+            <element>2458.2 translation Polish</element>
+            <element>2458.2 translation Japanese</element>
+            <element>2458.2 translation Chinese</element>
+            <element>2458.2 translation Dutch</element>
+            <element>2458.2 translation Flemish</element>
+            <element>2458.2 translation Arabic</element>
+            <element>2458.2 translation Serbian</element>
+            <element>2458.2 translation Romanian</element>
+            <element>2458.2 translation Slovenian</element>
+            <element>2458.2 translation Portuguese</element>
+            <element>2458.2 translation Korean</element>
+            <element>2458.2 translation Turkish</element>
+            <element>2458.2 translation Danish</element>
+            <element>2458.2 translation Hungarian</element>
+            <element>2458.2 translation Ukranian</element>
+            <element>2458.2 translation Finnish</element>
+            <element>2458.2 translation Norwegian</element>
+            <element>2458.2 translation Swedish</element>
+         </translation-possibilities>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2458.3</URN>
+         <authorship>certain</authorship>
+         <cpg>2458.3</cpg>
+         <edition-possibilities>
+            <element>2458.3 edition Greek</element>
+            <element>2458.3 edition Syriac</element>
+            <element>2458.3 edition Armenian</element>
+            <element>2458.3 edition Georgian</element>
+            <element>2458.3 edition Latin</element>
+            <element>2458.3 edition Ethiopic</element>
+            <element>2458.3 edition Old Russian</element>
+            <element>2458.3 edition Arabic</element>
+            <element>2458.3 edition Coptic</element>
+            <element>2458.3 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <label>2458.3</label>
+         <osce>pending</osce>
+         <textual-notes>Collections of sayings found in the later (esp. 9th-10th c.) compilations of patristic biblical exegesis. Remains to be edited.</textual-notes>
+         <title-el>Σχόλια εἰς τὸν ᾎσμα τῶν ἀσμάτων</title-el>
+         <title-en>Scholia on the Song of Songs</title-en>
+         <title-la>Scholia in Canticum canticorum</title-la>
+         <translation-possibilities>
+            <element>2458.3 translation English</element>
+            <element>2458.3 translation French</element>
+            <element>2458.3 translation German</element>
+            <element>2458.3 translation Italian</element>
+            <element>2458.3 translation Spanish</element>
+            <element>2458.3 translation Russian</element>
+            <element>2458.3 translation Polish</element>
+            <element>2458.3 translation Japanese</element>
+            <element>2458.3 translation Chinese</element>
+            <element>2458.3 translation Dutch</element>
+            <element>2458.3 translation Flemish</element>
+            <element>2458.3 translation Arabic</element>
+            <element>2458.3 translation Serbian</element>
+            <element>2458.3 translation Romanian</element>
+            <element>2458.3 translation Slovenian</element>
+            <element>2458.3 translation Portuguese</element>
+            <element>2458.3 translation Korean</element>
+            <element>2458.3 translation Turkish</element>
+            <element>2458.3 translation Danish</element>
+            <element>2458.3 translation Hungarian</element>
+            <element>2458.3 translation Ukranian</element>
+            <element>2458.3 translation Finnish</element>
+            <element>2458.3 translation Norwegian</element>
+            <element>2458.3 translation Swedish</element>
+         </translation-possibilities>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2458.4</URN>
+         <authorship>certain</authorship>
+         <cpg>2458.4</cpg>
+         <edition-possibilities>
+            <element>2458.4 edition Greek</element>
+            <element>2458.4 edition Syriac</element>
+            <element>2458.4 edition Armenian</element>
+            <element>2458.4 edition Georgian</element>
+            <element>2458.4 edition Latin</element>
+            <element>2458.4 edition Ethiopic</element>
+            <element>2458.4 edition Old Russian</element>
+            <element>2458.4 edition Arabic</element>
+            <element>2458.4 edition Coptic</element>
+            <element>2458.4 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <label>2458.4</label>
+         <osce>pending</osce>
+         <textual-notes>Collections of sayings found in the later (esp. 9th-10th c.) compilations of patristic biblical exegesis. Remains to be edited.</textual-notes>
+         <title-el>Σχόλια εἰς τὰς Παροιμίας</title-el>
+         <title-en>Scholia on the Proverbs</title-en>
+         <title-la>Scholia in Proverbia</title-la>
+         <translation-possibilities>
+            <element>2458.4 translation English</element>
+            <element>2458.4 translation French</element>
+            <element>2458.4 translation German</element>
+            <element>2458.4 translation Italian</element>
+            <element>2458.4 translation Spanish</element>
+            <element>2458.4 translation Russian</element>
+            <element>2458.4 translation Polish</element>
+            <element>2458.4 translation Japanese</element>
+            <element>2458.4 translation Chinese</element>
+            <element>2458.4 translation Dutch</element>
+            <element>2458.4 translation Flemish</element>
+            <element>2458.4 translation Arabic</element>
+            <element>2458.4 translation Serbian</element>
+            <element>2458.4 translation Romanian</element>
+            <element>2458.4 translation Slovenian</element>
+            <element>2458.4 translation Portuguese</element>
+            <element>2458.4 translation Korean</element>
+            <element>2458.4 translation Turkish</element>
+            <element>2458.4 translation Danish</element>
+            <element>2458.4 translation Hungarian</element>
+            <element>2458.4 translation Ukranian</element>
+            <element>2458.4 translation Finnish</element>
+            <element>2458.4 translation Norwegian</element>
+            <element>2458.4 translation Swedish</element>
+         </translation-possibilities>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2458.5</URN>
+         <authorship>certain</authorship>
+         <cpg>2458.5</cpg>
+         <edition-possibilities>
+            <element>2458.5 edition Greek</element>
+            <element>2458.5 edition Syriac</element>
+            <element>2458.5 edition Armenian</element>
+            <element>2458.5 edition Georgian</element>
+            <element>2458.5 edition Latin</element>
+            <element>2458.5 edition Ethiopic</element>
+            <element>2458.5 edition Old Russian</element>
+            <element>2458.5 edition Arabic</element>
+            <element>2458.5 edition Coptic</element>
+            <element>2458.5 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Ἐκκλησία ἐστὶν ψυχῶν καθαρῶν γνῶσις ἀληθὴς αἰώνων καὶ κόσμων καὶ τῆς ἐν αὐτοῖς κρίσεως καὶ προνοίας.</incipit>
+         <label>2458.5</label>
+         <osce>pending</osce>
+         <textual-notes>Collections of sayings found in the later (esp. 9th-10th c.) compilations of patristic biblical exegesis. Remains to be edited.</textual-notes>
+         <title-el>Σχόλια εἰς τὴν Ἐκκλησιαστὴν</title-el>
+         <title-en>Scholia on Ecclesiastes</title-en>
+         <title-en-Sinkewicz-abbreviation>S-Eccles.</title-en-Sinkewicz-abbreviation>
+         <title-la>Scholia in Ecclesiasten</title-la>
+         <translation-possibilities>
+            <element>2458.5 translation English</element>
+            <element>2458.5 translation French</element>
+            <element>2458.5 translation German</element>
+            <element>2458.5 translation Italian</element>
+            <element>2458.5 translation Spanish</element>
+            <element>2458.5 translation Russian</element>
+            <element>2458.5 translation Polish</element>
+            <element>2458.5 translation Japanese</element>
+            <element>2458.5 translation Chinese</element>
+            <element>2458.5 translation Dutch</element>
+            <element>2458.5 translation Flemish</element>
+            <element>2458.5 translation Arabic</element>
+            <element>2458.5 translation Serbian</element>
+            <element>2458.5 translation Romanian</element>
+            <element>2458.5 translation Slovenian</element>
+            <element>2458.5 translation Portuguese</element>
+            <element>2458.5 translation Korean</element>
+            <element>2458.5 translation Turkish</element>
+            <element>2458.5 translation Danish</element>
+            <element>2458.5 translation Hungarian</element>
+            <element>2458.5 translation Ukranian</element>
+            <element>2458.5 translation Finnish</element>
+            <element>2458.5 translation Norwegian</element>
+            <element>2458.5 translation Swedish</element>
+         </translation-possibilities>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2458.6</URN>
+         <authorship>certain</authorship>
+         <cpg>2458.6</cpg>
+         <edition-possibilities>
+            <element>2458.6 edition Greek</element>
+            <element>2458.6 edition Syriac</element>
+            <element>2458.6 edition Armenian</element>
+            <element>2458.6 edition Georgian</element>
+            <element>2458.6 edition Latin</element>
+            <element>2458.6 edition Ethiopic</element>
+            <element>2458.6 edition Old Russian</element>
+            <element>2458.6 edition Arabic</element>
+            <element>2458.6 edition Coptic</element>
+            <element>2458.6 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <label>2458.6</label>
+         <osce>pending</osce>
+         <textual-notes>Collections of sayings found in the later (esp. 9th-10th c.) compilations of patristic biblical exegesis. Remains to be edited.</textual-notes>
+         <title-en>Scholia on Luke</title-en>
+         <title-la>Scholia in Lucam</title-la>
+         <translation-possibilities>
+            <element>2458.6 translation English</element>
+            <element>2458.6 translation French</element>
+            <element>2458.6 translation German</element>
+            <element>2458.6 translation Italian</element>
+            <element>2458.6 translation Spanish</element>
+            <element>2458.6 translation Russian</element>
+            <element>2458.6 translation Polish</element>
+            <element>2458.6 translation Japanese</element>
+            <element>2458.6 translation Chinese</element>
+            <element>2458.6 translation Dutch</element>
+            <element>2458.6 translation Flemish</element>
+            <element>2458.6 translation Arabic</element>
+            <element>2458.6 translation Serbian</element>
+            <element>2458.6 translation Romanian</element>
+            <element>2458.6 translation Slovenian</element>
+            <element>2458.6 translation Portuguese</element>
+            <element>2458.6 translation Korean</element>
+            <element>2458.6 translation Turkish</element>
+            <element>2458.6 translation Danish</element>
+            <element>2458.6 translation Hungarian</element>
+            <element>2458.6 translation Ukranian</element>
+            <element>2458.6 translation Finnish</element>
+            <element>2458.6 translation Norwegian</element>
+            <element>2458.6 translation Swedish</element>
+         </translation-possibilities>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2459</URN>
+         <authorship>certain</authorship>
+         <cpg>2459</cpg>
+         <edition-possibilities>
+            <element>2459 edition Greek</element>
+            <element>2459 edition Syriac</element>
+            <element>2459 edition Armenian</element>
+            <element>2459 edition Georgian</element>
+            <element>2459 edition Latin</element>
+            <element>2459 edition Ethiopic</element>
+            <element>2459 edition Old Russian</element>
+            <element>2459 edition Arabic</element>
+            <element>2459 edition Coptic</element>
+            <element>2459 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2459</label>
+         <osce>pending</osce>
+         <title-en>Commentary on the Cherubim</title-en>
+         <title-la>De cherubim</title-la>
+         <translation-possibilities>
+            <element>2459 translation English</element>
+            <element>2459 translation French</element>
+            <element>2459 translation German</element>
+            <element>2459 translation Italian</element>
+            <element>2459 translation Spanish</element>
+            <element>2459 translation Russian</element>
+            <element>2459 translation Polish</element>
+            <element>2459 translation Japanese</element>
+            <element>2459 translation Chinese</element>
+            <element>2459 translation Dutch</element>
+            <element>2459 translation Flemish</element>
+            <element>2459 translation Arabic</element>
+            <element>2459 translation Serbian</element>
+            <element>2459 translation Romanian</element>
+            <element>2459 translation Slovenian</element>
+            <element>2459 translation Portuguese</element>
+            <element>2459 translation Korean</element>
+            <element>2459 translation Turkish</element>
+            <element>2459 translation Danish</element>
+            <element>2459 translation Hungarian</element>
+            <element>2459 translation Ukranian</element>
+            <element>2459 translation Finnish</element>
+            <element>2459 translation Norwegian</element>
+            <element>2459 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Syriac</element>
+            <element>Armenian</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2460</URN>
+         <authorship>certain</authorship>
+         <cpg>2460</cpg>
+         <edition-possibilities>
+            <element>2460 edition Greek</element>
+            <element>2460 edition Syriac</element>
+            <element>2460 edition Armenian</element>
+            <element>2460 edition Georgian</element>
+            <element>2460 edition Latin</element>
+            <element>2460 edition Ethiopic</element>
+            <element>2460 edition Old Russian</element>
+            <element>2460 edition Arabic</element>
+            <element>2460 edition Coptic</element>
+            <element>2460 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2460</label>
+         <osce>pending</osce>
+         <title-en>Commentary on the Seraphim</title-en>
+         <title-la>De seraphim</title-la>
+         <translation-possibilities>
+            <element>2460 translation English</element>
+            <element>2460 translation French</element>
+            <element>2460 translation German</element>
+            <element>2460 translation Italian</element>
+            <element>2460 translation Spanish</element>
+            <element>2460 translation Russian</element>
+            <element>2460 translation Polish</element>
+            <element>2460 translation Japanese</element>
+            <element>2460 translation Chinese</element>
+            <element>2460 translation Dutch</element>
+            <element>2460 translation Flemish</element>
+            <element>2460 translation Arabic</element>
+            <element>2460 translation Serbian</element>
+            <element>2460 translation Romanian</element>
+            <element>2460 translation Slovenian</element>
+            <element>2460 translation Portuguese</element>
+            <element>2460 translation Korean</element>
+            <element>2460 translation Turkish</element>
+            <element>2460 translation Danish</element>
+            <element>2460 translation Hungarian</element>
+            <element>2460 translation Ukranian</element>
+            <element>2460 translation Finnish</element>
+            <element>2460 translation Norwegian</element>
+            <element>2460 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2461</URN>
+         <authorship>certain</authorship>
+         <cpg>2461</cpg>
+         <edition-possibilities>
+            <element>2461 edition Greek</element>
+            <element>2461 edition Syriac</element>
+            <element>2461 edition Armenian</element>
+            <element>2461 edition Georgian</element>
+            <element>2461 edition Latin</element>
+            <element>2461 edition Ethiopic</element>
+            <element>2461 edition Old Russian</element>
+            <element>2461 edition Arabic</element>
+            <element>2461 edition Coptic</element>
+            <element>2461 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2461</label>
+         <osce>pending</osce>
+         <title-en>Commentary on the Lord's Prayer</title-en>
+         <title-en-Sinkewicz-abbreviation>Lord's Prayer</title-en-Sinkewicz-abbreviation>
+         <title-la>Expositio in orationem dominicam</title-la>
+         <translation-possibilities>
+            <element>2461 translation English</element>
+            <element>2461 translation French</element>
+            <element>2461 translation German</element>
+            <element>2461 translation Italian</element>
+            <element>2461 translation Spanish</element>
+            <element>2461 translation Russian</element>
+            <element>2461 translation Polish</element>
+            <element>2461 translation Japanese</element>
+            <element>2461 translation Chinese</element>
+            <element>2461 translation Dutch</element>
+            <element>2461 translation Flemish</element>
+            <element>2461 translation Arabic</element>
+            <element>2461 translation Serbian</element>
+            <element>2461 translation Romanian</element>
+            <element>2461 translation Slovenian</element>
+            <element>2461 translation Portuguese</element>
+            <element>2461 translation Korean</element>
+            <element>2461 translation Turkish</element>
+            <element>2461 translation Danish</element>
+            <element>2461 translation Hungarian</element>
+            <element>2461 translation Ukranian</element>
+            <element>2461 translation Finnish</element>
+            <element>2461 translation Norwegian</element>
+            <element>2461 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Coptic</element>
+            <element>Arabic</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2462</URN>
+         <authorship>derivative</authorship>
+         <cpg>2462</cpg>
+         <description>7 stories and sayings attributed to Evagrius from the alphabetical collection.</description>
+         <edition-possibilities>
+            <element>2462 edition Greek</element>
+            <element>2462 edition Syriac</element>
+            <element>2462 edition Armenian</element>
+            <element>2462 edition Georgian</element>
+            <element>2462 edition Latin</element>
+            <element>2462 edition Ethiopic</element>
+            <element>2462 edition Old Russian</element>
+            <element>2462 edition Arabic</element>
+            <element>2462 edition Coptic</element>
+            <element>2462 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <label>2462</label>
+         <osce>pending</osce>
+         <title-el>Ἀποφθέγματα</title-el>
+         <title-en>Apophthegmata</title-en>
+         <title-la>Apophthegmata</title-la>
+         <translation-possibilities>
+            <element>2462 translation English</element>
+            <element>2462 translation French</element>
+            <element>2462 translation German</element>
+            <element>2462 translation Italian</element>
+            <element>2462 translation Spanish</element>
+            <element>2462 translation Russian</element>
+            <element>2462 translation Polish</element>
+            <element>2462 translation Japanese</element>
+            <element>2462 translation Chinese</element>
+            <element>2462 translation Dutch</element>
+            <element>2462 translation Flemish</element>
+            <element>2462 translation Arabic</element>
+            <element>2462 translation Serbian</element>
+            <element>2462 translation Romanian</element>
+            <element>2462 translation Slovenian</element>
+            <element>2462 translation Portuguese</element>
+            <element>2462 translation Korean</element>
+            <element>2462 translation Turkish</element>
+            <element>2462 translation Danish</element>
+            <element>2462 translation Hungarian</element>
+            <element>2462 translation Ukranian</element>
+            <element>2462 translation Finnish</element>
+            <element>2462 translation Norwegian</element>
+            <element>2462 translation Swedish</element>
+         </translation-possibilities>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2463</URN>
+         <authorship>certain</authorship>
+         <cpg>2463</cpg>
+         <edition-possibilities>
+            <element>2463 edition Greek</element>
+            <element>2463 edition Syriac</element>
+            <element>2463 edition Armenian</element>
+            <element>2463 edition Georgian</element>
+            <element>2463 edition Latin</element>
+            <element>2463 edition Ethiopic</element>
+            <element>2463 edition Old Russian</element>
+            <element>2463 edition Arabic</element>
+            <element>2463 edition Coptic</element>
+            <element>2463 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <label>2463</label>
+         <osce>pending</osce>
+         <title-en>On the Imitation of the Song of Songs</title-en>
+         <title-en-Sinkewicz-abbreviation>Imitation Ct.</title-en-Sinkewicz-abbreviation>
+         <title-la>Ad imitationem Cantici canticorum</title-la>
+         <translation-possibilities>
+            <element>2463 translation English</element>
+            <element>2463 translation French</element>
+            <element>2463 translation German</element>
+            <element>2463 translation Italian</element>
+            <element>2463 translation Spanish</element>
+            <element>2463 translation Russian</element>
+            <element>2463 translation Polish</element>
+            <element>2463 translation Japanese</element>
+            <element>2463 translation Chinese</element>
+            <element>2463 translation Dutch</element>
+            <element>2463 translation Flemish</element>
+            <element>2463 translation Arabic</element>
+            <element>2463 translation Serbian</element>
+            <element>2463 translation Romanian</element>
+            <element>2463 translation Slovenian</element>
+            <element>2463 translation Portuguese</element>
+            <element>2463 translation Korean</element>
+            <element>2463 translation Turkish</element>
+            <element>2463 translation Danish</element>
+            <element>2463 translation Hungarian</element>
+            <element>2463 translation Ukranian</element>
+            <element>2463 translation Finnish</element>
+            <element>2463 translation Norwegian</element>
+            <element>2463 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Arabic</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2464a</URN>
+         <authorship>certain</authorship>
+         <cpg>2464a</cpg>
+         <edition-possibilities>
+            <element>2464a edition Greek</element>
+            <element>2464a edition Syriac</element>
+            <element>2464a edition Armenian</element>
+            <element>2464a edition Georgian</element>
+            <element>2464a edition Latin</element>
+            <element>2464a edition Ethiopic</element>
+            <element>2464a edition Old Russian</element>
+            <element>2464a edition Arabic</element>
+            <element>2464a edition Coptic</element>
+            <element>2464a edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2464a</label>
+         <osce>pending</osce>
+         <title-en>On the Imitation of Proverbs</title-en>
+         <title-la>Ad imitationem Proverbiorum</title-la>
+         <translation-possibilities>
+            <element>2464a translation English</element>
+            <element>2464a translation French</element>
+            <element>2464a translation German</element>
+            <element>2464a translation Italian</element>
+            <element>2464a translation Spanish</element>
+            <element>2464a translation Russian</element>
+            <element>2464a translation Polish</element>
+            <element>2464a translation Japanese</element>
+            <element>2464a translation Chinese</element>
+            <element>2464a translation Dutch</element>
+            <element>2464a translation Flemish</element>
+            <element>2464a translation Arabic</element>
+            <element>2464a translation Serbian</element>
+            <element>2464a translation Romanian</element>
+            <element>2464a translation Slovenian</element>
+            <element>2464a translation Portuguese</element>
+            <element>2464a translation Korean</element>
+            <element>2464a translation Turkish</element>
+            <element>2464a translation Danish</element>
+            <element>2464a translation Hungarian</element>
+            <element>2464a translation Ukranian</element>
+            <element>2464a translation Finnish</element>
+            <element>2464a translation Norwegian</element>
+            <element>2464a translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Arabic</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2464</URN>
+         <authorship>certain</authorship>
+         <cpg>2464</cpg>
+         <edition-possibilities>
+            <element>2464 edition Greek</element>
+            <element>2464 edition Syriac</element>
+            <element>2464 edition Armenian</element>
+            <element>2464 edition Georgian</element>
+            <element>2464 edition Latin</element>
+            <element>2464 edition Ethiopic</element>
+            <element>2464 edition Old Russian</element>
+            <element>2464 edition Arabic</element>
+            <element>2464 edition Coptic</element>
+            <element>2464 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <label>2464</label>
+         <osce>pending</osce>
+         <title-en>On the Imitation of Ecclesiastes</title-en>
+         <title-en-Sinkewicz-abbreviation>Imitation Eccles.</title-en-Sinkewicz-abbreviation>
+         <title-la>Ad imitationem Ecclesiastae</title-la>
+         <translation-possibilities>
+            <element>2464 translation English</element>
+            <element>2464 translation French</element>
+            <element>2464 translation German</element>
+            <element>2464 translation Italian</element>
+            <element>2464 translation Spanish</element>
+            <element>2464 translation Russian</element>
+            <element>2464 translation Polish</element>
+            <element>2464 translation Japanese</element>
+            <element>2464 translation Chinese</element>
+            <element>2464 translation Dutch</element>
+            <element>2464 translation Flemish</element>
+            <element>2464 translation Arabic</element>
+            <element>2464 translation Serbian</element>
+            <element>2464 translation Romanian</element>
+            <element>2464 translation Slovenian</element>
+            <element>2464 translation Portuguese</element>
+            <element>2464 translation Korean</element>
+            <element>2464 translation Turkish</element>
+            <element>2464 translation Danish</element>
+            <element>2464 translation Hungarian</element>
+            <element>2464 translation Ukranian</element>
+            <element>2464 translation Finnish</element>
+            <element>2464 translation Norwegian</element>
+            <element>2464 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Arabic</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2465</URN>
+         <authorship>dubious</authorship>
+         <cpg>2465</cpg>
+         <description>Identical to one of the thirty memre of the Syriac Book of Steps (Liber graduum; memre 14 in Patrologia Syriaca edition).</description>
+         <edition-possibilities>
+            <element>2465 edition Greek</element>
+            <element>2465 edition Syriac</element>
+            <element>2465 edition Armenian</element>
+            <element>2465 edition Georgian</element>
+            <element>2465 edition Latin</element>
+            <element>2465 edition Ethiopic</element>
+            <element>2465 edition Old Russian</element>
+            <element>2465 edition Arabic</element>
+            <element>2465 edition Coptic</element>
+            <element>2465 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2465</label>
+         <osce>pending</osce>
+         <title-en>The Just and the Perfect</title-en>
+         <title-la>De iustis et perfectis</title-la>
+         <translation-possibilities>
+            <element>2465 translation English</element>
+            <element>2465 translation French</element>
+            <element>2465 translation German</element>
+            <element>2465 translation Italian</element>
+            <element>2465 translation Spanish</element>
+            <element>2465 translation Russian</element>
+            <element>2465 translation Polish</element>
+            <element>2465 translation Japanese</element>
+            <element>2465 translation Chinese</element>
+            <element>2465 translation Dutch</element>
+            <element>2465 translation Flemish</element>
+            <element>2465 translation Arabic</element>
+            <element>2465 translation Serbian</element>
+            <element>2465 translation Romanian</element>
+            <element>2465 translation Slovenian</element>
+            <element>2465 translation Portuguese</element>
+            <element>2465 translation Korean</element>
+            <element>2465 translation Turkish</element>
+            <element>2465 translation Danish</element>
+            <element>2465 translation Hungarian</element>
+            <element>2465 translation Ukranian</element>
+            <element>2465 translation Finnish</element>
+            <element>2465 translation Norwegian</element>
+            <element>2465 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2466</URN>
+         <authorship>dubious</authorship>
+         <cpg>2466</cpg>
+         <edition-possibilities>
+            <element>2466 edition Greek</element>
+            <element>2466 edition Syriac</element>
+            <element>2466 edition Armenian</element>
+            <element>2466 edition Georgian</element>
+            <element>2466 edition Latin</element>
+            <element>2466 edition Ethiopic</element>
+            <element>2466 edition Old Russian</element>
+            <element>2466 edition Arabic</element>
+            <element>2466 edition Coptic</element>
+            <element>2466 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2466</label>
+         <osce>pending</osce>
+         <title-en>Humility</title-en>
+         <title-la>De humilitate</title-la>
+         <translation-possibilities>
+            <element>2466 translation English</element>
+            <element>2466 translation French</element>
+            <element>2466 translation German</element>
+            <element>2466 translation Italian</element>
+            <element>2466 translation Spanish</element>
+            <element>2466 translation Russian</element>
+            <element>2466 translation Polish</element>
+            <element>2466 translation Japanese</element>
+            <element>2466 translation Chinese</element>
+            <element>2466 translation Dutch</element>
+            <element>2466 translation Flemish</element>
+            <element>2466 translation Arabic</element>
+            <element>2466 translation Serbian</element>
+            <element>2466 translation Romanian</element>
+            <element>2466 translation Slovenian</element>
+            <element>2466 translation Portuguese</element>
+            <element>2466 translation Korean</element>
+            <element>2466 translation Turkish</element>
+            <element>2466 translation Danish</element>
+            <element>2466 translation Hungarian</element>
+            <element>2466 translation Ukranian</element>
+            <element>2466 translation Finnish</element>
+            <element>2466 translation Norwegian</element>
+            <element>2466 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2467</URN>
+         <authorship>dubious</authorship>
+         <cpg>2467</cpg>
+         <edition-possibilities>
+            <element>2467 edition Greek</element>
+            <element>2467 edition Syriac</element>
+            <element>2467 edition Armenian</element>
+            <element>2467 edition Georgian</element>
+            <element>2467 edition Latin</element>
+            <element>2467 edition Ethiopic</element>
+            <element>2467 edition Old Russian</element>
+            <element>2467 edition Arabic</element>
+            <element>2467 edition Coptic</element>
+            <element>2467 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2467</label>
+         <osce>pending</osce>
+         <title-en>Fasting</title-en>
+         <title-la>De ieiunio</title-la>
+         <translation-possibilities>
+            <element>2467 translation English</element>
+            <element>2467 translation French</element>
+            <element>2467 translation German</element>
+            <element>2467 translation Italian</element>
+            <element>2467 translation Spanish</element>
+            <element>2467 translation Russian</element>
+            <element>2467 translation Polish</element>
+            <element>2467 translation Japanese</element>
+            <element>2467 translation Chinese</element>
+            <element>2467 translation Dutch</element>
+            <element>2467 translation Flemish</element>
+            <element>2467 translation Arabic</element>
+            <element>2467 translation Serbian</element>
+            <element>2467 translation Romanian</element>
+            <element>2467 translation Slovenian</element>
+            <element>2467 translation Portuguese</element>
+            <element>2467 translation Korean</element>
+            <element>2467 translation Turkish</element>
+            <element>2467 translation Danish</element>
+            <element>2467 translation Hungarian</element>
+            <element>2467 translation Ukranian</element>
+            <element>2467 translation Finnish</element>
+            <element>2467 translation Norwegian</element>
+            <element>2467 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2468</URN>
+         <authorship>dubious</authorship>
+         <cpg>2468</cpg>
+         <edition-possibilities>
+            <element>2468 edition Greek</element>
+            <element>2468 edition Syriac</element>
+            <element>2468 edition Armenian</element>
+            <element>2468 edition Georgian</element>
+            <element>2468 edition Latin</element>
+            <element>2468 edition Ethiopic</element>
+            <element>2468 edition Old Russian</element>
+            <element>2468 edition Arabic</element>
+            <element>2468 edition Coptic</element>
+            <element>2468 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2468</label>
+         <osce>pending</osce>
+         <title-en>Silence</title-en>
+         <title-la>De silentio</title-la>
+         <translation-possibilities>
+            <element>2468 translation English</element>
+            <element>2468 translation French</element>
+            <element>2468 translation German</element>
+            <element>2468 translation Italian</element>
+            <element>2468 translation Spanish</element>
+            <element>2468 translation Russian</element>
+            <element>2468 translation Polish</element>
+            <element>2468 translation Japanese</element>
+            <element>2468 translation Chinese</element>
+            <element>2468 translation Dutch</element>
+            <element>2468 translation Flemish</element>
+            <element>2468 translation Arabic</element>
+            <element>2468 translation Serbian</element>
+            <element>2468 translation Romanian</element>
+            <element>2468 translation Slovenian</element>
+            <element>2468 translation Portuguese</element>
+            <element>2468 translation Korean</element>
+            <element>2468 translation Turkish</element>
+            <element>2468 translation Danish</element>
+            <element>2468 translation Hungarian</element>
+            <element>2468 translation Ukranian</element>
+            <element>2468 translation Finnish</element>
+            <element>2468 translation Norwegian</element>
+            <element>2468 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2469</URN>
+         <attribution-notes>Each of the three recensions of this text is attributed to a different author: John Lycopolis, Epiphanius, Macarius (or Evagrius)</attribution-notes>
+         <authorship>dubious</authorship>
+         <cpg>2469</cpg>
+         <edition-possibilities>
+            <element>2469 edition Greek</element>
+            <element>2469 edition Syriac</element>
+            <element>2469 edition Armenian</element>
+            <element>2469 edition Georgian</element>
+            <element>2469 edition Latin</element>
+            <element>2469 edition Ethiopic</element>
+            <element>2469 edition Old Russian</element>
+            <element>2469 edition Arabic</element>
+            <element>2469 edition Coptic</element>
+            <element>2469 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <label>2469</label>
+         <osce>pending</osce>
+         <title-en>Admonition on the Marks of Serenity</title-en>
+         <title-la>Admonitio de signis quietis</title-la>
+         <translation-possibilities>
+            <element>2469 translation English</element>
+            <element>2469 translation French</element>
+            <element>2469 translation German</element>
+            <element>2469 translation Italian</element>
+            <element>2469 translation Spanish</element>
+            <element>2469 translation Russian</element>
+            <element>2469 translation Polish</element>
+            <element>2469 translation Japanese</element>
+            <element>2469 translation Chinese</element>
+            <element>2469 translation Dutch</element>
+            <element>2469 translation Flemish</element>
+            <element>2469 translation Arabic</element>
+            <element>2469 translation Serbian</element>
+            <element>2469 translation Romanian</element>
+            <element>2469 translation Slovenian</element>
+            <element>2469 translation Portuguese</element>
+            <element>2469 translation Korean</element>
+            <element>2469 translation Turkish</element>
+            <element>2469 translation Danish</element>
+            <element>2469 translation Hungarian</element>
+            <element>2469 translation Ukranian</element>
+            <element>2469 translation Finnish</element>
+            <element>2469 translation Norwegian</element>
+            <element>2469 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2470</URN>
+         <authorship>dubious</authorship>
+         <cpg>2470</cpg>
+         <edition-possibilities>
+            <element>2470 edition Greek</element>
+            <element>2470 edition Syriac</element>
+            <element>2470 edition Armenian</element>
+            <element>2470 edition Georgian</element>
+            <element>2470 edition Latin</element>
+            <element>2470 edition Ethiopic</element>
+            <element>2470 edition Old Russian</element>
+            <element>2470 edition Arabic</element>
+            <element>2470 edition Coptic</element>
+            <element>2470 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2470</label>
+         <osce>pending</osce>
+         <title-en>Dialogue of a Master with his Student</title-en>
+         <title-la>Colloquium magistri cum discipulo eius</title-la>
+         <translation-possibilities>
+            <element>2470 translation English</element>
+            <element>2470 translation French</element>
+            <element>2470 translation German</element>
+            <element>2470 translation Italian</element>
+            <element>2470 translation Spanish</element>
+            <element>2470 translation Russian</element>
+            <element>2470 translation Polish</element>
+            <element>2470 translation Japanese</element>
+            <element>2470 translation Chinese</element>
+            <element>2470 translation Dutch</element>
+            <element>2470 translation Flemish</element>
+            <element>2470 translation Arabic</element>
+            <element>2470 translation Serbian</element>
+            <element>2470 translation Romanian</element>
+            <element>2470 translation Slovenian</element>
+            <element>2470 translation Portuguese</element>
+            <element>2470 translation Korean</element>
+            <element>2470 translation Turkish</element>
+            <element>2470 translation Danish</element>
+            <element>2470 translation Hungarian</element>
+            <element>2470 translation Ukranian</element>
+            <element>2470 translation Finnish</element>
+            <element>2470 translation Norwegian</element>
+            <element>2470 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Syriac</element>
+            <element>Armenian</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2471</URN>
+         <authorship>dubious</authorship>
+         <cpg>2471</cpg>
+         <edition-possibilities>
+            <element>2471 edition Greek</element>
+            <element>2471 edition Syriac</element>
+            <element>2471 edition Armenian</element>
+            <element>2471 edition Georgian</element>
+            <element>2471 edition Latin</element>
+            <element>2471 edition Ethiopic</element>
+            <element>2471 edition Old Russian</element>
+            <element>2471 edition Arabic</element>
+            <element>2471 edition Coptic</element>
+            <element>2471 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2471</label>
+         <osce>pending</osce>
+         <title-en>The Defense of One Led by God</title-en>
+         <title-la>De tutelis eius qui a deo ducitur</title-la>
+         <translation-possibilities>
+            <element>2471 translation English</element>
+            <element>2471 translation French</element>
+            <element>2471 translation German</element>
+            <element>2471 translation Italian</element>
+            <element>2471 translation Spanish</element>
+            <element>2471 translation Russian</element>
+            <element>2471 translation Polish</element>
+            <element>2471 translation Japanese</element>
+            <element>2471 translation Chinese</element>
+            <element>2471 translation Dutch</element>
+            <element>2471 translation Flemish</element>
+            <element>2471 translation Arabic</element>
+            <element>2471 translation Serbian</element>
+            <element>2471 translation Romanian</element>
+            <element>2471 translation Slovenian</element>
+            <element>2471 translation Portuguese</element>
+            <element>2471 translation Korean</element>
+            <element>2471 translation Turkish</element>
+            <element>2471 translation Danish</element>
+            <element>2471 translation Hungarian</element>
+            <element>2471 translation Ukranian</element>
+            <element>2471 translation Finnish</element>
+            <element>2471 translation Norwegian</element>
+            <element>2471 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2472</URN>
+         <authorship>dubious</authorship>
+         <cpg>2472</cpg>
+         <edition-possibilities>
+            <element>2472 edition Greek</element>
+            <element>2472 edition Syriac</element>
+            <element>2472 edition Armenian</element>
+            <element>2472 edition Georgian</element>
+            <element>2472 edition Latin</element>
+            <element>2472 edition Ethiopic</element>
+            <element>2472 edition Old Russian</element>
+            <element>2472 edition Arabic</element>
+            <element>2472 edition Coptic</element>
+            <element>2472 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2472</label>
+         <osce>pending</osce>
+         <title-en>Instructive Admonition</title-en>
+         <title-la>Admonitio paraenetica</title-la>
+         <translation-possibilities>
+            <element>2472 translation English</element>
+            <element>2472 translation French</element>
+            <element>2472 translation German</element>
+            <element>2472 translation Italian</element>
+            <element>2472 translation Spanish</element>
+            <element>2472 translation Russian</element>
+            <element>2472 translation Polish</element>
+            <element>2472 translation Japanese</element>
+            <element>2472 translation Chinese</element>
+            <element>2472 translation Dutch</element>
+            <element>2472 translation Flemish</element>
+            <element>2472 translation Arabic</element>
+            <element>2472 translation Serbian</element>
+            <element>2472 translation Romanian</element>
+            <element>2472 translation Slovenian</element>
+            <element>2472 translation Portuguese</element>
+            <element>2472 translation Korean</element>
+            <element>2472 translation Turkish</element>
+            <element>2472 translation Danish</element>
+            <element>2472 translation Hungarian</element>
+            <element>2472 translation Ukranian</element>
+            <element>2472 translation Finnish</element>
+            <element>2472 translation Norwegian</element>
+            <element>2472 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2473</URN>
+         <authorship>dubious</authorship>
+         <cpg>2473</cpg>
+         <edition-possibilities>
+            <element>2473 edition Greek</element>
+            <element>2473 edition Syriac</element>
+            <element>2473 edition Armenian</element>
+            <element>2473 edition Georgian</element>
+            <element>2473 edition Latin</element>
+            <element>2473 edition Ethiopic</element>
+            <element>2473 edition Old Russian</element>
+            <element>2473 edition Arabic</element>
+            <element>2473 edition Coptic</element>
+            <element>2473 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2473</label>
+         <osce>pending</osce>
+         <title-en>Counsel of the Mind</title-en>
+         <title-la>Paraenesis mentis</title-la>
+         <translation-possibilities>
+            <element>2473 translation English</element>
+            <element>2473 translation French</element>
+            <element>2473 translation German</element>
+            <element>2473 translation Italian</element>
+            <element>2473 translation Spanish</element>
+            <element>2473 translation Russian</element>
+            <element>2473 translation Polish</element>
+            <element>2473 translation Japanese</element>
+            <element>2473 translation Chinese</element>
+            <element>2473 translation Dutch</element>
+            <element>2473 translation Flemish</element>
+            <element>2473 translation Arabic</element>
+            <element>2473 translation Serbian</element>
+            <element>2473 translation Romanian</element>
+            <element>2473 translation Slovenian</element>
+            <element>2473 translation Portuguese</element>
+            <element>2473 translation Korean</element>
+            <element>2473 translation Turkish</element>
+            <element>2473 translation Danish</element>
+            <element>2473 translation Hungarian</element>
+            <element>2473 translation Ukranian</element>
+            <element>2473 translation Finnish</element>
+            <element>2473 translation Norwegian</element>
+            <element>2473 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2474</URN>
+         <authorship>dubious</authorship>
+         <cpg>2474</cpg>
+         <edition-possibilities>
+            <element>2474 edition Greek</element>
+            <element>2474 edition Syriac</element>
+            <element>2474 edition Armenian</element>
+            <element>2474 edition Georgian</element>
+            <element>2474 edition Latin</element>
+            <element>2474 edition Ethiopic</element>
+            <element>2474 edition Old Russian</element>
+            <element>2474 edition Arabic</element>
+            <element>2474 edition Coptic</element>
+            <element>2474 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2474</label>
+         <osce>pending</osce>
+         <title-en>Teaching</title-en>
+         <title-la>Doctrina</title-la>
+         <translation-possibilities>
+            <element>2474 translation English</element>
+            <element>2474 translation French</element>
+            <element>2474 translation German</element>
+            <element>2474 translation Italian</element>
+            <element>2474 translation Spanish</element>
+            <element>2474 translation Russian</element>
+            <element>2474 translation Polish</element>
+            <element>2474 translation Japanese</element>
+            <element>2474 translation Chinese</element>
+            <element>2474 translation Dutch</element>
+            <element>2474 translation Flemish</element>
+            <element>2474 translation Arabic</element>
+            <element>2474 translation Serbian</element>
+            <element>2474 translation Romanian</element>
+            <element>2474 translation Slovenian</element>
+            <element>2474 translation Portuguese</element>
+            <element>2474 translation Korean</element>
+            <element>2474 translation Turkish</element>
+            <element>2474 translation Danish</element>
+            <element>2474 translation Hungarian</element>
+            <element>2474 translation Ukranian</element>
+            <element>2474 translation Finnish</element>
+            <element>2474 translation Norwegian</element>
+            <element>2474 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2475</URN>
+         <authorship>dubious</authorship>
+         <cpg>2475</cpg>
+         <edition-possibilities>
+            <element>2475 edition Greek</element>
+            <element>2475 edition Syriac</element>
+            <element>2475 edition Armenian</element>
+            <element>2475 edition Georgian</element>
+            <element>2475 edition Latin</element>
+            <element>2475 edition Ethiopic</element>
+            <element>2475 edition Old Russian</element>
+            <element>2475 edition Arabic</element>
+            <element>2475 edition Coptic</element>
+            <element>2475 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>fragmentary</greek-text>
+         <label>2475</label>
+         <osce>pending</osce>
+         <title-en>Counsel</title-en>
+         <title-la>Paraenesis</title-la>
+         <translation-possibilities>
+            <element>2475 translation English</element>
+            <element>2475 translation French</element>
+            <element>2475 translation German</element>
+            <element>2475 translation Italian</element>
+            <element>2475 translation Spanish</element>
+            <element>2475 translation Russian</element>
+            <element>2475 translation Polish</element>
+            <element>2475 translation Japanese</element>
+            <element>2475 translation Chinese</element>
+            <element>2475 translation Dutch</element>
+            <element>2475 translation Flemish</element>
+            <element>2475 translation Arabic</element>
+            <element>2475 translation Serbian</element>
+            <element>2475 translation Romanian</element>
+            <element>2475 translation Slovenian</element>
+            <element>2475 translation Portuguese</element>
+            <element>2475 translation Korean</element>
+            <element>2475 translation Turkish</element>
+            <element>2475 translation Danish</element>
+            <element>2475 translation Hungarian</element>
+            <element>2475 translation Ukranian</element>
+            <element>2475 translation Finnish</element>
+            <element>2475 translation Norwegian</element>
+            <element>2475 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2476</URN>
+         <authorship>dubious</authorship>
+         <cpg>2476</cpg>
+         <edition-possibilities>
+            <element>2476 edition Greek</element>
+            <element>2476 edition Syriac</element>
+            <element>2476 edition Armenian</element>
+            <element>2476 edition Georgian</element>
+            <element>2476 edition Latin</element>
+            <element>2476 edition Ethiopic</element>
+            <element>2476 edition Old Russian</element>
+            <element>2476 edition Arabic</element>
+            <element>2476 edition Coptic</element>
+            <element>2476 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2476</label>
+         <osce>pending</osce>
+         <title-en>Perfection</title-en>
+         <title-la>De perfectione</title-la>
+         <translation-possibilities>
+            <element>2476 translation English</element>
+            <element>2476 translation French</element>
+            <element>2476 translation German</element>
+            <element>2476 translation Italian</element>
+            <element>2476 translation Spanish</element>
+            <element>2476 translation Russian</element>
+            <element>2476 translation Polish</element>
+            <element>2476 translation Japanese</element>
+            <element>2476 translation Chinese</element>
+            <element>2476 translation Dutch</element>
+            <element>2476 translation Flemish</element>
+            <element>2476 translation Arabic</element>
+            <element>2476 translation Serbian</element>
+            <element>2476 translation Romanian</element>
+            <element>2476 translation Slovenian</element>
+            <element>2476 translation Portuguese</element>
+            <element>2476 translation Korean</element>
+            <element>2476 translation Turkish</element>
+            <element>2476 translation Danish</element>
+            <element>2476 translation Hungarian</element>
+            <element>2476 translation Ukranian</element>
+            <element>2476 translation Finnish</element>
+            <element>2476 translation Norwegian</element>
+            <element>2476 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2477</URN>
+         <authorship>dubious</authorship>
+         <cpg>2477</cpg>
+         <edition-possibilities>
+            <element>2477 edition Greek</element>
+            <element>2477 edition Syriac</element>
+            <element>2477 edition Armenian</element>
+            <element>2477 edition Georgian</element>
+            <element>2477 edition Latin</element>
+            <element>2477 edition Ethiopic</element>
+            <element>2477 edition Old Russian</element>
+            <element>2477 edition Arabic</element>
+            <element>2477 edition Coptic</element>
+            <element>2477 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <label>2477</label>
+         <osce>pending</osce>
+         <textual-notes>Gennadius's reference to "sententiae obscurae" may attest to an early Latin translation of this text.</textual-notes>
+         <title-en>Proverbs and their Interpretation</title-en>
+         <title-en-Sinkewicz-abbreviation>Instructions (Prov.)</title-en-Sinkewicz-abbreviation>
+         <title-la>De proverbiis et eorundem expositionibus</title-la>
+         <translation-possibilities>
+            <element>2477 translation English</element>
+            <element>2477 translation French</element>
+            <element>2477 translation German</element>
+            <element>2477 translation Italian</element>
+            <element>2477 translation Spanish</element>
+            <element>2477 translation Russian</element>
+            <element>2477 translation Polish</element>
+            <element>2477 translation Japanese</element>
+            <element>2477 translation Chinese</element>
+            <element>2477 translation Dutch</element>
+            <element>2477 translation Flemish</element>
+            <element>2477 translation Arabic</element>
+            <element>2477 translation Serbian</element>
+            <element>2477 translation Romanian</element>
+            <element>2477 translation Slovenian</element>
+            <element>2477 translation Portuguese</element>
+            <element>2477 translation Korean</element>
+            <element>2477 translation Turkish</element>
+            <element>2477 translation Danish</element>
+            <element>2477 translation Hungarian</element>
+            <element>2477 translation Ukranian</element>
+            <element>2477 translation Finnish</element>
+            <element>2477 translation Norwegian</element>
+            <element>2477 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient>
+            <element>Syriac</element>
+            <element>Armenian</element>
+         </translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2478</URN>
+         <authorship>dubious</authorship>
+         <cpg>2478</cpg>
+         <edition-possibilities>
+            <element>2478 edition Greek</element>
+            <element>2478 edition Syriac</element>
+            <element>2478 edition Armenian</element>
+            <element>2478 edition Georgian</element>
+            <element>2478 edition Latin</element>
+            <element>2478 edition Ethiopic</element>
+            <element>2478 edition Old Russian</element>
+            <element>2478 edition Arabic</element>
+            <element>2478 edition Coptic</element>
+            <element>2478 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2478</label>
+         <osce>pending</osce>
+         <title-en>Profession of Faith</title-en>
+         <title-la>Professio fidei</title-la>
+         <translation-possibilities>
+            <element>2478 translation English</element>
+            <element>2478 translation French</element>
+            <element>2478 translation German</element>
+            <element>2478 translation Italian</element>
+            <element>2478 translation Spanish</element>
+            <element>2478 translation Russian</element>
+            <element>2478 translation Polish</element>
+            <element>2478 translation Japanese</element>
+            <element>2478 translation Chinese</element>
+            <element>2478 translation Dutch</element>
+            <element>2478 translation Flemish</element>
+            <element>2478 translation Arabic</element>
+            <element>2478 translation Serbian</element>
+            <element>2478 translation Romanian</element>
+            <element>2478 translation Slovenian</element>
+            <element>2478 translation Portuguese</element>
+            <element>2478 translation Korean</element>
+            <element>2478 translation Turkish</element>
+            <element>2478 translation Danish</element>
+            <element>2478 translation Hungarian</element>
+            <element>2478 translation Ukranian</element>
+            <element>2478 translation Finnish</element>
+            <element>2478 translation Norwegian</element>
+            <element>2478 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2479</URN>
+         <authorship>dubious</authorship>
+         <cpg>2479</cpg>
+         <edition-possibilities>
+            <element>2479 edition Greek</element>
+            <element>2479 edition Syriac</element>
+            <element>2479 edition Armenian</element>
+            <element>2479 edition Georgian</element>
+            <element>2479 edition Latin</element>
+            <element>2479 edition Ethiopic</element>
+            <element>2479 edition Old Russian</element>
+            <element>2479 edition Arabic</element>
+            <element>2479 edition Coptic</element>
+            <element>2479 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2479</label>
+         <osce>pending</osce>
+         <title-en>Excerpt</title-en>
+         <translation-possibilities>
+            <element>2479 translation English</element>
+            <element>2479 translation French</element>
+            <element>2479 translation German</element>
+            <element>2479 translation Italian</element>
+            <element>2479 translation Spanish</element>
+            <element>2479 translation Russian</element>
+            <element>2479 translation Polish</element>
+            <element>2479 translation Japanese</element>
+            <element>2479 translation Chinese</element>
+            <element>2479 translation Dutch</element>
+            <element>2479 translation Flemish</element>
+            <element>2479 translation Arabic</element>
+            <element>2479 translation Serbian</element>
+            <element>2479 translation Romanian</element>
+            <element>2479 translation Slovenian</element>
+            <element>2479 translation Portuguese</element>
+            <element>2479 translation Korean</element>
+            <element>2479 translation Turkish</element>
+            <element>2479 translation Danish</element>
+            <element>2479 translation Hungarian</element>
+            <element>2479 translation Ukranian</element>
+            <element>2479 translation Finnish</element>
+            <element>2479 translation Norwegian</element>
+            <element>2479 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2480</URN>
+         <authorship>dubious</authorship>
+         <cpg>2480</cpg>
+         <edition-possibilities>
+            <element>2480 edition Greek</element>
+            <element>2480 edition Syriac</element>
+            <element>2480 edition Armenian</element>
+            <element>2480 edition Georgian</element>
+            <element>2480 edition Latin</element>
+            <element>2480 edition Ethiopic</element>
+            <element>2480 edition Old Russian</element>
+            <element>2480 edition Arabic</element>
+            <element>2480 edition Coptic</element>
+            <element>2480 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2480</label>
+         <osce>pending</osce>
+         <title-en>Chapters of Counsel and Instructive Sermon</title-en>
+         <title-la>Capitula paraenetica et Sermo paraeneticus</title-la>
+         <translation-possibilities>
+            <element>2480 translation English</element>
+            <element>2480 translation French</element>
+            <element>2480 translation German</element>
+            <element>2480 translation Italian</element>
+            <element>2480 translation Spanish</element>
+            <element>2480 translation Russian</element>
+            <element>2480 translation Polish</element>
+            <element>2480 translation Japanese</element>
+            <element>2480 translation Chinese</element>
+            <element>2480 translation Dutch</element>
+            <element>2480 translation Flemish</element>
+            <element>2480 translation Arabic</element>
+            <element>2480 translation Serbian</element>
+            <element>2480 translation Romanian</element>
+            <element>2480 translation Slovenian</element>
+            <element>2480 translation Portuguese</element>
+            <element>2480 translation Korean</element>
+            <element>2480 translation Turkish</element>
+            <element>2480 translation Danish</element>
+            <element>2480 translation Hungarian</element>
+            <element>2480 translation Ukranian</element>
+            <element>2480 translation Finnish</element>
+            <element>2480 translation Norwegian</element>
+            <element>2480 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2481.1</URN>
+         <authorship>dubious</authorship>
+         <cpg>2481.1</cpg>
+         <edition-possibilities>
+            <element>2481.1 edition Greek</element>
+            <element>2481.1 edition Syriac</element>
+            <element>2481.1 edition Armenian</element>
+            <element>2481.1 edition Georgian</element>
+            <element>2481.1 edition Latin</element>
+            <element>2481.1 edition Ethiopic</element>
+            <element>2481.1 edition Old Russian</element>
+            <element>2481.1 edition Arabic</element>
+            <element>2481.1 edition Coptic</element>
+            <element>2481.1 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2481.1</label>
+         <osce>pending</osce>
+         <title-en>Syriac Fragments</title-en>
+         <title-la>Fragmenta syriaca</title-la>
+         <translation-possibilities>
+            <element>2481.1 translation English</element>
+            <element>2481.1 translation French</element>
+            <element>2481.1 translation German</element>
+            <element>2481.1 translation Italian</element>
+            <element>2481.1 translation Spanish</element>
+            <element>2481.1 translation Russian</element>
+            <element>2481.1 translation Polish</element>
+            <element>2481.1 translation Japanese</element>
+            <element>2481.1 translation Chinese</element>
+            <element>2481.1 translation Dutch</element>
+            <element>2481.1 translation Flemish</element>
+            <element>2481.1 translation Arabic</element>
+            <element>2481.1 translation Serbian</element>
+            <element>2481.1 translation Romanian</element>
+            <element>2481.1 translation Slovenian</element>
+            <element>2481.1 translation Portuguese</element>
+            <element>2481.1 translation Korean</element>
+            <element>2481.1 translation Turkish</element>
+            <element>2481.1 translation Danish</element>
+            <element>2481.1 translation Hungarian</element>
+            <element>2481.1 translation Ukranian</element>
+            <element>2481.1 translation Finnish</element>
+            <element>2481.1 translation Norwegian</element>
+            <element>2481.1 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2481.2</URN>
+         <authorship>dubious</authorship>
+         <cpg>2481.2</cpg>
+         <edition-possibilities>
+            <element>2481.2 edition Greek</element>
+            <element>2481.2 edition Syriac</element>
+            <element>2481.2 edition Armenian</element>
+            <element>2481.2 edition Georgian</element>
+            <element>2481.2 edition Latin</element>
+            <element>2481.2 edition Ethiopic</element>
+            <element>2481.2 edition Old Russian</element>
+            <element>2481.2 edition Arabic</element>
+            <element>2481.2 edition Coptic</element>
+            <element>2481.2 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2481.2</label>
+         <osce>pending</osce>
+         <title-en>Armenian Fragments</title-en>
+         <title-la>Fragmenta armeniaca</title-la>
+         <translation-possibilities>
+            <element>2481.2 translation English</element>
+            <element>2481.2 translation French</element>
+            <element>2481.2 translation German</element>
+            <element>2481.2 translation Italian</element>
+            <element>2481.2 translation Spanish</element>
+            <element>2481.2 translation Russian</element>
+            <element>2481.2 translation Polish</element>
+            <element>2481.2 translation Japanese</element>
+            <element>2481.2 translation Chinese</element>
+            <element>2481.2 translation Dutch</element>
+            <element>2481.2 translation Flemish</element>
+            <element>2481.2 translation Arabic</element>
+            <element>2481.2 translation Serbian</element>
+            <element>2481.2 translation Romanian</element>
+            <element>2481.2 translation Slovenian</element>
+            <element>2481.2 translation Portuguese</element>
+            <element>2481.2 translation Korean</element>
+            <element>2481.2 translation Turkish</element>
+            <element>2481.2 translation Danish</element>
+            <element>2481.2 translation Hungarian</element>
+            <element>2481.2 translation Ukranian</element>
+            <element>2481.2 translation Finnish</element>
+            <element>2481.2 translation Norwegian</element>
+            <element>2481.2 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Armenian</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2481.3</URN>
+         <authorship>dubious</authorship>
+         <cpg>2481.3</cpg>
+         <edition-possibilities>
+            <element>2481.3 edition Greek</element>
+            <element>2481.3 edition Syriac</element>
+            <element>2481.3 edition Armenian</element>
+            <element>2481.3 edition Georgian</element>
+            <element>2481.3 edition Latin</element>
+            <element>2481.3 edition Ethiopic</element>
+            <element>2481.3 edition Old Russian</element>
+            <element>2481.3 edition Arabic</element>
+            <element>2481.3 edition Coptic</element>
+            <element>2481.3 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2481.3</label>
+         <osce>pending</osce>
+         <title-en>Coptic Fragments</title-en>
+         <title-la>Fragmenta coptica</title-la>
+         <translation-possibilities>
+            <element>2481.3 translation English</element>
+            <element>2481.3 translation French</element>
+            <element>2481.3 translation German</element>
+            <element>2481.3 translation Italian</element>
+            <element>2481.3 translation Spanish</element>
+            <element>2481.3 translation Russian</element>
+            <element>2481.3 translation Polish</element>
+            <element>2481.3 translation Japanese</element>
+            <element>2481.3 translation Chinese</element>
+            <element>2481.3 translation Dutch</element>
+            <element>2481.3 translation Flemish</element>
+            <element>2481.3 translation Arabic</element>
+            <element>2481.3 translation Serbian</element>
+            <element>2481.3 translation Romanian</element>
+            <element>2481.3 translation Slovenian</element>
+            <element>2481.3 translation Portuguese</element>
+            <element>2481.3 translation Korean</element>
+            <element>2481.3 translation Turkish</element>
+            <element>2481.3 translation Danish</element>
+            <element>2481.3 translation Hungarian</element>
+            <element>2481.3 translation Ukranian</element>
+            <element>2481.3 translation Finnish</element>
+            <element>2481.3 translation Norwegian</element>
+            <element>2481.3 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Coptic</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2481.4</URN>
+         <authorship>dubious</authorship>
+         <cpg>2481.4</cpg>
+         <edition-possibilities>
+            <element>2481.4 edition Greek</element>
+            <element>2481.4 edition Syriac</element>
+            <element>2481.4 edition Armenian</element>
+            <element>2481.4 edition Georgian</element>
+            <element>2481.4 edition Latin</element>
+            <element>2481.4 edition Ethiopic</element>
+            <element>2481.4 edition Old Russian</element>
+            <element>2481.4 edition Arabic</element>
+            <element>2481.4 edition Coptic</element>
+            <element>2481.4 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2481.4</label>
+         <osce>pending</osce>
+         <title-en>Ethiopic Fragments</title-en>
+         <title-la>Fragmenta aethiopica</title-la>
+         <translation-possibilities>
+            <element>2481.4 translation English</element>
+            <element>2481.4 translation French</element>
+            <element>2481.4 translation German</element>
+            <element>2481.4 translation Italian</element>
+            <element>2481.4 translation Spanish</element>
+            <element>2481.4 translation Russian</element>
+            <element>2481.4 translation Polish</element>
+            <element>2481.4 translation Japanese</element>
+            <element>2481.4 translation Chinese</element>
+            <element>2481.4 translation Dutch</element>
+            <element>2481.4 translation Flemish</element>
+            <element>2481.4 translation Arabic</element>
+            <element>2481.4 translation Serbian</element>
+            <element>2481.4 translation Romanian</element>
+            <element>2481.4 translation Slovenian</element>
+            <element>2481.4 translation Portuguese</element>
+            <element>2481.4 translation Korean</element>
+            <element>2481.4 translation Turkish</element>
+            <element>2481.4 translation Danish</element>
+            <element>2481.4 translation Hungarian</element>
+            <element>2481.4 translation Ukranian</element>
+            <element>2481.4 translation Finnish</element>
+            <element>2481.4 translation Norwegian</element>
+            <element>2481.4 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Ethiopic</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2481.5</URN>
+         <authorship>dubious</authorship>
+         <cpg>2481.5</cpg>
+         <edition-possibilities>
+            <element>2481.5 edition Greek</element>
+            <element>2481.5 edition Syriac</element>
+            <element>2481.5 edition Armenian</element>
+            <element>2481.5 edition Georgian</element>
+            <element>2481.5 edition Latin</element>
+            <element>2481.5 edition Ethiopic</element>
+            <element>2481.5 edition Old Russian</element>
+            <element>2481.5 edition Arabic</element>
+            <element>2481.5 edition Coptic</element>
+            <element>2481.5 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2481.5</label>
+         <osce>pending</osce>
+         <title-en>Georgian Fragments</title-en>
+         <title-la>Fragmenta georgica</title-la>
+         <translation-possibilities>
+            <element>2481.5 translation English</element>
+            <element>2481.5 translation French</element>
+            <element>2481.5 translation German</element>
+            <element>2481.5 translation Italian</element>
+            <element>2481.5 translation Spanish</element>
+            <element>2481.5 translation Russian</element>
+            <element>2481.5 translation Polish</element>
+            <element>2481.5 translation Japanese</element>
+            <element>2481.5 translation Chinese</element>
+            <element>2481.5 translation Dutch</element>
+            <element>2481.5 translation Flemish</element>
+            <element>2481.5 translation Arabic</element>
+            <element>2481.5 translation Serbian</element>
+            <element>2481.5 translation Romanian</element>
+            <element>2481.5 translation Slovenian</element>
+            <element>2481.5 translation Portuguese</element>
+            <element>2481.5 translation Korean</element>
+            <element>2481.5 translation Turkish</element>
+            <element>2481.5 translation Danish</element>
+            <element>2481.5 translation Hungarian</element>
+            <element>2481.5 translation Ukranian</element>
+            <element>2481.5 translation Finnish</element>
+            <element>2481.5 translation Norwegian</element>
+            <element>2481.5 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Georgian</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2481.6</URN>
+         <authorship>dubious</authorship>
+         <cpg>2481.6</cpg>
+         <edition-possibilities>
+            <element>2481.6 edition Greek</element>
+            <element>2481.6 edition Syriac</element>
+            <element>2481.6 edition Armenian</element>
+            <element>2481.6 edition Georgian</element>
+            <element>2481.6 edition Latin</element>
+            <element>2481.6 edition Ethiopic</element>
+            <element>2481.6 edition Old Russian</element>
+            <element>2481.6 edition Arabic</element>
+            <element>2481.6 edition Coptic</element>
+            <element>2481.6 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2481.6</label>
+         <osce>pending</osce>
+         <title-en>Doubtful Arabic Fragments</title-en>
+         <title-la>Dubia arabica</title-la>
+         <translation-possibilities>
+            <element>2481.6 translation English</element>
+            <element>2481.6 translation French</element>
+            <element>2481.6 translation German</element>
+            <element>2481.6 translation Italian</element>
+            <element>2481.6 translation Spanish</element>
+            <element>2481.6 translation Russian</element>
+            <element>2481.6 translation Polish</element>
+            <element>2481.6 translation Japanese</element>
+            <element>2481.6 translation Chinese</element>
+            <element>2481.6 translation Dutch</element>
+            <element>2481.6 translation Flemish</element>
+            <element>2481.6 translation Arabic</element>
+            <element>2481.6 translation Serbian</element>
+            <element>2481.6 translation Romanian</element>
+            <element>2481.6 translation Slovenian</element>
+            <element>2481.6 translation Portuguese</element>
+            <element>2481.6 translation Korean</element>
+            <element>2481.6 translation Turkish</element>
+            <element>2481.6 translation Danish</element>
+            <element>2481.6 translation Hungarian</element>
+            <element>2481.6 translation Ukranian</element>
+            <element>2481.6 translation Finnish</element>
+            <element>2481.6 translation Norwegian</element>
+            <element>2481.6 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Arabic</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2482a</URN>
+         <authorship>dubious</authorship>
+         <cpg>2482a</cpg>
+         <edition-possibilities>
+            <element>2482a edition Greek</element>
+            <element>2482a edition Syriac</element>
+            <element>2482a edition Armenian</element>
+            <element>2482a edition Georgian</element>
+            <element>2482a edition Latin</element>
+            <element>2482a edition Ethiopic</element>
+            <element>2482a edition Old Russian</element>
+            <element>2482a edition Arabic</element>
+            <element>2482a edition Coptic</element>
+            <element>2482a edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>not extant</greek-text>
+         <label>2482a</label>
+         <osce>pending</osce>
+         <title-en>Letter to a Bishop of Antioch Concerning Patience</title-en>
+         <title-la>Epistula ad episcopum Antiochenum de patientia</title-la>
+         <translation-possibilities>
+            <element>2482a translation English</element>
+            <element>2482a translation French</element>
+            <element>2482a translation German</element>
+            <element>2482a translation Italian</element>
+            <element>2482a translation Spanish</element>
+            <element>2482a translation Russian</element>
+            <element>2482a translation Polish</element>
+            <element>2482a translation Japanese</element>
+            <element>2482a translation Chinese</element>
+            <element>2482a translation Dutch</element>
+            <element>2482a translation Flemish</element>
+            <element>2482a translation Arabic</element>
+            <element>2482a translation Serbian</element>
+            <element>2482a translation Romanian</element>
+            <element>2482a translation Slovenian</element>
+            <element>2482a translation Portuguese</element>
+            <element>2482a translation Korean</element>
+            <element>2482a translation Turkish</element>
+            <element>2482a translation Danish</element>
+            <element>2482a translation Hungarian</element>
+            <element>2482a translation Ukranian</element>
+            <element>2482a translation Finnish</element>
+            <element>2482a translation Norwegian</element>
+            <element>2482a translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Arabic</element></translations-ancient>
+         <type>texts</type>
+      </element>
+      <element>
+         <URN>tag:evagriusponticus.net,2015:cpg2483</URN>
+         <attribution-notes>Not directly Evagrius, but a collection of his sayings compiled by his students (cf. Apophthegmata, CPG 2462).</attribution-notes>
+         <authorship>derivative</authorship>
+         <cpg>2483</cpg>
+         <edition-possibilities>
+            <element>2483 edition Greek</element>
+            <element>2483 edition Syriac</element>
+            <element>2483 edition Armenian</element>
+            <element>2483 edition Georgian</element>
+            <element>2483 edition Latin</element>
+            <element>2483 edition Ethiopic</element>
+            <element>2483 edition Old Russian</element>
+            <element>2483 edition Arabic</element>
+            <element>2483 edition Coptic</element>
+            <element>2483 edition Sogdian</element>
+         </edition-possibilities>
+         <greek-text>extant</greek-text>
+         <incipit>Ἄτεχνος κυβερνήτης ἕτοιμος ναυαγία καὶ ἀνεπιστήμων ἡγούμενος ἀπόλεια μαθητών.</incipit>
+         <label>2483</label>
+         <osce>pending</osce>
+         <title-el>Κεφάλαια τῶν μαθητῶν Εὐαγρίου</title-el>
+         <title-en>199 Chapters of Evagrius's Disciples</title-en>
+         <title-la>Capita cic auctoribus discipulis Evagrii</title-la>
+         <translation-possibilities>
+            <element>2483 translation English</element>
+            <element>2483 translation French</element>
+            <element>2483 translation German</element>
+            <element>2483 translation Italian</element>
+            <element>2483 translation Spanish</element>
+            <element>2483 translation Russian</element>
+            <element>2483 translation Polish</element>
+            <element>2483 translation Japanese</element>
+            <element>2483 translation Chinese</element>
+            <element>2483 translation Dutch</element>
+            <element>2483 translation Flemish</element>
+            <element>2483 translation Arabic</element>
+            <element>2483 translation Serbian</element>
+            <element>2483 translation Romanian</element>
+            <element>2483 translation Slovenian</element>
+            <element>2483 translation Portuguese</element>
+            <element>2483 translation Korean</element>
+            <element>2483 translation Turkish</element>
+            <element>2483 translation Danish</element>
+            <element>2483 translation Hungarian</element>
+            <element>2483 translation Ukranian</element>
+            <element>2483 translation Finnish</element>
+            <element>2483 translation Norwegian</element>
+            <element>2483 translation Swedish</element>
+         </translation-possibilities>
+         <translations-ancient><element>Syriac</element></translations-ancient>
+         <type>texts</type>
+      </element>
+   </items>
+</root>

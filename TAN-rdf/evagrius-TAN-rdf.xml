@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../TAN-1-dev/schemas/TAN-rdf.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="../../TAN-1-dev/schemas/TAN-rdf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-rdf xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-x:evagrius" TAN-version="1">
+<TAN-rdf xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-rdf:evagrius" TAN-version="1">
     <head>
         <name>Assertions about matters discussed in the Evagrius TAN collection</name>
         <rights-excluding-sources include="HEAD"/>
@@ -10,12 +10,15 @@
             <name>Alignment of the works of Evagrius</name>
             <location href="../TAN-A-div/HEAD.evagrius.TAN-A-div.xml" when-accessed="2015-12-23T13:37:42.858-05:00"/>
         </inclusion>
+        <key>
+            <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
+            <name>Works by Evagrius</name>
+            <location
+                href="../TAN-key/evagrius-works-TAN-key.xml"
+                when-accessed="2016-03-29T12:27:10.364-04:00"/>
+        </key>
         <declarations>
-            <work xml:id="kg">
-                <IRI>tag:evagriusponticus.net,2015:cpg2432</IRI>
-                <IRI>tag:kalvesmaki.com,2014:cpg2432</IRI>
-                <name xml:lang="eng">The Kephalaia Gnostika, written by Evagrius Ponticus</name>
-            </work>
+            <work xml:id="kg" which="KG"/>
             <work xml:id="kg-comm-stang">
                 <IRI>tag:evagriusponticus.net,2015:cpg2432-notes,eng-Stang-et-al</IRI>
                 <name>Notes by Charles Stang et al. to the Kephalaia gnostika</name>

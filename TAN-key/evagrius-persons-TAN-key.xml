@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-key.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-key.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-key xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:evagrius-persons"
+    TAN-version="1">
+    <head>
+        <name>Persons associated with Evagrius of Pontus</name>
+        <rights-excluding-sources include="HEAD"/>
+        <inclusion xml:id="HEAD">
+            <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
+            <name>Alignment of the works of Evagrius</name>
+            <location href="../TAN-A-div/HEAD.evagrius.TAN-A-div.xml"
+                when-accessed="2015-12-23T13:37:42.858-05:00"/>
+        </inclusion>
+        <declarations/>
+        <agent include="HEAD"/>
+        <role include="HEAD"/>
+        <change when="2016-03-29" who="kalvesmaki">started file</change>
+    </head>
+    <body affects-element="person">
+        <item>
+            <IRI>http://dbpedia.org/resource/Evagrius_Ponticus</IRI>
+            <IRI>tag:evagriusponticus.net,2015:person:evagrius</IRI>
+            <IRI>http://viaf.org/viaf/58103843</IRI>
+            <name xml:lang="lat">Evagrius Ponticus</name>
+            <name xml:lang="eng">Evagrius of Pontus</name>
+        </item>
+        <item>
+            <IRI>urn:uuid:df3d4e89-bee7-4bf9-b13e-48408fc6e238</IRI>
+            <name>compilers of the Apophthegmata</name>
+        </item>
+        <item>
+            <IRI>urn:uuid:378c1eac-93d7-4bdf-9208-75d5ffcdd5a6</IRI>
+            <name>compilers of the Disciples</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:person:loukios</IRI>
+            <name>Loukios</name>
+            <name xml:lang="lat">Lucius</name>
+        </item>
+    </body>
+</TAN-key>
