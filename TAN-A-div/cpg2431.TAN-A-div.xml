@@ -80,6 +80,10 @@
          <div-ref src="gn" ref="46"/>
          <div-ref strength="0.5" src="lxx" ref="Exod 26:35"/>
       </align>
+      <align exclusive="1">
+         <div-ref src="syr-S2-17165" ref="17"/>
+         <div-ref src="lxx" ref="Wis 11:20, Eccl 3 1"/>
+      </align>
       <align>
          <div-ref src="gn" ref="20"/>
          <div-ref strength="0.5" src="lxx" ref="Lev 11:2 - Lev 11:19"/>
