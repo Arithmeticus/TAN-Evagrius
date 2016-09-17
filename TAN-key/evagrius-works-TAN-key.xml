@@ -360,6 +360,8 @@
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2441:version:syr</IRI>
+            <name>Syriac translation of Hypotyposis</name>
+            <name>Syriac translation of Foundations</name>
             <name>Syriac translation of Ὑπωτύπωσις ἢ Τῶν κατὰ μοναχῶν πραγμάτων τὰ αἰτία, καὶ ἡ καθ᾿
                 ἡσυχίαν τούτων παράθεσις</name>
         </item>

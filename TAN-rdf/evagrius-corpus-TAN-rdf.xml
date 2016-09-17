@@ -42,8 +42,7 @@
             <work xml:id="cpg2444" which="Spiritual Chapters Alphabetized"/>
             <work xml:id="cpg2445" which="Assorted Chapters"/>
             <work xml:id="cpg2446" which="Six Chapters"/>
-            <work xml:id="cpg2447"
-                which="Treatise to the Monk Eulogius or To Eulogius on the Confession of&#xA;                Thoughts and Counsel in Their Regard"/>
+            <work xml:id="cpg2447" which="Eul."/>
             <work xml:id="cpg2448" which="On the Vices Opposed to the Virtues"/>
             <work xml:id="cpg2449" which="On Masters and Disciples"/>
             <work xml:id="cpg2450" which="On the [Evil] Thoughts"/>
@@ -139,8 +138,7 @@
             <version xml:id="cpg2438-syr" which="Syriac translation of Ad Mel."/>
             <version xml:id="cpg2439-syr" which="Syriac translation of Ep. fid."/>
             <version xml:id="cpg2440-syr" which="Syriac translation of Protrepticus"/>
-            <version xml:id="cpg2441-syr"
-                which="Syriac translation of Ὑπωτύπωσις ἢ Τῶν κατὰ μοναχῶν πραγμάτων τὰ αἰτία, καὶ ἡ καθ᾿&#xA;                ἡσυχίαν τούτων παράθεσις"/>
+            <version xml:id="cpg2441-syr" which="Syriac translation of Foundations"/>
             <version xml:id="cpg2443-syr" which="Syriac translation of Sent. alph. I"/>
             <version xml:id="cpg2443-hye" which="Armenian translation of Sent. alph. I"/>
             <version xml:id="cpg2444-syr" which="Syriac translation of Sent. alph. II"/>
@@ -244,6 +242,11 @@
                 <name>has incipit</name>
                 <desc>The traditional opening words for a particular work or version.</desc>
             </verb>
+            
+            <modal xml:id="possibly" which="possibly"/>
+            <modal xml:id="probably" which="probably"/>
+            <modal xml:id="improbably" which="improbably"/>
+            <modal xml:id="not" which="not"/>
 
             <place xml:id="eastern-mediterranean">
                 <IRI>http://dbpedia.org/resource/Eastern_Mediterranean</IRI>

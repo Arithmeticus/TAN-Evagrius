@@ -10,7 +10,7 @@
             <title/>
          </titleStmt>
          <publicationStmt>
-            <p part="N"/>
+            <p part="N" />
          </publicationStmt>
          <sourceDesc default="false">
             <p part="N"/>
@@ -45,6 +45,22 @@
          <name>Dysinger's handtyped Greek</name>
          <desc>Initial, base digital text used as the starting point for an accurate rendition of
             the source</desc>
+      </see-also>
+      <see-also>
+         <relationship which="class 2"/>
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-LM.001</IRI>
+         <name>TAN-T model.TAN-LM.xml</name>
+         <location
+            href="TAN-LM/CPG2430-grc-Guillaumonts.lm.xml"
+            when-accessed="2016-04-10T21:58:47.793-04:00"/>
+      </see-also>
+      <see-also>
+         <relationship which="class 2"/>
+         <IRI>tag:kalvesmaki@gmail.com,2014:cpg2430-TAN-A-div-et-al-1</IRI>
+         <name>Alignment of Evagrius's Praktikos and works cited</name>
+         <location
+            href="TAN-A-div/cpg2430.TAN-A-div.xml"
+            when-accessed="2016-04-11T13:41:49.719-04:00"/>
       </see-also>
       <declarations>
          <work>

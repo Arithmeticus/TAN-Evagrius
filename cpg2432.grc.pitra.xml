@@ -62,7 +62,6 @@
     <declarations>
       <work include="WORK"/>
       <div-type include="WORK"/>
-      <div-type include="WORK"/>
       <token-definition which="general-words-only-1"/>
       
       <filter/>

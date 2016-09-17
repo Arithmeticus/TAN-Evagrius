@@ -26,7 +26,7 @@
       </source>
       <see-also>
          <relationship which="context"/>
-         <IRI>tag:kalvesmaki.com,2014:tan-x:evagrius</IRI>
+         <IRI>tag:kalvesmaki.com,2014:tan-rdf:evagrius</IRI>
          <name>Assertions about matters discussed in the Evagrius TAN collection</name>
          <location href="../TAN-rdf/evagrius-TAN-rdf.xml" when-accessed="2015-12-23T14:40:30.787-05:00"/>
       </see-also>
