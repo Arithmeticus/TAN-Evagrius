@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-rdf.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-rdf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-rdf xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-rdf:evagrius-corpus"
-    TAN-version="1">
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-c.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-c.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-c xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-rdf:evagrius-corpus"
+    TAN-version="1 dev">
     <head>
         <name>Assertions about the literary corpus of Evagrius of Pontus</name>
+        <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-c/evagrius-corpus-TAN-c.xml"/>
         <rights-excluding-sources include="HEAD"/>
         <inclusion xml:id="HEAD">
             <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
@@ -213,6 +214,7 @@
             <person xml:id="apop-editors" which="compilers of the Apophthegmata"/>
             <person xml:id="disc-editors" which="compilers of the Disciples"/>
             <person xml:id="Loukios" which="Loukios"/>
+            <person xml:id="Nilus" which="Nilus of Ancyra"></person>
 
             <verb xml:id="wrote" object-datatype="IDREFS">
                 <IRI>http://rdaregistry.info/Elements/u/P60663</IRI>
@@ -242,7 +244,7 @@
                 <name>has incipit</name>
                 <desc>The traditional opening words for a particular work or version.</desc>
             </verb>
-            
+
             <modal xml:id="possibly" which="possibly"/>
             <modal xml:id="probably" which="probably"/>
             <modal xml:id="improbably" which="improbably"/>
@@ -269,7 +271,7 @@
             nocpg02 nocpg03 nocpg04 nocpg05">
             <when from="0382-01-01" to="0399-05-01"/>
         </claim>
-        <claim adverb="possibly" verb="wrote" object="2482"/>
+        <claim adverb="possibly" verb="wrote" object="cpg2482"/>
         <claim adverb="improbably" verb="wrote"
             object="cpg2446 cpg2449 cpg2465 cpg2466 cpg2467 
             cpg2468 cpg2469 cpg2470 cpg2471 cpg2472 cpg2473 cpg2474 cpg2475 cpg2476 
@@ -279,6 +281,7 @@
         <claim subject="apop-editors" verb="wrote" object="cpg2462"/>
         <claim subject="disc-editors" verb="wrote" object="cpg2483"/>
         <claim subject="Loukios" verb="wrote" object="nocpg01"/>
+        <claim subject="Nilus" adverb="possibly" verb="wrote" object="cpg2449"></claim>
 
         <!-- languages -->
         <claim
@@ -293,6 +296,27 @@
         <claim subject="cpg2481.4" adverb="probably" verb="written-in" object="gez"/>
         <claim subject="cpg2481.5" adverb="probably" verb="written-in" object="kat"/>
         <claim subject="cpg2481.6" adverb="probably" verb="written-in" object="ara"/>
+
+        <claim
+            subject="nocpg01-ara cpg2430-ara cpg2432-ara cpg2447-ara cpg2449-ara cpg2451-ara cpg2452-ara cpg2461-ara cpg2463-ara cpg2464a-ara cpg2464-ara cpg2482a-ara"
+            verb="written-in" object="ara"/>
+        <claim
+            subject="cpg2430-syr-S1 cpg2430-syr-S2 cpg2430-syr-S3 nocpg02-syr cpg2431-syr cpg2432-syr cpg2433-syr cpg2434-syr cpg2435-syr cpg2436-syr cpg2437-syr cpg2438-syr cpg2439-syr cpg2440-syr cpg2441-syr cpg2443-syr cpg2444-syr cpg2445-syr cpg2447-syr cpg2448-syr cpg2449-syr cpg2450-syr cpg2451-syr cpg2452-syr cpg2453-syr cpg2454-syr cpg2457-syr cpg2459-syr cpg2460-syr cpg2469-syr cpg2470-syr cpg2475-syr cpg2477-syr cpg2483-syr"
+            verb="written-in" object="syr"/>
+        <claim
+            subject="nocpg02-hye cpg2430-hye cpg2431-hye cpg2432-hye cpg2433-hye cpg2434-hye cpg2435-hye cpg2436-hye cpg2437-hye cpg2443-hye cpg2447-hye cpg2448-hye cpg2449-hye cpg2451-hye cpg2452-hye cpg2459-hye cpg2470-hye cpg2477-hye"
+            verb="written-in" object="hye"/>
+        <claim
+            subject="cpg2430-lat cpg2431-lat cpg2434-lat cpg2435-lat cpg2436-lat cpg2449-lat cpg2451-lat"
+            verb="written-in" object="lat"/>
+        <claim subject="cpg2430-gez cpg2435-gez cpg2447-gez cpg2451-gez cpg2452-gez"
+            verb="written-in" object="gez"/>
+        <claim
+            subject="cpg2430-kat cpg2434-kat cpg2435-kat cpg2447-kat cpg2448-kat cpg2451-kat cpg2452-kat"
+            verb="written-in" object="kat"/>
+        <claim subject="cpg2434-sog" verb="written-in" object="sog"/>
+        <claim subject="cpg2435-cop cpg2451-cop cpg2461-cop" verb="written-in" object="cop"/>
+        <claim subject="cpg2451-rus" verb="written-in" object="rus"/>
 
         <!-- incipits -->
         <claim subject="cpg2430" verb="has-incipit">
@@ -464,4 +488,4 @@
 
 
     </body>
-</TAN-rdf>
+</TAN-c>

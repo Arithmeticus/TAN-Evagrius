@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001">
+<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" TAN-version="1 dev" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -61,6 +61,7 @@
       </inclusion>
       <source>
          <IRI>http://lccn.loc.gov/a68000023</IRI>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:guillaumont-1958</IRI>
          <name>Guillaumont, Antoine. Les six centuries des “Kephalaia gnostica”: Édition critique de
             la version syriaque commune et édition d’une nouvelle version syriaque, intégrale, avec
             une double traduction française; Kephalaia gnostica. Patrologia Orientalis 28. Paris:
@@ -96,7 +97,7 @@
    <text>
       <body xml:lang="syr" in-progress="false">
          <div type="century" n="I" part="N" org="uniform" sample="complete">
-            <div type="title" n="t" part="N" org="uniform" sample="complete"> <p part="N">ܡܐܬܐ ܩܕܡܝܬܐ܀ </p> </div>
+            <div type="title" n="title" part="N" org="uniform" sample="complete"> <p part="N">ܡܐܬܐ ܩܕܡܝܬܐ܀ </p> </div>
             <div type="chapter" n="1" part="N" org="uniform" sample="complete"> <p part="N">ܐ — ܠܛܒܬܐ ܩܕܡܝܬܐ ܠܝܬ ܣܩܘܒܠܐ. ܡܛܠ ܕܒܐܝܬܘܬܗ̇ ܐܝܬܝܗ̇ ܛܒܬܐ <lb/> ܠܐܝܬܘܬܐ ܕܝܢ ܠܝܬ ܕܠܩܘܒܠܐ܀ </p> </div>
             <div type="chapter" n="2" part="N" org="uniform" sample="complete"> <p part="N">ܒ — ܣܩܘܒܠܝܘܬܐ ܒܡܘ̈ܙܓܐ ܐܝܬܝܗ̇. ܡܘ̈ܙܓܐ ܕܝܢ ܒܦܓܪ̈ܐ ܐܝܬܝܗܘܢ. <lb/> ܣܩܘܒܠܝܘܬܐ ܗܟܝܠ ܒܒܪ̣̈ܝܬܐ ܐܝܬܝܗ̇܀ </p> </div>
             <div type="chapter" n="3" part="N" org="uniform" sample="complete"> <p part="N">ܓ — ܟܠ ܟܝܢܐ ܡܠܝܠܐ܆ ܐܝܬܘܬܐ ܝܕܘܥܬܢܝܬܐ ܐܝܬܘܗܝ. ܐܠܗܐ ܕܝܢ <lb/> ܡܬܝܕܥܢܐ ܐܝܬܘܗܝ. ܠܐ ܡܬܦܠܓܢܐܝܬ ܡ̇ܢ ܫ̇ܪܐ ܒܐܝܠܝܢ ܕܫ̇ܪܐ܆ ܐܝܟ ܐܘܡܢܘܬܐ <lb/> ܐܪܥܢܝܬܐ. ܡܝܬܪ ܕܝܢ ܡܢ ܗܕܐ܆ ܒܗ̇ܝ ܕܩܢܘܡܐܝܬ ܐܝܬܘܗܝ܀ </p> </div>
@@ -190,7 +191,7 @@
             <div type="epilogue" n="epi" part="N" org="uniform" sample="complete"> <p part="N"> ܫܠ̣ܡ̇ܬ ܩܕܡܝܬܐ܀ </p> </div>
          </div>
          <div type="century" n="II" part="N" org="uniform" sample="complete">
-            <div type="title" n="t" part="N" org="uniform" sample="complete"> <pb n="61"/> <p part="N"> ܡܐܬܐ ܕܬܪ̈ܬܝܢ܀ </p> </div>
+            <div type="title" n="title" part="N" org="uniform" sample="complete"> <pb n="61"/> <p part="N"> ܡܐܬܐ ܕܬܪ̈ܬܝܢ܀ </p> </div>
             <div type="chapter" n="1" part="N" org="uniform" sample="complete"> <p part="N">ܐ — ܡܚܙܝܬܐ ܕܛܒܘܬܗ ܕܐܠܗܐ: ܘܕܚܝܠܗ ܘܕܚܟܡܬܗ܆ ܗܠܝܢ ܕܩܕܡܝܬ <lb/> ܡܢ ܠܐ ܡܕܡ ܠܡܕܡ ܗ̣ܘܘ܀ </p> </div>
             <div type="chapter" n="2" part="N" org="uniform" sample="complete"> <p part="N">ܒ — ܒܬܐܘܪܝܐ ܟܝܢܝܬܐ ܕܬܪ̈ܬܝܢ܆ ܚܟܡܬܗ ܕܡܫܝܚܐ ܡܠ̣ܝܬ ܦܘܪ̈ܫܢܐ <lb/> ܚܙ̇ܝܢܢ܇ ܗ̇ܝ ܕܒܗ̇ ܐܬܚܫ̇ܚ ܘܒܪ̣ܐ ܥܠܡ̈ܐ. ܒܝܕܥܬܐ ܕܝܢ ܕܥܠ ܡܠܝ̈ܠܐ܆ ܥܠ <lb/> ܩܢܘܡܗ ܝܠ̣ܦܢܢ܀ </p> </div>
             <div type="chapter" n="3" part="N" org="uniform" sample="complete"> <p part="N">ܓ — ܩܕܡܝܬܐ ܕܟܘܠܗܝܢ ܝܕ̈ܥܬܐ܆ ܝܕܥܬܐ ܕܚܕܝܘܬܐ ܘܕܝܚܝܕܝܘܬܐ ܐܝܬܝܗ̇. <lb/> ܘܡܢ ܟܠܗ̇ ܬܐܘܪܝܐ ܟܝܢܝܬܐ ܩܫܝܫܐ ܝܕܥܬܐ ܕܪܘܚ. ܗܕܐ ܓܝܪ ܠܘܩܕܡ ܡܢ ܒܪܘܝܐ <lb/> ܢܦܩ̣ܬ̇܆ ܘܥܡ ܟܝܢܐ ܕܐܬܠܘ̇ܝ ܠܗ̇ ܕܢܚ̣ܬ̇܀ </p> </div>
@@ -284,7 +285,7 @@
             <div type="epilogue" n="epi" part="N" org="uniform" sample="complete"> <p part="N"> ܫܠ̣ܡ̇ܬ ܕܬܪ̈ܬܝܢ܀ </p> </div>
          </div>
          <div type="century" n="III" part="N" org="uniform" sample="complete">
-            <div type="title" n="t" part="N" org="uniform" sample="complete"> <p part="N"> ܡܐܬܐ ܕܬܠܬ܀ </p> </div>
+            <div type="title" n="title" part="N" org="uniform" sample="complete"> <p part="N"> ܡܐܬܐ ܕܬܠܬ܀ </p> </div>
             <div type="chapter" n="1" part="N" org="uniform" sample="complete"> <p part="N">ܐ — ܐܒܐ ܒܠܚܘܕܘܗܝ ܝ̇ܕܥ ܠܡܫܝܚܐ. ܘܒܪܐ ܒܠܚܘܕܘܗܝ ܠܐܒܐ. ܗܢܐ ܡ̇ܢ܆ <lb/> ܐܝܟ ܕܠܝܚܝܕܝܐ ܒܝܚܝܕܝܘܬܐ. ܗܢܐ ܕܝܢ܆ ܐܝܟ ܕܠܚܕܝܘܬܐ ܘܝܚܝܕܝܘܬܐ܀ </p> </div>
             <div type="chapter" n="2" part="N" org="uniform" sample="complete"> <p part="N">ܒ — ܡܫܝܚܐ ܐܝܬܘܗܝ܆ ܗ̇ܘ ܕܒܠܚܘܕܘܗܝ ܐܝܬ ܠܗ ܒܗ ܠܝܚܝܕܝܘܬܐ܇ <lb/> ܘܕܝ̣ܢܐ ܕܡܠܝ̈ܠܐ ܩܒ̇ܠ܀ </p> </div>
             <div type="chapter" n="3" part="N" org="uniform" sample="complete"> <p part="N">ܓ — ܝܚܝܕܝܘܬܐ ܐܝܬܝܗ̇܆ ܗ̇ܘ ܕܗܫܐ ܡܢ ܡܫܝܚܐ ܒܠܚܘܕ ܡܬܝܕܥ. ܗ̇ܘ <lb/> ܕܝܕܥܬܗ ܐܝܬܝܝܬܐ ܗܝ܀ </p> </div>
@@ -379,7 +380,7 @@
          </div>
 
          <div type="century" n="IV" part="N" org="uniform" sample="complete">
-            <div type="title" n="t" part="N" org="uniform" sample="complete"> <pb n="137"/> <p part="N"> ܡܐܬܐ ܕܐܪܒܥ܀ </p> </div>
+            <div type="title" n="title" part="N" org="uniform" sample="complete"> <pb n="137"/> <p part="N"> ܡܐܬܐ ܕܐܪܒܥ܀ </p> </div>
             <div type="chapter" n="1" part="N" org="uniform" sample="complete"> <p part="N">ܐ — ܐܠܗܐ ܢ̣ܨܒ ܠܗ ܡܠܝ̈ܠܐ. ܪܒ̣ܝܬ̇ ܒܗܘܢ ܬܘܒ ܚܟܡܬܗ܆ ܟܕ ܩ̇ܪܝܐ <lb/> ܠܗܘܢ ܟܬܒ̈ܐ ܕܟܠ ܦܘܪܫܢ܀ </p> </div>
             <div type="chapter" n="2" part="N" org="uniform" sample="complete"> <p part="N">ܒ — ܝܕܝܥܘܬܗ ܕܐܠܗܐ܆ ܒܐܝܠܝܢ ܕܩܕܝܡܝܝܢ ܒܗܘܝܗܘܢ ܐܝܬܝܗ̇ ܠܐ ܝܕܝܥܘܬܗ <lb/> ܕܝܢ ܒܡܫܝܚܗ ܐܝܬܝܗ̇܀ </p> </div>
             <div type="chapter" n="3" part="N" org="uniform" sample="complete"> <p part="N">ܓ — ܝܕܝܥܘܬܗ ܕܡܫܝܚܐ܆ ܒܐܝܠܝܢ ܕܬܪ̈ܝܢܝܢ ܒܗܘܝܗܘܢ ܐܝܬܝܗ̇. ܠܐ ܝܕܝܥܘܬܗ <lb/> ܕܝܢ ܒܐܒܘܗܝ ܐܝܬܝܗ̇܀ </p> </div>
@@ -473,7 +474,7 @@
             <div type="epilogue" n="epi" part="N" org="uniform" sample="complete"> <p part="N"> ܫ̣ܠܡ̇ܬ ܡܐܬܐ ܕܐܪܒܥ܀ <pb n="177"/></p> </div>
          </div>
          <div type="century" n="V" part="N" org="uniform" sample="complete">
-            <div type="title" n="t" part="N" org="uniform" sample="complete"> <p part="N"> ܡܐܬܐ ܕܚܡܫ܀ </p> </div>
+            <div type="title" n="title" part="N" org="uniform" sample="complete"> <p part="N"> ܡܐܬܐ ܕܚܡܫ܀ </p> </div>
             <div type="chapter" n="1" part="N" org="uniform" sample="complete"> <p part="N">ܐ — ܐܕܡ ܛܘܦܣܐ ܗܘ ܕܡܫܝܚܐ. ܚܘܐ ܕܝܢ ܕܟܝܢܐ ܡܠܝܠܐ܇ ܕܡܛܠܬܗ̇ <lb/> ܡܫܝܚܐ ܢ̣ܦܩ ܡܢ ܦܪܕܝܣܗ܀ </p> </div>
             <div type="chapter" n="2" part="N" org="uniform" sample="complete"> <p part="N">ܒ — ܫܡܘ̈ܥܐ ܕܥܕܬܐ ܡܬܪܓܫܢܝܬܐ܆ ܒܕܘܟܝ̈ܬܐ ܒܠܚܘܕ ܡܬܦ̣ܪܫܝܢ ܡܢ ܚܕܕ̈ܐ. <lb/> ܗܠܝܢ ܕܝܢ ܕܡܬܝܕܥܢܝܬܐ ܕܠܘܩܒܠ ܗܕܐ܆ ܒܕܘܟܝ̈ܬܐ ܘܒܓܘ̈ܫܡܐ܀ </p> </div>
             <div type="chapter" n="3" part="N" org="uniform" sample="complete"> <p part="N">ܓ — ܐܝܟܢܐ ܕܐܝܠܝܢ ܕܥܡܪܝܢ ܒܥܠܡܐ ܗܢܐ܆ ܚܙܬܐ ܩܠܝܠ ܙܥܘܪܬܐ ܫ̇ܩܠܝܢ <lb/> ܥܠ ܥܠܡܐ ܕܥܬܝܕ܆ ܗܟܢܐ ܐܝܠܝܢ ܕܒܥܠܡܐ ܐܚܪܝܐ ܐܝܬܝܗܘܢ܇ ܨܡ̈ܚܐ ܡܕܡ <lb/> ܢܗܝܪ̈ܐ ܚ̇ܙܝܢ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ܀ </p> </div>
@@ -567,7 +568,7 @@
             <div type="epilogue" n="epi" part="N" org="uniform" sample="complete"> <p part="N"> ܫ̣ܠܡ̇ܬ ܡܐܬܐ ܕܚܡܫ܀ </p> </div>
          </div>
          <div type="century" n="VI" part="N" org="uniform" sample="complete">
-            <div type="title" n="t" part="N" org="uniform" sample="complete"> <pb n="217"/> <p part="N"> ܡܐܬܐ ܕܫܬ܀ </p> </div>
+            <div type="title" n="title" part="N" org="uniform" sample="complete"> <pb n="217"/> <p part="N"> ܡܐܬܐ ܕܫܬ܀ </p> </div>
             <div type="chapter" n="1" part="N" org="uniform" sample="complete"> <p part="N">ܐ — ܕܡܢܐ ܗܝ ܬܐܘܪܝܐ ܕܗܘܝ̈ܐ܆ ܟܬܒܐ ܐܠܗܝܐ ܠܐ ܐܘܕܥ. ܕܐܝܟܢܐ ܕܝܢ ܐܢܫ <lb/> ܡܬܩ̇ܪܒ ܠܗ̇ ܒܝܕ ܦܘܠܚܢܐ ܕܦܘ̈ܩܕܢܐ ܘܒܝܕ ܝܘ̈ܠܦܢܐ ܫܪܝܪ̈ܐ܆ ܓܠܝܐܝܬ ܐܠܦ܀ </p> </div>
             <div type="chapter" n="2" part="N" org="uniform" sample="complete"> <p part="N">ܒ — ܥܦܝܦܬܐ ܗܝ ܬܐܘܪܝܐ ܕܥܠܡܐ ܗܢܐ. ܚܕܐ ܓܠܝܬܐ ܘܥܒܝܬܐ܆ ܘܐܚܪܬܐ <lb/> ܡܬܝܕܥܢܝܬܐ ܘܪܘܚܢܝܬܐ. ܘܠܘܬ ܬܐܘܪܝܐ ܩܕܡܝܬܐ ܡܬܩ̇ܪܒܝܢ ܐܢܫ̈ܐ ܥ̇ܘ̈ܠܐ ܘܫܐܕ̈ܐ. <lb/> ܠܘܬ ܬܪܝܢܝܬܐ ܕܝܢ܆ ܐܢܫ̈ܐ ܙܕܝܩ̈ܐ ܘܡܠܐܟ̈ܐ ܕܐܠܗܐ. ܘܐܝܟܢܐ ܕܝܬܝܪ ܡܢ ܐܢܫ̈ܐ ܙܕܝܩ̈ܐ: <lb/> ܡܠܐܟ̈ܐ ܝ̇ܕܥܝܢ ܬܐܘܪܝܐ ܪܘܚܢܝܬܐ܆ ܗܟܢܐ ܐܝܬܝܪ ܡܢ ܐܢܫ̈ܐ ܥ̇ܘ̈ܠܐ܇ ܫܐܕ̈ܐ ܝ̇ܕܥܝܢ <lb/> ܠܬܐܘܪܝܐ ܥܒܝܬܐ. ܗ̇ܝ ܕܐܦ ܠܐܢܫܝ̈ܢ ܡܢ ܕܝܠܗܘܢ ܡܣܬܒ̣ܪܝܢ ܕܝ̇ܗܒܝܢ ܠܗ̇. <lb/> ܝ̣ܠܦܢ ܚܢܢ ܕܝܢ ܡܢ ܟܬܒܐ ܐܠܗܝܐ܆ ܕܐܦ ܡܠܐܟ̈ܐ ܩܕܝ̈ܫܐ ܗ̣ܝ ܗܕܐ ܥ̇ܒܕܝܢ܀ </p> </div>
             <div type="chapter" n="3" part="N" org="uniform" sample="complete"> <p part="N">ܓ — ܥܡܡ̈ܐ ܡܬܪ̈ܓܫܢܐ ܒܕܘܟܝ̈ܬܐ ܡܬܦ̣ܪܫܝܢ ܡܢ ܚܕܕ̈ܐ܆ ܘܒܢܡܘ̈ܣܐ <lb/> ܘܒܠܫ̈ܢܐ ܘܒܐܣܟܡ̈ܐ. ܐܝܬ ܕܝܢ ܐܡܬܝ ܕܐܦ ܒܡܘ̈ܙܓܐ. ܡܬܝ̈ܕܥܢܐ ܕܝܢ ܘܩܕܝ̈ܫܐ܆ </p> <pb n="219"/> <p part="N"> ܒܥܠܡ̈ܐ ܘܒܓܘܫܡ̈ܐ ܘܒܝ̈ܕܥܬܐ. ܐܡ̇ܪܝܢ ܕܝܢ ܕܐܦ ܒܠܫ̈ܢܐ. ܘܐܒܐ ܡ̇ܢ ܕܩܕܡܝ̈ܐ <lb/> ܐܕܡ. ܕܬܪ̈ܝܢܐ ܕܝܢ ܡܫܝܚܐ܇ ܗ̇ܘ ܕܐܝܬܘܗܝ ܛܘܦܣܗ ܐܕܡ܀ </p> </div>

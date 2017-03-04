@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-key.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-key.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-key.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-key.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TAN-key xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:evagrius-works"
-    TAN-version="1">
+    TAN-version="1 dev">
     <head>
         <name>Works by Evagrius</name>
         <rights-excluding-sources include="HEAD"/>
@@ -50,15 +50,15 @@
             <name>Def.</name>
             <name xml:lang="eng">Definitions</name>
             <desc>Twelve brief chapters culled from Doctrina Patrum §34. See Casiday, Evagrius
-                Ponticus 183&amp;ndash;184</desc>
+                Ponticus 183–84</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:nocpg04</IRI>
             <name>Exc</name>
             <name xml:lang="eng">Excerpts</name>
-            <desc>Paris BN 2748, ff. 153&amp;ndash;83v, published by Muyldermans. Of the 69
-                chapters, 53 are drawn from other chapters in the corpus. See Casiday, Evagrius
-                Ponticus 172&amp;ndash;173</desc>
+            <desc>Paris BN 2748, ff. 153–83v, published by Muyldermans. Of the 69 chapters, 53 are
+                drawn from other chapters in the corpus. See Casiday, Evagrius Ponticus
+                172–73</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:nocpg05</IRI>
@@ -120,7 +120,6 @@
             <name xml:lang="lat">Gnosticus</name>
             <desc>Second part of the trilogy (see Praktikos), comprising 50 chapters. In this
                 treatise gnostika, mental or spiritual formation, is discussed.</desc>
-            <desc>About 60% of the Greek survives.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2431:version:lat</IRI>
@@ -145,9 +144,8 @@
                 frequently considered to be behind the condemnations of Origen in 553.</desc>
             <desc>Because of how little survives in Greek, the Syriac translations are key,
                 especially the so-called unexpurgated version (frequently called S2). It is unclear
-                whether the sole Arabic MS (Coptic Patriarchate MS Theol. 152, fol.
-                147r&amp;ndash;177v) is taken from the Greek or Syriac and if the latter, which
-                version.</desc>
+                whether the sole Arabic MS (Coptic Patriarchate MS Theol. 152, fol. 147r–177v) is
+                taken from the Greek or Syriac and if the latter, which version.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2432:version:syr</IRI>
@@ -320,9 +318,9 @@
             <name xml:lang="eng">Dogmatic Letter</name>
             <name>Letter on Faith</name>
             <name xml:lang="lat">Sermo sive dogmatica epistula de sanctissima trinitate</name>
-            <desc>Evagrius's first extant letter, dealing with Trinitarian doctrine and his flight
-                from Pontus, among other things. It was written around 380, and reflects Evagrius's
-                tutelage with Gregory of Nazianzus during the latter's stormy tenure in
+            <desc>Evagrius's earliest datable letter, dealing with Trinitarian doctrine and his
+                flight from Pontus, among other things. It was written around 380, and reflects
+                Evagrius's tutelage with Gregory of Nazianzus during the latter's stormy tenure in
                 Constantinople.</desc>
         </item>
         <item affects-element="version">

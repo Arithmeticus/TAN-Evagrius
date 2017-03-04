@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-LM.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-LM.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-LM.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-LM.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-LM xmlns="tag:textalign.net,2015:ns" TAN-version="1"
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-LM.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-LM.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-LM.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-LM.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-LM xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev"
    id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-LM.001">
    <head>
       <name>TAN-T model.TAN-LM.xml</name>
@@ -75,15 +75,14 @@
    <body lexicon="LSJ" morphology="Perseus">
       <ana>
          <comment who="kalvesmaki" when="2014-02-10">Perseus morph addendum</comment>
-         <!--<tok ref="1 - 4" pos="1 - 4"/>-->
-         <tok ref="pr goop" pos="1"/>
+         <tok ref="pr ti" pos="1"/>
          <lm cert="high">
             <l lexicon="new">Εὐάγριος</l>
             <m>- e - s - - - m g -</m>
          </lm>
       </ana>
       <ana>
-         <tok ref="pr goop" pos="2"/>
+         <tok ref="pr ti" pos="2"/>
          <lm>
             <l>μοναχός</l>
             <m>n - - s - - - m g -</m>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki.com,2014:tan-a-div:evagrius">
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev" id="tag:kalvesmaki.com,2014:tan-a-div:evagrius">
    <head>
       <name>Head TAN file for Evagrius collection</name>
       <desc>This file is intended to be lightweight TAN-A-div file, to serve as a HEAD for other TAN
@@ -28,7 +28,7 @@
          <relationship which="context"/>
          <IRI>tag:kalvesmaki.com,2014:tan-rdf:evagrius</IRI>
          <name>Assertions about matters discussed in the Evagrius TAN collection</name>
-         <location href="../TAN-rdf/evagrius-TAN-rdf.xml" when-accessed="2015-12-23T14:40:30.787-05:00"/>
+         <location href="../TAN-c/evagrius-TAN-c.xml" when-accessed="2015-12-23T14:40:30.787-05:00"/>
       </see-also>
       <declarations>
          <topic xml:id="causality">

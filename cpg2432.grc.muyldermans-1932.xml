@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1932.TAN-TEI.001">
+<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" TAN-version="1 dev" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1932.TAN-TEI.001">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
@@ -64,6 +64,7 @@
     </inclusion>
     <source>
       <IRI>http://www.worldcat.org/oclc/7564753</IRI>
+      <IRI>tag:evagriusponticus.net,2012:scriptum:muyldermans-1932</IRI>
       <name>À travers la tradition manuscrite d'Evagre le Pontique; essai sur les manuscrits grecs
         conservés à la Bibliothèque nationale de Paris, Joseph Muyldermans</name>
     </source>
@@ -76,6 +77,7 @@
     </declarations>
     <agent include="WORK"/>
     <role include="WORK"/>
+    <change when="2016-12-12" who="kalvesmaki">Added missing I.85 from p. 50</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
@@ -84,6 +86,9 @@
   </head>
   <text>
     <body xml:lang="grc" in-progress="false">
+      <div type="century" n="I">
+        <div type="chapter" n="85"><ab>Κυκλεύει γὰρ ὁ νοῦς ἐμπαθὴς ὢν καὶ δυσκάθεκτος γίνεται, τὰς ποιητικὰς τῶν ἡδονῶν ὕλας ἐπισκεπτόμενος. Ἵσταται δὲ τῆς πλάνης ἀπαθὴς γεγονὼς καὶ τοῖς ἀσωμάτοις περιτυχῶν τοῖς ἀποπληροῦσι τὰς πνευματικὰς ἐπιθυμίας αὐτῷ.</ab></div>
+      </div>
       <div type="century" n="III" part="N" org="uniform" sample="complete">
         <div type="chapter" n="35" part="N" org="uniform" sample="complete"> <p part="N"><pb n="85"/><locus>Paris BnF gr. 2748, fol. 162, no. 3</locus> 3. Νοῦν μὲν καθαίρει πνευματικὴ γνῶσις· θυμὸν δὲ θεραπεύει <lb/>ἀγάπη· ἐπιθυμίαν δὲ ῥέουσαν ἵστησιν ἐγκράτεια.</p> </div>
       </div>

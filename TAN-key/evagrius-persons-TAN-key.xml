@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-key.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-key.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-key.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-key.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TAN-key xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:evagrius-persons"
-    TAN-version="1">
+    TAN-version="1 dev">
     <head>
         <name>Persons associated with Evagrius of Pontus</name>
         <rights-excluding-sources include="HEAD"/>
@@ -37,6 +37,11 @@
             <IRI>tag:evagriusponticus.net,2015:person:loukios</IRI>
             <name>Loukios</name>
             <name xml:lang="lat">Lucius</name>
+        </item>
+        <item>
+            <IRI>http://dbpedia.org/resource/Nilus_of_Sinai</IRI>
+            <name>Nilus of Ancyra</name>
+            <name>Nilus of Sinai</name>
         </item>
     </body>
 </TAN-key>

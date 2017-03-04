@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
-  xmlns="http://www.tei-c.org/ns/1.0" TAN-version="1"
+  xmlns="http://www.tei-c.org/ns/1.0" TAN-version="1 dev"
   id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd17167">
   <teiHeader type="text">
     <fileDesc>
@@ -35,9 +35,14 @@
       <location href="CPG2431.grc.guillaumonts.tei.xml" when-accessed="2015-10-13-04:00"/>
     </inclusion>
     <source>
+      <IRI>tag:evagriusponticus.net,2012:scriptum:ms:gb:london:bl:add-17167</IRI>
+      <name>British Library MS Add. 17167</name>
+    </source>
+    <see-also>
+      <relationship which="auxiliary"/>
       <IRI>urn:uuid:65c176c1-60b5-4a86-8d71-14e9a6b76c59</IRI>
       <name>Personally typed transcription</name>
-    </source>
+    </see-also>
     <declarations>
       <work include="WORK"/>
       <version>

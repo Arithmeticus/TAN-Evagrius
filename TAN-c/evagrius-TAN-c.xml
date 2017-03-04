@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-rdf.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-rdf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-rdf xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-rdf:evagrius" TAN-version="1">
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-c.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-c.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-c xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-rdf:evagrius" TAN-version="1 dev">
     <head>
         <name>Assertions about matters discussed in the Evagrius TAN collection</name>
         <rights-excluding-sources include="HEAD"/>
@@ -49,4 +49,4 @@
     <body claimant="kalvesmaki" subject="kg">
         <claim verb="annotated-by" object="kg-comm-stang kg-comm-s1-guillaumont kg-comm-s2-guillaumont"/>
     </body>
-</TAN-rdf>
+</TAN-c>

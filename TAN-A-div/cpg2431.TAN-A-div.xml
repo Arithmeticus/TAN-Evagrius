@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1"
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns"
+   TAN-version="1 dev"
    id="tag:kalvesmaki@gmail.com,2014:cpg2431-TAN-A-div-et-al-1">
    <head>
       <name>Alignment of Evagrius's Gnostikos and works cited</name>
-      <master-location
-         href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A-div/cpg2431.TAN-A-div.xml"/>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A-div/cpg2431.TAN-A-div.xml"/>
       <rights-excluding-sources include="HEAD"/>
       <inclusion xml:id="HEAD">
          <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
@@ -18,12 +18,14 @@
       <inclusion xml:id="bible">
          <IRI>tag:kalvesmaki.com,2014:tan-a-div:bible:for-evagrius</IRI>
          <name>Bible versions relevant for alignment with the works of Evagrius</name>
-         <location href="bible-for-evagrius.TAN-A-div.xml" when-accessed="2015-10-12-04:00"/>
+         <location href="bible-for-evagrius.TAN-A-div.xml"
+            when-accessed="2015-10-12-04:00"/>
       </inclusion>
       <source xml:id="gn">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001</IRI>
          <name>Transcription of Greek edition by the Guillaumonts</name>
-         <location href="../cpg2431.grc.guillaumonts.tei.xml" when-accessed="2015-08-08-04:00"/>
+         <location href="../cpg2431.grc.guillaumonts.tei.xml"
+            when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="gn-eng-Dy">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_eng_Dysinger.TAN-TEI.001</IRI>
@@ -33,7 +35,8 @@
       <source xml:id="syr-S1-14578">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_Frankenberg.TAN-TEI.001</IRI>
          <name>Frankenberg's transcription of Syriac edition in BL Add. 14,578.</name>
-         <location href="../cpg2431.syr.frankenberg.tei.xml" when-accessed="2015-08-08-04:00"/>
+         <location href="../cpg2431.syr.frankenberg.tei.xml"
+            when-accessed="2015-08-08-04:00"/>
       </source>
       <source xml:id="syr-S1-14581">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd14581</IRI>
@@ -61,7 +64,8 @@
       <source xml:id="gn-grc-Fr">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Frankenberg.TAN-TEI.001</IRI>
          <name>Frankenberg's Greek retroversion of a Syriac translation of the Gnostikos</name>
-         <location href="../cpg2431.grc.frankenberg.tei.xml" when-accessed="2015-08-08-04:00"/>
+         <location href="../cpg2431.grc.frankenberg.tei.xml"
+            when-accessed="2015-08-08-04:00"/>
       </source>
       <source include="bible"/>
       <declarations>
@@ -77,84 +81,84 @@
    </head>
    <body>
       <align>
-         <div-ref src="gn" ref="46"/>
-         <div-ref strength="0.5" src="lxx" ref="Exod 26:35"/>
+         <div-ref work="gn" ref="46"/>
+         <div-ref work="lxx" strength="0.5" ref="Exod 25:23-30, Exod 26:35, Exod 37:10-16"/>
       </align>
-      <align exclusive="1">
+      <align>
          <div-ref src="syr-S2-17165" ref="17"/>
          <div-ref src="lxx" ref="Wis 11:20, Eccl 3 1"/>
       </align>
       <align>
-         <div-ref src="gn" ref="20"/>
-         <div-ref strength="0.5" src="lxx" ref="Lev 11:2 - Lev 11:19"/>
+         <div-ref work="gn" ref="20"/>
+         <div-ref work="lxx" strength="0.5" ref="Lev 11:2 - Lev 11:19"/>
       </align>
       <align>
-         <div-ref src="gn" ref="21"/>
-         <div-ref strength="0.5" src="lxx" ref="Num 24:17 - Num 24:19"/>
+         <div-ref work="gn" ref="21"/>
+         <div-ref work="lxx" strength="0.5" ref="Num 24:17 - Num 24:19"/>
       </align>
       <align>
-         <div-ref src="gn" ref="38"/>
-         <div-ref strength="0.5" src="lxx" ref="2Kgdms 6:10, 2Kgdms 6:11"/>
+         <div-ref work="gn" ref="38"/>
+         <div-ref work="lxx" strength="0.5" ref="2Kgdms 6:10, 2Kgdms 6:11"/>
       </align>
       <align>
-         <div-ref src="gn" ref="20"/>
-         <div-ref strength="0.5" src="lxx" ref="Eccl 1:5"/>
+         <div-ref work="gn" ref="20"/>
+         <div-ref work="lxx" strength="0.5" ref="Eccl 1:5"/>
       </align>
       <align>
-         <div-ref src="gn" ref="25"/>
-         <div-ref src="lxx" ref="Eccl 8:8"/>
+         <div-ref work="gn" ref="25"/>
+         <div-ref work="lxx" ref="Eccl 8:8"/>
       </align>
       <align>
-         <div-ref src="gn" ref="20"/>
-         <div-ref strength="0.5" src="lxx" ref="Ezek 16:15 - Ezek 16:34"/>
+         <div-ref work="gn" ref="20"/>
+         <div-ref work="lxx" strength="0.5" ref="Ezek 16:15-34"/>
       </align>
       <align>
-         <div-ref src="gn" ref="34"/>
-         <div-ref src="lxx" ref="Jonah 1:5"/>
+         <div-ref work="gn" ref="34"/>
+         <div-ref work="lxx" ref="Jonah 1:5"/>
       </align>
       <align>
-         <div-ref src="gn" ref="3"/>
-         <div-ref strength="0.5" src="nt" ref="Mt 5:13, Mt 5:14"/>
+         <div-ref work="gn" ref="3"/>
+         <div-ref work="nt" strength="0.5" ref="Mt 5:13, Mt 5:14"/>
       </align>
       <align>
-         <div-ref src="gn" ref="38"/>
-         <div-ref src="nt" ref="Mt 6:25"/>
+         <div-ref work="gn" ref="38"/>
+         <div-ref work="nt" ref="Mt 6:25"/>
       </align>
       <align>
-         <div-ref src="gn" ref="44"/>
-         <div-ref strength="0.5" src="nt" ref="Mt 13:25"/>
+         <div-ref work="gn" ref="44"/>
+         <div-ref work="nt" strength="0.5" ref="Mt 13:25"/>
       </align>
       <align>
-         <div-ref src="gn" ref="24"/>
-         <div-ref strength="0.5" src="nt" ref="Mt 21:12 - Mt 21:13"/>
+         <div-ref work="gn" ref="24"/>
+         <div-ref work="nt" strength="0.5" ref="Mt 21:12-13"/>
       </align>
       <align>
-         <div-ref src="gn" ref="7"/>
-         <div-ref strength="0.5" src="nt" ref="Mt 25:1 - Mt 25:13"/>
+         <div-ref work="gn" ref="7"/>
+         <div-ref work="nt" strength="0.5" ref="Mt 25:1-13"/>
       </align>
       <align>
-         <div-ref src="gn" ref="38"/>
-         <div-ref strength="0.5" src="nt" ref="Lu 12:22"/>
+         <div-ref work="gn" ref="38"/>
+         <div-ref work="nt" strength="0.5" ref="Lu 12:22"/>
       </align>
       <align>
-         <div-ref src="gn" ref="29"/>
-         <div-ref src="nt" ref="Lu 14:10"/>
+         <div-ref work="gn" ref="29"/>
+         <div-ref work="nt" ref="Lu 14:10"/>
       </align>
       <align>
-         <div-ref src="gn" ref="21"/>
-         <div-ref strength="0.5" src="nt" ref="Jn 11:49 - Jn 11:51"/>
+         <div-ref work="gn" ref="21"/>
+         <div-ref work="nt" strength="0.5" ref="Jn 11:49-51"/>
       </align>
       <align>
-         <div-ref src="gn" ref="37"/>
-         <div-ref strength="0.5" src="nt" ref="1Co 9:27"/>
+         <div-ref work="gn" ref="37"/>
+         <div-ref work="nt" strength="0.5" ref="1Co 9:27"/>
       </align>
       <align>
-         <div-ref src="gn" ref="22"/>
-         <div-ref src="nt" ref="1Tim 2:4"/>
+         <div-ref work="gn" ref="22"/>
+         <div-ref work="nt" ref="1Tim 2:4"/>
       </align>
       <align>
-         <div-ref src="gn" ref="13"/>
-         <div-ref src="nt" ref="Heb 12:14"/>
+         <div-ref work="gn" ref="13"/>
+         <div-ref work="nt" ref="Heb 12:14"/>
       </align>
    </body>
 </TAN-A-div>

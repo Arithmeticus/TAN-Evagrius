@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-A-tok.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-A-tok.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-tok.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/1/dev/schemas/TAN-A-tok.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-A-tok xmlns="tag:textalign.net,2015:ns" TAN-version="1" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts+syr_BL14578.TAN-A.001">
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-tok.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-tok.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-tok.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-tok.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-A-tok xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts+syr_BL14578.TAN-A.001">
    <head>
       <name>CPG2430-grc-Guillaumonts+CPG2430-syr-BL14578.TAN-A.xml</name>
       <name xml:lang="eng">The first TAN-A file created in the Text Alignment Protocol.</name>
@@ -49,6 +49,7 @@
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>
+      <change when="2017-02-10" who="kalvesmaki">Changed "low" and "high" certainty values to 0.</change>
       <change when="2015-10-12" who="kalvesmaki">Adapted for inclusions</change>
       <change when="2015-06-25-04:00" who="kalvesmaki">Altered suffix, infix, prefix values to @char
          values</change>
@@ -526,7 +527,7 @@
          <tok src="syr" ref="pr 3" pos="33"/>
       </align>
       <align>
-         <tok src="grc" ref="pr 3" pos="14" cert="high"/>
+         <tok src="grc" ref="pr 3" pos="14" cert="0.75"/>
          <tok src="grc" ref="pr 3" pos="21"/>
          <tok src="syr" ref="pr 3" pos="30"/>
          <tok src="syr" ref="pr 3" pos="31"/>
@@ -978,8 +979,8 @@
          <tok src="syr" ref="pr 8" pos="11"/>
       </align>
       <align>
-         <tok src="grc" ref="pr 8" pos="4" cert="high"/>
-         <tok src="syr" ref="pr 8" pos="9" cert="high"/>
+         <tok src="grc" ref="pr 8" pos="4" cert="0.75"/>
+         <tok src="syr" ref="pr 8" pos="9" cert="0.75"/>
       </align>
       <align>
          <tok src="grc" ref="pr 8" pos="13"/>
@@ -1385,8 +1386,8 @@
       <align>
          <tok src="grc" ref="1" pos="14"/>
          <tok src="syr" ref="1" pos="15"/>
-         <tok src="syr" ref="1" pos="16" cert="low"/>
-         <tok src="syr" ref="1" pos="17" cert="low"/>
+         <tok src="syr" ref="1" pos="16" cert="0.25"/>
+         <tok src="syr" ref="1" pos="17" cert="0.25"/>
          <tok src="syr" ref="1" pos="18"/>
       </align>
       <align>
