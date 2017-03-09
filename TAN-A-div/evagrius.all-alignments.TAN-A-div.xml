@@ -32,12 +32,14 @@
       <declarations>
          <token-definition include="cpg2430 cpg2431 cpg2432"/>
          <topic include="HEAD"/>
+         <verb include="HEAD"/>
+         <verb xml:id="quotes" which="quotes"/>
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>
       <change when="2015-12-27" who="kalvesmaki">Started file</change>
    </head>
-   <body>
-      <align include="cpg2430 cpg2431 cpg2432"/>
+   <body claimant="kalvesmaki" verb="quotes">
+      <claim include="cpg2430 cpg2431 cpg2432"/>
    </body>
 </TAN-A-div>

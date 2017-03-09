@@ -71,6 +71,7 @@
       <declarations>
          <token-definition src="gn gn-eng-Dy gn-grc-Fr" which="general-words-only-1"/>
          <token-definition include="bible"/>
+         <verb xml:id="quotes" which="quotes"/>
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>
@@ -79,86 +80,86 @@
          div refs.</change>
       <change when="2015-08-08-04:00" who="kalvesmaki">Started file</change>
    </head>
-   <body>
-      <align>
-         <div-ref work="gn" ref="46"/>
-         <div-ref work="lxx" strength="0.5" ref="Exod 25:23-30, Exod 26:35, Exod 37:10-16"/>
-      </align>
-      <align>
-         <div-ref src="syr-S2-17165" ref="17"/>
-         <div-ref src="lxx" ref="Wis 11:20, Eccl 3 1"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="20"/>
-         <div-ref work="lxx" strength="0.5" ref="Lev 11:2 - Lev 11:19"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="21"/>
-         <div-ref work="lxx" strength="0.5" ref="Num 24:17 - Num 24:19"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="38"/>
-         <div-ref work="lxx" strength="0.5" ref="2Kgdms 6:10, 2Kgdms 6:11"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="20"/>
-         <div-ref work="lxx" strength="0.5" ref="Eccl 1:5"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="25"/>
-         <div-ref work="lxx" ref="Eccl 8:8"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="20"/>
-         <div-ref work="lxx" strength="0.5" ref="Ezek 16:15-34"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="34"/>
-         <div-ref work="lxx" ref="Jonah 1:5"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="3"/>
-         <div-ref work="nt" strength="0.5" ref="Mt 5:13, Mt 5:14"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="38"/>
-         <div-ref work="nt" ref="Mt 6:25"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="44"/>
-         <div-ref work="nt" strength="0.5" ref="Mt 13:25"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="24"/>
-         <div-ref work="nt" strength="0.5" ref="Mt 21:12-13"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="7"/>
-         <div-ref work="nt" strength="0.5" ref="Mt 25:1-13"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="38"/>
-         <div-ref work="nt" strength="0.5" ref="Lu 12:22"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="29"/>
-         <div-ref work="nt" ref="Lu 14:10"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="21"/>
-         <div-ref work="nt" strength="0.5" ref="Jn 11:49-51"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="37"/>
-         <div-ref work="nt" strength="0.5" ref="1Co 9:27"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="22"/>
-         <div-ref work="nt" ref="1Tim 2:4"/>
-      </align>
-      <align>
-         <div-ref work="gn" ref="13"/>
-         <div-ref work="nt" ref="Heb 12:14"/>
-      </align>
+   <body verb="quotes" claimant="kalvesmaki">
+      <claim cert="0.5">
+         <subject work="gn" ref="46"/>
+         <object work="lxx" ref="Exod 25:23-30, Exod 26:35, Exod 37:10-16"/>
+      </claim>
+      <claim>
+         <subject src="syr-S2-17165" ref="17"/>
+         <object src="lxx" ref="Wis 11:20, Eccl 3 1"/>
+      </claim>
+      <claim cert="0.5">
+         <subject work="gn" ref="20"/>
+         <object work="lxx" ref="Lev 11:2-19"/>
+      </claim>
+      <claim cert="0.5">
+         <subject work="gn" ref="21"/>
+         <object work="lxx" ref="Num 24:17-19"/>
+      </claim>
+      <claim cert="0.5">
+         <subject work="gn" ref="38"/>
+         <object work="lxx" ref="2Kgdms 6:10, 2Kgdms 6:11"/>
+      </claim>
+      <claim cert="0.5">
+         <subject work="gn" ref="20"/>
+         <object work="lxx" ref="Eccl 1:5"/>
+      </claim>
+      <claim>
+         <subject work="gn" ref="25"/>
+         <object work="lxx" ref="Eccl 8:8"/>
+      </claim>
+      <claim cert="0.5">
+         <subject work="gn" ref="20"/>
+         <object work="lxx" ref="Ezek 16:15-34"/>
+      </claim>
+      <claim>
+         <subject work="gn" ref="34"/>
+         <object work="lxx" ref="Jonah 1:5"/>
+      </claim>
+      <claim cert="0.5">
+         <subject work="gn" ref="3"/>
+         <object work="nt" ref="Mt 5:13, Mt 5:14"/>
+      </claim>
+      <claim>
+         <subject work="gn" ref="38"/>
+         <object work="nt" ref="Mt 6:25"/>
+      </claim>
+      <claim cert="0.5">
+         <subject work="gn" ref="44"/>
+         <object work="nt" ref="Mt 13:25"/>
+      </claim>
+      <claim cert="0.5">
+         <subject work="gn" ref="24"/>
+         <object work="nt" ref="Mt 21:12-13"/>
+      </claim>
+      <claim cert="0.5">
+         <subject work="gn" ref="7"/>
+         <object work="nt" ref="Mt 25:1-13"/>
+      </claim>
+      <claim cert="0.5">
+         <subject work="gn" ref="38"/>
+         <object work="nt" ref="Lu 12:22"/>
+      </claim>
+      <claim>
+         <subject work="gn" ref="29"/>
+         <object work="nt" ref="Lu 14:10"/>
+      </claim>
+      <claim cert="0.5">
+         <subject work="gn" ref="21"/>
+         <object work="nt" ref="Jn 11:49-51"/>
+      </claim>
+      <claim cert="0.5">
+         <subject work="gn" ref="37"/>
+         <object work="nt" ref="1Co 9:27"/>
+      </claim>
+      <claim>
+         <subject work="gn" ref="22"/>
+         <object work="nt" ref="1Tim 2:4"/>
+      </claim>
+      <claim>
+         <subject work="gn" ref="13"/>
+         <object work="nt" ref="Heb 12:14"/>
+      </claim>
    </body>
 </TAN-A-div>
