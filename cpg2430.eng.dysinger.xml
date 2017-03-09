@@ -69,7 +69,7 @@
     <name>CPG2430-eng-Dysinger.TAN-TEI.xml</name>
     <name xml:lang="eng">Dysinger's English translation of the Praktikos of Evagrios Pontikos,
       prepared for the Text Alignment Network</name>
-    <master-location href="cpg2430.eng.dysinger.xml"/>
+    <master-location href="http://evagriusponticus.net/tan/cpg2430.eng.dysinger.xml"/>
     <rights-excluding-sources include="WORK"/>
     <inclusion xml:id="WORK">
       <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
