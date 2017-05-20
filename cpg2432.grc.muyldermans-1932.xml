@@ -71,12 +71,13 @@
     <declarations>
       <work include="WORK"/>
       <div-type include="WORK"/>
-      <token-definition which="general-words-only-1"/>
-      
-      <filter/>
+      <filter>
+        <normalization which="no reference markers"/>
+      </filter>
     </declarations>
     <agent include="WORK"/>
     <role include="WORK"/>
+    <change when="2017-05-17" who="kalvesmaki">Removed reference numbers.</change>
     <change when="2016-12-12" who="kalvesmaki">Added missing I.85 from p. 50</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
@@ -90,13 +91,13 @@
         <div type="chapter" n="85"><ab>Κυκλεύει γὰρ ὁ νοῦς ἐμπαθὴς ὢν καὶ δυσκάθεκτος γίνεται, τὰς ποιητικὰς τῶν ἡδονῶν ὕλας ἐπισκεπτόμενος. Ἵσταται δὲ τῆς πλάνης ἀπαθὴς γεγονὼς καὶ τοῖς ἀσωμάτοις περιτυχῶν τοῖς ἀποπληροῦσι τὰς πνευματικὰς ἐπιθυμίας αὐτῷ.</ab></div>
       </div>
       <div type="century" n="III" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="35" part="N" org="uniform" sample="complete"> <p part="N"><pb n="85"/><locus>Paris BnF gr. 2748, fol. 162, no. 3</locus> 3. Νοῦν μὲν καθαίρει πνευματικὴ γνῶσις· θυμὸν δὲ θεραπεύει <lb/>ἀγάπη· ἐπιθυμίαν δὲ ῥέουσαν ἵστησιν ἐγκράτεια.</p> </div>
+        <div type="chapter" n="35" part="N" org="uniform" sample="complete"> <p part="N"><pb n="85"/>Νοῦν μὲν καθαίρει πνευματικὴ γνῶσις· θυμὸν δὲ θεραπεύει <lb/>ἀγάπη· ἐπιθυμίαν δὲ ῥέουσαν ἵστησιν ἐγκράτεια.</p> </div>
       </div>
       <div type="century" n="I" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="36" part="N" org="uniform" sample="complete"> <p part="N"><pb n="89"/><locus>Paris BnF gr. 2748, fol. 163, no. 29</locus> Αἴσθησις μέν ἐστιν ἡ δύναμις καθ’ ἣν ἀντιλαμβανόμεθα τῶν <lb/>ὑλῶν· αἰσθητήριον δὲ τὸ ὄργανον δι’ οὗ πέφυκεν αὕτη ἐνεργεῖν· <lb/>αἰσθητικὸν δὲ αὐτὸ τὸ κεκτημένον τὴν αἴσθησιν· αἰσθητὸν δὲ τὸ <lb/> αἰσθήσεσιν ὑποπίπτειν.</p> </div>
-        <div type="chapter" n="42" part="N" org="uniform" sample="complete"> <p part="N"><locus>Paris BnF gr. 2748, fol. 163, no. 30</locus> Ἐκεῖ λέγεται παρεῖναι ὁ θεὸς ὅπου ἐνεργεῖ· καὶ μᾶλλον <lb/>παρεῖναι, ὅπου πλέον ἐνεργεῖ· ἐνεργῶν δὲ πλέον ἐν ταῖς νοεραῖς <lb/>δυνάμεσιν, ἐν αὐταῖς ἐστι πλέον.</p> </div>
-        <div type="chapter" n="15" part="N" org="uniform" sample="complete"> <p part="N"><pb n="93"/><locus>Paris BnF gr. 2748, fol. 164–164v, no. 66</locus> Ἀναιρουμένων τῶν τεσσάρων, ἀναιροῦνται καὶ τὰ πέντε· <lb/>ἀναιρουμένων δὲ τῶν πέντε, οὐκ ἀναιροῦνται καὶ τὰ τέσσαρα· τῇ <lb/>διαζεύξει γὰρ τῆς ψυχῆς ἀναιρουμένων τῶν τεσσάρων στοιχείων τοῦ <lb/> σώματος, ἀναιροῦνται καὶ αἱ πέντε αἰσθήσεις· ἀναιρουμένων δὲ τῶν <lb/>πέντε αἰσθήσεων τῇ φιλοσόφῳ νεκρώσει τοῦ σώματος, οὐκ ἀναιροῦν-<lb break="no"/>ται καὶ τὰ τέσσαρα τούτου στοιχεῖα.</p> </div>
-        <div type="chapter" n="69" part="N" org="uniform" sample="complete"> <p part="N"><locus>Paris BnF gr. 2748, fol. 164–164v, no. 67</locus>67. Ὁ εἰς γνώσιν ἐλθὼν, ἔχει τὸν μετ' αὐτόν· ὁ εἰς ἄγνοιαν ἐλθὼν, <lb/>οὐκ ἔχει τὸν μετ' αὐτόν· </p> </div>
+        <div type="chapter" n="36" part="N" org="uniform" sample="complete"> <p part="N"><pb n="89"/>Αἴσθησις μέν ἐστιν ἡ δύναμις καθ’ ἣν ἀντιλαμβανόμεθα τῶν <lb/>ὑλῶν· αἰσθητήριον δὲ τὸ ὄργανον δι’ οὗ πέφυκεν αὕτη ἐνεργεῖν· <lb/>αἰσθητικὸν δὲ αὐτὸ τὸ κεκτημένον τὴν αἴσθησιν· αἰσθητὸν δὲ τὸ <lb/> αἰσθήσεσιν ὑποπίπτειν.</p> </div>
+        <div type="chapter" n="42" part="N" org="uniform" sample="complete"> <p part="N">Ἐκεῖ λέγεται παρεῖναι ὁ θεὸς ὅπου ἐνεργεῖ· καὶ μᾶλλον <lb/>παρεῖναι, ὅπου πλέον ἐνεργεῖ· ἐνεργῶν δὲ πλέον ἐν ταῖς νοεραῖς <lb/>δυνάμεσιν, ἐν αὐταῖς ἐστι πλέον.</p> </div>
+        <div type="chapter" n="15" part="N" org="uniform" sample="complete"> <p part="N"><pb n="93"/>Ἀναιρουμένων τῶν τεσσάρων, ἀναιροῦνται καὶ τὰ πέντε· <lb/>ἀναιρουμένων δὲ τῶν πέντε, οὐκ ἀναιροῦνται καὶ τὰ τέσσαρα· τῇ <lb/>διαζεύξει γὰρ τῆς ψυχῆς ἀναιρουμένων τῶν τεσσάρων στοιχείων τοῦ <lb/> σώματος, ἀναιροῦνται καὶ αἱ πέντε αἰσθήσεις· ἀναιρουμένων δὲ τῶν <lb/>πέντε αἰσθήσεων τῇ φιλοσόφῳ νεκρώσει τοῦ σώματος, οὐκ ἀναιροῦν&#xad;<lb break="no"/>ται καὶ τὰ τέσσαρα τούτου στοιχεῖα.</p> </div>
+        <div type="chapter" n="69" part="N" org="uniform" sample="complete"> <p part="N">Ὁ εἰς γνώσιν ἐλθὼν, ἔχει τὸν μετ' αὐτόν· ὁ εἰς ἄγνοιαν ἐλθὼν, <lb/>οὐκ ἔχει τὸν μετ' αὐτόν· </p> </div>
       </div>
     </body>
   </text>

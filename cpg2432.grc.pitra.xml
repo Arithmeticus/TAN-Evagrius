@@ -36,12 +36,7 @@
           Footnotes, apparatus, translation, etc. have been omitted.</p>
       </samplingDecl>
       <editorialDecl default="false">
-        <correction default="false" status="unknown" method="silent">
-          <p part="N">No corrections were found to be needed.</p>
-        </correction>
-        <normalization default="false" method="silent">
-          <p part="N">Transcription should reflect the original.</p>
-        </normalization>
+        <p/>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
@@ -65,10 +60,13 @@
       <div-type include="WORK"/>
       <token-definition which="general-words-only-1"/>
       
-      <filter/>
+      <filter>
+        <normalization which="no reference markers"/>
+      </filter>
     </declarations>
     <agent include="WORK"/>
     <role include="WORK"/>
+    <change when="2017-05-17" who="kalvesmaki">Removed reference numbers. Changed line-end hyphens to soft hyphens.</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
@@ -78,26 +76,26 @@
   <text>
     <body xml:lang="grc" in-progress="false">
       <div type="century" n="IV" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="21" part="N" org="uniform" sample="complete"> <pb n="3:40"/> <p part="N"><desc>Sch. 7 on Ps. 44.82-3</desc> Ἢ πᾶσα δύναμις τῶν οὐρανῶν τῇ <lb/>τῶν γεγονότων κέχρισται θεωρίᾳ. Ὁ δὲ Χρισ-<lb break="no"/>τὸς παρὰ πάντας κέχρηται καὶ μετόχους <lb/>αὐτοὐ, δηλονότι τῇ τῆς μονάδος κέχρισται <pb n="3:41"/> γνώσει. Διὸ καὶ μόνος λέγεται ἐν δεξιᾷ κα-<lb break="no"/>θέζεσθαι τοῦ Πατρὸς Χριστός. Χριστὸν δέ <lb/>φημι, τὸν μετὰ Θεοῦ Λόγον, ἐπιδημήσαντα <lb/>Κύριον.</p> </div>
+        <div type="chapter" n="21" part="N" org="uniform" sample="complete"> <pb n="3:40"/> <p part="N">Ἢ πᾶσα δύναμις τῶν οὐρανῶν τῇ <lb/>τῶν γεγονότων κέχρισται θεωρίᾳ. Ὁ δὲ Χρισ&#xad;<lb break="no"/>τὸς παρὰ πάντας κέχρηται καὶ μετόχους <lb/>αὐτοὐ, δηλονότι τῇ τῆς μονάδος κέχρισται <pb n="3:41"/> γνώσει. Διὸ καὶ μόνος λέγεται ἐν δεξιᾷ κα&#xad;<lb break="no"/>θέζεσθαι τοῦ Πατρὸς Χριστός. Χριστὸν δέ <lb/>φημι, τὸν μετὰ Θεοῦ Λόγον, ἐπιδημήσαντα <lb/>Κύριον.</p> </div>
       </div>
       <div type="century" n="V" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="82" part="N" org="uniform" sample="complete"> <pb n="3:52"/> <p part="N"><desc>Sch. 6 on Ps. 50.20</desc> Τὰ τείχη Ἱερουσαλὴμ τὴν ἀπάθειαν ση-<lb break="no"/>μαίνει τῆς ψυχῆς, ἥντινα διαφθείραντες οἱ <pb n="3:53"/> δαίμονες, τὰ τῆς μοιχείας πάθη εἰσένεγκαν· </p> </div>
+        <div type="chapter" n="82" part="N" org="uniform" sample="complete"> <pb n="3:52"/> <p part="N">Τὰ τείχη Ἱερουσαλὴμ τὴν ἀπάθειαν ση&#xad;<lb break="no"/>μαίνει τῆς ψυχῆς, ἥντινα διαφθείραντες οἱ <pb n="3:53"/> δαίμονες, τὰ τῆς μοιχείας πάθη εἰσένεγκαν· </p> </div>
       </div>
       <div type="century" n="I" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="70" part="N" org="uniform" sample="complete"> <pb n="3:96"/> <p part="N"><desc>Sch. 15 on Ps. 72.23</desc> Μετὰ θεοῦ λέγεται εἶναι, πρῶτος μὲν ὁ <lb/>τὴν ἁγίαν γινώσκων Τριάδα, καὶ μετ’ αὐτὸν, <lb/>ὁ τοὺς λόγους τοὺς περὶ τῶν νοητῶν θεω-<lb break="no"/>ρῶν· τρίτος δὲ πάλιν ὁ καὶ αὐτὰ τὰ ἀσώματα <lb/>βλέπων· καὶ πάλιν τέταρτος ὁ τὴν θεωρίαν <lb/>ἐπιστάμενος τῶν αἰώνων· ὁ δὲ τὴν τῆς ψυ-<lb break="no"/>χῆς ἀπάθειαν κεκτημένος, πέμπτος ἂν τού-<lb break="no"/>τοις συγκαταχθείη δικαίως.</p> </div>
+        <div type="chapter" n="70" part="N" org="uniform" sample="complete"> <pb n="3:96"/> <p part="N">Μετὰ θεοῦ λέγεται εἶναι, πρῶτος μὲν ὁ <lb/>τὴν ἁγίαν γινώσκων Τριάδα, καὶ μετ’ αὐτὸν, <lb/>ὁ τοὺς λόγους τοὺς περὶ τῶν νοητῶν θεω&#xad;<lb break="no"/>ρῶν· τρίτος δὲ πάλιν ὁ καὶ αὐτὰ τὰ ἀσώματα <lb/>βλέπων· καὶ πάλιν τέταρτος ὁ τὴν θεωρίαν <lb/>ἐπιστάμενος τῶν αἰώνων· ὁ δὲ τὴν τῆς ψυ&#xad;<lb break="no"/>χῆς ἀπάθειαν κεκτημένος, πέμπτος ἂν τού&#xad;<lb break="no"/>τοις συγκαταχθείη δικαίως.</p> </div>
       </div>
       <div type="century" n="V" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="70" part="N" org="uniform" sample="complete"> <pb n="3:131"/> <p part="N"><desc>Sch. 2 on Ps. 78.7</desc> Τόπος γνώσεως Θεοῦ καὶ νοῦς.</p> </div>
-        <div type="chapter" n="49" part="N" org="uniform" sample="complete"> <pb n="3:138"/> <p part="N"><desc>Sch. 4 on Ps. 80.10</desc> Πρόσφατός εστι θεὸς, ὁ μηδὲν οὐσιῶσαι <lb/>δυνάμενος, ἢ ὁ τῇ κακίᾳ πεποιημένος, καὶ <lb/>παρὰ τοῖς ἔθνεσι νενομισμένος.</p> </div>
+        <div type="chapter" n="70" part="N" org="uniform" sample="complete"> <pb n="3:131"/> <p part="N">Τόπος γνώσεως Θεοῦ καὶ νοῦς.</p> </div>
+        <div type="chapter" n="49" part="N" org="uniform" sample="complete"> <pb n="3:138"/> <p part="N">Πρόσφατός εστι θεὸς, ὁ μηδὲν οὐσιῶσαι <lb/>δυνάμενος, ἢ ὁ τῇ κακίᾳ πεποιημένος, καὶ <lb/>παρὰ τοῖς ἔθνεσι νενομισμένος.</p> </div>
       </div>
       <div type="century" n="VI" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="49" part="N" org="uniform" sample="complete"> <pb n="3:143"/> <p part="N"><desc>Sch. 1 on Ps. 83.3</desc> εἰς τὸν ναὸν τοῦ Θεοῦ, ὅστις ἐστιν ἡ θεωρία <lb/>τῶν ἀσωμάτων.</p> </div>
+        <div type="chapter" n="49" part="N" org="uniform" sample="complete"> <pb n="3:143"/> <p part="N">εἰς τὸν ναὸν τοῦ Θεοῦ, ὅστις ἐστιν ἡ θεωρία <lb/>τῶν ἀσωμάτων.</p> </div>
       </div>
       <div type="century" n="I" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="36" part="N" org="uniform" sample="complete"> <pb n="3:234"/> <p part="N"><desc>Sch. 6 on Ps. 113.13</desc> Οὐ ταὐτὸν αἴσθησις καὶ αἰσθητήριον, οὐ-<lb break="no"/>δἐ αἰσθητηκόν τε καὶ αἰσθητόν· Αἴσθησις <lb/>μὲν γάρ ἐστιν ἡ δύναμις καθ’ ἣν εἰώθαμεν <lb/>ἀντιλαμβάνεσθαι τῶν ὑλῶν. Αἰσθητήριον δὲ, <lb/>τὸ ὄργανον ἐν ᾧ καθίδρυται αὕτη· Αἰσθητι-<lb break="no"/>κὸν δὲ τὸ ζῶον τὸ κεκτημένον τὰς αἰσθή-<lb break="no"/>σεις· Αἰσθητὸν δὲ τὸ πεφυσικὸς ταῖς αἰσθή-<lb break="no"/>σεσιν ὑποπίπτειν. Ἀλλ’ οὐχ οὕτως ἐπὶ τῶν <lb/>εἰδώλων· πάντων μὲν γὰρ τούτων ἐστήρην-<lb break="no"/>ται· μόνα δὲ ἔχει τὰ τῶν φυσικῶν αἰσθητη-<lb break="no"/>ρίων μιμήματα, οἷον ὀφθαλμοὺς καὶ ὦτα <lb/>καὶ ῥῖνας καὶ τὰ ἑξῆς.</p> </div>
+        <div type="chapter" n="36" part="N" org="uniform" sample="complete"> <pb n="3:234"/> <p part="N">Οὐ ταὐτὸν αἴσθησις καὶ αἰσθητήριον, οὐ&#xad;<lb break="no"/>δἐ αἰσθητηκόν τε καὶ αἰσθητόν· Αἴσθησις <lb/>μὲν γάρ ἐστιν ἡ δύναμις καθ’ ἣν εἰώθαμεν <lb/>ἀντιλαμβάνεσθαι τῶν ὑλῶν. Αἰσθητήριον δὲ, <lb/>τὸ ὄργανον ἐν ᾧ καθίδρυται αὕτη· Αἰσθητι&#xad;<lb break="no"/>κὸν δὲ τὸ ζῶον τὸ κεκτημένον τὰς αἰσθή&#xad;<lb break="no"/>σεις· Αἰσθητὸν δὲ τὸ πεφυσικὸς ταῖς αἰσθή&#xad;<lb break="no"/>σεσιν ὑποπίπτειν. Ἀλλ’ οὐχ οὕτως ἐπὶ τῶν <lb/>εἰδώλων· πάντων μὲν γὰρ τούτων ἐστήρην&#xad;<lb break="no"/>ται· μόνα δὲ ἔχει τὰ τῶν φυσικῶν αἰσθητη&#xad;<lb break="no"/>ρίων μιμήματα, οἷον ὀφθαλμοὺς καὶ ὦτα <lb/>καὶ ῥῖνας καὶ τὰ ἑξῆς.</p> </div>
       </div>
       <div type="century" n="V" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="48" part="N" org="uniform" sample="complete"> <pb n="3:330"/> <p part="N"><desc>Sch. 2 on Ps. 131.7</desc> Προσκυνοῦμεν <lb/>τὴν σάρκα τοῦ σωτῆρος [οὐ] διὰ τὴν φύσιν, <lb/>ἀλλ' ἐπειδὴ ὁ Χριστός ἐστιν ἐν αὐτῇ· καὶ ἡ <lb/>μὲν σὰρξ προσκυνητὴ διὰ τὸν Θεὸν Λόγον, τὸν ἐν αὐτῇ.</p> </div>
+        <div type="chapter" n="48" part="N" org="uniform" sample="complete"> <pb n="3:330"/> <p part="N">Προσκυνοῦμεν <lb/>τὴν σάρκα τοῦ σωτῆρος [οὐ] διὰ τὴν φύσιν, <lb/>ἀλλ' ἐπειδὴ ὁ Χριστός ἐστιν ἐν αὐτῇ· καὶ ἡ <lb/>μὲν σὰρξ προσκυνητὴ διὰ τὸν Θεὸν Λόγον, τὸν ἐν αὐτῇ.</p> </div>
       </div>
     </body>
   </text>
