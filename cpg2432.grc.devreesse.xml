@@ -66,9 +66,9 @@
     <declarations>
       <work include="WORK"/>
       <div-type include="WORK"/>
-      <token-definition which="general-words-only-1"/>
-      
-      <filter/>
+      <filter>
+        <normalization which="no reference markers"/>
+      </filter>
     </declarations>
     <agent include="WORK"/>
     <role include="WORK"/>
@@ -81,7 +81,10 @@
   <text>
     <body xml:lang="grc" in-progress="false">
       <div type="century" n="VI" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="61" part="N" org="uniform" sample="complete"> <pb n="173"/> <p part="N">εἰ ὁ θεὸς “οὐκ ἔστιν θεὸς νεκρῶν ἀλλὰ ζώντων” (Mt 22.32), κατὰ δὲ Μωυσέα τὸν ἅγιον οἱ ἐγγαστρίμυθοι τοὺς νεκροὺς ἐρωτῶσιν (Dt 18.11), ἡ τοῦ Σαοὺλ ἐγγαστρίμυθος οὐ τὸν Σαμουήλ ἀνήγαγεν ἐκ νεκρῶν, εἴπερ μὴ νεκρὸς ἀλλὰ ζῶν ἐστιν Σαμουήλ.</p> </div>
+        <div type="chapter" n="61" part="N" org="uniform" sample="complete"> <pb n="173"/> 
+          <p part="N">εἰ ὁ θεὸς “οὐκ ἔστιν θεὸς νεκρῶν ἀλλὰ ζώντων”, κατὰ δὲ Μωυσέα τὸν
+            ἅγιον οἱ ἐγγαστρίμυθοι τοὺς νεκροὺς ἐρωτῶσιν, ἡ τοῦ Σαοὺλ ἐγγαστρίμυθος οὐ
+            τὸν Σαμουήλ ἀνήγαγεν ἐκ νεκρῶν, εἴπερ μὴ νεκρὸς ἀλλὰ ζῶν ἐστιν Σαμουήλ.</p> </div>
       </div>
     </body>
   </text>

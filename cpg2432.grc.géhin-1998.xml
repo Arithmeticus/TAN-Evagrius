@@ -99,7 +99,7 @@
             οὐδὲ δαίμονας μᾶλλον ἀκαθάρτους ποιεῖν προ­<lb break="no"/>αιρούμεθα.</p>
         </div>
       </div>
-      <!--<div type="century" n="I" part="N" org="uniform" sample="complete">
+      <div type="century" n="I" part="N" org="uniform" sample="complete">
         <div type="chapter" n="85" part="N" org="uniform" sample="complete">
           <pb n="246"/>
           <p part="N">Κυκλεύει γὰρ ὁ νοῦς ἐμπαθὴς ὢν <lb/>καὶ δυσκάθεκτος γίνεται τὰς ποιητικὰς τῶν
@@ -113,7 +113,7 @@
           <p part="N">τὴν <lb/>κατὰ διάνοιαν τοὺς ἐμπαθεῖς λογισμοὺς περικόπτουσαν, <lb/>ἥντινα καὶ
             πνευματικὴν περιτομὴν τοῦ κρυπτοῦ Ἰουδαίου <lb/>ὁ ἅγιος Παῦλος ὠνόμασεν. </p>
         </div>
-      </div>-->
+      </div>
     </body>
   </text>
 </TEI>

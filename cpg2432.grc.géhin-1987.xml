@@ -35,13 +35,8 @@
         <p part="N">Only the main Greek text relevant to the Kephalaia gnostika has been transcribed. <lb/>
           Footnotes, apparatus, translation, etc. have been omitted.</p>
       </samplingDecl>
-      <editorialDecl default="false">
-        <correction default="false" status="unknown" method="silent">
-          <p part="N">No corrections were found to be needed.</p>
-        </correction>
-        <normalization default="false" method="silent">
-          <p part="N">Transcription should reflect the original.</p>
-        </normalization>
+      <editorialDecl>
+        <p></p>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
@@ -64,12 +59,13 @@
     <declarations>
       <work include="WORK"/>
       <div-type include="WORK"/>
-      <token-definition which="general-words-only-1"/>
-      
-      <filter/>
+      <filter>
+        <normalization which="no reference markers"/>
+      </filter>
     </declarations>
     <agent include="WORK"/>
     <role include="WORK"/>
+    <change when="2017-05-17" who="kalvesmaki">Removed reference marks; normalized line-end hyphenation.</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
@@ -78,29 +74,26 @@
   </head>
   <text>
     <body xml:lang="grc" in-progress="false">
-      <div type="century" n="V" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="77" part="N" org="uniform" sample="complete"><div type="variant" n="a"> <p part="N"><pb n="104"/>Πύλας δὲ δυναστῶν τὰς <lb/>ἀρετὰς τῶν σοφῶν λέγει· </p> </div></div>
-      </div>
-      <div type="century" n="I" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="40" part="N" org="uniform" sample="complete">
-          <div type="variant" n="a" part="N" org="uniform" sample="complete"> <p part="N"><pb n="152"/>62. Ἦν ὅτε οὐκ ἦν κακία καὶ ἔσται ὅτε οὐκ ἔσται· <lb/>οὐκ ἦν δὲ ὅτε οὐκ ἦν ἀρετή, οὐδὲ ἔσται ὅτε οὐκ ἔσται· <lb/>ἀνεξάλειπτα γὰρ τὰ σπέρματα τῆς ἀρετῆς. Πείθει δέ με <lb/>καὶ οὗτος παρ’ ὀλίγον καὶ οὐ τελείως ἐν παντὶ κακῷ γεγονὼς <lb/>καὶ ὁ πλούσιος ἐν τῷ ᾅδῃ διὰ κακίαν κρινόμενος καὶ <pb n="154"/>οἰκτείρων τοὺς ἀδελφούς. Τὸ δὲ ἐλεεῖν σπέρμα τυγχάνει τὸ <lb/>κάλλιστον τῆς ἀρετῆς.</p> </div>
-        </div>
-        <div type="chapter" n="40" part="N" org="uniform" sample="complete">
-          <div type="variant" n="b" part="N" org="uniform" sample="complete"> <p part="N">Procope: Ἦν ὅτε οὐκ ἦν κακία καὶ ἔσται ὅτε οὐκ ἔσται· οὐκ ἦν <lb/>δὲ ὅτε οὐκ ἦν ἀρετή, οὐδὲ ἔσται ὅτε οὐκ ἔσται· ἀνεξάλειπτα γὰρ τὰ <lb/>σπέρματα τῆς ἀρετῆς. Πείθει δέ με καὶ οὗτος παρ’ ὀλίγον καὶ οὐ <lb/>τελείως ἐν παντὶ κακῷ γεγονὼς καὶ ὁ πλούσιος ἐν τῷ ᾅδῃ διὰ τὴν <lb/>κακίαν κρινόμενος καὶ οἰκτείρων τοὺς ἀδελφούς. Τὸ δὲ ἐλεεῖν σπέρμα <lb/> τυγχάνει τὸ κάλλιστον τῆς ἀρετῆς.</p> </div>
+      <div type="century" n="5" part="N" org="uniform" sample="complete">
+        <div type="chapter" n="77" part="N" org="uniform" sample="complete">
+          <div type="variant" n="a"><p part="N"><pb n="104"/>Πύλας δὲ δυναστῶν τὰς <lb/>ἀρετὰς τῶν
+              σοφῶν λέγει· </p></div>
         </div>
       </div>
-      <div type="century" n="V" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="44" part="N" org="uniform" sample="complete">
-          <div type="variant" n="a" part="N" org="uniform" sample="complete"><p part="N"><pb n="300"/>206. Εἰ «θυμὸς δρακόντων ὁ οἶνος αὐτῶν», ἀκόλαστον <lb/>δὲ ὁ οἶνος, ἀκόλαστον ἄρα ὁ θυμός, ἀκολάστους τοὺς <pb n="302"/>ἀνθρώπους ποιῶν, καὶ ὑβριστικὸν ἡ ὀργή· αὕτη γὰρ ἡ <lb/>μέθη ἀπὸ ζέοντος τοῦ θυμοῦ πέφυκε γίνεσθαι. Εἰ δὲ οἴνου <lb/>οἱ ναζιραῖοι κατὰ τὸν νόμον ἀπέχονται, θυμοῦ ἄρα τοὺς <lb/>ναζιραίους ἐκτὸς εἶναι νενομοθέτηται.</p></div>
+      <div type="century" n="1" part="N" org="uniform" sample="complete">
+        <div type="chapter" n="40" part="N" org="uniform" sample="complete">
+          <div type="variant" n="a" part="N" org="uniform" sample="complete"> <p part="N"><pb n="152"/>Ἦν ὅτε οὐκ ἦν κακία καὶ ἔσται ὅτε οὐκ ἔσται· <lb/>οὐκ ἦν δὲ ὅτε οὐκ ἦν ἀρετή, οὐδὲ ἔσται ὅτε οὐκ ἔσται· <lb/>ἀνεξάλειπτα γὰρ τὰ σπέρματα τῆς ἀρετῆς. Πείθει δέ με <lb/>καὶ οὗτος παρ’ ὀλίγον καὶ οὐ τελείως ἐν παντὶ κακῷ γεγονὼς <lb/>καὶ ὁ πλούσιος ἐν τῷ ᾅδῃ διὰ κακίαν κρινόμενος καὶ <pb n="154"/>οἰκτείρων τοὺς ἀδελφούς. Τὸ δὲ ἐλεεῖν σπέρμα τυγχάνει τὸ <lb/>κάλλιστον τῆς ἀρετῆς.</p> </div>
+          <div type="variant" n="b" part="N" org="uniform" sample="complete"> <p part="N">Ἦν ὅτε οὐκ ἦν κακία καὶ ἔσται ὅτε οὐκ ἔσται· οὐκ ἦν <lb/>δὲ ὅτε οὐκ ἦν ἀρετή, οὐδὲ ἔσται ὅτε οὐκ ἔσται· ἀνεξάλειπτα γὰρ τὰ <lb/>σπέρματα τῆς ἀρετῆς. Πείθει δέ με καὶ οὗτος παρ’ ὀλίγον καὶ οὐ <lb/>τελείως ἐν παντὶ κακῷ γεγονὼς καὶ ὁ πλούσιος ἐν τῷ ᾅδῃ διὰ τὴν <lb/>κακίαν κρινόμενος καὶ οἰκτείρων τοὺς ἀδελφούς. Τὸ δὲ ἐλεεῖν σπέρμα <lb/> τυγχάνει τὸ κάλλιστον τῆς ἀρετῆς.</p> </div>
         </div>
+      </div>
+      <div type="century" n="5" part="N" org="uniform" sample="complete">
         <div type="chapter" n="44" part="N" org="uniform" sample="complete">
-          <div type="variant" n="b" part="N" org="uniform" sample="complete"><p part="N">Procope: Εἰ δὲ «θυμὸς δρακόντων ὁ οἶνος αὐτῶν», ἀκόλαστον <lb/>δὲ ὁ οἶνος, ἀκόλαστος ἄρα ὁ θυμός, ἀκολάστους ποιῶν τοὺς ἀνθρώπους, <lb/>καὶ ὑβριστικὸν ἡ ὀργή· γίνεται ἀπὸ ζέοντος τοῦ θυμοῦ. Οἴνου <lb/>δὲ ἀπεχόμενοι ναζιραῖοι ἐκτὸς εἶναι θυμοῦ προσετάττοντο.</p></div>
+          <div type="variant" n="a" part="N" org="uniform" sample="complete"><p part="N"><pb n="300"/>Εἰ «θυμὸς δρακόντων ὁ οἶνος αὐτῶν», ἀκόλαστον <lb/>δὲ ὁ οἶνος, ἀκόλαστον ἄρα ὁ θυμός, ἀκολάστους τοὺς <pb n="302"/>ἀνθρώπους ποιῶν, καὶ ὑβριστικὸν ἡ ὀργή· αὕτη γὰρ ἡ <lb/>μέθη ἀπὸ ζέοντος τοῦ θυμοῦ πέφυκε γίνεσθαι. Εἰ δὲ οἴνου <lb/>οἱ ναζιραῖοι κατὰ τὸν νόμον ἀπέχονται, θυμοῦ ἄρα τοὺς <lb/>ναζιραίους ἐκτὸς εἶναι νενομοθέτηται.</p></div>
+          <div type="variant" n="b" part="N" org="uniform" sample="complete"><p part="N">Εἰ δὲ «θυμὸς δρακόντων ὁ οἶνος αὐτῶν», ἀκόλαστον <lb/>δὲ ὁ οἶνος, ἀκόλαστος ἄρα ὁ θυμός, ἀκολάστους ποιῶν τοὺς ἀνθρώπους, <lb/>καὶ ὑβριστικὸν ἡ ὀργή· γίνεται ἀπὸ ζέοντος τοῦ θυμοῦ. Οἴνου <lb/>δὲ ἀπεχόμενοι ναζιραῖοι ἐκτὸς εἶναι θυμοῦ προσετάττοντο.</p></div>
         </div>
         <div type="chapter" n="77" part="N" org="uniform" sample="complete">
-          <div type="variant" n="b" part="N" org="uniform" sample="complete"><p part="N"><pb n="360"/>267. Αἱ πύλαι τῶν σοφῶν αἱ πρακτικαί εἰσιν ἀρεταὶ <lb/>δι‘ ὧν εἰσέρχεται σοφία θεοῦ.</p></div>
-        </div>
-        <div type="chapter" n="77" part="N" org="uniform" sample="complete">
-          <div type="variant" n="c" part="N" org="uniform" sample="complete"><p part="N"> <pb n="362"/>Procope: Πύλαι δὲ τῶν σοφῶν αἱ πρακτικαὶ ἀρεταὶ δι’ ὧν εἰσέρχε- <lb/>ται σοφία θεοῦ.</p></div>
+          <div type="variant" n="b" part="N" org="uniform" sample="complete"><p part="N"><pb n="360"/>Αἱ πύλαι τῶν σοφῶν αἱ πρακτικαί εἰσιν ἀρεταὶ <lb/>δι‘ ὧν εἰσέρχεται σοφία θεοῦ.</p></div>
+          <div type="variant" n="c" part="N" org="uniform" sample="complete" resp="Procopius"><p part="N"> <pb n="362"/>Πύλαι δὲ τῶν σοφῶν αἱ πρακτικαὶ ἀρεταὶ δι’ ὧν εἰσέρχε&#xad;<lb break="no"/>ται σοφία θεοῦ.</p></div>
         </div>
       </div>
     </body>

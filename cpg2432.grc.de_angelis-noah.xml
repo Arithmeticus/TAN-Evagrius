@@ -75,6 +75,7 @@
     </declarations>
     <agent include="WORK"/>
     <role include="WORK"/>
+    <change when="2017-05-14" who="kalvesmaki">Converted locus element to milestone element</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
@@ -84,8 +85,8 @@
   <text>
     <body xml:lang="grc" in-progress="false">
       <div type="century" n="II" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="64" part="N" org="uniform" sample="complete"> <pb n="600"/> <p part="N"><locus>Letter 600</locus> Περὶ μὲν τῶν προτέρων ὁ μηνύσων οὐδείς, <lb/>περὶ δὲ τῶν δευτέρων ὁ ἐν Χωρὴβ ἐξηγήσατο. </p> </div>
-        <div type="chapter" n="69" part="N" org="uniform" sample="complete"> <p part="N"><locus>Letter 600</locus> Τὸ Πνεῦμα τὸ ἅγιον οὐ τὴν πρώτην <lb/>τῶν λογικῶν διαίρεσιν, οὐδὲ τὴν πρώτην οὐσίαν τῶν <lb/>σωμάτων ἐξηγήσατο.</p> </div>
+        <div type="chapter" n="64" part="N" org="uniform" sample="complete"> <milestone unit="letter" n="600"/> <p part="N">Περὶ μὲν τῶν προτέρων ὁ μηνύσων οὐδείς, <lb/>περὶ δὲ τῶν δευτέρων ὁ ἐν Χωρὴβ ἐξηγήσατο. </p> </div>
+        <div type="chapter" n="69" part="N" org="uniform" sample="complete"> <p part="N">Τὸ Πνεῦμα τὸ ἅγιον οὐ τὴν πρώτην <lb/>τῶν λογικῶν διαίρεσιν, οὐδὲ τὴν πρώτην οὐσίαν τῶν <lb/>σωμάτων ἐξηγήσατο.</p> </div>
       </div>
     </body>
   </text>

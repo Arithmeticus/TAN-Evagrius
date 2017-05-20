@@ -70,6 +70,7 @@
     </declarations>
     <agent include="WORK"/>
     <role include="WORK"/>
+    <change when="2017-05-19-04:00" who="kalvesmaki">Fixed line breaks</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
@@ -80,9 +81,9 @@
     <body xml:lang="grc" in-progress="false">
       <div type="century" n="IV" part="N" org="uniform" sample="complete">
         <div type="chapter" n="31" part="N" org="uniform" sample="complete"> <p part="N"> <pb n=" 64"/>Ὥσπερ ὁ κρυπτόμενος ἀστὴρ τοῦ κρύπτοντος αὐτὸν <lb/> ἀστέρος ἀνώτερος ἀποδείκνυται, οὕτως ὁ μᾶλλον πραῢς τοῦ ἧττον <lb/> πραέος ἐν τῷ αἰῶνι τῷ μέλλοντι ὑψηλότερος εὑρεθήσεται. </p> </div>
-        <div type="chapter" n="33" part="N" org="uniform" sample="complete"> <p part="N">Τοὺς ἀνελεήμονας μετὰ τὸν θάνατον ἀνελεήμονες <lb/> ὑποδέχονται δαίμονες, τοὺς δὲ μᾶλλον ἀνελεήμονας οἱ μᾶλλον <lb/> τούτων ἀπανθρωπότεροι. Εἰ δὲ τοῦτο οὕτως ἔχει, λέληθεν ἄρα <lb/> τοὺς ἑαυτοὺς ἐκ τοῦ σώματος ὑπεξάγοντας, ὁποῖοι αὐτοῖς μετὰ τὴν <lb/> ἔξοδον ὑπαντιάζουσι δαίμονες· καὶ γὰρ λόγος ἐστὶ μηδένα τῶν βουλή-<lb break="no"/> σει θεοῦ ἐξιόντων τοῖς τοιούτοις παραδοθῆναι δαίμοσιν.</p> </div>
+        <div type="chapter" n="33" part="N" org="uniform" sample="complete"> <p part="N">Τοὺς ἀνελεήμονας μετὰ τὸν θάνατον ἀνελεήμονες <lb/> ὑποδέχονται δαίμονες, τοὺς δὲ μᾶλλον ἀνελεήμονας οἱ μᾶλλον <lb/> τούτων ἀπανθρωπότεροι. Εἰ δὲ τοῦτο οὕτως ἔχει, λέληθεν ἄρα <lb/> τοὺς ἑαυτοὺς ἐκ τοῦ σώματος ὑπεξάγοντας, ὁποῖοι αὐτοῖς μετὰ τὴν <lb/> ἔξοδον ὑπαντιάζουσι δαίμονες· καὶ γὰρ λόγος ἐστὶ μηδένα τῶν βουλή&#xad;<lb break="no"/>σει θεοῦ ἐξιόντων τοῖς τοιούτοις παραδοθῆναι δαίμοσιν.</p> </div>
         <div type="chapter" n="34" part="N" org="uniform" sample="complete"> <p part="N">Οὐ δυνατὸν ἐν τῷ μέλλοντι φυγεῖν τινα τὴν<lb/> ἑαυτοῦ φυλακήν· οὐκ ἐξελεύσεται γὰρ ἐκεῖθεν, φησίν, μὴ τὸ τοῦ<lb/> ἐσχάτου κοδράντου ἀποθέμενος πάθος.</p> </div>
-        <div type="chapter" n="38" part="N" org="uniform" sample="complete"> <p part="N">Ἐν τῷ μέλλοντι αἰῶνι θυμώδης ἄνθρωπος ἀγγέλοις οὐ <lb/> συναριθμηθήσεται οὐδὲ ἀρχήν τινα πιστευθήσεται· οὐδὲ γὰρ<lb/> θεωρήσει διὰ τὸ πάθος καὶ ῥᾳδίως ἀγανακτήσει ἐπὶ τοῖς ἀρχομέ-<lb break="no"/> <pb n=" 65"/><lb/> νοις καὶ τῆς μὲν ἐκπεσεῖται, τοὺς δὲ κινδύνοις ὑποβαλεῖ· ἑκάτερα<lb/> δὲ ἀγγελικῆς καταστάσεως ἀλλότρια.</p> </div>
+        <div type="chapter" n="38" part="N" org="uniform" sample="complete"> <p part="N">Ἐν τῷ μέλλοντι αἰῶνι θυμώδης ἄνθρωπος ἀγγέλοις οὐ <lb/> συναριθμηθήσεται οὐδὲ ἀρχήν τινα πιστευθήσεται· οὐδὲ γὰρ<lb/> θεωρήσει διὰ τὸ πάθος καὶ ῥᾳδίως ἀγανακτήσει ἐπὶ τοῖς ἀρχομέ&#xad;<lb break="no"/><pb n=" 65"/><lb/>νοις καὶ τῆς μὲν ἐκπεσεῖται, τοὺς δὲ κινδύνοις ὑποβαλεῖ· ἑκάτερα<lb/> δὲ ἀγγελικῆς καταστάσεως ἀλλότρια.</p> </div>
       </div>
       <div type="century" n="V" part="N" org="uniform" sample="complete">
         <div type="chapter" n="15" part="N" org="uniform" sample="complete"> <p part="N">Νοῦς παθῶν γυμνωθεὶς ὅλος φωτοειδὴς γίνεται ὑπὸ τῆς<lb/> θεωρίας τῶν γεγονότων καταλαμπόμενος.</p> </div>

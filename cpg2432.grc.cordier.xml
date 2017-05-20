@@ -68,6 +68,7 @@
     </declarations>
     <agent include="WORK"/>
     <role include="WORK"/>
+    <change when="2017-05-14" who="kalvesmaki">Converted hyphen to soft hyphen &#xad;</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
@@ -80,7 +81,7 @@
         <div type="chapter" n="78" part="N" org="uniform" sample="complete"> <pb n="173"/> <p part="N"> Ἕκαστον τάγμα <lb/>τῶν οὐρανίων δυνάμεων, ἢ ὅλον ἐκ τῶν κάτω, ἢ ὅλον <lb/>ἐκ τῶν ἄνω, ἢ ἐκ τῶν ἄνω καὶ ἐκ τῶν κάτω συνέστη-<lb break="no"/>κε.</p> </div>
       </div>
       <div type="century" n="V" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="11" part="N" org="uniform" sample="complete"> <p part="N">Ἐξ ἀγγελικῆς καταστάσεως καὶ ἀρχαγγελικῆς, ψυ-<lb break="n"/>χικὴ κατάστασις γίνεται· ἐκ δὲ τῆς ψυχικῆς, δαιμο-<lb break="n"/>νιώδης καὶ ἀνθρωπίνη· ἐκ δὲ τῆς ἀνθρωπίνης, ἄγγε-<lb break="n"/>λοι πάλιν καὶ δαίμονες γίνονται. </p> </div>
+        <div type="chapter" n="11" part="N" org="uniform" sample="complete"> <p part="N">Ἐξ ἀγγελικῆς καταστάσεως καὶ ἀρχαγγελικῆς, ψυ&#xad;<lb break="n"/>χικὴ κατάστασις γίνεται· ἐκ δὲ τῆς ψυχικῆς, δαιμο-<lb break="n"/>νιώδης καὶ ἀνθρωπίνη· ἐκ δὲ τῆς ἀνθρωπίνης, ἄγγε-<lb break="n"/>λοι πάλιν καὶ δαίμονες γίνονται. </p> </div>
       </div>
     </body>
   </text>

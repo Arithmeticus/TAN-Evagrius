@@ -68,6 +68,8 @@
     </declarations>
     <agent include="WORK"/>
     <role include="WORK"/>
+    <change when="2017-05-14" who="kalvesmaki">Commented out &lt;desc> until TAN files for the
+      Scholia on the Psalms can be written.</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
@@ -77,7 +79,7 @@
   <text>
     <body xml:lang="grc" in-progress="false">
       <div type="century" n="IV" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="70" part="N" org="uniform" sample="complete"> <pb n="39:1604"/> <p part="N"><desc>Sch. 5 on Ps. 141.8</desc> οὐ πάντων <lb/>δὲ ἔστιν τοῦτο λέγειν, “Ἔκβαλε ἐκ φυλακῆς τὴν <lb/>ψυχήν μου,” ἀλλ’ ἢ τῶν δυναμένων διὰ καθαρότητα <lb/>καρδίας, καὶ χωρὶς τοῦ σώματος τούτου ἐπιβαλεῖν <lb/>τῇ θεωρίᾳ τῶν γεγονότων. </p> </div>
+        <div type="chapter" n="70" part="N" org="uniform" sample="complete"> <pb n="39:1604"/> <p part="N"><!--<desc>Sch. 5 on Ps. 141.8</desc>--> οὐ πάντων <lb/>δὲ ἔστιν τοῦτο λέγειν, “Ἔκβαλε ἐκ φυλακῆς τὴν <lb/>ψυχήν μου,” ἀλλ’ ἢ τῶν δυναμένων διὰ καθαρότητα <lb/>καρδίας, καὶ χωρὶς τοῦ σώματος τούτου ἐπιβαλεῖν <lb/>τῇ θεωρίᾳ τῶν γεγονότων. </p> </div>
       </div>
     </body>
   </text>

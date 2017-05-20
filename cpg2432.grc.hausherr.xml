@@ -66,12 +66,13 @@
     <declarations>
       <work include="WORK"/>
       <div-type include="WORK"/>
-      <token-definition which="general-words-only-1"/>
-      
-      <filter/>
+      <filter>
+        <normalization which="no reference markers"/>
+      </filter>
     </declarations>
     <agent include="WORK"/>
     <role include="WORK"/>
+    <change when="2017-05-19-04:00" who="kalvesmaki">Removed reference numbers.</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
@@ -81,12 +82,12 @@
   <text>
     <body xml:lang="grc" in-progress="false">
       <div type="century" n="I" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="39" part="N" org="uniform" sample="complete"> <p part="N"><pb n="230"/>I. 39. Ἀρετῆς γεγόναμεν σπέρματα, κακίας δὲ οὔ· οὐ γὰρ <lb/>εἴ τινος δεκτικοί ἐσμεν, τούτου πάντως καὶ τὴν δύναμιν ἔχομεν, ἐπεὶ <lb/>καὶ μὴ εἶναι δυνάμενοι, τοῦ μὴ ὄντος οὐκ ἔχομεν δύναμιν· εἴπερ αἱ <lb/>δυνάμεις ποιότητες, τὸ δὲ μὴ ὄν οὐκ ἔστι ποιότης. = E 11.</p> </div>
-        <div type="chapter" n="53" part="N" org="uniform" sample="complete"> <p part="N">I. 53. Τὰ μὲν τῷ νοῒ μαχόμενα δαιμόνια καλοῦνται πτηνά, θηρία <lb/>δὲ τὰ τὸν θυμὸν ἐκταράσσοντα, κτήνη δὲ ὀνομάζεται τὰ τὴν ἐπιθυμίαν <lb/>κινοῦντα. = E 4.</p> </div>
-        <div type="chapter" n="78" part="N" org="uniform" sample="complete"> <p part="N">I. 78. Ἀπόταξις μὲν πρώτη ἐστὶ κατάλειψις κοσμικῶν πραγμάτων <lb/>ἑκούσιος τῆς τοῦ Θεοῦ γνώσεως ἕνεκεν· = E 5.</p> </div>
-        <div type="chapter" n="79" part="N" org="uniform" sample="complete"> <p part="N">I. 79. ἀπόταξις δὲ δευτέρα ἀπόθεσις κακίας χάριτι Θεοῦ καὶ <lb/>σπουδῇ τοῦ ἀνθρώπου προσγινομένη· = E 5.</p> </div>
-        <div type="chapter" n="80" part="N" org="uniform" sample="complete"> <p part="N">I. 80. ἀπόταξις δὲ τρίτη ἐστὶ χωρισμὸς ἀγνοίας τῶν πεφυκότων <lb/>ἐμφανίζεσθαι τοῖς ἀνθρώποις κατ᾿ ἀναλογίαν τῆς καταστάσεως. = E 5.</p> </div>
-        <div type="chapter" n="81" part="N" org="uniform" sample="complete"> <p part="N">I. 81. Δόξα οὖν καὶ φῶς τοῦ νοός ἐστιν ἡ γνῶσις, δόξα δὲ καὶ <lb/>φῶς ζωῆς ἡ ἀπάθεια. = E 7.</p> </div>
+        <div type="chapter" n="39" part="N" org="uniform" sample="complete"> <p part="N"><pb n="230"/>Ἀρετῆς γεγόναμεν σπέρματα, κακίας δὲ οὔ· οὐ γὰρ <lb/>εἴ τινος δεκτικοί ἐσμεν, τούτου πάντως καὶ τὴν δύναμιν ἔχομεν, ἐπεὶ <lb/>καὶ μὴ εἶναι δυνάμενοι, τοῦ μὴ ὄντος οὐκ ἔχομεν δύναμιν· εἴπερ αἱ <lb/>δυνάμεις ποιότητες, τὸ δὲ μὴ ὄν οὐκ ἔστι ποιότης.</p> </div>
+        <div type="chapter" n="53" part="N" org="uniform" sample="complete"> <p part="N">Τὰ μὲν τῷ νοῒ μαχόμενα δαιμόνια καλοῦνται πτηνά, θηρία <lb/>δὲ τὰ τὸν θυμὸν ἐκταράσσοντα, κτήνη δὲ ὀνομάζεται τὰ τὴν ἐπιθυμίαν <lb/>κινοῦντα.</p> </div>
+        <div type="chapter" n="78" part="N" org="uniform" sample="complete"> <p part="N">Ἀπόταξις μὲν πρώτη ἐστὶ κατάλειψις κοσμικῶν πραγμάτων <lb/>ἑκούσιος τῆς τοῦ Θεοῦ γνώσεως ἕνεκεν·</p> </div>
+        <div type="chapter" n="79" part="N" org="uniform" sample="complete"> <p part="N">ἀπόταξις δὲ δευτέρα ἀπόθεσις κακίας χάριτι Θεοῦ καὶ <lb/>σπουδῇ τοῦ ἀνθρώπου προσγινομένη·</p> </div>
+        <div type="chapter" n="80" part="N" org="uniform" sample="complete"> <p part="N">ἀπόταξις δὲ τρίτη ἐστὶ χωρισμὸς ἀγνοίας τῶν πεφυκότων <lb/>ἐμφανίζεσθαι τοῖς ἀνθρώποις κατ᾿ ἀναλογίαν τῆς καταστάσεως.</p> </div>
+        <div type="chapter" n="81" part="N" org="uniform" sample="complete"> <p part="N">Δόξα οὖν καὶ φῶς τοῦ νοός ἐστιν ἡ γνῶσις, δόξα δὲ καὶ <lb/>φῶς ζωῆς ἡ ἀπάθεια.</p> </div>
       </div>
       <div type="century" n="II" part="N" org="uniform" sample="complete">
         <div type="chapter" n="6" part="N" org="uniform" sample="complete"> <p part="N">II. 6. Ψυχὴ δὲ ἡ τὴν πρακτικὴν σὺν Θεῷ κατορθώσασα καὶ <lb/>λυθεῖσα τοῦ σώματος, ἐν ἐκείνοις γίνεται τοῖς τῆς γνώσεως τόποις, ἐν <lb/>οἷς αὐτὴν τὸ τῆς ἀπαθείας πτερὸν καταπαύσει. = E 4.</p> </div>

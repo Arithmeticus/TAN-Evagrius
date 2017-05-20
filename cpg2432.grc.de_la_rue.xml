@@ -69,6 +69,8 @@
       </declarations>
       <agent include="WORK"/>
       <role include="WORK"/>
+      <change when="2017-05-14" who="kalvesmaki">Commented out &lt;desc> until TAN files for the
+         Scholia on the Psalms can be written. Converted line-end hyphens to soft hyphens.</change>
       <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
       <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
       <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
@@ -78,67 +80,67 @@
    <text>
       <body xml:lang="grc" in-progress="false">
          <div type="century" n="III" part="N" org="uniform" sample="complete">
-            <div type="chapter" n="48" part="N" org="uniform" sample="complete"> <pb n="12:1097d"/> <p part="N"><desc>Sch. on Ps. 1.5</desc> Κρίσις ἐστὶ δικαίων μὲν ἡ ἀπὸ <lb/>πρακτικοῦ σώματος ἐπὶ ἀγγελικὰ μετάβασις·</p> </div>
-            <div type="chapter" n="50" part="N" org="uniform" sample="complete"> <pb n="12:1097d"/> <p part="N"><desc>Sch. on Ps. 1.5</desc> ἀσε-<lb break="no"/>βῶν δὲ ἀπὸ πρακτικοῦ σώματος ἐπὶ σκοτεινὰ καὶ <lb/>ζοφερὰ μετάθεσις σώματα.</p> </div>
-            <div type="chapter" n="36" part="N" org="uniform" sample="complete"> <pb n="12:1172d"/> <p part="N"><desc>Sch. 11 on Ps. 5.12</desc> Αἰών ἐστι σύστημα φυσικὸν, <lb/>ἐκ σωμάτων ποικίλων λογικὰς διαφορὰς περιέχον τῆς <lb/>τοῦ Θεοῦ γνώσεως ἕνεκεν. Εἰς αἰῶνα, φησὶν, ἀγαλλιά- <lb/>σονται, ὅτι καὶ αἰώνιος ἑαυτοῖς κατασκήνωσις.</p> </div>
+            <div type="chapter" n="48" part="N" org="uniform" sample="complete"> <pb n="12:1097d"/> <p part="N"><!--<desc>Sch. on Ps. 1.5</desc>--> Κρίσις ἐστὶ δικαίων μὲν ἡ ἀπὸ <lb/>πρακτικοῦ σώματος ἐπὶ ἀγγελικὰ μετάβασις·</p> </div>
+            <div type="chapter" n="50" part="N" org="uniform" sample="complete"> <pb n="12:1097d"/> <p part="N"><!--<desc>Sch. on Ps. 1.5</desc>--> ἀσε&#xad;<lb break="no"/>βῶν δὲ ἀπὸ πρακτικοῦ σώματος ἐπὶ σκοτεινὰ καὶ <lb/>ζοφερὰ μετάθεσις σώματα.</p> </div>
+            <div type="chapter" n="36" part="N" org="uniform" sample="complete"> <pb n="12:1172d"/> <p part="N"><!--<desc>Sch. 11 on Ps. 5.12</desc>--> Αἰών ἐστι σύστημα φυσικὸν, <lb/>ἐκ σωμάτων ποικίλων λογικὰς διαφορὰς περιέχον τῆς <lb/>τοῦ Θεοῦ γνώσεως ἕνεκεν. Εἰς αἰῶνα, φησὶν, ἀγαλλιά- <lb/>σονται, ὅτι καὶ αἰώνιος ἑαυτοῖς κατασκήνωσις.</p> </div>
          </div>
          <div type="century" n="VI" part="N" org="uniform" sample="complete">
-            <div type="chapter" n="8" part="N" org="uniform" sample="complete"> <pb n="12:1189"/> <p part="N"><desc>Sch. 7 on Ps. 9.18</desc> Ὥσπερ ὁ παράδεισος τῶν δικαίων ἐστὶν <lb/>οἰκητήριον, οὕτως ᾅδης τῶν ἁμαρτωλῶν κολαστήριον. </p> </div>
+            <div type="chapter" n="8" part="N" org="uniform" sample="complete"> <pb n="12:1189"/> <p part="N"><!--<desc>Sch. 7 on Ps. 9.18</desc>--> Ὥσπερ ὁ παράδεισος τῶν δικαίων ἐστὶν <lb/>οἰκητήριον, οὕτως ᾅδης τῶν ἁμαρτωλῶν κολαστήριον. </p> </div>
             <div type="chapter" n="53" part="N" org="uniform" sample="complete">
-               <div type="variant" n="a" part="N" org="uniform" sample="complete"> <pb n="12:1197b"/> <p part="N"><desc>Sch. 2 on Ps. 10.3</desc> βέλος ἐστὶν ἐμπαθὴς <lb/>λογισμὸς, φαρέτρα δὲ ἕξις χειρίστη λογισμῶν ἀκα-<lb break="no"/>θάρτων πεπληρωμένη.</p> </div>
+               <div type="variant" n="a" part="N" org="uniform" sample="complete"> <pb n="12:1197b"/> <p part="N"><!--<desc>Sch. 2 on Ps. 10.3</desc>--> βέλος ἐστὶν ἐμπαθὴς <lb/>λογισμὸς, φαρέτρα δὲ ἕξις χειρίστη λογισμῶν ἀκα&#xad;<lb break="no"/>θάρτων πεπληρωμένη.</p> </div>
             </div>
          </div>
          <div type="century" n="IV" part="N" org="uniform" sample="complete">
-            <div type="chapter" n="36" part="N" org="uniform" sample="complete"> <pb n="12:1220d"/> <p part="N"><desc>Sch. 4 on Ps. 16.10</desc> Στέαρ μὲν νοητὸν ἡ ἐκ τῆς κα-<lb break="no"/>κίας ἐπισυμβαίνουσα τῷ ἡγεμονικῷ παχύτης. </p> </div>
+            <div type="chapter" n="36" part="N" org="uniform" sample="complete"> <pb n="12:1220d"/> <p part="N"><!--<desc>Sch. 4 on Ps. 16.10</desc>--> Στέαρ μὲν νοητὸν ἡ ἐκ τῆς κα&#xad;<lb break="no"/>κίας ἐπισυμβαίνουσα τῷ ἡγεμονικῷ παχύτης. </p> </div>
          </div>
          <div type="century" n="V" part="N" org="uniform" sample="complete">
-            <div type="chapter" n="77" part="N" org="uniform" sample="complete"> <pb n="12:1268d"/> <p part="N"><desc>sch. 4 in Ps. 23.7–8</desc> Πύλας δὲ λέγει <lb/>τὰς ἀρετάς·</p> </div>
+            <div type="chapter" n="77" part="N" org="uniform" sample="complete"> <pb n="12:1268d"/> <p part="N"><!--<desc>sch. 4 in Ps. 23.7–8</desc>--> Πύλας δὲ λέγει <lb/>τὰς ἀρετάς·</p> </div>
          </div>
          <div type="century" n="VI" part="N" org="uniform" sample="complete">
-            <div type="chapter" n="46" part="N" org="uniform" sample="complete"> <pb n="12:1304c"/> <p part="N"><desc>Sch. in Ps. 32.2</desc> Κιθάρα <lb/>ἐστὶ ψυχὴ πρακτικὴ ὑπὸ τῶν ἐντολῶν τοῦ Θεοῦ <lb/>κινουμένη, </p> </div>
+            <div type="chapter" n="46" part="N" org="uniform" sample="complete"> <pb n="12:1304c"/> <p part="N"><!--<desc>Sch. in Ps. 32.2</desc>--> Κιθάρα <lb/>ἐστὶ ψυχὴ πρακτικὴ ὑπὸ τῶν ἐντολῶν τοῦ Θεοῦ <lb/>κινουμένη, </p> </div>
             <div type="chapter" n="48" part="N" org="uniform" sample="complete">
-               <div type="variant" n="a" part="N" org="uniform" sample="complete"> <pb n="12:1304c"/> <p part="N"><desc>Sch. in Ps. 32.2</desc> ψαλτήριον δὲ νοῦς καθαρὸς ὑπὸ πνευμα-<lb break="no"/>τικῆς κινούμενος γνώσεως·</p> </div>
+               <div type="variant" n="a" part="N" org="uniform" sample="complete"> <pb n="12:1304c"/> <p part="N"><!--<desc>Sch. in Ps. 32.2</desc>--> ψαλτήριον δὲ νοῦς καθαρὸς ὑπὸ πνευμα&#xad;<lb break="no"/>τικῆς κινούμενος γνώσεως·</p> </div>
             </div>
-            <div type="chapter" n="68" part="N" org="uniform" sample="complete"> <pb n="12:1316d"/> <p part="N"><desc>Sch. 5 on Ps. 36.7</desc> Ἡ ὑποταγὴ αὕτη ἐστὶ φύσεως λογικῆς <lb/>πρὸς τὴν γνῶσιν τοῦ Θεοῦ ἑκούσιος συγκατάθεσις. </p> </div>
+            <div type="chapter" n="68" part="N" org="uniform" sample="complete"> <pb n="12:1316d"/> <p part="N"><!--<desc>Sch. 5 on Ps. 36.7</desc>--> Ἡ ὑποταγὴ αὕτη ἐστὶ φύσεως λογικῆς <lb/>πρὸς τὴν γνῶσιν τοῦ Θεοῦ ἑκούσιος συγκατάθεσις. </p> </div>
          </div>
          <div type="century" n="I" part="N" org="uniform" sample="complete">
-            <div type="chapter" n="73" part="N" org="uniform" sample="complete"> <pb n="12:1488c"/> <p part="N"><desc>Sch. 2 on Ps. 62.4</desc> Ἡ μὲν τοῦ ἀνθρώπου <lb/>ζωὴ ἡ ἁγία γνῶσις ὑπάρχει· τὸ δὲ ἔλεος Κυρίου <lb/>ἡ τῶν γεγονότων θεωρία ἐστί. Πολλοὶ δὲ ἡμῖν τοῦ <lb/>αἰῶνος τούτου καθυπέσχοντο γνώσεις· ἀλλὰ κρεῖσσον <lb/>τὸ ἔλεος Κυρίου ὑπὲρ ζωάς. </p> </div>
+            <div type="chapter" n="73" part="N" org="uniform" sample="complete"> <pb n="12:1488c"/> <p part="N"><!--<desc>Sch. 2 on Ps. 62.4</desc>--> Ἡ μὲν τοῦ ἀνθρώπου <lb/>ζωὴ ἡ ἁγία γνῶσις ὑπάρχει· τὸ δὲ ἔλεος Κυρίου <lb/>ἡ τῶν γεγονότων θεωρία ἐστί. Πολλοὶ δὲ ἡμῖν τοῦ <lb/>αἰῶνος τούτου καθυπέσχοντο γνώσεις· ἀλλὰ κρεῖσσον <lb/>τὸ ἔλεος Κυρίου ὑπὲρ ζωάς. </p> </div>
          </div>
          <div type="century" n="VI" part="N" org="uniform" sample="complete">
             <div type="chapter" n="49" part="N" org="uniform" sample="complete">
-               <div type="variant" n="a" part="N" org="uniform" sample="complete"> <pb n="12:1509c"/> <p part="N"><desc>Sch. 19 on Ps. 67.32</desc> Τὴν μὲν <lb/>διάθεσιν τῆς κακίας διὰ τῶν Αἰγυπτίων ᾐνίξατο·</p> </div>
+               <div type="variant" n="a" part="N" org="uniform" sample="complete"> <pb n="12:1509c"/> <p part="N"><!--<desc>Sch. 19 on Ps. 67.32</desc>--> Τὴν μὲν <lb/>διάθεσιν τῆς κακίας διὰ τῶν Αἰγυπτίων ᾐνίξατο·</p> </div>
             </div>
             <div type="chapter" n="53" part="N" org="uniform" sample="complete">
-               <div type="variant" n="b" part="N" org="uniform" sample="complete"> <pb n="12:1536c"/> <p part="N"><desc>Sch. 3 on Ps. 75.4</desc> Βέλος δὲ πεπυρωμένον ἐστὶν ὁ ἐμπα-<lb break="no"/>θὴς λογισμός·</p> </div>
+               <div type="variant" n="b" part="N" org="uniform" sample="complete"> <pb n="12:1536c"/> <p part="N"><!--<desc>Sch. 3 on Ps. 75.4</desc>--> Βέλος δὲ πεπυρωμένον ἐστὶν ὁ ἐμπα&#xad;<lb break="no"/>θὴς λογισμός·</p> </div>
             </div>
          </div>
          <div type="century" n="V" part="N" org="uniform" sample="complete">
-            <div type="chapter" n="49" part="N" org="uniform" sample="complete"> <pb n="12:1544d"/> <p part="N"><desc>Sch. 4 on Ps. 80.10</desc> Πρόσφατός εστι Θεὸς ὁ μηδὲν οὐσιῶσαι δυνάμενος, <lb/>ἢ ὁ τῇ κακίᾳ πεποιωμένος.</p> </div>
+            <div type="chapter" n="49" part="N" org="uniform" sample="complete"> <pb n="12:1544d"/> <p part="N"><!--<desc>Sch. 4 on Ps. 80.10</desc>--> Πρόσφατός εστι Θεὸς ὁ μηδὲν οὐσιῶσαι δυνάμενος, <lb/>ἢ ὁ τῇ κακίᾳ πεποιωμένος.</p> </div>
          </div>
          <div type="century" n="VI" part="N" org="uniform" sample="complete">
             <div type="chapter" n="48" part="N" org="uniform" sample="complete">
-               <div type="variant" n="b" part="N" org="uniform" sample="complete"> <pb n="12:1552d"/> <p part="N"><desc>Sch. 2 in Ps. 91.4</desc> Ψαλτήριόν ἐστι νοῦς καθαρὸς ὑπὸ πνευμα-<lb break="no"/>τικῆς κινούμενος γνώσεως· </p> </div>
+               <div type="variant" n="b" part="N" org="uniform" sample="complete"> <pb n="12:1552d"/> <p part="N"><!--<desc>Sch. 2 in Ps. 91.4</desc>--> Ψαλτήριόν ἐστι νοῦς καθαρὸς ὑπὸ πνευμα&#xad;<lb break="no"/>τικῆς κινούμενος γνώσεως· </p> </div>
             </div>
          </div>
          <div type="century" n="V" part="N" org="uniform" sample="complete">
-            <div type="chapter" n="48" part="N" org="uniform" sample="complete"> <pb n="12:1557b"/> <p part="N"><desc>Sch. 2 in Ps. 98.5</desc> Τὸ ὑποπόδιον τῶν ποδῶν εἶπόν τινες εἶναι <lb/>τὴν σάρκα τὴν τοῦ Χριστοῦ, ἥτις διὰ τὸν Χριστόν <lb/>ἐστι προσκυνητή· ὁ δὲ Χριστὸς προσκυνητὸς διὰ τὸν <lb/>ἐν αὐτῷ Λόγον θεοῦ. </p> </div>
+            <div type="chapter" n="48" part="N" org="uniform" sample="complete"> <pb n="12:1557b"/> <p part="N"><!--<desc>Sch. 2 in Ps. 98.5</desc>--> Τὸ ὑποπόδιον τῶν ποδῶν εἶπόν τινες εἶναι <lb/>τὴν σάρκα τὴν τοῦ Χριστοῦ, ἥτις διὰ τὸν Χριστόν <lb/>ἐστι προσκυνητή· ὁ δὲ Χριστὸς προσκυνητὸς διὰ τὸν <lb/>ἐν αὐτῷ Λόγον θεοῦ. </p> </div>
          </div>
          <div type="century" n="VI" part="N" org="uniform" sample="complete">
-            <div type="chapter" n="19" part="N" org="uniform" sample="complete"> <pb n="12:1572d"/> <p part="N"><desc>Sch. 2 in Ps. 113.4</desc> Εἰ γὰρ χαίρουσιν οἱ ἐν τοῖς οὐρανοῖς ἐπὶ ἑνὶ <lb/>μετανοοῦντι, πόσῳ μᾶλλον ἐπὶ τοσαύταις μυριάσιν <lb/>ὁδευούσαις ἀπὸ κακίας πρὸς ἀρετὴν, καὶ ἀπὸ ἀγνωσίας ἐπὶ γνῶσιν θεοῦ!</p> </div>
+            <div type="chapter" n="19" part="N" org="uniform" sample="complete"> <pb n="12:1572d"/> <p part="N"><!--<desc>Sch. 2 in Ps. 113.4</desc>--> Εἰ γὰρ χαίρουσιν οἱ ἐν τοῖς οὐρανοῖς ἐπὶ ἑνὶ <lb/>μετανοοῦντι, πόσῳ μᾶλλον ἐπὶ τοσαύταις μυριάσιν <lb/>ὁδευούσαις ἀπὸ κακίας πρὸς ἀρετὴν, καὶ ἀπὸ ἀγνωσίας ἐπὶ γνῶσιν θεοῦ!</p> </div>
             <div type="chapter" n="49" part="N" org="uniform" sample="complete">
-               <div type="variant" n="b" part="N" org="uniform" sample="complete"> <pb n="12:1656d"/> <p part="N"><desc>Sch. 3 on Ps. 135.6</desc> καὶ ὁ Ἰσραὴλ ὁδεύει τὴν ἔρημον πε-<lb break="no"/>ινῶν καὶ διψῶν, καὶ πειραζόμενος, ἥτις ἐστὶ σύμβο-<pb break="no" n="12:1657a"/>λον τῆς πρακτικῆς, </p> </div>
+               <div type="variant" n="b" part="N" org="uniform" sample="complete"> <pb n="12:1656d"/> <p part="N"><!--<desc>Sch. 3 on Ps. 135.6</desc>--> καὶ ὁ Ἰσραὴλ ὁδεύει τὴν ἔρημον πε&#xad;<lb break="no"/>ινῶν καὶ διψῶν, καὶ πειραζόμενος, ἥτις ἐστὶ σύμβο-<pb break="no" n="12:1657a"/>λον τῆς πρακτικῆς, </p> </div>
             </div>
          </div>
          <div type="century" n="IV" part="N" org="uniform" sample="complete">
-            <div type="chapter" n="70" part="N" org="uniform" sample="complete"> <pb n="12:1668"/> <p part="N"><desc>Sch. 5 on Ps. 141.8</desc> Οὐ πάντων ἐστὶ τὸ λέγειν· “Ἔκβαλε ἐκ φυλα-<lb break="no"/>κῆς τὴν ψυχήν μου,” εἰ μὴ τῶν δυναμένων διὰ κα-<lb break="no"/>θαρότητα καὶ χωρὶς τοῦ σώματος τούτου ἐπιβαλεῖν τῇ <lb/>θεωρίᾳ τῶν γεγονότων.</p> </div>
+            <div type="chapter" n="70" part="N" org="uniform" sample="complete"> <pb n="12:1668"/> <p part="N"><!--<desc>Sch. 5 on Ps. 141.8</desc>--> Οὐ πάντων ἐστὶ τὸ λέγειν· “Ἔκβαλε ἐκ φυλα&#xad;<lb break="no"/>κῆς τὴν ψυχήν μου,” εἰ μὴ τῶν δυναμένων διὰ κα&#xad;<lb break="no"/>θαρότητα καὶ χωρὶς τοῦ σώματος τούτου ἐπιβαλεῖν τῇ <lb/>θεωρίᾳ τῶν γεγονότων.</p> </div>
          </div>
          <div type="century" n="VI" part="N" org="uniform" sample="complete">
             <div type="chapter" n="49" part="N" org="uniform" sample="complete">
-               <div type="variant" n="c" part="N" org="uniform" sample="complete"> <pb n="12:1677a"/> <p part="N"><desc>Sch. 2 on Ps. 147.2 [de la Rue: 13]</desc> Μοχλοὶ μὲν τῆς Ἱερουσαλήμ ἐι-<lb break="no"/>σιν αἱ πρακτικαὶ ἀρεταὶ κωλύουσαι τοὺς ἐχθροὺς <lb/> παρεισδῦναι· τῆς δὲ Σιὼν τὰ οὐράνια δόγματα καὶ ἡ <lb/>ὀρθὴ πίστις τῆς προσκυνητῆς καὶ ἁγίας Τριάδος </p> </div>
+               <div type="variant" n="c" part="N" org="uniform" sample="complete"> <pb n="12:1677a"/> <p part="N"><!--<desc>Sch. 2 on Ps. 147.2 [de la Rue: 13]</desc>--> Μοχλοὶ μὲν τῆς Ἱερουσαλήμ εἰ&#xad;<lb break="no"/>σιν αἱ πρακτικαὶ ἀρεταὶ κωλύουσαι τοὺς ἐχθροὺς <lb/> παρεισδῦναι· τῆς δὲ Σιὼν τὰ οὐράνια δόγματα καὶ ἡ <lb/>ὀρθὴ πίστις τῆς προσκυνητῆς καὶ ἁγίας Τριάδος </p> </div>
             </div>
          </div>
          <div type="century" n="V" part="N" org="uniform" sample="complete">
-            <div type="chapter" n="28" part="N" org="uniform" sample="complete"> <pb n="12:1681"/> <p part="N"><desc>Sch. 2 on Ps. 148.6</desc> Ῥομφαῖα ἐστὶ νοῦς λογικὸς ἐκ-<lb break="no"/>κόπτων ψυχὴν ἀπὸ κακίας καὶ ἀγνωσίας. </p> </div>
+            <div type="chapter" n="28" part="N" org="uniform" sample="complete"> <pb n="12:1681"/> <p part="N"><!--<desc>Sch. 2 on Ps. 148.6</desc>--> Ῥομφαῖα ἐστὶ νοῦς λογικὸς ἐκ-<lb break="no"/>κόπτων ψυχὴν ἀπὸ κακίας καὶ ἀγνωσίας. </p> </div>
          </div>
 
       </body>

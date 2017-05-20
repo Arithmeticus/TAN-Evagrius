@@ -64,12 +64,11 @@
     <declarations>
       <work include="WORK"/>
       <div-type include="WORK"/>
-      <token-definition which="general-words-only-1"/>
-      
       <filter/>
     </declarations>
     <agent include="WORK"/>
     <role include="WORK"/>
+    <change when="2017-05-17" who="kalvesmaki">Removed reference numbers. Changed line-end hyphens to soft hyphens.</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
@@ -79,7 +78,7 @@
   <text>
     <body xml:lang="grc" in-progress="false">
       <div type="century" n="IV" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="46" part="N" org="uniform" sample="complete"> <pb n="3:167"/> <p part="N">Τέσσαρες ἀρχαὶ <lb/>τὰ τέσσαρα στοιχεῖα, δη- <pb n="3:168" break="no"/>λοῦσι, καὶ τὸ φανὲν σκεῦ-<lb break="no"/>ος τὸν παχύτερον κόσ-<lb break="no"/>μον σημαίνει, καὶ τὰ <lb/>διάφορα ζῶα τῆς τῶν <lb/>ἀνθρώπων καταστάσεώς <lb/>ἐστι σύμβολα.</p> </div>
+        <div type="chapter" n="46" part="N" org="uniform" sample="complete"> <pb n="3:167"/> <p part="N">Τέσσαρες ἀρχαὶ <lb/>τὰ τέσσαρα στοιχεῖα, δη&#xad;<pb n="3:168" break="no"/>λοῦσι, καὶ τὸ φανὲν σκεῦ&#xad;<lb break="no"/>ος τὸν παχύτερον κόσ&#xad;<lb break="no"/>μον σημαίνει, καὶ τὰ <lb/>διάφορα ζῶα τῆς τῶν <lb/>ἀνθρώπων καταστάσεώς <lb/>ἐστι σύμβολα.</p> </div>
       </div>
     </body>
   </text>
