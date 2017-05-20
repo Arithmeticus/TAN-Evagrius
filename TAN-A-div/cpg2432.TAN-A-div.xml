@@ -151,6 +151,7 @@
                            src="S1 S1-Dy S1-Fr S2 S2-Dy grc-PG4 grc-PG12 grc-PG86a grc-PG39 grc-Bars grc-Dor grc-Oct grc-DP grc-EpF grc-Géh1987 grc-Géh1996 grc-Géh1998 grc-Hau grc-Mu1931 grc-Mu1932 grc-Pitra grc-Wolf ar-cat"/>
          <topic include="HEAD"/>
          <verb xml:id="quotes" which="quotes"/>
+         <verb xml:id="parallels" which="parallels"/>
          <verb xml:id="is-about" which="is about"/>
       </declarations>
       <agent include="HEAD"/>
@@ -507,7 +508,7 @@
       </claim>
       <claim>
          <subject work="S1" ref="IV 27"/>
-         <object work="lxx" ref="Num 15:32-34"/>
+         <object work="lxx" ref="Num 15:32-36"/>
       </claim>
       <claim>
          <subject work="S1" ref="IV 26"/>
@@ -788,7 +789,7 @@
       </claim>
       <claim>
          <subject src="S1" ref="VI 1"/>
-         <object src="lxx" ref="Ps 23:3"/>
+         <object work="lxx" ref="Ps 23:3"/>
       </claim>
       <claim>
          <subject src="S2" ref="VI 3"/>
@@ -822,6 +823,14 @@
          <subject work="S1" ref="VI 15"/>
          <object work="nt" ref="1Co 15:25"/>
       </claim>
+      <claim verb="parallels">
+         <subject work="S2" ref="VI 21"/>
+         <object work="ar-cat" ref="8 c 27-30"/>
+      </claim>
+      <claim verb="parallels">
+         <subject work="S2" ref="VI 23"/>
+         <subject work="S2" ref="VI 2"/>
+      </claim>
       <claim>
          <subject src="S1" ref="VI 24"/>
          <object src="nt-syr" ref="Lu 20:36"/>
@@ -833,6 +842,9 @@
       <claim>
          <subject work="S1" ref="VI 27"/>
          <object work="lxx" ref="Ps 85:9"/>
+      </claim>
+      <claim>
+         <subject src="S2" ref="VI 27"/>
          <object work="nt" ref="Php 2:9"/>
       </claim>
       <claim>

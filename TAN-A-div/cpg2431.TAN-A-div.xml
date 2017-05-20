@@ -72,6 +72,7 @@
          <token-definition src="gn gn-eng-Dy gn-grc-Fr" which="general-words-only-1"/>
          <token-definition include="bible"/>
          <verb xml:id="quotes" which="quotes"/>
+         <verb xml:id="alludes-to" which="alludes or refers to"/>
       </declarations>
       <agent include="HEAD"/>
       <role include="HEAD"/>
@@ -81,7 +82,7 @@
       <change when="2015-08-08-04:00" who="kalvesmaki">Started file</change>
    </head>
    <body verb="quotes" claimant="kalvesmaki">
-      <claim cert="0.5">
+      <claim verb="alludes-to">
          <subject work="gn" ref="46"/>
          <object work="lxx" ref="Exod 25:23-30, Exod 26:35, Exod 37:10-16"/>
       </claim>
@@ -89,19 +90,19 @@
          <subject src="syr-S2-17165" ref="17"/>
          <object src="lxx" ref="Wis 11:20, Eccl 3 1"/>
       </claim>
-      <claim cert="0.5">
+      <claim verb="alludes-to">
          <subject work="gn" ref="20"/>
          <object work="lxx" ref="Lev 11:2-19"/>
       </claim>
-      <claim cert="0.5">
+      <claim verb="alludes-to">
          <subject work="gn" ref="21"/>
          <object work="lxx" ref="Num 24:17-19"/>
       </claim>
-      <claim cert="0.5">
+      <claim verb="alludes-to">
          <subject work="gn" ref="38"/>
          <object work="lxx" ref="2Kgdms 6:10, 2Kgdms 6:11"/>
       </claim>
-      <claim cert="0.5">
+      <claim>
          <subject work="gn" ref="20"/>
          <object work="lxx" ref="Eccl 1:5"/>
       </claim>
@@ -109,7 +110,7 @@
          <subject work="gn" ref="25"/>
          <object work="lxx" ref="Eccl 8:8"/>
       </claim>
-      <claim cert="0.5">
+      <claim verb="alludes-to">
          <subject work="gn" ref="20"/>
          <object work="lxx" ref="Ezek 16:15-34"/>
       </claim>
@@ -117,27 +118,27 @@
          <subject work="gn" ref="34"/>
          <object work="lxx" ref="Jonah 1:5"/>
       </claim>
-      <claim cert="0.5">
+      <claim verb="alludes-to">
          <subject work="gn" ref="3"/>
-         <object work="nt" ref="Mt 5:13, Mt 5:14"/>
+         <object work="nt" ref="Mt 5:13-14"/>
       </claim>
       <claim>
          <subject work="gn" ref="38"/>
          <object work="nt" ref="Mt 6:25"/>
       </claim>
-      <claim cert="0.5">
+      <claim verb="alludes-to">
          <subject work="gn" ref="44"/>
          <object work="nt" ref="Mt 13:25"/>
       </claim>
-      <claim cert="0.5">
+      <claim verb="alludes-to">
          <subject work="gn" ref="24"/>
          <object work="nt" ref="Mt 21:12-13"/>
       </claim>
-      <claim cert="0.5">
+      <claim verb="alludes-to">
          <subject work="gn" ref="7"/>
          <object work="nt" ref="Mt 25:1-13"/>
       </claim>
-      <claim cert="0.5">
+      <claim verb="alludes-to">
          <subject work="gn" ref="38"/>
          <object work="nt" ref="Lu 12:22"/>
       </claim>
@@ -145,11 +146,15 @@
          <subject work="gn" ref="29"/>
          <object work="nt" ref="Lu 14:10"/>
       </claim>
-      <claim cert="0.5">
+      <claim verb="alludes-to">
+         <subject work="gn" ref="29"/>
+         <object work="nt" ref="Lu 14:9"/>
+      </claim>
+      <claim verb="alludes-to">
          <subject work="gn" ref="21"/>
          <object work="nt" ref="Jn 11:49-51"/>
       </claim>
-      <claim cert="0.5">
+      <claim verb="alludes-to">
          <subject work="gn" ref="37"/>
          <object work="nt" ref="1Co 9:27"/>
       </claim>
