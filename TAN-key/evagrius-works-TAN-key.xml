@@ -70,6 +70,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2430</IRI>
+            <name>Prak.</name>
             <name>Praktikos</name>
             <name xml:lang="grc">Λόγος πράκτικος</name>
             <name xml:lang="lat">Practicus et epistula ad Anatolium</name>
@@ -115,6 +116,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2431</IRI>
+            <name>Gn.</name>
             <name xml:lang="grc">Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
             <name>Gnostikos</name>
             <name xml:lang="lat">Gnosticus</name>
