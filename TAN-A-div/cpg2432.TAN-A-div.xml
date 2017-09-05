@@ -356,7 +356,7 @@
       </claim>
       <claim>
          <subject src="S2" ref="III 9"/>
-         <object src="nt nt-syr" ref="Lu 13:32"/>
+         <object work="nt" ref="Lu 13:32"/>
       </claim>
       <claim>
          <subject work="S1" ref="III 11"/>
@@ -364,11 +364,15 @@
       </claim>
       <claim>
          <subject src="S1" ref="III 25"/>
-         <object src="nt nt-syr" ref="1Co 15:42"/>
+         <object work="nt" ref="1Co 15:42"/>
       </claim>
       <claim>
          <subject work="S1" ref="III 33"/>
          <object work="nt" ref="1Co 15:53-54"/>
+      </claim>
+      <claim>
+         <subject src="grc-PG12" ref="III 36"/>
+         <object work="lxx" ref="Ps 5:12"/>
       </claim>
       <claim>
          <subject work="S1" ref="III 37"/>
