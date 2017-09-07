@@ -20,29 +20,15 @@
          <location href="TAN-A-div/HEAD.evagrius.TAN-A-div.xml" when-accessed="2015-10-12-04:00"/>
       </inclusion>
       <source>
-         <IRI>http://lccn.loc.gov/72309768</IRI>
-         <IRI>tag:evagriusponticus.net,2012:scriptum:guillaumont-1971</IRI>
-         <name xml:lang="fra">Traitè pratique, ou, Le moine. Evagre le Pontique. Introduction par
-            Antoine Guillaumont et Claire Guillaumont. Sources chrétiennes 171. Paris, Éditions du
-            Cerf, 1971.</name>
-         <rights-source-only>
-            <IRI>urn:uuid:d56dd4a9-5487-4131-ac61-f43e2b11a17a</IRI>
-            <name>Rights for the source are held by Sources chrétiennes, Les Éditions du Cerf 24,
-               rue des Tanneries 75013 Paris France www.editionsducerf.fr </name>
-         </rights-source-only>
+         <IRI>http://id.lib.harvard.edu/aleph/004879659/catalog</IRI>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:jackson-1895</IRI>
+         <name>A Select Library of Nicene and Post-Nicene Fathers of the Christian Church, 2nd series</name>
+         <desc>Volume 8 contains the Letter on faith.</desc>
       </source>
-      <see-also>
-         <relationship which="model"/>
-         <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:grc:gribomont</IRI>
-         <name>Epistula fidei</name>
-         <name>Letter of faith</name>
-         <location href="cpg2439.grc.gribomont.xml" when-accessed="2017-04-12T18:38:12.393-04:00"/>
-      </see-also>
       <declarations>
          <work which="Ep. fid."/>
          <div-type xml:id="sect" which="section"/>
          <div-type xml:id="title" which="title"/>
-
          <filter>
             <normalization which="no hyphens"/>
          </filter>
