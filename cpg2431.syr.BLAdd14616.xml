@@ -1,76 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" 
-  xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" 
-  xmlns="http://www.tei-c.org/ns/1.0" TAN-version="1 dev" id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd14616">
-  <teiHeader type="text">
+<?xml-model href="../../TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2018" id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd14616">
+  <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Λόγος γνώστικος</title>
         <author>Evagrius Ponticus</author>
         <respStmt>
           <resp>edited by</resp>
-          <persName full="yes">Columba <surname full="yes">Stewart</surname></persName>
+          <persName full="yes" instant="false">Columba <surname full="yes">Stewart</surname></persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
         <p part="N"/>
       </publicationStmt>
       <sourceDesc default="false">
-        <p>From a personally transcribed edition.</p>
+        <p part="N">From a personally transcribed edition.</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <head xmlns="tag:textalign.net,2015:ns">
     <name>Transcription of the Gnostikos preserved in BL Add. 14616</name>
-    <rights-excluding-sources include="WORK"/>
-    <inclusion xml:id="WORK">
-      <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001</IRI>
-      <name>CPG2431-grc-Guillaumonts.TAN-TEI.xml Guillaumonts' Greek edition of the Gnostikos of
-        Evagrios Pontikos</name>
-      <location href="CPG2431.grc.guillaumonts.tei.xml" when-accessed="2015-10-13-04:00"/>
-    </inclusion>
+    <license which="by_4.0"/>
+    <licensor who="kalvesmaki"/>
+    <key>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+    </key>
+    <key>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
+      <name>Works by Evagrius</name>
+      <location href="TAN-key/evagrius-works-TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+    </key>
     <source>
       <IRI>tag:evagriusponticus.net,2012:scriptum:ms:gb:london:bl:add-14616</IRI>
       <name>British Library MS Add. 14616</name>
     </source>
-    <see-also>
-      <relationship which="auxiliary"/>
-      <IRI>urn:uuid:e3c4c082-1351-47af-b047-8c0f1c02d372</IRI>
-      <name>Personally typed transcription</name>
-    </see-also>
-    <declarations>
-      <work include="WORK"/>
+    
+    <definitions>
+      <work which="Gn."/>
       <version>
         <IRI>tag:evagriusponticus.net,2015:cpg2431,S2</IRI>
         <IRI>tag:kalvesmaki.com,2014:cpg2431,S2</IRI>
         <name>S3 translation of the Gnostikos</name>
       </version>
-      <div-type include="WORK"/>
-      <filter/>
-    </declarations>
-    <agent include="WORK"/>
-    <role include="WORK"/>
+      <div-type which="chapter" xml:id="chapter"/>
+      <relationship which="auxiliary" xml:id="auxiliary"/>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+      <role xml:id="editor" which="editor"/>
+      <role xml:id="stylesheet" which="stylesheet"/>
+    </definitions>
+    <resp who="kalvesmaki" roles="editor"/>
+    <resp who="xslt1" roles="stylesheet"/>
     <change when="2017-05-15-04:00" who="kalvesmaki">Removed | representing line breaks; normalized
       references; removed folio numbers duplicating @n</change>
     <change when="2016-03-19" who="kalvesmaki">Started file</change>
+    <change who="xslt1" when="2017-12-16T12:39:05.078-05:00">TAN file updated to 2018 schemas.</change>
   </head>
   <text>
     <body xml:lang="syr" ed-when="2016-03-19-04:00" ed-who="kalvesmaki">
-      <div type="chapter" n="22">
-        <ab>ܠܐ ܘܠܐ ܠܗ<lb/> ܠܝܕܘܥܐ ܕܢܗܘ{ܐ -------}ܦ ܠܐ<pb n="35v"/><lb/> ܐܦܠܐ ܕܢܗܘܐ ܟܠܐ ܠܕܒܥܝܢ<lb/> ܢܫܐܠܘܢܝܗܝ. ܐܢ ܓܝܪ ܐܬܟܡ݂ܪ<lb/> ܡܚܘܐ. ܢܦܫܗ ܕܠܐ ܝܕܥ݁ ܡ̈ܠܐ<lb/> ܫܪܝܪܬܐ ܕܥܠ ܦܘܫܩܐ ܕܨܒ̈ܘܬܐ<lb/> ܕܡܫܐܠܝܢ ܠܗ ܥܠܝܗܝܢ܁ ܐܢ ܕܝܢ ܠܐ<lb/> ܦܫܝܩܐܝ݂ܬ ܢܩܒܠ ܠܕܫܐܠܝܢ ܠܗ܈<lb/> ܗܐ ܐܫܬܟܚ ܠܗ ܐܝܟ ܓܒܪܐ<lb/> ܕܠܐ ܒܥ݁ܐ ܕܢܚܘܢ ܒ̈ܢܝ ܐܢܫܐ:<lb/> ܘܢܬܦܢܘܢ ܠܘܬ ܝܕܥܬܐ ܕܫܪܪܐ.</ab>
+      <div type="chapter" n="22" part="N" org="uniform" sample="complete">
+        <ab part="N">ܠܐ ܘܠܐ ܠܗ<lb/> ܠܝܕܘܥܐ ܕܢܗܘ{ܐ -------}ܦ ܠܐ<pb n="35v"/><lb/> ܐܦܠܐ ܕܢܗܘܐ ܟܠܐ ܠܕܒܥܝܢ<lb/> ܢܫܐܠܘܢܝܗܝ. ܐܢ ܓܝܪ ܐܬܟܡ݂ܪ<lb/> ܡܚܘܐ. ܢܦܫܗ ܕܠܐ ܝܕܥ݁ ܡ̈ܠܐ<lb/> ܫܪܝܪܬܐ ܕܥܠ ܦܘܫܩܐ ܕܨܒ̈ܘܬܐ<lb/> ܕܡܫܐܠܝܢ ܠܗ ܥܠܝܗܝܢ܁ ܐܢ ܕܝܢ ܠܐ<lb/> ܦܫܝܩܐܝ݂ܬ ܢܩܒܠ ܠܕܫܐܠܝܢ ܠܗ܈<lb/> ܗܐ ܐܫܬܟܚ ܠܗ ܐܝܟ ܓܒܪܐ<lb/> ܕܠܐ ܒܥ݁ܐ ܕܢܚܘܢ ܒ̈ܢܝ ܐܢܫܐ:<lb/> ܘܢܬܦܢܘܢ ܠܘܬ ܝܕܥܬܐ ܕܫܪܪܐ.</ab>
       </div>
-      <div type="chapter" n="23">
-        <ab>ܒܙܢܒ ܘ݁ܠܐ ܠܗ ܠܝܕܘܥܐ܈ ܕܢܫܬܐܠ<lb/> ܡܢ ܒܨܬܐ ܕܫܘ̈ܐܠܐ܁ ܘܢܐܡ݂ܪ ܕܠܐ<lb/> ܚ݁ܟܡ ܒܡܕܡ ܕܡܫܬܐܠ܁ ܡܛܘܠ<lb/> ܐܝܠܝܢ ܕܠܐ ܫܘܝܢ ܕܢܫܡܥܘܢ. ܟܕ ܓܝܪ<lb/> ܗܕܐ ܢܥܒܕ܈ ܡܫܪ ܘܠܐ ܡܕܓܠ<lb/> ܡܛܠ ܕܐܣܝܪ ܗ݂ܘ ܒܦܓܪ܁ ܘܫܪܪܐ<lb/> ܕܒܨܬܐ ܗܫܐ݂ ܠܐ ܝܠܝܦ.</ab>
+      <div type="chapter" n="23" part="N" org="uniform" sample="complete">
+        <ab part="N">ܒܙܢܒ ܘ݁ܠܐ ܠܗ ܠܝܕܘܥܐ܈ ܕܢܫܬܐܠ<lb/> ܡܢ ܒܨܬܐ ܕܫܘ̈ܐܠܐ܁ ܘܢܐܡ݂ܪ ܕܠܐ<lb/> ܚ݁ܟܡ ܒܡܕܡ ܕܡܫܬܐܠ܁ ܡܛܘܠ<lb/> ܐܝܠܝܢ ܕܠܐ ܫܘܝܢ ܕܢܫܡܥܘܢ. ܟܕ ܓܝܪ<lb/> ܗܕܐ ܢܥܒܕ܈ ܡܫܪ ܘܠܐ ܡܕܓܠ<lb/> ܡܛܠ ܕܐܣܝܪ ܗ݂ܘ ܒܦܓܪ܁ ܘܫܪܪܐ<lb/> ܕܒܨܬܐ ܗܫܐ݂ ܠܐ ܝܠܝܦ.</ab>
       </div>
-      <div type="chapter" n="24">
-        <ab>ܚܘܪ ܒܢܦܫܟ݁ ܕܠܐ ܡܛܘܠ<lb/> ܕܠܐܓܘܪܬܐ ܐܘ ܝܘܬܪܢܐ ܕܥܠܡܐ݁<lb/> ܐܘ ܡܛܠ ܫܘܒܚܐ ܕܥܒ݁ܪܬܐ ܡܪ<lb/> ܡܕܡ ܕܠܐ ܘ݁ܠܐ܁ ܕܢܬܓܠܐ<lb/> ܘܬܬܛܪܕ ܠܒܪ ܡܢ ܗܝܟܠܐ ܘܛܝܪܐ<lb/> ܩܕܝܫܐ.</ab>
+      <div type="chapter" n="24" part="N" org="uniform" sample="complete">
+        <ab part="N">ܚܘܪ ܒܢܦܫܟ݁ ܕܠܐ ܡܛܘܠ<lb/> ܕܠܐܓܘܪܬܐ ܐܘ ܝܘܬܪܢܐ ܕܥܠܡܐ݁<lb/> ܐܘ ܡܛܠ ܫܘܒܚܐ ܕܥܒ݁ܪܬܐ ܡܪ<lb/> ܡܕܡ ܕܠܐ ܘ݁ܠܐ܁ ܕܢܬܓܠܐ<lb/> ܘܬܬܛܪܕ ܠܒܪ ܡܢ ܗܝܟܠܐ ܘܛܝܪܐ<lb/> ܩܕܝܫܐ.</ab>
       </div>
-      <div type="chapter" n="25">
-        <ab>ܠܐܠܝܢ ܕܒܠܐ݁ ܝܕܥܬܐ<lb/> ܕܟ̈ܬܒܐ ܩ݁ܝܡܝܢ ܒܚܪܝܢܐ܁ ܠܐ ܡܢ<lb/> ܫܘܠ݂ܡܗ ܕܨܒܘ̈ܬܐ ܕܡܫܟܚܢ<pb n="36r"/><lb/> ܡܦܝܣܢ ܠܗܘܢ ܬܦܝܣ. ܐܠܐ ܡܢ<lb/> ܫܘܪܝܗܝܢ ܬܩܪܒ ܐܢܘܢ ܠܫܪ݂ܝܐ܁<lb/> ܠܐܝܠܝܢ ܕܝܢ ܕܚܫܐ ܫܪܝܘ ܒܝܚܝܕܝܘܬܐ<lb/> ܠܐ ܬܬܢܐ ܠܗܘܢ ܡܢ ܫܪ̈ܒܐ ܕܒܐܪܙ<lb/> ܐܡܝܪ̈ܝܢ ܘܠܐ ܬܫܒ݂ܘܩ ܐܢܘܢ<lb/> ܕܢܒܪܘܢ ܒܟܬ̈ܒܐ܁ ܐܝܠܝܢ ܕܠܐ<lb/> ܡܫܟܚܝܢ ܡܕܪܟܝܢ ܚܝܠܗܘܢ܁ ܠܐ<lb/> ܓܝܪ ܡܫܟܚܝܢ ܩܝܡܝܢ ܠܘܩܒܠ<lb/> ܦܓ̈ܥܐ ܕܗ݁ܘܝܢ ܒܩܪ̈ܝܢܐ ܕܟܬ̈ܒܐ<lb/> ܡܛܠ ܗܕܐ ܘ݁ܠܐ ܠܟ ܕܐܝܠܝܢ<lb/> ܕܡܬܥܝܪܝܢ ܝܠܝܗܘܢ ܚܫ̈ܐ<lb/> ܕܪ̈ܓܝܓܬܗܘܢ܈ ܕܡ̈ܠܐ ܕܫܝܢܐ܁<lb/> ܘܕܫܠܡܐ݂ ܠܐ ܬܬܢܐ ܠܗܘܢܟ ܐܠܐ<lb/> ܬܡܠܘܟ ܐܢܘܢ ܕܢܗܘܘܢ ܩܝܡܝܢ<lb/> ܚܠܝܨܐܝܬ ܒܩܪ̈ܒܐ݂: ܘܡܫܦܠܝܢ<lb/> ܠܒ̈ܥܠܕܒܒܐ܁ ܐܝܠܝܢ ܗܟܝܠ ܕܡܢ<lb/> ܚ̈ܫܐ ܕܪ̈ܓܝܓܬܐ ܫܚܝܩܝܢ: ܘܒܥܝܢ<lb/> ܕܢܥܩܒܘܢ ܥܠ ܪ̈ܘܚܢܝܬܐ ܘܥܠ<lb/> ܡܕܡ ܕܠܐ ܡܬܚܙܝ݂ܢ܁ ܕܡ݁ܝܢ<lb/> ܠܐܢܫܐ ܟܪ̈ܝܗܐ܇ ܕܡܕܡܝܢ ܢܦܫܗܘܢ<lb/> ܠܚ̈ܠܡܐ܁ ܫܦܝܪ ܗ݂ܘ ܠܗܓܝܪ ܠܐܢܫ<lb/> ܕܢܛܥܡ ܡܢ ܚܠܝܘܬܐ ܕܗܢܐ<lb/> ܥܘܡܩܐ܁ ܐܡܬܝ ܕܠܡܚܣܢ ܙܝܢܐ<lb/> ܢܦܫܐ ܡܢ ܚܫ̈ܐ ܕܪ̈ܓܝܓܬܐ<pb n="36v"/><lb/> ܕܡܪܓܫܐ ܒܗܘܢ</ab>
+      <div type="chapter" n="25" part="N" org="uniform" sample="complete">
+        <ab part="N">ܠܐܠܝܢ ܕܒܠܐ݁ ܝܕܥܬܐ<lb/> ܕܟ̈ܬܒܐ ܩ݁ܝܡܝܢ ܒܚܪܝܢܐ܁ ܠܐ ܡܢ<lb/> ܫܘܠ݂ܡܗ ܕܨܒܘ̈ܬܐ ܕܡܫܟܚܢ<pb n="36r"/><lb/> ܡܦܝܣܢ ܠܗܘܢ ܬܦܝܣ. ܐܠܐ ܡܢ<lb/> ܫܘܪܝܗܝܢ ܬܩܪܒ ܐܢܘܢ ܠܫܪ݂ܝܐ܁<lb/> ܠܐܝܠܝܢ ܕܝܢ ܕܚܫܐ ܫܪܝܘ ܒܝܚܝܕܝܘܬܐ<lb/> ܠܐ ܬܬܢܐ ܠܗܘܢ ܡܢ ܫܪ̈ܒܐ ܕܒܐܪܙ<lb/> ܐܡܝܪ̈ܝܢ ܘܠܐ ܬܫܒ݂ܘܩ ܐܢܘܢ<lb/> ܕܢܒܪܘܢ ܒܟܬ̈ܒܐ܁ ܐܝܠܝܢ ܕܠܐ<lb/> ܡܫܟܚܝܢ ܡܕܪܟܝܢ ܚܝܠܗܘܢ܁ ܠܐ<lb/> ܓܝܪ ܡܫܟܚܝܢ ܩܝܡܝܢ ܠܘܩܒܠ<lb/> ܦܓ̈ܥܐ ܕܗ݁ܘܝܢ ܒܩܪ̈ܝܢܐ ܕܟܬ̈ܒܐ<lb/> ܡܛܠ ܗܕܐ ܘ݁ܠܐ ܠܟ ܕܐܝܠܝܢ<lb/> ܕܡܬܥܝܪܝܢ ܝܠܝܗܘܢ ܚܫ̈ܐ<lb/> ܕܪ̈ܓܝܓܬܗܘܢ܈ ܕܡ̈ܠܐ ܕܫܝܢܐ܁<lb/> ܘܕܫܠܡܐ݂ ܠܐ ܬܬܢܐ ܠܗܘܢܟ ܐܠܐ<lb/> ܬܡܠܘܟ ܐܢܘܢ ܕܢܗܘܘܢ ܩܝܡܝܢ<lb/> ܚܠܝܨܐܝܬ ܒܩܪ̈ܒܐ݂: ܘܡܫܦܠܝܢ<lb/> ܠܒ̈ܥܠܕܒܒܐ܁ ܐܝܠܝܢ ܗܟܝܠ ܕܡܢ<lb/> ܚ̈ܫܐ ܕܪ̈ܓܝܓܬܐ ܫܚܝܩܝܢ: ܘܒܥܝܢ<lb/> ܕܢܥܩܒܘܢ ܥܠ ܪ̈ܘܚܢܝܬܐ ܘܥܠ<lb/> ܡܕܡ ܕܠܐ ܡܬܚܙܝ݂ܢ܁ ܕܡ݁ܝܢ<lb/> ܠܐܢܫܐ ܟܪ̈ܝܗܐ܇ ܕܡܕܡܝܢ ܢܦܫܗܘܢ<lb/> ܠܚ̈ܠܡܐ܁ ܫܦܝܪ ܗ݂ܘ ܠܗܓܝܪ ܠܐܢܫ<lb/> ܕܢܛܥܡ ܡܢ ܚܠܝܘܬܐ ܕܗܢܐ<lb/> ܥܘܡܩܐ܁ ܐܡܬܝ ܕܠܡܚܣܢ ܙܝܢܐ<lb/> ܢܦܫܐ ܡܢ ܚܫ̈ܐ ܕܪ̈ܓܝܓܬܐ<pb n="36v"/><lb/> ܕܡܪܓܫܐ ܒܗܘܢ</ab>
       </div>
     </body>
   </text>

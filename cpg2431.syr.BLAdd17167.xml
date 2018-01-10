@@ -1,144 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude"
-  xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
-  xmlns="http://www.tei-c.org/ns/1.0" TAN-version="1 dev"
-  id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd17167">
-  <teiHeader type="text">
+<?xml-model href="../../TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2018" id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd17167">
+  <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Λόγος γνώστικος</title>
         <author>Evagrius Ponticus</author>
         <respStmt>
           <resp>edited by</resp>
-          <persName full="yes">Columba <surname full="yes">Stewart</surname></persName>
+          <persName full="yes" instant="false">Columba <surname full="yes">Stewart</surname></persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
         <p part="N"/>
       </publicationStmt>
       <sourceDesc default="false">
-        <p>From a personally transcribed edition.</p>
+        <p part="N">From a personally transcribed edition.</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <head xmlns="tag:textalign.net,2015:ns">
     <name>Transcription of the Gnostikos preserved in BL Add. 17167</name>
-    <rights-excluding-sources include="WORK"/>
-    <inclusion xml:id="WORK">
-      <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001</IRI>
-      <name>CPG2431-grc-Guillaumonts.TAN-TEI.xml Guillaumonts' Greek edition of the Gnostikos of
-        Evagrios Pontikos</name>
-      <location href="CPG2431.grc.guillaumonts.tei.xml" when-accessed="2015-10-13-04:00"/>
-    </inclusion>
+    <license which="by_4.0"/>
+    <licensor who="kalvesmaki"/>
+    <key>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+    </key>
+    <key>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
+      <name>Works by Evagrius</name>
+      <location href="TAN-key/evagrius-works-TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+    </key>
     <source>
       <IRI>tag:evagriusponticus.net,2012:scriptum:ms:gb:london:bl:add-17167</IRI>
       <name>British Library MS Add. 17167</name>
     </source>
-    <see-also>
-      <relationship which="auxiliary"/>
-      <IRI>urn:uuid:65c176c1-60b5-4a86-8d71-14e9a6b76c59</IRI>
-      <name>Personally typed transcription</name>
-    </see-also>
-    <declarations>
-      <work include="WORK"/>
+    
+    <definitions>
+      <work which="Gn."/>
       <version>
         <IRI>tag:evagriusponticus.net,2015:cpg2431,S3</IRI>
         <IRI>tag:kalvesmaki.com,2014:cpg2431,S3</IRI>
         <name>S3 translation of the Gnostikos</name>
       </version>
-      <div-type include="WORK"/>
-      <filter/>
-    </declarations>
-    <agent include="WORK"/>
-    <role include="WORK"/>
+      <div-type which="chapter" xml:id="chapter"/>
+      <relationship which="auxiliary" xml:id="auxiliary"/>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+      <role xml:id="editor" which="editor"/>
+      <role xml:id="stylesheet" which="stylesheet"/>
+    </definitions>
+    <resp who="kalvesmaki" roles="editor"/>
+    <resp who="xslt1" roles="stylesheet"/>
     <change when="2017-05-15-04:00" who="kalvesmaki">Removed | representing line breaks; normalized
       references; removed folio numbers duplicating @n</change>
     <change when="2016-03-19" who="kalvesmaki">Started file</change>
+    <change who="xslt1" when="2017-12-16T12:39:10.073-05:00">TAN file updated to 2018 schemas.</change>
   </head>
   <text>
     <body xml:lang="syr" ed-when="2016-03-19-04:00" ed-who="kalvesmaki">
-      <div type="chapter" n="1">
-        <ab>ܣܥܪ̈ܝ݁ ܣܘܥܪ̈ܢܐ<lb/> ܢܣܬܟܠܘ݁ܢ ܡ̈ܠܐ ܕܣܘܥܑܪ̈ܢܐ܁ ܦܠܐ̈ܬܐ ܕܝܢ<lb/> ܕܝܕܥܬܐ ܢܚܙܘܢ݂
+      <div type="chapter" n="1" part="N" org="uniform" sample="complete">
+        <ab part="N">ܣܥܪ̈ܝ݁ ܣܘܥܪ̈ܢܐ<lb/> ܢܣܬܟܠܘ݁ܢ ܡ̈ܠܐ ܕܣܘܥܑܪ̈ܢܐ܁ ܦܠܐ̈ܬܐ ܕܝܢ<lb/> ܕܝܕܥܬܐ ܢܚܙܘܢ݂
           ܝܕܘܥ̈ܬܢܐ.܀</ab>
       </div>
-      <div type="chapter" n="2">
-        <ab>ܣ݁ܥܪ<lb/> ܣܘܥܪ̈ܢܐ ܐܝܬܘܗܝ݂ ܗܘ݁ ܕܡܑܢܬܐ ܚܫܘܫܐ<lb/> ܕܢܦܫܗ ܩܢ݂ܐ ܕܠܐ ܚܫܐ.܀</ab>
+      <div type="chapter" n="2" part="N" org="uniform" sample="complete">
+        <ab part="N">ܣ݁ܥܪ<lb/> ܣܘܥܪ̈ܢܐ ܐܝܬܘܗܝ݂ ܗܘ݁ ܕܡܑܢܬܐ ܚܫܘܫܐ<lb/> ܕܢܦܫܗ ܩܢ݂ܐ ܕܠܐ ܚܫܐ.܀</ab>
       </div>
-      <div type="chapter" n="3">
-        <ab>ܝܕܘܥܬܢܐ<lb/> ܕܝܢ݁ ܐܝܬܘܗܝ݂܁ ܗ݁ܘ ܕܒܕܡܘܬ ܡܠܚܐ<lb/> ܐܝܬܘܗܝ ܠܛܡ̈ܐܐ܆ ܘܐܝܟ ܢܘܗܪܐ ܠܕܟ̈ܝܐ.</ab>
+      <div type="chapter" n="3" part="N" org="uniform" sample="complete">
+        <ab part="N">ܝܕܘܥܬܢܐ<lb/> ܕܝܢ݁ ܐܝܬܘܗܝ݂܁ ܗ݁ܘ ܕܒܕܡܘܬ ܡܠܚܐ<lb/> ܐܝܬܘܗܝ ܠܛܡ̈ܐܐ܆ ܘܐܝܟ ܢܘܗܪܐ ܠܕܟ̈ܝܐ.</ab>
       </div>
-      <div type="chapter" n="4">
-        <ab>ܝܕܥܬܐ ܕܡܢ ܠܒܪܓܕܫ݁ܐ ܠܢ܆ ܒܝܕ ܡ̈ܠܐ<lb/> ܡܚܘܝܐ ܠܢ ܗܘ̈ܠܣ. ܗ݁ܝ ܕܝܢ ܕܡܢ ܛܝܒܘܬܐ<lb/> ܐܠܗܐ ܗܘܝܐ
+      <div type="chapter" n="4" part="N" org="uniform" sample="complete">
+        <ab part="N">ܝܕܥܬܐ ܕܡܢ ܠܒܪܓܕܫ݁ܐ ܠܢ܆ ܒܝܕ ܡ̈ܠܐ<lb/> ܡܚܘܝܐ ܠܢ ܗܘ̈ܠܣ. ܗ݁ܝ ܕܝܢ ܕܡܢ ܛܝܒܘܬܐ<lb/> ܐܠܗܐ ܗܘܝܐ
           ܒܢ܆ ܥܪܛܠܐܝܬ ܡܚܘܝܐ܆<lb/> ܠܗܘܢ ܠܣܘܥܪ̈ܢܐ ܠܬܪܥܝܬܐ܆ ܕܟܕ ܢܚܘܪ<lb/> ܒܗܘܢ ܗܘܢܐ܆ ܣܘܟܠܝܗܘܢ
           ܡܩ݁ܒܠܢܐ<lb/> ܣܩܘܒܠܝܐ ܕܝܢ ܠܩܕܡܝܬܐ܁ ܛܘܥܚ ܠܬܪܝܢܬܐ<lb/> ܕܝܢ ܚܡܬܐ ܘܪܘܓܙܐ ܘܐܝܠܝܢ ܕܠܗܠܝܢ<lb/>
           ܢܩܝܦܢ ܀</ab>
       </div>
-      <div type="chapter" n="5">
-        <ab>ܟܠܗܝܢ ܡܝܬܪ̈ܬܐ ܕܪܫܢ<lb/> ܐܘܪܚܐ ܩܕܡ ܝܕܘܥܬܢܐ. ܝܬܝܪ ܕܝܢ ܡܢ<lb/> ܟܘܠܗܝܢ ܕܠܐ ܢܣ݂ܩ ܪܘܓܙܗ܁ ܗ݁ܘ
+      <div type="chapter" n="5" part="N" org="uniform" sample="complete">
+        <ab part="N">ܟܠܗܝܢ ܡܝܬܪ̈ܬܐ ܕܪܫܢ<lb/> ܐܘܪܚܐ ܩܕܡ ܝܕܘܥܬܢܐ. ܝܬܝܪ ܕܝܢ ܡܢ<lb/> ܟܘܠܗܝܢ ܕܠܐ ܢܣ݂ܩ ܪܘܓܙܗ܁ ܗ݁ܘ
           ܕܝܢ<lb/> ܕܐܬܩܪܒ ܠܘܬ ܝܕܥܬܐ܆ ܘܕܠܝܠܐܝܬ<lb/> ܡܬܬܙܝܥ ܡܢ ܪܘܓܙܐ܆ ܕܡ݁ܐ ܠܗ݁ܘ ܕܡܚܐ<lb/> ܡܚܛܐ ܕܦܪܙܠܐ
           ܒ̈ܥܝܢܘܗ݁ܝ܀</ab>
       </div>
-      <div type="chapter" n="6">
-        <ab>ܢܙܕܗܪ<lb/> ܝܕܘܥܬܢܐ ܒܡܬܢܚܬܢܘܬܗ܆ ܕܠܐ ܢܛܥܐ<lb/> ܘܢܨܛܒܥ ܠܗ ܒܗ݁܁ ܘܢܬܚܦܛ ܕܟܠܗܝܢ<lb/> ܡܝܬܪ̈ܬܐ
+      <div type="chapter" n="6" part="N" org="uniform" sample="complete">
+        <ab part="N">ܢܙܕܗܪ<lb/> ܝܕܘܥܬܢܐ ܒܡܬܢܚܬܢܘܬܗ܆ ܕܠܐ ܢܛܥܐ<lb/> ܘܢܨܛܒܥ ܠܗ ܒܗ݁܁ ܘܢܬܚܦܛ ܕܟܠܗܝܢ<lb/> ܡܝܬܪ̈ܬܐ
           ܫܘܝܐܝܬ ܢܓܡܘܪ܆ ܕܗ̈ܘܝ<lb/> ܠܬ݁ܝܢ ܒܗ ܠܚ̈ܕܕܐ܆ ܡܛܠ ܕܡܟܢ ܗܘܢܐ<pb n="9r"/><lb/> ܕܢܫܬ݂ܠܡ ܡܢ ܗ݁ܝ
           ܕܡܬܒܨܪܐ. ܀</ab>
       </div>
-      <div type="chapter" n="7">
-        <ab>ܝܕܘܥܬܢܐ<lb/> ܒܟܠܙܒܢ ܢܕܪܫ ܢܦܫܗ ܒܪ̈ܚ݂ܡܐ܁ ܐܢ ܕܝܢ<lb/> ܥܠ ܟܣܦܐ ܣܢܝܩ܆ ܢܙܝܥ ܡܐ̈ܢܐ ܕܢܦܫܗ܁<lb/>
+      <div type="chapter" n="7" part="N" org="uniform" sample="complete">
+        <ab part="N">ܝܕܘܥܬܢܐ<lb/> ܒܟܠܙܒܢ ܢܕܪܫ ܢܦܫܗ ܒܪ̈ܚ݂ܡܐ܁ ܐܢ ܕܝܢ<lb/> ܥܠ ܟܣܦܐ ܣܢܝܩ܆ ܢܙܝܥ ܡܐ̈ܢܐ ܕܢܦܫܗ܁<lb/>
           ܟܠܗܘܢ ܓܝܪ ܡܟܢܝܢ ܠܡܥܒܕ ܪ̈ܚ݂ܡܐ܁ ܗܠܝܢ<lb/> ܕܟܕ ܐܬܓܠܙ ܡܢܗܘܢ ܚܡܫ ܒ̈ܬܘܠܬܐ݂ ܕܥܟܘ<lb/>
           ܠܡ̈ܦܕܝܗܝܢ܀</ab>
       </div>
-      <div type="chapter" n="8">
-        <ab>ܫܟܝܪܐ ܠܝܕܘܥܬܢܐ ܕܕܝܢܐ<lb/> ܢܐܡܪ. ܐܢ ܡܬ݂ܛܠܡ܆ ܘܐܢ ܛܠܡ ܐܢ ܡܬܛܠܡ<lb/> ܕܠܐ ܣܝܒܪ. ܘܐܢ ܛܠܡ ܡܛܠܬܗ
+      <div type="chapter" n="8" part="N" org="uniform" sample="complete">
+        <ab part="N">ܫܟܝܪܐ ܠܝܕܘܥܬܢܐ ܕܕܝܢܐ<lb/> ܢܐܡܪ. ܐܢ ܡܬ݂ܛܠܡ܆ ܘܐܢ ܛܠܡ ܐܢ ܡܬܛܠܡ<lb/> ܕܠܐ ܣܝܒܪ. ܘܐܢ ܛܠܡ ܡܛܠܬܗ
           ܕܛܠܘܡܘܬܐ܀</ab>
       </div>
-      <div type="chapter" n="9">
-        <ab>ܝܕܥܬܐ ܕܡܬܢܛܪܐ ܡܠܦܐ ܠܩܢܝܗ݁܆<lb/> ܕܐܝܟܢܐ ܢܬܢ݂ܛܪ ܘܠܩܕܡܘܗܝ ܢܫܬܘܫܛ.</ab>
+      <div type="chapter" n="9" part="N" org="uniform" sample="complete">
+        <ab part="N">ܝܕܥܬܐ ܕܡܬܢܛܪܐ ܡܠܦܐ ܠܩܢܝܗ݁܆<lb/> ܕܐܝܟܢܐ ܢܬܢ݂ܛܪ ܘܠܩܕܡܘܗܝ ܢܫܬܘܫܛ.</ab>
       </div>
-      <div type="chapter" n="10">
-        <ab>ܐܢܗܘ ܕܡܚܪܪ ܝܕܘ݂ܥܬܢܐ ܒܙܒܢܐ<lb/> ܕܦܘܫܩܐ܆ ܡܢ ܪܘܓܙܐ ܘܐܟܬܐ ܘܥܩܬܐ܆<lb/> ܘܟܘܪܗܢܐ ܕܦܓܪܐ ܘܨܦܬܐ݂
+      <div type="chapter" n="10" part="N" org="uniform" sample="complete">
+        <ab part="N">ܐܢܗܘ ܕܡܚܪܪ ܝܕܘ݂ܥܬܢܐ ܒܙܒܢܐ<lb/> ܕܦܘܫܩܐ܆ ܡܢ ܪܘܓܙܐ ܘܐܟܬܐ ܘܥܩܬܐ܆<lb/> ܘܟܘܪܗܢܐ ܕܦܓܪܐ ܘܨܦܬܐ݂
           ܢ݁ܦܫܩ܀܀܀</ab>
       </div>
-      <div type="chapter" n="11">
-        <ab>ܩܕܡ ܡܝܬܪܘܬܐ ܓܡܝܪܬܐ܆ ܘܠܐ<lb/> ܥܢܝܢܐ ܘܠܐ ܥܝܕܐ ܐܡ ܣ̈ܓܝܐܐ<lb/> ܠܡܩܢܐ܁ ܕܠܡܐ ܢܡܠܐ ܗܘܢܢ
+      <div type="chapter" n="11" part="N" org="uniform" sample="complete">
+        <ab part="N">ܩܕܡ ܡܝܬܪܘܬܐ ܓܡܝܪܬܐ܆ ܘܠܐ<lb/> ܥܢܝܢܐ ܘܠܐ ܥܝܕܐ ܐܡ ܣ̈ܓܝܐܐ<lb/> ܠܡܩܢܐ܁ ܕܠܡܐ ܢܡܠܐ ܗܘܢܢ
           ܗܓ̈ܓܐ܀</ab>
       </div>
-      <div type="chapter" n="12">
-        <ab>ܟܠܡܕܡ ܕܡܢ ܦܘܠܚ݁ܢܐ ܗ݁ܘ ܘܡܢ<lb/> ܟܝܢܐ ܘܡܢ ܡ̈ܠܐ ܕܥܠ ܐܠܗܐ ܘܥܕܪ<lb/> ܠܦܘܪܩܢܢ܆ ܗܠܝܢ ܠܡܐܡܪ
+      <div type="chapter" n="12" part="N" org="uniform" sample="complete">
+        <ab part="N">ܟܠܡܕܡ ܕܡܢ ܦܘܠܚ݁ܢܐ ܗ݁ܘ ܘܡܢ<lb/> ܟܝܢܐ ܘܡܢ ܡ̈ܠܐ ܕܥܠ ܐܠܗܐ ܘܥܕܪ<lb/> ܠܦܘܪܩܢܢ܆ ܗܠܝܢ ܠܡܐܡܪ
           ܘܠܡ݁ܣܥܪ ܙܕܩ݁<lb/> ܠܢ ܥܕܡܐ ܠܡܘܬܐ܁ ܐܢ ܕܝܢ ܡܢ<lb/> ܡܨܥ̈ܝܬܐ܆ ܗܘ݂ ܠܐ ܠܡܐܡܪ ܘܠܐ<lb/> ܠܡܥܒܕ ܐܠܨܐ܆
           ܡܛܠ ܗܠܝܢ ܕܕܠܝܠܐܝܬ<lb/> ܡܬܟ݂ܫܠܝܢ.܀</ab>
       </div>
-      <div type="chapter" n="13">
-        <ab>ܙܕܩ ܕܠܛ̈ܠܝܐ ܘܠܥܠܡ̈ܝܐ<lb/> ܥܠ ـܥܒܕ̈ܐ ܕܡܝܬܪܘܬܐ ܠܡܡܠܠܘ ܘܥܠ<lb/> ܝܘܠܦܢܐ ܕܟܝܢܐ ܘ ܡ̈ܠܐ ܕܥܠ
+      <div type="chapter" n="13" part="N" org="uniform" sample="complete">
+        <ab part="N">ܙܕܩ ܕܠܛ̈ܠܝܐ ܘܠܥܠܡ̈ܝܐ<lb/> ܥܠ ـܥܒܕ̈ܐ ܕܡܝܬܪܘܬܐ ܠܡܡܠܠܘ ܘܥܠ<lb/> ܝܘܠܦܢܐ ܕܟܝܢܐ ܘ ܡ̈ܠܐ ܕܥܠ
           ܐܠܗܐ<lb/> ܩܠܝܠ ܡܢ ܣܓܝ ܠܡ݁ܦܫܩܘ܁ ܕܠܐ ܗܠܝܢ<lb/> ܓܝܪ ܠܝܬ ܠܡܚܙܐ ܠܡܪܝܐ܀</ab>
       </div>
-      <div type="chapter" n="14">
-        <ab>ܠܟܗ̈ܢܐ<lb/> ܒܠܚܘܕ ܦܢܐ ܦܬܓܡܐ ܡܐ ܕܡܫܐܠܝܢ<lb/> ܠܟ ܘܝܬܝܪܐ ܠܐܝܠܝܢ ܕܕܡܝܬܪܝ<pb n="9v"
-          /><lb/> ܒܗܘܢ ܕ ܡܢܐ ܐܢܝܢ ܦܠܐ̈ܬܐ ܕܡܫܬܡܫܢ<lb/> ܡܢܗܘ݁ܢ܁ ܘܠܒܪܢܫܐ ܓܘܝܐ ܡ̈ܕܟܝܢ܁ ܘܡܐ̈ܢܐ<lb/>
+      <div type="chapter" n="14" part="N" org="uniform" sample="complete">
+        <ab part="N">ܠܟܗ̈ܢܐ<lb/> ܒܠܚܘܕ ܦܢܐ ܦܬܓܡܐ ܡܐ ܕܡܫܐܠܝܢ<lb/> ܠܟ ܘܝܬܝܪܐ ܠܐܝܠܝܢ ܕܕܡܝܬܪܝ<pb n="9v"/><lb/> ܒܗܘܢ ܕ ܡܢܐ ܐܢܝܢ ܦܠܐ̈ܬܐ ܕܡܫܬܡܫܢ<lb/> ܡܢܗܘ݁ܢ܁ ܘܠܒܪܢܫܐ ܓܘܝܐ ܡ̈ܕܟܝܢ܁ ܘܡܐ̈ܢܐ<lb/>
           ܕܡܩܒܠܝ݂ܢ܆ ܬܚܘܝܬܐ ܐܢܘܢ ܕܡܢܘܬܗ݁<lb/> ܚܫܘܫܬܐ ܕܢܦܫܐ ܘܕܡܠܝܠܘܬܗ݁܁ ܘܕܡܢܐ<lb/> ܗܝ ܚܠܝܛܘܬܗܘܢ ܕܠܐ
           ܡܬܦܪܫܐ܇<lb/> ܘܐܘܚܕܢܐ ܕܚܕ ܚܕ ܡܢܗܘܢ܇ ܘܫܘܡܠܝܐ<lb/> ܕܣܘܥܪ̈ܢܐ ܕܟܠ ܚܕ ܡܢܗܘܢ ܕܠܚܕ ܢܝܫܐ܁<lb/> ܘܐܡܪ
           ܠܗܘܢ ܬܘܒ ܕܐܪܙܐ ܕܡܢ<lb/> ܐܝܬܘܗܝ ܗ݁ܘ ܕܗܠܝܢ ܥܒ݁ܕ܁ ܘ ܡ݁ܢ ܐܢܘܢ<lb/> ܐܝܠܝܢ ܕܥ݂ܡܗ܆ ܕܪܕܦܝܢ ܠܐܠܝܢ
           ܕܟܠܝܢ<lb/> ܒܕܘܒܪ̈ܐ ܕܟ݁ܝ̈ܐ܁ ܘܕܡܢܗܝܢ ܕܚܝ̈ܘܬܐ<lb/> ܐܝܬ ܠܗܝܢ ܥܘܗܕܢܐ ܘܡܢܗܝܢ ܠܝܬ܀</ab>
       </div>
-      <div type="chapter" n="15">
-        <ab>ܐܣ݁ܬܟܠ ܡ̈ܠܐ ܘܢܡܘܣ̈ܐ܇ ܕܙ̈ܒܢܐ<lb/> ܘܕܕܘܒܪ̈ܐ ܘܕܥ݁ܒ̈ܕܐ ܕܢܗܘܐ ܐܝܬ ܠܟ<lb/> ܕܠܝܠܐܝܬ ܠܡܡܠܠܘ
+      <div type="chapter" n="15" part="N" org="uniform" sample="complete">
+        <ab part="N">ܐܣ݁ܬܟܠ ܡ̈ܠܐ ܘܢܡܘܣ̈ܐ܇ ܕܙ̈ܒܢܐ<lb/> ܘܕܕܘܒܪ̈ܐ ܘܕܥ݁ܒ̈ܕܐ ܕܢܗܘܐ ܐܝܬ ܠܟ<lb/> ܕܠܝܠܐܝܬ ܠܡܡܠܠܘ
           ܠܟܠ ܐܢܫ ܐܝܠܝܢ<lb/> ܕܡܥܕܪ̈ܢ܀</ab>
       </div>
-      <div type="chapter" n="16">
-        <ab>ܘ݁ܠܐ ܕܗܘܐ ܐܝܬ ܠܟ<lb/> ܡܠܘܐܐ ܠܦܘܫܩܐ ܕܐܝܠܝܢ ܕܡܬܐܡܪܢ<lb/> ܕܢܣܦܩܢ ܠܢ ܟܠܗܝܢ ܨ̈ܒܘܬܐ܆ ܐܦܢ
+      <div type="chapter" n="16" part="N" org="uniform" sample="complete">
+        <ab part="N">ܘ݁ܠܐ ܕܗܘܐ ܐܝܬ ܠܟ<lb/> ܡܠܘܐܐ ܠܦܘܫܩܐ ܕܐܝܠܝܢ ܕܡܬܐܡܪܢ<lb/> ܕܢܣܦܩܢ ܠܢ ܟܠܗܝܢ ܨ̈ܒܘܬܐ܆ ܐܦܢ
           ܢܗܘܐ<lb/> ܕܚܕܐ ܡܢ ܙܥܘܪܝܪ̈ܬܐ ܦܠܛܐ ܠܢ܆ ܕܡܠܐܟܐ<lb/> ܗܝ ܓܝܪ ܕܠܐ ܬܛܥܝܘܗܝ ܚܕܐ ܡܢ ܗܘܠܝܢ<lb/>
           ܕܒܐܪܥܐ܀</ab>
       </div>
-      <div type="chapter" n="17">
-        <ab>ܐܠܨܐ ܕܝܢ ܕܐܦ ܬܚܘܡ̈ܐ<lb/> ܕܣܘܥ̈ܪܢܐ ܢܕܥ܁ ܝܬܝܪܐܝܬ ܕܡܝܬܪ̈ܘܬܐ<lb/> ܘܕܒ̈ܝܫܘܬܐ. ܗܠܝܢ ܓܝܪ
+      <div type="chapter" n="17" part="N" org="uniform" sample="complete">
+        <ab part="N">ܐܠܨܐ ܕܝܢ ܕܐܦ ܬܚܘܡ̈ܐ<lb/> ܕܣܘܥ̈ܪܢܐ ܢܕܥ܁ ܝܬܝܪܐܝܬ ܕܡܝܬܪ̈ܘܬܐ<lb/> ܘܕܒ̈ܝܫܘܬܐ. ܗܠܝܢ ܓܝܪ
           ܐܝܬܝܗܝܢ<lb/> ܡܒܘܥܐ ܘܪ̈ܫܐ ܕܝܕܥܬܐ ܘܕܠܐ ܝܕܥܬܐ<lb/> ܘܕܡܠܟܘܬܐ ܕܫܡܝܐ ܘܕܫܘܢܩܐ܀</ab>
       </div>
-      <div type="chapter" n="18">
-        <ab>ܘܠܐ ܠܢ ܕܢܣܬܟܠ ܐܦ ܡܬܠܢܝܐ<lb/> ܘܦܠܐ̈ܬܢܝܐ ܘܦܫ̈ܝܛܬܢܝܐ ܕܐܢ ܥܠ<lb/> ܕܘܒܪ̈ܐ ܕܡܝܬܪܘܬܐ ܐܘ
+      <div type="chapter" n="18" part="N" org="uniform" sample="complete">
+        <ab part="N">ܘܠܐ ܠܢ ܕܢܣܬܟܠ ܐܦ ܡܬܠܢܝܐ<lb/> ܘܦܠܐ̈ܬܢܝܐ ܘܦܫ̈ܝܛܬܢܝܐ ܕܐܢ ܥܠ<lb/> ܕܘܒܪ̈ܐ ܕܡܝܬܪܘܬܐ ܐܘ
           ܕܟܝ̈ܢܐ ܐܘ<lb/> ܥܠ ܡ̈ܠܐ ܕܥܠ ܐܠܗܐ ܐܝܬܝܗܘܢ.<pb n="10r"/><lb/> ܐܢ ܕܦܘܠܚܢܐ ܐܢܘܢ܆ ܢܣ݁ܬܟܠ ܐܢ
           ܥܠ<lb/> ܚܡܬܐ ܘܥܠ ܗܠܝܢ ܕܓ݂ܕܫܢ ܡܢܗ݁ ܐܡܪܝܢ܇<lb/> ܐܘ ܥܠ ܪܓܬܐ ܘܐܝܠܝܢ ܕܠܘ݂ܝܢ ܠܗ݁܇ ܐܘ<lb/> ܥܠ
           ܗܘܢܢ ܘܙܘܥ̈ܘܗܝ܁ ܘܐܢ ܕܟܝܢ݂ܐ<lb/> ܐܝܬܝܗܘܢ܆ ܘܠ݁ܐ ܕܢܚܘܪ݂ ܕܠܡܐ ܡܕܡ<lb/> ܡܢ ܝܘܠ݁ܦܢܐ ܕܟ݂ܝܢܐ
@@ -146,12 +148,12 @@
           ܠܡܒܨܐ܁<lb/> ܐܢ ܥܠ ܬܠܝܬܝܘܬܐ ܡܘܕܥ݂ ܘܐܢ<lb/> ܦܫܝܛܐܝܬ. ܘܐܢ ܒܚܕܝܘܬܐ ܡܬܚܙܐ܁<lb/> ܐܢ ܕܝܢ ܘܠܐ ܚܕܐ
           ܡܢ ܗܠܝܢ܆ ܣܘܟܠܐ<lb/> ܗܘ ܫܚܝܡܐ݂ ܐܘ ܢܒܝܘܬܐ ܡܘܕܥ.</ab>
       </div>
-      <div type="chapter" n="19">
-        <ab>ܫܦܝܪܐ ܗܝ ܕܐܦ ܥܝܕܐ ܕܟܬܒܐ<lb/> ܐܠܗܝܐ ܠܡܕܥ. ܘܠܗܢܐ ܐܝܟ<lb/> ܕܡܫܟܚܐ ܝܬܝܪܐܝܬ݂ ܒܝܕ
+      <div type="chapter" n="19" part="N" org="uniform" sample="complete">
+        <ab part="N">ܫܦܝܪܐ ܗܝ ܕܐܦ ܥܝܕܐ ܕܟܬܒܐ<lb/> ܐܠܗܝܐ ܠܡܕܥ. ܘܠܗܢܐ ܐܝܟ<lb/> ܕܡܫܟܚܐ ܝܬܝܪܐܝܬ݂ ܒܝܕ
           ܣ̈ܗܕܘܬܐ<lb/> ܢܫܪܪ. ܀</ab>
       </div>
-      <div type="chapter" n="20">
-        <ab>ܟܟ ܘܗܕܐ ܬܘܒ ܢܕ݁ܥ܆ ܕܠܘ ܦܬܓܡܐ<lb/> ܕܡܪܬܝܢܘܬܐ܇ ܐܦ ܣܘܟܠܗ ܕܡܪܬܝܢܘܬܐ<lb/> ܗܘ܁ ܐܦܠܐ ܕܟܝܢܐ ܣܘܟܠܗ
+      <div type="chapter" n="20" part="N" org="uniform" sample="complete">
+        <ab part="N">ܟܟ ܘܗܕܐ ܬܘܒ ܢܕ݁ܥ܆ ܕܠܘ ܦܬܓܡܐ<lb/> ܕܡܪܬܝܢܘܬܐ܇ ܐܦ ܣܘܟܠܗ ܕܡܪܬܝܢܘܬܐ<lb/> ܗܘ܁ ܐܦܠܐ ܕܟܝܢܐ ܣܘܟܠܗ
           ܕܟܝܢܐ ܗܘ܁<lb/> ܐܠܐ ܗ݁ܘ ܕܡܪܬܝܢܘܬܐ ܐܝܬ ܠܗ<lb/> ܕܟܝܢܐ ܘܗܘ ܕܟܝܢܐ ܕܡܪܬܝܢܘܬܐ ܘܗܟܢܐ<lb/> ܬܘܒ݂ ܐܦ
           ܥܠ ܡ̈ܠܐ ܕܥܠ ܐܠܗܘܬܐ<lb/> ܗܘ ܓܝܪ ܕܐܡ݁ܪ ܥܠ ܙܢܝܘܬܐ ܘܓܝܪܘܬܐ<lb/> ܕܐܘܪܫܠܡ܇ ܘܥܠ ܚ̈ܝܘܬܐ ܕܝܡܐ
           ܘܕܝܒܫܐ<lb/> ܘܕܦܪܚܬܐ: ܘܕܕܟܝܢ ܘܕܠܐ ܕܟܝܢ: ܘܕܢܚ<lb/> ܫܡܫܐ ܘܕܥܪܒ ܘܠܕܘܟܬܗ ܬܐܒ(Eccl. 1:5)
@@ -159,27 +161,27 @@
           ܕܡܪܬܝܢܘܬܐ܆ ܘܗܘ ܩܕ̈ܡܝܐ<lb/> ܠܘܬ ܣ̈ܘܟܠܐ ܕܟܝܢܐ ܐܝܬܘܗܝ ܕܝܢ<lb/> ܦܬܓܡܐ ܩܕܡܝܐ ܕܡܪܬܝܢܘܬܐ܁ ܗܠܝܢ
             ܕܝܢ<pb n="10v"/><lb/> ܬܪܬܝܢ ܐܚܪ̈ܢܝ݂ܢ ܕܟܝܢܐ. ܀</ab>
       </div>
-      <div type="chapter" n="21">
-        <ab>ܡ̈ܠܐ<lb/> ܕܦܪ̈ܨܘܦܐ ܡܨܚ̈ܝܐ܆ ܠܐ ܬܣ݂ܒܪ ܕܐܝܬ<lb/> ܒܗܝܢ ܐܪ̈ܙܐ܁ ܘܠܐ ܬܒܥܐ ܒܗܝܢ ܡܕܡ<lb/>
+      <div type="chapter" n="21" part="N" org="uniform" sample="complete">
+        <ab part="N">ܡ̈ܠܐ<lb/> ܕܦܪ̈ܨܘܦܐ ܡܨܚ̈ܝܐ܆ ܠܐ ܬܣ݂ܒܪ ܕܐܝܬ<lb/> ܒܗܝܢ ܐܪ̈ܙܐ܁ ܘܠܐ ܬܒܥܐ ܒܗܝܢ ܡܕܡ<lb/>
           ܪܘܗܢܐ܇ ܐܠܐ ܐܢ ܕܠܡܐ ܒܡܕܒܪܢܘܬܐ<lb/> ܣ݂ܥܪ ܐܠܗܐ܇ ܐܝܟ ܕܒܒܠܥܡ ܘܒܩܝܦܐ܁<lb/> ܕܚܕ ܡܢܗܘܢ ܩ݁ܕܡ ܐܡ݂ܪ
           ܥܠ ܝܠܕܗ<lb/> ܕܦܪܘܩ݂ܢ. ܘܐܚܪܢܐ ܥܠ ܡܘܬܗ.</ab>
       </div>
-      <div type="chapter" n="22">
-        <ab>ܠܐ ܘ݁ܠܐ ܠܝܕܘܥܬܢܐ ܕܗ݂ܘܐ ܟܡܝܪ ܘܠܐ<lb/> ܚܘܝܚ܇ ܨܝܕ ܗܠܝܢ ܕܩܪܒܝܢ ܨܐܕܘܗܝ<lb/> ܚܕܐ݂ ܓܝܪ
+      <div type="chapter" n="22" part="N" org="uniform" sample="complete">
+        <ab part="N">ܠܐ ܘ݁ܠܐ ܠܝܕܘܥܬܢܐ ܕܗ݂ܘܐ ܟܡܝܪ ܘܠܐ<lb/> ܚܘܝܚ܇ ܨܝܕ ܗܠܝܢ ܕܩܪܒܝܢ ܨܐܕܘܗܝ<lb/> ܚܕܐ݂ ܓܝܪ
           ܐܝܬܝܗ݁ ܕܡ݁ܢ ܕܠܐ ܡܦܣ<lb/> ܒܣ̈ܘܟܠܐ ܕܐܝܠܝܢ ܕܗ̈ܘܝ݂ܢ܁ ܘܐܚܪܬܐ<lb/> ܕܐܝܢܐ ܕܠܐ ܨܒ݁ܐ ܕܟܠܗܘܢ ܒ̈ܢܝܢܫܐ
           ܢܚܘܢ܇<lb/> ܘܢܐܬܘܢ ܠܝܕܥܬܐ ܕܫܪܪܐ. ܀</ab>
       </div>
-      <div type="chapter" n="23">
-        <ab>ܐܠܨܐ<lb/> ܒܙܒܢ ܕܢܐܡܪ ܥܠ ܢܦܫܢ ܕܠܐ ܝܕܥܝܢܢ܆<lb/> ܡܛܠ ܗܠܝܢ ܕܡܫܐܠܝܢ ܕܠܐ ܫܘܝܢ ܕܢܫܡܥܘܢ<lb/>
+      <div type="chapter" n="23" part="N" org="uniform" sample="complete">
+        <ab part="N">ܐܠܨܐ<lb/> ܒܙܒܢ ܕܢܐܡܪ ܥܠ ܢܦܫܢ ܕܠܐ ܝܕܥܝܢܢ܆<lb/> ܡܛܠ ܗܠܝܢ ܕܡܫܐܠܝܢ ܕܠܐ ܫܘܝܢ ܕܢܫܡܥܘܢ<lb/>
           ܡܫܪ ܐܢܬ ܓܝܪ܁ ܒܗ݁ܝ ܕܥܡ ܦܓ݂ܪܐ ܟܕܝܢ<lb/> ܐܢܬ܁ ܘܠܝܬ ܠ݁ܟ݂ ܗܫܐ ܣܘܟܠܐ ܫܪܝܪܐ<lb/> ܕܣܘܥܪ̈ܢܐ܀</ab>
       </div>
-      <div type="chapter" n="24">
-        <ab>ܚܘܪ ܒܩܢܘܡܟ܆ ܕܠܡܐ<lb/> ܡܛܠ ܥܠܬܐ ܕܝܘܬܪܢܐ ܐܘ ܕܢܗܘܐ<lb/> ܠܟ ܕܫܦܝܪ̈܁ ܐܘ ܡܛܠ ܫܘܒܚܐ
+      <div type="chapter" n="24" part="N" org="uniform" sample="complete">
+        <ab part="N">ܚܘܪ ܒܩܢܘܡܟ܆ ܕܠܡܐ<lb/> ܡܛܠ ܥܠܬܐ ܕܝܘܬܪܢܐ ܐܘ ܕܢܗܘܐ<lb/> ܠܟ ܕܫܦܝܪ̈܁ ܐܘ ܡܛܠ ܫܘܒܚܐ
           ܥܒܘܪܐ<lb/> ܬܐܡܪ ܡܕܡ ܡܢ ܟܣ̈ܝܬܐ݁ ܘܬܫܬܕܐ ܠܒܪ<lb/> ܡܢ ܚܘܕܪ̈ܐ ܐ̈ܠܗܝܐ܇ ܐܝܟ ܗ݁ܘ ܕܡ݁ܙܒܢ<lb/> ܗܘܐ
           ܒ̈ܢܝ ܝܘ̈ܢܐ ܒܗܝܟܠܐ ܀</ab>
       </div>
-      <div type="chapter" n="25">
-        <ab>ܠܐܝܠܝܢ<lb/> ܕܒܠܐ ܝܕܥܬܐ ܡܬܚܪܝܢ܆ ܠܘ ܡܢ ܫܘܠܡܐ܁<lb/> ܐܠܐ ܡܢ ܫܘܪ̈ܝܐ. ܘܠ݁ܐ ܠܡܩܪܒܘ
+      <div type="chapter" n="25" part="N" org="uniform" sample="complete">
+        <ab part="N">ܠܐܝܠܝܢ<lb/> ܕܒܠܐ ܝܕܥܬܐ ܡܬܚܪܝܢ܆ ܠܘ ܡܢ ܫܘܠܡܐ܁<lb/> ܐܠܐ ܡܢ ܫܘܪ̈ܝܐ. ܘܠ݁ܐ ܠܡܩܪܒܘ
           ܠܫܪܪܐ<lb/> ܠܛܠܝ̈ܐ ܕܝܢ ܠܐ ܡܕܡ ܡܢ ܕܝܕܘ̈ܥܬܢܐ<lb/> ܠܡܐܡܐܪ܆ ܐܦܠܐ ܠܟ̈ܬܒܐ ܕܐܝܟ ܗܠܝܢ<lb/> ܘ݁ܠܐ
           ܠܡܫܒܩ ܠܡܩܪܒ. ܠܐ ܓܝܪ ܡܫܟܚܝܢ<lb/> ܠܡܩܡ ܩܕܡ ܫܪ̈ܥܬܐ ܕܢܩܝܦܢ ܠܗܕܐ<lb/> ܬܐܘܪܝܐ. ܡܛܠ ܗܕܐ ܠܗ݁ܢܘܢ
             ܕܟܬܝܫܝܢ<pb n="11r"/><lb/> ܡܢ ܚܫ̈ܐ܆ ܠܘ݁ ܡ̈ܠܐ ܕܫܝܢܐ ܙܕܩ݁ ܠܡܐܡܪ܁<lb/> ܐܠܐ ܕܐܝܟܢܐ ܢܬܢ݂ܩܡܘܢ
@@ -188,89 +190,89 @@
           ܥܠ ܚܘܠܡܢܐ܁ ܠܡ݂ܛܥܡ<lb/> ܕܝܢ ܡܢ ܗܠܝܢ ܟܟܪ̈ܝܬܐ ܗܝܕܝܢ ܙܕܩ݁܇<lb/> ܐܡܬܝ ܕܥܣܩܐܝܬ ܢܦܫܐ ܠܘܬ
           ܚܫ̈ܐ<lb/> ܡܬܙܝܢ܀</ab>
       </div>
-      <div type="chapter" n="26">
-        <ab>ܠܘ ܗܘ݂ ܟܕ ܗ݂ܘ ܙܒܢܐ<lb/> ܐܝܬܘܗܝ ܕܕܪܫܐ ܘܕܦܘܫܩܐ܁ ܡܬܘܠ<lb/> ܗܕܐ݂ ܕܢܟܐܐ ܘܠ݁ܐ ܠܢ܆ ܒܐܝܠܝܢ
+      <div type="chapter" n="26" part="N" org="uniform" sample="complete">
+        <ab part="N">ܠܘ ܗܘ݂ ܟܕ ܗ݂ܘ ܙܒܢܐ<lb/> ܐܝܬܘܗܝ ܕܕܪܫܐ ܘܕܦܘܫܩܐ܁ ܡܬܘܠ<lb/> ܗܕܐ݂ ܕܢܟܐܐ ܘܠ݁ܐ ܠܢ܆ ܒܐܝܠܝܢ
           ܕܕܠܐ<lb/> ܒܙܒܢܗܘܢ ܕܪܫܝܢ܁ ܕܗܪ̈ܣܝܘܛܐ ܓܝܪ<lb/> ܘܕܚܪ̈ܝܝܐ ܐܝܬܘܗܝ ܗܢܐ ܥܝܕܐ܀܀</ab>
       </div>
-      <div type="chapter" n="27">
-        <ab>ܠܐ ܬܡܠܠ ܥܠ܁ ܐܠܗܐ ܕܠܐ ܒܘܚܢܐ܁<lb/> ܘܠܐ ܡܬܘܡ ܬܬ݂ܚܡ ܠܐܠܗܘܬܐ܁<lb/> ܕܡܪ̈ܟܒܐ ܓܝܪ ܘܕܗ̈ܘܝܐ
+      <div type="chapter" n="27" part="N" org="uniform" sample="complete">
+        <ab part="N">ܠܐ ܬܡܠܠ ܥܠ܁ ܐܠܗܐ ܕܠܐ ܒܘܚܢܐ܁<lb/> ܘܠܐ ܡܬܘܡ ܬܬ݂ܚܡ ܠܐܠܗܘܬܐ܁<lb/> ܕܡܪ̈ܟܒܐ ܓܝܪ ܘܕܗ̈ܘܝܐ
           ܐܝܬܝܗܘܢ<lb/> ܬܘܚܡ̈ܐ܀</ab>
       </div>
-      <div type="chapter" n="28">
-        <ab>ܗܘܝܬ ܥܗܝܕ ܐܢܬ<lb/> ܠܗܠܝܢ ܚܡܫܐ ܪ̈ܫܝܢ ܕܡܫܬ݁ܒܩܢܘܬܐ܁<lb/> ܕܬܫܟܚ ܠܡܬܪܨܘ ܠܙܥܘܪ̈ܝ ܢܦܫܐ܆<lb/>
+      <div type="chapter" n="28" part="N" org="uniform" sample="complete">
+        <ab part="N">ܗܘܝܬ ܥܗܝܕ ܐܢܬ<lb/> ܠܗܠܝܢ ܚܡܫܐ ܪ̈ܫܝܢ ܕܡܫܬ݁ܒܩܢܘܬܐ܁<lb/> ܕܬܫܟܚ ܠܡܬܪܨܘ ܠܙܥܘܪ̈ܝ ܢܦܫܐ܆<lb/>
           ܐܡܬܝ ܕܒܥܩ̈ܬܐ ܢܦܠܝܢ܇ ܡܝܬܪܘܬܐ<lb/> ܓܝܪ ܕܡܛܫܝܐ ܒܝܕ ܡܫܬܒܩܢܘܬܐ ܡܬܓܠܐ܁<lb/> ܘܐܢ ܐܬܒܣܝܬ܆ ܒܡܣܡ
           ܒܪܫܐ ܥܛܦܐ<lb/> ܘܥܠܬܐ ܕܦܘܪܩܢܐ ܗܘܝܐ ܠܐܚ݂ܪ̈ܢܐ܁<lb/> ܟܕ ܕܝܢ ܬܗܘܐ ܩܕܡܝܐ ܠܡܝܬܪܘܬܐ܁<lb/> ܡܟܝܟܘܬܐ
           ܡܠܦܐ ܠܩ̈ܢܝܗ݁܁ ܣ݁ܢܐ ܓܝܪ<lb/> ܠܒܝܫܬܐ݂ ܗ݁ܘ ܕܢܣܝܗ݁܁ ܢܣܝܢܐ ܓܝܪ ܝܠܕܐ<lb/> ܗܘ ܕܡܫܬܒܩܢܘܬܐ܁
-          ܡܫܬܒܩܢܘܬܐ ܕܝܢ܁<lb/> ܒܪܬܗ ܗܝ ܕܠܐ ܡܬܛܦܝܣܢܘ݁ܬܐ.<pb n="11v"/>11v</ab>
+          ܡܫܬܒܩܢܘܬܐ ܕܝܢ܁<lb/> ܒܪܬܗ ܗܝ ܕܠܐ ܡܬܛܦܝܣܢܘ݁ܬܐ.<pb n="11v"/> 11v</ab>
       </div>
-      <div type="chapter" n="29">
-        <ab>ܗܠܝܢ ܕܝܠܦܝܢ ܡܢܟ܆ ܗܘ݂ܘ ܐܡܪܝܢ ܠܟ<lb/> ܟܠܫܥ܆ܪܚܡܝ ܐܬܩ݁ܪܒ ܠܥܠ܁ ܫܟܝܪܐ<lb/> ܗܝ ܓܝܪ ܕܡܐ
+      <div type="chapter" n="29" part="N" org="uniform" sample="complete">
+        <ab part="N">ܗܠܝܢ ܕܝܠܦܝܢ ܡܢܟ܆ ܗܘ݂ܘ ܐܡܪܝܢ ܠܟ<lb/> ܟܠܫܥ܆ܪܚܡܝ ܐܬܩ݁ܪܒ ܠܥܠ܁ ܫܟܝܪܐ<lb/> ܗܝ ܓܝܪ ܕܡܐ
           ܕܣ݂ܠܩܬ ܠܥܠ܇ ܬܘܒ ܡܢ<lb/> ܫ̈ܡܘܥܝܟ ܬܬܚܝܬ ܀</ab>
       </div>
-      <div type="chapter" n="30">
-        <ab>ܪܚ݁ܡ ܟܣܦܐ<lb/> ܐܝܬܘܗܝ܆ ܠܘ ܗ݁ܘ ܕܐܝܬ ܠܗ ܟܣܦܐ.<lb/> ܐܠܐ݂ ܗ݁ܘ ܕܪܓ݂ܝܓ ܠܡܩܢܝܗ܁ ܠܡܦܪܢܣܢܐ<lb/>
+      <div type="chapter" n="30" part="N" org="uniform" sample="complete">
+        <ab part="N">ܪܚ݁ܡ ܟܣܦܐ<lb/> ܐܝܬܘܗܝ܆ ܠܘ ܗ݁ܘ ܕܐܝܬ ܠܗ ܟܣܦܐ.<lb/> ܐܠܐ݂ ܗ݁ܘ ܕܪܓ݂ܝܓ ܠܡܩܢܝܗ܁ ܠܡܦܪܢܣܢܐ<lb/>
           ܓܝܪ݂ ܟܝܣܐ ܡܠܝܠܐ ܩ݁ܪܝܢ ܀</ab>
       </div>
-      <div type="chapter" n="31">
-        <ab>ܠܣ̈ܒܐ<lb/> ܐܦܝܣ ܕܢܠܒܟܘܢ݂ ܚܡܬܗܘܢ݁ ܘ̈ܠܛܠܝܐ݂<lb/> ܟܪܣܗܘܢ܁ ܥܡ ܣ̈ܒܐ ܓܝܪ݂ ܚܫ̈ܐ ܢܦܫ̈ܢܐ<lb/>
+      <div type="chapter" n="31" part="N" org="uniform" sample="complete">
+        <ab part="N">ܠܣ̈ܒܐ<lb/> ܐܦܝܣ ܕܢܠܒܟܘܢ݂ ܚܡܬܗܘܢ݁ ܘ̈ܠܛܠܝܐ݂<lb/> ܟܪܣܗܘܢ܁ ܥܡ ܣ̈ܒܐ ܓܝܪ݂ ܚܫ̈ܐ ܢܦܫ̈ܢܐ<lb/>
           ܡܬܟܬܫܝܢ܁ ܘܥܡ ܛ̈ܠܝܐ ܐܝܟ ܕܒܣܘܓܐܐ݂<lb/> ܦܓܪ̈ܢܐ܁ ܀</ab>
       </div>
-      <div type="chapter" n="32">
-        <ab>ܒܠܘܡ ܦܘܡܐ ܕܐܝܠܝܢ<lb/> ܕܡ݁ܪܝܢ ܒܐܕ݂̈ܢܝܟ܁ ܘܠܐ ܬܬܕܡܪ ܐܢ<lb/> ܡܢ ܣ̈ܓܝܐܐ ܬܬܩܛܪܓ܁ ܗܢܐ
+      <div type="chapter" n="32" part="N" org="uniform" sample="complete">
+        <ab part="N">ܒܠܘܡ ܦܘܡܐ ܕܐܝܠܝܢ<lb/> ܕܡ݁ܪܝܢ ܒܐܕ݂̈ܢܝܟ܁ ܘܠܐ ܬܬܕܡܪ ܐܢ<lb/> ܡܢ ܣ̈ܓܝܐܐ ܬܬܩܛܪܓ܁ ܗܢܐ
           ܓܝܪ<lb/> ܢܣܝܘܢܐ ܡܢ ܫ̈ܐܕܐ ܗܘ܁ ܗ݁ܢܘܢ ܕܠܐ<lb/> ܨܒ݁ܝܢ ܕܢܬܚܪܪ ܝܕܘܥܬܢܐ ܡܢ ܣܢܐܬܐ<lb/> ܘܐܟܬܐ܁
           ܀</ab>
       </div>
-      <div type="chapter" n="33">
-        <ab>ܛܥܝܐ ܠܗ ܕܠܢܦܫܗ<lb/> ܡܐܣܐ܇ ܗ݁ܘ ܕܡܛܠ ܐܠܗܐ ܠܒ̈ܢܝܢܫܐ<lb/> ܡܐܣܐ܁ ܣܡܐ ܓܝܪ ܕܡܩܪܒ
+      <div type="chapter" n="33" part="N" org="uniform" sample="complete">
+        <ab part="N">ܛܥܝܐ ܠܗ ܕܠܢܦܫܗ<lb/> ܡܐܣܐ܇ ܗ݁ܘ ܕܡܛܠ ܐܠܗܐ ܠܒ̈ܢܝܢܫܐ<lb/> ܡܐܣܐ܁ ܣܡܐ ܓܝܪ ܕܡܩܪܒ
           ܝܕܘܥܬܢܐ<lb/> ܠܩܪܝܒܗ܆ ܐܝܟ ܕܡܫܟܗܐ ܡܐܣܐ܁<lb/> ܠܢܦܫܗ ܕܝ݂ܢ ܐܠܨܐܝܬ ܀</ab>
       </div>
-      <div type="chapter" n="34">
-        <ab>ܠܘ ܟܠ<lb/> ܡܕܡ ܕܟܕܝܢ ܥܡ ܦܠܐܬܐ ܬܦܫܩ<lb/> ܪܘܚܢܐܝܬ܁ ܐܠܐ ܐܝܠܝܢ ܕܠܚܡܢ ܠܗ݁<lb/> ܠܨܒܘܬܐ܁ ܐܢ
+      <div type="chapter" n="34" part="N" org="uniform" sample="complete">
+        <ab part="N">ܠܘ ܟܠ<lb/> ܡܕܡ ܕܟܕܝܢ ܥܡ ܦܠܐܬܐ ܬܦܫܩ<lb/> ܪܘܚܢܐܝܬ܁ ܐܠܐ ܐܝܠܝܢ ܕܠܚܡܢ ܠܗ݁<lb/> ܠܨܒܘܬܐ܁ ܐܢ
           ܓܝܪ ܗܕܐ ܠܐ ܬܥܒܕ܆<lb/> ܙܒܢܐ ܣܓܝܐܐ ܬܦܩܩ ܥܠ ܐܠܦܗ<lb/> ܕܝܘܢܢ܇ ܟܕ ܬܒܥܐ ܠܡܦܫܩܘ ܟܠ ܚܕ ܡܢ<lb/>
           ܡܐ̈ܢܝܗ݁ ܘܓܘܚܟܐ ܝܬܝܪܐܝܬ ܬܥܒܕ<lb/> ܒܫ̈ܡܘܥܐ ܘܠܐ ܝܘܬܪܢܐ܁ ܟܕ ܟܠܗܘܢ<lb/> ܐܝܠܝܢ ܕܚܕܝܪܝܢ ܠܟ ܡܐ̈ܢܐ
           ܢܥܗܕܘܢ<lb/> ܘܠܗ݁ܘ ܕܛܥ݁ܐ ܠܡܨܥܬܐ ܒܓܘܚܟܐ ܢܝܬܘܢ܀<pb n="12r"/></ab>
       </div>
-      <div type="chapter" n="35">
-        <ab>ܐܦܝܣ ܠܝܚ̈ܝܕܝܐ ܐܝܠܝܢ ܕܐܬ݁ܝܢ ܠܘܬܟ܆<lb/> ܕܥܠ ܡܪܬܝܢܘܬܐ ܢܡܠܠܘܢ݂ ܘܠܐ ܥܠ<lb/> ܝܘ̈ܠܦܢܐ܁ ܐܠܐ
+      <div type="chapter" n="35" part="N" org="uniform" sample="complete">
+        <ab part="N">ܐܦܝܣ ܠܝܚ̈ܝܕܝܐ ܐܝܠܝܢ ܕܐܬ݁ܝܢ ܠܘܬܟ܆<lb/> ܕܥܠ ܡܪܬܝܢܘܬܐ ܢܡܠܠܘܢ݂ ܘܠܐ ܥܠ<lb/> ܝܘ̈ܠܦܢܐ܁ ܐܠܐ
           ܐܢ ܕܠܡܐ ܐܫܬܟܚ ܐܢܫ܇<lb/> ܕܒܡܠܘܐܐ ܕܐܝܟ ܗܢܐ ܡܫܟܚ ܠܡܬܒ݁ܩܝܘ ܀</ab>
       </div>
-      <div type="chapter" n="36">
-        <ab>ܗܘܬ ܡܚܦܝܐ ܡܢ ܥܠܡ̈ܝܐ ܘ̈ܛܠܝܐ܇<lb/> ܡܠܬܐ ܡܥܠܝܬܐ ܕܥܠ ܕܝܢ݂ܐ܁ ܡܛܠ<lb/> ܕܕܠܝܠܐܝܬ ܡܘܠܕܐ
+      <div type="chapter" n="36" part="N" org="uniform" sample="complete">
+        <ab part="N">ܗܘܬ ܡܚܦܝܐ ܡܢ ܥܠܡ̈ܝܐ ܘ̈ܛܠܝܐ܇<lb/> ܡܠܬܐ ܡܥܠܝܬܐ ܕܥܠ ܕܝܢ݂ܐ܁ ܡܛܠ<lb/> ܕܕܠܝܠܐܝܬ ܡܘܠܕܐ
           ܪܦܝܘܬܐ܁ ܠܐ ܓܝܪ<lb/> ܡܣܬܟܠܝܢ ܕܟܐܒܐ ܕܢܦܫܐ ܡܠܝܠܬܐ<lb/> ܕܐܬܚܝ݂ܒܬ ܠܐ ܝܕܥܬܐ ܗܝ ܀</ab>
       </div>
-      <div type="chapter" n="37">
-        <ab>ܐܢ<lb/> ܦܘܠܘܣ ܩܕܝܫܐ ܟܒ݁ܫ ܗܘܐ ܦܓܪܗ ܘܡܫܥܒܕ܆<lb/> ܠܐ ܬܗܡܐ ܒܣܝܒܪܬܟ ܒܚ̈ܝܝܟ܇ ܘܬܨܥܪ<lb/> ܠܠܐ
+      <div type="chapter" n="37" part="N" org="uniform" sample="complete">
+        <ab part="N">ܐܢ<lb/> ܦܘܠܘܣ ܩܕܝܫܐ ܟܒ݁ܫ ܗܘܐ ܦܓܪܗ ܘܡܫܥܒܕ܆<lb/> ܠܐ ܬܗܡܐ ܒܣܝܒܪܬܟ ܒܚ̈ܝܝܟ܇ ܘܬܨܥܪ<lb/> ܠܠܐ
           ܚܫܘܫܬܐ܇ ܘܒܦܓܪܐ ܥܒܝܐ ܬܡܟܟܝܗ݁܀</ab>
       </div>
-      <div type="chapter" n="38">
-        <ab>ܠܐ ܬܐܨܦ ܥܠ ܣܝܒܪܬܐ ܘܠܒܘܫܐ<lb/> ܐܠܐ ܥܗܕ ܠܥܘܒܪ ܐܕܘܡ ܠܘܝܐ܇ ܗ݁ܘ<lb/> ܕܩ݁ܒܠ ܩܒܘܬܗ݂ ܕܡܪܝܐ܇
+      <div type="chapter" n="38" part="N" org="uniform" sample="complete">
+        <ab part="N">ܠܐ ܬܐܨܦ ܥܠ ܣܝܒܪܬܐ ܘܠܒܘܫܐ<lb/> ܐܠܐ ܥܗܕ ܠܥܘܒܪ ܐܕܘܡ ܠܘܝܐ܇ ܗ݁ܘ<lb/> ܕܩ݁ܒܠ ܩܒܘܬܗ݂ ܕܡܪܝܐ܇
           ܘܗ݂ܘܐ ܥܬܝܪܐ<lb/> ܡܢ ܡܣܟܢܐ܇ ܘܡܫܒܚܐ ܡܢ ܡܨܥܪܐ܀</ab>
       </div>
-      <div type="chapter" n="39">
-        <ab>ܡܩܛܪܓܢܐ ܡܪܝܪܐ ܕܝܕܘܥܬܢܐ ܬܐܪܬܗ<lb/> ܗܝ ܁ ܘܠܝܬ ܠܡ݂ܛܥܝܘ ܡܕܡ ܡܢܗ݁܁ ܡܛܠ ܕܐܦ<lb/> ܟܣ̈ܝܬܐ
+      <div type="chapter" n="39" part="N" org="uniform" sample="complete">
+        <ab part="N">ܡܩܛܪܓܢܐ ܡܪܝܪܐ ܕܝܕܘܥܬܢܐ ܬܐܪܬܗ<lb/> ܗܝ ܁ ܘܠܝܬ ܠܡ݂ܛܥܝܘ ܡܕܡ ܡܢܗ݁܁ ܡܛܠ ܕܐܦ<lb/> ܟܣ̈ܝܬܐ
           ܕܠܒܐ ܝܕܥܐ.܀</ab>
       </div>
-      <div type="chapter" n="40">
-        <ab>ܐܙܕ݂ܗܪ ܕܠܡܐ<lb/> ܬܣ݂ܒܪ ܕܚܕ ܗܘ ܣܘܟܠܐ ܕܟܠ܆ ܚܕ ܚܕ ܡܢ{?}<lb/> ܗ̈ܘ݁ܝܐ܁ ܐܠܐ݂ ܣ̈ܓܝܐܐ܁ ܘܐܝܟ
+      <div type="chapter" n="40" part="N" org="uniform" sample="complete">
+        <ab part="N">ܐܙܕ݂ܗܪ ܕܠܡܐ<lb/> ܬܣ݂ܒܪ ܕܚܕ ܗܘ ܣܘܟܠܐ ܕܟܠ܆ ܚܕ ܚܕ ܡܢ{?}<lb/> ܗ̈ܘ݁ܝܐ܁ ܐܠܐ݂ ܣ̈ܓܝܐܐ܁ ܘܐܝܟ
           ܡܫܘܚܬܐ<lb/> ܕܣ݂ܘܟܠܗܘܢ ܕܚ̈ܝܠܘܬܐ ܕܩܕܝܫ̈ܐ<lb/> ܡܬܩܪܒܝܢ ܠܣܘܥܪ̈ܢܐ܁ ܘܡܫܟܚܝܢ ܣ̈ܘܟܠܐ<lb/> ܫܪܝܪ̈ܐ܁
           ܠܘ ܕܝܢ ܠܗ݁ܢܘܢ ܪ̈ܫܐ܁ ܘܠܐ ܠܗ݁ܢܘܢ<lb/> ܕܡܢ ܡܫܝܚܐ ܒܠܚܘܕ ܡܬܝܕܥ ܀</ab>
       </div>
-      <div type="chapter" n="41">
-        <ab>ܡܐ<lb/> ܫܘܐܠܐ ܕܐܝܬ݂ ܥܠ ܓܢܣ̈ܐ ܡܫ̈ܚܠܦܐ<lb/> ܡܘܕܥ܁ ܐܘ ܥܠ ܐܕܫ̈ܐ ܐܘ ܥܠ ܫܘܚܠܦܐ<lb/> ܐܘ ܥܠ
+      <div type="chapter" n="41" part="N" org="uniform" sample="complete">
+        <ab part="N">ܡܐ<lb/> ܫܘܐܠܐ ܕܐܝܬ݂ ܥܠ ܓܢܣ̈ܐ ܡܫ̈ܚܠܦܐ<lb/> ܡܘܕܥ܁ ܐܘ ܥܠ ܐܕܫ̈ܐ ܐܘ ܥܠ ܫܘܚܠܦܐ<lb/> ܐܘ ܥܠ
           ܓܕ̈ܫܐ ܐܘ ܥܠ ܗܘ݁ ܕܡܢ ܗܠܝܢ<lb/> ܡ݂ܪܟܒ܁ ܠܝܬ ܕܝܢ ܡܕܡ ܡܢ ܗܠܝܢ ܒܬܠܝܬܝܘܬܐ<lb/> ܩܕܝܫܬܐ. ܡܕܝܢ ܒܫܬܩܐ
           ܢܣܬܓܕ ܗܘ<pb n="12v"/><lb/> ܕܠܐ ܡܬܡܠܠ܀</ab>
       </div>
-      <div type="chapter" n="42">
-        <ab>ܢܣܝܘܢܐ ܕܝܕܘܥܬܢܐ<lb/> ܐܝܬܘ݂ܗܝ܆ ܡܣܒܪܢܘܬܐ ܕܓܠܬܐ ܕܗ݁ܘܝܐ<lb/> ܒܗܘܢܐ܇ ܥܠ ܐܝܠܝܢ ܕܐܝܬܝܗܝܢ
+      <div type="chapter" n="42" part="N" org="uniform" sample="complete">
+        <ab part="N">ܢܣܝܘܢܐ ܕܝܕܘܥܬܢܐ<lb/> ܐܝܬܘ݂ܗܝ܆ ܡܣܒܪܢܘܬܐ ܕܓܠܬܐ ܕܗ݁ܘܝܐ<lb/> ܒܗܘܢܐ܇ ܥܠ ܐܝܠܝܢ ܕܐܝܬܝܗܝܢ
           ܐܝܟ<lb/> ܕܠܝܬ ܐܢܝܢ܇ ܘܐܝܠܝܢ ܕܠܝܬ܁ ܐܢܝܢ ܐܝܟ<lb/> ܐܝܬܝܗܝܢ܁ ܘܐܝܠܝܢ ܕܐܝܬܝܗܝܢ ܕܠܘ ܗܟܢܐ<lb/> ܐܢܝܢ
           ܐܝܟ ܕܗܘܝ. ܀</ab>
       </div>
-      <div type="chapter" n="43">
-        <ab>ܚܛܝܬܗ ܕܝܕܘܥܬܢܐ<lb/> ܐܝܬܝܗ݁܆ ܝܕܥܬܐ ܕܓܠܬܐ ܕܝܠܗܘܢ ܕܣܘܥܪ̈ܢܐ<lb/> ܐܘ ܕܬܐܘܪܝܐ ܕܝܠܗܘܢ܇ ܕܡܢ
+      <div type="chapter" n="43" part="N" org="uniform" sample="complete">
+        <ab part="N">ܚܛܝܬܗ ܕܝܕܘܥܬܢܐ<lb/> ܐܝܬܝܗ݁܆ ܝܕܥܬܐ ܕܓܠܬܐ ܕܝܠܗܘܢ ܕܣܘܥܪ̈ܢܐ<lb/> ܐܘ ܕܬܐܘܪܝܐ ܕܝܠܗܘܢ܇ ܕܡܢ
           ܚܫ̈ܐ ܡܕܡ<lb/> ܡܬܝܠܕܐ܁ ܐܘ ܕܠܘ ܡܛܠܬܗ݁ ܕܫܦܝܪܬܐ<lb/> ܡܥܩܒ ܥܠ ܦܠܐܬܐ܀</ab>
       </div>
-      <div type="chapter" n="44">
-        <ab>ܐܪܒܥ ܡܝܬܪ̈ܬܐ<lb/> ܕܝܠܗ ܕܬܐܘܪܝܐ܆ ܡܢ ܩܕܝܫܐ ܓܪܝܓܪܝܣ<lb/> ܝܠܦܢܢ܁ ܕܐܝܬܝܗܝ݂ܢ܁ ܣܟܘܠܬܢܘܬܐ܁
+      <div type="chapter" n="44" part="N" org="uniform" sample="complete">
+        <ab part="N">ܐܪܒܥ ܡܝܬܪ̈ܬܐ<lb/> ܕܝܠܗ ܕܬܐܘܪܝܐ܆ ܡܢ ܩܕܝܫܐ ܓܪܝܓܪܝܣ<lb/> ܝܠܦܢܢ܁ ܕܐܝܬܝܗܝ݂ܢ܁ ܣܟܘܠܬܢܘܬܐ܁
           ܚܝܠܬܢܘܬܐ܁<lb/> ܢܟܦܘܬܐ܁ ܟܐܢܘܬܐ܁ ܘܥܒܕܐ ܕܣܟܘܠܬܢܘܬܐ܁<lb/> ܐܡ݂ܪ ܕܐܝܬܘܗܝ݂܁ ܕܢܚܙܐ ܠܚܝܠܘܬܐ
           ܝܕܘ̈ܥܬܢܐ<lb/> ܘܩܕܝܫ̈ܐ܁ ܣܛܪ ܡܢ ܣ̈ܘܟܠܝܗܘܢ܁ ܗܠܝܢ ܓܝܪ ܡܢ<lb/> ܚ݁ܟܡܬܐ ܐܡܪ ܕܡܬܓܠܝܢ܁
           ܕܚܝܠܬܢܘܬܐ<lb/> ܕܝܢ ܕܡܚܡܣܢܢܘܬܐ ܕܒܫܪ̈ܝܪܬܐ܁ ܐܦ ܟܕ<lb/> ܐܝܬ ܥܡܗ ܩܪܒܐ܁ ܘܕܠܐ ܗܘܝܢ ܒ݁ܨܝܢ
@@ -279,36 +281,36 @@
           ܣܘ̈ܟܠܐ ܬܬܠ. ܘܠܡܢܗܘܢ ܥܡܘܛܐܝܬ<lb/> ܡܚܘܝܐ ܘܡܢܗܘܢ ܒܪ̈ܡܙܐ ܡܘܕܥܐ܁ ܘ݁ܡܢܗܘܢ<lb/> ܓܠܝܐ݂ ܠܢܘܬܪܢܐ
           ܕܦܫ̈ܝܛܐ.܀</ab>
       </div>
-      <div type="chapter" n="45">
-        <ab>ܥܡܘܕܐ<lb/> ܕܫܪܪܐ ܒܣܝܠܝܣ ܩܦܘܕܩܝܐ ܥܡ݂ܪ ܗܘܐ܁<lb/> ܕܝܕܥܬܐ ܕܡܢ ܒܢ̈ܝ ܐܢܫܐ ܓܕܫܐ ܒܢ ܡܢ
+      <div type="chapter" n="45" part="N" org="uniform" sample="complete">
+        <ab part="N">ܥܡܘܕܐ<lb/> ܕܫܪܪܐ ܒܣܝܠܝܣ ܩܦܘܕܩܝܐ ܥܡ݂ܪ ܗܘܐ܁<lb/> ܕܝܕܥܬܐ ܕܡܢ ܒܢ̈ܝ ܐܢܫܐ ܓܕܫܐ ܒܢ ܡܢ
           ܗܓܝܢܐ<lb/> ܐܡܝܢܐ݂ ܘܡܢ ܗܪܓܐ ܬܟܝܒܐ ܡܬܚܝܠܐ܁ ܠܗ݁ܝ<lb/> ܕܝܢ ܕܡܢ ܛܝܒܘܬܐ ܕܐܠܗܐ ܗ݁ܘܝܐ܁ ܟܐܢܘܬܐ<lb/>
           ܘܒܗܝܠܘܬܐ ܘܪ̈ܚܡܐ܁ ܘܠܩܕܡܝܬܐ ܐܡ݂ܪ<lb/> ܕܡܫܟܚܐ ܐܦ ܐܢܫܐ ܚܫ̈ܘܫܐ ܢܩܢܘ܁ ܠܬܪܝܥܬܐ<lb/> ܐܠܐ ܠܐ ܚܫ̈ܘܫܐ
           ܒܠܚܘܕ ܗ݁ܢܘ ܕܒܙܒܢܐ ܕܨܠܘܬܐ<pb n="13r"/><lb/> ܨܡܚܐ ܕܢܘܗܪܐ ܕܗܘܢܗܘܢ ܚ݁ܙܝܢ ܕܕܢܚ<lb/> ܥܠܝܗܘܢ
           ܀</ab>
       </div>
-      <div type="chapter" n="46">
-        <ab>ܟܘܟܒܐ ܩܕܝܫܐ ܕܡܨܪ̈ܝܢ<lb/> ܐܬܢܣܝܣ ܐܡ݂ܪ ܗܘܐ܆ ܕܐܢ ܡܘܫܐ ܐܬܦܩ݁ܕ<lb/> ܕܦܬܘܪܐ ܡܢ ܓܒܐ ܕܓܪܒܝܐ
+      <div type="chapter" n="46" part="N" org="uniform" sample="complete">
+        <ab part="N">ܟܘܟܒܐ ܩܕܝܫܐ ܕܡܨܪ̈ܝܢ<lb/> ܐܬܢܣܝܣ ܐܡ݂ܪ ܗܘܐ܆ ܕܐܢ ܡܘܫܐ ܐܬܦܩ݁ܕ<lb/> ܕܦܬܘܪܐ ܡܢ ܓܒܐ ܕܓܪܒܝܐ
           ܢܣܝܡ܆ ܘܠ݁ܐ<lb/> ܠܝܕܘ̈ܥܬܢܐ ܕܢܥܣܬܟܠܘܢ܆ ܕܡܢ݂ܘ ܗ݁ܘ ܕܢܫ݁ܒ<lb/> ܠܘܩܒܠܗܘܢ܁ ܘܚܝܠܬܢܐܝܬ ܟܘܠ
           ܢܣ̈ܝܘܢܝܢ<lb/> ܠܡܣܝܒܪܘ܁ ܘܒܨܒܝܢܐ ܛܒܐ ܢܬܪܣܐ ܠܗܠܝܢ<lb/> ܕܐ݁ܬܝܢ ܨܐܕܝܢ܀</ab>
       </div>
-      <div type="chapter" n="47">
-        <ab>ܐܡ݁ܪ ܗܘܐ ܡܠܐܟܐ<lb/> ܕܥܕܬܐ ܕܬܡܘܪ ܣܪܦܝܘܢ܆ܕܗܘܢܐ ܕܐܫܬܝ<lb/> ܝܕܥܬܐ ܪܘܚܢܝܬܐ܆ ܡܠܝܐܝܬ
+      <div type="chapter" n="47" part="N" org="uniform" sample="complete">
+        <ab part="N">ܐܡ݁ܪ ܗܘܐ ܡܠܐܟܐ<lb/> ܕܥܕܬܐ ܕܬܡܘܪ ܣܪܦܝܘܢ܆ܕܗܘܢܐ ܕܐܫܬܝ<lb/> ܝܕܥܬܐ ܪܘܚܢܝܬܐ܆ ܡܠܝܐܝܬ
           ܡܬܕܟܐ܁<lb/> ܚܘܒܐ ܕܝܢ ܬܙܝܙܘܬܐ ܕܡ̈ܢܘܬܐ ܕܚܡܬܐ<lb/> ܡܐܣܐ܁ ܪܕܝܐ ܕܝܢ ܕܪ̈ܓܝܓܬܐ ܒܝܫ̈ܬܐ ܟܠܝܐ݂<lb/>
           ܥܢܘܝܘ݂ܬܐ ܀</ab>
       </div>
-      <div type="chapter" n="48">
-        <ab>ܠܡ̈ܠܐ ܕܥܠ ܒܛܝܠܘܬܐ<lb/> ܘܕܝܢܐ܆ ܒܟܠܙܒܢ ܒ݁ܚܢ ܒܟ܁ ܐܡ݁ܪ ܗܘܐ݁ ܗ݁ܘ<lb/> ܪܒܐ ܘܝܕܘܥܬܢܐ ܡܠܦܢܢ
+      <div type="chapter" n="48" part="N" org="uniform" sample="complete">
+        <ab part="N">ܠܡ̈ܠܐ ܕܥܠ ܒܛܝܠܘܬܐ<lb/> ܘܕܝܢܐ܆ ܒܟܠܙܒܢ ܒ݁ܚܢ ܒܟ܁ ܐܡ݁ܪ ܗܘܐ݁ ܗ݁ܘ<lb/> ܪܒܐ ܘܝܕܘܥܬܢܐ ܡܠܦܢܢ
           ܕܕܝܡܣ܁ ܘܡܠܐܗܝܢ<lb/> ܕܗܠܝ݂ܢ ܒܥܘܗܕܢܟ ܩܢܝ܁ ܟܠܗܘܢ. ܓܝܪ ܒ̈ܢܝܢܫܐ<lb/> ܐܝܟ ܕܣܘܓܐܐ݂ ܒܗܠܝܢ ܡܬܬܩܠܝܢ
           ܘ ܠܣ̈ܘܟܠܐ<lb/> ܡ݁ܢ ܕܕܝܢܐ ܘܕܒܛܝܠܘܬܐ܁ ܒܫܘܚܠܦܐ ܕܓܘ̈ܫܡܐ<lb/> ܘܕܥ̈ܠܡܐ ܐܬܫܟܚ. ܠܐܝܠܝܢ ܕܝܢ ܕܡܛܠ
           ܒܛܝܠܘܬܐ<lb/> ܒܢܝܫ̈ܐ ܐܝܠܝܢ ܘܡܢ ܒܝܫܘܬܐ ܘܠܐ ܝܕܥܬܐ<lb/> ܠܘܬ ܡܝܬܪܘܬܐ ܕܝܕܥܬܐ ܡܦܢܝܢ ܠܢ......</ab>
       </div>
-      <div type="chapter" n="49">
-        <ab>ܢܝܫܐ ܡ݁ܢ ܕܦܠܘܚܘܬܐ܁ܕܬܕܟܐ ܠܗܘܢܐ<lb/> ܘܬܥܒܕܝܘܗܝ ܠܐ ܡܩܒܠܢܐ ܕܚܫ̈ܐ܁ ܕܟܝܢܐ<lb/> ܕܝܢ܆ ܕܢܚܘܐ
+      <div type="chapter" n="49" part="N" org="uniform" sample="complete">
+        <ab part="N">ܢܝܫܐ ܡ݁ܢ ܕܦܠܘܚܘܬܐ܁ܕܬܕܟܐ ܠܗܘܢܐ<lb/> ܘܬܥܒܕܝܘܗܝ ܠܐ ܡܩܒܠܢܐ ܕܚܫ̈ܐ܁ ܕܟܝܢܐ<lb/> ܕܝܢ܆ ܕܢܚܘܐ
           ܫܪܪܐ ܕܛܡܝܪ ܒܟܠܗܘܢ ܗ݁ܘܝܐ܁<lb/> ܗ݁ܝ ܕܝܢ ܕܢܪܚܩ ܗܘ݂ܢܐ ܡܢ ܗ̈ܘܠܐ܆ ܘܢܬܦܢܐ<lb/> ܠܘ݂ܬ ܥܠܬܐ ܩܕܡܝܬܐ܆
           ܡܘܗܩܬܐ ܗܝ ܡ݂̈ܠܐ<lb/> ܕܥܠ ܐܠܗܐ.....</ab>
       </div>
-      <div type="chapter" n="50">
-        <ab>ܢܢ ܟܕ ܚܐܪ ܐܢܬ ܒܟܠܙܒܢ ܒܪܝܫ<lb/> ܕܡܘ݂ܬܐ܆ ܐܬܚܦܛ ܕܬܨܘܪ ܨ̈ܠܡܐ ܘܠܐ ܬܫܒܘܩ<lb/> ܡܕܡ ܡܢ ܐܝܠܝܢ
+      <div type="chapter" n="50" part="N" org="uniform" sample="complete">
+        <ab part="N">ܢܢ ܟܕ ܚܐܪ ܐܢܬ ܒܟܠܙܒܢ ܒܪܝܫ<lb/> ܕܡܘ݂ܬܐ܆ ܐܬܚܦܛ ܕܬܨܘܪ ܨ̈ܠܡܐ ܘܠܐ ܬܫܒܘܩ<lb/> ܡܕܡ ܡܢ ܐܝܠܝܢ
           ܕ-ܫ--ܝܢ ܕܬܐܬܪ ܠܗܝ<lb/> ܕܢܦܠܬ.</ab>
       </div>
     </body>

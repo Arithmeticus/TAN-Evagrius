@@ -1,41 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns"
-       TAN-version="1 dev"
-       id="tag:kalvesmaki.com,2014:transcription:cpg2447:grc:PG">
+<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:transcription:cpg2447:grc:PG">
    <head>
       <name>To Eulogios, Greek</name>
-      <rights-excluding-sources include="HEAD"/>
+      <license which="by_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+      </key>
       <key>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
          <name>Works by Evagrius</name>
-         <location href="TAN-key/evagrius-works-TAN-key.xml"
-                   when-accessed="2017-04-12T17:15:59.396-04:00"/>
+         <location href="TAN-key/evagrius-works-TAN-key.xml" when-accessed="2017-12-16-05:00"/>
       </key>
-      <inclusion xml:id="HEAD">
-         <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
-         <name>Alignment of the works of Evagrius</name>
-         <location href="TAN-A-div/HEAD.evagrius.TAN-A-div.xml"
-                   when-accessed="2015-10-12-04:00"/>
-      </inclusion>
       <source>
          <IRI>http://dbpedia.org/resource/Patrologia_Graeca</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:migne-1857</IRI>
          <name>Patrologia Graeca</name>
       </source>
-      <declarations>
+      <definitions>
          <work which="Eul."/>
-         <div-type xml:id="sect" which="section"/>
-         <div-type xml:id="title" which="title"/>
-         <filter/>
-      </declarations>
-      <agent include="HEAD"/>
-      <role include="HEAD"/>
+         <div-type which="title" xml:id="title"/>
+         <div-type which="section" xml:id="sect"/>
+         
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         
+         <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+      </definitions>
+      <resp who="kalvesmaki" roles="editor"/>
+      <resp who="xslt1" roles="stylesheet"/>
          <change when="2017-05-19-04:00" who="kalvesmaki">Normalized Unicode, set on one line per leaf div.</change>
       <change when="2017-05-03" who="kalvesmaki">Started file</change>
+      <change who="xslt1" when="2017-12-16T12:49:24.648-05:00">TAN file updated to 2018 schemas.</change>
    </head>
    <body xml:lang="grc" in-progress="true">
       <div type="title" n="title">ΤΟΥ ΑΥΤΟΥ ΛΟΓΟΣ ΠΡΟΣ ΕΥΛΟΓΙΟΝ ΜΟΝΑΧΟΝ</div>

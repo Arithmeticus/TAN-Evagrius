@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:tan-a-div:evagrius">
+   <head>
+      <name>Head TAN file for Evagrius collection</name>
+      <desc>This file is intended to be lightweight TAN-A-div file, to serve as a repository of
+         general claims about the literary corpus of Evagrius Ponticus.</desc>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/evagrius.TAN-A-div.xml"/>
+      <license which="by_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+      </key>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works:secondary</IRI>
+         <name>Secondary works that deal with writings by Evagrius</name>
+         <location href="../TAN-key/evagrius-works-secondary-TAN-key.xml"
+            when-accessed="2017-12-16-05:00"/>
+      </key>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
+         <name>Works by Evagrius</name>
+         <location
+            href="../TAN-key/evagrius-works-TAN-key.xml"
+            when-accessed="2016-03-29T12:27:10.364-04:00"/>
+      </key>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-persons</IRI>
+         <name>Persons associated with Evagrius of Pontus</name>
+         <location href="../TAN-key/evagrius-persons-TAN-key.xml"
+            when-accessed="2016-03-29T13:07:37.368-04:00"/>
+      </key>
+      <source xml:id="titular-source">
+         <comment when="2015-12-27" who="kalvesmaki">This source included only to validate the
+            TAN-A-div file, which is intended only as a core repository of metadata (see desc
+            above).</comment>
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
+         <name>cpg2430-grc-Guillaumonts.TAN-TEI.xml</name>
+         <location href="../cpg2430.grc.guillaumonts.xml" when-accessed="2015-12-27T12:03:59.703-05:00"/>
+      </source>
+      <definitions>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+         <role which="editor" xml:id="editor"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <verb xml:id="annotates" which="comments on"/>
+         <work xml:id="cpg2430" which="Praktikos"/>
+         <work xml:id="cpg2431" which="Gnostikos"/>
+         <work xml:id="cpg2432" which="Kephalaia gnostika"/>
+         <work xml:id="cpg2433" which="Skemmata"/>
+         <work xml:id="cpg2434" which="Antirrh."/>
+         <work xml:id="cpg2435" which="Chapters to Monks"/>
+         <work xml:id="cpg2436" which="Chapters to a Virgin"/>
+         <work xml:id="cpg2437" which="62 Letters"/>
+         <work xml:id="cpg2438" which="Letter to Melania"/>
+         <work xml:id="cpg2439" which="Dogmatic Letter"/>
+         <work xml:id="cpg2440" which="Protrepticus"/>
+         <work xml:id="cpg2441" which="Hypotyposis or Principles of the Monastic Life"/>
+         <work xml:id="cpg2442" which="Thirty-Three Chapters"/>
+         <work xml:id="cpg2443" which="Paraeneticus"/>
+         <work xml:id="cpg2444" which="Spiritual Chapters Alphabetized"/>
+         <work xml:id="cpg2445" which="Assorted Chapters"/>
+         <work xml:id="cpg2446" which="Six Chapters"/>
+         <work xml:id="cpg2447" which="Eul."/>
+         <work xml:id="cpg2448" which="On the Vices Opposed to the Virtues"/>
+         <work xml:id="cpg2449" which="On Masters and Disciples"/>
+         <work xml:id="cpg2450" which="On the [Evil] Thoughts"/>
+         <work xml:id="cpg2451" which="The Eight Spirits of Wickedness"/>
+         <work xml:id="cpg2452" which="On Prayer"/>
+         <work xml:id="cpg2453" which="Three Chapters on Prayer"/>
+         <work xml:id="cpg2454" which="Counsel to Monks"/>
+         <work xml:id="cpg2455" which="Scholia on the Psalms"/>
+         <work xml:id="cpg2456" which="Commentary on the Proverbs"/>
+         <work xml:id="cpg2457" which="Commentary on the Parables and the Proverbs"/>
+         <work xml:id="cpg2458.1" which="Scholia on Genesis, Numbers, and Kings"/>
+         <work xml:id="cpg2458.2" which="Scholia on Job"/>
+         <work xml:id="cpg2458.3" which="Scholia on the Song of Songs"/>
+         <work xml:id="cpg2458.4" which="Scholia on the Proverbs"/>
+         <work xml:id="cpg2458.5" which="Scholia on Ecclesiastes"/>
+         <work xml:id="cpg2458.6" which="Scholia on Luke"/>
+         <work xml:id="cpg2459" which="Commentary on the Cherubim"/>
+         <work xml:id="cpg2460" which="Commentary on the Seraphim"/>
+         <work xml:id="cpg2461" which="Commentary on the Lord's Prayer"/>
+         <work xml:id="cpg2462" which="Apophthegmata"/>
+         <work xml:id="cpg2463" which="On the Imitation of the Song of Songs"/>
+         <work xml:id="cpg2464" which="On the Imitation of Ecclesiastes"/>
+         <work xml:id="cpg2464a" which="On the Imitation of Proverbs"/>
+         <work xml:id="cpg2465" which="The Just and the Perfect"/>
+         <work xml:id="cpg2466" which="Humility"/>
+         <work xml:id="cpg2467" which="Fasting"/>
+         <work xml:id="cpg2468" which="Silence"/>
+         <work xml:id="cpg2469" which="Admonition on the Marks of Serenity"/>
+         <work xml:id="cpg2470" which="Dialogue of a Master with his Student"/>
+         <work xml:id="cpg2471" which="The Defense of One Led by God"/>
+         <work xml:id="cpg2472" which="Instructive Admonition"/>
+         <work xml:id="cpg2473" which="Counsel of the Mind"/>
+         <work xml:id="cpg2474" which="Teaching"/>
+         <work xml:id="cpg2475" which="Counsel"/>
+         <work xml:id="cpg2476" which="Perfection"/>
+         <work xml:id="cpg2477" which="Proverbs and Their Interpretation"/>
+         <work xml:id="cpg2478" which="Profession of Faith"/>
+         <work xml:id="cpg2479" which="Excerpt"/>
+         <work xml:id="cpg2480" which="Chapters of Counsel and Instructive Sermon"/>
+         <work xml:id="cpg2481.1" which="Syriac Fragments"/>
+         <work xml:id="cpg2481.2" which="Armenian Fragments"/>
+         <work xml:id="cpg2481.3" which="Coptic Fragments"/>
+         <work xml:id="cpg2481.4" which="Ethiopic Fragments"/>
+         <work xml:id="cpg2481.5" which="Georgian Fragments"/>
+         <work xml:id="cpg2481.6" which="Doubtful Arabic Fragments"/>
+         <work xml:id="cpg2482" which="On the Tetragrammaton"/>
+         <work xml:id="cpg2482a" which="Letter to a Bishop of Antioch Concerning Patience"/>
+         <work xml:id="cpg2483" which="Disciples"/>
+         <work xml:id="nocpg01" which="Letter of Loukios"/>
+         <work xml:id="nocpg02" which="14 Chapters"/>
+         <work xml:id="nocpg03" which="Definitions"/>
+         <work xml:id="nocpg04" which="Excerpts"/>
+         <work xml:id="nocpg05" which="Scholia on Acts"/>
+
+         <work which="Guillaumont 1958 on KG S1" xml:id="kg-comm-s1-guillaumont"/>
+         <work which="Guillaumont 1958 on KG S2" xml:id="kg-comm-s2-guillaumont"/>
+         
+         <version xml:id="nocpg01-ara" which="Arabic translation of Loukios"/>
+         <version xml:id="nocpg02-syr" which="Syriac translation of 14 Chapters"/>
+         <version xml:id="nocpg02-hye" which="Armenian translation of 14 Chapters"/>
+         <version xml:id="cpg2430-lat" which="Latin translation of Praktikos"/>
+         <version xml:id="cpg2430-syr-S1" which="Praktikos S1"/>
+         <version xml:id="cpg2430-syr-S2" which="Praktikos S2"/>
+         <version xml:id="cpg2430-syr-S3" which="Praktikos S3"/>
+         <version xml:id="cpg2430-hye" which="Armenian translation of Praktikos"/>
+         <version xml:id="cpg2430-gez" which="Ethiopic translation of Praktikos"/>
+         <version xml:id="cpg2430-kat" which="Georgian translation of Praktikos"/>
+         <version xml:id="cpg2430-ara" which="Arabic translation of Praktikos"/>
+         <version xml:id="cpg2431-lat"
+            which="Latin translation of Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως"/>
+         <version xml:id="cpg2431-syr"
+            which="Syriac translation of Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως"/>
+         <version xml:id="cpg2431-hye"
+            which="Armenian translation of Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως"/>
+         <version xml:id="cpg2432-syr" which="Syriac translation of KG"/>
+         <version xml:id="cpg2432-hye" which="Armenian translation of KG"/>
+         <version xml:id="cpg2432-ara" which="Arabic translation of KG"/>
+         <version xml:id="cpg2433-syr" which="Syriac translation of Skemmata"/>
+         <version xml:id="cpg2433-hye" which="Armenian translation of Skemmata"/>
+         <version xml:id="cpg2434-lat" which="Latin translation of Antirrh."/>
+         <version xml:id="cpg2434-syr" which="Syriac translation of Antirrh."/>
+         <version xml:id="cpg2434-hye" which="Armenian translation of Antirrh."/>
+         <version xml:id="cpg2434-kat" which="Georgian translation of Antirrh."/>
+         <version xml:id="cpg2434-sog" which="Sogdian translation of Antirrh."/>
+         <version xml:id="cpg2435-lat" which="Latin translation of Monks"/>
+         <version xml:id="cpg2435-syr" which="Syriac translation of Monks"/>
+         <version xml:id="cpg2435-hye" which="Armenian translation of Monks"/>
+         <version xml:id="cpg2435-cop" which="Coptic translation of Monks"/>
+         <version xml:id="cpg2435-gez" which="Ethiopic translation of Monks"/>
+         <version xml:id="cpg2435-kat" which="Georgian translation of Monks"/>
+         <version xml:id="cpg2436-lat" which="Latin translation of Ad virg."/>
+         <version xml:id="cpg2436-syr" which="Syriac translation of Ad virg."/>
+         <version xml:id="cpg2436-hye" which="Armenian translation of Ad virg."/>
+         <version xml:id="cpg2437-syr" which="Syriac translation of Ep."/>
+         <version xml:id="cpg2437-hye" which="Armenian translation of Ep."/>
+         <version xml:id="cpg2438-syr" which="Syriac translation of Ad Mel."/>
+         <version xml:id="cpg2439-syr" which="Syriac translation of Ep. fid."/>
+         <version xml:id="cpg2440-syr" which="Syriac translation of Protrepticus"/>
+         <version xml:id="cpg2441-syr" which="Syriac translation of Foundations"/>
+         <version xml:id="cpg2443-syr" which="Syriac translation of Sent. alph. I"/>
+         <version xml:id="cpg2443-hye" which="Armenian translation of Sent. alph. I"/>
+         <version xml:id="cpg2444-syr" which="Syriac translation of Sent. alph. II"/>
+         <version xml:id="cpg2445-syr" which="Syriac translation of Assorted Chapters"/>
+         <version xml:id="cpg2447-syr" which="Syriac translation of Eul."/>
+         <version xml:id="cpg2447-hye" which="Armenian translation of Eul."/>
+         <version xml:id="cpg2447-gez" which="Ethiopic translation of Eul."/>
+         <version xml:id="cpg2447-kat" which="Georgian translation of Eul."/>
+         <version xml:id="cpg2447-ara" which="Arabic translation of Eul."/>
+         <version xml:id="cpg2448-syr" which="Syriac translation of Vices"/>
+         <version xml:id="cpg2448-hye" which="Armenian translation of Vices"/>
+         <version xml:id="cpg2448-kat" which="Georgian translation of Vices"/>
+         <version xml:id="cpg2449-lat" which="Latin translation of On Masters and Disciples"/>
+         <version xml:id="cpg2449-syr" which="Syriac translation of On Masters and Disciples"/>
+         <version xml:id="cpg2449-hye" which="Armenian translation of On Masters and Disciples"/>
+         <version xml:id="cpg2449-ara" which="Arabic translation of On Masters and Disciples"/>
+         <version xml:id="cpg2450-syr" which="Syriac translation of Thoughts"/>
+         <version xml:id="cpg2451-lat"
+            which="Latin translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας"/>
+         <version xml:id="cpg2451-syr"
+            which="Syriac translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας"/>
+         <version xml:id="cpg2451-hye"
+            which="Armenian translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας"/>
+         <version xml:id="cpg2451-ara"
+            which="Arabic translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας"/>
+         <version xml:id="cpg2451-cop"
+            which="Coptic translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας"/>
+         <version xml:id="cpg2451-gez"
+            which="Ethiopic translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας"/>
+         <version xml:id="cpg2451-kat"
+            which="Georgian translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας"/>
+         <version xml:id="cpg2451-rus"
+            which="Old Russian translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας"/>
+         <version xml:id="cpg2452-syr" which="Syriac translation of On Prayer"/>
+         <version xml:id="cpg2452-hye" which="Armenian translation of On Prayer"/>
+         <version xml:id="cpg2452-gez" which="Ethiopic translation of On Prayer"/>
+         <version xml:id="cpg2452-kat" which="Georgian translation of On Prayer"/>
+         <version xml:id="cpg2452-ara" which="Arabic translation of On Prayer"/>
+         <version xml:id="cpg2453-syr" which="Syriac translation of Three Chapters on Prayer"/>
+         <version xml:id="cpg2454-syr" which="Syriac translation of Exhortations to Monks"/>
+         <version xml:id="cpg2457-syr" which="Syriac translation of Comm. par. et Prov."/>
+         <version xml:id="cpg2459-syr" which="Syriac translation of De cherubim"/>
+         <version xml:id="cpg2459-hye" which="Armenian translation of De cherubim"/>
+         <version xml:id="cpg2460-syr" which="Syriac translation of De seraphim"/>
+         <version xml:id="cpg2461-cop"
+            which="Coptic translation of Commentary on the Lord's Prayer"/>
+         <version xml:id="cpg2461-ara"
+            which="Arabic translation of Commentary on the Lord's Prayer"/>
+         <version xml:id="cpg2463-ara"
+            which="Arabic translation of On the Imitation of the Song of Songs"/>
+         <version xml:id="cpg2464a-ara"
+            which="Arabic translation of On the Imitation of Proverbs"/>
+         <version xml:id="cpg2464-ara"
+            which="Arabic translation of On the Imitation of Ecclesiastes"/>
+         <version xml:id="cpg2469-syr"
+            which="Syriac translation of Admonition on the Marks of Serenity"/>
+         <version xml:id="cpg2470-syr"
+            which="Syriac translation of Dialogue of a Master with his Student"/>
+         <version xml:id="cpg2470-hye"
+            which="Armenian translation of Dialogue of a Master with his Student"/>
+         <version xml:id="cpg2475-syr" which="Syriac translation of Counsel"/>
+         <version xml:id="cpg2477-syr"
+            which="Syriac translation of Proverbs and Their Interpretation"/>
+         <version xml:id="cpg2477-hye"
+            which="Armenian translation of Proverbs and Their Interpretation"/>
+         <version xml:id="cpg2482a-ara"
+            which="Arabic translation of Letter to a Bishop of Antioch Concerning Patience"/>
+         <version xml:id="cpg2483-syr" which="Syriac translation of Disc."/>
+         
+         
+         <person xml:id="evagrius" which="Evagrius Ponticus"/>
+         <person xml:id="apop-editors" which="compilers of the Apophthegmata"/>
+         <person xml:id="disc-editors" which="compilers of the Disciples"/>
+         <person xml:id="Loukios" which="Loukios"/>
+         <person xml:id="Nilus" which="Nilus of Ancyra"></person>
+         
+         <verb xml:id="wrote" object-datatype="IDREFS">
+            <IRI>http://rdaregistry.info/Elements/u/P60663</IRI>
+            <name>is author of</name>
+         </verb>
+         <verb xml:id="written-in" object-datatype="language">
+            <IRI>tag:kalvesmaki.com,2014:verb:originally-written-in-language</IRI>
+            <name>originally written in language</name>
+         </verb>
+         <verb xml:id="survives-in-original-language" object-datatype="decimal"
+            object-lexical-constraint="[01]\.0*|0\.\d+">
+            <IRI>tag:kalvesmaki.com,2014:verb:work-survives-in-original-language</IRI>
+            <name>original work is extant to what degree</name>
+            <desc>This verb is used to describe the degree to which a work survives in the
+               original language of composition. It takes as object a xs:float between 0 and 1,
+               representing the approximate percentage that is extant. This property does not
+               stipulate how close to the first or earliest version the extant material
+               is.</desc>
+         </verb>
+         <verb xml:id="is-translation-of" object-datatype="IDREFS">
+            <IRI>http://rdaregistry.info/Elements/u/P60244</IRI>
+            <name>is translation of</name>
+            <desc>The subject is a translation of the object.</desc>
+         </verb>
+         <verb xml:id="has-incipit" object-datatype="string">
+            <IRI>tag:kalvesmaki.com,2014:verb:has-incipit</IRI>
+            <name>has incipit</name>
+            <desc>The traditional opening words for a particular work or version.</desc>
+         </verb>
+         
+         <modal xml:id="possibly" which="possibly"/>
+         <modal xml:id="probably" which="probably"/>
+         <modal xml:id="improbably" which="improbably"/>
+         <modal xml:id="not" which="not"/>
+         
+         <place xml:id="eastern-mediterranean">
+            <IRI>http://dbpedia.org/resource/Eastern_Mediterranean</IRI>
+            <name>eastern Mediterranean</name>
+         </place>
+         
+         <period from="0382-01-01" to="0399-05-01" xml:id="late-life"/>
+         
+      </definitions>
+      <resp roles="editor" who="kalvesmaki"/>
+      <resp who="xslt1" roles="stylesheet"/>
+      <change when="2015-10-12" who="kalvesmaki">Started file</change>
+      <change when="2015-12-27" who="kalvesmaki">Streamlined.</change>
+      <change who="xslt1" when="2017-12-15T15:38:12.794-05:00">TAN file updated to 2018 schemas.</change>
+   </head>
+   <body subject="evagrius" claimant="kalvesmaki">
+      <!-- authorship -->
+      <claim verb="wrote" where="eastern-mediterranean" period="late-life"
+         object="cpg2430 cpg2431 cpg2432 cpg2433 cpg2434 cpg2435 cpg2436 
+         cpg2437 cpg2438 cpg2439 cpg2440 cpg2441 cpg2442 cpg2443 cpg2444 
+         cpg2445 cpg2447 cpg2448 cpg2450 cpg2451 cpg2452 
+         cpg2453 cpg2454 cpg2455 cpg2456 cpg2457 
+         cpg2458.1 cpg2458.2 cpg2458.3 cpg2458.4 cpg2458.5 cpg2458.6 
+         cpg2459 cpg2460 cpg2461 cpg2463 cpg2464 cpg2464a 
+         nocpg02 nocpg03 nocpg04 nocpg05">
+      </claim>
+      <claim adverb="possibly" verb="wrote" object="cpg2482"/>
+      <claim adverb="improbably" verb="wrote"
+         object="cpg2446 cpg2449 cpg2465 cpg2466 cpg2467 
+         cpg2468 cpg2469 cpg2470 cpg2471 cpg2472 cpg2473 cpg2474 cpg2475 cpg2476 
+         cpg2477 cpg2478 cpg2479 cpg2480 cpg2481.1 cpg2481.2 cpg2481.3 cpg2481.4 
+         cpg2481.5 cpg2481.6 cpg2482a"/>
+      <claim adverb="not" verb="wrote" object="cpg2462 cpg2483 nocpg01"/>
+      <claim subject="apop-editors" verb="wrote" object="cpg2462"/>
+      <claim subject="disc-editors" verb="wrote" object="cpg2483"/>
+      <claim subject="Loukios" verb="wrote" object="nocpg01"/>
+      <claim subject="Nilus" adverb="possibly" verb="wrote" object="cpg2449"></claim>
+      
+      <!-- languages -->
+      <claim
+         subject="cpg2430 cpg2431 cpg2432 cpg2433 cpg2434 cpg2435 cpg2436 cpg2437 cpg2438 cpg2439 cpg2440 cpg2441 cpg2442 cpg2443 cpg2444 cpg2445 cpg2446 cpg2447 cpg2448 cpg2449 cpg2450 cpg2451 cpg2452 cpg2453 cpg2454 cpg2455 cpg2456 cpg2457 cpg2458.1 cpg2458.2 cpg2458.3 cpg2458.4 cpg2458.5 cpg2458.6 cpg2459 cpg2460 cpg2461 cpg2462 cpg2463 cpg2464 cpg2464a cpg2469 cpg2475 cpg2477 
+         cpg2482 cpg2483 nocpg01 nocpg02 nocpg03 nocpg04 nocpg05"
+         verb="written-in" object="grc"/>
+      <claim
+         subject="cpg2465 cpg2466 cpg2467 cpg2468 cpg2470 cpg2471 cpg2472 cpg2473 cpg2474 cpg2476 cpg2478 cpg2479 cpg2480 cpg2481.1 cpg2482a"
+         adverb="probably" verb="written-in" object="syr"/>
+      <claim subject="cpg2481.2" adverb="probably" verb="written-in" object="hye"/>
+      <claim subject="cpg2481.3" adverb="probably" verb="written-in" object="cop"/>
+      <claim subject="cpg2481.4" adverb="probably" verb="written-in" object="gez"/>
+      <claim subject="cpg2481.5" adverb="probably" verb="written-in" object="kat"/>
+      <claim subject="cpg2481.6" adverb="probably" verb="written-in" object="ara"/>
+      
+      <claim
+         subject="nocpg01-ara cpg2430-ara cpg2432-ara cpg2447-ara cpg2449-ara cpg2451-ara cpg2452-ara cpg2461-ara cpg2463-ara cpg2464a-ara cpg2464-ara cpg2482a-ara"
+         verb="written-in" object="ara"/>
+      <claim
+         subject="cpg2430-syr-S1 cpg2430-syr-S2 cpg2430-syr-S3 nocpg02-syr cpg2431-syr cpg2432-syr cpg2433-syr cpg2434-syr cpg2435-syr cpg2436-syr cpg2437-syr cpg2438-syr cpg2439-syr cpg2440-syr cpg2441-syr cpg2443-syr cpg2444-syr cpg2445-syr cpg2447-syr cpg2448-syr cpg2449-syr cpg2450-syr cpg2451-syr cpg2452-syr cpg2453-syr cpg2454-syr cpg2457-syr cpg2459-syr cpg2460-syr cpg2469-syr cpg2470-syr cpg2475-syr cpg2477-syr cpg2483-syr"
+         verb="written-in" object="syr"/>
+      <claim
+         subject="nocpg02-hye cpg2430-hye cpg2431-hye cpg2432-hye cpg2433-hye cpg2434-hye cpg2435-hye cpg2436-hye cpg2437-hye cpg2443-hye cpg2447-hye cpg2448-hye cpg2449-hye cpg2451-hye cpg2452-hye cpg2459-hye cpg2470-hye cpg2477-hye"
+         verb="written-in" object="hye"/>
+      <claim
+         subject="cpg2430-lat cpg2431-lat cpg2434-lat cpg2435-lat cpg2436-lat cpg2449-lat cpg2451-lat"
+         verb="written-in" object="lat"/>
+      <claim subject="cpg2430-gez cpg2435-gez cpg2447-gez cpg2451-gez cpg2452-gez"
+         verb="written-in" object="gez"/>
+      <claim
+         subject="cpg2430-kat cpg2434-kat cpg2435-kat cpg2447-kat cpg2448-kat cpg2451-kat cpg2452-kat"
+         verb="written-in" object="kat"/>
+      <claim subject="cpg2434-sog" verb="written-in" object="sog"/>
+      <claim subject="cpg2435-cop cpg2451-cop cpg2461-cop" verb="written-in" object="cop"/>
+      <claim subject="cpg2451-rus" verb="written-in" object="rus"/>
+      
+      <!-- incipits -->
+      <claim subject="cpg2430" verb="has-incipit">
+         <object xml:lang="grc">Ἐπειδή μοι πρώην δεδήλωκας ἀπὸ τοῦ ἁγίου ὄρους ἐν τῇ Σκίτει
+            καθεζομένῳ</object>
+      </claim>
+      <claim subject="cpg2431" verb="has-incipit">
+         <object xml:lang="grc">Πρακτικοὶ λόγους νοήσουσι πρακτικούς, γνωστικοὶ δὲ ὄψονται
+            γνωστικά</object>
+      </claim>
+      <claim subject="cpg2432" verb="has-incipit">
+         <object xml:lang="grc">Τῷ πρώτῳ ἀγαθῷ οὐδέν ἐστιν ἐναντίον, διότι κατ' οὐσίαν ἐστίν·
+            ἐναντίον δὲ οὐδὲν τῇ οὐσίᾳ.</object>
+      </claim>
+      <claim subject="cpg2433" verb="has-incipit">
+         <object xml:lang="grc">Ὁ Χριστὸς ᾗ μέν ἑστι Χριστὸς, ἔχει τὴν γνῶσιν τὴν
+            οὐσιώδη</object>
+      </claim>
+      <claim subject="cpg2434" verb="has-incipit">
+         <object xml:lang="grc">Της λογικης φυσεως της υπο τον ουρανον το μεν πολεμειται το δε
+            βοηθει τω πολεμουμενω τε και καρτερως επεγειρει κατ αυτου την μαχην και
+            συνισται</object>
+      </claim>
+      <claim subject="cpg2435" verb="has-incipit">
+         <object xml:lang="grc">Κληρονόμοι θεοῦ ἀκούσατε λόγων θεοῦ, συγκληρονόμοι δὲ Χριστοῦ
+            δέξασθε ῥήσεις Χριστοῦ</object>
+      </claim>
+      <claim subject="cpg2436" verb="has-incipit">
+         <object xml:lang="grc">Ἀγάπα τὸν κύριον καὶ ἀγαπήσει σε, καὶ δούλευε αὐτῷ καὶ φωτιεῖ τὴν
+            καρδίαν σου.</object>
+      </claim>
+      <claim subject="cpg2438" verb="has-incipit">
+         <object xml:lang="grc">το λεγομενον οτι ο δηχθεις υπ' εχιδνης</object>
+      </claim>
+      <claim subject="cpg2439" verb="has-incipit">
+         <object xml:lang="grc">Πολλάκις ἐθαύμασα τί ποτε πεπόνθατε</object>
+      </claim>
+      <claim subject="cpg2441" verb="has-incipit">
+         <object xml:lang="grc">Ἐν τῷ Ἱερεμίᾳ εἴρηται τὸ, Καὶ σὺ μὴ λάβῃς σεαυτῷ γυναῖκα ἐν τῷ
+            τόπῳ τούτῳ</object>
+      </claim>
+      <claim subject="cpg2442" verb="has-incipit">
+         <object xml:lang="grc">Ἴκτερος, ἔστιν ἕξις χειρίστη ψυχῆς λογικῆς, καθ' ἣν ἐσφαλμένως
+            Θεόν τε καὶ τὴν τῶν γεγονότων θεωρίαν ὁρᾷ.</object>
+      </claim>
+      <claim subject="cpg2443" verb="has-incipit">
+         <object xml:lang="grc">Ἀρχὴ σωτηρίας ἡ ἑαυτοῦ κατάγνωσις.</object>
+      </claim>
+      <claim subject="cpg2444" verb="has-incipit">
+         <object xml:lang="grc">Ἄτοπόν ἐστιν τὸ διώκοντα τὰς τιμὰς φεύγειν τοὺς πόνους, δι' ὧν αἱ
+            τιμαί.</object>
+      </claim>
+      <claim subject="cpg2445" verb="has-incipit">
+         <object xml:lang="grc">Ἀρχὴ ἀγάπης ὑπόληψις δόξης.</object>
+      </claim>
+      <claim subject="cpg2447" verb="has-incipit">
+         <object xml:lang="grc">Οἱ τον οὐράνιον χῶρον νεμόμενοι τοῖς πόνοις, οὐ τῇ γαστρὶ, οὐδὲ
+            τῇ μερίμνῃ τῶν φθαρτῶν ἀτενίζουσι·</object>
+      </claim>
+      <claim subject="cpg2448" verb="has-incipit">
+         <object xml:lang="grc">Ἀναγκαῖον ἡγοῦμαι καὶ τὰς ἀντιζύγους τῶν ἀρετῶν κακίας δι'
+            ἐπιτόμου ὑποτάξαι τῇ σῇ φιλοπονίᾳ·</object>
+      </claim>
+      <claim subject="cpg2450" verb="has-incipit">
+         <object xml:lang="grc">Τῶν ἀντικειμένων δαιμόνων τῇ πρακτικῇ, πρῶτοι κατὰ τὸν πόλεμον
+            συνίστανται</object>
+      </claim>
+      <claim subject="cpg2451" verb="has-incipit">
+         <object xml:lang="grc">Ἀρχὴ καρποφορίας, ἄνθος, καὶ ἀρχὴ πρακτικῆς, ἐγκράτεια·</object>
+      </claim>
+      <claim subject="cpg2452" verb="has-incipit">
+         <object xml:lang="grc">Πυρέττοντά με τῷ φλογμῷ τῶν παθῶν, συνήθως ἀνεκτήσω</object>
+      </claim>
+      <claim subject="cpg2454" verb="has-incipit">
+         <object xml:lang="grc">Ἀκρασίαν βρωμάτων περικόπτει νηστεία, ἀκολασίαν δὲ πορνείας
+            περιαιρεῖ ἐγκράτεια μετὰ προσευχῆς.</object>
+      </claim>
+      <claim subject="cpg2455" verb="has-incipit">
+         <object xml:lang="grc">βουλὴ ἀσεβῶν ἐστι λογισμὸς ἐμπαθὴς αἰσθητοῖς πράγμασι τὸν νοῦν
+            προσδεσμῶν.</object>
+      </claim>
+      <claim subject="cpg2456" verb="has-incipit">
+         <object xml:lang="grc">Παροιμία ἐστὶν λόγος δι' αἰσθητῶν πραγμάτων σημαίνων πράγματα
+            νοητά.</object>
+      </claim>
+      <claim subject="cpg2458.5" verb="has-incipit">
+         <object xml:lang="grc">Ἐκκλησία ἐστὶν ψυχῶν καθαρῶν γνῶσις ἀληθὴς αἰώνων καὶ κόσμων καὶ
+            τῆς ἐν αὐτοῖς κρίσεως καὶ προνοίας.</object>
+      </claim>
+      <claim subject="cpg2483" verb="has-incipit">
+         <object xml:lang="grc">Ἄτεχνος κυβερνήτης ἕτοιμος ναυαγία καὶ ἀνεπιστήμων ἡγούμενος
+            ἀπόλεια μαθητών.</object>
+      </claim>
+      
+      <!-- survival -->
+      <claim
+         subject="cpg2430 cpg2433 cpg2435 cpg2436 cpg2439 cpg2441 cpg2442 
+         cpg2443 cpg2444 cpg2445 cpg2446 cpg2447 cpg2448 cpg2449 
+         cpg2450 cpg2451 cpg2452 cpg2454 cpg2455 cpg2456 cpg2458.1 cpg2458.2 cpg2458.3 cpg2458.4 cpg2458.5 cpg2458.6 
+         cpg2462 cpg2463 cpg2464 cpg2465 cpg2466 cpg2467 cpg2468 cpg2469 cpg2470 cpg2471 
+         cpg2472 cpg2473 cpg2474 cpg2475 cpg2476 cpg2477 cpg2478 cpg2479 cpg2480 cpg2481.1 cpg2481.2 cpg2481.3 cpg2481.4 
+         cpg2481.5 cpg2481.6 cpg2482 cpg2482a cpg2483 nocpg01 nocpg03 nocpg04 nocpg05"
+         verb="survives-in-original-language" object="1.0"/>
+      <claim
+         subject="nocpg01-ara nocpg02-syr nocpg02-hye cpg2430-syr-S1 cpg2430-syr-S2 cpg2430-syr-S3 cpg2430-hye cpg2430-gez cpg2430-kat cpg2430-ara cpg2431-syr cpg2431-hye cpg2432-syr cpg2432-hye cpg2432-ara cpg2433-syr cpg2433-hye cpg2434-syr cpg2434-hye cpg2434-kat cpg2434-sog cpg2435-lat cpg2435-syr cpg2435-hye cpg2435-cop cpg2435-gez cpg2435-kat cpg2436-lat cpg2436-syr cpg2436-hye cpg2437-syr cpg2437-hye cpg2438-syr cpg2439-syr cpg2440-syr cpg2441-syr cpg2443-syr cpg2443-hye cpg2444-syr cpg2445-syr cpg2447-syr cpg2447-hye cpg2447-gez cpg2447-kat cpg2447-ara cpg2448-syr cpg2448-hye cpg2448-kat cpg2449-lat cpg2449-syr cpg2449-hye cpg2449-ara cpg2450-syr cpg2451-lat cpg2451-syr cpg2451-hye cpg2451-ara cpg2451-cop cpg2451-gez cpg2451-kat cpg2451-rus cpg2452-syr cpg2452-hye cpg2452-gez cpg2452-kat cpg2452-ara cpg2453-syr cpg2454-syr cpg2457-syr cpg2459-syr cpg2459-hye cpg2460-syr cpg2461-cop cpg2461-ara cpg2463-ara cpg2464a-ara cpg2464-ara cpg2469-syr cpg2470-syr cpg2470-hye cpg2475-syr cpg2477-syr cpg2477-hye cpg2482a-ara cpg2483-syr"
+         verb="survives-in-original-language" object="1.0"/>
+      <claim subject="cpg2431" verb="survives-in-original-language" object="0.6"/>
+      <claim subject="cpg2453" verb="survives-in-original-language" object="0.3"/>
+      <claim subject="cpg2432" verb="survives-in-original-language" object="0.15"/>
+      <claim subject="cpg2437" verb="survives-in-original-language" object="0.05"/>
+      <claim subject="cpg2434 cpg2438 cpg2440 cpg2457 cpg2459 cpg2460 cpg2461 cpg2464a nocpg02"
+         verb="survives-in-original-language" object="0.0"/>
+      <claim subject="cpg2430-lat cpg2431-lat cpg2434-lat" verb="survives-in-original-language"
+         object="0.0"/>
+      
+      <!-- work-version relationships -->
+      <claim subject="nocpg01-ara" verb="is-translation-of" object="nocpg01"/>
+      <claim subject="nocpg02-syr nocpg02-hye" verb="is-translation-of" object="nocpg02"/>
+      <claim
+         subject="cpg2430-lat cpg2430-syr-S1 cpg2430-syr-S2 cpg2430-syr-S3 cpg2430-hye cpg2430-gez cpg2430-kat cpg2430-ara"
+         verb="is-translation-of" object="cpg2430"/>
+      <claim subject="cpg2431-lat cpg2431-syr cpg2431-hye" verb="is-translation-of"
+         object="cpg2431"/>
+      <claim subject="cpg2432-syr cpg2432-hye cpg2432-ara" verb="is-translation-of"
+         object="cpg2432"/>
+      <claim subject="cpg2433-syr cpg2433-hye" verb="is-translation-of" object="cpg2433"/>
+      <claim subject="cpg2434-lat cpg2434-syr cpg2434-hye cpg2434-kat cpg2434-sog"
+         verb="is-translation-of" object="cpg2434"/>
+      <claim subject="cpg2435-lat cpg2435-syr cpg2435-hye cpg2435-cop cpg2435-gez cpg2435-kat"
+         verb="is-translation-of" object="cpg2435"/>
+      <claim subject="cpg2436-lat cpg2436-syr cpg2436-hye" verb="is-translation-of"
+         object="cpg2436"/>
+      <claim subject="cpg2437-syr cpg2437-hye" verb="is-translation-of" object="cpg2437"/>
+      <claim subject="cpg2438-syr" verb="is-translation-of" object="cpg2438"/>
+      <claim subject="cpg2439-syr" verb="is-translation-of" object="cpg2439"/>
+      <claim subject="cpg2440-syr" verb="is-translation-of" object="cpg2440"/>
+      <claim subject="cpg2441-syr" verb="is-translation-of" object="cpg2441"/>
+      <claim subject="cpg2443-syr cpg2443-hye" verb="is-translation-of" object="cpg2443"/>
+      <claim subject="cpg2444-syr" verb="is-translation-of" object="cpg2444"/>
+      <claim subject="cpg2445-syr" verb="is-translation-of" object="cpg2445"/>
+      <claim subject="cpg2447-syr cpg2447-hye cpg2447-gez cpg2447-kat cpg2447-ara"
+         verb="is-translation-of" object="cpg2447"/>
+      <claim subject="cpg2448-syr cpg2448-hye cpg2448-kat" verb="is-translation-of"
+         object="cpg2448"/>
+      <claim subject="cpg2449-lat cpg2449-syr cpg2449-hye cpg2449-ara" verb="is-translation-of"
+         object="cpg2449"/>
+      <claim subject="cpg2450-syr" verb="is-translation-of" object="cpg2450"/>
+      <claim
+         subject="cpg2451-lat cpg2451-syr cpg2451-hye cpg2451-ara cpg2451-cop cpg2451-gez cpg2451-kat cpg2451-rus"
+         verb="is-translation-of" object="cpg2451"/>
+      <claim subject="cpg2452-syr cpg2452-hye cpg2452-gez cpg2452-kat cpg2452-ara"
+         verb="is-translation-of" object="cpg2452"/>
+      <claim subject="cpg2453-syr" verb="is-translation-of" object="cpg2453"/>
+      <claim subject="cpg2454-syr" verb="is-translation-of" object="cpg2454"/>
+      <claim subject="cpg2457-syr" verb="is-translation-of" object="cpg2457"/>
+      <claim subject="cpg2459-syr cpg2459-hye" verb="is-translation-of" object="cpg2459"/>
+      <claim subject="cpg2460-syr" verb="is-translation-of" object="cpg2460"/>
+      <claim subject="cpg2461-cop cpg2461-ara" verb="is-translation-of" object="cpg2461"/>
+      <claim subject="cpg2463-ara" verb="is-translation-of" object="cpg2463"/>
+      <claim subject="cpg2464a-ara" verb="is-translation-of" object="cpg2464a"/>
+      <claim subject="cpg2464-ara" verb="is-translation-of" object="cpg2464"/>
+      <claim subject="cpg2469-syr" verb="is-translation-of" object="cpg2469"/>
+      <claim subject="cpg2470-syr" verb="is-translation-of" object="cpg2470"/>
+      <claim subject="cpg2470-hye" verb="is-translation-of" object="cpg2470-syr"/>
+      <claim subject="cpg2475-syr" verb="is-translation-of" object="cpg2475"/>
+      <claim subject="cpg2477-syr cpg2477-hye" verb="is-translation-of" object="cpg2477"/>
+      <claim subject="cpg2482a-ara" verb="is-translation-of" object="cpg2482a"/>
+      <claim subject="cpg2483-syr" verb="is-translation-of" object="cpg2483"/>
+      
+      <claim verb="annotates" subject="kg-comm-s1-guillaumont kg-comm-s2-guillaumont" object="cpg2432"/>
+   </body>
+</TAN-A-div>

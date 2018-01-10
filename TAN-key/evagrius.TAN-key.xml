@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-key.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-key.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-key xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:evagrius"
+    TAN-version="2018">
+    <head>
+        <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+        <license which="by_4.0"/>
+        <licensor who="kalvesmaki"/>
+        <definitions>
+            <role which="editor" xml:id="editor"></role>
+            <person xml:id="kalvesmaki">
+                <IRI>http://viaf.org/viaf/299582703</IRI>
+                <IRI>tag:kalvesmaki.com,2014:self</IRI>
+                <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
+                <name>Joel Kalvesmaki</name>
+            </person>
+        </definitions>
+        <resp who="kalvesmaki" roles="editor"/>
+        <change when="2017-12-15T15:35:20.202-05:00" who="kalvesmaki">started file</change>
+    </head>
+    <body affects-element="person">
+        <item>
+            <IRI>http://viaf.org/viaf/299582703</IRI>
+            <IRI>tag:kalvesmaki.com,2014:self</IRI>
+            <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
+            <name>Joel Kalvesmaki</name>
+        </item>
+    </body>
+</TAN-key>

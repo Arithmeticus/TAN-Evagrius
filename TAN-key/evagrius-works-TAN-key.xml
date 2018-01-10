@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-1-dev/schemas/TAN-key.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-1-dev/schemas/TAN-key.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-key xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:evagrius-works"
-    TAN-version="1 dev">
+<?xml-model href="../../../TAN-2018/schemas/TAN-key.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-key.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-key xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:evagrius-works" TAN-version="2018">
     <head>
         <name>Works by Evagrius</name>
-        <rights-excluding-sources include="HEAD"/>
-        <inclusion xml:id="HEAD">
-            <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
-            <name>Alignment of the works of Evagrius</name>
-            <location href="../TAN-A-div/HEAD.evagrius.TAN-A-div.xml"
-                when-accessed="2015-12-23T13:37:42.858-05:00"/>
-        </inclusion>
-        <declarations/>
-        <agent include="HEAD"/>
-        <role include="HEAD"/>
+        <license which="by_4.0"/>
+        <licensor who="kalvesmaki"/>
+        <key>
+            <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+            <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+            <location href="evagrius.TAN-key.xml" when-accessed="2017-12-15T16:12:22.131-05:00"/>
+        </key>
+        <definitions>
+            <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+            <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+            <role xml:id="stylesheet" which="stylesheet"/>
+            <role xml:id="editor" which="editor"/>
+        </definitions>
+        <resp who="kalvesmaki" roles="editor"/>
+            <resp who="xslt1" roles="stylesheet"/>
         <change when="2016-03-29" who="kalvesmaki">started file</change>
+        <change who="xslt1" when="2017-12-15T15:35:22.185-05:00">TAN file updated to 2018 schemas.</change>
     </head>
     <body affects-element="work">
         <item>
@@ -929,8 +934,9 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2482</IRI>
             <name xml:lang="grc">Εἰς τὸ ΠΙΠΙ</name>
             <name xml:lang="eng">On the Tetragrammaton</name>
-            <desc>Claimed by the CPG as spurious, this brief discussion of the Tetragrammaton and
-                the names of God has strong affinity with Sch. Iob 1.5.</desc>
+            <desc>This brief discussion of the Tetragrammaton and the names of God is identical to
+                Sch. Iob 1.5. The CPG rejects the fragment as spurious, but Casiday (2005) defends
+                its Evagrian authorship.</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2482a</IRI>

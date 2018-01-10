@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tan="tag:textalign.net,2015:ns" TAN-version="1 dev" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001">
+<?xml-model href="../../TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tan="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title/>
          </titleStmt>
          <publicationStmt>
-            <p part="N" />
+            <p part="N"/>
          </publicationStmt>
          <sourceDesc default="false">
             <p part="N"/>
@@ -19,101 +19,74 @@
    </teiHeader>
    <head xmlns="tag:textalign.net,2015:ns">
       <name xml:lang="eng">Guillaumonts' Greek edition of the Praktikos of Evagrios Pontikos</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430.grc.guillaumonts.xml"/>
-      <rights-excluding-sources include="HEAD"/>
-      <inclusion xml:id="HEAD">
-         <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
-         <name>Alignment of the works of Evagrius</name>
-         <location href="TAN-A-div/HEAD.evagrius.TAN-A-div.xml" when-accessed="2015-10-12-04:00"/>
-      </inclusion>
+      <master-location
+         href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430.grc.guillaumonts.xml"/>
+      <license which="by_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+      </key>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
+         <name>Works by Evagrius</name>
+         <location href="TAN-key/evagrius-works-TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+      </key>
       <source>
          <IRI>http://lccn.loc.gov/72309768</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:guillaumont-1971</IRI>
          <name xml:lang="fra">Traitè pratique, ou, Le moine. Evagre le Pontique. Introduction par
             Antoine Guillaumont et Claire Guillaumont. Sources chrétiennes 171. Paris, Éditions du
             Cerf, 1971.</name>
-         <rights-source-only>
-            <IRI>urn:uuid:d56dd4a9-5487-4131-ac61-f43e2b11a17a</IRI>
-            <name>Rights for the source are held by Sources chrétiennes, Les Éditions du Cerf 24,
-               rue des Tanneries 75013 Paris France www.editionsducerf.fr </name>
-         </rights-source-only>
       </source>
-      <see-also>
-         <relationship which="auxiliary"/>
-         <IRI>tag:kalvesmaki.com,2014:Dysinger_website_Praktikos</IRI>
-         <name>Dysinger's handtyped Greek</name>
-         <desc>Initial, base digital text used as the starting point for an accurate rendition of
-            the source</desc>
-      </see-also>
-      <see-also>
-         <relationship which="class 2"/>
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-LM.001</IRI>
-         <name>TAN-T model.TAN-LM.xml</name>
-         <location
-            href="TAN-LM/CPG2430-grc-Guillaumonts.lm.xml"
+
+      <see-also relationship="class-2">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-A-lm.001</IRI>
+         <name>TAN-T model.TAN-A-lm.xml</name>
+         <location href="TAN-A-lm/cpg2430-grc-Guillaumonts.lm.xml"
             when-accessed="2016-04-10T21:58:47.793-04:00"/>
       </see-also>
-      <see-also>
-         <relationship which="class 2"/>
+      <see-also relationship="class-2">
          <IRI>tag:kalvesmaki@gmail.com,2014:cpg2430-TAN-A-div-et-al-1</IRI>
          <name>Alignment of Evagrius's Praktikos and works cited</name>
-         <location
-            href="TAN-A-div/cpg2430.TAN-A-div.xml"
+         <location href="TAN-A-div/cpg2430.TAN-A-div.xml"
             when-accessed="2016-04-11T13:41:49.719-04:00"/>
       </see-also>
-      <declarations>
+      <definitions>
          <work>
             <IRI>http://dbpedia.org/resource/Praktikos</IRI>
             <IRI>tag:evagriusponticus.net,2015:cpg2430</IRI>
             <IRI>tag:kalvesmaki.com,2014:cpg2430</IRI>
             <name xml:lang="eng">Evagrius Ponticus, Praktikos</name>
          </work>
-         <token-definition which="general-words-only-1"/>
          <version>
             <IRI>tag:evagriusponticus.net,2015:cpg2430,grc-1971</IRI>
             <IRI>tag:kalvesmaki.com,2014:cpg2430,grc-1971</IRI>
             <name xml:lang="eng">The Guillamonts' ancient Greek version of the Praktikos</name>
          </version>
-         <div-type xml:id="preface">
-            <IRI>http://dbpedia.org/resource/Preface</IRI>
-            <name xml:lang="eng">preface</name>
-         </div-type>
-         <div-type xml:id="title">
-            <IRI>http://dbpedia.org/resource/Title_(publishing)</IRI>
-            <name xml:lang="eng">title</name>
-         </div-type>
-         <div-type xml:id="section">
-            <IRI>http://dbpedia.org/resource/Section_(typography)</IRI>
-            <name xml:lang="eng">section</name>
-         </div-type>
-         <div-type xml:id="chapter">
-            <IRI>http://dbpedia.org/resource/Chapter_(books)</IRI>
-            <name xml:lang="eng">chapter</name>
-            <name xml:lang="grc">κεφάλαιον</name>
-         </div-type>
-         <div-type xml:id="epilogue">
-            <IRI>http://dbpedia.org/resource/Epilogue</IRI>
-            <name xml:lang="eng">epilogue</name>
-         </div-type>
-         <div-type xml:id="variant">
-            <IRI>tag:textalign.net,2015:div-type:variant</IRI>
-            <name xml:lang="eng">variant</name>
-         </div-type>
-         <div-type xml:id="note">
-            <IRI>http://dbpedia.org/resource/Note_(typography)</IRI>
-            <name xml:lang="eng">note</name>
-         </div-type>
-         <div-type xml:id="paragraph">
-            <IRI>http://dbpedia.org/page/Paragraph</IRI>
-            <name>paragraph</name>
-         </div-type>
-         <div-type xml:id="head" which="heading"/>
-         <filter>
-            <normalization which="no hyphens"/>
-         </filter>
-      </declarations>
-      <agent include="HEAD"/>
-      <role include="HEAD"/>
+         <div-type which="preface" xml:id="preface"/>
+         <div-type which="title" xml:id="title"/>
+         <div-type which="section" xml:id="section"/>
+         <div-type which="chapter" xml:id="chapter"/>
+         <div-type which="epilogue" xml:id="epilogue"/>
+         <relationship which="auxiliary" xml:id="auxiliary"/>
+         <relationship which="class 2" xml:id="class-2"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
+            <name>Stylesheet to populate a TAN-A-div file from collections.</name>
+            <desc>Stylesheet at:
+               ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
+         </algorithm>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+      </definitions>
+      <alter>
+         <normalization which="no hyphens"/>
+      </alter>
+      <resp who="kalvesmaki" roles="editor"/>
+      <resp who="xslt1" roles="stylesheet"/>
       <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
       <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
          release.</change>
@@ -124,6 +97,9 @@
       <change when="2014-02-02" who="kalvesmaki">Eliminated line breaks, hyphenations.</change>
       <change when="2014-01-27" who="kalvesmaki">Adjusted in concert with TAN-T.rnc adjustments to
          emulate TEI in the body. Changed source. </change>
+      <change when="2017-10-03" who="kalvesmaki">Removed otiose attributes.</change>
+      <change who="xslt1" when="2017-12-16T12:20:43.518-05:00">TAN file updated to 2018
+         schemas.</change>
       <comment when="2014-05-01" who="kalvesmaki">Rights to use and disseminate the Greek text,
          without scholarly apparatus, was granted by Éditions du Cerf on 2014-04-28. I am grateful
          to them for their generosity, and encourage users of this data to show their appreciation
@@ -145,11 +121,11 @@
 </div>
 <div type="title" n="ti" part="N" org="uniform" sample="complete"> <pb n="496"/> <p part="N">ΤΟΥ ΑΥΤΟΥ ΛΟΓΟΣ ΠΡΑΚΤΙΚΟΣ </p> <p part="N">ΚΕΦΑΛΑΙΑ Ρ´</p> </div>
 <div type="chapter" n="1" part="N" org="uniform" sample="complete"> <pb n="498"/> <p part="N">Χριστιανισμός ἐστι δόγμα τοῦ Σωτῆρος ἡμῶν Χριστοῦ ἐκ πρακτικῆς καὶ φυσικῆς καὶ θεολογικῆς συνεστός.</p> </div>
-<div type="chapter" n="2" part="N" org="uniform" sample="complete">  <p part="N">Βασιλεία οὐρανῶν ἐστιν ἀπάθεια ψυχῆς μετὰ γνώσεως τῶν ὄντων ἀληθοῦς</p> </div>
+<div type="chapter" n="2" part="N" org="uniform" sample="complete">  <p part="N">Βασιλεία οὐρανῶν ἐστιν ἀπάθεια ψυχῆς μετὰ γνώσεως τῶν ὄντων ἀληθοῦς.</p> </div>
 <div type="chapter" n="3" part="N" org="uniform" sample="complete"> <pb n="500"/> <p part="N">Βασιλεία Θεοῦ ἐστι γνῶσις τῆς ἁγίας Τριάδος συμπαρεκτεινομένη τῇ συστάσει τοῦ νοός, καὶ ὑπερβάλλουσα τὴν ἀφθαρσίαν αὐτοῦ.</p> </div>
 <div type="chapter" n="4" part="N" org="uniform" sample="complete"> <pb n="502"/> <p part="N">Οὗτινός τις ἐρᾷ τούτου καὶ ἐφίεται πάντως, καὶ οὗ ἐφίεται, τούτου καὶ τυχεῖν ἀγωνίζεται· καὶ πάσης μὲν ἡδονῆς ἐπιθυμία κατάρχει, ἐπιθυμίαν δὲ τίκτει αἴσθησις· τὸ γὰρ αἰσθήσεως ἄμοιρον καὶ πάθους ἐλεύθερον.</p> </div>
 <div type="chapter" n="5" part="N" org="uniform" sample="complete"> <pb n="504"/> <p part="N">Τοῖς μὲν ἀναχωρηταῖς οἱ δαίμονες γυμνοὶ προσπαλαίουσι, τοῖς δὲ ἐν κοινοβίοις ἢ συνοδίαις κατεργαζομένοις τὴν ἀρετὴν τοὺς ἀμελεστέρους τῶν ἀδελφῶν ἐφοπλίζουσι· πολλῷ δὲ κουφότερος ὁ δεύτερος πόλεμος τοῦ πρώτου διότι οὐκ ἔστιν εὑρεῖν ἐπὶ τῆς γῆς ἀνθρώπους πικροτέρους δαιμόνων ἢ πᾶσαν ἀθρόως αὐτῶν ὑποδεχομένους τὴν κακουργίαν.</p> </div>
-<div type="title" n="head 1" part="N" org="uniform" sample="complete"> <pb n="506"/><p part="N">Περὶ τῶν ὀκτὼ λογισμῶν</p> </div>
+<div type="title" n="head_1" part="N" org="uniform" sample="complete"> <pb n="506"/><p part="N">Περὶ τῶν ὀκτὼ λογισμῶν</p> </div>
 <div type="chapter" n="6" part="N" org="uniform" sample="complete">  <p part="N">Ὀκτώ εἰσι πάντες οἱ γενικώτατοι λογισμοὶ ἐν οἷς περιέχεται πᾶς λογισμός. πρῶτος ὁ τῆς γαστριμαργίας, καὶ μετ' αὐτὸν <pb n="508"/>ὁ τῆς πορνείας· τρίτος ὁ τῆς φιλαργυρίας· τέταρτος ὁ τῆς λύπης· πέμπτος ὁ τῆς ὀργῆς· ἕκτος ὁ τῆς ἀκηδίας· ἕβδομος ὁ τῆς κενοδοξίας· ὄγδοος ὁ τῆς ὑπερηφανίας. Τούτους πάντας παρενοχλεῖν μὲν τῇ ψυχῇ ἢ μὴ παρενοχλεῖν, τῶν οὐκ ἐφ’ ἡμῖν ἐστι· τὸ δὲ χρονίζειν αὐτοὺς ἢ μὴ χρονίζειν, ἢ πάθη κινεῖν ἢ μὴ κινεῖν, τῶν ἐφ’ ἡμῖν.</p> </div>
 <div type="chapter" n="7" part="N" org="uniform" sample="complete">  <p part="N">Ὁ μὲν τῆς γαστριμαργίας λογισμὸς ἔκπτωσιν ταχεῖαν τῷ μοναχῷ τῆς ἀσκήσεως ὑποβάλλει· στόμαχον καὶ ἧπαρ καὶ <pb n="510"/>σπλῆνα καὶ ὕδρωπα διαγράφων, καὶ νόσον μακράν, καὶ σπάνιν τῶν ἐπιτηδείων, καὶ ἰατρῶν ἀπορίαν. Φέρει δὲ αὐτὸν πολλάκις καὶ εἰς μνήμην ἀδελφῶν τινων τούτοις περιπεσόντων τοῖς πάθεσιν. Ἔστι δὲ ὅτε καὶ αὐτοὺς ἐκείνους τοὺς πεπονθότας παραβάλλειν ἀναπείθει τοῖς ἐγκρατευομένοις, καὶ τὰς ἑαυτῶν ἐκδιηγεῖσθαι συμφοράς, καὶ ὡς ἐκ τῆς ἀσκήσεως τοιοῦτοι γεγόνασιν.</p> </div>
 <div type="chapter" n="8" part="N" org="uniform" sample="complete">  <p part="N">Ὁ τῆς πορνείας δαίμων σωμάτων καταναγκάζει διαφόρων ἐπιθυμεῖν· καὶ σφοδρότερος τοῖς ἐγκρατευομένοις ἐφίσταται, <pb n="512"/>ἵν’ ὡς μηδὲν ἀνύοντες παύσωνται· καὶ τὴν ψυχὴν μιαίνων περὶ ἐκείνας κατακάμπτει τὰς ἐργασίας· λέγειν τε αὐτήν τινα ῥήματα καὶ πάλιν ἀκούειν ποιεῖ, ὡς ὁρωμένου δῆθεν καὶ παρόντος τοῦ πράγματος. </p> </div>
@@ -159,8 +135,8 @@
 <div type="chapter" n="12" part="N" org="uniform" sample="complete"> <pb n="520"/> <p part="N">Ὁ τῆς ἀκηδίας δαίμων, ὃς καὶ <cit> <quote defective="false">μεσημβρινὸς</quote> <ref cRef="Ps 90.6"/> </cit> καλεῖται, πάντων τῶν δαιμόνων ἐστὶ βαρύτατος· καὶ ἐφίσταται μὲν τῷ μοναχῷ περὶ ὥραν τετάρτην, κυκλοῖ δὲ τὴν ψυχὴν αὐτοῦ μέχρις ὥρας ὀγδόης. Καὶ πρῶτον μὲν τὸν ἥλιον καθορᾶσθαι ποιεῖ δυσκίνητον ἢ ἀκίνητον, πεντηκοντάωρον τὴν ἡμέραν δεικνύς. Ἔπειτα δὲ συνεχῶς ἀφορᾶν πρὸς τὰς θυρίδας καὶ <pb n="522"/>τῆς κέλλης ἐκπηδᾶν ἐκβιάζεται, τῷ τε ἡλίῳ ἐνατενίζειν πόσον τῆς ἐνάτης ἀφέστηκε, καὶ περιβλέπεσθαι τῇδε κἀκεῖσε μή τις τῶν ἀδελφῶν. Ἔτι δὲ μῖσος πρὸς τὸν τόπον ἐμβάλλει καὶ πρὸς τὸν βίον αὐτόν, καὶ πρὸς τὸ ἔργον τὸ τῶν χειρῶν· καὶ ὅτι ἐκλέλοιπε παρὰ τοῖς ἀδελφοῖς ἡ ἀγάπη καὶ οὐκ ἔστιν <pb n="524"/>ὁ παρακαλῶν· εἰ δὲ καί τις κατ’ ἐκείνας τὰς ἡμέρας εἴη λυπήσας τὸν μοναχόν, καὶ τοῦτο εἰς αὔξησιν τοῦ μίσους ὁ δαίμων προστίθησιν. Ἄγει δὲ αὐτὸν καὶ εἰς ἐπιθυμίαν τόπων ἑτέρων ἐν οἷς ῥᾳδίως τὰ πρὸς τὴν χρείαν ἔστιν εὑρεῖν καὶ τέχνην μετελθεῖν εὐκοπωτέραν μᾶλλον καὶ προχωροῦσαν· καὶ ὡς οὐκ ἔστιν ἐν τόπῳ τὸ εὐαρεστεῖν τῷ Κυρίῳ προστίθησιν· <cit type="allusion"> <quote defective="false">πανταχοῦ γάρ, φησί, τὸ θεῖον προσκυνητόν</quote> <ref cRef="Jn 4.21 - Jn 4.24"/> </cit>. Συνάπτει δὲ <pb n="526"/>τούτοις καὶ μνήμην τῶν οἰκείων καὶ τῆς προτέρας διαγωγῆς· καὶ χρόνον τῆς ζωῆς ὑπογράφει μακρόν, τοὺς τῆς ἀσκήσεως πόνους φέρων πρὸ ὀφθαλμῶν· καὶ πᾶσαν τὸ δὴ λεγόμενον κινεῖ μηχανὴν ἵνα καταλελοιπὼς ὁ μοναχὸς τὴν κέλλαν φύγῃ τὸ στάδιον. Τούτῳ τῷ δαίμονι ἄλλος μὲν εὐθὺς δαίμων οὐχ ἕπεται· εἰρηνικὴ δέ τις κατάστασις καὶ χαρὰ ἀνεκλάλητος μετὰ τὸν ἀγῶνα τὴν ψυχὴν διαδέχεται.</p> </div>
 <div type="chapter" n="13" part="N" org="uniform" sample="complete"> <pb n="528"/> <p part="N">Ὁ τῆς κενοδοξίας λογισμὸς λεπτότατός τίς ἐστι καὶ παρυφίσταται τοῖς κατορθοῦσι ῥᾳδίως δημοσιεύειν αὐτῶν τοὺς ἀγῶνας βουλόμενος καὶ <cit type="allusion"> <quote defective="false">τὰς παρὰ τῶν ἀνθρώπων δόξας θηρώμενος</quote> <ref cRef="1Th 2.6"/> </cit>, δαίμονάς τε κράζοντας ἀναπλάττων καὶ θεραπευόμενα γύναια καὶ ὄχλον τινὰ τῶν ἱματίων ἐφαπτόμενον· μαντεύεται δὲ αὐτῷ καὶ ἱερωσύνην λοιπὸν καὶ τοὺς ζητοῦντας αὐτὸν ταῖς θύραις ἐφίστησι· καὶ ὡς εἰ μὴ βούλοιτο δέσμιος ἀπαχθήσεται. Καὶ οὕτως αὐτὸν μετέωρον ταῖς κεναῖς ἐλπίσι <pb n="530"/>ποιήσας ἀφίπταται καταλιπὼν ἢ τῷ τῆς ὑπερηφανίας δαίμονι πειράζειν αὐτὸν ἢ τῷ τῆς λύπης, ὅστις ἐπάγει καὶ λογισμοὺς αὐτῷ ταῖς ἐλπίσιν ἐναντιουμένους· ἔστι δὲ ὅτε καὶ τῷ τῆς πορνείας δαίμονι παραδίδωσι τὸν πρὸ ὀλίγου δέσμιον καὶ ἅγιον ἱερέα.</p> </div>
 <div type="chapter" n="14" part="N" org="uniform" sample="complete"> <pb n="532"/> <p part="N">Ὁ τῆς ὑπερηφανίας δαίμων χαλεπωτάτης πτώσεως τῇ ψυχῇ πρόξενος γίνεται· ἀναπείθει γὰρ αὐτὴν Θεὸν μὲν μὴ ὁμολογεῖν βοηθόν, ἑαυτὴν δὲ τῶν κατορθουμένων αἰτίαν εἶναι νομίζειν καὶ φυσιοῦσθαι κατὰ τῶν ἀδελφῶν ὡς ἀνοήτων, <pb n="534"/>διότι μὴ τοῦτο περὶ αὐτῆς πάντες ἐπίστανται. Παρακολουθεῖ δὲ ταύτῃ ὀργὴ καὶ λύπη, καὶ τὸ τελευταῖον κακόν, ἔκστασις φρενῶν καὶ μανία καὶ δαιμόνων ἐν τῷ ἀέρι πλῆθος ὁρώμενον.</p> </div>
-<div type="title" n="head 2" part="N" org="uniform" sample="complete"> <pb n="536"/> <p part="N">Πρὸς τοὺς ὀκτὼ λογισμούς </p> </div>
-<div type="chapter" n="15" part="N" org="uniform" sample="complete">  <p part="N">Νοῦν μὲν πλανώμενον ἵστησιν ἀνάγνωσις καὶ ἀγρυπνία καὶ προσευχή· ἐπιθυμίαν δὲ ἐκφλογουμένην μαραίνει πεῖνα καὶ κόπος καὶ ἀναχώρησις· θυμὸν δὲ καταπαύει κυκώμενον ψαλμῳδία καὶ μακροθυμία καὶ ἔλεος· καὶ ταῦτα τοῖς προσή&#xad;<pb break="no" n="538"/>κουσι χρόνοις τε καὶ μέτροις γινόμενα· τὰ γὰρ ἄμετρα καὶ ἄκαιρα ὀλιγοχρόνια· τὰ δὲ ὀλιγοχρόνια βλαβερὰ μᾶλλον καὶ οὐκ ὠφέλιμα.</p> </div>
+<div type="title" n="head_2" part="N" org="uniform" sample="complete"> <pb n="536"/> <p part="N">Πρὸς τοὺς ὀκτὼ λογισμούς </p> </div>
+<div type="chapter" n="15" part="N" org="uniform" sample="complete">  <p part="N">Νοῦν μὲν πλανώμενον ἵστησιν ἀνάγνωσις καὶ ἀγρυπνία καὶ προσευχή· ἐπιθυμίαν δὲ ἐκφλογουμένην μαραίνει πεῖνα καὶ κόπος καὶ ἀναχώρησις· θυμὸν δὲ καταπαύει κυκώμενον ψαλμῳδία καὶ μακροθυμία καὶ ἔλεος· καὶ ταῦτα τοῖς προσή­<pb break="no" n="538"/>κουσι χρόνοις τε καὶ μέτροις γινόμενα· τὰ γὰρ ἄμετρα καὶ ἄκαιρα ὀλιγοχρόνια· τὰ δὲ ὀλιγοχρόνια βλαβερὰ μᾶλλον καὶ οὐκ ὠφέλιμα.</p> </div>
 <div type="chapter" n="16" part="N" org="uniform" sample="complete"> <pb n="540"/>  <p part="N">Ὁπηνίκα διαφόρων βρωμάτων ἐφίεται ἡμῶν ἡ ψυχή, τὸ τηνικαῦτα ἐν ἄρτῳ στενούσθω καὶ ὕδατι ἵν' εὐχάριστος γένηται καὶ ἐπ' αὐτῷ ψιλῷ τῷ ψωμῷ· κόρος γὰρ ποικίλων ἐδεσμάτων ἐπιθυμεῖ, λιμὸς δὲ τὸν κόρον τοῦ ἄρτου μακαριότητα εἶναι νομίζει. </p> </div>
 <div type="chapter" n="17" part="N" org="uniform" sample="complete"> <pb n="542"/>  <p part="N">Πάνυ πρὸς σωφροσύνην συμβάλλεται ἡ τοῦ ὕδατος ἔνδεια· καὶ πειθέτωσάν σε <cit type="allusion"> <quote defective="false">τῶν Ἰσραηλιτῶν οἱ μετὰ Γεδεὼν τριακόσιοι τὴν Μαδιὰμ</quote> <ref cRef="Jug 7.5-7"/> </cit> χειρωσάμενοι.</p> </div>
 <div type="chapter" n="18" part="N" org="uniform" sample="complete"> <pb n="546"/>  <p part="N">Ὡς ζωὴν καὶ θάνατον ἅμα συμβῆναι τῷ αὐτῷ τῶν οὐκ ἐνδεχομένων ἐστίν, οὕτως ἀγάπην χρήμασι συνυπάρξαι τινὶ τῶν ἀδυνάτων ἐστίν· ἀναιρετικὴ γὰρ οὐ μόνον χρημάτων ἡ ἀγάπη, ἀλλὰ καὶ αὐτῆς ἡμῶν τῆς προσκαίρου ζωῆς. </p> </div>
@@ -179,14 +155,14 @@
 <div type="chapter" n="31" part="N" org="uniform" sample="complete"> <pb n="572"/>  <p part="N">Ἔγνων τὸν τῆς κενοδοξίας δαίμονα σχεδὸν ὑπὸ πάντων διωκόμενον τῶν δαιμόνων καὶ ἐπὶ τοῖς τῶν διωκόντων πτώμασιν ἀναιδῶς παριστάμενον καὶ τῷ μοναχῷ μέγεθος ἀρετῶν ἐμφανίζοντα. </p> </div>
 <div type="chapter" n="32" part="N" org="uniform" sample="complete">  <p part="N">Ὁ γνώσεως ἐφαψάμενος καὶ τὴν ἀπ' αὐτῆς καρπούμενος ἡδονὴν οὐκέτι τῷ τῆς κενοδοξίας πεισθήσεται δαίμονι, <pb n="574"/>πάσας αὐτῷ τὰς ἡδονὰς τοῦ κόσμου προσάγοντι· τί γὰρ ἂν καὶ ὑπόσχοιτο μεῖζον πνευματικῆς θεωρίας; Ἐν ὅσῳ δέ ἐσμεν γνώσεως ἄγευστοι, τὴν πρακτικὴν προθύμως κατεργαζώμεθα, τὸν σκοπὸν ἡμῶν δεικνύντες Θεῷ ὅτι πάντα πράττομεν τῆς αὐτοῦ γνώσεως ἕνεκεν. </p> </div>
 <div type="chapter" n="33" part="N" org="uniform" sample="complete">  <p part="N">Μέμνησο τοῦ προτέρου σου βίου καὶ ἀρχαίων παραπτωμάτων, καὶ πῶς ἐμπαθὴς ὢν ἐλέει Χριστοῦ πρὸς τὴν ἀπάθειαν μεταβέβηκας, καὶ πῶς πάλιν ἐξῆλθες τοῦ κόσμου τοῦ πολλὰ καὶ πολλάκις σε ταπεινώσαντος. Λόγισαι δέ μοι <pb n="576"/>καὶ τοῦτο· τίς ὁ ἐν τῆ ἐρήμῳ φυλάσσων σε, καὶ τίς ὁ ἀπελαύνων τοὺς δαίμονας βρύχοντας κατὰ σοῦ τοὺς ὀδόντας αὐτῶν. Οἱ γὰρ τοιοῦτοι λογισμοὶ ταπεινοφροσύνην μὲν ἐμποιοῦσιν, τὸν δὲ τῆς ὑπερηφανίας οὐκ εἰσδέχονται δαίμονα. </p> </div>
-<div type="title" n="head 3" part="N" org="uniform" sample="complete"> <pb n="578"/> <p part="N">Περὶ παθῶν </p> </div>
+<div type="title" n="head_3" part="N" org="uniform" sample="complete"> <pb n="578"/> <p part="N">Περὶ παθῶν </p> </div>
 <div type="chapter" n="34" part="N" org="uniform" sample="complete">  <p part="N">Ὧν τὰς μνήμας ἔχομεν ἐμπαθεῖς, τούτων καὶ τὰ πράγματα πρότερον μετὰ πάθους ὑπεδεξάμεθα· καὶ ὅσα τῶν πραγμάτων πάλιν μετὰ πάθους ὑποδεχόμεθα, τούτων καὶ τὰς μνήμας ἕξομεν ἐμπαθεῖς. Ὅθεν ὁ νικήσας τοὺς ἐνεργοῦντας δαίμονας τῶν ὑπ’ αὐτῶν ἐνεργουμένων καταφρονεῖ· τοῦ γὰρ ἐνύλου πολέμου ὁ ἄϋλος χαλεπώτερος. </p> </div>
 <div type="chapter" n="35" part="N" org="uniform" sample="complete"> <pb n="580"/>  <p part="N">Τὰ μὲν τῆς ψυχῆς πάθη ἐκ τῶν ἀνθρώπων ἔχει τὰς ἀφορμάς· τὰ δὲ τοῦ σώματος ἐκ τοῦ σώματος· καὶ τὰ μὲν τοῦ σώματος πάθη περικόπτει ἐγκράτεια, τὰ δὲ τῆς ψυχῆς ἀγάπη πνευματική. </p> </div>
 <div type="chapter" n="36" part="N" org="uniform" sample="complete"> <pb n="582"/>  <p part="N">Οἱ μὲν τῶν ψυχικῶν προεστῶτες παθῶν ἄχρι θανάτου προσκαρτεροῦσιν· οἱ δὲ τῶν σωματικῶν θᾶττον ὑποχωροῦσιν· καὶ οἱ μὲν ἄλλοι δαίμονες ἀνατέλλοντι ἢ δύνοντι τῷ ἡλίῳ ἐοίκασιν, ἑνός τινος μέρους τῆς ψυχῆς ἐφαπτόμενοι· ὁ δὲ μεσημβρινὸς ὅλην περιλαμβάνειν εἴωθε τὴν ψυχὴν καὶ ἐναποπνίγειν τὸν νοῦν. Διὸ γλυκεῖα ἡ ἀναχώρησις μετὰ τὴν τῶν παθῶν κένωσιν· τότε γὰρ αἱ μνῆμαι μόνον εἰσὶ ψιλαί· καὶ ἡ πάλη οὐ πρὸς ἀγῶνα λοιπόν, ἀλλὰ πρὸς θεωρίαν αὐτῆς παρασκευάζει τὸν μοναχόν. </p> </div>
 <div type="chapter" n="37" part="N" org="uniform" sample="complete"> <pb n="584"/>  <p part="N">Πότερον ἡ ἔννοια τὰ πάθη κινεῖ, ἢ τὰ πάθη τὴν ἔννοιαν προσεκτέον· τισὶ μὲν γὰρ ἔδοξε τὸ πρότερον, τισὶ δὲ τὸ δεύτερον. </p> </div>
 <div type="chapter" n="38" part="N" org="uniform" sample="complete"> <pb n="586"/>  <p part="N">Ὑπὸ τῶν αἰσθήσεων πέφυκε κινεῖσθαι τὰ πάθη· καὶ παρούσης μὲν ἀγάπης καὶ ἐγκρατείας οὐ κινηθήσεται, ἀπούσης δὲ κινηθήσεται· πλειόνων δὲ παρὰ τὴν ἐπιθυμίαν ὁ θυμὸς δεῖται φαρμάκων, καὶ διὰ τοῦτο <cit> <quote defective="false">μεγάλη</quote> <ref cRef="1Co 13.13"/> </cit> λέγεται ἡ ἀγάπη ὅτι χαλινός ἐστι τοῦ θυμοῦ· ταύτην καὶ Μωσῆς ἐκεῖνος ὁ ἅγιος ἐν τοῖς φυσικοῖς συμβολικῶς <cit type="allusion"> <quote defective="false">ὀφιομάχην ὠνόμασεν</quote> <ref cRef="Lev 11.22"/> </cit>. </p> </div>
 <div type="chapter" n="39" part="N" org="uniform" sample="complete"> <pb n="590"/>  <p part="N">Πρὸς τὴν ἐπικρατοῦσαν δυσωδίαν ἐν τοῖς δαίμοσιν εἴωθεν ἀνάπτεσθαι πρὸς λογισμοὺς ἡ ψυχή, ὅταν αὐτῶν ἐγγιζόντων ἀντιλαμβάνηται, τῷ τοῦ παρενοχλοῦντος πάθει πεποιωμένη. </p> </div>
-<div type="title" n="head 4" part="N" org="uniform" sample="complete"> <pb n="592"/> <p part="N">Ὑποθῆκαι</p> </div>
+<div type="title" n="head_4" part="N" org="uniform" sample="complete"> <pb n="592"/> <p part="N">Ὑποθῆκαι</p> </div>
 <div type="chapter" n="40" part="N" org="uniform" sample="complete">  <p part="N">Οὐκ ἐν παντὶ καιρῷ δυνατὸν ἐκτελεῖν τὸν συνήθη κανόνα, προσέχειν δὲ δεῖ τῷ καιρῷ καὶ τὰς ἐνδεχομένας ἐντολὰς ὡς ἕνι μάλιστα πειρᾶσθαι ποιεῖν· τοὺς γὰρ καιροὺς καὶ αὐτοὶ τοὺς τοιούτους οὐκ ἀγνοοῦσιν οἱ δαίμονες. Ὅθεν κινούμενοι καθ’ ἡμῶν, τὰ μὲν δυνατὰ γενέσθαι κωλύουσι, τὰ δὲ μὴ δυνατὰ γενέσθαι πράττειν ἡμᾶς καταναγκάζουσι· καὶ γὰρ τοὺς ἀσθενοῦντας εὐχαριστεῖν μὲν ἐπὶ ταῖς ἀλγηδόσι καὶ μακροθυμεῖν ἐπὶ τοῖς ὑπηρετοῦσιν ἀποκωλύουσιν· ἀτονοῦντας δὲ πάλιν ἐγκρατεύεσθαι καὶ βεβαρημένους ἑστῶτας ψάλλειν προτρέπονται.</p> </div>
 <div type="chapter" n="41" part="N" org="uniform" sample="complete"> <pb n="594"/>  <p part="N">Ὅταν ἐν πόλεσιν ἢ ἐν κώμαις ἐπ’ ὀλίγον ἀναγκαζώμεθα διατρίβειν, τότε μάλιστα σφοδρότερον τῆς ἐγκρατείας ἐχόμενοι τοῖς κοσμικοῖς συνεσόμεθα, μήποτε παχυνθεὶς ἡμῶν ὁ νοῦς καὶ τῆς συνήθους ἐπιμελείας διὰ τὸν παρόντα καιρὸν στερηθεὶς πράξῃ τι τῶν ἀβουλήτων καὶ γένηται φυγάς, ὑπὸ τῶν δαιμόνων βαλλόμενος. </p> </div>
 <div type="chapter" n="42" part="N" org="uniform" sample="complete"> <pb n="596"/>  <p part="N">Οὐ πρότερον προσεύξῃ πειραζόμενος, πρὶν εἰπεῖν τινα ῥήματα μετ’ ὀργῆς πρὸς τὸν θλίβοντα· τῆς γὰρ ψυχῆς σου πεποιωμένης τοῖς λογισμοῖς, συμβαίνει μηδὲ καθαρὰν γενέσθαι τὴν προσευχήν· ἐὰν δὲ μετ’ ὀργῆς εἴπῃς τι πρὸς αὐτούς, συγχεῖς τε καὶ ἐξαφανίζεις τῶν ἀντικειμένων τὰ νοήματα. Τοῦτο γὰρ ἡ ὀργὴ καὶ ἐπὶ τῶν κρειττόνων νοημάτων ἐργάζεσθαι πέφυκεν. </p> </div>
@@ -201,18 +177,18 @@
 <div type="chapter" n="51" part="N" org="uniform" sample="complete">  <p part="N">Δύο τῶν δαιμόνων ὀξυτάτους παρατηρήσας εὑρήσεις, καὶ σχεδὸν τὴν κίνησιν τοῦ νοὸς ἡμῶν παρατρέχοντας· τὸν δαίμονα τῆς πορνείας καὶ τὸν συναρπάζοντα ἡμᾶς πρὸς βλασφημίαν Θεοῦ· ἀλλ’ ὁ μὲν δεύτερός ἐστιν ὀλιγοχρόνιος, ὁ δὲ πρότερος, εἰ μὴ μετὰ πάθους κινοίη τοὺς λογισμούς, οὐκ ἐμποδίσει ἡμῖν πρὸς τὴν γνῶσιν τὴν τοῦ Θεοῦ. </p> </div>
 <div type="chapter" n="52" part="N" org="uniform" sample="complete"> <pb n="618"/>  <p part="N">Σῶμα μὲν χωρίσαι ψυχῆς, μόνου ἐστὶ τοῦ συνδήσαντος· ψυχὴν δὲ ἀπὸ σώματος, καὶ τοῦ ἐφιεμένου τῆς ἀρετῆς. Τὴν γὰρ ἀναχώρησιν μελέτην θανάτου καὶ φυγὴν τοῦ σώματος οἱ Πατέρες ἡμῶν ὀνομάζουσιν. </p> </div>
 <div type="chapter" n="53" part="N" org="uniform" sample="complete"> <pb n="620"/>  <p part="N">Οἱ τὴν σάρκα κακῶς διατρέφοντες καὶ <cit> <quote defective="false">πρόνοιαν αὐτῆς εἰς ἐπιθυμίας ποιούμενοι</quote> <ref cRef="Rom 13.14"/> </cit>, ἑαυτοὺς μὴ ταύτην καταμεμφέσθωσαν· ἴσασι γὰρ τὴν χάριν τοῦ Δημιουργοῦ οἱ τὴν τῆς ψυχῆς ἀπάθειαν διὰ τοῦ σώματος τούτου κτησάμενοι καὶ τῇ τῶν ὄντων θεωρίᾳ ποσῶς ἐπιβάλλοντες. </p> <pb n="624"/> </div>
-<div type="title" n="head 5" part="N" org="uniform" sample="complete"> <p part="N">Περὶ τῶν ἐν τοῖς ὕπνοις συμβαινόντων </p> </div>
+<div type="title" n="head_5" part="N" org="uniform" sample="complete"> <p part="N">Περὶ τῶν ἐν τοῖς ὕπνοις συμβαινόντων </p> </div>
 <div type="chapter" n="54" part="N" org="uniform" sample="complete">  <p part="N">Ὅταν ἐν ταῖς καθ’ ὕπνον φαντασίαις τῷ ἐπιθυμητικῷ μέρει πολεμοῦντες οἱ δαίμονες αὐτοὶ μὲν δεικνύωσιν, ἡμεῖς δὲ προστρέχωμεν, συντυχίας γνωρίμων καὶ συμπόσια συγγενῶν καὶ χοροὺς γυναικῶν καὶ ὅσα ἄλλα τοιαῦτα ἡδονῶν ἀποτελεστικά, ἐν τούτῳ τῷ μέρει νοσοῦμεν καὶ τὸ πάθος ἰσχύει. Ὅταν δὲ πάλιν τὸ θυμικὸν ἐκταράσσωσιν, ὁδοὺς <pb n="626"/>κρημνώδεις ὁδεύειν καταναγκάζοντες, καὶ ἐνόπλους ἄνδρας ἐπάγοντες καὶ ἰοβόλα καὶ σαρκοβόρα θηρία, ἡμεῖς δὲ πρὸς μὲν τὰς ὁδοὺς ἐκδειματούμεθα, ὑπὸ δὲ τῶν θηρίων καὶ τῶν ἀνδρῶν διωκόμενοι φεύγωμεν, τοῦ θυμικοῦ μέρους ποιησώμεθα πρόνοιαν, καὶ τὸν Χριστὸν ἐν ἀγρυπνίαις ἐπικαλούμενοι, τοῖς προειρημένοις φαρμάκοις χρησώμεθα. </p> <pb n="628"/> </div>
 <div type="chapter" n="55" part="N" org="uniform" sample="complete">  <p part="N">Αἱ ἀνείδωλοι ἐν τοῖς ὕπνοις τοῦ σώματος φυσικαὶ κινήσεις ὑγιαίνειν ποσῶς μηνύουσι τὴν ψυχήν· πῆξις δὲ εἰδώλων ἀρρωστίας γνώρισμα· καὶ τὰ μὲν ἀόριστα πρόσωπα τοῦ παλαιοῦ πάθους, τὰ δὲ ὡρισμένα τῆς παραυτίκα πληγῆς σύμβολον νόμιζε. </p> <pb n="630"/> </div>
 <div type="chapter" n="56" part="N" org="uniform" sample="complete">  <p part="N">Τὰ τῆς ἀπαθείας τεκμήρια, μεθ’ ἡμέραν μὲν διὰ τῶν λογισμῶν, νύκτωρ δὲ διὰ τῶν ἐνυπνίων ἐπιγνωσόμεθα· καὶ τὴν μὲν ἀπάθειαν ὑγείαν ἐροῦμεν εἶναι ψυχῆς, τροφὴν δὲ <pb n="632"/>τὴν γνῶσιν, ἥτις μόνη συνάπτειν ἡμᾶς ταῖς ἁγίαις δυνάμεσιν εἴωθεν· εἴπερ ἡ τῶν ἀσωμάτων συνάφεια ἐκ τῆς ὁμοίας διαθέσεως γίνεσθαι πέφυκεν. </p> <pb n="634"/> </div>
-<div type="title" n="head 6" part="N" org="uniform" sample="complete"> <p part="N">Περὶ καταστάσεως ἐγγιζούσης τῇ ἀπαθείᾳ </p> </div>
+<div type="title" n="head_6" part="N" org="uniform" sample="complete"> <p part="N">Περὶ καταστάσεως ἐγγιζούσης τῇ ἀπαθείᾳ </p> </div>
 <div type="chapter" n="57" part="N" org="uniform" sample="complete">  <p part="N">Δύο τῆς ψυχῆς εἰρηνικαὶ καταστάσεις εἰσί, μία μὲν ἡ ἀπὸ τῶν φυσικῶν σπερμάτων ἀναδιδομένη, ἑτέρα δὲ ἡ ἐξ ὑποχωρήσεως τῶν δαιμόνων ἐπιγινομένη· καὶ τῇ μὲν προτέρᾳ ἀκολουθεῖ ταπεινοφροσύνη μετὰ κατανύξεως, καὶ δάκρυον καὶ πόθος πρὸς τὸ θεῖον ἄπειρος, καὶ σπουδὴ περὶ τὸ ἔργον ἀμέτρητος· τῇ δὲ δευτέρᾳ κενοδοξία μετὰ ὑπερηφανίας ἐν ἀναιρέσει τῶν λοιπῶν δαιμόνων τὸν μοναχὸν ὑποσύρουσα. Ὁ τοίνυν τηρῶν τὰ ὅρια τῆς προτέρας καταστάσεως, τὰς ἐπιδρομὰς τῶν δαιμόνων ὀξύτερον ἐπιγνώσεται. </p> <pb n="636"/> </div>
 <div type="chapter" n="58" part="N" org="uniform" sample="complete">  <p part="N">Ὁ τῆς κενοδοξίας δαίμων ἀντίκειται τῷ δαίμονι τῆς πορνείας, καὶ τούτους ἅμα προσβαλεῖν ψυχῇ τῶν οὐκ ἐνδεχομένων ἐστίν· εἴπερ ὁ μὲν τιμὰς ἐπαγγέλλεται, ὁ δὲ ἀτιμίας πρόξενος γίνεται· ὁπότερος τοίνυν τούτων ἐὰν προσεγγίσας πιέζῃ σε, τοὺς τοῦ ἀντικειμένου δαίμονος πλάττε δῆθεν ἐν σεαυτῷ λογισμούς· κἂν δυνηθῇς τὸ δὴ λεγόμενον ἥλῳ τὸν ἧλον ἐκκρούειν, γίνωσκε σεαυτὸν πλησίον ὄντα τῶν ὅρων τῆς ἀπαθείας· ἴσχυσε γάρ σου ὁ νοῦς λογισμοῖς ἀνθρωπίνοις λογισμοὺς ἀφανίσαι δαιμόνων. Τὸ δὲ διὰ ταπεινοφροσύνης <pb n="638"/>ἀπώσασθαι τὸν τῆς κενοδοξίας λογισμόν, ἢ διὰ σωφροσύνης τὸν τῆς πορνείας, βαθυτάτης ἂν εἴη τεκμήριον ἀπαθείας. Καὶ τοῦτο ἐπὶ πάντων τῶν ἀντικειμένων ἀλλήλοις δαιμόνων πράττειν πειράθητι· ἅμα γὰρ καὶ γνώσῃ ποίῳ πάθει μᾶλλον πεποίωσαι. Πλὴν ὅση δύναμις αἴτει παρὰ Θεοῦ τῷ δευτέρῳ τρόπῳ τοὺς πολεμίους ἀμύνασθαι. </p> </div>
 <div type="chapter" n="59" part="N" org="uniform" sample="complete">  <p part="N">Ὅσῳ προκόπτει ψυχή, τοσούτῳ μείζονες αὐτὴν ἀνταγωνισταὶ διαδέχονται· τοὺς γὰρ αὐτοὺς ἀεὶ δαίμονας αὐτῇ <pb n="640"/>παραμένειν οὐ πείθομαι· καὶ τοῦτο ἴσασι μάλιστα οἱ ὀξύτερον τοῖς πειρασμοῖς ἐπιβάλλοντες, καὶ τὴν προσοῦσαν αὐτοῖς ἀπάθειαν ἐκμοχλευομένην ὑπὸ τῶν διαδεξαμένων ὁρῶντες. </p> </div>
 <div type="chapter" n="60" part="N" org="uniform" sample="complete">  <p part="N">Ἡ μὲν τελεία τῇ ψυχῇ ἀπάθεια μετὰ τὴν νίκην τὴν κατὰ πάντων τῶν ἀντικειμένων τῇ πρακτικῇ δαιμόνων ἐγγίνεται· ἡ δὲ ἀτελὴς ἀπάθεια ὡς πρὸς τὴν δύναμιν τέως τοῦ παλαίοντος αὐτῇ λέγεται δαίμονος. </p> <pb n="642"/> </div>
 <div type="chapter" n="61" part="N" org="uniform" sample="complete">  <p part="N">Οὐκ ἂν προέλθοι ὁ νοῦς, οὐδὲ ἀποδημήσει τὴν καλὴν ἐκείνην ἀποδημίαν, καὶ ἐν τῇ χώρᾳ γένοιτο τῶν ἀσωμάτων, μὴ τὰ ἔνδον διορθωσάμενος· ἡ γὰρ ταραχὴ τῶν οἰκείων ἐπιστρέφειν αὐτὸν εἴωθε πρὸς τὰ ἀφ’ ὧν ἐξελήλυθεν. </p> <pb n="644"/> </div>
 <div type="chapter" n="62" part="N" org="uniform" sample="complete">  <p part="N">Τὸν νοῦν καὶ αἱ ἀρεταὶ καὶ αἱ κακίαι τυφλὸν ἀπεργάζονται· αἱ μέν, ἵνα μὴ βλέπῃ τὰς κακίας· αἱ δέ, ἵνα μὴ πάλιν ἴδῃ τὰς ἀρετάς.</p> <pb n="646"/> </div>
-<div type="title" n="head 7" part="N" org="uniform" sample="complete"> <p part="N">Περὶ τῶν τῆς ἀπαθείας συμβόλων </p> </div>
+<div type="title" n="head_7" part="N" org="uniform" sample="complete"> <p part="N">Περὶ τῶν τῆς ἀπαθείας συμβόλων </p> </div>
 <div type="chapter" n="63" part="N" org="uniform" sample="complete">  <p part="N">Ὅταν ὁ νοῦς ἀπερισπάστως ἄρξηται ποιεῖσθαι τὰς προσευχάς, τότε περὶ τὸ θυμικὸν μέρος τῆς ψυχῆς νύκτωρ καὶ μεθ' ἡμέραν ὁ πᾶς συνίσταται πόλεμος. </p> <pb n="648"/> </div>
 <div type="chapter" n="64" part="N" org="uniform" sample="complete">  <p part="N">Ἀπαθείας τεκμήριον, νοῦς ἀρξάμενος τὸ οἰκεῖον φέγγος ὁρᾶν, καὶ πρὸς τὰ καθ' ὕπνον φάσματα διαμένων ἥσυχος, καὶ λεῖος βλέπων τὰ πράγματα. </p> <pb n="650"/> </div>
 <div type="chapter" n="65" part="N" org="uniform" sample="complete">  <p part="N">Ἔρρωται νοῦς μηδὲν τῶν τοῦ κόσμου τούτου παρὰ τὸν καιρὸν τῆς προσευχῆς φανταζόμενος. </p> </div>
@@ -221,7 +197,7 @@
 <div type="chapter" n="68" part="N" org="uniform" sample="complete">  <p part="N">Ὁ τέλειος οὐκ ἐγκρατεύεται, καὶ ὁ ἀπαθὴς οὐχ ὑπομένει, εἴπερ τοῦ πάσχοντος ἡ ὑπομονή, καὶ τοῦ ὀχλουμένου ἡ ἐγκράτεια. </p> <pb n="654"/> </div>
 <div type="chapter" n="69" part="N" org="uniform" sample="complete">  <p part="N">Μέγα μὲν τὸ ἀπερισπάστως προσεύχεσθαι, μεῖζον δὲ τὸ καὶ ψάλλειν ἀπερισπάστως. </p> <pb n="656"/> </div>
 <div type="chapter" n="70" part="N" org="uniform" sample="complete">  <p part="N">Ὁ τὰς ἀρετας ἐν ἑαυτῷ καθιδρύσας, καὶ ταύταις ὅλος ἀνακραθείς, οὐκ ἔτι μέμνηται νόμου ἢ ἐντολῶν ἢ κολάσεως, ἀλλὰ ταῦτα λέγει καὶ πράττει ὁπόσα ἡ ἀρίστη ἕξις ὑπαγορεύει. </p> <pb n="658"/> </div>
-<div type="title" n="head 8" part="N" org="uniform" sample="complete"> <p part="N">Θεωρήματα πρακτικά</p> </div>
+<div type="title" n="head_8" part="N" org="uniform" sample="complete"> <p part="N">Θεωρήματα πρακτικά</p> </div>
 <div type="chapter" n="71" part="N" org="uniform" sample="complete">  <p part="N">Αἱ μὲν δαιμονιώδες ᾠδαὶ τὴν ἐπιθυμίαν ἡμῶν κινοῦσι, καὶ εἰς αἰσχρὰς τὴν ψυχὴν φαντασίας ἐμβάλλουσιν· <cit> <quote defective="false">οἱ δὲ ψαλμοὶ καὶ ὕμνοι καὶ αἱ πνευματικαὶ ὠδαὶ</quote> <ref cRef="Eph 5.19"/> </cit> εἰς μνήμην ἀεὶ τῆς ἀρετῆς τὸν νοῦν προκαλοῦνται, περιζέοντα τὸν θυμὸν ἡμῶν καταψύχοντες καὶ τὰς ἐπιθυμίας μαραίνοντες. </p> <pb n="660"/> </div>
 <div type="chapter" n="72" part="N" org="uniform" sample="complete">  <p part="N">Εἰ οἱ παλαίοντες ἐν τῷ θλίβεσθαι καὶ ἀντιθλίβειν εἰσί, παλαίουσι δὲ ἡμῖν οἱ δαίμονες, καὶ αὐτοὶ ἄρα θλίβοντες ἡμᾶς ὑφ’ ἡμῶν ἀντιθλίβονται. <cit> <quote defective="false">Ἐκθλιψω γὰρ αὐτούς, φησί, καὶ οὐ μὴ δύνωνται στῆναι.</quote> <ref cRef="Ps 17.39"/> </cit> Καὶ πάλιν· <cit> <quote defective="false">οἱ θλίβοντές με καὶ οἱ ἐχθροί μου αὐτοὶ ἠσθένησαν καὶ ἔπεσον.</quote> <ref cRef="26.2"/> </cit> </p> </div>
 <div type="chapter" n="73" part="N" org="uniform" sample="complete">  <p part="N">Ἀνάπαυσις μὲν τῇ σοφίᾳ, κόπος δὲ τῂ φρονήσει συνέζευκται· οὐκ ἔστι γὰρ σοφίαν κτήσασθαι ἄνευ πολέμου, καὶ οὐκ ἔστι κατορθῶσαι τὸν πόλεμον χωρὶς φρονήσεως· αὕτη γὰρ ἀνθίστασθαι τῷ θυμῷ τῶν δαιμόνων πεπίστευται, τὰς τῆς ψυχῆς δυνάμεις κατὰ φύσιν ἐνεργεῖν ἀναγκάζουσα, καὶ τὴν ὁδὸν τῆς σοφίας προευτρεπίζουσα. </p> <pb n="662"/> </div>
@@ -242,7 +218,7 @@
 <div type="chapter" n="88" part="N" org="uniform" sample="complete">  <p part="N">Τὰ παρὰ τὴν χρῆσιν ἀγαθὰ καὶ κακὰ τῶν ἀρετῶν καὶ τῶν κακιῶν γίνεται ποιητικά· φρονήσεως δέ ἐστι λοιπὸν τὸ χρήσασθαι τούτοις πρὸς θάτερα. </p> </div>
 <div type="chapter" n="89" part="N" org="uniform" sample="complete">  <p part="N">Τριμεροῦς δὲ τῆς λογιχῆς ψυχῆς οὔσης κατὰ τὸν σοφὸν ἡμῶν διδάσκαλον· ὅταν μὲν ἐν τῷ λογιστικῷ μέρει γένηται ἡ ἀρετή, καλεῖται φρόνησις καὶ σύνεσις καὶ σοφία. ὄταν δὲ ἐν <pb n="682"/>τῷ ἐπιθυμητικῷ, σωφροσύνη καὶ ἀγάπη καὶ ἐγκράτεια. ὅταν δὲ ἐν τῷ θυμικῷ, ἀνδρεία καὶ ὑπομονή· ἐν ὅλῇ δὲ τῇ ψυχῇ, δικαιοσύνη. Καὶ φρονήσεως μὲν ἔργον τὸ στρατηγεῖν πρὸς τὰς ἀντικειμένας δυνάμεις, καὶ τῶν μὲν ἀρετῶν ὑπερασπίζειν, πρὸς δὲ τὰς κακίας παρατάττεσθαι, τὰ δὲ μέσα πρὸς <pb n="684"/>τοὺς καιροὺς διοικεῖν· συνέσεως δὲ τὸ πάντα τὰ συντελοῦντα ἡμῖν πρὸς τὸν σκοπὸν ἁρμοδίως οἰκονομεῖν· σοφίας δὲ τὸ θεωρεῖν λόγους σωμάτων καὶ ἀσωμάτων· σωφροσύνης δὲ <pb n="686"/>ἔργον τὸ βλέπειν ἀπαθῶς τὰ πράγματα τὰ κινοῦντα ἐν ἡμῖν φαντασίας ἀλόγους· ἀγάπης δὲ τὸ πάσῃ εἰκόνι τοῦ Θεοῦ τοιαύτην ἑαυτὴν ἐμπαρέχειν οἵαν καὶ τῷ πρωτοτύπῳ σχεδόν, κἂν μιαίνειν αὐτὰς ἐπιχειρῶσιν οἱ δαίμονες· ἐγκρατείας δὲ τὸ πᾶσαν ἡδονὴν τοῦ φάρυγγος μετὰ χαρᾶς ἀποσείσθαι· μὴ δεδιέναι δὲ τοὺς πολεμίους καὶ προθύμως ἐγκρατερεῖν τοῖς <pb n="688"/>δεινοῖς τῆς ὑπομονῆς καὶ τῆς ἀνδρείας ἐστί· δικαιοσύνης δὲ τὸ συμφωνίαν τινὰ καὶ ἁρμονίαν τῶν τῆς ψυχῆς μερῶν κατεργάζεσθαι. </p> <pb n="690"/> </div>
 <div type="chapter" n="90" part="N" org="uniform" sample="complete">  <p part="N">Καρπὸς μὲν σπερμάτων τὰ δράγματα, ἀρετῶν δὲ ἡ γνῶσις· καὶ ὡς ἕπεται τοῖς σπέρμασι δάκρυα, οὕτω τοῖς δράγμασιν ἡ χαρά. </p> <pb n="692"/> </div>
-<div type="title" n="head 9" part="N" org="uniform" sample="complete"> <p part="N">Ῥήσεις μοναχῶν ἁγίων </p> </div>
+<div type="title" n="head_9" part="N" org="uniform" sample="complete"> <p part="N">Ῥήσεις μοναχῶν ἁγίων </p> </div>
 <div type="chapter" n="91" part="N" org="uniform" sample="complete">  <p part="N">Ἀναγκαῖον δὲ καὶ τὰς ὁδοὺς τῶν προοδευσάντων ὀρθῶς διερωτᾶν μοναχῶν καὶ πρὸς αὐτὰς κατορθοῦσθαι· πολλὰ γὰρ ἔστιν εὑρεῖν ὑπ’ αὐτῶν ῥηθέντα τε καὶ πραχθέντα καλῶς· ἐν οἷς καὶ τοῦτό φησί τις αὐτῶν, τὴν ξηροτέραν καὶ μὴ ἀνώμαλον δίαιταν ἀγάπῃ συζευχθεῖσαν θᾶττον εἰσάγειν τὸν <pb n="694"/>μοναχὸν εἰς τὸν τῆς ἀπαθείας λιμένα. Ὁ δ’ αὐτὸς ταρασσόμενόν τινα νύκτωρ τῶν ἀδελφῶν τῶν φασμάτων ἀπήλλαξεν, ἀσθενοῦσι μετὰ νηστείας ὑπηρετῆσαι προστάξας· οὐδενὶ γὰρ οὕτως, ἐρωτηθεὶς ἔφη, ὡς ἐλέῳ τὰ τοιαῦτα κατασβέννυται πάθη. </p> </div>
 <div type="chapter" n="92" part="N" org="uniform" sample="complete">  <p part="N">Τῷ δικαίῳ Ἀντωνίῳ προσῆλθέ τις τῶν τότε σοφῶν καὶ πῶς διακαρτερεῖς, εἶπεν, ὦ πάτερ, τῆς ἐκ τῶν βιβλίων παραμυθίας ἐστερημένος; Ὁ δέ φησι· τὸ ἐμὸν βιβλίον, φιλόσοφε, ἡ φύσις τῶν γεγονότων ἐστί, καὶ πάρεστιν ὅτε βούλομαι τοὺς λόγους ἀναγινώσκειν τοὺς τοῦ Θεοῦ. </p> <pb n="696"/> </div>
 <div type="chapter" n="93" part="N" org="uniform" sample="complete">  <p part="N">Ἠρώτησέ με <cit> <quote defective="false">τὸ σκεῦος τῆς ἐκλογῆς</quote> <ref cRef="Ac 9.15"/> </cit> ὁ Αἰγύπτιος γέρων Μακάριος· τί δήποτε μνησικακοῦντες μὲν τοῖς ἀνθρώποις τὴν μνημονευτικὴν δύναμιν τῆς ψυχῆς ἀφανίζομεν, δαίμοσι δὲ μνησικακοῦντες ἀβλαβεῖς διαμένομεν; Κἀμοῦ πρὸς τὴν ἀπόκρισιν ἀπορήσαντος καὶ παρακαλοῦντος τὸν λόγον μαθεῖν, διότι, φησὶν ἐκεῖνος, τὸ μὲν πρότερον παρὰ φύσιν, τὸ δὲ δεύτερον κατὰ φύσιν ἐστὶ τοῦ θυμοῦ. </p> <pb n="698"/> </div>

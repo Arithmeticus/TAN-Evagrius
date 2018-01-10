@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" TAN-version="1 dev" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S1.TAN-TEI.001">
-   <teiHeader type="text">
+<?xml-model href="../../TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2018" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S1.TAN-TEI.001">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Ἑξακόσια προγνωστικὰ προβλήματα</title>
@@ -52,38 +52,51 @@
    <head xmlns="tag:textalign.net,2015:ns">
       <name xml:lang="eng">Guillaumont's edition of Syriac S1 of the Kephalaia Gnostika</name>
       <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.syr.guillaumont-s1.xml"/>
-      <rights-excluding-sources include="WORK"/>
-      <inclusion xml:id="WORK">
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001</IRI>
-         <name>Guillaumont's edition of Syriac S2 of the Kephalaia Gnostika</name>
-         <location href="CPG2432.syr.guillaumont-s2.xml" when-accessed="2015-10-13-04:00"/>
-      </inclusion>
-      <source>
-         <IRI>http://lccn.loc.gov/a68000023</IRI>
-         <IRI>tag:evagriusponticus.net,2012:scriptum:guillaumont-1958</IRI>
-         <name>Guillaumont, Antoine. Les six centuries des “Kephalaia gnostica”: Édition critique de
-            la version syriaque commune et édition d’une nouvelle version syriaque, intégrale, avec
-            une double traduction française; Kephalaia gnostica. Patrologia Orientalis 28. Paris:
-            Firmin-Didot, 1958. </name>
-      </source>
-      <declarations>
-         <work include="WORK"/>
+      <license which="by_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+      </key>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
+         <name>Works by Evagrius</name>
+         <location href="TAN-key/evagrius-works-TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+      </key>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-scripta</IRI>
+         <name>Scripta associated with Evagrius of Pontus</name>
+         <location href="TAN-key/evagrius-scripta-TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+      </key>
+      <source which="Guillaumont 1958"/>
+      <definitions>
+         <work which="KG"/>
          <version>
             <IRI>tag:evagriusponticus.net,2015:cpg2432,S1-syr-Guillaumont</IRI>
             <IRI>tag:kalvesmaki.com,2014:cpg2432#S1-syr-Guillaumont</IRI>
             <name>Syriac S1</name>
          </version>
-         <div-type include="WORK"/>
-         <filter>
-            <normalization which="no reference markers"/>
-         </filter>
-      </declarations>
-      <agent include="WORK"/>
-      <role include="WORK"/>
+         <div-type which="century" xml:id="century"/>
+         <div-type which="title" xml:id="title"/>
+         <div-type which="chapter" xml:id="chapter"/>
+         <div-type which="epilogue" xml:id="epilogue"/>
+         <div-type which="paragraph" xml:id="paragraph"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+      </definitions>
+      <alter>
+         <normalization which="no reference markers"/>
+      </alter>
+      <resp who="kalvesmaki" roles="editor"/>
+      <resp who="xslt1" roles="stylesheet"/>
       <change when="2017-05-17" who="kalvesmaki">Removed reference numbers.</change>
       <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
       <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
       <change when="2014-10-30" who="kalvesmaki">Started TAN-TEI file.</change>
+      <change who="xslt1" when="2017-12-16T12:48:56.179-05:00">TAN file updated to 2018 schemas.</change>
    </head>
    <text>
       <body xml:lang="syr" in-progress="false">
@@ -652,7 +665,7 @@
             <div type="chapter" n="90" part="N" org="uniform" sample="complete"> <p part="N">ܟܠ ܐܝܢܐ ܕܒܛܝܒܘܬܗ ܕܡܪܢ ܐܫ̣ܬܘܝ ܠܝܕܥܬܐ ܕܪܘܚ܆ ܒܚܦܝܛܘܬܐ <lb/> ܗ̇ܘܐ ܡܥܕܪ ܠܡܠܐܟ̈ܐ ܩܕܝ̈ܫܐ܇ ܟܕ ܡ̣ܥܕܐ ܠܢܦ̈ܫܬܐ ܡܠܝ̈ܠܬܐ ܡܢ ܒܝܫܘܬܐ ܠܘܬ <lb/> ܡܝܬܪܘܬܐ܇ ܘܡܢ ܠܐ ܝܕܥܬܐ ܠܘܬ ܝܕܥܬܐ ܕܫܪܪܐ܀ </p> </div>
          </div>
          <div type="epilogue" n="ep1" part="N" org="uniform" sample="complete"> <pb n="256"/> <p part="N"> ܗܘܝܬܘܢ ܡܥ̇ܩܒܝܢ ܠܡ̈ܠܝܢ ܐܚܝ̈ܢ. ܟܕ ܡܦ̇ܫܩܝܢ ܐܢܬܘܢ <lb/> ܒܬܪܥܝܬܐ ܫܦܝܪܬܐ ܠܐܝܠܝܢ ܕܐܚܝܕܝܢ ܢܝܫܐ ܗܢܐ ܕܣܝܡ ܠܢ ܒܡܢܝܢܐ ܗܢܐ <lb/> ܕܡܐܘ̈ܬܐ ܫܬ܇ ܐܪܙ ܡܢܝܢܐ ܕܫܬܐ ܕܫܪ̈ܒܬܢ܀ <lb/> ܫ̣ܠܡ̇ܬ ܡܐܬܐ ܕܫܬ܆ ܕܚܣܝܪܐ ܪ̈ܝܫܐ ܥܣܪܐ܀ <lb/> ܫܠܡ ܡܐܘ̈ܬܐ ܫܬ ܕܪ̈ܝܫܐ ܕܝܕܥܬܐ܆ ܕܐܡܝܪ̈ܝܢ ܠܛܘܒܢܐ ܡܪܝ ܐܘܓܪܝܣ܀ </p> </div>
-         <div type="epilogue" n="ep2">
+         <div type="epilogue" n="ep2" part="N" org="uniform" sample="complete">
             <div type="paragraph" n="1" part="N" org="uniform" sample="complete"><p part="N"> — ܥ̇ܩܒܘ ܠܡ̈ܠܝܢ ܐܚܝ̈ܢ. ܘܦ̇ܫܩܘ ܚܦܝܛܐܝܬ ܦ̈ܠܐܬܐ ܕܡܐܘ̈ܬܐ܇ ܕܡܢܝܢܐ <lb/> ܕܝܘ̈ܡܬܐ ܫܬܐ ܕܒ̣ܪܝܬܐ܀</p></div>
             <div type="paragraph" n="2" part="N" org="uniform" sample="complete"><p part="N"> <lb/> ܫ̣ܠܡ ܡܐܘ̈ܬܐ ܫܬ ܕܐܘܓܪܝܣ ܛܘܒܢܐ܀ </p> </div>
          </div>

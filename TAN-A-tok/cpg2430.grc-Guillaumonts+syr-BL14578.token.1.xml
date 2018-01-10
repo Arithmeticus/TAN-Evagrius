@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-tok.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-tok.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-tok.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-tok.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-A-tok xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts+syr_BL14578.TAN-A.001">
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-tok.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-tok.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-tok.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-tok.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-A-tok xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts+syr_BL14578.TAN-A.001">
    <head>
-      <name>CPG2430-grc-Guillaumonts+CPG2430-syr-BL14578.TAN-A.xml</name>
+      <name>cpg2430-grc-Guillaumonts+cpg2430-syr-BL14578.TAN-A.xml</name>
       <name xml:lang="eng">The first TAN-A file created in the Text Alignment Protocol.</name>
-      <master-location href="cpg2430.grc-Guillaumonts+syr-BL14578.token.1.xml"/>
-      <rights-excluding-sources include="HEAD"/>
-      <inclusion xml:id="HEAD">
-         <IRI>tag:kalvesmaki.com,2014:tan-a-div:evagrius</IRI>
-         <name>Alignment of the works of Evagrius</name>
-         <location href="../TAN-A-div/HEAD.evagrius.TAN-A-div.xml" when-accessed="2015-10-12-04:00"/>
-      </inclusion>
+      <license which="by_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+      </key>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
+         <name>Works by Evagrius</name>
+         <location href="../TAN-key/evagrius-works-TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+      </key>
       <source xml:id="grc">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
-         <name>CPG2430-grc-Guillaumonts.TAN-T.xml</name>
+         <name>cpg2430-grc-Guillaumonts.TAN-T.xml</name>
          <checksum>
             <IRI>http://dbpedia.org/resource/Sha-1</IRI>
             <name>SHA-1</name>
@@ -26,10 +31,10 @@
       </source>
       <source xml:id="syr">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001</IRI>
-         <name>CPG2430-syr-BL14578.TAN-TEI.xml</name>
+         <name>cpg2430-syr-BL14578.TAN-TEI.xml</name>
          <location href="../cpg2430.syr.bl14578.tei.xml" when-accessed="2014-05-24"/>
       </source>
-      <declarations>
+      <definitions>
          <bitext-relation xml:id="cred">
             <IRI>urn:uuid:8b718ae0-8a14-11e3-94dc-0002a5d5c51b</IRI>
             <name>The first source is a critical edition of twenty-three key manuscripts that
@@ -45,10 +50,17 @@
             <IRI>http://dbpedia.org/resource/Paraphrase</IRI>
             <name xml:lang="eng">paraphrase</name>
          </reuse-type>
-         <token-definition src="syr grc" which="general-words-only-1"/>
-      </declarations>
-      <agent include="HEAD"/>
-      <role include="HEAD"/>
+         
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         
+         <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+      </definitions>
+      <resp who="kalvesmaki" roles="editor"/>
+      <resp who="xslt1" roles="stylesheet"/>
+      <comment when="2017-12-17" who="kalvesmaki">This file does not take into account subsequent
+         changes made in the source, where the inline numerals were (correctly) removed.</comment>
       <change when="2017-02-10" who="kalvesmaki">Changed "low" and "high" certainty values to 0.</change>
       <change when="2015-10-12" who="kalvesmaki">Adapted for inclusions</change>
       <change when="2015-06-25-04:00" who="kalvesmaki">Altered suffix, infix, prefix values to @char
@@ -63,8 +75,10 @@
       <change when="2014-02-05" who="kalvesmaki">Adjustments with XSLT.</change>
       <change when="2014-01-31" who="kalvesmaki">Alterations in concert with schema edits.</change>
       <change when="2014-01-30" who="kalvesmaki">First version started.</change>
+      <change who="xslt1" when="2017-12-16T13:45:23.325-05:00">TAN file updated to 2018 schemas.</change>
       <comment when="2014-01-30" who="kalvesmaki">This is the first TAN-A file, used to model the
          schema. </comment>
+      <change when="2018-01-09" who="kalvesmaki" flags="error">This file does not take into account major changes in the source, where the alphabetic numerals were dropped (correctly so).</change>
    </head>
    <body reuse-type="trans" bitext-relation="cred">
       <align>
@@ -2017,23 +2031,23 @@
          <tok src="syr" ref="8" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="head~1" pos="1"/>
-         <tok src="syr" ref="head~1" pos="2"/>
+         <tok src="grc" ref="head_1" pos="1"/>
+         <tok src="syr" ref="head_1" pos="2"/>
       </align>
       <align>
-         <tok src="syr" ref="head~1" pos="1"/>
+         <tok src="syr" ref="head_1" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="head~1" pos="2"/>
-         <tok src="syr" ref="head~1" pos="3"/>
+         <tok src="grc" ref="head_1" pos="2"/>
+         <tok src="syr" ref="head_1" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="head~1" pos="3"/>
-         <tok src="syr" ref="head~1" pos="4"/>
+         <tok src="grc" ref="head_1" pos="3"/>
+         <tok src="syr" ref="head_1" pos="4"/>
       </align>
       <align>
-         <tok src="grc" ref="head~1" pos="4"/>
-         <tok src="syr" ref="head~1" pos="5"/>
+         <tok src="grc" ref="head_1" pos="4"/>
+         <tok src="syr" ref="head_1" pos="5"/>
       </align>
    </body>
 </TAN-A-tok>

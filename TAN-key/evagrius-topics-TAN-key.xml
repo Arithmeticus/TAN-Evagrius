@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../TAN-2018/schemas/TAN-key.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="../../../TAN-2018/schemas/TAN-key.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-key xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:evagrius-persons" TAN-version="2018">
+<TAN-key xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:evagrius-topics" TAN-version="2018">
     <head>
-        <name>Persons associated with Evagrius of Pontus</name>
+        <name>Topics associated with the writings of Evagrius of Pontus</name>
         <license which="by_4.0"/>
         <licensor who="kalvesmaki"/>
         <key>
@@ -22,31 +22,24 @@
         <change when="2016-03-29" who="kalvesmaki">started file</change>
         <change who="xslt1" when="2017-12-15T15:35:20.202-05:00">TAN file updated to 2018 schemas.</change>
     </head>
-    <body affects-element="person">
-        <item>
-            <IRI>http://dbpedia.org/resource/Evagrius_Ponticus</IRI>
-            <IRI>tag:evagriusponticus.net,2015:person:evagrius</IRI>
-            <IRI>http://viaf.org/viaf/58103843</IRI>
-            <name xml:lang="lat">Evagrius Ponticus</name>
-            <name xml:lang="eng">Evagrius of Pontus</name>
-        </item>
-        <item>
-            <IRI>urn:uuid:df3d4e89-bee7-4bf9-b13e-48408fc6e238</IRI>
-            <name>compilers of the Apophthegmata</name>
-        </item>
-        <item>
-            <IRI>urn:uuid:378c1eac-93d7-4bdf-9208-75d5ffcdd5a6</IRI>
-            <name>compilers of the Disciples</name>
-        </item>
-        <item>
-            <IRI>tag:evagriusponticus.net,2015:person:loukios</IRI>
-            <name>Loukios</name>
-            <name xml:lang="lat">Lucius</name>
-        </item>
-        <item>
-            <IRI>http://dbpedia.org/resource/Nilus_of_Sinai</IRI>
-            <name>Nilus of Ancyra</name>
-            <name>Nilus of Sinai</name>
-        </item>
+    <body affects-element="topic">
+            <item>
+                <IRI>http://dbpedia.org/page/Causality</IRI>
+                <name>Causality</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/page/Jerusalem</IRI>
+                <name>Jerusalem</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/page/Gluttony</IRI>
+                <name>gluttony</name>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2015:item:εἶδος</IRI>
+                <name>form (philosophical)</name>
+                <desc>Common techincal term in ancient philosophy to describe both the shape of
+                    physical bodies and immaterial, ideal forms.</desc>
+            </item>
     </body>
 </TAN-key>

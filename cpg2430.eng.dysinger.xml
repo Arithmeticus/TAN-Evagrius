@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:tan="tag:textalign.net,2015:ns" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" TAN-version="1 dev" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_eng_Dysinger.TAN-TEI.001">
+<?xml-model href="../../TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:tan="tag:textalign.net,2015:ns" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2018" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_eng_Dysinger.TAN-TEI.001">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -66,67 +66,78 @@
     </revisionDesc>
   </teiHeader>
   <head xmlns="tag:textalign.net,2015:ns">
-    <name>CPG2430-eng-Dysinger.TAN-TEI.xml</name>
+    <name>cpg2430-eng-Dysinger.TAN-TEI.xml</name>
     <name xml:lang="eng">Dysinger's English translation of the Praktikos of Evagrios Pontikos,
       prepared for the Text Alignment Network</name>
     <master-location href="http://evagriusponticus.net/tan/cpg2430.eng.dysinger.xml"/>
-    <rights-excluding-sources include="WORK"/>
-    <inclusion xml:id="WORK">
-      <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
-      <name>Guillaumonts' Greek edition of the Praktikos of Evagrios Pontikos, prepared for the
-        Text Alignment Network</name>
-      <location href="CPG2430.grc.guillaumonts.xml" when-accessed="2015-10-13-04:00"/>
-    </inclusion>
+    <license which="by_4.0"/>
+    <licensor who="kalvesmaki"/>
+    <key>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+    </key>
+    <key>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
+      <name>Works by Evagrius</name>
+      <location href="TAN-key/evagrius-works-TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+    </key>
     <source>
       <IRI>tag:kalvesmaki.com,2014:external_Evagrius_Praktikos_eng_Dysinger</IRI>
       <IRI>tag:evagriusponticus.net,2012:scriptum:dysinger-1990</IRI>
       <name>Dysinger's online translation</name>
       <location href="http://www.ldysinger.com/Evagrius/01_Prak/00a_start.htm" when-accessed="2013-04-13"/>
-      <rights-source-only>
-        <IRI>https://creativecommons.org/publicdomain/zero/1.0/</IRI>
-        <name>Public Domain Dedication</name>
-      </rights-source-only>
     </source>
-    <declarations>
-      <work include="WORK"/>
+    <definitions>
+      <work which="Prak."/>
       <version>
         <IRI>tag:evagriusponticus.net,2015:cpg2430,eng-1997</IRI>
         <IRI>tag:kalvesmaki.com,2014:cpg2430,eng-1997</IRI>
         <name xml:lang="eng">Fr. Luke Dysinger's translation of the ancient Greek version of the
           Praktikos</name>
       </version>
-      <div-type include="WORK"/>
-      <token-definition which="general-1"/>
-      <filter>
-        <normalization>
-          <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
-          <name>Small caps removed.</name>
-        </normalization>
-        <normalization>
-          <IRI>tag:kalvesmaki.com,2014:normalization-color-off</IRI>
-          <name>Color removed.</name>
-        </normalization>
-        <normalization>
-          <IRI>tag:kalvesmaki.com,2014:normalization-italics-off</IRI>
-          <name>Italics removed.</name>
-        </normalization>
-        <normalization>
-          <IRI>tag:kalvesmaki.com,2014:normalization-xrefs-off</IRI>
-          <name>Translator's references to other primary sources removed.</name>
-        </normalization>
-        <normalization>
-          <IRI>tag:kalvesmaki.com,2014:l-sep-off</IRI>
-          <name>left separator, U+2028, removed</name>
-        </normalization>
-        <normalization which="no reference markers"/>
-      </filter>
-    </declarations>
-    <agent include="WORK"/>
-    <role include="WORK"/>
+      <div-type which="preface" xml:id="preface"/>
+      <div-type which="section" xml:id="section"/>
+      <div-type which="title" xml:id="title"/>
+      <div-type which="chapter" xml:id="chapter"/>
+      <div-type which="epilogue" xml:id="epilogue"/>
+      
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      
+      <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+      <role xml:id="editor" which="editor"/>
+      <role xml:id="stylesheet" which="stylesheet"/>
+    </definitions>
+    <alter>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
+        <name>Small caps removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-color-off</IRI>
+        <name>Color removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-italics-off</IRI>
+        <name>Italics removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-xrefs-off</IRI>
+        <name>Translator's references to other primary sources removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:l-sep-off</IRI>
+        <name>left separator, U+2028, removed</name>
+      </normalization>
+      <normalization which="no reference markers"/>
+    </alter>
+    <resp who="kalvesmaki" roles="editor"/>
+    <resp who="xslt1" roles="stylesheet"/>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
       release.</change>
     <change when="2014-10-15" who="kalvesmaki">Created new TAN-T file.</change>
+    <change who="xslt1" when="2017-12-16T12:07:48.924-05:00">TAN file updated to 2018 schemas.</change>
     <comment when="2014-10-29" who="kalvesmaki">From the source: Translation by Luke Dysinger,
       O.S.B. (translation in public domain) Greek text based on: Sources Chrétiennes N° 171;&amp; PG
       40.[1] [1] ENGLISH TEXT: This translation owes much to the literal and melifluous version by
@@ -158,7 +169,7 @@
       <div type="chapter" n="3" part="N" org="uniform" sample="complete"> <p part="N">The Kingdom of God is knowledge of the Holy Trinity exercised according to the capacity of the nous (mind/intellect) and bestowing incorruptibility upon it</p> </div>
       <div type="chapter" n="4" part="N" org="uniform" sample="complete"> <p part="N">Whatever a person ardently loves (eros) he will want completely. And what he wants he will struggle to acquire. Now every pleasure is preceded by desire (epithumia) and desire is born of sensation: thus that which is not subject to sensation is also free from passion.</p> </div>
       <div type="chapter" n="5" part="N" org="uniform" sample="complete"> <p part="N">Against the hermits the demons engage in naked combat. Against those laboring at virtue in monasteries or communities they arm the more careless of the brethren.</p> <p part="N"> For the second battle is much lighter than the first, since there cannot be found on earth men more bitter than the demons, or [able] to undertake all their evil doings together.</p> </div>
-      <div type="title" n="head 1" part="N" org="uniform" sample="complete"> <p part="N">[Concerning the Eight [Tempting-] Thoughts]</p> </div>
+      <div type="title" n="head_1" part="N" org="uniform" sample="complete"> <p part="N">[Concerning the Eight [Tempting-] Thoughts]</p> </div>
       <div type="chapter" n="6" part="N" org="uniform" sample="complete"> <p part="N">There are eight generic [tempting-] thoughts (logismoi), that contain within themselves every [tempting-]thought: </p> <p part="N">first is that of gluttony; </p> <p part="N">and with it, sexual immorality; </p> <p part="N">third, love of money; </p> <p part="N">fourth, sadness; </p> <p part="N">fifth, anger; </p> <p part="N">sixth acedia; </p> <p part="N">seventh, vainglory; </p> <p part="N">eighth, pride. </p> <p part="N">Whether these thoughts are able to disturb the soul or not is not up to us; but whether they linger or not, and whether they arouse passions or not; that is up to us.</p> </div>
       <div type="chapter" n="7" part="N" org="uniform" sample="complete"> <p part="N">The [tempting]-thought of gluttony suggests to the monk the quick abandonment of his asceticism. The stomach, liver, spleen, and [resultant] congestive heart failure are depicted, along with long sickness, lack of necessities, and unavailability of physicians. It often leads him to recall those of the brethren who have suffered these things. Sometimes it even deceives those who have suffered from this kind of thing to go and visit [others] who are practicing self-control, to tell them all about their misfortunes and how this resulted from their asceticism.</p> </div>
       <div type="chapter" n="8" part="N" org="uniform" sample="complete"> <p part="N">The demon of sexual immorality compels desiring for different bodies. Especially violently does it attack those who practice self-control, so that they will cease, as if achieving nothing. Contaminating the soul, it bends it down towards these sorts of deeds: it makes it speak certain words and then hear them, as if the thing were actually there to be seen.</p> </div>
@@ -168,7 +179,7 @@
       <div type="chapter" n="12" part="N" org="uniform" sample="complete"> <p part="N">The demon of acedia, which is also called the noonday demon, is the most burdensome of all the demons. It besets the monk at about the fourth hour (10 am) of the morning, encircling his soul until about the eighth hour (2 pm). </p> <p part="N">[1] First it makes the sun seem to slow down or stop moving, so that the day appears to be fifty hours long. </p> <p part="N">[2] Then it makes the monk keep looking out of his window and forces him to go bounding out of his cell to examine the sun to see how much longer it is to 3 o’clock, and to look round in all directions in case any of the brethren is there. </p> <p part="N">[3] Then it makes him hate the place and his way of life and his manual work It makes him think that there is no charity left among the brethren; no one is going to come and visit him. </p> <p part="N">[4] If anyone has upset the monk recently, the demon throws this in too to increase his hatred </p> <p part="N">[5] It makes him desire other places where he can easily find all that he needs and practice an easier, more convenient craft After all, pleasing the Lord is not dependent on geography, the demon adds; God is to be worshipped everywhere. </p> <p part="N">[6] It joins to this the remembrance of the monk’s family and his previous way of life, and suggests to him that he still has a long time to live, raising up before his eyes a vision of how burdensome the ascetic life is. </p> <p part="N">So, it employs, as they say, every [possible] means to move the monk to abandon his cell and give up the race. </p> <p part="N">No other demon follows on immediately after this one but after its struggle the soul bs taken over by a peaceful condition and by unspeakable joy</p> </div>
       <div type="chapter" n="13" part="N" org="uniform" sample="complete"> <p part="N">The thought of vainglory is especially subtle and it easily infiltrates those whose lives are going well, </p> <p part="N">[A] wanting to publish their efforts </p> <p part="N">[B] and go hunting for glory among men; </p> <p part="N">[1] it raises up a fantasy of demons shouting, </p> <p part="N">[2] and women being healed, </p> <p part="N">[3] and a crowd of people wanting to touch the monk’s clothes. </p> <p part="N">[4] It prophesies priesthood for him, and sets the stage with people thronging at his door, calling for him, and even though he resists he will be carried off under constraint. </p> <p part="N">Then, having raised him up with empty hopes like this, it suddenly leaps away and leaves him, abandoning him to be tempted either by the demon of pride or by the demon of gloominess, which brings on thoughts contrary to the previous hopes Sometimes it also hands over to the demon of sexual immorality the man who, a moment before, was being carried off forcibly to be made a holy priest.</p> </div>
       <div type="chapter" n="14" part="N" org="uniform" sample="complete"> <p part="N">The demon of pride conducts the soul to its worst fall. It urges it: </p> <p part="N">[1] not to admit God’s help </p> <p part="N">[2] and to believe that the soul is responsible for its own achievements, </p> <p part="N">[3] and to disdain the brethren as fools because they do not all see this about it. </p> <p part="N">This demon is followed by: </p> <p part="N">[1] anger and </p> <p part="N">[2] sadness and the final evil, </p> <p part="N">[3] utter insanity and madness, and visions of mobs of demons in the air. </p> <p part="N">This demon is followed by anger and sadness and the final evil, utter insanity and madness, and visions of mobs of demons in the air.</p> </div>
-      <div type="title" n="head 2" part="N" org="uniform" sample="complete"> <p part="N">[Tactics] for the Eight [Tempting-] Thoughts </p> </div>
+      <div type="title" n="head_2" part="N" org="uniform" sample="complete"> <p part="N">[Tactics] for the Eight [Tempting-] Thoughts </p> </div>
       <div type="chapter" n="15" part="N" org="uniform" sample="complete"> <p part="N">The wandering nous is stabilized by</p> <p part="N">[1] reading,</p> <p part="N">[2] vigils and</p> <p part="N">[3] prayer. </p> <p part="N">Burning epithumia (desire) is quenched by</p> <p part="N">[1] hunger,</p> <p part="N">[2] toil, and</p> <p part="N">[3] solitude. </p> <p part="N">Churning thumos (indignation) is calmed by</p> <p part="N">[1] the singing of Psalms, by</p> <p part="N">[2] patient endurance and</p> <p part="N">[3] mercy. </p> <p part="N">But all these practices are to be engaged in at proper times and in proper measure. What is done untimely or without measure is temporary. And what is temporary is more harmful and not beneficial. </p> </div>
       <div type="chapter" n="16" part="N" org="uniform" sample="complete"> <p part="N">When our soul desires a variety of foods, then It should be confined to bread and water to make it thankful for a mere mouthful. It is satiety which yearns for varied foodstuffs; hunger considers it sheer bliss just to have enough bread. </p> </div>
       <div type="chapter" n="17" part="N" org="uniform" sample="complete"> <p part="N">To deprive oneself of water helps a great deal towards continence; let <ref cRef="Jg 7.5-7">the three hundred Israelites who defeated Midian with Gideon</ref> persuade you of this. </p> </div>
@@ -188,14 +199,14 @@
       <div type="chapter" n="31" part="N" org="uniform" sample="complete"> <p part="N">I have known the demon of vainglory being chased away by almost all the demons, and then, when its pursuers fail, it approaches shamelessly and shows the monk how great his virtues are. </p> </div>
       <div type="chapter" n="32" part="N" org="uniform" sample="complete"> <p part="N">One who has reached knowledge and culled the pleasure it brings will no longer be persuaded by the demon of vainglory offering him all the pleasures of the world. What could it promise him that would be better than spiritual contemplation? But to the extent that we lack the taste of knowledge, we should eagerly engage in the ascetical life [praktike], showing our aim to God, namely that we are doing everything for the sake of knowledge of him. </p> </div>
       <div type="chapter" n="33" part="N" org="uniform" sample="complete"> <p part="N">Recall your former way of life and your old faults, and how, when you were subject to passions, you crossed over to apatheia by the mercy of Christ, and then how you left the world which laid you low so often and in so many ways. Reflect also on this: who is it who guards you in the desert and drives away the demons which gnash their teeth against you? Thoughts [logismoi] like this will instill humility and leave no room for the demon of pride. </p> </div>
-      <div type="title" n="head 3" part="N" org="uniform" sample="complete"> <p part="N">On Passions </p> </div>
+      <div type="title" n="head_3" part="N" org="uniform" sample="complete"> <p part="N">On Passions </p> </div>
       <div type="chapter" n="34" part="N" org="uniform" sample="complete"> <p part="N">If our memories of anything are full of passion, it. is because we once welcomed the things themselves with passion. Whatever things we welcome with passion, we shall later remember with passion. So anyone who has defeated the demons which activate such things makes light of the things they activate The immaterial battle is harder than the material battle. </p> </div>
       <div type="chapter" n="35" part="N" org="uniform" sample="complete"> <p part="N">The The passions of the soul derive from men; the passions of the body derive from the body. The passions of the body are cut back by self-control; those of the soul are cut back by spiritual love. </p> </div>
       <div type="chapter" n="36" part="N" org="uniform" sample="complete"> <p part="N">The demons that preside over the passions of the soul go on until we die; those which preside over the passions of the body leave sooner. Other demons are like the rising or setting sun and affect only one part of the soul; but the noonday demon generally enfolds the whole soul and suffocates the mind. This is why the withdrawn life is pleasant after we have cleared out the passions; then our memories are merely memories, and the point of the monk’s struggle then is not to make him ready to do battle, but to enable him to contemplate the struggle itself. </p> </div>
       <div type="chapter" n="37" part="N" org="uniform" sample="complete"> <p part="N">Whether it is ideas (ennoia) which incite passions or passions which incite ideas is a matter which needs attention. Some have held the first view, others the second. </p> </div>
       <div type="chapter" n="38" part="N" org="uniform" sample="complete"> <p part="N">By means of sensations passions are naturally aroused: if both charity and self-control are present they will not be aroused; [but] if absent, they will be aroused. Indignation requires more remedies than desire, and because of this charity is called <cit> <quote defective="false">“great”</quote> <ref cRef="1Co 13.13"/> </cit>, because it bridles indignation; and therefore Holy Moses in his natural science symbolically names it <cit> <quote defective="false">“snake-fighter”</quote> <ref cRef="Lv 11.22"/> </cit>.</p> </div>
       <div type="chapter" n="39" part="N" org="uniform" sample="complete"> <p part="N">Because of the prevailing stench in demons, the soul is ordinarily enflamed against thoughts (logismoi) when it perceives them drawing near because of the influence of the passion associated with the demon in question. </p> </div>
-      <div type="title" n="head 4" part="N" org="uniform" sample="complete"> <p part="N">Instructions </p> </div>
+      <div type="title" n="head_4" part="N" org="uniform" sample="complete"> <p part="N">Instructions </p> </div>
       <div type="chapter" n="40" part="N" org="uniform" sample="complete"> <p part="N">It is not possible at all times to carry out the customary rule, but it is necessary to be watchful of the opportune time and [thus] to perform whatever commandments we can, as best we are able. Regarding these opportune times and what concerns them the demons themselves are not ignorant. Thus in their movements against us they prevent our accomplishing what is possible and force us to undertake what is not possible: they prevent the sick from giving thanks in their pain and from being patient in receiving their minstrations; again they exhort the weak to fast and those who are weighed down to sing psalms while standing. </p> </div>
       <div type="chapter" n="41" part="N" org="uniform" sample="complete"> <p part="N">When we are obliged to spend time in towns or villages, we should particularly hold to our self-control at such times in consorting with worldly people, in case our mind coarsens and loses its habitual vigilance because of its actual situation and so becomes a fugitive, tossed around by the demons. </p> </div>
       <div type="chapter" n="42" part="N" org="uniform" sample="complete"> <p part="N">Do not immediately pray when you are tempted; first speak some words with anger to the one pressuring you: for when your soul is acted upon by tempting-thoughts prayer cannot be pure. But if you speak with anger to them, you will confuse and banish the ideas that come from your enemies. This is the natural result of anger in the case of good notions too </p> </div>
@@ -210,18 +221,18 @@
       <div type="chapter" n="51" part="N" org="uniform" sample="complete"> <p part="N">Through observation you will discover that two of the demons are the sharpest, so quick that they almost overtake the movement of your mind the demon of fornication and the one which drags us off to blaspheme God But the second does not last for long, while the first, provided it does not stir our thoughts (logismoi) with passion, will not impede our knowledge of God </p> </div>
       <div type="chapter" n="52" part="N" org="uniform" sample="complete"> <p part="N">To separate the body from the soul belongs exclusively to him who united them; but to separate the soul from the body belongs to anyone who desires virtue The life of withdrawal has been called by the fathers a rehearsal for death and flight from the body. </p> </div>
       <div type="chapter" n="53" part="N" org="uniform" sample="complete"> <p part="N">Those who improperly <ref cRef="Rom 13.14">cherish the flesh and take thought for it to satisfy its desires</ref> should blame the selves, not it Those who have obtained passionlessness of the soul by means of the body and who, to some extent, attain the contemplation of beings, recognize the grace of the Creator. </p> </div>
-      <div type="title" n="head 5" part="N" org="uniform" sample="complete"> <p part="N">Concerning Things That Happen during Sleep </p> </div>
+      <div type="title" n="head_5" part="N" org="uniform" sample="complete"> <p part="N">Concerning Things That Happen during Sleep </p> </div>
       <div type="chapter" n="54" part="N" org="uniform" sample="complete"> <p part="N">When the demons, attacking the desiring part of the soul (epithumetikon) through dreams, show us things like meetings with friends, family feasts, women dancing and other such things which produce pleasure, and we run to meet them, then we are sick in the [desiring] part of [our soul] and passion prevails. </p> <p part="N">And when they disturb our irascible part (thumikon), forcing us to walk along precipices and bringing armed men against us and poisonous or carnivorous animals, and we are nervous of the way they lead us and run defeated from the beasts and from the men, then we should take [particular] care of our irascible part and call upon Christ in our vigils and make use of the remedies mentioned above </p> </div>
       <div type="chapter" n="55" part="N" org="uniform" sample="complete"> <p part="N">If during sleep the natural movements of the body occur without [any mental] images, they show that the soul is to some extent healthy: [however,] the formation of images is a symptom of illness. [You should] thus regard vague images as signifying an old passion, while defined images [indicate] a fresh wound. </p> </div>
       <div type="chapter" n="56" part="N" org="uniform" sample="complete"> <p part="N">We shall recognise the signs of passionlessness through our [tempting-] thoughts (logismoi) during the day and through our dreams at night And passionlessness is what we shall call the soul’s health, and the soul’s food is knowledge, which is the only means by which we shall ordinarily be united with the holy powers, seeing that the natural basis for our union with incorporeal beings is the similarity of our disposition to theirs </p> </div>
-      <div type="title" n="head 6" part="N" org="uniform" sample="complete"> <p part="N">The State Approaching Apatheia </p> </div>
+      <div type="title" n="head_6" part="N" org="uniform" sample="complete"> <p part="N">The State Approaching Apatheia </p> </div>
       <div type="chapter" n="57" part="N" org="uniform" sample="complete"> <p part="N">Two in number are the soul's peaceful states: </p> <p part="N">[A] the first grows from natural seeds; </p> <p part="N">[B] while the other is engendered by the withdrawal of the demons </p> <p part="N">[A] From the first there follow: </p> <p part="N">[1] humility, with </p> <p part="N">[2] compunction, and </p> <p part="N">[3] tears, and </p> <p part="N">[4] limitless longing (pothos) for God, and </p> <p part="N">[5] immeasurable eagerness for [our assigned] task. </p> <p part="N">[B] From the second [arise] </p> <p part="N">[1] vainglory with </p> <p part="N">[2] pride, </p> <p part="N">which capture the monk when the other demons go away. </p> <p part="N">One who perceives the beginnings of the first [peaceful] state will be even more sharply aware of the attacks of the demons </p> </div>
       <div type="chapter" n="58" part="N" org="uniform" sample="complete"> <p part="N">The demon of vainglory is opposed to the demon of sexual impurity and it is inconceivable that they should both attack the soul at the same tine, since one promises honour and the other heralds disgrace So whichever of them comes and presses upon you, form in your mind the [tempting-] thoughts of the opposing demon. If you are able, as they say, to use a nail to drive out a nail, you can know that you are near to the borders of passionlessness, because your mind is strong enough to drive away demonic thoughts with human thoughts </p> <p part="N">To drive away the [tempting-]thought of vainglory with humility, or the thought of sexual immorality with chastity would be a sign of the most profound apatheia. </p> <p part="N">Attempt to practice this with all the demons that are opposed to each other, and you will, at the same time, come to know which passion affects you the most. </p> <p part="N">But with all your power beseech God for the ability to fight off your enemies in this second way. </p> </div>
       <div type="chapter" n="59" part="N" org="uniform" sample="complete"> <p part="N">The more the soul progresses, the greater the opponents which take over In the battle against it I do not believe it is always the same derons waiting on it The people who know this best are the ones who attend most acutely to their temptations and who see the passionlessness which they possess being battered by one demon after another </p> </div>
       <div type="chapter" n="60" part="N" org="uniform" sample="complete"> <p part="N">Perfect apatheia comes into being in the soul after it has defeated all the demons that oppose the praktikē perfect apatheia is relative to the force of the particular demon which is attacking at any given time </p> </div>
       <div type="chapter" n="61" part="N" org="uniform" sample="complete"> <p part="N">Unless it sets straight what we have inside us, the mind will not make progress or achieve the good exodus and enter the place of the incorporeals. Its own domestic troubles habitually make it turn back to the place from which it had set out. </p> </div>
       <div type="chapter" n="62" part="N" org="uniform" sample="complete"> <p part="N">The nous is blinded by both virtues and vices: the former keep it from seeing the vices; the latter keep it from glimpsing the virtues. </p> </div>
-      <div type="title" n="head 7" part="N" org="uniform" sample="complete"> <p part="N">Concerning the Signs of Apatheia </p> </div>
+      <div type="title" n="head_7" part="N" org="uniform" sample="complete"> <p part="N">Concerning the Signs of Apatheia </p> </div>
       <div type="chapter" n="63" part="N" org="uniform" sample="complete"> <p part="N">When the nous begins perform its prayers without distractions, then there commences an all-out battle day and night against the irascible part. </p> </div>
       <div type="chapter" n="64" part="N" org="uniform" sample="complete"> <p part="N">The proof of apatheia is that the nous begins to behold its [own] proper gentle radiance; that it remains tranquil in the presence of visions during sleep; and that it looks at matters calmly. </p> </div>
       <div type="chapter" n="65" part="N" org="uniform" sample="complete"> <p part="N">The nous is strong when it does not imagine any worldly thing at all during the time of its prayer. </p> </div>
@@ -250,7 +261,7 @@
       <div type="chapter" n="88" part="N" org="uniform" sample="complete"> <p part="N">Things which are good or bad depending on their use produce both virtues and vices; it is the task of prudence to use them one way or the other. </p> </div>
       <div type="chapter" n="89" part="N" org="uniform" sample="complete"> <p part="N">Of three parts does the rational soul consist, according to our wise teacher: </p> <p part="N">[1] When it in the Rational part that virtue comes into being it is called[1a] prudence and[1b] understanding and[1c] wisdom; </p> <p part="N">[2] in the Concupiscible part,[2a] temperance and[2b] charity and[2c] self-control; </p> <p part="N">[3] in the Irascible part,[3a] courage and [3b] patience. </p> <p part="N">[4] But in the Whole of the Soul [it] is justice. </p> <p part="N">[1A] Now the task of Prudence is </p> <p part="N">[1A.1] to plan the attack against the opposing powers and </p> <p part="N">[1A.2] to defend the virtues, </p> <p part="N">[1A.3] to stand prepared against the vices, </p> <p part="N">[1A.4] and to administer neutral matters according to the [requirements of the] times. </p> <p part="N">[1B] [The task] of Understanding: to direct harmoniously all things which help us toward our goal. </p> <p part="N">[1C] [The task] of Wisdom: contemplation of the logoi of corporeal and incorporeal beings. </p> <p part="N">[2A] The work of Temperance: to look serenely upon those affairs which provoke within us irrational phantasies. </p> <p part="N">[2B] of Charity: all the images of God, showing one another to be as nearly like the prototype as possible no matter how the demons ply their arts to defile them. </p> <p part="N">[2c] Of Continence: every pleasure of the palate with joy to decline. </p> <p part="N">[3A] Not to fear the enemies and </p> <p part="N">[3B] eagerly to endure afflictions belongs to Courage and Patience. </p> <p part="N">[4] Justice effects a certain symphony and harmony among the [different] parts of the soul. </p> </div>
       <div type="chapter" n="90" part="N" org="uniform" sample="complete"> <p part="N">The fruit of sowing is sheaves, and the fruit of the virtues is knowledge And as tears accompany sowing, so joy accompanies reaping <ref cRef="Ps 125.6"/></p> </div>
-      <div type="title" n="head 8" part="N" org="uniform" sample="complete"> <p part="N">Sayings of Holy Monks </p> </div>
+      <div type="title" n="head_8" part="N" org="uniform" sample="complete"> <p part="N">Sayings of Holy Monks </p> </div>
       <div type="chapter" n="91" part="N" org="uniform" sample="complete"> <p part="N">IT is necessary also to interrogate the paths of the monks who have travelled rightly before us and set ourselves right by reference to them There is much for us to discover that they spoke and did well For instance, one of them says that a monk is brought more quickly into the haven of passionlessness by a relatively dry and regular diet, joined to love. </p> <p part="N">The same man freed one of the brethren who was being troubled by fantasies at night by bidding him serve the sick while fasting When asked, he said that such passions are extinguished by nothing so well as by mercy. </p> </div>
       <div type="chapter" n="92" part="N" org="uniform" sample="complete"> <p part="N">Unto the just Anthony came one of the wise men of that time, saying, ‘How do you manage to survive, O father, without the comfort of books?’ He replied, ‘My book, philosopher, is the nature of beings, and it is there whenever I want to read the words (logoi) of God’. </p> </div>
       <div type="chapter" n="93" part="N" org="uniform" sample="complete"> <p part="N">That vessel of election, Macarius, the Egyptian old man, asked me, ‘Why is it that we ruin the soul’s power of memory by brooding resentfully on men, but remain unharmed if we resent demons?’ I was at a loss for an answer, and asked him to explain it to me. He said, ‘It is because the first is contrary to nature (para phusin), while the second is in accordance with the nature (kata phusin) of anger (thumos)’. </p> </div>
@@ -261,7 +272,7 @@
       <div type="chapter" n="98" part="N" org="uniform" sample="complete"> <p part="N">There is an island near Alexandria, in the northern part of the lake called Maria, and a monk lives there, one of the most distinguished of the camp of the knowers (gnostikoi). He taught that all that is done by the monks is done for one of five reasons God, nature, habit, constraint or manual work. He also said that virtue is single by nature, but takes different forms in the powers of the soul. It is like sunlight which Is shapeless, but is naturally given shape by the windows it passes through </p> </div>
       <div type="chapter" n="99" part="N" org="uniform" sample="complete"> <p part="N">Another monk said, ‘I cut down pleasure in order to cut out excuses for anger (thumos) I know that anger always fights on behalf of pleasures and disturbs my mind and chases away knowledge’ One of the old men said that charity does not know how to store up food or money And the same monk said, ‘I am not aware of ever having been taken in by the demons twice on the same point’ </p> </div>
       <div type="chapter" n="100" part="N" org="uniform" sample="complete"> <p part="N">To love all the brothers equally is not possible, but it is possible to meet them all dispassionately [by] being free from memory of evil and [from] hatred: priests are next after the Lord, because by means of the sacred mysteris they purify and pray for us; we are to revere the elders as the angels, for it is they who anoint us for our struggle and heal us when we are bitten by wild beasts. </p> </div>
-      <div type="title" n="head 9" part="N" org="uniform" sample="complete"> <p part="N">Epilogue </p> </div>
+      <div type="title" n="head_9" part="N" org="uniform" sample="complete"> <p part="N">Epilogue </p> </div>
       <div type="epilogue" n="ep" part="N" org="uniform" sample="complete"> <p part="N">Let that suffice now, my dear Anatolius, about practical science (praktike); this is what I have found, by the grace of the holy Spirit, gleaning ripening grapes from my crop but if the sun of righteousness<ref cRef="Mal 3.20"/> shines on us in his zenith and the grape becomes fully ripe, then we shall drink his wine, which makes glad the heart of man <ref cRef="Ps 103.13"/>, at the prayers and intercession of the righteous Gregory who planted me, and at those of the holy fathers who now water me, and by the power of Jesus Christ our Lord who makes me grow<ref cRef="1Co 3.6-7"/>, to whom be glory and might for ever and ever.</p> </div>
     </body>
   </text>

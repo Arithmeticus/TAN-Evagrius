@@ -1,41 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-1-dev/schemas/TAN-LM.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-1-dev/schemas/TAN-LM.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-LM xmlns="tag:textalign.net,2015:ns" TAN-version="1/dev" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1998.TAN-TEI.001:TAN-LM:2016-04-04T13:36:44.285-04:00">
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-lm.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-lm.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A-lm xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1998.TAN-TEI.001:TAN-A-lm:2016-04-04T13:36:44.285-04:00">
    <head>
       <name>Lexico-morphological data for Fragments of the Kephalaia Gnostika preserved in Evagrius's Περὶ διαφορῶν
       πονηρῶν λογισμῶν</name>
-      <rights-excluding-sources rights-holder="kalvesmaki">
+      <license>
          <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
          <name>Creative Commons Attribution 4.0 International License</name>
          <desc>This license is granted independent of rights and licenses associated with the
             sources. </desc>
-      </rights-excluding-sources>
-      <inclusion xml:id="WORK">
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001</IRI>
-         <name>Guillaumont's edition of Syriac S2 of the Kephalaia Gnostika</name>
-         <location href="../CPG2432.syr.guillaumont-s2.xml" when-accessed="2015-10-13-04:00"/>
-      </inclusion>
+      </license>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+      </key>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
+         <name>Works by Evagrius</name>
+         <location href="../TAN-key/evagrius-works-TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+      </key>
       <source>
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1998.TAN-TEI.001</IRI>
          <name>Fragments of the Kephalaia Gnostika preserved in Evagrius's Περὶ διαφορῶν
       πονηρῶν λογισμῶν</name>
-         <location href="file:/Users/joelk/Dropbox/TAN/library/evagrius/cpg2432.grc.g%C3%A9hin-1998.xml" when-accessed="2016-04-04T13:36:44.285-04:00"/>
+         <location href="../cpg2432.grc.g%C3%A9hin-1998.xml" when-accessed="2016-04-04T13:36:44.285-04:00"/>
       </source>
-      <declarations>
-         <token-definition which="general-words-only-1"/>
+      <definitions>
+         
          <lexicon xml:id="LSJ">
-                <for-lang>grc</for-lang>
+                
                 <IRI>http://lccn.loc.gov/95032369</IRI>
                 <name xml:lang="eng">Liddell-Scott-Jones, 9th ed. plus rev. supplement</name>
             </lexicon>
          <lexicon xml:id="Lampe">
-                <for-lang>grc</for-lang>
+                
                 <IRI>http://lccn.loc.gov/77372171</IRI>
                 <name xml:lang="eng">G.H.W. Lampe, A Patristic Greek Lexicon, Oxford 1961.</name>
             </lexicon>
          <lexicon xml:id="new">
-                <for-lang>grc</for-lang>
+                
                 <IRI>urn:uuid:d6558d00-8f68-11e3-950a-425861b86ab6</IRI>
                 <name xml:lang="eng">Lexicon generated from words in this document not to be found in
                     any other lexicon.</name>
@@ -44,34 +50,36 @@
                 <for-lang>grc</for-lang>
                 <IRI>tag:kalvesmaki.com,2014:tan-r-mor:grc:perseus</IRI>
                 <name xml:lang="eng">Perseus Greek morphology</name>
-                <location href="../../../library/LM/TAN-mor/grc.kalvesmaki.com,2014.1.xml" when-accessed="2016-03-16-04:00"/>
+                <location href="../../../library-arithmeticus/LM/TAN-mor/grc.kalvesmaki.com,2014.1.xml" when-accessed="2018-01-09"/>
             </morphology>
-      </declarations>
-      <agent xml:id="stylesheet" roles="editor">
-         <IRI>tag:textalign.net,2015:stylesheet:create:tan-lm-from-tan-t</IRI>
-         <name>TAN stylesheet to create a TAN-LM file from a TAN-T(EI)</name>
-      </agent>
-      <role xml:id="editor">
-         <IRI>http://schema.org/editor</IRI>
-         <name xml:lang="eng">editor</name>
-      </role>
-      <change when="2016-04-04T13:36:44.285-04:00" who="stylesheet">Created file.</change>
+         <person xml:id="kalvesmaki">
+            <IRI>http://viaf.org/viaf/299582703</IRI>
+            <IRI>tag:kalvesmaki.com,2014:self</IRI>
+            <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
+            <name xml:lang="eng">Joel Kalvesmaki</name>
+         </person>
+         <person xml:id="xslt0">
+            <IRI>tag:textalign.net,2015:stylesheet:create:tan-lm-from-tan-t</IRI>
+            <name>TAN stylesheet to create a TAN-A-lm file from a TAN-T(EI)</name>
+         </person>
+         <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+         <role xml:id="editor">
+            <IRI>http://schema.org/editor</IRI>
+            <name xml:lang="eng">editor</name>
+         </role>
+         <role xml:id="stylesheet" which="stylesheet"/>
+      </definitions>
+      <resp roles="editor" who="kalvesmaki"/>
+      <resp roles="editor" who="xslt0"/>
+      <resp who="xslt1" roles="stylesheet"/>
+      <change when="2016-04-04T13:36:44.285-04:00" who="xslt0">Created file.</change>
+      <change who="xslt1" when="2017-12-16T13:29:14.057-05:00">TAN file updated to 2018 schemas.</change>
    </head>
    <body lexicon="LSJ Lampe new" morphology="Perseus">
       <ana>
          <tok ref="III 78" pos="1"><!--*** πῶς *** ἄγγελοι μὲν καὶ--></tok>
-         
-         <lm>
-            <l>πῶς</l>
-            <m>d i - - - - - - - -</m>
-         </lm>
-         <lm>
-            <l>πως</l>
-            <m>d x - - - - - - - -</m>
-         </lm>
-      </ana>
-      <ana>
-         <tok ref="III 80" pos="1"><!--*** πῶς *** ἄγγελοι μὲν καὶ--></tok>
+         <!-- next <tok> for testing purposes only -->
+         <tok ref="III 78" pos="2"><!--πῶς *** ἄγγελοι *** μὲν καὶ δαίμονες--></tok>
          
          <lm>
             <l>πῶς</l>
@@ -108,7 +116,7 @@
          </lm>
       </ana>
       <ana>
-         <tok ref="III 80" pos="4"><!--πῶς ἄγγελοι μὲν *** καὶ *** δαίμονες τῷ ἡμετέρῳ--></tok>
+         <tok ref="III 78" pos="4"><!--πῶς ἄγγελοι μὲν *** καὶ *** δαίμονες τῷ ἡμετέρῳ--></tok>
          
          <lm>
             <l>καί</l>
@@ -362,4 +370,4 @@
          </lm>
       </ana>
    </body>
-</TAN-LM>
+</TAN-A-lm>
