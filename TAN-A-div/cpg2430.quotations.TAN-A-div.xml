@@ -39,6 +39,7 @@
          <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
          <role xml:id="editor" which="editor"/>
          <role xml:id="stylesheet" which="stylesheet"/>
+         <alias id="pr" idrefs="grc-1971"/>
       </definitions>
       <resp who="kalvesmaki" roles="editor"/>
       <resp who="xslt1" roles="stylesheet"/>
