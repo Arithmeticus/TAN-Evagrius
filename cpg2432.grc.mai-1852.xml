@@ -16,7 +16,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <p part="N"/>
+        <p/>
       </publicationStmt>
       <sourceDesc default="false">
         <listBibl default="false">
@@ -28,25 +28,25 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc default="false">
-        <p part="N">Transcribed February 2013 by <persName instant="false" full="yes">Joel Kalvesmaki</persName>, corrected against PG
+        <p>Transcribed February 2013 by <persName instant="false" full="yes">Joel Kalvesmaki</persName>, corrected against PG
           copy secured through Religion and Technology Center, Inc., http://www.reltech.org/.</p>
       </projectDesc>
       <samplingDecl default="false">
-        <p part="N">Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
+        <p>Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
           Footnotes, apparatus, translation, etc. have been omitted.</p>
       </samplingDecl>
       <editorialDecl default="false">
         <correction default="false" status="unknown" method="silent">
-          <p part="N">No corrections were found to be needed.</p>
+          <p>No corrections were found to be needed.</p>
         </correction>
         <normalization default="false" method="silent">
-          <p part="N">Transcription should reflect the original.</p>
+          <p>Transcription should reflect the original.</p>
         </normalization>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
   <head xmlns="tag:textalign.net,2015:ns">
-    <name xml:lang="eng">Fragments preserved PG 39</name>
+    <name xml:lang="eng">Fragments of the Kephalaia gnostika preserved PG 39</name>
     <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.grc.mai-1852.xml"/>
     <license which="by_4.0"/>
     <licensor who="kalvesmaki"/>
@@ -78,6 +78,7 @@
     </definitions>
     <resp who="kalvesmaki" roles="editor"/>
     <resp who="xslt1" roles="stylesheet"/>
+    <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Adjusted &lt;name></change>
     <change when="2017-05-14" who="kalvesmaki">Commented out &lt;desc&gt; until TAN files for the
       Scholia on the Psalms can be written.</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
@@ -89,8 +90,8 @@
   </head>
   <text>
     <body xml:lang="grc" in-progress="false">
-      <div type="century" n="IV" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="70" part="N" org="uniform" sample="complete"> <pb n="39:1604"/> <p part="N"><!--<desc>Sch. 5 on Ps. 141.8</desc>--> οὐ πάντων <lb/>δὲ ἔστιν τοῦτο λέγειν, “Ἔκβαλε ἐκ φυλακῆς τὴν <lb/>ψυχήν μου,” ἀλλ’ ἢ τῶν δυναμένων διὰ καθαρότητα <lb/>καρδίας, καὶ χωρὶς τοῦ σώματος τούτου ἐπιβαλεῖν <lb/>τῇ θεωρίᾳ τῶν γεγονότων. </p> </div>
+      <div type="century" n="IV">
+        <div type="chapter" n="70"> <pb n="39:1604"/> <p><!--<desc>Sch. 5 on Ps. 141.8</desc>--> οὐ πάντων <lb/>δὲ ἔστιν τοῦτο λέγειν, “Ἔκβαλε ἐκ φυλακῆς τὴν <lb/>ψυχήν μου,” ἀλλ’ ἢ τῶν δυναμένων διὰ καθαρότητα <lb/>καρδίας, καὶ χωρὶς τοῦ σώματος τούτου ἐπιβαλεῖν <lb/>τῇ θεωρίᾳ τῶν γεγονότων. </p> </div>
       </div>
     </body>
   </text>

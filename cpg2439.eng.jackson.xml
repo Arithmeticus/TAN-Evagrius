@@ -5,7 +5,7 @@
 <?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:transcription:cpg2439:eng:jackson">
    <head>
-      <name>Jackson's English translation of the Epistula fidei</name>
+      <name>Jackson's English translation of the Epistula fidei by Evagrius Ponticus</name>
       <license which="by_4.0"/>
       <licensor who="kalvesmaki"/>
       <key>

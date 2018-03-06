@@ -3,10 +3,10 @@
 <?xml-model href="../../../TAN-2018/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2430">
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2447">
    <head>
-      <name>Evagrios Pontikos, Praktikos</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A-div/cpg2430.TAN-A-div.xml"/>
+      <name>Evagrios Pontikos, Ad Eulogios</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A-div/cpg2447.TAN-A-div.xml"/>
       <license which="by_4.0"/>
       <licensor who="kalvesmaki"/>
       <key>
@@ -14,20 +14,10 @@
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
          <location href="../TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
       </key>
-      <source xml:id="grc-1971">
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
-         <name>Transcription of Greek edition of the Praktikos by the Guillaumonts</name>
-         <location href="../cpg2430.grc.guillaumonts.xml" when-accessed="2015-08-07-04:00"/>
-      </source>
-      <source xml:id="eng-1990">
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_eng_Dysinger.TAN-TEI.001</IRI>
-         <name>Transcription of 1997 English translation by Dysinger</name>
-         <location href="../cpg2430.eng.dysinger.xml" when-accessed="2015-08-07-04:00"/>
-      </source>
-      <source xml:id="syr-14578">
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001</IRI>
-         <name>Transcription of Syriac edition in BL Add. 14,578.</name>
-         <location href="../cpg2430.syr.bl14578.tei.xml" when-accessed="2015-08-08-04:00"/>
+      <source xml:id="grc">
+         <IRI>tag:kalvesmaki.com,2014:transcription:cpg2447:grc:PG</IRI>
+         <name>To Eulogios, Greek</name>
+         <location href="../cpg2447.grc.PG.xml" when-accessed="2018-03-06T17:31:06.079-05:00"/>
       </source>
       <definitions>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>

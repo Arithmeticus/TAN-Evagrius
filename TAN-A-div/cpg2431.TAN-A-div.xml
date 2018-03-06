@@ -3,29 +3,18 @@
 <?xml-model href="../../../TAN-2018/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki@gmail.com,2014:cpg2431-TAN-A-div-et-al-1">
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2431">
    <head>
-      <name>Alignment of Evagrius's Gnostikos and works cited</name>
+      <name>Evagrios Pontikos, Gnostikos</name>
       <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A-div/cpg2431.TAN-A-div.xml"/>
       <license which="by_4.0"/>
       <licensor who="kalvesmaki"/>
-      <inclusion xml:id="bible">
-         <IRI>tag:kalvesmaki.com,2014:tan-a-div:bible:for-evagrius</IRI>
-         <name>Bible versions relevant for alignment with the works of Evagrius</name>
-         <location href="bible-for-evagrius.TAN-A-div.xml"
-            when-accessed="2015-10-12-04:00"/>
-      </inclusion>
       <key>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
          <location href="../TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
       </key>
-      <key>
-         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
-         <name>Works by Evagrius</name>
-         <location href="../TAN-key/evagrius-works-TAN-key.xml" when-accessed="2017-12-16-05:00"/>
-      </key>
-      <source xml:id="gn">
+      <source xml:id="gn-grc-Gu">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001</IRI>
          <name>Transcription of Greek edition by the Guillaumonts</name>
          <location href="../cpg2431.grc.guillaumonts.tei.xml" when-accessed="2015-08-08-04:00"/>
@@ -65,109 +54,12 @@
          <name>Frankenberg's Greek retroversion of a Syriac translation of the Gnostikos</name>
          <location href="../cpg2431.grc.frankenberg.tei.xml" when-accessed="2015-08-08-04:00"/>
       </source>
-      <source include="bible"/>
       <definitions>
-         
-         
-         <verb xml:id="quotes" which="quotes"/>
-         <verb xml:id="alludes-to" which="alludes or refers to"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-         <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
          <role xml:id="editor" which="editor"/>
-         <role xml:id="stylesheet" which="stylesheet"/>
       </definitions>
       <resp who="kalvesmaki" roles="editor"/>
-      <resp who="xslt1" roles="stylesheet"/>
-      <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
-      <change when="2015-08-07-04:00" who="kalvesmaki">Streamlined alignments to allow more compact
-         div refs.</change>
-      <change when="2015-08-08-04:00" who="kalvesmaki">Started file</change>
-      <change who="xslt1" when="2017-12-16T16:03:05.576-05:00">TAN file updated to 2018 schemas.</change>
+      <change when="2018-03-05" who="kalvesmaki">Created file</change>
    </head>
-   <body verb="quotes" claimant="kalvesmaki">
-      <claim verb="alludes-to">
-         <subject work="gn" ref="46"/>
-         <object work="lxx" ref="Exod 25:23-30, Exod 26:35, Exod 37:10-16"/>
-      </claim>
-      <claim>
-         <subject src="syr-S2-17165" ref="17"/>
-         <object src="lxx" ref="Wis 11:20, Eccl 3 1"/>
-      </claim>
-      <claim verb="alludes-to">
-         <subject work="gn" ref="20"/>
-         <object work="lxx" ref="Lev 11:2-19"/>
-      </claim>
-      <claim verb="alludes-to">
-         <subject work="gn" ref="21"/>
-         <object work="lxx" ref="Num 24:17-19"/>
-      </claim>
-      <claim verb="alludes-to">
-         <subject work="gn" ref="38"/>
-         <object work="lxx" ref="2Kgdms 6:10, 2Kgdms 6:11"/>
-      </claim>
-      <claim>
-         <subject work="gn" ref="20"/>
-         <object work="lxx" ref="Eccl 1:5"/>
-      </claim>
-      <claim>
-         <subject work="gn" ref="25"/>
-         <object work="lxx" ref="Eccl 8:8"/>
-      </claim>
-      <claim verb="alludes-to">
-         <subject work="gn" ref="20"/>
-         <object work="lxx" ref="Ezek 16:15-34"/>
-      </claim>
-      <claim>
-         <subject work="gn" ref="34"/>
-         <object work="lxx" ref="Jonah 1:5"/>
-      </claim>
-      <claim verb="alludes-to">
-         <subject work="gn" ref="3"/>
-         <object work="nt" ref="Mt 5:13-14"/>
-      </claim>
-      <claim>
-         <subject work="gn" ref="38"/>
-         <object work="nt" ref="Mt 6:25"/>
-      </claim>
-      <claim verb="alludes-to">
-         <subject work="gn" ref="44"/>
-         <object work="nt" ref="Mt 13:25"/>
-      </claim>
-      <claim verb="alludes-to">
-         <subject work="gn" ref="24"/>
-         <object work="nt" ref="Mt 21:12-13"/>
-      </claim>
-      <claim verb="alludes-to">
-         <subject work="gn" ref="7"/>
-         <object work="nt" ref="Mt 25:1-13"/>
-      </claim>
-      <claim verb="alludes-to">
-         <subject work="gn" ref="38"/>
-         <object work="nt" ref="Lu 12:22"/>
-      </claim>
-      <claim>
-         <subject work="gn" ref="29"/>
-         <object work="nt" ref="Lu 14:10"/>
-      </claim>
-      <claim verb="alludes-to">
-         <subject work="gn" ref="29"/>
-         <object work="nt" ref="Lu 14:9"/>
-      </claim>
-      <claim verb="alludes-to">
-         <subject work="gn" ref="21"/>
-         <object work="nt" ref="Jn 11:49-51"/>
-      </claim>
-      <claim verb="alludes-to">
-         <subject work="gn" ref="37"/>
-         <object work="nt" ref="1Co 9:27"/>
-      </claim>
-      <claim>
-         <subject work="gn" ref="22"/>
-         <object work="nt" ref="1Tim 2:4"/>
-      </claim>
-      <claim>
-         <subject work="gn" ref="13"/>
-         <object work="nt" ref="Heb 12:14"/>
-      </claim>
-   </body>
+   <body/>
 </TAN-A-div>

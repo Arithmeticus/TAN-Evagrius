@@ -39,6 +39,7 @@
          <change when="2017-05-19-04:00" who="kalvesmaki">Normalized Unicode, set on one line per leaf div.</change>
       <change when="2017-05-03" who="kalvesmaki">Started file</change>
       <change who="xslt1" when="2017-12-16T12:49:24.648-05:00">TAN file updated to 2018 schemas.</change>
+      <comment when="2018-03-05" who="kalvesmaki">This work still needs to be segmented accurately and proofread.</comment>
    </head>
    <body xml:lang="grc" in-progress="true">
       <div type="title" n="title">ΤΟΥ ΑΥΤΟΥ ΛΟΓΟΣ ΠΡΟΣ ΕΥΛΟΓΙΟΝ ΜΟΝΑΧΟΝ</div>

@@ -16,7 +16,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <p part="N"/>
+        <p/>
       </publicationStmt>
       <sourceDesc default="false">
         <listBibl default="false">
@@ -27,26 +27,26 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc default="false">
-        <p part="N">Transcribed February 2013 by <persName instant="false" full="yes">Luke Dysinger</persName>, OSB. Corrected by
+        <p>Transcribed February 2013 by <persName instant="false" full="yes">Luke Dysinger</persName>, OSB. Corrected by
             <persName instant="false" full="yes">Joel Kalvesmaki</persName> against scan of PG 4 secured through Religion and
           Technology Center, Inc., http://www.reltech.org/.</p>
       </projectDesc>
       <samplingDecl default="false">
-        <p part="N">Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
+        <p>Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
           Footnotes, apparatus, translation, etc. have been omitted.</p>
       </samplingDecl>
       <editorialDecl default="false">
         <correction default="false" status="unknown" method="silent">
-          <p part="N">No corrections were made.</p>
+          <p>No corrections were made.</p>
         </correction>
         <normalization default="false" method="silent">
-          <p part="N">Should reflect original source.</p>
+          <p>Should reflect original source.</p>
         </normalization>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
   <head xmlns="tag:textalign.net,2015:ns">
-    <name xml:lang="eng">Fragments preserved PG 4</name>
+    <name xml:lang="eng">Fragments of the Kephalaia gnostika preserved PG 4</name>
     <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.grc.cordier.xml"/>
     <license which="by_4.0"/>
     <licensor who="kalvesmaki"/>
@@ -78,6 +78,7 @@
     </definitions>
     <resp who="kalvesmaki" roles="editor"/>
     <resp who="xslt1" roles="stylesheet"/>
+    <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Adjusted &lt;name></change>
     <change when="2017-05-14" who="kalvesmaki">Converted hyphen to soft hyphen ­</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
@@ -88,11 +89,11 @@
   </head>
   <text>
     <body xml:lang="grc" in-progress="false">
-      <div type="century" n="II" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="78" part="N" org="uniform" sample="complete"> <pb n="173"/> <p part="N"> Ἕκαστον τάγμα <lb/>τῶν οὐρανίων δυνάμεων, ἢ ὅλον ἐκ τῶν κάτω, ἢ ὅλον <lb/>ἐκ τῶν ἄνω, ἢ ἐκ τῶν ἄνω καὶ ἐκ τῶν κάτω συνέστη-<lb break="no"/>κε.</p> </div>
+      <div type="century" n="II">
+        <div type="chapter" n="78"> <pb n="173"/> <p> Ἕκαστον τάγμα <lb/>τῶν οὐρανίων δυνάμεων, ἢ ὅλον ἐκ τῶν κάτω, ἢ ὅλον <lb/>ἐκ τῶν ἄνω, ἢ ἐκ τῶν ἄνω καὶ ἐκ τῶν κάτω συνέστη-<lb break="no"/>κε.</p> </div>
       </div>
-      <div type="century" n="V" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="11" part="N" org="uniform" sample="complete"> <p part="N">Ἐξ ἀγγελικῆς καταστάσεως καὶ ἀρχαγγελικῆς, ψυ­<lb break="n"/>χικὴ κατάστασις γίνεται· ἐκ δὲ τῆς ψυχικῆς, δαιμο-<lb break="n"/>νιώδης καὶ ἀνθρωπίνη· ἐκ δὲ τῆς ἀνθρωπίνης, ἄγγε-<lb break="n"/>λοι πάλιν καὶ δαίμονες γίνονται. </p> </div>
+      <div type="century" n="V">
+        <div type="chapter" n="11"> <p>Ἐξ ἀγγελικῆς καταστάσεως καὶ ἀρχαγγελικῆς, ψυ­<lb break="n"/>χικὴ κατάστασις γίνεται· ἐκ δὲ τῆς ψυχικῆς, δαιμο-<lb break="n"/>νιώδης καὶ ἀνθρωπίνη· ἐκ δὲ τῆς ἀνθρωπίνης, ἄγγε-<lb break="n"/>λοι πάλιν καὶ δαίμονες γίνονται. </p> </div>
       </div>
     </body>
   </text>

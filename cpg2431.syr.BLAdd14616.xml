@@ -40,7 +40,7 @@
       <IRI>tag:evagriusponticus.net,2012:scriptum:ms:gb:london:bl:add-14616</IRI>
       <name>British Library MS Add. 14616</name>
     </source>
-    
+
     <definitions>
       <work which="Gn."/>
       <version>
@@ -51,16 +51,27 @@
       <div-type which="chapter" xml:id="chapter"/>
       <relationship which="auxiliary" xml:id="auxiliary"/>
       <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-      <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+      <person xml:id="stewart" which="Columba Stewart"/>
+      <algorithm xml:id="xslt1">
+        <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
+        <name>Stylesheet to populate a TAN-A-div file from collections.</name>
+        <desc>Stylesheet at:
+          ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
+      </algorithm>
       <role xml:id="editor" which="editor"/>
+      <role xml:id="transcriber" which="transcriber"/>
       <role xml:id="stylesheet" which="stylesheet"/>
     </definitions>
-    <resp who="kalvesmaki" roles="editor"/>
+    <resp who="stewart" roles="transcriber"/>
+    <resp who="stewart kalvesmaki" roles="editor"/>
     <resp who="xslt1" roles="stylesheet"/>
+    <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Credited
+      Stewart.</change>
     <change when="2017-05-15-04:00" who="kalvesmaki">Removed | representing line breaks; normalized
       references; removed folio numbers duplicating @n</change>
     <change when="2016-03-19" who="kalvesmaki">Started file</change>
-    <change who="xslt1" when="2017-12-16T12:39:05.078-05:00">TAN file updated to 2018 schemas.</change>
+    <change who="xslt1" when="2017-12-16T12:39:05.078-05:00">TAN file updated to 2018
+      schemas.</change>
   </head>
   <text>
     <body xml:lang="syr" ed-when="2016-03-19-04:00" ed-who="kalvesmaki">

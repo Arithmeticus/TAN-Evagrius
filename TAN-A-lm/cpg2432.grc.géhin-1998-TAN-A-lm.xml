@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-lm.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-lm.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A-lm xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1998.TAN-TEI.001:TAN-A-lm:2016-04-04T13:36:44.285-04:00">
+   <head>
+      <name>Lexico-morphological data for Fragments of the Kephalaia Gnostika preserved in Evagrius's Περὶ διαφορῶν
+      πονηρῶν λογισμῶν</name>
+      <license>
+         <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+         <name>Creative Commons Attribution 4.0 International License</name>
+         <desc>This license is granted independent of rights and licenses associated with the
+            sources. </desc>
+      </license>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+      </key>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
+         <name>Works by Evagrius</name>
+         <location href="../TAN-key/evagrius-works-TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+      </key>
+      <source>
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1998.TAN-TEI.001</IRI>
+         <name>Fragments of the Kephalaia Gnostika preserved in Evagrius's Περὶ διαφορῶν
+      πονηρῶν λογισμῶν</name>
+         <location href="../cpg2432.grc.g%C3%A9hin-1998.xml" when-accessed="2016-04-04T13:36:44.285-04:00"/>
+      </source>
+      <definitions>
+         
+         <lexicon xml:id="LSJ">
+                
+                <IRI>http://lccn.loc.gov/95032369</IRI>
+                <name xml:lang="eng">Liddell-Scott-Jones, 9th ed. plus rev. supplement</name>
+            </lexicon>
+         <lexicon xml:id="Lampe">
+                
+                <IRI>http://lccn.loc.gov/77372171</IRI>
+                <name xml:lang="eng">G.H.W. Lampe, A Patristic Greek Lexicon, Oxford 1961.</name>
+            </lexicon>
+         <lexicon xml:id="new">
+                
+                <IRI>urn:uuid:d6558d00-8f68-11e3-950a-425861b86ab6</IRI>
+                <name xml:lang="eng">Lexicon generated from words in this document not to be found in
+                    any other lexicon.</name>
+            </lexicon>
+         <morphology xml:id="Perseus">
+                <for-lang>grc</for-lang>
+                <IRI>tag:kalvesmaki.com,2014:tan-r-mor:grc:perseus</IRI>
+                <name xml:lang="eng">Perseus Greek morphology</name>
+                <location href="../../../library-arithmeticus/LM/TAN-mor/grc.kalvesmaki.com,2014.1.xml" when-accessed="2018-01-09"/>
+            </morphology>
+         <person xml:id="kalvesmaki">
+            <IRI>http://viaf.org/viaf/299582703</IRI>
+            <IRI>tag:kalvesmaki.com,2014:self</IRI>
+            <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
+            <name xml:lang="eng">Joel Kalvesmaki</name>
+         </person>
+         <person xml:id="xslt0">
+            <IRI>tag:textalign.net,2015:stylesheet:create:tan-lm-from-tan-t</IRI>
+            <name>TAN stylesheet to create a TAN-A-lm file from a TAN-T(EI)</name>
+         </person>
+         <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
+         <role xml:id="editor">
+            <IRI>http://schema.org/editor</IRI>
+            <name xml:lang="eng">editor</name>
+         </role>
+         <role xml:id="stylesheet" which="stylesheet"/>
+      </definitions>
+      <resp roles="editor" who="kalvesmaki"/>
+      <resp roles="editor" who="xslt0"/>
+      <resp who="xslt1" roles="stylesheet"/>
+      <change when="2016-04-04T13:36:44.285-04:00" who="xslt0">Created file.</change>
+      <change who="xslt1" when="2017-12-16T13:29:14.057-05:00">TAN file updated to 2018 schemas.</change>
+   </head>
+   <body lexicon="LSJ Lampe new" morphology="Perseus">
+      <ana>
+         <tok ref="III 78" pos="1"><!--*** πῶς *** ἄγγελοι μὲν καὶ--></tok>
+         <!-- next <tok> for testing purposes only -->
+         <tok ref="III 78" pos="2"><!--πῶς *** ἄγγελοι *** μὲν καὶ δαίμονες--></tok>
+         
+         <lm>
+            <l>πῶς</l>
+            <m>d i - - - - - - - -</m>
+         </lm>
+         <lm>
+            <l>πως</l>
+            <m>d x - - - - - - - -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="2"><!--πῶς *** ἄγγελοι *** μὲν καὶ δαίμονες--></tok>
+         
+         <lm>
+            <l>ἄγγελος</l>
+            <m>n - - p - - - c n -</m>
+            
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="3"/>
+         <lm>
+            <l>μέν</l>
+            <m>g - - - - - - - - -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="4"><!--πῶς ἄγγελοι μὲν *** καὶ *** δαίμονες τῷ ἡμετέρῳ--></tok>
+         
+         <lm>
+            <l>καί</l>
+            <m>c - - - - - - - - -</m>
+            <m>d - - - - - - - - -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="4"><!--πῶς ἄγγελοι μὲν *** καὶ *** δαίμονες τῷ ἡμετέρῳ--></tok>
+         
+         <lm>
+            <l>καί</l>
+            <m>c - - - - - - - - -</m>
+            <m>d - - - - - - - - -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="5"><!--ἄγγελοι μὲν καὶ *** δαίμονες *** τῷ ἡμετέρῳ παραβάλλουσι--></tok>
+         
+         <lm>
+            <l>δαίμων</l>
+            <m>n - - p - - - c n -</m>
+            <m>n - - p - - - c v -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="6"><!--μὲν καὶ δαίμονες *** τῷ *** ἡμετέρῳ παραβάλλουσι κόσμῳ--></tok>
+         
+         <lm>
+            <l>ὁ</l>
+            <m>p a - s - - - m d -</m>
+            <m>p a - s - - - n d -</m>
+         </lm>
+         <lm>
+            <l>τίς</l>
+            <m>p i - s - - - c d -</m>
+            <m>p i - s - - - n d -</m>
+         </lm>
+         <lm>
+            <l>ὅς</l>
+            <m>p r - s - - - m d -</m>
+            <m>p r - s - - - n d -</m>
+         </lm>
+         <lm>
+            <l>τῷ</l>
+            <m>d - - - - - - - - -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="7"><!--καὶ δαίμονες τῷ *** ἡμετέρῳ *** παραβάλλουσι κόσμῳ ἡμεῖς--></tok>
+         
+         <lm>
+            <l>ἡμέτερος</l>
+            <m>p s - s - - - m d -</m>
+            <m>p s - s - - - n d -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="8"><!--δαίμονες τῷ ἡμετέρῳ *** παραβάλλουσι *** κόσμῳ ἡμεῖς δὲ--></tok>
+         
+         <lm>
+            <l>παραβάλλω</l>
+            <m>v - - p p p a m d -</m>
+            <m>v - - p p p a n d -</m>
+            <m>v - 3 p p i a - - -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="9"/>
+         <lm>
+            <l>κόσμος</l>
+            <m>n - - s - - - m d -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="10"><!--ἡμετέρῳ παραβάλλουσι κόσμῳ *** ἡμεῖς *** δὲ τοῖς αὐτῶν--></tok>
+         
+         <lm>
+            <l>ἐγώ</l>
+            <m>p p - p - - - - n -</m>
+            <m>p p - p - - - - v -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="11"/>
+         <lm>
+            <l>δέ</l>
+            <m>g - - - - - - - - -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="12"><!--κόσμῳ ἡμεῖς δὲ *** τοῖς *** αὐτῶν κόσμοις οὐ--></tok>
+         
+         <lm>
+            <l>ὁ</l>
+            <m>p a - p - - - m d -</m>
+            <m>p a - p - - - n d -</m>
+         </lm>
+         <lm>
+            <l>ὅς</l>
+            <m>p r - p - - - m d -</m>
+            <m>p r - p - - - n d -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="13"><!--ἡμεῖς δὲ τοῖς *** αὐτῶν *** κόσμοις οὐ παραβάλλομεν--></tok>
+         
+         <lm>
+            <l>αὐτός</l>
+            <m>p p - p - - - n g -</m>
+            <m>p p - p - - - f g -</m>
+            <m>p p - p - - - m g -</m>
+            <m>a - - p - - - n g -</m>
+            <m>a - - p - - - m g -</m>
+            <m>a - - p - - - f g -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="14"/>
+         <lm>
+            <l>κόσμος</l>
+            <m>n - - p - - - m d -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="15"/>
+         <lm>
+            <l>οὐ</l>
+            <m>d - - - - - - - - -</m>
+         </lm>
+      </ana>
+         <ana>
+         <tok ref="III 78" pos="16"><!--αὐτῶν κόσμοις οὐ *** παραβάλλομεν *** οὐδὲ γὰρ ἀγγέλους--></tok>
+         
+         <lm>
+            <l>παραβάλλω</l>
+            <m>v - 1 p p i a - - -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="17"><!--κόσμοις οὐ παραβάλλομεν *** οὐδὲ *** γὰρ ἀγγέλους θεῷ--></tok>
+         
+         <lm>
+            <l>οὐδέ</l>
+            <m>c - - - - - - - - -</m>
+            
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="18"/>
+         <lm>
+            <l>γάρ</l>
+            <m>g - - - - - - - - -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="19"/>
+         <lm>
+            <l>ἄγγελος</l>
+            <m>n - - p - - - c a -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="20"/>
+         <lm>
+            <l>θεός</l>
+            <m>n - - s - - - c d -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="21"><!--γὰρ ἀγγέλους θεῷ *** πλέον *** συνάπτειν δυνάμεθα οὐδὲ--></tok>
+         
+         <lm>
+            <l>πλέω</l>
+            <m>v - 1 s i i a - - -</m>
+            <m>v - - s p p a m v -</m>
+            <m>v - - s p p a n n -</m>
+            <m>v - - s p p a n v -</m>
+            <m>v - - s p p a n a -</m>
+            <m>v - 3 p i i a - - -</m>
+         </lm>
+         <lm>
+            <l>πλέως</l>
+            <m>a - - s - - - m a -</m>
+            <m>a - - s - - - n n -</m>
+            <m>a - - s - - - n v -</m>
+            <m>a - - s - - - n a -</m>
+         </lm>
+         <lm>
+            <l>πολύς</l>
+            <m>a - - s - - - m v c</m>
+            <m>a - - s - - - f v c</m>
+            <m>a - - s - - - n n c</m>
+            <m>a - - s - - - n v c</m>
+            <m>a - - s - - - n a c</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="22"/>
+         <lm>
+            <l>συνάπτω</l>
+            <m>v - - - p n a - - -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="23"><!--θεῷ πλέον συνάπτειν *** δυνάμεθα *** οὐδὲ δαίμονας μᾶλλον--></tok>
+         
+         <lm>
+            <l>δύναμαι</l>
+            <m>v - 1 p p i m - - -</m>
+            
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="24"><!--πλέον συνάπτειν δυνάμεθα *** οὐδὲ *** δαίμονας μᾶλλον ἀκαθάρτους--></tok>
+         
+         <lm>
+            <l>οὐδέ</l>
+            <m>c - - - - - - - - -</m>
+            
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="25"/>
+         <lm>
+            <l>δαίμων</l>
+            <m>n - - p - - - c a -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="26"/>
+         <lm>
+            <l>μᾶλλον</l>
+            <m>d - - - - - - - - c</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="27"><!--οὐδὲ δαίμονας μᾶλλον *** ἀκαθάρτους *** ποιεῖν προ­αιρούμεθα--></tok>
+         
+         <lm>
+            <l>ἀκάθαρτος</l>
+            <m>a - - p - - - m a -</m>
+            <m>a - - p - - - f a -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="28"/>
+         <lm>
+            <l>ποιέω</l>
+            <m>v - - - p n a - - -</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="III 78" pos="29"><!--μᾶλλον ἀκαθάρτους ποιεῖν *** προ­αιρούμεθα ***--></tok>
+         
+         <lm>
+            <l>προαιρέω</l>
+            <m>v - 1 p p i e - - -</m>
+            <m>v - 1 p i i e - - -</m>
+         </lm>
+      </ana>
+   </body>
+</TAN-A-lm>

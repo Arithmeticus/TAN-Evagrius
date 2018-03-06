@@ -16,7 +16,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <p part="N"/>
+        <p/>
       </publicationStmt>
       <sourceDesc default="false">
         <listBibl default="false">
@@ -29,19 +29,19 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc default="false">
-        <p part="N">Transcribed sometime before February 2013 by <persName instant="false" full="yes">Luke Dysinger</persName>, OSB. Not
+        <p>Transcribed sometime before February 2013 by <persName instant="false" full="yes">Luke Dysinger</persName>, OSB. Not
           checked against original.</p>
       </projectDesc>
       <samplingDecl default="false">
-        <p part="N">Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
+        <p>Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
           Footnotes, apparatus, translation, etc. have been omitted.</p>
       </samplingDecl>
       <editorialDecl default="false">
         <correction default="false" status="unknown" method="silent">
-          <p part="N">No corrections were found to be needed.</p>
+          <p>No corrections were found to be needed.</p>
         </correction>
         <normalization default="false" method="silent">
-          <p part="N">Because the original wasn't checked, line breaks have not been preserved.</p>
+          <p>Because the original wasn't checked, line breaks have not been preserved.</p>
         </normalization>
       </editorialDecl>
     </encodingDesc>
@@ -83,6 +83,7 @@
     </alter>
     <resp who="kalvesmaki" roles="editor"/>
     <resp who="xslt1" roles="stylesheet"/>
+    <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes.</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
@@ -92,9 +93,9 @@
   </head>
   <text>
     <body xml:lang="grc" in-progress="false">
-      <div type="century" n="VI" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="61" part="N" org="uniform" sample="complete"> <pb n="173"/> 
-          <p part="N">εἰ ὁ θεὸς “οὐκ ἔστιν θεὸς νεκρῶν ἀλλὰ ζώντων”, κατὰ δὲ Μωυσέα τὸν
+      <div type="century" n="VI">
+        <div type="chapter" n="61"> <pb n="173"/> 
+          <p>εἰ ὁ θεὸς “οὐκ ἔστιν θεὸς νεκρῶν ἀλλὰ ζώντων”, κατὰ δὲ Μωυσέα τὸν
             ἅγιον οἱ ἐγγαστρίμυθοι τοὺς νεκροὺς ἐρωτῶσιν, ἡ τοῦ Σαοὺλ ἐγγαστρίμυθος οὐ
             τὸν Σαμουήλ ἀνήγαγεν ἐκ νεκρῶν, εἴπερ μὴ νεκρὸς ἀλλὰ ζῶν ἐστιν Σαμουήλ.</p> </div>
       </div>

@@ -16,7 +16,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <p part="N"/>
+        <p/>
       </publicationStmt>
       <sourceDesc default="false">
         <listBibl default="false">
@@ -28,19 +28,19 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc default="false">
-        <p part="N">Transcribed February 2013 by <persName instant="false" full="yes">Joel Kalvesmaki</persName>, corrected against copy
+        <p>Transcribed February 2013 by <persName instant="false" full="yes">Joel Kalvesmaki</persName>, corrected against copy
           secured through Google Books.</p>
       </projectDesc>
       <samplingDecl default="false">
-        <p part="N">Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
+        <p>Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
           Footnotes, apparatus, translation, etc. have been omitted.</p>
       </samplingDecl>
       <editorialDecl default="false">
         <correction default="false" status="unknown" method="silent">
-          <p part="N">No corrections were found to be needed.</p>
+          <p>No corrections were found to be needed.</p>
         </correction>
         <normalization default="false" method="silent">
-          <p part="N">Transcription should reflect the original.</p>
+          <p>Transcription should reflect the original.</p>
         </normalization>
       </editorialDecl>
     </encodingDesc>
@@ -81,6 +81,7 @@
     </definitions>
     <resp who="kalvesmaki" roles="editor"/>
     <resp who="xslt1" roles="stylesheet"/>
+    <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Adjusted &lt;name></change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
@@ -90,12 +91,12 @@
   </head>
   <text>
     <body xml:lang="grc" in-progress="false">
-      <div type="century" n="IV" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="16" part="N" org="uniform" sample="complete"> <pb n="263"/> <p part="N"> Μονογενής ἐστιν, οὗ ἄλλος οὐ προετέχθη καὶ μεθ’ <lb/>ὃν ἕτερος οὐ γέγονε. </p> </div>
+      <div type="century" n="IV">
+        <div type="chapter" n="16"> <pb n="263"/> <p> Μονογενής ἐστιν, οὗ ἄλλος οὐ προετέχθη καὶ μεθ’ <lb/>ὃν ἕτερος οὐ γέγονε. </p> </div>
       </div>
-      <div type="century" n="VI" part="N" org="uniform" sample="complete">
-        <div type="chapter" n="31" part="N" org="uniform" sample="complete"> <pb n="254"/> <p part="N"> Γεννητόν ἐστι τὸ ἔκ τινος ὡς ἐκ πατρὸς γεννηθέν,</p> </div>
-        <div type="chapter" n="32" part="N" org="uniform" sample="complete"> <p part="N">γενητὸν δέ ἐστι τὸ ἔκ τινος γεγονός.</p> </div>
+      <div type="century" n="VI">
+        <div type="chapter" n="31"> <pb n="254"/> <p> Γεννητόν ἐστι τὸ ἔκ τινος ὡς ἐκ πατρὸς γεννηθέν,</p> </div>
+        <div type="chapter" n="32"> <p>γενητὸν δέ ἐστι τὸ ἔκ τινος γεγονός.</p> </div>
       </div>
     </body>
   </text>

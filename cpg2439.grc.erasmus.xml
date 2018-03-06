@@ -5,8 +5,8 @@
 <?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:transcription:cpg2439:grc:erasmus">
    <head>
-      <name>Epistula fidei</name>
-      <name>Letter of faith</name>
+      <name>Epistula fidei by Evagrius Ponticus</name>
+      <name>Letter of faith by Evagrius Ponticus</name>
       <license which="by_4.0"/>
       <licensor who="kalvesmaki"/>
       <key>
@@ -39,6 +39,7 @@
       </alter>
       <resp who="kalvesmaki" roles="editor"/>
       <resp who="xslt1" roles="stylesheet"/>
+      <change when="2018-03-05" who="kalvesmaki">Adjusted &lt;name></change>
       <change when="2017-04-12" who="kalvesmaki">Started file</change>
       <change who="xslt1" when="2017-12-16T12:49:21.021-05:00">TAN file updated to 2018 schemas.</change>
       <comment when="2017-04-12-04:00" who="kalvesmaki">Using Bunge's numbering, not
