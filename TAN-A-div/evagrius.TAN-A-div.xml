@@ -8,7 +8,7 @@
       <name>Head TAN file for Evagrius collection</name>
       <desc>This file is intended to be lightweight TAN-A-div file, to serve as a repository of
          general claims about the literary corpus of Evagrius Ponticus.</desc>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/evagrius.TAN-A-div.xml"/>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A-div/evagrius.TAN-A-div.xml"/>
       <license which="by_4.0"/>
       <licensor who="kalvesmaki"/>
       <key>
