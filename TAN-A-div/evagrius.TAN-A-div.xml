@@ -289,6 +289,8 @@
       <change when="2015-10-12" who="kalvesmaki">Started file</change>
       <change when="2015-12-27" who="kalvesmaki">Streamlined.</change>
       <change who="xslt1" when="2017-12-15T15:38:12.794-05:00">TAN file updated to 2018 schemas.</change>
+      <change when="2018-04-05-04:00" who="kalvesmaki">Corrected incipit for cpg 2483; added incipit
+         for cpg 2449.</change>
    </head>
    <body subject="evagrius" claimant="kalvesmaki">
       <!-- authorship -->
@@ -410,6 +412,10 @@
          <object xml:lang="grc">Ἀναγκαῖον ἡγοῦμαι καὶ τὰς ἀντιζύγους τῶν ἀρετῶν κακίας δι'
             ἐπιτόμου ὑποτάξαι τῇ σῇ φιλοπονίᾳ·</object>
       </claim>
+      <claim subject="cpg2449" verb="has-incipit">
+         <object xml:lang="grc">Ἄτεχνος κυβερνήτης ἕτοιμος ναυαγία καὶ ἀνεπιστήμων ἡγούμενος
+            ἀπόλεια μαθητών.</object>
+      </claim>
       <claim subject="cpg2450" verb="has-incipit">
          <object xml:lang="grc">Τῶν ἀντικειμένων δαιμόνων τῇ πρακτικῇ, πρῶτοι κατὰ τὸν πόλεμον
             συνίστανται</object>
@@ -437,8 +443,8 @@
             τῆς ἐν αὐτοῖς κρίσεως καὶ προνοίας.</object>
       </claim>
       <claim subject="cpg2483" verb="has-incipit">
-         <object xml:lang="grc">Ἄτεχνος κυβερνήτης ἕτοιμος ναυαγία καὶ ἀνεπιστήμων ἡγούμενος
-            ἀπόλεια μαθητών.</object>
+         <object xml:lang="grc">Ὁ ἰατρὸς ἅμα ἰατρός, ἅμα ἔχει τὴν ἰατρικὴν· καὶ μὴ ἐνεργῶν δὲ
+            λέγεται πρῶτον ἀπ’ αὐτῆς· πρῶτον γὰρ τέμνει καὶ δεύτεραν θεραπεύει.</object>
       </claim>
       
       <!-- survival -->
