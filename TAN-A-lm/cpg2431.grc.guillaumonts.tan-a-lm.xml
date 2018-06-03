@@ -1,0 +1,5337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-lm.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-lm.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A-lm xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001"><!-- fix @id -->
+   <head>
+      <name>Lexico-morphological data for: Guillaumonts' Greek edition of the Gnostikos of Evagrios Pontikos</name>
+      <!-- fix name -->
+      <license which="by 4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
+      </key>
+      <source>
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001</IRI>
+         <name>Guillaumonts' Greek edition of the Gnostikos of Evagrios Pontikos</name>
+         <location when-accessed="2018-05-19" href="../cpg2431.grc.guillaumonts.tei.xml"/>
+      </source>
+      <definitions>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:create-tan-a-lm</IRI>
+            <name>Stylesheet to create a TAN file.</name>
+            <desc>Stylesheet at: ../../do%20things/create/create%20TAN-A-lm.xsl</desc>
+         </algorithm>
+         <lexicon xml:id="LSJ" which="Liddell-Scott-Jones 9+"/>
+         <morphology xml:id="perseus-dik" which="Perseus Greek categorized"/>
+         <person xml:id="dik" which="Helma Dik"/>
+         <algorithm xml:id="algorithm-1">
+            <IRI>tag:textalign.net,2015:algorithm:org.perseus:tools:morpheus.v1</IRI>
+            <name>Tufts morphology service</name>
+         </algorithm>
+         <token-definition which="letters and apostrophes"/>
+         <person which="Joel Kalvesmaki" xml:id="kalvesmaki"/>
+         <algorithm which="Perseids" xml:id="perseids"/>
+         <role which="editor" xml:id="editor"/>
+         <role which="source" xml:id="source"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+      </definitions>
+      <resp who="xslt1" roles="stylesheet"/>
+      <resp who="dik algorithm-1" roles="source"/>
+      <resp who="kalvesmaki" roles="editor"/>
+      
+      
+      <change who="xslt1" when="2018-05-19T17:05:27.153-04:00">Created TAN-A-lm from tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001(file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/evagrius/cpg2431.grc.guillaumonts.tei.xml)</change>
+      </head>
+   <body lexicon="LSJ" morphology="perseus-dik" claimant="xslt1">
+<!--Cannot find lexico-morphological data for 25 tokens (4.6% of 545)-->
+      <ana>
+         <tok ref="4" val="αὐτοψεὶ"/>
+      </ana>
+      <ana>
+         <tok ref="4" val="&lt;ἡ"/>
+      </ana>
+      <ana>
+         <tok ref="4" val="δευτέρᾳ&gt;"/>
+      </ana>
+      <ana>
+         <tok ref="4" val="&lt;καὶ"/>
+      </ana>
+      <ana>
+         <tok ref="4" val="παρακολουθοῦντα&gt;"/>
+      </ana>
+      <ana>
+         <tok ref="21" val="δι’"/>
+         <tok ref="44" val="δι’"/>
+      </ana>
+      <ana>
+         <tok ref="21" val="Καϊάφᾳ"/>
+      </ana>
+      <ana>
+         <tok ref="22" val="δυσπρόσι"/>
+      </ana>
+      <ana>
+         <tok ref="27" val="&lt;γεγονότων"/>
+      </ana>
+      <ana>
+         <tok ref="27" val="καὶ&gt;"/>
+      </ana>
+      <ana>
+         <tok ref="28" val="ἐγκαταλείψεως"/>
+      </ana>
+      <ana>
+         <tok ref="33" val="&lt;ἀναγκαίως&gt;"/>
+      </ana>
+      <ana>
+         <tok ref="37" val="&lt;ταπεινώσας&gt;"/>
+      </ana>
+      <ana>
+         <tok ref="38" val="Ἀβενὴρ"/>
+      </ana>
+      <ana>
+         <tok ref="38" val="λευίτου"/>
+      </ana>
+      <ana>
+         <tok ref="42" val="&lt;ὡς"/>
+      </ana>
+      <ana>
+         <tok ref="42" val="μὲν&gt;"/>
+      </ana>
+      <ana>
+         <tok ref="44" val="Γρηγορίου"/>
+      </ana>
+      <ana>
+         <tok ref="44" val="σωφρο"/>
+      </ana>
+      <ana>
+         <tok ref="44" val="ἐπισπορέα"/>
+      </ana>
+      <ana>
+         <tok ref="44" val="δικαιο"/>
+      </ana>
+      <ana>
+         <tok ref="44" val="κατ’"/>
+         <tok ref="46" val="κατ’"/>
+      </ana>
+      <ana>
+         <tok ref="45" val="καππαδόκης"/>
+      </ana>
+      <ana>
+         <tok ref="46" val="Ἀθανάσιος"/>
+      </ana>
+      <ana>
+         <tok ref="47" val="Θμουϊτῶν"/>
+      </ana>
+      <!--Uncertain or ambiguous lexico-morphological data for 305 tokens (56.0% of 545)-->
+      <ana>
+         <tok ref="1" val="Πρακτικοὶ"/>
+         <lm>
+            <l>πρακτικός</l>
+            <m cert="0.5">a - - p - - - m n</m>
+            <m cert="0.5">a - - p - - - m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="1" val="λόγους"/>
+         <tok ref="4" val="λόγους"/>
+         <tok ref="15" val="λόγους"/>
+         <tok ref="21" val="λόγους"/>
+         <tok ref="22" val="λόγους"/>
+         <tok ref="44" val="λόγους"/>
+         <tok ref="48" val="λόγους"/>
+         <tok ref="48" val="λόγους" pos="2"/>
+         <lm cert="0.5">
+            <l>λόγος</l>
+            <m cert="0.6666666666666666">n e - p - - - m a</m>
+            <m cert="0.3333333333333333">n - - p - - - m a</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>λογόω</l>
+            <m>v - 2 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="1" val="νοήσουσι"/>
+         <lm>
+            <l>νοέω</l>
+            <m cert="0.25">v - - p a s a</m>
+            <m cert="0.25">v - - p f p a m d</m>
+            <m cert="0.25">v - - p f p a n d</m>
+            <m cert="0.25">v - - p f i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="1" val="γνωστικοὶ"/>
+         <tok ref="46" val="γνωστικοὶ"/>
+         <lm>
+            <l>γνωστικός</l>
+            <m cert="0.5">a - - p - - - m n</m>
+            <m cert="0.5">a - - p - - - m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="1" val="γνωστικά"/>
+         <lm>
+            <l>γνωστικός</l>
+            <m cert="0.125">a - - p - - - n n</m>
+            <m cert="0.125">a - - p - - - n v</m>
+            <m cert="0.125">a - - p - - - n a</m>
+            <m cert="0.125">a - - d - - - f n</m>
+            <m cert="0.125">a - - d - - - f v</m>
+            <m cert="0.125">a - - d - - - f a</m>
+            <m cert="0.125">a - - s - - - f n</m>
+            <m cert="0.125">a - - s - - - f v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="2" val="μέν"/>
+         <lm cert="0.6666666666666666">
+            <l>μένω</l>
+            <m cert="0.5">v - 2 s p m a</m>
+            <m cert="0.5">v - 3 s i i a</m>
+         </lm>
+         <lm cert="0.3333333333333333">
+            <l>μέν</l>
+            <m>g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="2" val="τὸ"/>
+         <tok ref="6" val="τὸ"/>
+         <tok ref="8" val="τὸ"/>
+         <tok ref="22" val="τὸ"/>
+         <tok ref="22" val="τὸ" pos="2"/>
+         <tok ref="27" val="τὸ"/>
+         <tok ref="37" val="τὸ"/>
+         <tok ref="41" val="τὸ"/>
+         <tok ref="41" val="τὸ" pos="2"/>
+         <tok ref="44" val="τὸ"/>
+         <tok ref="44" val="τὸ" pos="2"/>
+         <tok ref="44" val="τὸ" pos="3"/>
+         <tok ref="44" val="τὸ" pos="4"/>
+         <tok ref="45" val="τὸ"/>
+         <tok ref="46" val="τὸ"/>
+         <tok ref="50" val="τὸ"/>
+         <tok ref="50" val="τὸ" pos="2"/>
+         <lm cert="0.5">
+            <l>ὁ</l>
+            <m cert="0.5">p a - s - - - n a</m>
+            <m cert="0.5">p a - s - - - n n</m>
+         </lm>
+         <lm cert="0.25">
+            <l>ὅς</l>
+            <m cert="0.5">p r - s - - - n n</m>
+            <m cert="0.5">p r - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="2" val="παθητικὸν"/>
+         <lm>
+            <l>παθητικός</l>
+            <m cert="0.25">a - - s - - - m a</m>
+            <m cert="0.25">a - - s - - - n n</m>
+            <m cert="0.25">a - - s - - - n v</m>
+            <m cert="0.25">a - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="2" val="μέρος"/>
+         <tok ref="46" val="μέρος"/>
+         <lm>
+            <l>μέρος</l>
+            <m cert="0.5">n - - s - - - n v</m>
+            <m cert="0.25">n - - s - - - n n</m>
+            <m cert="0.25">n - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="2" val="τῆς"/>
+         <tok ref="6" val="τῆς"/>
+         <tok ref="13" val="τῆς"/>
+         <tok ref="24" val="τῆς"/>
+         <tok ref="28" val="τῆς"/>
+         <tok ref="37" val="τῆς"/>
+         <tok ref="41" val="τῆς"/>
+         <tok ref="44" val="τῆς"/>
+         <tok ref="44" val="τῆς" pos="2"/>
+         <tok ref="44" val="τῆς" pos="3"/>
+         <tok ref="45" val="τῆς"/>
+         <tok ref="45" val="τῆς" pos="2"/>
+         <tok ref="47" val="τῆς"/>
+         <lm cert="0.5">
+            <l>ὁ</l>
+            <m>p a - s - - - f g</m>
+         </lm>
+         <lm cert="0.5">
+            <l>ὅς</l>
+            <m>p r - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="2" val="ψυχῆς"/>
+         <tok ref="36" val="ψυχῆς"/>
+         <lm cert="0.5">
+            <l>ψυχή</l>
+            <m>n - - s - - - f g</m>
+         </lm>
+         <lm cert="0.5">
+            <l>Ψυχή</l>
+            <m>n e - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="2" val="μόνον"/>
+         <lm>
+            <l>μόνος</l>
+            <m cert="0.25">a - - s - - - f n</m>
+            <m cert="0.25">a - - s - - - f v</m>
+            <m cert="0.25">d</m>
+            <m cert="0.0625">a - - s - - - m a</m>
+            <m cert="0.0625">a - - s - - - n n</m>
+            <m cert="0.0625">a - - s - - - n v</m>
+            <m cert="0.0625">a - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="2" val="ἀπαθὲς"/>
+         <lm>
+            <l>ἀπαθής</l>
+            <m cert="0.2">a - - s - - - m v</m>
+            <m cert="0.2">a - - s - - - f v</m>
+            <m cert="0.2">a - - s - - - n n</m>
+            <m cert="0.2">a - - s - - - n v</m>
+            <m cert="0.2">a - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="3" val="ἁλὸς"/>
+         <lm cert="0.25">
+            <l>ἅλς</l>
+            <m>n - - s - - - m g</m>
+         </lm>
+         <lm cert="0.25">
+            <l>ἅλς2</l>
+            <m>n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="3" val="τοῖς"/>
+         <tok ref="3" val="τοῖς" pos="2"/>
+         <tok ref="13" val="τοῖς"/>
+         <tok ref="13" val="τοῖς" pos="2"/>
+         <tok ref="44" val="τοῖς"/>
+         <tok ref="48" val="τοῖς"/>
+         <tok ref="48" val="τοῖς" pos="2"/>
+         <lm cert="0.25">
+            <l>ὁ</l>
+            <m cert="0.5">p a - p - - - m d</m>
+            <m cert="0.5">p a - p - - - n d</m>
+         </lm>
+         <lm cert="0.25">
+            <l>ὅς</l>
+            <m cert="0.5">p r - p - - - m d</m>
+            <m cert="0.5">p r - p - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="3" val="ἀκαθάρτοις"/>
+         <lm>
+            <l>ἀκάθαρτος</l>
+            <m cert="0.3333333333333333">a - - p - - - m d</m>
+            <m cert="0.3333333333333333">a - - p - - - f d</m>
+            <m cert="0.3333333333333333">a - - p - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="3" val="φωτὸς"/>
+         <lm cert="0.25">
+            <l>φάος</l>
+            <m>n - - s - - - n g</m>
+         </lm>
+         <lm cert="0.25">
+            <l>φώς</l>
+            <m>n - - s - - - m g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="3" val="καθαροῖς"/>
+         <lm cert="0.3333333333333333">
+            <l>καθαίρω</l>
+            <m>v - 2 s f o a</m>
+         </lm>
+         <lm cert="0.3333333333333333">
+            <l>καθαρός</l>
+            <m cert="0.5">a - - p - - - m d</m>
+            <m cert="0.5">a - - p - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="συμβαίνουσα"/>
+         <lm>
+            <l>συμβαίνω</l>
+            <m cert="0.5">v - - s p p a f n</m>
+            <m cert="0.5">v - - s p p a f v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="γνῶσις"/>
+         <tok ref="9" val="γνῶσις"/>
+         <lm cert="0.5">
+            <l>γιγνώσκω</l>
+            <m>v - 2 s a m a</m>
+         </lm>
+         <lm cert="0.5">
+            <l>γνῶσις</l>
+            <m>n - - s - - - f n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="τῶν"/>
+         <tok ref="21" val="τῶν"/>
+         <tok ref="22" val="τῶν"/>
+         <tok ref="24" val="τῶν"/>
+         <tok ref="24" val="τῶν" pos="2"/>
+         <tok ref="27" val="τῶν"/>
+         <tok ref="29" val="τῶν"/>
+         <tok ref="32" val="τῶν"/>
+         <tok ref="41" val="τῶν"/>
+         <tok ref="44" val="τῶν"/>
+         <tok ref="44" val="τῶν" pos="2"/>
+         <tok ref="48" val="τῶν"/>
+         <tok ref="48" val="τῶν" pos="2"/>
+         <tok ref="50" val="τῶν"/>
+         <lm cert="0.125">
+            <l>ὅς</l>
+            <m cert="0.3333333333333333">p r - p - - - f g</m>
+            <m cert="0.3333333333333333">p r - p - - - m g</m>
+            <m cert="0.3333333333333333">p r - p - - - n g</m>
+         </lm>
+         <lm cert="0.0625">
+            <l>ὁ</l>
+            <m cert="0.3333333333333333">p a - p - - - m g</m>
+            <m cert="0.3333333333333333">p a - p - - - n g</m>
+            <m cert="0.3333333333333333">p a - p - - - f g</m>
+         </lm>
+         <lm cert="0.0625">
+            <l>τίς</l>
+            <m cert="0.5">p i - p - - - c g</m>
+            <m cert="0.5">p i - p - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="λόγων"/>
+         <tok ref="44" val="λόγων"/>
+         <lm cert="0.5">
+            <l>λόγος</l>
+            <m cert="0.5">n - - p - - - m g</m>
+            <m cert="0.5">n e - p - - - m g</m>
+         </lm>
+         <lm cert="0.25">
+            <l>λογάω</l>
+            <m cert="0.5">v - 3 p i i a</m>
+            <m cert="0.5">v - 1 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="πειρᾶται"/>
+         <lm>
+            <l>πειράω</l>
+            <m cert="0.5">v - 3 s p i e</m>
+            <m cert="0.5">v - 3 s p s e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="τὰς"/>
+         <tok ref="6" val="τὰς"/>
+         <tok ref="44" val="τὰς"/>
+         <tok ref="48" val="τὰς"/>
+         <tok ref="50" val="τὰς"/>
+         <lm cert="0.5">
+            <l>ὁ</l>
+            <m>p a - p - - - f a</m>
+         </lm>
+         <lm cert="0.5">
+            <l>ὅς</l>
+            <m>p r - p - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="ὕλας"/>
+         <tok ref="48" val="ὕλας"/>
+         <lm cert="0.30000000000000004">
+            <l>ὕλη</l>
+            <m cert="0.6666666666666666">n - - p - - - f a</m>
+            <m cert="0.3333333333333333">n - - s - - - f g</m>
+         </lm>
+         <lm cert="0.2">
+            <l>Ὕλη</l>
+            <m cert="0.5">n e - p - - - f a</m>
+            <m cert="0.5">n e - s - - - f g</m>
+         </lm>
+         <lm cert="0.1">
+            <l>ὑλάω</l>
+            <m>v - 2 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="ἐκ"/>
+         <tok ref="13" val="ἐκ"/>
+         <tok ref="32" val="ἐκ"/>
+         <tok ref="38" val="ἐκ"/>
+         <tok ref="41" val="ἐκ"/>
+         <tok ref="45" val="ἐκ"/>
+         <lm>
+            <l>ἐκ</l>
+            <m cert="0.5">r</m>
+            <m cert="0.5">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="χάριτος"/>
+         <tok ref="45" val="χάριτος"/>
+         <lm cert="0.3333333333333333">
+            <l>Χάρις</l>
+            <m>n e - s - - - f g</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>χάρις</l>
+            <m>n - - s - - - f g</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>χάριτος</l>
+            <m>a - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="ἐγγινομένη"/>
+         <lm>
+            <l>ἐγγίγνομαι</l>
+            <m cert="0.5">v - - s p p e f n</m>
+            <m cert="0.5">v - - s p p e f v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="τῇ"/>
+         <tok ref="4" val="τῇ" pos="2"/>
+         <tok ref="4" val="τῇ" pos="3"/>
+         <tok ref="37" val="τῇ"/>
+         <tok ref="48" val="τῇ"/>
+         <lm cert="0.375">
+            <l>ὁ</l>
+            <m cert="0.6666666666666666">p a - s - - - f d</m>
+            <m cert="0.3333333333333333">d d</m>
+         </lm>
+         <lm cert="0.375">
+            <l>ὅς</l>
+            <m cert="0.6666666666666666">p r - s - - - f d</m>
+            <m cert="0.3333333333333333">d r</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="τὰ"/>
+         <tok ref="4" val="τὰ" pos="2"/>
+         <tok ref="15" val="τὰ"/>
+         <tok ref="24" val="τὰ"/>
+         <tok ref="44" val="τὰ"/>
+         <tok ref="44" val="τὰ" pos="2"/>
+         <tok ref="44" val="τὰ" pos="3"/>
+         <tok ref="44" val="τὰ" pos="4"/>
+         <tok ref="47" val="τὰ"/>
+         <lm cert="0.4166666666666667">
+            <l>ὁ</l>
+            <m cert="0.39999999999999997">p a - p - - - n n</m>
+            <m cert="0.39999999999999997">p a - p - - - n a</m>
+            <m cert="0.09999999999999999">p a - d - - - f n</m>
+            <m cert="0.09999999999999999">p a - d - - - f a</m>
+         </lm>
+         <lm cert="0.08333333333333333">
+            <l>ὅς</l>
+            <m cert="0.5">p r - p - - - n n</m>
+            <m cert="0.5">p r - p - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="πράγματα"/>
+         <lm>
+            <l>πρᾶγμα</l>
+            <m cert="0.3333333333333333">n - - p - - - n n</m>
+            <m cert="0.3333333333333333">n - - p - - - n v</m>
+            <m cert="0.3333333333333333">n - - p - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="πρὸς"/>
+         <tok ref="5" val="πρὸς"/>
+         <tok ref="44" val="πρὸς"/>
+         <tok ref="50" val="πρὸς"/>
+         <lm>
+            <l>πρός</l>
+            <m cert="0.5">r</m>
+            <m cert="0.5">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="ἃ"/>
+         <lm cert="0.2857142857142857">
+            <l>ὅς</l>
+            <m cert="0.25">p r - p - - - n a</m>
+            <m cert="0.25">p r - p - - - n n</m>
+            <m cert="0.16666666666666666">p r - d - - - f a</m>
+            <m cert="0.16666666666666666">p r - d - - - f n</m>
+            <m cert="0.16666666666666666">p r - s - - - f n</m>
+         </lm>
+         <lm cert="0.14285714285714285">
+            <l>ὁ</l>
+            <m>p a - s - - - f n</m>
+         </lm>
+         <lm cert="0.14285714285714285">
+            <l>ὅς2</l>
+            <m>p s - p - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="βλέπων"/>
+         <tok ref="50" val="βλέπων"/>
+         <lm>
+            <l>βλέπω</l>
+            <m cert="0.5">v - 1 p p s a</m>
+            <m cert="0.5">v - - s p p a m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="νοῦς"/>
+         <tok ref="47" val="νοῦς"/>
+         <lm>
+            <l>νόος</l>
+            <m cert="0.5">n - - s - - - m n</m>
+            <m cert="0.5">n - - p - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="τοὺς"/>
+         <tok ref="5" val="τοὺς"/>
+         <tok ref="15" val="τοὺς"/>
+         <tok ref="15" val="τοὺς" pos="2"/>
+         <tok ref="22" val="τοὺς"/>
+         <tok ref="31" val="τοὺς"/>
+         <tok ref="31" val="τοὺς" pos="2"/>
+         <tok ref="31" val="τοὺς" pos="3"/>
+         <tok ref="33" val="τοὺς"/>
+         <tok ref="36" val="τοὺς"/>
+         <tok ref="36" val="τοὺς" pos="2"/>
+         <tok ref="44" val="τοὺς"/>
+         <tok ref="45" val="τοὺς"/>
+         <tok ref="46" val="τοὺς"/>
+         <tok ref="48" val="τοὺς"/>
+         <tok ref="48" val="τοὺς" pos="2"/>
+         <lm cert="0.5">
+            <l>ὁ</l>
+            <m>p a - p - - - m a</m>
+         </lm>
+         <lm cert="0.5">
+            <l>ὅς</l>
+            <m>p r - p - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="αὐτῶν"/>
+         <tok ref="46" val="αὐτῶν"/>
+         <lm>
+            <l>αὐτός</l>
+            <m cert="0.3333333333333333">p p - p - - - n g</m>
+            <m cert="0.16666666666666666">p p - p - - - m g</m>
+            <m cert="0.16666666666666666">p p - p - - - f g</m>
+            <m cert="0.1111111111111111">a - - p - - - n g</m>
+            <m cert="0.1111111111111111">a - - p - - - m g</m>
+            <m cert="0.1111111111111111">a - - p - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="πλάνη"/>
+         <lm cert="0.125">
+            <l>πλάνη</l>
+            <m cert="0.5">n - - s - - - f n</m>
+            <m cert="0.5">n - - s - - - f v</m>
+         </lm>
+         <lm cert="0.125">
+            <l>πλανάω</l>
+            <m cert="0.5">v - 2 s p m a</m>
+            <m cert="0.5">v - 3 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="ὀργὴ"/>
+         <lm>
+            <l>ὀργή</l>
+            <m cert="0.5">n - - s - - - f n</m>
+            <m cert="0.5">n - - s - - - f v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="καὶ"/>
+         <tok ref="5" val="καὶ"/>
+         <tok ref="6" val="καὶ"/>
+         <tok ref="6" val="καὶ" pos="2"/>
+         <tok ref="8" val="καὶ"/>
+         <tok ref="8" val="καὶ" pos="2"/>
+         <tok ref="9" val="καὶ"/>
+         <tok ref="13" val="καὶ"/>
+         <tok ref="13" val="καὶ" pos="2"/>
+         <tok ref="15" val="καὶ"/>
+         <tok ref="15" val="καὶ" pos="2"/>
+         <tok ref="15" val="καὶ" pos="3"/>
+         <tok ref="21" val="καὶ"/>
+         <tok ref="22" val="καὶ"/>
+         <tok ref="24" val="καὶ"/>
+         <tok ref="24" val="καὶ" pos="2"/>
+         <tok ref="32" val="καὶ"/>
+         <tok ref="32" val="καὶ" pos="2"/>
+         <tok ref="32" val="καὶ" pos="3"/>
+         <tok ref="36" val="καὶ"/>
+         <tok ref="37" val="καὶ"/>
+         <tok ref="38" val="καὶ"/>
+         <tok ref="42" val="καὶ"/>
+         <tok ref="44" val="καὶ"/>
+         <tok ref="44" val="καὶ" pos="2"/>
+         <tok ref="44" val="καὶ" pos="3"/>
+         <tok ref="44" val="καὶ" pos="4"/>
+         <tok ref="44" val="καὶ" pos="5"/>
+         <tok ref="44" val="καὶ" pos="6"/>
+         <tok ref="44" val="καὶ" pos="7"/>
+         <tok ref="44" val="καὶ" pos="8"/>
+         <tok ref="44" val="καὶ" pos="9"/>
+         <tok ref="45" val="καὶ"/>
+         <tok ref="45" val="καὶ" pos="2"/>
+         <tok ref="45" val="καὶ" pos="3"/>
+         <tok ref="45" val="καὶ" pos="4"/>
+         <tok ref="45" val="καὶ" pos="5"/>
+         <tok ref="45" val="καὶ" pos="6"/>
+         <tok ref="46" val="καὶ"/>
+         <tok ref="46" val="καὶ" pos="2"/>
+         <tok ref="48" val="καὶ"/>
+         <tok ref="48" val="καὶ" pos="2"/>
+         <tok ref="48" val="καὶ" pos="3"/>
+         <tok ref="48" val="καὶ" pos="4"/>
+         <tok ref="48" val="καὶ" pos="5"/>
+         <lm>
+            <l>καί</l>
+            <m cert="0.5">c</m>
+            <m cert="0.5">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="4" val="τούτοις"/>
+         <tok ref="48" val="τούτοις"/>
+         <lm>
+            <l>οὗτος</l>
+            <m cert="0.5">p d - p - - - m d</m>
+            <m cert="0.5">p d - p - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="5" val="Πᾶσαι"/>
+         <lm>
+            <l>πᾶς</l>
+            <m cert="0.5">a - - s - - - f n</m>
+            <m cert="0.5">a - - s - - - f v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="5" val="τῷ"/>
+         <tok ref="5" val="τῷ" pos="2"/>
+         <tok ref="21" val="τῷ"/>
+         <tok ref="24" val="τῷ"/>
+         <lm cert="0.14285714285714285">
+            <l>ὁ</l>
+            <m cert="0.5">p a - s - - - m d</m>
+            <m cert="0.5">p a - s - - - n d</m>
+         </lm>
+         <lm cert="0.14285714285714285">
+            <l>τίς</l>
+            <m cert="0.5">p i - s - - - c d</m>
+            <m cert="0.5">p i - s - - - n d</m>
+         </lm>
+         <lm cert="0.14285714285714285">
+            <l>τῷ</l>
+            <m>d</m>
+         </lm>
+         <lm cert="0.14285714285714285">
+            <l>ὅς</l>
+            <m cert="0.5">p r - s - - - m d</m>
+            <m cert="0.5">p r - s - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="5" val="γνωστικῷ"/>
+         <tok ref="8" val="γνωστικῷ"/>
+         <lm>
+            <l>γνωστικός</l>
+            <m cert="0.5">a - - s - - - m d</m>
+            <m cert="0.5">a - - s - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="5" val="ὁδοποιοῦσιν"/>
+         <lm>
+            <l>ὁδοποιέω</l>
+            <m cert="0.3333333333333333">v - - p p p a m d</m>
+            <m cert="0.3333333333333333">v - - p p p a n d</m>
+            <m cert="0.3333333333333333">v - - p p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="5" val="ἀρεταί"/>
+         <lm>
+            <l>ἀρετή</l>
+            <m cert="0.5">n - - p - - - f n</m>
+            <m cert="0.5">n - - p - - - f v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="5" val="πάσας"/>
+         <tok ref="6" val="πάσας"/>
+         <lm cert="0.5">
+            <l>πάσσω</l>
+            <m cert="0.4">v - - s a p a m n</m>
+            <m cert="0.4">v - - s a p a m v</m>
+            <m cert="0.2">v - 2 s a i a</m>
+         </lm>
+         <lm cert="0.30000000000000004">
+            <l>πᾶς</l>
+            <m cert="0.6666666666666666">a - - s - - - f g</m>
+            <m cert="0.3333333333333333">a - - p - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="5" val="ἀοργησία"/>
+         <tok ref="45" val="ἀοργησία"/>
+         <lm>
+            <l>ἀοργησία</l>
+            <m cert="0.2">n - - d - - - f n</m>
+            <m cert="0.2">n - - d - - - f v</m>
+            <m cert="0.2">n - - d - - - f a</m>
+            <m cert="0.2">n - - s - - - f n</m>
+            <m cert="0.2">n - - s - - - f v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="5" val="γὰρ"/>
+         <tok ref="22" val="γὰρ"/>
+         <tok ref="27" val="γὰρ"/>
+         <tok ref="30" val="γὰρ"/>
+         <tok ref="31" val="γὰρ"/>
+         <tok ref="32" val="γὰρ"/>
+         <tok ref="32" val="γὰρ" pos="2"/>
+         <tok ref="33" val="γὰρ"/>
+         <tok ref="36" val="γὰρ"/>
+         <tok ref="44" val="γὰρ"/>
+         <tok ref="48" val="γὰρ"/>
+         <lm cert="0.2">
+            <l>γάρ</l>
+            <m>g</m>
+         </lm>
+         <lm cert="0.1">
+            <l>γάρον</l>
+            <m cert="0.3333333333333333">n - - p - - - n n</m>
+            <m cert="0.3333333333333333">n - - p - - - n v</m>
+            <m cert="0.3333333333333333">n - - p - - - n a</m>
+         </lm>
+         <lm cert="0.1">
+            <l>γάρος</l>
+            <m>n - - s - - - m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="5" val="ῥᾳδίως"/>
+         <tok ref="15" val="ῥᾳδίως"/>
+         <tok ref="36" val="ῥᾳδίως"/>
+         <lm>
+            <l>ῥᾴδιος</l>
+            <m cert="0.3333333333333333">a - - p - - - f a</m>
+            <m cert="0.3333333333333333">a - - p - - - m a</m>
+            <m cert="0.3333333333333333">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="5" val="ἑαυτοῦ"/>
+         <lm>
+            <l>ἑαυτοῦ</l>
+            <m cert="0.5">p k - s - - - n g</m>
+            <m cert="0.5">p k - s - - - m g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="5" val="κατανύττοντι"/>
+         <lm cert="0.5">
+            <l>κατανύσσομαι</l>
+            <m cert="0.3333333333333333">v - - s p p a m d</m>
+            <m cert="0.3333333333333333">v - - s p p a n d</m>
+            <m cert="0.3333333333333333">v - - p p i a</m>
+         </lm>
+         <lm cert="0.5">
+            <l>κατανύσσω</l>
+            <m cert="0.3333333333333333">v - - s p p a m d</m>
+            <m cert="0.3333333333333333">v - - s p p a n d</m>
+            <m cert="0.3333333333333333">v - - p p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="6" val="Ἀσφαλιζέσθω"/>
+         <lm cert="0.5">
+            <l>ἀσφαλίζομαι</l>
+            <m>v - - s p m e</m>
+         </lm>
+         <lm cert="0.5">
+            <l>ἀσφαλίζω</l>
+            <m>v - - s p m e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="6" val="ἐν"/>
+         <tok ref="6" val="ἐν" pos="2"/>
+         <tok ref="21" val="ἐν"/>
+         <tok ref="21" val="ἐν" pos="2"/>
+         <tok ref="24" val="ἐν"/>
+         <tok ref="32" val="ἐν"/>
+         <tok ref="37" val="ἐν"/>
+         <tok ref="48" val="ἐν"/>
+         <tok ref="48" val="ἐν" pos="2"/>
+         <tok ref="48" val="ἐν" pos="3"/>
+         <lm>
+            <l>ἐν</l>
+            <m cert="0.5">r</m>
+            <m cert="0.5">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="6" val="ταῖς"/>
+         <lm cert="0.5">
+            <l>ὁ</l>
+            <m>p a - p - - - f d</m>
+         </lm>
+         <lm cert="0.5">
+            <l>ὅς</l>
+            <m>p r - p - - - f d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="6" val="λάθῃ"/>
+         <lm cert="0.8333333333333333">
+            <l>λανθάνω</l>
+            <m cert="0.2">v - 2 s p i e</m>
+            <m cert="0.2">v - 2 s a s m</m>
+            <m cert="0.2">v - 3 s a s a</m>
+            <m cert="0.2">v - 3 s p s a</m>
+            <m cert="0.2">v - 2 s p s e</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>λήθη</l>
+            <m>n - - s - - - f d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="6" val="αὐτὸν"/>
+         <lm>
+            <l>αὐτός</l>
+            <m cert="0.5">p p - s - - - m a</m>
+            <m cert="0.5">a - - s - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="6" val="ἕξις"/>
+         <lm>
+            <l>ἕξις</l>
+            <m cert="0.5">n - - p - - - f a</m>
+            <m cert="0.5">n - - s - - - f n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="6" val="γινομένη"/>
+         <lm>
+            <l>γίγνομαι</l>
+            <m cert="0.5">v - - s p p m f n</m>
+            <m cert="0.5">v - - s p p m f v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="6" val="πειράσθω"/>
+         <lm cert="0.25">
+            <l>πείρω</l>
+            <m>v - 3 s a m m</m>
+         </lm>
+         <lm cert="0.25">
+            <l>πειράω</l>
+            <m>v - 3 s p m e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="6" val="κατορθοῦν"/>
+         <lm>
+            <l>κατορθόω</l>
+            <m cert="0.2">v - - s p p a m v</m>
+            <m cert="0.2">v - - s p p a n n</m>
+            <m cert="0.2">v - - s p p a n v</m>
+            <m cert="0.2">v - - s p p a n a</m>
+            <m cert="0.2">v - - - p n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="6" val="ἵνα"/>
+         <tok ref="15" val="ἵνα"/>
+         <tok ref="21" val="ἵνα"/>
+         <lm>
+            <l>ἵνα</l>
+            <m cert="0.5">d r</m>
+            <m cert="0.5">c</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="6" val="αὐτῷ"/>
+         <lm>
+            <l>αὐτός</l>
+            <m cert="0.25">p p - s - - - m d</m>
+            <m cert="0.25">p p - s - - - n d</m>
+            <m cert="0.25">a - - s - - - m d</m>
+            <m cert="0.25">a - - s - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="6" val="τὸν"/>
+         <tok ref="9" val="τὸν"/>
+         <tok ref="13" val="τὸν"/>
+         <tok ref="22" val="τὸν"/>
+         <tok ref="30" val="τὸν"/>
+         <tok ref="32" val="τὸν"/>
+         <tok ref="33" val="τὸν"/>
+         <tok ref="33" val="τὸν" pos="2"/>
+         <tok ref="42" val="τὸν"/>
+         <tok ref="44" val="τὸν"/>
+         <tok ref="45" val="τὸν"/>
+         <lm cert="0.5">
+            <l>ὁ</l>
+            <m>p a - s - - - m a</m>
+         </lm>
+         <lm cert="0.5">
+            <l>ὅς</l>
+            <m>p r - s - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="6" val="νοῦν"/>
+         <tok ref="42" val="νοῦν"/>
+         <lm cert="0.05263157894736842">
+            <l>νόος</l>
+            <m>n - - s - - - m a</m>
+         </lm>
+         <lm cert="0.017543859649122806">
+            <l>νέω</l>
+            <m cert="0.16666666666666666">v - 3 p i i a</m>
+            <m cert="0.16666666666666666">v - - s p p a n n</m>
+            <m cert="0.16666666666666666">v - - s p p a n v</m>
+            <m cert="0.16666666666666666">v - - s p p a n a</m>
+            <m cert="0.16666666666666666">v - - s p p a m v</m>
+            <m cert="0.16666666666666666">v - 1 s i i a</m>
+         </lm>
+         <lm cert="0.017543859649122806">
+            <l>νέω2</l>
+            <m cert="0.16666666666666666">v - - s p p a m v</m>
+            <m cert="0.16666666666666666">v - 3 p i i a</m>
+            <m cert="0.16666666666666666">v - 1 s i i a</m>
+            <m cert="0.16666666666666666">v - - s p p a n n</m>
+            <m cert="0.16666666666666666">v - - s p p a n v</m>
+            <m cert="0.16666666666666666">v - - s p p a n a</m>
+         </lm>
+         <lm cert="0.017543859649122806">
+            <l>νέω3</l>
+            <m cert="0.16666666666666666">v - - s p p a m v</m>
+            <m cert="0.16666666666666666">v - 3 p i i a</m>
+            <m cert="0.16666666666666666">v - 1 s i i a</m>
+            <m cert="0.16666666666666666">v - - s p p a n n</m>
+            <m cert="0.16666666666666666">v - - s p p a n v</m>
+            <m cert="0.16666666666666666">v - - s p p a n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="8" val="Αἰσχρὸν"/>
+         <lm>
+            <l>αἰσχρός</l>
+            <m cert="0.33333333333333337">a - - s - - - f a</m>
+            <m cert="0.16666666666666669">a - - s - - - m a</m>
+            <m cert="0.16666666666666669">a - - s - - - n v</m>
+            <m cert="0.16666666666666669">a - - s - - - n n</m>
+            <m cert="0.16666666666666669">a - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="8" val="ἀδικουμένῳ"/>
+         <tok ref="8" val="ἀδικουμένῳ" pos="2"/>
+         <lm>
+            <l>ἀδικέω</l>
+            <m cert="0.5">v - - s p p e m d</m>
+            <m cert="0.5">v - - s p p e n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="8" val="ἀδικοῦντι"/>
+         <tok ref="8" val="ἀδικοῦντι" pos="2"/>
+         <lm>
+            <l>ἀδικέω</l>
+            <m cert="0.5">v - 3 p p i a</m>
+            <m cert="0.25">v - - s p p a m d</m>
+            <m cert="0.25">v - - s p p a n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="8" val="ὅτι"/>
+         <tok ref="8" val="ὅτι" pos="2"/>
+         <tok ref="28" val="ὅτι"/>
+         <tok ref="47" val="ὅτι"/>
+         <lm cert="0.49999999999999994">
+            <l>ὅστις</l>
+            <m cert="0.33333333333333337">p r - s - - - n n</m>
+            <m cert="0.33333333333333337">p r - s - - - n a</m>
+            <m cert="0.16666666666666669">p i - s - - - n n</m>
+            <m cert="0.16666666666666669">p i - s - - - n a</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>ὅτι</l>
+            <m>d</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>ὅτι2</l>
+            <m>c</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="9" val="συντηρουμένη"/>
+         <lm>
+            <l>συντηρέω</l>
+            <m cert="0.5">v - - s p p e f n</m>
+            <m cert="0.5">v - - s p p e f v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="9" val="διδάσκει"/>
+         <lm>
+            <l>διδάσκω</l>
+            <m cert="0.5">v - 2 s p i e</m>
+            <m cert="0.5">v - 3 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="9" val="μετέχοντα"/>
+         <lm>
+            <l>μετέχω</l>
+            <m cert="0.25">v - - p p p a n n</m>
+            <m cert="0.25">v - - p p p a n v</m>
+            <m cert="0.25">v - - p p p a n a</m>
+            <m cert="0.25">v - - s p p a m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="9" val="αὐτῆς"/>
+         <tok ref="44" val="αὐτῆς"/>
+         <lm>
+            <l>αὐτός</l>
+            <m cert="0.5">p p - s - - - f g</m>
+            <m cert="0.5">a - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="9" val="ὅπως"/>
+         <lm>
+            <l>ὅπως</l>
+            <m cert="0.3333333333333333">c</m>
+            <m cert="0.3333333333333333">d i</m>
+            <m cert="0.3333333333333333">d r</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="9" val="ἂν"/>
+         <lm cert="0.3333333333333333">
+            <l>ἀνά</l>
+            <m>r</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>ἄν</l>
+            <m>g m</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>ἐάν</l>
+            <m>c</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="9" val="ἐπὶ"/>
+         <tok ref="31" val="ἐπὶ"/>
+         <tok ref="41" val="ἐπὶ"/>
+         <tok ref="48" val="ἐπὶ"/>
+         <tok ref="48" val="ἐπὶ" pos="2"/>
+         <lm>
+            <l>ἐπί</l>
+            <m cert="0.5">r</m>
+            <m cert="0.5">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="9" val="μείζονα"/>
+         <lm>
+            <l>μέγας</l>
+            <m cert="0.3333333333333333">a - - p - - - n v c</m>
+            <m cert="0.3333333333333333">a - - s - - - f a c</m>
+            <m cert="0.11111111111111109">a - - p - - - n n c</m>
+            <m cert="0.11111111111111109">a - - p - - - n a c</m>
+            <m cert="0.11111111111111109">a - - s - - - m a c</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="13" val="Δίκαιον"/>
+         <lm cert="0.25">
+            <l>δίκαιος</l>
+            <m cert="0.3333333333333333">a - - s - - - m a</m>
+            <m cert="0.3333333333333333">a - - s - - - n n</m>
+            <m cert="0.3333333333333333">a - - s - - - n a</m>
+         </lm>
+         <lm cert="0.25">
+            <l>Δίκαιος</l>
+            <m>n e - s - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="13" val="μοναχοῖς"/>
+         <lm cert="0.6000000000000001">
+            <l>μοναχόω</l>
+            <m cert="0.3333333333333333">v - - s p o a</m>
+            <m cert="0.3333333333333333">v - - s p s a</m>
+            <m cert="0.3333333333333333">v - - s p i a</m>
+         </lm>
+         <lm cert="0.4">
+            <l>μοναχός</l>
+            <m cert="0.5">a - - p - - - m d</m>
+            <m cert="0.5">a - - p - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="13" val="κοσμικοῖς"/>
+         <lm>
+            <l>κοσμικός</l>
+            <m cert="0.5">a - - p - - - m d</m>
+            <m cert="0.5">a - - p - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="13" val="περὶ"/>
+         <tok ref="21" val="περὶ"/>
+         <tok ref="21" val="περὶ" pos="2"/>
+         <tok ref="36" val="περὶ"/>
+         <tok ref="38" val="περὶ"/>
+         <tok ref="42" val="περὶ"/>
+         <tok ref="48" val="περὶ"/>
+         <tok ref="48" val="περὶ" pos="2"/>
+         <tok ref="48" val="περὶ" pos="3"/>
+         <lm>
+            <l>περί</l>
+            <m cert="0.5">r</m>
+            <m cert="0.5">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="13" val="πολιτείας"/>
+         <lm>
+            <l>πολιτεία</l>
+            <m cert="0.5">n - - p - - - f a</m>
+            <m cert="0.5">n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="13" val="ὅσα"/>
+         <lm>
+            <l>ὅσος</l>
+            <m cert="0.125">a - - p - - - n n</m>
+            <m cert="0.125">a - - p - - - n v</m>
+            <m cert="0.125">a - - p - - - n a</m>
+            <m cert="0.125">a - - d - - - f n</m>
+            <m cert="0.125">a - - d - - - f v</m>
+            <m cert="0.125">a - - d - - - f a</m>
+            <m cert="0.125">a - - s - - - f n</m>
+            <m cert="0.125">a - - s - - - f v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="13" val="ἢ"/>
+         <tok ref="24" val="ἢ"/>
+         <tok ref="24" val="ἢ" pos="2"/>
+         <tok ref="38" val="ἢ"/>
+         <tok ref="41" val="ἢ"/>
+         <tok ref="41" val="ἢ" pos="2"/>
+         <tok ref="41" val="ἢ" pos="3"/>
+         <tok ref="41" val="ἢ" pos="4"/>
+         <tok ref="41" val="ἢ" pos="5"/>
+         <tok ref="41" val="ἢ" pos="6"/>
+         <tok ref="48" val="ἢ"/>
+         <lm cert="0.3333333333333333">
+            <l>ἤ</l>
+            <m>c</m>
+         </lm>
+         <lm cert="0.3333333333333333">
+            <l>ἤ2</l>
+            <m>i</m>
+         </lm>
+         <lm cert="0.3333333333333333">
+            <l>τίη</l>
+            <m>d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="13" val="δόγματα"/>
+         <lm>
+            <l>δόγμα</l>
+            <m cert="0.3333333333333333">n - - s - - - n v</m>
+            <m cert="0.16666666666666666">n - - s - - - n n</m>
+            <m cert="0.16666666666666666">n - - s - - - n a</m>
+            <m cert="0.1111111111111111">n - - p - - - n n</m>
+            <m cert="0.1111111111111111">n - - p - - - n v</m>
+            <m cert="0.1111111111111111">n - - p - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="13" val="ὧν"/>
+         <lm cert="0.3333333333333333">
+            <l>ὅς</l>
+            <m cert="0.5">p r - p - - - n g</m>
+            <m cert="0.25">p r - p - - - f g</m>
+            <m cert="0.25">p r - p - - - m g</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>ὅς2</l>
+            <m cert="0.3333333333333333">p s - p - - - m g</m>
+            <m cert="0.3333333333333333">p s - p - - - n g</m>
+            <m cert="0.3333333333333333">p s - p - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="13" val="χωρὶς"/>
+         <lm>
+            <l>χωρίς</l>
+            <m cert="0.5">d</m>
+            <m cert="0.5">r</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="13" val="οὐδεὶς"/>
+         <lm>
+            <l>οὐδείς</l>
+            <m cert="0.5">a - - s - - - m n</m>
+            <m cert="0.5">a - - s - - - m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="13" val="ὄψεται"/>
+         <lm>
+            <l>ὁράω</l>
+            <m cert="0.5">v - 3 s a s m</m>
+            <m cert="0.5">v - 3 s f i m</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="13" val="Κύριον"/>
+         <tok ref="33" val="Κύριον"/>
+         <lm cert="0.24999999999999997">
+            <l>κύριος</l>
+            <m cert="0.33333333333333337">a - - p - - - f n</m>
+            <m cert="0.33333333333333337">a - - p - - - f v</m>
+            <m cert="0.16666666666666669">a - - p - - - m n</m>
+            <m cert="0.16666666666666669">a - - p - - - m v</m>
+         </lm>
+         <lm cert="0.08333333333333333">
+            <l>κύριος2</l>
+            <m cert="0.5">n - - p - - - m n</m>
+            <m cert="0.5">n - - p - - - m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="15" val="Γνώριζε"/>
+         <lm>
+            <l>γνωρίζω</l>
+            <m cert="0.5">v - 2 s p m a</m>
+            <m cert="0.5">v - 3 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="15" val="καιρῶν"/>
+         <lm cert="0.07142857142857142">
+            <l>καιρός</l>
+            <m>n - - p - - - m g</m>
+         </lm>
+         <lm cert="0.07142857142857142">
+            <l>καιρόω</l>
+            <m cert="0.16666666666666666">v - - s p p a m v</m>
+            <m cert="0.16666666666666666">v - - s p p a n n</m>
+            <m cert="0.16666666666666666">v - - s p p a n v</m>
+            <m cert="0.16666666666666666">v - - s p p a n a</m>
+            <m cert="0.16666666666666666">v - - s p p a m n</m>
+            <m cert="0.16666666666666666">v - - - p n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="15" val="βίων"/>
+         <lm cert="0.30000000000000004">
+            <l>βιόω</l>
+            <m cert="0.6666666666666666">v - 3 p a i a</m>
+            <m cert="0.3333333333333333">v - 1 s a i a</m>
+         </lm>
+         <lm cert="0.2">
+            <l>Βίων</l>
+            <m cert="0.5">n e - s - - - m n</m>
+            <m cert="0.5">n e - s - - - m v</m>
+         </lm>
+         <lm cert="0.1">
+            <l>βίος</l>
+            <m>n - - p - - - m g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="15" val="ἑκάστῳ"/>
+         <tok ref="44" val="ἑκάστῳ"/>
+         <lm>
+            <l>ἕκαστος</l>
+            <m cert="0.5">a - - s - - - m d</m>
+            <m cert="0.5">a - - s - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="15" val="συμφέροντα"/>
+         <lm>
+            <l>συμφέρω</l>
+            <m cert="0.25">v - - s p p a m a</m>
+            <m cert="0.25">v - - p p p a n n</m>
+            <m cert="0.25">v - - p p p a n v</m>
+            <m cert="0.25">v - - p p p a n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="21" val="ψεκτῶν"/>
+         <lm cert="0.125">
+            <l>ψέκτης</l>
+            <m>n - - p - - - m g</m>
+         </lm>
+         <lm cert="0.125">
+            <l>ψεκτός</l>
+            <m cert="0.3333333333333333">a - - p - - - f g</m>
+            <m cert="0.3333333333333333">a - - p - - - m g</m>
+            <m cert="0.3333333333333333">a - - p - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="21" val="ἀλληγορήσεις"/>
+         <lm>
+            <l>ἀλληγορέω</l>
+            <m cert="0.3333333333333333">v - - s a s a</m>
+            <m cert="0.3333333333333333">v - - s f i a</m>
+            <m cert="0.3333333333333333">v - - s t i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="21" val="οὐδὲ"/>
+         <lm>
+            <l>οὐδέ</l>
+            <m cert="0.5">c</m>
+            <m cert="0.5">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="21" val="ζητήσεις"/>
+         <lm cert="0.30000000000000004">
+            <l>ζητέω</l>
+            <m cert="0.6666666666666666">v - 2 s a s a</m>
+            <m cert="0.3333333333333333">v - 2 s f i a</m>
+         </lm>
+         <lm cert="0.1">
+            <l>ζήτησις</l>
+            <m cert="0.3333333333333333">n - - p - - - f n</m>
+            <m cert="0.3333333333333333">n - - p - - - f v</m>
+            <m cert="0.3333333333333333">n - - p - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="21" val="τι"/>
+         <tok ref="24" val="τι"/>
+         <lm cert="0.2857142857142857">
+            <l>τις</l>
+            <m cert="0.5">p x - s - - - n n</m>
+            <m cert="0.25">p x - s - - - n v</m>
+            <m cert="0.25">p x - s - - - n a</m>
+         </lm>
+         <lm cert="0.14285714285714285">
+            <l>τίς</l>
+            <m cert="0.3333333333333333">p i - s - - - n n</m>
+            <m cert="0.3333333333333333">p i - s - - - n v</m>
+            <m cert="0.3333333333333333">p i - s - - - n a</m>
+         </lm>
+         <lm cert="0.14285714285714285">
+            <l>τι</l>
+            <m>m</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="21" val="πνευματικὸν"/>
+         <lm>
+            <l>πνευματικός</l>
+            <m cert="0.25">a - - s - - - m a</m>
+            <m cert="0.25">a - - s - - - n n</m>
+            <m cert="0.25">a - - s - - - n v</m>
+            <m cert="0.25">a - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="21" val="αὐτοῖς"/>
+         <lm>
+            <l>αὐτός</l>
+            <m cert="0.25">p p - p - - - n d</m>
+            <m cert="0.25">p p - p - - - m d</m>
+            <m cert="0.25">a - - p - - - n d</m>
+            <m cert="0.25">a - - p - - - m d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="21" val="πλὴν"/>
+         <lm>
+            <l>πλήν</l>
+            <m cert="0.5">r</m>
+            <m cert="0.5">c</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="21" val="εἰ"/>
+         <lm>
+            <l>εἰ</l>
+            <m cert="0.5">c</m>
+            <m cert="0.25">d</m>
+            <m cert="0.25">g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="21" val="μὴ"/>
+         <tok ref="22" val="μὴ"/>
+         <tok ref="22" val="μὴ" pos="2"/>
+         <tok ref="32" val="μὴ"/>
+         <tok ref="32" val="μὴ" pos="2"/>
+         <tok ref="37" val="μὴ"/>
+         <tok ref="37" val="μὴ" pos="2"/>
+         <tok ref="42" val="μὴ"/>
+         <tok ref="42" val="μὴ" pos="2"/>
+         <tok ref="42" val="μὴ" pos="3"/>
+         <tok ref="44" val="μὴ"/>
+         <tok ref="44" val="μὴ" pos="2"/>
+         <lm>
+            <l>μή</l>
+            <m cert="0.5">c</m>
+            <m cert="0.5">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="21" val="ὡς"/>
+         <tok ref="24" val="ὡς"/>
+         <tok ref="42" val="ὡς"/>
+         <lm>
+            <l>ὡς</l>
+            <m cert="0.25">c</m>
+            <m cert="0.25">d</m>
+            <m cert="0.25">d r</m>
+            <m cert="0.25">r</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="21" val="θανάτου"/>
+         <lm cert="0.5">
+            <l>θάνατος</l>
+            <m cert="0.5">n - - s - - - m g</m>
+            <m cert="0.5">n e - s - - - m g</m>
+         </lm>
+         <lm cert="0.25">
+            <l>θανατόω</l>
+            <m cert="0.5">v - 2 s p m a</m>
+            <m cert="0.5">v - 3 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="21" val="τοῦ"/>
+         <tok ref="24" val="τοῦ"/>
+         <tok ref="38" val="τοῦ"/>
+         <tok ref="38" val="τοῦ" pos="2"/>
+         <tok ref="38" val="τοῦ" pos="3"/>
+         <tok ref="42" val="τοῦ"/>
+         <tok ref="42" val="τοῦ" pos="2"/>
+         <tok ref="42" val="τοῦ" pos="3"/>
+         <tok ref="44" val="τοῦ"/>
+         <tok ref="44" val="τοῦ" pos="2"/>
+         <tok ref="45" val="τοῦ"/>
+         <tok ref="47" val="τοῦ"/>
+         <lm cert="0.3333333333333333">
+            <l>ὁ</l>
+            <m cert="0.5">p a - s - - - m g</m>
+            <m cert="0.5">p a - s - - - n g</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>τίς</l>
+            <m cert="0.5">p i - s - - - c g</m>
+            <m cert="0.5">p i - s - - - n g</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>ὅς</l>
+            <m cert="0.5">p r - s - - - m g</m>
+            <m cert="0.5">p r - s - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="21" val="ἡμῶν"/>
+         <lm cert="0.5">
+            <l>ἡμός</l>
+            <m cert="0.5">a - - p - - - n g</m>
+            <m cert="0.25">a - - p - - - m g</m>
+            <m cert="0.25">a - - p - - - f g</m>
+         </lm>
+         <lm cert="0.25">
+            <l>ἐγώ</l>
+            <m>p p - p - - - - g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="21" val="προείπῃ"/>
+         <lm>
+            <l>προαγορεύω</l>
+            <m cert="0.5">v - 2 s a s m</m>
+            <m cert="0.5">v - 3 s a s a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="22" val="Δεῖ"/>
+         <lm cert="0.037037037037037035">
+            <l>δέω</l>
+            <m cert="0.25">v - 2 s p i e</m>
+            <m cert="0.25">v - 3 s i i a</m>
+            <m cert="0.25">v - 2 s p m a</m>
+            <m cert="0.25">v - 3 s p i a</m>
+         </lm>
+         <lm cert="0.037037037037037035">
+            <l>δέω2</l>
+            <m cert="0.25">v - 3 s p i a</m>
+            <m cert="0.25">v - 2 s p i e</m>
+            <m cert="0.25">v - 2 s p m a</m>
+            <m cert="0.25">v - 3 s i i a</m>
+         </lm>
+         <lm cert="0.037037037037037035">
+            <l>δεῖ</l>
+            <m>v - 3 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="22" val="σκυθρωπὸν"/>
+         <lm>
+            <l>σκυθρωπός</l>
+            <m cert="0.2">a - - s - - - m a</m>
+            <m cert="0.2">a - - s - - - f a</m>
+            <m cert="0.2">a - - s - - - n n</m>
+            <m cert="0.2">a - - s - - - n v</m>
+            <m cert="0.2">a - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="22" val="εἶναι"/>
+         <tok ref="32" val="εἶναι"/>
+         <tok ref="44" val="εἶναι"/>
+         <tok ref="44" val="εἶναι" pos="2"/>
+         <tok ref="44" val="εἶναι" pos="3"/>
+         <lm cert="0.3333333333333333">
+            <l>εἰμί</l>
+            <m>v c - - p n a</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>εἶμι</l>
+            <m>v - 3 s p i a</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>εἶτα</l>
+            <m>d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="22" val="γνωστικὸν"/>
+         <tok ref="32" val="γνωστικὸν"/>
+         <lm>
+            <l>γνωστικός</l>
+            <m cert="0.25">a - - s - - - m a</m>
+            <m cert="0.25">a - - s - - - n n</m>
+            <m cert="0.25">a - - s - - - n v</m>
+            <m cert="0.25">a - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="22" val="μηδὲ"/>
+         <lm>
+            <l>μηδέ</l>
+            <m cert="0.5">d</m>
+            <m cert="0.5">c</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="22" val="τον"/>
+         <lm cert="0.5">
+            <l>ὁ</l>
+            <m>p a - s - - - m a</m>
+         </lm>
+         <lm cert="0.5">
+            <l>ὅς</l>
+            <m>p r - s - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="22" val="ἀγνοοῦντός"/>
+         <lm>
+            <l>ἀγνοέω</l>
+            <m cert="0.5">v - - s p p a m g</m>
+            <m cert="0.5">v - - s p p a n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="22" val="γινομένων"/>
+         <lm>
+            <l>γίγνομαι</l>
+            <m cert="0.5">v - - p p p m f g</m>
+            <m cert="0.25">v - - p p p m n g</m>
+            <m cert="0.25">v - - p p p m m g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="22" val="βουλομένου"/>
+         <lm>
+            <l>βούλομαι</l>
+            <m cert="0.5">v - - s p p m m g</m>
+            <m cert="0.5">v - - s p p m n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="22" val="εἰς"/>
+         <tok ref="44" val="εἰς"/>
+         <tok ref="46" val="εἰς"/>
+         <lm cert="0.5">
+            <l>εἰς</l>
+            <m>r</m>
+         </lm>
+         <lm cert="0.5">
+            <l>εἰμί</l>
+            <m>v c 2 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="22" val="ἀληθείας"/>
+         <tok ref="45" val="ἀληθείας"/>
+         <lm>
+            <l>ἀλήθεια</l>
+            <m cert="0.5">n - - p - - - f a</m>
+            <m cert="0.5">n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="24" val="Πρόσεχε"/>
+         <lm>
+            <l>προσέχω</l>
+            <m cert="0.5">v - 3 s i i a</m>
+            <m cert="0.5">v - 2 s p m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="24" val="σεαυτῷ"/>
+         <lm>
+            <l>σεαυτοῦ</l>
+            <m cert="0.5">p k - s - - - m d</m>
+            <m cert="0.5">p k - s - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="24" val="χάριν"/>
+         <lm cert="0.3333333333333333">
+            <l>χάριν</l>
+            <m>r</m>
+         </lm>
+         <lm cert="0.3333333333333333">
+            <l>χάρις</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+         <lm cert="0.3333333333333333">
+            <l>Χάρις</l>
+            <m>n e - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="24" val="ἀπορρήτων"/>
+         <lm>
+            <l>ἀπόρρητος</l>
+            <m cert="0.3333333333333333">a - - p - - - m g</m>
+            <m cert="0.3333333333333333">a - - p - - - f g</m>
+            <m cert="0.3333333333333333">a - - p - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="24" val="ἔξω"/>
+         <lm>
+            <l>ἔξω</l>
+            <m cert="0.5">d</m>
+            <m cert="0.5">r</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="24" val="ἱερῶν"/>
+         <lm cert="0.07407407407407408">
+            <l>ἱερόω</l>
+            <m cert="0.24999999999999994">v - - s p p a m n</m>
+            <m cert="0.15000000000000002">v - - s p p a m v</m>
+            <m cert="0.15000000000000002">v - - s p p a n n</m>
+            <m cert="0.15000000000000002">v - - s p p a n v</m>
+            <m cert="0.15000000000000002">v - - s p p a n a</m>
+            <m cert="0.15000000000000002">v - - - p n a</m>
+         </lm>
+         <lm cert="0.055555555555555566">
+            <l>ἱεράζω</l>
+            <m cert="0.2">v - - s f p a m v</m>
+            <m cert="0.2">v - - s f p a n n</m>
+            <m cert="0.2">v - - s f p a n v</m>
+            <m cert="0.2">v - - s f p a n a</m>
+            <m cert="0.2">v - - s f p a m n</m>
+         </lm>
+         <lm cert="0.032407407407407406">
+            <l>ἱερός</l>
+            <m cert="0.5714285714285714">a - - p - - - n g</m>
+            <m cert="0.2142857142857143">a - - p - - - m g</m>
+            <m cert="0.2142857142857143">a - - p - - - f g</m>
+         </lm>
+         <lm cert="0.018518518518518517">
+            <l>ἱερόν</l>
+            <m>n - - p - - - n g</m>
+         </lm>
+         <lm cert="0.01388888888888889">
+            <l>ἱερά</l>
+            <m>n - - p - - - f g</m>
+         </lm>
+         <lm cert="0.01388888888888889">
+            <l>ἱεραί</l>
+            <m>n - - p - - - f g</m>
+         </lm>
+         <lm cert="0.01388888888888889">
+            <l>ἱερή</l>
+            <m>n - - p - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="24" val="περιβόλων"/>
+         <lm>
+            <l>περίβολος</l>
+            <m cert="0.25">a - - p - - - m g</m>
+            <m cert="0.25">a - - p - - - f g</m>
+            <m cert="0.25">a - - p - - - n g</m>
+            <m cert="0.25">n - - p - - - m g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="24" val="αὐτὸς"/>
+         <lm>
+            <l>αὐτός</l>
+            <m cert="0.5">p p - s - - - m n</m>
+            <m cert="0.5">a - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="24" val="τέκνα"/>
+         <lm>
+            <l>τέκνον</l>
+            <m cert="0.3333333333333333">n - - p - - - n n</m>
+            <m cert="0.3333333333333333">n - - p - - - n v</m>
+            <m cert="0.3333333333333333">n - - p - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="27" val="Μὴ"/>
+         <tok ref="38" val="Μὴ"/>
+         <lm>
+            <l>μή</l>
+            <m cert="0.5">c</m>
+            <m cert="0.5">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="27" val="ἀπερισκέπτως"/>
+         <lm>
+            <l>ἀπερίσκεπτος</l>
+            <m cert="0.3333333333333333">d</m>
+            <m cert="0.3333333333333333">a - - p - - - m a</m>
+            <m cert="0.3333333333333333">a - - p - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="27" val="μηδέποτε"/>
+         <lm cert="0.3333333333333333">
+            <l>μηδείς</l>
+            <m cert="0.5">a - - s - - - f a</m>
+            <m cert="0.125">a - - s - - - m a</m>
+            <m cert="0.125">a - - p - - - n n</m>
+            <m cert="0.125">a - - p - - - n v</m>
+            <m cert="0.125">a - - p - - - n a</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>μηδέποτε</l>
+            <m>d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="27" val="ὁρίζου"/>
+         <lm>
+            <l>ὁρίζω</l>
+            <m cert="0.5">v - - s p m e</m>
+            <m cert="0.5">v - - s i i e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="27" val="θεῖον"/>
+         <lm cert="0.07142857142857142">
+            <l>θεῖον</l>
+            <m cert="0.3333333333333333">n - - s - - - n n</m>
+            <m cert="0.3333333333333333">n - - s - - - n v</m>
+            <m cert="0.3333333333333333">n - - s - - - n a</m>
+         </lm>
+         <lm cert="0.023809523809523808">
+            <l>θέω</l>
+            <m cert="0.16666666666666666">v - - s p p a m v</m>
+            <m cert="0.16666666666666666">v - - s p p a n n</m>
+            <m cert="0.16666666666666666">v - - s p p a n v</m>
+            <m cert="0.16666666666666666">v - - s p p a n a</m>
+            <m cert="0.16666666666666666">v - 3 p i i a</m>
+            <m cert="0.16666666666666666">v - 1 s i i a</m>
+         </lm>
+         <lm cert="0.023809523809523808">
+            <l>θεῖος</l>
+            <m cert="0.25">a - - s - - - n n</m>
+            <m cert="0.25">a - - s - - - n v</m>
+            <m cert="0.25">a - - s - - - n a</m>
+            <m cert="0.25">a - - s - - - m a</m>
+         </lm>
+         <lm cert="0.023809523809523808">
+            <l>θεῖος2</l>
+            <m>n - - s - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="27" val="συνθέτων"/>
+         <lm cert="0.125">
+            <l>σύνθετος</l>
+            <m cert="0.3333333333333333">a - - p - - - m g</m>
+            <m cert="0.3333333333333333">a - - p - - - n g</m>
+            <m cert="0.3333333333333333">a - - p - - - f g</m>
+         </lm>
+         <lm cert="0.125">
+            <l>συντίθημι</l>
+            <m>v - 3 d a m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="27" val="οἱ"/>
+         <tok ref="31" val="οἱ"/>
+         <tok ref="31" val="οἱ" pos="2"/>
+         <tok ref="45" val="οἱ"/>
+         <tok ref="46" val="οἱ"/>
+         <lm cert="0.5">
+            <l>ὁ</l>
+            <m>p a - p - - - m n</m>
+         </lm>
+         <lm cert="0.5">
+            <l>οὗ2</l>
+            <m>p p - s - - - - d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="27" val="ὅροι"/>
+         <lm>
+            <l>ὅρος</l>
+            <m cert="0.5">n - - p - - - m n</m>
+            <m cert="0.5">n - - p - - - m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="28" val="μισεῖ"/>
+         <lm>
+            <l>μισέω</l>
+            <m cert="0.5">v - 2 s p i e</m>
+            <m cert="0.5">v - 3 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="28" val="πειραθεὶς"/>
+         <lm>
+            <l>πειράω</l>
+            <m cert="0.5">v - - s a p p m n</m>
+            <m cert="0.5">v - - s a p p m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="28" val="πεῖρα"/>
+         <lm cert="0.5">
+            <l>πεῖρα</l>
+            <m cert="0.6666666666666666">n - - s - - - f n</m>
+            <m cert="0.3333333333333333">n - - s - - - f v</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>πείρω</l>
+            <m>v - 1 s a i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="28" val="ἔγγονος"/>
+         <lm>
+            <l>ἔγγονος</l>
+            <m cert="0.3333333333333333">a - - s - - - m n</m>
+            <m cert="0.3333333333333333">a - - s - - - f n</m>
+            <m cert="0.3333333333333333">n - - s - - - c n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="29" val="διδασκόμενοι"/>
+         <lm>
+            <l>διδάσκω</l>
+            <m cert="0.5">v - - p p p e m n</m>
+            <m cert="0.5">v - - p p p e m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="29" val="σοι"/>
+         <lm cert="0.5">
+            <l>σός</l>
+            <m cert="0.6666666666666666">p s - p - - - m v</m>
+            <m cert="0.3333333333333333">p s - p - - - m n</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>σύ</l>
+            <m>p p - s - - - - d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="29" val="τό"/>
+         <lm cert="0.5">
+            <l>ὁ</l>
+            <m cert="0.5">p a - s - - - n a</m>
+            <m cert="0.5">p a - s - - - n n</m>
+         </lm>
+         <lm cert="0.25">
+            <l>ὅς</l>
+            <m cert="0.5">p r - s - - - n n</m>
+            <m cert="0.5">p r - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="29" val="ἄνω"/>
+         <lm cert="0.037037037037037035">
+            <l>ἄνοος</l>
+            <m cert="0.16666666666666666">n - - d - - - c n</m>
+            <m cert="0.16666666666666666">n - - d - - - c v</m>
+            <m cert="0.16666666666666666">n - - d - - - c a</m>
+            <m cert="0.16666666666666666">n - - d - - - n n</m>
+            <m cert="0.16666666666666666">n - - d - - - n v</m>
+            <m cert="0.16666666666666666">n - - d - - - n a</m>
+         </lm>
+         <lm cert="0.037037037037037035">
+            <l>ἄνω</l>
+            <m cert="0.5">v - 1 s p s a</m>
+            <m cert="0.5">v - 1 s p i a</m>
+         </lm>
+         <lm cert="0.037037037037037035">
+            <l>ἄνω2</l>
+            <m>d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="29" val="αἰσχρὸν"/>
+         <lm>
+            <l>αἰσχρός</l>
+            <m cert="0.33333333333333337">a - - s - - - f a</m>
+            <m cert="0.16666666666666669">a - - s - - - m a</m>
+            <m cert="0.16666666666666669">a - - s - - - n v</m>
+            <m cert="0.16666666666666669">a - - s - - - n n</m>
+            <m cert="0.16666666666666669">a - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="29" val="ἀναβάντα"/>
+         <lm>
+            <l>ἀναβαίνω</l>
+            <m cert="0.25">v - - p a p a n n</m>
+            <m cert="0.25">v - - p a p a n v</m>
+            <m cert="0.25">v - - p a p a n a</m>
+            <m cert="0.25">v - - s a p a m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="29" val="σε"/>
+         <lm cert="0.25">
+            <l>σύ</l>
+            <m>p p - s - - - - a</m>
+         </lm>
+         <lm cert="0.25">
+            <l>σός</l>
+            <m>p s - s - - - m v</m>
+         </lm>
+         <lm cert="0.25">
+            <l>ΑΒΓ</l>
+            <m>y</m>
+         </lm>
+         <lm cert="0.25">
+            <l>σε</l>
+            <m>m</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="29" val="ἀκουόντων"/>
+         <lm>
+            <l>ἀκούω</l>
+            <m cert="0.5">v - 3 p p m a</m>
+            <m cert="0.25">v - - p p p a m g</m>
+            <m cert="0.25">v - - p p p a n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="30" val="Φιλάργυρός"/>
+         <lm>
+            <l>φίλανδρος</l>
+            <m cert="0.3333333333333333">a - - s - - - m d</m>
+            <m cert="0.3333333333333333">a - - s - - - f d</m>
+            <m cert="0.3333333333333333">a - - s - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="30" val="ἔχων"/>
+         <lm cert="0.3333333333333333">
+            <l>χόω</l>
+            <m cert="0.5">v - 3 p i i a</m>
+            <m cert="0.5">v - 1 s i i a</m>
+         </lm>
+         <lm cert="0.3333333333333333">
+            <l>ἔχω</l>
+            <m>v - - s p p a m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="30" val="χρήματα"/>
+         <lm cert="0.3333333333333333">
+            <l>χρέος</l>
+            <m cert="0.5">n - - s - - - n v</m>
+            <m cert="0.25">n - - s - - - n n</m>
+            <m cert="0.25">n - - s - - - n a</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>χρῆμα</l>
+            <m cert="0.3333333333333333">n - - p - - - n n</m>
+            <m cert="0.3333333333333333">n - - p - - - n v</m>
+            <m cert="0.3333333333333333">n - - p - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="30" val="τούτων"/>
+         <tok ref="41" val="τούτων"/>
+         <tok ref="48" val="τούτων"/>
+         <lm>
+            <l>οὗτος</l>
+            <m cert="0.3333333333333333">p d - p - - - f g</m>
+            <m cert="0.3333333333333333">p d - p - - - m g</m>
+            <m cert="0.3333333333333333">p d - p - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="30" val="εἶναί"/>
+         <lm>
+            <l>εἰμί</l>
+            <m cert="0.5">v c - - p n a</m>
+            <m cert="0.5">v - - - p n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="30" val="φασι"/>
+         <lm cert="0.5">
+            <l>φημί</l>
+            <m cert="0.5">v - 3 s p i a</m>
+            <m cert="0.5">v - 3 p p i a</m>
+         </lm>
+         <lm cert="0.125">
+            <l>Φάσις</l>
+            <m>n e - s - - - f v</m>
+         </lm>
+         <lm cert="0.125">
+            <l>Φᾶσις</l>
+            <m>n e - s - - - m d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="30" val="βαλάντιον"/>
+         <lm>
+            <l>βαλλάντιον</l>
+            <m cert="0.3333333333333333">n - - s - - - n n</m>
+            <m cert="0.3333333333333333">n - - s - - - n v</m>
+            <m cert="0.3333333333333333">n - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="30" val="λογικόν"/>
+         <lm>
+            <l>λογικός</l>
+            <m cert="0.25">a - - s - - - m a</m>
+            <m cert="0.25">a - - s - - - n n</m>
+            <m cert="0.25">a - - s - - - n v</m>
+            <m cert="0.25">a - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="31" val="θυμοῦ"/>
+         <tok ref="47" val="θυμοῦ"/>
+         <lm cert="0.16666666666666666">
+            <l>θυμός</l>
+            <m>n - - s - - - m g</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>θυμόω</l>
+            <m cert="0.5">v - 2 s p m e</m>
+            <m cert="0.5">v - 2 s i i e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="31" val="νέους"/>
+         <tok ref="36" val="νέους"/>
+         <lm cert="0.5">
+            <l>νέος</l>
+            <m cert="0.6666666666666666">a - - p - - - f a</m>
+            <m cert="0.3333333333333333">a - - p - - - m a</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>νεόω</l>
+            <m>v - 2 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="31" val="παρακάλει"/>
+         <lm>
+            <l>παρακαλέω</l>
+            <m cert="0.5">v - 2 s p m a</m>
+            <m cert="0.5">v - 3 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="31" val="ψυχικοί"/>
+         <lm>
+            <l>ψυχικός</l>
+            <m cert="0.5">a - - p - - - m n</m>
+            <m cert="0.5">a - - p - - - m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="31" val="πλεῖστον"/>
+         <lm cert="0.2">
+            <l>πολύς</l>
+            <m cert="0.25">a - - s - - - m a s</m>
+            <m cert="0.25">a - - s - - - n n s</m>
+            <m cert="0.25">a - - s - - - n v s</m>
+            <m cert="0.25">a - - s - - - n a s</m>
+         </lm>
+         <lm cert="0.2">
+            <l>Πλεῖστος</l>
+            <m>n e - s - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="31" val="σωματικοὶ"/>
+         <lm>
+            <l>σωματικός</l>
+            <m cert="0.5">a - - p - - - m n</m>
+            <m cert="0.5">a - - p - - - m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="31" val="δαίμονες"/>
+         <lm>
+            <l>δαίμων</l>
+            <m cert="0.5">n - - s - - - c a</m>
+            <m cert="0.25">n - - p - - - c n</m>
+            <m cert="0.25">n - - p - - - c v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="32" val="Ἔμφραττε"/>
+         <lm>
+            <l>ἐμφράσσω</l>
+            <m cert="0.5">v - - s p m a</m>
+            <m cert="0.5">v - - s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="32" val="στόματα"/>
+         <lm>
+            <l>στόμα</l>
+            <m cert="0.3333333333333333">n - - p - - - n n</m>
+            <m cert="0.3333333333333333">n - - p - - - n v</m>
+            <m cert="0.3333333333333333">n - - p - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="32" val="καταλαλούντων"/>
+         <lm>
+            <l>καταλαλέω</l>
+            <m cert="0.3333333333333333">v - 3 p p m a</m>
+            <m cert="0.3333333333333333">v - - p p p a m g</m>
+            <m cert="0.3333333333333333">v - - p p p a n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="32" val="σου"/>
+         <tok ref="37" val="σου"/>
+         <lm cert="0.2">
+            <l>σός</l>
+            <m cert="0.5">p s - s - - - m g</m>
+            <m cert="0.5">p s - s - - - n g</m>
+         </lm>
+         <lm cert="0.2">
+            <l>σύ</l>
+            <m>p p - s - - - - g</m>
+         </lm>
+         <lm cert="0.1">
+            <l>σεύω</l>
+            <m>v - 2 s p m e</m>
+         </lm>
+         <lm cert="0.1">
+            <l>σοῦ</l>
+            <m>i</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="32" val="πλείστων"/>
+         <lm>
+            <l>πολύς</l>
+            <m cert="0.3333333333333333">a - - p - - - f g s</m>
+            <m cert="0.3333333333333333">a - - p - - - m g s</m>
+            <m cert="0.3333333333333333">a - - p - - - n g s</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="32" val="οὗτος"/>
+         <lm>
+            <l>οὗτος</l>
+            <m cert="0.3333333333333333">p d - s - - - m n</m>
+            <m cert="0.3333333333333333">p d - s - - - m v</m>
+            <m cert="0.16666666666666666">p d - p - - - m n</m>
+            <m cert="0.16666666666666666">p d - p - - - m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="32" val="δαιμόνων"/>
+         <lm cert="0.3333333333333333">
+            <l>δαιμονάω</l>
+            <m cert="0.5">v - 3 p i i a</m>
+            <m cert="0.5">v - 1 s i i a</m>
+         </lm>
+         <lm cert="0.3333333333333333">
+            <l>δαίμων</l>
+            <m>n - - p - - - c g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="32" val="ἐλεύθερον"/>
+         <lm cert="0.3333333333333333">
+            <l>ἐλεύθερος</l>
+            <m cert="0.5">a - - s - - - f a</m>
+            <m cert="0.125">a - - s - - - m a</m>
+            <m cert="0.125">a - - s - - - n n</m>
+            <m cert="0.125">a - - s - - - n v</m>
+            <m cert="0.125">a - - s - - - n a</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>Ἐλεύθερος</l>
+            <m>n e - s - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="32" val="δεῖ"/>
+         <lm cert="0.037037037037037035">
+            <l>δέω</l>
+            <m cert="0.25">v - 2 s p i e</m>
+            <m cert="0.25">v - 3 s i i a</m>
+            <m cert="0.25">v - 2 s p m a</m>
+            <m cert="0.25">v - 3 s p i a</m>
+         </lm>
+         <lm cert="0.037037037037037035">
+            <l>δέω2</l>
+            <m cert="0.25">v - 3 s p i a</m>
+            <m cert="0.25">v - 2 s p i e</m>
+            <m cert="0.25">v - 2 s p m a</m>
+            <m cert="0.25">v - 3 s i i a</m>
+         </lm>
+         <lm cert="0.037037037037037035">
+            <l>δεῖ</l>
+            <m>v - 3 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="32" val="μνησικακίας"/>
+         <lm>
+            <l>μνησικακία</l>
+            <m cert="0.5">n - - p - - - f a</m>
+            <m cert="0.5">n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="32" val="βουλομένων"/>
+         <lm>
+            <l>βούλομαι</l>
+            <m cert="0.3333333333333333">v - - p p p m f g</m>
+            <m cert="0.3333333333333333">v - - p p p m m g</m>
+            <m cert="0.3333333333333333">v - - p p p m n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="33" val="Λέληθεν"/>
+         <lm>
+            <l>λανθάνω</l>
+            <m cert="0.5">v - 3 s r i a</m>
+            <m cert="0.5">v - 3 p l i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="33" val="ἴσως"/>
+         <lm cert="0.25">
+            <l>ἴσος</l>
+            <m cert="0.5">a - - p - - - m a</m>
+            <m cert="0.5">d</m>
+         </lm>
+         <lm cert="0.125">
+            <l>ἰσόω</l>
+            <m>v - 2 s i i a</m>
+         </lm>
+         <lm cert="0.125">
+            <l>Ἶσος</l>
+            <m>n e - p - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="33" val="ἰώμενος"/>
+         <lm cert="0.25">
+            <l>ἰάομαι</l>
+            <m>v - - s p p m m n</m>
+         </lm>
+         <lm cert="0.25">
+            <l>ἰόομαι</l>
+            <m>v - - s p p m m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="33" val="ὃ"/>
+         <lm cert="0.4">
+            <l>ὅς</l>
+            <m cert="0.5">p r - s - - - n v</m>
+            <m cert="0.16666666666666666">p r - s - - - n n</m>
+            <m cert="0.16666666666666666">p r - s - - - m n</m>
+            <m cert="0.16666666666666666">p r - s - - - n a</m>
+         </lm>
+         <lm cert="0.2">
+            <l>ὁ</l>
+            <m>p a - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="33" val="προσάγει"/>
+         <lm>
+            <l>προσάγω</l>
+            <m cert="0.5">v - 3 s p i a</m>
+            <m cert="0.5">v - 2 s p i e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="33" val="φάρμακον"/>
+         <lm cert="0.05555555555555555">
+            <l>φάριον</l>
+            <m cert="0.3333333333333333">n - - s - - - n n</m>
+            <m cert="0.3333333333333333">n - - s - - - n v</m>
+            <m cert="0.3333333333333333">n - - s - - - n a</m>
+         </lm>
+         <lm cert="0.05555555555555555">
+            <l>φαράω</l>
+            <m cert="0.5">v - 3 p i i a</m>
+            <m cert="0.5">v - 1 s i i a</m>
+         </lm>
+         <lm cert="0.05555555555555555">
+            <l>φάρμακον</l>
+            <m cert="0.3333333333333333">n - - s - - - n n</m>
+            <m cert="0.3333333333333333">n - - s - - - n v</m>
+            <m cert="0.3333333333333333">n - - s - - - n a</m>
+         </lm>
+         <lm cert="0.05555555555555555">
+            <l>φάρμακος</l>
+            <m>n - - s - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="33" val="πλησίον"/>
+         <lm>
+            <l>πλησίος</l>
+            <m cert="0.5000000000000001">d</m>
+            <m cert="0.12500000000000003">a - - s - - - m a</m>
+            <m cert="0.12500000000000003">a - - s - - - n n</m>
+            <m cert="0.12500000000000003">a - - s - - - n v</m>
+            <m cert="0.12500000000000003">a - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="33" val="ἐνδεχομένως"/>
+         <lm>
+            <l>ἐνδέχομαι</l>
+            <m cert="0.5">v - - p p p m m a</m>
+            <m cert="0.5">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="33" val="ἰᾶται"/>
+         <lm>
+            <l>ἰάομαι</l>
+            <m cert="0.5">v - 3 s p s m</m>
+            <m cert="0.5">v - 3 s p i m</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="36" val="γεννῶν"/>
+         <lm cert="0.04761904761904762">
+            <l>γεννάω</l>
+            <m cert="0.2">v - - s p p a m n</m>
+            <m cert="0.2">v - - s p p a m v</m>
+            <m cert="0.2">v - - s p p a n n</m>
+            <m cert="0.2">v - - s p p a n v</m>
+            <m cert="0.2">v - - s p p a n a</m>
+         </lm>
+         <lm cert="0.047619047619047616">
+            <l>γέννα</l>
+            <m>n - - p - - - f g</m>
+         </lm>
+         <lm cert="0.047619047619047616">
+            <l>γέννας</l>
+            <m>n - - p - - - m g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="36" val="τὴν"/>
+         <tok ref="36" val="τὴν" pos="2"/>
+         <tok ref="37" val="τὴν"/>
+         <tok ref="38" val="τὴν"/>
+         <tok ref="45" val="τὴν"/>
+         <tok ref="45" val="τὴν" pos="2"/>
+         <tok ref="45" val="τὴν" pos="3"/>
+         <tok ref="46" val="τὴν"/>
+         <tok ref="48" val="τὴν"/>
+         <tok ref="48" val="τὴν" pos="2"/>
+         <tok ref="50" val="τὴν"/>
+         <lm cert="0.5">
+            <l>ὁ</l>
+            <m>p a - s - - - f a</m>
+         </lm>
+         <lm cert="0.5">
+            <l>ὅς</l>
+            <m>p r - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="36" val="ἴσασιν"/>
+         <lm>
+            <l>οἶδα</l>
+            <m cert="0.5">v - 3 p r i a</m>
+            <m cert="0.5">v - 3 s r i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="36" val="ὀδύνην"/>
+         <lm cert="0.16666666666666666">
+            <l>ὀδύνη</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>ὀδυνάω</l>
+            <m cert="0.5">v - 3 p i i a</m>
+            <m cert="0.5">v - 1 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="37" val="ἅγιος"/>
+         <tok ref="46" val="ἅγιος"/>
+         <lm cert="0.3333333333333333">
+            <l>Ἅγιος</l>
+            <m>n e - s - - - m n</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>ἅγιος</l>
+            <m>a - - s - - - m n</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>ἄγος</l>
+            <m>n - - s - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="37" val="σῶμα"/>
+         <lm>
+            <l>σῶμα</l>
+            <m cert="0.3333333333333333">n - - s - - - n n</m>
+            <m cert="0.3333333333333333">n - - s - - - n v</m>
+            <m cert="0.3333333333333333">n - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="37" val="διαίτης"/>
+         <lm cert="0.6666666666666666">
+            <l>διαιτάω</l>
+            <m cert="0.5">v - 2 s i i a</m>
+            <m cert="0.5">v - 2 s p i a</m>
+         </lm>
+         <lm cert="0.3333333333333333">
+            <l>δίαιτα</l>
+            <m>n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="37" val="ζωῇ"/>
+         <lm cert="0.5">
+            <l>ζωή</l>
+            <m>n - - s - - - f d</m>
+         </lm>
+         <lm cert="0.5">
+            <l>ζωός</l>
+            <m>a - - s - - - f d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="37" val="παχεῖ"/>
+         <lm>
+            <l>παχύς</l>
+            <m cert="0.5">a - - s - - - m d</m>
+            <m cert="0.5">a - - s - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="38" val="μέμνησο"/>
+         <lm>
+            <l>μιμνήσκω</l>
+            <m cert="0.5">v - 2 s l i e</m>
+            <m cert="0.5">v - 2 s r m e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="38" val="ὃς"/>
+         <lm cert="0.6666666666666666">
+            <l>ὅς2</l>
+            <m cert="0.5">p - - s - - - m n</m>
+            <m cert="0.5">p - - s - - - f n</m>
+         </lm>
+         <lm cert="0.3333333333333333">
+            <l>ὅς</l>
+            <m>p - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="38" val="ὑποδεξάμενος"/>
+         <lm cert="0.5">
+            <l>ὑποδέχομαι</l>
+            <m>v - - s a p m m n</m>
+         </lm>
+         <lm cert="0.5">
+            <l>ὑποδείκνυμι</l>
+            <m>v - - s a p m m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="38" val="πενήτων"/>
+         <lm cert="0.16666666666666666">
+            <l>πένης</l>
+            <m>a - - p - - - m g</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>πενέω</l>
+            <m cert="0.5">v - 3 p p m a</m>
+            <m cert="0.5">v - 3 d p m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="38" val="ἔνδοξος"/>
+         <lm>
+            <l>ἔνδοξος</l>
+            <m cert="0.5">a - - s - - - m n</m>
+            <m cert="0.5">a - - s - - - f n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="38" val="ἀτίμων"/>
+         <lm cert="0.047619047619047616">
+            <l>ἄτιμος</l>
+            <m cert="0.3333333333333333">a - - p - - - m g</m>
+            <m cert="0.3333333333333333">a - - p - - - f g</m>
+            <m cert="0.3333333333333333">a - - p - - - n g</m>
+         </lm>
+         <lm cert="0.047619047619047616">
+            <l>ἀτιμάω</l>
+            <m cert="0.5">v - 3 p i i a</m>
+            <m cert="0.5">v - 1 s i i a</m>
+         </lm>
+         <lm cert="0.047619047619047616">
+            <l>ἀτιμόω</l>
+            <m cert="0.5">v - 3 p i i a</m>
+            <m cert="0.5">v - 1 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="38" val="γέγονε"/>
+         <tok ref="42" val="γέγονε"/>
+         <lm>
+            <l>γίγνομαι</l>
+            <m cert="0.5">v - 2 s r m a</m>
+            <m cert="0.5">v - 3 s r i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="41" val="Πᾶσα"/>
+         <lm>
+            <l>πᾶς</l>
+            <m cert="0.5">a - - s - - - m n</m>
+            <m cert="0.5">a - - s - - - m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="41" val="γένος"/>
+         <lm>
+            <l>γένος</l>
+            <m cert="0.3333333333333333">n - - s - - - n n</m>
+            <m cert="0.3333333333333333">n - - s - - - n v</m>
+            <m cert="0.3333333333333333">n - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="41" val="ἔχει"/>
+         <lm cert="0.2857142857142857">
+            <l>ἔχω</l>
+            <m cert="0.5">v - 2 s p i e</m>
+            <m cert="0.5">v - 3 s p i a</m>
+         </lm>
+         <lm cert="0.2857142857142857">
+            <l>ἔχις</l>
+            <m cert="0.5">n - - s - - - m d</m>
+            <m cert="0.16666666666666666">n - - d - - - m n</m>
+            <m cert="0.16666666666666666">n - - d - - - m v</m>
+            <m cert="0.16666666666666666">n - - d - - - m a</m>
+         </lm>
+         <lm cert="0.14285714285714285">
+            <l>χέω</l>
+            <m>v - 3 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="41" val="κατηγορούμενον"/>
+         <lm>
+            <l>κατηγορέω</l>
+            <m cert="0.25">v - - s p p e m a</m>
+            <m cert="0.25">v - - s p p e n n</m>
+            <m cert="0.25">v - - s p p e n v</m>
+            <m cert="0.25">v - - s p p e n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="41" val="εἶδος"/>
+         <lm cert="0.25">
+            <l>εἶδος</l>
+            <m cert="0.3333333333333333">n - - s - - - n n</m>
+            <m cert="0.3333333333333333">n - - s - - - n v</m>
+            <m cert="0.3333333333333333">n - - s - - - n a</m>
+         </lm>
+         <lm cert="0.25">
+            <l>Εἶδος</l>
+            <m>n - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="41" val="ἴδιον"/>
+         <tok ref="44" val="ἴδιον"/>
+         <lm cert="0.3571428571428571">
+            <l>ἴδιος</l>
+            <m cert="0.4">a - - s - - - f a</m>
+            <m cert="0.4">a - - s - - - n n</m>
+            <m cert="0.06666666666666667">a - - s - - - m a</m>
+            <m cert="0.06666666666666667">a - - s - - - n v</m>
+            <m cert="0.06666666666666667">a - - s - - - n a</m>
+         </lm>
+         <lm cert="0.07142857142857142">
+            <l>ἰδίω</l>
+            <m cert="0.5">v - 3 p i i a</m>
+            <m cert="0.5">v - 1 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="41" val="συμβεβηκός"/>
+         <lm>
+            <l>συμβαίνω</l>
+            <m cert="0.3333333333333333">v - - s r p a n n</m>
+            <m cert="0.3333333333333333">v - - s r p a n v</m>
+            <m cert="0.3333333333333333">v - - s r p a n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="41" val="συγκείμενον"/>
+         <lm>
+            <l>σύγκειμαι</l>
+            <m cert="0.25">v - - s p p m m a</m>
+            <m cert="0.25">v - - s p p m n n</m>
+            <m cert="0.25">v - - s p p m n v</m>
+            <m cert="0.25">v - - s p p m n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="41" val="οὐδὲν"/>
+         <lm>
+            <l>οὐδείς</l>
+            <m cert="0.3333333333333333">a - - s - - - n n</m>
+            <m cert="0.3333333333333333">a - - s - - - n v</m>
+            <m cert="0.3333333333333333">a - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="41" val="ἁγίας"/>
+         <tok ref="44" val="ἁγίας"/>
+         <lm>
+            <l>ἅγιος</l>
+            <m cert="0.5">a - - p - - - f a</m>
+            <m cert="0.5">a - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="41" val="εἰρημένων"/>
+         <lm>
+            <l>λέγω</l>
+            <m cert="0.5">v - - p r p e n g</m>
+            <m cert="0.25">v - - p r p e m g</m>
+            <m cert="0.25">v - - p r p e f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="41" val="Σιωπῇ"/>
+         <lm cert="0.1">
+            <l>σιωπάω</l>
+            <m cert="0.25">v - 3 s p s a</m>
+            <m cert="0.25">v - 2 s p s e</m>
+            <m cert="0.25">v - 3 s p i a</m>
+            <m cert="0.25">v - 2 s p i e</m>
+         </lm>
+         <lm cert="0.1">
+            <l>σιωπή</l>
+            <m>n - - s - - - f d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="41" val="ἄρρητον"/>
+         <lm>
+            <l>ἄρρητος</l>
+            <m cert="0.5000000000000001">a - - s - - - f a</m>
+            <m cert="0.12500000000000003">a - - s - - - m a</m>
+            <m cert="0.12500000000000003">a - - s - - - n n</m>
+            <m cert="0.12500000000000003">a - - s - - - n v</m>
+            <m cert="0.12500000000000003">a - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="42" val="γνωστικοῦ"/>
+         <lm>
+            <l>γνωστικός</l>
+            <m cert="0.5">a - - s - - - m g</m>
+            <m cert="0.5">a - - s - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="42" val="ψευδὴς"/>
+         <lm>
+            <l>ψευδής</l>
+            <m cert="0.5">a - - s - - - m n</m>
+            <m cert="0.5">a - - s - - - f n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="42" val="ἱσταμένη"/>
+         <lm>
+            <l>ἵστημι</l>
+            <m cert="0.5">v - - s p p e f n</m>
+            <m cert="0.5">v - - s p p e f v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="42" val="ὑπάρχοντος"/>
+         <tok ref="42" val="ὑπάρχοντος" pos="2"/>
+         <tok ref="42" val="ὑπάρχοντος" pos="3"/>
+         <tok ref="42" val="ὑπάρχοντος" pos="4"/>
+         <tok ref="42" val="ὑπάρχοντος" pos="5"/>
+         <tok ref="42" val="ὑπάρχοντος" pos="6"/>
+         <lm>
+            <l>ὑπάρχω</l>
+            <m cert="0.5">v - - s p p a m g</m>
+            <m cert="0.5">v - - s p p a n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="Τέσσαρας"/>
+         <lm>
+            <l>τέσσαρες</l>
+            <m cert="0.5">m - - p - - - m a</m>
+            <m cert="0.5">m - - p - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="θεωρίας"/>
+         <lm cert="0.5">
+            <l>θεωρία</l>
+            <m cert="0.5">n - - p - - - f a</m>
+            <m cert="0.5">n - - s - - - f g</m>
+         </lm>
+         <lm cert="0.25">
+            <l>Θεωρίη</l>
+            <m cert="0.5">n e - p - - - f a</m>
+            <m cert="0.5">n e - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="παρὰ"/>
+         <tok ref="44" val="παρὰ" pos="2"/>
+         <tok ref="45" val="παρὰ"/>
+         <lm cert="0.11111111111111113">
+            <l>πηρός</l>
+            <m cert="0.12499999999999997">a - - p - - - n n</m>
+            <m cert="0.12499999999999997">a - - p - - - n v</m>
+            <m cert="0.12499999999999997">a - - p - - - n a</m>
+            <m cert="0.12499999999999997">a - - d - - - f n</m>
+            <m cert="0.12499999999999997">a - - d - - - f v</m>
+            <m cert="0.12499999999999997">a - - d - - - f a</m>
+            <m cert="0.12499999999999997">a - - s - - - f n</m>
+            <m cert="0.12499999999999997">a - - s - - - f v</m>
+         </lm>
+         <lm cert="0.1111111111111111">
+            <l>παρά</l>
+            <m>r</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="δικαίου"/>
+         <lm cert="0.3">
+            <l>δίκαιος</l>
+            <m cert="0.6666666666666667">a - - s - - - f g</m>
+            <m cert="0.16666666666666669">a - - s - - - m g</m>
+            <m cert="0.16666666666666669">a - - s - - - n g</m>
+         </lm>
+         <lm cert="0.1">
+            <l>δικαιόω</l>
+            <m cert="0.5">v - 2 s p m a</m>
+            <m cert="0.5">v - 3 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="ἀνδρείαν"/>
+         <lm cert="0.5">
+            <l>ἀνδρεία</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+         <lm cert="0.5">
+            <l>ἀνδρεῖος</l>
+            <m>a - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="σύνην"/>
+         <lm>
+            <l>σύνειμι</l>
+            <m cert="0.3333333333333333">v - 1 s i i a</m>
+            <m cert="0.3333333333333333">v - 3 p i i a</m>
+            <m cert="0.3333333333333333">v - 3 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="ἔργον"/>
+         <lm cert="0.21428571428571427">
+            <l>ἔργον</l>
+            <m cert="0.3333333333333333">n - - s - - - n v</m>
+            <m cert="0.3333333333333333">n - - s - - - n n</m>
+            <m cert="0.3333333333333333">n - - s - - - n a</m>
+         </lm>
+         <lm cert="0.07142857142857142">
+            <l>ἔργνυμι</l>
+            <m cert="0.25">v - - s p p a m v</m>
+            <m cert="0.25">v - - s p p a n n</m>
+            <m cert="0.25">v - - s p p a n v</m>
+            <m cert="0.25">v - - s p p a n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="ἔλεγεν"/>
+         <lm>
+            <l>λέγω</l>
+            <m cert="0.5">v - 3 s i i a</m>
+            <m cert="0.5">v - 3 p a i p</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="δυνάμεις"/>
+         <lm cert="0.6000000000000001">
+            <l>δύναμις</l>
+            <m cert="0.3333333333333333">n - - p - - - f n</m>
+            <m cert="0.3333333333333333">n - - p - - - f v</m>
+            <m cert="0.3333333333333333">n - - p - - - f a</m>
+         </lm>
+         <lm cert="0.4">
+            <l>δύναμαι</l>
+            <m cert="0.5">v - 1 p p i m</m>
+            <m cert="0.5">v - 1 p i i m</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="δίχα"/>
+         <lm cert="0.3333333333333333">
+            <l>δίχα</l>
+            <m>d</m>
+         </lm>
+         <lm cert="0.3333333333333333">
+            <l>διχάω</l>
+            <m cert="0.5">v - 2 s p m a</m>
+            <m cert="0.5">v - 3 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="σοφίας"/>
+         <lm>
+            <l>σοφία</l>
+            <m cert="0.5">n - - p - - - f a</m>
+            <m cert="0.5">n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="παραδέδωκεν"/>
+         <lm>
+            <l>παραδίδωμι</l>
+            <m cert="0.5">v - 3 s r i a</m>
+            <m cert="0.5">v - 3 p l i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="ἀνδρείας"/>
+         <lm cert="0.5">
+            <l>ἀνδρεία</l>
+            <m cert="0.5">n - - p - - - f a</m>
+            <m cert="0.5">n - - s - - - f g</m>
+         </lm>
+         <lm cert="0.5">
+            <l>ἀνδρεῖος</l>
+            <m cert="0.5">a - - p - - - f a</m>
+            <m cert="0.5">a - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="ἀληθέσι"/>
+         <lm>
+            <l>ἀληθής</l>
+            <m cert="0.3333333333333333">a - - p - - - m d</m>
+            <m cert="0.3333333333333333">a - - p - - - f d</m>
+            <m cert="0.3333333333333333">a - - p - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="πολεμούμενον"/>
+         <lm cert="0.0625">
+            <l>πολεμέω</l>
+            <m cert="0.25">v - - s p p e m a</m>
+            <m cert="0.25">v - - s p p e n n</m>
+            <m cert="0.25">v - - s p p e n v</m>
+            <m cert="0.25">v - - s p p e n a</m>
+         </lm>
+         <lm cert="0.0625">
+            <l>πολεμόω</l>
+            <m cert="0.25">v - - s p p e m a</m>
+            <m cert="0.25">v - - s p p e n n</m>
+            <m cert="0.25">v - - s p p e n v</m>
+            <m cert="0.25">v - - s p p e n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="ὄντα"/>
+         <lm>
+            <l>εἰμί</l>
+            <m cert="0.5000000000000001">v c - s p p a m a</m>
+            <m cert="0.16666666666666669">v c - p p p a n n</m>
+            <m cert="0.16666666666666669">v c - p p p a n v</m>
+            <m cert="0.16666666666666669">v c - p p p a n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="πρώτου"/>
+         <lm cert="0.16666666666666666">
+            <l>πρῶτος</l>
+            <m cert="0.5">a - - s - - - m g</m>
+            <m cert="0.5">a - - s - - - n g</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>Πρῶτος</l>
+            <m>n e - s - - - m g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="γεωργοῦ"/>
+         <lm cert="0.2">
+            <l>γεωργέω</l>
+            <m cert="0.5">v - 2 s p m e</m>
+            <m cert="0.5">v - 2 s i i e</m>
+         </lm>
+         <lm cert="0.2">
+            <l>γεωργός</l>
+            <m cert="0.3333333333333333">a - - s - - - m g</m>
+            <m cert="0.3333333333333333">a - - s - - - f g</m>
+            <m cert="0.3333333333333333">a - - s - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="σπέρματα"/>
+         <lm>
+            <l>σπέρμα</l>
+            <m cert="0.3333333333333333">n - - p - - - n n</m>
+            <m cert="0.3333333333333333">n - - p - - - n v</m>
+            <m cert="0.3333333333333333">n - - p - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="σύνης"/>
+         <lm cert="0.5">
+            <l>σύνειμι</l>
+            <m cert="0.6666666666666666">v - 2 s i i a</m>
+            <m cert="0.3333333333333333">v - 2 s p s a</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>συνίημι</l>
+            <m>v - 2 s a s a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="ἀξίαν"/>
+         <lm cert="0.25">
+            <l>ἄξιος</l>
+            <m>a - - s - - - f a</m>
+         </lm>
+         <lm cert="0.25">
+            <l>ἀξία</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="τινὰ"/>
+         <lm>
+            <l>τις</l>
+            <m cert="0.25">p x - s - - - c a</m>
+            <m cert="0.25">p x - p - - - n n</m>
+            <m cert="0.25">p x - p - - - n v</m>
+            <m cert="0.25">p x - p - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="44" val="ἁπλουστέρων"/>
+         <lm>
+            <l>ἁπλόος</l>
+            <m cert="0.3333333333333333">a - - p - - - f g c</m>
+            <m cert="0.3333333333333333">a - - p - - - m g c</m>
+            <m cert="0.3333333333333333">a - - p - - - n g c</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="Βασίλειος"/>
+         <lm>
+            <l>βασίλειος</l>
+            <m cert="0.5">a - - s - - - f n</m>
+            <m cert="0.5">a - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="ἀπὸ"/>
+         <tok ref="48" val="ἀπὸ"/>
+         <lm>
+            <l>ἀπό</l>
+            <m cert="0.5">r</m>
+            <m cert="0.5">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="γνῶσιν"/>
+         <tok ref="47" val="γνῶσιν"/>
+         <tok ref="48" val="γνῶσιν"/>
+         <lm cert="0.5">
+            <l>γιγνώσκω</l>
+            <m>v - 3 p a s a</m>
+         </lm>
+         <lm cert="0.5">
+            <l>γνῶσις</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="προσεχὴς"/>
+         <lm>
+            <l>προσεχής</l>
+            <m cert="0.5">a - - s - - - m n</m>
+            <m cert="0.5">a - - s - - - f n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="μελέτη"/>
+         <lm cert="0.125">
+            <l>μελέτη</l>
+            <m cert="0.5">n - - s - - - f n</m>
+            <m cert="0.5">n - - s - - - f v</m>
+         </lm>
+         <lm cert="0.125">
+            <l>μελετάω</l>
+            <m cert="0.5">v - 2 s p m a</m>
+            <m cert="0.5">v - 3 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="γυμνασία"/>
+         <lm>
+            <l>γυμνασία</l>
+            <m cert="0.5">n - - s - - - f n</m>
+            <m cert="0.125">n - - d - - - f n</m>
+            <m cert="0.125">n - - d - - - f v</m>
+            <m cert="0.125">n - - d - - - f a</m>
+            <m cert="0.125">n - - s - - - f v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="κρατύνει"/>
+         <lm>
+            <l>κρατύνω</l>
+            <m cert="0.3333333333333333">v - 3 s a s a</m>
+            <m cert="0.3333333333333333">v - 2 s p i e</m>
+            <m cert="0.3333333333333333">v - 3 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="δικαιοσύνη"/>
+         <lm>
+            <l>δικαιοσύνη</l>
+            <m cert="0.5">n - - s - - - f n</m>
+            <m cert="0.5">n - - s - - - f v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="ἔλεος"/>
+         <lm cert="0.16666666666666666">
+            <l>Ἔλεος</l>
+            <m cert="0.5">a e - s - - - m n</m>
+            <m cert="0.5">n e - s - - - m n</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>ἔλεος</l>
+            <m cert="0.25">n - - s - - - n n</m>
+            <m cert="0.25">n - - s - - - n v</m>
+            <m cert="0.25">n - - s - - - n a</m>
+            <m cert="0.25">n - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="δυνατὸν"/>
+         <lm>
+            <l>δυνατός</l>
+            <m cert="0.5000000000000001">a - - s - - - f a</m>
+            <m cert="0.12500000000000003">a - - s - - - m a</m>
+            <m cert="0.12500000000000003">a - - s - - - n n</m>
+            <m cert="0.12500000000000003">a - - s - - - n v</m>
+            <m cert="0.12500000000000003">a - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="ἐμπαθεῖς"/>
+         <lm>
+            <l>ἐμπαθής</l>
+            <m cert="0.16666666666666669">a - - p - - - m a</m>
+            <m cert="0.16666666666666669">a - - p - - - f a</m>
+            <m cert="0.16666666666666669">a - - p - - - m n</m>
+            <m cert="0.16666666666666669">a - - p - - - f n</m>
+            <m cert="0.16666666666666669">a - - p - - - m v</m>
+            <m cert="0.16666666666666669">a - - p - - - f v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="ὑποδέξασθαι"/>
+         <lm cert="0.5">
+            <l>ὑποδέχομαι</l>
+            <m>v - - - a n m</m>
+         </lm>
+         <lm cert="0.5">
+            <l>ὑποδείκνυμι</l>
+            <m>v - - - a n m</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="δευτέρας"/>
+         <lm>
+            <l>δεύτερος</l>
+            <m cert="0.5">a - - p - - - f a</m>
+            <m cert="0.5">a - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="ἀπαθεῖς"/>
+         <lm cert="0.21428571428571425">
+            <l>ἀπαθής</l>
+            <m cert="0.16666666666666669">a - - p - - - m n</m>
+            <m cert="0.16666666666666669">a - - p - - - m v</m>
+            <m cert="0.16666666666666669">a - - p - - - f n</m>
+            <m cert="0.16666666666666669">a - - p - - - f v</m>
+            <m cert="0.16666666666666669">a - - p - - - m a</m>
+            <m cert="0.16666666666666669">a - - p - - - f a</m>
+         </lm>
+         <lm cert="0.07142857142857142">
+            <l>ἀπαθέω</l>
+            <m>v - 2 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="μόνοι"/>
+         <lm>
+            <l>μόνος</l>
+            <m cert="0.5">a - - p - - - m n</m>
+            <m cert="0.5">a - - p - - - m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="δεκτικοί"/>
+         <lm>
+            <l>δεκτικός</l>
+            <m cert="0.5">a - - p - - - m n</m>
+            <m cert="0.5">a - - p - - - m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="οἳ"/>
+         <lm cert="0.3333333333333333">
+            <l>ὁ</l>
+            <m>p a - p - - - m n</m>
+         </lm>
+         <lm cert="0.3333333333333333">
+            <l>ὅς</l>
+            <m>p r - p - - - m n</m>
+         </lm>
+         <lm cert="0.3333333333333333">
+            <l>οὗ2</l>
+            <m>p p - s - - - - d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="καιρὸν"/>
+         <lm cert="0.5">
+            <l>καιρός</l>
+            <m>n - - s - - - m a</m>
+         </lm>
+         <lm cert="0.5">
+            <l>Καιρός</l>
+            <m>n e - s - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="οἰκεῖον"/>
+         <lm cert="0.22222222222222227">
+            <l>οἰκεῖος</l>
+            <m cert="0.4999999999999999">a - - s - - - f a</m>
+            <m cert="0.12499999999999997">a - - s - - - n n</m>
+            <m cert="0.12499999999999997">a - - s - - - n v</m>
+            <m cert="0.12499999999999997">a - - s - - - n a</m>
+            <m cert="0.12499999999999997">a - - s - - - m a</m>
+         </lm>
+         <lm cert="0.1111111111111111">
+            <l>οἰκέω</l>
+            <m cert="0.25">v - - s p p a m v</m>
+            <m cert="0.25">v - - s p p a n n</m>
+            <m cert="0.25">v - - s p p a n v</m>
+            <m cert="0.25">v - - s p p a n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="φέγγος"/>
+         <lm>
+            <l>φέγγος</l>
+            <m cert="0.3333333333333333">n - - s - - - n n</m>
+            <m cert="0.3333333333333333">n - - s - - - n v</m>
+            <m cert="0.3333333333333333">n - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="νοῦ"/>
+         <lm cert="0.15625">
+            <l>νόος</l>
+            <m cert="0.8">n - - s - - - m g</m>
+            <m cert="0.2">n - - s - - - m v</m>
+         </lm>
+         <lm cert="0.03125">
+            <l>νέομαι</l>
+            <m cert="0.5">v - 2 s p m m</m>
+            <m cert="0.5">v - 2 s i i m</m>
+         </lm>
+         <lm cert="0.03125">
+            <l>νέω</l>
+            <m cert="0.5">v - 2 s i i e</m>
+            <m cert="0.5">v - 2 s p m e</m>
+         </lm>
+         <lm cert="0.03125">
+            <l>νέω3</l>
+            <m cert="0.5">v - 2 s i i e</m>
+            <m cert="0.5">v - 2 s p m e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="περιλάμπον"/>
+         <lm>
+            <l>περιλάμπω</l>
+            <m cert="0.25">v - - s p p a m v</m>
+            <m cert="0.25">v - - s p p a n n</m>
+            <m cert="0.25">v - - s p p a n v</m>
+            <m cert="0.25">v - - s p p a n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="αὐτοὺς"/>
+         <lm>
+            <l>αὐτός</l>
+            <m cert="0.3333333333333333">p p - p - - - m a</m>
+            <m cert="0.3333333333333333">a - - p - - - m a</m>
+            <m cert="0.3333333333333333">p - - p - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="45" val="θεωροῦσιν"/>
+         <lm>
+            <l>θεωρέω</l>
+            <m cert="0.5">v - 3 p p i a</m>
+            <m cert="0.25">v - - p p p a m d</m>
+            <m cert="0.25">v - - p p p a n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="46" val="Τῶν"/>
+         <lm cert="0.1">
+            <l>ὁ</l>
+            <m cert="0.3333333333333333">p a - p - - - m g</m>
+            <m cert="0.3333333333333333">p a - p - - - n g</m>
+            <m cert="0.3333333333333333">p a - p - - - f g</m>
+         </lm>
+         <lm cert="0.1">
+            <l>τίς</l>
+            <m cert="0.5">p i - p - - - c g</m>
+            <m cert="0.5">p i - p - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="46" val="Αἰγυπτίων"/>
+         <lm cert="0.30000000000000004">
+            <l>Αἰγύπτιος</l>
+            <m cert="0.3333333333333333">a e - p - - - m g</m>
+            <m cert="0.3333333333333333">a e - p - - - f g</m>
+            <m cert="0.3333333333333333">a e - p - - - n g</m>
+         </lm>
+         <lm cert="0.1">
+            <l>Αἰγυπτιόω</l>
+            <m cert="0.5">v - 3 p i i a</m>
+            <m cert="0.5">v - 1 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="46" val="βόρειον"/>
+         <lm cert="0.25">
+            <l>βόρειος</l>
+            <m cert="0.5">a - - s - - - f a</m>
+            <m cert="0.125">a - - s - - - m a</m>
+            <m cert="0.125">a - - s - - - n n</m>
+            <m cert="0.125">a - - s - - - n v</m>
+            <m cert="0.125">a - - s - - - n a</m>
+         </lm>
+         <lm cert="0.125">
+            <l>Βόρειον</l>
+            <m cert="0.3333333333333333">n e - s - - - n n</m>
+            <m cert="0.3333333333333333">n e - s - - - n v</m>
+            <m cert="0.3333333333333333">n e - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="46" val="στῆσαι"/>
+         <lm>
+            <l>ἵστημι</l>
+            <m cert="0.5">v - - - a n a</m>
+            <m cert="0.5">v - 2 s a m m</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="46" val="προστάσσεται"/>
+         <lm cert="0.5">
+            <l>προσστάζω</l>
+            <m cert="0.5">v - - s a s m</m>
+            <m cert="0.5">v - - s f i m</m>
+         </lm>
+         <lm cert="0.5">
+            <l>προστάσσω</l>
+            <m>v - - s p i e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="46" val="τίς"/>
+         <lm cert="0.5">
+            <l>τίς</l>
+            <m>p i - s - - - c n</m>
+         </lm>
+         <lm cert="0.5">
+            <l>τις</l>
+            <m>p x - s - - - c n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="46" val="πάντα"/>
+         <lm>
+            <l>πᾶς</l>
+            <m cert="0.5000000000000001">a - - s - - - m a</m>
+            <m cert="0.16666666666666669">a - - p - - - n n</m>
+            <m cert="0.16666666666666669">a - - p - - - n v</m>
+            <m cert="0.16666666666666669">a - - p - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="46" val="γενναίως"/>
+         <lm>
+            <l>γενναῖος</l>
+            <m cert="0.3333333333333333">a - - p - - - f a</m>
+            <m cert="0.3333333333333333">a - - p - - - m a</m>
+            <m cert="0.3333333333333333">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="46" val="μετὰ"/>
+         <lm>
+            <l>μετά</l>
+            <m cert="0.5">r</m>
+            <m cert="0.5">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="46" val="προθυμίας"/>
+         <lm>
+            <l>προθυμία</l>
+            <m cert="0.5">n - - p - - - f a</m>
+            <m cert="0.5">n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="47" val="ἐκκλησίας"/>
+         <lm>
+            <l>ἐκκλησία</l>
+            <m cert="0.5">n - - p - - - f a</m>
+            <m cert="0.5">n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="47" val="ἄγγελος"/>
+         <lm cert="0.5">
+            <l>ἄγγελος</l>
+            <m>n - - s - - - c n</m>
+         </lm>
+         <lm cert="0.5">
+            <l>Ἄγγελος</l>
+            <m>n e - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="47" val="πεπωκὼς"/>
+         <lm>
+            <l>πίνω</l>
+            <m cert="0.5">v - - s r p a m n</m>
+            <m cert="0.5">v - - s r p a m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="47" val="τελείως"/>
+         <lm cert="0.5">
+            <l>τέλειος</l>
+            <m cert="0.6666666666666666">d</m>
+            <m cert="0.3333333333333333">a - - p - - - m a</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>τελειόω</l>
+            <m>v - 2 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="47" val="ἀγάπη"/>
+         <lm cert="0.125">
+            <l>ἀγάπη</l>
+            <m cert="0.5">n - - s - - - f n</m>
+            <m cert="0.5">n - - s - - - f v</m>
+         </lm>
+         <lm cert="0.125">
+            <l>ἀγαπάω</l>
+            <m cert="0.5">v - 3 s i i a</m>
+            <m cert="0.5">v - 2 s p m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="47" val="φλεγμαίνοντα"/>
+         <lm>
+            <l>φλεγμαίνω</l>
+            <m cert="0.25">v - - p p p a n a</m>
+            <m cert="0.25">v - - p p p a n n</m>
+            <m cert="0.25">v - - p p p a n v</m>
+            <m cert="0.25">v - - s p p a m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="47" val="μόρια"/>
+         <lm cert="0.08333333333333333">
+            <l>μόριον</l>
+            <m cert="0.3333333333333333">n - - p - - - n n</m>
+            <m cert="0.3333333333333333">n - - p - - - n v</m>
+            <m cert="0.3333333333333333">n - - p - - - n a</m>
+         </lm>
+         <lm cert="0.08333333333333333">
+            <l>μόριος</l>
+            <m cert="0.3333333333333333">a - - p - - - n n</m>
+            <m cert="0.3333333333333333">a - - p - - - n v</m>
+            <m cert="0.3333333333333333">a - - p - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="47" val="θεραπεύει"/>
+         <lm>
+            <l>θεραπεύω</l>
+            <m cert="0.5">v - 2 s p i e</m>
+            <m cert="0.5">v - 3 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="47" val="ἐπιθυμίας"/>
+         <lm>
+            <l>ἐπιθυμία</l>
+            <m cert="0.5">n - - p - - - f a</m>
+            <m cert="0.5">n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="47" val="ἐπιρρεούσας"/>
+         <lm>
+            <l>ἐπιρρέω</l>
+            <m cert="0.5">v - - p p p a f a</m>
+            <m cert="0.5">v - - s p p a f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="47" val="ἐγκράτεια"/>
+         <lm>
+            <l>ἐγκράτεια</l>
+            <m cert="0.5">n - - s - - - f n</m>
+            <m cert="0.5">n - - s - - - f v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="48" val="προνοίας"/>
+         <tok ref="48" val="προνοίας" pos="2"/>
+         <lm>
+            <l>πρόνοια</l>
+            <m cert="0.5">n - - p - - - f a</m>
+            <m cert="0.5">n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="48" val="κατὰ"/>
+         <lm cert="0.5">
+            <l>κατά</l>
+            <m cert="0.6666666666666666">r</m>
+            <m cert="0.3333333333333333">d</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>καθά</l>
+            <m>d r</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="48" val="σαυτὸν"/>
+         <lm>
+            <l>σεαυτοῦ</l>
+            <m cert="0.5">p k - s - - - m a</m>
+            <m cert="0.5">p k - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="48" val="γύμναζε"/>
+         <lm>
+            <l>γυμνάζω</l>
+            <m cert="0.5">v - 2 s p m a</m>
+            <m cert="0.5">v - 3 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="48" val="μέγας"/>
+         <lm>
+            <l>μέγας</l>
+            <m cert="0.5">a - - s - - - m n</m>
+            <m cert="0.5">n e - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="48" val="ἅπαντες"/>
+         <lm>
+            <l>ἅπας</l>
+            <m cert="0.5">a - - p - - - m n</m>
+            <m cert="0.5">a - - p - - - m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="48" val="προσπταίουσι"/>
+         <lm>
+            <l>προσπταίω</l>
+            <m cert="0.3333333333333333">v - - p p p a m d</m>
+            <m cert="0.3333333333333333">v - - p p p a n d</m>
+            <m cert="0.3333333333333333">v - - p p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="48" val="Καὶ"/>
+         <lm>
+            <l>καί</l>
+            <m cert="0.5">c</m>
+            <m cert="0.5">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="48" val="σωμάτων"/>
+         <lm cert="0.16666666666666666">
+            <l>σῶμα</l>
+            <m>n - - p - - - n g</m>
+         </lm>
+         <lm cert="0.16666666666666666">
+            <l>σωματόω</l>
+            <m cert="0.5">v - 3 p i i a</m>
+            <m cert="0.5">v - 1 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="48" val="εὑρήσεις"/>
+         <lm cert="0.25">
+            <l>εὕρησις</l>
+            <m cert="0.3333333333333333">n - - p - - - f n</m>
+            <m cert="0.3333333333333333">n - - p - - - f v</m>
+            <m cert="0.3333333333333333">n - - p - - - f a</m>
+         </lm>
+         <lm cert="0.25">
+            <l>εὑρίσκω</l>
+            <m>v - 2 s f i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="48" val="κακίας"/>
+         <lm>
+            <l>κακία</l>
+            <m cert="0.5">n - - p - - - f a</m>
+            <m cert="0.5">n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="48" val="ἀγνωσίας"/>
+         <lm>
+            <l>ἀγνωσία</l>
+            <m cert="0.5">n - - p - - - f a</m>
+            <m cert="0.5">n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="48" val="ἡμᾶς"/>
+         <lm cert="0.5">
+            <l>ἐγώ</l>
+            <m>p p - p - - - - a</m>
+         </lm>
+         <lm cert="0.5">
+            <l>ἡμός</l>
+            <m>a - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="48" val="ἐπανάγουσι"/>
+         <lm>
+            <l>ἐπανάγω</l>
+            <m cert="0.3333333333333333">v - - p p p a m d</m>
+            <m cert="0.3333333333333333">v - - p p p a n d</m>
+            <m cert="0.3333333333333333">v - 3 p p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="50" val="ἀρχέτυπον"/>
+         <lm cert="0.0625">
+            <l>ἀρχέτυπον</l>
+            <m cert="0.3333333333333333">n - - s - - - n n</m>
+            <m cert="0.3333333333333333">n - - s - - - n v</m>
+            <m cert="0.3333333333333333">n - - s - - - n a</m>
+         </lm>
+         <lm cert="0.0625">
+            <l>ἀρχέτυπος</l>
+            <m cert="0.2">a - - s - - - m a</m>
+            <m cert="0.2">a - - s - - - f a</m>
+            <m cert="0.2">a - - s - - - n n</m>
+            <m cert="0.2">a - - s - - - n v</m>
+            <m cert="0.2">a - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="50" val="πειρῶ"/>
+         <lm>
+            <l>πειράω</l>
+            <m cert="0.25">v - 1 s p s a</m>
+            <m cert="0.25">v - 1 s p i a</m>
+            <m cert="0.25">v - 2 s p m e</m>
+            <m cert="0.25">v - 2 s i i e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="50" val="μηδὲν"/>
+         <lm>
+            <l>μηδείς</l>
+            <m cert="0.3333333333333333">a - - s - - - n n</m>
+            <m cert="0.3333333333333333">a - - s - - - n v</m>
+            <m cert="0.3333333333333333">a - - s - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="50" val="παρεὶς"/>
+         <lm cert="0.125">
+            <l>παρίημι</l>
+            <m cert="0.5">v - - s a p a m n</m>
+            <m cert="0.5">v - - s a p a m v</m>
+         </lm>
+         <lm cert="0.125">
+            <l>πείρω</l>
+            <m cert="0.5">v - - s a p p m n</m>
+            <m cert="0.5">v - - s a p p m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok ref="50" val="συντελούντων"/>
+         <lm>
+            <l>συντελέω</l>
+            <m cert="0.5">v - 3 p p m a</m>
+            <m cert="0.125">v - - p f p a m g</m>
+            <m cert="0.125">v - - p f p a n g</m>
+            <m cert="0.125">v - - p p p a m g</m>
+            <m cert="0.125">v - - p p p a n g</m>
+         </lm>
+      </ana>
+      <!--Unambiguous lexico-morphological data for 215 tokens (39.4% of 545)-->
+      <ana>
+         <tok val="πρακτικούς"/>
+         <lm>
+            <l>πρακτικός</l>
+            <m>a - - p - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="δὲ"/>
+         <lm>
+            <l>δέ</l>
+            <m>g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὄψονται"/>
+         <lm>
+            <l>ὁράω</l>
+            <m>v - 3 p f i m</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Πρακτικὸς"/>
+         <lm>
+            <l>πρακτικός</l>
+            <m>a - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐστιν"/>
+         <lm>
+            <l>εἰμί</l>
+            <m>v c 3 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὁ"/>
+         <lm>
+            <l>ὁ</l>
+            <m>p a - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="κεκτημένος"/>
+         <lm>
+            <l>κτάομαι</l>
+            <m>v - - s r p m m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Γνωστικὸς"/>
+         <lm>
+            <l>γνωστικός</l>
+            <m>a - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="μὲν"/>
+         <lm>
+            <l>μέν</l>
+            <m>g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="λόγον"/>
+         <lm>
+            <l>λόγος</l>
+            <m>n - - s - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐπέχων"/>
+         <lm>
+            <l>ἐπέχω</l>
+            <m>v - - s p p a m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Ἡ"/>
+         <lm>
+            <l>ὁ</l>
+            <m>p a - s - - - f n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἔξωθεν"/>
+         <lm>
+            <l>ἔξωθεν</l>
+            <m>d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἡμῖν"/>
+         <lm>
+            <l>ἐγώ</l>
+            <m>p p - p - - - - d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="διὰ"/>
+         <lm>
+            <l>διά</l>
+            <m>r</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὑποδεικνύειν"/>
+         <lm>
+            <l>ὑποδείκνυμι</l>
+            <m>v - - - p n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἡ"/>
+         <lm>
+            <l>ὁ</l>
+            <m>p a - s - - - f n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Θεοῦ"/>
+         <lm>
+            <l>θεός</l>
+            <m>n - - s - - - c g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="διανοίᾳ"/>
+         <lm>
+            <l>διάνοια</l>
+            <m>n - - s - - - f d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="παρίστησι"/>
+         <lm>
+            <l>παρίστημι</l>
+            <m>v - 3 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="προσίεται"/>
+         <lm>
+            <l>προσίημι</l>
+            <m>v - 3 s p i e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀντίκειται"/>
+         <lm>
+            <l>ἀντίκειμαι</l>
+            <m>v - 3 s p i m</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="προτέρᾳ"/>
+         <lm>
+            <l>πρότερος</l>
+            <m>a - - s - - - f d c</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="θυμός"/>
+         <lm>
+            <l>θυμός</l>
+            <m>n - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="αἱ"/>
+         <lm>
+            <l>ὁ</l>
+            <m>p a - p - - - f n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὑπὲρ"/>
+         <lm>
+            <l>ὑπέρ</l>
+            <m>r</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Ὁ"/>
+         <lm>
+            <l>ὁ</l>
+            <m>p a - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="γνώσεως"/>
+         <lm>
+            <l>γνῶσις</l>
+            <m>n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐφαψάμενος"/>
+         <lm>
+            <l>ἐφάπτω</l>
+            <m>v - - s a p m m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὀργὴν"/>
+         <lm>
+            <l>ὀργή</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="κινούμενος"/>
+         <lm>
+            <l>κινέω</l>
+            <m>v - - s p p e m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὅμοιός"/>
+         <lm>
+            <l>ὅμοιος</l>
+            <m>a - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐστι"/>
+         <lm>
+            <l>εἰμί</l>
+            <m>v c 3 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="σιδηρᾷ"/>
+         <lm>
+            <l>σιδήρεος</l>
+            <m>a - - s - - - f d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="περόνῃ"/>
+         <lm>
+            <l>περόνη</l>
+            <m>n - - s - - - f d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὀφθαλμοὺς"/>
+         <lm>
+            <l>ὀφθαλμός</l>
+            <m>n - - p - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="συγκαταβάσεσιν"/>
+         <lm>
+            <l>συγκατάβασις</l>
+            <m>n - - p - - - f d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="γνωστικός"/>
+         <lm>
+            <l>γνωστικός</l>
+            <m>a - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="μήποτε"/>
+         <lm>
+            <l>μήποτε</l>
+            <m>d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="συγκατάβασις"/>
+         <lm>
+            <l>συγκατάβασις</l>
+            <m>n - - s - - - f n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐπίσης"/>
+         <lm>
+            <l>ἐπίσης</l>
+            <m>d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀεὶ"/>
+         <lm>
+            <l>ἀεί</l>
+            <m>d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀρετὰς"/>
+         <lm>
+            <l>ἀρετή</l>
+            <m>n - - p - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀντακολουθῶσιν"/>
+         <lm>
+            <l>ἀντακολουθέω</l>
+            <m>v - - p p s a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀλλήλαις"/>
+         <lm>
+            <l>ἀλλήλων</l>
+            <m>p c - p - - - f d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="πεφυκέναι"/>
+         <lm>
+            <l>φύω</l>
+            <m>v - - - r n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὑπὸ"/>
+         <lm>
+            <l>ὑπό</l>
+            <m>r</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐλαττουμένης"/>
+         <lm>
+            <l>ἐλασσόω</l>
+            <m>v - - s p p e f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="προδίδοσθαι"/>
+         <lm>
+            <l>προδίδωμι</l>
+            <m>v - - - p n e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="δικάζεσθαι"/>
+         <lm>
+            <l>δικάζω</l>
+            <m>v - - - p n e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="οὐχ"/>
+         <lm>
+            <l>οὐ</l>
+            <m>d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὑπέμεινεν"/>
+         <lm>
+            <l>ὑπομένω</l>
+            <m>v - 3 s a i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἠδίκησε"/>
+         <lm>
+            <l>ἀδικέω</l>
+            <m>v - 3 s a i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="διαφυλαχθῇ"/>
+         <lm>
+            <l>διαφυλάσσω</l>
+            <m>v - 3 s a s p</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="προέλθοι"/>
+         <lm>
+            <l>προέρχομαι</l>
+            <m>v - 3 s a o a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὀρθῆς"/>
+         <lm>
+            <l>ὀρθός</l>
+            <m>a - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="διαλέγεσθαι"/>
+         <lm>
+            <l>διαλέγομαι</l>
+            <m>v - - - p n m</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="φυσικῆς"/>
+         <lm>
+            <l>φυσικός</l>
+            <m>a - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="θεολογικῆς"/>
+         <lm>
+            <l>θεολογικός</l>
+            <m>a - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="σαφηνίζειν"/>
+         <lm>
+            <l>σαφηνίζω</l>
+            <m>v - - - p n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="μέρους"/>
+         <lm>
+            <l>μέρος</l>
+            <m>n - - s - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐπιτηδευμάτων"/>
+         <lm>
+            <l>ἐπιτήδευμα</l>
+            <m>n - - p - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="νόμους"/>
+         <lm>
+            <l>νόμος</l>
+            <m>n - - p - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἔχῃς"/>
+         <lm>
+            <l>ἔχω</l>
+            <m>v - 2 s p s a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="λέγειν"/>
+         <lm>
+            <l>λέγω</l>
+            <m>v - - - p n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Τοὺς"/>
+         <lm>
+            <l>ὁ</l>
+            <m>p a - p - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="προσώπων"/>
+         <lm>
+            <l>πρόσωπον</l>
+            <m>n - - p - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="οὐκ"/>
+         <lm>
+            <l>οὐ</l>
+            <m>d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="οἰκονομίαν"/>
+         <lm>
+            <l>οἰκονομία</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Θεὸς"/>
+         <lm>
+            <l>θεός</l>
+            <m>n - - s - - - c n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐνήργησεν"/>
+         <lm>
+            <l>ἐνεργέω</l>
+            <m>v - 3 s a i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Βαλαὰμ"/>
+         <lm>
+            <l>βαλαρός</l>
+            <m>n - - s - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="γενέσεως"/>
+         <lm>
+            <l>γένεσις</l>
+            <m>n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Σωτῆρος"/>
+         <lm>
+            <l>σωτήρ</l>
+            <m>n e - s - - - m g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="πάντας"/>
+         <lm>
+            <l>πᾶς</l>
+            <m>a - - p - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀνθρώπους"/>
+         <lm>
+            <l>ἄνθρωπος</l>
+            <m>n - - p - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="σωθῆναι"/>
+         <lm>
+            <l>σῴζω</l>
+            <m>v - - - a n p</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐπίγνωσιν"/>
+         <lm>
+            <l>ἐπίγνωσις</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐλθεῖν"/>
+         <lm>
+            <l>ἔρχομαι</l>
+            <m>v - - - a n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="κέρδους"/>
+         <lm>
+            <l>κέρδος</l>
+            <m>n - - s - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἕνεκεν"/>
+         <lm>
+            <l>ἕνεκα</l>
+            <m>r</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="εὐπαθεῖν"/>
+         <lm>
+            <l>εὐπαθέω</l>
+            <m>v - - - p n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="δόξης"/>
+         <lm>
+            <l>δόξα</l>
+            <m>n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="παρερχομένης"/>
+         <lm>
+            <l>παρέρχομαι</l>
+            <m>v - - s p p e f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="εἴπῃς"/>
+         <lm>
+            <l>λέγω</l>
+            <m>v - 2 s a s a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="βληθῇς"/>
+         <lm>
+            <l>βάλλω</l>
+            <m>v - - s a s p</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ναῷ"/>
+         <lm>
+            <l>ναός</l>
+            <m>n - - s - - - m d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="περιστερᾶς"/>
+         <lm>
+            <l>περιστερά</l>
+            <m>n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="πιπράσκων"/>
+         <lm>
+            <l>πιπράσκω</l>
+            <m>v - - s p p a m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="θεολογήσῃς"/>
+         <lm>
+            <l>θεολογέω</l>
+            <m>v - - s a s a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="εἰσὶν"/>
+         <lm>
+            <l>εἰμί</l>
+            <m>v c 3 p p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="κακίαν"/>
+         <lm>
+            <l>κακία</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Οἱ"/>
+         <lm>
+            <l>ὁ</l>
+            <m>p a - p - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="λεγέτωσάν"/>
+         <lm>
+            <l>λέγω</l>
+            <m>v - 3 p p m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="φίλε"/>
+         <lm>
+            <l>φίλος</l>
+            <m>a - - s - - - m v</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="προσανάβηθι"/>
+         <lm>
+            <l>προσαναβαίνω</l>
+            <m>v - 2 s a m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="γάρ"/>
+         <lm>
+            <l>γάρ</l>
+            <m>g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="πάλιν"/>
+         <lm>
+            <l>πάλιν</l>
+            <m>d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="κατενεχθῆναι"/>
+         <lm>
+            <l>καταφέρω</l>
+            <m>v - - - a n p</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀλλ’"/>
+         <lm>
+            <l>ἀλλά</l>
+            <m>c</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐφιέμενος"/>
+         <lm>
+            <l>ἐφίημι</l>
+            <m>v - - s p p e m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="οἰκονόμον"/>
+         <lm>
+            <l>οἰκονόμος</l>
+            <m>n - - s - - - c a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Γέροντας"/>
+         <lm>
+            <l>γέρων</l>
+            <m>n - - p - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="γαστρὸς"/>
+         <lm>
+            <l>γαστήρ</l>
+            <m>n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="κρατεῖν"/>
+         <lm>
+            <l>κρατέω</l>
+            <m>v - - - p n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="διαμάχονται"/>
+         <lm>
+            <l>διαμάχομαι</l>
+            <m>v - 3 p p i m</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀκοαῖς"/>
+         <lm>
+            <l>ἀκοή</l>
+            <m>n - - p - - - f d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="θαυμάσῃς"/>
+         <lm>
+            <l>θαυμάζω</l>
+            <m>v - 2 s a s a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="κατηγορούμενος"/>
+         <lm>
+            <l>κατηγορέω</l>
+            <m>v - - s p p e m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="πειρασμὸς"/>
+         <lm>
+            <l>πειρασμός</l>
+            <m>n - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="μίσους"/>
+         <lm>
+            <l>μῖσος</l>
+            <m>n - - s - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἑαυτὸν"/>
+         <lm>
+            <l>ἑαυτοῦ</l>
+            <m>p k - s - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="θεραπεύων"/>
+         <lm>
+            <l>θεραπεύω</l>
+            <m>v - - s p p a m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Λανθανέτω"/>
+         <lm>
+            <l>λανθάνω</l>
+            <m>v - 3 s p m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="κοσμικοὺς"/>
+         <lm>
+            <l>κοσμικός</l>
+            <m>a - - p - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="κρίσεως"/>
+         <lm>
+            <l>κρίσις</l>
+            <m>n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὑψηλότερος"/>
+         <lm>
+            <l>ὑψηλός</l>
+            <m>a - - s - - - m n c</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="λόγος"/>
+         <lm>
+            <l>λόγος</l>
+            <m>n - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="καταφρόνησιν"/>
+         <lm>
+            <l>καταφρόνησις</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="οὐ"/>
+         <lm>
+            <l>οὐ</l>
+            <m>d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="λογικῆς"/>
+         <lm>
+            <l>λογικός</l>
+            <m>a - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="καταδικασθείσης"/>
+         <lm>
+            <l>καταδικάζω</l>
+            <m>v - - s a p p f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἄγνοιαν"/>
+         <lm>
+            <l>ἄγνοια</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Παῦλος"/>
+         <lm>
+            <l>Παῦλος</l>
+            <m>n e - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὑποπιάζων"/>
+         <lm>
+            <l>ὑποπιάζω</l>
+            <m>v - - s p p a m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐδουλαγώγει"/>
+         <lm>
+            <l>δουλαγωγέω</l>
+            <m>v - - s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀμελήσῃς"/>
+         <lm>
+            <l>ἀμελέω</l>
+            <m>v - 2 s a s a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="οὖν"/>
+         <lm>
+            <l>οὖν</l>
+            <m>g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="καθυβρίσῃς"/>
+         <lm>
+            <l>καθυβρίζω</l>
+            <m>v - - s a s a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀπάθειαν"/>
+         <lm>
+            <l>ἀπάθεια</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="σώματι"/>
+         <lm>
+            <l>σῶμα</l>
+            <m>n - - s - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="αὐτήν"/>
+         <lm>
+            <l>αὐτός</l>
+            <m>p p - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="μεριμνήσῃς"/>
+         <lm>
+            <l>μεριμνάω</l>
+            <m>v - - s a s a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="βρωμάτων"/>
+         <lm>
+            <l>βρῶμα</l>
+            <m>n - - p - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐνδυμάτων"/>
+         <lm>
+            <l>ἔνδυμα</l>
+            <m>n - - p - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀλλὰ"/>
+         <lm>
+            <l>ἀλλά</l>
+            <m>c</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="κιβωτὸν"/>
+         <lm>
+            <l>κιβωτός</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Κυρίου"/>
+         <lm>
+            <l>κύριος2</l>
+            <m>n - - s - - - m g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="πλούσιος"/>
+         <lm>
+            <l>πλούσιος</l>
+            <m>a - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐξ"/>
+         <lm>
+            <l>ἐκ</l>
+            <m>r</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="πρότασις"/>
+         <lm>
+            <l>πρότασις</l>
+            <m>n - - s - - - f n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="διαφοράν"/>
+         <lm>
+            <l>διαφορά</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Τριάδος"/>
+         <lm>
+            <l>τριάς</l>
+            <m>n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἔστι"/>
+         <lm>
+            <l>εἰμί</l>
+            <m>v c 3 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="λαβεῖν"/>
+         <lm>
+            <l>λαμβάνω</l>
+            <m>v - - - a n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="προσκυνείσθω"/>
+         <lm>
+            <l>προσκυνέω</l>
+            <m>v - - s p m e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Πειρασμὸς"/>
+         <lm>
+            <l>πειρασμός</l>
+            <m>n - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὑπόληψις"/>
+         <lm>
+            <l>ὑπόληψις</l>
+            <m>n - - s - - - f n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="οὕτως"/>
+         <lm>
+            <l>οὕτως</l>
+            <m>d d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὥσπερ"/>
+         <lm>
+            <l>ὥσπερ</l>
+            <m>d r</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="μεμαθήκαμεν"/>
+         <lm>
+            <l>μανθάνω</l>
+            <m>v - 1 p r i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="φρόνησιν"/>
+         <lm>
+            <l>φρόνησις</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="δικαιοσύνην"/>
+         <lm>
+            <l>δικαιοσύνη</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="φρονήσεως"/>
+         <lm>
+            <l>φρόνησις</l>
+            <m>n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="θεωρεῖν"/>
+         <lm>
+            <l>θεωρέω</l>
+            <m>v - - - p n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="νοερὰς"/>
+         <lm>
+            <l>νοερός</l>
+            <m>a - - p - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="τούτους"/>
+         <lm>
+            <l>οὗτος</l>
+            <m>p d - p - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="μόνης"/>
+         <lm>
+            <l>μόνος</l>
+            <m>a - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="δηλοῦσθαι"/>
+         <lm>
+            <l>δηλόω</l>
+            <m>v - - - p n e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐγκαρτερεῖν"/>
+         <lm>
+            <l>ἐγκαρτερέω</l>
+            <m>v - - - p n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐμβατεύειν"/>
+         <lm>
+            <l>ἐμβατεύω</l>
+            <m>v - - - p n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="δέχεσθαι"/>
+         <lm>
+            <l>δέχομαι</l>
+            <m>v - - - p n m</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀπωθεῖσθαι"/>
+         <lm>
+            <l>ἀπωθέω</l>
+            <m>v - - - p n e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="σωφροσύνης"/>
+         <lm>
+            <l>σωφροσύνη</l>
+            <m>n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀπεκρίνατο"/>
+         <lm>
+            <l>ἀποκρίνω</l>
+            <m>v - 3 s a i m</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀποδιδόναι"/>
+         <lm>
+            <l>ἀποδίδωμι</l>
+            <m>v - - - p n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="σκοτεινῶς"/>
+         <lm>
+            <l>σκοτεινός</l>
+            <m>d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀπαγγέλλουσαν"/>
+         <lm>
+            <l>ἀπαγγέλλω</l>
+            <m>v - - s p p a f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="αἰνιγμάτων"/>
+         <lm>
+            <l>αἴνιγμα</l>
+            <m>n - - p - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="σημαίνουσαν"/>
+         <lm>
+            <l>σημαίνω</l>
+            <m>v - - s p p a f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="φανεροῦσαν"/>
+         <lm>
+            <l>φανερόω</l>
+            <m>v - - s p p a f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὠφέλειαν"/>
+         <lm>
+            <l>ὠφέλεια</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Τῆς"/>
+         <lm>
+            <l>ὁ</l>
+            <m>p a - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="στύλος"/>
+         <lm>
+            <l>στῦλος</l>
+            <m>n - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀνθρώπων"/>
+         <lm>
+            <l>ἄνθρωπος</l>
+            <m>n - - p - - - m g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="φησίν"/>
+         <lm>
+            <l>φημί</l>
+            <m>v - 3 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐπισυμβαίνουσαν"/>
+         <lm>
+            <l>ἐπί-συμβαίνω</l>
+            <m>v - - s p p a f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐγγινομένην"/>
+         <lm>
+            <l>ἐγγίγνομαι</l>
+            <m>v - - s p p e f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="προτέραν"/>
+         <lm>
+            <l>πρότερος</l>
+            <m>a - - s - - - f a c</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="εἰσὶ"/>
+         <lm>
+            <l>εἰμί</l>
+            <m>v c 3 p p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="προσευχῆς"/>
+         <lm>
+            <l>προσευχή</l>
+            <m>n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="φωστὴρ"/>
+         <lm>
+            <l>φωστήρ</l>
+            <m>n - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="τράπεζαν"/>
+         <lm>
+            <l>τράπεζα</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="φησί"/>
+         <lm>
+            <l>φημί</l>
+            <m>v - 3 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Μωϋσῆς"/>
+         <lm>
+            <l>Μωυσῆς</l>
+            <m>n e - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="γινωσκέτωσαν"/>
+         <lm>
+            <l>γιγνώσκω</l>
+            <m>v - - p p m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="πνέων"/>
+         <lm>
+            <l>πνέω</l>
+            <m>v - - s p p a m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐστὶ"/>
+         <lm>
+            <l>εἰμί</l>
+            <m>v c 3 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="πειρασμὸν"/>
+         <lm>
+            <l>πειρασμός</l>
+            <m>n - - s - - - m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ὑπομενέτωσαν"/>
+         <lm>
+            <l>ὑπομένω</l>
+            <m>v - - p p m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="προσιόντας"/>
+         <lm>
+            <l>πρόσειμι2</l>
+            <m>v - - p p p a m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="τρεφέτωσαν"/>
+         <lm>
+            <l>τρέφω</l>
+            <m>v - - p p m a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Ἔλεγεν"/>
+         <lm>
+            <l>λέγω</l>
+            <m>v - 3 p a i p</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Σαραπίων"/>
+         <lm>
+            <l>σάραπις</l>
+            <m>n - - p - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="πνευματικὴν"/>
+         <lm>
+            <l>πνευματικός</l>
+            <m>a - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="καθαίρεται"/>
+         <lm>
+            <l>καθαίρω</l>
+            <m>v - 3 s p i e</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="πονηρὰς"/>
+         <lm>
+            <l>πονηρός</l>
+            <m>a - - p - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἵστησιν"/>
+         <lm>
+            <l>ἵστημι</l>
+            <m>v - 3 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="φησὶν"/>
+         <lm>
+            <l>φημί</l>
+            <m>v - 3 s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="γνωστικὸς"/>
+         <lm>
+            <l>γνωστικός</l>
+            <m>a - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="διδάσκαλος"/>
+         <lm>
+            <l>διδάσκαλος</l>
+            <m>n - - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Δίδυμος"/>
+         <lm>
+            <l>Δίδυμος</l>
+            <m>n e - s - - - m n</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="μνήμης"/>
+         <lm>
+            <l>μνήμη</l>
+            <m>n - - s - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="φέρειν"/>
+         <lm>
+            <l>φέρω</l>
+            <m>v - - - p n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="πειράθητι"/>
+         <lm>
+            <l>πειράω</l>
+            <m>v - 2 s a m p</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="σχεδὸν"/>
+         <lm>
+            <l>σχεδόν</l>
+            <m>d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="διαφορᾷ"/>
+         <lm>
+            <l>διαφορά</l>
+            <m>n - - s - - - f d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="κόσμων"/>
+         <lm>
+            <l>κόσμος</l>
+            <m>n - - p - - - m g</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="τρόποις"/>
+         <lm>
+            <l>τρόπος</l>
+            <m>n - - p - - - m d</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἀρετὴν"/>
+         <lm>
+            <l>ἀρετή</l>
+            <m>n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="Πρὸς"/>
+         <lm>
+            <l>πρός</l>
+            <m>r</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="γράφειν"/>
+         <lm>
+            <l>γράφω</l>
+            <m>v - - - p n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="εἰκόνας"/>
+         <lm>
+            <l>εἰκών</l>
+            <m>n - - p - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="κερδᾶναι"/>
+         <lm>
+            <l>κερδαίνω</l>
+            <m>v - - - a n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <tok val="ἐκπεσοῦσαν"/>
+         <lm>
+            <l>ἐκπίπτω</l>
+            <m>v - - s a p a f a</m>
+         </lm>
+      </ana>
+   </body>
+</TAN-A-lm>
