@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical">
+   <head>
+      <name>Greek text of Evagrius of Pontus's On Masters and Disciples, Van Den Ven's 1907 edition,
+         logical reference system</name>
+      <license which="by_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2018-05-29-04:00"/>
+      </key>
+      <redivision>
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text::scriptum</IRI>
+         <name>Greek text of De magistris et discipulis, scriptum reference system</name>
+         <location href="../patrologia/texts/cpg2449.grc.1858.pg.ref-scriptum.xml" when-accessed="2018-04-04"/>
+      </redivision>
+      <source><IRI>tag:evagriusponticus.net,2012:scriptum:van-den-ven-1908</IRI><name>Van Den Ven 1908</name><desc>P. van den Ven, “Un Opuscule Inédit Attribué à S. Nil,” Mémoires Littéraires,
+         Philologiques et Archéologiques 2 (1908): 73–81.</desc></source>
+      <annotation>
+         <IRI>tag:kalvesmaki.com,2014:patrologia:tan-a-lm:tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:logicaltag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical</IRI>
+         <name>Lexico-morphological data for: Greek text of Evagrius of Pontus's On Masters and
+            Disciples, Van Den Ven's 1907 edition, logical reference system</name>
+         <location href="../patrologia/tan-a-lm/cpg2449.grc.1908.van-den-ven.ref-logical.tan-a-lm.xml" when-accessed="2018-05-19-04:00"/>
+      </annotation>
+      <definitions>
+         <div-type xml:id="ch" which="chapter"/>
+         <work which="On Masters and Disciples"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+      </definitions>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2018-03-01-05:00" who="kalvesmaki">Began file</change>
+   </head>
+   <body xml:lang="grc">
+      <div type="ch" n="1">Ἄτεχνος κυβερνήτης ἕτοιμος ναυαγία καὶ ἀνεπιστήμων ἡγούμενος ἀπώλεια
+         μαθητῶν. </div>
+      <div type="ch" n="2">Ἄπειρος ποιμὴν ἐξέστρεψεν ἀστραγάλους προβάτων καὶ ἡγούμενος ὁδοὺς
+         μαθητῶν. Οὐ διαγνώσεται ἐν ὁμίχλῃ ἀνὰ μέσον προβάτων ἀνεπιστήμων ποιμὴν οὐδ' ἐν καιρῷ
+         πειρασμῶν ἐρεῖ τι συμφέρον διδάσκαλος ἄπειρος. </div>
+      <div type="ch" n="3">Στρατηγὸς πολέμου καὶ παθῶν ἰατρός ἐστιν ἐπιστήμων ἡγούμενος· ἢ γὰρ
+         τρωθῆναι οὐκ ἐάσει ἢ τρωθέντα ταχέως ἰάσεται. </div>
+      <div type="ch" n="4">Ἀνήκοος μαθητὴς διεστραμμένον ξύλον καὶ οὐ μὴ ὀρθωθῇ ἐλεγχόμενος συνεχῶς. </div>
+      <div type="ch" n="5">Ἀσύμφωνος ἀδελφὸς ἀπηχούσης λύρας νευρὰ καὶ τῇ κοινωνίᾳ λυομένη τοῦ κοινοῦ
+         μέλους. </div>
+      <div type="ch" n="6">Κηφὴν ἐσθίει μελισσῶν πόνους καὶ ῥᾴθυμος ἀδελφὸς ἐλαττοῖ συνοδίας ἐνάρετον
+         πρᾶξιν. </div>
+      <div type="ch" n="7">Δειλὸς στρατιώτης ἐκλύει πολεμιστῶν χεῖρας καὶ ἀμελὴς μοναχὸς χαυνοῖ
+         προθυμίαν ἀδελφῶν. </div>
+      <div type="ch" n="8">Σμῆνος μελισσῶν ἐργάζεται κηρίον καὶ σύστημα ἀδελφῶν βασιλείαν οὐρανῶν. </div>
+      <div type="ch" n="9">Σάλπιγξ διεγείρει προθυμίαν πολεμιστῶν καὶ μαθητῶν σπουδὴν διδασκαλία
+         πρακτικῆς ἀρετῆς. </div>
+      <div type="ch" n="10">Ὅπλισον †δακτύλων λόγοις, ἡγούμενε, σοὺς ἀδελφοὺς καὶ θωράκισον
+         ἐπαγγελίαις τῶν μελλόντων ἀγαθῶν· φράξον θυρεῷ πίστεως ἄθλοις καὶ περικνήμισον ἐλπίδι τῇ
+         εἰς τὸν θεόν· †κήνησον τοὺς πόδας ἐν εὐαγγελικοῖς μαθήμασι καὶ ζῶσον τὴν ὀσφὺν σωφροσύνης
+         λόγοις· δὸς μάχαιραν εἰς τὴν χεῖρα κατὰ τῶν παθῶν ὀξύτατον θυμὸν καὶ ἀντίταξον φάλαγγα
+         παθῶν ἡδονῇ. </div>
+      <div type="ch" n="11">Γύμνασον ἐν λογισμοῖς τοὺς ὁπλίτας, οἳ ἐμπείρως ἔχουσι πρὸς τὴν μάχην· καὶ
+         δεῖξον φοβερὸν τὴν ἧτταν τῇ ἀπειλῇ τῆς αἰωνίου κολάσεως. </div>
+      <div type="ch" n="12">Τὸν νικητὴν ἀνακήρυττε λαμπροῖς ἐπαίνοις, οἶδε γὰρ καὶ ἡ εὐφημία
+         σπουδαιοτέρους ποιεῖν· καὶ τὸν ἐπηρεασθέντα θεράπευσον συμπαθῶς, οὐχ ἧττον γὰρ ἀπειλῆς
+         ἐντρέπει συγγνώμη τὸν συνετόν. </div>
+      <div type="ch" n="13">Μὴ κινήσῃς θυμῷ ἐφ' ἁμαρτήσαντι μαθητῇ, οὐ γὰρ ὅσιον ἑαυτὸν τιτρώσκειν πρὸ
+         τῆς θεραπείας ἑτέρου· ἀλλὰ ἀνεξικάκως διόρθωσαι &lt;πρὸς&gt; τὸ ἀγαθόν· καὶ γὰρ ἰατρὸς θεραπεύει
+         μὲν τὸ πάθος, οὐκ ἀγανακτεῖ δὲ πρὸς τὸν ἀκουσίως νοσήσαντα. Τέμνων ἰατρός, χωρὶς ὀργῆς
+         τοῦτο ποιεῖ· καὶ ἐλέγχων διδάσκαλος μὴ μιγνύτω τῷ ἐλέγχῳ θυμόν. </div>
+      <div type="ch" n="14">Τοὺς γῆν Αἴγυπτον φεύγοντας δι' ἐρήμου ὁδηγεῖ ὁδόν· οἶδε γὰρ ἡ σπάνις
+         παιδαγωγεῖν πρὸς ἐγκράτειαν καὶ ἀρχομένους τῆς ἀρετῆς. Προσσκήνωσον τῇ Αἰλείμ πυλῶνες δὲ
+         αὐτοὶ ἑρμηνεύονται, τῆς ἐπὶ τὴν ἀρετὴν εἰσόδου φερούσης σύμβολον καὶ δεῖξον τοὺς
+         ἑβδομήκοντα φοίνικας. Σκήνωσον δὲ &lt;κατὰ&gt; τὰς δώδεκα πήγας–δεῖ γὰρ καὶ τὰ τῆς νίκης σε
+         ὑποφωνεῖν φοίνικες σύμβολον καὶ τὴν τῶν παθῶν παραμυθεῖσθαι φλόγα παρέχοντα νάματα δαψιλῶς–
+         ἕως &lt;ἂν&gt; πάντα καθελόντες τὰ ἀλλότρια ἔθνη φθάσωσιν εἰς τὴν γῆν τῆς ἐπαγγελίας, ἐν ᾗ τὸν
+         μακάριον τῆς ἀπαθείας βιώσονται βίον μισθὸν τῶν πόνων τὴν ἀληθινὴν κομιζόμενοι εὐφροσύνην.
+      </div>
+   </body>
+</TAN-T>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:lat:1907:logical">
+   <head>
+      <name>Latin text of Van Den Ven's 1907 edition, logical reference system</name>
+      <license which="by_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2018-05-29-04:00"/>
+      </key>
+      <model>
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text::logical</IRI>
+         <name>Greek text of De magistris et discipulis, logical reference system</name>
+         <location href="../patrologia/texts/cpg2449.grc.1858.pg.ref-logical.xml" when-accessed="2018-04-04"/>
+      </model>
+      <source><IRI>tag:evagriusponticus.net,2012:scriptum:van-den-ven-1908</IRI><name>Van Den Ven 1908</name><desc>P. van den Ven, “Un Opuscule Inédit Attribué à S. Nil,” Mémoires Littéraires,
+         Philologiques et Archéologiques 2 (1908): 73–81.</desc></source>
+      <definitions>
+         <div-type xml:id="ch" which="chapter"/>
+         <work which="On Masters and Disciples"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+      </definitions>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2018-03-01-05:00" who="kalvesmaki">Began file</change>
+   </head>
+   <body xml:lang="grc">
+      <div type="ch" n="1">Imperitus magister paratum naufragium et sine disciplina praepositus
+         discipulorum pernicies.</div>
+      <div type="ch" n="2">Indoctus pastor subvertit ovium plantas et praepositus discipulorum vias.
+         Non agnoscit in nebula inter medium ovium imperitus pastor neque in tempore temptationum
+         dicit aliquid quid expediat magister indoctus.</div>
+      <div type="ch" n="3">Magistratus belli et passionum medicus est peritus praepositus: aut
+         vulnerari non sinit aut vulneratum velociter sanat.</div>
+      <div type="ch" n="4">Inoboediens discipulus lignum perversum et non emendatur si arguatur
+         assiduo.</div>
+      <div type="ch" n="5">Incoveniens frater quasi lyrae dissonans nervium et si convenerit commune
+         membrum exterminat.</div>
+      <div type="ch" n="6">Bombones comedunt apum labores et disidiosus frater concilii magnifica
+         gesta inutilia reddit.</div>
+      <div type="ch" n="7">Timidus miles dissolvit bellantium manus et negligens monachus
+         alacritatem fratrum relaxat.</div>
+      <div type="ch" n="8">Examen apum operatur favum et congregatio fratrum regnum dei.</div>
+      <div type="ch" n="9">Tuba excitat constantiam bellatorum et discipulorum studium doctrina
+         actualis virtutis.</div>
+      <div type="ch" n="10">Tuitionum verbis, o praeposite, quasi armis discipulos tuos munire
+         festina et lorica circumda promissionibus futurorum bonorum: scuto vero fidei protege eos
+         et spei quae in deo est galeam capiti eorum inpone: et evangelicis doctrinis crura eorum
+         orna et praecinge lumbos eorum sermonibus castitatis: da in manibus eorum gladium adversus
+         passiones acutissimum furorem et resiste aciei vitiorum.</div>
+      <div type="ch" n="11">Exerce in cogitationibus quos armasti, si periti sunt ad bellandum: et
+         ostende terribilem comminationem aeterni supplicii si vincantur.</div>
+      <div type="ch" n="12">Victorem praedica multis et splendidis laudibus: novit siquidem etiam
+         laudis praemium studiosiores efficere: et eum quem deceptum videris, compatiendo ei adhibe
+         medicinam: non enim minus compassio quam comminatio prudentem commovet.</div>
+      <div type="ch" n="13">Ne commovearis in furore delinquente discipulo: non enim iustum est, ut
+         te ipsum vulneres prius quam alteri curam adhibeas: sed patienter eum corrige ad bonum: nam
+         et medicus curat quidem passionem, non tamen indignatur ei qui invitus aegrotat. Cum
+         secaverit medicus, sine ira hoc faciet: et obiurgans magister ne correptionem furori
+         inmisceat.</div>
+      <div type="ch" n="14">Fugientes terram Aegypti per viam deserti deducas: novit enim raritas ad
+         continentiam erudire et incipientes exercere ad virtutem. Commorare facito in Aelim (quae
+         portae interpretantur quae ad virtutis viam consuerunt producere) et ostendito quidem
+         septuaginta arbores palmarum. Habitare autem fac eos secus duodecim fontes — oportet enim
+         ea quae sunt victoriae insinuare (palmae habentur insignia) et, unde passionum flamma
+         mitigetur, largissimum fontem —, donec omnes gentes contrarias destruentes in oram
+         promissionis perveniant, in qua beatam inpassibilitatis vitam vivere possint mercedem
+         laborum suorum veram percipientes laetitiam.</div>
+   </body>
+</TAN-T>
