@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:lat:1907:scriptum">
+   <head>
+      <name>Latin text of Van Den Ven's 1907 edition, scriptum reference system</name>
+      <license which="by_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2018-05-29-04:00"/>
+      </key>
+      <source><IRI>tag:evagriusponticus.net,2012:scriptum:van-den-ven-1908</IRI><name>Van Den Ven 1908</name><desc>P. van den Ven, “Un Opuscule Inédit Attribué à S. Nil,” Mémoires Littéraires,
+         Philologiques et Archéologiques 2 (1908): 73–81.</desc></source>
+      <see-also relationship="ade">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:lat:1907:logical</IRI>
+         <name>Latin text of Van Den Ven's 1907 edition, logical reference system</name>
+         <location href="../patrologia/texts/cpg2449.lat.1908.van-den-ven.ref-logical.xml" when-accessed="2018-04-04-04:00"/>
+      </see-also>
+      <definitions>
+         <div-type xml:id="line" which="line (physical)"/>
+         <work which="On Masters and Disciples"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+         <relationship xml:id="model" which="model"/>
+         <relationship xml:id="ade" which="redivision"/>
+      </definitions>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2018-03-01-05:00" who="kalvesmaki">Began file</change>
+   </head>
+   <body xml:lang="grc">
+      <div n="1" type="line">Imperitus magister paratum naufragium et sine disciplina </div>
+      <div n="2" type="line">praepositus discipulorum pernicies. </div>
+      <div n="3" type="line">Indoctus pastor subvertit ovium plantas et praepositus
+         disci&#xad;</div>
+      <div n="4" type="line">pulorum vias. Non agnoscit in nebula inter medium ovium
+         impe&#xad;</div>
+      <div n="5" type="line">ritus pastor neque in tempore temptationum dicit aliquid quid </div>
+      <div n="6" type="line">expediat magister indoctus. </div>
+      <div n="7" type="line">Magistratus belli et passionum medicus est peritus praepositus: </div>
+      <div n="8" type="line">aut vulnerari non sinit aut vulneratum velociter sanat. </div>
+      <div n="9" type="line">Inoboediens discipulus lignum perversum et non emendatur si </div>
+      <div n="10" type="line">arguatur assiduo. </div>
+      <div n="11" type="line">Incoveniens frater quasi lyrae dissonans nervium et si
+         conve&#xad;</div>
+      <div n="12" type="line">nerit commune membrum exterminat. </div>
+      <div n="13" type="line">Bombones comedunt apum labores et disidiosus frater concilii </div>
+      <div n="14" type="line">magnifica gesta inutilia reddit. </div>
+      <div n="15" type="line">Timidus miles dissolvit bellantium manus et negligens mona&#xad;</div>
+      <div n="16" type="line">chus alacritatem fratrum relaxat. </div>
+      <div n="17" type="line">Examen apum operatur favum et congregatio fratrum regnum </div>
+      <div n="18" type="line">dei. </div>
+      <div n="19" type="line">Tuba excitat constantiam bellatorum et discipulorum studium </div>
+      <div n="20" type="line">doctrina actualis virtutis. </div>
+      <div n="21" type="line">Tuitionum verbis, o praeposite, quasi armis discipulos tuos </div>
+      <div n="22" type="line">munire festina et lorica circumda promissionibus futurorum
+         bono&#xad;</div>
+      <div n="23" type="line">rum: scuto vero fidei protege eos et spei quae in deo est galeam </div>
+      <div n="24" type="line">capiti eorum inpone: et evangelicis doctrinis crura eorum orna et </div>
+      <div n="25" type="line">praecinge lumbos eorum sermonibus castitatis: da in manibus </div>
+      <div n="26" type="line">eorum gladium adversus passiones acutissimum furorem et resiste </div>
+      <div n="27" type="line">aciei vitiorum. </div>
+      <div n="28" type="line">Exerce in cogitationibus quos armasti, si periti sunt ad
+         bellan&#xad;</div>
+      <div n="29" type="line">dum: et ostende terribilem comminationem aeterni supplicii si </div>
+      <div n="30" type="line">vincantur. </div>
+      <div n="31" type="line">Victorem praedica multis et splendidis laudibus: novit siquidem </div>
+      <div n="32" type="line">etiam laudis praemium studiosiores efficere: et eum quem
+         decep&#xad;</div>
+      <div n="33" type="line">tum videris, compatiendo ei adhibe medicinam: non enim </div>
+      <div n="34" type="line">minus compassio quam comminatio prudentem commovet. </div>
+      <div n="35" type="line">Ne commovearis in furore delinquente discipulo: non enim </div>
+      <div n="36" type="line">iustum est, ut te ipsum vulneres prius quam alteri curam </div>
+      <div n="37" type="line">adhibeas: sed patienter eum corrige ad bonum: nam et </div>
+      <div n="38" type="line">medicus curat quidem passionem, non tamen indignatur ei qui </div>
+      <div n="39" type="line">invitus aegrotat. Cum secaverit medicus, sine ira hoc faciet: et </div>
+      <div n="40" type="line">obiurgans magister ne correptionem furori inmisceat. </div>
+      <div n="41" type="line">Fugientes terram Aegypti per viam deserti deducas: novit </div>
+      <div n="42" type="line">enim raritas ad continentiam erudire et incipientes exercere ad </div>
+      <div n="43" type="line">virtutem. Commorare facito in Aelim (quae portae interpretantur </div>
+      <div n="44" type="line">quae ad virtutis viam consuerunt producere) et ostendito
+         qui&#xad;</div>
+      <div n="45" type="line">dem septuaginta arbores palmarum. Habitare autem fac eos </div>
+      <div n="46" type="line">secus duodecim fontes — oportet enim ea quae sunt victoriae </div>
+      <div n="47" type="line">insinuare (palmae habentur insignia) et, unde passionum </div>
+      <div n="48" type="line">flamma mitigetur, largissimum fontem —, donec omnes gentes </div>
+      <div n="49" type="line">contrarias destruentes in oram promissionis perveniant, in qua </div>
+      <div n="50" type="line">beatam inpassibilitatis vitam vivere possint mercedem laborum </div>
+      <div n="51" type="line">suorum veram percipientes laetitiam. </div>
+   </body>
+</TAN-T>

@@ -75,11 +75,7 @@
       <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
       <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
     </key>
-    <key>
-      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
-      <name>Works by Evagrius</name>
-      <location href="TAN-key/evagrius-works-TAN-key.xml" when-accessed="2017-12-16-05:00"/>
-    </key>
+    
     <source>
       <IRI>http://www.worldcat.org/oclc/4013565</IRI>
       <IRI>tag:evagriusponticus.net,2012:scriptum:frankenberg-1912</IRI>

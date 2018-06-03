@@ -14,11 +14,7 @@
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
          <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
       </key>
-      <key>
-         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
-         <name>Works by Evagrius</name>
-         <location href="TAN-key/evagrius-works-TAN-key.xml" when-accessed="2017-12-16-05:00"/>
-      </key>
+      
       <source>
          <IRI>tag:evagriusponticus.net,2012:scriptum:erasmus-1532</IRI>
          <name>En amice lector, Thesaurum damus inaestimabilem D. Basilium uere Magnum sua lingua disertissime loquentem quem hactenus habuisti Latine balbutientem : unum hunc dedit nobis Graecia numeris omnibus absolutum, siue pietatem animi spectes, siue sacrae pariter ac prophanae philosophi[a]e peritiam, siue diuinitus afflatam eloquentiam : mihi crede, reddet te tibi meliorem, quisquis hunc familiarem habere uoles / operum catalogum, et Erasmi Roterodami praefationem uersa pagina monstrabit. Ed. Desiderius Eramus.	Basileae : Ex officina Frobeniana, An. XXXII mense Martio [1532].</name>

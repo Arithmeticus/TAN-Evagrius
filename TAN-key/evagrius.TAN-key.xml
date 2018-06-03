@@ -7,6 +7,11 @@
         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
         <license which="by_4.0"/>
         <licensor who="kalvesmaki"/>
+        <inclusion xml:id="works">
+            <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
+            <name>Works by Evagrius</name>
+            <location href="evagrius-works-TAN-key.xml" when-accessed="2018-05-29-04:00"/>
+        </inclusion>
         <definitions>
             <role which="editor" xml:id="editor"></role>
             <person xml:id="kalvesmaki">
@@ -31,5 +36,88 @@
             <IRI>http://viaf.org/viaf/306954008</IRI>
             <name>Columba Stewart</name>
         </item>
+        <item>
+            <IRI>http://viaf.org/viaf/71547824</IRI>
+            <name>Helma Dik</name>
+        </item>
+        <item>
+            <IRI>http://dbpedia.org/resource/Evagrius_Ponticus</IRI>
+            <IRI>tag:evagriusponticus.net,2015:person:evagrius</IRI>
+            <IRI>http://viaf.org/viaf/58103843</IRI>
+            <name xml:lang="lat">Evagrius Ponticus</name>
+            <name xml:lang="eng">Evagrius of Pontus</name>
+        </item>
+        <item>
+            <IRI>urn:uuid:df3d4e89-bee7-4bf9-b13e-48408fc6e238</IRI>
+            <name>compilers of the Apophthegmata</name>
+        </item>
+        <item>
+            <IRI>urn:uuid:378c1eac-93d7-4bdf-9208-75d5ffcdd5a6</IRI>
+            <name>compilers of the Disciples</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:person:loukios</IRI>
+            <name>Loukios</name>
+            <name xml:lang="lat">Lucius</name>
+        </item>
+        <item>
+            <IRI>http://dbpedia.org/resource/Nilus_of_Sinai</IRI>
+            <name>Nilus of Ancyra</name>
+            <name>Nilus of Sinai</name>
+        </item>
+        <group include="works"/>
+        <group affects-element="source scriptum">
+            <item>
+                <IRI>http://lccn.loc.gov/a68000023</IRI>
+                <IRI>tag:evagriusponticus.net,2012:scriptum:guillaumont-1958</IRI>
+                <name>Guillaumont 1958</name>
+                <name>Guillaumont, Antoine. Les six centuries des “Kephalaia gnostica”: Édition critique de
+                    la version syriaque commune et édition d’une nouvelle version syriaque, intégrale, avec
+                    une double traduction française; Kephalaia gnostica. Patrologia Orientalis 28. Paris:
+                    Firmin-Didot, 1958. </name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Patrologia_Graeca</IRI>
+                <IRI>tag:evagriusponticus.net,2012:scriptum:migne-1857</IRI>
+                <name>Patrologia Graeca</name>
+            </item>
+        </group>
+        <group affects-element="algorithm">
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:algorithm:org.perseus:tools:morpheus.v1</IRI>
+                <name>Tufts morphology service</name>
+                <name>Perseids</name>
+                <name>Morpheus</name>
+                <desc>http://services.perseids.org/bsp/morphologyservice</desc>
+            </item>
+        </group>
+        <group affects-element="lexicon">
+            <item>
+                <IRI>http://lccn.loc.gov/95032369</IRI>
+                <name>Liddell-Scott-Jones 9+</name>
+                <name xml:lang="eng">Liddell-Scott-Jones, 9th ed. plus rev. supplement</name>
+            </item>
+            <item>
+                <IRI>http://lccn.loc.gov/77372171</IRI>
+                <name xml:lang="eng">G.H.W. Lampe, A Patristic Greek Lexicon, Oxford 1961.</name>
+                <name>Lampe</name>
+            </item>
+        </group>
+        <group affects-element="morphology">
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:tan-r-mor:grc:perseus</IRI>
+                <name xml:lang="eng">Perseus Greek categorized</name>
+                <name xml:lang="eng">Perseus Greek morphology with categorized codes</name>
+                <location href="../../../library-lm/grc/grc.perseus.tan-mor.xml"
+                    when-accessed="2018-03-22"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:tan-r-mor:grc:perseus:readable</IRI>
+                <name xml:lang="eng">Perseus Greek readable</name>
+                <name xml:lang="eng">Perseus Greek morphology with uncategorized codes</name>
+                <location href="../../../library-lm/grc/grc.perseus.readable.tan-mor.xml"
+                    when-accessed="2018-05-16"/>
+            </item>
+        </group>
     </body>
 </TAN-key>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc"?>
+<?xml-model href="../../TAN-2018/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:logical">
+   <head>
+      <name>Greek text of Evagrius Ponticus, 33 Chapters from the Patrologia Graeca, logical reference system</name>
+      <license which="by_4.0"/>
+      <licensor who="kalvesmaki"/>
+      <redivision>
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:scriptum</IRI>
+         <name>Greek text of Capitula xxxiii from the Patrologia Graeca, scriptum reference system</name>
+         <location href="../patrologia/texts/cpg2442.grc.1858.pg.ref-scriptum.xml" when-accessed="2018-04-04"/>
+      </redivision>
+      <source which="Patrologia Graeca"/>
+      <annotation>
+         <IRI>tag:kalvesmaki.com,2014:patrologia:tan-a-lm:tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:logical</IRI>
+         <name>Lexico-morphological data for: Greek text of Evagrius Ponticus, Capitula xxxiii from
+            the Patrologia Graeca, logical reference system</name>
+         <location href="../patrologia/tan-a-lm/cpg2442.grc.1858.pg.ref-logical.tan-a-lm.xml" when-accessed="2018-05-19-04:00"/>
+      </annotation>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2018-05-29-04:00"/>
+      </key>
+      <definitions>
+         <work which="33 Chapters"/>
+         <div-type xml:id="title" which="title"/>
+         <div-type xml:id="ch" which="chapter"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+      </definitions>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2018-03-01-05:00" who="kalvesmaki">Began file</change>
+   </head>
+   <body xml:lang="grc">
+      <div type="title" n="title">ΕΥΑΓΡΙΟΥ ΜΟΝΑΧΟΥ ΚΕΦΑΛΑΙΑ ΛΓʹ ΚΑΤ' ΑΚΟΛΟΥΘΙΑΝ. </div>
+      <div type="ch" n="1">Ἴκτερος, ἔστιν ἕξις χειρίστη ψυχῆς λογικῆς, καθ' ἣν ἐσφαλμένως Θεόν τε καὶ τὴν τῶν γεγονότων θεωρίαν ὁρᾷ. </div>
+      <div type="ch" n="2">Ὀπισθότονος, ἔστι κακία φύσεως λογικῆς, καθ' ἣν δυσκαμπὴς γίνεται πρὸς ἀρετὴν καὶ γνῶσιν τὴν τοῦ Θεοῦ.</div>
+      <div type="ch" n="3">Σφακελλισμὸς, ἔστι ζέσις καὶ κίνησις θυμοῦ τὸ λογιστικὸν μέρος τῆς ψυχῆς ἐκταράττουσα.</div>
+      <div type="ch" n="4">Τυφλότης, ἔστιν ἄγνοια τοῦ νοῦ, ταῖς πρακτικαῖς ἀρεταῖς καὶ τῇ τῶν γεγονότων θεωρίᾳ μὴ ἐπιβάλλουσα.</div>
+      <div type="ch" n="5">Παράλυσις, ἔστι δυσκινησία λογιστικῆς ψυχῆς πρὸς τὰς πρακτικὰς ἀρετάς.</div>
+      <div type="ch" n="6">Γονόῤῥοια, ἔστι ῥᾳθυμία λογικῆς ψυχῆς, καθ' ἣν ἀποβάλλειν τοὺς τῆς πνευματικῆς διδασκαλίας εἴωθε λόγους.</div>
+      <div type="ch" n="7">Ἀποκάθισις, ἔστιν ἀδυναμία λογικῆς ψυχῆς, καθ' ἣν τὰς συντελούσας ἀρετὰς πρὸς τὴν μόρφωσιν τοῦ Χριστοῦ εἴωθεν ἀποβάλλειν. </div>
+      <div type="ch" n="8">Λέπρα ἀπιστία ἐστὶν λογικῆς ψυχῆς, καθ' ἣν οὐ πληροφορεῖται ψηλαφῶσα τοὺς λόγους.</div>
+      <div type="ch" n="9">Ἔκστασις, ἔστι νεῦσις πάλιν πρὸς κακίαν λογικῆς ψυχῆς μετὰ τὴν ἀρετὴν καὶ γνῶσιν τὴν τοῦ Θεοῦ. </div>
+      <div type="ch" n="10">Θλάσις, ἔστιν ἕξις χειρίστη λογικῆς ψυχῆς, καθ' ἢν μετέρχεται τὰς ἀρετὰς οὐ δι' αὐτὸ τὸ καλόν.</div>
+      <div type="ch" n="11">Κολόβωσις ῥινὸς, ἔστι στέρησις ἀρετῆς ἀντιλαμβανομένης εὐωδίας τῆς τοῦ Χριστοῦ.</div>
+      <div type="ch" n="12">Ὠτότμησις. ἔστι σκληρία λογικῆς ψυχῆς πρὸς τὴν πνευματικὴν διδασκαλίαν ἀνθέλκουσα.</div>
+      <div type="ch" n="13">Ἐφηλὶς, ἔστι πνευματικῆς θεωρίας ἔκπτωσις, ἢ τῆς τῶν γεγονότων θεωρίας οὐκ ἀληθὴς κατανόησις.</div>
+      <div type="ch" n="14">Μογιλαλία, ἔστι πάθος τοῦ λογιστικοῦ μέρους τῆς ψυχῆς, καθ' ὃ σκανδαλιζόμενος ἐπὶ τοῖς γινομένοις ἐν παντὶ εὐχαριστεῖν ἀδυνατεῖ τῷ Θεῷ.</div>
+      <div type="ch" n="15">Χωλότης, ἔστιν ἀδυναμία φύσεως λογικῆς πρὸς τὴν τῆς ἀρετῆς ἐργασίαν.</div>
+      <div type="ch" n="16">Ὕδρωψ, ἔστιν ἔκκλισις ἄλογος ψυχῆς, καθ' ἣν σβεσθεισῶν τῶν ἀρετῶν ἐπικρατεῖ κακία καὶ ἀγνωσία.</div>
+      <div type="ch" n="17">Μύρμηξ, ἔστιν ἄνθρωπος πρακτικὸς τὴν ἑαυτοῦ τροφὴν ἐν τῷ αἰῶνι τούτῳ παρασκευάζων.</div>
+      <div type="ch" n="18">Χοιρογρύλλιοι, εἰσὶν ἔθνη ἀκάθαρτα τὰς ἐντολὰς δεξάμενα τοῦ Σωτῆρος ἡμῶν Χριστοῦ.</div>
+      <div type="ch" n="19">Ἀβασίλευτοι ἀκρίδες, ψυχαὶ λογικαὶ μὴ σαλευόμεναι ὑπὸ τοῦ θανάτου καὶ ὑπὸ τῶν σπερμάτων διατρεφόμεναι.</div>
+      <div type="ch" n="20">Ἀσκαλαβότης, ἔστι νοῦς πρακτικὸς, ἐπερειδόμενος ἀρεταῖς καὶ κατοικῶν ἐν ταῖς γνώσεσι τῶν οὐρανίων δυνάμεων.</div>
+      <div type="ch" n="21">Σκύμνος λέοντος, ἔστιν ἄνθρωπος ἀπαθὴς τῶν ἐν αὐτῷ γενομένων βασιλεύσας θηρίων. </div>
+      <div type="ch" n="22">Ἀλεκτρυὼν, ἔστιν ἄνθρωπος πνευματικὸς πληρούμενος γνώσεως καὶ ἑτέραις εὐαγγελιζόμενος ψυχαῖς τὴν παρὰ τοῦ νοητοῦ ἡλίου γενομένην ἡμέραν.</div>
+      <div type="ch" n="23">Τράγος, ἔστιν ἀνὴρ πρακτικὸς τῶν ἐν αὐτῷ ἀτάκτων λογισμῶν ὀρθῶς καθηγούμενος.</div>
+      <div type="ch" n="24">Βδέλλα, ἔστι φύσις ἀκάθαρτος τὸ δίκαιον αἷμα ἐκ τῶν λογικῶν ψυχῶν
+         ἐκμυζῶσα.</div>
+      <div type="ch" n="25">Ἅδης, ἔστιν ἄγνοια φύσεως λογικῆς κατὰ στέρησιν τοῦ Θεοῦ θεωρίας ἐπισυμβαίνουσα.</div>
+      <div type="ch" n="26">Γυνὴ, ἔστιν ἀφροσύνη λογικὰς ψυχὰς ἐπὶ ἀκαθαρσίαν προσκαλουμένη.</div>
+      <div type="ch" n="27">Γῆ, ἔστιν ἕξις χειρίστη ἐξ ἀσεβείας καὶ παρανομίας συλλεγομένη.</div>
+      <div type="ch" n="28">Πῦρ, ἔστι κακία φύσεως λογικῆς φθαρτικὴ τῶν τοῦ Θεοῦ ἀρετῶν.</div>
+      <div type="ch" n="29">Ὕδωρ, ἔστι γνῶσις ψευδὴς σβεστικὴ γνώσεως ἀληθοῦς.</div>
+      <div type="ch" n="30">Ὀφθαλμὸς καταγελῶν, ἔστι φύσις ἀκάθαρτος τῆς τοῦ Θεοῦ καταγελῶσα γνώσεως καὶ ἀτιμάζουσα τὴν ἐν τοῖς γεγονόσι σοφίαν.</div>
+      <div type="ch" n="31">Κόρακες, εἰσὶ δυνάμεις ἅγιαι, φθαρτικαὶ τῶν κακιῶν.</div>
+      <div type="ch" n="32">Φάραγγες, εἰσὶ ψυχαὶ λογικαὶ κοιλανθεῖσαι ἀπὸ κακίας καὶ ἀγνωσίας.</div>
+      <div type="ch" n="33">Νεοσσοὶ ἀετῶν, εἰσὶ δυνάμεις ἅγιαι τοὺς ἀκαθάρτους καταβάλλειν πεπιστευμέναι. </div>
+   </body>
+</TAN-T>
