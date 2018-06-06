@@ -701,10 +701,10 @@
                 <IRI>tag:evagriusponticus.net,2015:cpg2458.4</IRI>
                 <name>Sch. Prov.</name>
                 <name xml:lang="grc">Σχόλια εἰς τὰς Παροιμίας</name>
-                <name xml:lang="eng">Scholia on the Proverbs</name>
+                <name xml:lang="eng">Scholia on Proverbs</name>
                 <name xml:lang="lat">Scholia in Proverbia</name>
                 <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
-                    patristic biblical exegesis. Remains to be edited.</desc>
+                    patristic biblical exegesis.</desc>
             </item>
             <item>
                 <IRI>tag:evagriusponticus.net,2015:cpg2458.5</IRI>
@@ -714,7 +714,7 @@
                 <name>S-Eccles.</name>
                 <name xml:lang="lat">Scholia in Ecclesiasten</name>
                 <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
-                    patristic biblical exegesis. Remains to be edited.</desc>
+                    patristic biblical exegesis.</desc>
             </item>
             <item>
                 <IRI>tag:evagriusponticus.net,2015:cpg2458.6</IRI>
