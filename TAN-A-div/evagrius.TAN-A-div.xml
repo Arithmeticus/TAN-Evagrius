@@ -63,7 +63,7 @@
          <work xml:id="cpg2453" which="Three Chapters on Prayer"/>
          <work xml:id="cpg2454" which="Counsel to Monks"/>
          <work xml:id="cpg2455" which="Scholia on the Psalms"/>
-         <work xml:id="cpg2456" which="Commentary on the Proverbs"/>
+         <work xml:id="cpg2456" which="Commentary on Proverbs"/>
          <work xml:id="cpg2457" which="Commentary on the Parables and the Proverbs"/>
          <work xml:id="cpg2458.1" which="Scholia on Genesis, Numbers, and Kings"/>
          <work xml:id="cpg2458.2" which="Scholia on Job"/>
@@ -391,6 +391,9 @@
       </claim>
       <claim subject="cpg2445" verb="has-incipit">
          <object xml:lang="grc">Ἀρχὴ ἀγάπης ὑπόληψις δόξης.</object>
+      </claim>
+      <claim subject="cpg2446" verb="has-incipit">
+         <object xml:lang="grc">Ὅτι ἡ ἐγρήγορσις</object>
       </claim>
       <claim subject="cpg2447" verb="has-incipit">
          <object xml:lang="grc">Οἱ τον οὐράνιον χῶρον νεμόμενοι τοῖς πόνοις, οὐ τῇ γαστρὶ, οὐδὲ
