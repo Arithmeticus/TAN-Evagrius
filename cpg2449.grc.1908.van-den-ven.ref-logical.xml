@@ -1,39 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.sch"?>
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical">
+<?xml-model href="../../TAN-2020/schemas/TAN-T.rnc"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical">
    <head>
       <name>Greek text of Evagrius of Pontus's On Masters and Disciples, Van Den Ven's 1907 edition,
          logical reference system</name>
-      <license which="by_4.0"/>
-      <licensor who="kalvesmaki"/>
-      <key>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="On Masters and Disciples"/>
+      <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
-         <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2018-05-29-04:00"/>
-      </key>
+         <location href="TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
+      </vocabulary>
       <redivision>
-         <IRI>tag:kalvesmaki.com,2014:patrologia:text::scriptum</IRI>
-         <name>Greek text of De magistris et discipulis, scriptum reference system</name>
-         <location href="../patrologia/texts/cpg2449.grc.1858.pg.ref-scriptum.xml" when-accessed="2018-04-04"/>
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical</IRI>
+         <name>Greek text of De magistris et discipulis, logical reference system</name>
+         <location href="../patrologia/texts/cpg2449.grc.1908.van-den-ven.ref-logical.xml" accessed-when="2019-05-30"/>
       </redivision>
-      <source><IRI>tag:evagriusponticus.net,2012:scriptum:van-den-ven-1908</IRI><name>Van Den Ven 1908</name><desc>P. van den Ven, “Un Opuscule Inédit Attribué à S. Nil,” Mémoires Littéraires,
-         Philologiques et Archéologiques 2 (1908): 73–81.</desc></source>
+      <source>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:van-den-ven-1908</IRI>
+         <name>Van Den Ven 1908</name>
+         <desc>P. van den Ven, “Un Opuscule Inédit Attribué à S. Nil,” Mémoires Littéraires,
+            Philologiques et Archéologiques 2 (1908): 73–81.</desc>
+      </source>
       <annotation>
          <IRI>tag:kalvesmaki.com,2014:patrologia:tan-a-lm:tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:logicaltag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical</IRI>
          <name>Lexico-morphological data for: Greek text of Evagrius of Pontus's On Masters and
             Disciples, Van Den Ven's 1907 edition, logical reference system</name>
-         <location href="../patrologia/tan-a-lm/cpg2449.grc.1908.van-den-ven.ref-logical.tan-a-lm.xml" when-accessed="2018-05-19-04:00"/>
+         <location href="../patrologia/tan-a-lm/cpg2449.grc.1908.van-den-ven.ref-logical.tan-a-lm.xml" accessed-when="2018-05-19-04:00"/>
       </annotation>
-      <definitions>
+      <vocabulary-key>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
+            <name>Converter from TAN 2018 to TAN 2020</name>
+            <location href="../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-30T22:25:52.092-04:00"/>
+         </algorithm>
+      
          <div-type xml:id="ch" which="chapter"/>
-         <work which="On Masters and Disciples"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-         <role xml:id="stylesheet" which="stylesheet"/>
-         <role xml:id="editor" which="editor"/>
-      </definitions>
+      </vocabulary-key>
+      <resp who="xslt1" roles="stylesheet"/>
+   
+      
+      <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
       <change when="2018-03-01-05:00" who="kalvesmaki">Began file</change>
+      <change who="xslt1" when="2019-05-30T22:25:52.092-04:00">Converted from 2018 to 2020 schemas.</change>
+      <to-do>
+         <comment when="2018-03-01-05:00" who="kalvesmaki">File is still in progress.</comment>
+      </to-do>
    </head>
    <body xml:lang="grc">
       <div type="ch" n="1">Ἄτεχνος κυβερνήτης ἕτοιμος ναυαγία καὶ ἀνεπιστήμων ἡγούμενος ἀπώλεια

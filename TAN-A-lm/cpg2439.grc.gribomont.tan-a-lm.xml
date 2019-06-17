@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2018/schemas/TAN-A-lm.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2018/schemas/TAN-A-lm.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-A-lm xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:tan-a-lm:cpg2439.grc.gribomont">
+<?xml-model href="../../../TAN-2020/schemas/TAN-A-lm.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-A-lm.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A-lm xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:tan-a-lm:cpg2439.grc.gribomont">
    <head>
       <name>Lexico-morphological analysis of the Epistula fidei by Evagrius of Pontus</name>
-      <license which="by_4.0"/>
-      <licensor who="kalvesmaki"/>
-      <key>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
-         <location href="../TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
-      </key>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+      </vocabulary>
       <source>
          <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:grc:gribomont</IRI>
          <name>Epistula fidei by Evagrius of Pontus</name>
-         <location href="../cpg2439.grc.gribomont.xml" when-accessed="2018-05-03"/>
+         <location href="../cpg2439.grc.gribomont.xml" accessed-when="2018-05-03"/>
       </source>
-      <definitions>
+      <vocabulary-key>
+         <algorithm xml:id="xslt2">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
+            <name>Converter from TAN 2018 to TAN 2020</name>
+            <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-06-16T21:59:37.969-04:00"/>
+         </algorithm>
+      
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:create-tan-a-lm</IRI>
             <name>Stylesheet to create a TAN file.</name>
             <desc>Stylesheet at: ../../do%20things/create/create%20TAN-A-lm.xsl</desc>
+            <location href="../../../TAN-2020/applications/create/create%20TAN-A-lm%20-%20Copy.xsl" accessed-when="2019-06-16"/>
+            <location href="../../../TAN-2020/applications/create/create%20TAN-A-lm.xsl" accessed-when="2019-06-16"/>
          </algorithm>
-         <role xml:id="stylesheet" which="stylesheet"/>
          <lexicon xml:id="LSJ">
             <IRI>http://lccn.loc.gov/95032369</IRI>
             <name>Liddell-Scott-Jones 9+</name>
@@ -32,14 +38,13 @@
          <morphology xml:id="perseus-readable">
             <IRI>tag:kalvesmaki.com,2014:tan-r-mor:grc:perseus:readable</IRI>
             <name>Perseus rules for Greek morphology, with readable, non-category based codes</name>
-            <location href="../../../library-lm/grc/grc.perseus.readable.tan-mor.xml"
-               when-accessed="2018-05-16-04:00"/>
+            <location href="../../../library-lm/grc/grc.perseus.readable.tan-mor.xml" accessed-when="2018-05-16-04:00"/>
          </morphology>
          <morphology xml:id="perseus-dik">
             <IRI>tag:kalvesmaki.com,2014:tan-r-mor:grc:perseus</IRI>
             <name xml:lang="eng">Perseus Greek morphology</name>
-            <location href="../../../library-lm/grc/grc.perseus.tan-mor.xml" when-accessed="2018-03-22"/>
-            <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-lexico-morphology/master/TAN-mor/grc.kalvesmaki.com%2C2014.1.xml" when-accessed="2015-08-05-04:00"/>
+            <location href="../../../library-lm/grc/grc.perseus.tan-mor.xml" accessed-when="2018-03-22"/>
+            <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-lexico-morphology/master/TAN-mor/grc.kalvesmaki.com%2C2014.1.xml" accessed-when="2015-08-05-04:00"/>
          </morphology>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
          <organization xml:id="perseus">
@@ -57,17 +62,22 @@
          <algorithm xml:id="algorithm-1">
             <IRI>tag:textalign.net,2015:algorithm:org.perseus:tools:morpheus.v1</IRI>
             <name>Tufts morphology service</name>
+            <location href="http://services.perseids.org/bsp/morphologyservice" accessed-when="2019-06-16"/>
          </algorithm>
-         <role which="editor" xml:id="editor"/>
-         <role which="source" xml:id="source"/>
-      </definitions>
-      <resp who="xslt1" roles="stylesheet"/>
-      <resp who="kalvesmaki" roles="editor"/>
-      <resp who="perseus dik tauber" roles="source"/>
+      </vocabulary-key>
+      
+      <file-resp who="kalvesmaki"/>
+      <resp roles="stylesheet" who="xslt1 xslt2"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <resp roles="source" who="perseus dik tauber"/>
       <change who="xslt1" when="2018-05-02T15:40:50.849-04:00">Created TAN-A-lm from
          tag:kalvesmaki.com,2014:transcription:cpg2439:grc:gribomont(file:/Users/joelk/Dropbox/TAN/library-arithmeticus/evagrius/cpg2439.grc.gribomont.xml)</change>
+      <change who="xslt2" when="2019-06-16T21:59:37.969-04:00">Converted from 2018 to 2020 schemas.</change>
+      <to-do>
+         <comment who="xslt1" when="2018-05-02T15:40:50.849-04:00">File is still in progress.</comment>
+      </to-do>
    </head>
-   <body lexicon="LSJ" morphology="perseus-dik" claimant="xslt1">
+   <body lexicon="LSJ" morphology="perseus-dik" claimant="xslt2">
       <!--Cannot find lexico-morphological data for 23 tokens (1.5% of 1585)-->
       <ana>
          <tok ref="title" val="ΑΠΟΛΟΓΙΑ"/>

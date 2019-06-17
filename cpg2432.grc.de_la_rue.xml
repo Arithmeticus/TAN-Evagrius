@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2018" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_la_Rue.TAN-TEI.001">
-   <teiHeader>
+<?xml-model href="../../TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2020" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_la_Rue.TAN-TEI.001">
+   <teiHeader xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
       <fileDesc>
          <titleStmt>
             <title>Ἑξακόσια προγνωστικὰ προβλήματα</title>
@@ -18,7 +18,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p/>
+            <p part="N"/>
          </publicationStmt>
          <sourceDesc default="false">
             <listBibl default="false">
@@ -28,20 +28,20 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc default="false">
-            <p>Transcribed February 2013 by <persName instant="false" full="yes">Joel Kalvesmaki</persName>, corrected against
+            <p part="N">Transcribed February 2013 by <persName instant="false" full="yes">Joel Kalvesmaki</persName>, corrected against
                copy secured through Religion and Technology Center, Inc.,
                http://www.reltech.org/.</p>
          </projectDesc>
          <samplingDecl default="false">
-            <p>Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
+            <p part="N">Only the main Greek text relevant to the Kephalaia gnostika has been transcribed.
                Footnotes, apparatus, translation, etc. have been omitted.</p>
          </samplingDecl>
          <editorialDecl default="false">
             <correction default="false" status="unknown" method="silent">
-               <p>No corrections were found to be needed.</p>
+               <p part="N">No corrections were found to be needed.</p>
             </correction>
             <normalization default="false" method="silent">
-               <p>Transcription should reflect the original (including tics in accentuation).</p>
+               <p part="N">Transcription should reflect the original (including tics in accentuation).</p>
             </normalization>
          </editorialDecl>
       </encodingDesc>
@@ -49,34 +49,42 @@
    <head xmlns="tag:textalign.net,2015:ns">
       <name xml:lang="eng">Fragments of the Kephalaia gnostika preserved PG 12</name>
       <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.grc.de_la_rue.xml"/>
-      <license which="by_4.0"/>
-      <licensor who="kalvesmaki"/>
-      <key>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="KG"/>
+      <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
-         <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
-      </key>
+         <location href="TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+      </vocabulary>
       
       <source>
          <IRI>http://dbpedia.org/resource/Patrologia_Graeca</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:migne-1857</IRI>
          <name>Patrologia Graeca</name>
       </source>
-      <definitions>
-         <work which="KG"/>
-         <div-type which="century" xml:id="century"/>
-         <div-type which="chapter" xml:id="chapter"/>
-         <div-type which="variant" xml:id="variant"/>
-         
+      <vocabulary-key>
+         <algorithm xml:id="xslt2">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
+            <name>Converter from TAN 2018 to TAN 2020</name>
+            <location href="../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-28T21:51:33.929-04:00"/>
+         </algorithm>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
          
-         <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
-         <role xml:id="editor" which="editor"/>
-         <role xml:id="stylesheet" which="stylesheet"/>
-      </definitions>
-      <resp who="kalvesmaki" roles="editor"/>
-      <resp who="xslt1" roles="stylesheet"/>
-      <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Adjusted &lt;name></change>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
+            <name>Stylesheet to populate a TAN-A-div file from collections.</name>
+            <desc>Stylesheet at:
+               ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
+            <location
+               href="../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
+               accessed-when="2019-05-28"/>
+         </algorithm>
+      </vocabulary-key>
+      
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <resp roles="stylesheet" who="xslt1 xslt2"/>
+      <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Adjusted &lt;name&gt;</change>
       <change when="2017-05-14" who="kalvesmaki">Commented out &lt;desc&gt; until TAN files for the
          Scholia on the Psalms can be written. Converted line-end hyphens to soft hyphens.</change>
       <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
@@ -85,71 +93,74 @@
          release.</change>
       <change when="2014-10-31" who="kalvesmaki">Started TAN-TEI file.</change>
       <change who="xslt1" when="2017-12-16T12:42:28.993-05:00">TAN file updated to 2018 schemas.</change>
+      <change who="xslt2" when="2019-05-28T21:51:33.929-04:00">Converted from 2018 to 2020 schemas.</change>
+      <change when="2019-05-28" who="kalvesmaki">Changed pb to cb, and removed 12: from @n.</change>
+      <to-do/>
    </head>
    <text>
-      <body xml:lang="grc" in-progress="false">
+      <body xml:lang="grc">
          <div type="century" n="III">
-            <div type="chapter" n="48"> <pb n="12:1097d"/> <p><!--<desc>Sch. on Ps. 1.5</desc>--> Κρίσις ἐστὶ δικαίων μὲν ἡ ἀπὸ <lb/>πρακτικοῦ σώματος ἐπὶ ἀγγελικὰ μετάβασις·</p> </div>
-            <div type="chapter" n="50"> <pb n="12:1097d"/> <p><!--<desc>Sch. on Ps. 1.5</desc>--> ἀσε­<lb break="no"/>βῶν δὲ ἀπὸ πρακτικοῦ σώματος ἐπὶ σκοτεινὰ καὶ <lb/>ζοφερὰ μετάθεσις σώματα.</p> </div>
-            <div type="chapter" n="36"> <pb n="12:1172d"/> <p><!--<desc>Sch. 11 on Ps. 5.12</desc>--> Αἰών ἐστι σύστημα φυσικὸν, <lb/>ἐκ σωμάτων ποικίλων λογικὰς διαφορὰς περιέχον τῆς <lb/>τοῦ Θεοῦ γνώσεως ἕνεκεν. Εἰς αἰῶνα, φησὶν, ἀγαλλιά- <lb/>σονται, ὅτι καὶ αἰώνιος ἑαυτοῖς κατασκήνωσις.</p> </div>
+            <div type="chapter" n="48"> <cb n="1097d"/> <p><!--<desc>Sch. on Ps. 1.5</desc>--> Κρίσις ἐστὶ δικαίων μὲν ἡ ἀπὸ <lb/>πρακτικοῦ σώματος ἐπὶ ἀγγελικὰ μετάβασις·</p> </div>
+            <div type="chapter" n="50"> <cb n="1097d"/> <p><!--<desc>Sch. on Ps. 1.5</desc>--> ἀσε&#xad;<lb break="no"/>βῶν δὲ ἀπὸ πρακτικοῦ σώματος ἐπὶ σκοτεινὰ καὶ <lb/>ζοφερὰ μετάθεσις σώματα.</p> </div>
+            <div type="chapter" n="36"> <cb n="1172d"/> <p><!--<desc>Sch. 11 on Ps. 5.12</desc>--> Αἰών ἐστι σύστημα φυσικὸν, <lb/>ἐκ σωμάτων ποικίλων λογικὰς διαφορὰς περιέχον τῆς <lb/>τοῦ Θεοῦ γνώσεως ἕνεκεν. Εἰς αἰῶνα, φησὶν, ἀγαλλιά- <lb/>σονται, ὅτι καὶ αἰώνιος ἑαυτοῖς κατασκήνωσις.</p> </div>
          </div>
          <div type="century" n="VI">
-            <div type="chapter" n="8"> <pb n="12:1189"/> <p><!--<desc>Sch. 7 on Ps. 9.18</desc>--> Ὥσπερ ὁ παράδεισος τῶν δικαίων ἐστὶν <lb/>οἰκητήριον, οὕτως ᾅδης τῶν ἁμαρτωλῶν κολαστήριον. </p> </div>
+            <div type="chapter" n="8"> <cb n="1189"/> <p><!--<desc>Sch. 7 on Ps. 9.18</desc>--> Ὥσπερ ὁ παράδεισος τῶν δικαίων ἐστὶν <lb/>οἰκητήριον, οὕτως ᾅδης τῶν ἁμαρτωλῶν κολαστήριον. </p> </div>
             <div type="chapter" n="53">
-               <div type="variant" n="a"> <pb n="12:1197b"/> <p><!--<desc>Sch. 2 on Ps. 10.3</desc>--> βέλος ἐστὶν ἐμπαθὴς <lb/>λογισμὸς, φαρέτρα δὲ ἕξις χειρίστη λογισμῶν ἀκα­<lb break="no"/>θάρτων πεπληρωμένη.</p> </div>
+               <div type="variant" n="a"> <cb n="1197b"/> <p><!--<desc>Sch. 2 on Ps. 10.3</desc>--> βέλος ἐστὶν ἐμπαθὴς <lb/>λογισμὸς, φαρέτρα δὲ ἕξις χειρίστη λογισμῶν ἀκα&#xad;<lb break="no"/>θάρτων πεπληρωμένη.</p> </div>
             </div>
          </div>
          <div type="century" n="IV">
-            <div type="chapter" n="36"> <pb n="12:1220d"/> <p><!--<desc>Sch. 4 on Ps. 16.10</desc>--> Στέαρ μὲν νοητὸν ἡ ἐκ τῆς κα­<lb break="no"/>κίας ἐπισυμβαίνουσα τῷ ἡγεμονικῷ παχύτης. </p> </div>
+            <div type="chapter" n="36"> <cb n="1220d"/> <p><!--<desc>Sch. 4 on Ps. 16.10</desc>--> Στέαρ μὲν νοητὸν ἡ ἐκ τῆς κα&#xad;<lb break="no"/>κίας ἐπισυμβαίνουσα τῷ ἡγεμονικῷ παχύτης. </p> </div>
          </div>
          <div type="century" n="V">
-            <div type="chapter" n="77"> <pb n="12:1268d"/> <p><!--<desc>sch. 4 in Ps. 23.7–8</desc>--> Πύλας δὲ λέγει <lb/>τὰς ἀρετάς·</p> </div>
+            <div type="chapter" n="77"> <cb n="1268d"/> <p><!--<desc>sch. 4 in Ps. 23.7–8</desc>--> Πύλας δὲ λέγει <lb/>τὰς ἀρετάς·</p> </div>
          </div>
          <div type="century" n="VI">
-            <div type="chapter" n="46"> <pb n="12:1304c"/> <p><!--<desc>Sch. in Ps. 32.2</desc>--> Κιθάρα <lb/>ἐστὶ ψυχὴ πρακτικὴ ὑπὸ τῶν ἐντολῶν τοῦ Θεοῦ <lb/>κινουμένη, </p> </div>
+            <div type="chapter" n="46"> <cb n="1304c"/> <p><!--<desc>Sch. in Ps. 32.2</desc>--> Κιθάρα <lb/>ἐστὶ ψυχὴ πρακτικὴ ὑπὸ τῶν ἐντολῶν τοῦ Θεοῦ <lb/>κινουμένη, </p> </div>
             <div type="chapter" n="48">
-               <div type="variant" n="a"> <pb n="12:1304c"/> <p><!--<desc>Sch. in Ps. 32.2</desc>--> ψαλτήριον δὲ νοῦς καθαρὸς ὑπὸ πνευμα­<lb break="no"/>τικῆς κινούμενος γνώσεως·</p> </div>
+               <div type="variant" n="a"> <cb n="1304c"/> <p><!--<desc>Sch. in Ps. 32.2</desc>--> ψαλτήριον δὲ νοῦς καθαρὸς ὑπὸ πνευμα&#xad;<lb break="no"/>τικῆς κινούμενος γνώσεως·</p> </div>
             </div>
-            <div type="chapter" n="68"> <pb n="12:1316d"/> <p><!--<desc>Sch. 5 on Ps. 36.7</desc>--> Ἡ ὑποταγὴ αὕτη ἐστὶ φύσεως λογικῆς <lb/>πρὸς τὴν γνῶσιν τοῦ Θεοῦ ἑκούσιος συγκατάθεσις. </p> </div>
+            <div type="chapter" n="68"> <cb n="1316d"/> <p><!--<desc>Sch. 5 on Ps. 36.7</desc>--> Ἡ ὑποταγὴ αὕτη ἐστὶ φύσεως λογικῆς <lb/>πρὸς τὴν γνῶσιν τοῦ Θεοῦ ἑκούσιος συγκατάθεσις. </p> </div>
          </div>
          <div type="century" n="I">
-            <div type="chapter" n="73"> <pb n="12:1488c"/> <p><!--<desc>Sch. 2 on Ps. 62.4</desc>--> Ἡ μὲν τοῦ ἀνθρώπου <lb/>ζωὴ ἡ ἁγία γνῶσις ὑπάρχει· τὸ δὲ ἔλεος Κυρίου <lb/>ἡ τῶν γεγονότων θεωρία ἐστί. Πολλοὶ δὲ ἡμῖν τοῦ <lb/>αἰῶνος τούτου καθυπέσχοντο γνώσεις· ἀλλὰ κρεῖσσον <lb/>τὸ ἔλεος Κυρίου ὑπὲρ ζωάς. </p> </div>
+            <div type="chapter" n="73"> <cb n="1488c"/> <p><!--<desc>Sch. 2 on Ps. 62.4</desc>--> Ἡ μὲν τοῦ ἀνθρώπου <lb/>ζωὴ ἡ ἁγία γνῶσις ὑπάρχει· τὸ δὲ ἔλεος Κυρίου <lb/>ἡ τῶν γεγονότων θεωρία ἐστί. Πολλοὶ δὲ ἡμῖν τοῦ <lb/>αἰῶνος τούτου καθυπέσχοντο γνώσεις· ἀλλὰ κρεῖσσον <lb/>τὸ ἔλεος Κυρίου ὑπὲρ ζωάς. </p> </div>
          </div>
          <div type="century" n="VI">
             <div type="chapter" n="49">
-               <div type="variant" n="a"> <pb n="12:1509c"/> <p><!--<desc>Sch. 19 on Ps. 67.32</desc>--> Τὴν μὲν <lb/>διάθεσιν τῆς κακίας διὰ τῶν Αἰγυπτίων ᾐνίξατο·</p> </div>
+               <div type="variant" n="a"> <cb n="1509c"/> <p><!--<desc>Sch. 19 on Ps. 67.32</desc>--> Τὴν μὲν <lb/>διάθεσιν τῆς κακίας διὰ τῶν Αἰγυπτίων ᾐνίξατο·</p> </div>
             </div>
             <div type="chapter" n="53">
-               <div type="variant" n="b"> <pb n="12:1536c"/> <p><!--<desc>Sch. 3 on Ps. 75.4</desc>--> Βέλος δὲ πεπυρωμένον ἐστὶν ὁ ἐμπα­<lb break="no"/>θὴς λογισμός·</p> </div>
+               <div type="variant" n="b"> <cb n="1536c"/> <p><!--<desc>Sch. 3 on Ps. 75.4</desc>--> Βέλος δὲ πεπυρωμένον ἐστὶν ὁ ἐμπα&#xad;<lb break="no"/>θὴς λογισμός·</p> </div>
             </div>
          </div>
          <div type="century" n="V">
-            <div type="chapter" n="49"> <pb n="12:1544d"/> <p><!--<desc>Sch. 4 on Ps. 80.10</desc>--> Πρόσφατός εστι Θεὸς ὁ μηδὲν οὐσιῶσαι δυνάμενος, <lb/>ἢ ὁ τῇ κακίᾳ πεποιωμένος.</p> </div>
+            <div type="chapter" n="49"> <cb n="1544d"/> <p><!--<desc>Sch. 4 on Ps. 80.10</desc>--> Πρόσφατός εστι Θεὸς ὁ μηδὲν οὐσιῶσαι δυνάμενος, <lb/>ἢ ὁ τῇ κακίᾳ πεποιωμένος.</p> </div>
          </div>
          <div type="century" n="VI">
             <div type="chapter" n="48">
-               <div type="variant" n="b"> <pb n="12:1552d"/> <p><!--<desc>Sch. 2 in Ps. 91.4</desc>--> Ψαλτήριόν ἐστι νοῦς καθαρὸς ὑπὸ πνευμα­<lb break="no"/>τικῆς κινούμενος γνώσεως· </p> </div>
+               <div type="variant" n="b"> <cb n="1552d"/> <p><!--<desc>Sch. 2 in Ps. 91.4</desc>--> Ψαλτήριόν ἐστι νοῦς καθαρὸς ὑπὸ πνευμα&#xad;<lb break="no"/>τικῆς κινούμενος γνώσεως· </p> </div>
             </div>
          </div>
          <div type="century" n="V">
-            <div type="chapter" n="48"> <pb n="12:1557b"/> <p><!--<desc>Sch. 2 in Ps. 98.5</desc>--> Τὸ ὑποπόδιον τῶν ποδῶν εἶπόν τινες εἶναι <lb/>τὴν σάρκα τὴν τοῦ Χριστοῦ, ἥτις διὰ τὸν Χριστόν <lb/>ἐστι προσκυνητή· ὁ δὲ Χριστὸς προσκυνητὸς διὰ τὸν <lb/>ἐν αὐτῷ Λόγον θεοῦ. </p> </div>
+            <div type="chapter" n="48"> <cb n="1557b"/> <p><!--<desc>Sch. 2 in Ps. 98.5</desc>--> Τὸ ὑποπόδιον τῶν ποδῶν εἶπόν τινες εἶναι <lb/>τὴν σάρκα τὴν τοῦ Χριστοῦ, ἥτις διὰ τὸν Χριστόν <lb/>ἐστι προσκυνητή· ὁ δὲ Χριστὸς προσκυνητὸς διὰ τὸν <lb/>ἐν αὐτῷ Λόγον θεοῦ. </p> </div>
          </div>
          <div type="century" n="VI">
-            <div type="chapter" n="19"> <pb n="12:1572d"/> <p><!--<desc>Sch. 2 in Ps. 113.4</desc>--> Εἰ γὰρ χαίρουσιν οἱ ἐν τοῖς οὐρανοῖς ἐπὶ ἑνὶ <lb/>μετανοοῦντι, πόσῳ μᾶλλον ἐπὶ τοσαύταις μυριάσιν <lb/>ὁδευούσαις ἀπὸ κακίας πρὸς ἀρετὴν, καὶ ἀπὸ ἀγνωσίας ἐπὶ γνῶσιν θεοῦ!</p> </div>
+            <div type="chapter" n="19"> <cb n="1572d"/> <p><!--<desc>Sch. 2 in Ps. 113.4</desc>--> Εἰ γὰρ χαίρουσιν οἱ ἐν τοῖς οὐρανοῖς ἐπὶ ἑνὶ <lb/>μετανοοῦντι, πόσῳ μᾶλλον ἐπὶ τοσαύταις μυριάσιν <lb/>ὁδευούσαις ἀπὸ κακίας πρὸς ἀρετὴν, καὶ ἀπὸ ἀγνωσίας ἐπὶ γνῶσιν θεοῦ!</p> </div>
             <div type="chapter" n="49">
-               <div type="variant" n="b"> <pb n="12:1656d"/> <p><!--<desc>Sch. 3 on Ps. 135.6</desc>--> καὶ ὁ Ἰσραὴλ ὁδεύει τὴν ἔρημον πε­<lb break="no"/>ινῶν καὶ διψῶν, καὶ πειραζόμενος, ἥτις ἐστὶ σύμβο-<pb break="no" n="12:1657a"/>λον τῆς πρακτικῆς, </p> </div>
+               <div type="variant" n="b"> <cb n="1656d"/> <p><!--<desc>Sch. 3 on Ps. 135.6</desc>--> καὶ ὁ Ἰσραὴλ ὁδεύει τὴν ἔρημον πε&#xad;<lb break="no"/>ινῶν καὶ διψῶν, καὶ πειραζόμενος, ἥτις ἐστὶ σύμβο-<cb break="no" n="1657a"/>λον τῆς πρακτικῆς, </p> </div>
             </div>
          </div>
          <div type="century" n="IV">
-            <div type="chapter" n="70"> <pb n="12:1668"/> <p><!--<desc>Sch. 5 on Ps. 141.8</desc>--> Οὐ πάντων ἐστὶ τὸ λέγειν· “Ἔκβαλε ἐκ φυλα­<lb break="no"/>κῆς τὴν ψυχήν μου,” εἰ μὴ τῶν δυναμένων διὰ κα­<lb break="no"/>θαρότητα καὶ χωρὶς τοῦ σώματος τούτου ἐπιβαλεῖν τῇ <lb/>θεωρίᾳ τῶν γεγονότων.</p> </div>
+            <div type="chapter" n="70"> <cb n="1668"/> <p><!--<desc>Sch. 5 on Ps. 141.8</desc>--> Οὐ πάντων ἐστὶ τὸ λέγειν· “Ἔκβαλε ἐκ φυλα&#xad;<lb break="no"/>κῆς τὴν ψυχήν μου,” εἰ μὴ τῶν δυναμένων διὰ κα&#xad;<lb break="no"/>θαρότητα καὶ χωρὶς τοῦ σώματος τούτου ἐπιβαλεῖν τῇ <lb/>θεωρίᾳ τῶν γεγονότων.</p> </div>
          </div>
          <div type="century" n="VI">
             <div type="chapter" n="49">
-               <div type="variant" n="c"> <pb n="12:1677a"/> <p><!--<desc>Sch. 2 on Ps. 147.2 [de la Rue: 13]</desc>--> Μοχλοὶ μὲν τῆς Ἱερουσαλήμ εἰ­<lb break="no"/>σιν αἱ πρακτικαὶ ἀρεταὶ κωλύουσαι τοὺς ἐχθροὺς <lb/> παρεισδῦναι· τῆς δὲ Σιὼν τὰ οὐράνια δόγματα καὶ ἡ <lb/>ὀρθὴ πίστις τῆς προσκυνητῆς καὶ ἁγίας Τριάδος </p> </div>
+               <div type="variant" n="c"> <cb n="1677a"/> <p><!--<desc>Sch. 2 on Ps. 147.2 [de la Rue: 13]</desc>--> Μοχλοὶ μὲν τῆς Ἱερουσαλήμ εἰ&#xad;<lb break="no"/>σιν αἱ πρακτικαὶ ἀρεταὶ κωλύουσαι τοὺς ἐχθροὺς <lb/> παρεισδῦναι· τῆς δὲ Σιὼν τὰ οὐράνια δόγματα καὶ ἡ <lb/>ὀρθὴ πίστις τῆς προσκυνητῆς καὶ ἁγίας Τριάδος </p> </div>
             </div>
          </div>
          <div type="century" n="V">
-            <div type="chapter" n="28"> <pb n="12:1681"/> <p><!--<desc>Sch. 2 on Ps. 148.6</desc>--> Ῥομφαῖα ἐστὶ νοῦς λογικὸς ἐκ-<lb break="no"/>κόπτων ψυχὴν ἀπὸ κακίας καὶ ἀγνωσίας. </p> </div>
+            <div type="chapter" n="28"> <cb n="1681"/> <p><!--<desc>Sch. 2 on Ps. 148.6</desc>--> Ῥομφαῖα ἐστὶ νοῦς λογικὸς ἐκ-<lb break="no"/>κόπτων ψυχὴν ἀπὸ κακίας καὶ ἀγνωσίας. </p> </div>
          </div>
 
       </body>

@@ -1,34 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.sch"?>
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:lat:1907:scriptum">
+<?xml-model href="../../TAN-2020/schemas/TAN-T.rnc"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:lat:1907:scriptum">
    <head>
       <name>Latin text of Van Den Ven's 1907 edition, scriptum reference system</name>
-      <license which="by_4.0"/>
-      <licensor who="kalvesmaki"/>
-      <key>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="On Masters and Disciples"/>
+      <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
-         <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2018-05-29-04:00"/>
-      </key>
-      <source><IRI>tag:evagriusponticus.net,2012:scriptum:van-den-ven-1908</IRI><name>Van Den Ven 1908</name><desc>P. van den Ven, “Un Opuscule Inédit Attribué à S. Nil,” Mémoires Littéraires,
-         Philologiques et Archéologiques 2 (1908): 73–81.</desc></source>
-      <see-also relationship="ade">
+         <location href="TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
+      </vocabulary>
+      <source>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:van-den-ven-1908</IRI>
+         <name>Van Den Ven 1908</name>
+         <desc>P. van den Ven, “Un Opuscule Inédit Attribué à S. Nil,” Mémoires Littéraires,
+            Philologiques et Archéologiques 2 (1908): 73–81.</desc>
+      </source>
+      <redivision>
          <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:lat:1907:logical</IRI>
          <name>Latin text of Van Den Ven's 1907 edition, logical reference system</name>
-         <location href="../patrologia/texts/cpg2449.lat.1908.van-den-ven.ref-logical.xml" when-accessed="2018-04-04-04:00"/>
-      </see-also>
-      <definitions>
+         <location href="../patrologia/texts/cpg2449.lat.1908.van-den-ven.ref-logical.xml" accessed-when="2018-04-04-04:00"/>
+      </redivision>
+      <vocabulary-key>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
+            <name>Converter from TAN 2018 to TAN 2020</name>
+            <location href="../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-30T22:25:58.382-04:00"/>
+         </algorithm>
+      
          <div-type xml:id="line" which="line (physical)"/>
-         <work which="On Masters and Disciples"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-         <role xml:id="stylesheet" which="stylesheet"/>
-         <role xml:id="editor" which="editor"/>
-         <relationship xml:id="model" which="model"/>
-         <relationship xml:id="ade" which="redivision"/>
-      </definitions>
+      </vocabulary-key>
+      <resp who="xslt1" roles="stylesheet"/>
+   
+      
+      <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
       <change when="2018-03-01-05:00" who="kalvesmaki">Began file</change>
+      <change who="xslt1" when="2019-05-30T22:25:58.382-04:00">Converted from 2018 to 2020 schemas.</change>
+      <to-do>
+         <comment when="2018-03-01-05:00" who="kalvesmaki">File is still in progress.</comment>
+      </to-do>
    </head>
    <body xml:lang="lat">
       <div n="1" type="line">Imperitus magister paratum naufragium et sine disciplina </div>

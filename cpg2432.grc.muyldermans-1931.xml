@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2018" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1931.TAN-TEI.001">
-  <teiHeader>
+<?xml-model href="../../TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2020" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1931.TAN-TEI.001">
+  <teiHeader xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
     <fileDesc>
       <titleStmt>
         <title>Ἑξακόσια προγνωστικὰ προβλήματα</title>
@@ -54,13 +54,13 @@
     <name xml:lang="eng">Fragments of the Kephalaia Gnostika from Muyldermans's edition of Milan,
       Ambr. gr. 681 (Q 74 sup.) </name>
     <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.grc.muyldermans-1931.xml"/>
-    <license which="by_4.0"/>
-    <licensor who="kalvesmaki"/>
-    <key>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="KG"/>
+    <vocabulary>
       <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
       <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
-      <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
-    </key>
+      <location href="TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+    </vocabulary>
     
     <source>
       <IRI>http://www.worldcat.org/oclc/558798869</IRI>
@@ -68,21 +68,28 @@
       <name> Evagriana. Extrait de la revue "Le Muséon" ... augmenté de: nouveaux fragments grecs
         inédits. [Edited by J. Muyldermans.].</name>
     </source>
-    <definitions>
-      <work which="KG"/>
-      <div-type which="century" xml:id="century"/>
-      <div-type which="title" xml:id="title"/>
-      <div-type which="chapter" xml:id="chapter"/>
-      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-      <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
-      <role xml:id="editor" which="editor"/>
-      <role xml:id="stylesheet" which="stylesheet"/>
-    </definitions>
-    <alter>
+    <adjustments>
       <normalization which="no reference markers"/>
-    </alter>
-    <resp who="kalvesmaki" roles="editor"/>
-    <resp who="xslt1" roles="stylesheet"/>
+    </adjustments>
+    <vocabulary-key>
+      <algorithm xml:id="xslt2">
+        <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
+        <name>Converter from TAN 2018 to TAN 2020</name>
+        <location href="../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-30T09:44:59.777-04:00"/>
+      </algorithm>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      <algorithm xml:id="xslt1">
+        <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
+        <name>Stylesheet to populate a TAN-A-div file from collections.</name>
+        <location
+          href="../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
+          accessed-when="2019-05-30"/>
+      </algorithm>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <resp roles="stylesheet" who="xslt1 xslt2"/>
     <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes.</change>
     <change when="2017-05-17" who="kalvesmaki">Removed reference numbers. Changed line-end hyphens to soft hyphens.</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
@@ -91,9 +98,11 @@
       release.</change>
     <change when="2014-10-31" who="kalvesmaki">Started TAN-TEI file.</change>
     <change who="xslt1" when="2017-12-16T12:47:30.641-05:00">TAN file updated to 2018 schemas.</change>
+    <change who="xslt2" when="2019-05-30T09:44:59.777-04:00">Converted from 2018 to 2020 schemas.</change>
+    <to-do/>
   </head>
   <text>
-    <body xml:lang="grc" in-progress="false">
+    <body xml:lang="grc">
       <div type="century" n="I">
         <div type="title" n="ti"> <p><pb n="56"/>Εὐαγρίου κεφάλαια.</p> </div>
         <div type="chapter" n="1"> <p>Τῷ πρώτῳ ἀγαθῷ οὐδέν ἐστιν ἐναντίον, διότι κατ’ οὐσίαν <lb/>ἐστίν· ἐναντίον δὲ οὐδὲν τῇ οὐσίᾳ.</p> <lb/></div>
@@ -105,10 +114,10 @@
         <div type="chapter" n="14"> <p>Ἑκάστην τῶν ἐπιστημῶν ἐν τῷ οἰκίῳ μόνῳ θεωρίσεις <lb/>ἐπιστητῷ· τὴν δὲ τοῦ ὄντως γνῶσιν ἐν πᾶσιν τούτοις εὑρήσεις. </p> </div>
         <div type="chapter" n="24"> <p>Εἰ ὁ στάχυς κατὰ δύναμιν ἐν τῷ κόκκῳ, καὶ τὸ τέλος κατὰ <lb/>δύναμιν ἐν τῷ αἰτίῳ· οὐτ’ αὐτὸν ὁ κόκκος καὶ τὰ ἐν τῷ κόκκῳ, οὐδ’ <lb/>ὁ στάχυς καὶ τὰ ἐν τῷ κόκκῳ.</p> </div>
         <div type="chapter" n="29"> <p>Ὡς χρῶμα καὶ σχῆμα καὶ ἀριθμὸς τοῖς σώμασι συναπέρχεται, <lb/>οὕτως καὶ τοῖς τέτρασι στοιχίοις ἡ ὕλη συνδιαφθείρεται. </p> </div>
-        <div type="chapter" n="36"> <p>Οὐτ’ αὐτὸν αἴσθησις καὶ αἰσθητήριον, οὐδ’ αἰσθητηκόν <lb/>τε καὶ αἰσθητόν· αἴσθησις μὲν γάρ ἐστιν ἡ δύναμις, καθ’ ἣν εἰώθαμεν <lb/>ἀντιλαμβάνεσθαι τῶν αἰσθητῶν· αἰσθητήριον δὲ τὸ ὄργανον ἐν ᾧ <lb/>καθίδρυται αὕτη· αἰσθητηκὸν δὲ τὸ ζῷον αὐτὸ τὸ κεκτιμένον <lb/> τὰς αἰσθήσεις· αἰσθητὸν δὲ τὸ πεφυσικῶς ταῖς αἰσθήσεσιν ὑπο­<lb break="no"/>πίπτειν.</p> </div>
+        <div type="chapter" n="36"> <p>Οὐτ’ αὐτὸν αἴσθησις καὶ αἰσθητήριον, οὐδ’ αἰσθητηκόν <lb/>τε καὶ αἰσθητόν· αἴσθησις μὲν γάρ ἐστιν ἡ δύναμις, καθ’ ἣν εἰώθαμεν <lb/>ἀντιλαμβάνεσθαι τῶν αἰσθητῶν· αἰσθητήριον δὲ τὸ ὄργανον ἐν ᾧ <lb/>καθίδρυται αὕτη· αἰσθητηκὸν δὲ τὸ ζῷον αὐτὸ τὸ κεκτιμένον <lb/> τὰς αἰσθήσεις· αἰσθητὸν δὲ τὸ πεφυσικῶς ταῖς αἰσθήσεσιν ὑπο&#xad;<lb break="no"/>πίπτειν.</p> </div>
         <div type="chapter" n="39"> <p>Ἀρετῆς μὲν γεγόναμεν ἔχοντες σπέρματα, κακίας δὲ οὔ· <lb/>οὐ γὰρ εἴ τινος δεκτικοί ἐσμεν, τούτου πάντως καὶ τὴν δύναμιν <lb/>ἔχομεν· ἐπεὶ καὶ μὴ εἶναι δυνάμενοι, τοῦ μὴ ὄντος οὐκ ἔχομεν <lb/>δύναμιν, εἴπερ αἱ δυνάμεις ποιότητες, τὸ δὲ μὴ ὂν οὐκ ἔστιν ποιότης. </p> </div>
         <div type="chapter" n="40"> <p>Ἦν ὅτε οὐκ ἦν κακία, καὶ ἔσται ὅτε οὐκ ἔσται· οὐκ ἦν δὲ <lb/>ὅτε οὐκ ἦν ἀρετὴ, οὐ δὲ ἔσται ὅτε οὐκ ἔσται· πείθει δέ με ὁ ἐν τῷ <pb n="58"/> ᾅδῃ πλούσιος διὰ κακίαν, καὶ ἐλεῶν τοὺς ἀδελφούς· τὸ δὲ ἐλεεῖν <lb/>ἀρετή.</p> </div>
-        <div type="chapter" n="42"> <p>Ἐκεῖ λέγεται Θεὸς παρεῖναι, ἔνθα καὶ ἐνεργεῖ· ὅπου δὲ <lb/>μᾶλλον ἐνεργεῖ, μᾶλλον πάρεστιν· ἐνεργεῖ δὲ πλέον ἐν ταῖς οὐρα­<lb break="no"/>νίαις δυνάμεσιν, πλέον οὖν ἐκεῖσαι πάρεστιν. </p> </div>
+        <div type="chapter" n="42"> <p>Ἐκεῖ λέγεται Θεὸς παρεῖναι, ἔνθα καὶ ἐνεργεῖ· ὅπου δὲ <lb/>μᾶλλον ἐνεργεῖ, μᾶλλον πάρεστιν· ἐνεργεῖ δὲ πλέον ἐν ταῖς οὐρα&#xad;<lb break="no"/>νίαις δυνάμεσιν, πλέον οὖν ἐκεῖσαι πάρεστιν. </p> </div>
         <div type="chapter" n="43"> <p>Ὁ Θεὸς καὶ πανταχοῦ πάρεστιν καὶ οὐδαμοῦ· πανταχοῦ <lb/>μὲν, ὅτι πᾶσιν ἐνυπάρχει τοῖς γεγονόσιν· οὐδαμοῦ δε, διότι ἕτερος <lb/>αὐτῶν ἐστιν.</p> </div>
         <div type="chapter" n="58"> <p>Θνητόν ἐστι τὸ πεφυκὸς ἀπὸ τοῦ συνεζευγμένου σώματος <lb/>λυέσθαι· ἀθάνατον δὲ ὃ μὴ διαλυέσθαι πέφυκεν· πάντα γὰρ ἀναγκαίως <lb/>τὰ συνδεθέντα σώμασιν καὶ λυθήσεται ποτέ.</p> </div>
         <div type="chapter" n="64"> <p>Ζωὴ ὄντως ἐστὶν ἡ κατὰ φύσιν ἐνέργεια τῶν ἐμψυχομένων· <lb/>θάνατος δὲ ἡ παρὰ φύσιν.</p> </div>
@@ -116,7 +125,7 @@
       </div>
       <div type="century" n="II">
         <div type="chapter" n="32"> <p>Ὥσπερ οὐκ αἱ ὕλαι, ἀλλ’ αἱ ποιότητες αὐτῶν τὰ σώματα <lb/>διαστρέφουσιν· οὕτως οὐ τὰ πράγματα, ἀλλ’ αἱ περὶ αὐτῶν θεωρίαι <lb/>αὔξουσι τὴν ψυχήν. </p> </div>
-        <div type="chapter" n="35"> <p>Πέντε καὶ ὁ νοῦς κέκτηται θεῖας αἰσθήσεις, δι’ ὧν ἀντιλαμ­<lb break="no"/>βάνεται τῶν οἰκίων ὑλῶν· καὶ ὅρασις μὲν αὐτὰ ψιλὰ τὰ νοητὰ <lb/>παρίστησιν αὐτῷ πράγματα· ἀκοὴ δὲ τοὺς λόγους περὶ αὐτῶν εἰσδέ­<lb break="no"/>χεται· τῆς δὲ παντὸς ψευδοῦς ἀμιγοῦς εὐωδίας ἀπολαύει ἡ ὄσφησις, <pb n="59"/> καὶ τῆς ἐκ τούτων ἡδονῆς μεταλαμβάνει τὸ στόμα· διὰ δὲ τῆς ἁφῆς <lb/>πληροφορεῖται τὴν ἀκριβῆ λαμβάνοντων πραγμάτων ἀπόδειξιν.</p> </div>
+        <div type="chapter" n="35"> <p>Πέντε καὶ ὁ νοῦς κέκτηται θεῖας αἰσθήσεις, δι’ ὧν ἀντιλαμ&#xad;<lb break="no"/>βάνεται τῶν οἰκίων ὑλῶν· καὶ ὅρασις μὲν αὐτὰ ψιλὰ τὰ νοητὰ <lb/>παρίστησιν αὐτῷ πράγματα· ἀκοὴ δὲ τοὺς λόγους περὶ αὐτῶν εἰσδέ&#xad;<lb break="no"/>χεται· τῆς δὲ παντὸς ψευδοῦς ἀμιγοῦς εὐωδίας ἀπολαύει ἡ ὄσφησις, <pb n="59"/> καὶ τῆς ἐκ τούτων ἡδονῆς μεταλαμβάνει τὸ στόμα· διὰ δὲ τῆς ἁφῆς <lb/>πληροφορεῖται τὴν ἀκριβῆ λαμβάνοντων πραγμάτων ἀπόδειξιν.</p> </div>
         <div type="chapter" n="45"> <p>Αἴσθησις μὲν καὶ νοῦς μερίζονται τὰ αἰσθητά· νοῦς δὲ μόνος <lb/>ἔχει τὰ νοητά· καὶ γὰρ τῶν πραγμάτων καὶ τῶν λόγων ὁ αὐτὸς <lb/>γίνεται θεατής.</p> </div>
       </div>
       <div type="century" n="III">

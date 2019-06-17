@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG">
+<?xml-model href="../../TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG">
    <head>
       <name>Evagrius of Pontus, Hypotyposis, Greek</name>
-      <license which="by_4.0"/>
-      <licensor who="kalvesmaki"/>
-      <key>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2441.grc.PG.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="hypotyposis"/>
+      <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
-         <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
-      </key>
+         <location href="TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+      </vocabulary>
       
       <source>
          <IRI>http://dbpedia.org/resource/Patrologia_Graeca</IRI>
@@ -23,20 +24,27 @@
       <annotation>
          <IRI>tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG</IRI>
          <name>Lexico-morphological data for: Evagrius of Pontus, Hypotyposis, Greek</name>
-         <location href="TAN-A-lm/cpg2441.grc.PG.tan-a-lm.xml" when-accessed="2018-05-19-04:00"/>
+         <location href="TAN-A-lm/cpg2441.grc.PG.tan-a-lm.xml" accessed-when="2018-05-19-04:00"/>
       </annotation>
-      <definitions>
-         <work which="hypotyposis"/>
-         <div-type which="title" xml:id="title"/>
+      <vocabulary-key>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
+            <name>Converter from TAN 2018 to TAN 2020</name>
+            <location href="../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-30T22:14:11.429-04:00"/>
+         </algorithm>
+      
          <div-type which="section" xml:id="sect"/>
          
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-         <role xml:id="editor" which="editor"/>
-      </definitions>
-      <resp who="kalvesmaki" roles="editor"/>
+      </vocabulary-key>
+      <resp who="xslt1" roles="stylesheet"/>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
       <change when="2018-03-21" who="kalvesmaki">Started file</change>
+      <change who="xslt1" when="2019-05-30T22:14:11.429-04:00">Converted from 2018 to 2020 schemas.</change>
+      <to-do/>
    </head>
-   <body xml:lang="grc" in-progress="true">
+   <body xml:lang="grc">
       <div type="title" n="title">ΕΥΑΓΡΙΟΥ ΜΟΝΑΧΟΥ, ΤΩΝ ΚΑΤΑ ΜΟΝΑΧΩΝ ΠΡΑΓΜΑΤΩΝ ΤΑ ΑΙΤΙΑ, ΚΑΙ Η ΚΑΘ' ΗΣΥΧΙΑΝ ΤΟΥΤΩΝ ΠΑΡΑΘΕΣΙΣ</div>
       <div type="sect" n="1">Ἐν τῷ Ἱερεμίᾳ εἵρηται τὸ, Καὶ σὺ μὴ λάβῃς σεαυτῷ γυναῖκα ἐν τῷ τόπῳ τούτῳ· ὅτι τάδε λέγει Κύριος περὶ τῶν υἱῶν καὶ τῶν θυγατέρων τῶν γεννωμένων ἐν τῷ τόπῳ τούτῳ· Ἐν θανάτῳ νοσερῷ ἀποθανοῦνται. Τοῦτο δεικνύντος τοῦ λόγου, ὅτι κατὰ τὸν Ἀπόστολον, ὁ γαμήσας ἄνθρωπος μεριμνᾷ τὰ τοῦ κόσμου, πῶς ἀρέσει τῇ γυναικὶ, καὶ μεμέρισται· καὶ ἡ γαμήσασα γυνὴ μεριμνᾷ τὰ τοῦ κόσμου, πῶς ἀρέσει τῷ ἀνδρί. Καὶ δῆλον, ὡς οὐ μόνον περὶ τῶν κατὰ τὸν γαμικὸν βίον ἐσομένων υἱῶν καὶ θυγατέρων ἐν τῷ προφήτῃ εἴρηται τὸ, Ἐν θανάτῳ νοσερῷ ἀποθανοῦνται· ἀλλὰ καὶ περὶ τῶν ἐν καρδίᾳ αὐτῶν γεννωμένων υἱῶν καὶ θυγατέρων, τουτέστι σαρκικῶν λογισμῶν καὶ ἐπιθυμιῶν, ὡς ἐν τῷ νοσερῷ καὶ ἀσθενεῖ καὶ ἐκλύτῳ φρονήματι τοῦ κόσμου τούτου ἀποθανοῦνται καὶ οὗτοι, καὶ οὐ τῆς ἐπουρανίου καὶ αἰωνίου ζωῆς τεύξονται. Ὁ δὲ ἄγαμος, φησὶ, μεριμνᾷ τὰ τοῦ Κυρίου, πῶς ἀρέσει τῷ Κυρίῳ, καὶ τοὺς ἀειθαλεῖς καὶ ἀθανάτους τῆς οὐρανίου ζωῆς ποιήσει καρπούς.</div>
       <div type="sect" n="2">Τοιοῦτος ὁ μοναχὸς, καὶ οὕτως χρὴ εἶναι τὸν μοναχὸν, ἀπεχόμενον ἀπὸ γυναικὸς, μὴ ποιοῦντα υἱὸν ἢ θυγατέρα ἐν τῷ τόπῳ τῷ προειρημένῳ· οὐ μὴν δὲ ἀλλὰ καὶ Χριστοῦ στρατιώτην ἄϋλον, ἀμέριμνον ὑπάρχειν, πάσης πραγματευτικῆς ἐννοίας τε καὶ πράξεως ἐκτὸς, ὡς καὶ ὁ Ἀπόστολός φησιν· Οὐδεὶς στρατευόμενος ἐμπλέκεται ταῖς τοῦ βίου πραγματείαις, ἵνα τῷ στρατολογήσαντι ἀρέσῃ. Ἐν τούτοις ἴτω ὁ μοναχὸς μάλιστα ὁ πᾶσαν ὕλην τοῦ κόσμου τούτου καταλιπὼν, καὶ ἐπὶ τὰ ὡραῖα καὶ καλὰ τῆς ἡσυχίας ἀποτρέχων τρόπαια. Ὡς ὡραία γὰρ καὶ καλὴ τῇ ἡσυχίᾳ ἡ ἄσκησις, ὡς ὡραία ὄντως καὶ καλή Ἔστι γὰρ ὁ χρηστὸς ὁ ταύτης ζυγὸς, καὶ τὸ φορτίον ἐλαφρόν· ἡδὺς ὁ βίος, ἡ πρᾶξις στέρνη.</div>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:tan="tag:textalign.net,2015:ns" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2018" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_eng_Dysinger.TAN-TEI.001">
-  <teiHeader>
+<?xml-model href="../../TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2020" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_eng_Dysinger.TAN-TEI.001">
+  <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:tan="tag:textalign.net,2015:ns" xmlns:math="http://www.w3.org/1998/Math/MathML">
     <fileDesc>
       <titleStmt>
         <title>Λόγος πράκτικος</title>
@@ -18,7 +18,7 @@
       <publicationStmt>
         <publisher>Kalvesmaki</publisher>
         <availability default="false" status="unknown">
-          <p>Public Domain</p>
+          <p part="N">Public Domain</p>
         </availability>
         <date when="1990" instant="false"/>
       </publicationStmt>
@@ -44,15 +44,15 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc default="false">
-        <p>Assembled 2011-2012 by <persName instant="false" full="yes">Joel Kalvesmaki</persName>, based on public-domain
+        <p part="N">Assembled 2011-2012 by <persName instant="false" full="yes">Joel Kalvesmaki</persName>, based on public-domain
           material found on the website of the translator.</p>
       </projectDesc>
       <editorialDecl default="false">
         <correction default="false" status="unknown" method="silent">
-          <p>Unnecessary spacing and reduplication silently corrected.</p>
+          <p part="N">Unnecessary spacing and reduplication silently corrected.</p>
         </correction>
         <normalization default="false" method="silent">
-          <p>Transcription does not reflect the translator's original orthography (small caps not
+          <p part="N">Transcription does not reflect the translator's original orthography (small caps not
             reflected); color; italics; indentation. It also does not distinguish author's
             metanarrative from the translation.</p>
         </normalization>
@@ -68,41 +68,27 @@
   <head xmlns="tag:textalign.net,2015:ns">
     <name xml:lang="eng">Luke Dysinger's English translation of the Praktikos of Evagrios Pontikos</name>
     <master-location href="http://evagriusponticus.net/tan/cpg2430.eng.dysinger.xml"/>
-    <license which="by_4.0"/>
-    <licensor who="kalvesmaki"/>
-    <key>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Prak."/>
+    <version>
+      <IRI>tag:evagriusponticus.net,2015:cpg2430,eng-1997</IRI>
+      <IRI>tag:kalvesmaki.com,2014:cpg2430,eng-1997</IRI>
+      <name xml:lang="eng">Fr. Luke Dysinger's translation of the ancient Greek version of the
+          Praktikos</name>
+    </version>
+    <vocabulary>
       <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
       <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
-      <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2017-12-16-05:00"/>
-    </key>
+      <location href="TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+    </vocabulary>
     
     <source>
       <IRI>tag:kalvesmaki.com,2014:external_Evagrius_Praktikos_eng_Dysinger</IRI>
       <IRI>tag:evagriusponticus.net,2012:scriptum:dysinger-1990</IRI>
       <name>Dysinger's online translation</name>
-      <location href="http://www.ldysinger.com/Evagrius/01_Prak/00a_start.htm" when-accessed="2013-04-13"/>
+      <location href="http://www.ldysinger.com/Evagrius/01_Prak/00a_start.htm" accessed-when="2013-04-13"/>
     </source>
-    <definitions>
-      <work which="Prak."/>
-      <version>
-        <IRI>tag:evagriusponticus.net,2015:cpg2430,eng-1997</IRI>
-        <IRI>tag:kalvesmaki.com,2014:cpg2430,eng-1997</IRI>
-        <name xml:lang="eng">Fr. Luke Dysinger's translation of the ancient Greek version of the
-          Praktikos</name>
-      </version>
-      <div-type which="preface" xml:id="preface"/>
-      <div-type which="section" xml:id="section"/>
-      <div-type which="title" xml:id="title"/>
-      <div-type which="chapter" xml:id="chapter"/>
-      <div-type which="epilogue" xml:id="epilogue"/>
-      
-      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-      
-      <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc></algorithm>
-      <role xml:id="editor" which="editor"/>
-      <role xml:id="stylesheet" which="stylesheet"/>
-    </definitions>
-    <alter>
+    <adjustments>
       <normalization>
         <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
         <name>Small caps removed.</name>
@@ -124,15 +110,34 @@
         <name>left separator, U+2028, removed</name>
       </normalization>
       <normalization which="no reference markers"/>
-    </alter>
+    </adjustments>
+    <vocabulary-key>
+      <algorithm xml:id="xslt2">
+        <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
+        <name>Converter from TAN 2018 to TAN 2020</name>
+        <location href="../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-28T03:45:03.534-04:00"/>
+      </algorithm>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      <algorithm xml:id="xslt1">
+        <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
+        <name>Stylesheet to populate a TAN-A-div file from collections.</name>
+        <location
+          href="../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
+          accessed-when="2019-05-28"/>
+      </algorithm>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp who="xslt1 xslt2" roles="stylesheet"/>
     <resp who="kalvesmaki" roles="editor"/>
-    <resp who="xslt1" roles="stylesheet"/>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
       release.</change>
     <change when="2014-10-15" who="kalvesmaki">Created new TAN-T file.</change>
     <change who="xslt1" when="2017-12-16T12:07:48.924-05:00">TAN file updated to 2018 schemas.</change>
-    <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Adjusted &lt;name>. Corrected spaces around quotations.</change>
+    <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Adjusted &lt;name&gt;. Corrected spaces around quotations.</change>
+    <change who="xslt2" when="2019-05-28T03:45:03.534-04:00">Converted from 2018 to 2020 schemas.</change>
+    <to-do/>
     <comment when="2014-10-29" who="kalvesmaki">From the source: Translation by Luke Dysinger,
       O.S.B. (translation in public domain) Greek text based on: Sources Chrétiennes N° 171;&amp; PG
       40.[1] [1] ENGLISH TEXT: This translation owes much to the literal and melifluous version by
@@ -146,7 +151,7 @@
       Guillaumont, ser. Sources Chrétiennes N° 171, (Paris, Cerf, 1971), pp. 482-715. </comment>
   </head>
   <text>
-    <body xml:lang="eng" in-progress="false">
+    <body xml:lang="eng">
       <div type="preface" n="pr">
         <div type="section" n="1"> <p>Since you recently wrote to me in Scetis from the Holy Mountain, dear brother Anatolius, demanding that I explain to you the symbolic habit of the Egyptian monks - for you believe it to be neither accidental nor superfluous that [the habit] is so different from what other people wear - I will therefore tell you what we have learned concerning this from the holy fathers. </p> </div>
         <div type="section" n="2"> <p>The hood (koukoullion) is a symbol of the grace of our Saviour [and] God: it shelters their mind (hegemonikon) and nurses their childlike [relationship] with Christ in the face of those who are always attempting to beat and wound it. Anyone who bears this hood on his head is truly chanting [the inner meaning of the psalm], <cit> <quote defective="false">Unless the Lord builds the house and guards the city, in vain do the builder and watchman labor</quote><ref cRef="Ps 126.1.2-5"/></cit>. Words like these produce humility and uproot the primordial vice of pride that cast Lucifer <cit> <quote defective="false">the Day-Star down to the earth</quote><ref cRef="Is 14.12"/></cit>. </p> </div>

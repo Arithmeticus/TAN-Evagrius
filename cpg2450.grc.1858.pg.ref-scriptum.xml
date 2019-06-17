@@ -1,35 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.sch"?>
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2018" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1858:ref-scriptum">
+<?xml-model href="../../TAN-2020/schemas/TAN-T.rnc"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1858:ref-scriptum">
    <head>
       <name>Greek text of De malignis cogitationibus from the Patrologia Graeca, scriptum reference
          system</name>
-      <license which="by_4.0"/>
-      <licensor who="kalvesmaki"/>
-      <key>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Thoughts"/>
+      <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
-         <location href="TAN-key/evagrius.TAN-key.xml" when-accessed="2018-05-29-04:00"/>
-      </key>
+         <location href="TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
+      </vocabulary>
       <redivision>
          <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1858:ref-logical-after-1998</IRI>
          <name>Greek text of De malignis cogitationibus from the Patrologia Graeca, logical
             reference system</name>
-         <location href="../patrologia/texts/cpg2450.grc.1858.pg.ref-logical-after-1998.xml" when-accessed="2018-04-05"/>
+         <location href="../patrologia/texts/cpg2450.grc.1858.pg.ref-logical-after-1998.xml" accessed-when="2018-04-05"/>
       </redivision>
       <source which="Patrologia Graeca"/>
-      <definitions>
-         <work which="Thoughts"/>
+      <vocabulary-key>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
+            <name>Converter from TAN 2018 to TAN 2020</name>
+            <location href="../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-31T02:24:10.432-04:00"/>
+         </algorithm>
+      
          <div-type xml:id="vol" which="volume"/>
          <div-type xml:id="col" which="column (page)"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-         <role xml:id="stylesheet" which="stylesheet"/>
-         <role xml:id="editor" which="editor"/>
-      </definitions>
+      </vocabulary-key>
+      <resp who="xslt1" roles="stylesheet"/>
+   
+      
+      <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
       <change when="2018-03-01-05:00" who="kalvesmaki">Began file</change>
       <change when="2018-04-06" who="kalvesmaki">Corrected segmentation.</change>
+      <change who="xslt1" when="2019-05-31T02:24:10.432-04:00">Converted from 2018 to 2020 schemas.</change>
+      <to-do>
+         <comment when="2018-04-06" who="kalvesmaki">File is still in progress.</comment>
+      </to-do>
    </head>
    <body xml:lang="grc">
       <div type="vol" n="40">
