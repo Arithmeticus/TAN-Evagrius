@@ -23,8 +23,7 @@
       
       <source xml:id="titular-source">
          <comment when="2015-12-27" who="kalvesmaki">This source included only to validate the
-            TAN-A-div file, which is intended only as a core repository of metadata (see desc
-            above).</comment>
+            TAN-A file, which is intended only as a core repository of metadata.</comment>
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
          <name>cpg2430-grc-Guillaumonts.TAN-TEI.xml</name>
          <location href="../cpg2430.grc.guillaumonts.xml" accessed-when="2015-12-27T12:03:59.703-05:00"/>
@@ -125,6 +124,7 @@
          <version xml:id="nocpg01-ara" which="Arabic translation of Loukios"/>
          <version xml:id="nocpg02-syr" which="Syriac translation of 14 Chapters"/>
          <version xml:id="nocpg02-hye" which="Armenian translation of 14 Chapters"/>
+         <version xml:id="cpg2430-lat-vetus" which="Early Latin translation of Praktikos"/>
          <version xml:id="cpg2430-lat" which="Latin translation of Praktikos"/>
          <version xml:id="cpg2430-syr-S1" which="Praktikos S1"/>
          <version xml:id="cpg2430-syr-S2" which="Praktikos S2"/>
@@ -297,7 +297,7 @@
       <claim subject="nocpg01-ara cpg2430-ara cpg2432-ara cpg2447-ara cpg2449-ara cpg2451-ara cpg2452-ara cpg2461-ara cpg2463-ara cpg2464a-ara cpg2464-ara cpg2482a-ara" verb="written-in" object="ara"/>
       <claim subject="cpg2430-syr-S1 cpg2430-syr-S2 cpg2430-syr-S3 nocpg02-syr cpg2431-syr cpg2432-syr cpg2433-syr cpg2434-syr cpg2435-syr cpg2436-syr cpg2437-syr cpg2438-syr cpg2439-syr cpg2440-syr cpg2441-syr cpg2443-syr cpg2444-syr cpg2445-syr cpg2447-syr cpg2448-syr cpg2449-syr cpg2450-syr cpg2451-syr cpg2452-syr cpg2453-syr cpg2454-syr cpg2457-syr cpg2459-syr cpg2460-syr cpg2469-syr cpg2470-syr cpg2475-syr cpg2477-syr cpg2483-syr" verb="written-in" object="syr"/>
       <claim subject="nocpg02-hye cpg2430-hye cpg2431-hye cpg2432-hye cpg2433-hye cpg2434-hye cpg2435-hye cpg2436-hye cpg2437-hye cpg2443-hye cpg2447-hye cpg2448-hye cpg2449-hye cpg2451-hye cpg2452-hye cpg2459-hye cpg2470-hye cpg2477-hye" verb="written-in" object="hye"/>
-      <claim subject="cpg2430-lat cpg2431-lat cpg2434-lat cpg2435-lat cpg2436-lat cpg2449-lat cpg2451-lat" verb="written-in" object="lat"/>
+      <claim subject="cpg2430-lat-vetus cpg2430-lat cpg2431-lat cpg2434-lat cpg2435-lat cpg2436-lat cpg2449-lat cpg2451-lat" verb="written-in" object="lat"/>
       <claim subject="cpg2430-gez cpg2435-gez cpg2447-gez cpg2451-gez cpg2452-gez" verb="written-in" object="gez"/>
       <claim subject="cpg2430-kat cpg2434-kat cpg2435-kat cpg2447-kat cpg2448-kat cpg2451-kat cpg2452-kat" verb="written-in" object="kat"/>
       <claim subject="cpg2434-sog" verb="written-in" object="sog"/>
@@ -448,14 +448,14 @@
          verb="survives-in-original-language">
          <object units="portion">0.0</object>
       </claim>
-      <claim subject="cpg2430-lat cpg2431-lat cpg2434-lat" verb="survives-in-original-language">
+      <claim subject="cpg2430-lat cpg2430-lat-vetus cpg2431-lat cpg2434-lat" verb="survives-in-original-language">
          <object units="portion">0.0</object>
       </claim>
       
       <!-- work-version relationships -->
       <claim subject="nocpg01-ara" verb="is-translation-of" object="nocpg01"/>
       <claim subject="nocpg02-syr nocpg02-hye" verb="is-translation-of" object="nocpg02"/>
-      <claim subject="cpg2430-lat cpg2430-syr-S1 cpg2430-syr-S2 cpg2430-syr-S3 cpg2430-hye cpg2430-gez cpg2430-kat cpg2430-ara" verb="is-translation-of" object="cpg2430"/>
+      <claim subject="cpg2430-lat cpg2430-lat-vetus cpg2430-syr-S1 cpg2430-syr-S2 cpg2430-syr-S3 cpg2430-hye cpg2430-gez cpg2430-kat cpg2430-ara" verb="is-translation-of" object="cpg2430"/>
       <claim subject="cpg2431-lat cpg2431-syr cpg2431-hye" verb="is-translation-of" object="cpg2431"/>
       <claim subject="cpg2432-syr cpg2432-hye cpg2432-ara" verb="is-translation-of" object="cpg2432"/>
       <claim subject="cpg2433-syr cpg2433-hye" verb="is-translation-of" object="cpg2433"/>

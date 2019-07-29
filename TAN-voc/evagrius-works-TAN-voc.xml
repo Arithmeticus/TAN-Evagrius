@@ -28,6 +28,8 @@
         <change who="xslt1" when="2017-12-15T15:35:22.185-05:00">TAN file updated to 2018 schemas.</change>
         <change when="2018-05-03" who="kalvesmaki">Data checked.</change>
         <change who="xslt2" when="2019-05-28T03:25:57.642-04:00">Converted from 2018 to 2020 schemas.</change>
+        <change who="kalvesmaki" when="2019-07-27">Added 2nd ancient Latin version; began to write
+            descriptions of the ancient translations.</change>
         <to-do>
             <comment when="2018-05-03" who="kalvesmaki">File is still in progress.</comment>
         </to-do>
@@ -96,23 +98,45 @@
                     the passions.</desc>
             </item>
             <item affects-element="version">
+                <IRI>tag:evagriusponticus.net,2015:cpg2430:version:lat-vetus</IRI>
+                <name>Early Latin translation of Praktikos</name>
+                <desc>Translation of the Praktikos into Latin, attested by Gennadius of Marseilles (late 5th c.; Vir. inlust. 11), no longer extant.</desc>
+            </item>
+            <item affects-element="version">
                 <IRI>tag:evagriusponticus.net,2015:cpg2430:version:lat</IRI>
                 <name>Latin translation of Praktikos</name>
+                <desc>Gennadius of Marseilles (late 5th c.; Vir. inlust. 11) says that an earlier
+                    translation "had suffered in transmission" (per tempus confusum) so he undertook
+                    a fresh translation. No part of his oor his predecessor's translation survives.</desc>
             </item>
             <item affects-element="version">
                 <IRI>tag:evagriusponticus.net,2015:cpg2430:version:syr-S1</IRI>
                 <name>Praktikos S1</name>
                 <name>Syriac S1 translation of Praktikos</name>
+                <desc>This translation was made sometime before the early 5th century. It lacked the
+                    prefator letter to Anatolios, and was combined with the Gnostikos (version S1,
+                    whose chapters are numbered sequentially). The translation is charaterized at
+                    times by a literate precision, at other times by studied alteration. This
+                    translator might be the same as the translator of version S1 of the Kephalaia
+                    Gnostika (CPG 2432).</desc>
             </item>
             <item affects-element="version">
                 <IRI>tag:evagriusponticus.net,2015:cpg2430:version:syr-S2</IRI>
                 <name>Praktikos S2</name>
                 <name>Syriac S2 translation of Praktikos</name>
+                <desc>Someone intent on making the text accessible to a broad audience translated
+                    version S2 of the Praktikos. The translation tends to be loose, in service to
+                    clearer Syriac syntax and semantics, and employs euphemisms or glosses for the
+                    sake of comprehension. There is no evidence that he used any other translation.
+                    This version differs remarkably from S1 in that it retains the prefatory letter
+                    to Anatolios.</desc>
             </item>
             <item affects-element="version">
                 <IRI>tag:evagriusponticus.net,2015:cpg2430:version:syr-S3</IRI>
                 <name>Praktikos S3</name>
                 <name>Syriac S3 translation of Praktikos</name>
+                <desc>Someone of unknown background, created Syriac version S3, apparently working
+                    from both S1 and S2 as well as the Greek text.</desc>
             </item>
             <item affects-element="version">
                 <IRI>tag:evagriusponticus.net,2015:cpg2430:version:hye</IRI>
