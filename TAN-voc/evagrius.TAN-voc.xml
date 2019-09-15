@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-key.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-key.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-voc.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TAN-voc xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:evagrius" TAN-version="2020">
     <head>
         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
         <license which="by_4.0" licensor="kalvesmaki"/>
+        <inclusion xml:id="agents">
+            <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-agents</IRI>
+            <name>Persons and organizations mentioned in the project pertaining to the writings of Evagrius</name>
+            <location accessed-when="2019-08-30T08:10:09.098-04:00" href="evagrius-agents-TAN-voc.xml"/>
+        </inclusion>
         <inclusion xml:id="works">
             <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
             <name>Works by Evagrius</name>
             <location href="evagrius-works-TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
+        </inclusion>
+        <inclusion xml:id="scripta">
+            <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-scripta</IRI>
+            <name>Text bearing objects pertaining to the writings of Evagrius</name>
+            <location href="evagrius-scripta-TAN-voc.xml" accessed-when="2019-08-12"/>
         </inclusion>
         <vocabulary-key>
             <algorithm xml:id="xslt1">
@@ -16,12 +26,7 @@
                 <name>Converter from TAN 2018 to TAN 2020</name>
                 <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-28T03:24:38.194-04:00"/>
             </algorithm>
-            <person xml:id="kalvesmaki">
-                <IRI>http://viaf.org/viaf/299582703</IRI>
-                <IRI>tag:kalvesmaki.com,2014:self</IRI>
-                <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
-                <name>Joel Kalvesmaki</name>
-            </person>
+            <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
         </vocabulary-key>
         
         <file-resp who="kalvesmaki"/>
@@ -29,73 +34,27 @@
         <resp who="kalvesmaki" roles="editor"/>
         <change when="2017-12-15T15:35:20.202-05:00" who="kalvesmaki">started file</change>
         <change who="xslt1" when="2019-05-28T03:24:38.194-04:00">Converted from 2018 to 2020 schemas.</change>
+        <change when="2019-08-11" who="kalvesmaki">Moved scripta to included vocabulary file; added new scripta vocabulary file as inclusion</change>
+        <change when="2019-08-31" who="kalvesmaki">Moved persons to separate TAN-voc file.</change>
         <to-do>
             <comment when="2017-12-15T15:35:20.202-05:00" who="kalvesmaki">File is still in progress.</comment>
         </to-do>
     </head>
-    <body affects-element="person">
-        <item>
-            <IRI>http://viaf.org/viaf/299582703</IRI>
-            <IRI>tag:kalvesmaki.com,2014:self</IRI>
-            <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
-            <name>Joel Kalvesmaki</name>
-        </item>
-        <item>
-            <IRI>http://viaf.org/viaf/94205197</IRI>
-            <IRI>http://viaf.org/viaf/306954008</IRI>
-            <name>Columba Stewart</name>
-        </item>
-        <item>
-            <IRI>http://viaf.org/viaf/71547824</IRI>
-            <name>Helma Dik</name>
-        </item>
-        <item>
-            <IRI>http://dbpedia.org/resource/Evagrius_Ponticus</IRI>
-            <IRI>tag:evagriusponticus.net,2015:person:evagrius</IRI>
-            <IRI>http://viaf.org/viaf/58103843</IRI>
-            <name xml:lang="lat">Evagrius Ponticus</name>
-            <name xml:lang="eng">Evagrius of Pontus</name>
-        </item>
-        <item>
-            <IRI>urn:uuid:df3d4e89-bee7-4bf9-b13e-48408fc6e238</IRI>
-            <name>compilers of the Apophthegmata</name>
-        </item>
-        <item>
-            <IRI>urn:uuid:378c1eac-93d7-4bdf-9208-75d5ffcdd5a6</IRI>
-            <name>compilers of the Disciples</name>
-        </item>
-        <item>
-            <IRI>tag:evagriusponticus.net,2015:person:loukios</IRI>
-            <name>Loukios</name>
-            <name xml:lang="lat">Lucius</name>
-        </item>
-        <item>
-            <IRI>http://dbpedia.org/resource/Nilus_of_Sinai</IRI>
-            <name>Nilus of Ancyra</name>
-            <name>Nilus of Sinai</name>
-        </item>
-        <group include="works"/>
+    <body>
+        <group affects-element="person organization">
+            <item include="agents"/>
+        </group>
+        <group affects-element="work">
+            <item include="works"/>
+        </group>
+        <group affects-element="source scriptum">
+            <item include="scripta"/>
+        </group>
         <group affects-element="relationship">
             <item>
                 <IRI>tag:kalvesmaki.com,2014:vocabulary:relationship:auxiliary</IRI>
                 <name>auxiliary</name>
                 <desc>A digital service or resource that provided an auxiliary role in making the source or data available.</desc>
-            </item>
-        </group>
-        <group affects-element="source scriptum">
-            <item>
-                <IRI>http://lccn.loc.gov/a68000023</IRI>
-                <IRI>tag:evagriusponticus.net,2012:scriptum:guillaumont-1958</IRI>
-                <name>Guillaumont 1958</name>
-                <name>Guillaumont, Antoine. Les six centuries des “Kephalaia gnostica”: Édition critique de
-                    la version syriaque commune et édition d’une nouvelle version syriaque, intégrale, avec
-                    une double traduction française; Kephalaia gnostica. Patrologia Orientalis 28. Paris:
-                    Firmin-Didot, 1958. </name>
-            </item>
-            <item>
-                <IRI>http://dbpedia.org/resource/Patrologia_Graeca</IRI>
-                <IRI>tag:evagriusponticus.net,2012:scriptum:migne-1857</IRI>
-                <name>Patrologia Graeca</name>
             </item>
         </group>
         <group affects-element="algorithm">

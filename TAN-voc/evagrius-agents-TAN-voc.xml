@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-voc.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-voc xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:evagrius-agents" TAN-version="2020">
+    <head>
+        <name>Persons and organizations mentioned in the project pertaining to the writings of Evagrius</name>
+        <license which="by_4.0" licensor="kalvesmaki"/>
+        <vocabulary-key>
+            <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+        </vocabulary-key>
+        <file-resp who="kalvesmaki"/>
+        <resp who="kalvesmaki" roles="editor"/>
+        <change when="2019-08-30" who="kalvesmaki">started file, moved over from the main TAN-voc file.</change>
+        <to-do>
+            <comment when="2019-08-30" who="kalvesmaki">File is still in progress.</comment>
+        </to-do>
+    </head>
+    <body affects-element="person">
+        <item>
+            <IRI>http://viaf.org/viaf/299582703</IRI>
+            <IRI>tag:kalvesmaki.com,2014:self</IRI>
+            <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
+            <name>Joel Kalvesmaki</name>
+        </item>
+        <item>
+            <IRI>http://viaf.org/viaf/94205197</IRI>
+            <IRI>http://viaf.org/viaf/306954008</IRI>
+            <name>Columba Stewart</name>
+        </item>
+        <item>
+            <IRI>http://viaf.org/viaf/71547824</IRI>
+            <name>Helma Dik</name>
+        </item>
+        <item>
+            <IRI>http://dbpedia.org/resource/Evagrius_Ponticus</IRI>
+            <IRI>tag:evagriusponticus.net,2015:person:evagrius</IRI>
+            <IRI>http://viaf.org/viaf/58103843</IRI>
+            <name xml:lang="lat">Evagrius Ponticus</name>
+            <name xml:lang="eng">Evagrius of Pontus</name>
+        </item>
+        <item>
+            <IRI>urn:uuid:df3d4e89-bee7-4bf9-b13e-48408fc6e238</IRI>
+            <name>compilers of the Apophthegmata</name>
+        </item>
+        <item>
+            <IRI>urn:uuid:378c1eac-93d7-4bdf-9208-75d5ffcdd5a6</IRI>
+            <name>compilers of the Disciples</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:person:loukios</IRI>
+            <name>Loukios</name>
+            <name xml:lang="lat">Lucius</name>
+        </item>
+        <item>
+            <IRI>http://dbpedia.org/resource/Nilus_of_Sinai</IRI>
+            <name>Nilus of Ancyra</name>
+            <name>Nilus of Sinai</name>
+        </item>
+    </body>
+</TAN-voc>

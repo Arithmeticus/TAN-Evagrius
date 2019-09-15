@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-key.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-key.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-voc.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TAN-voc xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:evagrius-works" TAN-version="2020">
     <head>
         <name>Works by Evagrius</name>
         <license which="by_4.0" licensor="kalvesmaki"/>
+        <vocabulary>
+            <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-agents</IRI>
+            <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+            <location href="evagrius-agents-TAN-voc.xml" accessed-when="2019-08-12"/>
+        </vocabulary>
         <vocabulary-key>
+            <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
             <algorithm xml:id="xslt2">
                 <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
                 <name>Converter from TAN 2018 to TAN 2020</name>
                 <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-28T03:25:57.642-04:00"/>
             </algorithm>
-            <person xml:id="kalvesmaki">
-                <IRI>http://viaf.org/viaf/299582703</IRI>
-                <IRI>tag:kalvesmaki.com,2014:self</IRI>
-                <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
-                <name>Joel Kalvesmaki</name>
-            </person>
-            <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
-                <location href="../../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl" accessed-when="2019-05-28"/></algorithm>
+            <algorithm xml:id="xslt1">
+                <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
+                <name>Stylesheet to populate a TAN-A-div file from collections.</name>
+                <desc>Stylesheet at:
+                    ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
+                <location href="../../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl" accessed-when="2019-05-28"/>
+            </algorithm>
         </vocabulary-key>
         
         <file-resp who="kalvesmaki"/>
@@ -30,977 +35,1160 @@
         <change who="xslt2" when="2019-05-28T03:25:57.642-04:00">Converted from 2018 to 2020 schemas.</change>
         <change who="kalvesmaki" when="2019-07-27">Added 2nd ancient Latin version; began to write
             descriptions of the ancient translations.</change>
+        <change when="2019-09-01" who="kalvesmaki">Included CPG numbers as a name.</change>
         <to-do>
             <comment when="2018-05-03" who="kalvesmaki">File is still in progress.</comment>
         </to-do>
     </head>
     <body affects-element="work">
-        <group affects-element="work">
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:nocpg01</IRI>
-                <name>Loukios</name>
-                <name xml:lang="eng">Letter of Loukios</name>
-                <desc>Included in this corpus because of its importance for contextualizing the
-                    Antirrhetikos, and because it has no CPG number.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:nocpg01:version:ara</IRI>
-                <name>Arabic translation of Loukios</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:nocpg02</IRI>
-                <name xml:lang="eng">14 Chapters</name>
-                <desc>Fourteen chapters.</desc>
-                <desc>Part of the pseudo-supplement to the Kephalaia Gnostika (BL Add. 14578, fols.
-                    148v-149; Frankenberg ed. 460-68 [nos. 44-57]; also in Armenian). See also
-                    Skemmata (CPG 2433).</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:nocpg02:version:syr</IRI>
-                <name>Syriac translation of 14 Chapters</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:nocpg02:version:hye</IRI>
-                <name>Armenian translation of 14 Chapters</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:nocpg03</IRI>
-                <name>Def.</name>
-                <name xml:lang="eng">Definitions</name>
-                <desc>Twelve brief chapters culled from Doctrina Patrum §34. See Casiday, Evagrius
-                    Ponticus 183–84</desc>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:nocpg04</IRI>
-                <name>Exc</name>
-                <name xml:lang="eng">Excerpts</name>
-                <desc>Paris BN 2748, ff. 153–83v, published by Muyldermans. Of the 69 chapters, 53
-                    are drawn from other chapters in the corpus. See Casiday, Evagrius Ponticus
-                    172–73</desc>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:nocpg05</IRI>
-                <name>Sch. Ac.</name>
-                <name xml:lang="eng">Scholia on Acts</name>
-                <name xml:lang="lat">Scholia in Acta apostolorum</name>
-                <desc>Fragment preserved on Acts 10:11-12; edited in Cramer’s Catenæ græcorum patrum
-                    in novum testamentum, 3:177</desc>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2430</IRI>
-                <name>Prak.</name>
-                <name>Praktikos</name>
-                <name xml:lang="grc">Λόγος πράκτικος</name>
-                <name xml:lang="lat">Practicus et epistula ad Anatolium</name>
-                <desc>First of a trilogy (along with Gnostikos and the Kephalaia gnostika, below)
-                    considered fundamental to Evagrius's thought. This treatise contains 100
-                    chapters discussing the preliminary disciplines of the ascetic life, especially
-                    the passions.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2430:version:lat-vetus</IRI>
-                <name>Early Latin translation of Praktikos</name>
-                <desc>Translation of the Praktikos into Latin, attested by Gennadius of Marseilles (late 5th c.; Vir. inlust. 11), no longer extant.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2430:version:lat</IRI>
-                <name>Latin translation of Praktikos</name>
-                <desc>Gennadius of Marseilles (late 5th c.; Vir. inlust. 11) says that an earlier
-                    translation "had suffered in transmission" (per tempus confusum) so he undertook
-                    a fresh translation. No part of his oor his predecessor's translation survives.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2430:version:syr-S1</IRI>
-                <name>Praktikos S1</name>
-                <name>Syriac S1 translation of Praktikos</name>
-                <desc>This translation was made sometime before the early 5th century. It lacked the
-                    prefator letter to Anatolios, and was combined with the Gnostikos (version S1,
-                    whose chapters are numbered sequentially). The translation is charaterized at
-                    times by a literate precision, at other times by studied alteration. This
-                    translator might be the same as the translator of version S1 of the Kephalaia
-                    Gnostika (CPG 2432).</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2430:version:syr-S2</IRI>
-                <name>Praktikos S2</name>
-                <name>Syriac S2 translation of Praktikos</name>
-                <desc>Someone intent on making the text accessible to a broad audience translated
-                    version S2 of the Praktikos. The translation tends to be loose, in service to
-                    clearer Syriac syntax and semantics, and employs euphemisms or glosses for the
-                    sake of comprehension. There is no evidence that he used any other translation.
-                    This version differs remarkably from S1 in that it retains the prefatory letter
-                    to Anatolios.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2430:version:syr-S3</IRI>
-                <name>Praktikos S3</name>
-                <name>Syriac S3 translation of Praktikos</name>
-                <desc>Someone of unknown background, created Syriac version S3, apparently working
-                    from both S1 and S2 as well as the Greek text.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2430:version:hye</IRI>
-                <name>Armenian translation of Praktikos</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2430:version:gez</IRI>
-                <name>Ethiopic translation of Praktikos</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2430:version:kat</IRI>
-                <name>Georgian translation of Praktikos</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2430:version:ara</IRI>
-                <name>Arabic translation of Praktikos</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2431</IRI>
-                <name>Gn.</name>
-                <name xml:lang="grc">Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
-                <name>Gnostikos</name>
-                <name xml:lang="lat">Gnosticus</name>
-                <desc>Second part of the trilogy (see Praktikos), comprising 50 chapters. In this
-                    treatise gnostika, mental or spiritual formation, is discussed.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2431:version:lat</IRI>
-                <name>Latin translation of Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2431:version:syr</IRI>
-                <name>Syriac translation of Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2431:version:hye</IRI>
-                <name>Armenian translation of Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2432</IRI>
-                <name>KG</name>
-                <name xml:lang="grc">Ἑξακόσια προγνωστικὰ προβλήματα</name>
-                <name xml:lang="eng">Kephalaia gnostika</name>
-                <name xml:lang="lat">Capita gnostica</name>
-                <desc>Third part of the trilogy (see Praktikos), comprising 540 chapters (90
-                    chapters in six "centuries") discussing the highest levels of contemplation.
-                    This text is frequently considered to be behind the condemnations of Origen in
-                    553.</desc>
-                <desc>Because of how little survives in Greek, the Syriac translations are key,
-                    especially the so-called unexpurgated version (frequently called S2). It is
-                    unclear whether the sole Arabic MS (Coptic Patriarchate MS Theol. 152, fol.
-                    147r–177v) is taken from the Greek or Syriac and if the latter, which
-                    version.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2432:version:syr</IRI>
-                <name>Syriac translation of KG</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2432:version:hye</IRI>
-                <name>Armenian translation of KG</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2432:version:ara</IRI>
-                <name>Arabic translation of KG</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2433</IRI>
-                <name xml:lang="eng">Skemmata</name>
-                <name xml:lang="eng">Reflections</name>
-                <name xml:lang="grc">Σκέμματα</name>
-                <name xml:lang="lat">Capita cognoscitiua</name>
-                <desc>Sixty-five sentences culled by textual scholars in three sections: 39 taken
-                    from the Gnostic Chapters, 23 from On Thoughts, and 3 unparalleled (and so
-                    termed a supplement). The Greek, Armenian, and Syriac versions of this text
-                    differ in sequence, number, and selection. This text, according to Mar Babai
-                    (569-628), who wrote an extensive commentary on the Kephalaia gnostica, was a
-                    supplement to the 540 chapters of the 600 promised in the Kephalaia gnostica
-                    (Mar Babai's version of Reflections contained only 60 chapters). Gennadius's
-                    reference to 'sententiae obscurae' may attest to an early Latin translation of
-                    this text. See also 14 Chapters (nocpg02).</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2433:version:syr</IRI>
-                <name>Syriac translation of Skemmata</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2433:version:hye</IRI>
-                <name>Armenian translation of Skemmata</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2434</IRI>
-                <name>Antirrh.</name>
-                <name xml:lang="grc">Ἀντιῤῥητικός</name>
-                <name>Antirrhetikos</name>
-                <name xml:lang="lat">Antirrheticus</name>
-                <desc>Lists of Scriptures that are effective in combatting the eight passions. The
-                    text is organized according to the eight passions with scriptures listed
-                    according to their biblical order.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2434:version:lat</IRI>
-                <name>Latin translation of Antirrh.</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2434:version:syr</IRI>
-                <name>Syriac translation of Antirrh.</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2434:version:hye</IRI>
-                <name>Armenian translation of Antirrh.</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2434:version:kat</IRI>
-                <name>Georgian translation of Antirrh.</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2434:version:sog</IRI>
-                <name>Sogdian translation of Antirrh.</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2435</IRI>
-                <name>Monks</name>
-                <name xml:lang="lat">Ad monachos</name>
-                <name xml:lang="grc">Πρὸς τοὺς ἐν κοινοβίοις ἢ συνοδίαις μοναχούς</name>
-                <name xml:lang="eng">Chapters to Monks</name>
-                <name xml:lang="lat">Sententiae ad monachos</name>
-                <desc>A set of 137 chapters on the monastic life, written in distychs, in imitation
-                    of the Proverbs, directed probably to a monastic community in Jerusalem
-                    associated with Melania and Rufinus. Evagrius discusses matters foundational to
-                    the coenobitic monastic life, so the material resembles, in some ways, a
-                    rule.</desc>
-                <desc>Often associated with CPG 2436 under the designation 'The Mirrors.'</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2435:version:lat</IRI>
-                <name>Latin translation of Monks</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2435:version:syr</IRI>
-                <name>Syriac translation of Monks</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2435:version:hye</IRI>
-                <name>Armenian translation of Monks</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2435:version:cop</IRI>
-                <name>Coptic translation of Monks</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2435:version:gez</IRI>
-                <name>Ethiopic translation of Monks</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2435:version:kat</IRI>
-                <name>Georgian translation of Monks</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2436</IRI>
-                <name>Ad virg.</name>
-                <name>Virgin</name>
-                <name xml:lang="grc">Παραίνεσις πρὸς παρθένον</name>
-                <name xml:lang="eng">Chapters to a Virgin</name>
-                <name xml:lang="lat">Sententiae ad Virginem</name>
-                <desc>56 sentences of spiritual instruction addressed to a virgin (unnamed, but
-                    probably an associate of Melania and Rufinus), written in distychs, in imitation
-                    of the Proverbs. Evagrius discusses matters foundational to the coenobitic
-                    monastic life for women, so the material resembles, in some ways, a rule.</desc>
-                <desc>Often associated with CPG 2435 under the designation 'The Mirrors.'</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2436:version:lat</IRI>
-                <name>Latin translation of Ad virg.</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2436:version:syr</IRI>
-                <name>Syriac translation of Ad virg.</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2436:version:hye</IRI>
-                <name>Armenian translation of Ad virg.</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2437</IRI>
-                <name>Ep.</name>
-                <name>Letters</name>
-                <name xml:lang="lat">Epistulae</name>
-                <name xml:lang="eng">62 Letters</name>
-                <name xml:lang="lat">Epistula lxii</name>
-                <desc>A collection of 62 letters (see also CPG 2438, 2439; cover letters to other
-                    treatises, e.g., CPG 2430, 2434) of various lengths, all providing spiritual
-                    counsel to various figures such as Rufinus, St. Melania the Elder, St. Gregory
-                    Nazianzus, Bp. John of Jerusalem.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2437:version:syr</IRI>
-                <name>Syriac translation of Ep.</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2437:version:hye</IRI>
-                <name>Armenian translation of Ep.</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2438</IRI>
-                <name xml:lang="lat">Ad Mel.</name>
-                <name xml:lang="eng">Letter to Melania</name>
-                <name xml:lang="lat">Epistula ad Melaniam</name>
-                <desc>Evagrius's last (?) and longest extant letter. It deals extensively with
-                    Christology and the ministry of letter writing, as well as the apokatastasis
-                    (the restoration of all things at the end of time). Although one Syriac MS
-                    describes the recipient as Melania the Elder (attested in Jerome's 'ad eam'?),
-                    this is generally regarded as incorrect. See the arguments of Bunge (in his
-                    German translation), who considers Rufinus to be more likely.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2438:version:syr</IRI>
-                <name>Syriac translation of Ad Mel.</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2439</IRI>
-                <name xml:lang="lat">Ep. fid.</name>
-                <name xml:lang="lat">Epistula fidei</name>
-                <name xml:lang="eng">Dogmatic Letter</name>
-                <name>Letter on Faith</name>
-                <name xml:lang="lat">Sermo sive dogmatica epistula de sanctissima trinitate</name>
-                <desc>Evagrius's earliest datable letter, dealing with Trinitarian doctrine and his
-                    flight from Pontus, among other things. It was written around 380, and reflects
-                    Evagrius's tutelage with Gregory of Nazianzus during the latter's stormy tenure
-                    in Constantinople.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2439:version:syr</IRI>
-                <name>Syriac translation of Ep. fid.</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2440</IRI>
-                <name xml:lang="eng">Protrepticus</name>
-                <name>Admonitions</name>
-                <name xml:lang="lat">Protrepticus et paraeneticus</name>
-                <desc>Twin treatises on prayer and other monastic disciplines.</desc>
-                <desc>Some MSS include a 3rd treatise, unedited, incipit Memento semper promissionum
-                    tuarum. See CPG, s.v.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2440:version:syr</IRI>
-                <name>Syriac translation of Protrepticus</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2441</IRI>
-                <name>Hypotyposis</name>
-                <name xml:lang="grc">Ὑπωτύπωσις ἢ Τῶν κατὰ μοναχῶν πραγμάτων τὰ αἰτία, καὶ ἡ καθ᾿
-                    ἡσυχίαν τούτων παράθεσις</name>
-                <name xml:lang="eng">Hypotyposis or Principles of the Monastic Life</name>
-                <name>Foundations</name>
-                <name xml:lang="lat">Rerum monachalium rationes</name>
-                <desc>Treatise in eleven sections describing the basic disciplines for living the
-                    monastic life. At the forefront is a concern to cultivate hesychia—stillness or
-                    tranquility—and to advance the fight against evil powers. Advice centers on
-                    diet, dress, work, companionship, dwelling, visitation habits, wealth,
-                    possessions, commerce, fasting, vigils, and prayer. Evagrius enjoins the
-                    constant contemplation of death, of Hades and its torments, of the day of
-                    judgment, of the punishments in store for the wicked, and of rewards for the
-                    righteous, all as a weapon against harmful thoughts.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2441:version:syr</IRI>
-                <name>Syriac translation of Hypotyposis</name>
-                <name>Syriac translation of Foundations</name>
-                <name>Syriac translation of Ὑπωτύπωσις ἢ Τῶν κατὰ μοναχῶν πραγμάτων τὰ αἰτία, καὶ ἡ
-                    καθ᾿ ἡσυχίαν τούτων παράθεσις</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2442</IRI>
-                <name>33 Chapters</name>
-                <name xml:lang="grc">Κεφάλαια λγʹ κατ᾿ ἀκολουθίαν</name>
-                <name xml:lang="eng">Thirty-Three Chapters</name>
-                <name>Chapters 33</name>
-                <name xml:lang="lat">Capitula xxxiii (definitiones passionum animae
-                    rationalis)</name>
-                <desc>Collection of 33 chapters relating physical and spiritual ailments to each
-                    other. The last 17 appear to be drawn from a commentary on Proverbs he wrote
-                    (see CPG 2456).</desc>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2443</IRI>
-                <name>Sent. alph. I</name>
-                <name xml:lang="grc">Κεφάλαια ἢ παραίνεσις</name>
-                <name xml:lang="eng">Paraeneticus</name>
-                <name>Maxims 1</name>
-                <name xml:lang="lat">Capita paraenetica</name>
-                <desc>Three works, CPG 2443 through 2445, are very similar, comprising 24, 24, and
-                    26 proverbs, respectively. These brief texts resemble other ancient Christian
-                    collections of proverbs, many of which originate with non-Christian authors, but
-                    adapted to a Christian context.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2443:version:syr</IRI>
-                <name>Syriac translation of Sent. alph. I</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2443:version:hye</IRI>
-                <name>Armenian translation of Sent. alph. I</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2444</IRI>
-                <name>Sent. alph. II</name>
-                <name xml:lang="grc">Γνῶμαι κατ᾿ ἀλφάβητον</name>
-                <name xml:lang="eng">Spiritual Chapters Alphabetized</name>
-                <name>Maxims 2</name>
-                <name xml:lang="lat">Spiritales sententiae per alphabeticum dispositae</name>
-                <desc>See CPG 2443.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2444:version:syr</IRI>
-                <name>Syriac translation of Sent. alph. II</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2445</IRI>
-                <name xml:lang="eng">Assorted Chapters</name>
-                <name>Maxims 3</name>
-                <name xml:lang="lat">Aliae sententiae</name>
-                <desc>See CPG 2443.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2445:version:syr</IRI>
-                <name>Syriac translation of Assorted Chapters</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2446</IRI>
-                <name xml:lang="eng">Six Chapters</name>
-                <name xml:lang="lat">Sententiae sex</name>
-                <desc>Only the first sentence has been edited.</desc>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2447</IRI>
-                <name>Eul.</name>
-                <name xml:lang="lat">Ad Eul.</name>
-                <name xml:lang="grc">Λόγος πρὸς Εὐλόγιον μοναχόν</name>
-                <name xml:lang="eng">Treatise to the Monk Eulogius or To Eulogius on the Confession
-                    of Thoughts and Counsel in Their Regard</name>
-                <name>Eulogios</name>
-                <name xml:lang="lat">Tractatus ad Eulogium</name>
-                <desc>Lengthy treatise (thirty-two sections by Sinkewicz's new numbering)
-                    introducing the ascetic life. The wide array of topics concern primarily
-                    praktika, but gnostika is certainly not neglected. Subjects include voluntary
-                    exile, virtue, humility, battle with the thoughts (not enumerated here),
-                    cultivation of godly thoughts, work, poverty, spiritual direction, gossip,
-                    jealousy, demons, prayer, and communal life. The preface indicates that this
-                    treatise was also a letter sent to a monk Eulogios, the recipient of CPG
-                    2448.</desc>
-                <desc>The Greek text has been greatly enhanced by Sinkewicz's edition, which
-                    publishes for the first time the longer rescension of Lavra Γ ʹ 93.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2447:version:syr</IRI>
-                <name>Syriac translation of Eul.</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2447:version:hye</IRI>
-                <name>Armenian translation of Eul.</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2447:version:gez</IRI>
-                <name>Ethiopic translation of Eul.</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2447:version:kat</IRI>
-                <name>Georgian translation of Eul.</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2447:version:ara</IRI>
-                <name>Arabic translation of Eul.</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2448</IRI>
-                <name>Vices</name>
-                <name xml:lang="grc">Περὶ τὰς ἀντιζήλους τῶν ἀρετῶν κακίας</name>
-                <name xml:lang="eng">On the Vices Opposed to the Virtues</name>
-                <name xml:lang="lat">De vitiis quae opposita sunt virtutibus</name>
-                <desc>Address to the monk Eulogios (the recipient of CPG 2447). This brief treatise
-                    concisely describes the evil thoughts and the virtues opposed to them. Each of
-                    nine chapters epitomizes the characteristics of a vice, then that of its
-                    antithetical virtue. The sequence is: (1) gluttony versus abstinence, (2)
-                    fornication versus chastity, (3) avarice versus freedom from possessions, (4)
-                    sadness versus joy, (5) anger versus patience, (6) acedia versus perseverance,
-                    (7) vainglory versus freedom from vainglory, (8) jealousy vesus freedom from
-                    jealousy, (9) pride versus humility. This departs from the traditional eight
-                    vices, because Evagrius inserts jealousy (recurs in CPG 2447).</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2448:version:syr</IRI>
-                <name>Syriac translation of Vices</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2448:version:hye</IRI>
-                <name>Armenian translation of Vices</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2448:version:kat</IRI>
-                <name>Georgian translation of Vices</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2449</IRI>
-                <name xml:lang="eng">On Masters and Disciples</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2449:version:lat</IRI>
-                <name>Latin translation of On Masters and Disciples</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2449:version:syr</IRI>
-                <name>Syriac translation of On Masters and Disciples</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2449:version:hye</IRI>
-                <name>Armenian translation of On Masters and Disciples</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2449:version:ara</IRI>
-                <name>Arabic translation of On Masters and Disciples</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2450</IRI>
-                <name>Thoughts</name>
-                <name xml:lang="grc">Περὶ διαφορῶν πονηρῶν λογισμῶν</name>
-                <name xml:lang="eng">On the [Evil] Thoughts</name>
-                <name xml:lang="lat">De malignis cogitationibus</name>
-                <desc>Relatively lengthy treatise of 43 sections. Evagrius analyzes closely the
-                    tactics of demons and the counterattacks available to the ascetic. He explains
-                    relationships between the various evil thoughts, and provides a glimpse into the
-                    epistemic, anthropological, and cosmological notions that undergird his advice
-                    on spiritual warfare.</desc>
-                <desc>Only the first half (about twenty-three chapters) are reproduced in the
-                    Philokalia published by Nikodomeos the Hagiorite; they roughly correspond to the
-                    Guillaumont edition.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2450:version:syr</IRI>
-                <name>Syriac translation of Thoughts</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2451</IRI>
-                <name xml:lang="grc">Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
-                <name xml:lang="eng">The Eight Spirits of Wickedness</name>
-                <name>Eight Thoughts</name>
-                <name xml:lang="lat">De octo spiritibus malitiae</name>
-                <desc>A brief but rich treatise of eight chapters, one for each evil thought (in
-                    this order): gluttony, fornication, avarice, anger, sadness, acedia, vainglory,
-                    pride. Each chapter contains mostly brief aphorisms, frequently set in pairs,
-                    occasionally punctuated by longer discursive paragraphs. Evagrius's advice, on
-                    how to combat the evil thoughts, is filled with metaphorical imagery, intended,
-                    as so many of his works, to be read slowly and contemplated.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2451:version:lat</IRI>
-                <name>Latin translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2451:version:syr</IRI>
-                <name>Syriac translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2451:version:hye</IRI>
-                <name>Armenian translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2451:version:ara</IRI>
-                <name>Arabic translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2451:version:cop</IRI>
-                <name>Coptic translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2451:version:gez</IRI>
-                <name>Ethiopic translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2451:version:kat</IRI>
-                <name>Georgian translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2451:version:rus</IRI>
-                <name>Old Russian translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2452</IRI>
-                <name xml:lang="eng">On Prayer</name>
-                <name xml:lang="grc">Περὶ προσευχῆς ἢ Λόγος εἰς ρνγʹ κεφαλαῖα διειλημμένος</name>
-                <name>Prayer</name>
-                <name xml:lang="lat">De oratione</name>
-                <desc>One of Evagrius's most widely read treatises, consisting of a prologue and 153
-                    chapters on prayer.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2452:version:syr</IRI>
-                <name>Syriac translation of On Prayer</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2452:version:hye</IRI>
-                <name>Armenian translation of On Prayer</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2452:version:gez</IRI>
-                <name>Ethiopic translation of On Prayer</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2452:version:kat</IRI>
-                <name>Georgian translation of On Prayer</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2452:version:ara</IRI>
-                <name>Arabic translation of On Prayer</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2453</IRI>
-                <name xml:lang="eng">Three Chapters on Prayer</name>
-                <name xml:lang="lat">Capita tria de oratione</name>
-                <desc>First chapter is taken from the Hypotyposis (CPG 2441).</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2453:version:syr</IRI>
-                <name>Syriac translation of Three Chapters on Prayer</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2454</IRI>
-                <name>Exhortations to Monks</name>
-                <name xml:lang="grc">Παραίνεσις πρὸς μοναχούς</name>
-                <name xml:lang="eng">Counsel to Monks</name>
-                <name xml:lang="lat">Institutio or Paraenesis ad monachos</name>
-                <desc>A text of 58 chapters in two sections (of 16 and 42 chapters, after longer and
-                    shorter recensions are collated). The chapters are generally proverbial
-                    admonitions to monks regarding the life of virtue and combat with the evil
-                    thoughts.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2454:version:syr</IRI>
-                <name>Syriac translation of Exhortations to Monks</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2455</IRI>
-                <name>Sch. Ps.</name>
-                <name xml:lang="grc">Σχόλια εἰς τοὺς Ψάλμους</name>
-                <name xml:lang="eng">Scholia on the Psalms</name>
-                <name xml:lang="lat">Scholia in Psalmos</name>
-                <desc>Evagrius's comments on the Psalms. These scholia originate apparently from an
-                    extensive, now lost, commentary on the Psalms.</desc>
-                <desc>Rondeau is preparing an edition.</desc>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2456</IRI>
-                <name>Comm. Prov.</name>
-                <name xml:lang="eng">Commentary on the Proverbs</name>
-                <name xml:lang="lat">Expositio in Proverbia Salomonis</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2457</IRI>
-                <name>Comm. par. et Prov.</name>
-                <name xml:lang="eng">Commentary on the Parables and the Proverbs</name>
-                <name xml:lang="lat">Expositio in Parabolas et in Proverbia Salomonis</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2457:version:syr</IRI>
-                <name>Syriac translation of Comm. par. et Prov.</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2458.1</IRI>
-                <name>Sch. Oct.</name>
-                <name xml:lang="grc">Σχόλια εἰς τὸν Γένεσιν, Ἀρίθμους, καὶ Βασιλείους</name>
-                <name xml:lang="eng">Scholia on Genesis, Numbers, and Kings</name>
-                <name xml:lang="lat">Scholia in Genesim, Numeros et Reges</name>
-                <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
-                    patristic biblical exegesis. Remains to be edited.</desc>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2458.2</IRI>
-                <name>Sch. Iob</name>
-                <name xml:lang="grc">Σχόλια εἰς τὸν Ἰώβ</name>
-                <name xml:lang="eng">Scholia on Job</name>
-                <name xml:lang="lat">Scholia in Iob</name>
-                <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
-                    patristic biblical exegesis. Remains to be edited.</desc>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2458.3</IRI>
-                <name>Sch. Cant.</name>
-                <name xml:lang="grc">Σχόλια εἰς τὸν ᾎσμα τῶν ἀσμάτων</name>
-                <name xml:lang="eng">Scholia on the Song of Songs</name>
-                <name xml:lang="lat">Scholia in Canticum canticorum</name>
-                <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
-                    patristic biblical exegesis. Remains to be edited.</desc>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2458.4</IRI>
-                <name>Sch. Prov.</name>
-                <name xml:lang="grc">Σχόλια εἰς τὰς Παροιμίας</name>
-                <name xml:lang="eng">Scholia on Proverbs</name>
-                <name xml:lang="lat">Scholia in Proverbia</name>
-                <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
-                    patristic biblical exegesis.</desc>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2458.5</IRI>
-                <name>Sch. Eccl.</name>
-                <name xml:lang="grc">Σχόλια εἰς τὴν Ἐκκλησιαστὴν</name>
-                <name xml:lang="eng">Scholia on Ecclesiastes</name>
-                <name>S-Eccles.</name>
-                <name xml:lang="lat">Scholia in Ecclesiasten</name>
-                <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
-                    patristic biblical exegesis.</desc>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2458.6</IRI>
-                <name>Sch. Lu.</name>
-                <name xml:lang="eng">Scholia on Luke</name>
-                <name xml:lang="lat">Scholia in Lucam</name>
-                <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
-                    patristic biblical exegesis. Remains to be edited.</desc>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2459</IRI>
-                <name xml:lang="lat">De cherubim</name>
-                <name xml:lang="eng">Commentary on the Cherubim</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2459:version:syr</IRI>
-                <name>Syriac translation of De cherubim</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2459:version:hye</IRI>
-                <name>Armenian translation of De cherubim</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2460</IRI>
-                <name xml:lang="lat">De seraphim</name>
-                <name xml:lang="eng">Commentary on the Seraphim</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2460:version:syr</IRI>
-                <name>Syriac translation of De seraphim</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2461</IRI>
-                <name xml:lang="eng">Commentary on the Lord's Prayer</name>
-                <name>Lord's Prayer</name>
-                <name xml:lang="lat">Expositio in orationem dominicam</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2461:version:cop</IRI>
-                <name>Coptic translation of Commentary on the Lord's Prayer</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2461:version:ara</IRI>
-                <name>Arabic translation of Commentary on the Lord's Prayer</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2462</IRI>
-                <name>Apophthegmata</name>
-                <name xml:lang="grc">Ἀποφθέγματα</name>
-                <desc>7 stories and sayings attributed to Evagrius from the alphabetical
-                    collection.</desc>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2463</IRI>
-                <name xml:lang="eng">On the Imitation of the Song of Songs</name>
-                <name>Imitation Cant.</name>
-                <name xml:lang="lat">Ad imitationem Cantici canticorum</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2463:version:ara</IRI>
-                <name>Arabic translation of On the Imitation of the Song of Songs</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2464a</IRI>
-                <name xml:lang="eng">On the Imitation of Proverbs</name>
-                <name xml:lang="lat">Ad imitationem Proverbiorum</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2464a:version:ara</IRI>
-                <name>Arabic translation of On the Imitation of Proverbs</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2464</IRI>
-                <name xml:lang="eng">On the Imitation of Ecclesiastes</name>
-                <name>Imitation Eccles.</name>
-                <name xml:lang="lat">Ad imitationem Ecclesiastae</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2464:version:ara</IRI>
-                <name>Arabic translation of On the Imitation of Ecclesiastes</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2465</IRI>
-                <name xml:lang="eng">The Just and the Perfect</name>
-                <name xml:lang="lat">De iustis et perfectis</name>
-                <desc>Identical to one of the thirty memre of the Syriac Book of Steps (Liber
-                    graduum; memre 14 in Patrologia Syriaca edition).</desc>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2466</IRI>
-                <name xml:lang="eng">Humility</name>
-                <name xml:lang="lat">De humilitate</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2467</IRI>
-                <name xml:lang="eng">Fasting</name>
-                <name xml:lang="lat">De ieiunio</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2468</IRI>
-                <name xml:lang="eng">Silence</name>
-                <name xml:lang="lat">De silentio</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2469</IRI>
-                <name xml:lang="eng">Admonition on the Marks of Serenity</name>
-                <name xml:lang="lat">Admonitio de signis quietis</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2469:version:syr</IRI>
-                <name>Syriac translation of Admonition on the Marks of Serenity</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2470</IRI>
-                <name xml:lang="eng">Dialogue of a Master with his Student</name>
-                <name xml:lang="lat">Colloquium magistri cum discipulo eius</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2470:version:syr</IRI>
-                <name>Syriac translation of Dialogue of a Master with his Student</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2470:version:hye</IRI>
-                <name>Armenian translation of Dialogue of a Master with his Student</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2471</IRI>
-                <name xml:lang="eng">The Defense of One Led by God</name>
-                <name xml:lang="lat">De tutelis eius qui a deo ducitur</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2472</IRI>
-                <name xml:lang="eng">Instructive Admonition</name>
-                <name xml:lang="lat">Admonitio paraenetica</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2473</IRI>
-                <name xml:lang="eng">Counsel of the Mind</name>
-                <name xml:lang="lat">Paraenesis mentis</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2474</IRI>
-                <name xml:lang="eng">Teaching</name>
-                <name xml:lang="lat">Doctrina</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2475</IRI>
-                <name xml:lang="eng">Counsel</name>
-                <name xml:lang="lat">Paraenesis</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2475:version:syr</IRI>
-                <name>Syriac translation of Counsel</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2476</IRI>
-                <name xml:lang="eng">Perfection</name>
-                <name xml:lang="lat">De perfectione</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2477</IRI>
-                <name xml:lang="eng">Proverbs and Their Interpretation</name>
-                <name>Instructions (Prov.)</name>
-                <name xml:lang="lat">De proverbiis et eorundem expositionibus</name>
-                <desc>Gennadius's reference to "sententiae obscurae" may attest to an early Latin
-                    translation of this text.</desc>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2477:version:syr</IRI>
-                <name>Syriac translation of Proverbs and Their Interpretation</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2477:version:hye</IRI>
-                <name>Armenian translation of Proverbs and Their Interpretation</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2478</IRI>
-                <name xml:lang="eng">Profession of Faith</name>
-                <name xml:lang="lat">Professio fidei</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2479</IRI>
-                <name xml:lang="eng">Excerpt</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2480</IRI>
-                <name xml:lang="eng">Chapters of Counsel and Instructive Sermon</name>
-                <name xml:lang="lat">Capitula paraenetica et Sermo paraeneticus</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2481.1</IRI>
-                <name>frag. syr.</name>
-                <name xml:lang="eng">Syriac Fragments</name>
-                <name xml:lang="lat">Fragmenta syriaca</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2481.2</IRI>
-                <name>frag. arm.</name>
-                <name xml:lang="eng">Armenian Fragments</name>
-                <name xml:lang="lat">Fragmenta armeniaca</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2481.3</IRI>
-                <name>frag. cop.</name>
-                <name xml:lang="eng">Coptic Fragments</name>
-                <name xml:lang="lat">Fragmenta coptica</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2481.4</IRI>
-                <name>frag. aeth.</name>
-                <name xml:lang="eng">Ethiopic Fragments</name>
-                <name xml:lang="lat">Fragmenta aethiopica</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2481.5</IRI>
-                <name>frag. georg.</name>
-                <name xml:lang="eng">Georgian Fragments</name>
-                <name xml:lang="lat">Fragmenta georgica</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2481.6</IRI>
-                <name xml:lang="eng">Doubtful Arabic Fragments</name>
-                <name xml:lang="lat">Dubia arabica</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2482</IRI>
-                <name xml:lang="grc">Εἰς τὸ ΠΙΠΙ</name>
-                <name xml:lang="eng">On the Tetragrammaton</name>
-                <desc>This brief discussion of the Tetragrammaton and the names of God is identical
-                    to Sch. Iob 1.5. The CPG rejects the fragment as spurious, but Casiday (2005)
-                    defends its Evagrian authorship.</desc>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2482a</IRI>
-                <name xml:lang="eng">Letter to a Bishop of Antioch Concerning Patience</name>
-                <name xml:lang="lat">Epistula ad episcopum Antiochenum de patientia</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2482a:version:ara</IRI>
-                <name>Arabic translation of Letter to a Bishop of Antioch Concerning Patience</name>
-            </item>
-            <item>
-                <IRI>tag:evagriusponticus.net,2015:cpg2483</IRI>
-                <name>Disc.</name>
-                <name xml:lang="eng">Disciples</name>
-                <name xml:lang="grc">Κεφάλαια τῶν μαθητῶν Εὐαγρίου</name>
-                <name xml:lang="eng">199 Chapters of Evagrius's Disciples</name>
-                <name xml:lang="lat">Capita cic auctoribus discipulis Evagrii</name>
-            </item>
-            <item affects-element="version">
-                <IRI>tag:evagriusponticus.net,2015:cpg2483:version:syr</IRI>
-                <name>Syriac translation of Disc.</name>
-            </item>
-        </group>
+        <!-- PRIMARY WORKS -->
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg01</IRI>
+            <name>Loukios</name>
+            <name xml:lang="eng">Letter of Loukios</name>
+            <name>nocpg01</name>
+            <desc>Included in this corpus because of its importance for contextualizing the
+                Antirrhetikos, and because it has no CPG number.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg01:version:ara</IRI>
+            <name>Arabic translation of Loukios</name>
+            <name>nocpg01-ara</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg02</IRI>
+            <name xml:lang="eng">14 Chapters</name>
+            <name>nocpg02</name>
+            <desc>Fourteen chapters.</desc>
+            <desc>Part of the pseudo-supplement to the Kephalaia Gnostika (BL Add. 14578, fols.
+                148v-149; Frankenberg ed. 460-68 [nos. 44-57]; also in Armenian). See also Skemmata
+                (CPG 2433).</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg02:version:syr</IRI>
+            <name>Syriac translation of 14 Chapters</name>
+            <name>nocpg02-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg02:version:hye</IRI>
+            <name>Armenian translation of 14 Chapters</name>
+            <name>nocpg02-hye</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg03</IRI>
+            <name>Def.</name>
+            <name xml:lang="eng">Definitions</name>
+            <name>nocpg03</name>
+            <desc>Twelve brief chapters culled from Doctrina Patrum §34. See Casiday, Evagrius
+                Ponticus 183–84</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg04</IRI>
+            <name>Exc</name>
+            <name xml:lang="eng">Excerpts</name>
+            <name>nocpg04</name>
+            <desc>Paris BN 2748, ff. 153–83v, published by Muyldermans. Of the 69 chapters, 53 are
+                drawn from other chapters in the corpus. See Casiday, Evagrius Ponticus
+                172–73</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg05</IRI>
+            <name>Sch. Ac.</name>
+            <name xml:lang="eng">Scholia on Acts</name>
+            <name xml:lang="lat">Scholia in Acta apostolorum</name>
+            <name>nocpg05</name>
+            <desc>Fragment preserved on Acts 10:11-12; edited in Cramer’s Catenæ græcorum patrum in
+                novum testamentum, 3:177</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2430</IRI>
+            <name>Prak.</name>
+            <name>Praktikos</name>
+            <name xml:lang="grc">Λόγος πράκτικος</name>
+            <name xml:lang="lat">Practicus et epistula ad Anatolium</name>
+            <name>cpg2430</name>
+            <desc>First of a trilogy (along with Gnostikos and the Kephalaia gnostika, below)
+                considered fundamental to Evagrius's thought. This treatise contains 100 chapters
+                discussing the preliminary disciplines of the ascetic life, especially the
+                passions.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2430:version:lat-vetus</IRI>
+            <name>Early Latin translation of Praktikos</name>
+            <name>cpg2430-lat-vetus</name>
+            <desc>Translation of the Praktikos into Latin, attested by Gennadius of Marseilles (late
+                5th c.; Vir. inlust. 11), no longer extant.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2430:version:lat</IRI>
+            <name>Latin translation of Praktikos</name>
+            <name>cpg2430-lat</name>
+            <desc>Gennadius of Marseilles (late 5th c.; Vir. inlust. 11) says that an earlier
+                translation "had suffered in transmission" (per tempus confusum) so he undertook a
+                fresh translation. No part of his oor his predecessor's translation survives.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2430:version:syr-S1</IRI>
+            <name>Praktikos S1</name>
+            <name>Syriac S1 translation of Praktikos</name>
+            <name>cpg2430-syr-S1</name>
+            <desc>This translation was made sometime before the early 5th century. It lacks the
+                prefatory letter to Anatolios, and was combined with the Gnostikos (version S1, whose
+                chapters are numbered sequentially). The translation is charaterized at times by a
+                literate precision, at other times by studied alteration. This translator might be
+                the same as the translator of version S1 of the Kephalaia Gnostika (CPG
+                2432).</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2430:version:syr-S2</IRI>
+            <name>Praktikos S2</name>
+            <name>Syriac S2 translation of Praktikos</name>
+            <name>cpg2430-syr-S2</name>
+            <desc>Someone intent on making the text accessible to a broad audience translated
+                version S2 of the Praktikos. The translation tends to be loose, in service to
+                clearer Syriac syntax and semantics, and employs euphemisms or glosses for the sake
+                of comprehension. There is no evidence that he used any other translation. This
+                version differs remarkably from S1 in that it retains the prefatory letter to
+                Anatolios.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2430:version:syr-S3</IRI>
+            <name>Praktikos S3</name>
+            <name>Syriac S3 translation of Praktikos</name>
+            <name>cpg2430-syr-S3</name>
+            <desc>Someone of unknown background, created Syriac version S3, apparently working from
+                both S1 and S2 as well as the Greek text.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2430:version:hye</IRI>
+            <name>Armenian translation of Praktikos</name>
+            <name>cpg2430-hye</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2430:version:gez</IRI>
+            <name>Ethiopic translation of Praktikos</name>
+            <name>cpg2430-gez</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2430:version:kat</IRI>
+            <name>Georgian translation of Praktikos</name>
+            <name>cpg2430-kat</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2430:version:ara</IRI>
+            <name>Arabic translation of Praktikos</name>
+            <name>cpg2430-ara</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2431</IRI>
+            <name>Gn.</name>
+            <name xml:lang="grc">Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
+            <name>Gnostikos</name>
+            <name xml:lang="lat">Gnosticus</name>
+            <name>cpg2431</name>
+            <desc>Second part of the trilogy (see Praktikos), comprising 50 chapters. In this
+                treatise gnostika, mental or spiritual formation, is discussed.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2431:version:lat</IRI>
+            <name>Latin translation of Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
+            <name>cpg2431-lat</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2431:version:syr:s1</IRI>
+            <name>Syriac translation S1 of Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
+            <name>cpg2431-syr-S1</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2431:version:syr:s2</IRI>
+            <name>Syriac translation S2 of Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
+            <name>cpg2431-syr-S2</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2431:version:syr:s3</IRI>
+            <name>Syriac translation S3 of Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
+            <name>cpg2431-syr-S3</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2431:version:hye</IRI>
+            <name>Armenian translation of Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
+            <name>cpg2431-hye</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2432</IRI>
+            <name>KG</name>
+            <name xml:lang="grc">Ἑξακόσια προγνωστικὰ προβλήματα</name>
+            <name xml:lang="eng">Kephalaia gnostika</name>
+            <name xml:lang="lat">Capita gnostica</name>
+            <name>cpg2432</name>
+            <desc>Third part of the trilogy (see Praktikos), comprising 540 chapters (90 chapters in
+                six "centuries") discussing the highest levels of contemplation. This text is
+                frequently considered to be behind the condemnations of Origen in 553.</desc>
+            <desc>Because of how little survives in Greek, the Syriac translations are key,
+                especially the so-called unexpurgated version (frequently called S2). It is unclear
+                whether the sole Arabic MS (Coptic Patriarchate MS Theol. 152, fol. 147r–177v) is
+                taken from the Greek or Syriac and if the latter, which version.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2432:version:syr:s1</IRI>
+            <name>Syriac S1 translation of KG</name>
+            <name>cpg2432-syr-S1</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2432:version:syr:s2</IRI>
+            <name>Syriac S2 translation of KG</name>
+            <name>cpg2432-syr-S2</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2432:version:hye</IRI>
+            <name>Armenian translation of KG</name>
+            <name>cpg2432-hye</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2432:version:ara</IRI>
+            <name>Arabic translation of KG</name>
+            <name>cpg2432-ara</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2433</IRI>
+            <name xml:lang="eng">Skemmata</name>
+            <name xml:lang="eng">Reflections</name>
+            <name xml:lang="grc">Σκέμματα</name>
+            <name xml:lang="lat">Capita cognoscitiua</name>
+            <name>cpg2433</name>
+            <desc>Sixty-five sentences culled by textual scholars in three sections: 39 taken from
+                the Gnostic Chapters, 23 from On Thoughts, and 3 unparalleled (and so termed a
+                supplement). The Greek, Armenian, and Syriac versions of this text differ in
+                sequence, number, and selection. This text, according to Mar Babai (569-628), who
+                wrote an extensive commentary on the Kephalaia gnostica, was a supplement to the 540
+                chapters of the 600 promised in the Kephalaia gnostica (Mar Babai's version of
+                Reflections contained only 60 chapters). Gennadius's reference to 'sententiae
+                obscurae' may attest to an early Latin translation of this text. See also 14
+                Chapters (nocpg02).</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2433:version:syr</IRI>
+            <name>Syriac translation of Skemmata</name>
+            <name>cpg2433-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2433:version:hye</IRI>
+            <name>Armenian translation of Skemmata</name>
+            <name>cpg2433-hye</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2434</IRI>
+            <name>Antirrh.</name>
+            <name xml:lang="grc">Ἀντιῤῥητικός</name>
+            <name>Antirrhetikos</name>
+            <name xml:lang="lat">Antirrheticus</name>
+            <name>cpg2434</name>
+            <desc>Lists of Scriptures that are effective in combatting the eight passions. The text
+                is organized according to the eight passions with scriptures listed according to
+                their biblical order.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2434:version:lat</IRI>
+            <name>Latin translation of Antirrh.</name>
+            <name>cpg2434-lat</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2434:version:syr</IRI>
+            <name>Syriac translation of Antirrh.</name>
+            <name>cpg2434-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2434:version:hye</IRI>
+            <name>Armenian translation of Antirrh.</name>
+            <name>cpg2434-hye</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2434:version:kat</IRI>
+            <name>Georgian translation of Antirrh.</name>
+            <name>cpg2434-kat</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2434:version:sog</IRI>
+            <name>Sogdian translation of Antirrh.</name>
+            <name>cpg2434-sog</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2435</IRI>
+            <name>Monks</name>
+            <name xml:lang="lat">Ad monachos</name>
+            <name xml:lang="grc">Πρὸς τοὺς ἐν κοινοβίοις ἢ συνοδίαις μοναχούς</name>
+            <name xml:lang="eng">Chapters to Monks</name>
+            <name xml:lang="lat">Sententiae ad monachos</name>
+            <name>cpg2435</name>
+            <desc>A set of 137 chapters on the monastic life, written in distychs, in imitation of
+                the Proverbs, directed probably to a monastic community in Jerusalem associated with
+                Melania and Rufinus. Evagrius discusses matters foundational to the coenobitic
+                monastic life, so the material resembles, in some ways, a rule.</desc>
+            <desc>Often associated with CPG 2436 under the designation 'The Mirrors.'</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2435:version:lat</IRI>
+            <name>Latin translation of Monks</name>
+            <name>cpg2435-lat</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2435:version:syr</IRI>
+            <name>Syriac translation of Monks</name>
+            <name>cpg2435-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2435:version:hye</IRI>
+            <name>Armenian translation of Monks</name>
+            <name>cpg2435-hye</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2435:version:cop</IRI>
+            <name>Coptic translation of Monks</name>
+            <name>cpg2435-cop</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2435:version:gez</IRI>
+            <name>Ethiopic translation of Monks</name>
+            <name>cpg2435-gez</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2435:version:kat</IRI>
+            <name>Georgian translation of Monks</name>
+            <name>cpg2435-kat</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2436</IRI>
+            <name>Ad virg.</name>
+            <name>Virgin</name>
+            <name xml:lang="grc">Παραίνεσις πρὸς παρθένον</name>
+            <name xml:lang="eng">Chapters to a Virgin</name>
+            <name xml:lang="lat">Sententiae ad Virginem</name>
+            <name>cpg2436</name>
+            <desc>56 sentences of spiritual instruction addressed to a virgin (unnamed, but probably
+                an associate of Melania and Rufinus), written in distychs, in imitation of the
+                Proverbs. Evagrius discusses matters foundational to the coenobitic monastic life
+                for women, so the material resembles, in some ways, a rule.</desc>
+            <desc>Often associated with CPG 2435 under the designation 'The Mirrors.'</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2436:version:lat</IRI>
+            <name>Latin translation of Ad virg.</name>
+            <name>cpg2436-lat</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2436:version:syr</IRI>
+            <name>Syriac translation of Ad virg.</name>
+            <name>cpg2436-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2436:version:hye</IRI>
+            <name>Armenian translation of Ad virg.</name>
+            <name>cpg2436-hye</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2437</IRI>
+            <name>Ep.</name>
+            <name>Letters</name>
+            <name xml:lang="lat">Epistulae</name>
+            <name xml:lang="eng">62 Letters</name>
+            <name xml:lang="lat">Epistula lxii</name>
+            <name>cpg2437</name>
+            <desc>A collection of 62 letters (see also CPG 2438, 2439; cover letters to other
+                treatises, e.g., CPG 2430, 2434) of various lengths, all providing spiritual counsel
+                to various figures such as Rufinus, St. Melania the Elder, St. Gregory Nazianzus,
+                Bp. John of Jerusalem.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2437:version:syr</IRI>
+            <name>Syriac translation of Ep.</name>
+            <name>cpg2437-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2437:version:hye</IRI>
+            <name>Armenian translation of Ep.</name>
+            <name>cpg2437-hye</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2438</IRI>
+            <name xml:lang="lat">Ad Mel.</name>
+            <name xml:lang="eng">Letter to Melania</name>
+            <name xml:lang="lat">Epistula ad Melaniam</name>
+            <name>cpg2438</name>
+            <desc>Evagrius's last (?) and longest extant letter. It deals extensively with
+                Christology and the ministry of letter writing, as well as the apokatastasis (the
+                restoration of all things at the end of time). Although one Syriac MS describes the
+                recipient as Melania the Elder (attested in Jerome's 'ad eam'?), this is generally
+                regarded as incorrect. See the arguments of Bunge (in his German translation), who
+                considers Rufinus to be more likely.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2438:version:syr</IRI>
+            <name>Syriac translation of Ad Mel.</name>
+            <name>cpg2438-syr</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2439</IRI>
+            <name xml:lang="lat">Ep. fid.</name>
+            <name xml:lang="lat">Epistula fidei</name>
+            <name xml:lang="eng">Dogmatic Letter</name>
+            <name>Letter on Faith</name>
+            <name xml:lang="lat">Sermo sive dogmatica epistula de sanctissima trinitate</name>
+            <name>cpg2439</name>
+            <desc>Evagrius's earliest datable letter, dealing with Trinitarian doctrine and his
+                flight from Pontus, among other things. It was written around 380, and reflects
+                Evagrius's tutelage with Gregory of Nazianzus during the latter's stormy tenure in
+                Constantinople.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2439:version:syr</IRI>
+            <name>Syriac translation of Ep. fid.</name>
+            <name>cpg2439-syr</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2440</IRI>
+            <name xml:lang="eng">Protrepticus</name>
+            <name>Admonitions</name>
+            <name xml:lang="lat">Protrepticus et paraeneticus</name>
+            <name>cpg2440</name>
+            <desc>Twin treatises on prayer and other monastic disciplines.</desc>
+            <desc>Some MSS include a 3rd treatise, unedited, incipit Memento semper promissionum
+                tuarum. See CPG, s.v.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2440:version:syr</IRI>
+            <name>Syriac translation of Protrepticus</name>
+            <name>cpg2440-syr</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2441</IRI>
+            <name>Hypotyposis</name>
+            <name xml:lang="grc">Ὑπωτύπωσις ἢ Τῶν κατὰ μοναχῶν πραγμάτων τὰ αἰτία, καὶ ἡ καθ᾿
+                ἡσυχίαν τούτων παράθεσις</name>
+            <name xml:lang="eng">Hypotyposis or Principles of the Monastic Life</name>
+            <name>Foundations</name>
+            <name xml:lang="lat">Rerum monachalium rationes</name>
+            <name>cpg2441</name>
+            <desc>Treatise in eleven sections describing the basic disciplines for living the
+                monastic life. At the forefront is a concern to cultivate hesychia—stillness or
+                tranquility—and to advance the fight against evil powers. Advice centers on diet,
+                dress, work, companionship, dwelling, visitation habits, wealth, possessions,
+                commerce, fasting, vigils, and prayer. Evagrius enjoins the constant contemplation
+                of death, of Hades and its torments, of the day of judgment, of the punishments in
+                store for the wicked, and of rewards for the righteous, all as a weapon against
+                harmful thoughts.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2441:version:syr</IRI>
+            <name>Syriac translation of Hypotyposis</name>
+            <name>Syriac translation of Foundations</name>
+            <name>Syriac translation of Ὑπωτύπωσις ἢ Τῶν κατὰ μοναχῶν πραγμάτων τὰ αἰτία, καὶ ἡ καθ᾿
+                ἡσυχίαν τούτων παράθεσις</name>
+            <name>cpg2441-syr</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2442</IRI>
+            <name>33 Chapters</name>
+            <name xml:lang="grc">Κεφάλαια λγʹ κατ᾿ ἀκολουθίαν</name>
+            <name xml:lang="eng">Thirty-Three Chapters</name>
+            <name>Chapters 33</name>
+            <name xml:lang="lat">Capitula xxxiii (definitiones passionum animae rationalis)</name>
+            <name>cpg2442</name>
+            <desc>Collection of 33 chapters relating physical and spiritual ailments to each other.
+                The last 17 appear to be drawn from a commentary on Proverbs he wrote (see CPG
+                2456).</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2443</IRI>
+            <name>Sent. alph. I</name>
+            <name xml:lang="grc">Κεφάλαια ἢ παραίνεσις</name>
+            <name xml:lang="eng">Paraeneticus</name>
+            <name>Maxims 1</name>
+            <name xml:lang="lat">Capita paraenetica</name>
+            <name>cpg2443</name>
+            <desc>Three works, CPG 2443 through 2445, are very similar, comprising 24, 24, and 26
+                proverbs, respectively. These brief texts resemble other ancient Christian
+                collections of proverbs, many of which originate with non-Christian authors, but
+                adapted to a Christian context.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2443:version:syr</IRI>
+            <name>Syriac translation of Sent. alph. I</name>
+            <name>cpg2443-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2443:version:hye</IRI>
+            <name>Armenian translation of Sent. alph. I</name>
+            <name>cpg2443-hye</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2444</IRI>
+            <name>Sent. alph. II</name>
+            <name xml:lang="grc">Γνῶμαι κατ᾿ ἀλφάβητον</name>
+            <name xml:lang="eng">Spiritual Chapters Alphabetized</name>
+            <name>Maxims 2</name>
+            <name xml:lang="lat">Spiritales sententiae per alphabeticum dispositae</name>
+            <name>cpg2444</name>
+            <desc>See CPG 2443.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2444:version:syr</IRI>
+            <name>Syriac translation of Sent. alph. II</name>
+            <name>cpg2444-syr</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2445</IRI>
+            <name xml:lang="eng">Assorted Chapters</name>
+            <name>Maxims 3</name>
+            <name xml:lang="lat">Aliae sententiae</name>
+            <name>cpg2445</name>
+            <desc>See CPG 2443.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2445:version:syr</IRI>
+            <name>Syriac translation of Assorted Chapters</name>
+            <name>cpg2445-syr</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2446</IRI>
+            <name xml:lang="eng">Six Chapters</name>
+            <name xml:lang="lat">Sententiae sex</name>
+            <name>cpg2446</name>
+            <desc>Only the first sentence has been edited.</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2447</IRI>
+            <name>Eul.</name>
+            <name xml:lang="lat">Ad Eul.</name>
+            <name xml:lang="grc">Λόγος πρὸς Εὐλόγιον μοναχόν</name>
+            <name xml:lang="eng">Treatise to the Monk Eulogius or To Eulogius on the Confession of
+                Thoughts and Counsel in Their Regard</name>
+            <name>Eulogios</name>
+            <name xml:lang="lat">Tractatus ad Eulogium</name>
+            <name>cpg2447</name>
+            <desc>Lengthy treatise (thirty-two sections by Sinkewicz's new numbering) introducing
+                the ascetic life. The wide array of topics concern primarily praktika, but gnostika
+                is certainly not neglected. Subjects include voluntary exile, virtue, humility,
+                battle with the thoughts (not enumerated here), cultivation of godly thoughts, work,
+                poverty, spiritual direction, gossip, jealousy, demons, prayer, and communal life.
+                The preface indicates that this treatise was also a letter sent to a monk Eulogios,
+                the recipient of CPG 2448.</desc>
+            <desc>The Greek text has been greatly enhanced by Sinkewicz's edition, which publishes
+                for the first time the longer rescension of Lavra Γ ʹ 93.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2447:version:syr</IRI>
+            <name>Syriac translation of Eul.</name>
+            <name>cpg2447-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2447:version:hye</IRI>
+            <name>Armenian translation of Eul.</name>
+            <name>cpg2447-hye</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2447:version:gez</IRI>
+            <name>Ethiopic translation of Eul.</name>
+            <name>cpg2447-gez</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2447:version:kat</IRI>
+            <name>Georgian translation of Eul.</name>
+            <name>cpg2447-kat</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2447:version:ara</IRI>
+            <name>Arabic translation of Eul.</name>
+            <name>cpg2447-ara</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2448</IRI>
+            <name>Vices</name>
+            <name xml:lang="grc">Περὶ τὰς ἀντιζήλους τῶν ἀρετῶν κακίας</name>
+            <name xml:lang="eng">On the Vices Opposed to the Virtues</name>
+            <name xml:lang="lat">De vitiis quae opposita sunt virtutibus</name>
+            <name>cpg2448</name>
+            <desc>Address to the monk Eulogios (the recipient of CPG 2447). This brief treatise
+                concisely describes the evil thoughts and the virtues opposed to them. Each of nine
+                chapters epitomizes the characteristics of a vice, then that of its antithetical
+                virtue. The sequence is: (1) gluttony versus abstinence, (2) fornication versus
+                chastity, (3) avarice versus freedom from possessions, (4) sadness versus joy, (5)
+                anger versus patience, (6) acedia versus perseverance, (7) vainglory versus freedom
+                from vainglory, (8) jealousy vesus freedom from jealousy, (9) pride versus humility.
+                This departs from the traditional eight vices, because Evagrius inserts jealousy
+                (recurs in CPG 2447).</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2448:version:syr</IRI>
+            <name>Syriac translation of Vices</name>
+            <name>cpg2448-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2448:version:hye</IRI>
+            <name>Armenian translation of Vices</name>
+            <name>cpg2448-hye</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2448:version:kat</IRI>
+            <name>Georgian translation of Vices</name>
+            <name>cpg2448-kat</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2449</IRI>
+            <name xml:lang="eng">On Masters and Disciples</name>
+            <name>cpg2449</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2449:version:lat</IRI>
+            <name>Latin translation of On Masters and Disciples</name>
+            <name>cpg2449-lat</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2449:version:syr</IRI>
+            <name>Syriac translation of On Masters and Disciples</name>
+            <name>cpg2449-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2449:version:hye</IRI>
+            <name>Armenian translation of On Masters and Disciples</name>
+            <name>cpg2449-hye</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2449:version:ara</IRI>
+            <name>Arabic translation of On Masters and Disciples</name>
+            <name>cpg2449-ara</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2450</IRI>
+            <name>Thoughts</name>
+            <name xml:lang="grc">Περὶ διαφορῶν πονηρῶν λογισμῶν</name>
+            <name xml:lang="eng">On the [Evil] Thoughts</name>
+            <name xml:lang="lat">De malignis cogitationibus</name>
+            <name>cpg2450</name>
+            <desc>Relatively lengthy treatise of 43 sections. Evagrius analyzes closely the tactics
+                of demons and the counterattacks available to the ascetic. He explains relationships
+                between the various evil thoughts, and provides a glimpse into the epistemic,
+                anthropological, and cosmological notions that undergird his advice on spiritual
+                warfare.</desc>
+            <desc>Only the first half (about twenty-three chapters) are reproduced in the Philokalia
+                published by Nikodomeos the Hagiorite; they roughly correspond to the Guillaumont
+                edition.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2450:version:syr</IRI>
+            <name>Syriac translation of Thoughts</name>
+            <name>cpg2450-syr</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2451</IRI>
+            <name xml:lang="grc">Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
+            <name xml:lang="eng">The Eight Spirits of Wickedness</name>
+            <name>Eight Thoughts</name>
+            <name xml:lang="lat">De octo spiritibus malitiae</name>
+            <name>cpg2451</name>
+            <desc>A brief but rich treatise of eight chapters, one for each evil thought (in this
+                order): gluttony, fornication, avarice, anger, sadness, acedia, vainglory, pride.
+                Each chapter contains mostly brief aphorisms, frequently set in pairs, occasionally
+                punctuated by longer discursive paragraphs. Evagrius's advice, on how to combat the
+                evil thoughts, is filled with metaphorical imagery, intended, as so many of his
+                works, to be read slowly and contemplated.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2451:version:lat</IRI>
+            <name>Latin translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
+            <name>cpg2451-lat</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2451:version:syr</IRI>
+            <name>Syriac translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
+            <name>cpg2451-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2451:version:hye</IRI>
+            <name>Armenian translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
+            <name>cpg2451-hye</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2451:version:ara</IRI>
+            <name>Arabic translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
+            <name>cpg2451-ara</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2451:version:cop</IRI>
+            <name>Coptic translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
+            <name>cpg2451-cop</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2451:version:gez</IRI>
+            <name>Ethiopic translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
+            <name>cpg2451-gez</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2451:version:kat</IRI>
+            <name>Georgian translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
+            <name>cpg2451-kat</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2451:version:rus</IRI>
+            <name>Old Russian translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
+            <name>cpg2451-rus</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2452</IRI>
+            <name xml:lang="eng">On Prayer</name>
+            <name xml:lang="grc">Περὶ προσευχῆς ἢ Λόγος εἰς ρνγʹ κεφαλαῖα διειλημμένος</name>
+            <name>Prayer</name>
+            <name xml:lang="lat">De oratione</name>
+            <name>cpg2452</name>
+            <desc>One of Evagrius's most widely read treatises, consisting of a prologue and 153
+                chapters on prayer.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2452:version:syr</IRI>
+            <name>Syriac translation of On Prayer</name>
+            <name>cpg2452-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2452:version:hye</IRI>
+            <name>Armenian translation of On Prayer</name>
+            <name>cpg2452-hye</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2452:version:gez</IRI>
+            <name>Ethiopic translation of On Prayer</name>
+            <name>cpg2452-gez</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2452:version:kat</IRI>
+            <name>Georgian translation of On Prayer</name>
+            <name>cpg2452-kat</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2452:version:ara</IRI>
+            <name>Arabic translation of On Prayer</name>
+            <name>cpg2452-ara</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2453</IRI>
+            <name xml:lang="eng">Three Chapters on Prayer</name>
+            <name xml:lang="lat">Capita tria de oratione</name>
+            <name>cpg2453</name>
+            <desc>First chapter is taken from the Hypotyposis (CPG 2441).</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2453:version:syr</IRI>
+            <name>Syriac translation of Three Chapters on Prayer</name>
+            <name>cpg2453-syr</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2454</IRI>
+            <name>Exhortations to Monks</name>
+            <name xml:lang="grc">Παραίνεσις πρὸς μοναχούς</name>
+            <name xml:lang="eng">Counsel to Monks</name>
+            <name xml:lang="lat">Institutio or Paraenesis ad monachos</name>
+            <name>cpg2454</name>
+            <desc>A text of 58 chapters in two sections (of 16 and 42 chapters, after longer and
+                shorter recensions are collated). The chapters are generally proverbial admonitions
+                to monks regarding the life of virtue and combat with the evil thoughts.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2454:version:syr</IRI>
+            <name>Syriac translation of Exhortations to Monks</name>
+            <name>cpg2454-syr</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2455</IRI>
+            <name>Sch. Ps.</name>
+            <name xml:lang="grc">Σχόλια εἰς τοὺς Ψάλμους</name>
+            <name xml:lang="eng">Scholia on the Psalms</name>
+            <name xml:lang="lat">Scholia in Psalmos</name>
+            <name>cpg2455</name>
+            <desc>Evagrius's comments on the Psalms. These scholia originate apparently from an
+                extensive, now lost, commentary on the Psalms.</desc>
+            <desc>Rondeau is preparing an edition.</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2456</IRI>
+            <name>Comm. Prov.</name>
+            <name xml:lang="eng">Commentary on the Proverbs</name>
+            <name xml:lang="lat">Expositio in Proverbia Salomonis</name>
+            <name>cpg2456</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2457</IRI>
+            <name>Comm. par. et Prov.</name>
+            <name xml:lang="eng">Commentary on the Parables and the Proverbs</name>
+            <name xml:lang="lat">Expositio in Parabolas et in Proverbia Salomonis</name>
+            <name>cpg2457</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2457:version:syr</IRI>
+            <name>Syriac translation of Comm. par. et Prov.</name>
+            <name>cpg2457-syr</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2458.1</IRI>
+            <name>Sch. Oct.</name>
+            <name xml:lang="grc">Σχόλια εἰς τὸν Γένεσιν, Ἀρίθμους, καὶ Βασιλείους</name>
+            <name xml:lang="eng">Scholia on Genesis, Numbers, and Kings</name>
+            <name xml:lang="lat">Scholia in Genesim, Numeros et Reges</name>
+            <name>cpg2458.1</name>
+            <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
+                patristic biblical exegesis. Remains to be edited.</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2458.2</IRI>
+            <name>Sch. Iob</name>
+            <name xml:lang="grc">Σχόλια εἰς τὸν Ἰώβ</name>
+            <name xml:lang="eng">Scholia on Job</name>
+            <name xml:lang="lat">Scholia in Iob</name>
+            <name>cpg2458.2</name>
+            <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
+                patristic biblical exegesis. Remains to be edited.</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2458.3</IRI>
+            <name>Sch. Cant.</name>
+            <name xml:lang="grc">Σχόλια εἰς τὸν ᾎσμα τῶν ἀσμάτων</name>
+            <name xml:lang="eng">Scholia on the Song of Songs</name>
+            <name xml:lang="lat">Scholia in Canticum canticorum</name>
+            <name>cpg2458.3</name>
+            <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
+                patristic biblical exegesis. Remains to be edited.</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2458.4</IRI>
+            <name>Sch. Prov.</name>
+            <name xml:lang="grc">Σχόλια εἰς τὰς Παροιμίας</name>
+            <name xml:lang="eng">Scholia on Proverbs</name>
+            <name xml:lang="lat">Scholia in Proverbia</name>
+            <name>cpg2458.4</name>
+            <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
+                patristic biblical exegesis.</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2458.5</IRI>
+            <name>Sch. Eccl.</name>
+            <name xml:lang="grc">Σχόλια εἰς τὴν Ἐκκλησιαστὴν</name>
+            <name xml:lang="eng">Scholia on Ecclesiastes</name>
+            <name>S-Eccles.</name>
+            <name xml:lang="lat">Scholia in Ecclesiasten</name>
+            <name>cpg2458.5</name>
+            <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
+                patristic biblical exegesis.</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2458.6</IRI>
+            <name>Sch. Lu.</name>
+            <name xml:lang="eng">Scholia on Luke</name>
+            <name xml:lang="lat">Scholia in Lucam</name>
+            <name>cpg2458.6</name>
+            <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
+                patristic biblical exegesis. Remains to be edited.</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2459</IRI>
+            <name xml:lang="lat">De cherubim</name>
+            <name xml:lang="eng">Commentary on the Cherubim</name>
+            <name>cpg2459</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2459:version:syr</IRI>
+            <name>Syriac translation of De cherubim</name>
+            <name>cpg2459-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2459:version:hye</IRI>
+            <name>Armenian translation of De cherubim</name>
+            <name>cpg2459-hye</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2460</IRI>
+            <name xml:lang="lat">De seraphim</name>
+            <name xml:lang="eng">Commentary on the Seraphim</name>
+            <name>cpg2460</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2460:version:syr</IRI>
+            <name>Syriac translation of De seraphim</name>
+            <name>cpg2460-syr</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2461</IRI>
+            <name xml:lang="eng">Commentary on the Lord's Prayer</name>
+            <name>Lord's Prayer</name>
+            <name xml:lang="lat">Expositio in orationem dominicam</name>
+            <name>cpg2461</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2461:version:cop</IRI>
+            <name>Coptic translation of Commentary on the Lord's Prayer</name>
+            <name>cpg2461-cop</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2461:version:ara</IRI>
+            <name>Arabic translation of Commentary on the Lord's Prayer</name>
+            <name>cpg2461-ara</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2462</IRI>
+            <name>Apophthegmata</name>
+            <name xml:lang="grc">Ἀποφθέγματα</name>
+            <name>cpg2462</name>
+            <desc>7 stories and sayings attributed to Evagrius from the alphabetical
+                collection.</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2463</IRI>
+            <name xml:lang="eng">On the Imitation of the Song of Songs</name>
+            <name>Imitation Cant.</name>
+            <name xml:lang="lat">Ad imitationem Cantici canticorum</name>
+            <name>cpg2463</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2463:version:ara</IRI>
+            <name>Arabic translation of On the Imitation of the Song of Songs</name>
+            <name>cpg2463-ara</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2464a</IRI>
+            <name xml:lang="eng">On the Imitation of Proverbs</name>
+            <name xml:lang="lat">Ad imitationem Proverbiorum</name>
+            <name>cpg2464a</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2464a:version:ara</IRI>
+            <name>Arabic translation of On the Imitation of Proverbs</name>
+            <name>cpg2464a-ara</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2464</IRI>
+            <name xml:lang="eng">On the Imitation of Ecclesiastes</name>
+            <name>Imitation Eccles.</name>
+            <name xml:lang="lat">Ad imitationem Ecclesiastae</name>
+            <name>cpg2464</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2464:version:ara</IRI>
+            <name>Arabic translation of On the Imitation of Ecclesiastes</name>
+            <name>cpg2464-ara</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2465</IRI>
+            <name xml:lang="eng">The Just and the Perfect</name>
+            <name xml:lang="lat">De iustis et perfectis</name>
+            <name>cpg2465</name>
+            <desc>Identical to one of the thirty memre of the Syriac Book of Steps (Liber graduum;
+                memre 14 in Patrologia Syriaca edition).</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2466</IRI>
+            <name xml:lang="eng">Humility</name>
+            <name xml:lang="lat">De humilitate</name>
+            <name>cpg2466</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2467</IRI>
+            <name xml:lang="eng">Fasting</name>
+            <name xml:lang="lat">De ieiunio</name>
+            <name>cpg2467</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2468</IRI>
+            <name xml:lang="eng">Silence</name>
+            <name xml:lang="lat">De silentio</name>
+            <name>cpg2468</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2469</IRI>
+            <name xml:lang="eng">Admonition on the Marks of Serenity</name>
+            <name xml:lang="lat">Admonitio de signis quietis</name>
+            <name>cpg2469</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2469:version:syr</IRI>
+            <name>Syriac translation of Admonition on the Marks of Serenity</name>
+            <name>cpg2469-syr</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2470</IRI>
+            <name xml:lang="eng">Dialogue of a Master with his Student</name>
+            <name xml:lang="lat">Colloquium magistri cum discipulo eius</name>
+            <name>cpg2470</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2470:version:syr</IRI>
+            <name>Syriac translation of Dialogue of a Master with his Student</name>
+            <name>cpg2470-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2470:version:hye</IRI>
+            <name>Armenian translation of Dialogue of a Master with his Student</name>
+            <name>cpg2470-hye</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2471</IRI>
+            <name xml:lang="eng">The Defense of One Led by God</name>
+            <name xml:lang="lat">De tutelis eius qui a deo ducitur</name>
+            <name>cpg2471</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2472</IRI>
+            <name xml:lang="eng">Instructive Admonition</name>
+            <name xml:lang="lat">Admonitio paraenetica</name>
+            <name>cpg2472</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2473</IRI>
+            <name xml:lang="eng">Counsel of the Mind</name>
+            <name xml:lang="lat">Paraenesis mentis</name>
+            <name>cpg2473</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2474</IRI>
+            <name xml:lang="eng">Teaching</name>
+            <name xml:lang="lat">Doctrina</name>
+            <name>cpg2474</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2475</IRI>
+            <name xml:lang="eng">Counsel</name>
+            <name xml:lang="lat">Paraenesis</name>
+            <name>cpg2475</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2475:version:syr</IRI>
+            <name>Syriac translation of Counsel</name>
+            <name>cpg2475-syr</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2476</IRI>
+            <name xml:lang="eng">Perfection</name>
+            <name xml:lang="lat">De perfectione</name>
+            <name>cpg2476</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2477</IRI>
+            <name xml:lang="eng">Proverbs and Their Interpretation</name>
+            <name>Instructions (Prov.)</name>
+            <name xml:lang="lat">De proverbiis et eorundem expositionibus</name>
+            <name>cpg2477</name>
+            <desc>Gennadius's reference to "sententiae obscurae" may attest to an early Latin
+                translation of this text.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2477:version:syr</IRI>
+            <name>Syriac translation of Proverbs and Their Interpretation</name>
+            <name>cpg2477-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2477:version:hye</IRI>
+            <name>Armenian translation of Proverbs and Their Interpretation</name>
+            <name>cpg2477-hye</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2478</IRI>
+            <name xml:lang="eng">Profession of Faith</name>
+            <name xml:lang="lat">Professio fidei</name>
+            <name>cpg2478</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2479</IRI>
+            <name xml:lang="eng">Excerpt</name>
+            <name>cpg2479</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2480</IRI>
+            <name xml:lang="eng">Chapters of Counsel and Instructive Sermon</name>
+            <name xml:lang="lat">Capitula paraenetica et Sermo paraeneticus</name>
+            <name>cpg2480</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2481.1</IRI>
+            <name>frag. syr.</name>
+            <name xml:lang="eng">Syriac Fragments</name>
+            <name xml:lang="lat">Fragmenta syriaca</name>
+            <name>cpg2481.1</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2481.2</IRI>
+            <name>frag. arm.</name>
+            <name xml:lang="eng">Armenian Fragments</name>
+            <name xml:lang="lat">Fragmenta armeniaca</name>
+            <name>cpg2481.2</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2481.3</IRI>
+            <name>frag. cop.</name>
+            <name xml:lang="eng">Coptic Fragments</name>
+            <name xml:lang="lat">Fragmenta coptica</name>
+            <name>cpg2481.3</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2481.4</IRI>
+            <name>frag. aeth.</name>
+            <name xml:lang="eng">Ethiopic Fragments</name>
+            <name xml:lang="lat">Fragmenta aethiopica</name>
+            <name>cpg2481.4</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2481.5</IRI>
+            <name>frag. georg.</name>
+            <name xml:lang="eng">Georgian Fragments</name>
+            <name xml:lang="lat">Fragmenta georgica</name>
+            <name>cpg2481.5</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2481.6</IRI>
+            <name xml:lang="eng">Doubtful Arabic Fragments</name>
+            <name xml:lang="lat">Dubia arabica</name>
+            <name>cpg2481.6</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2482</IRI>
+            <name xml:lang="grc">Εἰς τὸ ΠΙΠΙ</name>
+            <name xml:lang="eng">On the Tetragrammaton</name>
+            <name>cpg2482</name>
+            <desc>This brief discussion of the Tetragrammaton and the names of God is identical to
+                Sch. Iob 1.5. The CPG rejects the fragment as spurious, but Casiday (2005) defends
+                its Evagrian authorship.</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2482a</IRI>
+            <name xml:lang="eng">Letter to a Bishop of Antioch Concerning Patience</name>
+            <name xml:lang="lat">Epistula ad episcopum Antiochenum de patientia</name>
+            <name>cpg2482a</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2482a:version:ara</IRI>
+            <name>Arabic translation of Letter to a Bishop of Antioch Concerning Patience</name>
+            <name>cpg2482a-ara</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2483</IRI>
+            <name>Disc.</name>
+            <name xml:lang="eng">Disciples</name>
+            <name xml:lang="grc">Κεφάλαια τῶν μαθητῶν Εὐαγρίου</name>
+            <name xml:lang="eng">199 Chapters of Evagrius's Disciples</name>
+            <name xml:lang="lat">Capita cic auctoribus discipulis Evagrii</name>
+            <name>cpg2483</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2483:version:syr</IRI>
+            <name>Syriac translation of Disc.</name>
+            <name>cpg2483-syr</name>
+        </item>
+        <!-- SECONDARY WORKS -->
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2432-notes,S1-fra-Guillaumont</IRI>
+            <name>Guillaumont 1958 on KG S1</name>
+            <name>Notes to the Kephalaia gnostika Syriac S1 translation</name>
+            <name>cpg2432-notes,S1-fra-Guillaumont</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2432-notes,S2-fra-Guillaumont</IRI>
+            <name>Guillaumont 1958 on KG S2</name>
+            <name>Notes to the Kephalaia gnostika Syriac S2 translation</name>
+            <name>cpg2432-notes,S2-fra-Guillaumont</name>
+        </item>
     </body>
 </TAN-voc>

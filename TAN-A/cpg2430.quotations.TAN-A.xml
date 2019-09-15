@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="../../../TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki@gmail.com,2014:cpg2430-TAN-A-div-et-al-1">
    <head>
       <name>Evagrius's Praktikos, quotations</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A-div/cpg2430.quotations.TAN-A-div.xml"/>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2430.quotations.TAN-A.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <inclusion xml:id="cpg2430">
          <IRI>tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2430</IRI>
          <name>Evagrius's Praktikos</name>
-         <location href="cpg2430.TAN-A-div.xml" accessed-when="2018-03-05-04:00"/>
+         <location href="cpg2430.TAN-A.xml" accessed-when="2018-03-05-04:00"/>
       </inclusion>
       <inclusion xml:id="bible">
          <IRI>tag:kalvesmaki.com,2014:tan-a-div:bible:for-evagrius</IRI>
          <name>Bible versions relevant for alignment with the works of Evagrius</name>
-         <location href="bible-for-evagrius.TAN-A-div.xml" accessed-when="2015-10-12-04:00"/>
+         <location href="bible-for-evagrius.TAN-A.xml" accessed-when="2015-10-12-04:00"/>
       </inclusion>
       <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>

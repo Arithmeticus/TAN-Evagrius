@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A-div.sch" 
+<?xml-model href="../../../TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-A.sch" 
    type="application/xml"xschematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="../../../TAN-2020/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<!--<?xml-model href="../../../TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:tan-a-div:bible:for-evagrius">
    <head>
       <name>Alignment of versions of the Bible relevant to the works of Evagrius</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A-div/bible-for-evagrius.TAN-A-div.xml"/>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/bible-for-evagrius.TAN-A.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
