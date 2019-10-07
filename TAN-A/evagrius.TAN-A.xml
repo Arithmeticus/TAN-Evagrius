@@ -42,6 +42,8 @@
                accessed-when="2019-06-16"/>
          </algorithm>
          <verb xml:id="annotates" which="comments on"/>
+         <alias xml:id="test" idrefs="annotates translates"/>
+         <!--<verb xml:id="translates" which="translates"/>-->
          
          <work which="Guillaumont 1958 on KG S1" xml:id="kg-comm-s1-guillaumont"/>
          <work which="Guillaumont 1958 on KG S2" xml:id="kg-comm-s2-guillaumont"/>
@@ -74,13 +76,13 @@
             <IRI>tag:kalvesmaki.com,2014:verb:work-survives-in-original-language</IRI>
             <name>original work is extant to what degree</name>
             <desc>This verb is used to describe the degree to which a work survives in the
-               original language of composition. It takes as object a xs:float between 0 and 1,
+               original language of composition. It takes as object an xs:double between 0 and 1,
                representing the approximate percentage that is extant. This property does not
                stipulate how close to the first or earliest version the extant material
                is.</desc>
             <constraints>
                <subject status="required" item-type="work version"/>
-               <object status="required" content-datatype="decimal"
+               <object status="required" content-datatype="double"
                   content-lexical-constraint="[01]\.0*|0\.\d+"/>
             </constraints>
          </verb>

@@ -37,6 +37,7 @@
       <resp roles="editor" who="kalvesmaki"/>
       <change when="2018-05-16-05:00" who="kalvesmaki">Began file</change>
       <change who="xslt1" when="2019-05-31T03:05:22.292-04:00">Converted from 2018 to 2020 schemas.</change>
+      <change when="2019-09-28" who="kalvesmaki">Added phrase missing from schol. 5</change>
       <to-do>
          <comment when="2018-05-16-05:00" who="kalvesmaki">File is still in progress.</comment>
       </to-do>
@@ -73,7 +74,7 @@
             </div>
          </div>
       </div>
-      <div type="schol" n="5">Ὥσπερ διὰ τῶν αἰσθήσεων ὁ νοῦς ἐπιβάλλει τοῖς αἰσθητοῖς, οὕτω καὶ διὰ τῶν ἀρετῶν ἐποπτεύει τὰ νοητά·</div>
+      <div type="schol" n="5">Ὥσπερ διὰ τῶν αἰσθήσεων ὁ νοῦς ἐπιβάλλει τοῖς αἰσθητοῖς, οὕτω καὶ διὰ τῶν ἀρετῶν ἐποπτεύει τὰ νοητά· διόπερ καὶ αἰσθήσεως αὐτὰς λόγον ἐπέχειν ὁ σοφὸς Σολομὼν ἡμᾶς διδάσκει. </div>
       <div type="book" n="Prov">
          <div type="chapter" n="1">
             <div type="v" n="7">
