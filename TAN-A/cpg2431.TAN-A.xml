@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../TAN/TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN/TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2431">
@@ -59,7 +59,13 @@
             <name>Converter from TAN 2018 to TAN 2020</name>
             <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-06-14T22:34:24.442-04:00"/>
          </algorithm>
-      
+         <alias xml:id="Greek" idrefs="gn-grc-Gu"/>
+         <alias xml:id="Syriac" idrefs="S1 S2 S3"/>
+         <alias xml:id="S1" idrefs="S1-14578 syr-S1-14581"/>
+         <alias xml:id="S1-14578" idrefs="syr-S1-14578 gn-grc-Fr"/>
+         <alias xml:id="S2" idrefs="syr-S2-17165 syr-S2-14616"/>
+         <alias xml:id="S3" idrefs="syr-S3-17167"/>
+         <alias xml:id="English" idrefs="gn-eng-Dy"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
       <resp who="xslt1" roles="stylesheet"/>

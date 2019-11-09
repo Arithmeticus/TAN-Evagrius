@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../TAN/TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<!--<?xml-model href="../../../TAN/TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2432">
@@ -13,7 +13,7 @@
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
-      <source xml:id="S1">
+      <source xml:id="S1-Guill">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S1.TAN-TEI.001</IRI>
          <name>Syriac edition of S1 by Guillaumont</name>
          <location href="../cpg2432.syr.guillaumont-s1.xml" accessed-when="2015-08-08"/>
@@ -28,7 +28,7 @@
          <name>Frankenberg's Greek retroversion of Syriac S1</name>
          <location href="../cpg2432.grc.Frankenberg.xml" accessed-when="2015-08-08-04:00"/>
       </source>
-      <source xml:id="S2">
+      <source xml:id="S2-Guill">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001</IRI>
          <name>Transcription of Syriac edition of S2 by Guillaumont</name>
          <location href="../cpg2432.syr.guillaumont-s2.xml" accessed-when="2015-08-08"/>
@@ -125,6 +125,17 @@
          <location href="../cpg2432.grc.Wolf.xml" accessed-when="2015-08-08-04:00"/>
       </source>
       <vocabulary-key>
+         <!-- Be sure to fix grc-PG4 = cordier, with a sample extra value of I for KG V.11, for testing-->
+         <alias xml:id="Greek" idrefs="manuscripts parallels quotations scholia"/>
+         <alias xml:id="parallels" idrefs="grc-EpF grc-Géh1998"/>
+         <alias xml:id="quotations" idrefs="grc-Bars grc-Dor grc-DP"/>
+         <alias xml:id="manuscripts" idrefs="grc-Géh1996 grc-Hau grc-Mu1931 grc-Mu1932"/>
+         <alias xml:id="scholia" idrefs="grc-PG4 grc-PG12 grc-PG86a grc-PG39 grc-Oct grc-Géh1987 grc-Pitra grc-Wolf"/>
+         <alias xml:id="Syriac" idrefs="S1 S2"/>
+         <alias xml:id="S1" idrefs="S1-Guill S1-Fr"/>
+         <alias xml:id="S2" idrefs="S2-Guill"/>
+         <alias xml:id="English" idrefs="S1-Dy S2-Dy"/>
+         
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
             <name>Converter from TAN 2018 to TAN 2020</name>

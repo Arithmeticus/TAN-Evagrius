@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../TAN/TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<!--<?xml-model href="../../../TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2430">
@@ -23,10 +23,15 @@
          <name>Transcription of 1997 English translation by Dysinger</name>
          <location href="../cpg2430.eng.dysinger.xml" accessed-when="2015-08-07-04:00"/>
       </source>
-      <source xml:id="syr-14578">
+      <source xml:id="syr-14578a">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001</IRI>
          <name>Transcription of Syriac edition in BL Add. 14,578.</name>
          <location href="../cpg2430.syr.bl14578.tei.xml" accessed-when="2015-08-08-04:00"/>
+      </source>
+      <source xml:id="syr-14578b">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.S2</IRI>
+         <name>Syriac translation S2 of the Praktikos of Evagrios Pontikos, from BL Add. 14,578</name>
+         <location href="../cpg2430.syr.bl14578.s2.tei.xml" accessed-when="2019-11-03"/>
       </source>
       <vocabulary-key>
          <algorithm xml:id="xslt1">
@@ -34,7 +39,10 @@
             <name>Converter from TAN 2018 to TAN 2020</name>
             <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-06-02T08:04:13.335-04:00"/>
          </algorithm>
-      
+         <alias id="all" idrefs="Greek Syriac English"/>
+         <alias id="Greek" idrefs="grc-1971"/>
+         <alias id="Syriac" idrefs="syr-14578a syr-14578b"/>
+         <alias id="English" idrefs="eng-1990"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
       <resp who="xslt1" roles="stylesheet"/>
