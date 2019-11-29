@@ -124,6 +124,10 @@
          <name>Fragment preserved in Wolf's Analecta graeca</name>
          <location href="../cpg2432.grc.Wolf.xml" accessed-when="2015-08-08-04:00"/>
       </source>
+      <adjustments>
+         <where src="*"/>
+         <equate n="ti title"/>
+      </adjustments>
       <vocabulary-key>
          <!-- Be sure to fix grc-PG4 = cordier, with a sample extra value of I for KG V.11, for testing-->
          <alias xml:id="Greek" idrefs="manuscripts parallels quotations scholia"/>
@@ -149,6 +153,7 @@
       
       <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
+      <change when="2019-11-27" who="kalvesmaki">Added adjustment to make sure titles hang together</change>
       <change when="2018-03-05" who="kalvesmaki">Started file</change>
       <change who="xslt1" when="2019-06-14T22:34:28.6-04:00">Converted from 2018 to 2020 schemas.</change>
       <to-do>

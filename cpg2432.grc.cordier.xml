@@ -82,6 +82,7 @@
     <file-resp who="kalvesmaki"/>
     <resp roles="editor" who="kalvesmaki"/>
     <resp roles="stylesheet" who="xslt1 xslt2"/>
+    <change when="2019-11-27" who="kalvesmaki">Fixed ref typo at V 11</change>
     <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Adjusted &lt;name&gt;</change>
     <change when="2017-05-14" who="kalvesmaki">Converted hyphen to soft hyphen &#xad;</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
@@ -98,7 +99,7 @@
       <div type="century" n="II">
         <div type="chapter" n="78"> <pb n="173"/> <p> Ἕκαστον τάγμα <lb/>τῶν οὐρανίων δυνάμεων, ἢ ὅλον ἐκ τῶν κάτω, ἢ ὅλον <lb/>ἐκ τῶν ἄνω, ἢ ἐκ τῶν ἄνω καὶ ἐκ τῶν κάτω συνέστη-<lb break="no"/>κε.</p> </div>
       </div>
-      <div type="century" n="1 V">
+      <div type="century" n="V">
         <div type="chapter" n="11"> <p>Ἐξ ἀγγελικῆς καταστάσεως καὶ ἀρχαγγελικῆς, ψυ&#xad;<lb break="n"/>χικὴ κατάστασις γίνεται· ἐκ δὲ τῆς ψυχικῆς, δαιμο-<lb break="n"/>νιώδης καὶ ἀνθρωπίνη· ἐκ δὲ τῆς ἀνθρωπίνης, ἄγγε-<lb break="n"/>λοι πάλιν καὶ δαίμονες γίνονται. </p> </div>
       </div>
     </body>
