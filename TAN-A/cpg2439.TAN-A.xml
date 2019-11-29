@@ -36,7 +36,8 @@
             <name>Converter from TAN 2018 to TAN 2020</name>
             <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-06-16T06:58:11.229-04:00"/>
          </algorithm>
-      
+        <alias xml:id="Greek" idrefs="ef-grc-grib ef-grc-eras"/>
+        <alias xml:id="English" idrefs="ef-eng-jackson"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
       <resp who="xslt1" roles="stylesheet"/>
