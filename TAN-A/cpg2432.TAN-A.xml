@@ -129,7 +129,6 @@
          <equate n="ti title"/>
       </adjustments>
       <vocabulary-key>
-         <!-- Be sure to fix grc-PG4 = cordier, with a sample extra value of I for KG V.11, for testing-->
          <alias xml:id="Greek" idrefs="manuscripts parallels quotations scholia"/>
          <alias xml:id="parallels" idrefs="grc-EpF grc-Géh1998"/>
          <alias xml:id="quotations" idrefs="grc-Bars grc-Dor grc-DP"/>

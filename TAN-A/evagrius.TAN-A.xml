@@ -303,6 +303,7 @@
       </claim>
       
       <!-- ancient and medieval translations / version of specific works -->
+      <!-- these are treated abstractly; for scripta see below -->
       <claim subject="nocpg01-ara" verb="translates" object="nocpg01"/>
       <claim subject="nocpg02-syr nocpg02-hye" verb="translates" object="nocpg02"/>
       <claim subject="cpg2430-lat cpg2430-lat-vetus cpg2430-syr-S1 cpg2430-syr-S2 cpg2430-syr-S3 cpg2430-hye cpg2430-gez cpg2430-kat cpg2430-ara" verb="translates" object="cpg2430"/>
@@ -343,6 +344,18 @@
       <claim subject="cpg2482a-ara" verb="translates" object="cpg2482a"/>
       <claim subject="cpg2483-syr" verb="translates" object="cpg2483"/>
       
+      <!-- ancient/medieval scripta -->
+      <claim verb="transcribes" object="cpg2430-syr-S1">
+         <subject which="BL Add 14578">
+            <div type="folio" n="2b-11b"/>
+         </subject>
+      </claim>
+      <claim verb="transcribes" object="cpg2430-syr-S2">
+         <subject which="BL Add 14578">
+            <div type="folio" n="152a-153b"/>
+         </subject>
+      </claim>
+      
       <!-- modern works -->
       <claim verb="annotates" subject="kg-comm-s1-guillaumont kg-comm-s2-guillaumont" object="cpg2432"/>
       
@@ -360,6 +373,11 @@
       <claim subject="Guillaumont_1989" verb="edits" object="cpg2431"/>
       <claim subject="Guillaumont_1989" verb="translates" in-lang="fra" object="cpg2431 cpg2431-syr-s1 cpg2431-syr-s2 cpg2431-syr-s3"/>
       <claim subject="Guillaumont_1989" verb="quotes" object="cpg2431-syr-s1 cpg2431-syr-s2 cpg2431-syr-s3 cpg2431-hye"/>
+      <claim subject="Dysinger_1990" verb="transcribes">
+         <object which="Guillaumont_1971">
+            
+         </object>
+      </claim>
       <claim subject="Dysinger_1990" verb="transcribes"
          object="cpg2430 cpg2431 cpg2432 cpg2433 cpg2434 cpg2437 cpg2450 cpg2452 cpg2455 cpg2458.2"
       />

@@ -22,6 +22,12 @@
     </head>
     <body affects-element="source scriptum">
         <item>
+            <IRI>tag:evagriusponticus.net,2012:scriptum:ms:gb:london:bl:add-14578</IRI>
+            <name>BL Add 14578</name>
+            <name>B.L. Add. 14,578</name>
+            <name>British Library, Add. 14,578</name>
+        </item>
+        <item>
             <IRI>http://dbpedia.org/resource/Patrologia_Graeca</IRI>
             <IRI>tag:evagriusponticus.net,2012:scriptum:migne-1857</IRI>
             <name>Patrologia Graeca</name>
