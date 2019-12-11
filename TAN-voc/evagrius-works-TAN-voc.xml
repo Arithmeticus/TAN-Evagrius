@@ -179,6 +179,12 @@
             <name>Arabic translation of Praktikos</name>
             <name>cpg2430-ara</name>
         </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2430,grc-1971</IRI>
+            <IRI>tag:kalvesmaki.com,2014:cpg2430,grc-1971</IRI>
+            <name xml:lang="eng">The Guillamonts' version of the ancient Greek of the Praktikos</name>
+            <name>cpg2430-grc-1971</name>
+        </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2431</IRI>
             <name>Gn.</name>

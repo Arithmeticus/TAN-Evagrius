@@ -22,11 +22,7 @@
       <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430.grc.guillaumonts.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <work which="Prak."/>
-      <version>
-         <IRI>tag:evagriusponticus.net,2015:cpg2430,grc-1971</IRI>
-         <IRI>tag:kalvesmaki.com,2014:cpg2430,grc-1971</IRI>
-         <name xml:lang="eng">The Guillamonts' ancient Greek version of the Praktikos</name>
-      </version>
+      <version which="cpg2430-grc-1971"/>
       <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>

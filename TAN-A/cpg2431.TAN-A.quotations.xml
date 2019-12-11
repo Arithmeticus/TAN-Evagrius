@@ -66,6 +66,10 @@
          <subject work="gn" ref="46"/>
          <object work="lxx" ref="Exod 25:23-30, Exod 26:35, Exod 37:10-16"/>
       </claim>
+      <claim verb="alludes-to">
+         <subject work="gn" ref="45"/>
+         <object work="nt" ref="1Tim 3:16"/>
+      </claim>
       <claim>
          <subject src="syr-S2-17165" ref="17"/>
          <object src="lxx" ref="Wis 11:20, Eccl 3 1"/>

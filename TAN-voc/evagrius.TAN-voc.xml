@@ -44,7 +44,7 @@
         <group affects-element="person organization">
             <item include="agents"/>
         </group>
-        <group affects-element="work">
+        <group affects-element="work version">
             <item include="works"/>
         </group>
         <group affects-element="source scriptum">
