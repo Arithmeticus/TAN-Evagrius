@@ -372,7 +372,7 @@
       <claim subject="Guillaumont_1989" verb="translates" in-lang="fra" object="cpg2431 cpg2431-syr-s1 cpg2431-syr-s2 cpg2431-syr-s3"/>
       <claim subject="Guillaumont_1989" verb="quotes" object="cpg2431-syr-s1 cpg2431-syr-s2 cpg2431-syr-s3 cpg2431-hye"/>
       <claim subject="Dysinger_1990" verb="transcribes">
-         <object which="Guillaumont_1971" version="cpg2430-grc-1971"/>
+         <object which="Guillaumont_1971" work="cpg2430" version="cpg2430-grc-1971"/>
       </claim>
       <claim subject="Dysinger_1990" verb="transcribes"
          object="cpg2430 cpg2431 cpg2432 cpg2433 cpg2434 cpg2437 cpg2450 cpg2452 cpg2455 cpg2458.2"
