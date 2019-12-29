@@ -26,11 +26,7 @@
     <name>Transcription of the Gnostikos preserved in BL Add. 17167</name>
     <license which="by_4.0" licensor="kalvesmaki"/>
     <work which="Gn."/>
-    <version>
-      <IRI>tag:evagriusponticus.net,2015:cpg2431,S3</IRI>
-      <IRI>tag:kalvesmaki.com,2014:cpg2431,S3</IRI>
-      <name>S3 translation of the Gnostikos</name>
-    </version>
+    <version which="cpg2431-syr-S3"/>
     <vocabulary>
       <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
       <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>

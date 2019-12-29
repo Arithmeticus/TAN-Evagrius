@@ -74,9 +74,9 @@
     <license which="by_4.0" licensor="kalvesmaki"/>
     <work which="Gn."/>
     <version>
-      <IRI>tag:evagriusponticus.net,2015:cpg2430,grc-1989</IRI>
-      <IRI>tag:kalvesmaki.com,2014:cpg2430,grc-1989</IRI>
-      <name xml:lang="eng">The Guillamonts' ancient Greek edition of the Gnostikos</name>
+      <IRI>tag:evagriusponticus.net,2015:cpg2431.grc-1989</IRI>
+      <IRI>tag:kalvesmaki.com,2014:cpg2431.grc-1989</IRI>
+      <name xml:lang="eng">The Guillaumonts' ancient Greek edition of the Gnostikos</name>
     </version>
     <vocabulary>
       <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
