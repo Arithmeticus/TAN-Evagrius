@@ -108,8 +108,8 @@
             <name xml:lang="lat">Practicus et epistula ad Anatolium</name>
             <name>cpg2430</name>
             <desc>First of a trilogy (along with Gnostikos and the Kephalaia gnostika, below)
-                considered fundamental to Evagrius's thought. This treatise contains 100 chapters
-                discussing the preliminary disciplines of the ascetic life, especially the
+                considered one of Evagrius's key works. This treatise contains 100 chapters
+                discussing preliminary discipline of the ascetic life, namely fighting the
                 passions.</desc>
         </item>
         <item affects-element="version">
@@ -123,9 +123,10 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2430:version:lat</IRI>
             <name>Latin translation of Praktikos</name>
             <name>cpg2430-lat</name>
-            <desc>Gennadius of Marseilles (late 5th c.; Vir. inlust. 11) says that an earlier
-                translation "had suffered in transmission" (per tempus confusum) so he undertook a
-                fresh translation. No part of his oor his predecessor's translation survives.</desc>
+            <desc>This translation is credited to Gennadius of Marseilles (late 5th c.; Vir. inlust.
+                11), who said because an earlier translation "had suffered in transmission" (per tempus
+                confusum; the vetus latinus translation) he undertook a fresh translation. No
+                part of his or his predecessor's translation survives.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2430:version:syr-S1</IRI>
@@ -180,8 +181,8 @@
             <name>cpg2430-ara</name>
         </item>
         <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:cpg2430,grc-1971</IRI>
-            <IRI>tag:kalvesmaki.com,2014:cpg2430,grc-1971</IRI>
+            <IRI>tag:evagriusponticus.net,2015:cpg2430.grc-1971</IRI>
+            <IRI>tag:kalvesmaki.com,2014:cpg2430.grc-1971</IRI>
             <name xml:lang="eng">The Guillamonts' version of the ancient Greek of the Praktikos</name>
             <name>cpg2430-grc-1971</name>
         </item>
@@ -202,17 +203,26 @@
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2431:version:syr:s1</IRI>
+            <IRI>tag:evagriusponticus.net,2015:cpg2431,S1</IRI>
+            <IRI>tag:kalvesmaki.com,2014:cpg2431,S1</IRI>
+            <name>S1 translation of the Gnostikos</name>
             <name>Syriac translation S1 of Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
             <name>cpg2431-syr-S1</name>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2431:version:syr:s2</IRI>
+            <IRI>tag:evagriusponticus.net,2015:cpg2431,S2</IRI>
+            <IRI>tag:kalvesmaki.com,2014:cpg2431,S2</IRI>
+            <name>S2 translation of the Gnostikos</name>
             <name>Syriac translation S2 of Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
             <name>cpg2431-syr-S2</name>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2431:version:syr:s3</IRI>
+            <IRI>tag:evagriusponticus.net,2015:cpg2431,S3</IRI>
+            <IRI>tag:kalvesmaki.com,2014:cpg2431,S3</IRI>
             <name>Syriac translation S3 of Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
+            <name>S3 translation of the Gnostikos</name>
             <name>cpg2431-syr-S3</name>
         </item>
         <item affects-element="version">
@@ -220,20 +230,32 @@
             <name>Armenian translation of Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
             <name>cpg2431-hye</name>
         </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2431.grc-1912</IRI>
+            <IRI>tag:kalvesmaki.com,2014:cpg2431.grc-1912</IRI>
+            <name xml:lang="eng">Frankenberg's retroversion into ancient Greek of the Syriac
+                translation of the Gnostikos at BL Add. 14,578</name>
+            <name>cpg2431-grc-1912</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2431.grc-1989</IRI>
+            <IRI>tag:kalvesmaki.com,2014:cpg2431.grc-1989</IRI>
+            <name xml:lang="eng">Guillamont's version of the ancient Greek of the Gnostikos</name>
+            <name>cpg2431-grc-1989</name>
+        </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2432</IRI>
             <name>KG</name>
+            <name xml:lang="grc">Κεφάλαια γνωστικά</name>
             <name xml:lang="grc">Ἑξακόσια προγνωστικὰ προβλήματα</name>
             <name xml:lang="eng">Kephalaia gnostika</name>
             <name xml:lang="lat">Capita gnostica</name>
             <name>cpg2432</name>
             <desc>Third part of the trilogy (see Praktikos), comprising 540 chapters (90 chapters in
-                six "centuries") discussing the highest levels of contemplation. This text is
-                frequently considered to be behind the condemnations of Origen in 553.</desc>
-            <desc>Because of how little survives in Greek, the Syriac translations are key,
-                especially the so-called unexpurgated version (frequently called S2). It is unclear
-                whether the sole Arabic MS (Coptic Patriarchate MS Theol. 152, fol. 147r–177v) is
-                taken from the Greek or Syriac and if the latter, which version.</desc>
+                six "centuries") discussing the highest levels of contemplation. This text, which is
+                marked by philosophical erudition and written cryptically, is frequently considered
+                to be behind the condemnations of Origen in 553. Because of how little survives in Greek, the Syriac translations are key,
+                especially the so-called unexpurgated version (frequently called S2).</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2432:version:syr:s1</IRI>
@@ -254,6 +276,16 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2432:version:ara</IRI>
             <name>Arabic translation of KG</name>
             <name>cpg2432-ara</name>
+            <desc>It is unclear whether the key Arabic MS (Coptic Patriarchate MS Theol. 152, fol.
+                147r–177v) is taken from the Greek or Syriac and if the latter, which version. Two
+                more MSS were found in the 2010s at Dayr al-Suryan monastery.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2432.grc-1912</IRI>
+            <IRI>tag:kalvesmaki.com,2014:cpg2432.grc-1912</IRI>
+            <name xml:lang="eng">Frankenberg's retroversion into ancient Greek of the Syriac
+                translation of the Kephalaia Gnostika at BL Add. 14,578</name>
+            <name>cpg2432-grc-1912</name>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2433</IRI>
@@ -262,7 +294,7 @@
             <name xml:lang="grc">Σκέμματα</name>
             <name xml:lang="lat">Capita cognoscitiua</name>
             <name>cpg2433</name>
-            <desc>Sixty-five sentences culled by textual scholars in three sections: 39 taken from
+            <desc>Sixty-five sentences divided in three sections: 39 taken from
                 the Gnostic Chapters, 23 from On Thoughts, and 3 unparalleled (and so termed a
                 supplement). The Greek, Armenian, and Syriac versions of this text differ in
                 sequence, number, and selection. This text, according to Mar Babai (569-628), who
@@ -736,7 +768,7 @@
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2451:version:rus</IRI>
             <name>Old Russian translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
-            <name>cpg2451-rus</name>
+            <name>cpg2451-orv</name>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2452</IRI>
