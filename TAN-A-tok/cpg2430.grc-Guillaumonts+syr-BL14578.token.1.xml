@@ -5,15 +5,20 @@
 <?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A-tok.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TAN-A-tok xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts+syr_BL14578.TAN-A.001">
    <head>
-      <name>cpg2430-grc-Guillaumonts+cpg2430-syr-BL14578.TAN-A.xml</name>
-      <name xml:lang="eng">The first TAN-A file created in the Text Alignment Protocol.</name>
+      <name xml:lang="eng">Token alignment between the Greek and Syriac version S1 of the Praktikos</name>
+      <desc>This file coordinates the critical edition of the Greek with the main Syriac text of BL 14,578, which does not include the preface. See
+      the companion version, below.</desc>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
-      
+      <companion-version>
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts+syr_BL14578.S2.TAN-A.001</IRI>
+         <name>Token alignment between the Greek and Syriac of the Praktikos, version S2</name>
+         <location href="cpg2430.grc-Guillaumonts+syr-BL14578.s2.token.1.xml" accessed-when="2020-02-28"/>
+      </companion-version>
       <source xml:id="grc">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
          <name>cpg2430-grc-Guillaumonts.TAN-T.xml</name>
@@ -29,7 +34,14 @@
          <name>cpg2430-syr-BL14578.TAN-TEI.xml</name>
          <location href="../cpg2430.syr.bl14578.tei.xml" accessed-when="2014-05-24"/>
       </source>
+      
       <vocabulary-key>
+         <algorithm xml:id="xslt3">
+            <IRI>tag:textalign.net,2015:stylesheet:optimize-tan-a-lm-or-tan-a-tok</IRI>
+            <name>TAN-A-lm or TAN-A-tok optimizer</name>
+            <location href="../TAN-2020/applications/optimize/optimize%20TAN-A-lm%20or%20TAN-A-tok.xsl" accessed-when="2020-07-18T05:00:42.839-04:00"/>
+         </algorithm>
+      
          <algorithm xml:id="xslt2">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
             <name>Converter from TAN 2018 to TAN 2020</name>
@@ -59,15 +71,13 @@
             <name>Stylesheet to populate a TAN-A-div file from collections.</name>
             <desc>Stylesheet at:
                ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
-            <location
-               href="../../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
-               accessed-when="2019-06-17"/>
+            <location href="../../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl" accessed-when="2019-06-17"/>
          </algorithm>
       </vocabulary-key>
       
       <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
-      <resp roles="stylesheet" who="xslt1 xslt2"/>
+      <resp roles="stylesheet" who="xslt1 xslt2 xslt3"/>
       <comment when="2017-12-17" who="kalvesmaki">This file does not take into account subsequent
          changes made in the source, where the inline numerals were (correctly) removed.</comment>
       <change when="2017-02-10" who="kalvesmaki">Changed "low" and "high" certainty values to 0.</change>
@@ -89,1978 +99,742 @@
          schema. </comment>
       <change when="2018-01-09" who="kalvesmaki" flags="error">This file does not take into account major changes in the source, where the alphabetic numerals were dropped (correctly so).</change>
       <change who="xslt2" when="2019-06-17T00:23:50.156-04:00">Converted from 2018 to 2020 schemas.</change>
+      <change when="2020-02-28" who="kalvesmaki">Removed items pertaining to the preface; these are now in the companion version.</change>
+      <change who="xslt3" when="2020-07-18T05:00:42.839-04:00">Optimized TAN-A-tok file.</change>
+      <change when="2020-07-18" who="kalvesmaki">I converted to @val based system, but there are a number of 
+      problematic assertions.</change>
       <to-do>
-         <comment when="2018-01-09" who="kalvesmaki">File is still in progress.</comment>
          <comment when="2019-06-16" who="kalvesmaki">Token definition from the earlier version seems to have been lost, mucking up a few tokens at the end of chap. 2 forward. Needs to be thoroughly diagnosed and fixed.</comment>
+         <comment when="2020-07-18" who="kalvesmaki">All errors need to be diagnosed and fixed.</comment>
+         <comment when="2020-07-18" who="kalvesmaki">All toks without @val need to be converted.</comment>
       </to-do>
    </head>
-   <body reuse-type="trans" bitext-relation="cred" claimant="xslt2">
+   <body reuse-type="trans" bitext-relation="cred" claimant="xslt3">
       <align>
-         <tok src="grc" ref="pr ti" pos="1"/>
-         <tok src="grc" ref="pr ti" pos="2"/>
+         <tok src="grc" ref="ti" val="ΛΟΓΟΣ" pos="1"/>
+         <tok src="syr" ref="ti" val="ܡܐܡܪܐ" pos="1"/>
       </align>
-      <align reuse-type="para trans">
-         <tok src="syr" ref="pr ti" pos="1"/>
-         <tok src="syr" ref="pr ti" pos="2"/>
-         <tok src="syr" ref="pr ti" pos="3"/>
-         <tok src="syr" ref="pr ti" pos="4"/>
-         <tok src="syr" ref="pr ti" pos="5"/>
-         <tok src="syr" ref="pr ti" pos="6"/>
-         <tok src="syr" ref="pr ti" pos="7"/>
-         <tok src="syr" ref="pr ti" pos="8"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr ti" pos="9"/>
-         <tok src="syr" ref="pr ti" pos="10"/>
-         <tok src="syr" ref="pr ti" pos="11"/>
-         <tok src="syr" ref="pr ti" pos="12"/>
-         <tok src="syr" ref="pr ti" pos="13"/>
-         <tok src="syr" ref="pr ti" pos="14"/>
-         <tok src="syr" ref="pr ti" pos="15"/>
-         <tok src="syr" ref="pr ti" pos="16"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="1"/>
-         <tok src="syr" ref="pr 1" pos="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="2"/>
-         <tok src="syr" ref="pr 1" pos="6"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="4"/>
-         <tok src="syr" ref="pr 1" pos="5"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="3"/>
-         <tok src="syr" ref="pr 1" pos="4"/>
-         <tok src="syr" ref="pr 1" pos="3"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="5"/>
-         <tok src="syr" ref="pr 1" pos="7"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="6"/>
-         <tok src="grc" ref="pr 1" pos="8"/>
-         <tok src="syr" ref="pr 1" pos="9"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="7"/>
-         <tok src="syr" ref="pr 1" pos="10"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="12"/>
-         <tok src="syr" ref="pr 1" pos="11"/>
-         <tok src="syr" ref="pr 1" pos="12"/>
-         <tok src="syr" ref="pr 1" pos="13"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="9"/>
-         <tok src="grc" ref="pr 1" pos="10"/>
-         <tok src="grc" ref="pr 1" pos="11"/>
-         <tok src="syr" ref="pr 1" pos="14"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 1" pos="15"/>
-         <tok src="syr" ref="pr 1" pos="16"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="14"/>
-         <tok src="syr" ref="pr 1" pos="18"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="13"/>
-         <tok src="syr" ref="pr 1" pos="19"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="15"/>
-         <tok src="syr" ref="pr 1" pos="20"/>
-         <tok src="syr" ref="pr 1" pos="17"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 1" pos="25"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="16"/>
-         <tok src="grc" ref="pr 1" pos="26"/>
-         <tok src="syr" ref="pr 1" pos="21"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 1" pos="8"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="17"/>
-         <tok src="grc" ref="pr 1" pos="18"/>
-         <tok src="syr" ref="pr 1" pos="22"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="19"/>
-         <tok src="syr" ref="pr 1" pos="23"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="20"/>
-         <tok src="grc" ref="pr 1" pos="23"/>
-         <tok src="syr" ref="pr 1" pos="24"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="21"/>
-         <tok src="grc" ref="pr 1" pos="22"/>
-         <tok src="syr" ref="pr 1" pos="26"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="24"/>
-         <tok src="syr" ref="pr 1" pos="27"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="25"/>
-         <tok src="syr" ref="pr 1" pos="28"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="27"/>
-         <tok src="syr" ref="pr 1" pos="29"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="28"/>
-         <tok src="syr" ref="pr 1" pos="31"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="29"/>
-         <tok src="syr" ref="pr 1" pos="32"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="30"/>
-         <tok src="syr" ref="pr 1" pos="35"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="37"/>
-         <tok src="syr" ref="pr 1" pos="46"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="38"/>
-         <tok src="grc" ref="pr 1" pos="39"/>
-         <tok src="syr" ref="pr 1" pos="47"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="38"/>
-         <tok src="grc" ref="pr 1" pos="40"/>
-         <tok src="syr" ref="pr 1" pos="48"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="43"/>
-         <tok src="syr" ref="pr 1" pos="50"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="44"/>
-         <tok src="syr" ref="pr 1" pos="51"/>
-         <tok src="syr" ref="pr 1" pos="52"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="45"/>
-         <tok src="syr" ref="pr 1" pos="53"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="46"/>
-         <tok src="grc" ref="pr 1" pos="48"/>
-         <tok src="syr" ref="pr 1" pos="54"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="46"/>
-         <tok src="grc" ref="pr 1" pos="47"/>
-         <tok src="syr" ref="pr 1" pos="55"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="41"/>
-         <tok src="grc" ref="pr 1" pos="42"/>
-         <tok src="syr" ref="pr 1" pos="49"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="49"/>
-         <tok src="grc" ref="pr 1" pos="50"/>
-         <tok src="syr" ref="pr 1" pos="56"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="51"/>
-         <tok src="syr" ref="pr 1" pos="52"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 1" pos="52"/>
-         <tok src="syr" ref="pr 1" pos="60"/>
-         <tok src="syr" ref="pr 1" pos="61"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 1" pos="57"/>
-         <tok src="syr" ref="pr 1" pos="58"/>
-         <tok src="syr" ref="pr 1" pos="59"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="1"/>
-         <tok src="grc" ref="pr 2" pos="3"/>
-         <tok src="syr" ref="pr 2" pos="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="2"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="5"/>
-         <tok src="syr" ref="pr 2" pos="2"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="4"/>
-         <tok src="syr" ref="pr 2" pos="3"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="6"/>
-         <tok src="grc" ref="pr 2" pos="7"/>
-         <tok src="syr" ref="pr 2" pos="4"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="8"/>
-         <tok src="grc" ref="pr 2" pos="11"/>
-         <tok src="syr" ref="pr 2" pos="5"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="8"/>
-         <tok src="grc" ref="pr 2" pos="9"/>
-         <tok src="grc" ref="pr 2" pos="10"/>
-         <tok src="syr" ref="pr 2" pos="6"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="13"/>
-         <tok src="grc" ref="pr 2" pos="14"/>
-         <tok src="grc" ref="pr 2" pos="15"/>
-         <tok src="syr" ref="pr 2" pos="8"/>
-         <tok src="syr" ref="pr 2" pos="9"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="18"/>
-         <tok src="grc" ref="pr 2" pos="21"/>
-         <tok src="syr" ref="pr 2" pos="12"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="19"/>
-         <tok src="grc" ref="pr 2" pos="20"/>
-         <tok src="syr" ref="pr 2" pos="13"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="26"/>
-         <tok src="grc" ref="pr 2" pos="27"/>
-         <tok src="syr" ref="pr 2" pos="21"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="37"/>
-         <tok src="syr" ref="pr 2" pos="37"/>
-         <tok src="syr" ref="pr 2" pos="38"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="38"/>
-         <tok src="syr" ref="pr 2" pos="39"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="39"/>
-         <tok src="syr" ref="pr 2" pos="40"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="41"/>
-         <tok src="syr" ref="pr 2" pos="41"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="40"/>
-         <tok src="syr" ref="pr 2" pos="42"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="42"/>
-         <tok src="syr" ref="pr 2" pos="43"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="43"/>
-         <tok src="syr" ref="pr 2" pos="44"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="39"/>
-         <tok src="grc" ref="pr 2" pos="44"/>
-         <tok src="syr" ref="pr 2" pos="45"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="41"/>
-         <tok src="syr" ref="pr 2" pos="46"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="40"/>
-         <tok src="syr" ref="pr 2" pos="47"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="45"/>
-         <tok src="syr" ref="pr 2" pos="48"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="46"/>
-         <tok src="syr" ref="pr 2" pos="49"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="47"/>
-         <tok src="grc" ref="pr 2" pos="48"/>
-         <tok src="syr" ref="pr 2" pos="50"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="49"/>
-         <tok src="syr" ref="pr 2" pos="51"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="50"/>
-         <tok src="syr" ref="pr 2" pos="52"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="51"/>
-         <tok src="syr" ref="pr 2" pos="53"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="52"/>
-         <tok src="grc" ref="pr 2" pos="53"/>
-         <tok src="syr" ref="pr 2" pos="54"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="55"/>
-         <tok src="syr" ref="pr 2" pos="55"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="54"/>
-         <tok src="syr" ref="pr 2" pos="56"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="56"/>
-         <tok src="grc" ref="pr 2" pos="59"/>
-         <tok src="syr" ref="pr 2" pos="57"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="57"/>
-         <tok src="syr" ref="pr 2" pos="58"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="58"/>
-         <tok src="syr" ref="pr 2" pos="59"/>
-         <tok src="syr" ref="pr 2" pos="60"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="62"/>
-         <tok src="syr" ref="pr 2" pos="61"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="60"/>
-         <tok src="syr" ref="pr 2" pos="63"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 2" pos="62"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="63"/>
-         <tok src="syr" ref="pr 2" pos="64"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 2" pos="65"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="65"/>
-         <tok src="syr" ref="pr 2" pos="66"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="66"/>
-         <tok src="syr" ref="pr 2" pos="67"/>
-         <tok src="syr" ref="pr 2" pos="68"/>
-         <tok src="syr" ref="pr 2" pos="69"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="68"/>
-         <tok src="syr" ref="pr 2" pos="70"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="67"/>
-         <tok src="syr" ref="pr 2" pos="71"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="69"/>
-         <tok src="syr" ref="pr 2" pos="72"/>
-         <tok src="syr" ref="pr 2" pos="73" chars="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="70"/>
-         <tok src="syr" ref="pr 2" pos="73"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="71"/>
-         <tok src="grc" ref="pr 2" pos="72"/>
-         <tok src="grc" ref="pr 2" pos="73"/>
-         <tok src="syr" ref="pr 2" pos="74"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="74"/>
-         <tok src="grc" ref="pr 2" pos="75"/>
-         <tok src="grc" ref="pr 2" pos="77"/>
-         <tok src="syr" ref="pr 2" pos="75"/>
-         <tok src="syr" ref="pr 2" pos="76"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 2" pos="76"/>
-         <tok src="grc" ref="pr 2" pos="78"/>
-         <tok src="syr" ref="pr 2" pos="77"/>
-         <tok src="syr" ref="pr 2" pos="78"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="1"/>
-         <tok src="grc" ref="pr 3" pos="3"/>
-         <tok src="syr" ref="pr 3" pos="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="2"/>
-         <tok src="syr" ref="pr 3" pos="2"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="4"/>
-         <tok src="grc" ref="pr 3" pos="5"/>
-         <tok src="syr" ref="pr 3" pos="3"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="10"/>
-         <tok src="syr" ref="pr 3" pos="4"/>
-         <tok src="syr" ref="pr 3" pos="5"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="8"/>
-         <tok src="syr" ref="pr 3" pos="7"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 3" pos="6"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="6"/>
-         <tok src="grc" ref="pr 3" pos="7"/>
-         <tok src="syr" ref="pr 3" pos="7"/>
-         <tok src="syr" ref="pr 3" pos="8"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="20"/>
-         <tok src="syr" ref="pr 3" pos="29"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="23"/>
-         <tok src="syr" ref="pr 3" pos="32"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="26"/>
-         <tok src="syr" ref="pr 3" pos="34"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="24"/>
-         <tok src="grc" ref="pr 3" pos="25"/>
-         <tok src="syr" ref="pr 3" pos="33"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="14" cert="0.75"/>
-         <tok src="grc" ref="pr 3" pos="21"/>
-         <tok src="syr" ref="pr 3" pos="30"/>
-         <tok src="syr" ref="pr 3" pos="31"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="40"/>
-         <tok src="grc" ref="pr 3" pos="41"/>
-         <tok src="grc" ref="pr 3" pos="42"/>
-         <tok src="syr" ref="pr 3" pos="48"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="43"/>
-         <tok src="grc" ref="pr 3" pos="44"/>
-         <tok src="syr" ref="pr 3" pos="49"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="46"/>
-         <tok src="syr" ref="pr 3" pos="50"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="45"/>
-         <tok src="grc" ref="pr 3" pos="47"/>
-         <tok src="syr" ref="pr 3" pos="51"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="31"/>
-         <tok src="syr" ref="pr 3" pos="35"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="32"/>
-         <tok src="syr" ref="pr 3" pos="37"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="33"/>
-         <tok src="syr" ref="pr 3" pos="38"/>
-         <tok src="syr" ref="pr 3" pos="39"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="34"/>
-         <tok src="syr" ref="pr 3" pos="36"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="48"/>
-         <tok src="syr" ref="pr 3" pos="52"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="49"/>
-         <tok src="syr" ref="pr 3" pos="53"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="67"/>
-         <tok src="syr" ref="pr 3" pos="79"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="54"/>
-         <tok src="syr" ref="pr 3" pos="59"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="55"/>
-         <tok src="syr" ref="pr 3" pos="61"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="56"/>
-         <tok src="syr" ref="pr 3" pos="62"/>
-         <tok src="syr" ref="pr 3" pos="63"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="57"/>
-         <tok src="syr" ref="pr 3" pos="66"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="58"/>
-         <tok src="grc" ref="pr 3" pos="59"/>
-         <tok src="syr" ref="pr 3" pos="68"/>
-         <tok src="syr" ref="pr 3" pos="69"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="62"/>
-         <tok src="syr" ref="pr 3" pos="65"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="63"/>
-         <tok src="syr" ref="pr 3" pos="71"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="64"/>
-         <tok src="syr" ref="pr 3" pos="72"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="65"/>
-         <tok src="syr" ref="pr 3" pos="74"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="66"/>
-         <tok src="syr" ref="pr 3" pos="76"/>
-         <tok src="syr" ref="pr 3" pos="77"/>
-         <tok src="syr" ref="pr 3" pos="78"/>
-         <tok src="syr" ref="pr 3" pos="79" chars="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="77"/>
-         <tok src="syr" ref="pr 3" pos="85"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="78"/>
-         <tok src="syr" ref="pr 3" pos="86"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="87"/>
-         <tok src="syr" ref="pr 3" pos="93"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="90"/>
-         <tok src="syr" ref="pr 3" pos="99"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 3" pos="93"/>
-         <tok src="syr" ref="pr 3" pos="102"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 4" pos="1"/>
-         <tok src="grc" ref="pr 4" pos="3"/>
-         <tok src="syr" ref="pr 4" pos="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 4" pos="2"/>
-         <tok src="syr" ref="pr 4" pos="2"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 4" pos="3"/>
-         <tok src="syr" ref="pr 4" pos="4"/>
-         <tok src="syr" ref="pr 4" pos="5"/>
-         <tok src="syr" ref="pr 4" pos="6"/>
-         <tok src="syr" ref="pr 4" pos="7"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 4" pos="6"/>
-         <tok src="syr" ref="pr 4" pos="8"/>
-         <tok src="syr" ref="pr 4" pos="9"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 4" pos="10"/>
-         <tok src="syr" ref="pr 4" pos="10"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 4" pos="7"/>
-         <tok src="grc" ref="pr 4" pos="8"/>
-         <tok src="grc" ref="pr 4" pos="9"/>
-         <tok src="syr" ref="pr 4" pos="11"/>
-         <tok src="syr" ref="pr 4" pos="12"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 4" pos="11"/>
-         <tok src="syr" ref="pr 4" pos="13"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 4" pos="15"/>
-         <tok src="syr" ref="pr 4" pos="14"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 4" pos="12"/>
-         <tok src="grc" ref="pr 4" pos="16"/>
-         <tok src="syr" ref="pr 4" pos="15"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 4" pos="13"/>
-         <tok src="grc" ref="pr 4" pos="14"/>
-         <tok src="syr" ref="pr 4" pos="16"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 4" pos="15"/>
-         <tok src="syr" ref="pr 4" pos="17"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 4" pos="17"/>
-         <tok src="syr" ref="pr 4" pos="18"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 4" pos="18"/>
-         <tok src="grc" ref="pr 4" pos="19"/>
-         <tok src="syr" ref="pr 4" pos="19"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 4" pos="20"/>
-         <tok src="grc" ref="pr 4" pos="21"/>
-         <tok src="syr" ref="pr 4" pos="20"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 5" pos="1"/>
-         <tok src="grc" ref="pr 5" pos="3"/>
-         <tok src="syr" ref="pr 5" pos="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 5" pos="2"/>
-         <tok src="syr" ref="pr 5" pos="2"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 5" pos="4"/>
-         <tok src="syr" ref="pr 5" pos="3"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 5" pos="5"/>
-         <tok src="grc" ref="pr 5" pos="6"/>
-         <tok src="grc" ref="pr 5" pos="7"/>
-         <tok src="syr" ref="pr 5" pos="5"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 5" pos="4"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 5" pos="6"/>
-         <tok src="syr" ref="pr 5" pos="7"/>
-         <tok src="syr" ref="pr 5" pos="8"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 5" pos="14"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 5" pos="8"/>
-         <tok src="syr" ref="pr 5" pos="9"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 5" pos="9"/>
-         <tok src="syr" ref="pr 5" pos="11"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 5" pos="10"/>
-         <tok src="syr" ref="pr 5" pos="12"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 5" pos="11"/>
-         <tok src="syr" ref="pr 5" pos="13" chars="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 5" pos="13"/>
-         <tok src="syr" ref="pr 5" pos="13"/>
-         <tok src="syr" ref="pr 5" pos="15"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 5" pos="12"/>
-         <tok src="grc" ref="pr 5" pos="14"/>
-         <tok src="syr" ref="pr 5" pos="16"/>
-         <tok src="syr" ref="pr 5" pos="17"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 5" pos="15"/>
-         <tok src="syr" ref="pr 5" pos="18"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 5" pos="16"/>
-         <tok src="syr" ref="pr 5" pos="19"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 5" pos="17"/>
-         <tok src="syr" ref="pr 5" pos="20"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 5" pos="18"/>
-         <tok src="syr" ref="pr 5" pos="21"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="1"/>
-         <tok src="grc" ref="pr 6" pos="3"/>
-         <tok src="syr" ref="pr 6" pos="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="2"/>
-         <tok src="syr" ref="pr 6" pos="2"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 6" pos="3"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="4"/>
-         <tok src="syr" ref="pr 6" pos="4"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="5"/>
-         <tok src="syr" ref="pr 6" pos="5"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="33"/>
-         <tok src="grc" ref="pr 6" pos="36"/>
-         <tok src="syr" ref="pr 6" pos="17"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="34"/>
-         <tok src="syr" ref="pr 6" pos="18"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="38"/>
-         <tok src="grc" ref="pr 6" pos="39"/>
-         <tok src="syr" ref="pr 6" pos="19"/>
-         <tok src="syr" ref="pr 6" pos="20"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="37"/>
-         <tok src="syr" ref="pr 6" pos="21"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="40"/>
-         <tok src="syr" ref="pr 6" pos="22"/>
-         <tok src="syr" ref="pr 6" pos="23" chars="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="6"/>
-         <tok src="syr" ref="pr 6" pos="6"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="7"/>
-         <tok src="grc" ref="pr 6" pos="8"/>
-         <tok src="syr" ref="pr 6" pos="7"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="42"/>
-         <tok src="syr" ref="pr 6" pos="24"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="9"/>
-         <tok src="grc" ref="pr 6" pos="10"/>
-         <tok src="syr" ref="pr 6" pos="8"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="11"/>
-         <tok src="grc" ref="pr 6" pos="12"/>
-         <tok src="grc" ref="pr 6" pos="13"/>
-         <tok src="syr" ref="pr 6" pos="9"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="41"/>
-         <tok src="syr" ref="pr 6" pos="25"/>
-         <tok src="syr" ref="pr 6" pos="26"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="14"/>
-         <tok src="syr" ref="pr 6" pos="10"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="15"/>
-         <tok src="grc" ref="pr 6" pos="16"/>
-         <tok src="syr" ref="pr 6" pos="11"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="18"/>
-         <tok src="syr" ref="pr 6" pos="12"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="17"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="23"/>
-         <tok src="syr" ref="pr 6" pos="13"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="22"/>
-         <tok src="syr" ref="pr 6" pos="14"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="20"/>
-         <tok src="grc" ref="pr 6" pos="21"/>
-         <tok src="syr" ref="pr 6" pos="16"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 6" pos="26"/>
-         <tok src="grc" ref="pr 6" pos="27"/>
-         <tok src="syr" ref="pr 6" pos="15"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 7" pos="1"/>
-         <tok src="grc" ref="pr 7" pos="3"/>
-         <tok src="syr" ref="pr 7" pos="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 7" pos="2"/>
-         <tok src="syr" ref="pr 7" pos="2"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 7" pos="3"/>
-         <tok src="syr" ref="pr 7" pos="4"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 7" pos="4"/>
-         <tok src="syr" ref="pr 7" pos="5"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 7" pos="6"/>
-         <tok src="syr" ref="pr 7" pos="6"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 7" pos="5"/>
-         <tok src="syr" ref="pr 7" pos="7"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 7" pos="7"/>
-         <tok src="syr" ref="pr 7" pos="8"/>
-         <tok src="syr" ref="pr 7" pos="9"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 7" pos="8"/>
-         <tok src="grc" ref="pr 7" pos="9"/>
-         <tok src="syr" ref="pr 7" pos="10"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 7" pos="10"/>
-         <tok src="syr" ref="pr 7" pos="11"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 7" pos="11"/>
-         <tok src="grc" ref="pr 7" pos="12"/>
-         <tok src="syr" ref="pr 7" pos="12"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 7" pos="13"/>
-         <tok src="syr" ref="pr 7" pos="13"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 7" pos="14"/>
-         <tok src="grc" ref="pr 7" pos="15"/>
-         <tok src="syr" ref="pr 7" pos="14"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 7" pos="16"/>
-         <tok src="grc" ref="pr 7" pos="17"/>
-         <tok src="grc" ref="pr 7" pos="18"/>
-         <tok src="grc" ref="pr 7" pos="19"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 8" pos="1"/>
-         <tok src="syr" ref="pr 8" pos="2"/>
-         <tok src="syr" ref="pr 8" pos="3"/>
-         <tok src="syr" ref="pr 8" pos="4"/>
-         <tok src="syr" ref="pr 8" pos="5"/>
-         <tok src="syr" ref="pr 8" pos="6"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="6"/>
-         <tok src="grc" ref="pr 8" pos="7"/>
-         <tok src="syr" ref="pr 8" pos="10"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="10"/>
-         <tok src="grc" ref="pr 8" pos="11"/>
-         <tok src="syr" ref="pr 8" pos="7"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 8" pos="8"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 8" pos="11"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="4" cert="0.75"/>
-         <tok src="syr" ref="pr 8" pos="9" cert="0.75"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="13"/>
-         <tok src="syr" ref="pr 8" pos="14"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="12"/>
-         <tok src="grc" ref="pr 8" pos="14"/>
-         <tok src="syr" ref="pr 8" pos="16"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="22"/>
-         <tok src="grc" ref="pr 8" pos="23"/>
-         <tok src="syr" ref="pr 8" pos="19"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="21"/>
-         <tok src="syr" ref="pr 8" pos="21"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 8" pos="17"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="18"/>
-         <tok src="grc" ref="pr 8" pos="19"/>
-         <tok src="syr" ref="pr 8" pos="28"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="20"/>
-         <tok src="syr" ref="pr 8" pos="25"/>
-         <tok src="syr" ref="pr 8" pos="26"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="21"/>
-         <tok src="syr" ref="pr 8" pos="27"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="17"/>
-         <tok src="syr" ref="pr 8" pos="25" chars="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="26"/>
-         <tok src="grc" ref="pr 8" pos="27"/>
-         <tok src="syr" ref="pr 8" pos="31"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="24"/>
-         <tok src="grc" ref="pr 8" pos="25"/>
-         <tok src="syr" ref="pr 8" pos="32"/>
-         <tok src="syr" ref="pr 8" pos="34"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="28"/>
-         <tok src="syr" ref="pr 8" pos="33"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="34"/>
-         <tok src="syr" ref="pr 8" pos="37" chars="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="36"/>
-         <tok src="syr" ref="pr 8" pos="39"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="35"/>
-         <tok src="syr" ref="pr 8" pos="37"/>
-         <tok src="syr" ref="pr 8" pos="38"/>
-      </align>
-      <align reuse-type="para">
-         <tok src="grc" ref="pr 8" pos="37"/>
-         <tok src="syr" ref="pr 8" pos="40"/>
-         <tok src="syr" ref="pr 8" pos="41"/>
-         <tok src="syr" ref="pr 8" pos="42"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="39"/>
-         <tok src="syr" ref="pr 8" pos="43" chars="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="30"/>
-         <tok src="grc" ref="pr 8" pos="31"/>
-         <tok src="syr" ref="pr 8" pos="35"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="32"/>
-         <tok src="grc" ref="pr 8" pos="33"/>
-         <tok src="syr" ref="pr 8" pos="36"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="38"/>
-         <tok src="syr" ref="pr 8" pos="43"/>
-         <tok src="syr" ref="pr 8" pos="44"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="40"/>
-         <tok src="grc" ref="pr 8" pos="41"/>
-         <tok src="syr" ref="pr 8" pos="45"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="42"/>
-         <tok src="syr" ref="pr 8" pos="46"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="49"/>
-         <tok src="syr" ref="pr 8" pos="54"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="50"/>
-         <tok src="syr" ref="pr 8" pos="53"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="51"/>
-         <tok src="grc" ref="pr 8" pos="52"/>
-         <tok src="syr" ref="pr 8" pos="55"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="53"/>
-         <tok src="syr" ref="pr 8" pos="56"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 8" pos="57"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="55"/>
-         <tok src="syr" ref="pr 8" pos="58"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="56"/>
-         <tok src="syr" ref="pr 8" pos="59"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="57"/>
-         <tok src="syr" ref="pr 8" pos="60"/>
-         <tok src="syr" ref="pr 8" pos="61"/>
-         <tok src="syr" ref="pr 8" pos="62"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="59"/>
-         <tok src="syr" ref="pr 8" pos="63"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="60"/>
-         <tok src="syr" ref="pr 8" pos="64"/>
-         <tok src="syr" ref="pr 8" pos="65"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 8" pos="66"/>
-         <tok src="syr" ref="pr 8" pos="67"/>
-         <tok src="syr" ref="pr 8" pos="68"/>
-         <tok src="syr" ref="pr 8" pos="69"/>
-         <tok src="syr" ref="pr 8" pos="70"/>
-         <tok src="syr" ref="pr 8" pos="71"/>
-         <tok src="syr" ref="pr 8" pos="72"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="64"/>
-         <tok src="syr" ref="pr 8" pos="73"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="63"/>
-         <tok src="syr" ref="pr 8" pos="74"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="43"/>
-         <tok src="grc" ref="pr 8" pos="44"/>
-         <tok src="syr" ref="pr 8" pos="47"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="45"/>
-         <tok src="grc" ref="pr 8" pos="46"/>
-         <tok src="syr" ref="pr 8" pos="48"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="47"/>
-         <tok src="syr" ref="pr 8" pos="49"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 8" pos="48"/>
-         <tok src="syr" ref="pr 8" pos="50"/>
-         <tok src="syr" ref="pr 8" pos="51"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="4"/>
-         <tok src="grc" ref="pr 9" pos="5"/>
-         <tok src="syr" ref="pr 9" pos="8"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="6"/>
-         <tok src="grc" ref="pr 9" pos="7"/>
-         <tok src="syr" ref="pr 9" pos="9"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="8"/>
-         <tok src="syr" ref="pr 9" pos="10" chars="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="42"/>
-         <tok src="grc" ref="pr 9" pos="43"/>
-         <tok src="syr" ref="pr 9" pos="45"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="2"/>
-         <tok src="syr" ref="pr 9" pos="7"/>
-         <tok src="syr" ref="pr 9" pos="10"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="9"/>
-         <tok src="grc" ref="pr 9" pos="10"/>
-         <tok src="syr" ref="pr 9" pos="11"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="11"/>
-         <tok src="grc" ref="pr 9" pos="12"/>
-         <tok src="syr" ref="pr 9" pos="12"/>
-         <tok src="syr" ref="pr 9" pos="13"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="18"/>
-         <tok src="syr" ref="pr 9" pos="15"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="29"/>
-         <tok src="syr" ref="pr 9" pos="21"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="32"/>
-         <tok src="syr" ref="pr 9" pos="38"/>
-         <tok src="syr" ref="pr 9" pos="39"/>
-         <tok src="syr" ref="pr 9" pos="40" chars="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="33"/>
-         <tok src="syr" ref="pr 9" pos="40"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="34"/>
-         <tok src="grc" ref="pr 9" pos="35"/>
-         <tok src="syr" ref="pr 9" pos="41"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="36"/>
-         <tok src="syr" ref="pr 9" pos="42"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="37"/>
-         <tok src="syr" ref="pr 9" pos="43"/>
-         <tok src="syr" ref="pr 9" pos="44"/>
-         <tok src="syr" ref="pr 9" pos="45" chars="1"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="31"/>
-         <tok src="syr" ref="pr 9" pos="35"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="45"/>
-         <tok src="syr" ref="pr 9" pos="55"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="53"/>
-         <tok src="grc" ref="pr 9" pos="54"/>
-         <tok src="syr" ref="pr 9" pos="61"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="73"/>
-         <tok src="syr" ref="pr 9" pos="74"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="81"/>
-         <tok src="syr" ref="pr 9" pos="80"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="82"/>
-         <tok src="syr" ref="pr 9" pos="79"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="84"/>
-         <tok src="syr" ref="pr 9" pos="83"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="85"/>
-         <tok src="grc" ref="pr 9" pos="86"/>
-         <tok src="grc" ref="pr 9" pos="87"/>
-         <tok src="syr" ref="pr 9" pos="84"/>
-         <tok src="syr" ref="pr 9" pos="86"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="55"/>
-         <tok src="grc" ref="pr 9" pos="56"/>
-         <tok src="syr" ref="pr 9" pos="62"/>
-         <tok src="syr" ref="pr 9" pos="63"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="88"/>
-         <tok src="syr" ref="pr 9" pos="85"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="80"/>
-         <tok src="grc" ref="pr 9" pos="83"/>
-         <tok src="syr" ref="pr 9" pos="81"/>
-         <tok src="syr" ref="pr 9" pos="82"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="90"/>
-         <tok src="syr" ref="pr 9" pos="88"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="74"/>
-         <tok src="syr" ref="pr 9" pos="75"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="75"/>
-         <tok src="grc" ref="pr 9" pos="76"/>
-         <tok src="syr" ref="pr 9" pos="76"/>
-      </align>
-      <align>
-         <tok src="syr" ref="pr 9" pos="87"/>
-         <tok src="syr" ref="pr 9" pos="89"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="77"/>
-         <tok src="syr" ref="pr 9" pos="77"/>
-      </align>
-      <align>
-         <tok src="grc" ref="pr 9" pos="78"/>
-         <tok src="grc" ref="pr 9" pos="79"/>
-         <tok src="syr" ref="pr 9" pos="78"/>
-      </align>
-      <align>
-         <tok src="grc" ref="ti" pos="3"/>
-         <tok src="syr" ref="ti" pos="10"/>
-      </align>
       <align>
-         <tok src="grc" ref="ti" pos="1"/>
-         <tok src="grc" ref="ti" pos="2"/>
+         <tok src="grc" ref="ti" val="ΤΟΥ" pos="1"/>
+         <tok src="grc" ref="ti" val="ΑΥΤΟΥ" pos="1"/>
       </align>
       <align>
          <tok src="grc" ref="ti" pos="4 - 6"/>
       </align>
       <align>
-         <tok src="syr" ref="ti" pos="1"/>
-         <tok src="syr" ref="ti" pos="2"/>
-         <tok src="syr" ref="ti" pos="3"/>
-         <tok src="syr" ref="ti" pos="4"/>
-         <tok src="syr" ref="ti" pos="5"/>
-         <tok src="syr" ref="ti" pos="6"/>
-         <tok src="syr" ref="ti" pos="7"/>
-         <tok src="syr" ref="ti" pos="8"/>
+         <tok src="syr" ref="ti" val="ܬܘܒ" pos="1"/>
+         <tok src="syr" ref="ti" val="ܡܠܦܢܘܬܐ" pos="1"/>
+         <tok src="syr" ref="ti" val="ܕܠܗ" pos="1"/>
+         <tok src="syr" ref="ti" val="ܟܕ" pos="1"/>
+         <tok src="syr" ref="ti" val="ܕܝܠܗ" pos="1"/>
+         <tok src="syr" ref="ti" val="ܕܠܘܬ" pos="1"/>
+         <tok src="syr" ref="ti" val="ܐܚ̈ܐ" pos="1"/>
+         <tok src="syr" ref="ti" val="ܝܚ̈ܝܕܝܐ" pos="1"/>
       </align>
       <align>
-         <tok src="syr" ref="ti" pos="9"/>
-         <tok src="syr" ref="ti" pos="11"/>
+         <tok src="syr" ref="ti" val="ܕܒܡܕܒܪܐ" pos="1"/>
+         <tok src="syr" ref="ti" val="ܡܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="1" pos="1"/>
-         <tok src="syr" ref="1" pos="1"/>
+         <tok src="grc" ref="1" val="Χριστιανισμός" pos="1"/>
+         <tok src="syr" ref="1" val="ܟܪܣܛܝܢܘܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="1" pos="2"/>
-         <tok src="syr" ref="1" pos="2"/>
+         <tok src="grc" ref="1" val="ἐστι" pos="1"/>
+         <tok src="syr" ref="1" val="ܐܝܬܝܗ̇" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="1" pos="3"/>
-         <tok src="syr" ref="1" pos="3"/>
+         <tok src="grc" ref="1" val="δόγμα" pos="1"/>
+         <tok src="syr" ref="1" val="ܝܘܠܦܢܗ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="1" pos="4"/>
-         <tok src="syr" ref="1" pos="4"/>
+         <tok src="grc" ref="1" val="τοῦ" pos="1"/>
+         <tok src="syr" ref="1" val="ܕܡܫܝܚܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="1" pos="5"/>
-         <tok src="grc" ref="1" pos="6"/>
-         <tok src="syr" ref="1" pos="5"/>
+         <tok src="grc" ref="1" val="Σωτῆρος" pos="1"/>
+         <tok src="grc" ref="1" val="ἡμῶν" pos="1"/>
+         <tok src="syr" ref="1" val="ܡܚܝܢܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="1" pos="7"/>
-         <tok src="grc" ref="1" pos="8"/>
-         <tok src="syr" ref="1" pos="6"/>
+         <tok src="grc" ref="1" val="Χριστοῦ" pos="1"/>
+         <tok src="grc" ref="1" val="ἐκ" pos="1"/>
+         <tok src="syr" ref="1" val="ܕܡܬܩ̇ܝܡ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="1" pos="9"/>
-         <tok src="syr" ref="1" pos="8"/>
+         <tok src="grc" ref="1" val="πρακτικῆς" pos="1"/>
+         <tok src="syr" ref="1" val="ܥ̇ܒ̈ܕܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="1" pos="10"/>
-         <tok src="syr" ref="1" pos="10"/>
-         <tok src="syr" ref="1" pos="9"/>
+         <tok src="grc" ref="1" val="καὶ" pos="1"/>
+         <tok src="syr" ref="1" val="ܘܡܢ" pos="1"/>
+         <tok src="syr" ref="1" val="ܕܡܝܬܪܘܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="1" pos="11"/>
-         <tok src="grc" ref="1" pos="9"/>
-         <tok src="syr" ref="1" pos="11"/>
+         <tok src="grc" ref="1" val="φυσικῆς" pos="1"/>
+         <tok src="grc" ref="1" val="πρακτικῆς" pos="1"/>
+         <tok src="syr" ref="1" val="ܝܕܥܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="1" pos="12"/>
-         <tok src="syr" ref="1" pos="12"/>
-         <tok src="syr" ref="1" pos="13"/>
+         <tok src="grc" ref="1" val="καὶ" pos="2"/>
+         <tok src="syr" ref="1" val="ܕܟ̈ܝܢܐ" pos="1"/>
+         <tok src="syr" ref="1" val="ܘܡܢ" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="1" pos="13"/>
-         <tok src="grc" ref="1" pos="9"/>
-         <tok src="syr" ref="1" pos="14"/>
+         <tok src="grc" ref="1" val="θεολογικῆς" pos="1"/>
+         <tok src="grc" ref="1" val="πρακτικῆς" pos="1"/>
+         <tok src="syr" ref="1" val="ܗܝܡܢܘܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="1" pos="14"/>
-         <tok src="syr" ref="1" pos="15"/>
-         <tok src="syr" ref="1" pos="16" cert="0.25"/>
-         <tok src="syr" ref="1" pos="17" cert="0.25"/>
+         <tok src="grc" ref="1" val="συνεστός" pos="1"/>
+         <tok src="syr" ref="1" val="ܫܪܝܪܬܐ" pos="1"/>
+         <tok src="syr" ref="1" cert="0.25" val="ܕܙܕܩܐ" pos="1"/>
+         <tok src="syr" ref="1" cert="0.25" val="ܠܐܠܗܐ" pos="1"/>
          <tok src="syr" ref="1" pos="18"/>
       </align>
       <align>
          <tok src="grc" ref="1" pos="15"/>
-         <tok src="syr" ref="1" pos="7"/>
+         <tok src="syr" ref="1" val="ܡܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="2" pos="1"/>
-         <tok src="syr" ref="2" pos="1"/>
+         <tok src="grc" ref="2" val="Βασιλεία" pos="1"/>
+         <tok src="syr" ref="2" val="ܡܠܟܘܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="2" pos="2"/>
-         <tok src="syr" ref="2" pos="2"/>
+         <tok src="grc" ref="2" val="οὐρανῶν" pos="1"/>
+         <tok src="syr" ref="2" val="ܕܫܡܝܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="2" pos="3"/>
-         <tok src="syr" ref="2" pos="3"/>
+         <tok src="grc" ref="2" val="ἐστιν" pos="1"/>
+         <tok src="syr" ref="2" val="ܐܝܬܝܗ̇" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="2" pos="4"/>
-         <tok src="syr" ref="2" pos="4"/>
+         <tok src="grc" ref="2" val="ἀπάθεια" pos="1"/>
+         <tok src="syr" ref="2" val="ܠܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="2" pos="5"/>
-         <tok src="syr" ref="2" pos="5"/>
-         <tok src="syr" ref="2" pos="6"/>
+         <tok src="grc" ref="2" val="ψυχῆς" pos="1"/>
+         <tok src="syr" ref="2" val="ܚܫܘܫܘܬܐ" pos="1"/>
+         <tok src="syr" ref="2" val="ܕܢܦܫܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="2" pos="6"/>
-         <tok src="syr" ref="2" pos="7"/>
+         <tok src="grc" ref="2" val="μετὰ" pos="1"/>
+         <tok src="syr" ref="2" val="ܥܡ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="2" pos="7"/>
-         <tok src="syr" ref="2" pos="8"/>
+         <tok src="grc" ref="2" val="γνώσεως" pos="1"/>
+         <tok src="syr" ref="2" val="ܝܕܥܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="2" pos="8"/>
-         <tok src="syr" ref="2" pos="9"/>
+         <tok src="grc" ref="2" val="τῶν" pos="1"/>
+         <tok src="syr" ref="2" val="ܕܫܪܪܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="2" pos="10"/>
-         <tok src="grc" ref="2" pos="9"/>
-         <tok src="syr" ref="2" pos="11"/>
+         <tok src="grc" ref="2" val="ἀληθοῦς" pos="1"/>
+         <tok src="grc" ref="2" val="ὄντων" pos="1"/>
+         <tok src="syr" ref="2" val="ܕܐܝܬܝܗܝܢ" pos="1"/>
          <tok src="syr" ref="2" pos="12"/>
       </align>
       <align>
          <tok src="grc" ref="2" pos="11"/>
-         <tok src="syr" ref="2" pos="10"/>
+         <tok src="syr" ref="2" val="ܕܗܠܝܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="3" pos="1"/>
-         <tok src="syr" ref="3" pos="1"/>
+         <tok src="grc" ref="3" val="Βασιλεία" pos="1"/>
+         <tok src="syr" ref="3" val="ܡܠܟܘܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="3" pos="2"/>
-         <tok src="syr" ref="3" pos="2"/>
+         <tok src="grc" ref="3" val="Θεοῦ" pos="1"/>
+         <tok src="syr" ref="3" val="ܕܐܠܗܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="3" pos="3"/>
-         <tok src="syr" ref="3" pos="3"/>
+         <tok src="grc" ref="3" val="ἐστι" pos="1"/>
+         <tok src="syr" ref="3" val="ܐܝܬܝܗ̇" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="3" pos="4"/>
-         <tok src="syr" ref="3" pos="4"/>
+         <tok src="grc" ref="3" val="γνῶσις" pos="1"/>
+         <tok src="syr" ref="3" val="ܐܝܕܥܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="3" pos="5"/>
-         <tok src="syr" ref="3" pos="5"/>
+         <tok src="grc" ref="3" val="τῆς" pos="1"/>
+         <tok src="syr" ref="3" val="ܕܬܠܝܬܝܘܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="3" pos="6"/>
-         <tok src="grc" ref="3" pos="7"/>
-         <tok src="syr" ref="3" pos="7"/>
+         <tok src="grc" ref="3" val="ἁγίας" pos="1"/>
+         <tok src="grc" ref="3" val="Τριάδος" pos="1"/>
+         <tok src="syr" ref="3" val="ܕ̇ܡܬܕܪܟܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="3" pos="6"/>
-         <tok src="grc" ref="3" pos="8"/>
-         <tok src="syr" ref="3" pos="6"/>
+         <tok src="grc" ref="3" val="ἁγίας" pos="1"/>
+         <tok src="grc" ref="3" val="συμπαρεκτεινομένη" pos="1"/>
+         <tok src="syr" ref="3" val="ܡܫܒܚܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="3" pos="9"/>
-         <tok src="syr" ref="3" pos="8"/>
+         <tok src="grc" ref="3" val="τῇ" pos="1"/>
+         <tok src="syr" ref="3" val="ܐܝܟ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="3" pos="10"/>
-         <tok src="grc" ref="3" pos="11"/>
-         <tok src="syr" ref="3" pos="9"/>
-         <tok src="syr" ref="3" pos="10"/>
+         <tok src="grc" ref="3" val="συστάσει" pos="1"/>
+         <tok src="grc" ref="3" val="τοῦ" pos="1"/>
+         <tok src="syr" ref="3" val="ܚܝܠܗ" pos="1"/>
+         <tok src="syr" ref="3" val="ܕܡܕܥܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="3" pos="12"/>
-         <tok src="grc" ref="3" pos="13"/>
-         <tok src="syr" ref="3" pos="11"/>
+         <tok src="grc" ref="3" val="νοός" pos="1"/>
+         <tok src="grc" ref="3" val="καὶ" pos="1"/>
+         <tok src="syr" ref="3" val="ܡܛܠ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="3" pos="16"/>
-         <tok src="grc" ref="3" pos="17"/>
+         <tok src="grc" ref="3" val="ἀφθαρσίαν" pos="1"/>
+         <tok src="grc" ref="3" val="αὐτοῦ" pos="1"/>
          <tok src="grc" ref="3" pos="18"/>
-         <tok src="syr" ref="3" pos="16"/>
+         <tok src="syr" ref="3" val="ܡܬܚܒܠܢܘܬܗ" pos="1"/>
          <tok src="syr" ref="3" pos="17"/>
       </align>
       <align>
-         <tok src="grc" ref="3" pos="14"/>
-         <tok src="syr" ref="3" pos="12"/>
+         <tok src="grc" ref="3" val="ὑπερβάλλουσα" pos="1"/>
+         <tok src="syr" ref="3" val="ܕܡܥܠܝܐ" pos="1"/>
          <tok src="syr" ref="3" pos="13" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="3" pos="15"/>
+         <tok src="grc" ref="3" val="τὴν" pos="1"/>
          <tok src="syr" ref="3" pos="13"/>
-         <tok src="syr" ref="3" pos="14"/>
-         <tok src="syr" ref="3" pos="15"/>
+         <tok src="syr" ref="3" val="ܡܢ" pos="1"/>
+         <tok src="syr" ref="3" val="ܠܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="3" pos="2"/>
-         <tok src="syr" ref="3" pos="14"/>
+         <tok src="grc" ref="3" val="Θεοῦ" pos="1"/>
+         <tok src="syr" ref="3" val="ܡܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="1"/>
-         <tok src="syr" ref="4" pos="1"/>
+         <tok src="grc" ref="4" val="Οὗτινός" pos="1"/>
+         <tok src="syr" ref="4" val="ܗ̇ܘ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="2"/>
-         <tok src="grc" ref="4" pos="5"/>
-         <tok src="syr" ref="4" pos="2"/>
-         <tok src="syr" ref="4" pos="3"/>
+         <tok src="grc" ref="4" val="τις" pos="1"/>
+         <tok src="grc" ref="4" val="καὶ" pos="1"/>
+         <tok src="syr" ref="4" val="ܡܕܡ" pos="1"/>
+         <tok src="syr" ref="4" val="ܕܪܚ̇ܡ" pos="1"/>
          <tok src="syr" ref="4" pos="4" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="3"/>
-         <tok src="syr" ref="4" pos="5"/>
+         <tok src="grc" ref="4" val="ἐρᾷ" pos="1"/>
+         <tok src="syr" ref="4" val="ܠܗ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="4"/>
+         <tok src="grc" ref="4" val="τούτου" pos="1"/>
          <tok src="syr" ref="4" pos="4"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="7"/>
-         <tok src="syr" ref="4" pos="7"/>
-         <tok src="syr" ref="4" pos="8"/>
+         <tok src="grc" ref="4" val="πάντως" pos="1"/>
+         <tok src="syr" ref="4" val="ܪܐ̇ܓ" pos="1"/>
+         <tok src="syr" ref="4" val="ܘܗ̇ܘ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="9"/>
-         <tok src="syr" ref="4" pos="9"/>
+         <tok src="grc" ref="4" val="οὗ" pos="1"/>
+         <tok src="syr" ref="4" val="ܡܕܡ" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="10"/>
-         <tok src="grc" ref="4" pos="12"/>
-         <tok src="syr" ref="4" pos="10"/>
-         <tok src="syr" ref="4" pos="9"/>
+         <tok src="grc" ref="4" val="ἐφίεται" pos="2"/>
+         <tok src="grc" ref="4" val="καὶ" pos="3"/>
+         <tok src="syr" ref="4" val="ܕܪܐ̇ܓ" pos="1"/>
+         <tok src="syr" ref="4" val="ܡܕܡ" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="11"/>
-         <tok src="syr" ref="4" pos="11"/>
+         <tok src="grc" ref="4" val="τούτου" pos="2"/>
+         <tok src="syr" ref="4" val="ܐܦ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="17"/>
-         <tok src="syr" ref="4" pos="17"/>
+         <tok src="grc" ref="4" val="μὲν" pos="1"/>
+         <tok src="syr" ref="4" val="ܓܝܪ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="18"/>
-         <tok src="syr" ref="4" pos="18"/>
+         <tok src="grc" ref="4" val="ἡδονῆς" pos="1"/>
+         <tok src="syr" ref="4" val="ܢܝܚܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="23"/>
-         <tok src="syr" ref="4" pos="27"/>
+         <tok src="grc" ref="4" val="τίκτει" pos="1"/>
+         <tok src="syr" ref="4" val="ܡ̇ܘܠܕܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="24"/>
-         <tok src="syr" ref="4" pos="28"/>
+         <tok src="grc" ref="4" val="αἴσθησις" pos="1"/>
+         <tok src="syr" ref="4" val="ܪܓܫܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="28"/>
-         <tok src="syr" ref="4" pos="33"/>
-         <tok src="syr" ref="4" pos="34"/>
+         <tok src="grc" ref="4" val="ἄμοιρον" pos="1"/>
+         <tok src="syr" ref="4" val="ܪܓܫܬܐ" pos="2"/>
+         <tok src="syr" ref="4" val="ܐܦ" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="14"/>
-         <tok src="syr" ref="4" pos="14"/>
+         <tok src="grc" ref="4" val="ἀγωνίζεται" pos="1"/>
+         <tok src="syr" ref="4" val="ܠܗ" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="21"/>
-         <tok src="syr" ref="4" pos="21"/>
-         <tok src="syr" ref="4" pos="22"/>
+         <tok src="grc" ref="4" val="ἐπιθυμίαν" pos="1"/>
+         <tok src="syr" ref="4" val="ܡܢ" pos="1"/>
+         <tok src="syr" ref="4" val="ܪܓܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="19"/>
-         <tok src="syr" ref="4" pos="19"/>
+         <tok src="grc" ref="4" val="ἐπιθυμία" pos="1"/>
+         <tok src="syr" ref="4" val="ܕܐܝܬ" pos="1"/>
       </align>
       <align>
-         <tok src="syr" ref="4" pos="20"/>
+         <tok src="syr" ref="4" val="ܫܘܪܝܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="5"/>
-         <tok src="syr" ref="4" pos="6"/>
+         <tok src="grc" ref="4" val="καὶ" pos="1"/>
+         <tok src="syr" ref="4" val="ܗܘ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="6"/>
+         <tok src="grc" ref="4" val="ἐφίεται" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="8"/>
+         <tok src="grc" ref="4" val="καὶ" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="13"/>
-         <tok src="syr" ref="4" pos="12"/>
+         <tok src="grc" ref="4" val="τυχεῖν" pos="1"/>
+         <tok src="syr" ref="4" val="ܕܒܥ̇ܒܕܐ" pos="1"/>
          <tok src="syr" ref="4" pos="13" chars="1"/>
       </align>
       <align>
-         <tok src="syr" ref="4" pos="15"/>
+         <tok src="syr" ref="4" val="ܡܬ̇ܟܬܫ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="15"/>
-         <tok src="syr" ref="4" pos="16"/>
+         <tok src="grc" ref="4" val="καὶ" pos="4"/>
+         <tok src="syr" ref="4" val="ܟܠ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="4" pos="16"/>
+         <tok src="grc" ref="4" val="πάσης" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="1"/>
-         <tok src="syr" ref="5" pos="1"/>
+         <tok src="grc" ref="5" val="Τοῖς" pos="1"/>
+         <tok src="syr" ref="5" val="ܥܡ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="2"/>
-         <tok src="grc" ref="5" pos="4"/>
-         <tok src="syr" ref="5" pos="3"/>
+         <tok src="grc" ref="5" val="μὲν" pos="1"/>
+         <tok src="grc" ref="5" val="οἱ" pos="1"/>
+         <tok src="syr" ref="5" val="ܕܝ̈ܘܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="3"/>
+         <tok src="grc" ref="5" val="ἀναχωρηταῖς" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="5"/>
-         <tok src="grc" ref="5" pos="6"/>
-         <tok src="syr" ref="5" pos="4"/>
+         <tok src="grc" ref="5" val="δαίμονες" pos="1"/>
+         <tok src="grc" ref="5" val="γυμνοὶ" pos="1"/>
+         <tok src="syr" ref="5" val="ܝܚܝܕܐܝܬ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="10"/>
-         <tok src="syr" ref="5" pos="11"/>
+         <tok src="grc" ref="5" val="ἐν" pos="1"/>
+         <tok src="syr" ref="5" val="ܕܒܟܢܘܫܝܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="23"/>
-         <tok src="syr" ref="5" pos="21"/>
+         <tok src="grc" ref="5" val="δὲ" pos="2"/>
+         <tok src="syr" ref="5" val="ܕܝܢ" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="24"/>
-         <tok src="syr" ref="5" pos="22"/>
+         <tok src="grc" ref="5" val="κουφότερος" pos="1"/>
+         <tok src="syr" ref="5" val="ܦܫܝܚ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="25"/>
-         <tok src="syr" ref="5" pos="23"/>
-         <tok src="syr" ref="5" pos="27"/>
+         <tok src="grc" ref="5" val="ὁ" pos="1"/>
+         <tok src="syr" ref="5" val="ܗܢܐ" pos="1"/>
+         <tok src="syr" ref="5" val="ܗ̇ܘ݂" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="26"/>
-         <tok src="syr" ref="5" pos="24"/>
+         <tok src="grc" ref="5" val="δεύτερος" pos="1"/>
+         <tok src="syr" ref="5" val="ܩܪܒܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="27"/>
-         <tok src="syr" ref="5" pos="26"/>
+         <tok src="grc" ref="5" val="πόλεμος" pos="1"/>
+         <tok src="syr" ref="5" val="ܡܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="29"/>
-         <tok src="syr" ref="5" pos="28"/>
+         <tok src="grc" ref="5" val="πρώτου" pos="1"/>
+         <tok src="syr" ref="5" val="ܩܕܡܝܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="30"/>
-         <tok src="syr" ref="5" pos="29"/>
+         <tok src="grc" ref="5" val="διότι" pos="1"/>
+         <tok src="syr" ref="5" val="ܡܛܠ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="31"/>
-         <tok src="syr" ref="5" pos="30"/>
+         <tok src="grc" ref="5" val="οὐκ" pos="1"/>
+         <tok src="syr" ref="5" val="ܕܠܐ" pos="2"/>
          <tok src="syr" ref="5" pos="31" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="32"/>
+         <tok src="grc" ref="5" val="ἔστιν" pos="1"/>
          <tok src="syr" ref="5" pos="31"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="33"/>
-         <tok src="syr" ref="5" pos="32"/>
+         <tok src="grc" ref="5" val="εὑρεῖν" pos="1"/>
+         <tok src="syr" ref="5" val="ܕܢܫܟܚ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="34"/>
-         <tok src="syr" ref="5" pos="33"/>
+         <tok src="grc" ref="5" val="ἐπὶ" pos="1"/>
+         <tok src="syr" ref="5" val="ܥܠ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="35"/>
-         <tok src="syr" ref="5" pos="34"/>
+         <tok src="grc" ref="5" val="τῆς" pos="1"/>
+         <tok src="syr" ref="5" val="ܐܪܥܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="36"/>
-         <tok src="grc" ref="5" pos="37"/>
-         <tok src="syr" ref="5" pos="35"/>
+         <tok src="grc" ref="5" val="γῆς" pos="1"/>
+         <tok src="grc" ref="5" val="ἀνθρώπους" pos="1"/>
+         <tok src="syr" ref="5" val="ܒܢܝܢ̈ܫܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="38"/>
-         <tok src="syr" ref="5" pos="36"/>
+         <tok src="grc" ref="5" val="πικροτέρους" pos="1"/>
+         <tok src="syr" ref="5" val="ܕܡܪܝܪܝܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="39"/>
-         <tok src="syr" ref="5" pos="37"/>
-         <tok src="syr" ref="5" pos="38"/>
+         <tok src="grc" ref="5" val="δαιμόνων" pos="1"/>
+         <tok src="syr" ref="5" val="ܡܢ" pos="2"/>
+         <tok src="syr" ref="5" val="ܕܝ̈ܘܐ" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="40"/>
-         <tok src="syr" ref="5" pos="39"/>
+         <tok src="grc" ref="5" val="ἢ" pos="2"/>
+         <tok src="syr" ref="5" val="ܐܘ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="41"/>
-         <tok src="syr" ref="5" pos="40"/>
+         <tok src="grc" ref="5" val="πᾶσαν" pos="1"/>
+         <tok src="syr" ref="5" val="ܕܡܠܝܐܝܬ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="42"/>
-         <tok src="syr" ref="5" pos="42"/>
+         <tok src="grc" ref="5" val="ἀθρόως" pos="1"/>
+         <tok src="syr" ref="5" val="ܨܢܝܥܘܬܗܘܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="5" pos="45"/>
+         <tok src="grc" ref="5" val="τὴν" pos="2"/>
          <tok src="syr" ref="5" pos="44"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="1"/>
-         <tok src="syr" ref="6" pos="1"/>
+         <tok src="grc" ref="6" val="Ὀκτώ" pos="1"/>
+         <tok src="syr" ref="6" val="ܬܡܢܝܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="2"/>
-         <tok src="syr" ref="6" pos="2"/>
+         <tok src="grc" ref="6" val="εἰσι" pos="1"/>
+         <tok src="syr" ref="6" val="ܕܝܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="3"/>
-         <tok src="syr" ref="6" pos="7"/>
+         <tok src="grc" ref="6" val="πάντες" pos="1"/>
+         <tok src="syr" ref="6" val="ܕܒܗܘܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="5"/>
-         <tok src="grc" ref="6" pos="7"/>
-         <tok src="syr" ref="6" pos="5"/>
-         <tok src="syr" ref="6" pos="6"/>
+         <tok src="grc" ref="6" val="γενικώτατοι" pos="1"/>
+         <tok src="grc" ref="6" val="ἐν" pos="1"/>
+         <tok src="syr" ref="6" val="ܒܝ݂̈ܫܐ" pos="1"/>
+         <tok src="syr" ref="6" val="ܐܝܬܝܗܘܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="6"/>
-         <tok src="syr" ref="6" pos="4"/>
+         <tok src="grc" ref="6" val="λογισμοὶ" pos="1"/>
+         <tok src="syr" ref="6" val="ܕܚܘܫ̈ܒܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="8"/>
-         <tok src="grc" ref="6" pos="9"/>
-         <tok src="syr" ref="6" pos="8"/>
+         <tok src="grc" ref="6" val="οἷς" pos="1"/>
+         <tok src="grc" ref="6" val="περιέχεται" pos="1"/>
+         <tok src="syr" ref="6" val="ܡܬܚ̇ܫܒ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="10"/>
-         <tok src="syr" ref="6" pos="9"/>
+         <tok src="grc" ref="6" val="πᾶς" pos="1"/>
+         <tok src="syr" ref="6" val="ܟܠ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="11"/>
-         <tok src="syr" ref="6" pos="10"/>
+         <tok src="grc" ref="6" val="λογισμός" pos="1"/>
+         <tok src="syr" ref="6" val="ܚܘܫܒܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="12"/>
-         <tok src="syr" ref="6" pos="11"/>
-         <tok src="syr" ref="6" pos="12"/>
+         <tok src="grc" ref="6" val="πρῶτος" pos="1"/>
+         <tok src="syr" ref="6" val="ܕܚܫ̈ܐ" pos="1"/>
+         <tok src="syr" ref="6" val="ܩܕܡܝܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="13"/>
-         <tok src="syr" ref="6" pos="13"/>
+         <tok src="grc" ref="6" val="ὁ" pos="1"/>
+         <tok src="syr" ref="6" val="ܕܠܥܒܘܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="15"/>
-         <tok src="grc" ref="6" pos="16"/>
+         <tok src="grc" ref="6" val="γαστριμαργίας" pos="1"/>
+         <tok src="grc" ref="6" val="καὶ" pos="1"/>
          <tok src="syr" ref="6" pos="14"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="17"/>
-         <tok src="grc" ref="6" pos="18"/>
-         <tok src="grc" ref="6" pos="19"/>
-         <tok src="syr" ref="6" pos="15"/>
+         <tok src="grc" ref="6" val="μετ" pos="1"/>
+         <tok src="grc" ref="6" val="αὐτὸν" pos="1"/>
+         <tok src="grc" ref="6" val="ὁ" pos="2"/>
+         <tok src="syr" ref="6" val="ܕܙܢܝܘܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="21"/>
-         <tok src="grc" ref="6" pos="22"/>
+         <tok src="grc" ref="6" val="πορνείας" pos="1"/>
+         <tok src="grc" ref="6" val="τρίτος" pos="1"/>
          <tok src="syr" ref="6" pos="16"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="4"/>
+         <tok src="grc" ref="6" val="οἱ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="14"/>
+         <tok src="grc" ref="6" val="τῆς" pos="1"/>
          <tok src="syr" ref="6" pos="14" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="20"/>
+         <tok src="grc" ref="6" val="τῆς" pos="2"/>
          <tok src="syr" ref="6" pos="16" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="23"/>
-         <tok src="syr" ref="6" pos="17"/>
+         <tok src="grc" ref="6" val="ὁ" pos="3"/>
+         <tok src="syr" ref="6" val="ܕܪܚ݂ܡܬ̇" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="24"/>
+         <tok src="grc" ref="6" val="τῆς" pos="3"/>
          <tok src="syr" ref="6" pos="18" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="25"/>
-         <tok src="grc" ref="6" pos="26"/>
+         <tok src="grc" ref="6" val="φιλαργυρίας" pos="1"/>
+         <tok src="grc" ref="6" val="τέταρτος" pos="1"/>
          <tok src="syr" ref="6" pos="18"/>
-         <tok src="syr" ref="6" pos="19"/>
+         <tok src="syr" ref="6" val="ܕܐܪܒܥܐ݂" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="43"/>
-         <tok src="syr" ref="6" pos="29"/>
+         <tok src="grc" ref="6" val="ὁ" pos="8"/>
+         <tok src="syr" ref="6" val="ܕܪܡܘܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="44"/>
+         <tok src="grc" ref="6" val="τῆς" pos="8"/>
          <tok src="syr" ref="6" pos="30" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="45"/>
-         <tok src="grc" ref="6" pos="46"/>
+         <tok src="grc" ref="6" val="ὑπερηφανίας" pos="1"/>
+         <tok src="grc" ref="6" val="Τούτους" pos="1"/>
          <tok src="syr" ref="6" pos="30"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="39"/>
-         <tok src="syr" ref="6" pos="26"/>
+         <tok src="grc" ref="6" val="ὁ" pos="7"/>
+         <tok src="syr" ref="6" val="ܕܫܘܒܚܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="40"/>
+         <tok src="grc" ref="6" val="τῆς" pos="7"/>
          <tok src="syr" ref="6" pos="27" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="41"/>
-         <tok src="grc" ref="6" pos="42"/>
+         <tok src="grc" ref="6" val="κενοδοξίας" pos="1"/>
+         <tok src="grc" ref="6" val="ὄγδοος" pos="1"/>
          <tok src="syr" ref="6" pos="27"/>
-         <tok src="syr" ref="6" pos="28"/>
+         <tok src="syr" ref="6" val="ܕܬܡܢܝܐ݂" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="35"/>
-         <tok src="syr" ref="6" pos="24"/>
+         <tok src="grc" ref="6" val="ὁ" pos="6"/>
+         <tok src="syr" ref="6" val="ܕܡܐܝܢܘܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="36"/>
+         <tok src="grc" ref="6" val="τῆς" pos="6"/>
          <tok src="syr" ref="6" pos="25" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="37"/>
-         <tok src="grc" ref="6" pos="38"/>
+         <tok src="grc" ref="6" val="ἀκηδίας" pos="1"/>
+         <tok src="grc" ref="6" val="ἕβδομος" pos="1"/>
          <tok src="syr" ref="6" pos="25"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="31"/>
-         <tok src="syr" ref="6" pos="22"/>
+         <tok src="grc" ref="6" val="ὁ" pos="5"/>
+         <tok src="syr" ref="6" val="ܕܪܘܓܙܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="32"/>
+         <tok src="grc" ref="6" val="τῆς" pos="5"/>
          <tok src="syr" ref="6" pos="23" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="33"/>
-         <tok src="grc" ref="6" pos="34"/>
+         <tok src="grc" ref="6" val="ὀργῆς" pos="1"/>
+         <tok src="grc" ref="6" val="ἕκτος" pos="1"/>
          <tok src="syr" ref="6" pos="23"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="27"/>
-         <tok src="syr" ref="6" pos="20"/>
+         <tok src="grc" ref="6" val="ὁ" pos="4"/>
+         <tok src="syr" ref="6" val="ܕܥܩܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="28"/>
+         <tok src="grc" ref="6" val="τῆς" pos="4"/>
          <tok src="syr" ref="6" pos="21" chars="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="29"/>
-         <tok src="grc" ref="6" pos="30"/>
+         <tok src="grc" ref="6" val="λύπης" pos="1"/>
+         <tok src="grc" ref="6" val="πέμπτος" pos="1"/>
          <tok src="syr" ref="6" pos="21"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="62"/>
-         <tok src="syr" ref="6" pos="42"/>
+         <tok src="grc" ref="6" val="χρονίζειν" pos="1"/>
+         <tok src="syr" ref="6" val="ܐ̇ܘ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="61"/>
-         <tok src="grc" ref="6" pos="63"/>
+         <tok src="grc" ref="6" val="δὲ" pos="1"/>
+         <tok src="grc" ref="6" val="αὐτοὺς" pos="1"/>
          <tok src="syr" ref="6" pos="41"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="65"/>
-         <tok src="syr" ref="6" pos="43"/>
+         <tok src="grc" ref="6" val="μὴ" pos="2"/>
+         <tok src="syr" ref="6" val="ܕܠܐ" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="64"/>
+         <tok src="grc" ref="6" val="ἢ" pos="2"/>
          <tok src="syr" ref="6" pos="41" chars="2, last-1 - last"/>
          <tok src="syr" ref="6" pos="45" chars="1, last-1 - last"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="66"/>
-         <tok src="syr" ref="6" pos="44"/>
+         <tok src="grc" ref="6" val="χρονίζειν" pos="2"/>
+         <tok src="syr" ref="6" val="ܢܓ̇ܪܘܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="67"/>
+         <tok src="grc" ref="6" val="ἢ" pos="3"/>
          <tok src="syr" ref="6" pos="45"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="68"/>
-         <tok src="syr" ref="6" pos="46"/>
+         <tok src="grc" ref="6" val="πάθη" pos="1"/>
+         <tok src="syr" ref="6" val="ܕܢܙܝܥ݂ܘܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="70"/>
-         <tok src="syr" ref="6" pos="47"/>
+         <tok src="grc" ref="6" val="ἢ" pos="4"/>
+         <tok src="syr" ref="6" val="ܚܫ̈ܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="69"/>
-         <tok src="syr" ref="6" pos="48"/>
+         <tok src="grc" ref="6" val="κινεῖν" pos="1"/>
+         <tok src="syr" ref="6" val="ܐܘ" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="71"/>
-         <tok src="syr" ref="6" pos="49"/>
+         <tok src="grc" ref="6" val="μὴ" pos="3"/>
+         <tok src="syr" ref="6" val="ܕܠܐ" pos="3"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="72"/>
-         <tok src="syr" ref="6" pos="50"/>
+         <tok src="grc" ref="6" val="κινεῖν" pos="2"/>
+         <tok src="syr" ref="6" val="ܢܙܝ݂ܥܘܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="73"/>
-         <tok src="syr" ref="6" pos="51"/>
+         <tok src="grc" ref="6" val="τῶν" pos="2"/>
+         <tok src="syr" ref="6" val="ܕܝܠܢ" pos="2"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="74"/>
-         <tok src="grc" ref="6" pos="75"/>
+         <tok src="grc" ref="6" val="ἐφ" pos="2"/>
+         <tok src="grc" ref="6" val="ἡμῖν" pos="2"/>
          <tok src="grc" ref="6" pos="76"/>
          <tok src="syr" ref="6" pos="52"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="47"/>
-         <tok src="syr" ref="6" pos="31"/>
+         <tok src="grc" ref="6" val="πάντας" pos="1"/>
+         <tok src="syr" ref="6" val="ܟܠܗܘܢ" pos="1"/>
          <tok src="syr" ref="6" pos="32" chars="last-2 - last"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="48"/>
+         <tok src="grc" ref="6" val="παρενοχλεῖν" pos="1"/>
          <tok src="syr" ref="6" pos="32"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="49"/>
-         <tok src="syr" ref="6" pos="33"/>
+         <tok src="grc" ref="6" val="μὲν" pos="1"/>
+         <tok src="syr" ref="6" val="ܒܢܦܫܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="51"/>
-         <tok src="grc" ref="6" pos="52"/>
-         <tok src="syr" ref="6" pos="34"/>
+         <tok src="grc" ref="6" val="ψυχῇ" pos="1"/>
+         <tok src="grc" ref="6" val="ἢ" pos="1"/>
+         <tok src="syr" ref="6" val="ܐܘ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="53"/>
-         <tok src="syr" ref="6" pos="35"/>
+         <tok src="grc" ref="6" val="μὴ" pos="1"/>
+         <tok src="syr" ref="6" val="ܕܠܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="54"/>
-         <tok src="syr" ref="6" pos="36"/>
+         <tok src="grc" ref="6" val="παρενοχλεῖν" pos="2"/>
+         <tok src="syr" ref="6" val="ܢܗܡܣܘܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="55"/>
-         <tok src="syr" ref="6" pos="37"/>
+         <tok src="grc" ref="6" val="τῶν" pos="1"/>
+         <tok src="syr" ref="6" val="ܠܘ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="57"/>
-         <tok src="syr" ref="6" pos="38"/>
+         <tok src="grc" ref="6" val="ἐφ" pos="1"/>
+         <tok src="syr" ref="6" val="ܕܝܠܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="60"/>
-         <tok src="syr" ref="6" pos="40"/>
+         <tok src="grc" ref="6" val="τὸ" pos="1"/>
+         <tok src="syr" ref="6" val="ܕܢܓ̇ܪܘܢ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="6" pos="56"/>
-         <tok src="grc" ref="6" pos="58"/>
-         <tok src="grc" ref="6" pos="59"/>
-         <tok src="syr" ref="6" pos="39"/>
+         <tok src="grc" ref="6" val="οὐκ" pos="1"/>
+         <tok src="grc" ref="6" val="ἡμῖν" pos="1"/>
+         <tok src="grc" ref="6" val="ἐστι" pos="1"/>
+         <tok src="syr" ref="6" val="ܗܝ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="7" pos="1"/>
-         <tok src="syr" ref="7" pos="1"/>
+         <tok src="grc" ref="7" val="Ὁ" pos="1"/>
+         <tok src="syr" ref="7" val="ܚܘܫܒܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="7" pos="2"/>
-         <tok src="grc" ref="7" pos="6"/>
-         <tok src="syr" ref="7" pos="2"/>
+         <tok src="grc" ref="7" val="μὲν" pos="1"/>
+         <tok src="grc" ref="7" val="ἔκπτωσιν" pos="1"/>
+         <tok src="syr" ref="7" val="ܕܠܥܒܘܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="7" pos="3"/>
+         <tok src="grc" ref="7" val="τῆς" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="7" pos="4"/>
-         <tok src="grc" ref="7" pos="5"/>
-         <tok src="syr" ref="7" pos="3"/>
+         <tok src="grc" ref="7" val="γαστριμαργίας" pos="1"/>
+         <tok src="grc" ref="7" val="λογισμὸς" pos="1"/>
+         <tok src="syr" ref="7" val="ܡܦܘܠܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="7" pos="9"/>
-         <tok src="grc" ref="7" pos="10"/>
-         <tok src="syr" ref="7" pos="8"/>
+         <tok src="grc" ref="7" val="μοναχῷ" pos="1"/>
+         <tok src="grc" ref="7" val="τῆς" pos="2"/>
+         <tok src="syr" ref="7" val="ܡ̇ܪܡ݂ܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="7" pos="14"/>
-         <tok src="syr" ref="7" pos="15"/>
+         <tok src="grc" ref="7" val="καὶ" pos="1"/>
+         <tok src="syr" ref="7" val="ܘܕܟܒܕܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="7" pos="15"/>
-         <tok src="grc" ref="7" pos="16"/>
-         <tok src="syr" ref="7" pos="16"/>
+         <tok src="grc" ref="7" val="ἧπαρ" pos="1"/>
+         <tok src="grc" ref="7" val="καὶ" pos="2"/>
+         <tok src="syr" ref="7" val="ܘܕܛܚܠܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="8" pos="1"/>
-         <tok src="syr" ref="8" pos="1"/>
+         <tok src="grc" ref="8" val="Ὁ" pos="1"/>
+         <tok src="syr" ref="8" val="ܚܘܫܒܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="8" pos="2"/>
-         <tok src="grc" ref="8" pos="5"/>
-         <tok src="syr" ref="8" pos="2"/>
+         <tok src="grc" ref="8" val="τῆς" pos="1"/>
+         <tok src="grc" ref="8" val="σωμάτων" pos="1"/>
+         <tok src="syr" ref="8" val="ܓܝܪ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="8" pos="3"/>
-         <tok src="grc" ref="8" pos="4"/>
-         <tok src="syr" ref="8" pos="4"/>
+         <tok src="grc" ref="8" val="πορνείας" pos="1"/>
+         <tok src="grc" ref="8" val="δαίμων" pos="1"/>
+         <tok src="syr" ref="8" val="ܥܪܨܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="8" pos="6"/>
-         <tok src="syr" ref="8" pos="6"/>
+         <tok src="grc" ref="8" val="καταναγκάζει" pos="1"/>
+         <tok src="syr" ref="8" val="ܡܫ̈ܚܠܦܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="8" pos="8"/>
-         <tok src="syr" ref="8" pos="7"/>
+         <tok src="grc" ref="8" val="ἐπιθυμεῖν" pos="1"/>
+         <tok src="syr" ref="8" val="ܢ̇ܪܓ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="8" pos="7"/>
-         <tok src="syr" ref="8" pos="8"/>
+         <tok src="grc" ref="8" val="διαφόρων" pos="1"/>
+         <tok src="syr" ref="8" val="ܘܝܬܝܪ" pos="1"/>
       </align>
       <align>
-         <tok src="syr" ref="8" pos="3"/>
+         <tok src="syr" ref="8" val="ܕܙܢܝܘܬܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="head_1" pos="1"/>
-         <tok src="syr" ref="head_1" pos="2"/>
+         <tok src="grc" ref="head_1" val="Περὶ" pos="1"/>
+         <tok src="syr" ref="head_1" val="ܗܠܝܢ" pos="1"/>
       </align>
       <align>
-         <tok src="syr" ref="head_1" pos="1"/>
+         <tok src="syr" ref="head_1" val="ܕܥܠ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="head_1" pos="2"/>
-         <tok src="syr" ref="head_1" pos="3"/>
+         <tok src="grc" ref="head_1" val="τῶν" pos="1"/>
+         <tok src="syr" ref="head_1" val="ܬܡܢܝܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="head_1" pos="3"/>
-         <tok src="syr" ref="head_1" pos="4"/>
+         <tok src="grc" ref="head_1" val="ὀκτὼ" pos="1"/>
+         <tok src="syr" ref="head_1" val="ܚܘܫ̈ܒܐ" pos="1"/>
       </align>
       <align>
-         <tok src="grc" ref="head_1" pos="4"/>
+         <tok src="grc" ref="head_1" val="λογισμῶν" pos="1"/>
          <tok src="syr" ref="head_1" pos="5"/>
       </align>
    </body>

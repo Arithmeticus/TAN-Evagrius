@@ -711,6 +711,7 @@
       <!-- cpg2440 -->
       <claim subject="frankenberg_1912" verb="translates" object="cpg2440" in-lang="grc"/>
       <claim subject="Brock_1987" verb="translates" object="cpg2440" in-lang="eng"/>
+      <claim subject="Muehlberger_2017a Muehlberger_2017b" verb="translates" object="cpg2440" in-lang="eng"/>
       <claim subject="evagrius_wagenaar_1987" verb="translates" object="cpg2440" in-lang="nld"/>
       <claim subject="evagrius_nieścior_1998" verb="translates" object="cpg2440" in-lang="pol"/>
       <claim subject="frankenberg_1912" verb="edits" object="cpg2440-syr"/>
@@ -1017,9 +1018,9 @@
       
       <!-- cpg2481 -->
       <claim subject="ḳaṭraya_draguet_1972 lebon_1949" verb="edits" object="cpg2481.1"/>
-      <claim subject="sargisean_1907" verb="edits" object="cpg2481.2-hye"/>
-      <claim subject="Muyldermans_1963" verb="edits" object="cpg2481.3-cop"/>
-      <claim subject="grébaut_1915" verb="edits" object="cpg2481.4-gez"/>
+      <claim subject="sargisean_1907" verb="edits" object="cpg2481.2"/>
+      <claim subject="Muyldermans_1963" verb="edits" object="cpg2481.3"/>
+      <claim subject="grébaut_1915" verb="edits" object="cpg2481.4"/>
       
       <!-- cpg2482 -->
       <claim subject="hagedorn_hagedorn_1994 de_Lagarde_1887" verb="edits" object="cpg2482"/>

@@ -73,8 +73,9 @@
       <change who="xslt1" when="2018-05-02T15:40:50.849-04:00">Created TAN-A-lm from
          tag:kalvesmaki.com,2014:transcription:cpg2439:grc:gribomont(file:/Users/joelk/Dropbox/TAN/library-arithmeticus/evagrius/cpg2439.grc.gribomont.xml)</change>
       <change who="xslt2" when="2019-06-16T21:59:37.969-04:00">Converted from 2018 to 2020 schemas.</change>
+      <change when="2020-02-29" who="kalvesmaki">Corrected typo at ἐπιχείρησιν.</change>
       <to-do>
-         <comment who="xslt1" when="2018-05-02T15:40:50.849-04:00">File is still in progress.</comment>
+         <comment who="kalvesmaki" when="2020-02-29">Add &lt;lm> data for 23 tokens</comment>
       </to-do>
    </head>
    <body lexicon="LSJ" morphology="perseus-dik" claimant="xslt2">
@@ -2826,7 +2827,7 @@
          <lm cert="0.40425824175824177">
             <l>ὦ</l>
             <m cert="0.8453958545701665">i</m>
-            <m cert="0.1546041454298335">e</m>
+            <!--<m cert="0.1546041454298335">e</m>-->
          </lm>
          <lm cert="0.15824175824175823">
             <l>εἰμί</l>
@@ -16718,7 +16719,7 @@
          </lm>
       </ana>
       <ana>
-         <tok val="Ἐπιχείρησιν"/>
+         <tok val="ἐπιχείρησιν"/>
          <lm>
             <l>ἐπιχείρησις</l>
             <m>n - - s - - - f a</m>

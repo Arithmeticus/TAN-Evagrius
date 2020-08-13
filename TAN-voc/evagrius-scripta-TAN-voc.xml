@@ -20,7 +20,7 @@
         <change when="2019-08-12" who="kalvesmaki">started file</change>
        <change when="2019-12-26" who="kalvesmaki">Converted bibliography, sorted items</change>
         <to-do>
-            <comment when="2019-12-26" who="kalvesmaki">File will be updated quarterly.</comment>
+            <comment when="2019-12-26" who="kalvesmaki">File will be updated when the Guide to Evagrius Pontus is updated.</comment>
         </to-do>
     </head>
     <body affects-element="source scriptum">
@@ -2922,6 +2922,16 @@
          <IRI>tag:evagriusponticus.net,2012:scriptum:muehlberger-2013</IRI>
          <name>Muehlberger 2013</name>
          <desc>Muehlberger, Ellen. Angels in Late Ancient Christianity. Oxford: Oxford University Press, 2013. amazon.com</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:muehlberger-2017a</IRI>
+         <name>muehlberger 2017a</name>
+         <desc>Evagrius Ponticus. “Evagrius of Pontus, Protrepticus.” In The Cambridge Edition of Early Christian Writings, Vol. 2, Practice, edited and translated by Ellen Muehlberger, 75–79. Cambridge: Cambridge University Press, 2017.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:muehlberger-2017b</IRI>
+         <name>muehlberger 2017b</name>
+         <desc>Evagrius Ponticus. “Evagrius of Pontus, Paraeneticus.” In The Cambridge Edition of Early Christian Writings, Vol. 2, Practice, edited and translated by Ellen Muehlberger, 80–85. Cambridge: Cambridge University Press, 2017.</desc>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:muehlberger-2018</IRI>

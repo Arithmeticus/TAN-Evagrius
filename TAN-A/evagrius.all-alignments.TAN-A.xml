@@ -48,7 +48,7 @@
       <change who="xslt1" when="2017-12-16T16:14:37.761-05:00">TAN file updated to 2018 schemas.</change>
       <change who="xslt2" when="2019-06-16T07:03:51.903-04:00">Converted from 2018 to 2020 schemas.</change>
       <to-do>
-         <comment who="xslt1" when="2017-12-16T16:14:37.761-05:00">File is still in progress.</comment>
+         <comment when="2020-07-18" who="kalvesmaki">Add other TAN-A files as they come along</comment>
       </to-do>
    </head>
    <body claimant="xslt2"/>

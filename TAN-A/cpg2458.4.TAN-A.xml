@@ -34,7 +34,7 @@
       <change when="2018-06-03" who="kalvesmaki">Created file</change>
       <change who="xslt1" when="2019-06-16T07:00:05.527-04:00">Converted from 2018 to 2020 schemas.</change>
       <to-do>
-         <comment when="2018-06-03" who="kalvesmaki">File is still in progress.</comment>
+         <comment when="2020-07-18" who="kalvesmaki">Identify, add other transcriptions</comment>
       </to-do>
    </head>
    <body claimant="xslt1"/>

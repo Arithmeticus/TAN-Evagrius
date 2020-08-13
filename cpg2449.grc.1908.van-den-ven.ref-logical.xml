@@ -13,9 +13,9 @@
          <location href="TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
       </vocabulary>
       <redivision>
-         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical</IRI>
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:scriptum</IRI>
          <name>Greek text of De magistris et discipulis, logical reference system</name>
-         <location href="../patrologia/texts/cpg2449.grc.1908.van-den-ven.ref-logical.xml" accessed-when="2019-05-30"/>
+         <location href="cpg2449.grc.1908.van-den-ven.ref-scriptum.xml" accessed-when="2019-05-30"/>
       </redivision>
       <source>
          <IRI>tag:evagriusponticus.net,2012:scriptum:van-den-ven-1908</IRI>
@@ -46,6 +46,7 @@
       <resp roles="editor" who="kalvesmaki"/>
       <change when="2018-03-01-05:00" who="kalvesmaki">Began file</change>
       <change who="xslt1" when="2019-05-30T22:25:52.092-04:00">Converted from 2018 to 2020 schemas.</change>
+      <change when="2020-02-28" who="kalvesmaki">Adjusted redivision ref; fixed redivision href and IRI</change>
       <to-do>
          <comment when="2018-03-01-05:00" who="kalvesmaki">File is still in progress.</comment>
       </to-do>

@@ -22,7 +22,7 @@
          <location href="../../bible/lxx.grc.rahlfs.xml" accessed-when="2015-08-08-04:00"/>
          <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/lxx.grc.rahlfs.xml" accessed-when="2018-06-01"/>
       </source>
-      <source xml:id="nt">
+      <source xml:id="nt-grc">
          <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
          <name>SBL's Greek New Testament</name>
          <location href="../../bible/nt.grc.sbl-2010.xml" accessed-when="2015-08-08-04:00"/>
@@ -35,6 +35,8 @@
          <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.syr.bfbs-1905.xml" accessed-when="2015-08-08-04:00"/>
       </source>
       <vocabulary-key>
+         <alias xml:id="bible" idrefs="lxx nt"/>
+         <alias xml:id="nt" idrefs="nt-grc nt-syr"/>
          <algorithm xml:id="xslt2">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
             <name>Converter from TAN 2018 to TAN 2020</name>

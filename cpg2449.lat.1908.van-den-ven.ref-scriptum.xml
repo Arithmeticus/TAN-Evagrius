@@ -20,7 +20,7 @@
       <redivision>
          <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:lat:1907:logical</IRI>
          <name>Latin text of Van Den Ven's 1907 edition, logical reference system</name>
-         <location href="../patrologia/texts/cpg2449.lat.1908.van-den-ven.ref-logical.xml" accessed-when="2018-04-04-04:00"/>
+         <location href="cpg2449.lat.1908.van-den-ven.ref-logical.xml" accessed-when="2020-07-16"/>
       </redivision>
       <vocabulary-key>
          <algorithm xml:id="xslt1">

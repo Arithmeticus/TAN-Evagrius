@@ -4,7 +4,6 @@
 <TAN-A-lm xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001"><!-- fix @id -->
    <head>
       <name>Lexico-morphological data for: Guillaumonts' Greek edition of the Gnostikos of Evagrios Pontikos</name>
-      <!-- fix name -->
       <license which="by 4.0" licensor="kalvesmaki"/>
       <token-definition which="letters and apostrophes"/>
       <vocabulary>
@@ -51,7 +50,7 @@
       <change who="xslt1" when="2018-05-19T17:05:27.153-04:00">Created TAN-A-lm from tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001(file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/evagrius/cpg2431.grc.guillaumonts.tei.xml)</change>
       <change who="xslt2" when="2019-06-16T21:59:34.582-04:00">Converted from 2018 to 2020 schemas.</change>
       <to-do>
-         <comment who="xslt1" when="2018-05-19T17:05:27.153-04:00">File is still in progress.</comment>
+         <comment who="kalvesmaki" when="2020-02-29">Add &lt;lm> data for 25 tokens</comment>
       </to-do>
       </head>
    <body lexicon="LSJ" morphology="perseus-dik" claimant="xslt2">

@@ -57,7 +57,7 @@
       </algorithm>
     </vocabulary-key>
     
-    <file-resp xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" who="kalvesmaki Joel_Kalvesmaki"/>
+    <file-resp xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" who="kalvesmaki"/>
     <resp who="xslt1 xslt2" roles="stylesheet"/>
     <resp who="stewart" roles="transcriber"/>
     <resp who="stewart kalvesmaki" roles="editor"/>
@@ -74,7 +74,7 @@
     </to-do>
   </head>
   <text>
-    <body xml:lang="syr" ed-when="2016-03-19-04:00" ed-who="kalvesmaki">
+    <body xml:lang="syr">
       <div type="chapter" n="1"><ab> ܘܣܥܪ̈ܝ ܣܘܥܪ̈ܢܐ܆ ܢܣܬܟܠܘܢ ܡ̈ܠܐ ܕܣܘܥܪ̈ܢܐ. <lb/> ܫܐܘܠܐ ܕܝܢ ܕܝܕܥܬܐ ܢܚܙܘܢ ܝܕܘܥ̈ܬܢܐ ܀ </ab></div>       
       <div type="chapter" n="2">
         <ab>ܣܥܪ ܣܘܥܪܢܐ ܐܝܬܘܗܝ ܗ݁ܘ ܕܡܢܬܐ<lb/> ܕܚܫܘܫܘܬܐ ܕܢܦܫܐ ܩܢܐ ܕܠܐ ܚܫܐ܀</ab>

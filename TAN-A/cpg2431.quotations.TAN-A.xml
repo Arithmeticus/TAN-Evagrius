@@ -24,7 +24,18 @@
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
       
-      <source include="cpg2431 bible"/>
+      <source xml:id="gn-grc-Gu" accessed-when="2020-07-16" which="cpg2431 grc 1989"/>
+      <source xml:id="gn-eng-Dy" accessed-when="2020-07-16" which="cpg2431 eng 1997"/>
+      <source xml:id="syr-S1-14578" accessed-when="2020-07-16" which="cpg2431 syr 1912"/>
+      <source xml:id="syr-S1-14581" accessed-when="2020-07-16" which="cpg2431 syr 14581"/>
+      <source xml:id="syr-S3-17167" accessed-when="2020-07-16" which="cpg2431 syr 17167"/>
+      <source xml:id="syr-S2-17165" accessed-when="2020-07-16" which="cpg2431 syr 17165"/>
+      <source xml:id="syr-S2-14616" accessed-when="2020-07-16" which="cpg2431 syr 14616"/>
+      <source xml:id="gn-grc-Fr" accessed-when="2020-07-16" which="cpg2431 grc 1912"/>
+      
+      <source which="Rahlfs LXX" xml:id="lxx" accessed-when="2020-07-16"/>
+      <source which="Greek New Testament" xml:id="nt" accessed-when="2020-07-16"/>
+      <source which="Syriac New Testament" xml:id="nt-syr" accessed-when="2020-07-16"/>
       <vocabulary-key>
          <algorithm xml:id="xslt2">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
@@ -57,9 +68,7 @@
       <change who="xslt1" when="2017-12-16T16:03:05.576-05:00">TAN file updated to 2018 schemas.</change>
       <change when="2019-06-13" who="kalvesmaki">Removed Luke 14:9 as a quotation</change>
       <change who="xslt2" when="2019-06-14T22:34:20.525-04:00">Converted from 2018 to 2020 schemas.</change>
-      <to-do>
-         <comment when="2019-06-13" who="kalvesmaki">File is still in progress.</comment>
-      </to-do>
+      <to-do/>
    </head>
    <body verb="quotes" claimant="xslt2">
       <claim verb="alludes-to">

@@ -9,7 +9,7 @@
       <redivision>
          <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:scriptum</IRI>
          <name>Greek text of Capitula xxxiii from the Patrologia Graeca, scriptum reference system</name>
-         <location href="../patrologia/texts/cpg2442.grc.1858.pg.ref-scriptum.xml" accessed-when="2018-04-04"/>
+         <location href="cpg2442.grc.1858.pg.ref-scriptum.xml" accessed-when="2018-04-04"/>
       </redivision>
       <source which="Patrologia Graeca"/>
       <annotation>
@@ -38,6 +38,7 @@
       <resp roles="editor" who="kalvesmaki"/>
       <change when="2018-03-01-05:00" who="kalvesmaki">Began file</change>
       <change who="xslt1" when="2019-05-30T22:14:14.164-04:00">Converted from 2018 to 2020 schemas.</change>
+      <change when="2020-02-28" who="kalvesmaki">Adjusted redivision ref</change>
       <to-do>
          <comment when="2018-03-01-05:00" who="kalvesmaki">File is still in progress.</comment>
       </to-do>

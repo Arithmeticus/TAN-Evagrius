@@ -80,6 +80,7 @@
     <file-resp who="kalvesmaki"/>
     <resp roles="editor" who="kalvesmaki"/>
     <resp roles="stylesheet" who="xslt1 xslt2"/>
+    <change when="2020-06-07" who="kalvesmaki">Added new fragment to KG 3.38</change>
     <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes.</change>
     <change when="2017-05-17" who="kalvesmaki">Removed reference marks; normalized line-end hyphenation.</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
@@ -113,6 +114,12 @@
         <div type="chapter" n="77">
           <div type="variant" n="b"><p><pb n="360"/>Αἱ πύλαι τῶν σοφῶν αἱ πρακτικαί εἰσιν ἀρεταὶ <lb/>δι‘ ὧν εἰσέρχεται σοφία θεοῦ.</p></div>
           <div type="variant" n="c" resp="Procopius"><p> <pb n="362"/>Πύλαι δὲ τῶν σοφῶν αἱ πρακτικαὶ ἀρεταὶ δι’ ὧν εἰσέρχε&#xad;<lb break="no"/>ται σοφία θεοῦ.</p></div>
+        </div>
+      </div>
+      <div type="century" n="3">
+        <div type="chapter" n="38">
+          <div type="variant" n="a"> <p><pb n="370"/>Πῶς οὖν ὁ σωτὴρ ἐν τοῖς εὐαγγελίοις φησίν· «ὁ <lb/>πατὴρ κρίνει οὐδένα, ἀλλὰ πᾶσαν τὴν κρίσιν δέδωκεν τῷ <lb/>υἱῷ»; Ἢ ἄλλο μέν ἐστι τιμωρία, ἄλλο δὲ κρίσις. Καὶ <lb/>τιμωρία μέν ἐστιν στέρησις ἀπαθείας καὶ γνώσεως θεοῦ <lb/>μετ' ὀδύνης σωματικῆς· κρίσις δέ ἐστιν γένεσις αἰῶνος <lb/>κατ' ἀναλογίαν ἑκάστῳ τῶν λογικῶν σώματα διανέμοντος.</p> </div>
+          <div type="variant" n="b"> <p>Πῶς οὖν ὁ σωτὴρ ἐν τοῖς εὐαγγελίοις φησίν· «ὁ πατὴρ κρίνει οὐδένα, ἀλλὰ <lb/>πᾶσαν τὴν κρίσιν δέδωκεν τῷ υἱῷ»; Ἢ ἄλλο <lb/>μέν ἐστι τιμωρία, ἄλλο δὲ κρίσις. Καὶ τιμωρία μέν ἐστιν στέρησις ἀπαθείας καὶ γνώσεως θεοῦ μετ' ὀδύνης σωματικῆς· <lb/>κρίσις δέ ἐστιν γένεσις αἰῶνος κατ' ἀναλογίαν ἑκάστῳ τῶν λογικῶν σώματα <lb/>διανέμοντος.</p> </div>
         </div>
       </div>
     </body>

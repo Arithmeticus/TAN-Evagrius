@@ -105,7 +105,7 @@
       </algorithm>
     </vocabulary-key>
     
-    <file-resp xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" who="kalvesmaki Joel_Kalvesmaki"/>
+    <file-resp xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" who="kalvesmaki"/>
     <resp who="xslt1 xslt2" roles="stylesheet"/>
     <resp who="kalvesmaki" roles="editor"/>
     <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Adjusted &lt;name&gt;.</change>

@@ -13,52 +13,21 @@
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
-      <source xml:id="gn-grc-Gu">
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001</IRI>
-         <name>Transcription of Greek edition by the Guillaumonts</name>
-         <location href="../cpg2431.grc.guillaumonts.tei.xml" accessed-when="2015-08-08-04:00"/>
-      </source>
-      <source xml:id="gn-eng-Dy">
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_eng_Dysinger.TAN-TEI.001</IRI>
-         <name>Transcription of 1997 English translation by Dysinger</name>
-         <location href="../cpg2431.eng.dysinger.tei.xml" accessed-when="2015-08-08-04:00"/>
-      </source>
-      <source xml:id="syr-S1-14578">
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_Frankenberg.TAN-TEI.001</IRI>
-         <name>Frankenberg's transcription of Syriac edition in BL Add. 14,578.</name>
-         <location href="../cpg2431.syr.frankenberg.tei.xml" accessed-when="2015-08-08-04:00"/>
-      </source>
-      <source xml:id="syr-S1-14581">
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd14581</IRI>
-         <name>Transcription of the Gnostikos preserved in BL Add. 14581</name>
-         <location href="../cpg2431.syr.BLAdd14581.xml" accessed-when="2016-03-19-04:00"/>
-      </source>
-      <source xml:id="syr-S3-17167">
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd17167</IRI>
-         <name>Transcription of the Gnostikos preserved in BL Add. 17167</name>
-         <location href="../cpg2431.syr.BLAdd17167.xml" accessed-when="2016-03-19T18:43:47.816-04:00"/>
-      </source>
-      <source xml:id="syr-S2-17165">
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd17165</IRI>
-         <name>Transcription of the Gnostikos preserved in BL Add. 17165</name>
-         <location href="../cpg2431.syr.BLAdd17165.xml" accessed-when="2016-03-19T18:43:47.816-04:00"/>
-      </source>
-      <source xml:id="syr-S2-14616">
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd14616</IRI>
-         <name>Transcription of the Gnostikos preserved in BL Add. 14616</name>
-         <location href="../cpg2431.syr.BLAdd14616.xml" accessed-when="2016-03-19T22:46:01.073-04:00"/>
-      </source>
-      <source xml:id="gn-grc-Fr">
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Frankenberg.TAN-TEI.001</IRI>
-         <name>Frankenberg's Greek retroversion of a Syriac translation of the Gnostikos</name>
-         <location href="../cpg2431.grc.frankenberg.tei.xml" accessed-when="2015-08-08-04:00"/>
-      </source>
+      <source xml:id="gn-grc-Gu" accessed-when="2020-07-16" which="cpg2431 grc 1989"/>
+      <source xml:id="gn-eng-Dy" accessed-when="2020-07-16" which="cpg2431 eng 1997"/>
+      <source xml:id="syr-S1-14578" accessed-when="2020-07-16" which="cpg2431 syr 1912"/>
+      <source xml:id="syr-S1-14581" accessed-when="2020-07-16" which="cpg2431 syr 14581"/>
+      <source xml:id="syr-S3-17167" accessed-when="2020-07-16" which="cpg2431 syr 17167"/>
+      <source xml:id="syr-S2-17165" accessed-when="2020-07-16" which="cpg2431 syr 17165"/>
+      <source xml:id="syr-S2-14616" accessed-when="2020-07-16" which="cpg2431 syr 14616"/>
+      <source xml:id="gn-grc-Fr" accessed-when="2020-07-16" which="cpg2431 grc 1912"/>
       <vocabulary-key>
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
             <name>Converter from TAN 2018 to TAN 2020</name>
             <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-06-14T22:34:24.442-04:00"/>
          </algorithm>
+         <alias xml:id="cpg2431" idrefs="Greek Syriac English"/>
          <alias xml:id="Greek" idrefs="gn-grc-Gu"/>
          <alias xml:id="Syriac" idrefs="S1 S2 S3"/>
          <alias xml:id="S1" idrefs="S1-14578 syr-S1-14581"/>

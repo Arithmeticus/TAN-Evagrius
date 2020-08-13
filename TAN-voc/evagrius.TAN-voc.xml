@@ -57,6 +57,384 @@
                 <desc>A digital service or resource that provided an auxiliary role in making the source or data available.</desc>
             </item>
         </group>
+        <group affects-element="source">
+            <!-- Class-1 Files -->
+            <!-- 2430: Praktikos -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
+                <name>cpg2430 grc 1971</name>
+                <name>cpg2430 grc Guillaumont</name>
+                <name>Greek edition of the Praktikos by the Guillaumonts</name>
+                <location href="../cpg2430.grc.guillaumonts.xml" accessed-when="2015-08-07-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_eng_Dysinger.TAN-TEI.001</IRI>
+                <name>cpg2430 eng 1997</name>
+                <name>cpg2430 eng Dysinger</name>
+                <name>1997 English translation of the Praktikos by Dysinger</name>
+                <location href="../cpg2430.eng.dysinger.xml" accessed-when="2015-08-07-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001</IRI>
+                <name>cpg2430 syr S1 14578</name>
+                <name>Syriac translation S1 of the Praktikos in BL Add. 14,578.</name>
+                <location href="../cpg2430.syr.bl14578.tei.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.S2</IRI>
+                <name>cpg2430 syr S2 14578</name>
+                <name>Syriac translation S2 of the Praktikos in BL Add. 14,578</name>
+                <location href="../cpg2430.syr.bl14578.s2.tei.xml" accessed-when="2019-11-03"/>
+            </item>
+            <!-- 2431: Gnostikos -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001</IRI>
+                <name>cpg2431 grc 1989</name>
+                <name>cpg2431 grc guillaumont</name>
+                <name>cpg2431 grc guillaumonts</name>
+                <name>Greek edition of the Gnostikos by the Guillaumonts</name>
+                <location href="../cpg2431.grc.guillaumonts.tei.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_eng_Dysinger.TAN-TEI.001</IRI>
+                <name>cpg2431 eng 1997</name>
+                <name>cpg2431 eng Dysinger</name>
+                <name>1997 English translation of the Gnostikos by Dysinger</name>
+                <location href="../cpg2431.eng.dysinger.tei.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_Frankenberg.TAN-TEI.001</IRI>
+                <name>cpg2431 syr 1912</name>
+                <name>Frankenberg's transcription of Syriac edition in BL Add. 14,578.</name>
+                <location href="../cpg2431.syr.frankenberg.tei.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd14581</IRI>
+                <name>cpg2431 syr 14581</name>
+                <name>Gnostikos preserved in BL Add. 14581</name>
+                <location href="../cpg2431.syr.BLAdd14581.xml" accessed-when="2016-03-19-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd17167</IRI>
+                <name>cpg2431 syr 17167</name>
+                <name>Gnostikos preserved in BL Add. 17167</name>
+                <location href="../cpg2431.syr.BLAdd17167.xml" accessed-when="2016-03-19T18:43:47.816-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd17165</IRI>
+                <name>cpg2431 syr 17165</name>
+                <name>Gnostikos preserved in BL Add. 17165</name>
+                <location href="../cpg2431.syr.BLAdd17165.xml" accessed-when="2016-03-19T18:43:47.816-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd14616</IRI>
+                <name>cpg2431 syr 14616</name>
+                <name>Gnostikos preserved in BL Add. 14616</name>
+                <location href="../cpg2431.syr.BLAdd14616.xml" accessed-when="2016-03-19T22:46:01.073-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Frankenberg.TAN-TEI.001</IRI>
+                <name>cpg2431 grc 1912</name>
+                <name>cpg2431 grc Frankenberg</name>
+                <name>Frankenberg's Greek retroversion of a Syriac translation of the Gnostikos</name>
+                <location href="../cpg2431.grc.frankenberg.tei.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <!-- CPG 2432: Kephalaia gnostika -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S1.TAN-TEI.001</IRI>
+                <name>cpg2432 syr S1 1958</name>
+                <name>cpg2432 syr S1 Guillaumont</name>
+                <name>Syriac edition of S1 by Guillaumont</name>
+                <location href="../cpg2432.syr.guillaumont-s1.xml" accessed-when="2015-08-08"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_eng_Dysinger_S1.TAN-TEI.001</IRI>
+                <name>cpg2432 eng S1 1997</name>
+                <name>cpg2432 eng S1 Dysinger</name>
+                <name>1997 English translation of the Kephalaia Gnostika, S1 by Dysinger</name>
+                <location href="../cpg2432.eng.dysinger-s1.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Frankenberg.TAN-TEI.001</IRI>
+                <name>cpg2432 grc S1 1912</name>
+                <name>cpg2432 grc S1 Frankenberg</name>
+                <name>Frankenberg's Greek retroversion of Syriac S1</name>
+                <location href="../cpg2432.grc.Frankenberg.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001</IRI>
+                <name>cpg2432 syr S2 1958</name>
+                <name>cpg2432 syr S2 Guillaumont</name>
+                <name>Syriac edition of S2 by Guillaumont</name>
+                <location href="../cpg2432.syr.guillaumont-s2.xml" accessed-when="2015-08-08"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_eng_Dysinger_S2.TAN-TEI.001</IRI>
+                <name>cpg2432 eng S2 1997</name>
+                <name>cpg2432 eng S2 Dysinger</name>
+                <name>Transcription of 1997 English translation of the Kephalaia Gnostika, S2 by
+                    Dysinger</name>
+                <location href="../cpg2432.eng.dysinger-s2.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Cordier.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1857</name>
+                <name>cpg2432 grc PG 4</name>
+                <name>KG fragments preserved PG 4</name>
+                <location href="../cpg2432.grc.cordier.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_la_Rue.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1862</name>
+                <name>cpg2432 grc PG 12</name>
+                <name>KG fragments preserved PG 12</name>
+                <location href="../cpg2432.grc.de_la_Rue.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Mai-1825.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1865</name>
+                <name>cpg2432 grc PG 86a</name>
+                <name>KG fragment preserved in PG 86a</name>
+                <location href="../cpg2432.grc.Mai-1825.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Mai-1852.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1863</name>
+                <name>cpg2432 grc PG 39</name>
+                <name>KG fragment preserved in PG 39</name>
+                <location href="../cpg2432.grc.Mai-1852.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_Angelis-Noah.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 2000</name>
+                <name>cpg2432 grc de Angelis-Noah</name>
+                <name>KG fragments preserved in the correspondence of Barsanouphios and John</name>
+                <location href="../cpg2432.grc.de_Angelis-Noah.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_Preville.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1963</name>
+                <name>cpg2432 grc de Préville</name>
+                <name>KG fragment preserved in Dorotheus of Gaza</name>
+                <location href="../cpg2432.grc.de_Préville.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Devreesse.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1959</name>
+                <name>cpg2432 grc Devreesse</name>
+                <name>KG fragment preserved in a scholion on the Octateuch</name>
+                <location href="../cpg2432.grc.devreesse.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Diekamp.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1987</name>
+                <name>cpg2432 grc Diekamp</name>
+                <name>KG fragments preserved in the Doctrina patrum</name>
+                <location href="../cpg2432.grc.diekamp.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gribomont.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1983</name>
+                <name>cpg2432 grc Gribomont</name>
+                <name>KG fragment preserved in the Epistula fidei</name>
+                <location href="../cpg2432.grc.gribomont.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1987.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1987b</name>
+                <name>cpg2432 grc Géhin 1987</name>
+                <name>KG fragments preserved in the scholia on the Proverbs</name>
+                <location href="../cpg2432.grc.géhin-1987.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1996.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1996</name>
+                <name>cpg2432 grc Géhin 1996</name>
+                <name>KG fragments preserved in Vat. gr. 2028</name>
+                <location href="../cpg2432.grc.géhin-1996.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1998.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1998</name>
+                <name>cpg2432 grc Géhin 1998</name>
+                <name>KG fragments preserved in Περὶ διαφορῶν πονηρῶν λογισμῶν</name>
+                <location href="../cpg2432.grc.géhin-1998.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Hausherr.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1939</name>
+                <name>cpg2432 grc Hausherr</name>
+                <name>KG fragments preserved in MS Moscow 425</name>
+                <location href="../cpg2432.grc.hausherr.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1931.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1931</name>
+                <name>cpg2432 grc Muyldermans 1931</name>
+                <name>KG fragments preserved in Milan, Ambr. gr. 681 (Q 74 sup.)</name>
+                <location href="../cpg2432.grc.Muyldermans-1931.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1932.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1932</name>
+                <name>cpg2432 grc Muyldermans 1932</name>
+                <name>KG fragments preserved in Paris BnF gr. 2748</name>
+                <location href="../cpg2432.grc.Muyldermans-1932.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Pitra.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1932b</name>
+                <name>cpg2432 grc Pitra</name>
+                <name>KG fragments preserved in Pitra's edition of the scholia on the Psalms</name>
+                <location href="../cpg2432.grc.Pitra.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Wolf.TAN-TEI.001</IRI>
+                <name>cpg2432 grc 1722</name>
+                <name>cpg2432 grc Wolf</name>
+                <name>KG fragment preserved in Wolf's Analecta graeca</name>
+                <location href="../cpg2432.grc.Wolf.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <!-- CPG 2439: Epistula fidei -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:grc:gribomont</IRI>
+                <name>cpg2439 grc 1983</name>
+                <name>cpg2439 grc Gribomont</name>
+                <name>Epistula fidei by Evagrius of Pontus</name>
+                <name>Letter of faith by Evagrius of Pontus</name>
+                <location href="../cpg2439.grc.gribomont.xml" accessed-when="2018-03-06T17:26:41.81-05:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:grc:erasmus</IRI>
+                <name>cpg2439 grc 1532</name>
+                <name>cpg2439 grc Erasmus</name>
+                <name>Epistula fidei by Evagrius Ponticus</name>
+                <name>Letter of faith by Evagrius Ponticus</name>
+                <location href="../cpg2439.grc.erasmus.xml" accessed-when="2018-03-06T17:26:47.31-05:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:eng:jackson</IRI>
+                <name>cpg2439 eng 1895</name>
+                <name>cpg2439 eng Jackson</name>
+                <name>Jackson's English translation of the Epistula fidei by Evagrius Ponticus</name>
+                <location href="../cpg2439.eng.jackson.xml" accessed-when="2018-03-06T17:25:04.212-05:00"/>
+            </item>
+            <!-- CPG 2441: Hypotyposis -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG</IRI>
+                <name>cpg2441 grc 1858</name>
+                <name>cpg2441 grc PG 40</name>
+                <name>Evagrius of Pontus, Hypotyposis, Greek</name>
+                <location href="../cpg2441.grc.PG.xml" accessed-when="2018-06-03-04:00"/>
+            </item>
+            <!-- CPG 2442: 33 Chapters -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:logical</IRI>
+                <name>cpg2442 grc 1858</name>
+                <name>cpg2442 grc PG 40</name>
+                <name>Greek text of Evagrius Ponticus, 33 Chapters from the Patrologia Graeca, logical
+                    reference system</name>
+                <location href="../cpg2442.grc.1858.pg.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
+            </item>
+            <!-- CPG 2447: To Eulogios -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg2447:logical</IRI>
+                <name>cpg2447 grc 1858</name>
+                <name>cpg2447 grc PG 40</name>
+                <name>Greek text of Tractatus ad Eulogium from the Patrologia Graeca, logical reference
+                    system</name>
+                <location href="../cpg2447.grc.1858.pg.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
+            </item>
+            <!-- CPG 2449: Masters and Disciples -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical</IRI>
+                <name>cpg2449 grc 1907</name>
+                <name>cpg2449 grc Van Den Ven</name>
+                <name>Greek text of Evagrius of Pontus's On Masters and Disciples, Van Den Ven's 1907
+                    edition, logical reference system</name>
+                <location href="../cpg2449.grc.1908.van-den-ven.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:scriptum</IRI>
+                <name>cpg2449 grc 1907 scriptum</name>
+                <name>cpg2449 grc Van Den Ven scriptum</name>
+                <name>Greek text of Evagrius of Pontus's On Masters and Disciples, Van Den Ven's 1907
+                    edition, scriptum-based reference system</name>
+                <location href="../cpg2449.grc.1908.van-den-ven.ref-scriptum.xml" accessed-when="2018-06-03-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:lat:1907:logical</IRI>
+                <name>cpg2449 lat 1907</name>
+                <name>cpg2449 lat Van Den Ven</name>
+                <name>Latin text of Van Den Ven's 1907 edition, logical reference system</name>
+                <location href="../cpg2449.lat.1908.van-den-ven.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:lat:1907:scriptum</IRI>
+                <name>cpg2449 lat 1907 scriptum</name>
+                <name>cpg2449 lat Van Den Ven scriptum</name>
+                <name>Latin text of Van Den Ven's 1907 edition, scriptum-based reference system</name>
+                <location href="../cpg2449.lat.1908.van-den-ven.ref-scriptum.xml" accessed-when="2018-06-03-04:00"/>
+            </item>
+            <!-- CPG 2450: On Evil Thoughts -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1858:ref-logical-after-1998</IRI>
+                <name>cpg2450 grc 1858</name>
+                <name>cpg2450 grc PG 40</name>
+                <name>Greek text of De malignis cogitationibus from Patrologia Graeca 40, logical
+                    reference system</name>
+                <location href="../cpg2450.grc.1858.pg.ref-logical-after-1998.xml" accessed-when="2018-06-03-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1863:ref-logical-after-1998</IRI>
+                <name>cpg2450 grc 1863</name>
+                <name>cpg2450 grc PG 79</name>
+                <name>Greek text of De malignis cogitationibus from Patrologia Graeca 79, logical
+                    reference system</name>
+                <location href="../cpg2450.grc.1863.pg.ref-logical-after-1998.xml" accessed-when="2018-06-03-04:00"/>
+            </item>
+            <!-- CPG 2458.4: Scholia on Proverbs -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2458.4:grc:1987:logical</IRI>
+                <name>cpg2458.4 grc 1987</name>
+                <name>cpg2458.4 grc Géhin</name>
+                <name>Greek text of Géhin's edition of Evagrius's Scholia on Proverbs, logical reference
+                    system</name>
+                <location href="../cpg2458.4.grc.1987.g%C3%A9hin.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
+            </item>
+        </group>
+        <group affects-element="source">
+            <!-- For quotations from other works: Bible, Aristotle -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:lxx-grc-1979-rahlfs.TAN-T.001</IRI>
+                <name>Rahlfs LXX</name>
+                <name>Rahlfs's edition of the Septuagint</name>
+                <location href="../../bible/lxx.grc.rahlfs.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/lxx.grc.rahlfs.xml" accessed-when="2018-06-01"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
+                <name>Greek New Testament</name>
+                <name>SBL's Greek New Testament</name>
+                <location href="../../bible/nt.grc.sbl-2010.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.grc.sbl-2010.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:nt-syr-1905-BFBS</IRI>
+                <name>Syriac New Testament</name>
+                <name>1905 Bible Society Syriac New Testament</name>
+                <location href="../../bible/nt.syr.bfbs-1905.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.syr.bfbs-1905.xml" accessed-when="2015-08-08-04:00"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
+                <name>Aristotle Categories Greek Minio-Paluello</name>
+                <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
+                <location href="http://textalign.net/release/TAN-2018/examples/ar.cat.grc.1949.minio-paluello-obj.xml" accessed-when="2015-09-11-04:00"/>
+                <location href="../../../TAN-2020/examples/ar.cat.grc.1949.minio-paluello-obj.xml" accessed-when="2016-12-01"/>
+            </item>
+        </group>
         <group affects-element="algorithm">
             <item>
                 <IRI>tag:kalvesmaki.com,2014:algorithm:org.perseus:tools:morpheus.v1</IRI>

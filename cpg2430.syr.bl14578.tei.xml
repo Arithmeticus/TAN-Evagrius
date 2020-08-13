@@ -58,7 +58,7 @@
          </algorithm>
       </vocabulary-key>
       
-      <file-resp xmlns:tan="tag:textalign.net,2015:ns" who="kalvesmaki Joel_Kalvesmaki"/>
+      <file-resp xmlns:tan="tag:textalign.net,2015:ns" who="kalvesmaki"/>
       <resp who="xslt2" roles="stylesheet"/>
       <resp who="kalvesmaki" roles="editor"/>
       <resp who="xslt1" roles="stylesheet"/>

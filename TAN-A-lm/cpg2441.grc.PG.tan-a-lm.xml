@@ -28,16 +28,16 @@
             <IRI>tag:textalign.net,2015:stylesheet:create-tan-a-lm</IRI>
             <name>Stylesheet to create a TAN file.</name>
             <desc>Stylesheet at: ../../do%20things/create/create%20TAN-A-lm.xsl</desc>
-            <location href="../../../TAN-2020/applications/create/create%20TAN-A-lm%20-%20Copy.xsl" accessed-when="2019-06-16"/>
             <location href="../../../TAN-2020/applications/create/create%20TAN-A-lm.xsl" accessed-when="2019-06-16"/>
+            <location href="../../../TAN-2020/applications/create/create%20TAN-A-lm%20-%20Copy.xsl" accessed-when="2019-06-16"/>
          </algorithm>
          <lexicon xml:id="LSJ" which="Liddell-Scott-Jones 9+"/>
-         <morphology xml:id="perseus-dik" which="Perseus Greek categorized"/>
+         <morphology xml:id="perseus-dik" which="Perseus Greek categorized" accessed-when="2020-07-17"/>
          <person xml:id="dik" which="Helma Dik"/>
          <algorithm xml:id="algorithm-1">
             <IRI>tag:textalign.net,2015:algorithm:org.perseus:tools:morpheus.v1</IRI>
             <name>Tufts morphology service</name>
-            <location href="" accessed-when="2019-06-16"/>
+            <location href="http://services.perseids.org/bsp/morphologyservice" accessed-when="2019-06-16"/>
          </algorithm>
          <person which="Joel Kalvesmaki" xml:id="kalvesmaki"/>
       </vocabulary-key>
@@ -51,7 +51,8 @@
       <change who="xslt1" when="2018-05-19T17:46:01.735-04:00">Created TAN-A-lm from tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG(file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/evagrius/cpg2441.grc.PG.xml)</change>
       <change who="xslt2" when="2019-06-16T21:59:40.501-04:00">Converted from 2018 to 2020 schemas.</change>
       <to-do>
-         <comment who="xslt1" when="2018-05-19T17:46:01.735-04:00">File is still in progress.</comment>
+         <comment who="kalvesmaki" when="2020-02-29">Add &lt;lm> data for 11 tokens</comment>
+         <comment who="kalvesmaki" when="2020-02-29">Fill out empty &lt;m> elements; fix missing links to algorithms</comment>
       </to-do>
       </head>
    <body lexicon="LSJ" morphology="perseus-dik" claimant="xslt2">

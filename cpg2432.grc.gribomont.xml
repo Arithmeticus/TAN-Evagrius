@@ -81,6 +81,7 @@
     <file-resp who="kalvesmaki"/>
     <resp roles="editor" who="kalvesmaki"/>
     <resp roles="stylesheet" who="xslt1 xslt2"/>
+    <change when="2020-06-07" who="kalvesmaki">Added fragment to I.4</change>
     <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Adjusted &lt;name&gt;</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
@@ -93,8 +94,11 @@
   </head>
   <text>
     <body xml:lang="grc">
+      <div type="century" n="I">
+        <div type="chapter" n="4"> <pb n="88"/> <p>Καὶ πάλιν πάντα τὰ κτίσματα ἢ ἐκ τῶν ἐναντίων <lb/>συνέστηκεν ἢ τῶν ἐναντίων ἐστὶ δεκτικά.</p> </div>
+      </div>
       <div type="century" n="IV">
-        <div type="chapter" n="19"> <pb n="88"/> <p>Ὁ γὰρ ἀριθμός ἐστι τοῦ ποσοῦ, τὸ δὲ ποσὸν τῇ σωματικῇ φύσει <lb/>συνέζευκται· ὁ ἄρα ἀριθμὸς τῆς σωματικῆς φύσεως. </p> </div>
+        <div type="chapter" n="19"><p>Ὁ γὰρ ἀριθμός ἐστι τοῦ ποσοῦ, τὸ δὲ ποσὸν τῇ σωματικῇ φύσει <lb/>συνέζευκται· ὁ ἄρα ἀριθμὸς τῆς σωματικῆς φύσεως. </p> </div>
       </div>
     </body>
   </text>
