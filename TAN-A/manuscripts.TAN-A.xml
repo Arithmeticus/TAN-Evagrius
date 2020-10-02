@@ -74,6 +74,7 @@
       </to-do>
    </head>
    <body claimant="kalvesmaki">
-      <claim subject="BL_Add_14578" period="6-7c" verb="dates-to"/>
+      <claim subject="BL_Add_14578 BL_Add_14616 BL_Add_17167" period="6-7c" verb="dates-to"/>
+      <claim subject="BL_Add_14581 BL_Add_17165" period="6c" verb="dates-to"/>
    </body>
 </TAN-A>
