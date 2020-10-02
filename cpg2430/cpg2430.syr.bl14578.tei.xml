@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2020" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001">
@@ -21,31 +21,28 @@
       <name xml:lang="eng">Syriac translation of the Praktikos of Evagrios Pontikos, from BL Add.
          14,578</name>
       <name xml:lang="eng">Praktikos S1, BL Add. 14,578</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430/cpg2430.syr.bl14578.tei.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <work which="Prak."/>
       <version which="Praktikos S1"/>
       <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
-         <location href="TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
-      <source>
-         <IRI>urn:uuid:ec5742c0-8797-11e3-835d-0002a5d5c51b</IRI>
-         <IRI>tag:evagriusponticus.net,2012:scriptum:ms:gb:london:bl:add-14578</IRI>
-         <name xml:lang="eng">British Library Add. 14,578</name>
-         <desc>Relevant folios: 2r-11r</desc>
-      </source>
+      <comment when="2020-10-02" who="kalvesmaki">Relevant folios: 2r-11r</comment>
+      <source which="BL Add 14578"/>
       <companion-version>
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.S2</IRI>
          <name>Syriac translation S2 of the Praktikos of Evagrios Pontikos, from BL Add.
             14,578</name>
-         <location href="cpg2430.syr.bl14578.s2.tei.xml" accessed-when="2019-07-29"/>
+         <location href="cpg2430.syr.bl14578.s2.tei.xml" accessed-when="2020-10-02"/>
       </companion-version>
       <vocabulary-key>
          <algorithm xml:id="xslt2">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
             <name>Converter from TAN 2018 to TAN 2020</name>
-            <location href="../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-28T04:06:52.291-04:00"/>
+            <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-28T04:06:52.291-04:00"/>
          </algorithm>
       
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
@@ -54,7 +51,7 @@
             <name>Stylesheet to populate a TAN-A-div file from collections.</name>
             <desc>Stylesheet at:
                ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
-            <location href="../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl" accessed-when="2019-05-28"/>
+            <location href="../../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl" accessed-when="2019-05-28"/>
          </algorithm>
       </vocabulary-key>
       
@@ -62,7 +59,8 @@
       <resp who="xslt2" roles="stylesheet"/>
       <resp who="kalvesmaki" roles="editor"/>
       <resp who="xslt1" roles="stylesheet"/>
-      <change when="2019-07-29" who="kalvesmaki" flags="warning">I removed S2 (letter to Anatolios)
+      <change when="2020-10-02" who="kalvesmaki">Moved to subdirectory cpg2430, cleaned up tags.</change>
+      <change when="2019-07-29" who="kalvesmaki" flag="warning">I removed S2 (letter to Anatolios)
          from this version and moved it into its own TAN file, cpg2430.syr.bl14578.tei.xml. A TAN
          file is supposed to be one version per file, and it took some time to recognize that the
          principle was not being honored.</change>
@@ -82,12 +80,12 @@
          schemas.</change>
       <change when="2018-12-21" who="kalvesmaki">Fixed typos at 30, 36</change>
       <change who="xslt2" when="2019-05-28T04:06:52.291-04:00">Converted from 2018 to 2020 schemas.</change>
-      <to-do>
-         <comment when="2018-12-21" who="kalvesmaki">File is still in progress.</comment>
-      </to-do>
       <comment when="2014-01-24" who="kalvesmaki">This document was prepared as a test for
          developing a text model for the Text Alignment Network (TAN-T) independent of, but informed
          by, TEI.</comment>
+      <to-do>
+         <comment when="2020-10-02" who="kalvesmaki">Needs to be proofread against the manuscript.</comment>
+      </to-do>
    </head>
    <text>
       <body xml:lang="syr">
