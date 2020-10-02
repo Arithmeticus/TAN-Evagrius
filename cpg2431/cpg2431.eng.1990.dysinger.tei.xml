@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2020" id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_eng_Dysinger.TAN-TEI.001">
@@ -63,21 +63,16 @@
   </teiHeader>
   <head xmlns="tag:textalign.net,2015:ns">
     <name xml:lang="eng">Dysinger's translation of the Gnostikos</name>
-    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2431.eng.dysinger.tei.xml"/>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2431/cpg2431.eng.1990.dysinger.tei.xml"/>
     <license which="by_4.0" licensor="kalvesmaki"/>
     <work which="Gn."/>
     <vocabulary>
       <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
       <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
-      <location href="TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
     </vocabulary>
     
-    <source>
-      <IRI>tag:kalvesmaki.com,2014:external_Evagrius_Gnostikos_eng_Dysinger</IRI>
-      <IRI>tag:evagriusponticus.net,2012:scriptum:dysinger-1990</IRI>
-      <name>Dysinger's online translation</name>
-      <location href="http://www.ldysinger.com/Evagrius/02_Gno-Keph/00a_start.htm" accessed-when="2013-04-13"/>
-    </source>
+    <source which="Dysinger 1990"/>
     <adjustments>
       <normalization>
         <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
@@ -110,7 +105,7 @@
       <algorithm xml:id="xslt2">
         <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
         <name>Converter from TAN 2018 to TAN 2020</name>
-        <location href="../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-28T04:21:06.405-04:00"/>
+        <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-28T04:21:06.405-04:00"/>
       </algorithm>
     
       <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
@@ -118,17 +113,17 @@
       <algorithm xml:id="xslt1">
         <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
         <name>Stylesheet to populate a TAN-A-div file from collections.</name>
-        <desc>Stylesheet at:
-          ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
         <location
-          href="../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
+          href="../../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
           accessed-when="2019-05-28"/>
       </algorithm>
     </vocabulary-key>
     
-    <file-resp xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" who="kalvesmaki"/>
+    <file-resp who="kalvesmaki"/>
     <resp who="xslt1 xslt2" roles="stylesheet"/>
     <resp who="kalvesmaki" roles="editor"/>
+    
+    <change when="2020-10-02" who="kalvesmaki">Moved file, cleaned tags.</change>
     <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Adjusted &lt;name&gt;.</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-08-04:00" who="kalvesmaki">Revised to support compact syntax.</change>
@@ -137,7 +132,6 @@
     <change when="2014-10-29" who="kalvesmaki">Started TAN-TEI file.</change>
     <change who="xslt1" when="2017-12-16T12:23:02.807-05:00">TAN file updated to 2018 schemas.</change>
     <change who="xslt2" when="2019-05-28T04:21:06.405-04:00">Converted from 2018 to 2020 schemas.</change>
-    <to-do/>
     <comment when="2014-10-29" who="kalvesmaki">From the source: Translation by Luke Dysinger,
       O.S.B. (translation in public domain). Greek fragments from: [1] Socrates’ Ecclesiastical
       History, [2] Guillaumont; [3] retroversion from Syriac by Frankenberg[1]Evagrius’ Gnostikos
@@ -148,6 +142,7 @@
       Neue Folge, vol. 13, no. 2 (Berlin, 1912). Frankenberg's MS is designated S1 in. A. &amp; C.
       Guillaumont, Évagre le Pontique, Le Gnostique ou A celui qui est devenu digne de la science,
       Sources Chrétiennes nº 356, (Paris, 1989) 88-193.</comment>
+    <to-do/>
   </head>
   <text>
     <body xml:lang="eng">

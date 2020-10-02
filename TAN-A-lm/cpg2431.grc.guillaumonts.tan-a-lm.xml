@@ -11,11 +11,7 @@
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
-      <source>
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001</IRI>
-         <name>Guillaumonts' Greek edition of the Gnostikos of Evagrios Pontikos</name>
-         <location accessed-when="2018-05-19" href="../cpg2431.grc.guillaumonts.tei.xml"/>
-      </source>
+      <source accessed-when="2020-07-16" which="cpg2431 grc 1989"/>
       <vocabulary-key>
          <algorithm xml:id="xslt2">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>

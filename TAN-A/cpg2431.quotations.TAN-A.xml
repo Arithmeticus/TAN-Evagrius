@@ -66,7 +66,7 @@
       <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
       <resp roles="stylesheet" who="xslt1 xslt2"/>
-      <change when="2018-03-05" who="kalvesmaki" flags="error">Split file between a basic one for just the class-1 files and another for quotations.</change>
+      <change when="2018-03-05" who="kalvesmaki" flag="error">Split file between a basic one for just the class-1 files and another for quotations.</change>
       <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
       <change when="2015-08-07-04:00" who="kalvesmaki">Streamlined alignments to allow more compact
          div refs.</change>
