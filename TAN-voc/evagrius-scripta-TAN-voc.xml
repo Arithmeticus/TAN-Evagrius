@@ -55,8 +55,19 @@
           <name>B.L. Add. 17,167</name>
           <name>British Library, Add. 17,167</name>
        </item>
+       <item>
+          <IRI>tag:evagriusponticus.net,2012:scriptum:private:2020:karapetian-and-young</IRI>
+          <name>Karapetian and Young 2020</name>
+          <desc>Suite of Word documents with Armenian edition of the letters, with facing
+          English translations of the same and the Syriac versions of the letters.</desc>
+       </item>
        
        <!-- print -->
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:garnier-1857</IRI>
+         <name>Garnier 1839</name>
+         <desc>Basil of Caesarea. Opera omnia: quae exstant, vel quae ejus nomine circumferuntur, ad MSS. codices Gallicanos .. Vol. 3. Paris: J. B. Coignard, 1839.</desc>
+      </item>
       <item>
          <IRI>urn:isbn:978-960-518-440-7</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:aimilianos-2016</IRI>
@@ -1483,6 +1494,7 @@
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:evagrius-vitestam-1964</IRI>
+         <name>Vitestam 1964</name>
          <name>Evagrius Ponticus and Vitestam 1964</name>
          <name>evagrius vitestam 1964</name>
          <desc>Evagrius Ponticus and Vitestam, Gösta. Seconde partie du traité, qui passe sous le nom de "La grande lettre d'Évagre le Pontique à Mélanie l'Ancienne". Scripta minora regiae societatis humaniorum litterarum Lundensis 3. Lund: Gleerup, 1964. </desc>

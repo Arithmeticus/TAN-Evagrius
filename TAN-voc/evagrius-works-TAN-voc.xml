@@ -76,6 +76,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:nocpg03</IRI>
+            <name>Def</name>
             <name>Def.</name>
             <name xml:lang="eng">Definitions</name>
             <name>nocpg03</name>
@@ -84,6 +85,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:nocpg04</IRI>
+            <name>Exc.</name>
             <name>Exc</name>
             <name xml:lang="eng">Excerpts</name>
             <name>nocpg04</name>
@@ -102,6 +104,9 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2430</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.001</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.X01</IRI>
+            <name>Prak</name>
             <name>Prak.</name>
             <name>Praktikos</name>
             <name xml:lang="grc">Λόγος πράκτικος</name>
@@ -188,7 +193,9 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2431</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.002</IRI>
             <name>Gn.</name>
+            <name>Gn</name>
             <name xml:lang="grc">Γνωστικὸς ἢ Πρὸς τὸν καταξιωθέντα γνώσεως</name>
             <name>Gnostikos</name>
             <name xml:lang="lat">Gnosticus</name>
@@ -316,6 +323,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2434</IRI>
+            <name>Antirrh</name>
             <name>Antirrh.</name>
             <name xml:lang="grc">Ἀντιῤῥητικός</name>
             <name>Antirrhetikos</name>
@@ -352,6 +360,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2435</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.007</IRI>
             <name>Monks</name>
             <name xml:lang="lat">Ad monachos</name>
             <name xml:lang="grc">Πρὸς τοὺς ἐν κοινοβίοις ἢ συνοδίαις μοναχούς</name>
@@ -396,7 +405,9 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2436</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.008</IRI>
             <name>Ad virg.</name>
+            <name>Ad virg</name>
             <name>Virgin</name>
             <name xml:lang="grc">Παραίνεσις πρὸς παρθένον</name>
             <name xml:lang="eng">Chapters to a Virgin</name>
@@ -425,6 +436,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2437</IRI>
+            <name>Ep</name>
             <name>Ep.</name>
             <name>Letters</name>
             <name xml:lang="lat">Epistulae</name>
@@ -434,7 +446,9 @@
             <desc>A collection of 62 letters (see also CPG 2438, 2439; cover letters to other
                 treatises, e.g., CPG 2430, 2434) of various lengths, all providing spiritual counsel
                 to various figures such as Rufinus, St. Melania the Elder, St. Gregory Nazianzus,
-                Bp. John of Jerusalem.</desc>
+                Bp. John of Jerusalem. The Armenian translation of the corpus is restricted to
+                thirty letters, and is framed as if a correspondence between Evagrius and
+                Melania.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2437:version:syr</IRI>
@@ -450,14 +464,16 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2438</IRI>
             <name xml:lang="lat">Ad Mel.</name>
             <name xml:lang="eng">Letter to Melania</name>
+            <name xml:lang="eng">Great Letter</name>
             <name xml:lang="lat">Epistula ad Melaniam</name>
             <name>cpg2438</name>
-            <desc>Evagrius's last (?) and longest extant letter. It deals extensively with
-                Christology and the ministry of letter writing, as well as the apokatastasis (the
+            <desc>Evagrius's longest and presumably last extant letter. It deals extensively with
+                Christology and the act of letter writing, as well as the apokatastasis (the
                 restoration of all things at the end of time). Although one Syriac MS describes the
                 recipient as Melania the Elder (attested in Jerome's 'ad eam'?), this is generally
                 regarded as incorrect. See the arguments of Bunge (in his German translation), who
-                considers Rufinus to be more likely.</desc>
+                considers Rufinus to be more likely. The first half of the letter is extant in BL
+                Add. 14,578 whereas the second half is extant only in BL Add. 17,192.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2438:version:syr</IRI>
@@ -466,6 +482,8 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2439</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.X02</IRI>
+            <name xml:lang="lat">Ep fid</name>
             <name xml:lang="lat">Ep. fid.</name>
             <name xml:lang="lat">Epistula fidei</name>
             <name xml:lang="eng">Dogmatic Letter</name>
@@ -499,6 +517,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2441</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.010</IRI>
             <name>Hypotyposis</name>
             <name xml:lang="grc">Ὑπωτύπωσις ἢ Τῶν κατὰ μοναχῶν πραγμάτων τὰ αἰτία, καὶ ἡ καθ᾿
                 ἡσυχίαν τούτων παράθεσις</name>
@@ -525,6 +544,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2442</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.015</IRI>
             <name>33 Chapters</name>
             <name xml:lang="grc">Κεφάλαια λγʹ κατ᾿ ἀκολουθίαν</name>
             <name xml:lang="eng">Thirty-Three Chapters</name>
@@ -537,6 +557,8 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2443</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.016</IRI>
+            <name>Sent alph I</name>
             <name>Sent. alph. I</name>
             <name xml:lang="grc">Κεφάλαια ἢ παραίνεσις</name>
             <name xml:lang="eng">Paraeneticus</name>
@@ -560,6 +582,8 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2444</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.017</IRI>
+            <name>Sent alph II</name>
             <name>Sent. alph. II</name>
             <name xml:lang="grc">Γνῶμαι κατ᾿ ἀλφάβητον</name>
             <name xml:lang="eng">Spiritual Chapters Alphabetized</name>
@@ -575,6 +599,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2445</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.018</IRI>
             <name xml:lang="eng">Assorted Chapters</name>
             <name>Maxims 3</name>
             <name xml:lang="lat">Aliae sententiae</name>
@@ -595,6 +620,8 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2447</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.019</IRI>
+            <name>Eul</name>
             <name>Eul.</name>
             <name xml:lang="lat">Ad Eul.</name>
             <name xml:lang="grc">Λόγος πρὸς Εὐλόγιον μοναχόν</name>
@@ -640,6 +667,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2448</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.021</IRI>
             <name>Vices</name>
             <name xml:lang="grc">Περὶ τὰς ἀντιζήλους τῶν ἀρετῶν κακίας</name>
             <name xml:lang="eng">On the Vices Opposed to the Virtues</name>
@@ -672,7 +700,9 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2449</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.043</IRI>
             <name xml:lang="eng">On Masters and Disciples</name>
+            <name xml:lang="lat">De magistris et discipulis</name>
             <name>cpg2449</name>
         </item>
         <item affects-element="version">
@@ -697,6 +727,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2450</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.022</IRI>
             <name>Thoughts</name>
             <name xml:lang="grc">Περὶ διαφορῶν πονηρῶν λογισμῶν</name>
             <name xml:lang="eng">On the [Evil] Thoughts</name>
@@ -718,6 +749,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2451</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.023</IRI>
             <name xml:lang="grc">Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
             <name xml:lang="eng">The Eight Spirits of Wickedness</name>
             <name>Eight Thoughts</name>
@@ -772,6 +804,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2452</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.024</IRI>
             <name xml:lang="eng">On Prayer</name>
             <name xml:lang="grc">Περὶ προσευχῆς ἢ Λόγος εἰς ρνγʹ κεφαλαῖα διειλημμένος</name>
             <name>Prayer</name>
@@ -819,6 +852,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2454</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.025</IRI>
             <name>Exhortations to Monks</name>
             <name xml:lang="grc">Παραίνεσις πρὸς μοναχούς</name>
             <name xml:lang="eng">Counsel to Monks</name>
@@ -833,26 +867,37 @@
             <name>Syriac translation of Exhortations to Monks</name>
             <name>cpg2454-syr</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2455</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.X04</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.X05</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.X06</IRI>
+            <name>Sch Ps</name>
             <name>Sch. Ps.</name>
             <name xml:lang="grc">Σχόλια εἰς τοὺς Ψάλμους</name>
             <name xml:lang="eng">Scholia on the Psalms</name>
             <name xml:lang="lat">Scholia in Psalmos</name>
             <name>cpg2455</name>
-            <desc>Evagrius's comments on the Psalms. These scholia originate apparently from an
-                extensive, now lost, commentary on the Psalms.</desc>
-            <desc>Rondeau is preparing an edition.</desc>
+            <desc>Evagrius's scholia (comments) on the Psalms. M. Rondeau, who published a key that
+                identified which scholia are to be attributed to Evagrius, is preparing an edition.</desc>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2456</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.028</IRI>
+            <name>Comm Prov</name>
             <name>Comm. Prov.</name>
             <name xml:lang="eng">Commentary on the Proverbs</name>
             <name xml:lang="lat">Expositio in Proverbia Salomonis</name>
             <name>cpg2456</name>
+            <desc>See Sch. Prov. This CPG number should be avoided, as there is no
+            evidence that Evagrius wrote a systematic commentary on Proverbs.</desc>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2457</IRI>
+            <name>Comm par et Prov</name>
             <name>Comm. par. et Prov.</name>
             <name xml:lang="eng">Commentary on the Parables and the Proverbs</name>
             <name xml:lang="lat">Expositio in Parabolas et in Proverbia Salomonis</name>
@@ -863,66 +908,83 @@
             <name>Syriac translation of Comm. par. et Prov.</name>
             <name>cpg2457-syr</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2458.1</IRI>
+            <name>Sch Oct</name>
             <name>Sch. Oct.</name>
             <name xml:lang="grc">Σχόλια εἰς τὸν Γένεσιν, Ἀρίθμους, καὶ Βασιλείους</name>
             <name xml:lang="eng">Scholia on Genesis, Numbers, and Kings</name>
             <name xml:lang="lat">Scholia in Genesim, Numeros et Reges</name>
             <name>cpg2458.1</name>
-            <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
-                patristic biblical exegesis. Remains to be edited.</desc>
+            <desc>Individual scholia attributed to Evagrius, preserved in the later (esp. 9th-10th
+                c.) compilations of patristic biblical exegesis. Remains to be edited. There is no 
+            evidence that Evagrius wrote a systematic collection of scholia on any of these books in
+            the way he developed his scholia on Proverbs, Ecclesiastes, or Psalms.</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2458.2</IRI>
+            <name>Sch Iob</name>
             <name>Sch. Iob</name>
             <name xml:lang="grc">Σχόλια εἰς τὸν Ἰώβ</name>
             <name xml:lang="eng">Scholia on Job</name>
             <name xml:lang="lat">Scholia in Iob</name>
             <name>cpg2458.2</name>
-            <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
-                patristic biblical exegesis. Remains to be edited.</desc>
+            <desc>More than forty scholia attributed to Evagrius, preserved in the later (esp.
+                9th-10th c.) compilations of patristic biblical exegesis. Remains to be edited. It
+                is unclear whether these scholia are part of a systematic collection of scholia such
+                as those that survive on Proverbs, Ecclesiastes, and Psalms.</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2458.3</IRI>
+            <name>Sch Cant</name>
             <name>Sch. Cant.</name>
             <name xml:lang="grc">Σχόλια εἰς τὸν ᾎσμα τῶν ἀσμάτων</name>
             <name xml:lang="eng">Scholia on the Song of Songs</name>
             <name xml:lang="lat">Scholia in Canticum canticorum</name>
             <name>cpg2458.3</name>
-            <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
-                patristic biblical exegesis. Remains to be edited.</desc>
+            <desc>Individual scholia attributed to Evagrius, preserved in the later (esp. 9th-10th
+                c.) compilations of patristic biblical exegesis. Remains to be edited. There is no
+                evidence that Evagrius wrote a systematic collection of scholia on this book in the
+                way he developed his scholia on Proverbs, Ecclesiastes, or Psalms.</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2458.4</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.030</IRI>
+            <name>Sch Prov</name>
             <name>Sch. Prov.</name>
             <name xml:lang="grc">Σχόλια εἰς τὰς Παροιμίας</name>
             <name xml:lang="eng">Scholia on Proverbs</name>
             <name xml:lang="lat">Scholia in Proverbia</name>
             <name>cpg2458.4</name>
-            <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
-                patristic biblical exegesis.</desc>
+            <desc>Collection of 384 scholia on the book of Proverbs. The work survives whole.</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2458.5</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.031</IRI>
+            <name>Sch Eccl</name>
             <name>Sch. Eccl.</name>
             <name xml:lang="grc">Σχόλια εἰς τὴν Ἐκκλησιαστὴν</name>
             <name xml:lang="eng">Scholia on Ecclesiastes</name>
             <name>S-Eccles.</name>
             <name xml:lang="lat">Scholia in Ecclesiasten</name>
             <name>cpg2458.5</name>
-            <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
-                patristic biblical exegesis.</desc>
+            <desc>Collection of 73 scholia on the book of Proverbs. The work survives whole.</desc>
+            
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2458.6</IRI>
+            <name>Sch Lu</name>
             <name>Sch. Lu.</name>
             <name xml:lang="eng">Scholia on Luke</name>
             <name xml:lang="lat">Scholia in Lucam</name>
             <name>cpg2458.6</name>
-            <desc>Collections of sayings found in the later (esp. 9th-10th c.) compilations of
-                patristic biblical exegesis. Remains to be edited.</desc>
+            <desc>Individual scholia attributed to Evagrius, preserved in the later (esp. 9th-10th
+                c.) compilations of patristic biblical exegesis. Remains to be edited. There is no
+                evidence that Evagrius wrote a systematic collection of scholia on this book in the
+                way he developed his scholia on Proverbs, Ecclesiastes, or Psalms.</desc>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2459</IRI>
             <name xml:lang="lat">De cherubim</name>
@@ -969,6 +1031,7 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2462</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.X07</IRI>
             <name>Apophthegmata</name>
             <name xml:lang="grc">Ἀποφθέγματα</name>
             <name>cpg2462</name>
@@ -1183,12 +1246,13 @@
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2482</IRI>
+            <IRI>tag:evagriusponticus.net,2015:tlg4110.040</IRI>
             <name xml:lang="grc">Εἰς τὸ ΠΙΠΙ</name>
             <name xml:lang="eng">On the Tetragrammaton</name>
             <name>cpg2482</name>
             <desc>This brief discussion of the Tetragrammaton and the names of God is identical to
-                Sch. Iob 1.5. The CPG rejects the fragment as spurious, but Casiday (2005) defends
-                its Evagrian authorship.</desc>
+                Sch. Iob 1.5. The CPG rejects the fragment as spurious, but Casiday (2005) argues
+                for its authenticity.</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2482a</IRI>
