@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2020" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Frankenberg.TAN-TEI.001">
@@ -48,21 +48,17 @@
   <head xmlns="tag:textalign.net,2015:ns">
     <name xml:lang="eng">Frankenberg's Greek retroversion of transcription of Syriac translation S1
       of the Kephalaia Gnostika</name>
-    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.grc.frankenberg.xml"/>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1912.frankenberg.xml"/>
     <license which="by_4.0" licensor="kalvesmaki"/>
     <work which="KG"/>
     <vocabulary>
       <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
       <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
-      <location href="TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
     </vocabulary>
     
-    <source>
-      <IRI>http://www.worldcat.org/oclc/4013565</IRI>
-      <IRI>tag:evagriusponticus.net,2012:scriptum:frankenberg-1912</IRI>
-      <IRI>tag:kalvesmaki.com,2014:external_Evagrius_syr_Frankenberg</IRI>
-      <name>Frankenberg's Euagrius Ponticus (1912)</name>
-    </source>
+    <source which="Frankenberg 1912"/>
+    
     <adjustments>
       <normalization which="no reference markers"/>
     </adjustments>
@@ -70,16 +66,14 @@
       <algorithm xml:id="xslt2">
         <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
         <name>Converter from TAN 2018 to TAN 2020</name>
-        <location href="../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-29T09:05:42.808-04:00"/>
+        <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-29T09:05:42.808-04:00"/>
       </algorithm>
       <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       <algorithm xml:id="xslt1">
         <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
         <name>Stylesheet to populate a TAN-A-div file from collections.</name>
-        <desc>Stylesheet at:
-          ../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
         <location
-          href="../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
+          href="../../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
           accessed-when="2019-05-29"/>
       </algorithm>
     </vocabulary-key>
@@ -87,6 +81,8 @@
     <file-resp who="kalvesmaki"/>
     <resp roles="editor" who="kalvesmaki"/>
     <resp roles="stylesheet" who="xslt1 xslt2"/>
+    
+    <change when="2020-10-02" who="kalvesmaki">Moved file; cleaned tags</change>
     <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes.</change>
     <change when="2017-05-15" who="kalvesmaki">Removed reference markers. Commented out Syriac index numbers (removing element foreign). | converted to milestones. Hyphens changed to soft hyphens. Parenthetical comments moved to note or alternative readings. (Sometimes I had to guesse at what Frankenberg meant.) </change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>

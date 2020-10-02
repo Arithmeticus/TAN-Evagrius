@@ -59,14 +59,16 @@
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
          <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc><location href="../../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl" accessed-when="2019-06-14"/></algorithm>
          
-         <alias xml:id="S1" idrefs="S1-Guill S1-Dy S1-Fr"/>
+         <alias xml:id="S1" idrefs="S1-Guill S1-Fr"/>
          <alias xml:id="S2" idrefs="S2-Guill S2-Dy"/>
       </vocabulary-key>
       
       <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
       <resp roles="stylesheet" who="xslt1 xslt2"/>
-      <change when="2018-03-05" who="kalvesmaki" flags="error">Split file between a basic one for just the class-1 files and another for quotations.</change>
+      
+      <change when="2020-10-02" who="kalvesmaki">Dropped S1-Dy from the alias S1 because it's quite incomplete.</change>
+      <change when="2018-03-05" who="kalvesmaki" flag="error">Split file between a basic one for just the class-1 files and another for quotations.</change>
       <change when="2015-10-12" who="kalvesmaki">Adapted for inclusions</change>
       <change when="2015-08-07-04:00" who="kalvesmaki">Streamlined alignments to allow more compact
          div refs.</change>
@@ -255,7 +257,7 @@
       </claim>
       <claim verb="alludes_or_refers_to">
          <subject work="KG" ref="II 86"/>
-         <object work="lxx" ref="Ex 25:30, Heb. 9:2"/>
+         <object work="lxx" ref="Ex 25:30, Heb 9:2"/>
       </claim>
       <claim>
          <subject work="KG" ref="II 89"/>

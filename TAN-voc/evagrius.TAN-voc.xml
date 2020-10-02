@@ -93,45 +93,45 @@
                 <name>cpg2431 grc guillaumont</name>
                 <name>cpg2431 grc guillaumonts</name>
                 <name>Greek edition of the Gnostikos by the Guillaumonts</name>
-                <location href="../cpg2431.grc.guillaumonts.tei.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2431/cpg2431.grc.1989.guillaumonts.tei.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_eng_Dysinger.TAN-TEI.001</IRI>
                 <name>cpg2431 eng 1997</name>
                 <name>cpg2431 eng Dysinger</name>
                 <name>1997 English translation of the Gnostikos by Dysinger</name>
-                <location href="../cpg2431.eng.dysinger.tei.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2431/cpg2431.eng.1990.dysinger.tei.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_Frankenberg.TAN-TEI.001</IRI>
                 <name>cpg2431 syr 1912</name>
                 <name>Frankenberg Syriac Gnostikos</name>
                 <desc>Frankenberg's transcription of Syriac edition in BL Add. 14,578.</desc>
-                <location href="../cpg2431.syr.frankenberg.tei.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2431/cpg2431.syr.1912.frankenberg.tei.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd14581</IRI>
                 <name>cpg2431 syr 14581</name>
                 <name>Gnostikos preserved in BL Add. 14581</name>
-                <location href="../cpg2431.syr.BLAdd14581.xml" accessed-when="2016-03-19-04:00"/>
+                <location href="../cpg2431/cpg2431.syr.0600.BLAdd14581.xml" accessed-when="2016-03-19-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd17167</IRI>
                 <name>cpg2431 syr 17167</name>
                 <name>Gnostikos preserved in BL Add. 17167</name>
-                <location href="../cpg2431.syr.BLAdd17167.xml" accessed-when="2016-03-19T18:43:47.816-04:00"/>
+                <location href="../cpg2431/cpg2431.syr.0700.BLAdd17167.xml" accessed-when="2016-03-19T18:43:47.816-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd17165</IRI>
                 <name>cpg2431 syr 17165</name>
                 <name>Gnostikos preserved in BL Add. 17165</name>
-                <location href="../cpg2431.syr.BLAdd17165.xml" accessed-when="2016-03-19T18:43:47.816-04:00"/>
+                <location href="../cpg2431/cpg2431.syr.0600.BLAdd17165.xml" accessed-when="2016-03-19T18:43:47.816-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd14616</IRI>
                 <name>cpg2431 syr 14616</name>
                 <name>Gnostikos preserved in BL Add. 14616</name>
-                <location href="../cpg2431.syr.BLAdd14616.xml" accessed-when="2016-03-19T22:46:01.073-04:00"/>
+                <location href="../cpg2431/cpg2431.syr.0700.BLAdd14616.xml" accessed-when="2016-03-19T22:46:01.073-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Frankenberg.TAN-TEI.001</IRI>
@@ -139,7 +139,7 @@
                 <name>cpg2431 grc Frankenberg</name>
                 <name>Frankenberg Gnostikos Greek retroversion</name>
                 <desc>Frankenberg's Greek retroversion of a Syriac translation of the Gnostikos</desc>
-                <location href="../cpg2431.grc.frankenberg.tei.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2431/cpg2431.grc.1912.frankenberg.tei.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <!-- CPG 2432: Kephalaia gnostika -->
             <item>
@@ -147,28 +147,28 @@
                 <name>cpg2432 syr S1 1958</name>
                 <name>cpg2432 syr S1 Guillaumont</name>
                 <name>Syriac edition of S1 by Guillaumont</name>
-                <location href="../cpg2432.syr.guillaumont-s1.xml" accessed-when="2015-08-08"/>
+                <location href="../cpg2432/cpg2432.syr.1958.guillaumont-s1.xml" accessed-when="2015-08-08"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_eng_Dysinger_S1.TAN-TEI.001</IRI>
                 <name>cpg2432 eng S1 1997</name>
                 <name>cpg2432 eng S1 Dysinger</name>
                 <name>1997 English translation of the Kephalaia Gnostika, S1 by Dysinger</name>
-                <location href="../cpg2432.eng.dysinger-s1.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.eng.1990.dysinger-s1.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Frankenberg.TAN-TEI.001</IRI>
                 <name>cpg2432 grc S1 1912</name>
                 <name>cpg2432 grc S1 Frankenberg</name>
                 <name>Frankenberg's Greek retroversion of Syriac KG S1</name>
-                <location href="../cpg2432.grc.Frankenberg.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1912.Frankenberg.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001</IRI>
                 <name>cpg2432 syr S2 1958</name>
                 <name>cpg2432 syr S2 Guillaumont</name>
                 <name>Syriac edition of S2 by Guillaumont</name>
-                <location href="../cpg2432.syr.guillaumont-s2.xml" accessed-when="2015-08-08"/>
+                <location href="../cpg2432/cpg2432.syr.1958.guillaumont-s2.xml" accessed-when="2015-08-08"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_eng_Dysinger_S2.TAN-TEI.001</IRI>
@@ -176,126 +176,126 @@
                 <name>cpg2432 eng S2 Dysinger</name>
                 <name>Transcription of 1997 English translation of the Kephalaia Gnostika, S2 by
                     Dysinger</name>
-                <location href="../cpg2432.eng.dysinger-s2.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.eng.1990.dysinger-s2.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Cordier.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1857</name>
                 <name>cpg2432 grc PG 4</name>
                 <name>KG fragments preserved PG 4</name>
-                <location href="../cpg2432.grc.cordier.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1857.pg4.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_la_Rue.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1862</name>
                 <name>cpg2432 grc PG 12</name>
                 <name>KG fragments preserved PG 12</name>
-                <location href="../cpg2432.grc.de_la_Rue.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1862.pg12.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Mai-1825.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1865</name>
                 <name>cpg2432 grc PG 86a</name>
                 <name>KG fragment preserved in PG 86a</name>
-                <location href="../cpg2432.grc.Mai-1825.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1865.pg86a.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Mai-1852.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1863</name>
                 <name>cpg2432 grc PG 39</name>
                 <name>KG fragment preserved in PG 39</name>
-                <location href="../cpg2432.grc.Mai-1852.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1863.pg39.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_Angelis-Noah.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 2000</name>
                 <name>cpg2432 grc de Angelis-Noah</name>
                 <name>KG fragments preserved in the correspondence of Barsanouphios and John</name>
-                <location href="../cpg2432.grc.de_Angelis-Noah.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1997.from-cpg7350.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_Preville.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1963</name>
                 <name>cpg2432 grc de Préville</name>
                 <name>KG fragment preserved in Dorotheus of Gaza</name>
-                <location href="../cpg2432.grc.de_Préville.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1963.from-cpg7352.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Devreesse.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1959</name>
                 <name>cpg2432 grc Devreesse</name>
                 <name>KG fragment preserved in a scholion on the Octateuch</name>
-                <location href="../cpg2432.grc.devreesse.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1959.devreesse.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Diekamp.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1987</name>
                 <name>cpg2432 grc Diekamp</name>
                 <name>KG fragments preserved in the Doctrina patrum</name>
-                <location href="../cpg2432.grc.diekamp.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1907.from-cpg7781.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gribomont.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1983</name>
                 <name>cpg2432 grc Gribomont</name>
                 <name>KG fragment preserved in the Epistula fidei</name>
-                <location href="../cpg2432.grc.gribomont.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1983.from-cpg2439.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1987.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1987b</name>
                 <name>cpg2432 grc Géhin 1987</name>
                 <name>KG fragments preserved in the scholia on the Proverbs</name>
-                <location href="../cpg2432.grc.géhin-1987.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1987.géhin.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1996.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1996</name>
                 <name>cpg2432 grc Géhin 1996</name>
                 <name>KG fragments preserved in Vat. gr. 2028</name>
-                <location href="../cpg2432.grc.géhin-1996.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1996.géhin.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1998.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1998</name>
                 <name>cpg2432 grc Géhin 1998</name>
                 <name>KG fragments preserved in Περὶ διαφορῶν πονηρῶν λογισμῶν</name>
-                <location href="../cpg2432.grc.géhin-1998.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1998.géhin.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Hausherr.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1939</name>
                 <name>cpg2432 grc Hausherr</name>
                 <name>KG fragments preserved in MS Moscow 425</name>
-                <location href="../cpg2432.grc.hausherr.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1939.hausherr.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1931.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1931</name>
                 <name>cpg2432 grc Muyldermans 1931</name>
                 <name>KG fragments preserved in Milan, Ambr. gr. 681 (Q 74 sup.)</name>
-                <location href="../cpg2432.grc.Muyldermans-1931.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1931.muyldermans.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1932.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1932</name>
                 <name>cpg2432 grc Muyldermans 1932</name>
                 <name>KG fragments preserved in Paris BnF gr. 2748</name>
-                <location href="../cpg2432.grc.Muyldermans-1932.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1932.muyldermans.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Pitra.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1932b</name>
                 <name>cpg2432 grc Pitra</name>
                 <name>KG fragments preserved in Pitra's edition of the scholia on the Psalms</name>
-                <location href="../cpg2432.grc.Pitra.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1876.pitra.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Wolf.TAN-TEI.001</IRI>
                 <name>cpg2432 grc 1722</name>
                 <name>cpg2432 grc Wolf</name>
                 <name>KG fragment preserved in Wolf's Analecta graeca</name>
-                <location href="../cpg2432.grc.Wolf.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2432/cpg2432.grc.1722.wolf.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             
             <!-- CPG 2437: Letters -->
@@ -463,6 +463,7 @@
                 <name>Aristotle Categories Greek Minio-Paluello</name>
                 <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
                 <location href="http://textalign.net/release/TAN-2018/examples/ar.cat.grc.1949.minio-paluello-obj.xml" accessed-when="2015-09-11-04:00"/>
+                <location href="../../../TAN-2020/examples/ar.cat.grc.1949.minio-paluello.ref-scriptum.xml" accessed-when="2020-10-20"/>
                 <location href="../../../TAN-2020/examples/ar.cat.grc.1949.minio-paluello-obj.xml" accessed-when="2016-12-01"/>
             </item>
         </group>

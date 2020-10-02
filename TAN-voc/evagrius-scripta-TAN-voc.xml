@@ -37,24 +37,28 @@
           <name>BL Add 14581</name>
           <name>B.L. Add. 14,581</name>
           <name>British Library, Add. 14,581</name>
+          <name>Wright 734</name>
        </item>
        <item>
           <IRI>tag:evagriusponticus.net,2012:scriptum:ms:gb:london:bl:add-14616</IRI>
           <name>BL Add 14616</name>
           <name>B.L. Add. 14,616</name>
           <name>British Library, Add. 14,616</name>
+          <name>Wright 744</name>
        </item>
        <item>
           <IRI>tag:evagriusponticus.net,2012:scriptum:ms:gb:london:bl:add-17165</IRI>
           <name>BL Add 17165</name>
           <name>B.L. Add. 17,165</name>
           <name>British Library, Add. 17,165</name>
+          <name>Wright 733</name>
        </item>
        <item>
           <IRI>tag:evagriusponticus.net,2012:scriptum:ms:gb:london:bl:add-17167</IRI>
           <name>BL Add 17167</name>
           <name>B.L. Add. 17,167</name>
           <name>British Library, Add. 17,167</name>
+          <name>Wright 743</name>
        </item>
        <item>
           <IRI>tag:evagriusponticus.net,2012:scriptum:private:2020:karapetian-and-young</IRI>
@@ -1020,6 +1024,7 @@
          <desc>Deville, Adam. “Eastern Christian Books: Augustine Casiday on Evagrius of Pontus.” Eastern Christian Books (Blog). [n.p.]: [n.p.], Monday, June 16, 2014. blogspot.com</desc>
       </item>
       <item>
+         <IRI>http://lccn.loc.gov/ltf90006847</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:devreesse-1959</IRI>
          <name>Devreesse 1959</name>
          <desc>Devreesse, Robert. Les anciens commentateurs grecs de l'Octateuque et des Rois: [Fragments tirés des chaînes]. Studi e testi 201. Città del Vaticano: Biblioteca apostolica vaticana, 1959. </desc>
@@ -1032,6 +1037,7 @@
       </item>
       <item>
          <IRI>urn:isbn:3-402-03450-6</IRI>
+         <IRI>http://www.worldcat.org/oclc/11058889</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:diekamp-1981</IRI>
          <name>Diekamp, Phanourgakēs, and Chrysos 1981</name>
          <name>diekamp 1981</name>
@@ -1574,12 +1580,16 @@
       <item>
          <IRI>urn:isbn:88-05-03731-1</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:forlin-patrucco-1983</IRI>
+         <IRI>http://lccn.loc.gov/84168256</IRI>
          <name>Basil of Caesarea, Forlin Patrucco, and Gribomont 1983-</name>
          <name>forlin patrucco 1983</name>
+         <name>Gribomont 1983</name>
          <desc>Basil of Caesarea and Forlin Patrucco, Marcella. Le lettere. Corona Patrum 11. Torino: Società editrice internazionale, 1983–. </desc>
       </item>
       <item>
+         <IRI>http://www.worldcat.org/oclc/4013565</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:frankenberg-1912</IRI>
+         <IRI>tag:kalvesmaki.com,2014:external_Evagrius_syr_Frankenberg</IRI>
          <name>Evagrius Ponticus and Frankenberg 1912</name>
          <name>frankenberg 1912</name>
          <desc>Evagrius Ponticus. Euagrius Ponticus. Abhandlungen der Königlichen Gesellschaft der Wissenschaften zu Göttingen. Philologisch-Historische Klasse, n.F. 13, no. 2. Berlin: Weidmannsche Buchhandlung, 1912. archive.org</desc>
@@ -1981,6 +1991,7 @@
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:guillaumont-1989</IRI>
          <name>Guillaumont 1989</name>
+         <name>Guillaumonts 1989</name>
          <name>SC 356</name>
          <desc>Evagrius Ponticus, Antoine Guillaumont, and Claire Guillaumont, Le Gnostique, Ou,
              A Celui Qui Est Devenu Digne de La Science, Sources Chrétiennes 356 (Paris: Éditions
@@ -2051,6 +2062,7 @@
          <name>Evagrius Ponticus, Géhin, Guillaumont, and Guillaumont 1998</name>
          <name>SC 438</name>
          <name>géhin 1998</name>
+         <name>guillaumonts and géhin 1998</name>
          <desc>Evagrius Ponticus, Géhin, Paul, Guillaumont, Claire, and Guillaumont, Antoine. Sur les pensées. Sources chrétiennes 438. Paris: Éditions du Cerf, 1998. </desc>
       </item>
       <item>
@@ -2982,6 +2994,7 @@
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:muyldermans-1931b</IRI>
+         <IRI>http://www.worldcat.org/oclc/558798869</IRI>
          <name>muyldermans 1931b</name>
          <desc>Muyldermans, Joseph. Evagriana: Extrait de la revue Le Muséon, vol. 44, augmenté de nouveax fragments grecs inédits. Paris: Paul Geuthner, 1931. </desc>
       </item>
@@ -2991,6 +3004,7 @@
          <desc>Muyldermans, Joseph. “Note additionnelle à: Euagriana.” Le Muséon. Revue d'Études Orientales 44 (1931): 369–83.</desc>
       </item>
       <item>
+         <IRI>http://www.worldcat.org/oclc/7564753</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:muyldermans-1932</IRI>
          <name>Muyldermans 1932</name>
          <desc>Muyldermans, Joseph. À travers la tradition manuscrite d'Evagre le Pontique: Essai sur les manuscrits grecs conservés à la Bibliothèque nationale de Paris. Bibliothèque du Muséon 3. Louvain: Bureaux du Muséon, 1932. </desc>
@@ -3084,6 +3098,7 @@
       <item>
          <IRI>urn:isbn:2-204-06490-4</IRI>
          <IRI>urn:isbn:978-2-204-06490-3</IRI>
+         <IRI>http://lccn.loc.gov/98122568</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:neyt-1997</IRI>
          <name>Barsanuphius, John of Gaza, and Neyt 2001</name>
          <name>SC 451</name>
@@ -3503,6 +3518,7 @@
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:pitra-1876</IRI>
+         <IRI>http://www.worldcat.org/oclc/20553841</IRI>
          <name>Pitra 1876-1891</name>
          <name>pitra 1876</name>
          <desc>Pitra, J. B. Analecta sacra spicilegio Solesmensi parata. Paris: A. Jouby et Roger, 1876–1891. google.com</desc>
@@ -3643,6 +3659,7 @@
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:regnault-1963</IRI>
+         <IRI>http://lccn.loc.gov/67007974</IRI>
          <name>Dorotheus of Gaza, Regnault, and Préville 1963</name>
          <name>SC 92</name>
          <name>regnault 1963</name>
@@ -4373,6 +4390,7 @@
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:wolf-1722</IRI>
+         <IRI>http://www.worldcat.org/oclc/7907597</IRI>
          <name>Wolf 1722-1724</name>
          <name>wolf 1722</name>
          <desc>Wolf, Johann Christoph. Anecdota graeca sacra et profana: Ex codicibus manu exaratis nunc primum in lucem edita, versione Latina donata et notis illustrata. Hamburg: Apud Theodorum Christophorum Felginer, 1722–1724. </desc>
