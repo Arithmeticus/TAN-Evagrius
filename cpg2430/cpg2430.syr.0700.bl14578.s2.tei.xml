@@ -20,7 +20,7 @@
    <head xmlns="tag:textalign.net,2015:ns">
       <name xml:lang="eng">Syriac translation S2 of the Praktikos of Evagrios Pontikos, from BL Add.
          14,578</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430/cpg2430.syr.bl14578.s2.tei.xml"/>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430/cpg2430.syr.0700.bl14578.s2.tei.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <work which="Prak."/>
       <version which="Praktikos S2"/>
@@ -34,12 +34,12 @@
       <companion-version>
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001</IRI>
          <name>Praktikos S1, BL Add. 14,578</name>
-         <location href="cpg2430.syr.bl14578.tei.xml" accessed-when="2019-07-29"/>
+         <location href="cpg2430.syr.0700.bl14578.tei.xml" accessed-when="2019-07-29"/>
       </companion-version>
       <vocabulary-key>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
-      <file-resp xmlns:tan="tag:textalign.net,2015:ns" who="kalvesmaki"/>
+      <file-resp who="kalvesmaki"/>
       <resp who="kalvesmaki" roles="editor"/>
       <change when="2020-10-02" who="kalvesmaki">Moved to subdirectory cpg2430, cleaned up tags.</change>
       <change when="2019-07-29" who="kalvesmaki" flag="warning">This file results from splitting

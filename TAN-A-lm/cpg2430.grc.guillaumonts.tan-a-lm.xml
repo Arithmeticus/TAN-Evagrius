@@ -14,7 +14,7 @@
       <source>
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
          <name>Guillaumonts' Greek edition of the Praktikos of Evagrios Pontikos</name>
-         <location accessed-when="2018-05-19" href="../cpg2430.grc.guillaumonts.xml"/>
+         <location accessed-when="2018-05-19" href="../cpg2430/cpg2430.grc.guillaumonts.xml"/>
       </source>
       <vocabulary-key>
          <algorithm xml:id="xslt2">
@@ -47,7 +47,7 @@
       <resp roles="editor" who="kalvesmaki"/>
       
       
-      <change who="xslt1" when="2018-05-19T16:53:49.713-04:00">Created TAN-A-lm from tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001(file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/evagrius/cpg2430.grc.guillaumonts.xml)</change>
+      <change who="xslt1" when="2018-05-19T16:53:49.713-04:00">Created TAN-A-lm from tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001(file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/evagrius/cpg2430/cpg2430.grc.guillaumonts.xml)</change>
       <change who="xslt2" when="2019-06-16T21:47:52.18-04:00">Converted from 2018 to 2020 schemas.</change>
       <to-do>
          <comment who="kalvesmaki" when="2020-02-29">Add &lt;lm> data for 42 tokens</comment>

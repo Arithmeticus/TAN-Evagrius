@@ -67,7 +67,7 @@
   </teiHeader>
   <head xmlns="tag:textalign.net,2015:ns">
     <name xml:lang="eng">Luke Dysinger's English translation of the Praktikos of Evagrios Pontikos</name>
-    <master-location href="http://evagriusponticus.net/tan/cpg2430.eng.dysinger.xml"/>
+    <master-location href="http://evagriusponticus.net/tan/cpg2430.eng.1990.dysinger.xml"/>
     <license which="by_4.0" licensor="kalvesmaki"/>
     <work which="Prak."/>
     <version>
@@ -82,12 +82,7 @@
       <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
     </vocabulary>
     
-    <source>
-      <IRI>tag:kalvesmaki.com,2014:external_Evagrius_Praktikos_eng_Dysinger</IRI>
-      <IRI>tag:evagriusponticus.net,2012:scriptum:dysinger-1990</IRI>
-      <name>Dysinger's online translation</name>
-      <location href="http://www.ldysinger.com/Evagrius/01_Prak/00a_start.htm" accessed-when="2013-04-13"/>
-    </source>
+    <source which="Dysinger 1990"/>
     <adjustments>
       <normalization>
         <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
@@ -131,7 +126,7 @@
     <file-resp who="kalvesmaki"/>
     <resp who="xslt1 xslt2" roles="stylesheet"/>
     <resp who="kalvesmaki" roles="editor"/>
-    <change when="2020-10-02" who="kalvesmaki">Moved to subdirectory cpg2430</change>
+    <change when="2020-10-02" who="kalvesmaki">Moved to subdirectory cpg2430, cleaned tags.</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
     <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
       release.</change>

@@ -65,26 +65,26 @@
                 <name>cpg2430 grc 1971</name>
                 <name>cpg2430 grc Guillaumont</name>
                 <name>Greek edition of the Praktikos by the Guillaumonts</name>
-                <location href="../cpg2430.grc.guillaumonts.xml" accessed-when="2015-08-07-04:00"/>
+                <location href="../cpg2430/cpg2430.grc.1971.guillaumonts.xml" accessed-when="2020-10-02"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_eng_Dysinger.TAN-TEI.001</IRI>
                 <name>cpg2430 eng 1997</name>
                 <name>cpg2430 eng Dysinger</name>
                 <name>1997 English translation of the Praktikos by Dysinger</name>
-                <location href="../cpg2430.eng.dysinger.xml" accessed-when="2015-08-07-04:00"/>
+                <location href="../cpg2430/cpg2430.eng.1990.dysinger.xml" accessed-when="2020-10-02"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001</IRI>
                 <name>cpg2430 syr S1 14578</name>
                 <name>Syriac translation S1 of the Praktikos in BL Add. 14,578.</name>
-                <location href="../cpg2430.syr.bl14578.tei.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../cpg2430/cpg2430.syr.0700.bl14578.tei.xml" accessed-when="2020-10-02"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.S2</IRI>
                 <name>cpg2430 syr S2 14578</name>
                 <name>Syriac translation S2 of the Praktikos in BL Add. 14,578</name>
-                <location href="../cpg2430.syr.bl14578.s2.tei.xml" accessed-when="2019-11-03"/>
+                <location href="../cpg2430/cpg2430.syr.0700.bl14578.s2.tei.xml" accessed-when="2020-10-02"/>
             </item>
             <!-- 2431: Gnostikos -->
             <item>

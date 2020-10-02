@@ -30,6 +30,7 @@
           <name>BL Add 14578</name>
           <name>B.L. Add. 14,578</name>
           <name>British Library, Add. 14,578</name>
+          <name>Wright 557</name>
        </item>
        <item>
           <IRI>tag:evagriusponticus.net,2012:scriptum:ms:gb:london:bl:add-14581</IRI>
@@ -1155,6 +1156,7 @@
          <IRI>tag:evagriusponticus.net,2012:scriptum:dysinger-1990</IRI>
          <name>Dysinger 1990</name>
          <desc>Luke Dysinger, “St. Evagrius Ponticus (345-399),” Monastic Spirituality Self-Study, 1990, http://www.ldysinger.com/Evagrius/00a_start.htm.</desc>
+         <location href="http://www.ldysinger.com/Evagrius/00a_start.htm" accessed-when="2020-10-02"/>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:dysinger-1997</IRI>

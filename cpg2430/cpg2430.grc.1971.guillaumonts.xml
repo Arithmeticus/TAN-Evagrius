@@ -19,7 +19,7 @@
    </teiHeader>
    <head xmlns="tag:textalign.net,2015:ns">
       <name xml:lang="eng">Guillaumonts' Greek edition of the Praktikos of Evagrios Pontikos</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430.grc.guillaumonts.xml"/>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430.grc.1971.guillaumonts.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <work which="Prak."/>
       <version which="cpg2430-grc-1971"/>
@@ -29,13 +29,7 @@
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
       
-      <source>
-         <IRI>http://lccn.loc.gov/72309768</IRI>
-         <IRI>tag:evagriusponticus.net,2012:scriptum:guillaumont-1971</IRI>
-         <name xml:lang="fra">Traitè pratique, ou, Le moine. Evagre le Pontique. Introduction par
-            Antoine Guillaumont et Claire Guillaumont. Sources chrétiennes 171. Paris, Éditions du
-            Cerf, 1971.</name>
-      </source>
+      <source which="Guillaumonts 1971"/>
       <annotation>
          <IRI>tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
          <name>Lexico-morphological data for: Guillaumonts' Greek edition of the Praktikos of
@@ -65,7 +59,7 @@
       <resp who="xslt2 xslt1" roles="stylesheet"/>
       <resp who="kalvesmaki" roles="editor"/>
       
-      <change when="2020-10-02" who="kalvesmaki">Moved to subdirectory cpg2430</change>
+      <change when="2020-10-02" who="kalvesmaki">Moved to subdirectory cpg2430, cleaned tags</change>
       <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
       <change when="2015-08-07-04:00" who="kalvesmaki">Corrected metadata in preparation for public
          release.</change>
@@ -82,11 +76,11 @@
       <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes, &lt;see-also&gt;s. Adjusted &lt;name&gt;. Corrected spaces around quotations.</change>
       <change when="2018-09-13" who="kalvesmaki">Added missing accent in last word of ch. 80</change>
       <change who="xslt2" when="2019-05-28T04:06:49.251-04:00">Converted from 2018 to 2020 schemas.</change>
-      <to-do/>
       <comment when="2014-05-01" who="kalvesmaki">Rights to use and disseminate the Greek text,
          without scholarly apparatus, was granted by Éditions du Cerf on 2014-04-28. I am grateful
          to them for their generosity, and encourage users of this data to show their appreciation
          by purchasing the full critical edition, through http://www.editionsducerf.fr </comment>
+      <to-do/>
    </head>
    <text>
       <body xml:lang="grc">

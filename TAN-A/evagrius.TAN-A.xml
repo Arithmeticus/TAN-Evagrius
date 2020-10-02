@@ -5,9 +5,8 @@
 <?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:tan-a-div:evagrius">
    <head>
-      <name>Head TAN file for Evagrius collection</name>
-      <desc>This file is intended to be lightweight TAN-A-div file, to serve as a repository of
-         general claims about the literary corpus of Evagrius Ponticus.</desc>
+      <name>Main TAN-A file for Evagrius collection</name>
+      <desc>Repository of general claims about the literary corpus of Evagrius Ponticus.</desc>
       <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/evagrius.TAN-A.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
 
@@ -17,13 +16,6 @@
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
       
-      <source xml:id="titular-source">
-         <comment when="2015-12-27" who="kalvesmaki">This source included only to validate the
-            TAN-A file, which is intended only as a core repository of metadata.</comment>
-         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
-         <name>cpg2430-grc-Guillaumonts.TAN-TEI.xml</name>
-         <location href="../cpg2430.grc.guillaumonts.xml" accessed-when="2015-12-27T12:03:59.703-05:00"/>
-      </source>
       <vocabulary-key>
          <algorithm xml:id="xslt2">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
@@ -122,7 +114,7 @@
          <comment when="2018-04-05-04:00" who="kalvesmaki">File is still in progress.</comment>
       </to-do>
    </head>
-   <body subject="evagrius" claimant="xslt2">
+   <body subject="evagrius" claimant="kalvesmaki">
       <!-- authorship -->
       <claim verb="wrote" where="eastern-mediterranean" period="late-life" object="cpg2430 cpg2431 cpg2432 cpg2433 cpg2434 cpg2435 cpg2436 cpg2437 cpg2438 cpg2439 cpg2440 cpg2441 cpg2442 cpg2443 cpg2444 cpg2445 cpg2447 cpg2448 cpg2450 cpg2451 cpg2452 cpg2453 cpg2454 cpg2455 cpg2456 cpg2457 cpg2458.1 cpg2458.2 cpg2458.3 cpg2458.4 cpg2458.5 cpg2458.6 cpg2459 cpg2460 cpg2461 cpg2463 cpg2464 cpg2464a           nocpg02 nocpg03 nocpg04 nocpg05"/>
       <claim adverb="possibly" verb="wrote" object="cpg2482"/>

@@ -27,12 +27,12 @@
             <name>SHA-1</name>
             <value>da39a3ee5e6b4b890afd807090d3255bfef95601</value>
          </checksum>
-         <location href="../cpg2430.grc.guillaumonts.xml" accessed-when="2015-02-24"/>
+         <location href="../cpg2430/cpg2430.grc.guillaumonts.xml" accessed-when="2015-02-24"/>
       </source>
       <source xml:id="syr">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001</IRI>
          <name>cpg2430-syr-BL14578.TAN-TEI.xml</name>
-         <location href="../cpg2430.syr.bl14578.tei.xml" accessed-when="2014-05-24"/>
+         <location href="../cpg2430/cpg2430.syr.bl14578.tei.xml" accessed-when="2014-05-24"/>
       </source>
       
       <vocabulary-key>

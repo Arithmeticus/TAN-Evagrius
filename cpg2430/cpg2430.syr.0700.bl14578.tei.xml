@@ -21,7 +21,7 @@
       <name xml:lang="eng">Syriac translation of the Praktikos of Evagrios Pontikos, from BL Add.
          14,578</name>
       <name xml:lang="eng">Praktikos S1, BL Add. 14,578</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430/cpg2430.syr.bl14578.tei.xml"/>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430/cpg2430.syr.0700.bl14578.tei.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <work which="Prak."/>
       <version which="Praktikos S1"/>
@@ -36,7 +36,7 @@
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.S2</IRI>
          <name>Syriac translation S2 of the Praktikos of Evagrios Pontikos, from BL Add.
             14,578</name>
-         <location href="cpg2430.syr.bl14578.s2.tei.xml" accessed-when="2020-10-02"/>
+         <location href="cpg2430.syr.0700.bl14578.s2.tei.xml" accessed-when="2020-10-02"/>
       </companion-version>
       <vocabulary-key>
          <algorithm xml:id="xslt2">
