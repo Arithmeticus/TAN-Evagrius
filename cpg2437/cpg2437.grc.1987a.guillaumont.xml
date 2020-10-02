@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:transcription:cpg2437:grc:1987a:guillaumont">
+   <head>
+      <name>C. Guillaumont's edition of Greek fragments of the letters of Evagrius Ponticus, from
+         codex Hierosolymitanus Sabaiticus 157</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2437/cpg2437.grc.1987a.guillaumont.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Epistulae"/>
+      <version>
+         <IRI>tag:kalvesmaki.com,2014:scriptum:ms:hier-sab-157</IRI>
+         <name>Hierosolymitanus Sabaiticus 157</name>
+      </version>
+
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+      </vocabulary>
+      <source which="Guillaumont 1987c"/>
+      
+      <adjustments>
+         <normalization which="no hyphens"/>
+      </adjustments>
+      <vocabulary-key>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2020-10-01" who="kalvesmaki">Started file</change>
+      <to-do/>
+   </head>
+   <body xml:lang="grc">
+      <div n="52" type="letter">
+         <div n="3" type="section"> Ὃ ἐγκώμια γραφῶν ἀναχωροῦντι ὅμοιός ἐστιν ἀνδρὶ ἐμβάλλοντι
+            καιομένῃ καμίνῳ στιππύον ἢ καλάμην ἢ ἄλλην ὕλην τὴν ῥᾳδίως ἐξαπτομένην. </div>
+         <div n="5" type="section">Ἐγὼ τοίνυν ἐπίσης καὶ δόξαν καὶ ἀτιμίαν φοβοῦμαι· τῇ μὲν γὰρ
+            ὑπερηφανία, τῇ δὲ μνησικακία παρέπεται· ἑκάτερα δὲ πρακτικῆς ἀλλότρια καταστάσεως. </div>
+         <div n="6" type="section">Τοὺς δὲ μόνον νηστεύοντας ἀπώϑου· οἵτινες ταῖς μὲν τῆς
+            γαστριμαργίας ἴσως οὐ σκοτισϑήσονται φαντασίαις, τοῖς δὲ τῆς μνησικακίας καὶ φιλαργυρίας
+            καὶ ὀργῆς καὶ κενοδοξίας καὶ ὑπερηφανίας βαπτίζονται λογισμοῖς· μὴ τοίνυν γίνου,
+            παρακαλῶ, ἀδιάκριτος, μηδὲ νόμιζε τὸν νηστεύοντα μόνον γνώσεως γίνεσϑαι δεκτικόν· οὐκ
+            ἔστιν ἐκ μιᾶς σανίδος κατασκευάσαι ναόν, οὐδὲ ἐκ μιᾶς πλίνϑου οἰκίαν· σκοπὸς γὰρ τῷ
+            μοναχῷ οὐκ ἀπὸ τῶνδε μὲν τῶν λογισμῶν λῦσαι τὸν νοῦν, τοῖς δὲ πάλιν συνδῆσαι, ἀλλὰ
+            καϑόλου παντὸς λογισμοῦ ἀκαϑάρτου τὸν νοῦν ἐλεύϑερον παραστῆσαι Χριστῷ. </div>
+      </div>
+   </body>
+</TAN-T>

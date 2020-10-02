@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki@gmail.com,2014:tan-a:cpg2437">
+   <head>
+      <name>Evagrios Pontikos, Letters</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2437.TAN-A.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+      </vocabulary>
+      
+      <source xml:id="grc-1987-hier-sab-157" which="cpg2437 grc 1987a" accessed-when="2020-10-02"/>
+      <source xml:id="grc-1987-sinai-462" which="cpg2437 grc 1987b" accessed-when="2020-10-02"/>
+      <source xml:id="grc-géhin" which="cpg2437 grc Géhin" accessed-when="2020-10-02"/>
+      <source xml:id="mai-catena" which="cpg2437 grc Mai" accessed-when="2020-10-02"/>
+      <source xml:id="hausherr" which="cpg2437 grc Hausherr" accessed-when="2020-10-02"/>
+      <source xml:id="prov-scholia" which="cpg2437 grc SchProv" accessed-when="2020-10-02"/>
+      <source xml:id="thoughts" which="cpg2437 grc Thoughts" accessed-when="2020-10-02"/>
+      <source xml:id="muyldermans" which="cpg2437 grc Muyldermans" accessed-when="2020-10-02"/>
+      
+      
+      <source xml:id="syr-frankenberg" which="cpg2437 syr Frankenberg" accessed-when="2020-10-02"/>
+      <source xml:id="grc-frankenberg" which="cpg2437 grc Frankenberg" accessed-when="2020-10-02"/>
+      
+      <source xml:id="syr-57-kalv" which="cpg2437 eng Kalvesmaki" accessed-when="2020-10-02"/>
+      
+      
+      
+      
+      
+      <vocabulary-key>
+         <alias xml:id="cpg2437" idrefs="Greek Syriac"/>
+         
+         <alias xml:id="Greek" idrefs="grc-1987-hier-sab-157 grc-1987-sinai-462 grc-géhin mai-catena hausherr 
+            prov-scholia thoughts muyldermans"/>
+         
+         <alias xml:id="Syriac" idrefs="syr-frankenberg Syriac_translations"/>
+         <alias xml:id="Syriac_translations" idrefs="grc-frankenberg syr-57-kalv"/>
+         
+         <work xml:id="ep" which="Epistulae"/>
+
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2020-09-16" who="kalvesmaki">Created file</change>
+      <to-do>
+         <comment when="2020-10-02" who="kalvesmaki">Add Armenian</comment>
+         <comment when="2020-10-02" who="kalvesmaki">Add Conybeare's Latin translation of the Armenian</comment>
+         <comment when="2020-10-02" who="kalvesmaki">Add Dysinger's partial English translation</comment>
+         <comment when="2020-09-16" who="kalvesmaki">Identify, add other transcriptions</comment>
+      </to-do>
+   </head>
+   <body claimant="kalvesmaki">
+      <claim verb="parallels">
+         <subject work="ep" ref="59.3"/>
+         <object work="ep" ref="43.3"/>
+      </claim>
+      <claim verb="parallels">
+         <subject work="ep" ref="43.3"/>
+         <object work="kg" ref="2.8"/>
+      </claim>
+   </body>
+</TAN-A>

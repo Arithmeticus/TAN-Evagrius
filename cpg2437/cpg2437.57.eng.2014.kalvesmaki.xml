@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:transcription:cpg2437.57:eng:2014:kalvesmaki">
+   <head>
+      <name>Kalvesmaki's translation of Letter 57 by Evagrius Ponticus</name>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Epistulae"/>
+
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+      </vocabulary>
+      <source which="Kalvesmaki 2014"/>
+      <model>
+         <IRI>tag:kalvesmaki.com,2014:tan-t:cpg2437:letters:deu:1986:bunge</IRI>
+         <name xml:lang="eng">Bunge's 1986 German translation of the 62 letters by Evagrius</name>
+         <location accessed-when="2020-09-16T09:18:11.068-04:00" href="private-cpg2437.deu.1986.bunge.tan-tei.xml"/>
+      </model>
+
+      <adjustments>
+         <normalization which="no hyphens"/>
+      </adjustments>
+      <vocabulary-key>
+
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2020-09-21" who="kalvesmaki">Started file</change>
+      <to-do>
+         <comment when="2020-09-14" who="kalvesmaki">Need to add other letters</comment>
+      </to-do>
+   </head>
+   <body xml:lang="eng">
+      <div n="57" type="letter">
+         <div n="1" type="section">Since you are mortal, you should not be very disheartened
+            concerning the falling asleep of our revered father. “For we are proceeding to meet him,
+            but he is not returning to us.” My desire, then, concerning all I have is this: I
+            pledged a vow before God when I entered the rank of monks that after the death of my
+            father nothing on the earth would be left for me, but I would spend it all as alms for
+            the Lord. </div>
+         <div n="2" type="section">According to your word, then, you wrote to us in the time when
+            sadness was burning you. But I, though also in lamentation, was called upon for this
+            letter, and I was compelled to write these things that I received from you. God, who
+            comforts the downtrodden, also comforts us, by his suddenly granting us knowledge . . .
+            (a) . . . of both death and life; (b) . . . of the body—which is our vessel—and of the
+            rational soul; (c) . . . of why souls are bound by bodies and yet [the body] is
+            perishable; (d) . . . of what reason angels and demons come to our realm; We, certainly,
+            do not go to their realms, for neither are we able to bind further the angels to God,
+            nor do we intend the spirits to be more foul. For neither do we attain to such great
+            knowledge, nor are we left to such ignorance. </div>
+         <div n="3" type="section">(e) . . . also of how our fathers are our fathers only with
+            regard to the body, but God is the Father of the soul. In the same way the sickness of
+            the son disheartens the father, so also the disorder of the soul disheartens God. A
+            father, at the sickness of his son, summons a physician. But from heaven God sends for
+            the physician of our souls so that he might entice and draw men from wickedness to
+            virtue and from ignorance to the knowledge of God. </div>
+         <div n="4" type="section">(f) . . . also of how he granted to the angels a habitation—the
+            Upper Jerusalem (just as it is written, “You approached Mount Zion, and the city of the
+            living God, the heavenly Jerusalem and the multitude of angels.”)—whereas he bound the
+            demons in chains of darkness and committed them to the lowest parts of the earth so that
+            they might be kept for the Judgment. But he placed us in this realm and joined us with
+            laboring bodies, as it is written, “The heaven of heavens are the Lord’s, but the earth
+            he gave to men,” so that, when we enact mercies, mercies might come to us, and that we
+            might become co-inheritors with the angels, with whom, I believe, is our revered father,
+            for he was merciful. Those who received mercies from him and sold him oil are
+            witnesses.</div>
+         <div n="5" type="section">These words of beginning knowledge emerged as lamentation touched
+            me, and they transformed my distress. But you, O holy one, did well. You refreshed the
+            blessed one in his life and, as he slept, you reverenced him within his holy grave,
+            where our father Abraham and his sons sleep. And I shall confess [your deeds] before my
+            Lord and before the holy angels, who will lead you and set you before the judgment seat
+            of Christ our Savior.</div>
+      </div>
+   </body>
+</TAN-T>

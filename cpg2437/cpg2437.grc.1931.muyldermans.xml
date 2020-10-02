@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2020" id="tag:kalvesmaki.com,2014:2437:grc:1931:muyldermans">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p part="N"/>
+      </publicationStmt>
+      <sourceDesc default="false">
+        <p part="N"/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Fragments of the Letters from Muyldermans's edition of Milan, Ambr. gr. 681
+      (Q 74 sup.) </name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2437/cpg2437.grc.1931.muyldermans.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Epistulae"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+    </vocabulary>
+
+    <source which="Muyldermans 1931b"/>
+    <adjustments>
+      <normalization which="no reference markers"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    
+    <change when="2020-10-02" who="kalvesmaki">Started file.</change>
+    <to-do/>
+  </head>
+  <text>
+    <body xml:lang="grc">
+      <div type="letter" n="43" part="N" org="uniform" sample="complete">
+        <div type="section" n="2" part="N" org="uniform" sample="complete">
+          <p part="N">Ἀρετῆς μὲν γεγόναμεν ἔχοντες σπέρματα, κακίας δὲ οὔ· <lb/>οὐ γὰρ εἴ τινος δεκτικοί
+            ἐσμεν, τούτου πάντως καὶ τὴν δύναμιν <lb/>ἔχομεν· ἐπεὶ καὶ μὴ εἶναι δυνάμενοι, τοῦ μὴ
+            ὄντος οὐκ ἔχομεν <lb/>δύναμιν, εἴπερ αἱ δυνάμεις ποιότητες, τὸ δὲ μὴ ὂν οὐκ ἔστιν
+            ποιότης. </p>
+        </div>
+      </div>
+      <!-- Letters 43 and 59 just happen to have subsection 3 in common, so we exploit that commonality in
+        a single div, rather than having to create a separate file. -->
+      <div type="letter" n="43 59" part="N" org="uniform" sample="complete">
+        <div type="section" n="3" part="N" org="uniform" sample="complete">
+          <p part="N">Ἦν ὅτε οὐκ ἦν κακία, καὶ ἔσται ὅτε οὐκ ἔσται· οὐκ ἦν δὲ <lb/>ὅτε οὐκ ἦν ἀρετὴ, οὐ δὲ
+            ἔσται ὅτε οὐκ ἔσται· πείθει δέ με ὁ ἐν τῷ <pb n="58"/> ᾅδῃ πλούσιος διὰ κακίαν, καὶ
+            ἐλεῶν τοὺς ἀδελφούς· τὸ δὲ ἐλεεῖν <lb/>ἀρετή.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
