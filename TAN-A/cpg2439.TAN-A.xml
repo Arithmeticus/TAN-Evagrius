@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2439">
    <head>
       <name>Evagrios Pontikos, Epistula fidei</name>
@@ -13,17 +9,24 @@
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
-      <source xml:id="ef-grc-grib" accessed-when="2020-07-17" which="cpg2439 grc gribomont"/>
-      <source xml:id="ef-grc-eras" accessed-when="2020-07-17" which="cpg2439 grc erasmus"/>
-      <source xml:id="ef-eng-jackson" accessed-when="2020-07-17" which="cpg2439 eng jackson"/>
+      <source xml:id="grc-grib" accessed-when="2020-07-17" which="cpg2439 grc gribomont"/>
+      <source xml:id="grc-eras" accessed-when="2020-07-17" which="cpg2439 grc erasmus"/>
+      <source xml:id="grc-garn" accessed-when="2020-09-13" which="cpg2439 grc garnier"/>
+      <source xml:id="lat-garn" accessed-when="2020-09-13" which="cpg2439 lat garnier"/>
+      <source xml:id="eng-jackson" accessed-when="2020-07-17" which="cpg2439 eng jackson"/>
       <vocabulary-key>
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
             <name>Converter from TAN 2018 to TAN 2020</name>
-            <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-06-16T06:58:11.229-04:00"/>
+            <location
+               href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl"
+               accessed-when="2019-06-16T06:58:11.229-04:00"/>
          </algorithm>
-        <alias xml:id="Greek" idrefs="ef-grc-grib ef-grc-eras"/>
-        <alias xml:id="English" idrefs="ef-eng-jackson"/>
+         <alias id="cpg2439" idrefs="Greek Latin English"/>
+         <alias id="cpg2439_common" idrefs="grc-grib eng-jackson"/>
+         <alias xml:id="Greek" idrefs="grc-grib grc-garn grc-eras"/>
+         <alias xml:id="Latin" idrefs="lat-garn"/>
+         <alias xml:id="English" idrefs="eng-jackson"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
       <resp who="xslt1" roles="stylesheet"/>
