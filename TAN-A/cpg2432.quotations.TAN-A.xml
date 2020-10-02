@@ -91,7 +91,7 @@
       </claim>
       <claim>
          <subject src="S1" ref="I 20"/>
-         <object src="nt nt-syr" ref="Mt 24:35"/>
+         <object work="nt" ref="Mt 24:35"/>
       </claim>
       <claim>
          <subject work="KG" ref="I 23"/>
@@ -229,17 +229,33 @@
          <subject src="S2" ref="II 55"/>
          <object src="lxx" ref="Job 1:15"/>
       </claim>
+      <claim verb="alludes_or_refers_to">
+         <subject work="KG" ref="II 56"/>
+         <object work="lxx" ref="Deut 33:1"/>
+      </claim>
+      <claim verb="alludes_or_refers_to">
+         <subject work="KG" ref="II 58"/>
+         <object work="nt" ref="Eph 3:18-19"/>
+      </claim>
       <claim>
          <subject src="S2" ref="II 59"/>
-         <object src="nt nt-syr" ref="2Th 1:5"/>
+         <object src="nt nt-syr" ref="2Th 1:5, Jn 7:24"/>
       </claim>
       <claim>
          <subject work="KG" ref="II 60"/>
          <object work="nt" ref="Lu 22:30"/>
       </claim>
       <claim>
+         <subject work="KG" ref="II 70"/>
+         <object work="lxx" ref="Ps 103:24"/>
+      </claim>
+      <claim>
          <subject src="S1" ref="II 77"/>
          <object src="nt nt-syr" ref="2Tim 4:8"/>
+      </claim>
+      <claim verb="alludes_or_refers_to">
+         <subject work="KG" ref="II 86"/>
+         <object work="lxx" ref="Ex 25:30, Heb. 9:2"/>
       </claim>
       <claim>
          <subject work="KG" ref="II 89"/>

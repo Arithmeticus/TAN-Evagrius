@@ -48,12 +48,18 @@
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
             <name>Stylesheet to populate a TAN-A-div file from collections.</name>
-            <desc>Stylesheet at:
-               ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc>
             <location
                href="../../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
                accessed-when="2019-06-14"/>
          </algorithm>
+         <alias xml:id="all" idrefs="Greek Syriac mixed"/>
+         <alias xml:id="Greek" idrefs="gn-grc-Gu"/>
+         <alias xml:id="Syriac" idrefs="S1 S3 S2"/>
+         <alias xml:id="S1" idrefs="S1-14578 syr-S1-14581"/>
+         <alias xml:id="S1-14578" idrefs="syr-S1-14578 gn-grc-Fr"/>
+         <alias xml:id="S3" idrefs="syr-S3-17167"/>
+         <alias xml:id="S2" idrefs="syr-S2-17165 syr-S2-14616"/>
+         <alias xml:id="mixed" idrefs="gn-eng-Dy"/>
          <alias xml:id="gn" idrefs="gn-grc-Gu"/>
       </vocabulary-key>
       
