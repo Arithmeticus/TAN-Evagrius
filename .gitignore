@@ -7,3 +7,5 @@ TAN-A-div quotations*
 .DS_Store
 tmp*
 *-old.xml
+*.bak
+archive/*
