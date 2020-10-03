@@ -396,6 +396,34 @@
                     accessed-when="2020-10-02-04:00"/>
             </item>
             
+            <!-- CPG 2438: Great Letter / Letter to Melania -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:transcription:cpg2438:syr:frankenberg</IRI>
+                <name>cpg2438 syr 1912</name>
+                <name>cpg2438 syr Frankenberg</name>
+                <name>Frankenberg's Syriac edition of the Great Letter by Evagrius Ponticus</name>
+                <location href="../cpg2438/cpg2438.syr.1912.frankenberg.xml"
+                    accessed-when="2020-10-02-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:transcription:cpg2438:grc:1912:frankenberg</IRI>
+                <name>cpg2438 grc 1912</name>
+                <name>cpg2438 grc Frankenberg</name>
+                <name>Frankenberg's Greek retroversion of the Great Letter by Evagrius
+                    Ponticus</name>
+                <location href="../cpg2438/cpg2438.grc.1912.frankenberg.tan-tei.xml"
+                    accessed-when="2020-10-02-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:transcription:cpg2438:syr:vitestam</IRI>
+                <name>cpg2438 syr 1964</name>
+                <name>cpg2438 syr Vitestam</name>
+                <name>Vitestam's Syriac edition of the second half of the Great Letter by Evagrius
+                    Ponticus</name>
+                <location href="../cpg2438/cpg2438.syr.1964.vitestam.xml"
+                    accessed-when="2020-10-02-04:00"/>
+            </item>
+            
             
             <!-- CPG 2439: Epistula fidei -->
             <item>
