@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2020/schemas/TAN-T.rnc"?>
-<?xml-model href="../../TAN-2020/schemas/TAN-T.sch"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-T.sch"?>
 <TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1863:ref-logical-after-1998">
    <head>
       <name>Greek text of De malignis cogitationibus from the Patrologia Graeca, logical reference
@@ -10,26 +10,26 @@
       <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
-         <location href="TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
       </vocabulary>
       <redivision>
          <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1863:ref-scriptum</IRI>
          <name>Greek text of De malignis cogitationibus from the Patrologia Graeca, scriptum
             reference system</name>
-         <location href="cpg2450.grc.1863.pg.ref-scriptum.xml" accessed-when="2020-02-28"/>
+         <location href="../cpg2450.grc.1863.pg.ref-scriptum.xml" accessed-when="2020-02-28"/>
       </redivision>
       <source which="Patrologia Graeca"/>
       <annotation>
          <IRI>tag:kalvesmaki.com,2014:patrologia:tan-a-lm:tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1863:ref-logical-after-1998</IRI>
          <name>Lexico-morphological data for: Greek text of De malignis cogitationibus from the
             Patrologia Graeca, logical reference system</name>
-         <location href="../patrologia/tan-a-lm/cpg2450.grc.1863.pg.ref-logical-after-1998.tan-a-lm.xml" accessed-when="2018-05-19-04:00"/>
+         <location href="../../patrologia/tan-a-lm/cpg2450.grc.1863.pg.ref-logical-after-1998.tan-a-lm.xml" accessed-when="2018-05-19-04:00"/>
       </annotation>
       <vocabulary-key>
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
             <name>Converter from TAN 2018 to TAN 2020</name>
-            <location href="../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-31T02:24:12.033-04:00"/>
+            <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-31T02:24:12.033-04:00"/>
          </algorithm>
       
          <div-type xml:id="ch" which="chapter"/>
