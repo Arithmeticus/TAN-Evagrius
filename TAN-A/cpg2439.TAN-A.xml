@@ -14,6 +14,10 @@
       <source xml:id="grc-garn" accessed-when="2020-09-13" which="cpg2439 grc garnier"/>
       <source xml:id="lat-garn" accessed-when="2020-09-13" which="cpg2439 lat garnier"/>
       <source xml:id="eng-jackson" accessed-when="2020-07-17" which="cpg2439 eng jackson"/>
+      
+      <source xml:id="syr-frankenberg" accessed-when="2020-10-03" which="cpg2439 syr frankenberg"/>
+      <source xml:id="grc-frankenberg" accessed-when="2020-10-03" which="cpg2439 grc frankenberg"/>
+      
       <vocabulary-key>
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
@@ -22,11 +26,12 @@
                href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl"
                accessed-when="2019-06-16T06:58:11.229-04:00"/>
          </algorithm>
-         <alias id="cpg2439" idrefs="Greek Latin English"/>
+         <alias id="cpg2439" idrefs="Greek Latin English Syriac"/>
          <alias id="cpg2439_common" idrefs="grc-grib eng-jackson"/>
          <alias xml:id="Greek" idrefs="grc-grib grc-garn grc-eras"/>
          <alias xml:id="Latin" idrefs="lat-garn"/>
          <alias xml:id="English" idrefs="eng-jackson"/>
+         <alias xml:id="Syriac" idrefs="syr-frankenberg grc-frankenberg"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
       <resp who="xslt1" roles="stylesheet"/>
@@ -37,8 +42,10 @@
       <change when="2018-03-05" who="kalvesmaki">Created file</change>
       <change who="xslt1" when="2019-06-16T06:58:11.229-04:00">Converted from 2018 to 2020 schemas.</change>
       <to-do>
+         <comment when="2020-10-03" who="kalvesmaki">Add Dysinger Eng trans</comment>
+         <comment when="2020-10-03" who="kalvesmaki">Frankenberg Greek retroversion</comment>
          <comment when="2020-07-18" who="kalvesmaki">Identify, add other transcriptions</comment>
       </to-do>
    </head>
-   <body claimant="xslt1"/>
+   <body claimant="kalvesmaki"/>
 </TAN-A>

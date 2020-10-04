@@ -7,13 +7,13 @@
    <head>
       <name>Epistula fidei by Evagrius of Pontus</name>
       <name>Letter of faith by Evagrius of Pontus</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2439.grc.gribomont.xml"/>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2439/cpg2439.grc.gribomont.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <work which="Ep. fid."/>
       <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
-         <location href="TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
       
       <source>
@@ -24,7 +24,7 @@
       <annotation>
          <IRI>tag:kalvesmaki.com,2014:tan-a-lm:cpg2439.grc.gribomont</IRI>
          <name>Lexico-morphological analysis of the Epistula fidei by Evagrius of Pontus</name>
-         <location href="TAN-A-lm/cpg2439.grc.gribomont.tan-a-lm.xml" accessed-when="2018-05-05T12:42:48.711-04:00"/>
+         <location href="../TAN-A-lm/cpg2439.grc.gribomont.tan-a-lm.xml" accessed-when="2018-05-05T12:42:48.711-04:00"/>
       </annotation>
       <adjustments>
          <normalization which="no hyphens"/>
@@ -33,7 +33,7 @@
          <algorithm xml:id="xslt2">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
             <name>Converter from TAN 2018 to TAN 2020</name>
-            <location href="../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-30T22:00:20.352-04:00"/>
+            <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-30T22:00:20.352-04:00"/>
          </algorithm>
          <div-type which="section" xml:id="sect"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
@@ -42,7 +42,7 @@
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
             <name>Stylesheet to populate a TAN-A-div file from collections.</name>
             <location
-               href="../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
+               href="../../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
                accessed-when="2019-05-30"/>
          </algorithm>
       </vocabulary-key>

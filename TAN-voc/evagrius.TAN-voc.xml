@@ -432,7 +432,7 @@
                 <name>cpg2439 grc Gribomont</name>
                 <name>Epistula fidei by Evagrius of Pontus, Gribomont edition</name>
                 <name>Letter of faith by Evagrius of Pontus, Gribomont edition</name>
-                <location href="../cpg2439.grc.gribomont.xml" accessed-when="2018-03-06T17:26:41.81-05:00"/>
+                <location href="../cpg2439/cpg2439.grc.1983.gribomont.xml" accessed-when="2018-03-06T17:26:41.81-05:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:grc:erasmus</IRI>
@@ -440,14 +440,14 @@
                 <name>cpg2439 grc Erasmus</name>
                 <name>Epistula fidei by Evagrius Ponticus, Erasmus edition</name>
                 <name>Letter of faith by Evagrius Ponticus, Erasmus edition</name>
-                <location href="../cpg2439.grc.erasmus.xml" accessed-when="2018-03-06T17:26:47.31-05:00"/>
+                <location href="../cpg2439/cpg2439.grc.1532.erasmus.xml" accessed-when="2018-03-06T17:26:47.31-05:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:eng:jackson</IRI>
                 <name>cpg2439 eng 1895</name>
                 <name>cpg2439 eng Jackson</name>
                 <name>Jackson's English translation of the Epistula fidei by Evagrius Ponticus</name>
-                <location href="../cpg2439.eng.jackson.xml" accessed-when="2018-03-06T17:25:04.212-05:00"/>
+                <location href="../cpg2439/cpg2439.eng.1895.jackson.xml" accessed-when="2018-03-06T17:25:04.212-05:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:grc:garnier</IRI>
@@ -455,7 +455,8 @@
                 <name>cpg2439 grc Garnier</name>
                 <name>Epistula fidei by Evagrius Ponticus, Garnier's Greek edition</name>
                 <name>Letter of faith by Evagrius Ponticus, Garnier's Greek edition</name>
-                <location accessed-when="2020-09-14T03:07:14.351-04:00" href="../cpg2439.grc.1839.garnier.xml"/>
+                <location accessed-when="2020-09-14T03:07:14.351-04:00" 
+                    href="../cpg2439/cpg2439.grc.1839.garnier.xml"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:lat:garnier</IRI>
@@ -463,7 +464,30 @@
                 <name>cpg2439 lat Garnier</name>
                 <name>Epistula fidei by Evagrius Ponticus, Garnier's Latin translation</name>
                 <name>Letter of faith by Evagrius Ponticus, Garnier's Latin translation</name>
-                <location accessed-when="2020-09-14T03:08:30.797-04:00" href="../cpg2439.lat.1839.garnier.xml"/>
+                <location accessed-when="2020-09-14T03:08:30.797-04:00" 
+                    href="../cpg2439/cpg2439.lat.1839.garnier.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:syr:frankenberg</IRI>
+                <name>cpg2439 syr 1912</name>
+                <name>cpg2439 syr Frankenberg</name>
+                <name>Epistula fidei by Evagrius Ponticus, Frankenberg's edition of the
+                    Syriac</name>
+                <location href="../cpg2439/cpg2439.syr.1912.frankenberg-remodeled.xml"
+                    accessed-when="2020-10-03-04:00"/>
+                <location href="../cpg2439/cpg2439.syr.1912.frankenberg.xml"
+                    accessed-when="2020-10-03-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:grc:1912:frankenberg</IRI>
+                <name>cpg2439 grc 1912</name>
+                <name>cpg2439 grc Frankenberg</name>
+                <name>Epistula fidei by Evagrius Ponticus, Frankenberg's Greek retroversion of the
+                    Syriac</name>
+                <location href="../cpg2439/cpg2439.grc.1912.frankenberg.tan-tei-remodeled.xml"
+                    accessed-when="2020-10-03-04:00"/>
+                <location href="../cpg2439/cpg2439.grc.1912.frankenberg.tan-tei.xml"
+                    accessed-when="2020-10-03-04:00"/>
             </item>
             
             
@@ -473,7 +497,7 @@
                 <name>cpg2441 grc 1858</name>
                 <name>cpg2441 grc PG 40</name>
                 <name>Evagrius of Pontus, Hypotyposis, Greek</name>
-                <location href="../cpg2441.grc.PG.xml" accessed-when="2018-06-03-04:00"/>
+                <location href="../cpg2441/cpg2441.grc.1858.pg40.xml" accessed-when="2018-06-03-04:00"/>
             </item>
             <!-- CPG 2442: 33 Chapters -->
             <item>
@@ -482,7 +506,7 @@
                 <name>cpg2442 grc PG 40</name>
                 <name>Greek text of Evagrius Ponticus, 33 Chapters from the Patrologia Graeca, logical
                     reference system</name>
-                <location href="../cpg2442.grc.1858.pg.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
+                <location href="../cpg2442/cpg2442.grc.1858.pg.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
             </item>
             <!-- CPG 2447: To Eulogios -->
             <item>
@@ -491,7 +515,7 @@
                 <name>cpg2447 grc PG 40</name>
                 <name>Greek text of Tractatus ad Eulogium from the Patrologia Graeca, logical reference
                     system</name>
-                <location href="../cpg2447.grc.1858.pg.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
+                <location href="../cpg2447/cpg2447.grc.1858.pg.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
             </item>
             <!-- CPG 2449: Masters and Disciples -->
             <item>
@@ -500,7 +524,7 @@
                 <name>cpg2449 grc Van Den Ven</name>
                 <name>Greek text of Evagrius of Pontus's On Masters and Disciples, Van Den Ven's 1907
                     edition, logical reference system</name>
-                <location href="../cpg2449.grc.1908.van-den-ven.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
+                <location href="../cpg2449/cpg2449.grc.1908.van-den-ven.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:scriptum</IRI>
@@ -508,21 +532,21 @@
                 <name>cpg2449 grc Van Den Ven scriptum</name>
                 <name>Greek text of Evagrius of Pontus's On Masters and Disciples, Van Den Ven's 1907
                     edition, scriptum-based reference system</name>
-                <location href="../cpg2449.grc.1908.van-den-ven.ref-scriptum.xml" accessed-when="2018-06-03-04:00"/>
+                <location href="../cpg2449/cpg2449.grc.1908.van-den-ven.ref-scriptum.xml" accessed-when="2018-06-03-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:lat:1907:logical</IRI>
                 <name>cpg2449 lat 1907</name>
                 <name>cpg2449 lat Van Den Ven</name>
                 <name>Latin text of Van Den Ven's 1907 edition, logical reference system</name>
-                <location href="../cpg2449.lat.1908.van-den-ven.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
+                <location href="../cpg2449/cpg2449.lat.1908.van-den-ven.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:lat:1907:scriptum</IRI>
                 <name>cpg2449 lat 1907 scriptum</name>
                 <name>cpg2449 lat Van Den Ven scriptum</name>
                 <name>Latin text of Van Den Ven's 1907 edition, scriptum-based reference system</name>
-                <location href="../cpg2449.lat.1908.van-den-ven.ref-scriptum.xml" accessed-when="2018-06-03-04:00"/>
+                <location href="../cpg2449/cpg2449.lat.1908.van-den-ven.ref-scriptum.xml" accessed-when="2018-06-03-04:00"/>
             </item>
             <!-- CPG 2450: On Evil Thoughts -->
             <item>
@@ -531,7 +555,7 @@
                 <name>cpg2450 grc PG 40</name>
                 <name>Greek text of De malignis cogitationibus from Patrologia Graeca 40, logical
                     reference system</name>
-                <location href="../cpg2450.grc.1858.pg.ref-logical-after-1998.xml" accessed-when="2018-06-03-04:00"/>
+                <location href="../cpg2450/cpg2450.grc.1858.pg.ref-logical-after-1998.xml" accessed-when="2018-06-03-04:00"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1863:ref-logical-after-1998</IRI>
@@ -539,7 +563,7 @@
                 <name>cpg2450 grc PG 79</name>
                 <name>Greek text of De malignis cogitationibus from Patrologia Graeca 79, logical
                     reference system</name>
-                <location href="../cpg2450.grc.1863.pg.ref-logical-after-1998.xml" accessed-when="2018-06-03-04:00"/>
+                <location href="../cpg2450/cpg2450.grc.1863.pg.ref-logical-after-1998.xml" accessed-when="2018-06-03-04:00"/>
             </item>
             <!-- CPG 2458.4: Scholia on Proverbs -->
             <item>
@@ -548,7 +572,7 @@
                 <name>cpg2458.4 grc Géhin</name>
                 <name>Greek text of Géhin's edition of Evagrius's Scholia on Proverbs, logical reference
                     system</name>
-                <location href="../cpg2458.4.grc.1987.g%C3%A9hin.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
+                <location href="../cpg2458/cpg2458.4.grc.1987.g%C3%A9hin.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
             </item>
         </group>
         <group affects-element="source">

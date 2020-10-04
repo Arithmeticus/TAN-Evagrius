@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:transcription:cpg2439:lat:garnier">
+   <head>
+      <name>Epistula fidei by Evagrius Ponticus, Garnier's Latin translation</name>
+      <name>Letter of faith by Evagrius Ponticus, Garnier's Latin translation</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2439/cpg2439.lat.1839.garnier.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Ep. fid."/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+      </vocabulary>
+      
+      <source which="Garnier 1857"/>
+      <adjustments>
+         <normalization which="no hyphens"/>
+         <normalization which="no ligatures"/>
+         <comment when="2020-09-15" who="kalvesmaki">At section 28, fixed obvious typo from ipe to
+            ipse ; at sect. 40 Spiritui to Spiritu.</comment>
+      </adjustments>
+      <vocabulary-key>
+         <div-type which="section" xml:id="sect"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2020-09-12" who="kalvesmaki">Started file</change>
+      <to-do/>
+   </head>
+   <body xml:lang="lat">
+      <div type="title" n="title">APOLOGIA de secessu ad Caesarienses, et de fide
+         pertractatio.</div>
+      <div type="sect" n="1">Saepe miratus sum, cur eo sitis in me animo affecti, et unde vos
+         tenuitas nostra, eaque exigua et modica ac fortasse nihil habens amabile, tantopere capiat;
+         nosque sermonibus adhortemini, amicitiam et patriam commomerontes, veluti profugos quosdam
+         paternis visceribus ad vos rursus conantes revocare. Ego autem profugum me esse fateor,
+         neque negaverim: sed jam causam, si cupitis, ediscetis. </div>
+      <div type="sect" n="2">Maxime quidem re inopinata tunc perculsus, quemadmodum qui ob
+         repentinos strepitus illico expavescunt, non cohibebam cogitationes, sed elongavi fugiens,
+         ac tempore multo a vobis abfui. Deinde vero et desiderium quoddam subiit mihi sacrorum
+         dogmatum, et philosophiae quae circa illa versatur. Quomodo enim possim, aiebam, habitantem
+         in nobis malitiam domare? Quis mihi fiat Laban, liberans me ab Esau atque ad supernam
+         philosophiam deducens? </div>
+      <div type="sect" n="3">Quoniam autem, Deo dante, voti compotes, quantum licuit, facti sumus,
+         electionis invento vase et puteo profundo, dico autem Christi os Gregorium: nobis parumper,
+         quaeso, parum, rogamus, concedite temporis; non quod in urbe commorationem ambiamus (neque
+         enim ignoramus, homines hoc pacto a maligno decipi), sed quod versari cum sanctis longe
+         utilissimum esse judicemus. Dum enim de divinis dogmatibus aliquid dicitur, auditurque
+         frequentius, contemplationum quemdam habitum, qui aegre amittatur, suscipimus. Et res
+         quidam nostrae ita se habent.</div>
+      <div type="sect" n="4">Vos autem, o divina et omnium mihi charissima capita, cavete
+         Philistinorum pastores, ne quis puteos vestros clanculum obstruat, et puram eorum, quae ad
+         fidem pertinent, cognitionem obturbet. Hoc enim eis semper studio est, non ex Scripturis
+         sacris docere animas simpliciores, sed sapienta extranea veritatem circumvenire. Qui enim
+         ingenitum et genitum in nostram fidem introducit, docetque eum qui semper est, aliquando
+         non fuisse, eumque qui natura ac semper Pater est, patrem fieri, et Spiritum sanctum non
+         esse sempiternum, nonne ille palam Philistaeus est? invidens patriarchae nostri ovibus, ne
+         ex pura et in vitam aeternam saliente aqua bibant, sed illud prophetae oraculum trahant in
+         semetipsos: Me dereliquerunt fontem aquae vivae, ac foderunt sibiipsis cisternas obtritas,
+         quae non poterunt aquam continere; cum confiteri oporteat Deum Patrem, Deum Filium, Deum
+         Spiritum sanctum, uti eloquia divina, et qui ea sublimius intellexere, docuerunt. </div>
+      <div type="sect" n="5">Caeterum ad eos qui tres deos nobis exprobrant, illud dicatur: unum nos
+         Deum non numero, sed natura confiteri. Quidquid enim unum numero dicitur, id vere unum non
+         est, neque natura simplex: Deum vero simplicem et incompositum confitentur omnes. Non
+         igitur unus numero est Deus. </div>
+      <div type="sect" n="6">Quod autem dico, est ejusmodi. Unum numero mundum esse dicimus, non
+         tamen unum natura, neque simplicem illum quemdam. Dividimus enim ipsum in elementa ex
+         quibus constat, in ignem, aquam, aerem et terram. Rursus homo unus numero dicitur. Unum
+         enim hominem saepe dicimus, sed non simplex quidam ille est, cum ex corpore et anima
+         constet. Similiter et angelum unum numero dicimus, sed non unum natura, neque simplicem:
+         siquidem essentiam cum sanctimonia hypostasim angeli intelligimus.</div>
+      <div type="sect" n="7">Itaque si quidquid unum est numero, unum natura non est, et quod natura
+         unum ac simplex est, unum numero non est, nos autem Deum natura unum dicimus; quomodo nobis
+         numerum affingunt, quem prorsus a beata illa ac spirituali natura amovemus? Numerus enim
+         pertinet ad quantitatem: quantitas vero corporali naturae conjuncta est; numerus ergo
+         corporeae est naturae. At Dominum nostrum corporum opificem esse credimus. Quapropter et
+         numerus omnis ea designat, quae materialem ac circumscriptam naturam sortita sunt: monas
+         vero et unitas simplicis ac incomprehensibilis essentiae insigne.</div>
+      <div type="sect" n="8">Quisquis igitur numerum aut creaturam confitetur Filium Dei, aut
+         Spiritum sanctum, imprudens materialem ac circumscriptam naturam inducit. Cincumscriptam
+         autem dico, non modo eam quae loco continetur, sed etiam quam praenotione comprehendit is,
+         qui ipsam e nihilo producturus est, quaeque scientia comprehendi potest. Quidquid igitur
+         sanctum est, habet autem naturam circumscriptam, et adventitiam sanctitatem, obnoxium esse
+         potest malitiae. Filius autem, et Spiritus sanctus, fons est sancitmoniae, unde rationalis
+         quaeque creatura pro virtutis ratione sanctificatur.</div>
+      <div type="sect" n="9">Nos, secundum veram doctrinam, neque similem, neque dissimilem Patri
+         Filium dicimus. Nam aeque utrumque horum repugnat. Enimvero simile et dissimile, qualitatum
+         habita ratione dicuntur: Deus autem liber est a qualitate. Verum identitatem naturae
+         confitentes et consubstantiale admittimus, et compositionem fugimus; cum is qui secundum
+         essentiam Deus et Pater est, Deum secundum essentiam et Filium genuerit. Ex hoc enim
+         consubstantiale ostenditur. Nam Deus secundum essentiam Deo secundum essentiam
+         consubstantialis. Siquidem et homo dicitur deus, velut in hoc loco, Ego dixi: Dii estis.
+         Quin etiam daemon appellatur deus, secundum illud, Dii gentium daemonia. Sed illi quidem ex
+         dono, hi vero ex mendacio nomen accipiunt. Deus vero solus est secundum essentiam
+         Deus.</div>
+      <div type="sect" n="10">Cum autem dico, solus, essentiam Dei sanctam et increatam significo.
+         Nam vox, solus, et de uno aliquo homine, et de universa prorsus natura dicitur. De uno
+         aliquo, velut cum verbi gratia dicitur de Paulo, solum raptum esse ad tertium usque caelum,
+         et audisse arcana verba, quae non liceat homini loqui: de natura vero universa, velut cum
+         David dicit: Homo, sicut foenum dies ejus. Hic enim non hominem aliquem, sed universam
+         naturam indicat: nam omnis homo temporarius et mortalis. Sic intelligimus de natura dicta
+         esse et illa: Qui solus habet immortalitatem; et, Soli sapienti Deo; et, Nemo bonus, nisi
+         unus Deus. Hic enim unus significat idem, quod solus. Et, Qui extendit caelum solus. Et
+         rursus, Dominum Deum tuum adorabis, et illi soli servies. Et, Non est Deus praeter
+         me.</div>
+      <div type="sect" n="11">Nam unus et solus et Deo dicuntur in Scriptura non ad distinctionem a
+         Filio aut Spiritu sancto, sed adversus eos qui cum dii non sint, dii tamen falso
+         nominantur, ut est illud: Dominus solus duxit eos, et non erat cum eis deus alienus. Et,
+         Everterunt filii Israel Baalim, et nemora Astaroth, et serviebant Domino soli. Et iterum
+         Paulus: Sicut sunt dii multi, et domini multi, nobis tamen unus Deus, Pater, ex quo omnia,
+         et unus Dominus Jesus Christus, per quem omnia. </div>
+      <div type="sect" n="12">Verum hic quaerimus, quomodo cum dixisset, Unus Deus, ea voce non
+         fuerit contentus (diximus enim, cum solus et unus de Deo dicuntur, significari enim, cum
+         solus et unus de Deo dicuntur, significari naturam), sed et vocem Pater apposuerit, et
+         Christi fecerit mentionem. Suspicor itaque existamasse hoc loco vas electionis Paulum,
+         satis non esse tantummodo Deum Filium, et Deum Spiritum sanctum praedicare; id quod per
+         dictionem, Unus Deus, declaraverat, nisi praeterea pre adjectionem Patris, eum ex quo omnia
+         sunt, exprimeret; et per mentionem Domini, Verbum per quod omnia sunt, significaret, et
+         rursus, per Jesu Christi adjunctionem, incarnationem annuntiaret, et passionem poneret ob
+         oculos: et resurrectionem commonstraret. Nam illud, Jesus Christus, notiones tales nobis
+         indicat. </div>
+      <div type="sect" n="13">Quapropter etiam Dominus ante passionem non vult dici Jesus Christus,
+         et discipulis praecipit, ut ne cuiquam dicant ipsum esse Jesum Christum. Propositum enim
+         illi erat post absolutam dispensationem ac resurrectionem ex mortuis, et in caelos
+         assumtionem, tum demum ispis committere, ut eum Jesum Christum praedicarent. Ejusmodi est
+         et illud: Ut congoscant te solum verum Deum, et quem misisti Jesum Christum: illud itidem:
+         Creditis in Deum, et in me credite: ubique cogitationem nostram praemuniente Spiritu
+         sancto; ne accedentes ad alterum, altero excidamus; neve theologiae intenti negligamus
+         dispensationem; atque in impietatem, dum in aliquo offendimus, indicamus.</div>
+      <div type="sect" n="14">Verba autem divinae Scripturae, quae arrepta adversarii, et ad suam
+         ipsorum sententiam detorta, nobis ad eversionem majestatis Unigeniti objiciunt, simili modo
+         expendamus, notionem eorum pro viribus explicantes. Ac primum nobis proponatur illud: Ego
+         vivo propter Patrem. Hoc enim unum est ex jaculis, quae in coelum vibrantur ab his, qui eo
+         impie utuntur. Illud autem dictum hoc loco non ipsam ante saecula; ut arbitror, vitam
+         designat (quidquid enim propter alterum vivit, vita ipsa esse nequit; quemadmodum neque
+         quod ab alio calefactum est, calor ipse esse potest: Christus autem et Deus noster dixit:
+         Ego sum vita), sed vitam hanc in carne, et in hoc tempore factam, quam propter Patrem
+         vixit. Nam ipso volente in vitam hominum advenit: neque dixit, Ego vixi propter Patrem;
+         sed, Ego vivo propter Patrem, aperte praesens tempus significans.</div>
+      <div type="sect" n="15">Potest autem et vitam dicere, quam vivit Christus, verbum Dei habens
+         in seipso. Atque id ipsum esse, quod significatur, ex his quae sequuntur videbimus. Et qui
+         manducat me, inquit, vivit propter me. Edimus enim ipsius carnem, et bibimus ipsius
+         sanguinem, participes fact, per incarnationem et sensibilem vitam, Verbi et sapientiae.
+         Carnem enim et sanguinem totam suam mysticam in carne conversationem vocavit, et doctrinam
+         ex practica et naturali et theologica notione constantem declaravit: per quam et nutritur
+         anima, et ad eorum quae sunt contemplationem interim praeparatur. Et haec est fortasse
+         illius dicti sententia.</div>
+      <div type="sect" n="16">Ac rursus, Pater meus major me est. Utuntur enim et hoc dicto ingratae
+         creaturae, mali progenies. Ego vero ex hac etiam voce consubstantialem esse Filium Patri
+         credo demonstrari. Comparationes enim scio proprie inter ea quae ejusdem naturae sunt
+         fieri. Angelum namque angelo dicimus majorem, et hominem homine justiorem, et volucrem
+         volucri velociorem. Itaque si comparationes inter ea quae ejusdem speciei sunt,
+         instituuntur; Pater autem secundum comparationem dictus est Filio major; consubstantialis
+         Patri Filius.</div>
+      <div type="sect" n="17">Inest autem et alia notio his verbis. Quid enim mirum, si majorem
+         seipso Patrem confessus est, qui Verbum est et caro factus est: cum et Angelis visus sit
+         secundum gloriam minor, et hominibus secundum speciem? Minuisti enim eum, inquit, paulo
+         minus ab angelis. Et iterum, Eum autem qui modico quam angeli minoratus est. Item, Vidimus
+         eum, et non habebat speciem, neque decorem: sed species ejus deficiens prae omnibus
+         hominibus.</div>
+      <div type="sect" n="18">Haec autem omnia sustinuit propter multam suam in opus suum
+         benignitatem, ut perditam ovem recuperaret, et introduceret servatam, et eum, qui ab
+         Jerosolimis Jerichunta descenderat, ob idque inciderat in latrones, ad propriam rursus
+         patriam sanum incolumemque reduceret. An etiam praesepe ei exprobrabit haereticus, per quod
+         cum esset ratione destitutus, a Verbo nutritus est? an abjiciet paupertatem, quod lectulus
+         defuit fabri filio? Propterea Patre minor Filius, quod tua causa factus est mortuus, ut te
+         a mortalitate liberaret, et caelestis participem vitae faceret. Velut si quis et medicum
+         accuset, quod demittens se ad morbos, particeps foetoris fiat, ut sanet aegrotantes.</div>
+      <div type="sect" n="19">Propter te et horam et diem judicii ignorat, quamquam nihil sapientiam
+         veram latet; omnia enim per ipsam facta sunt. Hominum autem nemo unquam quod fecit ignorat.
+         Verum id ita dispensat ob tuam infirmitatem, ut neque ii qui peccaverunt, ob praefiniti
+         temporis angustiam in desperationem adducantur, quasi non relictum sit poenitentiae tempus:
+         neque rursus ii qui diu cum adversaria potestate pugnant, ob temporis diuturnitatem aciem
+         deserant. Itaque consulit utrisque per ignorationem quam prae se fert; alteri quidem ob
+         praeclarum certamen tempus contrahens, alteri vero propter peccata poenitentiae tempus
+         reservans. </div>
+      <div type="sect" n="20">Quamquam cum se ipse in Evangeliis inter eos qui ignorant, ob
+         multorum, uti dixi, infirmitatem, numeraverit; in Actis Apostolorum velut perfectos seorsum
+         alloquens, non sine sui ipsius exceptione dicit: Non est vestrum nosse tempora vel momenta,
+         quae Pater posuit in sua potestate. Atque haec quidem prima aggressione dicta sint rudius.
+         Sed jam inquirenda sublimior dicti intelligentia, et pulsandae fores scientiae, si quo modo
+         possim patremfamilias excitare, qui spirituales panes petentibus se largitur; quandoquidem
+         amici sunt et fratres quos, convivio excipere cupimus.</div>
+      <div type="sect" n="21">Sancti discipuli Salvatoris nostri, cum ad summum contemplationis,
+         quantum hominibus fas est, pervenissent, et Christi sermone expurgati fuissent, finem
+         quaerunt, et beatitudinem extremam nosse desiderant; id quod et a suis angelis et a seipso
+         ignorari Dominus pronunciavit, diem appelans accuratam omnem eorum, quae de Deo cogitantur,
+         comprehensionem: horam vero, unitatis ac monadis contemplationem, quarum scientiam soli
+         Patri attribuit. Suspicor igitur Deum dici id quod est de seipso scire, et id nescire quod
+         non est. Justitiam enim et sapientiam nosse dicitur Deus, cum ipse justitia et sapientia
+         sit: injustitiam vero et malitiam ignorare; non enim est injustitia neque malitia, qui
+         condidit nos Deus.</div>
+      <div type="sect" n="22">Itaque si dicitur Deus, id quod est de seipso nosse, atque id nescire
+         quod non est; non est autem Dominus noster secundum incarnationis considerationem, et
+         crassiorem doctrinam, extremum illud bonum desiderabile: non igitur cognovit Salvator
+         noster finem, et extremam beatitudinem. Sed neque angeli, inquit, sciunt: hoc est, neque
+         contemplatio quae in ipsis est, neque rationes ministeriorum sunt extremum illud bonum
+         desiderabile. Nam horum etiam scientia crassa est, si comparetur eum ea, quae est facie ad
+         faciem. Solus autem Pater, inquit, novit: quippe et ipse est finis, et extrema beatitudo.
+         Cum enim non amplius Deum in speculis, neque per aliena cognoscemus, sed ad ipsum veluti
+         solum et unum accedemus; tunc et extremum finem sciemus. Nam Christi regnum esse ferunt
+         omnem materialem cognitionem: Dei vero et Patris, immaterialem, et, ut ita dixerim, ipsius
+         divinitatis contemplationem.</div>
+      <div type="sect" n="23">Atque etiam Dominus noster et ipse finis est, et extrema beatitudo
+         secundum Verbi considerationem. Quid enim ait in Evangelio? Et ego resuscitabo eum in
+         novissimo die: resurrectionem dicens transitum a materiali cognitione ad immortalem
+         contemplationem; diem autem novissimum appelans eam cognitionem, post quam non est alia.
+         Tunc enim mens nostra excitatur, et ad beatam sublimitatem erigitur, cum Verbi unitatem ac
+         monada contemplata fuerit. Sed quoniam mens nostra crassior effecta terrae illigata est, et
+         luto admiscetur, et contemplationi nudae intenta esse non potest; per cognatas corpori
+         ipsius pulchritudines manu ducta, conditoris operationes considerat, eaque interim ex
+         effectibus cognoscit, ut ita paulatim aucta, possit aliquando ad ipsam etiam nudam
+         divinitatem accedere.</div>
+      <div type="sect" n="24">In eamdem autem arbitror sententiam dictum fuisse et illud. Pater
+         major me est: illud itidem, Non est meum dare, sed quibus paratum est a Patre. Hoc enim est
+         quod et Christus regnum tradere dicitur Deo et Patri; cum primitiae, non finis sit,
+         secundum rudiorem, ut dixi, doctrinam, quae nostri, non ipsius Filii respectu intelligitur.
+         Quod autem haec ita se habent, rursus discipulis in Actis Apostolorum interrogantibus,
+         Quando restitues regnum Israël, respondit. Non est vestrum nosse tempora vel momenta, quae
+         Pater posuit in propria potestate. Hoc est, non eorum est, qui carni et sanguini illigati
+         sunt, talis regni cognitio. Posuit enim Pater contemplationem istam in propria potestate;
+         potestatem dicens eos, qui sub ipsius sunt potestate: proprios vero eos, quos rerum
+         inferiorum ignoratio non tenet. </div>
+      <div type="sect" n="25">Nolim autem in intelligas tempora et momenta sensibilia, sed quaedam
+         cognitionis intervalla a sole intelligibili facta. Oportet enim istam Domini nostri
+         precationem ad finem perduci ac impleri. Jesus enim est qui peccatus est: Da eis, ut et
+         ipsi in nobis unum sint, sicut ego et tu, Pater, unum sumus. Deus enim cum unus sit, si in
+         singulis fuerit, omnes unum efficit; et accedente unitate, perit numerus.</div>
+      <div type="sect" n="26">Atque equidem sic aggressus sum hoc dictum secundo tentamine. Quod si
+         quis meliora dicat, aut nostra pie emendet; et dicat, et emendet, et eum pro nobis
+         remunerabit Dominus. Nulla enim apud nos habitat invidia, ut qui nec contentionis, nec
+         inanis gloriae studio ad hanc verborum investigationem accesserimus; sed propter fratrum
+         utilitatem, ne testacea vasa thesaurum Dei habentia ab hominibus saxeo corde praeditis et
+         incircumcisis, qui ex stulta sapientia armati sunt, circumveniri videantur.</div>
+      <div type="sect" n="27">Rursus per sapientem Salomonem in Proverbiis creatus est. Dominus
+         enim, inquit, creavit me. Et initium viarum evangelicarum nominatur, quae nos ad regnum
+         coelorum ducunt; non secundum essentiam creatura, sed secundum dispensationem factus via.
+         Nam factus esse, et creatum esse, idem significant. Factus est enim quatenus via et janua
+         et pastor et nuntius et ovis, ac rursus pontifex et apostolus; nominibus aliis pro alia
+         considerandi ratione positis.</div>
+      <div type="sect" n="28">Rursus quid dicat haereticus de non subjecto Deo, et propter nos facto
+         peccato? Scriptum namque est: Cum subjecta fuerint illi omnia, tunc et ipse Filius
+         subjectus erit ei, qui subjecit sibi omnia. Non times, o homo, cum Deus non subjectus
+         appellatur! Tuam enim subjectionem, suam facit; et quod tu reluctaris adversus virtutem,
+         seipsum non subjectum nominat. Ita aliquando et seipsum dicit esse persequutioni obnoxium.
+         Ait enim: Saule, Saule, quid me persequeris? cum videlicet Damascum curreret, Christi
+         discipulos vincire volens. Et rursus seipsum nudum vocat, si unus aliquis ex fratribus
+         nudus exstiterit. Nudus enim, inquit, eram, et cooperuistis me. Item, cum alius in carcere
+         versatur, seipsum inclusum esse dicit. Ipse enim peccata nostra tulit, et morbos portavit.
+         Una autem ex infirmitatibus est quod subjecti non simus; et hanc portavit. Quapropter et
+         res adversas, quae nobis accidunt, proprias suas facit Dominus; ob eam quam nobiscum habet
+         societatem, perpessiones nostras suscipiens.</div>
+      <div type="sect" n="29">Sed et illud, Non potest Filius facere a se quidquam, usurpant Dei
+         hostes ad audientium eversionem. Mihi autem et hoc dictum maxime declarat ejusdem naturae
+         esse Filium ac Patrem. Etenim si unaquaeque rationalium creaturarum aliquid a seipsa facere
+         potest, libere in pejus meliusve inclinans, Filius autem non potest a semetipso quidquam
+         facere; Filius creatura non est. Quod si creatura non est, Patri est consubstantialis. Ac
+         rursus, nulla creatura quodcumque vult, potest efficere: Filius autem omnia quaecumque
+         voluit, fecit in coelo et in terra; non est igitur creatura Filius. Et iterum, creaturae
+         omnes aut constant ex contrariis, aut contrariorum sunt capaces. Filius vero est ipsa
+         justitia, et a materia secretus: proinde Filius creatura non est. Quod si creatura non est,
+         consubstantialis est Patri.</div>
+      <div type="sect" n="30">Sed iam quidem satis pro viribus proposita dicta explanavimus. Jam
+         deinceps etiam ad eos qui Spiritum sanctum oppugnant, sermonem convertamus, ut omnem animi
+         eorum altitudinem, quae se contra Dei cognitionem effert, dejiciamus. Spiritum sanctum
+         creaturam dicis. Omnis autem creatura serva est Creatoris: Omnia enim, inquit, sunt serva
+         tua. Si vero servus est, adventitiam quoque habet sanctitatem: quidquid autem adventitiam
+         sanctitatem habet, capax est malitiae: at Spiritus sanctus, cum secundum essentiam sanctus
+         sit, fons appellatur sanctitatis: non est igitur creatura Spritus sanctus. Quod si creatura
+         non est, consubstantialis est Deo. Quomodo autem servum vocas, dic mihi, eum, qui te per
+         baptismum e servitute eximit? Nam, inquit, lex Spiritus vitae liberavit me a lege peccati. </div>
+      <div type="sect" n="31">Sed neque mutabilem audebis unquam ejus essentiam dicere; si modo ad
+         potentiae adversae naturam respicias, quae fulguris in morem e coelo lapsa est, et vera
+         vita excidit, proptereaquod ascitam externamque sanctitatem habuit, successitque consilio
+         malo mutatio. Itaque posteaquam et unitate excidit, et angelicam abjecit dignitatem, ex
+         moribus dictus est diabolus, exstincto quidem priore ac beato habitu, excitata vero adversa
+         illa potentia.</div>
+      <div type="sect" n="32">Ad haec si Spiritum sanctum dicit creaturam, circumscriptam ac finitam
+         illius naturam inducit. Quomodo ergo stabit illud: Spiritus Domini replevit orbem terrarum?
+         illud quoque, Quo ibo a Spiritu tuo? Sed neque ipsum natura simplicem, ut apparet,
+         confitetur. Dicit enim ipsum numero unum. Quidquid autem unum numero est, id, ut dixi,
+         simplex non est. Si vero simplex non est Spiritus sanctus, ex essentia et sanctitate
+         constat: quod autem est ejusmodi, compositum est. Sed quis adeo demens fuerit, ut Spiritum
+         sanctum dicat compositum, ac non simplicem, et Patri et Filio consubstantialem secundum
+         simplicitatis rationem?</div>
+      <div type="sect" n="33">Quod si sermone progrediendum est, majoraque inspicienda; hinc maxime
+         divinam sancti Spiritus potentiam contemplemur. Tria creationum genera in Scriptura
+         nominata invenimus: Unum quidem ac primum, ex nihilo productionem; secundum vero, ex pejore
+         in melius immutationem; tertium, resurrectionem mortuorum. In his reperies Spiritum sanctum
+         una cum Patre et Filio operantem. Coeli enim producuntur. Quid jam dicit David? Verbo
+         Domini coeli firmati sunt, et Spiritu oris ejus omnis virtus eorum. Rursus creatur homo per
+         baptisma. Si qua enim in Christo nova creatura. Jam quid dicit discipulis Savator? Euntes
+         docete omnes gentes, baptizantes eos in nomine Patris et Filii et Spiritus sancti. Vides et
+         hic una adesse cum Patre et filio Spiritum sanctum. Quid autem dices et de resurrectione
+         mortuorum, postquam defecerimus, et in nostrum pulverem reversi fuerimus? Terra enim sumus,
+         it in terram ibimus, et mittet Spiritum sanctum, et creabit nos, et renovabit faciem
+         terrae. Nam quod sanctus Paulus resurrectionem dixit, id David renovationem
+         appellavit.</div>
+      <div type="sect" n="34">Rursus autem audiamus eum, qui ad tertium usque caelum raptus est.
+         Quid dicit? Templum estis Spiritus sancti in vobis inhabitantis. Templum autem omne, Dei
+         templum est. Quod si templum sumus Spiritus sancti; Spiritus sanctus Deus est. Dicitur
+         autem et templum Salomonis; verum tamquam ejus qui exstruxit. Quod si sic sumus templum
+         Spiritus sancti, Spiritus sanctus Deus est: Qui enim omnia condidit, Deus est; si vero
+         tamquam ejus, qui adoratur, et inhabitat in nobis, confiteamur ipsum esse Deum. Adorabis
+         namque Dominum Deum tuum, et illi soli servies. </div>
+      <div type="sect" n="35">Quod si eis vox illa, Deus, displicet, discant quid hoc nomen
+         significet. Nimirum ex eo quod posuerit omnia, vel spectet omnia, Deos nominatur. Si igitur
+         Deus dicitur, eo quod posuerit vel spectet omnia; Spiritus autem cognoscit omnia quae Dei
+         sunt, velut spiritus, qui in nobis est, novit quae nostra sunt: igitur Spiritus sanctus
+         Deus est. Et rursus, si gladius Spiritus verbum est Dei, Deus est Spiritus sanctus. Illius
+         est enim gladius, cujus etiam verbum vocatur. Quod si etiam nominatur Patris dextera
+         (Dextera enim Domini fecit virtutem: et Dextera tua, Domine, percussit inimicos; Dei autem
+         digitus Spiritus sanctus est, secundum illud, Si ego in digito Dei ejicio doamonia; id quod
+         in alio Evangelio scriptum est: Si ego in Spiritu Dei ejicio daemonia): Spiritus sanctus
+         ejusdem naturae ac Pater et Filius.</div>
+      <div type="sect" n="36">Atque ista quidem nobis de adoranda et sancta Trinitate in praesenti
+         dicta sint. Nunc enim fieri nequit, ut latius rationem illius exquiramus. Vos vero acceptis
+         a nostra humilitate seminibus, maturam spicam vobisipsis excolite; siquidem et a nobis, ut
+         nostis, exigitur talium usura. Confido autem Deo, fructum allaturos vos et trigecuplum et
+         sexagecuplum, et centuplum, ob vestrae vitae puritatem. Nam Beati mundo corde, quoniam ipsi
+         Deum videbunt.</div>
+      <div type="sect" n="37">Neque vero regnum caelorum aliud quidquam putetis, fratres, quam eorum
+         quae sunt contemplationem: quam etiam divinae Scripturae vocant beatitudinem. Regnum enim
+         caelorum intra vos est. Circa internum autem hominem nihil aliud quam contemplatio
+         consistit. Reliquum est igitur, ut contemplatio regnum sit caelorum. Quorum enim nunc
+         umbras videmus quasi in speculo, postmodum terreno hoc corpore liberati, et incorrupto ac
+         immortali induti, horum archetypa videbimus. Cernemus autem, si modo vitam nostram ad id
+         quod rectum est, direxerimus, atque recta fides curae nobis fuerit, sine quibus nemo
+         Dominum videbit. Nam in malignam animam, inquit, non introibit sapientia, neque habitabit
+         in corpore obnoxio peccato. </div>
+      <div type="sect" n="38">Nemo autem reclamet, dicens: qui res ante pedes positas ignoras, de
+         incorporea et prorsus immateriali essentia nobis philosopharis. Illud enim absurdum judico,
+         ut sensus quidem sinamus libere suis oppleri materiis; mens vero sola a propria operatione
+         arceatur. Ut enim sensus sensibilia, ita mens intelligibilia attingit. Simul autem et hoc
+         dicendum, naturalia judicia documenti expertia a conditore nostro Deo indita fuisse. Visum
+         enim nemo edocet ut percipiat colores aut figuras: neque auditum ut sonos et voces: neque
+         olfactum, ut bene et male olentium rerum vapores: neque gustum ut sapores ac succos: neque
+         tactum, ut mollia et dura, aut calida aut frigida. Neque sane quisquam mentem docebit
+         intelligibilia assequi. Et quemadmodum sensus, si quid ispis acciderit incommodi, egent
+         solum curatione, et suum ipsorum munus explent facile: ita et mens carni illigata, et ortis
+         ex ea phantasiis oppleta, fide indiget et recta vita, quae pedes ipsius velut cervi
+         cujusdam praeparant, eamque ad alta erigunt. </div>
+      <div type="sect" n="39">Hoc ipsum etiam sapiens ille Salomon admonet; ac nunc quidem nobis
+         objicit non verecundantem opificem formicam, ac per eam nobis actuosam viam describit: nunc
+         vero sapientis apiculae in fingendis favis organum: ac per eam naturalem contemplationem
+         suggerit, in qua etiam de sancta Trinitate doctrina admiscetur; siquidem ex rerum creaturum
+         pulchritudine convenienter creator consideratur.</div>
+      <div type="sect" n="40">Sed jam gratiis actis Patri et Filio et Spiritu sancto, finem
+         imponamus litteris: siquidem modus omnis, ut etiam est in proverbio, optimus est.</div>
+   </body>
+</TAN-T>
