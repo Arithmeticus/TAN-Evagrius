@@ -54,6 +54,7 @@
          <period from="0867-01-01" to="0900-12-31" xml:id="late-9c"/>
          <period from="0801-01-01" to="0850-12-31" xml:id="first-half-9c"/>
          <period from="0851-01-01" to="0900-12-31" xml:id="second-half-9c"/>
+         <period from="0901-01-01" to="1000-12-31" xml:id="10c"/>
          <verb xml:id="dates-to">
             <IRI>tag:kalvesmaki.com,2014:verb:dates-to</IRI>
             <name>dates to</name>
@@ -76,5 +77,6 @@
    <body claimant="kalvesmaki">
       <claim subject="BL_Add_14578 BL_Add_14616 BL_Add_17167" period="6-7c" verb="dates-to"/>
       <claim subject="BL_Add_14581 BL_Add_17165" period="6c" verb="dates-to"/>
+      <claim subject="Vat_gr_754" period="10c" verb="dates-to"/>
    </body>
 </TAN-A>

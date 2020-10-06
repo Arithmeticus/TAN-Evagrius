@@ -61,6 +61,11 @@
           <name>Wright 743</name>
        </item>
        <item>
+          <IRI>tag:evagriusponticus.net,2012:scriptum:ms:va:vat.gr.754</IRI>
+          <name>Vat. gr. 754</name>
+          <name>Vat gr 754</name>
+       </item>
+       <item>
           <IRI>tag:evagriusponticus.net,2012:scriptum:private:2020:karapetian-and-young</IRI>
           <name>Karapetian and Young 2020</name>
           <desc>Suite of Word documents with Armenian edition of the letters, with facing

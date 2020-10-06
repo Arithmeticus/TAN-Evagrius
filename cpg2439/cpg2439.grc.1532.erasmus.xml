@@ -7,7 +7,7 @@
    <head>
       <name>Epistula fidei by Evagrius Ponticus</name>
       <name>Letter of faith by Evagrius Ponticus</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2439/cpg2439.grc.erasmus.xml"/>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2439/cpg2439.grc.1532.erasmus.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <work which="Ep. fid."/>
       <vocabulary>
