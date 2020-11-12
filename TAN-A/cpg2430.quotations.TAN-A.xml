@@ -20,8 +20,10 @@
       <source which="cpg2430 syr S2 14578" xml:id="syr-s2" accessed-when="2020-07-16"/>
       
       <source which="Rahlfs LXX" xml:id="lxx" accessed-when="2020-07-16"/>
+      <source which="Brenton LXX" xml:id="lxx-eng" accessed-when="2020-07-16"/>
       <source which="Greek New Testament" xml:id="nt" accessed-when="2020-07-16"/>
       <source which="Syriac New Testament" xml:id="nt-syr" accessed-when="2020-07-16"/>
+      <source which="KJV New Testament" xml:id="nt-eng" accessed-when="2020-07-16"/>
       
       <vocabulary-key>
          <algorithm xml:id="xslt2">
@@ -38,12 +40,19 @@
                href="../../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
                accessed-when="2019-06-02"/>
          </algorithm>
+         <alias id="ed-comprehensive" idrefs="Greek Syriac English"/>
+         
+         <alias id="Greek" idrefs="grc-guillaumont"/>
+         <alias id="Syriac" idrefs="syr-s1 syr-s2"/>
+         <alias id="English" idrefs="eng-dysinger"/>
+         
          <alias id="pr" idrefs="grc-guillaumont"/>
       </vocabulary-key>
       
       <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
       <resp roles="stylesheet" who="xslt1 xslt2"/>
+      <change when="2020-11-01" who="kalvesmaki" flag="error">Removed dubious annotations.</change>
       <change when="2018-03-05" who="kalvesmaki" flag="error">Split file between a basic one for just the class-1 files and another for quotations.</change>
       <change when="2016-11-27" who="kalvesmaki">Changed @src to @work</change>
       <change when="2015-10-12" who="kalvesmaki">Adapted for inclusions</change>
@@ -61,10 +70,6 @@
       <claim>
          <subject work="pr" ref="pr.2"/>
          <object work="lxx" ref="Isa 14:12"/>
-      </claim>
-      <claim cert="0.5">
-         <subject work="pr" ref="pr.2"/>
-         <object work="lxx" ref="Isa 31:5"/>
       </claim>
       <claim>
          <subject work="pr" ref="pr.3"/>

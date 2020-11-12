@@ -39,6 +39,7 @@
       
       <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
+      <change when="2020-10-15" who="kalvesmaki">Adjusted alias groups, added English-language Bibles</change>
       <change when="2018-03-05" who="kalvesmaki">Created file</change>
       <change who="xslt1" when="2019-06-16T06:58:11.229-04:00">Converted from 2018 to 2020 schemas.</change>
       <to-do>
