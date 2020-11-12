@@ -13,11 +13,7 @@
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2020-07-18"/>
       </vocabulary>
-      <source xml:id="grc-pg">
-         <IRI>tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG</IRI>
-         <name>Evagrius of Pontus, Hypotyposis, Greek</name>
-         <location href="../cpg2441.grc.PG.xml" accessed-when="2018-06-03-04:00"/>
-      </source>
+      <source accessed-when="2020-11-01" xml:id="grc-pg" which="cpg2441 grc PG 40"/>
       <vocabulary-key>
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>

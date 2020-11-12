@@ -59,8 +59,18 @@
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
          <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/convert/convert%20TAN%202017%20to%20TAN%202018.xsl</desc><location href="../../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl" accessed-when="2019-06-14"/></algorithm>
          
+         <alias xml:id="cpg2432" idrefs="Greek Syriac English"/>
+         <alias xml:id="Greek" idrefs="manuscripts parallels quotations scholia"/>
+         <alias xml:id="parallels" idrefs="grc-EpF grc-Géh1998"/>
+         <alias xml:id="quotations" idrefs="grc-Bars grc-Dor grc-DP"/>
+         <alias xml:id="manuscripts" idrefs="grc-Géh1996 grc-Hau grc-Mu1931 grc-Mu1932"/>
+         <alias xml:id="scholia" idrefs="grc-PG4 grc-PG12 grc-PG86a grc-PG39 grc-Oct grc-Géh1987 grc-Pitra grc-Wolf"/>
+         <alias xml:id="Syriac" idrefs="S1 S2"/>
          <alias xml:id="S1" idrefs="S1-Guill S1-Fr"/>
-         <alias xml:id="S2" idrefs="S2-Guill S2-Dy"/>
+         <alias xml:id="S2" idrefs="S2-Guill"/>
+         <alias xml:id="English" idrefs="S1-Dy S2-Dy"/>
+         
+         <verb xml:id="alludes_to" which="alludes_or_refers_to"/>
       </vocabulary-key>
       
       <file-resp who="kalvesmaki"/>
@@ -79,11 +89,11 @@
       <to-do/>
    </head>
    <body verb="quotes" claimant="xslt2">
-      <claim cert="0.5">
+      <claim verb="rephrases">
          <subject work="KG" ref="I 1"/>
          <object work="ar-cat" ref="3 b 24-25"/>
       </claim>
-       <claim cert="0.5">
+       <claim verb="paraphrases">
          <subject work="KG" ref="I 2"/>
          <object work="ar-cat" ref="10 b 12-14"/>
       </claim>
@@ -371,6 +381,10 @@
          <subject work="KG" ref="III 74"/>
          <object work="nt" ref="1Tim 4:5"/>
       </claim>
+      <claim cert="0.5">
+         <subject work="KG" ref="III 79"/>
+         <object work="nt" ref="3.79"/>
+      </claim>
       <claim>
          <subject src="S1" ref="III 81"/>
          <object src="nt nt-syr" ref="Eph 3:10"/>
@@ -426,6 +440,10 @@
       <claim>
          <subject work="KG" ref="IV 26"/>
          <object work="nt" ref="Lu 13:32"/>
+      </claim>
+      <claim verb="alludes_to">
+         <subject work="KG" ref="IV 27"/>
+         <object work="NT" ref="Jo 1:32-34"/>
       </claim>
       <claim>
          <subject work="KG" ref="IV 27"/>
@@ -578,6 +596,7 @@
       <claim>
          <subject work="KG" ref="IV 82"/>
          <object work="lxx" ref="Josh 20:2-3"/>
+         <object work="lxx" ref="Num 35:11"/>
       </claim>
       <!-- Josh 20.4-6 doesn't exist in the main text of Rahlfs LXX [!], so it's suppressed for now -->
       <!--<align>
@@ -595,6 +614,10 @@
       <claim>
          <subject src="S1" ref="V 3"/>
          <object src="nt nt-syr" ref="2Tim 4:7"/>
+      </claim>
+      <claim>
+         <subject work="KG" ref="V 6"/>
+         <object work="nt" ref="Heb 12:22"/>
       </claim>
       <claim>
          <subject work="KG" ref="V 8"/>

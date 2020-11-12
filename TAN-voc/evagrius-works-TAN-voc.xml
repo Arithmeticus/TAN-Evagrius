@@ -112,58 +112,61 @@
             <name xml:lang="grc">Λόγος πράκτικος</name>
             <name xml:lang="lat">Practicus et epistula ad Anatolium</name>
             <name>cpg2430</name>
-            <desc>First of a trilogy (along with Gnostikos and the Kephalaia gnostika, below)
-                considered one of Evagrius's key works. This treatise contains 100 chapters
-                discussing preliminary discipline of the ascetic life, namely fighting the
-                passions.</desc>
+            <desc>The Praktikos contains 100 chapters discussing foundational discipline of the
+                ascetic life, namely fighting the passions and their attendant demons. It is
+                prefaced by a letter to Anatolius (otherwise unknown). The work, considered one of
+                his most important, is the first of a trilogy that continues with the Gnostikos and
+                the Kephalaia gnostika. Unusually, numerous manuscripts both attest to the original
+                Greek and attribute the work to Evagrius, rather than reassigning it to Nilus or
+                another less controversial author. The Praktikos exercised an enormous influence on
+                Christian monastic asceticism in the medieval period.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2430:version:lat-vetus</IRI>
             <name>Early Latin translation of Praktikos</name>
             <name>cpg2430-lat-vetus</name>
-            <desc>Translation of the Praktikos into Latin, attested by Gennadius of Marseilles (late
-                5th c.; Vir. inlust. 11), no longer extant.</desc>
+            <desc>A Latin translation of the Praktikos is attested by Gennadius of Marseilles (late
+                5th c.; Vir. inlust. 11). This version is no longer extant.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2430:version:lat</IRI>
             <name>Latin translation of Praktikos</name>
             <name>cpg2430-lat</name>
-            <desc>This translation is credited to Gennadius of Marseilles (late 5th c.; Vir. inlust.
-                11), who said because an earlier translation "had suffered in transmission" (per tempus
-                confusum; the vetus latinus translation) he undertook a fresh translation. No
-                part of his or his predecessor's translation survives.</desc>
+            <desc>Gennadius of Marseilles (late 5th c.; Vir. inlust. 11) claims to have undertaken a
+                fresh translation of the Praktikos into Latin, because an earlier translation "had
+                suffered in transmission" (per tempus confusum; the vetus latinus translation).
+                Nothing of his or his predecessor's translation survives.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2430:version:syr-S1</IRI>
             <name>Praktikos S1</name>
             <name>Syriac S1 translation of Praktikos</name>
             <name>cpg2430-syr-S1</name>
-            <desc>This translation was made sometime before the early 5th century. It lacks the
-                prefatory letter to Anatolios, and was combined with the Gnostikos (version S1, whose
-                chapters are numbered sequentially). The translation is charaterized at times by a
-                literate precision, at other times by studied alteration. This translator might be
-                the same as the translator of version S1 of the Kephalaia Gnostika (CPG
-                2432).</desc>
+            <desc>The Praktikos was translated sometime before the early 5th century. Termed version
+                S1, it lacks the prefatory letter to Anatolios, and was combined with the Gnostikos
+                (also version S1), in continuous numeration. The translation is charaterized at
+                times by a literate precision, at other times by studied alteration. This translator
+                might be the same as the translator of version S1 of the Kephalaia Gnostika.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2430:version:syr-S2</IRI>
             <name>Praktikos S2</name>
             <name>Syriac S2 translation of Praktikos</name>
             <name>cpg2430-syr-S2</name>
-            <desc>Someone intent on making the text accessible to a broad audience translated
-                version S2 of the Praktikos. The translation tends to be loose, in service to
-                clearer Syriac syntax and semantics, and employs euphemisms or glosses for the sake
-                of comprehension. There is no evidence that he used any other translation. This
-                version differs remarkably from S1 in that it retains the prefatory letter to
-                Anatolios.</desc>
+            <desc>At an unknown time, someone intent on making the text of the Praktikos accessible
+                to a broad audience translated the text into Syriac. The translation, termed S2,
+                tends to be loose, in service to clearer Syriac syntax and semantics, and employs
+                euphemisms or glosses for the sake of comprehension. There is no evidence of
+                dependence upon any other translation. This version differs strikingly from S1 in
+                that it retains the prefatory letter to Anatolios.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2430:version:syr-S3</IRI>
             <name>Praktikos S3</name>
             <name>Syriac S3 translation of Praktikos</name>
             <name>cpg2430-syr-S3</name>
-            <desc>Someone of unknown background, created Syriac version S3, apparently working from
-                both S1 and S2 as well as the Greek text.</desc>
+            <desc>At an unknown time, someone translated the Praktikos into Syriac, apparently working from
+                both versions S1 and S2 as well as the Greek text. This translation is known as S3.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2430:version:hye</IRI>
@@ -190,6 +193,9 @@
             <IRI>tag:kalvesmaki.com,2014:cpg2430.grc-1971</IRI>
             <name xml:lang="eng">The Guillamonts' version of the ancient Greek of the Praktikos</name>
             <name>cpg2430-grc-1971</name>
+            <desc>The Guillaumonts published their critical edition of the Praktikos in 1971, with a
+                facing French translation. Their edition is considered the best edition of the
+                ancient text.</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2431</IRI>
@@ -200,8 +206,11 @@
             <name>Gnostikos</name>
             <name xml:lang="lat">Gnosticus</name>
             <name>cpg2431</name>
-            <desc>Second part of the trilogy (see Praktikos), comprising 50 chapters. In this
-                treatise gnostika, mental or spiritual formation, is discussed.</desc>
+            <desc>The Gnostikos, a treatise comprising 50 chapters, treats objects of knowledge,
+                and the foundations of spiritual observation. It is the second part of a trilogy
+                that begins with the Praktikos and concludes with the Kephalaia gnostika. It survives
+                only partially in Greek, via quotations and compilations.
+            </desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2431:version:lat</IRI>
@@ -258,11 +267,13 @@
             <name xml:lang="eng">Kephalaia gnostika</name>
             <name xml:lang="lat">Capita gnostica</name>
             <name>cpg2432</name>
-            <desc>Third part of the trilogy (see Praktikos), comprising 540 chapters (90 chapters in
-                six "centuries") discussing the highest levels of contemplation. This text, which is
-                marked by philosophical erudition and written cryptically, is frequently considered
-                to be behind the condemnations of Origen in 553. Because of how little survives in Greek, the Syriac translations are key,
-                especially the so-called unexpurgated version (frequently called S2).</desc>
+            <desc>The Kephalaia gnostika comprises 540 chapters (90 chapters in six "centuries")
+                discussing the highest levels of spiritual and natural observation. The work, which
+                is the final part of a trilogy that begins with the Praktikos and the Gnostikos, is
+                marked by philosophical erudition and is written cryptically. It is generally
+                considered to be a core text behind the condemnations of Origen in 553. Because of
+                how little survives in Greek, the Syriac translations are key, especially the
+                so-called unexpurgated version (termed version S2). </desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2432:version:syr:s1</IRI>
@@ -283,9 +294,12 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2432:version:ara</IRI>
             <name>Arabic translation of KG</name>
             <name>cpg2432-ara</name>
-            <desc>It is unclear whether the key Arabic MS (Coptic Patriarchate MS Theol. 152, fol.
-                147r–177v) is taken from the Greek or Syriac and if the latter, which version. Two
-                more MSS were found in the 2010s at Dayr al-Suryan monastery.</desc>
+            <desc>The Kephalaia gnostika was translated into Arabic sometime in the medieval period.
+                It is unclear whether the key Arabic manuscript (Coptic Patriarchate MS Theol. 152,
+                fol. 147r–177v), which has not been seen for some time, relies upon a Greek or
+                Syriac base text and if the latter, which version. Two more manuscripts attesting to
+                the Kephalaia gnostika were found in the 2010s at Dayr al-Suryan monastery, but
+                these have not been properly studied.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2432.grc-1912</IRI>
@@ -301,15 +315,15 @@
             <name xml:lang="grc">Σκέμματα</name>
             <name xml:lang="lat">Capita cognoscitiua</name>
             <name>cpg2433</name>
-            <desc>Sixty-five sentences divided in three sections: 39 taken from
-                the Gnostic Chapters, 23 from On Thoughts, and 3 unparalleled (and so termed a
+            <desc>The work termed Skemmata, or Reflections, is a loose, fluid compliation of other
+                works by Evagrius. Sixty-five sentences are divided in three sections: 39 taken from
+                the Kephalaia gnostika, 23 from On Thoughts, and 3 unparalleled (and so termed a
                 supplement). The Greek, Armenian, and Syriac versions of this text differ in
                 sequence, number, and selection. This text, according to Mar Babai (569-628), who
                 wrote an extensive commentary on the Kephalaia gnostica, was a supplement to the 540
-                chapters of the 600 promised in the Kephalaia gnostica (Mar Babai's version of
-                Reflections contained only 60 chapters). Gennadius's reference to 'sententiae
-                obscurae' may attest to an early Latin translation of this text. See also 14
-                Chapters (nocpg02).</desc>
+                chapters of the 600 promised (Mar Babai's version of Reflections contained only 60
+                chapters). Gennadius's reference to 'sententiae obscurae' may attest to an early
+                Latin translation of this text. See also 14 Chapters (nocpg02).</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2433:version:syr</IRI>
@@ -443,12 +457,15 @@
             <name xml:lang="eng">62 Letters</name>
             <name xml:lang="lat">Epistula lxii</name>
             <name>cpg2437</name>
-            <desc>A collection of 62 letters (see also CPG 2438, 2439; cover letters to other
-                treatises, e.g., CPG 2430, 2434) of various lengths, all providing spiritual counsel
-                to various figures such as Rufinus, St. Melania the Elder, St. Gregory Nazianzus,
-                Bp. John of Jerusalem. The Armenian translation of the corpus is restricted to
-                thirty letters, and is framed as if a correspondence between Evagrius and
-                Melania.</desc>
+            <desc>The majority of Evagrius's extant letters survive in a corpos of 62 letters of
+                various lengths, all providing spiritual counsel to various figures such as Rufinus,
+                St. Melania the Elder, St. Gregory Nazianzus, Bp. John of Jerusalem. These survive
+                entirely in Syriac, with fragmentary survival in Greek. Some letters may actually be
+                extracts that were, for one reason or another, included in his letters. The Armenian
+                translation of the corpus is restricted to thirty letters, and is framed as if a
+                correspondence between Evagrius and Melania. For letters not included in this
+                corpus, see CPG 2438, 2439; cover letters to other treatises, e.g., CPG 2430, 2434.
+            </desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2437:version:syr</IRI>

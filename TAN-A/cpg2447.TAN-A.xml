@@ -13,12 +13,7 @@
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
-      <source xml:id="grc-pg">
-         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg2447:logical</IRI>
-         <name>Greek text of Tractatus ad Eulogium from the Patrologia Graeca, logical reference
-            system</name>
-         <location href="../cpg2447.grc.1858.pg.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
-      </source>
+      <source accessed-when="2020-11-01" xml:id="grc-pg" which="cpg2447 grc PG 40"/>
       <vocabulary-key>
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>

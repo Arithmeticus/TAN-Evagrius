@@ -582,13 +582,24 @@
                 <name>Rahlfs LXX</name>
                 <name>Rahlfs's edition of the Septuagint</name>
                 <location href="../../bible/lxx.grc.rahlfs.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../../../TAN/library-arithmeticus/bible/lxx.grc.rahlfs.xml" accessed-when="2020-10-14"/>
                 <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/lxx.grc.rahlfs.xml" accessed-when="2018-06-01"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:lxx-eng-1851-brenton</IRI>
+                <name>Brenton's translation of the Septuagint</name>
+                <name>Brenton LXX</name>
+                <location href="../../bible/lxx.eng.brenton.1851.xml" accessed-when="2010-10-14"/>
+                <location href="../../../TAN/library-arithmeticus/bible/lxx.eng.brenton.1851.xml"
+                    accessed-when="2010-10-14"/>
+                <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/lxx.eng.brenton.1851.xml" accessed-when="2018-06-01"/>
             </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
                 <name>Greek New Testament</name>
                 <name>SBL's Greek New Testament</name>
                 <location href="../../bible/nt.grc.sbl-2010.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../../../TAN/library-arithmeticus/bible/nt.grc.sbl-2010.xml" accessed-when="2020-10-14"/>
                 <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.grc.sbl-2010.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             <item>
@@ -596,8 +607,21 @@
                 <name>Syriac New Testament</name>
                 <name>1905 Bible Society Syriac New Testament</name>
                 <location href="../../bible/nt.syr.bfbs-1905.xml" accessed-when="2015-08-08-04:00"/>
+                <location href="../../../TAN/library-arithmeticus/bible/nt.syr.bfbs-1905.xml" accessed-when="2020-10-14"/>
                 <location href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.syr.bfbs-1905.xml" accessed-when="2015-08-08-04:00"/>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:nt-eng-kjv.1760</IRI>
+                <name>KJV New Testament</name>
+                <name>New Testament, King James Version of the Bible, 1760 edition</name>
+                <location accessed-when="2020-10-14" href="../../bible/nt.eng.kjv.1760.xml"/>
+                <location accessed-when="2020-10-14"
+                    href="../../../TAN/library-arithmeticus/bible/nt.eng.kjv.1760.xml"/>
+                <location
+                    href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.eng.kjv.1760.xml"
+                    accessed-when="2015-08-08-04:00"/>
+            </item>
+            
             
             <item>
                 <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
@@ -606,6 +630,9 @@
                 <location href="http://textalign.net/release/TAN-2018/examples/ar.cat.grc.1949.minio-paluello-obj.xml" accessed-when="2015-09-11-04:00"/>
                 <location
                     href="../../../TAN-2020/examples/ar.cat.grc.1949.minio-paluello.ref-scriptum.xml"
+                    accessed-when="2020-10-02"/>
+                <location
+                    href="../../../TAN/TAN-2020/examples/ar.cat.grc.1949.minio-paluello.ref-scriptum.xml"
                     accessed-when="2020-10-02"/>
                 <location href="../../../TAN-2020/examples/ar.cat.grc.1949.minio-paluello-obj.xml" accessed-when="2016-12-01"/>
             </item>
