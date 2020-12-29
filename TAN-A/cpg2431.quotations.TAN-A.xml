@@ -35,7 +35,7 @@
             <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-06-14T22:34:20.525-04:00"/>
          </algorithm>
       
-         <verb xml:id="alludes-to" which="alludes or refers to"/>
+         <verb xml:id="alludes_to" which="alludes or refers to"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
@@ -60,6 +60,7 @@
       <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
       <resp roles="stylesheet" who="xslt1 xslt2"/>
+      <change when="2020-12-28" who="kalvesmaki">Refined typology of quotations.</change>
       <change when="2020-10-15" who="kalvesmaki">Dropped inclusions. Vocabulary is sufficient.</change>
       <change when="2020-10-15" who="kalvesmaki">Adjusted alias groups, added English-language Bibles</change>
       <change when="2018-03-05" who="kalvesmaki" flag="error">Split file between a basic one for just the class-1 files and another for quotations.</change>
@@ -73,27 +74,31 @@
       <to-do/>
    </head>
    <body verb="quotes" claimant="xslt2">
-      <claim verb="alludes-to">
+      <claim verb="alludes_to">
          <subject work="gn" ref="46"/>
-         <object work="lxx" ref="Exod 25:23-30, Exod 26:35, Exod 37:10-16"/>
+         <object work="lxx" ref="Exod 25:23-30, 26:35, 37:10-16"/>
       </claim>
-      <claim verb="alludes-to">
+      <claim verb="alludes_to">
          <subject work="gn" ref="45"/>
-         <object work="nt" ref="1Tim 3:16"/>
+         <object work="nt" ref="1Tim 3:15"/>
       </claim>
       <claim>
          <subject src="syr-S2-17165" ref="17"/>
-         <object src="lxx" ref="Wis 11:20, Eccl 3 1"/>
+         <object work="lxx" ref="Eccl 3 1"/>
       </claim>
-      <claim verb="alludes-to">
+      <claim verb="alludes_to">
+         <subject src="syr-S2-17165" ref="17"/>
+         <object work="lxx" ref="Wis 11:20"/>
+      </claim>
+      <claim verb="refers_to">
          <subject work="gn" ref="20"/>
          <object work="lxx" ref="Lev 11:2-19"/>
       </claim>
-      <claim verb="alludes-to">
+      <claim verb="refers_to">
          <subject work="gn" ref="21"/>
          <object work="lxx" ref="Num 24:17-19"/>
       </claim>
-      <claim verb="alludes-to">
+      <claim verb="alludes_to">
          <subject work="gn" ref="38"/>
          <object work="lxx" ref="2Kgdms 6:10-11"/>
       </claim>
@@ -105,15 +110,15 @@
          <subject work="gn" ref="25"/>
          <object work="lxx" ref="Eccl 8:8"/>
       </claim>
-      <claim verb="alludes-to">
+      <claim verb="refers_to">
          <subject work="gn" ref="20"/>
          <object work="lxx" ref="Ezek 16:15-34"/>
       </claim>
-      <claim>
+      <claim verb="refers_to">
          <subject work="gn" ref="34"/>
          <object work="lxx" ref="Jonah 1:5"/>
       </claim>
-      <claim verb="alludes-to">
+      <claim verb="alludes_to">
          <subject work="gn" ref="3"/>
          <object work="nt" ref="Mt 5:13-14"/>
       </claim>
@@ -121,19 +126,19 @@
          <subject work="gn" ref="38"/>
          <object work="nt" ref="Mt 6:25"/>
       </claim>
-      <claim verb="alludes-to">
+      <claim verb="alludes_to">
          <subject work="gn" ref="44"/>
          <object work="nt" ref="Mt 13:25"/>
       </claim>
-      <claim verb="alludes-to">
+      <claim verb="alludes_to">
          <subject work="gn" ref="24"/>
          <object work="nt" ref="Mt 21:12-13"/>
       </claim>
-      <claim verb="alludes-to">
+      <claim verb="alludes_to">
          <subject work="gn" ref="7"/>
          <object work="nt" ref="Mt 25:1-13"/>
       </claim>
-      <claim verb="alludes-to">
+      <claim verb="alludes_to">
          <subject work="gn" ref="38"/>
          <object work="nt" ref="Lu 12:22"/>
       </claim>
@@ -141,11 +146,11 @@
          <subject work="gn" ref="29"/>
          <object work="nt" ref="Lu 14:10"/>
       </claim>
-      <claim verb="alludes-to">
+      <claim verb="refers_to">
          <subject work="gn" ref="21"/>
          <object work="nt" ref="Jn 11:49-51"/>
       </claim>
-      <claim verb="alludes-to">
+      <claim verb="alludes_to">
          <subject work="gn" ref="37"/>
          <object work="nt" ref="1Co 9:27"/>
       </claim>

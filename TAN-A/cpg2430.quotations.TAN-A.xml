@@ -52,6 +52,7 @@
       <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
       <resp roles="stylesheet" who="xslt1 xslt2"/>
+      <change when="2020-12-28" who="kalvesmaki">Refined quotation claims.</change>
       <change when="2020-11-01" who="kalvesmaki" flag="error">Removed dubious annotations.</change>
       <change when="2018-03-05" who="kalvesmaki" flag="error">Split file between a basic one for just the class-1 files and another for quotations.</change>
       <change when="2016-11-27" who="kalvesmaki">Changed @src to @work</change>
@@ -95,15 +96,15 @@
          <subject work="pr" ref="12"/>
          <object work="lxx" ref="Ps 90:6"/>
       </claim>
-      <claim cert="0.5">
+      <claim verb="alludes_to">
          <subject work="pr" ref="12"/>
-         <object work="nt" ref="Jn 4:21 - 24"/>
+         <object work="nt" ref="Jn 4:21-24"/>
       </claim>
-      <claim cert="0.5">
+      <claim verb="paraphrases">
          <subject work="pr" ref="13"/>
          <object work="nt" ref="1Th 2:6"/>
       </claim>
-      <claim cert="0.5">
+      <claim verb="refers_to">
          <subject work="pr" ref="17"/>
          <object work="lxx" ref="Judg 7:5-7"/>
       </claim>
@@ -111,7 +112,7 @@
          <subject work="pr" ref="21"/>
          <object work="nt" ref="Eph 4:26"/>
       </claim>
-      <claim cert="0.5">
+      <claim verb="refers_to">
          <subject work="pr" ref="26"/>
          <object work="lxx" ref="Gen 32:7"/>
       </claim>
@@ -119,15 +120,15 @@
          <subject work="pr" ref="27"/>
          <object work="lxx" ref="Ps 41:6"/>
       </claim>
-      <claim>
+      <claim verb="paraphrases">
          <subject work="pr" ref="38"/>
          <object work="nt" ref="1Co 13:13"/>
       </claim>
-      <claim>
+      <claim verb="refers_to">
          <subject work="pr" ref="38"/>
          <object work="lxx" ref="Lev 11:22"/>
       </claim>
-      <claim>
+      <claim verb="alludes_to">
          <subject work="pr" ref="46"/>
          <object work="nt" ref="Ac 1:24"/>
       </claim>
@@ -155,7 +156,7 @@
          <subject work="pr" ref="72"/>
          <object work="lxx" ref="Ps 26:2"/>
       </claim>
-      <claim>
+      <claim verb="paraphrases">
          <subject work="pr" ref="90"/>
          <object work="lxx" ref="Ps 125:6"/>
       </claim>
@@ -175,7 +176,7 @@
          <subject work="pr" ref="ep"/>
          <object work="lxx" ref="Ps 103:15"/>
       </claim>
-      <claim>
+      <claim verb="paraphrases">
          <subject work="pr" ref="ep"/>
          <object work="nt" ref="1Co 3:6-7"/>
       </claim>
