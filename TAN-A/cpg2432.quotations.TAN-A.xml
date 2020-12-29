@@ -158,7 +158,7 @@
       </claim>
       <claim>
          <subject src="S2" ref="I 65"/>
-         <object src="nt nt-syr" ref="Jn 5:22"/>
+         <object work="nt" ref="Jn 5:22"/>
       </claim>
       <claim>
          <subject work="KG" ref="I 66"/>
@@ -352,7 +352,7 @@
       </claim>
       <claim>
          <subject src="S1" ref="III 68"/>
-         <object work="nt nt-syr" ref="2Th 1:5"/>
+         <object work="nt" ref="2Th 1:5"/>
       </claim>
       <claim>
          <subject work="KG" ref="III 71"/>
