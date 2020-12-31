@@ -126,6 +126,7 @@
     <file-resp who="kalvesmaki"/>
     <resp who="xslt1 xslt2" roles="stylesheet"/>
     <resp who="kalvesmaki" roles="editor"/>
+    <change when="2020-12-30" who="kalvesmaki">Adjusted naming of heads at the end.</change>
     <change when="2020-10-09" who="kalvesmaki">Regularized quotations.</change>
     <change when="2020-10-02" who="kalvesmaki">Moved to subdirectory cpg2430, cleaned tags.</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
@@ -367,7 +368,7 @@
           soul. </p></item></list>
       </div>
       <div type="chapter" n="90"> <p>The fruit of sowing is sheaves, and the fruit of the virtues is knowledge And as tears accompany sowing, so joy accompanies reaping <ref cRef="Ps 125.6"/></p> </div>
-      <div type="title" n="head_8"> <p>Sayings of Holy Monks </p> </div>
+      <div type="title" n="head_9"> <p>Sayings of Holy Monks </p> </div>
       <div type="chapter" n="91"> <p>IT is necessary also to interrogate the paths of the monks who have travelled rightly before us and set ourselves right by reference to them There is much for us to discover that they spoke and did well For instance, one of them says that a monk is brought more quickly into the haven of passionlessness by a relatively dry and regular diet, joined to love. </p> <p>The same man freed one of the brethren who was being troubled by fantasies at night by bidding him serve the sick while fasting When asked, he said that such passions are extinguished by nothing so well as by mercy. </p> </div>
       <div type="chapter" n="92"> <p>Unto the just Anthony came one of the wise men of that time, saying, ‘How do you manage to survive, O father, without the comfort of books?’ He replied, ‘My book, philosopher, is the nature of beings, and it is there whenever I want to read the words (logoi) of God’. </p> </div>
       <div type="chapter" n="93"> <p>That vessel of election, Macarius, the Egyptian old man, asked me, ‘Why is it that we ruin the soul’s power of memory by brooding resentfully on men, but remain unharmed if we resent demons?’ I was at a loss for an answer, and asked him to explain it to me. He said, ‘It is because the first is contrary to nature (para phusin), while the second is in accordance with the nature (kata phusin) of anger (thumos)’. </p> </div>
@@ -378,7 +379,7 @@
       <div type="chapter" n="98"> <p>There is an island near Alexandria, in the northern part of the lake called Maria, and a monk lives there, one of the most distinguished of the camp of the knowers (gnostikoi). He taught that all that is done by the monks is done for one of five reasons God, nature, habit, constraint or manual work. He also said that virtue is single by nature, but takes different forms in the powers of the soul. It is like sunlight which Is shapeless, but is naturally given shape by the windows it passes through </p> </div>
       <div type="chapter" n="99"> <p>Another monk said, ‘I cut down pleasure in order to cut out excuses for anger (thumos) I know that anger always fights on behalf of pleasures and disturbs my mind and chases away knowledge’ One of the old men said that charity does not know how to store up food or money And the same monk said, ‘I am not aware of ever having been taken in by the demons twice on the same point’ </p> </div>
       <div type="chapter" n="100"> <p>To love all the brothers equally is not possible, but it is possible to meet them all dispassionately [by] being free from memory of evil and [from] hatred: priests are next after the Lord, because by means of the sacred mysteris they purify and pray for us; we are to revere the elders as the angels, for it is they who anoint us for our struggle and heal us when we are bitten by wild beasts. </p> </div>
-      <div type="title" n="head_9"> <p>Epilogue </p> </div>
+      <div type="title" n="head_10"> <p>Epilogue </p> </div>
       <div type="epilogue" n="ep"> <p>Let that suffice now, my dear Anatolius, about practical science (praktike); this is what I have found, by the grace of the holy Spirit, gleaning ripening grapes from my crop but if the <cit><quote>sun of righteousness</quote><ref cRef="Mal 3.20"/></cit> shines on us in his zenith and the grape becomes fully ripe, then we shall drink his wine, which <cit><quote>makes glad the heart of man</quote><ref cRef="Ps 103.13"/></cit>, at the prayers and intercession of the righteous Gregory who planted me, and at those of the holy fathers who now water me, and by the power of Jesus Christ our Lord who makes me grow<ref cRef="1Co 3.6-7"/>, to whom be glory and might for ever and ever.</p> </div>
     </body>
   </text>

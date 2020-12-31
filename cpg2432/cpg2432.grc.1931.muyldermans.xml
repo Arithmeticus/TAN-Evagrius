@@ -87,6 +87,7 @@
     <resp roles="editor" who="kalvesmaki"/>
     <resp roles="stylesheet" who="xslt1 xslt2"/>
     
+    <change when="2020-12-30" who="kalvesmaki">Spelled out title</change>
     <change when="2020-10-02" who="kalvesmaki">Moved file; cleaned tags</change>
     <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes.</change>
     <change when="2017-05-17" who="kalvesmaki">Removed reference numbers. Changed line-end hyphens to soft hyphens.</change>
@@ -102,7 +103,7 @@
   <text>
     <body xml:lang="grc">
       <div type="century" n="I">
-        <div type="title" n="ti"> <p><pb n="56"/>Εὐαγρίου κεφάλαια.</p> </div>
+        <div type="title" n="title"> <p><pb n="56"/>Εὐαγρίου κεφάλαια.</p> </div>
         <div type="chapter" n="1"> <p>Τῷ πρώτῳ ἀγαθῷ οὐδέν ἐστιν ἐναντίον, διότι κατ’ οὐσίαν <lb/>ἐστίν· ἐναντίον δὲ οὐδὲν τῇ οὐσίᾳ.</p> <lb/></div>
         <div type="chapter" n="2"> <p>Ἡ ἐναντιότης ἐν ταῖς ποιότησιν· αἱ δὲ ποιότητες ἐν τοῖς <lb/>κτίσμασιν· ἡ ἐναντιότης ἄρα ἐν τοῖς κτίσμασιν.</p> </div>
         <div type="chapter" n="3"> <p>Πᾶσα λογικὴ φύσις οὐσία γινώσκουσά ἐστιν· ὁ δὲ Θεὸς ἡμῶν <lb/>αὐτὸ γινωσκόμενόν ἐστιν, ἀμερίστως μὲν ἐγγινόμενος, οἷ ἂν <lb/>ἐγγένηται· καθάπερ ἡ ἐπίγειος ἐπιστήμη· διαφέρων δὲ ταύτης <lb/>τὸ ἐνυπόστατος εἶναι.</p> </div>
