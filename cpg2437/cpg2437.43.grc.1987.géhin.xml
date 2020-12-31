@@ -20,13 +20,14 @@
       </vocabulary-key>
       <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
+      <change when="2020-12-30" who="kalvesmaki">Added @ref-alias</change>
       <change when="2020-10-02" who="kalvesmaki">Started file.</change>
       <to-do/>
    </head>
    <body xml:lang="grc">
 
-      <div n="43 59" type="letter">
-         <div n="3" type="section">Ἦν ὅτε οὐκ ἦν κακία καὶ ἔσται ὅτε οὐκ ἔσται· οὐκ ἦν δὲ ὅτε οὐκ ἦν
+      <div n="43" type="letter">
+         <div n="3" type="section" ref-alias="59 3">Ἦν ὅτε οὐκ ἦν κακία καὶ ἔσται ὅτε οὐκ ἔσται· οὐκ ἦν δὲ ὅτε οὐκ ἦν
             ἀρετή, οὐδὲ ἔσται ὅτε οὐκ ἔσται· ἀνεξάλειπτα γὰρ τὰ σπέρματα τῆς ἀρετῆς. Πείθει δέ με
             καὶ οὗτος παρ' ὀλίγον καὶ οὐ τελείως ἐν παντὶ κακῷ γεγονὼς καὶ ὁ πλούσιος ἐν τῷ ᾅδῃ διὰ
             κακίαν κρινόμενος καὶ οἰκτείρων τοὺς ἀδελφούς. Τὸ δὲ ἐλεεῖν σπέρμα τυγχάνει τὸ κάλλιστον

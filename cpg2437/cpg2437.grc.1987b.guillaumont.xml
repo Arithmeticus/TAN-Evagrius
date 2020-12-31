@@ -26,6 +26,7 @@
       </vocabulary-key>
       <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
+      <change when="2020-12-30" who="kalvesmaki">Added @ref-alias</change>
       <change when="2020-10-01" who="kalvesmaki">Started file</change>
       <to-do/>
    </head>
