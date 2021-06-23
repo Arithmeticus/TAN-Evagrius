@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Furrer-Pilliod.TAN-TEI">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title></title>
+      </titleStmt>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <ab/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Fragments of the Kephalaia Gnostika published in 2000 by Furrer-Pilliod</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.2000.furrer-pilliod.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="KG"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+    </vocabulary>
+    
+    <source which="Furrer-Pilliod 2000"/>
+    
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      <person xml:id="podbielski" which="Marcin Podbielski"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki podbielski"/>
+    <resp roles="transcriber" who="podbielski"/>
+    
+    <change when="2021-06-11" who="kalvesmaki">Started file</change>
+    <to-do>
+      <comment when="2021-06-12" who="kalvesmaki">Needs proofreading.</comment>
+    </to-do>
+  </head>
+  
+  <text>
+    
+    <body xml:lang="grc">
+      <div type="century" n="6">
+        <div type="chapter" n="5"><ab>ἀγένητόν ἐστιν οὗ κατ’ οὐσίαν ὑπάρχοντος οὐδὲν προεπινενόηται τῶν ὄντων</ab></div>
+      </div>
+      <div type="century" n="1">
+        <div type="chapter" n="36">
+          <div type="variant" n="1"><ab>αἴσθησίς ἐστιν δύναμις καθ' ἣν εἰώθαμεν ἀντιλαμβάνεσθαι τῶν ὑλῶν</ab></div>
+          <div type="variant" n="2"><ab>αἰσθητήριον δὲ τὸ ὄργανον, ἐν ᾧ καθίδρυται αὕτη</ab></div>
+          <div type="variant" n="3"><ab>αἰσθητικὸν δὲ τὸ ζῷον αὑτὸ τὸ κεκτημένον τὰς αἰσθήσεις</ab></div>
+          <div type="variant" n="4"><ab>αἰσθητὸν δὲ τὸ πεφυκὸς ταῖς αἰσθήσεσιν ὑποπίπτειν· ὑποπιπτει δὲ ταῖς αἰσθήσεσιν χρῶμα καὶ σχῆμα καὶ ὄγκος καὶ πηλικότης καὶ ἀντιτυπία καὶ ψόφοι καὶ ἀτμοὶ καὶ χυμοί, λειότης, τραχύτης καὶ τὰ τοιαῦτα</ab></div>
+        </div>
+      </div>
+      <div type="century" n="6">
+        <div type="chapter" n="21"><ab>ἀρετή ἐστιν ἕξις ἀρίστη λογικῆς ψυχῆς, καθ' ἣν δυσκίνητος γίνεται πρὸς κακίαν</ab></div>
+      </div>
+      <div type="century" n="1">
+        <div type="chapter" n="86"><ab>ἀγάπη ἐστὶν ἕξις ἀρίστη λογικῆς ψυχῆς, καθ' ἣν οὐδὲν τῆς τοῦ Θεοῦ γνώσεως προτιμᾷ</ab></div>
+      </div>
+      <div type="century" n="3">
+        <div type="chapter" n="62"><ab>ἀστέρες εἰσὶ νοητοὶ λογικαὶ φύσεις τοὺς ἐν ἀγνοίᾳ ὄντας φωτίζειν πεπιστευμέναι</ab></div>
+      </div>
+      <div type="century" n="4">
+        <div type="chapter" n="28"><ab>ἄζυμα νοητά ἐστιν ἕξις ἀρίστη λογικῆς ψυχῆς ἐξ ἀρετῶν καθαρῶν καὶ δογμάτων ἀληθῶν συνεστῶσα</ab></div>
+      </div>
+      <div type="century" n="5">
+        <div type="chapter" n="68"><ab>ἀλλόφυλός ἐστι νοητὸς ὁ τοῖς ἐπὶ τὴν γῆν τῆς ἐπαγγελίας ὀδεύουσιν ἀνθιστάμενος</ab></div>
+      </div>
+      <div type="century" n="6">
+        <div type="chapter" n="60"><ab>ἄγονος ἐστι νοῦς πνευματικῆς διδασκαλίας ἐστερημένος· ἢ νοῦς ἀπορῶν πνευματικῶν σπερμάτων σπειρομένων εἰς τὸ πνεῦμα τὸ ἅγιον</ab></div>
+        <div type="chapter" n="53"><ab>βέλος ἐστὶ νοητὸν τὸ πρῶτον ἐκ τοῦ παθητικοῦ μέρους τῆς ψυχῆς συνιστάμενον νόημα</ab></div>
+        <div type="chapter" n="31, 32"><ab>γεννητὸν ἐστὶ τὸ ἔκ τινος ὡς ἐκ πατρὸς γεννηθἐν· γεννητὸν δὲ τὸ ἔκ τινος ὡς δημιουργοῦ ποιηθέν</ab></div>
+      </div>
+      <div type="century" n="5">
+        <div type="chapter" n="16"><ab>γνόφος ἐστὶ νοητὸς θεωρία πνευματικὴ τοὺς περὶ κρίσεως καὶ προνοίας τῶν ἐπὶ γῆς περιέχουσα λόγους</ab></div>
+      </div>
+      <div type="century" n="6">
+        <div type="chapter" n="39"><ab>γέννησις Χριστοῦ ἐστιν ἀναγέννησις τοῦ ἔσω ἡμῶν ἀνθρώπου, ὃν ὁ Χριστὸς ὡς ἀγαθὸς οἰκοδόμος ἐπὶ τὸν ἀκρογωνιαῖον αὐτοῦ λίθον ἐν τῇ τοῦ σώματος αὐτοῦ οἰκοδομῇ θεμελιώσας ἐπῳκοδόμησεν</ab></div>
+      </div>
+      <div type="century" n="3">
+        <div type="chapter" n="34"><ab>δαίμων ἐστὶ φύσις λογικὴ δι’ ἐπικρατείας θυμοῦ πρακτικῆς ἐκπεσοῦσα</ab></div>
+      </div>
+      <div type="century" n="4">
+        <div type="chapter" n="79"><ab>ζώνη ἐστιν ἀρχιερατική πραΰτης τοῦ θυμικοῦ τὸ ἡγεμονικὸν περισφίγγουσα</ab></div>
+      </div>
+      <div type="century" n="3">
+        <div type="chapter" n="44"><ab>ἥλιός ἐστι νοητός, φύσις λογικὴ τὸ πρῶτον καὶ μακάριον φῶς ἐν ἑαυτῇ περιφέρουσα</ab></div>
+      </div>
+      <div type="century" n="5">
+        <div type="chapter" n="53"><ab>θυσία πνευματική ἐστι συνειδὸς καθαρὸν ἐπὶ τὴν κατάστασιν τοῦ νοῦ ὡς ἐπὶ τὸ θυσιαστήριον κείμενον</ab></div>
+      </div>
+      <div type="century" n="6">
+        <div type="chapter" n="42"><ab>θάνατός ἐστι Χριστοῦ ἐνέργεια μυστικὴ τοὺς ἠλπικότας ἐν τῇ ζωῇ ταύτῃ πρὸς τὴν αἰώνιον ζωὴν ἐπανάγουσα</ab></div>
+      </div>
+      <div type="century" n="5">
+        <div type="chapter" n="86"><ab>κενόδοξος ἐστιν ὁ πρὸ τῆς ἀπαθείας θέλων ὑπὸ τῶν ἀνθρώπων δοξάζεσθαι ἐπὶ τοῖς πεφυκόσι γίνεσθαι δι' ἀπάθειαν καὶ γνῶσιν τὴν τοῦ Θεοῦ</ab></div>
+      </div>
+      <div type="century" n="4">
+        <div type="chapter" n="40"><ab>κλείς ἐστι τῆς βασιλείας τῶν οὐρανῶν, χάρισμα πνευματικὸν τοὺς περὶ πρακτικῆς καὶ φυσικῆς καὶ θεολογικῆς μερικῶς λόγους ἀποκαλύπτον</ab></div>
+      </div>
+      <div type="century" n="6">
+        <div type="chapter" n="46"><ab>κιθάρα ἐστὶ ψυχὴ πρακτικὴ ὑπὸ τῶν ἐντολῶν Κυρίου κινουμένη</ab></div>
+      </div>
+      <div type="century" n="4">
+        <div type="chapter" n="32"><ab>λόβος ἥπατός ἐστι τὸ πρῶτον ἐκ τοῦ ἐπιθυμητικοῦ μέρους τῆς ψυχῆς συνιστάμενον νόημα</ab></div>
+        <div type="chapter" n="16"><ab>μονογενής ἐστιν οὗ ἄλλος οὐ προετέχθη, καὶ μεθ’ ὃν ἕτερος οὐ γέγονεν</ab></div>
+      </div>
+      <div type="century" n="6">
+        <div type="chapter" n="65"><ab>μυστήριόν ἐστι θεωρία πνευματικὴ τὴν τῶν πολλῶν κατάληψιν διαφεύγουσα</ab></div>
+      </div>
+      <div type="century" n="5">
+        <div type="chapter" n="80"><ab>μοχλός ἐστι νοητὸς αὐτεξουσιότης ἄκαμπος δι' αὐτὸ τὸ καλόν</ab></div>
+      </div>
+      <div type="century" n="6">
+        <div type="chapter" n="66"><ab>μάχαιρά ἐστι πετρίνη διδασκαλία τοῦ σωτήρος ἡμῶν Χριστοῦ τὸν ὑπὸ τῶν παθῶν καλυπτόμενον νοῦν δογματικῶς περιτέμνουσα</ab></div>
+      </div>
+      <div type="century" n="3">
+        <div type="chapter" n="12"><ab>νοῦς τέλειός ἐστιν ὁ τὴν οὐσιώδη γνῶσιν ῥαδίως δυνάμενος ὑποδέξασθαι</ab></div>
+        <div type="chapter" n="30"><ab>νοῦς ἐστιν ὁ τῆς ἁγίας τριάδος θεατής</ab></div>
+      </div>
+      <div type="century" n="5">
+        <div type="chapter" n="13"><ab>νεφέλη ἐστὶ νοητὴ φύσις λογικὴ τοὺς ὑποδεεστέρους παρὰ Θεοῦ ποτίζειν πεπιστουμένη</ab></div>
+        <div type="chapter" n="84">
+          <div type="variant" n="1"><ab>ναός ἐστι νοητὸς νοῦς καθαρὸς τὴν πολυποίκιλον τέως σοφίαν τοῦ Θεοῦ καθιδρυμένην ἔχων ἐν ἑαυτῷ</ab></div>
+          <div type="variant" n="2"><ab>ναὸς δἐ Θεοῦ ὁ τῆς ἁγίας μονάδος θεατής</ab></div>
+        </div>
+      </div>
+      <div type="century" n="6">
+        <div type="chapter" n="60"><ab>νοῦς ἄγονός ἐστι πνευματικῆς διδασκαλίας ἐστερημένος· ἢ νοῦς ἀπορῶν πνευματικῶν σπερμάτων σπειρομένων εἰς τὸ πνεῦμα τὸ ἅγιον</ab></div>
+      </div>
+      <div type="century" n="5">
+        <div type="chapter" n="40"><ab>ὄρος ἐστὶ νοητὸν θεωρία πνευματικὴ εἰς ὕψος ἀνεγηγερμένη δυσπρόσιτον, ἐφ' ἧς ὁ νοῦς γεγονὼς τῶν κατωτέρων πραγμάτων τοὺς λόγους ἀποσκοπεύει</ab></div>
+        <div type="chapter" n="43"><ab>ὁδός ἐστι νοητὴ κατάστασις ἀρίστη λογικῆς ψυχῆς ἐφ' ἡς ὁ νοῦς τὴν πορείαν ποιούμενος ἁπαντᾷ τε τοῖς πράγμασιν καὶ τοὺς λόγους τούτων ἐπιγινώσκει</ab></div>
+      </div>
+      <div type="century" n="3">
+        <div type="chapter" n="83"><ab>πίστις ἐστὶν ἡ ὑγιὴς ψυχῆς διάθεσις ἢ ὑπόληψις ἑκούσιος· ἢ “ἐλπιζομένων ὑπόστασις πραγμάτων, ἔλεγχος οὐ βλεπομένων”· ἐνδιάθετον ἀγαθὸν πρὸς τὴν μέλλουσαν ποδηγοῦν ἡμᾶς μακαριότητα</ab></div>
+      </div>
+      <div type="century" n="4">
+        <div type="chapter" n="20"><ab>πρωτότοκός ἐστιν, οὗ ἄλλος οὐ προετέχθη καὶ μεθ' οὗ οὐ γεγόνασιν ἕτεροι</ab></div>
+      </div>
+      <div type="century" n="3">
+        <div type="chapter" n="83"><ab>πίστις ἐστὶν ἐνδιάθετον ἀγαθὸν πρὸς τὴν μέλλουσαν ποδηγοῦν ἡμᾶς μακαριότητα</ab></div>
+      </div>
+      <div type="century" n="5">
+        <div type="chapter" n="74"><ab>πόλις ἐστὶ νοητὴ νοερὰς περιέχουσα φύσεις</ab></div>
+      </div>
+      <div type="century" n="4">
+        <div type="chapter" n="24"><ab>πρωτότοκός ἐστιν ἐκ νεκρῶν ὁ ἀναστάς ἐκ νεκρῶν, καὶ πρῶτος φορήσας σῶμα πνευματικόν</ab></div>
+        <div type="chapter" n="12"><ab>περιτομή ἐστι νοητὴ ἀπόθεσις παθημάτων ἑκούσιος τῆς τοῦ Θεοῦ γνώσεως ἕνεκεν</ab></div>
+        <div type="chapter" n="52"><ab>πέταλόν ἐστι νοητόν γνῶσις ἀληθὴς τῆς ἁγίας τριάδος</ab></div>
+        <div type="chapter" n="72"><ab>περισκέλιον ἐστι νοητὸν νέκρωσις τοῦ ἐπιθυμητικοῦ τῆς τοῦ Θεοῦ γνώσεως ἕνεκεν</ab></div>
+        <div type="chapter" n="75"><ab>ποδήρης ἐστὶ νοητὸς δικαιοσύνη ψυχῆς καθ' ἣν εἴωθεν ἄμεμπτος ἐν πράξει καὶ δόγμασι χρηματίζειν ἄνθρωπος</ab></div>
+      </div>
+      <div type="century" n="5">
+        <div type="chapter" n="34"><ab>περικεφαλαία ἐστὶ νοητὴ γνῶσις πνευματικὴ τὸ λογικὸν μέρος της ψυχῆς διαφυλάττουσα ἀνεπιβούλευτον</ab></div>
+        <div type="chapter" n="49"><ab>πρόσφατός ἐστι θεὸς ὁ μηδὲν οὐσιῶσαι δυνάμενος, ἢ ὁ τῇ κακίᾳ πεποιωμένος</ab></div>
+        <div type="chapter" n="65"><ab>πρακτικὸς μέν ἐστι στρατιώτης φρονήσεως· γνωστικὸς δὲ σοφίας ὑπασπιστής</ab></div>
+        <div type="chapter" n="77"><ab>πύλαι εἰσὶ νοηταὶ ἀρεταὶ ψυχῆς λογικῆς διὰ πρακτικῆς καὶ δυνάμεως κατασκευασθεῖσαι Θεοῦ</ab></div>
+        <div type="chapter" n="28"><ab>ῥομφαία ἐστὶ νοητὴ λόγος πνευματικὸς σῶμα χωρίζων ἀπὸ ψυχῆς, ἢ κακίαν καὶ ἀγνωσίαν</ab></div>
+        <div type="chapter" n="71"><ab>ῥαφαίτης ἐστὶ νοητὸς ὁ τοὺς εἰσελθόντας εἰς τὴν γῆν τῆς ἐπαγγελίας πάλιν ἐξελθεῖν βιαζόμενος</ab></div>
+      </div>
+      <div type="century" n="3">
+        <div type="chapter" n="52"><ab>σελήνη ἐστὶ νοητὴ φύσις λογικὴ πρὸς τοῦ ἡλίου τῆς δικαιοσύνης φωτιζομένη</ab></div>
+      </div>
+      <div type="century" n="4">
+        <div type="chapter" n="36"><ab>στέαρ ἐστὶ νοητὸν ἡ ἐκ τῆς κακίας τῷ ἡγεμονικῷ παχύτης ἐπισυμβαίνουσα</ab></div>
+        <div type="chapter" n="44"><ab>σάββατόν ἐστιν ἠρεμία ψυχῆς λογικῆς, καθ’ ἣν πέφυκε μὴ ὑπερβαίνειν τοὺς τῆς φύσεως ὅρους</ab></div>
+      </div>
+      <div type="century" n="6">
+        <div type="chapter" n="40"><ab>σταύρωσίς ἐστι Χριστοῦ νέκρωσις τοῦ παλαιοῦ ἡμῶν ἀνθρώπου, ἢ καὶ λύσις τῆς ἡμῶν κατακρίσεως, καὶ ἐγκατάλειψις εἰς ζωὴν ἐπανάγουσα</ab></div>
+      </div>
+      <div type="century" n="5">
+        <div type="chapter" n="82"><ab>τεῖχός ἐστι νοητὸν ἀπάθεια ψυχῆς λογικῆς ἀπρόσιτος δαίμοσιν</ab></div>
+      </div>
+      <div type="century" n="4">
+        <div type="chapter" n="66"><ab>ὑποδύτης ἐστὶ νοητὸς γνῶσις άπόρρητος τῶν τοῦ Θεοῦ μυστηρίων</ab></div>
+      </div>
+      <div type="century" n="6">
+        <div type="chapter" n="68"><ab>ὑποταγή ἐστι φύσεως λογικῆς ἡ πρὸς τὴν γνῶσιν τὴν τοῦ Θεοῦ ἑκούσιος συγκατάθεσις</ab></div>
+        <div type="chapter" n="70"><ab>ὑποταγή ἐστιν ἀδυναμία φύσεως λογικῆς μὴ ὑπερβαινούσης τοὺς τῆς οἰκείας κατὰ στάσεως ὅρους· οὕτω γὰρ πάντα ὑπέταξεν ὑπὸ τοὺς πόδας αὐτοῦ κατὰ τὸν Παῦλον</ab></div>
+      </div>
+      <div type="century" n="4">
+        <div type="chapter" n="82"><ab>φυγαδευτήριόν ἐστι σῶμα πρακτικὸν ἐμπαθοῦς ψυχῆς ἀπὸ τῶν κυκλούντων αὐτὴν δαιμόνων ῥυόμενος</ab></div>
+      </div>
+      <div type="century" n="6">
+        <div type="chapter" n="16"><ab>Χριστός ἐστιν ὁ ἐξ οὐσιώδους γνώσεως καὶ ἀσωμάτου καὶ σωματικῆς φύσεως ἡμῖν ἐπιφανείς· ὁ δὲ λέγων δύο Χριστούς, ἢ δύο υἱούς, ὅμοιός ἐστι τῷ λέγοντι τὴν σοφίαν καὶ τὸν σοφὸν δύο σοφοὺς καὶ δύο σοφίας</ab></div>
+      </div>
+      <div type="century" n="3">
+        <div type="chapter" n="14"><ab>ψυχή ἐστιν ἀτελὴς ἧς ἡ παθητικὴ δύναμις πρὸς τὰ μάταια νένευκεν</ab></div>
+        <div type="chapter" n="16"><ab>ψυχή τελεία ἐστίν, ἧς ἡ παθητικὴ δύναμις ἐνεργεῖ κατὰ φύσιν</ab></div>
+      </div>
+      <div type="century" n="6">
+        <div type="chapter" n="48"><ab>ψαλτήριον ἐστι νοῦς καθαρὸς ὑπὸ πνευματικῆς κινούμενος γνώσεως</ab></div>
+      </div>
+    </body>
+  </text>
+  
+</TEI>
