@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2021/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2021/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:transcription:cpg2432:grc:rondeau">
+   <head>
+      <name>Scholia on Psalms by Evagrius, preserved in the Scholia on the Psalms, edition by Rondeau, Gehin, and Cassin</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2455/cpg2455.grc.2021.rondeau.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Scholia in Psalmos"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2021-07-24"/>
+      </vocabulary>
+      
+      <source which="Rondeau 2021" accessed-when="2021-07-24"/>
+      <vocabulary-key>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <div-type xml:id="verse" which="verse (scripture)"/>
+      </vocabulary-key>
+      
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2021-07-24" who="kalvesmaki">Started file</change>
+      <to-do>
+         <comment when="2021-07-24" who="kalvesmaki">Add new material</comment>
+      </to-do>
+   </head>
+   <body xml:lang="grc">
+      <div type="century" n="III">
+         <!--Ps. 1, sch10-->
+         <div type="chapter" n="48">Κρίσις ἐστὶ δικαίων μὲν ἡ ἀπὸ πρακτικοῦ σώματος ἐπὶ ἀγγελικὰ μετάβασις, </div>
+         <!--Ps. 1, sch10-->
+         <div type="chapter" n="50">ἀσεβῶν δὲ ἀπὸ πρακτικοῦ σώματος ἐπὶ σκοτεινὰ καὶ ζοφερὰ μετάθεσις σώματα. </div>
+         <!--Ps. 5, sch 11 (some changes) -->
+         <div type="chapter" n="36">Αἰών ἐστι σύστημα φυσικὸν ἐκ σωμάτων ποικίλων λογικὰ διάφορα περιέχον τῆς τοῦ Θεοῦ γνώσεως ἕνεκεν. </div>
+      </div>
+      <div type="century" n="V">
+         <!-- Ps. 7, sch6 (changes) -->
+         <div type="chapter" n="28">Ῥομφαία ἐστὶ νοητὴ λόγος πνευματικὸς χωρίζων ψηχὴν ἀπὸ σώματος ἢ κακίας ἢ ἀγνωσίας.</div>
+      </div>
+      <div type="century" n="VI">
+         <!-- Ps. 9, sch7 (changes) -->
+         <div type="chapter" n="8">Ὥσπερ ὁ παράδεισος τῶν δικαίων ἐστὶ παιδευτήριον, οὕτως ὁ ᾅδης τῶν ἁμαρτωλῶν ἐστι κολαστήριον.</div>
+      </div>
+      <div type="century" n="VI">
+         <!-- Ps. 10, sch2 -->
+         <div type="chapter" n="53">Βέλος ἐστὶ λογισμὸς ἐμπαθής, φαρέτρα δὲ ἕξις χειρίστη λογισμῶν ἀκαθάρτων πεπληρωμένη.</div>
+      </div>
+      <div type="century" n="IV">
+         <!-- Ps. 16, sch4 -->
+         <div type="chapter" n="36">Στέαρ ἐστὶ νοητὸν ἡ ἐκ τῆς κακίας τῷ ἡγεμονικῷ παχύτης ἐπισυμβαίνουσα.</div>
+      </div>
+      <div type="century" n="V">
+         <!-- Ps 23, sch4 (not really verbatim) -->
+         <div type="chapter" n="77">πύλας δὲ λέγει τὰς ἀρετάς·</div>
+      </div>
+      <div type="century" n="VI">
+         <!-- Ps. 32, sch2 (change) -->
+         <div type="chapter" n="46">Κιθάρα ἐστὶ ψυχὴ πρακτικὴ ὑπὸ τῶν ἐντολῶν τοῦ Χριστοῦ κινουμένη.</div>
+         <!-- Ps. 32, sch3 -->
+         <div type="chapter" n="48">Ψαλτήριόν ἐστι νοῦς καθαρὸς ὑπὸ πνευματικῆς κινούμενος γνώσεως.</div>
+         <!-- Ps. 36, sch4 -->
+         <div type="chapter" n="68">Ἡ ὑποταγὴ αὕτη ἐστὶ φύσεως λογικῆς πρὸς τὴν γνῶσιν τοῦ θεοῦ ἑκούσιος συγκατάθεσις.</div>
+      </div>
+      <div type="century" n="I">
+         <!-- Ps 43, sch6 -->
+         <div type="chapter" n="66">Ἔμπροσθεν ἡμῶν λέγονται εἶναι αἱ ἀρεταὶ, ὄπισθεν δὲ αἱ κακίαι. Διὸ προστασσόμεθα φεύγειν μὲν τὴν πορνείαν, τὴν δὲ φιλοξενίαν διώκειν.</div>
+      </div>
+      <div type="century" n="IV">
+         <!-- Ps 44, sch7 -->
+         <div type="chapter" n="21">Εἰ πᾶσα δύναμις τῶν οὐρανῶν τῇ τῶν γεγονότων κέχρισται θεωρίᾳ, ὁ δὲ Χριστὸς παρὰ πάντας κέχρηται τοὺς μετόχους αὐτοὐ, τῇ τῆς μονάδος δηλονότι κέχρισται γνώσει. Διὸ καὶ μόνος λέγεται ἐν δεξιᾷ καθέζεσθαι τοῦ πατρὸς· Χριστὸν δέ φημι τὸν μετὰ τοῦ θεοῦ λόγου ἐπιδημήσαντα κύριον.</div>
+      </div>
+      <div type="century" n="V">
+         <!-- Ps 50, sch6 (change) -->
+         <div type="chapter" n="82">Τὰ τείχη Ἱερουσαλὴμ τὴν ἀπάθειαν σημαίνει τῆς ψυχῆς, ἥντινα διαφθείραντες οἱ δαίμονες τὸ τῆς μοιχείας πάθος εἰσένεγκαν.</div>
+      </div>
+      <div type="century" n="IV">
+         <!-- Ps 54, sch3 (new) -->
+         <div type="chapter" n="53">Τοῖς ἀπὸ κακίας καὶ ψευδῶν δογμάτων πόλιν οἰκοδομοῦσιν ἀγνωσία ἐπισυμβαίνει καὶ σύγχυσις γλωσσῶν παύουσα αὐτοὺς τῆς κακῆς ἐνεργείας, καθάπερ καὶ τοῖς ἐν Χαλάνῃ τὸν πύργον κατασκευάσασιν. </div>
+      </div>
+      <div type="century" n="I">
+         <!-- Ps 62, sch2 (change) -->
+         <div type="chapter" n="73">Ἡ μὲν ζωὴ τοῦ ἀνθρώπου ἡ ἁγία γνῶσις ὑπάρχει· τὸ δὲ ἔλεος κυρίου ἡ τῶν γεγονότων θεωρία ἐστίν· πολλοὶ δὲ ἡμῖν τοῦ αἰῶνος τούτου σοφοὶ καθυπέσχοντο γνώσεις, ἀλλὰ κρεῖσσον τὸ ἔλεος κυρίου ὑπὲρ ζωάς.</div>
+      </div>
+      <div type="century" n="VI">
+         <!-- Ps 67, sch19 -->
+         <div type="chapter" n="49">Τὴν μὲν διάθεσιν τῆς κακίας διὰ τῶν Αἰγυπτίων ᾐνίξατο·</div>
+      </div>
+      <div type="century" n="I">
+         <!-- Ps 72, sch15 (change) -->
+         <div type="chapter" n="70">Μετὰ θεοῦ λέγεται εἶναι, πρῶτος μὲν ὁ τὴν ἁγίαν γινώσκων τριάδα, καὶ μετ’ αὐτὸν ὁ τοὺς λόγους τοὺς περὶ τῶν νοητῶν θεωρῶν, τρίτος δὲ πάλιν ὁ καὶ αὐτὰ τὰ ἀσώματα βλέπων, καὶ τέταρτος ὁ τὴν θεωρίαν ἐπιστάμενος τῶν αἰώνων· ὁ δὲ τὴν τῆς ψυχῆς ἀπάθειαν κεκτημένος πέμπτος ἂν τούτοις συγκαταταχθείη δικαίως.</div>
+      </div>
+      <div type="century" n="VI">
+         <!-- Ps 75, sch3 -->
+         <div type="chapter" n="53">βέλος δὲ πεπυρωμένον ἐστὶν ὁ ἐμπαθὴς λογισμός·</div>
+      </div>
+      <div type="century" n="V">
+         <!-- Ps 78, sch2 -->
+         <div type="chapter" n="70">Τόπος γνώσεως Θεοῦ· καὶ νοῦς τόπος γνώσεως Θεοῦ.</div>
+      </div>
+      <div type="century" n="V">
+         <!-- Ps 80, sch4 (change) -->
+         <div type="chapter" n="49">Πρόσφατός εστι θεὸς ὁ μηδὲν οὐσιῶσαι δυνάμενος ἢ ὁ τῇ κακίᾳ πεποιημένος.</div>
+      </div>
+      <!--<div type="century" n="VI">
+         <!-\- Ps 83, sch1: this needs to be demoted, as well as the corresponding Pitra "fragment" -\->
+         <div type="chapter" n="49"></div>
+      </div>-->
+      <div type="century" n="VI">
+         <!-- Ps 85, sch6 (new) -->
+         <div type="chapter" n="27">Εἰ πάντα τὰ ἔθνη ἥξει καὶ προσκυνήσει τὸ ὄνομα κυρίου, ἥξει δηλονότι καὶ τὰ ἔθνη τὰ τοὺς πολέμους θέλοντα. Εἰ δὲ τοῦτο, πᾶσα ἄρα φύσις λογικὴ προσκυνήσει ἐνώπιον κυρίου, ἔπειτα δὲ καὶ δοξάσει τὸ ὄνομα αὐτοῦ, ὅπερ σημαίνει τὸν ἐν αὐτῷ ὑπάρχοντα πατέρα. </div>
+      </div>
+      <div type="century" n="VI">
+         <!-- Ps 91, sch2 -->
+         <div type="chapter" n="48">Ψαλτήριόν ἐστι νοῦς καθαρὸς ὑπὸ πνευματικῆς κινούμενος γνώσεως·</div>
+         <!-- Ps 91, sch2 (change) -->
+         <div type="chapter" n="46">κιθάρα δέ ἐστι ψυχὴ πρακτικὴ ὑπὸ τῶν ἐντολῶν τοῦ Χριστοῦ κινουμένη.</div>
+      </div>
+      <div type="century" n="V">
+         <!-- Ps 98, sch2 -->
+         <div type="chapter" n="48">Τὸ ὑποπόδιον τῶν ποδῶν εἶπόν τινες εἶναι τὴν σάρκα τὴν τοῦ Χριστοῦ, ἥτις διὰ τὸν Χριστόν ἐστι προσκυνητή· ὁ δὲ Χριστὸς προσκυνητὸς διὰ τὸν ἐν αὐτῷ λόγον θεόν.</div>
+      </div>
+      
+      <div type="century" n="V">
+         <!-- Ps 101, sch2 (new) -->
+         <div type="chapter" n="67">Ξηραίνεται νοῦς ὕδατος πνευματικοῦ ἀπορῶν τοῦ ῥέοντος ἐκ τῆς πηγῆς τῆς ζωῆς. </div>
+      </div>
+      <div type="century" n="VI">
+         <!-- Ps 113, sch2 -->
+         <div type="chapter" n="19">εἰ γὰρ χαίρουσιν οἱ ἐν τοῖς οὐρανοῖς ἐπὶ ἑνὶ μετανοοῦντι, πόσῳ μᾶλλον ἐπὶ τοσαύταις μυριάσιν ὁδευούσαις ἀπὸ κακίας πρὸς ἀρετὴν καὶ ἀπὸ ἀγνωσίας ἐπὶ γνῶσιν θεοῦ.</div>
+      </div>
+      <div type="century" n="I">
+         <!-- Ps 113, sch6 -->
+         <div type="chapter" n="36">Οὐ ταὐτὸν αἴσθησις καὶ αἰσθητήριον οὐδἐ αἰσθητηκόν τε καὶ αἰσθητόν. Αἴσθησις μὲν γάρ ἐστιν ἡ δύναμις καθ’ ἣν εἰώθαμεν ἀντιλαμβάνεσθαι τῶν ὑλῶν· αἰσθητήριον δὲ τὸ ὄργανον ἐν ᾧ καθίδρυται αὕτη· αἰσθητικὸν δὲ τὸ ζῶον αὐτὸ τὸ κεκτημένον τὰς αἰσθήσεις· αἰσθητὸν δὲ τὸ πεφυκὸς ταῖς αἰσθήσεσιν ὑποπίπτειν. Ἀλλ’ οὐχ οὕτως ἐπὶ τῶν εἰδώλων· πάντων μὲν γὰρ τούτων ἐστέρηνται, μόνα δὲ ἔχει τὰ τῶν φυσικῶν αἰσθητηρίων μιμήματα, οἷον ὀφθαλμοὺς καὶ ὦτα καὶ ῥῖνα καὶ τὰ ἑξῆς. </div>
+      </div>
+      <div type="century" n="V">
+         <!-- Ps 131, sch5 (change) -->
+         <div type="chapter" n="48">Προσκυνοῦμεν τὴν σάρκα τοῦ σωτῆρος οὐ διὰ τὴν φύσιν, ἀλλ' ἐπειδὴ ὁ Χριστός ἐστιν ἐν αὐτῇ· καὶ ἡ μὲν σὰρξ προσκυνητὴ διὰ τὸν Χριστόν, ὁ δὲ Χριστὸς διὰ τὸν θεὸν λόγον τὸν ἐν αὐτῷ. </div>
+      </div>
+      <div type="century" n="IV">
+         <!-- Ps 131, sch5 (new) -->
+         <div type="chapter" n="80">Οὐδὲν δὲ τῶν συνεστώτων ἐκ τῶν τεσσάρων στοιχείων γνώσεώς ἐστι δεκτικόν, γνωστὸς δὲ ἡμῶν ὁ θεός.</div>
+      </div>
+      <div type="century" n="V">
+         <!-- Ps 134, sch6bis (changes) -->
+         <div type="chapter" n="30">Εἰ ἡ βασιλεία τῶν οὐρανῶν ἡ θεωρία τῶν γεγονότων ἐστίν, αὔτη δὲ κατὰ τὸν κύριον ἐντὸς ὑμῶν ἐστιν, τὰ δὲ ἐντὸς ὑπὸ δαιμόνων κεκράτηται, καλῶς λέγονται οἱ ἀλλόφυλοι τὴν γῆν τῆς ἐπαγγελίας κατέχειν.</div>
+      </div>
+      <div type="century" n="VI">
+         <!-- Ps 135, sch3 (changes) -->
+         <div type="chapter" n="49">Καὶ πάλιν Αἴγυπτος καταλιμπάνεται σύμβολον οὖσα κακίας, τῶν κατὰ διάνοιαν πρωτοτόκων φθαρέντων·</div>
+      </div>
+      <div type="century" n="IV">
+         <!-- Ps 141, sch5 -->
+         <div type="chapter" n="70">Οὐ πάντων ἐστὶ τὸ λέγειν· ἔκβαλλε ἐκ φυλακῆς τὴν ψυχήν μου, εἰ μὴ τῶν δυναμένων διὰ καθαρότητα καρδίας καὶ χωρὶς τοῦ σώματος τούτου ἐπιβάλλειν τῇ θεωρίᾳ τῶν γεγονότων.</div>
+      </div>
+      <div type="century" n="VI">
+         <!-- Ps 147, sch1 -->
+         <div type="chapter" n="49">Μοχλοὶ μὲν τῆς Ἱερουσαλήμ εἰσιν αἱ πρακτικαὶ ἀρεταὶ κωλύουσαι τοὺς ἐχθροὺς παρεισδύνειν· τῆς δὲ Σιὼν τὰ οὐράνια δόγματα καὶ ἡ ὀρθὴ πίστις τῆς προσκυνητῆς καὶ ἁγίας τριάδος, </div>
+      </div>
+      <div type="century" n="V">
+         <!-- Ps 149, sch2 -->
+         <div type="chapter" n="28">Ῥομφαία ἐστὶ νοητὴ λόγος πνευματικὸς ἐκκόπτων ψυχὴν ἀπὸ κακίας καὶ ἀγνωσίας.</div>
+      </div>
+      <div type="century" n="VI">
+         <!-- Ps 150, sch3 -->
+         <div type="chapter" n="46">Κιθάρα ἐστὶ ψυχὴ πρακτικὴ ὑπὸ τῶν ἐντολῶν τοῦ Χριστοῦ κινουμένη.</div>
+      </div>
+
+   </body>
+</TAN-T>
