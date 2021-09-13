@@ -1,0 +1,3138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href ="../../../schemas/catalog.tan.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href ="../../../schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<collection stable="true" metadata-resolved="false">
+   <doc href="cpg2430/cpg2430.eng.1990.dysinger.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_eng_Dysinger.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Luke Dysinger's English translation of the Praktikos of Evagrios Pontikos</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="http://evagriusponticus.net/tan/cpg2430.eng.1990.dysinger.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Prak."/>
+      <version xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:evagriusponticus.net,2015:cpg2430,eng-1997</IRI>
+         <IRI>tag:kalvesmaki.com,2014:cpg2430,eng-1997</IRI>
+         <name xml:lang="eng">Fr. Luke Dysinger's translation of the ancient Greek version of the
+          Praktikos</name>
+      </version>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Dysinger 1990"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
+            <name>Small caps removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-color-off</IRI>
+            <name>Color removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-italics-off</IRI>
+            <name>Italics removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-xrefs-off</IRI>
+            <name>Translator's references to other primary sources removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:l-sep-off</IRI>
+            <name>left separator, U+2028, removed</name>
+         </normalization>
+         <normalization which="no reference markers"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2430/cpg2430.grc.1971.guillaumonts.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Guillaumonts' Greek edition of the Praktikos of Evagrios Pontikos</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430.grc.1971.guillaumonts.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Prak."/>
+      <version xmlns="tag:textalign.net,2015:ns" which="cpg2430-grc-1971"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Guillaumonts 1971"/>
+      <annotation xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
+         <name>Lexico-morphological data for: Guillaumonts' Greek edition of the Praktikos of
+            Evagrios Pontikos</name>
+         <location accessed-when="2018-05-19-04:00"
+                   href="TAN-A-lm/cpg2430.grc.guillaumonts.tan-a-lm.xml"
+                   orig-href="../TAN-A-lm/cpg2430.grc.guillaumonts.tan-a-lm.xml"/>
+      </annotation>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2430/cpg2430.syr.0700.bl14578.s2.tei.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.S2"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Syriac translation S2 of the Praktikos of Evagrios Pontikos, from BL Add.
+         14,578</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430/cpg2430.syr.0700.bl14578.s2.tei.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Prak."/>
+      <version xmlns="tag:textalign.net,2015:ns" which="Praktikos S2"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <comment xmlns="tag:textalign.net,2015:ns" when="2020-10-02" who="kalvesmaki">Relevant folios: 151v-153r</comment>
+      <source xmlns="tag:textalign.net,2015:ns" which="BL Add 14578"/>
+      <companion-version xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001</IRI>
+         <name>Praktikos S1, BL Add. 14,578</name>
+         <location accessed-when="2019-07-29"
+                   href="cpg2430/cpg2430.syr.0700.bl14578.tei.xml"
+                   orig-href="cpg2430.syr.0700.bl14578.tei.xml"/>
+      </companion-version>
+   </doc>
+   <doc href="cpg2430/cpg2430.syr.0700.bl14578.tei.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Syriac translation of the Praktikos of Evagrios Pontikos, from BL Add.
+         14,578</name>
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Praktikos S1, BL Add. 14,578</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2430/cpg2430.syr.0700.bl14578.tei.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Prak."/>
+      <version xmlns="tag:textalign.net,2015:ns" which="Praktikos S1"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <comment xmlns="tag:textalign.net,2015:ns" when="2020-10-02" who="kalvesmaki">Relevant folios: 2r-11r</comment>
+      <source xmlns="tag:textalign.net,2015:ns" which="BL Add 14578"/>
+      <companion-version xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.S2</IRI>
+         <name>Syriac translation S2 of the Praktikos of Evagrios Pontikos, from BL Add.
+            14,578</name>
+         <location accessed-when="2020-10-02"
+                   href="cpg2430/cpg2430.syr.0700.bl14578.s2.tei.xml"
+                   orig-href="cpg2430.syr.0700.bl14578.s2.tei.xml"/>
+      </companion-version>
+   </doc>
+   <doc href="cpg2431/cpg2431.eng.1990.dysinger.tei.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_eng_Dysinger.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Dysinger's translation of the Gnostikos</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2431/cpg2431.eng.1990.dysinger.tei.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Gn."/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Dysinger 1990"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
+            <name>Small caps removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-color-off</IRI>
+            <name>Color removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-italics-off</IRI>
+            <name>Italics removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-xrefs-off</IRI>
+            <name>Translator's references to other primary sources removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-character-del:U+0308</IRI>
+            <name>Removed stray U+0308 COMBINING DIAERESIS</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:l-sep-off</IRI>
+            <name>left separator, U+2028, removed</name>
+         </normalization>
+         <normalization which="no reference markers"/>
+         <normalization which="no notes"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2431/cpg2431.grc.1912.frankenberg.tei.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Frankenberg.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Frankenberg's Greek retroversion of a Syriac translation of the
+      Gnostikos</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2431/cpg2431.grc.1912.frankenberg.tei.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Gn."/>
+      <version xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:evagriusponticus.net,2015:cpg2431,grc1912</IRI>
+         <IRI>tag:kalvesmaki.com,2014:cpg2431,grc1912</IRI>
+         <name>Frankenberg's Greek retroversion</name>
+      </version>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Frankenberg 1912"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no notes"/>
+         <normalization which="no reference markers"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2431/cpg2431.grc.1989.guillaumonts.tei.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Guillaumonts' Greek edition of the Gnostikos of Evagrios Pontikos</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2431/cpg2431.grc.1989.guillaumonts.tei.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Gn."/>
+      <version xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:evagriusponticus.net,2015:cpg2431.grc-1989</IRI>
+         <IRI>tag:kalvesmaki.com,2014:cpg2431.grc-1989</IRI>
+         <name xml:lang="eng">The Guillaumonts' ancient Greek edition of the Gnostikos</name>
+      </version>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Guillaumonts 1989"/>
+      <annotation xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001</IRI>
+         <name>Lexico-morphological data for: Guillaumonts' Greek edition of the Gnostikos of Evagrios
+        Pontikos</name>
+         <location accessed-when="2018-05-19-04:00"
+                   href="TAN-A-lm/cpg2431.grc.guillaumonts.tan-a-lm.xml"
+                   orig-href="../TAN-A-lm/cpg2431.grc.guillaumonts.tan-a-lm.xml"/>
+      </annotation>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+         <normalization which="no reference markers"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2431/cpg2431.syr.0600.BLAdd14581.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd14581"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns">Transcription of the Gnostikos preserved in BL Add. 14581</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2431/cpg2431.syr.0600.BLAdd14581.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Gn."/>
+      <version xmlns="tag:textalign.net,2015:ns" which="cpg2431-syr-S1"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="BL Add 14581"/>
+      <see-also xmlns="tag:textalign.net,2015:ns" relationship="auxiliary">
+         <IRI>urn:uuid:b62e3ba9-74ab-4de5-9bb7-ac430250927e</IRI>
+         <name>Personally typed transcription</name>
+         <location accessed-when="2017-02-22-05:00"
+                   href="../../../Evagrius/transcriptions,%20master/Gnostikos-S1%20from%20BL%20Add%2014581.docx"
+                   orig-href="../../../../Evagrius/transcriptions,%20master/Gnostikos-S1%20from%20BL%20Add%2014581.docx"/>
+      </see-also>
+   </doc>
+   <doc href="cpg2431/cpg2431.syr.0600.BLAdd17165.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd17165"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns">Transcription of the Gnostikos preserved in BL Add. 17165</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2431/cpg2431.syr.0600.BLAdd17165.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Gn."/>
+      <version xmlns="tag:textalign.net,2015:ns" which="cpg2431-syr-S2"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="BL Add 17165"/>
+   </doc>
+   <doc href="cpg2431/cpg2431.syr.0700.BLAdd14616.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd14616"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns">Transcription of the Gnostikos preserved in BL Add. 14616</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2431/cpg2431.syr.0700.BLAdd14616.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Gn."/>
+      <version xmlns="tag:textalign.net,2015:ns" which="cpg2431-syr-S2"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="BL Add 14616"/>
+   </doc>
+   <doc href="cpg2431/cpg2431.syr.0700.BLAdd17167.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_BLAdd17167"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns">Transcription of the Gnostikos preserved in BL Add. 17167</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2431/cpg2431.syr.0700.BLAdd17167.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Gn."/>
+      <version xmlns="tag:textalign.net,2015:ns" which="cpg2431-syr-S3"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="BL Add 17167"/>
+   </doc>
+   <doc href="cpg2431/cpg2431.syr.1912.frankenberg.tei.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Gnostikos_syr_Frankenberg.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Frankenberg's transcription of the Syriac translation of the Gnostikos
+      preserved in BL Add. 14578</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2431/cpg2431.syr.1912.frankenberg.tei.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Gn."/>
+      <version xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:evagriusponticus.net,2015:cpg2431,syr_BL_Add._14578</IRI>
+         <IRI>tag:kalvesmaki.com,2014:cpg2431,syr_BL_Add._14578</IRI>
+         <name>Frankenberg's transcription of the Syriac</name>
+      </version>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Frankenberg 1912"/>
+   </doc>
+   <doc href="cpg2432/cpg2432.eng.1990.dysinger-s1.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_eng_Dysinger_S1.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Luke Dysinger's translation of the Kephalaia Gnostika, Syriac S1</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.eng.1990.dysinger-s1.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <version xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:evagriusponticus.net,2015:cpg2432,S1-eng-Dysinger</IRI>
+         <IRI>tag:kalvesmaki.com,2014:cpg2432#S1-eng-Dysinger</IRI>
+         <name>Dysinger's English translation of S1</name>
+      </version>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Dysinger 1990"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
+            <name>Small caps removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-color-off</IRI>
+            <name>Color removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-italics-off</IRI>
+            <name>Italics removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-xrefs-off</IRI>
+            <name>Translator's references to other primary sources removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-comments-off</IRI>
+            <name>Translator's comments removed.</name>
+         </normalization>
+      </adjustments>
+   </doc>
+   <doc href="cpg2432/cpg2432.eng.1990.dysinger-s2.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_eng_Dysinger_S2.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Dysinger's translation of the Kephalaia Gnostika, Syriac S2</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.eng.1990.dysinger-s2.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <version xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:evagriusponticus.net,2015:cpg2432,S2-eng-Dysinger</IRI>
+         <IRI>tag:kalvesmaki.com,2014:cpg2432#S2-eng-Dysinger</IRI>
+         <name>Dysinger's English translation of S2</name>
+      </version>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Dysinger 1990"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
+            <name>Small caps removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-color-off</IRI>
+            <name>Color removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-italics-off</IRI>
+            <name>Italics removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-xrefs-off</IRI>
+            <name>Translator's references to other primary sources removed.</name>
+         </normalization>
+         <normalization which="no reference markers"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1722.wolf.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Wolf.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragment of the Kephalaia Gnostika from Wolf's Analecta graeca</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1722.wolf.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Wolf 1722"/>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1857.pg4.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Cordier.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia gnostika preserved PG 4</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1857.pg4.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="PG"/>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1862.pg12.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_la_Rue.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia gnostika preserved PG 12</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1862.pg12.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="PG"/>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1863.pg39.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Mai-1852.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia gnostika preserved PG 39</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1863.pg39.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="pg"/>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1865.pg86a.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Mai-1825.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia gnostika preserved PG 86a</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1865.pg86a.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="PG"/>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1876.pitra.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Pitra.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia Gnostika from Pitra's edition of the scholia on
+      the Psalms</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1876.pitra.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Pitra 1876"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no reference markers"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1907.from-cpg7781.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Diekamp.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia Gnostica preserved in the Doctrina patrum de
+      incarnatione verbi</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1907.from-cpg7781.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Diekamp 1981"/>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1912.frankenberg.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Frankenberg.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Frankenberg's Greek retroversion of transcription of Syriac translation S1
+      of the Kephalaia Gnostika</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1912.frankenberg.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Frankenberg 1912"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no reference markers"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1931.muyldermans.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1931.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia Gnostika from Muyldermans's edition of Milan,
+      Ambr. gr. 681 (Q 74 sup.) </name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.muyldermans-1931.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Muyldermans 1931b"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no reference markers"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1932.muyldermans.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Muyldermans-1932.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia Gnostika from Muyldermans's edition of MS Paris
+      BnF gr. 2748</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1932.muyldermans.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Muyldermans 1932"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no reference markers"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1939.hausherr.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Hausherr.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia Gnostika preserved in MS Moscow 425</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1939.hausherr.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Hausherr 1939b"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no reference markers"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1959.devreesse.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Devreesse.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia Gnostica preserved in scholia on the
+      Octateuch</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1959.devreesse.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Devreesse 1959"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no reference markers"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1963.from-cpg7352.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_Preville.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia Gnostica preserved in Dorotheos of Gaza</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1963.from-cpg7352.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Regnault 1963"/>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1983.from-cpg2439.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gribomont.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia gnostika preserved in Evagrius's Epistula Fidei</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432.grc.1983.from-cpg2439.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Gribomont 1983"/>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1987.géhin.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1987.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia Gnostika preserved in Evagrius's scholia on the
+      Proverbs</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1987.g%C3%A9hin.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <numerals xmlns="tag:textalign.net,2015:ns" priority="letters"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Géhin 1987"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no reference markers"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1996.géhin.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1996.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia Gnostika preserved in Vaticanus Gr. 2028</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1996.g%C3%A9hin.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Géhin 1996"/>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1997.from-cpg7350.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_de_Angelis-Noah.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia Gnostica preserved in the letters of
+      Barsanouphios</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1997.from-cpg7350.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Neyt 1997"/>
+   </doc>
+   <doc href="cpg2432/cpg2432.grc.1998.géhin.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1998.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Kephalaia Gnostika preserved in Evagrius's Περὶ διαφορῶν
+      πονηρῶν λογισμῶν</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.grc.1998.g%C3%A9hin.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="géhin 1998"/>
+   </doc>
+   <doc href="cpg2432/cpg2432.syr.1958.guillaumont-s1.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S1.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Guillaumont's edition of Syriac S1 of the Kephalaia Gnostika</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.syr.1958.guillaumont-s1.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="KG"/>
+      <version xmlns="tag:textalign.net,2015:ns" which="cpg2432-syr-S1"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Guillaumont 1958"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no reference markers"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2432/cpg2432.syr.1958.guillaumont-s2.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S2.TAN-TEI.001"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Guillaumont's edition of Syriac S2 of the Kephalaia Gnostika</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2432/cpg2432.syr.1958.guillaumont-s2.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:evagriusponticus.net,2015:cpg2432</IRI>
+         <IRI>tag:kalvesmaki.com,2014:cpg2432</IRI>
+         <name xml:lang="eng">The Kephalaia Gnostika, written by Evagrius Ponticus</name>
+      </work>
+      <version xmlns="tag:textalign.net,2015:ns" which="cpg2432-syr-S2"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Guillaumont 1958"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no reference markers"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2437/cpg2437.43.grc.1987.géhin.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2437.43:grc:1987:géhin"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Greek fragment of the Letters of Evagrius from Géhin's edition of Evagrius's Scholia on
+         Proverbs</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2437/cpg2437.43.grc.1987.géhin.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Epistulae"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2018-05-29-04:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="SC 340"/>
+   </doc>
+   <doc href="cpg2437/cpg2437.57.eng.2014.kalvesmaki.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2437.57:eng:2014:kalvesmaki"
+        xml:lang="eng"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Kalvesmaki's translation of Letter 57 by Evagrius Ponticus</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Epistulae"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Kalvesmaki 2014"/>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:cpg2437:letters:deu:1986:bunge</IRI>
+         <name xml:lang="eng">Bunge's 1986 German translation of the 62 letters by Evagrius</name>
+         <location accessed-when="2020-09-16T09:18:11.068-04:00"
+                   href="cpg2437/private-cpg2437.deu.1986.bunge.tan-tei.xml"
+                   orig-href="private-cpg2437.deu.1986.bunge.tan-tei.xml"/>
+      </model>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2437/cpg2437.8.grc.1837.mai.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:2437:8:grc.1837:mai"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragment parallel to Letter 8 of Evagrios Pontikos, from Mai's edition of
+         the catenae of Niketas on Luke</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2437/cpg2437.8.grc.1837.mai.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Epistulae"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>http://id.lib.harvard.edu/alma/990019813420203941/catalog</IRI>
+         <IRI>tag:kalvesmaki.com,2014:scriptum:1825:mai</IRI>
+         <name>Mai Scriptorum Nova Collectio</name>
+         <desc>This fragment taken from vol. 9, p. 675.</desc>
+      </source>
+   </doc>
+   <doc href="cpg2437/cpg2437.grc.1912.frankenberg.tan-tei.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2437:grc:1912:frankenberg"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns">Frankenberg's Greek retroversion of the Syriac translation of the letters by Evagrius Ponticus</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2437/cpg2437.grc.1912.frankenberg.tan-tei.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Epistulae"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Frankenberg 1912"/>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:cpg2437:letters:deu:1986:bunge</IRI>
+         <name xml:lang="eng">Bunge's 1986 German translation of the 62 letters by Evagrius</name>
+         <location accessed-when="2020-09-16T09:18:11.068-04:00"
+                   href="cpg2437/private-cpg2437.deu.1986.bunge.tan-tei.xml"
+                   orig-href="private-cpg2437.deu.1986.bunge.tan-tei.xml"/>
+      </model>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2437/cpg2437.grc.1931.muyldermans.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:2437:grc:1931:muyldermans"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Letters from Muyldermans's edition of Milan, Ambr. gr. 681
+      (Q 74 sup.) </name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2437/cpg2437.grc.1931.muyldermans.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Epistulae"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Muyldermans 1931b"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no reference markers"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2437/cpg2437.grc.1939.hausherr.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:2437:grc:1939:hausherr"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments of the Letters of Evagrius preserved in Hausherr's edition of MS Moscow 425</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2437/cpg2437.grc.1939.hausherr.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Epistulae"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Hausherr 1939b"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no reference markers"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2437/cpg2437.grc.1987a.guillaumont.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2437:grc:1987a:guillaumont"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">C. Guillaumont's edition of Greek fragments of the letters of Evagrius Ponticus, from
+         codex Hierosolymitanus Sabaiticus 157</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2437/cpg2437.grc.1987a.guillaumont.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Epistulae"/>
+      <version xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:scriptum:ms:hier-sab-157</IRI>
+         <name>Hierosolymitanus Sabaiticus 157</name>
+      </version>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Guillaumont 1987c"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2437/cpg2437.grc.1987b.guillaumont.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2437:grc:1987b:guillaumont"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">C. Guillaumont's edition of Greek fragments of the letters of Evagrius Ponticus,
+      from Sinaiticus graecus 462</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2437/cpg2437.grc.1987b.guillaumont.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Epistulae"/>
+      <version xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:scriptum:ms:sin-gr-462</IRI>
+         <name>Sinaiticus graecus 462</name>
+      </version>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Guillaumont 1987c"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2437/cpg2437.grc.1994.gehin.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2437:grc:1994:géhin"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Géhin's edition of Greek fragments of the letters of Evagrius Ponticus</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2437/cpg2437.grc.1994.gehin.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Epistulae"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Géhin 1994"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2437/cpg2437.grc.1998.from2450.guillaumonts+gehin.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:2437:39.grc.from2450.guillaumonts+gehin"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Fragments parallel to the letters by Evagrius, from Guillaumonts' + Gehin's Greek
+         edition of the On Thoughts of Evagrius</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2437/cpg2437.39.grc.from2450.guillaumonts+gehin.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Epistulae"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="SC 438"/>
+   </doc>
+   <doc href="cpg2437/cpg2437.syr.1912.frankenberg.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2437:syr:frankenberg"
+        xml:lang="syr"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Frankenberg's Syriac edition of the letters by Evagrius Ponticus</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2437/cpg2437.syr.1912.frankenberg.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Epistulae"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Frankenberg 1912"/>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:cpg2437:letters:deu:1986:bunge</IRI>
+         <name xml:lang="eng">Bunge's 1986 German translation of the 62 letters by Evagrius</name>
+         <location accessed-when="2020-09-16T09:18:11.068-04:00"
+                   href="cpg2437/private-cpg2437.deu.1986.bunge.tan-tei.xml"
+                   orig-href="private-cpg2437.deu.1986.bunge.tan-tei.xml"/>
+      </model>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2438/cpg2438.grc.1912.frankenberg.tan-tei.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2438:grc:1912:frankenberg"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns">Frankenberg's Greek retroversion of the Great Letter by Evagrius Ponticus</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2438/cpg2438.grc.1912.frankenberg.tan-tei.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Epistula ad Melaniam"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Frankenberg 1912"/>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:cpg2438:letters:deu:1986:bunge</IRI>
+         <name xml:lang="eng">Bunge's 1986 German translation of Great Letter by Evagrius</name>
+         <location accessed-when="2020-09-16T09:18:11.068-04:00"
+                   href="cpg2438/private-cpg2438.deu.1986.bunge.tan-tei.xml"
+                   orig-href="private-cpg2438.deu.1986.bunge.tan-tei.xml"/>
+      </model>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2438/cpg2438.syr.1912.frankenberg.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2438:syr:frankenberg"
+        xml:lang="syr"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Frankenberg's Syriac edition of the Great Letter by Evagrius Ponticus</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2438/cpg2438.syr.1912.frankenberg.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Great Letter"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Frankenberg 1912"/>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:cpg2438:letters:deu:1986:bunge</IRI>
+         <name xml:lang="eng">Bunge's 1986 German translation of the Great Letter by Evagrius</name>
+         <location accessed-when="2020-09-28-04:00"
+                   href="cpg2438/private-cpg2438.deu.1986.bunge.tan-tei.xml"
+                   orig-href="private-cpg2438.deu.1986.bunge.tan-tei.xml"/>
+      </model>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+      </adjustments>
+   </doc>
+   <doc href="cpg2438/cpg2438.syr.1964.vitestam.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2438:syr:vitestam"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns">Vitestam's Syriac edition of the second half of the Great Letter by Evagrius
+            Ponticus</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2438/cpg2438.syr.1964.frankenberg.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Great Letter"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Vitestam 1964"/>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:cpg2438:letters:deu:1986:bunge</IRI>
+         <name xml:lang="eng">Bunge's 1986 German translation of the Great Letter by
+                Evagrius</name>
+         <location accessed-when="2020-10-02-04:00"
+                   href="cpg2438/private-cpg2438.deu.1986.bunge.tan-tei.xml"
+                   orig-href="private-cpg2438.deu.1986.bunge.tan-tei.xml"/>
+      </model>
+   </doc>
+   <doc href="cpg2439/cpg2439.eng.1895.jackson.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2439:eng:jackson"
+        xml:lang="eng"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Jackson's English translation of the Epistula fidei by Evagrius Ponticus</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2439.eng.jackson.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Ep. fid."/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="Jackson 1895"
+              accessed-when="2020-10-03"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2439/cpg2439.grc.1532.erasmus.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2439:grc:erasmus"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Epistula fidei by Evagrius Ponticus</name>
+      <name xmlns="tag:textalign.net,2015:ns">Letter of faith by Evagrius Ponticus</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2439/cpg2439.grc.1532.erasmus.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Ep. fid."/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="Erasmus 1532"
+              accessed-when="2020-10-02"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2439/cpg2439.grc.1839.garnier.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2439:grc:garnier"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Epistula fidei by Evagrius Ponticus, Garnier's Greek edition</name>
+      <name xmlns="tag:textalign.net,2015:ns">Letter of faith by Evagrius Ponticus, Garnier's Greek edition</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2439/cpg2439.grc.1839.garnier.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Ep. fid."/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Garnier 1839"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2439/cpg2439.grc.1912.frankenberg.tan-tei.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2439:grc:1912:frankenberg"
+        root="TEI">
+      <name xmlns="tag:textalign.net,2015:ns">Epistula fidei by Evagrius Ponticus, Frankenberg's Greek retroversion of the
+            Syriac</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2439/cpg2439.grc.1912.frankenberg.tan-tei.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Ep. fid."/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Frankenberg 1912"/>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:grc:gribomont</IRI>
+         <name>Epistula fidei by Evagrius of Pontus</name>
+         <name>Letter of faith by Evagrius of Pontus</name>
+         <location accessed-when="2020-10-03-04:00"
+                   href="cpg2439/cpg2439.grc.1983.gribomont.xml"
+                   orig-href="cpg2439.grc.1983.gribomont.xml"/>
+      </model>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2439/cpg2439.grc.1983.gribomont.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2439:grc:gribomont"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Epistula fidei by Evagrius of Pontus</name>
+      <name xmlns="tag:textalign.net,2015:ns">Letter of faith by Evagrius of Pontus</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2439/cpg2439.grc.gribomont.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Ep. fid."/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:evagriusponticus.net,2012:scriptum:forlin-patrucco-1983</IRI>
+         <name>Basil of Caesarea and Forlin Patrucco, Marcella. Le lettere. Corona Patrum 11.
+            Torino: Società editrice internazionale, 1983–.</name>
+      </source>
+      <annotation xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-a-lm:cpg2439.grc.gribomont</IRI>
+         <name>Lexico-morphological analysis of the Epistula fidei by Evagrius of Pontus</name>
+         <location accessed-when="2018-05-05T12:42:48.711-04:00"
+                   href="TAN-A-lm/cpg2439.grc.gribomont.tan-a-lm.xml"
+                   orig-href="../TAN-A-lm/cpg2439.grc.gribomont.tan-a-lm.xml"/>
+      </annotation>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2439/cpg2439.lat.1839.garnier.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2439:lat:garnier"
+        xml:lang="lat"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Epistula fidei by Evagrius Ponticus, Garnier's Latin translation</name>
+      <name xmlns="tag:textalign.net,2015:ns">Letter of faith by Evagrius Ponticus, Garnier's Latin translation</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2439/cpg2439.lat.1839.garnier.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Ep. fid."/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Garnier 1839"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+         <normalization which="no ligatures"/>
+         <comment when="2020-09-15" who="kalvesmaki">At section 28, fixed obvious typo from ipe to
+            ipse ; at sect. 40 Spiritui to Spiritu.</comment>
+      </adjustments>
+   </doc>
+   <doc href="cpg2439/cpg2439.syr.1912.frankenberg.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2439:syr:frankenberg"
+        xml:lang="syr"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Epistula fidei by Evagrius Ponticus, Frankenberg's edition of the Syriac</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2439/cpg2439.syr.1912.frankenberg.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Ep. fid."/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" which="Frankenberg 1912"/>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:grc:gribomont</IRI>
+         <name>Epistula fidei by Evagrius of Pontus</name>
+         <name>Letter of faith by Evagrius of Pontus</name>
+         <location accessed-when="2020-10-03-04:00"
+                   href="cpg2439/cpg2439.grc.1983.gribomont.xml"
+                   orig-href="cpg2439.grc.1983.gribomont.xml"/>
+      </model>
+   </doc>
+   <doc href="cpg2441/cpg2441.grc.1858.pg40-TAN-A-lm-2021-04-25.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG"
+        lexicon="LSJ"
+        morphology="perseus-dik"
+        claimant="xslt2"
+        root="TAN-A-lm">
+      <name xmlns="tag:textalign.net,2015:ns">Lexico-morphological data for: Evagrius of Pontus, Hypotyposis, Greek</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by 4.0" licensor="kalvesmaki"/>
+      <token-definition xmlns="tag:textalign.net,2015:ns" which="letters and apostrophes"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG</IRI>
+         <name>Evagrius of Pontus, Hypotyposis, Greek</name>
+         <location accessed-when="2021-04-11"
+                   href="cpg2441/cpg2441.grc.1858.pg40.xml"
+                   orig-href="../cpg2441/cpg2441.grc.1858.pg40.xml"/>
+      </source>
+   </doc>
+   <doc href="cpg2441/cpg2441.grc.1858.pg40.xml"
+        TAN-version="2021"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrius of Pontus, Hypotyposis, Greek</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2441.grc.PG.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="hypotyposis"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>http://dbpedia.org/resource/Patrologia_Graeca</IRI>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:migne-1857</IRI>
+         <name>Patrologia Graeca</name>
+         <desc>Hypotyposis appears at 40:1252-64</desc>
+      </source>
+      <annotation xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG</IRI>
+         <name>Lexico-morphological data for: Evagrius of Pontus, Hypotyposis, Greek</name>
+         <location accessed-when="2018-05-19-04:00"
+                   href="TAN-A-lm/cpg2441.grc.PG.tan-a-lm.xml"
+                   orig-href="../TAN-A-lm/cpg2441.grc.PG.tan-a-lm.xml"/>
+      </annotation>
+   </doc>
+   <doc href="cpg2442/cpg2442.grc.1858.pg.ref-logical.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:logical"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Greek text of Evagrius Ponticus, 33 Chapters from the Patrologia Graeca, logical reference system</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="33 Chapters"/>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:scriptum</IRI>
+         <name>Greek text of Capitula xxxiii from the Patrologia Graeca, scriptum reference system</name>
+         <location accessed-when="2018-04-04"
+                   href="cpg2442/cpg2442.grc.1858.pg.ref-scriptum.xml"
+                   orig-href="cpg2442.grc.1858.pg.ref-scriptum.xml"/>
+      </redivision>
+      <source xmlns="tag:textalign.net,2015:ns" which="Patrologia Graeca"/>
+      <annotation xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:tan-a-lm:tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:logical</IRI>
+         <name>Lexico-morphological data for: Greek text of Evagrius Ponticus, Capitula xxxiii from
+            the Patrologia Graeca, logical reference system</name>
+         <location accessed-when="2018-05-19-04:00"
+                   href="../patrologia/tan-a-lm/cpg2442.grc.1858.pg.ref-logical.tan-a-lm.xml"
+                   orig-href="../../patrologia/tan-a-lm/cpg2442.grc.1858.pg.ref-logical.tan-a-lm.xml"/>
+      </annotation>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2018-05-29-04:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+   </doc>
+   <doc href="cpg2442/cpg2442.grc.1858.pg.ref-scriptum.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:scriptum"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Greek text of Evagrius Ponticus, Capitula xxxiii from the Patrologia Graeca, scriptum
+         reference system</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="33 Chapters"/>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:logical</IRI>
+         <name>Greek text of Capitula xxxiii from the Patrologia Graeca, logical reference
+            system</name>
+         <location accessed-when="2018-04-04"
+                   href="cpg2442/cpg2442.grc.1858.pg.ref-logical.xml"
+                   orig-href="cpg2442.grc.1858.pg.ref-logical.xml"/>
+      </redivision>
+      <source xmlns="tag:textalign.net,2015:ns" which="Patrologia Graeca"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2018-06-01-04:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+   </doc>
+   <doc href="cpg2447/cpg2447.grc.1858.pg.ref-logical.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:patrologia:text:cpg2447:logical"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Greek text of Tractatus ad Eulogium from the Patrologia Graeca, logical reference
+         system</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:work:cpg2447</IRI>
+         <name xml:lang="lat">Ad Eulogium</name>
+         <name xml:lang="eng">To Eulogios</name>
+         <name xml:lang="eng">Evagrius of Pontus, To Eulogios</name>
+         <name>CPG 2447</name>
+         <name xml:lang="lat">Ad Eul.</name>
+         <name xml:lang="grc">Λόγος πρὸς Εὐλόγιον μοναχόν</name>
+         <name xml:lang="eng">Treatise to the Monk Eulogius or To Eulogius on the Confession
+                    of Thoughts and Counsel in Their Regard</name>
+         <name>Eulogios</name>
+      </work>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2018-05-29-04:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg2447:scriptum</IRI>
+         <name>Greek text of Tractatus%20ad%20Eulogium from the Patrologia Graeca, scriptum
+            reference system</name>
+         <location accessed-when="2018-04-03"
+                   href="cpg2447.grc.1858.pg.ref-scriptum.xml"
+                   orig-href="../cpg2447.grc.1858.pg.ref-scriptum.xml"/>
+      </redivision>
+      <source xmlns="tag:textalign.net,2015:ns" which="Patrologia Graeca"/>
+   </doc>
+   <doc href="cpg2447/cpg2447.grc.1858.pg.ref-scriptum.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:patrologia:text:cpg2447:scriptum"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Greek text of Tractatus ad Eulogium from the Patrologia Graeca, scriptum reference
+         system</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:work:cpg2447</IRI>
+         <name xml:lang="lat">Ad Eulogium</name>
+         <name xml:lang="eng">To Eulogios</name>
+         <name xml:lang="eng">Evagrius of Pontus, To Eulogios</name>
+         <name>CPG 2447</name>
+         <name xml:lang="lat">Ad Eul.</name>
+         <name xml:lang="grc">Λόγος πρὸς Εὐλόγιον μοναχόν</name>
+         <name xml:lang="eng">Treatise to the Monk Eulogius or To Eulogius on the Confession
+            of Thoughts and Counsel in Their Regard</name>
+         <name>Eulogios</name>
+      </work>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2018-05-29-04:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg2447:logical</IRI>
+         <name>Greek text of Tractatus%20ad%20Eulogium from the Patrologia Graeca, logical reference system</name>
+         <location accessed-when="2018-04-03"
+                   href="cpg2447.grc.1858.pg.ref-logical.xml"
+                   orig-href="../cpg2447.grc.1858.pg.ref-logical.xml"/>
+      </redivision>
+      <source xmlns="tag:textalign.net,2015:ns" which="Patrologia Graeca"/>
+   </doc>
+   <doc href="cpg2449/cpg2449.grc.1908.van-den-ven.ref-logical.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Greek text of Evagrius of Pontus's On Masters and Disciples, Van Den Ven's 1907 edition,
+         logical reference system</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="On Masters and Disciples"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2018-05-29-04:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:scriptum</IRI>
+         <name>Greek text of De magistris et discipulis, logical reference system</name>
+         <location accessed-when="2019-05-30"
+                   href="cpg2449.grc.1908.van-den-ven.ref-scriptum.xml"
+                   orig-href="../cpg2449.grc.1908.van-den-ven.ref-scriptum.xml"/>
+      </redivision>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:evagriusponticus.net,2012:scriptum:van-den-ven-1908</IRI>
+         <name>Van Den Ven 1908</name>
+         <desc>P. van den Ven, “Un Opuscule Inédit Attribué à S. Nil,” Mémoires Littéraires,
+            Philologiques et Archéologiques 2 (1908): 73–81.</desc>
+      </source>
+      <annotation xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:tan-a-lm:tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:logicaltag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical</IRI>
+         <name>Lexico-morphological data for: Greek text of Evagrius of Pontus's On Masters and
+            Disciples, Van Den Ven's 1907 edition, logical reference system</name>
+         <location accessed-when="2018-05-19-04:00"
+                   href="../patrologia/tan-a-lm/cpg2449.grc.1908.van-den-ven.ref-logical.tan-a-lm.xml"
+                   orig-href="../../patrologia/tan-a-lm/cpg2449.grc.1908.van-den-ven.ref-logical.tan-a-lm.xml"/>
+      </annotation>
+   </doc>
+   <doc href="cpg2449/cpg2449.grc.1908.van-den-ven.ref-scriptum.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:scriptum"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Greek text of Van Den Ven's 1907 edition, scriptum-based reference system</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="On Masters and Disciples"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2018-05-29-04:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical</IRI>
+         <name>Greek text of De magistris et discipulis, logical reference system</name>
+         <location accessed-when="2019-05-30"
+                   href="cpg2449.grc.1908.van-den-ven.ref-logical.xml"
+                   orig-href="../cpg2449.grc.1908.van-den-ven.ref-logical.xml"/>
+      </redivision>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:evagriusponticus.net,2012:scriptum:van-den-ven-1908</IRI>
+         <name>Van Den Ven 1908</name>
+         <desc>P. van den Ven, “Un Opuscule Inédit Attribué à S. Nil,” Mémoires Littéraires,
+            Philologiques et Archéologiques 2 (1908): 73–81.</desc>
+      </source>
+   </doc>
+   <doc href="cpg2449/cpg2449.lat.1908.van-den-ven.ref-logical.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:lat:1907:logical"
+        xml:lang="lat"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Latin text of Van Den Ven's 1907 edition, logical reference system</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="On Masters and Disciples"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2018-05-29-04:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical</IRI>
+         <name>Greek text of De magistris et discipulis, logical reference system</name>
+         <location accessed-when="2020-07-16"
+                   href="cpg2449.grc.1908.van-den-ven.ref-logical.xml"
+                   orig-href="../cpg2449.grc.1908.van-den-ven.ref-logical.xml"/>
+      </model>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:evagriusponticus.net,2012:scriptum:van-den-ven-1908</IRI>
+         <name>Van Den Ven 1908</name>
+         <desc>P. van den Ven, “Un Opuscule Inédit Attribué à S. Nil,” Mémoires Littéraires,
+            Philologiques et Archéologiques 2 (1908): 73–81.</desc>
+      </source>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:lat:1907:scriptum</IRI>
+         <name>Latin text of Van Den Ven's 1907 edition, scriptum-based reference system</name>
+         <location accessed-when="2020-07-16"
+                   href="cpg2449.lat.1908.van-den-ven.ref-scriptum.xml"
+                   orig-href="../cpg2449.lat.1908.van-den-ven.ref-scriptum.xml"/>
+      </redivision>
+   </doc>
+   <doc href="cpg2449/cpg2449.lat.1908.van-den-ven.ref-scriptum.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:lat:1907:scriptum"
+        xml:lang="lat"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Latin text of Van Den Ven's 1907 edition, scriptum reference system</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="On Masters and Disciples"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2018-05-29-04:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:evagriusponticus.net,2012:scriptum:van-den-ven-1908</IRI>
+         <name>Van Den Ven 1908</name>
+         <desc>P. van den Ven, “Un Opuscule Inédit Attribué à S. Nil,” Mémoires Littéraires,
+            Philologiques et Archéologiques 2 (1908): 73–81.</desc>
+      </source>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:lat:1907:logical</IRI>
+         <name>Latin text of Van Den Ven's 1907 edition, logical reference system</name>
+         <location accessed-when="2020-07-16"
+                   href="cpg2449.lat.1908.van-den-ven.ref-logical.xml"
+                   orig-href="../cpg2449.lat.1908.van-den-ven.ref-logical.xml"/>
+      </redivision>
+   </doc>
+   <doc href="cpg2450/cpg2450.grc.1858.pg.ref-logical-after-1998.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1858:ref-logical-after-1998"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Greek text of De malignis cogitationibus from the Patrologia Graeca, logical reference
+         system</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Thoughts"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2018-05-29-04:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1858:ref-scriptum</IRI>
+         <name>Greek text of De malignis cogitationibus from the Patrologia Graeca, scriptum
+            reference system</name>
+         <location accessed-when="2020-02-28"
+                   href="cpg2450.grc.1858.pg.ref-scriptum.xml"
+                   orig-href="../cpg2450.grc.1858.pg.ref-scriptum.xml"/>
+      </redivision>
+      <source xmlns="tag:textalign.net,2015:ns" which="Patrologia Graeca"/>
+   </doc>
+   <doc href="cpg2450/cpg2450.grc.1858.pg.ref-scriptum.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1858:ref-scriptum"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Greek text of De malignis cogitationibus from the Patrologia Graeca, scriptum reference
+         system</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Thoughts"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2018-05-29-04:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1858:ref-logical-after-1998</IRI>
+         <name>Greek text of De malignis cogitationibus from the Patrologia Graeca, logical
+            reference system</name>
+         <location accessed-when="2020-02-28"
+                   href="cpg2450.grc.1858.pg.ref-logical-after-1998.xml"
+                   orig-href="../cpg2450.grc.1858.pg.ref-logical-after-1998.xml"/>
+      </redivision>
+      <source xmlns="tag:textalign.net,2015:ns" which="Patrologia Graeca"/>
+   </doc>
+   <doc href="cpg2450/cpg2450.grc.1863.pg.ref-logical-after-1998.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1863:ref-logical-after-1998"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Greek text of De malignis cogitationibus from the Patrologia Graeca, logical reference
+         system</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Thoughts"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2018-05-29-04:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1863:ref-scriptum</IRI>
+         <name>Greek text of De malignis cogitationibus from the Patrologia Graeca, scriptum
+            reference system</name>
+         <location accessed-when="2020-02-28"
+                   href="cpg2450.grc.1863.pg.ref-scriptum.xml"
+                   orig-href="../cpg2450.grc.1863.pg.ref-scriptum.xml"/>
+      </redivision>
+      <source xmlns="tag:textalign.net,2015:ns" which="Patrologia Graeca"/>
+      <annotation xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:tan-a-lm:tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1863:ref-logical-after-1998</IRI>
+         <name>Lexico-morphological data for: Greek text of De malignis cogitationibus from the
+            Patrologia Graeca, logical reference system</name>
+         <location accessed-when="2018-05-19-04:00"
+                   href="../patrologia/tan-a-lm/cpg2450.grc.1863.pg.ref-logical-after-1998.tan-a-lm.xml"
+                   orig-href="../../patrologia/tan-a-lm/cpg2450.grc.1863.pg.ref-logical-after-1998.tan-a-lm.xml"/>
+      </annotation>
+   </doc>
+   <doc href="cpg2450/cpg2450.grc.1863.pg.ref-scriptum.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1863:ref-scriptum"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Greek text of De malignis cogitationibus from the Patrologia Graeca, scriptum reference
+         system</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Thoughts"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2018-05-29-04:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1863:ref-logical-after-1998</IRI>
+         <name>Greek text of De malignis cogitationibus from the Patrologia Graeca, logical
+            reference system</name>
+         <location accessed-when="2020-02-28"
+                   href="cpg2450.grc.1863.pg.ref-logical-after-1998.xml"
+                   orig-href="../cpg2450.grc.1863.pg.ref-logical-after-1998.xml"/>
+      </redivision>
+      <source xmlns="tag:textalign.net,2015:ns" which="Patrologia Graeca"/>
+   </doc>
+   <doc href="cpg2455/cpg2455.grc.1000.vat_gr_754.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:transcription:cpg2455:grc:vat_gr_754"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Scholia on Psalms by Evagrius, preserved in Vat. gr. 754</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2455/cpg2455.grc.1000.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Scholia in Psalmos"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="Vat gr 754"
+              accessed-when="2020-10-05"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no ligatures"/>
+      </adjustments>
+   </doc>
+   <doc href="cpg2458.4/cpg2458.4.grc.1987.géhin.ref-logical.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2458.4:grc:1987:logical"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Greek text of Géhin's edition of Evagrius's Scholia on Proverbs, logical reference system</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Sch. Prov."/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2018-05-29-04:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:evagriusponticus.net,2012:scriptum:géhin-1987</IRI>
+         <name>Géhin's 1987 edition of Evagrius's Scholia on Proverbs</name>
+      </source>
+   </doc>
+   <doc href="TAN-A/bible-for-evagrius.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:tan-a-div:bible:for-evagrius"
+        claimant="kalvesmaki"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Alignment of versions of the Bible relevant to the works of Evagrius</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/bible-for-evagrius.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="lxx">
+         <IRI>tag:kalvesmaki.com,2014:lxx-grc-1979-rahlfs.TAN-T.001</IRI>
+         <name>Rahlfs's edition of the Septuagint</name>
+         <location accessed-when="2015-08-08-04:00"
+                   href="../bible/lxx.grc.rahlfs.xml"
+                   orig-href="../../bible/lxx.grc.rahlfs.xml"/>
+         <location accessed-when="2018-06-01"
+                   href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/lxx.grc.rahlfs.xml"/>
+      </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="nt-grc">
+         <IRI>tag:kalvesmaki.com,2014:nt-grc-2010-sbl.TAN-T.001</IRI>
+         <name>SBL's Greek New Testament</name>
+         <location accessed-when="2015-08-08-04:00"
+                   href="../bible/nt.grc.sbl-2010.xml"
+                   orig-href="../../bible/nt.grc.sbl-2010.xml"/>
+         <location accessed-when="2015-08-08-04:00"
+                   href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.grc.sbl-2010.xml"/>
+      </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="nt-syr">
+         <IRI>tag:kalvesmaki.com,2014:nt-syr-1905-BFBS</IRI>
+         <name>1905 Bible Society Syriac New Testament</name>
+         <location accessed-when="2015-08-08-04:00"
+                   href="../bible/nt.syr.bfbs-1905.xml"
+                   orig-href="../../bible/nt.syr.bfbs-1905.xml"/>
+         <location accessed-when="2015-08-08-04:00"
+                   href="https://raw.githubusercontent.com/Arithmeticus/TAN-bible/master/nt.syr.bfbs-1905.xml"/>
+      </source>
+   </doc>
+   <doc href="TAN-A/cpg2430.quotations.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:cpg2430-TAN-A-div-et-al-1"
+        verb="quotes"
+        claimant="kalvesmaki"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrius's Praktikos, quotations</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2430.quotations.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="cpg2430 grc 1971"
+              xml:id="grc-guillaumont"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="cpg2430 eng 1997"
+              xml:id="eng-dysinger"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="cpg2430 syr S1 14578"
+              xml:id="syr-s1"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="cpg2430 syr S2 14578"
+              xml:id="syr-s2"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="Rahlfs LXX"
+              xml:id="lxx"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="Brenton LXX"
+              xml:id="lxx-eng"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="Greek New Testament"
+              xml:id="nt"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="Syriac New Testament"
+              xml:id="nt-syr"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="KJV New Testament"
+              xml:id="nt-eng"
+              accessed-when="2020-07-16"/>
+   </doc>
+   <doc href="TAN-A/cpg2430.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2430"
+        claimant="xslt1"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrios Pontikos, Praktikos</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2430.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="cpg2430 grc 1971"
+              xml:id="grc-guillaumont"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="cpg2430 eng 1997"
+              xml:id="eng-dysinger"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="cpg2430 syr S1 14578"
+              xml:id="syr-s1"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="cpg2430 syr S2 14578"
+              xml:id="syr-s2"
+              accessed-when="2020-07-16"/>
+   </doc>
+   <doc href="TAN-A/cpg2431.quotations.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:cpg2431-TAN-A-div-et-al-1"
+        verb="quotes"
+        claimant="xslt2"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Alignment of Evagrius's Gnostikos and works cited</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2431.TAN-A.quotations.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="gn-grc-Gu"
+              accessed-when="2020-07-16"
+              which="cpg2431 grc 1989"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="gn-eng-Dy"
+              accessed-when="2020-07-16"
+              which="cpg2431 eng 1997"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-S1-14578"
+              accessed-when="2020-07-16"
+              which="cpg2431 syr 1912"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-S1-14581"
+              accessed-when="2020-07-16"
+              which="cpg2431 syr 14581"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-S3-17167"
+              accessed-when="2020-07-16"
+              which="cpg2431 syr 17167"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-S2-17165"
+              accessed-when="2020-07-16"
+              which="cpg2431 syr 17165"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-S2-14616"
+              accessed-when="2020-07-16"
+              which="cpg2431 syr 14616"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="gn-grc-Fr"
+              accessed-when="2020-07-16"
+              which="cpg2431 grc 1912"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="Rahlfs LXX"
+              xml:id="lxx"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="Brenton LXX"
+              xml:id="lxx-eng"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="Greek New Testament"
+              xml:id="nt"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="Syriac New Testament"
+              xml:id="nt-syr"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="KJV New Testament"
+              xml:id="nt-eng"
+              accessed-when="2020-07-16"/>
+   </doc>
+   <doc href="TAN-A/cpg2431.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2431"
+        claimant="xslt1"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrios Pontikos, Gnostikos</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2431.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="gn-grc-Gu"
+              accessed-when="2020-07-16"
+              which="cpg2431 grc 1989"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="gn-eng-Dy"
+              accessed-when="2020-07-16"
+              which="cpg2431 eng 1997"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-S1-14578"
+              accessed-when="2020-07-16"
+              which="cpg2431 syr 1912"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-S1-14581"
+              accessed-when="2020-07-16"
+              which="cpg2431 syr 14581"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-S3-17167"
+              accessed-when="2020-07-16"
+              which="cpg2431 syr 17167"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-S2-17165"
+              accessed-when="2020-07-16"
+              which="cpg2431 syr 17165"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-S2-14616"
+              accessed-when="2020-07-16"
+              which="cpg2431 syr 14616"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="gn-grc-Fr"
+              accessed-when="2020-07-16"
+              which="cpg2431 grc 1912"/>
+   </doc>
+   <doc href="TAN-A/cpg2432.quotations.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:cpg2432-TAN-A-div-et-al-1"
+        verb="quotes"
+        claimant="xslt2"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Quotations in Evagrius's Kephalaia Gnostika</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2432.quotations.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-topics</IRI>
+         <name>Topics relating to the corpus of Evagrius Ponticus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius-topics-TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius-topics-TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="S1-Guill"
+              accessed-when="2020-07-16"
+              which="cpg2432 syr s1 guillaumont"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="S1-Dy"
+              accessed-when="2020-07-16"
+              which="cpg2432 eng s1 dysinger"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="S1-Fr"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc s1 frankenberg"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="S2-Guill"
+              accessed-when="2020-07-16"
+              which="cpg2432 syr s2 guillaumont"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="S2-Dy"
+              accessed-when="2020-07-16"
+              which="cpg2432 eng s2 dysinger"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-PG4"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc pg 4"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-PG12"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc pg 12"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-PG86a"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc pg 86a"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-PG39"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc pg 39"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Bars"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc de angelis-noah"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Dor"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc de préville"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Oct"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc devreesse"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-DP"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc diekamp"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-EpF"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc gribomont"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Géh1987"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc géhin 1987"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Géh1996"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc géhin 1996"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Géh1998"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc géhin 1998"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Hau"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc hausherr"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Mu1931"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc muyldermans 1931"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Mu1932"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc muyldermans 1932"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Pitra"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc pitra"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Wolf"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc wolf"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="Rahlfs LXX"
+              xml:id="lxx"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="Greek New Testament"
+              xml:id="nt"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="Syriac New Testament"
+              xml:id="nt-syr"
+              accessed-when="2020-07-16"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="Aristotle Categories Greek Minio-Paluello"
+              xml:id="ar-cat"
+              accessed-when="2020-07-16"/>
+   </doc>
+   <doc href="TAN-A/cpg2432.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2432"
+        claimant="xslt1"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrius of Pontus's Kephalaia gnostika</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2432.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="S1-Guill"
+              accessed-when="2020-07-16"
+              which="cpg2432 syr s1 guillaumont"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="S1-Dy"
+              accessed-when="2020-07-16"
+              which="cpg2432 eng s1 dysinger"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="S1-Fr"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc s1 frankenberg"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="S2-Guill"
+              accessed-when="2020-07-16"
+              which="cpg2432 syr s2 guillaumont"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="S2-Dy"
+              accessed-when="2020-07-16"
+              which="cpg2432 eng s2 dysinger"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-PG4"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc pg 4"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-PG12"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc pg 12"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-PG86a"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc pg 86a"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-PG39"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc pg 39"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Bars"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc de angelis-noah"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Dor"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc de préville"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Oct"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc devreesse"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-DP"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc diekamp"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-EpF"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc gribomont"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Géh1987"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc géhin 1987"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Géh1996"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc géhin 1996"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Géh1998"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc géhin 1998"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Hau"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc hausherr"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Mu1931"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc muyldermans 1931"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Mu1932"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc muyldermans 1932"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Pitra"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc pitra"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-Wolf"
+              accessed-when="2020-07-16"
+              which="cpg2432 grc wolf"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <where src="*"/>
+         <equate n="ti title"/>
+      </adjustments>
+   </doc>
+   <doc href="TAN-A/cpg2432.topics.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2432:topics"
+        verb="is-about"
+        claimant="xslt2"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Topics in Evagrius's Kephalaia Gnostika</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2432.topics.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <inclusion xmlns="tag:textalign.net,2015:ns" xml:id="cpg2432">
+         <IRI>tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2432</IRI>
+         <name>Evagrius of Pontus's Kephalaia gnostika</name>
+         <location accessed-when="2018-03-05"
+                   href="TAN-A/cpg2432.TAN-A.xml"
+                   orig-href="cpg2432.TAN-A.xml"/>
+      </inclusion>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-topics</IRI>
+         <name>Topics relating to the corpus of Evagrius Ponticus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius-topics-TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius-topics-TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" include="cpg2432"/>
+   </doc>
+   <doc href="TAN-A/cpg2437.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:tan-a:cpg2437"
+        claimant="kalvesmaki"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrios Pontikos, Letters</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2437.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-1987-hier-sab-157"
+              which="cpg2437 grc 1987a"
+              accessed-when="2020-10-02"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-1987-sinai-462"
+              which="cpg2437 grc 1987b"
+              accessed-when="2020-10-02"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-géhin"
+              which="cpg2437 grc Géhin"
+              accessed-when="2020-10-02"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="mai-catena"
+              which="cpg2437 grc Mai"
+              accessed-when="2020-10-02"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="hausherr"
+              which="cpg2437 grc Hausherr"
+              accessed-when="2020-10-02"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="prov-scholia"
+              which="cpg2437 grc SchProv"
+              accessed-when="2020-10-02"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="thoughts"
+              which="cpg2437 grc Thoughts"
+              accessed-when="2020-10-02"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="muyldermans"
+              which="cpg2437 grc Muyldermans"
+              accessed-when="2020-10-02"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-frankenberg"
+              which="cpg2437 syr Frankenberg"
+              accessed-when="2020-10-02"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-frankenberg"
+              which="cpg2437 grc Frankenberg"
+              accessed-when="2020-10-02"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-57-kalv"
+              which="cpg2437 eng Kalvesmaki"
+              accessed-when="2020-10-02"/>
+   </doc>
+   <doc href="TAN-A/cpg2438.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:tan-a:cpg2438"
+        claimant="kalvesmaki"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrios Pontikos, Great Letter</name>
+      <name xmlns="tag:textalign.net,2015:ns">Evagrios Pontikos, Letter to Melania</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2438.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-frankenberg"
+              which="cpg2438 syr Frankenberg"
+              accessed-when="2020-10-02"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-frankenberg"
+              which="cpg2438 grc Frankenberg"
+              accessed-when="2020-10-02"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-vitestam"
+              which="cpg2438 syr Vitestam"
+              accessed-when="2020-10-02"/>
+   </doc>
+   <doc href="TAN-A/cpg2439.TAN-A%20-%20Copy.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2439"
+        claimant="kalvesmaki"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrios Pontikos, Epistula fidei</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2439.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-grib"
+              accessed-when="2020-07-17"
+              which="cpg2439 grc gribomont"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-eras"
+              accessed-when="2020-07-17"
+              which="cpg2439 grc erasmus"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-garn"
+              accessed-when="2020-09-13"
+              which="cpg2439 grc garnier"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="lat-garn"
+              accessed-when="2020-09-13"
+              which="cpg2439 lat garnier"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="eng-jackson"
+              accessed-when="2020-07-17"
+              which="cpg2439 eng jackson"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-frankenberg"
+              accessed-when="2020-10-03"
+              which="cpg2439 syr frankenberg"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-frankenberg"
+              accessed-when="2020-10-03"
+              which="cpg2439 grc frankenberg"/>
+      <adjustments xmlns="tag:textalign.net,2015:ns" src="*">
+         <!--<skip n="5-40"/>-->
+      </adjustments>
+   </doc>
+   <doc href="TAN-A/cpg2439.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2439"
+        claimant="kalvesmaki"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrios Pontikos, Epistula fidei</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2439.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-grib"
+              accessed-when="2020-07-17"
+              which="cpg2439 grc gribomont"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-eras"
+              accessed-when="2020-07-17"
+              which="cpg2439 grc erasmus"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-garn"
+              accessed-when="2020-09-13"
+              which="cpg2439 grc garnier"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="lat-garn"
+              accessed-when="2020-09-13"
+              which="cpg2439 lat garnier"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="eng-jackson"
+              accessed-when="2020-07-17"
+              which="cpg2439 eng jackson"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="syr-frankenberg"
+              accessed-when="2020-10-03"
+              which="cpg2439 syr frankenberg"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-frankenberg"
+              accessed-when="2020-10-03"
+              which="cpg2439 grc frankenberg"/>
+   </doc>
+   <doc href="TAN-A/cpg2441.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2441"
+        claimant="xslt1"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrius Ponticus, Hypotyposis</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2441.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2020-07-18"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              accessed-when="2020-11-01"
+              xml:id="grc-pg"
+              which="cpg2441 grc PG 40"/>
+   </doc>
+   <doc href="TAN-A/cpg2442.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2442"
+        claimant="xslt1"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrius Ponticus, 33 Chapters</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2442.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              accessed-when="2020-11-01"
+              xml:id="grc-pg"
+              which="cpg2442 grc PG 40"/>
+   </doc>
+   <doc href="TAN-A/cpg2447.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2447"
+        claimant="xslt1"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrius Ponticus, Ad Eulogios</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2447.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              accessed-when="2020-11-01"
+              xml:id="grc-pg"
+              which="cpg2447 grc PG 40"/>
+   </doc>
+   <doc href="TAN-A/cpg2449.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2449"
+        claimant="xslt1"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrius Ponticus, On Masters and Disciples</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2449.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="grc-1908"
+              which="cpg2449 grc 1907"
+              accessed-when="2020-11-01"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              xml:id="lat-1908"
+              which="cpg2449 lat 1907"
+              accessed-when="2020-11-01"/>
+   </doc>
+   <doc href="TAN-A/cpg2450.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2450"
+        claimant="xslt1"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrius Ponticus, On Evil Thoughts</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2450.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              accessed-when="2020-11-01"
+              xml:id="grc-pg40"
+              which="cpg2450 grc PG 40"/>
+      <source xmlns="tag:textalign.net,2015:ns"
+              accessed-when="2020-11-01"
+              xml:id="grc-pg79"
+              which="cpg2450 grc PG 79"/>
+   </doc>
+   <doc href="TAN-A/cpg2458.4.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2458.4"
+        claimant="xslt1"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrius Ponticus, Scholia on Proverbs</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2458.4.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              accessed-when="2020-11-01"
+              xml:id="grc-géhin"
+              which="cpg2458.4 grc 1987"/>
+   </doc>
+   <doc href="TAN-A/evagrius.all-alignments.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:tan-a-div:evagrius-all-aligments"
+        claimant="xslt2"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Alignment of all works of Evagrius in the current collection</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/evagrius.all-alignments.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <inclusion xmlns="tag:textalign.net,2015:ns" xml:id="cpg2430">
+         <IRI>tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2430</IRI>
+         <name>Alignment of Evagrius's Praktikos and works cited</name>
+         <location accessed-when="2015-10-12-04:00"
+                   href="TAN-A/cpg2430.TAN-A.xml"
+                   orig-href="cpg2430.TAN-A.xml"/>
+      </inclusion>
+      <inclusion xmlns="tag:textalign.net,2015:ns" xml:id="cpg2431">
+         <IRI>tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2431</IRI>
+         <name>Alignment of Evagrius's Gnostikos and works cited</name>
+         <location accessed-when="2015-12-27T11:50:13.763-05:00"
+                   href="TAN-A/cpg2431.TAN-A.xml"
+                   orig-href="cpg2431.TAN-A.xml"/>
+      </inclusion>
+      <inclusion xmlns="tag:textalign.net,2015:ns" xml:id="cpg2432">
+         <IRI>tag:kalvesmaki@gmail.com,2014:tan-a-div:cpg2432</IRI>
+         <name>Alignment of Evagrius's Kephalaia Gnostika and works cited</name>
+         <location accessed-when="2015-12-27T11:50:41.954-05:00"
+                   href="TAN-A/cpg2432.TAN-A.xml"
+                   orig-href="cpg2432.TAN-A.xml"/>
+      </inclusion>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" include="cpg2430 cpg2431 cpg2432"/>
+   </doc>
+   <doc href="TAN-A/evagrius.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:tan-a-div:evagrius"
+        subject="evagrius"
+        claimant="kalvesmaki"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Main TAN-A file for Evagrius collection</name>
+      <desc xmlns="tag:textalign.net,2015:ns">Repository of general claims about the literary corpus of Evagrius Ponticus.</desc>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/evagrius.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+   </doc>
+   <doc href="TAN-A/manuscripts.TAN-A.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:evagrius:tan-a:manuscripts"
+        claimant="kalvesmaki"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Claims about manuscripts</name>
+      <master-location xmlns="tag:textalign.net,2015:ns"
+                       href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/manuscripts.TAN-A.xml"/>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+   </doc>
+   <doc href="TAN-A-lm/cpg2430.grc.guillaumonts.tan-a-lm.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001"
+        lexicon="LSJ"
+        morphology="perseus-dik"
+        claimant="xslt2"
+        root="TAN-A-lm">
+      <name xmlns="tag:textalign.net,2015:ns">Lexico-morphological data for: Guillaumonts' Greek edition of the Praktikos of Evagrios Pontikos</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by 4.0" licensor="kalvesmaki"/>
+      <token-definition xmlns="tag:textalign.net,2015:ns" which="letters and apostrophes"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              which="cpg2430 grc 1971"
+              accessed-when="2020-10-02"/>
+   </doc>
+   <doc href="TAN-A-lm/cpg2431.grc.guillaumonts.tan-a-lm.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001"
+        lexicon="LSJ"
+        morphology="perseus-dik"
+        claimant="xslt2"
+        root="TAN-A-lm">
+      <name xmlns="tag:textalign.net,2015:ns">Lexico-morphological data for: Guillaumonts' Greek edition of the Gnostikos of Evagrios Pontikos</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by 4.0" licensor="kalvesmaki"/>
+      <token-definition xmlns="tag:textalign.net,2015:ns" which="letters and apostrophes"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns"
+              accessed-when="2020-07-16"
+              which="cpg2431 grc 1989"/>
+   </doc>
+   <doc href="TAN-A-lm/cpg2432.grc.géhin-1998-TAN-A-lm.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1998.TAN-TEI.001:TAN-A-lm:2016-04-04T13:36:44.285-04:00"
+        lexicon="Perseus Lampe new"
+        morphology="perseus-dik"
+        claimant="xslt2"
+        root="TAN-A-lm">
+      <name xmlns="tag:textalign.net,2015:ns">Lexico-morphological data for Fragments of the Kephalaia Gnostika preserved in Evagrius's Περὶ διαφορῶν
+      πονηρῶν λογισμῶν</name>
+      <license xmlns="tag:textalign.net,2015:ns" licensor="kalvesmaki">
+         <IRI>http://creativecommons.org/licenses/by/4.0/deed.en_US</IRI>
+         <name>Creative Commons Attribution 4.0 International License</name>
+         <desc>This license is granted independent of rights and licenses associated with the
+            sources. </desc>
+      </license>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1998.TAN-TEI.001</IRI>
+         <name>Fragments of the Kephalaia Gnostika preserved in Evagrius's Περὶ διαφορῶν
+      πονηρῶν λογισμῶν</name>
+         <location accessed-when="2016-04-04T13:36:44.285-04:00"
+                   href="cpg2432.grc.g%C3%A9hin-1998.xml"
+                   orig-href="../cpg2432.grc.g%C3%A9hin-1998.xml"/>
+      </source>
+   </doc>
+   <doc href="TAN-A-lm/cpg2439.grc.gribomont.tan-a-lm.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:tan-a-lm:cpg2439.grc.gribomont"
+        lexicon="LSJ"
+        morphology="perseus-dik"
+        claimant="xslt2"
+        root="TAN-A-lm">
+      <name xmlns="tag:textalign.net,2015:ns">Lexico-morphological analysis of the Epistula fidei by Evagrius of Pontus</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:grc:gribomont</IRI>
+         <name>Epistula fidei by Evagrius of Pontus</name>
+         <location accessed-when="2018-05-03"
+                   href="cpg2439/cpg2439.grc.1983.gribomont.xml"
+                   orig-href="../cpg2439/cpg2439.grc.1983.gribomont.xml"/>
+      </source>
+   </doc>
+   <doc href="TAN-A-lm/cpg2441.grc.PG.tan-a-lm%20-%20Copy-cert-calibrated.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG"
+        lexicon="LSJ"
+        morphology="perseus-dik"
+        claimant="xslt2"
+        root="TAN-A-lm">
+      <name xmlns="tag:textalign.net,2015:ns">Lexico-morphological data for: Evagrius of Pontus, Hypotyposis, Greek</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by 4.0" licensor="kalvesmaki"/>
+      <token-definition xmlns="tag:textalign.net,2015:ns" which="letters and apostrophes"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG</IRI>
+         <name>Evagrius of Pontus, Hypotyposis, Greek</name>
+         <location accessed-when="2021-04-11"
+                   href="cpg2441/cpg2441.grc.1858.pg40.xml"
+                   orig-href="../cpg2441/cpg2441.grc.1858.pg40.xml"/>
+      </source>
+   </doc>
+   <doc href="TAN-A-lm/cpg2441.grc.PG.tan-a-lm%20-%20Copy.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG"
+        lexicon="LSJ"
+        morphology="perseus-dik"
+        claimant="xslt2"
+        root="TAN-A-lm">
+      <name xmlns="tag:textalign.net,2015:ns">Lexico-morphological data for: Evagrius of Pontus, Hypotyposis, Greek</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by 4.0" licensor="kalvesmaki"/>
+      <token-definition xmlns="tag:textalign.net,2015:ns" which="letters and apostrophes"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG</IRI>
+         <name>Evagrius of Pontus, Hypotyposis, Greek</name>
+         <location accessed-when="2021-04-11"
+                   href="cpg2441/cpg2441.grc.1858.pg40.xml"
+                   orig-href="../cpg2441/cpg2441.grc.1858.pg40.xml"/>
+      </source>
+   </doc>
+   <doc href="TAN-A-lm/cpg2441.grc.PG.tan-a-lm.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG"
+        lexicon="LSJ"
+        morphology="perseus-dik"
+        claimant="xslt2"
+        root="TAN-A-lm">
+      <name xmlns="tag:textalign.net,2015:ns">Lexico-morphological data for: Evagrius of Pontus, Hypotyposis, Greek</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by 4.0" licensor="kalvesmaki"/>
+      <token-definition xmlns="tag:textalign.net,2015:ns" which="letters and apostrophes"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG</IRI>
+         <name>Evagrius of Pontus, Hypotyposis, Greek</name>
+         <location accessed-when="2021-04-11"
+                   href="cpg2441/cpg2441.grc.1858.pg40.xml"
+                   orig-href="../cpg2441/cpg2441.grc.1858.pg40.xml"/>
+      </source>
+   </doc>
+   <doc href="TAN-A-lm/template.tan-a-lm.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:tan-a-lm:evagrius:"
+        lexicon="LSJ"
+        morphology="perseus-code"
+        claimant="xslt1"
+        root="TAN-A-lm">
+      <name xmlns="tag:textalign.net,2015:ns">Evagrius TAN-A-lm template</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by 4.0" licensor="kalvesmaki"/>
+      <token-definition xmlns="tag:textalign.net,2015:ns" which="letters and apostrophes"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <!-- fix source -->
+      </source>
+   </doc>
+   <doc href="TAN-A-tok/cpg2430.grc-Guillaumonts+syr-BL14578.s2.token.1.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts+syr_BL14578.S2.TAN-A.001"
+        reuse-type="trans"
+        bitext-relation="cred"
+        claimant="xslt2"
+        root="TAN-A-tok">
+      <name xmlns="tag:textalign.net,2015:ns">cpg2430-grc-Guillaumonts+cpg2430-syr-BL14578.TAN-A.xml</name>
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Token alignment between the Greek and Syriac version S2 of the Praktikos</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <companion-version xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts+syr_BL14578.TAN-A.001</IRI>
+         <name>Token alignment between the Greek and Syriac of the Praktikos, version S1</name>
+         <location accessed-when="2020-02-28"
+                   href="TAN-A-tok/cpg2430.grc-Guillaumonts+syr-BL14578.token.1.xml"
+                   orig-href="cpg2430.grc-Guillaumonts+syr-BL14578.token.1.xml"/>
+      </companion-version>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="grc">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
+         <name>cpg2430-grc-Guillaumonts.TAN-T.xml</name>
+         <checksum>
+            <IRI>http://dbpedia.org/resource/Sha-1</IRI>
+            <name>SHA-1</name>
+            <value>da39a3ee5e6b4b890afd807090d3255bfef95601</value>
+         </checksum>
+         <location accessed-when="2015-02-24"
+                   href="cpg2430/cpg2430.grc.1971.guillaumonts.xml"
+                   orig-href="../cpg2430/cpg2430.grc.1971.guillaumonts.xml"/>
+      </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="syr">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.S2</IRI>
+         <name>Syriac S2 translation of the Praktikos, preserved at BL 14,578</name>
+         <location accessed-when="2020-02-28"
+                   href="cpg2430/cpg2430.syr.0700.bl14578.s2.tei.xml"
+                   orig-href="../cpg2430/cpg2430.syr.0700.bl14578.s2.tei.xml"/>
+      </source>
+   </doc>
+   <doc href="TAN-A-tok/cpg2430.grc-Guillaumonts+syr-BL14578.token.1.xml"
+        TAN-version="2020"
+        id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts+syr_BL14578.TAN-A.001"
+        reuse-type="trans"
+        bitext-relation="cred"
+        claimant="xslt3"
+        root="TAN-A-tok">
+      <name xmlns="tag:textalign.net,2015:ns" xml:lang="eng">Token alignment between the Greek and Syriac version S1 of the Praktikos</name>
+      <desc xmlns="tag:textalign.net,2015:ns">This file coordinates the critical edition of the Greek with the main Syriac text of BL 14,578, which does not include the preface. See
+      the companion version, below.</desc>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2017-12-16-05:00"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="../TAN-voc/evagrius.TAN-voc.xml"/>
+      </vocabulary>
+      <companion-version xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts+syr_BL14578.S2.TAN-A.001</IRI>
+         <name>Token alignment between the Greek and Syriac of the Praktikos, version S2</name>
+         <location accessed-when="2020-02-28"
+                   href="TAN-A-tok/cpg2430.grc-Guillaumonts+syr-BL14578.s2.token.1.xml"
+                   orig-href="cpg2430.grc-Guillaumonts+syr-BL14578.s2.token.1.xml"/>
+      </companion-version>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="grc">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts.TAN-TEI.001</IRI>
+         <name>cpg2430-grc-Guillaumonts.TAN-T.xml</name>
+         <checksum>
+            <IRI>http://dbpedia.org/resource/Sha-1</IRI>
+            <name>SHA-1</name>
+            <value>da39a3ee5e6b4b890afd807090d3255bfef95601</value>
+         </checksum>
+         <location accessed-when="2015-02-24"
+                   href="cpg2430/cpg2430.grc.guillaumonts.xml"
+                   orig-href="../cpg2430/cpg2430.grc.guillaumonts.xml"/>
+      </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="syr">
+         <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001</IRI>
+         <name>cpg2430-syr-BL14578.TAN-TEI.xml</name>
+         <location accessed-when="2014-05-24"
+                   href="cpg2430/cpg2430.syr.bl14578.tei.xml"
+                   orig-href="../cpg2430/cpg2430.syr.bl14578.tei.xml"/>
+      </source>
+   </doc>
+   <doc href="TAN-voc/evagrius-agents-TAN-voc.xml"
+        id="tag:kalvesmaki.com,2014:tan-key:evagrius-agents"
+        TAN-version="2020"
+        affects-element="person"
+        root="TAN-voc">
+      <name xmlns="tag:textalign.net,2015:ns">Persons and organizations mentioned in the project pertaining to the writings of Evagrius</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+   </doc>
+   <doc href="TAN-voc/evagrius-scripta-TAN-voc.xml"
+        id="tag:kalvesmaki.com,2014:tan-key:evagrius-scripta"
+        TAN-version="2020"
+        affects-element="source scriptum"
+        root="TAN-voc">
+      <name xmlns="tag:textalign.net,2015:ns">Scripta pertaining to the writings of Evagrius</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-agents</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2019-08-12"
+                   href="TAN-voc/evagrius-agents-TAN-voc.xml"
+                   orig-href="evagrius-agents-TAN-voc.xml"/>
+      </vocabulary>
+   </doc>
+   <doc href="TAN-voc/evagrius-topics-TAN-voc.xml"
+        id="tag:kalvesmaki.com,2014:tan-key:evagrius-topics"
+        TAN-version="2020"
+        affects-element="topic"
+        root="TAN-voc">
+      <name xmlns="tag:textalign.net,2015:ns">Topics associated with the writings of Evagrius of Pontus</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2019-05-28"
+                   href="TAN-voc/evagrius.TAN-voc.xml"
+                   orig-href="evagrius.TAN-voc.xml"/>
+      </vocabulary>
+   </doc>
+   <doc href="TAN-voc/evagrius-works-TAN-voc.xml"
+        id="tag:kalvesmaki.com,2014:tan-key:evagrius-works"
+        TAN-version="2020"
+        affects-element="work"
+        root="TAN-voc">
+      <name xmlns="tag:textalign.net,2015:ns">Works by Evagrius</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-agents</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location accessed-when="2019-08-12"
+                   href="TAN-voc/evagrius-agents-TAN-voc.xml"
+                   orig-href="evagrius-agents-TAN-voc.xml"/>
+      </vocabulary>
+   </doc>
+   <doc href="TAN-voc/evagrius.TAN-voc.xml"
+        id="tag:kalvesmaki.com,2014:tan-key:evagrius"
+        TAN-version="2020"
+        root="TAN-voc">
+      <name xmlns="tag:textalign.net,2015:ns">General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <inclusion xmlns="tag:textalign.net,2015:ns" xml:id="agents">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-agents</IRI>
+         <name>Persons and organizations mentioned in the project pertaining to the writings of Evagrius</name>
+         <location accessed-when="2019-08-30T08:10:09.098-04:00"
+                   href="TAN-voc/evagrius-agents-TAN-voc.xml"
+                   orig-href="evagrius-agents-TAN-voc.xml"/>
+      </inclusion>
+      <inclusion xmlns="tag:textalign.net,2015:ns" xml:id="works">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-works</IRI>
+         <name>Works by Evagrius</name>
+         <location accessed-when="2018-05-29-04:00"
+                   href="TAN-voc/evagrius-works-TAN-voc.xml"
+                   orig-href="evagrius-works-TAN-voc.xml"/>
+      </inclusion>
+      <inclusion xmlns="tag:textalign.net,2015:ns" xml:id="scripta">
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius-scripta</IRI>
+         <name>Text bearing objects pertaining to the writings of Evagrius</name>
+         <location accessed-when="2019-08-12"
+                   href="TAN-voc/evagrius-scripta-TAN-voc.xml"
+                   orig-href="evagrius-scripta-TAN-voc.xml"/>
+      </inclusion>
+   </doc>
+</collection>
