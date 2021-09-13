@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A-lm.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A-lm.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-A-lm xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1998.TAN-TEI.001:TAN-A-lm:2016-04-04T13:36:44.285-04:00">
+<?xml-model href="../../../TAN-2021/schemas/TAN-A-lm.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-A-lm.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A-lm xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1998.TAN-TEI.001:TAN-A-lm:2016-04-04T13:36:44.285-04:00">
    <head>
       <name>Lexico-morphological data for Fragments of the Kephalaia Gnostika preserved in Evagrius's Περὶ διαφορῶν
       πονηρῶν λογισμῶν</name>
@@ -21,7 +21,7 @@
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gehin-1998.TAN-TEI.001</IRI>
          <name>Fragments of the Kephalaia Gnostika preserved in Evagrius's Περὶ διαφορῶν
       πονηρῶν λογισμῶν</name>
-         <location href="../cpg2432.grc.g%C3%A9hin-1998.xml" accessed-when="2016-04-04T13:36:44.285-04:00"/>
+         <location href="../cpg2432/cpg2432.grc.1998.g%C3%A9hin.xml" accessed-when="2016-04-04T13:36:44.285-04:00"/>
       </source>
       <vocabulary-key>
          <algorithm xml:id="xslt2">

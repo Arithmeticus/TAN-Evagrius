@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-T.rnc"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-T.sch"?>
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2458.4:grc:1987:logical">
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2458.4:grc:1987:logical">
    <head>
       <name>Greek text of Géhin's edition of Evagrius's Scholia on Proverbs, logical reference system</name>
       <license which="by_4.0" licensor="kalvesmaki"/>
@@ -15,11 +15,12 @@
          <IRI>tag:evagriusponticus.net,2012:scriptum:géhin-1987</IRI>
          <name>Géhin's 1987 edition of Evagrius's Scholia on Proverbs</name>
       </source>
-      <annotation>
+      <!-- This is an older approach to lexico-morphological data, and needs to be revisited. -->
+      <!--<annotation>
          <IRI>tag:kalvesmaki.com,2014:patrologia:tan-a-lm:cpg2458.4:grc:1987:ref-logical</IRI>
          <name>TAN-A-lm data for Géhin's edition of Evagrius's Scholia on Proverbs, logical reference system</name>
          <location href="../../patrologia/tan-a-lm/cpg2458.4.grc.1987.ref-logical.tan-a-lm.xml" accessed-when="2018-05-16-04:00"/>
-      </annotation>
+      </annotation>-->
       <vocabulary-key>
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
@@ -35,11 +36,15 @@
       
       <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
+      
+      <change when="2021-05-30" who="kalvesmaki">Fixed typos at sch. 47, 76, 82, 127, 136, 138, 304 identified by Justin Gohl.</change>
+      <change when="2021-05-24" who="kalvesmaki">Fixed typo at sch. 44</change>
       <change when="2018-05-16-05:00" who="kalvesmaki">Began file</change>
       <change who="xslt1" when="2019-05-31T03:05:22.292-04:00">Converted from 2018 to 2020 schemas.</change>
       <change when="2019-09-28" who="kalvesmaki">Added phrase missing from schol. 5</change>
       <to-do>
-         <comment when="2018-05-16-05:00" who="kalvesmaki">File is still in progress.</comment>
+         <comment when="2021-05-24" who="kalvesmaki">Text needs to be proofread</comment>
+         <comment when="2021-05-24" who="kalvesmaki">New lexicomorphological data needs to be generated.</comment>
       </to-do>
       </head>
    <body xml:lang="grc">
@@ -330,7 +335,7 @@
             <div type="v" n="9">ἵνα δῷ τῇ σῇ κεφαλῇ στέφανον χαρίτων· στεφάνῳ δὲ τρυφῆς ὑπερασπίσῃ σου</div>
          </div>
       </div>
-      <div type="schol" n="44">Στέφανος χαρίτων καὶ στέφανος τρυφῆς ἡ γνῶσίς ἐστιν ἡ τοῦ θεοῦ, ἥτις καὶ ὑπερασπίζει ἡμῶν πάντα λογισμὸν ἐμπαθῆ καὶ πᾶσαν ἀπωθουμένη γνῶσιν ψευδῆς.</div>
+      <div type="schol" n="44">Στέφανος χαρίτων καὶ στέφανος τρυφῆς ἡ γνῶσίς ἐστιν ἡ τοῦ θεοῦ, ἥτις καὶ ὑπερασπίζει ἡμῶν πάντα λογισμὸν ἐμπαθῆ καὶ πᾶσαν ἀπωθουμένη γνῶσιν ψευδῆ.</div>
       <div type="book" n="Prov">
          <div type="chapter" n="4">
             <div type="v" n="10">ἄκουε, υἱέ, καὶ δέξαι ἐμοὺς λόγους καὶ πληθυνθήσεταί σοι ἔτη ζωῆς σου, ἵνα σοι γένωνται πολλαὶ ὁδοὶ βίου</div>
@@ -348,7 +353,7 @@
             <div type="v" n="16">οὐ γὰρ μὴ ὑπνώσωσιν, ἐὰν μὴ κακοποιήσωσιν, ἀφῄρηται ὁ ὕπνος ἀπ' αὐτῶν, οὐ κοιμῶνται</div>
          </div>
       </div>
-      <div type="schol" n="47">Εἰ τοῖς ἀγαπητοῖς αὐτοῦ δίδωσιν ὁ κύριος ὕπνον, οἱ δὲ ἀσεβεῖς οὐκ εἰσὶν αὐτοῦ ἀγαπητοί, τοῖς ἀσεβέσιν οὐ δίδωσιν ὕπνον ὁ κύριος. Ἐντεῦθεν δὲ ἔστι καὶ πιθανῶς δεῖξαι ὅτι οὐδὲ καθεύδειν πεφύκασιν οἱ δαίμονες.</div>
+      <div type="schol" n="47">Εἰ τοῖς ἀγαπητοῖς αὐτοῦ δίδωσιν ὁ κύριος ὕπνον, οἱ δὲ ἀσεβεῖς οὐκ εἰσὶν αὐτοῦ ἀγαπητοί, τοῖς ἀσεβέσιν ἄρα οὐ δίδωσιν ὕπνον ὁ κύριος. Ἐντεῦθεν δὲ ἔστι καὶ πιθανῶς δεῖξαι ὅτι οὐδὲ καθεύδειν πεφύκασιν οἱ δαίμονες.</div>
       <div type="book" n="Prov">
          <div type="chapter" n="4">
             <div type="v" n="17">οἵδε γὰρ σιτοῦνται σῖτα ἀσεβείας· οἴνῳ δὲ παρανόμῳ μεθύσκονται</div>
@@ -516,7 +521,7 @@
             <div type="v" n="13">ὁ δ' αὐτὸς ἐννεύει ὀφθαλμῷ, σημαίνει δὲ ποδί, διδάσκει δὲ ἐννεύμασιν δακτύλων</div>
          </div>
       </div>
-      <div type="schol" n="76">Προσεκτέον ἐνταῦθα μήποτε ἄρα διὰ τῶν τοιούτων κινημάτων τοῦ σώματος γινώσκουσιν οἱ ἀντικείμενοι τοὺς ἑαυτῶν λογισμοὺς ἐν ἡμῖν τρεφομένους, ἐπιδὴ καρδιογνώστην μόνον τὸν θεὸν πεπιστεύκαμεν εἶναι.</div>
+      <div type="schol" n="76">Προσεκτέον ἐνταῦθα μήποτε ἄρα διὰ τῶν τοιούτων κινημάτων τοῦ σώματος γινώσκουσιν οἱ ἀντικείμενοι τοὺς ἑαυτῶν λογισμοὺς ἐν ἡμῖν τρεφομένους, ἐπειδὴ καρδιογνώστην μόνον τὸν θεὸν πεπιστεύκαμεν εἶναι.</div>
       <div type="book" n="Prov">
          <div type="chapter" n="6">
             <div type="v" n="17">ὀφθαλμὸς ὑβριστοῦ, γλῶσσα ἄδικος, χεῖρες ἐκχέουσαι αἷμα δίκαιον</div>
@@ -555,7 +560,7 @@
       <div type="book" n="Prov">
          <div type="chapter" n="6">
             <div type="v" n="27">ἀποδήσει τις πῦρ ἐν κόλπῳ, τὰ δὲ ἱμάτια οὐ κατακαύσει;</div>
-            <div type="v" n="28">ἢ περιπατήσει τις ἐπ' ἀνθράκων πυρός, τοὺς δὲ πόδα κατακαύσει;</div>
+            <div type="v" n="28">ἢ περιπατήσει τις ἐπ' ἀνθράκων πυρός, τοὺς δὲ πόδας κατακαύσει;</div>
          </div>
       </div>
       <div type="schol" n="82">Οὗτος ἀποδεσμεῖ τὸ πῦρ ἐν τῷ κόλπῳ, ὁ συγχωρῶν τὸν ἀκάθαρτον λογισμὸν ἐν τῇ καρδίᾳ χρονίζοντα διαφθείρειν τοὺς ὀρθοὺς λογισμούς. Καὶ οὗτος ἐπὶ τῶν ἀνθράκων περιπατεῖ, ὁ διὰ τῆς κατ' ἐνέργειαν ἁμαρτίας τὴν ἑαυτοῦ ψυχὴν ἀπολλύων.</div>
@@ -842,7 +847,7 @@
       <div type="schol" n="126">Ἦχον ἀσφαλείας τοὺς περὶ σωτηρίας λόγους ὠνόμασεν.</div>
       <div type="book" n="Prov">
          <div type="chapter" n="11">
-            <div type="v" n="17">τῇ ψυχῇ αὐτοῦ ἀγαθὸν ποιεῖ ἀνὴρ ἐλήμων· ἐξολλύει δὲ αὐτοῦ σῶμα ὁ ἀνελεήμων</div>
+            <div type="v" n="17">τῇ ψυχῇ αὐτοῦ ἀγαθὸν ποιεῖ ἀνὴρ ἐλεήμων· ἐξολλύει δὲ αὐτοῦ σῶμα ὁ ἀνελεήμων</div>
          </div>
       </div>
       <div type="schol" n="127">Ἐνταῦθα τὴν ψύχην ἄντικρυς προσεῖπεν σῶμα. Καὶ ὁ Χριστὸς δὲ ἐν τοῖς εὐαγγελίοις σῶμα τὴν ψυχὴν ὀνομάζει, «ὁ λύχνος, λέγων, τοῦ σώματός ἐστιν ὁ ὀφθαλμός», λύχνον μὲν εἰπὼν τὸν νοῦν–αὐτὸς γάρ ἐστιν γνώσεως δεκτικός–, σῶμα δὲ τὸ θυμικὸν καὶ ἐπιθυμητικὸν μέρος τῆς ψυχῆς, ὅπερ τινὲς μὲν ἄλογον, τινὲς δὲ παθητικὸν μέρος καλοῦσιν.</div>
@@ -899,7 +904,7 @@
             <div type="v" n="9">οἰκίαι ἀφρόνων ὀφειλήσουσι καθαρισμόν· οἰκίαι δὲ δικαίων δεκταί</div>
          </div>
       </div>
-      <div type="schol" n="136">Ἵνα καθαροὶ γενόμενοι ἴδωσι τὸν θεόν· τοῦτο γάρ ἐστι τὸ μακάριον τέλος ὅπερ πάσῃ λογικῇ φύσα τετήρηται.</div>
+      <div type="schol" n="136">Ἵνα καθαροὶ γενόμενοι ἴδωσι τὸν θεόν· τοῦτο γάρ ἐστι τὸ μακάριον τέλος ὅπερ πάσῃ λογικῇ φύσει τετήρηται.</div>
       <div type="book" n="Prov">
          <div type="chapter" n="14">
             <div type="v" n="14">τῶν ἑαυτοῦ ὁδῶν πλησθήσεται θρασυκάρδιος· ἀπὸ δὲ τῶν διανοημάτων αὐτοῦ ἀνὴρ ἀγαθός</div>
@@ -968,7 +973,12 @@
          </div>
       </div>
       <div type="schol" n="147">Ἐλέγχους λέγει τὰς ἐντολὰς τοῦ θεοῦ· αὗται γὰρ ἡμᾶς ἐλέγχουσιν ἁμαρτάνοντας.</div>
-      <div type="schol" n="148">πηγὴ ζωῆς ἔννοια τοῖς κεκτημένοις· παιδεία δὲ ἀφρόνων κακή Τὴν παιδείαν τὴν ἀνεξέλεγκτον νῦν παιδείαν ἀφρόνων ὠνόμασεν. Εἰ δὲ παιδεία ἀφρόνων ἡ κακία ἐστίν, ἡ ἀνεξέλεγκτος παιδεία ἡ ἀφροσύνη ἐστίν.</div>
+      <div type="book" n="Prov">
+         <div type="chapter" n="16">
+            <div type="v" n="22">πηγὴ ζωῆς ἔννοια τοῖς κεκτημένοις· παιδεία δὲ ἀφρόνων κακή </div>
+         </div>
+      </div>
+      <div type="schol" n="148">Τὴν παιδείαν τὴν ἀνεξέλεγκτον νῦν παιδείαν ἀφρόνων ὠνόμασεν. Εἰ δὲ παιδεία ἀφρόνων ἡ κακία ἐστίν, ἡ ἀνεξέλεγκτος παιδεία ἡ ἀφροσύνη ἐστίν.</div>
       <div type="book" n="Prov">
          <div type="chapter" n="16">
             <div type="v" n="23">καρδία σοφοῦ νοήσει τὰ ἀπὸ τοῦ ἰδίου στόματος· ἐπὶ δὲ χείλεσιν φορέσει ἐπιγνωμοσύνην</div>
@@ -1945,7 +1955,7 @@
       <div type="schol" n="303">Καὶ ὁ σωτὴρ ἐν τοῖς εὐαγγελίοις ὀνειδίζει ταῖς πόλεσιν, «ἐν αἷς αἱ πλεῖσται αὐτοῦ δυνάμεις γεγόνασιν ὅτι οὐ μετενόησαν, οὐαί σοι Χοραζίν, οὐαί σοι λέγων Βηθσαϊδά».</div>
       <div type="book" n="Prov">
          <div type="chapter" n="25">
-            <div type="v" n="10">
+            <div type="v" n="10a">
                <div type="pt" n="1-2">χάρις καὶ φιλία ἐλευθεροῖ, ἃς τήρησον σεαυτῷ, ἵνα μὴ ἐπονείδιστος γένῃ</div>
             </div>
          </div>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki@gmail.com,2014:cpg2432-TAN-A-div-et-al-1">
+<?xml-model href="../../../TAN-2021/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2021/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki@gmail.com,2014:cpg2432-TAN-A-div-et-al-1">
    <head>
       <name>Quotations in Evagrius's Kephalaia Gnostika</name>
       <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2432.quotations.TAN-A.xml"/>
@@ -34,6 +34,7 @@
       <source xml:id="grc-Oct" accessed-when="2020-07-16" which="cpg2432 grc devreesse"/>
       <source xml:id="grc-DP" accessed-when="2020-07-16" which="cpg2432 grc diekamp"/>
       <source xml:id="grc-EpF" accessed-when="2020-07-16" which="cpg2432 grc gribomont"/>
+      <source xml:id="grc-FP" accessed-when="2021-06-12" which="cpg2432 grc furrer-pilliod"/>
       <source xml:id="grc-Géh1987" accessed-when="2020-07-16" which="cpg2432 grc géhin 1987"/>
       <source xml:id="grc-Géh1996" accessed-when="2020-07-16" which="cpg2432 grc géhin 1996"/>
       <source xml:id="grc-Géh1998" accessed-when="2020-07-16" which="cpg2432 grc géhin 1998"/>
@@ -41,6 +42,7 @@
       <source xml:id="grc-Mu1931" accessed-when="2020-07-16" which="cpg2432 grc muyldermans 1931"/>
       <source xml:id="grc-Mu1932" accessed-when="2020-07-16" which="cpg2432 grc muyldermans 1932"/>
       <source xml:id="grc-Pitra" accessed-when="2020-07-16" which="cpg2432 grc pitra"/>
+      <source xml:id="grc-Rondeau" accessed-when="2021-07-25" which="cpg2432 grc rondeau"/>
       <source xml:id="grc-Wolf" accessed-when="2020-07-16" which="cpg2432 grc wolf"/>
       
       <source which="Rahlfs LXX" xml:id="lxx" accessed-when="2020-07-16"/>
@@ -62,9 +64,9 @@
          <alias xml:id="cpg2432" idrefs="Greek Syriac English"/>
          <alias xml:id="Greek" idrefs="manuscripts parallels quotations scholia"/>
          <alias xml:id="parallels" idrefs="grc-EpF grc-Géh1998"/>
-         <alias xml:id="quotations" idrefs="grc-Bars grc-Dor grc-DP"/>
-         <alias xml:id="manuscripts" idrefs="grc-Géh1996 grc-Hau grc-Mu1931 grc-Mu1932"/>
-         <alias xml:id="scholia" idrefs="grc-PG4 grc-PG12 grc-PG86a grc-PG39 grc-Oct grc-Géh1987 grc-Pitra grc-Wolf"/>
+         <alias xml:id="quotations" idrefs="grc-Bars grc-Dor grc-DP grc-PG86a"/>
+         <alias xml:id="manuscripts" idrefs="grc-FP grc-Géh1996 grc-Hau grc-Mu1931 grc-Mu1932"/>
+         <alias xml:id="scholia" idrefs="grc-PG4 grc-PG12 grc-PG39 grc-Oct grc-Géh1987 grc-Pitra grc-Rondeau grc-Wolf"/>
          <alias xml:id="Syriac" idrefs="S1 S2"/>
          <alias xml:id="S1" idrefs="S1-Guill S1-Fr"/>
          <alias xml:id="S2" idrefs="S2-Guill"/>
@@ -415,6 +417,10 @@
          <subject src="S2" ref="IV 21"/>
          <object work="nt" ref="Mk 16:19"/>
       </claim>
+      <claim>
+         <subject work="KG" ref="IV 21"/>
+         <object work="lxx" ref="Ps 44:8"/>
+      </claim>
       <claim verb="refers_to">
          <subject work="KG" ref="IV 23"/>
          <object work="nt" ref="Mt 17:1-8"/>
@@ -540,7 +546,7 @@
       </claim>
       <claim verb="alludes_to">
          <subject work="KG" ref="IV 66"/>
-         <object work="lxx" ref="Exod 28:4"/>
+         <object work="lxx" ref="Exod 28:31, 33-34, 36:29"/>
       </claim>
       <claim>
          <subject src="S2" ref="IV 67"/>
@@ -696,7 +702,7 @@
       </claim>
       <claim verb="alludes_to">
          <subject work="KG" ref="V 71"/>
-         <object work="lxx" ref="1Kgdms 17:4, 51"/>
+         <object work="lxx" ref="Dt 2:20-21"/>
       </claim>
       <claim verb="alludes_to">
          <subject work="KG" ref="V 72"/>

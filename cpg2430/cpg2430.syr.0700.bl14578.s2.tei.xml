@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2020" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.S2">
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.S2">
    <teiHeader xmlns:tan="tag:textalign.net,2015:ns">
       <fileDesc>
          <titleStmt>
@@ -41,6 +39,7 @@
       </vocabulary-key>
       <file-resp who="kalvesmaki"/>
       <resp who="kalvesmaki" roles="editor"/>
+      <change when="2021-05-24" who="kalvesmaki">Updated to TAN 2021</change>
       <change when="2020-10-02" who="kalvesmaki">Moved to subdirectory cpg2430, cleaned up tags.</change>
       <change when="2019-07-29" who="kalvesmaki" flag="warning">This file results from splitting
          the companion file, cpg2430.syrbl14678.tei.xml, to disambiguate the two versions.</change>

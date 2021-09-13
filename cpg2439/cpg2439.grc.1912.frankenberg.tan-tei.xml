@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2020" id="tag:kalvesmaki.com,2014:transcription:cpg2439:grc:1912:frankenberg">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" id="tag:kalvesmaki.com,2014:transcription:cpg2439:grc:1912:frankenberg">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,11 +27,6 @@
             <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
         </vocabulary>
         <source which="Frankenberg 1912"/>
-        <redivision>
-            <IRI>tag:kalvesmaki.com,2014:transcription:cpg2438:grc:1912:frankenberg</IRI>
-            <name>Frankenberg's Greek retroversion of the Great Letter by Evagrius Ponticus</name>
-            <location href="cpg2439.grc.1912.frankenberg.tan-tei.xml" accessed-when="2020-10-03-04:00"/>
-        </redivision>
         
         <model>
             <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:grc:gribomont</IRI>

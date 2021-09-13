@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A-lm.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A-lm.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-A-lm xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG"><!-- fix @id -->
+<!--<?xml-model href="../../../TAN-2021/schemas/TAN-A-lm.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-A-lm.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-A-lm xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG"><!-- fix @id -->
    <head>
       <name>Lexico-morphological data for: Evagrius of Pontus, Hypotyposis, Greek</name>
       <!-- fix name -->
@@ -15,7 +15,7 @@
       <source>
          <IRI>tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG</IRI>
          <name>Evagrius of Pontus, Hypotyposis, Greek</name>
-         <location accessed-when="2018-05-19" href="../cpg2441.grc.PG.xml"/>
+         <location accessed-when="2021-04-11" href="../cpg2441/cpg2441.grc.1858.pg40.xml"/>
       </source>
       <vocabulary-key>
          <algorithm xml:id="xslt2">
@@ -57,7 +57,7 @@
       </head>
    <body lexicon="LSJ" morphology="perseus-dik" claimant="xslt2">
 <!--Cannot find lexico-morphological data for 11 tokens (1.0% of 1155)-->
-      <ana>
+      <!--<ana>
          <tok ref="title" val="ΕΥΑΓΡΙΟΥ"/>
       </ana>
       <ana>
@@ -90,7 +90,7 @@
       </ana>
       <ana>
          <tok ref="7" val="καθευδήσῃς"/>
-      </ana>
+      </ana>-->
       <!--Uncertain or ambiguous lexico-morphological data for 662 tokens (57.3% of 1155)-->
       <ana>
          <tok ref="title" val="ΜΟΝΑΧΟΥ"/>
@@ -129,7 +129,7 @@
             <m cert="0.5">p i - p - - - n g</m>
          </lm>
       </ana>
-      <ana>
+      <!--<ana>
          <tok ref="title" val="ΚΑΙ"/>
          <lm>
             <l>καί</l>
@@ -8479,7 +8479,7 @@
             <m>v - 1 s a i a</m>
          </lm>
       </ana>
-      <!--Unambiguous lexico-morphological data for 482 tokens (41.7% of 1155)-->
+      <!-\-Unambiguous lexico-morphological data for 482 tokens (41.7% of 1155)-\->
       <ana>
          <tok val="ΚΑΤΑ"/>
          <lm>
@@ -11853,6 +11853,6 @@
             <l>ἀμήν</l>
             <m>i</m>
          </lm>
-      </ana>
+      </ana>-->
    </body>
 </TAN-A-lm>

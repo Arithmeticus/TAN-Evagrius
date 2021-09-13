@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-T.rnc"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-T.sch"?>
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:scriptum">
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:scriptum">
    <head>
       <name>Greek text of Van Den Ven's 1907 edition, scriptum-based reference system</name>
       <license which="by_4.0" licensor="kalvesmaki"/>
@@ -14,7 +14,7 @@
       <redivision>
          <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical</IRI>
          <name>Greek text of De magistris et discipulis, logical reference system</name>
-         <location href="../cpg2449.grc.1908.van-den-ven.ref-logical.xml" accessed-when="2019-05-30"/>
+         <location href="cpg2449.grc.1908.van-den-ven.ref-logical.xml" accessed-when="2019-05-30"/>
       </redivision>
       <source>
          <IRI>tag:evagriusponticus.net,2012:scriptum:van-den-ven-1908</IRI>
@@ -26,7 +26,7 @@
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
             <name>Converter from TAN 2018 to TAN 2020</name>
-            <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-30T22:25:54.837-04:00"/>
+            <location href="../../../TAN-2021/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-30T22:25:54.837-04:00"/>
          </algorithm>
       
          <div-type xml:id="line" which="line (physical)"/>
@@ -76,7 +76,7 @@
       <div type="line" n="28">σπουδαιοτέρους ποιεῖν· καὶ τὸν ἐπηρεασθέντα θεράπευσον συμπαθῶς, οὐχ </div>
       <div type="line" n="29">ἧττον γὰρ ἀπειλῆς ἐντρέπει συγγνώμη τὸν συνετόν. </div>
       <div type="line" n="30">Μὴ κινήσῃς θυμῷ ἐφ' ἁμαρτήσαντι μαθητῇ, οὐ γὰρ ὅσιον ἑαυτὸν τιτρώσκειν </div>
-      <div type="line" n="31">πρὸ τῆς θεραπείας ἑτέρου· ἀλλὰ ἀνεξικάκως διόρθωσαι πρὸς τὸ ἀγαθόν· </div>
+      <div type="line" n="31">πρὸ τῆς θεραπείας ἑτέρου· ἀλλὰ ἀνεξικάκως διόρθωσαι &lt;πρὸς&gt; τὸ ἀγαθόν· </div>
       <div type="line" n="32">καὶ γὰρ ἰατρὸς θεραπεύει μὲν τὸ πάθος, οὐκ ἀγανακτεῖ δὲ πρὸς τὸν
          ἀκουσίως </div>
       <div type="line" n="33">νοσήσαντα. Τέμνων ἰατρός, χωρὶς ὀργῆς τοῦτο ποιεῖ· καὶ ἐλέγχων
@@ -86,7 +86,7 @@
       <div type="line" n="36">παιδαγωγεῖν πρὸς ἐγκράτειαν καὶ ἀρχομένους τῆς ἀρετῆς. Προσσκήνωσον τῇ </div>
       <div type="line" n="37">Αἰλείμ πυλῶνες δὲ αὐτοὶ ἑρμηνεύονται, τῆς ἐπὶ τὴν ἀρετὴν εἰσόδου
          φερούσης </div>
-      <div type="line" n="38">σύμβολον καὶ δεῖξον τοὺς ἑβδομήκοντα φοίνικας. Σκήνωσον δὲ κατὰ τὰς </div>
+      <div type="line" n="38">σύμβολον καὶ δεῖξον τοὺς ἑβδομήκοντα φοίνικας. Σκήνωσον δὲ &lt;κατὰ&gt; τὰς </div>
       <div type="line" n="39">δώδεκα πήγας–δεῖ γὰρ καὶ τὰ τῆς νίκης σε ὑποφωνεῖν φοίνικες σύμβολον </div>
       <div type="line" n="40">καὶ τὴν τῶν παθῶν παραμυθεῖσθαι φλόγα παρέχοντα νάματα δαψιλῶς– </div>
       <div type="line" n="41">ἕως &lt;ἂν&gt; πάντα καθελόντες τὰ ἀλλότρια ἔθνη φθάσωσιν εἰς τὴν γῆν τῆς </div>

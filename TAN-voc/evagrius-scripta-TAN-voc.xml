@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-voc.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TAN-voc xmlns="tag:textalign.net,2015:ns"
          id="tag:kalvesmaki.com,2014:tan-key:evagrius-scripta"
-         TAN-version="2020">
+         TAN-version="2021">
     <head>
         <name>Scripta pertaining to the writings of Evagrius</name>
         <license which="by_4.0" licensor="kalvesmaki"/>
@@ -3727,6 +3727,21 @@
          <name>Rondeau 1982-1985</name>
          <name>rondeau 1982</name>
          <desc>Rondeau, Marie-Josèphe. Les commentaires patristiques du Psautier: IIIe-Ve siècles. Orientalia Christiana analecta 219–220. Rome: Pont. Institutum Studiorum Orientalium, 1982–1985. </desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:rondeau-2021</IRI>
+         <name>Rondeau 2021</name>
+         <desc>Evagrius Ponticus. Scholies aux Psaumes. Edited by Marie-Josèphe Rondeau, Paul Géhin, and Matthieu Cassin. 2 vols. Sources chrétiennes 614-615. Paris: Les Éditions du Cerf, 2021.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:rondeau-2021a</IRI>
+         <name>Rondeau 2021a</name>
+         <desc>Evagrius Ponticus. Scholies aux Psaumes I, Psaumes 1-70. Edited by Marie-Josèphe Rondeau, Paul Géhin, and Matthieu Cassin. Sources chrétiennes 614. Paris: Les Éditions du Cerf, 2021.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:rondeau-2021b</IRI>
+         <name>Rondeau 2021b</name>
+         <desc>Evagrius Ponticus. Scholies aux Psaumes II, Psaumes 71-150. Edited by Marie-Josèphe Rondeau, Paul Géhin, and Matthieu Cassin. Sources chrétiennes 615. Paris: Les Éditions du Cerf, 2021.</desc>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:rozumna-2017</IRI>

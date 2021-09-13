@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-voc.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-voc xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:evagrius-agents" TAN-version="2020">
+<?xml-model href="../../../TAN-2021/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-voc xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:evagrius-agents" TAN-version="2021">
     <head>
         <name>Persons and organizations mentioned in the project pertaining to the writings of Evagrius</name>
         <license which="by_4.0" licensor="kalvesmaki"/>
@@ -31,6 +31,15 @@
             <IRI>http://viaf.org/viaf/71547824</IRI>
             <name>Helma Dik</name>
         </item>
+        <item>
+            <IRI>https://orcid.org/0000-0002-3633-8797</IRI>
+            <name>Marcin Podbielski</name>
+        </item>
+        <item>
+            <IRI>http://viaf.org/viaf/102135890</IRI>
+            <name>Luke Dysinger</name>
+        </item>
+        
         <item>
             <IRI>http://dbpedia.org/resource/Evagrius_Ponticus</IRI>
             <IRI>tag:evagriusponticus.net,2015:person:evagrius</IRI>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2020" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gribomont.TAN-TEI.001">
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_grc_Gribomont.TAN-TEI.001">
   <teiHeader xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
     <fileDesc>
       <titleStmt>
@@ -62,14 +62,14 @@
       <algorithm xml:id="xslt2">
         <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
         <name>Converter from TAN 2018 to TAN 2020</name>
-        <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-29T09:08:04.122-04:00"/>
+        <location href="../../../TAN-2021/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-29T09:08:04.122-04:00"/>
       </algorithm>
       <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       <algorithm xml:id="xslt1">
         <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
         <name>Stylesheet to populate a TAN-A-div file from collections.</name>
         <location
-          href="../../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
+          href="../../../TAN-2021/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
           accessed-when="2019-05-29"/>
       </algorithm>
     </vocabulary-key>

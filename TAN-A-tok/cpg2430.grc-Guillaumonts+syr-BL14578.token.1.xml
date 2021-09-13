@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A-tok.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A-tok.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A-tok.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A-tok.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-A-tok xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts+syr_BL14578.TAN-A.001">
+<?xml-model href="../../../TAN-2021/schemas/TAN-A-tok.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-A-tok.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2021/schemas/TAN-A-tok.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2021/schemas/TAN-A-tok.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-A-tok xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Praktikos_grc_Guillaumonts+syr_BL14578.TAN-A.001">
    <head>
       <name xml:lang="eng">Token alignment between the Greek and Syriac version S1 of the Praktikos</name>
       <desc>This file coordinates the critical edition of the Greek with the main Syriac text of BL 14,578, which does not include the preface. See
@@ -27,12 +27,12 @@
             <name>SHA-1</name>
             <value>da39a3ee5e6b4b890afd807090d3255bfef95601</value>
          </checksum>
-         <location href="../cpg2430/cpg2430.grc.guillaumonts.xml" accessed-when="2015-02-24"/>
+         <location href="../cpg2430/cpg2430.grc.1971.guillaumonts.xml" accessed-when="2015-02-24"/>
       </source>
       <source xml:id="syr">
          <IRI>tag:kalvesmaki.com,2014:Evagrius_Praktikos_syr_BL14578.TAN-T.001</IRI>
          <name>cpg2430-syr-BL14578.TAN-TEI.xml</name>
-         <location href="../cpg2430/cpg2430.syr.bl14578.tei.xml" accessed-when="2014-05-24"/>
+         <location href="../cpg2430/cpg2430.syr.0700.bl14578.tei.xml" accessed-when="2014-05-24"/>
       </source>
       
       <vocabulary-key>
@@ -97,7 +97,7 @@
       <change who="xslt1" when="2017-12-16T13:45:23.325-05:00">TAN file updated to 2018 schemas.</change>
       <comment when="2014-01-30" who="kalvesmaki">This is the first TAN-A file, used to model the
          schema. </comment>
-      <change when="2018-01-09" who="kalvesmaki" flags="error">This file does not take into account major changes in the source, where the alphabetic numerals were dropped (correctly so).</change>
+      <change when="2018-01-09" who="kalvesmaki" flag="error">This file does not take into account major changes in the source, where the alphabetic numerals were dropped (correctly so).</change>
       <change who="xslt2" when="2019-06-17T00:23:50.156-04:00">Converted from 2018 to 2020 schemas.</change>
       <change when="2020-02-28" who="kalvesmaki">Removed items pertaining to the preface; these are now in the companion version.</change>
       <change who="xslt3" when="2020-07-18T05:00:42.839-04:00">Optimized TAN-A-tok file.</change>

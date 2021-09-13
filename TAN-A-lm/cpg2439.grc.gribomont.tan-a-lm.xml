@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A-lm.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A-lm.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-A-lm xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:tan-a-lm:cpg2439.grc.gribomont">
+<?xml-model href="../../../TAN-2021/schemas/TAN-A-lm.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-A-lm.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A-lm xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:tan-a-lm:cpg2439.grc.gribomont">
    <head>
       <name>Lexico-morphological analysis of the Epistula fidei by Evagrius of Pontus</name>
       <license which="by_4.0" licensor="kalvesmaki"/>
@@ -13,7 +13,7 @@
       <source>
          <IRI>tag:kalvesmaki.com,2014:transcription:cpg2439:grc:gribomont</IRI>
          <name>Epistula fidei by Evagrius of Pontus</name>
-         <location href="../cpg2439.grc.gribomont.xml" accessed-when="2018-05-03"/>
+         <location href="../cpg2439/cpg2439.grc.1983.gribomont.xml" accessed-when="2018-05-03"/>
       </source>
       <vocabulary-key>
          <algorithm xml:id="xslt2">

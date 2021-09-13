@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:transcription:cpg2437:syr:frankenberg">
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:transcription:cpg2437:syr:frankenberg">
    <head>
       <name>Frankenberg's Syriac edition of the letters by Evagrius Ponticus</name>
       <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2437/cpg2437.syr.1912.frankenberg.xml"/>

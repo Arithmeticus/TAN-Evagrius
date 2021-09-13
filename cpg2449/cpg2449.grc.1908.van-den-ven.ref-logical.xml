@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-T.rnc"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-T.sch"?>
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical">
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical">
    <head>
       <name>Greek text of Evagrius of Pontus's On Masters and Disciples, Van Den Ven's 1907 edition,
          logical reference system</name>
@@ -15,7 +15,7 @@
       <redivision>
          <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:scriptum</IRI>
          <name>Greek text of De magistris et discipulis, logical reference system</name>
-         <location href="../cpg2449.grc.1908.van-den-ven.ref-scriptum.xml" accessed-when="2019-05-30"/>
+         <location href="cpg2449.grc.1908.van-den-ven.ref-scriptum.xml" accessed-when="2019-05-30"/>
       </redivision>
       <source>
          <IRI>tag:evagriusponticus.net,2012:scriptum:van-den-ven-1908</IRI>
@@ -33,7 +33,7 @@
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
             <name>Converter from TAN 2018 to TAN 2020</name>
-            <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-30T22:25:52.092-04:00"/>
+            <location href="../../../TAN-2021/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-30T22:25:52.092-04:00"/>
          </algorithm>
       
          <div-type xml:id="ch" which="chapter"/>

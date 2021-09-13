@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-T.rnc"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-T.sch"?>
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2437.43:grc:1987:géhin">
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2437.43:grc:1987:géhin">
    <head>
       <name>Greek fragment of the Letters of Evagrius from Géhin's edition of Evagrius's Scholia on
          Proverbs</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2437/cpg2437.43.grc.1987.géhin.xml"/>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2437/cpg2437.43.grc.1987.g%C3%A9hin.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <work which="Epistulae"/>
       <vocabulary>

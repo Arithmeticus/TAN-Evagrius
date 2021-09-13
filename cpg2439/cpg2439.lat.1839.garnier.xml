@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:transcription:cpg2439:lat:garnier">
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:transcription:cpg2439:lat:garnier">
    <head>
       <name>Epistula fidei by Evagrius Ponticus, Garnier's Latin translation</name>
       <name>Letter of faith by Evagrius Ponticus, Garnier's Latin translation</name>
@@ -14,7 +14,7 @@
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
       
-      <source which="Garnier 1857"/>
+      <source which="Garnier 1839"/>
       <adjustments>
          <normalization which="no hyphens"/>
          <normalization which="no ligatures"/>
@@ -28,6 +28,7 @@
       
       <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
+      <change when="2021-05-21" who="kalvesmaki">Corrected date in Garnier's scriptum</change>
       <change when="2020-09-12" who="kalvesmaki">Started file</change>
       <to-do/>
    </head>

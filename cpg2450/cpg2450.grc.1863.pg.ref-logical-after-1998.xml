@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-T.rnc"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-T.sch"?>
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1863:ref-logical-after-1998">
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1863:ref-logical-after-1998">
    <head>
       <name>Greek text of De malignis cogitationibus from the Patrologia Graeca, logical reference
          system</name>
@@ -16,7 +16,7 @@
          <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1863:ref-scriptum</IRI>
          <name>Greek text of De malignis cogitationibus from the Patrologia Graeca, scriptum
             reference system</name>
-         <location href="../cpg2450.grc.1863.pg.ref-scriptum.xml" accessed-when="2020-02-28"/>
+         <location href="cpg2450.grc.1863.pg.ref-scriptum.xml" accessed-when="2020-02-28"/>
       </redivision>
       <source which="Patrologia Graeca"/>
       <annotation>

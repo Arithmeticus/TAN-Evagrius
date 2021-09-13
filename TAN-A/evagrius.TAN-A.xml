@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-A.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:tan-a-div:evagrius">
+<?xml-model href="../../../TAN-2021/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:tan-a-div:evagrius">
    <head>
       <name>Main TAN-A file for Evagrius collection</name>
       <desc>Repository of general claims about the literary corpus of Evagrius Ponticus.</desc>
@@ -110,8 +108,10 @@
       <change when="2018-04-05-04:00" who="kalvesmaki">Corrected incipit for cpg 2483; added incipit
          for cpg 2449.</change>
       <change who="xslt2" when="2019-06-16T07:03:55.426-04:00">Converted from 2018 to 2020 schemas.</change>
+      <change when="2020-06-30" who="kalvesmaki">commented out @work and @version in objects with a @scriptum. This needs to be developed further.</change>
       <to-do>
          <comment when="2018-04-05-04:00" who="kalvesmaki">File is still in progress.</comment>
+         <comment when="2020-06-30" who="kalvesmaki">Develop in light of objects whose @scriptum should be work-version constrained.</comment>
       </to-do>
    </head>
    <body subject="evagrius" claimant="kalvesmaki">
@@ -338,57 +338,57 @@
       <comment when="2019-12-27" who="kalvesmaki">Only a few manuscripts have been logged, namely
          those that have TAN transcriptions.</comment>
       <claim verb="transcribes" object="cpg2430-syr-S1">
-         <subject which="BL Add 14578">
+         <subject scriptum="BL_Add_14578">
             <div type="folio" n="2b-11b"/>
          </subject>
       </claim>
       <claim verb="transcribes" object="cpg2430-syr-S2">
-         <subject which="BL Add 14578">
+         <subject scriptum="BL_Add_14578">
             <div type="folio" n="152a-153b"/>
          </subject>
       </claim>
       <claim verb="transcribes" object="cpg2430-syr-S1">
-         <subject which="BL Add 14581">
+         <subject scriptum="BL_Add_14581">
             <div type="folio" n="12b-23a"/>
          </subject>
       </claim>
       <claim verb="transcribes" object="cpg2431-syr-S1">
-         <subject which="BL Add 14581">
+         <subject scriptum="BL_Add_14581">
             <div type="folio" n="23a-27b"/>
          </subject>
       </claim>
       <claim verb="transcribes" object="cpg2430-syr-S2">
-         <subject which="BL Add 14616">
+         <subject scriptum="BL_Add_14616">
             <div type="folio" n="2b-26a"/>
          </subject>
       </claim>
       <claim verb="transcribes" object="cpg2431-syr-S2">
-         <subject which="BL Add 14616">
+         <subject scriptum="BL_Add_14616">
             <div type="folio" n="33a-40a"/>
          </subject>
       </claim>
       <claim verb="transcribes" object="cpg2430-syr-S1">
-         <subject which="BL Add 17165">
+         <subject scriptum="BL_Add_17165">
             <div n="1b-7a" type="folio"/>
          </subject>
       </claim>
       <claim verb="transcribes" object="cpg2430-syr-S2">
-         <subject which="BL Add 17165">
+         <subject scriptum="BL_Add_17165">
             <div n="9a-15a" type="folio"/>
          </subject>
       </claim>
       <claim verb="transcribes" object="cpg2431-syr-S2">
-         <subject which="BL Add 17165">
+         <subject scriptum="BL_Add_17165">
             <div n="26a-34b" type="folio"/>
          </subject>
       </claim>
       <claim verb="transcribes" object="cpg2431-syr-s3">
-         <subject which="BL Add 17167">
+         <subject scriptum="BL_Add_17167">
             <div n="8b-13a" type="folio"/>
          </subject>
       </claim>
       <claim verb="transcribes" object="cpg2432-syr-s2">
-         <subject which="BL Add 17167">
+         <subject scriptum="BL_Add_17167">
             <div n="18r-56r" type="folio"/>
          </subject>
       </claim>
@@ -400,40 +400,41 @@
       <!-- cpg2430 Greek -->
       <claim subject="Guillaumont_1971" verb="edits" object="cpg2430"/>
       <claim verb="edits">
-         <subject which="Philokalia 1957">
+         <subject scriptum="Philokalia_1957">
             <div n="58" type="page"/>
          </subject>
          <object work="cpg2430" ref="29, 32, 91, 94, 15"/>
       </claim>
       <claim verb="edits" adverb="partially" object="cpg2430">
-         <subject which="Muyldermans_1932">
+         <subject scriptum="Muyldermans_1932">
             <div n="84-89, 91-92" type="page"/>
          </subject>
       </claim>
       <claim verb="edits" object="cpg2430">
-         <subject which="PG">
+         <subject scriptum="PG">
             <div n="40" type="volume">
                <div n="1219-1244" type="column"/>
             </div>
          </subject>
-         <subject which="PG">
+         <subject scriptum="PG">
             <div n="40" type="volume">
                <div n="1245-1252" type="column"/>
             </div>
          </subject>
       </claim>
       <claim verb="edits" object="cpg2430">
-         <subject which="cotelerius_1677_vol3">
+         <subject scriptum="cotelerius_1677_vol3">
             <div n="68-101" type="page"/>
          </subject>
       </claim>
       <claim verb="transcribes">
-         <subject which="Dysinger_1990"/>
-         <subject which="evagrius_moutsoulas_2002">
+         <subject scriptum="Dysinger_1990"/>
+         <subject scriptum="evagrius_moutsoulas_2002">
             <div n="43-69" type="page"/>
          </subject>
-         <object which="Guillaumont_1971" work="cpg2430" version="cpg2430-grc-1971"/>
-         <object which="cpg2430"/>
+         <!--  work="cpg2430" version="cpg2430-grc-1971" -->
+         <object scriptum="Guillaumont_1971"/>
+         <object work="cpg2430"/>
       </claim>
       <!-- cpg2430 translations from Greek -->
       <claim subject="evagrius_bunge_2008 evagrius_bunge_1989 evagrius_bamberger_1986"
@@ -455,12 +456,12 @@
          verb="translates" object="cpg2430" in-lang="fra"/>
       <claim subject="evagrius_bettiolo_1996" verb="translates" object="cpg2430" in-lang="ita"/>
       <claim verb="translates" object="cpg2430" in-lang="lat">
-         <subject which="PG">
+         <subject scriptum="PG">
             <div n="40" type="volume">
                <div n="1219-1244" type="column"/>
             </div>
          </subject>
-         <subject which="PG">
+         <subject scriptum="PG">
             <div n="40" type="volume">
                <div n="1245-1252" type="column"/>
             </div>
@@ -470,7 +471,7 @@
       <claim subject="evagrius_wagenaar_1987" verb="translates" object="cpg2430" in-lang="nld"/>
       <claim subject="evagrius_nieścior_1998" verb="translates" object="cpg2430" in-lang="pol"/>
       <claim verb="translates" object="cpg2430" in-lang="slv">
-         <subject which="Kocijančič_and_Širca_2015">
+         <subject scriptum="Kocijančič_and_Širca_2015">
             <div n="53-84" type="page"/>
          </subject>
       </claim>
@@ -482,24 +483,26 @@
       <!-- cpg2431 -->
       <claim subject="guillaumont_1989 hausherr_1939b" verb="edits" object="cpg2431"/>
       <claim verb="edits">
-         <subject which="Muyldermans_1932">
+         <subject scriptum="Muyldermans_1932">
             <div n="89" type="page"/>
          </subject>
          <object work="cpg2431" ref="8"/>
       </claim>
       <claim verb="transcribes">
-         <subject which="Dysinger_1990"/>
-         <subject which="evagrius_moutsoulas_2002">
+         <subject scriptum="Dysinger_1990"/>
+         <subject scriptum="evagrius_moutsoulas_2002">
             <div n="70-77" type="page"/>
          </subject>
-         <object which="Guillaumont_1989" work="cpg2431" version="cpg2431-grc-1989"/>
-         <object which="cpg2431"/>
+         <!--  work="cpg2431" version="cpg2431-grc-1989" -->
+         <object scriptum="Guillaumont_1989"/>
+         <object work="cpg2431"/>
       </claim>
       <claim verb="transcribes">
-         <subject which="evagrius_moutsoulas_2002">
+         <subject scriptum="evagrius_moutsoulas_2002">
             <div n="78-85" type="page"/>
          </subject>
-         <object which="Frankenberg_1912" work="cpg2431" version="cpg2431-grc-1912">
+         <!--  work="cpg2431" version="cpg2431-grc-1912" -->
+         <object scriptum="Frankenberg_1912">
             <div n="547-553" type="page"/>
          </object>
       </claim>
@@ -525,55 +528,56 @@
          subject=" furrer_pilliod_2000 Géhin_1996 regnault_1963 Devreesse_1959 hausherr_1939b Muyldermans_1932 muyldermans_1931b wolf_1722"
          verb="edits" adverb="partially" object="cpg2432"/>
       <claim verb="transcribes">
-         <subject which="evagrius_moutsoulas_2002">
+         <subject scriptum="evagrius_moutsoulas_2002">
             <div n="86-135" type="page"/>
          </subject>
-         <object which="frankenberg_1912" work="cpg2432" version="cpg2432-grc-1912">
+         <!--  work="cpg2432" version="cpg2432-grc-1912" -->
+         <object scriptum="frankenberg_1912">
             <div n="49-423" type="page"/>
          </object>
       </claim>
       <claim verb="transcribes">
-         <subject which="evagrius_moutsoulas_2002">
+         <subject scriptum="evagrius_moutsoulas_2002">
             <div n="136-138" type="page"/>
          </subject>
-         <object which="muyldermans_1931b">
+         <object scriptum="muyldermans_1931b">
             <div n="56-59" type="page"/>
          </object>
       </claim>
       <claim verb="transcribes">
-         <subject which="evagrius_moutsoulas_2002">
+         <subject scriptum="evagrius_moutsoulas_2002">
             <div n="139-141" type="page"/>
          </subject>
-         <object which="hausherr_1939b">
+         <object scriptum="hausherr_1939b">
             <div n="230-233" type="page"/>
          </object>
       </claim>
       <claim verb="transcribes">
-         <subject which="evagrius_moutsoulas_2002">
+         <subject scriptum="evagrius_moutsoulas_2002">
             <div n="142" type="page"/>
          </subject>
-         <object which="muyldermans_1932">
+         <object scriptum="muyldermans_1932">
             <div n="74, 85, 89, 93" type="page"/>
          </object>
       </claim>
       <claim verb="transcribes">
-         <subject which="evagrius_moutsoulas_2002">
+         <subject scriptum="evagrius_moutsoulas_2002">
             <div n="143" type="page"/>
          </subject>
-         <object which="guillaumont_1962">
+         <object scriptum="guillaumont_1962">
             <div n="25-29" type="page"/>
          </object>
       </claim>
       <claim verb="transcribes">
-         <subject which="evagrius_moutsoulas_2002">
+         <subject scriptum="evagrius_moutsoulas_2002">
             <div n="144-145" type="page"/>
          </subject>
-         <object which="Géhin 1996">
+         <object scriptum="Géhin_1996">
             <div n="64-65" type="page"/>
          </object>
       </claim>
       <claim verb="translates" object="cpg2432-syr-s1" in-lang="grc">
-         <subject which="frankenberg_1912">
+         <subject scriptum="frankenberg_1912">
             <div n="49-423" type="page"/>
          </subject>
       </claim>
