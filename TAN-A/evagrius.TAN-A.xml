@@ -89,7 +89,8 @@
             <name>eastern Mediterranean</name>
          </place>
          
-         <period from="0382-01-01" to="0399-05-01" xml:id="late-life"/>
+         <period from="0383-01-01" to="0399-05-01" xml:id="late-life"/>
+         <period from="0379-01-01" to="0382-12-31" xml:id="constantinopolitan-period"/>
          
          <unit xml:id="portion">
             <IRI>tag:kalvesmaki.com,2014:unit:portion</IRI>
@@ -109,6 +110,7 @@
          for cpg 2449.</change>
       <change who="xslt2" when="2019-06-16T07:03:55.426-04:00">Converted from 2018 to 2020 schemas.</change>
       <change when="2020-06-30" who="kalvesmaki">commented out @work and @version in objects with a @scriptum. This needs to be developed further.</change>
+      <change when="2021-12-31" who="kalvesmaki">Clarified, added incipit; Muyldermans transl.</change>
       <to-do>
          <comment when="2018-04-05-04:00" who="kalvesmaki">File is still in progress.</comment>
          <comment when="2020-06-30" who="kalvesmaki">Develop in light of objects whose @scriptum should be work-version constrained.</comment>
@@ -116,9 +118,16 @@
    </head>
    <body subject="evagrius" claimant="kalvesmaki">
       <!-- authorship -->
-      <claim verb="wrote" where="eastern-mediterranean" period="late-life" object="cpg2430 cpg2431 cpg2432 cpg2433 cpg2434 cpg2435 cpg2436 cpg2437 cpg2438 cpg2439 cpg2440 cpg2441 cpg2442 cpg2443 cpg2444 cpg2445 cpg2447 cpg2448 cpg2450 cpg2451 cpg2452 cpg2453 cpg2454 cpg2455 cpg2456 cpg2457 cpg2458.1 cpg2458.2 cpg2458.3 cpg2458.4 cpg2458.5 cpg2458.6 cpg2459 cpg2460 cpg2461 cpg2463 cpg2464 cpg2464a           nocpg02 nocpg03 nocpg04 nocpg05"/>
-      <claim adverb="possibly" verb="wrote" object="cpg2482"/>
-      <claim adverb="improbably" verb="wrote" object="cpg2446 cpg2449 cpg2465 cpg2466 cpg2467 cpg2468 cpg2469 cpg2470 cpg2471 cpg2472 cpg2473 cpg2474 cpg2475 cpg2476 cpg2477 cpg2478 cpg2479 cpg2480 cpg2481.1 cpg2481.2 cpg2481.3 cpg2481.4 cpg2481.5 cpg2481.6 cpg2482a"/>
+      <claim verb="wrote" where="eastern-mediterranean" period="late-life"
+         object="cpg2430 cpg2431 cpg2432 cpg2433 cpg2434 cpg2435 cpg2436 cpg2437 cpg2438 cpg2440 cpg2441 cpg2442 cpg2443 
+         cpg2444 cpg2445 cpg2447 cpg2448 cpg2450 cpg2451 cpg2452 cpg2453 cpg2454 cpg2455 cpg2456 cpg2457 cpg2458.1 cpg2458.2 
+         cpg2458.3 cpg2458.4 cpg2458.5 cpg2458.6 cpg2459 cpg2460 cpg2461 cpg2463 cpg2464 cpg2464a nocpg02 nocpg03 nocpg04 nocpg05"/>
+      <claim verb="wrote" where="eastern-mediterranean" period="constantinopolitan-period"
+         object="cpg2439"/>
+      <claim adverb="possibly" verb="wrote" object="cpg2475 cpg2482"/>
+      <claim adverb="improbably" verb="wrote" object="cpg2446 cpg2449 cpg2465 cpg2466 cpg2467 cpg2468 cpg2469 cpg2470 cpg2471 
+         cpg2472 cpg2473 cpg2474 cpg2476 cpg2477 cpg2478 cpg2479 cpg2480 cpg2481.1 cpg2481.2 cpg2481.3 cpg2481.4 cpg2481.5 
+         cpg2481.6 cpg2482a"/>
       <claim adverb="not" verb="wrote" object="cpg2462 cpg2483 nocpg01"/>
       <claim subject="apop-editors" verb="wrote" object="cpg2462"/>
       <claim subject="disc-editors" verb="wrote" object="cpg2483"/>
@@ -231,13 +240,16 @@
          <object xml:lang="grc">βουλὴ ἀσεβῶν ἐστι λογισμὸς ἐμπαθὴς αἰσθητοῖς πράγμασι τὸν νοῦν
             προσδεσμῶν.</object>
       </claim>
-      <claim subject="cpg2456" verb="has-incipit">
+      <claim subject="cpg2458.4" verb="has-incipit">
          <object xml:lang="grc">Παροιμία ἐστὶν λόγος δι' αἰσθητῶν πραγμάτων σημαίνων πράγματα
             νοητά.</object>
       </claim>
       <claim subject="cpg2458.5" verb="has-incipit">
          <object xml:lang="grc">Ἐκκλησία ἐστὶν ψυχῶν καθαρῶν γνῶσις ἀληθὴς αἰώνων καὶ κόσμων καὶ
             τῆς ἐν αὐτοῖς κρίσεως καὶ προνοίας.</object>
+      </claim>
+      <claim subject="cpg2469" verb="has-incipit">
+         <object xml:lang="grc">Ὅσοι θέλουσιν εὐσεβῶς ζῆν ἐν Χριστῷ ταῦτα φυλαττέτωσαν.</object>
       </claim>
       <claim subject="cpg2483" verb="has-incipit">
          <object xml:lang="grc">Ὁ ἰατρὸς ἅμα ἰατρός, ἅμα ἔχει τὴν ἰατρικὴν· καὶ μὴ ἐνεργῶν δὲ
@@ -997,6 +1009,7 @@
       
       <!-- cpg2476 -->
       <claim subject="muyldermans_1934a" verb="edits" object="cpg2476"/>
+      <claim subject="muyldermans_1934a" verb="translates" object="cpg2476" in-lang="fra"/>
       
       <!-- cpg2477 -->
       <claim subject="muyldermans_1952" verb="translates" object="cpg2477" in-lang="fra"/>

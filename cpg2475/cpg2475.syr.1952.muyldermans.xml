@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021"
+  id="tag:kalvesmaki.com,2014:Evagrius_Counsel_syr_Muyldermans.TAN-TEI">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <ab/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Counsel, Syriac edition by Muyldermans</name>
+    <master-location
+      href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2475/cpg2475.syr.1952.muyldermans.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    
+    <work which="Counsel"/>
+    
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+    </vocabulary>
+    
+
+    <source which="Muyldermans 1952"/>
+    <adjustments>
+      <normalization which="no note callouts"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <resp roles="transcriber" who="kalvesmaki"/>
+
+    <change when="2021-12-25" who="kalvesmaki">Started file</change>
+    <comment when="2021-12-15" who="kalvesmaki">Numbering begins with 1; Muyldermans begins with 27,
+      respecting Syriac manuscript numeration, where the work appears after several other
+      works.</comment>
+    <to-do>
+      <comment when="2021-12-25" who="kalvesmaki">Needs proofreading.</comment>
+    </to-do>
+  </head>
+
+  <text>
+
+    <body xml:lang="fra">
+      <milestone unit="page" n="130"/>
+      <div type="chapter" n="1">
+        <ab>ܡܕܒܚܐ ܐܝܬܘܗܝ ܗܘܢܐ ܕܟܝܐ ܘܕܠܐ ܗܘܠܐܝ܂
+          ܕܒܙܒܢܐ ܕܨܠܘܬܐ ܠܐ ܡܩܒܠ ܣܘܟܠܐ ܫܚܝܡܐ܂</ab>
+      </div>
+      <div type="chapter" n="2">
+        <ab>ܕܒܚܬܐ ܕܟܝܬܐ ܐܝܬܝܗܿ܆ ܬܐܪܬܐ ܕܟܝܬܐ. ܘܠܐ
+          ܒܨܘܝܬܐ. ܗܿܝ ܕܝܢ ܕܠܘܩܒܠ ܗܕܐ ܕܒܚܬ ܦܬܟܪ̈ܐ܂</ab>
+      </div>
+      <div type="chapter" n="3">
+        <ab>ܢܘܪܐ ܢܘܟܪܝܬܐ ܐܝܬܝܗܿ܆ ܚܘܒܐ ܕܡܬܪ̈ܓܫܢܝܬܐ܇
+          ܕܒܗܿ ܐܠܗܐ ܠܐ ܡܫܬܡܫ ܡܡܬܘܡ.</ab>
+      </div>
+      <div type="chapter" n="4">
+        <ab>ܢܘܪܐ ܩܕܝܫܬܐ ܐܝܬܝܗܿ܆ ܚܘܒܐ ܐܠܗܝܐ܇ ܕܠܕܒ̈ܚܐ܂
+          ܕܟ̈ܝܐ ܐܟܠܐ ܐܝܟ ܕܠܬܪܒܐ ܫܡܝܢܐ.</ab>
+      </div>
+      <div type="chapter" n="5">
+        <ab>ܢܘܪܐ ܡܘܩܕܢܝܬܐ ܐܝܬܝܗܿ܇ ܛܢܢܐ ܒܚܘܪܐ ܕܐܟܠ.
+          ܒܝܫܘܬܐ ܕܡܗ̈ܡܝܢܐ.</ab>
+      </div>
+      <div type="chapter" n="6">
+        <ab>ܟܐܦܐ ܕܫܪܪܐ ܐܝܬܝܗܿ܆ ܗܝܡܢܘܬܐ ܕܠܐ
+          ܡܣܬܕܩܐ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ܇ ܕܡܣܬܬܐ ܠܗܘܢܐ
+          ܠܒܢܝܢܐ ܕܢܦܫܐ.</ab>
+      </div>
+      <div type="chapter" n="7">
+        <ab>ܒܢܝܢܐ ܕܡܫܝܚܐ ܐܝܬܘܗܝ܆ ܟܢܘܫܝܐ ܕܡܝܬܪ̈ܬܐ
+          ܐܠܗ̈ܝܬܐ܇ ܕܡܬܠܚܡ ܒܗ ܒܝܕ ܡܥܕܪܢܘܬܐ ܕܗܕܡ̈ܐ.
+          ܦܠܘ̈ܚܐ ܘܝܕܘ̈ܥܬܢܐ ܕܓܘܫܡܗ.</ab>
+      </div>
+      <div type="chapter" n="8">
+        <ab>ܡܠܟܘܬܐ ܕܐܠܗܐ ܐܝܬܝܗܿ܆ ܫܘܡܠܝ ܒܢܝܢܗ ܕܡܫܝܚܐ܇ ܘܫܘܡܠܝܐ ܕܢܡܘܣܐ ܘܕܛܝܒܘܬܐ܇ ܘܫܘܡܠܝܐ܂ ܕܒܢܝ̈ܐ ܕܐܠܗܐ.
+          ܘܝܕܥܬܐ ܕܝܪ̈ܬܘܗܝ ܕܠܐ ܣܒܪ̈. ܫܘܡܠܝܐ ܕܨܒܝܢܗ ܕܒܡܫܝܚܐ. ܘܚܕܝܘܬܐ ܠܐ ܡܬܦܠܓܢܝܬܐ ܕܝܠܗܿ ܘܕܒܪܝܬܗܡܠܝܠܬܐ.
+          ܬܠܝܬܝܘܬܐ ܕܡܚܝܕܐ ܠܟܠ ܘܚܕܝܘܬܐ<milestone unit="page" n="131"/> ܕܠܝܬ ܒܗܿ ܬܪܝܢܘܬܐ. ܟܠ ܓܝܪ ܘܒܟܠ
+          ܢܗܘܐ ܐܠܗܐ. ܡܒܪܟܐ ܠܥܠܡܝܢ ܐܡܝܢ.</ab>
+      </div>
+      <div type="chapter" n="9">
+        <ab>ܥܩܪܐ ܕܡܫ̈ܝܓܢܐ ܐܝܬܘܗܝ܆ ܬܘܬ ܢܦܫܐ
+          ܚܡܝܡܬܐ. ܕܡܢ ܡܪܝܐ ܒܝܕ ܡ̈ܠܐܟܐ ܩ̈ܕܝܫܐ. ܠܐܝܠܝܢ.
+          ܕܬܝܒܝܢ ܠܕܘܟܝܐ ܕܢܦܫܐ ܕܡܢ ܚܫ̈ܐ ܒܒܛܝܠܘܬܐ
+          ܡܬܝܗܒܐ.</ab>
+      </div>
+      <div type="chapter" n="10">
+        <ab>ܢܘܪܐ ܕܟܘܪܐ ܐܝܬܝܗܿ܆ ܬܘܬ ܢܦܫܐ ܚܪܝܦܬܐ.
+          ܕܒܛܝܒܘܬܗ ܕܡܫܝܚܐ ܗܘܝܐ ܠܗܘܢܐ ܒܙܒܢܐ ܕܨܠܘܬܐ܇
+          ܘܒܬܐܘܪܝܐ ܥܘܗܕܢܐ ܡܕܪܟ ܕܓܠܝܙܘܬܗܿ. ܕܠܗܿ ܡܐܣܝܢ
+          ܡܝ̈ܐ ܚܝ̈ܐ܇ ܣܘܟܝܐ ܕܓܠܝܢܗ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ.</ab>
+      </div>
+      <div type="chapter" n="11">
+        <ab>ܣܐܡܐ ܓܒܝܐ ܕܒܚܝܪ ܒܐܪܥܐ ܘܡܕܟܝ ܚܕ
+          ܒܫܒܥܐ ܐܝܬܘܗܝ܆ ܓܘܫܡܗ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ.
+          ܗܿܘ ܕܕܫ ܠܫܒܥܐ ܚܝ̈ܠܐ ܕܬܢܝܢܐ ܡܪܘܕܐ܇ ܒܝܕ ܚܝܠ
+          ܫܒܝܥܘܬ ܚܝ̈ܠܝܢ. ܕܡܘܠܝܐ ܕܪܘܚܗ ܩܕܝܫܐ. ܐܝܟ
+          ܕܒܐܫܥܝܐ. ܕܒܗܿ ܒܛܝܒܘܬܐ ܐܦ ܚܢܢ ܡܬܚܝܠܝܢܢ܇ ܘܙܟܝܢ
+          ܚܢܢ ܒܝܕ ܡܿܢ ܕܐܚܒܢ ܡܪܢ ܝܫܘܥ ܡܫܝܚܐ܇ ܗܿܘ ܕܐܡܪ.
+          ܐܬܠܒܒܘ ܐܢܐ ܙܟܝܬܗ ܠܥܠܡܐ. ܘܗܿܝ ܕܐܢܐ ܡܩܕܫ
+          ܐܢܐ ܢܦܫܝ ܚܠܦܝܗܘܢ. ܕܢܗܘܘܢ ܒܢ ܚܕ ܐܝܟܢܐ ܕܐܦ
+          ܚܢܢ ܚܕ ܚܢܢ.</ab>
+      </div>
+      <div type="chapter" n="12">
+        <ab>ܛܣܪܩܘܣܛܐ ܐܝܬܝܗܿ܆ ܦܠܐܬܐ ܕܕܘܟܝܐ ܕܓܘܫܡܢ.
+          ܠܛܘܝܒܐ ܕܩܘܒܠܐ ܕܦܓܪܗ ܩܕܝܫܐ ܕܡܫܝܚܐ. ܩܒܪܐ
+          ܓܝܪ ܕܦܓܪܗ ܩܕܝܫܐ ܕܡܫܝܚܐ ܐܝܬܘܗܝ ܓܘܫܡܐ
+          ܕܡ̈ܠܝܠܐ ܩܝܡܬܗ ܕܝܢ ܚܝ̈ܐ ܕܟܠܗܘܢ ܥܠܡ̈ܐ.</ab>
+      </div>
+      <milestone unit="page" n="132"/>
+      <div type="chapter" n="13">
+        <ab>ܥܪܘܒܬܐ ܐܝܬܝܗܿ܆ ܛܘܝܒܐ ܕܐܝܠܝܢ ܕܒܡܢܝܢܐ ܕܫܬܐ ܡܬܛܝܒܝܢ ܠܢܝܚܬܐ. ܫܒܬܐ ܕܝܢ ܦܠܐܬܐ ܐܝܬܝܗܿ܆ ܕܗܠܝܢ
+          ܕܐܬܩܒܪܘ ܥܡ ܡܫܝܚܐ ܡܢ ܚ̈ܫܐ ܠܢܝܚܬܐ ܕܠܐ ܚܫܘܫܘܬܐ܇ ܒܣܒܪܐ ܕܩܝܡܬܐ ܕܥܡܗ. ܚܕ ܒܫܒܐ ܐܝܬܘܗܝ ܦܠܐܬܐ ܕܪܝܫܐ
+          ܘܕܫܘܠܡܐ ܕܒܛܝܠܘܬܗ ܕܡܪܝܐ. ܘܡܛܠ ܗܢܐ ܐܦ ܩܕܡܝܐ ܘܝܚܝܕܝܐ ܘܬܡܝܢܝܐ ܡܬܩܪܐ. ܘܡܢ ܫܬܝܬܝܐ ܬܠܬܝܐ. ܕܐܝܬܘܗܝ
+          ܩܝܡܬܐ ܕܢܘܗܪܐ ܩܕܡܝܐ. ܘܨܡܚܐ ܕܙܠܝܩܗ ܕܫܡܫܐ ܕܙܕܝܩܘܬ܇ ܝܘܡܗ ܕܡܪܝܐ ܡܪܢܝܐ. ܕܫܘܪܝܐ ܫܩܿܠ ܘܫܘܠܡܐ ܠܝܬ
+          ܠܗ. ܡܛܠ ܢܘܗܪܐ ܩܕܝܫܐ ܘܡܬܝܕܥܢܐ ܕܡܫܝܚܐ ܕܡܡܠܟ ܒܗ܇ ܘܟܘ̈ܟܒܐ ܣܕܝܪ̈ܐ ܕܒܗ܇ ܗܠܝܢ ܕܡܡܠܟܝܢ ܒܗ ܥܡ ܡܫܝܚܐ
+          ܫܡܫܐ ܕܙܕܝܩܘܬܐ. ܕܥܠܡ̈ܐ ܕܠܐ ܫܘܠܡ.</ab>
+      </div>
+      <div type="chapter" n="14">
+        <ab>ܝܪܬܘܬܗ ܕܡܪܝܐ ܒܢܝ̈ܐ. ܘܝܪܬܘܬܗܘܢ ܕܗܠܝܢ
+          ܡܪܝܐ. ܠܘ̈ܝܐ ܓܝܪ ܐܝܬܝܗܘܢ ܒܢܝ̈ ܟܗܢܘܬܐ. ܗܠܝܢ
+          ܕܡܬܩܪܒܝܢ ܠܐܒܐ ܒܝܕ ܦܪܘܩܢ. ܕܒܚܬܐ ܕܟܝܬܐ ܐܝܟ
+          ܕܟܪ̈ܐ ܠܘ̈ܝܐ ܕܡܬܦܫܩܝܢ ܠܘ̈ܝܐ ܘܢܩܝ̈ܦܐ.</ab>
+      </div>
+      <div type="chapter" n="15">
+        <ab>ܛܘܒܐ ܐܝܬܘܗܝ ܝܪܬܘܬܐ ܐܠܗܝܬܐ. ܗܿܝ ܕܝܪܬܝܢ ܒ̈ܢܘܗܝ ܕܢܘܗܪܐ ܒܝܘܡܐ ܫܒܝܥܝܐ ܘܬܡܝܢܝܐ. ܣܟܐ ܓܝܪ
+          ܐܝܬܘܗܝ܆ ܕܟܠ ܛܒܬܐ ܕܡܣܬܟܝܐ ܘܡܬܪܢܝܐ. ܗܠܝܢ ܕܝܕܥܬܗܝܢ ܡܩܒܠ܆ ܗܿܘ ܕܒܢܣܝܢܐ ܡܬܒܣܡ. ܗܝ ܕܝܢ ܓܝܪ ܡܠܬܐ
+          ܕܬܐܡܪ ܠܐ ܡܫܟܚܐ. ܡܛܠ ܗܢܐ ܐܡܝܪ. ܕܡܕܡ ܕܥܝܢܐ ܠܐ ܚܙܬ܆ ܘܐܕܢܐ ܠܐ ܫܡܥܬ. ܘܥܠ ܠܒܐ ܕܒܪܢܫܐ ܠܐ ܣܠܩ݁ ܡܕܡ
+          ܕܛܝܒ ܐܠܗܐ ܠܐܝܠܝܢ ܕܪܚܡܝܢ ܠܗ܇ ܠܢ ܕܝܢ ܐܡܪܓܠܐ ܐܠܗܐ ܒܪܘܚܗ. ܪܘܚܐ ܓܝܪ ܟܠ ܡܕܡ ܒܨܝܐ. ܘܗܝ ܕܫܡܥ ܡ̈ܠܐ
+          ܕܠܐ ܡܬܡܠܠܢ. ܗܠܝܢ ܕܠܐ ܫܠܝܛ ܒܪܢܫܐ ܠܡܡܠܠܘ ܐ̈ܢܝܢ. ܗܠܝܢ ܕܗܘ ܡܢ ܫܡܥ. ܟܕ ܫܩܠ ܢܣܝܢܐ ܕܬܐܘܪܝܐ ܕܝܠܗܝܢ
+          ܡܬܝܕܥܢܝܬܐ. ܟܠ<milestone unit="page" n="133"/> ܟܡܐ ܕܡܨܝܐ ܗܘܬ. ܠܡܐܡܪ ܕܝܢ ܠܐ ܐܫܟܚ. ܠܐ
+          ܡܬܡ̈ܠܠܢܝܬܐ ܐ̈ܢܝܢ ܓܝܪ. ܣܘܟܝܐ ܡܕܝܢ ܕܒܘܣܡܗܝܢ ܕܗܠܝܢ. ܡܚܦܛ ܠܟܠ ܢܦܫܐ ܡܗܝܡܢܬܐ ܕܬܫܬܘܫܛ ܠܘܬ
+          ܡܝܬܪ̈ܬܐ. ܟܬܝܒ ܓܝܪ ܕܐܢܬ ܦܪܥ ܐܢܬ ܠܟܠ ܐܢܫ ܐܝܟ ܥܿܒܕ̈ܘܗܝ. ܘܗܿܝ ܕܣܓܝ̈ܐܝܢ ܐܢܘܢ ܐܘ̈ܢܐ ܒܝܬ ܐܒܝ.
+          ܪ̈ܚܡܘܗܝ ܕܝܢ ܕܩܛܝܠܐ ܢܫܪ̈ܐ ܡܬܝܕܥ̈ܢܐ ܠܘܬܗ ܢܬܟܢܫܘܢ. ܕܒܗ ܐܝܬ ܠܗܘܢ ܚܕܘܬܗܘܢ ܠܥܠܡ ܥܠܡܝܢ. ܪܝܚܐ ܓܝܪ
+          ܕܣܠܩ ܡܢ ܒܣܿܕܗ. ܡܬܪܣܐ ܠܚܝܘܬܗܘܢ ܐܝܟ ܕܢܫ̈ܪܐ. ܘܚܙܝܘܬܗܘܢ. ܐܝܟ ܓܦ̈ܐ ܕܗܠܝܢ ܥܒ̈ܝܛܐ. ܓܦ̈ܘܗܝ ܓܝܪ
+          ܕܗܘܢܐ. ܬܐܘܪ̈ܝܣ ܐܝܬܝܗܢܢ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ. ܕܒܗܿ. ܡܣܬܓܕܐ ܚܕܝܘܬܗ ܩܕܝܫܬܐ ܕܐܒܐ ܘܕܒܪܐ ܘܕܪܘܚܐ
+          ܕܩܘܕܫܐ ܕܠܗ ܫܘܒܚܐ ܠܥܠܡ ܥܠܡܝܢ. ܐܡܝܢ</ab>
+
+      </div>
+    </body>
+  </text>
+
+</TEI>

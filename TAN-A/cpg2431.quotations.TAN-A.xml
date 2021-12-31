@@ -76,7 +76,7 @@
    <body verb="quotes" claimant="xslt2">
       <claim verb="alludes_to">
          <subject work="gn" ref="46"/>
-         <object work="lxx" ref="Exod 25:23-30, 26:35, 37:10-16"/>
+         <object work="lxx" ref="Exod 25:23-30; Exod 26:35; Exod 37:10-16"/>
       </claim>
       <claim verb="alludes_to">
          <subject work="gn" ref="45"/>

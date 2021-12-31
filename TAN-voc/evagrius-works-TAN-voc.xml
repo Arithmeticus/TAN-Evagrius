@@ -29,6 +29,7 @@
         <file-resp who="kalvesmaki"/>
         <resp who="xslt1 xslt2" roles="stylesheet"/>
         <resp who="kalvesmaki" roles="editor"/>
+        
         <change when="2016-03-29" who="kalvesmaki">started file</change>
         <change who="xslt1" when="2017-12-15T15:35:22.185-05:00">TAN file updated to 2018 schemas.</change>
         <change when="2018-05-03" who="kalvesmaki">Data checked.</change>
@@ -36,6 +37,7 @@
         <change who="kalvesmaki" when="2019-07-27">Added 2nd ancient Latin version; began to write
             descriptions of the ancient translations.</change>
         <change when="2019-09-01" who="kalvesmaki">Included CPG numbers as a name.</change>
+        <change when="2021-12-31" who="kalvesmaki">Made numerous changes to work descriptions.</change>
         <to-do>
             <comment when="2018-05-03" who="kalvesmaki">File is still in progress.</comment>
         </to-do>
@@ -316,14 +318,15 @@
             <name xml:lang="lat">Capita cognoscitiua</name>
             <name>cpg2433</name>
             <desc>The work termed Skemmata, or Reflections, is a loose, fluid compliation of other
-                works by Evagrius. Sixty-five sentences are divided in three sections: 39 taken from
-                the Kephalaia gnostika, 23 from On Thoughts, and 3 unparalleled (and so termed a
-                supplement). The Greek, Armenian, and Syriac versions of this text differ in
-                sequence, number, and selection. This text, according to Mar Babai (569-628), who
-                wrote an extensive commentary on the Kephalaia gnostica, was a supplement to the 540
-                chapters of the 600 promised (Mar Babai's version of Reflections contained only 60
-                chapters). Gennadius's reference to 'sententiae obscurae' may attest to an early
-                Latin translation of this text. See also 14 Chapters (nocpg02).</desc>
+                works by Evagrius. Sixty-five sentences are divided in three sections: 39 called
+                Gnostic chapters (but not to be confused with the Kephalaia gnostika), 23 from On
+                Thoughts, and 3 unparalleled (and so termed a supplement). The Greek, Armenian, and
+                Syriac versions of this text differ in sequence, number, and selection. This text,
+                according to Mar Babai (569-628), who wrote an extensive commentary on the Kephalaia
+                gnostica, was a supplement to the 540 chapters of the 600 promised (Mar Babai's
+                version of Reflections contained only 60 chapters). Gennadius's reference to
+                'sententiae obscurae' may attest to an early Latin translation of this text. See
+                also 14 Chapters (nocpg02).</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2433:version:syr</IRI>
@@ -477,6 +480,7 @@
             <name>Armenian translation of Ep.</name>
             <name>cpg2437-hye</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2438</IRI>
             <name xml:lang="lat">Ad Mel.</name>
@@ -497,6 +501,7 @@
             <name>Syriac translation of Ad Mel.</name>
             <name>cpg2438-syr</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2439</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.X02</IRI>
@@ -508,9 +513,11 @@
             <name xml:lang="lat">Sermo sive dogmatica epistula de sanctissima trinitate</name>
             <name>cpg2439</name>
             <desc>Evagrius's earliest datable letter, dealing with Trinitarian doctrine and his
-                flight from Pontus, among other things. It was written around 380, and reflects
-                Evagrius's tutelage with Gregory of Nazianzus during the latter's stormy tenure in
-                Constantinople.</desc>
+                flight from Pontus, among other things. Conventionally, the letter is thought to
+                have been written around 380 to a community in Caesarea, and reflects Evagrius's
+                tutelage with Gregory of Nazianzus during the latter's stormy tenure in
+                Constantinople. Kalvesmaki has argued (2012) that the letter was addressed to
+                Constantinopolitans, and so was written 384 or 385 in Egypt.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2439:version:syr</IRI>
@@ -559,6 +566,7 @@
                 ἡσυχίαν τούτων παράθεσις</name>
             <name>cpg2441-syr</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2442</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.015</IRI>
@@ -569,9 +577,10 @@
             <name xml:lang="lat">Capitula xxxiii (definitiones passionum animae rationalis)</name>
             <name>cpg2442</name>
             <desc>Collection of 33 chapters relating physical and spiritual ailments to each other.
-                The last 17 appear to be drawn from a commentary on Proverbs he wrote (see CPG
-                2456).</desc>
+                The first sixteen are aphoristic definitions of physical maladies, interpreted
+                spiriptually. The last seventeen are definitions drawn from the book of Proverbs.</desc>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2443</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.016</IRI>
@@ -597,6 +606,7 @@
             <name>Armenian translation of Sent. alph. I</name>
             <name>cpg2443-hye</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2444</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.017</IRI>
@@ -614,6 +624,7 @@
             <name>Syriac translation of Sent. alph. II</name>
             <name>cpg2444-syr</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2445</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.018</IRI>
@@ -628,6 +639,7 @@
             <name>Syriac translation of Assorted Chapters</name>
             <name>cpg2445-syr</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2446</IRI>
             <name xml:lang="eng">Six Chapters</name>
@@ -635,6 +647,7 @@
             <name>cpg2446</name>
             <desc>Only the first sentence has been edited.</desc>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2447</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.019</IRI>
@@ -682,6 +695,7 @@
             <name>Arabic translation of Eul.</name>
             <name>cpg2447-ara</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2448</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.021</IRI>
@@ -715,6 +729,7 @@
             <name>Georgian translation of Vices</name>
             <name>cpg2448-kat</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2449</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.043</IRI>
@@ -742,6 +757,7 @@
             <name>Arabic translation of On Masters and Disciples</name>
             <name>cpg2449-ara</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2450</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.022</IRI>
@@ -764,6 +780,7 @@
             <name>Syriac translation of Thoughts</name>
             <name>cpg2450-syr</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2451</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.023</IRI>
@@ -819,6 +836,7 @@
             <name>Old Russian translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
             <name>cpg2451-orv</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2452</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.024</IRI>
@@ -828,7 +846,8 @@
             <name xml:lang="lat">De oratione</name>
             <name>cpg2452</name>
             <desc>One of Evagrius's most widely read treatises, consisting of a prologue and 153
-                chapters on prayer.</desc>
+                chapters on prayer. The work is credited to Nilus in the Byzantine manuscript
+                tradition.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2452:version:syr</IRI>
@@ -855,6 +874,7 @@
             <name>Arabic translation of On Prayer</name>
             <name>cpg2452-ara</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2453</IRI>
             <name xml:lang="eng">Three Chapters on Prayer</name>
@@ -867,6 +887,7 @@
             <name>Syriac translation of Three Chapters on Prayer</name>
             <name>cpg2453-syr</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2454</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.025</IRI>
@@ -906,10 +927,11 @@
             <name>Comm Prov</name>
             <name>Comm. Prov.</name>
             <name xml:lang="eng">Commentary on the Proverbs</name>
+            <name xml:lang="eng">Commentary on Proverbs</name>
             <name xml:lang="lat">Expositio in Proverbia Salomonis</name>
             <name>cpg2456</name>
-            <desc>See Sch. Prov. This CPG number should be avoided, as there is no
-            evidence that Evagrius wrote a systematic commentary on Proverbs.</desc>
+            <desc>This CPG number should be avoided, in favor of 2458.4, the scholia on Proverbs.
+                There is no evidence that Evagrius wrote a systematic commentary on Proverbs</desc>
         </item>
         
         <item>
@@ -934,10 +956,16 @@
             <name xml:lang="eng">Scholia on Genesis, Numbers, and Kings</name>
             <name xml:lang="lat">Scholia in Genesim, Numeros et Reges</name>
             <name>cpg2458.1</name>
-            <desc>Individual scholia attributed to Evagrius, preserved in the later (esp. 9th-10th
-                c.) compilations of patristic biblical exegesis. Remains to be edited. There is no 
-            evidence that Evagrius wrote a systematic collection of scholia on any of these books in
-            the way he developed his scholia on Proverbs, Ecclesiastes, or Psalms.</desc>
+            <desc>The CPG 2458 subentries are based upon von Balthasar's observation (1939, pp.
+                202-6) that there are traces of commentaries by Evagrius other than those on the
+                Psalms and Proverbs, namely Genesis, Numbers, Kingdoms, Ecclesiastes, Song of Songs,
+                Job, and Luke. The first three of these are encompassed by CPG 2458.1, but these are
+                mere fragments that need further study. Based on content, von Balthasar suggested
+                Evagrius was responsible for a number of scholia, as follows. Genesis: PG 12:103n47;
+                109bc; 112cd; 116ab; 126a, c. Numbers: PG 12:577cd, 581bc, 584a. Kingdoms: PG 12:996a.
+                Devreesse's edition of the scholia on the Octateuch includes KG (CPG 2432) 6.61.
+                Studying Byzantine scholia collections with an eye to identifying fragments by
+                Evagrius is greatly needed.</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2458.2</IRI>
@@ -948,10 +976,13 @@
             <name xml:lang="lat">Scholia in Iob</name>
             <name>cpg2458.2</name>
             <desc>More than forty scholia attributed to Evagrius, preserved in the later (esp.
-                9th-10th c.) compilations of patristic biblical exegesis. Remains to be edited. It
-                is unclear whether these scholia are part of a systematic collection of scholia such
-                as those that survive on Proverbs, Ecclesiastes, and Psalms.</desc>
+                9th-10th c.) compilations of patristic biblical exegesis. Although the scholia are
+                available in the Hagedorns' edition of the scholia, they remain to be securely
+                identified, studied, and published. It is unclear whether these scholia are part of
+                a systematic collection of scholia such as those that survive on Proverbs,
+                Ecclesiastes, and Psalms.</desc>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2458.3</IRI>
             <name>Sch Cant</name>
@@ -960,10 +991,9 @@
             <name xml:lang="eng">Scholia on the Song of Songs</name>
             <name xml:lang="lat">Scholia in Canticum canticorum</name>
             <name>cpg2458.3</name>
-            <desc>Individual scholia attributed to Evagrius, preserved in the later (esp. 9th-10th
-                c.) compilations of patristic biblical exegesis. Remains to be edited. There is no
-                evidence that Evagrius wrote a systematic collection of scholia on this book in the
-                way he developed his scholia on Proverbs, Ecclesiastes, or Psalms.</desc>
+            <desc>See description for CPG 2458.1. Von Balthasar cites Faulhaber and Zöckler for evidence
+                of a commentary on the Song of Songs, but the former points to a single scholion
+                preserved in Laud. 30A, misc. 44 and the latter merely refers to CPG 2463.</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2458.4</IRI>
@@ -986,7 +1016,7 @@
             <name>S-Eccles.</name>
             <name xml:lang="lat">Scholia in Ecclesiasten</name>
             <name>cpg2458.5</name>
-            <desc>Collection of 73 scholia on the book of Proverbs. The work survives whole.</desc>
+            <desc>Collection of 73 scholia on the book of Ecclesiastes. The work survives whole.</desc>
             
         </item>
         <item>
@@ -996,10 +1026,9 @@
             <name xml:lang="eng">Scholia on Luke</name>
             <name xml:lang="lat">Scholia in Lucam</name>
             <name>cpg2458.6</name>
-            <desc>Individual scholia attributed to Evagrius, preserved in the later (esp. 9th-10th
-                c.) compilations of patristic biblical exegesis. Remains to be edited. There is no
-                evidence that Evagrius wrote a systematic collection of scholia on this book in the
-                way he developed his scholia on Proverbs, Ecclesiastes, or Psalms.</desc>
+            <desc>Several lengthy scholia survive. The original shape of this work remains murky,
+                because many scholia are atypically lengthy, and only select parts of Luke are
+                discussed.</desc>
         </item>
         
         <item>
@@ -1018,6 +1047,7 @@
             <name>Armenian translation of De cherubim</name>
             <name>cpg2459-hye</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2460</IRI>
             <name xml:lang="lat">De seraphim</name>
@@ -1029,6 +1059,7 @@
             <name>Syriac translation of De seraphim</name>
             <name>cpg2460-syr</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2461</IRI>
             <name xml:lang="eng">Commentary on the Lord's Prayer</name>
@@ -1046,6 +1077,7 @@
             <name>Arabic translation of Commentary on the Lord's Prayer</name>
             <name>cpg2461-ara</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2462</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.X07</IRI>
@@ -1055,6 +1087,7 @@
             <desc>7 stories and sayings attributed to Evagrius from the alphabetical
                 collection.</desc>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2463</IRI>
             <name xml:lang="eng">On the Imitation of the Song of Songs</name>
@@ -1067,6 +1100,7 @@
             <name>Arabic translation of On the Imitation of the Song of Songs</name>
             <name>cpg2463-ara</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2464a</IRI>
             <name xml:lang="eng">On the Imitation of Proverbs</name>
@@ -1078,6 +1112,7 @@
             <name>Arabic translation of On the Imitation of Proverbs</name>
             <name>cpg2464a-ara</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2464</IRI>
             <name xml:lang="eng">On the Imitation of Ecclesiastes</name>
@@ -1090,6 +1125,7 @@
             <name>Arabic translation of On the Imitation of Ecclesiastes</name>
             <name>cpg2464-ara</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2465</IRI>
             <name xml:lang="eng">The Just and the Perfect</name>
@@ -1167,23 +1203,35 @@
             <name xml:lang="lat">Doctrina</name>
             <name>cpg2474</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2475</IRI>
             <name xml:lang="eng">Counsel</name>
             <name xml:lang="lat">Paraenesis</name>
             <name>cpg2475</name>
+            <desc>Fifteen chapters focusing on definitions, e.g., fire, silver. In the Syriac
+                version published by Muyldermans in 1952 (pp. 88-89 comments; 130-33 ed.; 160-63,
+                trans.), numbering begins with 27, after Reflections (CPG 2433) and On Perfection
+                (CPG 2476). Although classified as dubia/spuria in the CPG, these may be authentic,
+                given that many Greek fragments survive in the Byzantine definition collections.
+                Manuscripts: BL Add. 17167, BL Add. 17192 (no title), BL Add. 12175 (missing title
+                and first keph.), BL Add. 14578, BL Add. 14621, 7190 Rich. (missing first eight
+                keph.)</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2475:version:syr</IRI>
             <name>Syriac translation of Counsel</name>
             <name>cpg2475-syr</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2476</IRI>
             <name xml:lang="eng">Perfection</name>
             <name xml:lang="lat">De perfectione</name>
             <name>cpg2476</name>
+            <desc>Seventeen chapters concerning knowledge and the soul.</desc>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2477</IRI>
             <name xml:lang="eng">Proverbs and Their Interpretation</name>

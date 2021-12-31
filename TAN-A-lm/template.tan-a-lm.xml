@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../TAN-2021/schemas/TAN-A-lm.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2021/schemas/TAN-A-lm.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TAN-A-lm xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:tan-a-lm:evagrius:"><!-- fix @id -->
    <head>
       <name>Evagrius TAN-A-lm template</name><!-- fix name -->
@@ -17,8 +17,8 @@
       <vocabulary-key>
       
          <lexicon xml:id="LSJ" which="Liddell-Scott-Jones 9+"/>
-         <morphology which="Perseus Greek categorized" xml:id="perseus-code"/>
-         <morphology which="Perseus Greek readable" xml:id="perseus-read"/>
+         <morphology which="Perseus Greek categorized" accessed-when="2017-12-16-05:00" xml:id="perseus-code"/>
+         <morphology which="Perseus Greek readable" accessed-when="2017-12-16-05:00" xml:id="perseus-read"/>
          <person which="Joel Kalvesmaki" xml:id="kalvesmaki"/>
          <person which="Helma Dik" xml:id="dik"/>
       </vocabulary-key>

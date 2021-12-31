@@ -79,6 +79,7 @@
       <resp roles="editor" who="kalvesmaki"/>
       <resp roles="stylesheet" who="xslt1 xslt2"/>
       
+      <change when="2021-12-31" who="kalvesmaki">Dropped claim of KG 5.71 alluding to Dt 2:20-21</change>
       <change when="2020-12-29" who="kalvesmaki">Reviewed, refined all quotations, categories; added several new ones.</change>
       <change when="2020-11-17" who="kalvesmaki">Added quote at V.28</change>
       <change when="2020-10-02" who="kalvesmaki">Dropped S1-Dy from the alias S1 because it's quite incomplete.</change>
@@ -318,6 +319,7 @@
       <claim verb="alludes_to">
          <subject src="S1" ref="III 47"/>
          <object work="nt" ref="2Tim 4:8"/>
+         <object work="nt" ref="2Co 11:14"/>
       </claim>
       <claim>
          <subject src="S1" ref="III 47"/>
@@ -546,7 +548,7 @@
       </claim>
       <claim verb="alludes_to">
          <subject work="KG" ref="IV 66"/>
-         <object work="lxx" ref="Exod 28:31, 33-34, 36:29"/>
+         <object work="lxx" ref="Exod 28:31, 33-34; Exod 36:29"/>
       </claim>
       <claim>
          <subject src="S2" ref="IV 67"/>
@@ -701,10 +703,6 @@
          <object work="lxx" ref="Gen 2:9"/>
       </claim>
       <claim verb="alludes_to">
-         <subject work="KG" ref="V 71"/>
-         <object work="lxx" ref="Dt 2:20-21"/>
-      </claim>
-      <claim verb="alludes_to">
          <subject work="KG" ref="V 72"/>
          <object work="lxx" ref="Gen 2:10"/>
       </claim>
@@ -722,7 +720,7 @@
       </claim>
       <claim verb="alludes_to">
          <subject work="KG" ref="V 84"/>
-         <object work="nt" ref="1Co 3:16-17, 6:19-20"/>
+         <object work="nt" ref="1Co 3:16-17; 1Co 6:19-20"/>
       </claim>
       <claim>
          <subject src="S1" ref="VI 1"/>

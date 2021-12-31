@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021"
+  id="tag:kalvesmaki.com,2014:Evagrius_Counsel_fra_Muyldermans.TAN-TEI">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <ab/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Counsel, translated by Muyldermans into French</name>
+    <master-location
+      href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2475/cpg2475.fra.1952.muyldermans.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    
+    <work which="Counsel"/>
+    
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+    </vocabulary>
+    
+
+    <source which="Muyldermans 1952"/>
+    <adjustments>
+      <normalization which="no reference markers"/>
+      <normalization which="no hyphens"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <resp roles="transcriber" who="kalvesmaki"/>
+
+    <change when="2021-12-25" who="kalvesmaki">Started file</change>
+    <comment when="2021-12-15" who="kalvesmaki">Numbering begins with 1; Muyldermans begins with 27,
+      respecting Syriac manuscript numeration, where the work appears after several other
+      works.</comment>
+    <to-do>
+      <comment when="2021-12-25" who="kalvesmaki">Needs proofreading.</comment>
+    </to-do>
+  </head>
+
+  <text>
+
+    <body xml:lang="fra">
+      <milestone unit="page" n="160"/>
+      <div type="chapter" n="1">
+        <ab>L’autel, c’est l'intellect pur et immatériel qui, au temps de la prière, n’admet pas une
+          pensée simple. </ab>
+      </div>
+      <milestone unit="page" n="161"/>
+      <div type="chapter" n="2">
+        <ab>L'hostie pure, c’est la conscience pure et exempte de souillure; mais (la conscience)
+          opposée (souillée), c'est l’hostie des idoles. </ab>
+      </div>
+      <div type="chapter" n="3">
+        <ab>Le feu étranger, c’est l’amour des choses sensibles par lequel Dieu n’est jamais servi.
+        </ab>
+      </div>
+      <div type="chapter" n="4">
+        <ab>Le feu saint, c’est l'amour divin qui consume les sacrifices purs comme une graisse
+          céleste. </ab>
+      </div>
+      <div type="chapter" n="5">
+        <ab>Le feu ardent, c’est le zèle scrutateur qui dévore la malice des négligents. </ab>
+      </div>
+      <div type="chapter" n="6">
+        <ab>La pierre de la vérité, c’est la foi sans fissure en Notre Seigneur Jésus-Christ, qui
+          affermit l’intellect dans l'édifice de l’âme. </ab>
+      </div>
+      <div type="chapter" n="7">
+        <ab>L'édifice du Christ, c’est l’assemblée des vertus divines, qui a sa cohésion en lui par
+          les membres actifs et contemplatifs de son corps. </ab>
+      </div>
+      <div type="chapter" n="8">
+        <ab>Le royaume de Dieu, c’est l'achèvement de l'édifice du Christ, la consommation de la loi
+          et de la grâce, la perfection des fils de Dieu, la science des héritiers qui étaient sans
+          espérance, l’accomplissement de sa volonté dans le Christ, l'unité indivisible de lui-même
+          et de sa créature raisonnable, la Trinité unissant le tout et l’unité sans dualité; car
+          Dieu sera tout en tous, béni dans les siècles. Amen. </ab>
+      </div>
+      <div type="chapter" n="9">
+        <ab>La potasse des foulons, c’est le repentir cuisant de l’âme qui est donné par le Seigneur
+          par l’entremise des saints anges à ceux qui revien-nent avec diligence des passions à la
+          purification de l’âme. </ab>
+      </div>
+      <div type="chapter" n="10">
+        <ab>Le feu de la fournaise, c’est un prompt repentir de l’âme, que l'intellect obtient par
+          la grâce du Christ au temps de la prière; et dans la contemplation, la mémoire connaît que
+          son insuffisance est guérie par l’eau vive, l’attente de la révélation de Notre Seigneur
+          Jésus-Christ. </ab>
+      </div>
+      <div type="chapter" n="11">
+        <ab>L'argent éprouvé, purgé de terre et sept fois affiné, c’est le corps de Notre Seigneur
+          Jésus-Christ, foulant aux pieds les sept puissances du dragon rebelle, par la vertu des
+          sept puissances (qui est) la plénitude du Saint-Esprit, comme (i7 est dit) dans Isaïe; car
+          par la grâce nous aussi nous serons fortifiés et nous remporterons la victoire par celui
+          qui nous a aimés, Notre Seigneur Jésus-Christ <milestone unit="page" n="162"/> qui a dit :
+          « Ayez confiance, j'ai vaincu le monde », et ceci : «Je me sanctifie moi-même pour eux,
+          afin qu’ils soient un en nous, comme nous aussi sommes un». </ab>
+      </div>
+      <div type="chapter" n="12">
+        <ab>Le carême, c’est la figure de la purification de notre corps, en préparation à la
+          réception du saint corps du Christ; le sépulchre, en effet, du saint corps du Christ est
+          le corps des êtres raisonnables, et sa résurrection la vie de tous les hommes. </ab>
+      </div>
+      <div type="chapter" n="13">
+        <ab>Le vendredi, c’est la préparation de ceux qui par le nombre six se préparent au repos.
+          Le samedi, c’est le symbole de ceux qui ont été ensevelis avec le Christ, passant des
+          souffrances au repos de l’impassibilité avec l’espérance de ressusciter avec lui. Le
+          dimanche, c’est le symbole du commencement et de la fin des soins pris par le Seigneur
+          (dans la création), et c’est pourquoi aussi il est appelé le premier, l’unique, le
+          huitième et le troisième (jour) à partir du sixième (jour), c’est lui qui est la
+          résurrection de la lumière originelle et la splendeur rayonnante du soleil de justice, le
+          jour du Seigneur, (le jour) dominical, qui a pris commencement et n’a pas de fin, à cause
+          de la lumière sainte et spirituelle du Christ qui y règne. Les étoiles qui y sont
+          disposées, sont ceux qui y règnent avec le Christ, soleil de justice, des siècles sans
+          fin. </ab>
+      </div>
+      <div type="chapter" n="14">
+        <ab>C’est un héritage du Seigneur que des fils, et l’héritage à eux c’est le Seigneur; car
+          les lévites sont «les fils du sacerdoce», ceux qui sont offerts au Père par notre Sauveur
+          en victime pure comme les béliers; «lévites» signifie «compagnons et associés». </ab>
+      </div>
+      <div type="chapter" n="15">
+        <ab>La béatitude est l’héritage divin dont hériteront les fils de lumière le septième et le
+          huitième jour; car c’est le terme de tout bien attendu et pensé, les choses dont a reçu la
+          connaissance celui qui en jouit par l’expérience, car alors la parole ne peut pas
+          l’exprimer. C’est pourquoi il est dit : «Que l'œil n’a pas vu, que l'oreille n’a point
+          entendu, et qui n’est pas monté au cœur de l’homme, ce que Dieu a préparé pour ceux qui
+          l’aiment». Mais à nous, dit-il, Dieu l'a révélé par son Esprit, «car l'Esprit pénètre
+          tout». Et ce qu’il entendit, ce sont des paroles ineffables qu’il n’est pas permis à
+          l’homme d’exprimer, des choses que lui pour sa part il entendit, parce qu’il <milestone
+            unit="page" n="163"/>reçut l'expérience de la contemplation de ces choses intelligibles,
+          pour autant que c’était possible, mais il ne put l’exprimer. Ce sont, en effet, des choses
+          ineffables. L’attente done de la jouissance de ces choses presse toute âme fidèle de faire
+          du progrès dans les vertus, car il est écrit: «Tu rends à chacun selon ses œuvres»; et
+          ceci: «Il y a de nombreuses demeures dans la maison de mon Père»; L’attrait pour le
+          cadavre rassemblera auprès de lui les aigles spirituels, parce qu’en lui ils trouveront
+          leur joie éternellement. Car l'odeur qui monte de sa chair nourrit leur vie, comme celle
+          des aigles, et leur vue sont comme leurs ailes grasses; les ailes de l'intelligence, en
+          effet, sont les contemplations de la sainte Trinité dans laquelle est adorée la sainte
+          unité du Père et du Fils et du Saint-Esprit, auquel soit gloire dans les siècles des
+          siècles. Amen.</ab>
+
+      </div>
+    </body>
+  </text>
+
+</TEI>

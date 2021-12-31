@@ -36,6 +36,7 @@
         <change who="xslt1" when="2019-05-28T03:24:38.194-04:00">Converted from 2018 to 2020 schemas.</change>
         <change when="2019-08-11" who="kalvesmaki">Moved scripta to included vocabulary file; added new scripta vocabulary file as inclusion</change>
         <change when="2019-08-31" who="kalvesmaki">Moved persons to separate TAN-voc file.</change>
+        <change when="2021-12-31" who="kalvesmaki">Added new CPG 2455, 2475 items</change>
         <to-do>
             <comment when="2017-12-15T15:35:20.202-05:00" who="kalvesmaki">File is still in progress.</comment>
         </to-do>
@@ -86,6 +87,7 @@
                 <name>Syriac translation S2 of the Praktikos in BL Add. 14,578</name>
                 <location href="../cpg2430/cpg2430.syr.0700.bl14578.s2.tei.xml" accessed-when="2020-10-02"/>
             </item>
+            
             <!-- 2431: Gnostikos -->
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Gnostikos_grc_Guillaumonts.TAN-TEI.001</IRI>
@@ -141,6 +143,7 @@
                 <desc>Frankenberg's Greek retroversion of a Syriac translation of the Gnostikos</desc>
                 <location href="../cpg2431/cpg2431.grc.1912.frankenberg.tei.xml" accessed-when="2015-08-08-04:00"/>
             </item>
+            
             <!-- CPG 2432: Kephalaia gnostika -->
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Kephalaia_Gnostika_syr_Guillaumont_S1.TAN-TEI.001</IRI>
@@ -579,6 +582,16 @@
                     reference system</name>
                 <location href="../cpg2450/cpg2450.grc.1863.pg.ref-logical-after-1998.xml" accessed-when="2018-06-03-04:00"/>
             </item>
+
+            <!-- CPG 2455: Scholia on Psalms -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:transcription:cpg2455:grc:rondeau</IRI>
+                <name>cpg2455 grc 2021</name>
+                <name>cpg2455 grc Rondeau</name>
+                <name>Greek text of Evagrius of Pontus's Scholia on Psalms, edited by Rondeau et al.</name>
+                <location href="../cpg2455/cpg2455.grc.2021.rondeau.xml" accessed-when="2021-12-31"/>
+            </item>
+            
             <!-- CPG 2458.4: Scholia on Proverbs -->
             <item>
                 <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2458.4:grc:1987:logical</IRI>
@@ -587,6 +600,29 @@
                 <name>Greek text of Géhin's edition of Evagrius's Scholia on Proverbs, logical reference
                     system</name>
                 <location href="../cpg2458.4/cpg2458.4.grc.1987.g%C3%A9hin.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
+            </item>
+            <!-- CPG 2475: Counsel -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Counsel_grc_Furrer-Pilliod.TAN-TEI</IRI>
+                <name>cpg2475 grc 2000</name>
+                <name>cpg2475 grc Furrer-Pilliod</name>
+                <name>Fragments of Counsel that survive in the definitions collection published
+                    in 2000 by Furrer-Pilliod</name>
+                <location href="../cpg2475/cpg2475.grc.2000.furrer-pilliod.xml" accessed-when="2021-12-25"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Counsel_syr_Muyldermans.TAN-TEI</IRI>
+                <name>cpg2475 syr 1952</name>
+                <name>cpg2475 syr Muyldermans</name>
+                <name>Counsel, Syriac edition by Muyldermans</name>
+                <location href="../cpg2475/cpg2475.syr.1952.muyldermans.xml" accessed-when="2021-12-25"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Counsel_fra_Muyldermans.TAN-TEI</IRI>
+                <name>cpg2475 fra 1952</name>
+                <name>cpg2475 fra Muyldermans</name>
+                <name>Counsel, translated by Muyldermans into French</name>
+                <location href="../cpg2475/cpg2475.fra.1952.muyldermans.xml" accessed-when="2021-12-25"/>
             </item>
         </group>
         <group affects-element="source">

@@ -78,6 +78,7 @@
     <resp roles="editor" who="kalvesmaki"/>
     <resp roles="stylesheet" who="xslt1 xslt2"/>
     
+    <change when="2021-10-05" who="kalvesmaki">Put into document order</change>
     <change when="2020-10-02" who="kalvesmaki">Moved file; cleaned tags</change>
     <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Adjusted &lt;name&gt;</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
@@ -91,12 +92,12 @@
   </head>
   <text>
     <body xml:lang="grc">
-      <div type="century" n="IV">
-        <div type="chapter" n="16"> <pb n="263"/> <p> Μονογενής ἐστιν, οὗ ἄλλος οὐ προετέχθη καὶ μεθ’ <lb/>ὃν ἕτερος οὐ γέγονε. </p> </div>
-      </div>
       <div type="century" n="VI">
         <div type="chapter" n="31"> <pb n="254"/> <p> Γεννητόν ἐστι τὸ ἔκ τινος ὡς ἐκ πατρὸς γεννηθέν,</p> </div>
         <div type="chapter" n="32"> <p>γενητὸν δέ ἐστι τὸ ἔκ τινος γεγονός.</p> </div>
+      </div>
+      <div type="century" n="IV">
+        <div type="chapter" n="16"> <pb n="263"/> <p> Μονογενής ἐστιν, οὗ ἄλλος οὐ προετέχθη καὶ μεθ’ <lb/>ὃν ἕτερος οὐ γέγονε. </p> </div>
       </div>
     </body>
   </text>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021"
+  id="tag:kalvesmaki.com,2014:Evagrius_Counsel_grc_Furrer-Pilliod.TAN-TEI">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <ab/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Fragments of Counsel that survive in the definitions collection published
+      in 2000 by Furrer-Pilliod</name>
+    <master-location
+      href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2475/cpg2475.grc.2000.furrer-pilliod.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Counsel"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+    </vocabulary>
+
+    <source which="Furrer-Pilliod 2000"/>
+
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <resp roles="transcriber" who="kalvesmaki"/>
+
+    <change when="2021-12-25" who="kalvesmaki">Started file</change>
+    <comment when="2021-12-15" who="kalvesmaki">Numbering begins with 1; Muyldermans begins with 27,
+      respecting Syriac manuscript numeration, where the work appears after several other
+      works.</comment>
+    <to-do>
+      <comment when="2021-12-25" who="kalvesmaki">Needs proofreading.</comment>
+    </to-do>
+  </head>
+
+  <text>
+
+    <body xml:lang="grc">
+      <milestone unit="collection" n="A"/>
+      <milestone unit="letter" n="α"/>
+      <pb n="85"/>
+      <milestone unit="section" n="192"/>
+      <div type="chapter" n="11">
+        <ab resp="cfp">ἀργύριον πεπυρωμένον δοκίμιον τῇ γῇ κεκαθαρισμένον ἑπταπλασίως ἐστὶ τὸ σῶμα
+          τοῦ Κυρίου ἡμῶν Ἱησοῦ Χριστοῦ τὸ καταπατῆσαν τὰς ἑπτὰ δυνάμεις τοῦ δράκοντος τοῦ ἀποστάτου
+          διὰ τῆς ἑπταδυνάμου δυνάμεως τοῦ πληρώματος τοῦ ἁγίου καὶ ἀχράντου πνεύματος αὐτοῦ, ὡς ἐν
+          τῷ Ἡσαίᾳ</ab>
+      </div>
+      <milestone unit="letter" n="β"/>
+      <pb n="92"/>
+      <milestone unit="section" n="34"/>
+      <div type="chapter" n="8">
+        <ab resp="cfp">βασιλεία ἐστὶ Θεοῦ τελείωσις οἰκοδομῆς Χρίστου, πλήρωμα νόμου καὶ χάριτος,
+          τελείωσις τέκνων Θεοῦ, γνῶσις ἀνελπίστων αὐτοῦ κληρονομιῶν, πλήρῶμα βουλῆς αὐτοῦ εὐχῇ,
+          ἕνωσις ἀμέριστος αὐτοῦ τε καὶ τῆς λογικῆς φύσεως αὐτοῦ, τριὰς ἑνοῦσα τὰ σύμπαντα, καὶ
+          μονάς μὴ ἔχουσα δυάδα, πάντα γὰρ εἴη ὁ Θεὸς εὐλογητὸς εἰς τοὺς αἰῶνας ἀμήν</ab>
+      </div>
+      <milestone unit="letter" n="θ"/>
+      <pb n="131"/>
+      <milestone unit="section" n="71"/>
+      <div type="chapter" n="1">
+        <ab resp="cfp">θυσιαστήριόν ἐστι νοῦς καθαρὸς καὶ ἄϋλος ἐν καιρῷ προσευχῆς μὴ παραδεχόμενος
+          μηδὲ ψιλὸν νόημα</ab>
+      </div>
+      <pb n="131"/>
+      <milestone unit="section" n="72"/>
+      <div type="chapter" n="2">
+        <ab resp="cfp">θυσία ἱερά ἐστι συνειδὸς καθαρὸν ἀπερίεργον· τὸ δὲ τούτου ἀντίζυγον
+          εἰδωλόθυτον</ab>
+      </div>
+      <milestone unit="letter" n="κ"/>
+      <pb n="140"/>
+      <milestone unit="section" n="65"/>
+      <div type="chapter" n="13">
+        <ab resp="cfp">κυριακή ἐστι σύμβολον ἀρχῆς καὶ τελειώσεως τῆς τοῦ Κυρίου προνοίας· διὸ καὶ
+          πρώτη καὶ μονὰς καὶ ὀγδοάς, καὶ τῆς ἀπὸ ἕκτης τρίτη, ἥτις ἐστὶν ἀναστάσιμος τοῦ πρώτου
+          φωτὸς καὶ λάμψις ἀκτῖνος τοῦ ἡλίου τῆς δικαιοσύνης, ἡμέρα Κυρίου· κυριακή, ἀρχὴν
+          λαμβάνουσα καὶ τέλος μὴ ἔχουσα διὰ τὸ ἐν αὐτῇ βασιλεῦον νοερὸν καὶ ἅγιον φῶς τοῦ Χριστοῦ,
+          καὶ τοὺς ἐν αὐτῇ θετοὺς ἀστέρας τοὺς ἐν ἡμέρᾳ συμβασιλεύοντας τῷ Χριστῷ τῷ ἡλίῳ τῆς
+          δικαιοσύνης εἰς ἀπεράντους αἰῶνας</ab>
+      </div>
+      <milestone unit="letter" n="π"/>
+      <pb n="177"/>
+      <milestone unit="section" n="147"/>
+      <div type="chapter" n="3">
+        <ab resp="cfp">πῦρ ἀλλότριόν ἐστιν ἀγάπη αἰσθητῶν, διʼ ἧς ὁ Θεὸς οὐ λειτουργεῖταί ποτε</ab>
+      </div>
+      <pb n="177"/>
+      <milestone unit="section" n="148"/>
+      <div type="chapter" n="4">
+        <ab resp="cfp">πῦρ ἅγιόν ἐστιν ἀγάπη θεία τὰς καθαρὰς κατεσθίουσα θυσίας, ὥσπερ στέαρ
+          πῖον</ab>
+      </div>
+      <pb n="177"/>
+      <milestone unit="section" n="149"/>
+      <div type="chapter" n="5">
+        <ab resp="cfp">πῦρ καυστικὸν ἐστι ζῆλος κριτικὸς τὰς κακίας καταναλίσκων τῶν ῥαθύμων</ab>
+      </div>
+      <pb n="177"/>
+      <milestone unit="section" n="150"/>
+      <div type="chapter" n="6">
+        <ab resp="cfp">πέτρα στερεά ἐστι πίστις ἀρραγὴς τοῦ κύριου ἡμῶν Ἰησοῦ Χριστοῦ εἰς οἰκοδομὴν
+          ψυχῆς ἐν τῷ ἡγεμονικῷ προθεμελιουμένη</ab>
+      </div>
+      <pb n="177"/>
+      <milestone unit="section" n="151"/>
+      <div type="chapter" n="10">
+        <ab resp="cfp">πῦρ χωνευτήριόν ἐστι δριμυτάτη κατάνυξις τῇ τοῦ Χριστοῦ χάριτι ἐν καιρῷ
+          προσευχῆς τῷ νῷ προσγινομένη κατὰ θεωρίαν μνήμην λαμβάνοντι τῆς ἀποστερήσεως αὐτοῦ, ἣν
+          θεραπεύει τὸ ὕδωρ τὸ ζῶν, ἡ τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ ἐλπιζομένη ἐπιφάνεια</ab>
+      </div>
+      <pb n="179"/>
+      <milestone unit="section" n="181"/>
+      <div type="chapter" n="13">
+        <ab resp="cfp">παρασκευή ἐστι παρασκευασία τῶν ἐν τῷ ἕκτῳ ἀριθμῷ επὶ τὴν κατάπαυσιν</ab>
+      </div>
+      <milestone unit="letter" n="σ"/>
+      <pb n="189"/>
+      <milestone unit="section" n="99"/>
+      <div type="chapter" n="13">
+        <ab resp="cfp">σάββατόν ἐστι σύμβολον τῶν συνταφέντων τῷ Χριστῷ ἀπὸ παθημάτων εἰς κατάπαυσιν
+          ἀπαθείας ἐπ' ἐλπίδι τῆς σὺν αὐτῷ ἀναστάσεως</ab>
+      </div>
+      <milestone unit="letter" n="τ"/>
+      <pb n="194"/>
+      <milestone unit="section" n="48"/>
+      <div type="chapter" n="12">
+        <ab resp="cfp">τεσσαρακοστή ἐστι σύμβολον καθαρισμοῦ τοῦ ἡμῶν σώματος εἰς παρασκευασίαν
+          δοχῆς τοῦ ἁγίου σώματος τοῦ Χριστοῦ, τάφος γὰρ τοῦ ἁγίου σώματος τοῦ Χριστοῦ ἐστι τὸ σῶμα
+          τῶν λογικῶν· ἡ δὲ ἀνάστασις αὐτοῦ ζωὴ πάντων τῶν ἀνθρώπων</ab>
+      </div>
+    </body>
+  </text>
+
+</TEI>
