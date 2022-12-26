@@ -704,6 +704,13 @@
                 <name>Greek text of Evagrius of Pontus's Scholia on Psalms, edited by Rondeau et al.</name>
                 <location href="../cpg2455/cpg2455.grc.2021.rondeau.xml" accessed-when="2021-12-31"/>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:transcription:cpg2455:grc:vat_gr_754</IRI>
+                <name>cpg2455 grc Vat Gr 754</name>
+                <location accessed-when="2022-12-26T18:41:22.4733323-05:00"
+                    href="../cpg2455/cpg2455.grc.1000.vat_gr_754.xml"/>
+            </item>
+            
             
             <!-- CPG 2458.4: Scholia on Proverbs -->
             <item>
