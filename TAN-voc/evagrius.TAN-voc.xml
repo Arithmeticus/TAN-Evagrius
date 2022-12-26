@@ -441,6 +441,62 @@
                     accessed-when="2020-10-02-04:00"/>
             </item>
             
+            <!-- CPG 2433: Reflections -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Reflections_Dysinger</IRI>
+                <name>cpg2433 eng 1990</name>
+                <name>cpg2433 eng Dysinger</name>
+                <name xml:lang="eng">English translation of Reflections (Skemmata) by Dysinger</name>
+                <location accessed-when="2022-02-17T02:06:57.040276-05:00" href="../cpg2433/cpg2433.eng.1990.dysinger.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Reflections_Suarez</IRI>
+                <name>cpg2433 lat 1673</name>
+                <name>cpg2433 lat Suarez</name>
+                <name xml:lang="eng">Latin translation of Reflections (Skemmata/Capita Cognoscitiva) by Jos. Maria Suarez as edited by Muyldermans</name>
+                <location accessed-when="2022-02-17T02:06:57.040276-05:00" href="../cpg2433/cpg2433.lat.1673.suarez.1931.muyldermans.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Skemmata_Muyldermans-1931-barb-gr-515</IRI>
+                <name>cpg2433 grc 1931 Barb Gr 515</name>
+                <name xml:lang="eng">Fragments of the Reflections (Skemmata) preserved in Barb. Gr.
+                    515, edited by Muyldermans</name>
+                <location accessed-when="2022-02-17T02:09:37.098645-05:00"
+                    href="../cpg2433/cpg2433.grc.1931.muyldermans.barb-gr-515.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Skemmata_Muyldermans-1931-paris-gr-1055</IRI>
+                <name>cpg2433 grc 1931 Paris Gr 1055</name>
+                <name xml:lang="eng">Fragments of the Reflections (Skemmata) preserved in Paris. Gr.
+                    1055, edited by Muyldermans</name>
+                <location accessed-when="2022-02-17T02:09:37.098645-05:00"
+                    href="../cpg2433/cpg2433.grc.1931.muyldermans.paris-gr-1055.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Skemmata_Muyldermans-1931-paris-gr-3098</IRI>
+                <name>cpg2433 grc 1931 Paris Gr 3098</name>
+                <name xml:lang="eng">Fragments of the Reflections (Skemmata) preserved in Paris. Gr.
+                    3098, collated with Paris. supp. gr. 870, edited by Muyldermans</name>
+                <location accessed-when="2022-02-17T02:07:45.067665-05:00"
+                    href="../cpg2433/cpg2433.grc.1931.muyldermans.paris-gr-3098.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Skemmata_Muyldermans-1931-paris-gr-913</IRI>
+                <name>cpg2433 grc 1931 Paris Gr 913</name>
+                <name xml:lang="eng">Fragments of the Reflections (Skemmata) preserved in Paris. Gr.
+                    913, collated with Paris. gr. 3098, edited by Muyldermans</name>
+                <location accessed-when="2022-02-17T02:10:32.518228-05:00"
+                    href="../cpg2433/cpg2433.grc.1931.muyldermans.paris-gr-913.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Skemmata_Sinkewicz_2003</IRI>
+                <name>cpg2433 grc 2003</name>
+                <name>cpg2433 grc Sinkewicz</name>
+                <name xml:lang="eng">Fragments of the Reflections (Skemmata) documented by Sinkewicz in his 2003 translation</name>
+                <location accessed-when="2022-02-17T02:11:13.910407-05:00" href="../cpg2433/cpg2433.grc.2003.sinkewicz.xml"/>
+            </item>
+            
             
             <!-- CPG 2439: Epistula fidei -->
             <item>

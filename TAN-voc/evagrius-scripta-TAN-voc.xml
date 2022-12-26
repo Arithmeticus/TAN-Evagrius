@@ -1484,6 +1484,7 @@
          <IRI>tag:evagriusponticus.net,2012:scriptum:evagrius-sinkewicz-2003</IRI>
          <name>Evagrius Ponticus and Sinkewicz 2003</name>
          <name>evagrius sinkewicz 2003</name>
+         <name>sinkewicz 2003</name>
          <desc>Evagrius Ponticus. Evagrius of Pontus: The Greek Ascetic Corpus. Translated by Robert E. Sinkewicz. Oxford and New York: Oxford University Press, 2003. </desc>
       </item>
       <item>
@@ -1609,6 +1610,11 @@
          <IRI>tag:evagriusponticus.net,2012:scriptum:furrer-pilliod-2000</IRI>
          <name>Furrer-Pilliod 2000</name>
          <desc>Furrer-Pilliod, Christiane. Oroi kai ypographai: Collections alphabétiques de définitions profanes et sacrées. Studi e testi (Biblioteca apostolica vaticana) 395. Città del Vaticano: Biblioteca apostolica Vaticana, 2000. </desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:gallandi-1765</IRI>
+         <name>Gallandi 1765</name>
+         <desc>Gallandi, Andreas. Bibliotheca veterum patrum atiquorumque scriptorum ecclesiasticorum, postrema Lugdunensi longe locupletior atque accuratior. Venice: J.B. Albritii Hieron fil, 1765.</desc>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:garitte-1956</IRI>

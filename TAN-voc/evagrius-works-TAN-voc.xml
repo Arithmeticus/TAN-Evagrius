@@ -105,6 +105,50 @@
                 novum testamentum, 3:177</desc>
         </item>
         <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg06</IRI>
+            <name>Instr</name>
+            <name xml:lang="eng">Word of Instruction</name>
+            <name xml:lang="fra">Parole d'Instruction</name>
+            <name>nocpg06</name>
+            <desc>Eighteen kephalaia preserved in Barb. gr. 515 and in various Armenian manuscripts.
+                Because these kephalaia were presented in the context of Muyldermans's studies on
+                the Capita cognoscitiva (CPG 2433), and because they did not feature in the KG
+                supplements, they have been overlooked by modern cataloguing efforts.</desc>
+        </item>
+        
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg07</IRI>
+            <name xml:lang="eng">Beginning of Knowledge</name>
+            <name xml:lang="lat">Principium scientiae veritatis in anima (est) motio eius a Spiritu
+                sancto</name>
+            <name>nocpg07</name>
+            <desc>A block of nine kephalaia, preserved in Syriac, the Armenian KG Supplement (nos.
+                13-22) and Armenian letter 24. The title is identical to Disciples 191, and
+                kephalaia nos. 1, 5, 6, and 7 correspond to Disciples 192, 220, 221, and 222 in the
+                Greek. Gehin inferred that the other five kephalaia must be part of the same work,
+                so he included nos. 2, 3, 4, 8, and 9 in his edition of Disciples, numbering them
+                218-222. But a distinct feature of Disciples is that it closes with kephalaia that
+                can be found elsewhere, suggesting that the author of Disciples drew from other
+                collections, such as the present one, not the other way around. The preservation of
+                these nine kephalaia en bloc in four Syriac manuscripts and a number of Armenian
+                ones suggests that this short work circulated as a whole, and was the subject of
+                excerption by the complier of the Disciples.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg07:version:syr</IRI>
+            <name>Syriac translation of Beginning of Knowledge</name>
+            <name>nocpg07-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg07:version:hye</IRI>
+            <name>Armenian translation of Beginning of Knowledge</name>
+            <name>nocpg07-hye</name>
+        </item>
+        
+        
+        
+        
+        <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2430</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.001</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.X01</IRI>
@@ -320,24 +364,40 @@
             <desc>The work termed Skemmata, or Reflections, is a loose, fluid compliation of other
                 works by Evagrius. Sixty-five sentences are divided in three sections: 39 called
                 Gnostic chapters (but not to be confused with the Kephalaia gnostika), 23 from On
-                Thoughts, and 3 unparalleled (and so termed a supplement). The Greek, Armenian, and
-                Syriac versions of this text differ in sequence, number, and selection. This text,
-                according to Mar Babai (569-628), who wrote an extensive commentary on the Kephalaia
-                gnostica, was a supplement to the 540 chapters of the 600 promised (Mar Babai's
-                version of Reflections contained only 60 chapters). Gennadius's reference to
-                'sententiae obscurae' may attest to an early Latin translation of this text. See
-                also 14 Chapters (nocpg02).</desc>
+                Thoughts, and 3 unparalleled (and so termed a supplement). The Greek, Armenian,
+                Arabic, and Syriac versions of this text differ in sequence, number, and selection.
+                This text, according to Mar Babai (569-628), who wrote an extensive commentary on
+                the Kephalaia gnostica, was a supplement to the 540 chapters of the 600 promised
+                (Mar Babai's version of Reflections contained only 60 chapters). Gennadius's
+                reference to 'sententiae obscurae' may attest to an early Latin translation of this
+                text. See also 14 Chapters (nocpg02).</desc>
         </item>
+        
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2433:version:syr</IRI>
             <name>Syriac translation of Skemmata</name>
             <name>cpg2433-syr</name>
         </item>
         <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2433:version:ara</IRI>
+            <name>Arabic translation of Skemmata</name>
+            <name>cpg2433-ara</name>
+        </item>
+        <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2433:version:hye</IRI>
             <name>Armenian translation of Skemmata</name>
             <name>cpg2433-hye</name>
         </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2433:version:lat:suarez</IRI>
+            <name>Latin translation of Skemmata by Suarez</name>
+            <name>cpg2433-lat-suarez</name>
+            <desc>Jos. Maria Suaresius (Suarez) wrote a Latin translation of the Skemmata in
+                Barberini lat. 3024, fol. 193v-196r, with marginal notes. This codex was the basis
+                for Suarez's study on the works of Nilus, the basis of PG 79:1338ff.</desc>
+        </item>
+        
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2434</IRI>
             <name>Antirrh</name>
@@ -527,10 +587,12 @@
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2440</IRI>
             <name xml:lang="eng">Protrepticus</name>
+            <name xml:lang="eng">Protrepticus and Pareneticus</name>
             <name>Admonitions</name>
             <name xml:lang="lat">Protrepticus et paraeneticus</name>
             <name>cpg2440</name>
-            <desc>Twin treatises on prayer and other monastic disciplines.</desc>
+            <desc>Twin treatises on prayer and other monastic disciplines, attributed by Paul Géhin
+                to Abraham of Nathpar</desc>
             <desc>Some MSS include a 3rd treatise, unedited, incipit Memento semper promissionum
                 tuarum. See CPG, s.v.</desc>
         </item>
@@ -565,6 +627,14 @@
             <name>Syriac translation of Ὑπωτύπωσις ἢ Τῶν κατὰ μοναχῶν πραγμάτων τὰ αἰτία, καὶ ἡ καθ᾿
                 ἡσυχίαν τούτων παράθεσις</name>
             <name>cpg2441-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2441:version:hye</IRI>
+            <name>Armenian translation of Hypotyposis</name>
+            <name>Armenian translation of Foundations</name>
+            <name>Armenian translation of Ὑπωτύπωσις ἢ Τῶν κατὰ μοναχῶν πραγμάτων τὰ αἰτία, καὶ ἡ καθ᾿
+                ἡσυχίαν τούτων παράθεσις</name>
+            <name>cpg2441-hye</name>
         </item>
         
         <item>
@@ -624,6 +694,11 @@
             <name>Syriac translation of Sent. alph. II</name>
             <name>cpg2444-syr</name>
         </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2444:version:hye</IRI>
+            <name>Armenian translation of Sent. alph. II</name>
+            <name>cpg2444-hye</name>
+        </item>
         
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2445</IRI>
@@ -638,6 +713,11 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2445:version:syr</IRI>
             <name>Syriac translation of Assorted Chapters</name>
             <name>cpg2445-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2445:version:hye</IRI>
+            <name>Armenian translation of Assorted Chapters</name>
+            <name>cpg2445-hye</name>
         </item>
         
         <item>
@@ -668,7 +748,7 @@
                 The preface indicates that this treatise was also a letter sent to a monk Eulogios,
                 the recipient of CPG 2448.</desc>
             <desc>The Greek text has been greatly enhanced by Sinkewicz's edition, which publishes
-                for the first time the longer rescension of Lavra Γ ʹ 93.</desc>
+                for the first time the longer rescension of Lavra Γʹ 93.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2447:version:syr</IRI>
@@ -700,7 +780,7 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2448</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.021</IRI>
             <name>Vices</name>
-            <name xml:lang="grc">Περὶ τὰς ἀντιζήλους τῶν ἀρετῶν κακίας</name>
+            <name xml:lang="grc">Περὶ τὰς ἀντιζύγους τῶν ἀρετῶν κακίας</name>
             <name xml:lang="eng">On the Vices Opposed to the Virtues</name>
             <name xml:lang="lat">De vitiis quae opposita sunt virtutibus</name>
             <name>cpg2448</name>
@@ -720,9 +800,9 @@
             <name>cpg2448-syr</name>
         </item>
         <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:cpg2448:version:hye</IRI>
-            <name>Armenian translation of Vices</name>
-            <name>cpg2448-hye</name>
+            <IRI>tag:evagriusponticus.net,2015:cpg2448:version:ara</IRI>
+            <name>Arabic translation of Vices</name>
+            <name>cpg2448-ara</name>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2448:version:kat</IRI>
@@ -1103,7 +1183,9 @@
         
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2464a</IRI>
+            <name xml:lang="eng">From the Proverbs of Solomon</name>
             <name xml:lang="eng">On the Imitation of Proverbs</name>
+            <name xml:lang="lat">Ex Proverbiis Salomon</name>
             <name xml:lang="lat">Ad imitationem Proverbiorum</name>
             <name>cpg2464a</name>
         </item>
@@ -1134,12 +1216,16 @@
             <desc>Identical to one of the thirty memre of the Syriac Book of Steps (Liber graduum;
                 memre 14 in Patrologia Syriaca edition).</desc>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2466</IRI>
             <name xml:lang="eng">Humility</name>
             <name xml:lang="lat">De humilitate</name>
             <name>cpg2466</name>
+            <desc>This work on humility is now regarded as a work of Marcian of Bethlehem, CPG
+                3889.</desc>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2467</IRI>
             <name xml:lang="eng">Fasting</name>
@@ -1184,6 +1270,8 @@
             <name xml:lang="eng">The Defense of One Led by God</name>
             <name xml:lang="lat">De tutelis eius qui a deo ducitur</name>
             <name>cpg2471</name>
+            <desc>This very short work also appears as Disciples of Evagrius 197, the penultimate
+                kephalaion of the Greek version.</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2472</IRI>
@@ -1196,6 +1284,8 @@
             <name xml:lang="eng">Counsel of the Mind</name>
             <name xml:lang="lat">Paraenesis mentis</name>
             <name>cpg2473</name>
+            <desc>This very short work also appears as Disciples of Evagrius 198, the last
+                kephalaion of the Greek version.</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2474</IRI>
@@ -1229,7 +1319,18 @@
             <name xml:lang="eng">Perfection</name>
             <name xml:lang="lat">De perfectione</name>
             <name>cpg2476</name>
-            <desc>Seventeen chapters concerning knowledge and the soul.</desc>
+            <desc>Seventeen chapters concerning knowledge and the soul. This material was translated into Armenian as Letter 24, and into Arabic as a supplement to the KG.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2476:version:hye</IRI>
+            <name>cpg2476-hye</name>
+            <name xml:lang="eng">Armenian translation of Perfection</name>
+            <desc>Rendered as letter 24 in the Armenian translation of the letter collection.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2476:version:ara</IRI>
+            <name>cpg2476-ara</name>
+            <name xml:lang="eng">Arabic translation of Perfection</name>
         </item>
         
         <item>
