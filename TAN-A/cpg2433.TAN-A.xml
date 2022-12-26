@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki@gmail.com,2014:tan-a:cpg2437">
+   <head>
+      <name>Evagrios Pontikos, Reflections</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2433.TAN-A.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+      </vocabulary>
+      
+      <source xml:id="gr913" which="cpg2433_grc_1931_Paris_Gr_913" accessed-when="2022-02-16"/>
+      <source xml:id="grB515" which="cpg2433_grc_1931_Barb_Gr_515" accessed-when="2022-02-16"/>
+      <source xml:id="grP1055" which="cpg2433_grc_1931_Paris_Gr_1055" accessed-when="2022-02-16"/>
+      <source xml:id="grP3098" which="cpg2433_grc_1931_Paris_Gr_3098" accessed-when="2022-02-16"/>
+      <source xml:id="Suarez" which="cpg2433_lat_Suarez" accessed-when="2022-02-16"/>
+      <source xml:id="Sinkewicz" which="cpg2433_grc_2003" accessed-when="2022-02-16"/>
+      <source xml:id="Dysinger" which="cpg2433_eng_1990" accessed-when="2022-02-16"/>
+      
+      
+      
+      
+      <vocabulary-key>
+         <alias xml:id="cpg2433" idrefs="Greek"/>
+         
+         <alias xml:id="Greek" idrefs="gr913 grB515 grP1055 grP3098 Suarez Sinkewicz Dysinger"/>
+
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2022-02-16" who="kalvesmaki">Created file</change>
+      <to-do>
+         <comment when="2022-02-16" who="kalvesmaki">Add Syriac</comment>
+      </to-do>
+   </head>
+   <body claimant="kalvesmaki">
+   </body>
+</TAN-A>

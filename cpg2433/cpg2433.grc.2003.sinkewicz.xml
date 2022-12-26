@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Skemmata_Sinkewicz_2003">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Fragments of the Reflections (Skemmata) documented by Sinkewicz in his 2003 translation</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2433/cpg2433.grc.2003.sinkewicz.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Skemmata"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Sinkewicz 2003"/>
+    
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    
+    <change when="2022-02-16" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  <text>
+    <body xml:lang="grc">
+      <div type="section" n="45">
+        <ab>τῶν λογισμῶν, οἱ μὲν ἐκ τοῦ χρόνου μόνον· οἱ δὲ, ἐκ τοῦ χρόνου καὶ ἐκ τῆς κατ' ἐνέργειαν ἁμαρτίας τὸν ἄνθρωπον βλάπτουσιν· καὶ ἐκ
+          τοῦ χρόνου μὲν μόνου, οἱ φυσικοί· ἐκ τοῦ χρόνου δὲ καὶ ἐκ τῆς ἐνεργείας, οἱ παρὰ φύσιν· κοινὸν γὰρ πάντων τῶν λογισμῶν τὸ 
+          βλάπτειν ἐκ τοῦ χρόνου.</ab>
+      </div>
+      <div type="section" n="S1">
+        <ab>Τῶν ἀκαθάρτων λογισμῶν, οἱ μὲν ἔξωθεν εἰσίασιν· οἱ δὲ ἐκ τῆς μνήμης γεννῶνται τῆς ψυχῆς·
+          καὶ οἱ μὲν ἔξωθεν προϋπάρχουσιν τῆς ἑαυτῶν γνώσεως, οἱ δὲ ἔσωθεν μετὰ τὴν αὐτῶν
+          γνῶσιν·</ab>
+      </div>
+      <div type="section" n="S2">
+        <ab>Λογισμὸς δαιμονιῶδης ἐστὶ νόημα πράγματος αἰσθητοῦ, θυμὸν ἢ ἐπιθυμίαν παρὰ φύσιν
+          κινῶν.</ab>
+      </div>
+      <div type="section" n="S3">
+        <ab>Χοῖρος βορβορώδης ἐστὶν ὁ τῆς πορνείας δαίμων, ὁ δὲ σύαγρος ὁ τῆς ὀργῆς ἐστίν· ὁ δὲ
+          διασπῶν τοὺς ὀδόντας αὐτῶν ἐν δυνάμει θεοῦ τὴν δύναμιν αὐτῶν καταθραύσει.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

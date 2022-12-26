@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Skemmata_Muyldermans-1931-paris-gr-3098">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Fragments of the Reflections (Skemmata) preserved in Paris. Gr. 3098, collated with Paris. supp. gr. 870, edited by Muyldermans</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2433/cpg2433.grc.1931.muyldermans.paris-gr-3098.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Skemmata"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Muyldermans 1931a"/>
+    
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    
+    <change when="2022-01-23" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  <text>
+    <body xml:lang="grc">
+      <milestone unit="folio" source="paris3098" n="56r"/>
+      <milestone unit="folio" source="parisSup870" n="151r"/>
+      
+      <div type="section" n="2">
+        <ab>Εἴ τις βούλοιτο ἰδεῖν τὴν τοῦ νοῦ κατάστασιν, στερησάτω αὐτὸν πάντων τῶν νοημάτων, καὶ
+          τότε ὄψεται ἀυτὸν σαπφείρῳ ἢ οὐρανίῳ χρώματι παρεμφερῆ· τοῦτο δὲ ποιῆσαι ἄνευ ἀπαθείας,
+          τῶν ἀδυνάτων ἐστί· Θεοῦ γὰρ χρεία συνεργοῦντος καὶ ἐμπνέοντος αὐτῷ τὸ συγγενὲς φῶς. </ab>
+      </div>
+
+      <div type="section" n="16">
+        <ab> Νοῦς ἐστι πρακτικὸς, ὁ τοῦ κόσμου τούτου ἀπαθῶς δεχόμενος τὰ νοήματα.</ab>
+      </div>
+      <div type="section" n="17">
+        <ab> Τέσσαρες τρόποι εἰσὶ δι' ὧν ὁ νοῦς λαμβάνει νοήματα· καὶ πρῶτος μὲν τρόπος, ὁ διὰ τῶν
+          ὀφθαλμῶν· δεύτερος, ὁ διὰ τῆς ἀκοῆς· τρίτος, ὁ διὰ τῆς μνήμης· τέταρτος, ὁ διὰ τῆς
+          κράσεως· καὶ διὰ μὲν τῶν ὀφθαλμῶν μορφοῦντα μόνον λαμβάνει νοήματα· διὰ δὲ τῆς ἀκοῆς, καὶ
+          μορφοῦντα καὶ μὴ μορφοῦντα, τῷ τὸν λόγον σημαίνειν πράγματα αἰσθητὰ καὶ θεωρητά· ἡ δὲ
+          μνήμη καὶ ἡ κράσις μιμοῦνται τὴν ἀκοήν· ἑκάτεραι γὰρ μορφοῦσι τὸν νοῦν.</ab>
+      </div>
+      <div type="section" n="19">
+        <ab>Ἐπειδὴ ἐκ τῶν πέντε αἰσθήσεων λαμβάνει ὁ νοῦς λογισμοὺς, τηρητέον ἐκ ποίας μᾶλλον
+          γίνονται χαλεπώτεροι· φανερὸν οὖν ἐστιν ἐκ τῆς ἀκοῆς, εἴγε καὶ λυπηρὸς λόγος ταράσσει
+          καρδίαν ἀνδρός.</ab>
+      </div>
+      <div type="section" n="22">
+        <ab>Ὁ νοῦς ποτὲ μὲν ἀπὸ νοήματος εἰς νόημα μεταβαίνει· ποτὲ δὲ ἀπὸ θεωρήματος εἰς θεωρήματα,
+          καὶ ἀπὸ θεωρήματος ἐπὶ νόημα· ἔστι δὲ ὅτε ἀπὸ τῆς ἀνειδέου καταστάσεως ἐπὶ νοήματα καὶ ἐπὶ
+          θεωρήματα, καὶ ἀπὸ τούτων πάλιν ἐπὶ τὴν ἀνείδεον κατάστασιν ἀνατρέχει κατὰ τὸν καιρὸν τῆς
+          προσευχῆς.</ab>
+      </div>
+      <div type="section" n="20">
+        <ab>Ὁ νοῦς ἐν πρακτικῇ ὢν, ἐν τοῖς νοήμασιν τοῦ κόσμου <milestone unit="folio"
+            source="paris3098" n="56v"/>τούτου ἐστίν· ἐν δὲ γνώσει ὢν, ἐν θεωρίᾳ διατρίβει· ἐν δὲ
+          προσευχῇ γινόμενος, ἐν τῷ ἀνειδέῳ ἐστιν, ὅπερ ὀνομάζεται τόπος Θεοῦ· </ab>
+      </div>
+      <div type="section" n="23">
+        <ab> Οὐκ ἂν δὲ ἴδῃ ὁ νοῦς τὸν τοῦ Θεοῦ τόπον ἐν ἑαυτῷ, μὴ τῶν ἐν τοῖς πράγμασιν νοημάτων
+          ὑψηλότερος γεγονώς· καὶ ἀπεκδυσάμενος τὰ πάθη τὰ συνδεσμοῦντα αὐτὸν τοῖς αἰσθητοῖς.</ab>
+      </div>
+      <div type="section" n="25">
+        <ab><quote>ἐγενήθη γάρ,</quote> φησιν, <quote>ἐν εἰρήνῃ ὁ τόπος αὐτοῦ</quote>. Τόπος τοίνυν
+          ἐστὶ τοῦ Θεοῦ, καὶ κατοικητήριον νοῦς φωτοειδὴς, τὰς κοσμικὰς ἐπιθυμίας ἀρνησάμενος.</ab>
+      </div>
+      <div type="section" n="21">
+        <ab>Τῶν πειρασμῶν οἱ μὲν ἡδονάς· οἱ δὲ λύπας· οἱ δὲ ὀδύνας σωματικὰς τοῖς ἀνθρώποις
+          προσάγουσι.</ab>
+      </div>
+      <div type="section" n="44">
+        <ab>Τῶν λογισμῶν οἱ μὲν ἄϋλοι εἰσίν· οἱ δὲ ὀλιγόϋλοι· οἱ δὲ πολύϋλοι· καὶ ἄϋλοι μὲν, οἱ ἀπὸ
+          τῆς ὑπερηφανίας· ὀλιγόϋλοι δὲ, οἱ τῆς πορνείας· πολύϋλοι δὲ, οἱ τῆς κενοδοξίας.</ab>
+      </div>
+      <div type="section" n="45">
+        <ab><milestone unit="folio" source="parisSup870" n="151r"/> Τῶν λογισμῶν, οἱ μὲν ἀπὸ χρόνου
+          βλάπτουσιν· οἱ δὲ, ἀπὸ τῆς κατ' ἐνέργειαν ἁμαρτίας· καὶ ἀπὸ τοῦ χρόνου μὲν, οἱ φυσικοί· ἐκ
+          τῆς ἐνεργείας δὲ, οἱ παρὰ φύσιν.</ab>
+      </div>
+      <div type="section" n="46">
+        <ab>Τῷ λογισμῷ τῷ ἀγαθῷ δύο ἀντίκεινται λογισμοὶ, ὅ τε δαιμονιώδης καὶ ὁ τῆς κακῆς
+          προαιρέσεως· τῷ δὲ πονηρῷ τρεῖς, ὁ ἐκ φύσεως, ὁ ἐκ τῆς ὀρθῆς προαιρέσεως καὶ ὁ ἐκ τοῦ
+          ἀγαθοῦ ἀγγέλου.</ab>
+      </div>
+      <div type="section" n="47">
+        <ab> Τῶν λογισμῶν οἱ μὲν ἔξωθεν ἔχουσι τὰς ὕλας· ὁ δὲ τῆς πορνείας ἐκ τοῦ σώματος.</ab>
+      </div>
+      <div type="section" n="48">
+        <ab>Καὶ οἱ μὲν αὐτῶν τῆς ψυχῆς γεννῶνται· οἱ δὲ ἔξωθεν ὑπὸ δαιμόνων ἐγγίνονται.</ab>
+      </div>
+      <div type="section" n="53">
+        <ab>Πρῶτος πάντων λογισμός ἐστιν ὁ τῆς φιλαυτίας μεθ' ὃν οἱ ὀκτώ.</ab>
+      </div>
+      <div type="section" n="55">
+        <ab>Καὶ οἱ μὲν αὐτῶν μορφοῦσι τὴν <milestone unit="folio" source="paris3098" n="57r"
+          />διάνοιαν, οἱ δὲ οὐ μορφοῦσι· καὶ μορφοῦσι μὲν ὅσοι ἐξ ὁράσεως. οὐ μορφοῦσι δὲ, ὅσοι ἐκ
+          τῶν λοιπῶν αἰσθήσεων ἡμῖν ἐπισυμβαίνουσιν.</ab>
+      </div>
+      <div type="section" n="58">
+        <ab>Ἰστέον ὅτι κοινόν ἐστι πάντων τῶν λογισμῶν, τὸ βλάπτειν ἐκ τοῦ χρόνου.</ab>
+      </div>
+      <div type="section" n="57">
+        <ab>Ἰστέον ὅτι μετὰ τὴν ἧτταν τῶν λογισμῶν ἁπα΄ντων, μόνοι συνίστανται καὶ συνεπεμβαίνουσι
+          ἡμῖν οἱ τῆς κενοδοξίας καὶ οἱ τῆς ὑπερηφανίας.</ab>
+      </div>
+      <div type="section" n="59">
+        <ab>Ἰστέον ὅτι τὰ μὲν τῶν παθῶν ἐκ μνήμης κινοῦνται, τὰ δὲ ἐξ αἰσθήσεως, τὰ δὲ ἐκ
+          δαιμόνων.</ab>
+      </div>
+      <div type="section" n="60">
+        <ab> Καὶ πάντες οἱ ἀκάθαρτοι λογισμοὶ ἢ ἐξ ἐπιθυμίας, ἢ ἐκ θυμοῦ, ἢ ἐκ λύπης δεσμοῦσι τὸν
+          νοῦν.</ab>
+      </div>
+    </body>
+  </text>
+</TEI>

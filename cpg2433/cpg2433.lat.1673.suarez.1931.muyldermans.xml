@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Reflections_Suarez">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Latin translation of Reflections (Skemmata/Capita Cognoscitiva) by Jos. Maria Suarez as edited by Muyldermans</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2433/cpg2433.lat.1673.suarez.1931.muyldermans.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Skemmata"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Dysinger 1990"/>
+    <adjustments>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
+        <name>Small caps removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-color-off</IRI>
+        <name>Color removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-italics-off</IRI>
+        <name>Italics removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-xrefs-off</IRI>
+        <name>Translator's references to other primary sources removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:l-sep-off</IRI>
+        <name>left separator, U+2028, removed</name>
+      </normalization>
+      <normalization which="no reference markers"/>
+      
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    
+    <change when="2022-01-23" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  <text>
+    <body xml:lang="lat">
+      <milestone unit="folio" n="193v"/>
+      <div type="title" n="title">
+        <ab>Evagrii monachi capita cognoscitiva</ab>
+      </div>
+      <div type="section" n="1">
+        <ab>Christus, quo pacto Christus est, habet essentialem cognitionem, qua ratione conditor
+          orbis, rationes saeculorum, qua vero incorporeus rationes rursus incorporeorum.</ab>
+      </div>
+      <div type="section" n="2">
+        <ab>Si quis videre velit statum mentis, privet seipsum omnibus notitiis, tuncque ipsum
+          intuebitur sapphiro aut caelesti colori similem; hoc facere absque passionum vacuitate
+          inter impossibilia est, Dei quippe opus cooperantis ei qui contra ipsum spirat, cognatum
+          lumen.</ab>
+      </div>
+      <div type="section" n="3">
+        <ab>Passionum orbatio est status tranquillus animae rationalis,
+          constans e mansuetudine ac e temperantia.</ab>
+      </div>
+      <div type="section" n="4">
+        <ab>Mentis status est sublimitas intelligibilis caelesti similis colori,
+          quo lumen sanctae Trinitatis ad tempus orationis supervenit.</ab>
+      </div>
+      <div type="section" n="5">
+        <ab>Christus est natura rationalis quod a deorsum volante supra
+          ipsum columba, significatum habet in seipso.</ab>
+      </div>
+      <milestone unit="folio" n="194r"/>
+      <div type="section" n="6">
+        <ab>Suffimentum est mens pura ad tempus orationis, non connexa rei sensibili. Secundum
+          virtutem quidem unum erimus in octava die, secundum vero cognitionem in ultima die.</ab>
+      </div>
+      <div type="section" n="7">
+        <ab>Mentis osculum est reprehensum, notitia passioni obnoxia rei sensibilis, ideo dicit
+          Salvator discipulis : « Neminem per viam virtutis salutaveritis ».</ab>
+      </div>
+      <div type="section" n="8">
+        <ab>Iracundia est vis animae corruptrix cogitationum.</ab>
+      </div>
+      <div type="section" n="9">
+        <ab>Canina est mens contemplativa ob motum iracundiae, omnes expellens cogitationes passioni
+          obnoxias.</ab>
+      </div>
+      <div type="section" n="10">
+        <ab>Canina est mens activa, omnes iniustas cogitationes oblatrans.</ab>
+      </div>
+      <div type="section" n="11">
+        <ab>Doctrina est repudiatio impietatis et mundanarum cupiditatum.</ab>
+      </div>
+      <div type="section" n="12">
+        <ab>Metus est proditio subsidiorum a cogitationibus.</ab>
+      </div>
+      <div type="section" n="13">
+        <ab>Cogitatio daemonialis est imago sensibilis hominis, consistens secundum intelligentiam
+          cum qua mens commota passioni obnoxie, dicit quid ea facit, in occulto, iniuste ad
+          simulacrum incidens expulsa ab ipso successive.</ab>
+      </div>
+      <div type="section" n="14">
+        <ab>Secedens est, qui in mundo secundum intelligentiam constituto, pie atque iuste conversus
+          est.</ab>
+      </div>
+      <div type="section" n="15">
+        <ab>Homo activus est, qui sibi datis a Deo recte utitur.</ab>
+      </div>
+      <div type="section" n="16">
+        <ab>Mens est activa, quae mundi huius absque passione semper notitias suscipit.</ab>
+      </div>
+      <div type="section" n="17">
+        <ab>Quatuor sunt modi quibus mens accipit notitias, et primus quidem modus, qui per oculos,
+          secundus, qui per auditum, tertius, qui per memoriam, et quartus, qui per temperamentum;
+          et per oculos quidem notitias accipit solum efformatas, per auditum formam habentes et non
+          formam habentes, significante sermone res sensibiles et contemplationi subditas, memoria
+          vero atque temperamentum subsequuntur auditum, utraque namque formant mentem et non
+          formant imitando auditum.</ab>
+      </div>
+      <div type="section" n="18">
+        <ab>In corporibus equidem et simultanea essentia et altera est, in incorporeis autem
+          solummodo consubstantialitas, nulla quippe contemplationum est ipsa quae astrorum est
+          dispectio. In Trinitate vero solum est coessentialitas, nec enim res suppositae
+          differentes sunt ut in dispectionibus, neque rursus e pluribus essentiis constant, ut in
+          corporibus ; essentias autem nunc dico quae ad constitutionem perficiendam conferunt
+          definitione osten, <milestone unit="folio" n="194v"/>quidnam sit suppositi, sed nec in
+          incorporeis, si vero et illa dicimus coessentialia quod ipsius cognitionis susceptiva
+          sint.</ab>
+      </div>
+      <div type="section" n="19">
+        <ab>Postquam e quinque sensibus accipit mens cogitationes, inquirendum e quo potissimum
+          fiant asperiores; evidens enim igitur quod ex auditu, siquidem et sermo molestus turbat
+          cor hominis, iuxta proverbium.</ab>
+      </div>
+      <div type="section" n="20">
+        <ab>Mens quae in actione versatur, est in mundi huius notitiis, quae autem in cognitione
+          diversatur, in contemplatione, cum vero orationi dat operam, est sine forma (quod vocatur
+          locus Dei); ipse igitur videt eam, quae in corporibus est coessentiam, et eam, quae in
+          contemplationibus, et illam, quae est in Deo; quod vero de Deo est, ex impossibilibus
+          manifeste, cum sit incerta essentialis cognitio, nullamque habeat differentiam ad
+          cognitionem essentialem.</ab>
+      </div>
+      <div type="section" n="21">
+        <ab>Tentationum hae quidem voluptates, istae vero dolores, illae autem cruciatus corporeos
+          hominibus adducunt.</ab>
+      </div>
+      <div type="section" n="22">
+        <ab>Mens aliquando quidem a notitia transgreditur in notitiam, interdum a contemplatione in
+          speculationem, et rursus a notitia in speculationem, et a speculatione in notitiam.
+          Accedit vero ut et ab informi statu ad notitias, aut ad speculationes, et ab his rursus ad
+          informem statum recurrit; hoc vero ipsi contingit sub tempore orationis.</ab>
+      </div>
+      <div type="section" n="23">
+        <ab>Nisi viderit mens Dei locum in seipso, non omnium in rebus notitiarum altior erit; non
+          erit autem excelsior, nisi passiones exuat, quae ipsam devinciunt per notitias cum rebus
+          sensibilibus; et passiones quidem deponet per virtutes, simplices vero cogitationes per
+          spiritualem contemplationem, et hanc rursus, illucescente ipsi lumine.</ab>
+      </div>
+      <div type="section" n="24">
+        <ab>Daemoniales cogitationes oculum sinistrum animae excaecant, contemplationi rerum
+          factarum incumbentem.</ab>
+      </div>
+      <div type="section" n="25">
+        <ab>A sancto David clare didicimus quis sit locus Dei : <quote>Factus est in pace locus eius
+            et habitaculum eius in Sion</quote>. Locus igitur Dei est anima rationalis, habitaculum
+          autem mens illuminata mundanas renuens cupiditates, edocta rationes terrae ex alto
+          speculari.</ab>
+      </div>
+      <div type="section" n="26">
+        <ab>Oratio est status mentis, omnis terrenae notitiae corruptivus. </ab>
+      </div>
+      <div type="section" n="27">
+        <ab>Oratio est status mentis, factus a lumino solo sanctae Trinitatis.</ab>
+      </div>
+      <div type="section" n="28">
+        <ab><milestone unit="folio" n="195r"/>Precatio est colloquium mentis cum Deo, quae cum
+          supplicatione opem aut petitionem bonorum complectitur.</ab>
+      </div>
+      <div type="section" n="30">
+        <ab>Intercessio est advocatio a maiori Deo approximans pro salute aliorum. </ab>
+      </div>
+      <div type="section" n="29"><ab>Oratio est voluntaria bonorum suffusio.</ab>
+      </div>
+      <div type="section" n="31">
+        <ab>Infernus est regiuncula sine lumine plena tenebris aeternis et caligine.</ab>
+      </div>
+      <div type="section" n="32">
+        <ab>Cognoscitivus est quotidianus mercenarius.</ab>
+      </div>
+      <div type="section" n="33">
+        <ab>Activus est locator operum mercede, expectans ab altero mercedem.</ab>
+      </div>
+      <div type="section" n="34">
+        <ab>Mens est templum sanctae Trinitatis.</ab>
+      </div>
+      <div type="section" n="35">
+        <ab>Mens est corporea, quae omnia saecula spectat.</ab>
+      </div>
+      <div type="section" n="36">
+        <ab>Mens impura est, quae diutino tempore immoratur cum passione vituperata, rebus
+          sensibilibus.</ab>
+      </div>
+      <div type="section" n="37">
+        <ab>Cupiditas est vis animae, quae abolet iracundiam.</ab>
+      </div>
+      <div type="section" n="38">
+        <ab>Activus est in mundo secundum intellectum consistente, pie atque iuste conversans.</ab>
+      </div>
+      <div type="section" n="39">
+        <ab>Contemplativus est, qui efformat sensibilem mundum iuxta intellectum eius tantum
+          cognitionis caussa.</ab>
+      </div>
+      <div type="section" n="40">
+        <ab>Cogitationum hae quidem velut animalibus contingunt nobis, istae vero tamquam hominibus;
+          quantae a cupiditate sunt alque iracundia, uti animalibus quidem, sicut autem hominibus,
+          quantae sunt a dolore atque vana gloria et superbia. At quae a prigitia et tamquam
+          animalibus et velut hominibus mistae sunt.</ab>
+      </div>
+      <div type="section" n="41">
+        <ab>Cogitationum aliquae sunt quae praeeunt, quaedam sequuntur; el praeeunt quidem illae,
+          quae sunt a superbia, sequuntur autem quae ab iracundia procedunt.</ab>
+      </div>
+      <div type="section" n="42">
+        <ab>Praeeuntium cogitationum hae quidem antecedunt, illae autem subsequuntur; antecedunt
+          quae e gula, subsequuntur autem quae e luxuria.</ab>
+      </div>
+      <div type="section" n="43">
+        <ab>Sequentium primas cogitationum hae praeeunt quidem, ille vero sequuntur; et praeeunt
+          quidem quae sunt a dolore, sequuntur autem quae ab iracundia, siquidem, iuxta proverbium,
+          sermo dolore afficiens excitat iras.</ab>
+      </div>
+      <div type="section" n="44">
+        <ab>Cogitationum hae quidem sunt immateriales, hae vero parvae materiae, istae autem
+          multiplicis; et immateriales quidem quae a prima superbia, parvae materiae autem quae a
+          luxuria, multiplicis denique quae sunt a vana gloria.</ab>
+      </div>
+      <div type="section" n="45">
+        <ab>Cogitationum illae quidem a tempore laeduntur, hae vero <milestone unit="folio" n="195v"
+          />a consensione, istae autem a peccato secundum operationem; et e tempore quidem solo
+          naturales, e tempore vero atque operatione, quae praeter naturam, quandoque daemoniaca et
+          mali propositi.</ab>
+      </div>
+      <div type="section" n="46">
+        <ab>Bonae cogitationi duae opponuntur cogitationes, aliquando daemoniaca et mali propositi.
+          Malae autem tres, e natura, e recto proposito et ex angelo.</ab>
+      </div>
+      <div type="section" n="47">
+        <ab>Cogitationum hae quidem exterius habent materias, at quae luxuriae est e corpore.</ab>
+      </div>
+      <div type="section" n="48">
+        <ab>Cogitationum illae quidem ex anima commota generantur, hae vero exterius a daemone
+          fiunt.</ab>
+      </div>
+      <div type="section" n="49">
+        <ab>Impurarum cogitationum hae quidem Deum exhibent iniustum, hae autem personarum
+          acceptorem, illae vero impotentem, istae denique immisericordem; iniustum quidem quae sunt
+          luxuriae et vanae gloriae, personarum acceptorem quae secundae superbiae fiunt
+          cogitationes, impotentem quae primae superbiae, immisericordem vero reliquae.</ab>
+      </div>
+      <div type="section" n="50">
+        <ab>Cogitationum istae quidem nobis accidunt ut monachis, illae autem uti mundanis.</ab>
+      </div>
+      <div type="section" n="51">
+        <ab>Omnem cogitationem sequitur voluptas praeter cogitationes doloris.</ab>
+      </div>
+      <div type="section" n="52">
+        <ab>Cogitationum hae quidem priores habent cognitionum imaginationes, aliae autem
+          cognitiones.</ab>
+      </div>
+      <div type="section" n="53">
+        <ab>Prima omnium cogitatio est amoris proprii, post quam octo.</ab>
+      </div>
+      <div type="section" n="54">
+        <ab>Cogitationum istae quidem ex sensu, aliae autem sunt ex bello communi.</ab>
+      </div>
+      <div type="section" n="55">
+        <ab>Cogitationum aliquae profecto formant intellectum, aliae vero non formant; et formant
+          quidem quaecumque ex visu, non formant autem quae nobis contingunt ex aliis sensibus.</ab>
+      </div>
+      <div type="section" n="56">
+        <ab>Cogitationum quaedam sunt secundum naturam, aliae praeter naturam; et praeter naturam
+          quidem quaecumque sunt a cupiditate atque ex iracundia, secundum naturam vero quaecumque
+          ex patre, aut matre, aut uxore, aut filiis.</ab>
+      </div>
+      <div type="section" n="57">
+        <ab>Solae cogitationum quae sunt vanae gloriae et superbiae, posteaquam victae sunt reliquae
+          cogitationes, superveniunt cogitationes.</ab>
+      </div>
+      <div type="section" n="58">
+        <ab>Commune omnium cogitationum est nocere ex tempore.</ab>
+      </div>
+      <div type="section" n="59">
+        <ab>Passionum commotarum haec quidem moventur ex memoria, illa vero ex sensu, quaedam autem
+          ex daemonibus.</ab>
+      </div>
+      <div type="section" n="60">
+        <ab>Omnes impurae cogitationes aut ex cupiditate, aul ex <milestone unit="folio" n="196r"/>
+          ira, vel dolore mentem devinciunt.</ab>
+      </div>
+      <div type="section" n="61">
+        <ab>Solae cogitationum eae quae sunt doloris, sunt omnium corruptive cogitationum.</ab>
+      </div>
+      <div type="section" n="62">
+        <ab>Notitiarum eae quae sunt ex sensu quinque numerantur, at quae ex memoria, decem quarum
+          quinque sunt purae si bene egeris, quinque autem impurae si male apud seipsum quis rem
+          gesserit, quae vero ex angelis quinque spirituales, quae a daemonibus quinque; harum aliae
+          quidem sunt a visu et hae quinque ex memoria bonae et malae, ex angelo, ex visu, e
+          daemonibus, quarum duae quidem malignae, e memoria malae, et ex daemonibus imitantibus
+          visum, tres vero purae, informes vero seu invisibiles viginti octo.</ab>
+      </div>
+
+    </body>
+  </text>
+</TEI>

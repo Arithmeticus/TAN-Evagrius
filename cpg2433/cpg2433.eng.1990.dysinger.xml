@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Reflections_Dysinger">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">English translation of Reflections (Skemmata) by Dysinger</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2433/cpg2433.eng.1991.dysinger.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Skemmata"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Dysinger 1990"/>
+    <adjustments>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
+        <name>Small caps removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-color-off</IRI>
+        <name>Color removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-italics-off</IRI>
+        <name>Italics removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-xrefs-off</IRI>
+        <name>Translator's references to other primary sources removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:l-sep-off</IRI>
+        <name>left separator, U+2028, removed</name>
+      </normalization>
+      <normalization which="no reference markers"/>
+      
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    
+    <change when="2022-01-23" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  <text>
+    <body xml:lang="en">
+      <div type="section" n="1">
+        <ab>The CHRIST[:]
+          
+          as Christ, has essential knowledge; while
+          
+          as creator [he has] the logoi [inner meanings] of the ages; and
+          
+          as incorporeal [he has] the logoi of incorporeal [being]s.</ab>
+      </div>
+      <div type="section" n="2">
+        <ab>If any would see the state of the[ir] nous, let them deprive themsel[ves] of all concepts (noemata)[:]
+          
+          and then they will see themsel[ves] like a sapphire or the color of heaven; (Exod. 24:10)
+          
+          but this cannot be accomplished without apatheia, [dispassion] since it requires the cooperation of God who breathes into them the kindred light.</ab>
+      </div>
+      <div type="section" n="3">
+        <ab>Apatheia is [the] quiet state of the reasoning soul composed of gentleness and
+          temperance.</ab>
+      </div>
+      <div type="section" n="4">
+        <ab>The state of the nous is the noetic (intelligible) height like the color of heaven, upon
+          which the light of the holy Trinity comes at the time of prayer.</ab>
+      </div>
+      <div type="section" n="5">
+        <ab>Christ is [the] reasoning nature who has [with]in himself what is symbolized by the dove
+          descending upon him. </ab>
+      </div>
+      <div type="section" n="6">
+        <ab>A censer is the pure nous at the time of prayer: it has no matters associated with the
+          senses joined to it. </ab>
+        <ab>According to virtue we will be one on the eighth day; while according to knowledge [we
+          will be one] on the last day.</ab>
+      </div>
+      <div type="section" n="7">
+        <ab>The kiss of the nous is a blameworthy thing, an impassioned thought (noema) of a
+          sensible concern. And thus the Savior said to the disciples, <quote>Greet no one along the
+            way</quote> of virtue.</ab>
+      </div>
+      <div type="section" n="8">
+        <ab>Irascibility (thumos) is a power of the soul destructive of [tempting-]thoughts
+          (logismoi).</ab>
+      </div>
+      <div type="section" n="9">
+        <ab>Like a [guard-]dog [lit. dog-like] is the contemplative nous: through the movements of
+          irascibility it hunts down all impassioned [tempting-]thoughts.</ab>
+      </div>
+      <div type="section" n="10">
+        <ab>Like a [guard-]dog [lit. dog-like] is the ascetical nous, hunting down unjust
+          [tempting-]thoughts.</ab>
+      </div>
+      <div type="section" n="11">
+        <ab>Instruction is [the] denial of impiety and worldly desires.</ab>
+      </div>
+      <div type="section" n="12">
+        <ab>Fear is betrayal of the thoughts that come to [our] assistance.</ab>
+      </div>
+      <div type="section" n="13">
+        <ab>A Demonic [tempting-]thought is the image of the sensing man, constituted according to
+          reason through which the nous that has fallen [lit. moved] through passion secretly says
+          or does something lawlessly to an idol that is has [allowed] to creep in.</ab>
+      </div>
+      <div type="section" n="14">
+        <ab>The anchorite is one who, in the world erected according to reason, dwells justly and
+          piously.</ab>
+      </div>
+      <div type="section" n="15">
+        <ab>An ascetical person is one who makes appropriate use of the gifts from God.</ab>
+      </div>
+      <div type="section" n="16">
+        <ab>The ascetical nous is one that always receives the thoughts of this world with
+          apatheia.</ab>
+      </div>
+      <div type="section" n="17">
+        <ab>There are four ways by which the nous receives thoughts. The first way is through the
+          eyes; the second, through hearing; the third, through memory; the fourth, through
+          temperament [krasis]. Through the eyes it receives only forms of thoughts. Through
+          hearing, [it receives] both forms and unformed [thoughts]; the mind [logos] signifying
+          matters both sensed and contemplated. Memory and temperament [krasis] follow upon hearing,
+          each forming the nous or not forming it in imitation of hearing.</ab>
+      </div>
+      <div type="section" n="18">
+        <ab>In bodies there [can be] both equality of essence and difference of essence. While in
+          incorporeal [beings] there is only equality of essence, in [forms of] knowledge there is
+          only difference of essence.</ab>
+        <ab>For none of the contemplations is the same except contemplation of the stars. In the
+          Trinity, [there is] only equality of essence [consubstantiallity], for there are no
+          different underlying objects as in [other] contemplations. Nor does [the Trinity] consist
+          of many essences as bodies do.</ab>
+        <ab>And by “essences” I mean those that contribute to the composition of a designation that
+          indicates the being of the subject; but not as in the case of incorporeal [beings],
+          although we [may] speak of them as equal in essence [consubstantial] in their
+          receptiveness to the same knowledge.</ab>
+      </div>
+      <div type="section" n="19">
+        <ab>Since the nous receives [tempting] thoughts from the five senses, one should ponder from
+          which [they are received] with greatest difficulty. And it is evident that it is by means
+          of hearing, since <quote>a depressing word disturbs the heart of a man</quote>, according
+          to the proverb.</ab>
+      </div>
+      <div type="section" n="20">
+        <ab>The nous occupied in ascetical practice is in the thoughts of this world. When occupied
+          with knowledge it is employed in contemplation. When it [attains] to prayer, it is in
+          formlessness, which is called the “place of God”. Then it will see the equality of
+          essence and the difference of essence in bodies, in contemplations, and in God. </ab>
+        <ab>That which concerns God clearly pertains to what is impossible, since essential
+          knowledge is obscure and change does not pertain to essential knowledge.</ab>
+      </div>
+      <div type="section" n="21">
+        <ab>Some temptations lead to pleasures, others to sadness [depression], still others to
+          bodily pain for human beings.</ab>
+      </div>
+      <div type="section" n="22">
+        <ab>The mind sometimes moves from one thought to another thought, sometimes from one
+          contemplation to another contemplation, and then from contemplation to thoughts. But there
+          are also [times] when it moves from an imageless state to thoughts or to contemplations
+          and [then] back again from these to the imageless state. This happens to it at the time of
+          prayer. </ab>
+      </div>
+      <div type="section" n="23">
+        <ab>The mind is unable to see the ‘place of God’ in itself unless it has been raised higher
+          than all thoughts of practical matters. And it will not be raised higher unless it has put
+          aside all the passions that bind it to perceptible objects through thoughts. And passion
+          will be put aside through the virtues, and simple thoughts through spiritual
+          contemplation. And this will happen when the light has been manifested to it.</ab>
+      </div>
+      <div type="section" n="24">
+        <ab>Demonic thoughts blind the left eye of the soul, which is given over to contemplation of
+          things that have come to be.</ab>
+      </div>
+      <div type="section" n="25">
+        <ab>From holy David we have exactly learned what the ‘place of God’ is, for he says: In
+          peace is His place established and his dwelling on Zion (Ps 75:3). The ‘place of God’ is
+          therefore the reasoning soul, and his dwelling [is] the luminous nous that has renounced
+          the desires of the world and been taught to behold the logoi of the earth.</ab>
+      </div>
+      <div type="section" n="26">
+        <ab>Prayer is a state of the nous destructive of every earthly thought.</ab>
+      </div>
+      <div type="section" n="27">
+        <ab>Prayer is the state of the nous [illuminated] by the sole light of the Blessed
+          Trinity.</ab>
+      </div>
+      <div type="section" n="28">
+        <ab>A petition is a conversation of the nous with God requesting supplication, encompassing
+          help or requesting good things.</ab>
+      </div>
+      <div type="section" n="29">
+        <ab>A vow is a willing promise of good things.</ab>
+      </div>
+      <div type="section" n="30">
+        <ab>An intercession is an invocation presented to God for the salvation of others by one who
+          is greater.</ab>
+      </div>
+      <div type="section" n="31">
+        <ab>Hades is a lightless region filled with eternal darkness and gloom.</ab>
+      </div>
+      <div type="section" n="32">
+        <ab>The gnostic is a salaried day-laborer.</ab>
+      </div>
+      <div type="section" n="33">
+        <ab>The ascetic is a day-laborer, awaiting his payment.</ab>
+      </div>
+      <div type="section" n="34">
+        <ab>The nous is the temple of the Holy Trinity</ab>
+      </div>
+      <div type="section" n="35">
+        <ab>The incarnate nous is the contemplator of all the ages.</ab>
+      </div>
+      <div type="section" n="36">
+        <ab>The impure nous is one that delays over a blameworthy passion [arising from] through
+          perceptible things.</ab>
+      </div>
+      <div type="section" n="37">
+        <ab>Desire is the power of the soul that destroys anger.</ab>
+      </div>
+      <div type="section" n="38">
+        <ab>The ascetic is one who lives piously and justly [as a free citizen] in the world erected
+          according to reason (dianoia).</ab>
+      </div>
+      <div type="section" n="39">
+        <ab>The contemplative is one who shapes the sensible world according to [his] reason
+          (dianoia) solely on account of its knowledge.</ab>
+      </div>
+      <div type="section" n="40">
+        <ab>Of the [tempting-]thoughts, some accompany us as living beings [animals], others as
+          human beings. [Accompanying us] as living beings are those that arise from desires and
+          anger; [Accompanying us] as human beings are those arising from sadness [depression],
+          vainglory, and pride; while the ones arising from acedia are a blend [of vices that
+          accompany us both] as living beings and human beings.</ab>
+      </div>
+      <div type="section" n="41">
+        <ab>Of the [tempting-]thoughts, some lead, while others follow. Those of pride* lead, those
+          of anger (thumos) follow.</ab>
+      </div>
+      <div type="section" n="42">
+        <ab>Of the [tempting-]thoughts that lead, some are likewise in front while others follow.
+          The ones in front arise from gluttony, while those that follow arise from lust.</ab>
+      </div>
+      <div type="section" n="43">
+        <ab>Of the [tempting-]thoughts that follow after the first ones, some lead and some follow.
+          Those that lead are from sadness [depression], while the ones that follow are from anger.
+          Thus, as Proverbs says, <quote>a sad word give rises to anger</quote>.</ab>
+      </div>
+      <div type="section" n="44">
+        <ab>Of the [tempting-]thoughts, some are immaterial, others have some matter [i.e. objects],
+          and still others have abundant matter [ie. objects]. The immaterial are those from the
+          first pride; those from lust have some matter [ie. objects]; and those from vainglory have
+          abundant matter [ie. objects].</ab>
+      </div>
+      <div type="section" n="45">
+        <ab>Of the [tempting-]thoughts, some cause harm over time, others by assent. The latter
+          [harm] by the committing of sin. Those that only [harm] over time are natural. And those
+          that [harm] both over time and by the committing [of sin] are those against nature: the
+          demonic and those that propose vice.</ab>
+      </div>
+      <div type="section" n="46">
+        <ab>To thoughts that are good, two [tempting-]thoughts are opposed: the demonic and those
+          proposing vice. To evil [thoughts] three [are opposed]: from nature, from proposing
+          uprightness, and from an angel.</ab>
+      </div>
+      <div type="section" n="47">
+        <ab>Of the [tempting-]thoughts, some have external matter [ie. objects] , while those of
+          lust [have matter [ie. objects] ] from the body.</ab>
+      </div>
+      <div type="section" n="48">
+        <ab>Of the [tempting-]thoughts, some arise from the fallen [lit. ‘moved’] soul, while others
+          arise externally by means of demons.</ab>
+      </div>
+      <div type="section" n="49">
+        <ab>Of the unclean [tempting-]thoughts: some depict God as unjust, others as prejudiced,
+          others as impotent, and still others as without mercy. [Depicting God as] unjust are those
+          arising from lust and vainglory; as prejudiced, the [tempting-]thoughts originating from
+          the second pride; as impotent, those arising from the first pride; and as unmerciful, the
+          rest.</ab>
+      </div>
+      <div type="section" n="50">
+        <ab>Of the [tempting-]thoughts, some [remain and] accompany us as monks; others [with us as]
+          men of the world.</ab>
+      </div>
+      <div type="section" n="51">
+        <ab>EVERY [tempting-]thought is followed by pleasure except the [tempting-]thought of deep
+          sorrow [depression].</ab>
+      </div>
+      <div type="section" n="52">
+        <ab>Of the [tempting-]thoughts, some are preceded by fantasies of their own [items of]
+          knowledge, others by [items of] knowledge.</ab>
+      </div>
+      <div type="section" n="53">
+        <ab>The first of all [tempting-]thought[s] is love of self; after it [come] the eight.</ab>
+      </div>
+      <div type="section" n="54">
+        <ab>Some [tempting-]thoughts arise from requesting [seeking]; others arise from the common
+          struggle.</ab>
+      </div>
+      <div type="section" n="55">
+        <ab>Some thought form [imprint] the mind [dianoia]; others do not form it. [The ones that]
+          form it are things that arise from sight; [the ones that] do not form it are such things
+          arising from the other senses that [remain and] accompany us.</ab>
+      </div>
+      <div type="section" n="56">
+        <ab>Of the [tempting-]thoughts, some are according to nature, while others are contrary to
+          nature. And contrary to nature are those [arising] from desire and anger; while according
+          to nature are those [arising] from father, mother, wife, and children.</ab>
+      </div>
+      <div type="section" n="57">
+        <ab>Among the [tempting-]thoughts, only the [tempting-]thoughts of vainglory and pride
+          [remain and] accompany us after conquest of the other [tempting-]thoughts. </ab>
+      </div>
+      <div type="section" n="58">
+        <ab>To cause injury [mislead] is common to all thoughts. </ab>
+      </div>
+      <div type="section" n="59">
+        <ab>Of the fallen passions, some are moved by memory, others by the senses, still other by
+          demons.</ab>
+      </div>
+      <div type="section" n="60">
+        <ab>All the impure [tempting-]thoughts are from desire or from anger or from deep sadness
+          [depression] chain the nous.</ab>
+      </div>
+      <div type="section" n="61">
+        <ab>Only the [tempting-]thoughts of deep sadness [depression] are destructive of all the
+          [tempting-]thoughts.</ab>
+      </div>
+      <div type="section" n="62">
+        <ab>The thoughts arising from sensation are five; those from memory are ten. Of these, five
+          are pure if they are accomplished well; five are impure if they are accomplished badly.
+          From angels there are five spiritual [concepts]; there are five from demons. Of these,
+          those from [?a]vision are five: from [1] good and [2] evil memory; [3] from an angel; [4]
+          from sight, and [5] from demons. Of these, two are evil: [1] from evil memory; and [2]
+          from demons imitating a vision. There are three pure [thoughts]; but the imageless are
+          twenty-eight.</ab>
+      </div>
+
+    </body>
+  </text>
+</TEI>
