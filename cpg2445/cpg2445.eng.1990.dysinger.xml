@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Maxims3_Dysinger_1990">
+  <head>
+    <name xml:lang="eng">Fragments of Maxims III (Aliae Sententiae) translated by Dysinger</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2444/cpg2444.eng.dysinger.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Maxims_3"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Dysinger 1990"/>
+    <adjustments>
+      <normalization which="em_dashes_normalized"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <change when="2022-12-26" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  
+  <body xml:lang="eng">
+    <div n="1" type="section">The beginning of love—to be suspicious of glory.</div>
+    <div n="2" type="section">Good it is to be rich in gentleness and love</div>
+    <div n="3" type="section">The winnower of virtue is the tempt[ing-thought] of pride.</div>
+    <div n="4" type="section">The way is made level by almsgiving.</div>
+    <div n="5" type="section">Unjust judge—pollution of the conscience.</div>
+    <div n="6" type="section">Terrible it is to be a slave to passions of the flesh.</div>
+    <div n="7" type="section">If you wish to be free of sadness, be eager to please God.</div>
+    <div n="8" type="section">The one who takes proper thought of himself—of him God takes
+      thought.</div>
+    <div n="9" type="section">The temperate heart—a harbor of contemplative insights.</div>
+    <div n="10" type="section">If you wish to know who you [truly] are, do not measure yourself
+      against who you were, but rather [against] what you have come to be since the beginning.</div>
+    <div n="11" type="section">A cistern without water—the soul that loves fame.</div>
+    <div n="12" type="section">The proud soul—an inn of thieves—hates the sound of
+      knowledge.</div>
+    <div n="13" type="section">For a true man it is an evil deviation not to know the
+      Scriptures.</div>
+    <div n="14" type="section">If you fear God you will know Him through tears.</div>
+    <div n="15" type="section">An unbreakable tool—a humble soul. </div>
+    <div n="16" type="section">A tree in paradise—the man who loves virtue. </div>
+    <div n="17" type="section">Jesus Christ is the tree of life: Consult him as is proper and you
+      will not ever die.</div>
+    <div n="18" type="section">The one beneficent towards the truly poor also eats of Christ.</div>
+    <div n="19" type="section">True strength—eating the body of Christ. </div>
+    <div n="20" type="section">If you love Christ, you will keep his commandments without
+      forgetting.</div>
+    <div n="21" type="section">From their place the beneficent, who are like God, shine forth.</div>
+    <div n="22" type="section">The friend in accordance with God—like milk and honey flow [his]
+      true words.</div>
+    <div n="23" type="section">But the apathetic soul will not have such a friend.</div>
+    <div n="24" type="section">Savage master—a pleasure-loving [tempting] thought.</div>
+    <div n="25" type="section"> Silencing the truth is burying gold.</div>
+    <div n="26" type="section">The one who fears God does all in accordance with God.</div>
+  </body>
+  
+</TAN-T>

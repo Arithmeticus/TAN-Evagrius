@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Maxims3_Elter_1892">
+  <head>
+    <name xml:lang="eng">Fragments of Maxims III (Aliae Sententiae) published by Elter</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2445/cpg2445.grc.1892.elter.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Maxims_3"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Elter 1892"/>
+    <adjustments>
+      <normalization which="no hyphens"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <change when="2022-12-26" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  
+  <body xml:lang="grc">
+    <div n="1" type="section">Ἀρχὴ ἀγάπης ὑπόληψις δόξης. </div>
+    <div n="2" type="section">Καλὸν πλουτεῖν ἐν πραΰτητι καὶ ἀγάπῃ. </div>
+    <div n="3" type="section">Λικμήτωρ ἀρετῆς λογισμὸς ὑπερήφανος. </div>
+    <div n="4" type="section">Λεία ὁδὸς ὑπὸ ἐλεημοσύνης γίνεται. </div>
+    <div n="5" type="section">Ἄδικος δικαστὴς μεμολυσμένη συνείδησις. </div>
+    <div n="6" type="section">Δεινόν ἐστι πάθεσι δουλεύειν σαρκός. </div>
+    <div n="7" type="section">Εἰ θέλεις ἄλυπος εἶναι, θεῷ ἀρέσκειν σπούδαζε. </div>
+    <div n="8" type="section">Ὁ καλῶς φροντίζων ἑαυτοῦ φροντίζεται ὑπὸ θεοῦ. </div>
+    <div n="9" type="section">Σώφρων καρδία λιμὴν θεωρημάτων. </div>
+    <div n="10" type="section">Ὅταν θέλῃς σαυτὸν γνῶναι τίς εἶ, μὴ συγκρίνῃς τίς ἦς, ἀλλὰ τί
+      γέγονας ἐξ ἀρχῆς. </div>
+    <div n="11" type="section">Λάκκος ἄνυδρος φιλόδοξος ψυχή. </div>
+    <div n="12" type="section">Ὑπερήφανος ψυχὴ πανδοχεῖον λῃστῶν, μισεῖ δὲ ἦχον γνώσεως. </div>
+    <div n="13" type="section">Ἀληθοῦς ἀνδρὸς πλάνη κακὴ τὸ μὴ εἰδέναι τὰς Γραφάς. </div>
+    <div n="14" type="section">Εἰ φοβῇ τὸν θεόν, ἐκ τῶν δακρύων γνῶθι. </div>
+    <div n="15" type="section">Ἄρρηκτον ὅπλον ταπεινοφροσύνη ψυχῆς. </div>
+    <div n="16" type="section">Δένδρον παραδείσου φιλάρετος ἀνήρ. </div>
+    <div n="17" type="section">Ἰησοῦς Χριστὸς ξύλον ἐστὶ ζωῆς. χρῶ αὐτῷ ὡς δεῖ καὶ οὐ μὴ ἀποθάνῃς
+      εἰς τὸν αἰῶνα. </div>
+    <div n="18" type="section">Εὐεργέτει τοὺς ὄντως πτωχοὺς καὶ βρώσῃ Χριστόν. </div>
+    <div n="19" type="section">Ῥώμη ἀληθὴς τὸ τοῦ Χριστοῦ σῶμα ἐσθίειν. </div>
+    <div n="20" type="section">Εἰ φιλεῖς τὸν Χριστόν, τὰς ἐντολὰς αὐτοῦ τηρεῖν οὐκ ἐπιλήσῃ· ἐκεῖθεν
+      γὰρ ἀναφαίνεται εὐεργέτης μετὰ θεόν. </div>
+    <div n="22" type="section">Ὁ κατὰ θεὸν φίλος ῥέει γάλα καὶ μέλι τοῖς ἀληθέσι λόγοις,
+      ῥᾴθυμος δὲ ψυχὴ τοιοῦτον οὐχ ἕξει φίλον. </div>
+    <div n="24" type="section">Ὠμὸς δεσπότης φιλήδονος λογισμός. </div>
+    <div n="25" type="section">Σιγᾶν τὴν ἀλήθειαν χρυσόν ἐστι θάπτειν. </div>
+    <div n="26" type="section">Ὁ φοβούμενος τὸν θεὸν κατὰ θεὸν πάντα ποιεῖ. </div>
+  </body>
+  
+</TAN-T>
