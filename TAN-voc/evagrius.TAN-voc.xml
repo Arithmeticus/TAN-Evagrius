@@ -721,6 +721,20 @@
                     system</name>
                 <location href="../cpg2458.4/cpg2458.4.grc.1987.g%C3%A9hin.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
             </item>
+            
+            <!-- CPG 2463: De iustis et perfectis -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Imitation_Song_Songs_grc_Gehin-1996</IRI>
+                <name>cpg2463 grc Géhin</name>
+                <location accessed-when="2022-12-26T18:49:27.686019-05:00" href="../cpg2463/cpg2463.grc.1996.g%C3%A9hin.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Imitation_Song_Songs_ara_Gehin-1996</IRI>
+                <name>cpg2463 ara Géhin</name>
+                <location accessed-when="2022-12-26T18:49:36.5981983-05:00" href="../cpg2463/cpg2463.ara.1996.g%C3%A9hin.xml"/>
+            </item>
+            
+            
             <!-- CPG 2475: Counsel -->
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Counsel_grc_Furrer-Pilliod.TAN-TEI</IRI>

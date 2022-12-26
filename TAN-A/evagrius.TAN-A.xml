@@ -930,7 +930,8 @@
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2454" in-lang="slv"/>
       
       <!-- cpg2455 -->
-      <claim subject="Dysinger_1990 pitra_1876 migne_1857" verb="edits" object="cpg2455"/>
+      <claim subject="Rondeau_2021 Dysinger_1990 pitra_1876 migne_1857" verb="edits" object="cpg2455"/>
+      <claim subject="Rondeau_2021" verb="translates" object="cpg2455" in-lang="fra"/>
       <claim subject="Dysinger_1990" verb="translates" object="cpg2455" in-lang="eng"/>
       <claim subject="migne_1857" verb="translates" object="cpg2455" in-lang="lat"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2455" in-lang="slv"/>
