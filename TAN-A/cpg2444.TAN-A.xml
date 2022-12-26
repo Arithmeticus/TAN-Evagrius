@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki@gmail.com,2014:tan-a:cpg2444">
+   <head>
+      <name>Evagrios Pontikos, Maxims 2</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2444.TAN-A.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+      </vocabulary>
+      
+      <source xml:id="Elter" which="cpg2444_grc_Elter" accessed-when="2022-12-26"/>
+      <source xml:id="Dysinger" which="cpg2444_eng_Dysinger" accessed-when="2022-12-26"/>
+      
+      
+      
+      <vocabulary-key>
+         <alias xml:id="cpg2444" idrefs="Greek"/>
+         
+         <alias xml:id="Greek" idrefs="Elter Dysinger"/>
+
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2022-12-26" who="kalvesmaki">Created file</change>
+      <to-do>
+         <comment when="2022-02-16" who="kalvesmaki">Add PG</comment>
+      </to-do>
+   </head>
+   <body claimant="kalvesmaki">
+   </body>
+</TAN-A>

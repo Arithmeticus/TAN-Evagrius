@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Maxims2_Dysinger_1990">
+  <head>
+    <name xml:lang="eng">Fragments of Maxims II (Sent. alph. II) translated by Dysinger</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2444/cpg2444.eng.dysinger.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Maxims_2"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Dysinger 1990"/>
+    <adjustments>
+      <normalization which="em_dashes_normalized"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <change when="2022-12-26" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  
+  <body xml:lang="eng">
+    <div n="1" type="section">It is peculiar for one who seeks honors to flee from the labors by
+      which the honors come.</div>
+    <div n="2" type="section">You wish to know God—first of all know yourself.</div>
+    <div n="3" type="section">Truly a friend is one who shares in critical times.</div>
+    <div n="4" type="section">It is strange to have grand intentions while accomplishing
+      little.</div>
+    <div n="5" type="section">Constantly supposing is an impediment to understanding.</div>
+    <div n="6" type="section">Of the irrational life a demon is the guide.</div>
+    <div n="7" type="section">The soul’s noble birth shines forth in [its] vigor.</div>
+    <div n="8" type="section">Devout is the one who does not speak of himself.</div>
+    <div n="9" type="section">Temple of God is a blameless person.</div>
+    <div n="10" type="section">The very worst possession is a reprobate life.</div>
+    <div n="11" type="section">Say what is appropriate, when appropriate, and you will not hear what
+      is inappropriate.</div>
+    <div n="12" type="section">The very greatest possession is an infallible friend.</div>
+    <div n="13" type="section">A disposition attached to esteem is a sickness of the soul.</div>
+    <div n="14" type="section">The stranger and the poor are the eye-salve of God.</div>
+    <div n="15" type="section">The one who receives them will quickly have his vision
+      restored.</div>
+    <div n="16" type="section">It is good to show beneficence to all, but more so to those unable to
+      return the favour.</div>
+    <div n="17" type="section">One who makes just speeches is a drinking-cup of cold water.</div>
+    <div n="18" type="section">Temperance and gentleness of soul are the cherubim</div>
+    <div n="19" type="section">To be honored in old age is evidence of one’s diligence before
+      becoming old; seriousness in youth is a pledge of honor in old age.</div>
+    <div n="20" type="section">Pinnacle of the soul—true contemplation.</div>
+    <div n="21" type="section">Loving what is improper you will not love what is proper.</div>
+    <div n="22" type="section">Unrefined gold is better than a friend as a possession.</div>
+    <div n="23" type="section">A pure soul—God after God.</div>
+    <div n="24" type="section">O, what comes from the self-love that hates everything!</div>
+  </body>
+  
+</TAN-T>
