@@ -581,6 +581,63 @@
                     reference system</name>
                 <location href="../cpg2442/cpg2442.grc.1858.pg.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
             </item>
+
+            <!-- CPG 2443: Maxims 1 -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Maxims1_Dysinger_1990</IRI>
+                <name>cpg2443 eng Dysinger</name>
+                <name>cpg2443 eng 1990</name>
+                <location accessed-when="2022-12-26" href="../cpg2443/cpg2443.eng.1990.dysinger.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Maxims1_Elter_1892</IRI>
+                <name>cpg2443 grc Elter</name>
+                <name>cpg2443 grc 1892</name>
+                <location accessed-when="2022-12-26T16:28:34.2607495-05:00" href="../cpg2443/cpg2443.grc.1892.elter.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Maxims1_Muyldermans-1931-paris-gr-1055</IRI>
+                <name>cpg2443 grc Muyldermans</name>
+                <name>cpg2443 grc 1931</name>
+                <location accessed-when="2022-12-26T16:28:46.3994862-05:00" href="../cpg2443/cpg2443.grc.1931.muyldermans.paris-gr-1055.xml"/>
+            </item>
+            
+            <!-- CPG 2444: Maxims 2 -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Maxims2_Dysinger_1990</IRI>
+                <name>cpg2444 eng Dysinger</name>
+                <name>cpg2444 eng 1990</name>
+                <location accessed-when="2022-12-26" href="../cpg2444/cpg2444.eng.1990.dysinger.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Maxims2_Elter_1892</IRI>
+                <name>cpg2444 grc Elter</name>
+                <name>cpg2444 grc 1892</name>
+                <location accessed-when="2022-12-26T16:28:34.2607495-05:00" href="../cpg2444/cpg2444.grc.1892.elter.xml"/>
+            </item>
+            
+            <!-- CPG 2445: Maxims 3 -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Maxims3_Dysinger_1990</IRI>
+                <name>cpg2445 eng Dysinger</name>
+                <name>cpg2445 eng 1990</name>
+                <location accessed-when="2022-12-26" href="../cpg2445/cpg2445.eng.1990.dysinger.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Maxims3_Elter_1892</IRI>
+                <name>cpg2445 grc Elter</name>
+                <name>cpg2445 grc 1892</name>
+                <location accessed-when="2022-12-26T16:28:34.2607495-05:00" href="../cpg2445/cpg2445.grc.1892.elter.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Maxims3_Muyldermans-1931-paris-gr-1055</IRI>
+                <name xml:lang="eng">cpg2445 grc Muyldermans</name>
+                <name xml:lang="eng">cpg2445 grc 1931</name>
+                <location accessed-when="2022-12-26T18:26:10.7650145-05:00"
+                    href="../cpg2445/cpg2445.grc.1931.muyldermans.paris-gr-1055.xml"/>
+            </item>
+            
+            
             <!-- CPG 2447: To Eulogios -->
             <item>
                 <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg2447:logical</IRI>
@@ -776,6 +833,15 @@
                 <name xml:lang="eng">Perseus Greek readable</name>
                 <name xml:lang="eng">Perseus Greek morphology with uncategorized codes</name>
                 <location href="../../../library-lm/grc/grc.perseus.readable.tan-mor.xml" accessed-when="2018-05-16"/>
+            </item>
+        </group>
+        <group affects-element="normalization">
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:normalization:punctuation-as-em-dashes-normalized</IRI>
+                <name>em dashes normalized</name>
+                <desc>Hyphens and en dashes that are meant to function as em dashes have been
+                    normalized to em dashes, with space closed up as specified by the Chicago Manual
+                    of Style.</desc>
             </item>
         </group>
     </body>

@@ -753,34 +753,70 @@
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2442" in-lang="slv"/>
       
       <!-- cpg2443 -->
-      <claim subject="gressmann_1913a migne_1857" verb="edits" object="cpg2443"/>
-      <claim subject="evagrius_sinkewicz_2003" verb="translates" object="cpg2443" in-lang="eng"/>
+      <claim subject="elter_1892 migne_1857" verb="edits" object="cpg2443"/>
+      <claim subject="Dysinger_1990 evagrius_sinkewicz_2003" verb="translates" object="cpg2443" in-lang="eng"/>
       <claim subject="Muyldermans_1943" verb="translates" object="cpg2443" in-lang="fra"/>
       <claim subject="migne_1857" verb="translates" object="cpg2443" in-lang="lat"/>
       <claim subject="evagrius_wagenaar_1987" verb="translates" object="cpg2443" in-lang="nld"/>
       <claim subject="evagrius_nieścior_1998" verb="translates" object="cpg2443" in-lang="pol"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2443" in-lang="slv"/>
       <claim subject="sargisean_1907" verb="edits" object="cpg2443-hye"/>
+      <claim verb="transcribes">
+         <subject scriptum="Dysinger_1990"/>
+         <object scriptum="migne_1857">
+            <div n="79" type="volume">
+               <div n="1249, 1253" type="column"/>
+            </div>
+         </object>
+      </claim>
       
       <!-- cpg2444 -->
-      <claim subject="gallandi_1765 gressmann_1913a migne_1857" verb="edits" object="cpg2444"/>
-      <claim subject="evagrius_sinkewicz_2003" verb="translates" object="cpg2444" in-lang="eng"/>
-      <claim subject="migne_1857" verb="translates" object="cpg2444" in-lang="lat"/>
+      <claim subject="gallandi_1765 elter_1892 migne_1857" verb="edits" object="cpg2444"/>
+      <claim subject="Dysinger_1990 evagrius_sinkewicz_2003" verb="translates" object="cpg2444" in-lang="eng"/>
+      <claim verb="translates" object="cpg2444" in-lang="lat">
+         <subject scriptum="migne_1857">
+            <div n="40" type="volume">
+               <div n="1268-1269" type="column"/>
+            </div>
+         </subject>
+      </claim>
       <claim subject="evagrius_wagenaar_1987" verb="translates" object="cpg2444" in-lang="nld"/>
       <claim subject="evagrius_nieścior_1998" verb="translates" object="cpg2444" in-lang="pol"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2444" in-lang="slv"/>
       <claim subject="muyldermans_1952" verb="edits" object="cpg2444-syr"/>
       <claim subject="sargisean_1907" verb="edits" object="cpg2444-hye"/>
+      <claim verb="transcribes">
+         <subject scriptum="Dysinger_1990"/>
+         <object scriptum="migne_1857">
+            <div n="40" type="volume">
+               <div n="1268-1269" type="column"/>
+            </div>
+         </object>
+      </claim>
       
       <!-- cpg2445 -->
-      <claim subject="gallandi_1765 gressmann_1913a migne_1857" verb="edits" object="cpg2445"/>
-      <claim subject="evagrius_casiday_2006 evagrius_sinkewicz_2003" verb="translates"
+      <claim subject="gallandi_1765 elter_1892 migne_1857" verb="edits" object="cpg2445"/>
+      <claim subject="Dysinger_1990 evagrius_casiday_2006 evagrius_sinkewicz_2003" verb="translates"
          object="cpg2445" in-lang="eng"/>
-      <claim subject="migne_1857" verb="translates" object="cpg2445" in-lang="lat"/>
+      <claim verb="translates" object="cpg2445" in-lang="lat">
+         <subject scriptum="migne_1857">
+            <div n="40" type="volume">
+               <div n="1269" type="column"/>
+            </div>
+         </subject>
+      </claim>
       <claim subject="evagrius_nieścior_1998" verb="translates" object="cpg2445" in-lang="pol"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2445" in-lang="slv"/>
       <claim subject="muyldermans_1952" verb="edits" object="cpg2445-syr"/>
       <claim subject="sargisean_1907" verb="edits" object="cpg2445-hye"/>
+      <claim verb="transcribes">
+         <subject scriptum="Dysinger_1990"/>
+         <object scriptum="migne_1857">
+            <div n="40" type="volume">
+               <div n="1269" type="column"/>
+            </div>
+         </object>
+      </claim>
       
       <!-- cpg2446 -->
       <claim subject="Muyldermans_1932" verb="edits" object="cpg2446"/>

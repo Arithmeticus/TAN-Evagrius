@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Maxims1_Elter_1892">
+  <head>
+    <name xml:lang="eng">Fragments of Maxims I (Sent. alph. I) published by Elter</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2443/cpg2443.grc.1892.elter.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Maxims_1"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Elter 1892"/>
+    <adjustments>
+      <normalization which="no hyphens"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <change when="2022-12-26" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  
+  <body xml:lang="grc">
+    <div n="1" type="section">Ἀρχὴ σωτηρίας ἡ ἑαυτοῦ κατάγνωσις. </div>
+    <div n="2" type="section">Βέλτιον λίθον εἰκῆ βαλεῖν ἢ λόγον. </div>
+    <div n="3" type="section">Γίνου τοῖς πᾶσιν ὡς σὺ θέλεις τοὺς πάντας. </div>
+    <div n="4" type="section">Δικαιοσύνην μᾶλλον ἔργῳ ἢ λόγῳ ἄσκει. </div>
+    <div n="5" type="section">Εὐσεβὴς οὐχ ὁ πολλοὺς ἐλεῶν, ἀλλ' ὁ μηδένα ἀδικῶν. </div>
+    <div n="6" type="section">Ζῆν ἄμεινον ἐπὶ στιβάδος κατακείμενον καὶ θαρρεῖν ἢ ταράττεσθαι χρυσῆν
+      ἔχοντα κλίνην. </div>
+    <div n="7" type="section">Ἡδὺς ἐκεῖνος φίλων ὁ τὴν ψυχὴν διατρέφων. </div>
+    <div n="8" type="section">Θεὸν ἔργοις μὲν σέβου, λόγῳ δὲ ὕμνει, ἐννοίᾳ δὲ τίμα. </div>
+    <div n="9" type="section">Ἱερέα φρόνησις καὶ βίος καὶ εὐγένεια ποιεῖ. </div>
+    <div n="10" type="section">Κάκιστόν ἐστι πάθεσι δουλεύειν αἰσχροῖς. </div>
+    <div n="11" type="section">Λόγῳ μὲν τὴν ἀρετὴν δίδασκε, ἔργῳ δὲ αὐτὴν κήρυσσε. </div>
+    <div n="12" type="section">Μὴ τὸ ἔχειν ἀρετὴν καλὸν εἶναι νόμιζε, ἀλλὰ τὸ ὡς δεῖ. </div>
+    <div n="13" type="section">Νόμον τιμῶν κατὰ νόμον ζήσεις. </div>
+    <div n="14" type="section">Ξένος ἐκεῖνος, οὗ ξένα τὰ τοῦ κόσμου. </div>
+    <div n="15" type="section">Ὁ φθονῶν ἑαυτὸν ζημιοῖ· ὁ γὰρ κατ' ἄλλου κακῶς φθεγγόμενος φθάνει
+      πάσχων ὑφ' ἑαυτοῦ κακῶς. </div>
+    <div n="16" type="section">Πλούσιον μήτε κολάκευε μήτε παρόξυνε. </div>
+    <div n="17" type="section">Ῥώννυσι μὲν οἶνος τὸ σῶμα, τὴν δὲ ψυχὴν λόγος θεοῦ. </div>
+    <div n="18" type="section">Σιτίοις χρῶ οὐ τοῖς ἡδέσιν, ἀλλὰ τοῖς ὠφελίμοις. </div>
+    <div n="19" type="section">Τοῖς ὄχλοις πειρώμενος ἀρέσκειν τῶν ὄχλων ἔσῃ ὅμοιος. </div>
+    <div n="20" type="section">Ὑπὲρ πάντα καταχρῶ τῷ σώματι. </div>
+    <div n="21" type="section">Φιλόπονος ἐκεῖνος, ᾧ χρόνος περισσεύει. </div>
+    <div n="22" type="section">Χριστιανοῦ ἀνδρὸς μὴ τὸ σχῆμα ἀποδέχου, ἀλλὰ τὸ τῆς ψυχῆς φρόνημα. </div>
+    <div n="23" type="section">Ψέγειν τὸν ἀνεπίληπτον εἰς θεὸν ἁμαρτία. </div>
+    <div n="24" type="section">Ὤτων καὶ γλώσσης μέγας ὁ κίνδυνος. </div>
+  </body>
+  
+</TAN-T>
