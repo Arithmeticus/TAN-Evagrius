@@ -249,6 +249,9 @@
          <object xml:lang="grc">Ἐκκλησία ἐστὶν ψυχῶν καθαρῶν γνῶσις ἀληθὴς αἰώνων καὶ κόσμων καὶ
             τῆς ἐν αὐτοῖς κρίσεως καὶ προνοίας.</object>
       </claim>
+      <claim subject="cpg2463" verb="has-incipit">
+         <object xml:lang="grc">Ἀπαγγείλατέ μοι, ποιμένες, ποῦ ποιμαίνει δεσπότης ἐμὸς</object>
+      </claim>
       <claim subject="cpg2469" verb="has-incipit">
          <object xml:lang="grc">Ὅσοι θέλουσιν εὐσεβῶς ζῆν ἐν Χριστῷ ταῦτα φυλαττέτωσαν.</object>
       </claim>

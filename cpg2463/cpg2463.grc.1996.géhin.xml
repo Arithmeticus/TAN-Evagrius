@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Imitation_Song_Songs_grc_Gehin-1996">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Fragments of the Imitation on the Song of Songs preserved in Vaticanus Gr. 2028</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2463/cpg2463.grc.1996.g%C3%A9hin.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Imitation Cant."/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Géhin 1996"/>
+    
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    
+    <change when="2022-01-07" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  <text>
+    <body xml:lang="grc">
+      <div type="section" n="1">
+        <ab>
+          <lb/>Ἀπαγγείλατέ μοι, ποιμένες, ποῦ ποιμαίνει δεσπότης ἐμὸς καὶ
+          <lb/>ποῦ κοιτάζει τοὺς ἄρνας αὐτοῦ καὶ εἰς τόπον χλόης αὐτοῦ κατα&#xad;
+          <lb/>παύσατέ με.
+          </ab></div>
+      <div type="section" n="2"><ab>
+          <lb/>Ἐὰν μὴ γνῷς τὴν ἀγάπην, οὐκ ὄψῃ μονὰς ποιμένος ἡμῶν καὶ
+          <lb/>πηγὰς αὐτοῦ ἀποκρύψομεν ἀπὸ σοῦ, ἐπαύλεις δὲ ἐρίφων περιλή&#xad;
+          <lb/>ψονταί σε.
+          
+          </ab></div>
+      <div type="section" n="3"><ab>
+          <lb/>Ἐξεγείρατέ με, ἐξεγείρατε, ὦ φίλοι, καὶ ἐξισχύσατε καρδίαν <lb/>μου, ἕως οὗ θελήσει ὁ
+          ποιμὴν ὁ καλὸς ἐκθρέψαι ψυχήν μου μετὰ <lb/>ἀγέλης αὐτοῦ. </ab></div>
+      <div type="section" n="4"><ab>
+          <lb/>Ἰδοὺ οὗτος κάθηται ἐπὶ τῶν ὀρέων, ποιμαίνει ἐπὶ τῶν
+          <lb/>βουνῶν: εἶδος αὐτοῦ ὡς εἶδος φωτὸς καὶ φωνὴ αὐτοῦ ὡς φωνὴ
+          <lb/>βροντῆς.
+          
+          </ab></div>
+      <div type="section" n="5"><ab>
+          <lb/>Τί ὁ ποιμὴν πρὸς τοὺς ποιμένας ἀπαγγ[είλατέ] μοι· ὡς ἡδεῖα ἡ <lb/>φωνὴ αὐτοῦ· καὶ
+          γλυκὺς ὁ λόγος αὐτοῦ ὀσμὴ ἱματίων αὐτοῦ ὡς <lb/>ὀσμὴ ὑσσώπου. </ab></div>
+          <milestone unit="page" n="72"/>
+      <div type="section" n="6"><ab>
+          <lb/>Εἰσήγαγεν ἡμᾶς ὁ νυμφίος εἰς κῆπον αὐτοῦ καὶ εἰς παράδεισον <lb/>τοῦ πατρὸς αὐτοῦ·
+          κρί[νοις ἐστε]φάνωσεν ἡμᾶς καὶ ἔδωκε βότρυας <lb/>ἐπὶ κόλπους ἡμῶν. </ab></div>
+      <div type="section" n="7"><ab>
+          <lb/>Ὡς ὡραῖος, νυμφίε, παράδεισος πατρός σου· ἄνθη αὐτοῦ ὡς <lb/>[ἄνθη τοῦ πεδίου] καὶ
+          κέδροι αὐτοῦ ὡς κέδροι τοῦ Λιβάνου. </ab></div>
+      <div type="section" n="8"><ab>
+          <lb/>Ἀποκρίνεται ὁ νυμφίος καὶ λέγει μοι· εἴσελθε εἰς κῆπόν μου καὶ <lb/>ἀνάπαυσαι ὑπὸ
+          σκιάν μου· μῆλά μου δώσω ἐν τῷ στόματί σου καὶ <lb/>ῥοάς μου ἐν λάρυγγί σου. </ab>
+      </div>
+    </body>
+  </text>
+</TEI>
