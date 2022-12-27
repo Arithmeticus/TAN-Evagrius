@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_ex_proverbiis_salomon_ara_Gehin-1996">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Arabic text of the From the Proverbs of Solomon edited by Géhin</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2463/cpg2463.ara.1996.g%C3%A9hin.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Ex Proverbiis Salomon"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Géhin 1996"/>
+    
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    
+    <change when="2022-01-20" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  <text>
+    <body xml:lang="ar">
+      <div type="title" n="title">
+        <ab>
+          و للقديس انبا وغري من أمثال سليمن.
+        </ab>
+      </div>
+      <div type="section" n="1">
+        <ab><lb/>كما ان ابنة الملك لا يعطيها لكل انسان يجده كما اتفق ولكن يعطيها لانسان <lb/>عظيم
+          موتمن كذلك الله لا يهب حكمته لمن هو معظم ومكرم في الايمان <lb/>الصالحة . </ab>
+      </div>
+      <div type="section" n="2">
+        <ab><lb/>كما ان الانسان رب البيت الذي له حقول كثيرة لا يصنع خمره في كل زقاق ولا <lb/>عسله في
+          كل الجرار ولا زيته في كل الاوعية ولكن في السالمة النظيفة كذلك هو <lb/>رب الكل لا يعطي
+          حكمته للقلب النجس ولا الى نفس دنسة بل كما قال الانجيل <lb/>انه يصنع الخمر الجديد في زقاق
+          جدد ليلا ينفسد الخمر . </ab>
+      </div>
+      <div type="section" n="3">
+        <ab><lb/>كما ان الذين يعملون في الاتعاب لهم رجاء عظيم في الأجرة التي تكون لهم <lb/>في الوقت
+          المحدود وينشطون ويزدادون في العمل كذلك الذي يسعى في طريق الله <lb/>فانه يأخذ التعليم لاجل
+          الكمال ويمتلي من النشاط ويسمع ويترجا المزمعات . </ab>
+      </div>
+      <div type="section" n="4">
+        <ab><lb/>كما انه لا يمكن طفل قد ولد الان ان يمشي مشى الصغار الذين يجرون ويقدر <lb/>يتبعهم
+          لاجل ضعف رجليه ورخاوتهم كذلك لا يمكن واحد ان ينظر الى قوته وحدة <lb/>في ذاته أي انه يقدر
+          ان يتبع اثار المسيح هذا الذي صبر على الصلب ورفض <lb/>الفضيحة . </ab>
+      </div>
+      <div type="epilogue" n="epilogue">
+        <ab><lb/>
+          تم القول والسبح لله دايماً ابداً سرمداً.
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -736,12 +736,20 @@
                 <location accessed-when="2022-12-26T18:49:36.5981983-05:00" href="../cpg2463/cpg2463.ara.1996.g%C3%A9hin.xml"/>
             </item>
             
-            <!-- CPG 2464: Imitation of Proverbs -->
+            <!-- CPG 2464: Imitation of Ecclesiastes -->
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Imitation_Ecclesiastes_ara_Gehin-1996</IRI>
-                <name xml:lang="eng">cpg 2464 ara Géhin</name>
-                <name xml:lang="eng">cpg 2464 ara 1996</name>
+                <name>cpg 2464 ara Géhin</name>
+                <name>cpg 2464 ara 1996</name>
                 <location accessed-when="2022-12-26T19:05:32.3345746-05:00" href="../cpg2464/cpg2464.ara.1996.g%C3%A9hin.xml"/>
+            </item>
+            
+            <!-- CPG 2464a: Imitation of Proverbs -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_ex_proverbiis_salomon_ara_Gehin-1996</IRI>
+                <name>cpg 2464a ara Géhin</name>
+                <name>cpg 2464a ara 1996</name>
+                <location accessed-when="2022-12-26T19:16:45.6597284-05:00" href="../cpg2464a/cpg2464a.ara.1996.g%C3%A9hin.xml"/>
             </item>
             
             
