@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Imitation_Ecclesiastes_ara_Gehin-1996">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Arabic text of the Imitation of Ecclesiastes edited by Géhin</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2463/cpg2463.ara.1996.g%C3%A9hin.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Imitation Eccles."/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Géhin 1996"/>
+    
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    
+    <change when="2022-01-20" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  <text>
+    <body xml:lang="ar">
+      <div type="title" n="title">
+        <ab> وله ايضاً من الذي قاله يشبه قول الكنايسي . </ab>
+        <ab>
+          
+        </ab>
+      </div>
+      <div type="section" n="1">
+        <ab>
+          <lb/>وعدت ورايت غنا كثيراً لهذا الدهر وايضاً غنا الله واذا الثاني هو الصالح اكثر <lb/>من
+          الأول من اجل انا نرى ان الغنى الزمني والغنى الابدي انما يعرفا من عقباهما.  </ab>
+      </div>
+      <div type="section" n="2">
+        <ab><lb/>وقلت انا في قلبي ان اعمال النسك او اعمال السهر لا يخلصوني وتعب يدي <lb/>لا يضى وجهي
+          واني مدحت المحبّة اكثر من هولاء لانها تدعل الانسان يصير مستقيما . </ab>
+      </div>
+      <div type="section" n="3">
+        <ab><lb/>اذا رايت انساناً قد ارتفع في وقته وان انسانا مذلول في أيامه لا تتعجب وتقول <lb/>ان
+          المذلول حق اكثر من ذاك لان الزمان باطل هو اقمع لحمة صباك . </ab>
+      </div>
+      <div type="section" n="4">
+        <ab><lb/>ولا تنسا الرحمة في جميع أيام حياتك لان هذا هو لكل احد اعني الرحمة <lb/>ولا يكون في
+          نفسك توانا . </ab>
+      </div>
+      <div type="section" n="5">
+        <ab><lb/>وعدت ورايت دهراً رديّاً وليس فيه نور وقلت ترى ان الله يدين الناس هكذى <lb/>ثم رايت
+          دموعا كثيرة وتقعقع الانسان وان ليس ثم من يعزي .</ab>
+      </div>
+      <div type="section" n="6">
+        <ab><lb/>وقلت لقلبي تعال حتى اجتذب ل حكمة لنفسي واذا أفكار كثيرة وظلالة قد ظلوا قلبي . </ab>
+      </div>
+      <div type="section" n="7">
+        <ab><lb/>ورايت ايضاً دهراً صالحاً وكثرة حكمة واناس يفرحوا في ذلك الدهر الصالح <lb/>وفتشتهم . </ab>
+      </div>
+      <div type="section" n="8">
+        <ab><lb/>فاذا هم تجربة لكل انسان صالح وكل شي هبا باطل عند المزمعات وهذه الاقوال <lb/>تستوجب
+          للناس فاما الجهال فليس لهم معرفة .</ab>
+      </div>
+    </body>
+  </text>
+</TEI>
