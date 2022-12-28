@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021"
+  id="tag:kalvesmaki.com,2014:Evagrius_Perfection_syr_Muyldermans.TAN-TEI">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <ab/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Perfection, translated by Muyldermans into Syriac</name>
+    <master-location
+      href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2476/cpg2476.syr.1952.muyldermans.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    
+    <work which="Perfection"/>
+    
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+    </vocabulary>
+    
+
+    <source which="Muyldermans 1952"/>
+    <adjustments>
+      <normalization which="no reference markers"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <resp roles="transcriber" who="kalvesmaki"/>
+
+    <change when="2022-12-27" who="kalvesmaki">Started file</change>
+    
+    <to-do>
+      <comment when="2022-12-27" who="kalvesmaki">Needs proofreading.</comment>
+    </to-do>
+  </head>
+
+  <text>
+
+    <body xml:lang="syr">
+      <milestone unit="page" n="99"/>
+      <div type="title" n="title"><ab>ܕܥܠ ܓܡܝܪܘܬܐ</ab></div>
+      <div type="chapter" n="1"><ab>ܡܥܡܘܕܝܬܐ ܕܚܘܣܝܐ ܠܢܦܫܐ : ܥܘܗܕܢܐ ܕܥܠܡܐ
+        ܕܥܬܝܕ ܀
+</ab></div><div type="chapter" n="2"><ab>
+  ܒܝܬ ܡܣܡܟ ܪܫܐ ܐܝܬܝܗܿ ܠܒܢܝܢܫܐ ܗܝܡܢܘܬܐ
+  ܕܡܘܠܟܢܘ̈ܗܝ ܕܝܫܘܥ
+</ab></div><div type="chapter" n="3"><ab>
+  ܕܡܣܒܪ ܡܼܢ ܝܘܡ ܠܝܘܡ: ܟܠ ܝܘ̈ܡܝܢ ܕܝܠܗ ܐܢܘܢ ܀
+</ab></div><div type="chapter" n="4"><ab>
+ܕܩܡ ܒܝܕܥܬܐ: ܢܦܩ ܡ̣ܢ ܥܠܡܐ. ܕܩܘܝ ܒܠܐ
+ܝܕܥܬܐ ܩܘܝ ܒܥܠܡܐ܀
+</ab></div><div type="chapter" n="5"><ab>
+  ܗܘ ܕܫܠܚ ܠܥܒ̈ܕܐ ܕܠܐ ܝܕܥܬܐ: ܡ̣ܢ ܥܒ̈ܕܐ
+  ܒܠܚܘܕ ܡܨܝܐ ܕܢܫܬܚܠܦ. ܗܘ ܕܝܢ ܕܫܠܚ ܠܠܐ ܝܕܥܬܐ
+  ܥܡܗܿ ܕܠܐ ܝܕܥܬܐ: ܣܡ ܠܬܚܬ ܡܢܗ ܟܠܡܕܡ܀
+</ab></div><div type="chapter" n="6"><ab>
+  ܟܠܡܕܡ ܓܝܪ ܠܬܚܬ ܡ̣ܢ ܝܕܥܬܐ ܗܼܘ. ܘܠܟܠܡܕܡ
+  ܗܝ ܡܩܕܡܐ. ܘܠܐ ܗܘܐ ܡܼܢ ܡܕܡ ܡܬܩܕܡܐ܀
+</ab></div><div type="chapter" n="7">
+        <ab>
+          ܐܢܕܝܢ ܗܝ ܡܬܩܕܡܐ: ܗܘܐ ܠܗ ܗ̇ܘ ܡܕܡ ܕܩܕܡܗܿ
+          ܚܕ ܥܡܗ̇܀
+</ab>
+      </div>
+      <div type="chapter" n="8">
+        <ab>
+          ܠܐ ܝܕܥܬܐ ܟܕ ܡܫܬܪܝܐ ܡ̣ܢ ܥܒ̈ܕܐ: ܩܛܝܪܐ ܗܼܘ
+          ܠܗ̇ ܕܢܒܛܠ ܫܘܠܛܢܗ̇. ܐܡܬܝ ܕܝܢ ܕܬܫܬܪܐ ܡ̣ܢ ܝܕܥܬܐ:
+          ܟܝܢܐܝܬ ܡܬܒܛܠܐ܀
+</ab>
+      </div>
+      <milestone unit="page" n="100"/>
+      <div type="chapter" n="9"><ab>
+        ܠܐ ܝܕܥܬܐ ܣܓܝܐܬ ܗܝ ܠܗ̇ ܐܝܬܝܗܿ: ܟܕ ܕܝܢ ܬܕܝܩ
+        ܥܠܝܗܿ ܝܕܥܬܐ: ܗܘܬ ܠܗ̇ ܠܐ ܡܕܡ ܀
+</ab></div>
+      
+      <div type="chapter" n="10"><p>
+ܗܝ ܗܟܝܠ ܝܕܥܬܐ: ܟܕ ܬܐܬܐ ܠܦܘܚܡܐ ܥܡ ܠܐ
+ܝܕܥܬܐ: ܘܢܒܥܐ ܐܢܫ ܠܡܐܠܦ ܗܠܝܢ ܕܫܪܝܐ ܝܕܥܬܐ ܡ̣ܢ
+ܢܦܫܐ: ܕܡܢܘ ܐܣܟܡܐ ܕܙܟܘܬܗܝܢ ܘܕܗܢܝܐܘܬܗܝܢ:
+ܘܢܒܥܐ ܬܘܒ ܕܢܦܪܫ ܩܪܒܐ ܚܣܝܢܐ ܕܥܒ̈ܕܐ ܕܫܪܝܢ ܠܠܐ
+ܝܕܥܬܐ ܕܐܝܟ ܗܟܢ ܐܝܬܘܗܝ. ܐܟܙܢܐ ܕܢܗܘܐ ܐܢܫ
+ܒܚܠܡܐ ܕܠܠܝܐ ܡܬܟܬܫ ܥܡ ܚܝܘ̈ܬܐ ܒܥܪܝܕ̈ܝܬܐ ܘܢܓܢܒܪ
+ܢܦܫܗ ܡܛܠ ܕܚܠܬܐ ܕܚܝܘ̈ܬܐ ܠܙܟܘܬܐ: ܘܢܗܘܐ ܡܬܦܪܣ
+ܒܚܝܠܐ ܘܒܚܟܡܐ ܘܩܪܐ ܐܝܠܐ. ܢܙܟܐ ܕܝܢ ܙܟܘܬܐ ܠܐ
+ܗܘܐ ܐܝܕܐ ܕܫܩܠܐ ܠܗ ܡ̣ܢ ܡܨܥܬܐ ܠܗܿܘ ܕܡܩܪܒ: ܐܠܐ
+ܙܟܘܬܐ ܐܝܕܐ ܕܝܗܒܐ ܠܗ ܠܒܝܒܘܬܐ ܕܡܫܟܚ ܠܡܐܪܥ
+ܩܐܪܣܐ. ܢܓܕܫ ܕܝܢ ܐܢܫ ܡܼܢ ܐܝܠܝܢ ܕܥܝܪܝܢ ܘܠܐ ܕܡܟܝܢ
+ܐܟܘܬܗ. ܢܨܒܐ ܠܡܥܪܘܬܗ ܡ̣ܢ ܫܢܬܗ: ܗܝ ܕܗܝ ܐܝܬܝܗ̇
+ܥܠܬܐ ܕܐܓܘܢܐ ܘܕܛܥܝܘܬܐ: ܠܐ ܗܘܐ ܡܟܝܠ ܡܙܟܐ
+ܙܟܐ ܠܗ ܠܗܿܘ ܩܪܒܐ ܕܡܩܪܒ ܗܘܐ ܐܡܬܝ ܕܡܬܬܥܝܪ:
+ܐܠܐ ܠܓܡܪ ܡܓܠܩ ܠܗ: ܕܠܐ ܕܚܠܬܐ ܕܩܪܒܐ ܘܕܠܐ
+ܐܢܢܩܐ ܕܬܟܬܘܫܐ. ܗܝ ܓܝܪ ܥܝܪܘܬܐ ܕܩܡ ܒܗ̇ ܒܛܠܬ ܡܢܗ
+ܟܠܗܝܢ ܦܢܛܣܝܢ̈ܣ ܕܐܩܝܡܬ ܥܠܘܗܝ ܫܢܬܐ. ܘܙܟܐ ܕܠܐ
+ܠܐܘܬܐ ܙܟܘܬܐ ܕܠܐ ܚܝܒܐ ܐܝܟܢܐ ܕܙܟܢܢ ܚܝ̈ܐ ܠܡܘܬܐ:
+ܢܘܗܪܐ ܠܚܫܘܟܐ: ܥܘܗܕܢܐ ܠܛܘܥܚ.
+</p><p>
+ܡܛܠ ܗܢܐ ܒܪܝ ܢܨܠܐ ܘܢܒܥܐ ܡܼܢ ܡܪܢ ܝܫܘܥ ܡܫܝܚܐ:
+  <milestone unit="page" n="101"/>
+  ܕܐܝܟܢܐ ܕܩܡ ܐܦ ܠܢ ܢܩܝܡ ܥܡܗ. ܐܘ ܥܕ ܡܛܐ ܙܒܢܐ‫
+  ܕܨܦܪܐ ܠܡܬܬܥܪܘ: ܐܘ ܥܕ ܠܐ ܢܡܛܐ ܬܩܪܘܒ ܠܢ ܐܝܕܗ
+  ܡܚܝܢܝܬܐ: ܘܢܐܬܐ ܠܢ ܢܘܗܪܐ ܕܪܕܦ ܛ̈ܠܠܐ. ܕܒܗ
+  ܢܬܒܝܐ ܘܢܣܟܐ ܠܫܡܫܐ ܕ݁ܫܪܪܐ. ܕܠܐ ܢܙܝܥܢ ܠܠܝܐ
+  ܘܢܦܗܝܢ ܚܫܘܟܐ: ܘܢܬܩܠ ܪ̈ܓܠܝܢ ܒܥܡܛܢܐ. ܐܠܐ
+  ܒܒܣܢܡܘܬܗ ܢܩܦܘܠ ܡܢܢ ܛ̈ܠܠܘܗܝ ܕܠܠܝܐ: ܗܢܘܢ ܕܠܐ
+  ܡܫܟܚܝܢ ܡܘܠܕܝܢ ܨܘܖ̈ܬܐ ܫܪܝܪ̈ܬܐ ܐܝܟܢܐ ܕܡܣܬܒܪܝܢ:
+  ܗܢܘܢ ܕܒܟܠܗܘܢ ܚܝ̈ܝܗܘܢ ܡܫܥܒܕܝܢ ܠܡܘܬܐ܀
+</p></div><div type="chapter" n="11"><ab>
+  ܡܬܬܙܝܥܢܘܬܐ ܕܚ̈ܝܐ: ܡܛܠ ܕܠܐ ܡܫܟܝܝܐ ܕܬܒܛܠ:
+  ܒܡܘܬܐ ܗܘ ܡܬܬܙܝܥܐ. ܡܛܠ ܗܕܐ ܐܦ ܟܕ ܡܝܬ
+  ܚܝܐ ܡܝ̈ܬܐ ܐܚܝ ܢܚܐ ܕܝܢ ܚܝܐ ܡܛܠ ܟܝܢܗ. ܘܡܐܬ
+  ܡܘܬܐ ܕܠܐ ܢܡܘܬܘܢ ܚܝ̈ܐ܀
+</ab></div><div type="chapter" n="12"><ab>
+  ܒܚܘܒܐ ܘܪܚܡܬܐ ܥܐܠܝܢ ܚܫ̈ܐ ܥܠ ܢܦܫܐ. ܕܠܐ
+  ܪܘܓܙܐ ܕܝܢ ܘܕܠܐ ܒܥܠܕܒܒܘܬܐ ܠܐ ܡܫܢܝܢ ܡܢܗ̇܀
+</ab></div><div type="chapter" n="13"><ab>
+  ܗܘ ܕܠܒܫ ܚܫ̈ܘܗܝ ܕܦܓܪܐ ܚܕܐ ܙܟܢ: ܘܢܨܒܐ ܒܬܪܟܢ
+  ܕܢܫܠܚ ܐܢܘܢ: ܩܪܒܗ ܥܡܗ: ܘܣܓܝ ܥܣܩܐ ܙܟܘܬܗ܀
+</ab></div><div type="chapter" n="14"><ab>
+  ܫܘܠܡܐ ܠܪܓܬܐ ܠܐ ܡܫܟܚ ܐܢܬ. ܐܟܙܢܐ ܓܝܪ
+  ܕܗܢܘܢ ܕܝܗܒܘ ܢܦܫܗܘܢ ܠܚܡܬܐ: ܒܟܠܙܟܢ ܥܠ ܟܠ
+  ܨܒܘ ܡܬܓܒܠܐ ܒܗܘܢ ܡܪܬܐ: ܘܡܟܝܠ ܒܣܝܒܪܬܐ
+  ܕܡܩܒܠܝܢ ܥܠܝܗ̇ ܡܘܣܦܝܢ. ܐܦ ܐܝܠܝܢ ܕܐܫܬܥܒܕܘ ܠܪܓܬܐ.
+  <milestone unit="page" n="102"/>
+  ܗܟܢܐ ܐܢ ܣܝܒܪܬܐ ܢܩܒܠܘܼܢ: ܘܐܢ ܚܙܘܐ ܕܦܓܪܐ
+  ܢܚܙܘ ܢ: ܥܠ ܣܓܝܐܘܬ ܪܓܬܗܘܢ ܡܘܣܦܝܢ܀
+</ab></div><div type="chapter" n="15"><ab>
+ܚܫܐ ܒܝܫܐ ܡܛܠ ܕܢܟܣܐ ܢܦܫܗ ܡܼܢ ܩܕܡ ܥܝܢܝ̈ܗ̇
+ܕܢܦܫܐ: ܕܐܦܠܐ ܡܐ ܕܗܘܐ ܬܬܘܐ ܥܠܘܗܝ. ܒܗܕܐ ܡܠܦ
+ܠܗ̇: ܕܦܐܝܐ ܗܝ ܗܕܐ ܘܝܐܝܐ. ܕܟܕ ܢܤܟܠ ܐܢܫ: ܢܗܘܐ
+ܝܕܥ ܕܐܣܟܠ. ܘܡܝܬܪ ܗܘ ܡܼܢ ܗܢܘܢ ܕܟܕ ܡܣܟܠܝܢ. ܠܐ
+ܚܟܡܝܢ ܐܦܠܐ ܕܐܣܟܠܘ. ܬܙܝܥ ܕܝܢ ܠܩܘܒܠܗ ܝܕܥܬܐ: ܗܝ
+ܕܡܫܝܚܐ ܡܪܢ. ܕܥܒܕܐ ܕܝܕܥ ܨܒܝܢܐ ܕܡܪܗ: ܘܠܐ ܬܩܢ
+ܠܗ ܐܝܟ ܨܒܝܢܗ: ܢܒܠܥ ܣܓܝ̈ܐܬܐ܀
+</ab></div>
+      
+      <div type="chapter" n="16"><ab>
+        ܢܦܫܐ ܕܝܢ ܕܬܙܕܟܐ ܡ̣ܢ ܪ̈ܓܝܓܬܐ: ܘܬܠܒܫ ܙܢܝܘܬܗ
+        ܕܦܓܪܐ: ܡܛܠ ܗܢܝܐܘܬܐ ܕܠܒܫܬ: ܟܦܪܐ ܒܗܿ ܕܠܐ
+        ܝܕܥܐ ܕܬܦܪܘܫ ܐܢ ܒܝܫܐܝܬ ܣܥܪܐ ܘܒܥܝܐ ܕܬܛܥܐ
+        ܢܦܫܗܿ: ܐܢܕܝܢ ܠܐ ܡܫܟܚܐ ܕܬܟܦܘܪ ܗܼܝ ܒܗ̇ ܕܝܕܥܐ ܗܼܝ:
+        ܡܬܝܠܕܝܢ ܒܗ̇ ܨ̈ܒܝܢܐ ܥܠ ܒܝ̈ܫܬܐ: ܕܫܦܝܪ̈ܢ ܐܢܝ̈ܢ ܘܚ̈ܫܚܝܬܐ
+        ܐܢܝ̈ܢ܀
+</ab></div><div type="chapter" n="17"><ab>
+  ܪܓܬܐ ܘܚܡܬܐ ܐܢ ܐܬܠܒܫ ܒܢܦܫܐ: ܠܐ ܗܘܐ
+  ܐܡܬܝ ܕܨܒܝܐ ܢܦܫܐ ܡܬܬܙܝ̈ܥܢ. ܡܛܠ ܗܢܐ ܡܼܢ ܫܘܪܝܐ
+  ܢܙܕܗܪ܀
+</ab></div><div type="epilogue" n="epilogue"><ab>
+  ܫܠܡ ܡܡܠܠܐ ܕܩܕܝܫܐ ܡܪܝ ܐܘܓܪܝܣ
+</ab></div>
+    </body>
+  </text>
+
+</TEI>

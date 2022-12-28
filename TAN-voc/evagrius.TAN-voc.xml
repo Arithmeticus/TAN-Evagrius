@@ -776,7 +776,25 @@
                 <name>Counsel, translated by Muyldermans into French</name>
                 <location href="../cpg2475/cpg2475.fra.1952.muyldermans.xml" accessed-when="2021-12-25"/>
             </item>
+            
+            <!-- CPG 2476: Perfection -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Perfection_syr_Muyldermans.TAN-TEI</IRI>
+                <name>cpg2476 syr Muyldermans</name>
+                <name>cpg2476 syr 1952</name>
+                <location accessed-when="2022-12-27T17:08:07.6107802-05:00" href="../cpg2476/cpg2476.syr.1952.muyldermans.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Perfection_fra_Muyldermans.TAN-TEI</IRI>
+                <name>cpg2476 fra Muyldermans</name>
+                <name>cpg2476 fra 1952</name>
+                <location accessed-when="2022-12-27T17:09:06.9131671-05:00" href="../cpg2476/cpg2476.fra.1952.muyldermans.xml"/>
+            </item>
+            
+            
         </group>
+        
         <group affects-element="source">
             <!-- For quotations from other works: Bible, Aristotle -->
             <item>

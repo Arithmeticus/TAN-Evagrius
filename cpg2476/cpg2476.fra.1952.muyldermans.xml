@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021"
+  id="tag:kalvesmaki.com,2014:Evagrius_Perfection_fra_Muyldermans.TAN-TEI">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <ab/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Perfection, translated by Muyldermans into French</name>
+    <master-location
+      href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2476/cpg2476.fra.1952.muyldermans.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    
+    <work which="Perfection"/>
+    
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+    </vocabulary>
+    
+
+    <source which="Muyldermans 1952"/>
+    <adjustments>
+      <normalization which="no reference markers"/>
+      <normalization which="no hyphens"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <resp roles="transcriber" who="kalvesmaki"/>
+
+    <change when="2021-12-26" who="kalvesmaki">Started file</change>
+    
+    <to-do>
+      <comment when="2021-12-26" who="kalvesmaki">Needs proofreading.</comment>
+    </to-do>
+  </head>
+
+  <text>
+
+    <body xml:lang="fra">
+      <milestone unit="page" n="103"/>
+      <div type="chapter" n="1"><ab>Le baptême propitiatoire à l'âme est le souvenir de Ja vie future.
+      
+      </ab></div><div type="chapter" n="2"><ab>Les hommes ont où reposer la tête, (à savoir) la foi des promesses de Jésus.
+      
+      </ab></div><div type="chapter" n="3"><ab>À celui qui espère de jour en jour, tous les jours appartiennént.
+      
+      </ab></div><div type="chapter" n="4"><ab>Celui qui est demeuré dans la connaissance, est sorti du monde;
+      celui qui est resté dans l’ignorance, est resté dans le monde.
+      
+      </ab></div><div type="chapter" n="5"><ab>Celui qui s’est dépouillé des œuvres de l'ignorance, ne peut
+      avoir été changé que dans (ses) œuvres; mais celui qui s’est dépouillé de l'ignorance, avec l'ignorance a tout mis sous soi.
+      
+      </ab></div><div type="chapter" n="6"><ab>Car tout est sous la connaissance et celle-ci précède tout, et
+      elle n’est dépassée par quoi que ce soit.
+      
+      </ab></div><div type="chapter" n="7">
+        <ab>Si toutefois elle est dépassée, la chose qui l'emporte sur elle est devenue une avec
+          elle. </ab>
+      </div>
+      <div type="chapter" n="8">
+        <ab>Quand l'ignorance est détruite par les œuvres, c’est par une nécessité que sa puissance
+          cesse; quand elle est détruite par la connaissance, elle cesse naturellement. </ab>
+      </div><div type="chapter" n="9"><ab>L’ignorance est beaucoup à ses propres yeux; mais quand la
+      connaissance la regarde, elle ne lui est rien.
+      
+      </ab></div>
+      <milestone unit="page" n="104"/>
+      <div type="chapter" n="10"><p>Donc, lorsque l'on compare la science avec l'ignorance, et
+      que l’on cherche à savoir les choses que la science enlève de l’âme,
+      de quel genre (σχῆμα) est sa victoire sur elles et le plaisir qu’elles
+      (apportent), et que l’on cherche à caractériser le combat violent (qui
+      sont) les œuvres qui détruisent l'ignorance, il en va comme lorsque
+      quelqu'un combat la nuit, en songe, contre des animaux sauvages:
+      il s’anime à la victoire, par crainte des animaux, il s'applique avec
+      force et habilité et il appelle à l’aide; il remporte la victoire, non
+      pas (une victoire) qui supprimerait son adversaire, mais une victoire qui lui donne la confiance audacieuse de pouvoir marcher à la
+      guerre. Arrive un de ceux qui veillent et qui ne dorment pas comme
+      lui, et qu'il veuille le réveiller du sommeil qui est cause de la lutte
+      (ἀγών) et de l'erreur, il n’est donc pas victorieux dans le combat
+      qui était engagé au moment où il se réveille, mais il le fait disparaître complètement, sans crainte d’un combat (à mener), sans nécessité de lutter. Car l’état de veille où il est (revenu) a écarté de lui
+      toutes les visions que le sommeil avait suscitées en lui, et il a remporté sans peine une victoire où il n'y a pas de vaincu, comme la
+      vie triomphe de la mort, la lumière des ténèbres, le souvenir de
+      l'oubli.
+      </p><p>
+      C'est pourquoi, mon fils, prie et demande à notre Seigneur Jésus-Christ que, comme il ressuscita, il nous ressuscite nous aussi avec
+      lui. Ou lorsque viendra l'heure matinale du lever, ou avant qu'elle
+      ne vienne, que sa main vivifiante s'approche de nous, et que vienne
+      à nous la lumière qui chasse les ténèbres; que par elle nous soyons
+      consolés et que nous attendions le soleil de la vérité; que la nuit
+      ne nous trouble pas, et que les ténèbres ne nous introduisent pas
+      en erreur, et que nos pieds ne heurtent pas dans les ténèbres; mais
+      que, par sa bonté, il éloigne de nous les ténèbres de la nuit, celles
+      qui ne peuvent pas produire des représentations vraies, ainsi que
+      le pensent ceux qui, toute leur vie, servent la mort.
+      
+      </p></div><div type="chapter" n="11"><ab>Le mouvement de la vie, parce qu’il ne peut être détruit,
+      reste en mouvement dans la mort; à cause de cela même, lorsque le
+        <milestone unit="page" n="105"/>vivant est mort, il fait revivre les morts; le vivant vit en raison de
+      sa nature, et il subit la mort, afin que les vivants ne meurent
+      point.
+      
+      </ab></div><div type="chapter" n="12"><ab>Les passions pénètrent par l'amour et par l'affection dans
+      l'âme; elles ne la quittent pas sans colère et sans inimitié.
+      
+      </ab></div><div type="chapter" n="13"><ab>Celui qui une fois a revêtu les passions du corps et veut ensuite s'en défaire, (porte) en lui son combat, et très difficile est sa
+      victoire.
+      
+      </ab></div><div type="chapter" n="14"><ab>Tu ne peux (donner) satisfaction à la concupiscence. En effet,
+      de même que (en) ceux qui se sont livrés à la colère, la bile se forme
+      continuellement (et) à propos de tout, et qu’ils y ajoutent encore
+      par la nourriture qu’ils prennent, de même aussi ceux qui obéissent à la concupiscence, soit qu'ils prennent la nourriture, soit qu'ils
+      regardent l'aspect du corps, augmentent considérablement leur concupiscence.
+      
+      </ab></div><div type="chapter" n="15"><ab>La passion mauvaise, parce qu'elle se dérobe à la vue de l’âme
+      afin que celle-ci ne s'en repente pas, lui enseigne par là qu'il est
+      convenable et juste que, lorsque quelqu'un agit mal, il sache qu'il
+      agit mal; il est en meilleure situation que ceux qui, faisant le mal,
+      ne savent pas même qu'ils agissent mal, mais la science (qu’il a)
+      du Christ Notre Seigneur s’est tournée contre lui, car « le serviteur
+      qui a connu la volonté de son seigneur et n'a pas disposé (les choses)
+      selon sa volonté, recevra un grand nombre de coups ».
+      
+      </ab></div>
+      <milestone unit="page" n="106"/>
+      <div type="chapter" n="16"><ab>L'âme qui est vaincue par la concupiscence et qui a revêtu
+      la fornication du corps, à cause de la volupté qu’elle a revêtu, nie
+      qu’elle sache discerner si elle agit mal, et cherche à se tromper;
+      si toutefois il ne fui est pas possible de nier qu’elle sait, naissent en
+      elle des désirs que les vices soient beaux et utiles.
+      
+      </ab></div><div type="chapter" n="17"><ab>Lorsque la concupiscence et la colère ont pris possession de
+      l’âme, elles ne sont pas mises en mouvement sous l'impulsion de
+      l’âme; c’est pourquoi tiens-toi sur tes gardes dès le début.
+      </ab></div><div type="epilogue" n="epilogue"><ab>
+      Fin du discours de saint Mar Evagre.
+      </ab></div>
+    </body>
+  </text>
+
+</TEI>

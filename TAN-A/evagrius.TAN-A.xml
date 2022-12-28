@@ -994,10 +994,12 @@
       <claim subject="Géhin_1996" verb="edits" object="cpg2463"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2463" in-lang="slv"/>
       <claim subject="Géhin_1996" verb="edits" object="cpg2463-ara"/>
+      <claim subject="Géhin_1996" verb="translates" object="cpg2463-ara cpg2463" in-lang="fra"/>
       
       <!-- cpg2464 -->
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2464" in-lang="slv"/>
       <claim subject="Géhin_1996" verb="edits" object="cpg2464-ara"/>
+      <claim subject="Géhin_1996" verb="translates" object="cpg2464-ara" in-lang="fra"/>
       
       <!-- cpg2464a -->
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2464a" in-lang="slv"/>
