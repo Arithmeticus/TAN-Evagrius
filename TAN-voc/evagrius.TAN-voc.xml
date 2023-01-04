@@ -792,6 +792,26 @@
                 <location accessed-when="2022-12-27T17:09:06.9131671-05:00" href="../cpg2476/cpg2476.fra.1952.muyldermans.xml"/>
             </item>
             
+            <!-- No CPG 6: Word of Instruction -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Word_of_Instruction_Muyldermans-1931-grc</IRI>
+                <name>nocpg06 grc Muyldermans</name>
+                <name>nocpg06 grc 1931</name>
+                <location accessed-when="2023-01-03T23:52:36.2803337-05:00" href="../nocpg06/nocpg06.grc.1931.muyldermans.barb-gr-515.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Word_of_Instruction_Muyldermans-1931-fra</IRI>
+                <name>nocpg06 fra Muyldermans</name>
+                <name>nocpg06 fra 1931</name>
+                <location accessed-when="2023-01-03T23:52:58.9199985-05:00" href="../nocpg06/nocpg06.fra.1931.muyldermans.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Word_of_Instruction_Dysinger-1990-eng</IRI>
+                <name>nocpg06 eng Dysinger</name>
+                <name>nocpg06 eng 1990</name>
+                <location accessed-when="2023-01-03T23:53:15.1474151-05:00" href="../nocpg06/nocpg06.eng.1990.dysinger.xml"/>
+            </item>
+            
             
         </group>
         
