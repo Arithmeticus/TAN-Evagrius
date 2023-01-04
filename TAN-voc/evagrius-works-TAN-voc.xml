@@ -104,6 +104,7 @@
             <desc>Fragment preserved on Acts 10:11-12; edited in Cramer’s Catenæ græcorum patrum in
                 novum testamentum, 3:177</desc>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:nocpg06</IRI>
             <name>Instr</name>
@@ -114,6 +115,11 @@
                 Because these kephalaia were presented in the context of Muyldermans's studies on
                 the Capita cognoscitiva (CPG 2433), and because they did not feature in the KG
                 supplements, they have been overlooked by modern cataloguing efforts.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg06:version:hye</IRI>
+            <name>Armenian translation of Word of Instruction</name>
+            <name>nocpg06-hye</name>
         </item>
         
         <item>

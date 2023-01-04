@@ -259,6 +259,9 @@
          <object xml:lang="grc">Ὁ ἰατρὸς ἅμα ἰατρός, ἅμα ἔχει τὴν ἰατρικὴν· καὶ μὴ ἐνεργῶν δὲ
             λέγεται πρῶτον ἀπ’ αὐτῆς· πρῶτον γὰρ τέμνει καὶ δεύτεραν θεραπεύει.</object>
       </claim>
+      <claim subject="nocpg06" verb="has-incipit">
+         <object xml:lang="grc">Οὐχ ἁρμόσει ἄφρονι γνῶσις</object>
+      </claim>
       <claim subject="nocpg07" verb="has-incipit">
          <object xml:lang="grc">Ἀρχὴ γνώσεως ἀληθοῦς ψυχῇ ἐνθουσιασμὸς πνεὐματος ἁγίου</object>
       </claim>
@@ -272,7 +275,7 @@
          cpg2462 cpg2463 cpg2464 cpg2465 cpg2466 cpg2467 cpg2468 cpg2469 cpg2470 cpg2471           
          cpg2472 cpg2473 cpg2474 cpg2475 cpg2476 cpg2477 cpg2478 cpg2479 cpg2480 
          cpg2481.1 cpg2481.2 cpg2481.3 cpg2481.4           
-         cpg2481.5 cpg2481.6 cpg2482 cpg2482a cpg2483 nocpg01 nocpg03 nocpg04 nocpg05"
+         cpg2481.5 cpg2481.6 cpg2482 cpg2482a cpg2483 nocpg01 nocpg03 nocpg04 nocpg05 nocpg06"
          verb="survives-in-original-language">
          <object units="portion">1.0</object>
       </claim>
@@ -288,7 +291,7 @@
          cpg2452-syr cpg2452-hye cpg2452-gez cpg2452-kat cpg2452-ara cpg2453-syr cpg2454-syr 
          cpg2457-syr cpg2459-syr cpg2459-hye cpg2460-syr cpg2461-cop cpg2461-ara cpg2463-ara 
          cpg2464a-ara cpg2464-ara cpg2469-syr cpg2470-syr cpg2470-hye cpg2475-syr cpg2477-syr 
-         cpg2477-hye cpg2482a-ara cpg2483-syr" verb="survives-in-original-language">
+         cpg2477-hye cpg2482a-ara cpg2483-syr nocpg06-hye" verb="survives-in-original-language">
          <object units="portion">1.0</object>
       </claim>
       <claim subject="cpg2431" verb="survives-in-original-language">
@@ -315,6 +318,7 @@
       <!-- these are treated abstractly; for scripta see below -->
       <claim subject="nocpg01-ara" verb="translates" object="nocpg01"/>
       <claim subject="nocpg02-syr nocpg02-hye" verb="translates" object="nocpg02"/>
+      <claim subject="nocpg06-hye" verb="translates" object="nocpg06"/>
       <claim subject="nocpg07-syr nocpg07-hye" verb="translates" object="nocpg07"/>
       <claim subject="cpg2430-lat cpg2430-lat-vetus cpg2430-syr-S1 cpg2430-syr-S2 cpg2430-syr-S3 cpg2430-hye cpg2430-gez cpg2430-kat cpg2430-ara" verb="translates" object="cpg2430"/>
       <claim subject="cpg2431-lat cpg2431-syr-s1 cpg2431-syr-s2 cpg2431-syr-s3 cpg2431-hye" verb="translates" object="cpg2431"/>
@@ -1102,6 +1106,8 @@
       <claim subject="evagrius_casiday_2006" verb="translates" object="nocpg04" in-lang="eng"/>
       <claim subject="Cramer_1844" verb="edits" object="nocpg05"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="nocpg05" in-lang="slv"/>
+      <claim subject="muyldermans_1931a" verb="edits" object="nocpg06 nocpg06-hye"/>
+      <claim subject="muyldermans_1931a" verb="translates" object="nocpg06-hye"/>
       <claim subject="muyldermans_1934a géhin_2007" verb="edits" object="nocpg07"/>
       <claim subject="muyldermans_1934a géhin_2007" verb="translates" object="nocpg07" in-lang="fra"/>
       <claim subject="sargisean_1907" verb="edits" object="nocpg07"/>
