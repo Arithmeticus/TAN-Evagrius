@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       TAN-version="2021"
+       id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2452:lat:1863:ref-logical">
+   <head>
+      <name>Latin translation of the Greek text of cpg 2452 from the Patrologia Graeca, logical reference system</name>
+      <master-location href="http://evagriusponticus.net/tan/cpg2452/cpg2452.lat.1863.ref-logical.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="On Prayer"/>
+      <source which="Patrologia Graeca"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2021-06-02"/>
+      </vocabulary>
+      <vocabulary-key>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2023-11-12" who="kalvesmaki">Began file</change>
+      <change when="2023-11-13" who="kalvesmaki">type text</change>
+      <change when="2023-11-14" who="kalvesmaki">proofread text</change>
+      <change when="2023-12-28" who="kalvesmaki">Subdivided preface.</change>
+      <to-do/>
+   </head>
+   <body xml:lang="lat">
+      <div type="title" n="title">EJUSDEM DE ORATIONE</div>
+      <div type="title" n="pref_title">TRACTATUS</div>
+      <div type="preface" n="pref">
+         <div type="section" n="1">Febricitantem me passionum impurarum aestu refocillasti pro more,
+            tuarum Deo amabilium litterarum attrectatione meam consolando mentem ad extremum
+            fatigatam, magnumque imitando praeceptorem, ac magistrum beate; neque mirum, tuae nempe
+            partes fuere semper insignia quaeque, sicut et benedicti Jacob: cum enim praeclare
+            servieris propter Rachel, et Liam acceperis, quaeris etiam desideratam, utpote qui et
+            hujusce septem annos adimplesti. Ego vero no denegarem, quod, cum per totam noctem
+            laborassem, nihil comprehendi; verumtamen, cum in tuo verbo rete laxassem, exspiscatus
+            sum piscium multitudinem, non equidem (ut existimo) magnorum, centum vero simul et
+            quinquaginta trium, illosque per capitula numero aequalia in corbe tibi misi charitatis,
+            tuum adimplendo mandatum; </div>
+         <div type="section" n="2">te vero admiror, felicemque optimo proposito arbitror, quod
+            capitula de oratione percupias; nec enim simpliciter eorum detineris amore, quae manibus
+            conscribuntur, inque charta per atramentum subsistunt; verum, eorum quae in mente per
+            charitatem, injuriarumque oblivionem, stabiliuntur. Sed quoniam duplicia sunt omnia, et
+            unum e regione alterius positum, secundum sapientem Jesum, accipe juxta litteram, et
+            spiritum, et intellige, quod mens omnino litterae praecedit, nam si ista non adsit, nec
+            erit littera: igitur orationis quoque duplex est modus, unus practicus, seu in agendo
+            positus; alter speculativus, talesque pariter numeri sunt partes, una quidem est
+            quantitas prompta, altera vero, quae significatur, est qualitas. </div>
+         <div type="section" n="3">In centum igitur quinguaginta tria capitula tractatum de oratione
+            distinguentes, evangelicum tibi obsonium misimus, ut allegorici invenias numeri
+            jucunditatem, figuramque triangularem, et sexangularem, submonstrantem, tum piam
+            Trinitatis cognitionem, tum etiam hujusce ordinationis, ac distributionis descriptionem.
+            Et numerus quidem centenarius secundum seipsum quadrangularia est, sed quinquagenarius
+            tertius, triangularis est. et rotundus; nam vicesimus octavus, triangularis quidem est,
+            rotundus vero vicesimus quintus, quinquies nempe quinque continet capitula, habes igitur
+            figuram quadrangularem, non solum per virtutum quaternionem, sed et hujus saeculi
+            scientiam sapientem, vicesimo quinto assimilatam numero, propter annorum revolutionem,
+            hebdomada quippe super hebdomadam, et mensis super mensem movetur, et ex anno in annum
+            volvitur tempus et momentum super momentum, ut in solis et lunae motu, veris, ac
+            aestatis, videmus. Triangulum autem tibi forte significabit scientiam sanctae
+            Trinitatis: alias vero si per numerorum multiplicitatem centisimum feras quinquagesimum
+            tertium, qui triangularis est, intelligere convenit practicam (scilicet scientiam)
+            naturalem et theologicam, aut etiam fidei, spei et charitatis; aurum, argentum, lapides
+            pretiosos. </div>
+         <div type="section" n="4">Verum haec de numero: capitulorum autem tenuitatem non contemnes,
+            velut ille, qui scis et saturari, et iudigere, imo qui ejus memor es, qui viduae duo
+            minuta non respuit, sed ea prae multorum aliorum divitiis recepit; cum igitur
+            benevolentiae recte noveris fructum, custodies tuis germanis fratribus imponendo, ut
+            orent pro infirmo, et aegrotante, ad hoc ut sanetur, suumque grabatum tollens, et
+            deinceps obambulet gratia Christi veri Dei nostri, cui gloria in saecula saeculorum.
+            Amen.</div></div>
+      <div type="chapter" n="1">Si quis suaveolens efficere suffimentum velit, thus pellucidum, et cassiam, et ungulam, seu fruticem sic dictum, liquoremque illum, qui e myrrha, et cinnamomo inciso distillat, aequo commisceat pondere secundum legem. Haec autem sunt virtutum quaternio; nam si eae plenissimae sint, et aequales, non prodetur intellectus.</div>
+      <div type="chapter" n="2">Anima expurgata per virtutum plenitudinem, intellectus sedem efficit inconcussam, ipsumque reddit habilem ad suscipiendum statum qui quaeritur.</div>
+      <div type="chapter" n="3">Oratio est colloquium intellectus cum Deo; quali igitur statu indiget intellectus, ut quiete agendo, sese immutabiliter mutet, ac transeat ad proprium Dominum, nulloque intermedio cum ipso collaquatur? (subintellige) talem quaerat statum.</div>
+      <div type="chapter" n="4">Si Moyses, cum ad rubum ardentem super terram appropinquare tentavit, prohibetur, donec exsolvisset pedum calceamentum, quomodo tu ipse, volens eum videre, qui omnem intellectionem et sensum superat, eique fieri collocutor, non solvis a te omnem cogitationem passioni obnoxiam?</div>
+      <div type="chapter" n="5">Ori in primis, quo accipias donum lacrymarum, ut per luctum emollias agrestem duritiem, quae in anima tua est, et confessus adversum te injustitiam tuam Domino, veniam ab ibso consequaris.</div>
+      <div type="chapter" n="6">Utere lacrymis ad omnem petitionem feliciter suscipiendam ac perficiendam: plurimum enim gaudet Dominus tuus, in lacrymis orationem excipiens.</div>
+      <div type="chapter" n="7">Quamvis in tua oratione fontes lacrymarum effundas, nequaquam tamen extollaris in teipso, quasi multis praecellas; auxilium enim tua recepit oratio, ut possis animo prompto confiteri peccata tua, Dominumque lacrymis placare.</div>
+      <div type="chapter" n="8">Ne igitur in passionem convertas, quod ad delendas arcendasque passiones fuit datum, ne magis ad iram concites eum, qui tibi gratiam dedit: multi flentes pro peccatis, obliti lacrymarum scopi, insanientes, aberrarunt.</div>
+      <div type="chapter" n="9">Sta magno cum studio, intenteque ora, et aversare curarum, cogitationumque obventiones; te namque turbant illa, ac tumultuantur, ut animi tui inflexibilem dissolvant constantiam.</div>
+      <div type="chapter" n="10">Cum te daemones viderint vere promptum orare, tunc suggerunt cogitationes quarumdam rerum veluti necessariarum, et paulo post incitant memoriam, de ipsis moventes intellectum, ut eas inquirat, dumque minime reperiat, ille dolet, animoque despondet; quando vero stat ad orationem, in ipsius revocant memoriam quaesita, et memorata, ut intellectus ad cognitionem earum rerum lassatus, ac laxatus, fructuosam perdat orationem.</div>
+      <div type="chapter" n="11">Conare ut, in tempore orationes, surdum ac mutum tuum sistas intellectum, sicque poteris orare.</div>
+      <div type="chapter" n="12">Quando tibi occurrerit tentatio, aut contradictio, aut fueris irritatus, aut, ob contrarium causam, ad ultionem commovere animum contigerit, aut ad aliquam erumpere vocem, memento orationis et judicii, quod de ipsa fit, et statim, quae in te fuerit incomposita commotio, sedabitur.</div>
+      <div type="chapter" n="13">Quotquot feceris ad vindictam fratris, qui te offenderit, in tempore orationis, scandalum tibi gignent, et offendiculum.</div>
+      <div type="chapter" n="14">Oratio germen est mansuetudinis et lenitudinis.</div>
+      <div type="chapter" n="15">Oratio est gaudii gratiarumque actionis productio.</div>
+      <div type="chapter" n="16">Oratio est adversus tristitiam animique dejectionem amuletum.</div>
+      <div type="chapter" n="17">Abiens vende substantiam tuam, et da pauperibus, accipiensque crucem, abnega temetipsum, ut possis absque ulla distractione orare.</div>
+      <div type="chapter" n="18">Si velis laudabiliter orare, quaque hora abnega temetipsum, ac philosophorum more, stude, sisque occupatus in permultis pro oratione perpetiendis.</div>
+      <div type="chapter" n="19">Si philo{so}phorum more dabis operam cuipiam rei durae tolerandae, ejus fructum tempore orationis invenies.</div>
+      <div type="chapter" n="20">Si orare cupias ut decet, ne tristitia animam affligas, alioquin in vanum curris.</div>
+      <div type="chapter" n="21">Dimitte (inquit) munus tuum ante altare, et abiens, prius reconciliare fratri tuo, et tunc veniens, absque perturbatione orabis; nam injuriarum memoria offuscat orantis ductricem rationem, ejusque orationibus tenebras offundit.</div>
+      <div type="chapter" n="22">Qui tristitias ac vindictas ex injuriarum recordatione sibi ipsis coacervant, et videntur orare, similes sunt his, qui hauriunt aquas, inque dolium pertusum projiciunt.</div>
+      <div type="chapter" n="23">Si patiens fueris, cum gaudio semper orabis.</div>
+      <div type="chapter" n="24">Oranti tibi, ut decet, hujuscemodi res occurrent; quod nimirum videatur tibi, justum esse omnino iracundia uti, verumtamen adversus proximum non justa est penitus iracundia, nam, si perquiras diligenter, invenies quod possibile est et sine ira negotium bene componi: utere itaque omni adhibito studio, ne prorumpas in iram.</div>
+      <div type="chapter" n="25">Cave ne, dum putas alterum curare, ipse insanabilis maneas, tuaeque orationi praebeas impedimentum.</div>
+      <div type="chapter" n="26">Si abstineas ab ira, modum parcendi ivenies, teque ipsum prudentem demonstrabis ad id, quod spectat ad tui existimationem, riteque eris inter orantes.</div>
+      <div type="chapter" n="27">Si adversus iram sis armatus, nunquam sustinebis concupiscentiam; ipsa enim est, quae materiam subministrat irae, et illa oculum perturbat intellectualem corrumpendo statum orationis.</div>
+      <div type="chapter" n="28">Ne solis externis gestibus ores, sed mentem tuam verte ut sit conscia spiritualis orationis cum multo timore.</div>
+      <div type="chapter" n="29">Interdum quidem confestim orationi insistens, bene precaberis; quandoque vero, cum diu multumque laboraveris, scopum non assequeris, ut adhuc eum magis requiras, cumque fueris adeptus, habeas rectum opus a praedae periculo immune ac tutum.</div>
+      <div type="chapter" n="30">Ad tante angelo discedunt confestim omnes, qui nobis afferunt impedimentum, mensque reperitur in multa requie sane orans; interdum vero, superveniente nobis consueto bello, mens pugilis instar pugnat, nec permittitur sursum caput reflectere, vanis quippe afficitur passionibus; attamen, si etiam atque etiam quaerat, inveniet, intenteque ipsi pulsanti aperietur.</div>
+      <div type="chapter" n="31">Ne ores, tuas prefici voluntates, nec enim Dei voluntati sunt omnino consonae, sed potius ora, ut didicisti, dicens: Fiat voluntas tua in me; sicque in omni re ab ipso pete, ut fiat ipsius voluntas; vult enim quod bonum est, quodque animae confert. Tu vero non hoc omnino exquiris.</div>
+      <div type="chapter" n="32">Saepe, dum orarem, petii, mihi fieri, quod arbitratus sum bonum mihi fore, inque petitione irrationabiliter perseverabam, Dei cogens voluntatem, nec ipsi concedens, ut quod ille futurum utile noverit, dispensaret; et quidem cum recepissem, postremo nimis graviter tuli, eo quod meam potius voluntatem fieri petiissem; nec enim res mihi talis evenit, qualem existimabam.</div>
+      <div type="chapter" n="33">Quid aliud bonum, nisi Deus? igitur ei remittamus, quae ad nos pertinent omnia, et bene nobis erit; ipse enim omnino bonus est, bonorumque largitor donorum.</div>
+      <div type="chapter" n="34">Ne tanquame in potestate procedens petitionem confestim exquiras; vult enim tibi plurimum conferre beneficium perseveranti in oratione; quid enim sublimius, quam Deum alloqui, et ipsius circumtrahi consuetudine?</div>
+      <div type="chapter" n="35">Oratio est ascensus mentis ad Deum.</div>
+      <div type="chapter" n="36">Si orare cupias, omnibus renuntia, ut omnia tibi cedant in haereditatem.</div>
+      <div type="chapter" n="37">Ora primo ut purgeris a passionibus, et secundo, ut eruaris ab ignoratia, et tertio, ut ab omni tentatione atque derelictione libereris.</div>
+      <div type="chapter" n="38">In oratione tua solam require justitiam, et regnum, id est virtutem, et cognitionem, et caetera omnia tibi adjicientur.</div>
+      <div type="chapter" n="39">Justum est non solum pro propria emundatione orare, sed et pro omni contribule, ut modum imiteris angelicum.</div>
+      <div type="chapter" n="40">Vide, an vere Deo tua in oratione adhaeseris, vel an hominum vincaris laude, illamque contendas aucupari, orationis utens repraesentatione, veluti tegmine.</div>
+      <div type="chapter" n="41">Sive cum fratribus ores, sive solus, conare, non consuetudine, sed sensu orare.</div>
+      <div type="chapter" n="42">Proprium orationis est interna cogitatio cum devota pietate et compunctione, animaeque dolore, peccata cum mutis suspiriis confitendo.</div>
+      <div type="chapter" n="43">Si tua mens aetatis florem in tempore orationis affectet, nondum ut monachus orat, sed etiamnum mundana est, exterius tabernaculum exornans.</div>
+      <div type="chapter" n="44">Dum oras, tuam, pro viribus, custodi memoriam, ut sua propria non tibi proponat, sed te moveat ad cognitionem extensionis ad Deum; memoria namque assolet multum depraedari mentem circa tempus orationis.</div>
+      <div type="chapter" n="45">Aut veteres rerum imaginationes tibi oranti producit memoria, aut novas curas, aut personam ejus qui te dolore affecit.</div>
+      <div type="chapter" n="46">Valde invidet daemon homini oranti, omnemque machinam adhibet, ut ejus intentionem inquinet; non cessat igitur per memoriam cogitationes harum rerum commovere, omnesque passiones per carnem tanquam vectibus subexcitare, ut impedire possit optimum ipsius cursum, et accessum ad Deum.</div>
+      <div type="chapter" n="47">Quando improbissimus daemon plurima molitus, studiosi orationem impedire non potuerit, parumper remittit, et postmodum ipsius qui oraverit, sumit vindictam; aut enim ad iracundiam incendens, optimum exterminat statum, in ipso ex oratione instructum; aut ad aliquam proritans irrationalem voluptatem, menti petulanter infert injuriam.</div>
+      <div type="chapter" n="48">Si oraveris uti decet, expecta quae non decent, et sta viriliter, fructum tuum custodiens, ad hoc enim a principio fuisti constitutus, ut opereris, et custodires: ne itaque operans, quod elaboratum est sinas incustoditum; id autem nisi faxis, nihil orando proficies.</div>
+      <div type="chapter" n="49">Omne quod instruitur bellum inter nos impurosque spiritus, non ob aliud fit, quam ob spiritualem orationem; valde namque ipsis hostilis est, ac maxime inimica, nobis autem salutaris, ac jucundissima.</div>
+      <div type="chapter" n="50">Cur volunt daemones in nobis operari gulam, fornicationem, avaritiam, iracundiam, et injuriarum recordationem, ac reliquas passiones? ut ex ipsis mens incrassata non possit, sicut decet orare; nam passiones, quae ab irrationali parte sumunt initium, non sinunt eam rationaliter moveri, Deique Verbum inquirere.</div>
+      <div type="chapter" n="51">Virtutes consectamur ob rationes, seu causas rerum creatarum, et istas propter Dominum, qui earum essentias condidit: ipse autem in statu orationis manifestari consuevit.</div>
+      <div type="chapter" n="52">Status orationis est habitus absque passione, amore summo ad celsitudinem intelligibilem rapiens mentem sapientem, et spiritualem.</div>
+      <div type="chapter" n="53">Is qui festino gradu contendit vere orare, oportet ut non solum iracundiae, atque cupiditati dominetur, verum etiam alienus sit a cogitatione, quae imbuta sit passione.</div>
+      <div type="chapter" n="54">Qui amat Deum, cum ipso, tanquam Patre semper colloquitur, et conversatur, omnem aversatus cogitationem passione inquinatam.</div>
+      <div type="chapter" n="55">Non qui vacuitatem passionum est adeptus, jam vere quoque orat, potest quippe in nudis versari cogitationibus, inque studium ipsas cognoscendi, seu lustrandi distrahi, et longe abesse a Deo.</div>
+      <div type="chapter" n="56">Nec vero, quando mens in nudis rerum cogitationibus non diu immoretur, jam simul orationis lucum est assecuta; potest enim in rerum contemplatione versari, inque ipsarum discursibus assidue meditari, quae, licet nuda sint verba; attamen, utpote quae rerum contemplationes exsistunt, quasi signum quoddam insculpant in mente, abducuntque procul a Deo.</div>
+      <div type="chapter" n="57">Quamvis mens citra contemplationem corporeae naturae versetur, nondum tamen perfectum Dei locum est contemplata: potest quippe in cognitione rerum intellectualium versari, et ad eam varie distingui.</div>
+      <div type="chapter" n="58">Si orare velis, Deo est opus, qui dat oranti orationem; igitur ipsum ivoca, dicens: «Sanctificetur nomen tuum, adveniat regnum tuum,» hoc est Spiritus sanctus, et Unigenitus Filius tuus; sic enim docuit, dicendo, in Spiritu, et veritate adorari Deum, scilicet Patrem, quandoquidem haec tria Deus.</div>
+      <div type="chapter" n="59">Qui orat in Spiritu, et veritate, non propter creaturas Conditorem honorifice laudat, sed propter ipsum, nimirum ejus amorem, eumdem hymnis exaltat.</div>
+      <div type="chapter" n="60">Si theologus es, vere orabis, sique vere oraveris, es theologus.</div>
+      <div type="chapter" n="61">Quando mens tua, multo accensa erga Deum desiderio, tantillum quasi recedet a carne, omnesque cogitationes a cupidi{t}ate, aut a memoria, aut a corporis temperamento procedentes, aversatur, devotione simul et gaudio repleta, tunc arbitrare te operationis terminis appropinquasse.</div>
+      <div type="chapter" n="62">Spiritus sanctus infirmitati nostrae compatiens, nobis, quamvis impuri simus, advenit; sique mentem nostram invenerit cum amore veritatis ad eum orantem, super ipsam ascendit, turmamque omnem cogitationum, aut notionum, quae ipsam ambit, delet, convertens eam ad opera spiritualis orationis.</div>
+      <div type="chapter" n="63">Caeteri quidem per corporis immutationem menti immittunt cogitationes, seu notiones, et speculationes: Deus autem contrarium efficit, mentem inscendit ipsam; immittens ei cogitationem, prout vult, simulque per mentem, corporis intemperantiam consopiens.</div>
+      <div type="chapter" n="64">Nemo, verae orationis amans, si irascitur, aut injuriarum sit memor, expers erit insaniae; persimilis namque est volenti acute cernere, oculosque proprios obturbanti.</div>
+      <div type="chapter" n="65">Si orare desideras, nihil eorum facias, quae orationi contraria sunt, ut Deus appropinquans tibi, tecum obambulet.</div>
+      <div type="chapter" n="66">Ne, quod divinum est, tibi ipsi assimiles, cum oras, nec juxta aliquam formam permittas tuam efformari mentem, sed immateriali, tu velut immaterialis accede, cumque ipso in unum convenies.</div>
+      <div type="chapter" n="67">Laqueos adversariorum evita; fieri namque solet ut oranti tibi pure ac sine perturbatione confestim astet forma peregrina et alienigena, ut te in tui arrogantem existimationem inducat, dum conjicias, ibi, reperiri quod divinum est, ut ex improviso revelatum tibi persuadeat, divinum esse quantum: verum divinum numen sine quantitate est, caretque figura.</div>
+      <div type="chapter" n="68">Quando invidus daemon non potest in oratione memoriam commovere, tunc corporis temperamento vim infert ad causandam in intellectu aliquam peregrinam imaginationem, ipsumque aliqua forma componendum; iste vero cui mos est in cogitationibus versari et haerere, facile flectitur, et ad immaterialem expertem figurae cognitionem impulsus, decipitur, fumum pro lumine suscipiens.</div>
+      <div type="chapter" n="69">Sta in tui custodia mentem tuam servans in tempore orationis a cogitationibus, seu notionibus, quo in propria quiete permaneas, ut, qui compatitur ignorantibus, ventitet etiam ad te, tuncque celeberrimum orationis praemium assequeris.</div>
+      <div type="chapter" n="70">Pure orare non poteris, si materialibus negotiis fueris implicitus, assiduisque curis agitatus; oratio quippe est depositio seu abjectio cogitationum.</div>
+      <div type="chapter" n="71">Devinctus nequaquam currere potest, nec mens passionibus inserviens valebit spiritualis orationis locum videre; attrahitur quippe, et circumfertur a cogitatione percita passionibus, neque stat inconcussa.</div>
+      <div type="chapter" n="72">Igitur quando pure, stabiliter, seu non vagabunde, vereque mens oret, non amplius e sinistris adventant daemones, sed a dextris: suggerunt namque ipsi Dei gloriam, et quamdam figurationem sensui amabilium, ita ut videatur ipse perfecte jam orationis scopum attigisse; hoc autem dixit quidam mirabilis et doctus vir a passione vanae gloriae procedere, et a daemone tangente cerebri locum, et venas commovente.</div>
+      <div type="chapter" n="73">Existimo quod daemon, ubi locum, quem dixi, tetigerit, mentis lucem obvertat, perinde ac vult, sicque moveri passionem vanae gloriae, dum idem format mentem in cogitationem leviter sentientem, ita ut formam habeat divinae ac substantialis cognitionis. Hic talis vero minime vexatus a carnalibus atque impuris passionibus, sed pure astans, videtur, sibi non amplius contrariam aliquam in seipso fieri operationem; unde suspicatur divinam esse apparitionem, quae facta est ipsi a daemone vehementi uso vafritie, et per cerebrum lucem conjunctam alterante, ac ipsum, prout diximus, formante.</div>
+      <div type="chapter" n="74">Dei angelus astans solo verbo cunctam operationem oppositam a nobis cessare facit, movetque lumen mentis ad operandum sine ullo errore.</div>
+      <div type="chapter" n="75">Quod dicatur in Apocalypsi angelum ferre thuribulum suffimenti, ut daret ad orationes sanctorum, arbitror quod sit haec gratia, quae per angelum efficitur: indit enim cognitionem vera orationis, ita ut mens deinceps stet extra omnem agitationem, pigritiam ac negligentiam.</div>
+      <div type="chapter" n="76">Phialae odoramentorum dicuntur orationes esse sanctorum, quas seniores viginti quatuor ferunt.</div>
+      <div type="chapter" n="77">Existimandum autem est, phialam amorem esse erga Deum, sive perfectam et spiritualem charitatem, in qua perficitur oratio in Spiritu et veritate.</div>
+      <div type="chapter" n="78">Cum opinatus fueris te non egere lacrymis in oratione tua propter peccata, dispice quantum abfueris a Deo, cum deberes omni tempore in eo esse, et calidius lacrymaberis.</div>
+      <div type="chapter" n="79">Profecto mensuras tuas agnoscens, suaviter lugebis, miserum aerumnosumque teipsum vocitans secundum Isaiam, quod cum pollutus sis, et polluta labia habeas, et in medio populi talis exsistas, tu e contrario audes Domino exercituum astare.</div>
+      <div type="chapter" n="80">Si vere oraveris, plenissimam comperies fidem, seu certificationem, et ad te angeli conveniere, et rationes eorum, quae fidat, in lucem proferent.</div>
+      <div type="chapter" n="81">Nosce, quod sancti angeli nos excitant ad orationem, et una nobiscum astant, gaudentes simul et orantes pro nobis; si igitur neglexerimus, et contrarias susceperimus cogitationes, valde irritabimus ipsos, quod ii pro nobis tantopere decertent, nos vero nec pro nobis ipsis volumus supplicare Deo, sed eorum contemnentes ministerium, ipsorumque Deum ac Dominum derelinquentes, impuris cum daemonibus conversamur.</div>
+      <div type="chapter" n="82">Aequo bonoque animo, et absque perturbatione ora, et prudenter atque concinne psalle, erisque uti pullus aquilae in altum elevatus.</div>
+      <div type="chapter" n="83">Psalmorum cantus passiones sedat, et consopit, corporisque intemperantiam quiescere facit. Oratio autem mentem praeparat, ut operationem propriam exerceat.</div>
+      <div type="chapter" n="84">Oratio est operatio, quae decet dignitatem mentis, seu est judicium ipsius melius, et sincerum.</div>
+      <div type="chapter" n="85">Psalmorum cantus est imago variegatae sapientiae; oratio vero, prooemium est immaterialis et variae cognitionis.</div>
+      <div type="chapter" n="86">Cognitio pulcherrima est, quippe quae orationis est cooperatrix, vim mentis intelligibilem expergisci faciens ad notitiae divinae contemplationem.</div>
+      <div type="chapter" n="87">Si necdum accepisti gratiam orationis, aut palmodiae, insiste sedulus, et accipies.</div>
+      <div type="chapter" n="88">Dicebat autem ipsis et parabolam, quod oporteat ipsos semper orare, neque deficere: non igitur deficias hactenus, neque despondeas animo, quia non acceperis; accipies etenim postea: et subjecit deinde parabolae illud dictum: «Si namque Deum minime timeo, et hominem non revereor; tamen propterea quod mulier mihi praebet molestias, ipsius ultionem faciam;» sic ergo et Deus faciet vindictam clamantium ad ipsum noctu diuque. Esto itaque bono animo perseverans laboriose in sancta oratione.</div>
+      <div type="chapter" n="89">Ne, ut tibi videtur, velis fieri, quae ad te spectant, sed ut Deo placet, erisque imperturbatus, et gratias agens in tua oratione.</div>
+      <div type="chapter" n="90">Licet cum Deo videaris esse, cave a luxuriae daemone, valde namque fallax est, et maxime invidus, et ocior esse vult motione ac vigilantia mentis tuae, ita ut eam avellat a Deo, cui assistebat cum devotione ac timore.</div>
+      <div type="chapter" n="91">Si tibi cura est orationis, praepara te ad hostiles daemonum invasiones, et constanter verbera quae infligunt, sustine; nam tanquam feroces bestiae insilient in te, tuumque corpus totum vexabunt et affligent.</div>
+      <div type="chapter" n="92">Paratus sis, uti peritus certator, ut, quamvis ex inopinato videris spectrum, non concutiaris, et licet dispexeris gladium districtum adversum te, aut lampadem, quae tuum comprehendat visum, non turberis, et quamvis speciem aliquam deformem, et cruentam spectaveris, nullo modo concidas anima, verum sta tuam confitendo praeclaram confessionem, et facilius tuos inspicies inimicos.</div>
+      <div type="chapter" n="93">Qui molesta sufferi, assequetur etiam quae gaudium pariunt, et qui constans tolerat insuavia, non carebit suavibus.</div>
+      <div type="chapter" n="94">Cave ne te decipiant per aliquam visionem maligni daemones; verum esto prudens, te convertens ad orationem, Deumque precare, ut si ex ipso quidem est cogitatum, ipse te illuminet, at si non est celeriter a te deceptorem depellat, et confide, quod non stabunt canes, te ardente cum animo Deo colloquente: confestim nempe invisibiliter, atque occulte Dei potentia flagellati, procul expellentur.</div>
+      <div type="chapter" n="95">Justum est quod neque fallaciam istam ignores; nimirum quod ad tempus sese dividunt daemones, sique auxilium quaerendum censueris, intrant reliqui angelicis in formis, expellendo primos, quo tu decipiaris ab ipsis, judicando quod videlicet forent angeli sancti.</div>
+      <div type="chapter" n="96">Multae humilitati ac generositati stude, et insultus daemonum animam tuam non continget, neque flagellum appropinquabit tabernaculo tuo, quia angelis suis mandavit de te, ut custodiant te, et invisibiliter abigant a te omnem oppositam operationem.</div>
+      <div type="chapter" n="97">Qui orationi dat operam audiet quidem strepitus et fragores, et voces, atque verborum pulsationes, sed non concidet, neque prodet ratiocinationem, dicens ad Deum: Non timebo mala, quoniam tu mecum es; et similia.</div>
+      <div type="chapter" n="98">In tempore hujuscemodi tentationum utere brevi et intensa oratione.</div>
+      <div type="chapter" n="99">Si daemones comminentur tibi sese ex improviso apparituros ex aere, teque perterrefacturos, tuamque mentem rapturos, aut, tanquam atroces bestiae tuam carnem violenter dilaniaturos, ne ipsos paveas, neve ullatenus illorum comminationem cures; injiciunt quippe metum tentantes te, an omnino ipsis attendas, an eos totaliter despexeris, an omnipotenti Deo, et Creatori, omniumque rerum provisori, in oratione astiteris.</div>
+      <div type="chapter" n="100">Quid enim Deo ita inconsiderate astas, ut ejus insuperabilem omittens timorem, et culices et scarabeos pertimescas? Annon audisti dicentem: «Dominum Deum tuum timebis,» et rursus: «Quem metuunt, et tremunt a facie potentiae ejus?» et reliqua.</div>
+      <div type="chapter" n="101">Sicut panis est alimentum corpori, et virtus animae, ita et intellectui siritualis oratio nutrimentum est.</div>
+      <div type="chapter" n="102">Ne pharisaice, sed more publicani ores in sacro orationis loco, ut etiam tu a Domino justificeris.</div>
+      <div type="chapter" n="103">Contende, non orare adversus aliquem in tua oratione, ne destruas quae aedificas, orationem tuam exsecrandam reddendo.</div>
+      <div type="chapter" n="104">Doceat te qui debitor erat decem mille talentorum, quod nisi dimittas debitori, nec ipse dimissionem consequeris; tradidit enim, inquit, ipsum tortoribus.</div>
+      <div type="chapter" n="105">Praetermitte corporis necessitates, dum orationi assistis, ne fodicatus a pulice, aut a pediculo, vel culice seu musca, maximi lucri tuae orationis detrimentum patiaris.</div>
+      <div type="chapter" n="106">Pervenit ad nos, seu ad aures nostras, quod cuidam sanctorum oranti adeo malignus obstabat, ut, simul ac manus extendebat, ille in leonem transfiguraretur, et recta sursum erigens anteriores pedes, propriosque ungues utrinque duabus malis certatoris infigeret, neque desisteret, priusquam manus ille diduceret; ipse vero nunquam relaxavit eas, donec preces consuetas explevit.</div>
+      <div type="chapter" n="107">Hujuscemodi fuisse novimus eum, qui in fovea solitaria quiete silebat, Joannem Parvum, sive potius praemagnum monachum, qui ex Dei consortio mansit immotus, daemone in specie draconis circumvoluto, ejusque carnes mandente, et in faciem ejus eructante.</div>
+      <div type="chapter" n="108">Legisti omnino et vitas monachorum Tabennesiotarum, ubi dicitur, quod abbate Theodoro sermonem ad fratres habente, venerunt duae viperae sub ejus pedes; ille vero imperturbate eas uti fornicem faciens, suscepit interius, donec sermonem locutus perfecit, tuncque ipsas fratribus ostendit, rem exponens.</div>
+      <div type="chapter" n="109">Rursus de altero Patre spirituali, seu religioso legimus, quod orante ipso vipera accedens ejus attigit pedes, ille vero non prius deposuit manus, quousque consuetam perfecit orationem, nihilque passus est noxae qui dilexit Deum plusquam seipsum.</div>
+      <div type="chapter" n="110">In oratione tua nec elatum, nec distractum habeas visum, et abnegando tuam carnem et animam, vive mentaliter.</div>
+      <div type="chapter" n="111">Alteri cuidam sancto in deserta solitudine degenti tranquille, dum oraret, daemones astantes per duas hebdomadas ipso tanquam pila ludebant et in aera jactando vibrabant, eum in storea suscipientes, nullatenus tamen mentem ejus a fervente oratione deducere potuerunt.</div>
+      <div type="chapter" n="112">Rursus alteri Deum amanti et orationis curam gerenti, cum per desertam solitudinem graderetur, astiterunt angeli duo, simulque cum ipso iter facientes, eum in medio collocarunt. Ille vero nullatenus iis adhaesit, ne, quod melius erat, detrimentum acciperet. Meminerat quippe apostolici effati dicentis: «Nec angeli, neque principatus, neque potestates poterunt nos separare a charitate Christi.» </div>
+      <div type="chapter" n="113">Angelis aequalis fit monachus per veram orationem.</div>
+      <div type="chapter" n="114">Cupiens videre faciem Patris, qui in coelis est, nullo modo studeas aliquam excipere formam tempore orationis.</div>
+      <div type="chapter" n="115">Ne desideres Angelos, aut Potestates, aut Christum sensibiliter videre, ne prorsus amens evadas, lupum vice pastoris excipiens, et hostes daemones adores.</div>
+      <div type="chapter" n="116">Principium erroris mentis est vana gloria, a qua eadem mens commota, circumscribere tentat divinitatem in specie atque formis.</div>
+      <div type="chapter" n="117">Ego meum hoc dicam, quod et junioribus dixi: Beata mens, quae orationis tempore perfectam formarum possedit vacuitatem.</div>
+      <div type="chapter" n="118">Beata mens, quae sine ulla orans distractione semper plus desiderii percipit erga Deum.</div>
+      <div type="chapter" n="119">Beata mens, quae circa tempus orationis immaterialis et inops evadit.</div>
+      <div type="chapter" n="120">Beata mens, quae orationis tempore perfectam possidet insensibilitatem.</div>
+      <div type="chapter" n="121">Beatus monachus, qui seipsum omnium peripsema reputat.</div>
+      <div type="chapter" n="122">Beatus monachus, qui salutem et progressum omnium cum omni gaudio, seu libentissime videt.</div>
+      <div type="chapter" n="123">Beatus monachus, qui post Deum omnes homines tanquam Deum reputat.</div>
+      <div type="chapter" n="124">Monachus est, qui ad omnibus separatus est, omnibusque apte accommodatus.</div>
+      <div type="chapter" n="125">Monachus est, qui seipsum cum omnibus esse existimat, eo quod in unoquoque sibi se jugiter videre videatur.</div>
+      <div type="chapter" n="126">Is orationem perficit, qui semper mentis suae primitias instar fructus offert Deo.</div>
+      <div type="chapter" n="127">Omne mendacium, et omne jusjurandum evita sicuti monachus, quique orare peroptas; alioquin frustra alienum effingis.</div>
+      <div type="chapter" n="128">Si spiritu velis orare, nihil haurias a carne, sicque non habebis nebulam tibi tempore orationis adversantem.</div>
+      <div type="chapter" n="129">Committe fidens Deo croporis egestatem, sicque manifestus eris, quod et illam spiritus ipsi concredis.</div>
+      <div type="chapter" n="130">Si promissiones consecutus fueris, regnabis; ad eas igitur respiciens, suaviter praesentem portabis paupertatem.</div>
+      <div type="chapter" n="131">Ne recuses paupertatem, et tribulationem, quae sunt materiae minime gravis orationis.</div>
+      <div type="chapter" n="132">Corporeae virtutes sint tibi comites ad eas, quae sunt animae, eaeque animae ad spirituales, et ipsae ad immaterialem atque essentialem cognitionem.</div>
+      <div type="chapter" n="133">Si, orando, facile cogitationes interquiescant, dispice unde id fiat, ne latenter patiaris insidias, et errans teipsum divendas.</div>
+      <div type="chapter" n="134">Nonnunquam daemones tibi suggerunt cogitationes, rursusque te provocant, ut videlicet ores adversus eos, aut ipsis contradicas, atque libenter secedunt, ut, deceptus, existimes de teipso, quod incepisti cogitationes devincere, ac daemones perterrefacere.</div>
+      <div type="chapter" n="135">Si ores adversus passionem, aut daemonem, qui te perturbat ac vexat, memento dicentis: «Persequar inimicos meos, et comprehendam eos, et non convertar donec deficiant, et conteram ipsos, nec poterunt stare, cadent subtus pedes meos;» et reliqua. Ista tempestive dices, te humilitate armando contra adversarios.</div>
+      <div type="chapter" n="136">Ne putes fuisse comparatam virtutem, nisi prius usque ad sanguinem pro ipsa velut in acie certaveris: oportet enim usque ad mortem adversus peccatum pugnaciter consistere; et irreprehensibiliter, secundum divinum Apostolum.</div>
+      <div type="chapter" n="137">Si aliquem adjuvabis, laederis ab altero, ut accepta injuria cedas, aut aliquid facias absurdum, maleque dissipes quae bene congregasti; hic enim malignorum scopus est daemonum. Ideo attendendum considerate.</div>
+      <div type="chapter" n="138">Ingruentes daemonum impetus exspecta, curam adhibens quomodo ab ipsorum servitute recedas.</div>
+      <div type="chapter" n="139">Noctu quidem turbare per se ipsos expetunt daemones spiritualem magistrum, interdiu vero per homines periculis et calumniis, ac seditionibus illam circumdant.</div>
+      <div type="chapter" n="140">Ne respuas fullones; etenim si conculcantes pulsent, et contendentes carminent; attamen per ista sensus tuus splendidus evadit.</div>
+      <div type="chapter" n="141">Quandiu non renuntiaveris passionibus, sed tua mens virtuti adversetur, et veritati, nequaquam invenies beneolens in sinu tuo suffimentum.</div>
+      <div type="chapter" n="142">Cupis orare? transferende te hinc, conversationem jugiter in coelis habe, non nudo verbo simpliciter, sed actu angelico, et diviniore cognitione.</div>
+      <div type="chapter" n="143">Si tantum adversis in rebus recorderis Judicis, quam terribilis, et donis incorruptus exsistat, non adhuc didicisti servire Domino in timore, quippe exsultane in tremore. Scito igitur, quod in spiritualibus recreationibus, ac epulis majori cum devatione et reverentia oportet ipsum colere et adorare.</div>
+      <div type="chapter" n="144">Sapiens vir est et consideratus, qui ante perfectavi penitentiam non desistit a memoria dolore affecta suorum peccatorum, et damnationis in aeterno igne pro illorum perpetratione.</div>
+      <div type="chapter" n="145">Qui peccatis detinetur et concitationibus ad iram, audetque impudenter ad rerum diviniorum cognitionem sese extendere, aut etiam ad immaterialem ascendere orationem, suscipiat ille apostolicam concuram, quod nimirum res non sine periculo est, nudo, nec operto capite orare: «Debet enim, inquit, ista potestatem habere super caput propter angelos astantes,» pudorem atque humilitatem circuminduta convenientem.</div>
+      <div type="chapter" n="146">Quemadmodum oppientem, sive oculis laborantem minime juvabit aspectus solis, qui percipi non potest, et intentus est, cum in fervida meridie, et vehementissima illuminatione resplendet, ita neque passionibus inquinatam, impuramque mentem figuratio tremendae ac excellentis orationis in spiritu et veritate ullatenus juvabit, sed et e contra in seipsam potius divinum excitat numen.</div>
+      <div type="chapter" n="147">Si eum qui cum dono processit ad altare non suscepit is qui nulla eget re, donisque est incorruptus, donec reconciliatus fuerit fratri suo adversus ipsum dolenti, dispice, quanta opus sit observantia et discretione, ut in intellectuali altari sustimentum Deo bene acceptabile offeramus.</div>
+      <div type="chapter" n="148">Ne sis garrulitate gaudens, neve gloriae studio exsultes; alioquin non tantum in dorso tuo, sed et in vultu tuo fabricabunt peccatores, erisque ispis tempore orationis ludibrium, attractus, et deceptus ab ipsis in cogitationibus alienis.</div>
+      <div type="chapter" n="149">Studium, seu attentio orationem quarens, orationem inveniet; oratio quippe, vel quid aliud simile subsequitur attentionem, cui danda opera.</div>
+      <div type="chapter" n="150">Quemadmodum sensibus omnibus melior est visus, ita et omnibus virtutibus divinior est oratio.</div>
+      <div type="chapter" n="151">Orationis laus est non simpliciter quantitas, sed qualitas, et hoc demonstrant qui ascenderunt in templum; et illud: «Vos, dum oratis, nolite multum loqui.»</div>
+      <div type="chapter" n="152">Quandiu proportionem corporis attendis, mensque tua quae sunt tabernaculo delectabilia fovet, locum orationis nondum vidisti, sed etiam procul a te distat illius vita beata.</div>
+      <div type="chapter" n="153">Quando orationi assistens supra omne aliud gaudium ascenderis, tunc orationem vere invenisti.</div>
+   </body>
+</TAN-T>

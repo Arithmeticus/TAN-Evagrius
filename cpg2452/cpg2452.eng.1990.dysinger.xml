@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_OnPrayer_eng_Dysinger.TAN-TEI">
+  <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:tan="tag:textalign.net,2015:ns" xmlns:math="http://www.w3.org/1998/Math/MathML">
+    <fileDesc>
+      <titleStmt>
+        <title>Λόγος πράκτικος</title>
+        <author>Evagrius Ponticus</author>
+        <respStmt>
+          <resp>translated by</resp>
+          <persName instant="false" full="yes"><forename full="yes">Luke</forename>
+            <surname full="yes">Dysinger</surname>, O.S.B.</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Kalvesmaki</publisher>
+        <availability default="false" status="unknown">
+          <p part="N">Public Domain</p>
+        </availability>
+        <date when="1990" instant="false"/>
+      </publicationStmt>
+      <sourceDesc default="false">
+        <listBibl default="false">
+          <biblStruct type="website" default="false" status="draft">
+            <monogr>
+              <title>St. Evagrius Ponticus (345-399)</title>
+              <author>
+                <name full="yes" instant="false">Evagrius Ponticus</name>
+              </author>
+              <editor>Fr. <forename full="yes">Luke</forename>
+                <surname full="yes">Dysinger</surname>, O.S.B. </editor>
+              <imprint>
+                <pubPlace>Valyermo, California</pubPlace>
+                <publisher>Fr. Luke Dysinger, O.S.B.</publisher>
+                <date instant="false">1990</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc default="false">
+        <p part="N">Assembled 2011-2012 by <persName instant="false" full="yes">Joel Kalvesmaki</persName>, based on public-domain
+          material found on the website of the translator.</p>
+      </projectDesc>
+      <editorialDecl default="false">
+        <correction default="false" status="unknown" method="silent">
+          <p part="N">Unnecessary spacing and reduplication silently corrected.</p>
+        </correction>
+        <normalization default="false" method="silent">
+          <p part="N">Transcription does not reflect the translator's original orthography (small caps not
+            reflected); color; italics; indentation. It also does not distinguish author's
+            metanarrative from the translation.</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <list>
+        <item>
+          <date when="2012-05-12" instant="false">12 May 2012</date> Updated by Joel Kalvesmaki</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Luke Dysinger's English translation of the Praktikos of Evagrios Pontikos</name>
+    <master-location href="http://evagriusponticus.net/tan/cpg2430/cpg2430.eng.1990.dysinger.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Prak."/>
+    <version>
+      <IRI>tag:evagriusponticus.net,2015:cpg2430,eng-1997</IRI>
+      <IRI>tag:kalvesmaki.com,2014:cpg2430,eng-1997</IRI>
+      <name xml:lang="eng">Fr. Luke Dysinger's translation of the ancient Greek version of the
+          Praktikos</name>
+    </version>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2021-06-02"/>
+    </vocabulary>
+    
+    <source which="Dysinger 1990"/>
+    <adjustments>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
+        <name>Small caps removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-color-off</IRI>
+        <name>Color removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-italics-off</IRI>
+        <name>Italics removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:normalization-xrefs-off</IRI>
+        <name>Translator's references to other primary sources removed.</name>
+      </normalization>
+      <normalization>
+        <IRI>tag:kalvesmaki.com,2014:l-sep-off</IRI>
+        <name>left separator, U+2028, removed</name>
+      </normalization>
+      <normalization which="no reference markers"/>
+      
+    </adjustments>
+    <vocabulary-key>
+      <algorithm xml:id="xslt2">
+        <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
+        <name>Converter from TAN 2018 to TAN 2020</name>
+        <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-05-28T03:45:03.534-04:00"/>
+      </algorithm>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      <algorithm xml:id="xslt1">
+        <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
+        <name>Stylesheet to populate a TAN-A-div file from collections.</name>
+        <location
+          href="../../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
+          accessed-when="2019-05-28"/>
+      </algorithm>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp who="kalvesmaki" roles="editor"/>
+    <change when="2023-12-28" who="kalvesmaki">Reconciled numeration system with that of Géhin's edition.</change>
+    <change when="2023-11-11" who="kalvesmaki">Started TAN file</change>
+    <to-do/>
+		<comment when="2014-10-29" who="kalvesmaki">Translation by Luke Dysinger, O.S.B. (translation
+			in public domain) The Greek text below is based on: PG 79.1165-1200; Philokalia; and
+			Tugwell.[1] it has been updated according to the critical edition of Géhin (SC 589) From
+			the source: The best translation of De Oratione currently available, based on the most
+			reliable manuscripts, is that of Sinkewicz: Evagrius Ponticus, The Greek Ascetic Corpus,
+			(Oxford, 2003), pp. 183-209. The translation provided on these webpages makes liberal use
+			of the melifluous version of Simon Tugwell, O.P: Evagrius Ponticus Praktikos and Chapters
+			on Prayer, Faculty of Theology, Oxford, 1987.The Greek text used in this translation is
+			based principally on PG 79,1165-1200 and Philokalia I (Athens, 1957), pp. 176-189. This
+			Greek text incorporates textual emendations suggested by: [1] Hausherr, Le Traité de
+			l’Oraison d’Evagre le Pontique in Rev.d’Asc.et Mys.v.15, 1934; pp. 34-93, 113-170; and [2]
+			Tugwell, Evagrius Ponticus: De oratione (Oxford: Faculty of Theology, 1981), Greek text
+			based on six MSS. Additional (older) English translations of de Oratione may be found in:
+			[1] Early Fathers from the Philokalia (Faber); [2] The Philocalia, vol. 1 (Faber); and [3]
+			J. E. Bamberger, O.C.S.O, tr., Evagrius Ponticus, Praktikos and Chapters on Prayer
+			(Cistercian). </comment>
+  </head>
+  <text>
+    <body xml:lang="eng">
+         <div type="preface" n="pr">
+            <div type="chapter" n="1">
+               <p>I was feverish with the inflammation of the passions, when you revived me as you usually do with the [healing] touch of your godly letter, palliating my diseased nous (intellect) in its shameful deformity: and thus you blessedly imitated our great teacher Macarios.</p>
+               <p>And this is no surprise: for your share was the marked ones like blessed Jacob: you served well for Rachel, received Leah; and now you seek the [real] object of your longing, having fulfilled ‘the week’ [of years]<ref cRef="Gen 29:15-30"/>.</p>
+               <p>For I do not deny that I had toiled all night and caught nothing: but when at your word I let down my nets<ref cRef="Lk 5:5"/> I caught an abundance of fish: I do not think they are [very] large, but there are a hundred and fifty-three of them<ref cRef="Jn 21:11"/>; and I am sending them to you in the basket of love<ref cRef="Mt 15:37; Mk 8:8"/> in an equivalent number of chapters, thereby fulfilling your instructions.</p>
+            </div>
+            <div type="chapter" n="2">
+               <p>I am amazed at you and very jealous of your excellent purpose. For your do not simply yearn for these [texts] that came into existence through hands, ink, and paper; rather [you yearn] for chapters fixed in the nous (intellect) through love and forgetfulness of injury.</p>
+               <p>Since everything is twofold, each facing the other as the wise Jesus [Ben-Sirach] says<ref cRef="Sir. 42:24"/>, receive these chapters</p>
+               <p>[2] both in letter;</p>
+               <p>[1] and in spirit.</p>
+               <p>Understand that nous (intellect) takes complete precedence over the letter, since without [nous] there can be no letter.</p>
+               <p>In the same way prayer also has a twofold mode:</p>
+               <p>[1] one active;</p>
+               <p>[2] the other contemplative.</p>
+               <p>And it is the same with numbers:</p>
+               <p>[1] on the surface there is quantity;</p>
+               <p>[2] while the inner significance is quality</p>
+            </div>
+            <div type="chapter" n="3">
+               <p>Therefore, in dividing my saying[s] on prayer into one hundred and fifty-three I am catering for you a ‘fish-[dinner]’ from the gospels<ref cRef="Jn 21:12-13"/>, to delight you with a symbolic number in which you will find both a triangular and a hexagonal form. [These] signify both:</p>
+               <p>[2] reverent knowledge of the Trinity;</p>
+               <p>[1] and the boundaries of the orderly arrangement of the universe.</p>
+               <p>So, while the number one hundred by itself is ‘square’, fifty-three is a combination of ‘triangular’ and ‘spherical’; because twenty-eight is triangular, and twenty-five is spherical (five times five equals twenty-five)</p>
+               <p>So you not only have a square number, on account of the tetrad of the virtues; but also the wise knowledge of this age that resembles the number twenty-five because of the spherical nature of time.</p>
+               <p>For week after week, month after month, year after year, [time] rolls on from season to season, as we see in the movements of sun and moon, spring and summer, and the rest.</p>
+               <p>The triang[ular number] you may take as signifying the knowledge of the Holy Trinity.</p>
+               <p>Or else, if you obtain a hundred and fifty-three by adding up many numbers, since it is a triangular number, consider it to mean:</p>
+               <p>[1] praktiké [asceticism],</p>
+               <p>[2] physiké [natural science], and</p>
+               <p>[3] theologiké [theology]; or</p>
+               <p>[1] faith</p>
+               <p>[2] hope, and</p>
+               <p>[3] love;<ref cRef="1Cor 13.13"/> or</p>
+               <p>[1] gold</p>
+               <p>[2] silver, and</p>
+               <p>[3] precious stones<ref cRef="1Cor 3.12"/>
+               </p>
+            </div>
+            <div type="chapter" n="4">
+               <p>Enough, then, of these numbers. The chapters themselves are humble, but you will not be contemptuous, since you have known both plenty and want<ref cRef="Ph 4:12"/>; and you have certainly not forgotten him who, far from rejecting the widow’s two coins, welcomed then more than the wealth of the many.<ref cRef="Mk 12:42"/>
+               </p>
+               <p>You know how to preserve the fruit of goodwill and love of your genuine brethren; so pray for me in my illness that I may be healed, and then take up my bed and walk<ref cRef="Mk. 2:11"/> by the grace of Christ Amen.</p>
+            </div>
+         </div>
+         <div type="chapter" n="1">
+            <p>If one wishes to prepare fragrant incense, he should combine clear frankincense, cassia, onycha and oil [of myrrh] in equal amounts, according to the Law<ref cRef="Ex 30:34-7"/>. This signifies the tetrad of the virtues For if these four are fully [present] and equally balanced, the nous (intellect) will not be betrayed.</p>
+         </div>
+         <div type="chapter" n="2">
+            <p>A soul purified through the fullness of the virtues establishes in the nous a position of steadiness, rendering it receptive of the desired state.</p>
+         </div>
+         <div type="chapter" n="3">
+            <p>Prayer is [intimate] conversation of the nous with God. So then, what stable state must the nous possess to be capable of stretching out unwaveringly toward its own Master and converse with him without any intermediary?</p>
+         </div>
+         <div type="chapter" n="4">
+            <p>If moses was hindered when he attempted to approach the bush burning on earth, until he had taken off the shoes from [his] feet<ref cRef="Ex. 3:2-5"/>; how can you, if you wish to see and converse with him who is above all perception and concepts, not not put off every passioned thought (noema) from yourself?</p>
+         </div>
+         <div type="chapter" n="5">
+            <p>First, pray to receive tears, so that by means of mourning (penthos) you may be able to calm the savagery inherent in your soul, and by confessing your offence to the Lord<ref cRef="Ps 32.5"/>, obtain forgiveness from him.</p>
+         </div>
+         <div type="chapter" n="6">
+            <p>Make use of tears to support every petition, for it greatly pleases your Master to receive prayer with tears.</p>
+         </div>
+         <div type="chapter" n="7">
+            <p>Even if you weep rivers of tears at your prayer, on no account be inwardly haughty, as if you were superior to others. For your prayer has received this help so that you may be able to [more] easily confess your sins and propitiate the Lord by means of tears. So do not turn into passion the antidote to passions, lest you anger all the more the [One] who gave you this grace.</p>
+         </div>
+         <div type="chapter" n="8">
+            <p>Many who weep for their sins, have forgotten the purpose of their weeping, gone insane, and wandered away.</p>
+         </div>
+         <div type="chapter" n="9">
+            <p>Stand patiently toiling,</p>
+            <p>and pray well-toned,</p>
+            <p>and put to flight the assaults of anxieties and [tempting-]thoughts: they disturb and trouble you in order to make you relax your tone.</p>
+         </div>
+         <div type="chapter" n="10">
+            <p>When the demons see that you are eager to truly pray, they insinuate mental concepts (noemata) of certain affairs that seem to demand attention; and within a short [time] they arouse the memory of these things and move the nous to seek them out. And failing to find them, it becomes very sorrowful and disheartened. Then when [the nous] stands for prayer, the demons remind it of the [matters] it had sought and remembered, so that it passively relaxes into knowledge (gnosis) of them and loses its fruitful prayer.</p>
+         </div>
+         <div type="chapter" n="11">
+            <p>Exert your nous to stand at the time of prayer [as if] deaf and dumb, and [then] you will be able to pray.</p>
+         </div>
+         <div type="chapter" n="12">
+            <p>Whenever you meet with some temptation or contradiction or when some desire to take vengeance on your enemy moves you to anger or to burst out into meaningless cries, remember prayer and the judgment it entails, and immediately the lawless movement of your soul will be quieted.</p>
+         </div>
+         <div type="chapter" n="13">
+            <p>If you take any [kind of] revenge on a brother who has wronged you, it will all become a stumbling block for you at the time of prayer.</p>
+         </div>
+         <div type="chapter" n="14">
+            <p>Prayer is an offshoot of gentleness and freedom from anger.</p>
+         </div>
+         <div type="chapter" n="15">
+            <p>Prayer is the budding forth of joy and thankfulness.</p>
+         </div>
+         <div type="chapter" n="16">
+            <p>Prayer is an antidote to sadness and despondency.</p>
+         </div>
+         <div type="chapter" n="17">
+            <p>Go, sell what you possess and give [it] to the poor<ref cRef="Mt/19.21; Mk 10:21"/>, and take up your cross and deny yourself<ref cRef="Mt. 16.24; Mk 8:34"/> so that you will be able to pray without distraction.</p>
+         </div>
+         <div type="chapter" n="18">
+            <p>If you wish to pray laudably, deny yourself every hour<ref cRef="Lk 9:23"/>, and even if you [pass through] every kind of suffering, study it carefully because of prayer.</p>
+         </div>
+         <div type="chapter" n="19">
+            <p>Whatever difficulty you patiently endure while carefully studying [it], you will discover bearing fruit at the time of prayer.</p>
+         </div>
+         <div type="chapter" n="20">
+            <p>If you desire to pray as you ought, do not sadden any soul, otherwise you are running in vain<ref cRef="Gal 2:2, Phil 2:16"/>
+            </p>
+         </div>
+         <div type="chapter" n="21">
+            <p>Leave your gift,” it says, before the altar, and first go away and be reconciled to your brother;<ref cRef="Mt 5:24"/> and after that you will be able to pray undisturbed. For memory of injury blinds the mind (hegemonikon) of one who prays, and darkens his prayers.</p>
+         </div>
+         <div type="chapter" n="22">
+            <p>Those who heap up sorrow and memory of injury within themselves, and then expect to pray, are like people who draw water and pour it into a perforated wine-jar.<ref cRef="Pr 23.27"/>
+            </p>
+         </div>
+         <div type="chapter" n="23">
+            <p>If you are able to endure patiently, you will always pray with joy.</p>
+         </div>
+         <div type="chapter" n="24">
+            <p>When you pray as you ought you will come up against matters of the sort that cause you to imagine it would be completely justifiable to use indignation [thumos]. But there is no such thing as justifiable indignation against your neighbor. If you investigate [this], you will discover that it is possible for the matter to be settled fairly without indignation . Employ every possible means to avoid bursting out in indignation.</p>
+         </div>
+         <div type="chapter" n="25">
+            <p>See that you do not infect yourself while trying to heal another, and that you do not [thus] excise your own prayer.</p>
+         </div>
+         <div type="chapter" n="26">
+            <p>If you become indignant [only] sparingly you will yourself be spared: and you will prove yourself prudent and be among those who pray.</p>
+         </div>
+         <div type="chapter" n="27">
+            <p>If you arm yourself against indignation [thumos], you will never tolerate desire [epithumia]; because desire provides the matter for indignation, thus disturbing the noetic eye [and] abusing the state of prayer.</p>
+         </div>
+         <div type="chapter" n="28">
+            <p>Do not pray solely with external postures, but instead direct your nous towards a sensitivity to spiritual prayer with profound awe.</p>
+         </div>
+         <div type="chapter" n="29">
+            <p>On certain occasions when you stand for prayer you instantly pray well, while at other times, even after hard work you not achieve your purpose. This is so you will seek even more [vigorously], and upon receiving it keep your success secure.</p>
+         </div>
+         <div type="chapter" n="30">
+            <p>When on occasion an angel stands for us, then all who stand against us immediately vanish, and the nous is found greatly relieved, praying soundly. But at other times, when the usual battle is raging against us, the nous lashes out and is not permitted any concessions; for it has been prematurely aroused by the various passions. Nevertheless, if it goes on seeking, it will find, and if it knocks vigorously, [the door] will be opened<ref cRef="Mt 7:8"/>.</p>
+         </div>
+         <div type="chapter" n="31">
+            <p>Do not pray that what you will should be done, because your [will] is not in full harmony with the will of God. Pray instead as you were taught, saying, Let your will be done in me<ref cRef="Mt 6:10, 24:2"/>. And in all matters ask of him in this way that his will be done. He wills [only] what is good and profitable for the soul; but that is not always what you seek.</p>
+         </div>
+         <div type="chapter" n="32">
+            <p>I have often prayed, requesting that something I thought was good for me be done for me, insisting on my request, and irrationally [attempting to] force God’s will. And [thus] I did not leave it to him who knows what is profitable to arrange<ref cRef="1Cor 10:23"/>. And when I eventually received what I asked for, I was very sorry I had asked for my own choice; for the matter did not turn out as I had imagined.</p>
+         </div>
+         <div type="chapter" n="33">
+            <p>What other good is there but God?<ref cRef="Mk 10:18"/> So let us leave to Him everything that pertains to us, and [all] will be well with us. For He is wholly good and the giver of good gifts<ref cRef="Jas 1:17"/>.</p>
+         </div>
+         <div type="chapter" n="34">
+            <p>Do not become distressed if you do not receive at once from God [your] request; he wishes to benefit you even more as you continue steadfastly in prayer<ref cRef="Rom 12:12"/>. For what is higher than [enjoying] conversation with God and being taken up [lit distracted] with [conversational] intercourse with him?</p>
+         </div>
+         <div type="chapter" n="35">
+            <p>Undistracted prayer is the highest noetic [activity] of the nous.</p>
+         </div>
+         <div type="chapter" n="36">
+            <p>Prayer is the ascent of the nous to God.</p>
+         </div>
+         <div type="chapter" n="37">
+            <p>If you long to pray, renounce everything at once<ref cRef="Lk 14:33"/> so that you may inherit all.</p>
+         </div>
+         <div type="chapter" n="38">
+            <p>Pray:</p>
+            <p>[1] first, for purification from the passions;</p>
+            <p>[2] and second, for deliverance from ignorance [and forgetfulness];</p>
+            <p>[3] and third, [for deliverance] from all temptation<ref cRef="Mt 6:13"/> and abandonment.</p>
+         </div>
+         <div type="chapter" n="39">
+            <p>In your prayer seek only righteousness and the kingdom, namely, virtue and knowledge; and all the rest will be added unto you<ref cRef="Mt 6:33"/>.</p>
+         </div>
+         <div type="chapter" n="40">
+            <p>It is just to pray not only for your own purification, but also [to pray] for your own [kindred], so as to imitate the angelic way [lit: the angelic mode].</p>
+         </div>
+         <div type="chapter" n="41">
+            <p>See whether you truly stand before God in your prayer; or whether you are a slave to human praise and eagerly hunt for it, using the display of prayer as a cover<ref cRef="Mt 23:5"/>.</p>
+         </div>
+         <div type="chapter" n="42">
+            <p>Whether you pray with [the] brothers or by yourself, struggle to pray not [only] in the customary way, but [also] with perception.</p>
+         </div>
+         <div type="chapter" n="43">
+            <p>Sensation (=perception) in prayer is concentration (sunnoia), with reverence and compunction and distress of soul, as you confess your failures with silent groans.</p>
+         </div>
+         <div type="chapter" n="44">
+            <p>If the nous is still staring around at the time of prayer, it does not yet know how to pray as a monk; it is still a secular, decorating the exterior tabernacle<ref cRef="Mt 23:27"/>.</p>
+         </div>
+         <div type="chapter" n="45">
+            <p>When you pray, keep powerful guard over your memory: in this way, instead of placing its own passions before you, it will, instead, move you to the knowledge that you stand [before God]. For the nous is naturally disarmed [and plundered] by the memory at the time of prayer.</p>
+         </div>
+         <div type="chapter" n="46">
+            <p>When you are praying the memory brings you fantasies of either:</p>
+            <p>[1] ancient issues;</p>
+            <p>[2] or new worries;</p>
+            <p>[3] or the face of one who has distressed you.</p>
+         </div>
+         <div type="chapter" n="47">
+            <p>The demon is very malignant towards [any] person who prays, and it employs every means to defeat his purpose. It does not cease [1] moving thoughts (noemata) of matters through the memory and [2] stirring up all the passions through the flesh, so as to be able to impede his excellent course and his departure to God.</p>
+         </div>
+         <div type="chapter" n="48">
+            <p>When, despite all his efforts, the malevolent demon is unable to hinder the prayer of one who is earnest, it lets up for a time and then takes its revenge when he finishes praying. It either:</p>
+            <p>[1] enflames him with anger, [thus] ruining the excellent state that, through prayer, has been welded together in him;</p>
+            <p>[2] or it entices him to some irrational pleasure and so commits an outrage on the nous.</p>
+         </div>
+         <div type="chapter" n="49">
+            <p>Having prayed properly, expect what is improper; and stand courageously to keep guard over your harvest. Indeed from the beginning you were assigned this: namely, to work and keep guard<ref cRef="Gen. 2:15"/>. So do not leave your work unguarded after your labor, otherwise you do not receive any benefit from praying.</p>
+         </div>
+         <div type="chapter" n="50">
+            <p>The entire war between us and the impure demons concerns nothing other than spiritual prayer, because it is very hostile and burdensome to them, while it is salvific and very soothing for us.</p>
+         </div>
+         <div type="chapter" n="51">
+            <p>Why do the demons wish to activate in us gluttony, sexual immorality, avarice, anger and memory of injury, and all the other passions? It is in order to coarsen the nous through them, so that it is incapable of praying as it ought. When the passions reign through [our] irrational part, they do not allow [the nous] to move rationally and to seek the Word of God.</p>
+         </div>
+         <div type="chapter" n="52">
+            <p>We quest for the virtues because of the logoi (inner meanings) of created things, and for these because of the[ir] subsistent Logos; and He customarily appears in the state of prayer.</p>
+         </div>
+         <div type="chapter" n="53">
+            <p>The state of prayer is a habit[ual condition] free from passion (apathēs) that elevates to the highest rapture of loving (eros) the carefully-studious and spiritual nous.</p>
+         </div>
+         <div type="chapter" n="54">
+            <p>It is not only indignation (thumos) and desire, (epithumia) that must be ruled by one who wishes to pray truly: one must also be free of every impassioned thought (noema).</p>
+         </div>
+         <div type="chapter" n="55">
+            <p>One who loves God always converses with him as Father, turning away every impassioned thought (noema).</p>
+         </div>
+         <div type="chapter" n="56">
+            <p>The attainment of freedom from passion (apatheia) does not [necessarily mean] one is already truly praying: it is possible to have simple thoughts (noemata), but be taken up with [lit distracted by] [investigating] their stories, and thus still be far from God.</p>
+         </div>
+         <div type="chapter" n="57">
+            <p>Even though the nous is not spending time on simple thoughts (noemata) of issues, it has not thereby already reached the place of prayer. For it may be contemplating issues, involved in idly meditating on their logoi (inner meanings). And even if these are simple words, since they are contemplations of issues they stamp [their] impression on the nous, and leading it far away from God.</p>
+         </div>
+         <div type="chapter" n="58">
+            <p>Even if the nous [rises] above the contemplation of corporeal natures, it has still not beheld the perfect place of God: for it may be involved in the knowledge of noetic (intelligible) beings [i.e angels] and thus multiform by [focusing] on the[ir multiplicity].</p>
+         </div>
+         <div type="chapter" n="59">
+            <p>If you wish to pray, you need God who gives prayer to the one who prays<ref cRef="1Sam 2:9"/>. Therefore call upon him saying, Hallowed be your name, your kingdom come<ref cRef="Mt. 6:9-10"/>, that is to say, your Holy Spirit and your only-begotten Son. For He taught you this by saying, the Father is worshipped in spirit and truth<ref cRef="Jn 4:23-4"/>.</p>
+         </div>
+         <div type="chapter" n="60">
+            <p>The one praying in spirit and truth<ref cRef="Jn 4:23-4"/> no longer honors the Creator because of [His] creatures, but instead praises Him for His own sake.</p>
+         </div>
+         <div type="chapter" n="61">
+            <p>If you are a theologian, you pray truly; and if you pray truly, you are a theologian.</p>
+         </div>
+         <div type="chapter" n="62">
+            <p>When your nous in great yearning for God gradually withdraws, so to speak, from the flesh; and when it deflects all thoughts (noemata) that come from sensation, or memory or temperament, having become full of reverence and joy, then you may believe it has drawn near the borders of prayer.</p>
+         </div>
+         <div type="chapter" n="63">
+            <p>The holy Spirit, who sympathizes with our weakness<ref cRef="Rom. 8:26"/>, repeatedly visits us even when we are impure; and, if he only finds the nous loving truth [and] praying to, he lights upon [and disposes] it, dispersing the whole battle-array of [tempting-] thoughts (logismoi) and concepts (noemata) circling around it, encouraging it on to the [rapturous] love (eros) of spiritual prayer.</p>
+         </div>
+         <div type="chapter" n="64">
+            <p>The others implant [tempting-]thoughts (logismoi), ideas (noemata), or contemplations in the nous by affecting the body. God, however, does the opposite: he himself lights upon [and disposes] the nous and places within it knowledge as he wishes; and through the nous he soothes the body’s disharmony.</p>
+         </div>
+         <div type="chapter" n="65">
+            <p>No one yearning (erô) for true prayer who also becomes angry or remembers injuries can be anything but insane: it is like wishing for good eyesight while tearing at your own eyes</p>
+         </div>
+         <div type="chapter" n="66">
+            <p>If you long to pray, do none of the things that oppose prayer, so that God will draw near and travel with you on [your] way<ref cRef="Lk 24:15"/>.</p>
+         </div>
+         <div type="chapter" n="67">
+            <p>Do not give [any] shape to the Divine in yourself when you pray, nor should you permit any form to stamp an impression on your nous: instead, approach immaterially what is immaterial; and you will understand.</p>
+         </div>
+         <div type="chapter" n="68">
+            <p>Guard against the snares of the enemies. For sometimes while you are praying purely and undisturbed, suddenly there stands before you some strange and alien form to lead [you] astray into conceit, [by] rashly localizing the Deity in order to persuade you that the Deity is quantifiable: whereas the Deity is not quantifiable and is without shape.</p>
+         </div>
+         <div type="chapter" n="69">
+            <p>When the spiteful demon is unable to move the memory during prayer, he strikes out against the body’s temperament to create some strange fantasy in the nous, and [thus] shape it. And [the nous] will easily yield to its influence, because it is used to dealing in thoughts (noemata); so when it was pressing on eagerly to immaterial and formless knowledge, it comes to be deceived into accepting smoke instead of light.</p>
+         </div>
+         <div type="chapter" n="70">
+            <p>“STAND on your guard,”<ref cRef="Hab 2:1"/> protecting your nous from thoughts (noemata) at the time of prayer: and take your stand on your own [inner] quiet, so that He who suffers with the ignorant<ref cRef="Heb 5:2"/> will manifest Himself to you too; then you will receive a most glorious gift of prayer.</p>
+         </div>
+         <div type="chapter" n="71">
+            <p>You are not able to pray purely if you are enmeshed in material affairs and shaken about by constant cares, because prayer is [the] putting aside of thoughts (noemata).</p>
+         </div>
+         <div type="chapter" n="72">
+            <p>It is not possible one who is chained to run; nor is it possible for the nous to see the place of spiritual prayer while enslaved to passions, for it is carried to and fro by impassioned thought (noemata) and can have no firm standing place.</p>
+         </div>
+         <div type="chapter" n="73">
+            <p>Once the nous is praying purely unwaveringly, and truly, [completely] apart from the [passions], the demons no longer insinuate themselves from the left, but from the right. They set before it the glory of God and shape it in the form of things beloved by the senses, so that [the nous] will believe it has perfectly achieved its goal concerning prayer. An admirable and ascetical (praktikos) man explained that this is caused by the passion of vainglory and by the demon that attaches itself to [a particular] place in the brain and makes the veins pulsate.</p>
+         </div>
+         <div type="chapter" n="74">
+            <p>I believe the demon touches that place [thus] manipulating the light surrounding the nous however he wishes; and in this way the passion of vainglory produces a [tempting-]thought (logismos) that shapes the nous so that it will foolishly [try to] localize the divine, essential knowledge. This sort of person is not troubled by carnal and impure passions; rather he seems to stand purely before [God]. So he presumes there is no longer any opposing energy at work within him: and therefore he assumes he sees a divine apparition; one that [actually] comes from the demon who very cunningly manipulates by means of the brain the light conjoined [to the nous], thus shaping [the nous], as we have said.</p>
+         </div>
+         <div type="chapter" n="75">
+            <p>THE angel of God comes and with a single word makes all the opposing activity within us cease, and moves the light of the nous to undeviating activity. </p>
+                    </div>
+         <div type="chapter" n="76">
+            <p>The saying in the Apocalypse that the angel takes incense to add to the prayers of the saints<ref cRef="Rev 8:3"/> refers, I believe, to the grace that is effected by the angel. He implants knowledge of true prayer, so that from then on the nous stands without any agitation from acedia or negligence.</p>
+         </div>
+         <div type="chapter" n="77">
+            <p>The bowls of incense are said to be the the prayers of the saints that the twenty-four elders offered<ref cRef="Rev 5:8"/> ‘Bowl’ (phialên) is understood to mean the friendship (philian) with God or that perfect and spiritual love in which prayer is effected in Spirit and Truth.</p>
+         </div>
+         <div type="chapter" n="78">
+            <p>When you imagine you no longer need tears for sins in your prayer on account of sin, examine how far you have moved from God, when you are bound to always be in him; and you will weep even more fervently.</p>
+         </div>
+         <div type="chapter" n="79">
+            <p>Yes, when you recognize your measure, you will be take pleasure in mourning, calling yourself, like Isaiah, wretched, like an unclean person with unclean lips, living in the midst of a people similarly [unclean]<ref cRef="Is 6:5"/> So how in the face of this can you stand boldly before the Lord Sabbaoth?.</p>
+         </div>
+         <div type="chapter" n="80">
+            <p>If you pray truly, you will find very great assurance and angels will accompany you as they did Daniel<ref cRef="Dan 7:6"/>; and they will enlighten you concerning the logoi of what has come into being.</p>
+         </div>
+         <div type="chapter" n="81">
+            <p>Know that the holy angels urge us to pray and stand with us, rejoicing and praying for us.<ref cRef="KG 3.62 and 3.84"/>
+            </p>
+            <p>But if we are negligent and [willingly] receive opposing [tempting-] thoughts (logismoi), we greatly provoke them: since although they struggle for us, we are not willing even to supplicate God on our behalf, treating our own worship with contempt and abandoning their Lord and God to consort with unclean demons</p>
+         </div>
+         <div type="chapter" n="82">
+            <p>Pray:</p>
+            <p>[1] gently and [2] undisturbed,</p>
+            <p>Sing psalms:</p>
+            <p>[1] with understanding<ref cRef="Ps. 46:8"/> and</p>
+            <p>[2] good rhythm;</p>
+            <p>then you will be like the young eagle borne aloft in the heights.</p>
+         </div>
+         <div type="chapter" n="83">
+            <p>Psalmody calms the passions and puts to rest the body’s disharmony;</p>
+            <p>Prayer arouses the nous to activate its own proper activity.</p>
+         </div>
+         <div type="chapter" n="84">
+            <p>Prayer is the power befitting the dignity of the nous; it is the nous’ highest and purest power and function.</p>
+         </div>
+         <div type="chapter" n="85">
+            <p>Psalmody pertains to multiform wisdom;<ref cRef="Eph 3:10"/>
+            </p>
+            <p>Prayer is the prelude to immaterial and uniform knowledge.</p>
+         </div>
+         <div type="chapter" n="86">
+            <p>Knowledge has great beauty: it is the co-worker of prayer, awakening the intellectual power of the intellect to contemplation of divine knowledge. Cf.</p>
+         </div>
+         <div type="chapter" n="87">
+            <p>If you have not [yet] received the gift of PRAYER or PSALMODY, persevere and you will receive it.</p>
+         </div>
+         <div type="chapter" n="88">
+            <p>He told them a parable so that they would pray always and not lose heart<ref cRef="Lk 18:1"/>. So neither lose heart nor be discouraged in the meantime if you do not receive [i.e. the gift of prayer or psalmody]; you will receive it later. And in the parable he continued, Even if I do not fear God or respect man, still, since this woman is a nuisance, I will judge her case. So too will God similarly avenge those who cry out to him night and day, and he will do it soon<ref cRef="Lk 18:4-8"/>. So be of good cheer and persevere eagerly in holy prayer.</p>
+         </div>
+         <div type="chapter" n="89">
+            <p>You should not wish for things that concern you to take place as seems good to you, but rather as is pleasing to God. Then you will be undisturbed and thankful in your prayer.</p>
+         </div>
+         <div type="chapter" n="90">
+            <p>Even if you suppose yourself to be with God, guard against the demon of sexual immorality, for he is very deceitful and extremely vengeful; and he wants to be quicker than the movement and watchfulness of your nous, so that he can tear it away from God, while it stands beside Him in reverence and awe.</p>
+         </div>
+         <div type="chapter" n="91">
+            <p>If you are taking care of [your] prayer, prepare for invasions from the demons and patiently endure their scourging. They will come upon you like [wild] beasts and injure your whole body.</p>
+         </div>
+         <div type="chapter" n="92">
+            <p>Prepare yourself like a skilled wrestler not to be confused even if you suddenly see some apparition, and not to be upset even if you see a sword drawn against you or a light passing before your eyes, and not become agitated, even if you see some horrible, bloody shape; do not let your soul by completely defeated. Instead, stand firm, making your good confession of faith<ref cRef="1 Tim. 6:12"/>, and you will easily look upon your enemies<ref cRef="Ps. 117:7"/>.</p>
+         </div>
+         <div type="chapter" n="93">
+            <p>If you endure painful things, you will also obtain joyful ones; and one who is patient with unpleasant things will not lack a share in what is pleasant.</p>
+         </div>
+         <div type="chapter" n="94">
+            <p>See that the evil demons do not deceive you with some vision: be deeply thoughtful, turn to prayer, and call upon God to enlighten you himself as to whether the idea (noema) comes from him; or if not, to quickly expel the deception from you. And take courage: the dogs will not stand against you, if you are fiery* in wielding the staff of supplication to God against them. For they will instantly be driven far away, invisibly and secretly flogged by the power of God.</p>
+            <p>* fiery prayer De Orat.111; cf. Cassian Conf 9.15]</p>
+         </div>
+         <div type="chapter" n="95">
+            <p>It is [only] just that you not be ignorant of this deceit: at times the demons divide themselves [into two groups], and if you appear to be calling for help, the second [group] enters arrayed as angels and drives away the first [group] that is assailing you, in order to make you conclude that they are holy angels.</p>
+         </div>
+         <div type="chapter" n="96">
+            <p>Take care to acquire great humility and courage, and no demonic spite will accost your soul and ‘the scourge will not draw near your tent, for God will give his angels charge over you to guard you’<ref cRef="Ps. 90:10-11"/>, and unseen they will chase away from you the whole enemy - maneuver.</p>
+         </div>
+         <div type="chapter" n="97">
+            <p>Noises, crashes, voices, and tortured [screams] will he hear - the person carefully attending to pure prayer: but he will not cave in or surrender his rationality, saying to God, ‘I will not fear evil things, for you are with me,’<ref cRef="Ps. 22:4"/> and other similar [verses].</p>
+         </div>
+         <div type="chapter" n="98">
+            <p>In the times of these sorts of temptations employ brief, intense prayer.</p>
+         </div>
+         <div type="chapter" n="99">
+            <p>If the demons threaten to suddenly appear to you out of the air to shock you and seize your nous or to injure your flesh like [wild] beasts, do not let them dismay you, take no thought of their threats. They are tempting you to fear them, to see whether you bother about them or regard them with total contempt.</p>
+         </div>
+         <div type="chapter" n="100">
+            <p>If it is God Almighty, creator of the universe, provident [administrator] of all, on Whom you attend in prayer, why do you stand before Him so irrationally as to circumvent by the impassable fear of him, while [yet] alarmed by mosquitoes and dung-beetles? Have you not heard that it said, ‘The Lord your God shall you fear ’<ref cRef="Deut. 6:13"/> and again, ‘At Whom all things fear and tremble, before the Face of his power’<ref cRef="Dan. 6:27 [Theodotion] + Joel 2:11?"/>?</p>
+         </div>
+         <div type="chapter" n="101">
+            <p>Just as bread is nourishment for the body and virtue [is nourishment] for the soul, so spiritual prayer is the nourishment for the nous.</p>
+         </div>
+         <div type="chapter" n="102">
+            <p>Pray, not like the Pharisee, but like the publican in the holy place of prayer, so that you too may be justified by God<ref cRef="Lk 18:10-14"/>.</p>
+         </div>
+         <div type="chapter" n="103">
+            <p>Struggle not to curse anyone in your prayer, so as not to make your prayer disgusting, [thus] destroying what you are building up.</p>
+         </div>
+         <div type="chapter" n="104">
+            <p>The debtor who owed ten thousand talents<ref cRef="Mat 18:23-35"/> ought to instruct you: if you do not forgive your debtor, you yourself will not win forgiveness<ref cRef="Mat 6:15"/>. For it says, He gave him over to the torturers<ref cRef="Mat 18:34"/>.</p>
+         </div>
+         <div type="chapter" n="105">
+            <p>Dismiss the necessities of the body during your attendance at prayer, so that you do not lose the great benefit of your prayer through the bite of a flea, a louse a mosquito or a carrion-fly.</p>
+         </div>
+         <div type="chapter" n="106">
+            <p>It has come to us how, when one of the holy ones was praying, the evil one was so opposed to him that, as soon as [the holy one] raised his hands, [the evil one] changed his shape into that of a lion and, raising his front paws up, fixed his claws in both sides of the muscles of the combatant's thighs and would not move away until [the holy one] lowered his hands. However he did not let them down before completing his customary prayers.</p>
+         </div>
+         <div type="chapter" n="107">
+            <p>We know of another similar monk who lived in a secluded cistern, John the Short - or rather John the Very Great - who remained without moving from his [intimate] communion with God as the demon in the form of a serpent coiled around him and constricted his flesh, disgorging it into his face.</p>
+         </div>
+         <div type="chapter" n="108">
+            <p>And you have read the lives of the Tabennesiote monks, where it says that as Abba Theodore was speaking a word to the brothers, two vipers crawled towards his feet; but he, undisturbed, made for them a kind of vaulted chamber [of his feet] and let them stay there until he had finished his word. Then he showed them to the brothers interpreting what had happened.</p>
+         </div>
+         <div type="chapter" n="109">
+            <p>We have also read of another spiritual brother who, while praying a snake came and fastened upon his foot. But he did not lower his hands until he had completed his customary prayer, and was not at all harmed - loving God more than himself.</p>
+         </div>
+         <div type="chapter" n="110">
+            <p>Keep the eye from roaming during your prayer and deny your flesh and your soul<ref cRef="Lk 9:23"/>, and live according to [the] nous.</p>
+         </div>
+         <div type="chapter" n="111">
+            <p>Another holy solitary in the desert was attacked by demons for two weeks while vigorously focusing on his prayer: [as if] playing ball with him, they threw him up into the air catching him on a rush mat. They were completely unable to even briefly bring his nous down from its fiery* prayer.</p>
+            <p>*fiery supplication DeOrat 94; cf. Cassian Conf 9.15]</p>
+         </div>
+         <div type="chapter" n="112">
+            <p>And [yet] another lover of God was praying with thoughtful foresight while going about in the desert when two angels came and walked on either side of him. But he did not attend to them at all, so as not to lose what was better. He remembered the saying of the apostle that neither angels, principalities or powers will be able to separate us from the love of God<ref cRef="Rom. 8:38-9"/>.</p>
+         </div>
+         <div type="chapter" n="113">
+            <p>A monk becomes equal to the angels<ref cRef="Lk 20:36"/> by means of true prayer, yearning to see the face of the Father who is in heaven<ref cRef="Mt. 18:10"/>.</p>
+         </div>
+         <div type="chapter" n="114">
+            <p>Do not seek in any way at all to receive some form or shape or color at the time of prayer.</p>
+         </div>
+         <div type="chapter" n="115">
+            <p>Do not yearn to see angels or powers or Christ through the senses, so as not to become completely insane by receiving a wolf instead of a shepherd<ref cRef="Jn 10:11-12"/>, and worshipping your enemies the demons.</p>
+         </div>
+         <div type="chapter" n="116">
+            <p>The beginning of [deceptive] wandering of the nous is vainglory; by it the nous is moved to try to circumscribe the divine in shape and form.</p>
+         </div>
+         <div type="chapter" n="117">
+            <p>I will speak my piece - and to the youngest I have said it: blessed is the nous that, at the time of prayer, has acquired perfect formlessness.</p>
+         </div>
+         <div type="chapter" n="118">
+            <p>Blessed is the nous that, praying without distraction, receives a continually increasing yearning for God.</p>
+         </div>
+         <div type="chapter" n="119">
+            <p>Blessed is the nous that at the time of prayer becomes immaterial and wholly dispossessed.</p>
+         </div>
+         <div type="chapter" n="120">
+            <p>Blessed is the nous that at the time of prayer acquires perfect insensibility .</p>
+         </div>
+         <div type="chapter" n="121">
+            <p>Blessed is the monk who considers himself the offscouring of all<ref cRef="1Cor. 4:13"/>.</p>
+         </div>
+         <div type="chapter" n="122">
+            <p>Blessed is the monk who regards every human being as God, after God. [cf. Evag.Maxims 2.23: μετὰ θεὸν θεός]</p>
+         </div>
+         <div type="chapter" n="123">
+            <p>Blessed is the monk who looks upon the salvation and progress of all with profound joy, as if it were his own.</p>
+         </div>
+         <div type="chapter" n="124">
+            <p>A monk is one who is both separated from all and joined to all.</p>
+         </div>
+         <div type="chapter" n="125">
+            <p>A monk is one who considers himself to be one with all, because he continuously thinks he sees himself in each one.</p>
+         </div>
+         <div type="chapter" n="126">
+            <p>He brings prayer to perfection who always offers every first thought as [first-]fruits to God<ref cRef="Rom 7:4"/>.</p>
+         </div>
+         <div type="chapter" n="127">
+            <p>Avoid falsehood and every oath [if] you yearn to pray as a monk; otherwise you vainly affect an [external] appearance that is not your.</p>
+         </div>
+         <div type="chapter" n="128">
+            <p>If you wish to pray in spirit<ref cRef="1Cor 15:15"/>, hate no one, then you will not have an obstructing cloud [hanging] over you at the time of prayer.</p>
+         </div>
+         <div type="chapter" n="129">
+            <p>Entrust to God the needs of the body and then it will be clear that you also entrust to Him the needs of the spirit.</p>
+         </div>
+         <div type="chapter" n="130">
+            <p>If you obtain the promises<ref cRef="Heb 11:33"/>, you will reign. So too if you constantly look to them<ref cRef="Heb 11:26"/> you will bear with pleasure the present poverty.</p>
+         </div>
+         <div type="chapter" n="131">
+            <p>Do not demand exemption from poverty and afflictions, for they are the material of weightless prayer.</p>
+         </div>
+         <div type="chapter" n="132">
+            <p>Virtues of the body should serve you as a pledge of those of the soul, and they in turn of those of the spirit. And they [are a pledge] of immaterial and essential knowledge.</p>
+         </div>
+         <div type="chapter" n="133">
+            <p>Consider when praying against [tempting-]thoughts whether they abate readily, [and] why this has happened, lest you fall prey to an ambush and are tricked into delivering yourself over.</p>
+         </div>
+         <div type="chapter" n="134">
+            <p>Sometimes the demons suggest [tempting-]thoughts to you while simultaneously seeming to encourage you to pray against them or contradict them. Then they voluntarily withdraw, to deceive you into supposing you have begun to conquer [tempting-]thoughts and frighten the demons.</p>
+         </div>
+         <div type="chapter" n="135">
+            <p>If you pray against a passion or demon that annoys you, remember the One who said, ‘I will pursue my enemies and overtake them and I will not turn back until they turn away; I will crush them and they will be unable to stand, they will fall beneath my feet’ and so forth<ref cRef="Ps. 17:38-9"/>. Say these things at the right time equiping yourself with humility against the antagonists.</p>
+         </div>
+         <div type="chapter" n="136">
+            <p>Do not imagine that you have acquired virtue until you have first been prepared to shed blood for it. For it is necessary to resist sin unto death aggressively<ref cRef="Heb. 12:4"/> and blamelessly<ref cRef="1Cor 1:8"/>, according to the divine apostle.</p>
+         </div>
+         <div type="chapter" n="137">
+            <p>If you help someone you [may] be harmed by another; this [may] cause you, as if having been treated unjustly, to say or do something improper to another. And you will scatter in evil what you have gathered in good<ref cRef="Mt 12:30, Lk 11:23"/>. This is the goal of the evil demons. That is why we must be attentive and have good sense. (nounechos).</p>
+         </div>
+         <div type="chapter" n="138">
+            <p>Always anticipate persuasive demonic assaults, and reflect on how to avoid becoming enslaved by them.</p>
+         </div>
+         <div type="chapter" n="139">
+            <p>By night the evil demons themselves lay claim<ref cRef="Lk 22:31"/> to the spiritual teacher to disturb him, and by day they employ others who encompass him with difficulties and slanders and dangers.</p>
+         </div>
+         <div type="chapter" n="140">
+            <p>Do not refuse the wool-cleaners. If they do beat and trample you, stretch and comb you, this is how your garment becomes radiant.</p>
+         </div>
+         <div type="chapter" n="141">
+            <p>To the degree that you have not renounced the passions, and your nous is averse to virtue and truth, you cannot find the fragrance of incense in your breast<ref cRef="Song 1:12"/>.</p>
+         </div>
+         <div type="chapter" n="142">
+            <p>The one yearning to pray has moved from what is here to always have citizenship in heaven<ref cRef="Phil. 3:20"/>, not merely through simple word[s] but through angelic practice and divine knowledge,</p>
+         </div>
+         <div type="chapter" n="143">
+            <p>If you remember the Judge only when things go badly and that He is fearful and impartial you have not yet learned how to serve the Lord in fear and to rejoice in him with trembling<ref cRef="Ps. 2:11"/>. See, rather, that it is in times of spiritual rest and feasting that it is all the more necessary to worship him with reverence and awe<ref cRef="Heb 12:28"/>.</p>
+         </div>
+         <div type="chapter" n="144">
+            <p>The well-informed man is one who, until he has attained perfect repentance, endures the painful memory of his own sins and the just renalty exacted for them in the everlasting fire.</p>
+         </div>
+         <div type="chapter" n="145">
+            <p>One who is [still] subject to sins and angry outbursts, and even so shamelessly dares to aspire to the knowledge of more divine things, or to embark on immaterial prayer, should receive himself the apostolic rebuke, that it is not without danger to pray with his head bare and uncovered<ref cRef="1Cor 11:5"/>. Such a soul, it says, ought to have authority over its head because of the angels who stand by<ref cRef="1Cor 11:10"/>, clothing itself in appropriate shame and humility.</p>
+         </div>
+         <div type="chapter" n="146">
+            <p>Just as staring intently and directly at the sun at noon when it shines most brightly does no good to one with a eye-disease, and in So also one suffering from an impassioned and impure nous would gain nothing by imitating the awesome supernatural prayer that operates in Spirit and in Truth<ref cRef="Jn 4:23-24"/>. Rather the reverse: it provokes the divine to be indignant with it.</p>
+         </div>
+         <div type="chapter" n="147">
+            <p>If god who lacks nothing and is impartial refused to accept one who came with a gift to the altar until he reconciled with the neighbor who was upset with him<ref cRef="Mt 5:24"/>, consider what watchfulness and discernment is needful to offer a favorable incense to God at the noetic altar.</p>
+         </div>
+         <div type="chapter" n="148">
+            <p>Do not take pleasure in material [things] or glory, otherwise it is no longer on your back, but on your face, that sinners will wreak their carpentry<ref cRef="Ps 128:3"/> And at the time of prayer you will be a source of laughter for them<ref cRef="Ecclus 6:4, 18:3"/> , as they drag you off and entice you<ref cRef="Jas 1:14"/> with bizarre [tempting-]thoughts.</p>
+         </div>
+         <div type="chapter" n="149">
+            <p>Attentiveness seeking prayer finds prayer; for prayer follows attentiveness, if [it follows] anything, and it should always be zealously sought.</p>
+         </div>
+         <div type="chapter" n="150">
+            <p>Just as sight excels all the other senses, so prayer is higher than all the other virtues</p>
+         </div>
+         <div type="chapter" n="151">
+            <p>It is not simply quantity, but rather quality that makes prayer admirable. And this is shown by those who went up to the Temple<ref cRef="Lk 18:10-14"/>, and again, ‘When you pray, do not babble on’<ref cRef="Mt. 6:7"/> and other similar [texts].</p>
+         </div>
+         <div type="chapter" n="152">
+            <p>As long as you are observing the proportion of your body, and your nous is busy looking at the attractiveness of the tent, you have not yet observed the place of prayer: the blessed path is still far from you.</p>
+         </div>
+         <div type="chapter" n="153">
+            <p>When standing to pray becomes a greater joy than any other, then you have truly found prayer</p>
+         </div>
+      </body>
+  </text>
+</TEI>
