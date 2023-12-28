@@ -288,16 +288,16 @@
          cpg2447-syr cpg2447-hye cpg2447-gez cpg2447-kat cpg2447-ara cpg2448-syr 
          cpg2448-kat cpg2449-lat cpg2449-syr cpg2449-hye cpg2449-ara cpg2450-syr cpg2451-lat 
          cpg2451-syr cpg2451-hye cpg2451-ara cpg2451-cop cpg2451-gez cpg2451-kat cpg2451-orv 
-         cpg2452-syr cpg2452-hye cpg2452-gez cpg2452-kat cpg2452-ara cpg2453-syr cpg2454-syr 
+         cpg2452-syr cpg2452-hye cpg2452-kat2 cpg2452-ara cpg2452-ara2 cpg2452-chu cpg2453-syr cpg2454-syr 
          cpg2457-syr cpg2459-syr cpg2459-hye cpg2460-syr cpg2461-cop cpg2461-ara cpg2463-ara 
          cpg2464a-ara cpg2464-ara cpg2469-syr cpg2470-syr cpg2470-hye cpg2475-syr cpg2477-syr 
          cpg2477-hye cpg2482a-ara cpg2483-syr nocpg06-hye" verb="survives-in-original-language">
          <object units="portion">1.0</object>
       </claim>
-      <claim subject="cpg2431" verb="survives-in-original-language">
+      <claim subject="cpg2431 cpg2452-syr2" verb="survives-in-original-language">
          <object units="portion">0.6</object>
       </claim>
-      <claim subject="cpg2453" verb="survives-in-original-language">
+      <claim subject="cpg2453 cpg2452-ara2 cpg2452-gez cpg2452-kat1" verb="survives-in-original-language">
          <object units="portion">0.3</object>
       </claim>
       <claim subject="cpg2432" verb="survives-in-original-language">
@@ -340,7 +340,10 @@
       <claim subject="cpg2449-lat cpg2449-syr cpg2449-hye cpg2449-ara" verb="translates" object="cpg2449"/>
       <claim subject="cpg2450-syr" verb="translates" object="cpg2450"/>
       <claim subject="cpg2451-lat cpg2451-syr cpg2451-hye cpg2451-ara cpg2451-cop cpg2451-gez cpg2451-kat cpg2451-orv" verb="translates" object="cpg2451"/>
-      <claim subject="cpg2452-syr cpg2452-hye cpg2452-gez cpg2452-kat cpg2452-ara" verb="translates" object="cpg2452"/>
+      <claim subject="cpg2452-syr cpg2452-hye cpg2452-gez cpg2452-kat cpg2452-kat2 cpg2452-ara cpg2452-ara2 cpg2452-ara3" verb="translates" object="cpg2452"/>
+      <claim subject="cpg2452-ara2" verb="translates" object="cpg2452-syr2"/>
+      <claim subject="cpg2452-ara3" verb="edits" object="cpg2452-ara2"/>
+      <claim subject="cpg2452-kat" verb="translates" object="cpg2452-ara2"/>
       <claim subject="cpg2453-syr" verb="translates" object="cpg2453"/>
       <claim subject="cpg2454-syr" verb="translates" object="cpg2454"/>
       <claim subject="cpg2457-syr" verb="translates" object="cpg2457"/>
@@ -645,6 +648,7 @@
       <claim subject="lolasvili_1984" verb="edits" object="cpg2434-kat"/>
       <claim subject="sims_williams_1985 Hansen_1955" verb="edits" object="cpg2434-sog"/>
       <claim subject="frankenberg_1912" verb="edits" object="cpg2434-syr"/>
+      <claim subject="k'oč'lamazašvili_2019" verb="edits" object="cpg2434-kat"/>
       
       <!-- cpg2435 -->
       <claim
@@ -902,6 +906,7 @@
       <claim subject="lolasvili_1984 Garitte_1956" verb="edits" object="cpg2451-kat"/>
       <claim subject="Bigot_1680" verb="edits" object="cpg2451-lat"/>
       <claim subject="muyldermans_1952" verb="edits" object="cpg2451-syr"/>
+      <claim subject="k'oč'lamazašvili_2019" verb="edits" object="cpg2451-kat"/>
       
       <!-- cpg2452 -->
       <claim
@@ -923,7 +928,10 @@
       <claim subject="evagrius_rubio_sadia_1995" verb="translates" object="cpg2452" in-lang="spa"/>
       <claim subject="Arras_1986" verb="edits" object="cpg2452-gez"/>
       <claim subject="hausherr_1939a" verb="edits" object="cpg2452-ara"/>
+      <claim subject="suryani_1986" verb="edits" object="cpg2452-ara"/>
       <claim subject="hausherr_1939a" verb="edits" object="cpg2452-syr"/>
+      <claim subject="cam_1855" verb="edits" object="cpg2452-hye"/>
+      <claim subject="outtier_2016" verb="translates" object="cpg2452-hye" in-lang="fra"/>
       
       <!-- cpg2453 -->
       <claim subject="evagrius_casiday_2006" verb="translates" object="cpg2453" in-lang="eng"/>

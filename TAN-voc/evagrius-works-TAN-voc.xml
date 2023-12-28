@@ -435,12 +435,18 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2434:version:kat</IRI>
             <name>Georgian translation of Antirrh.</name>
             <name>cpg2434-kat</name>
+            <desc>In one tradition (seventeen mss.), each of the eight chapters are preceded by the
+            corresponding part of Eight Spirits (CPG 2451), and presented as a treatise by Maximus
+            Confessor, prefaced by a letter that is a mixture of the preface to the Antirrhetikos,
+            Letter 4, and the Catechesis of Theodore Stoudites.
+            </desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2434:version:sog</IRI>
             <name>Sogdian translation of Antirrh.</name>
             <name>cpg2434-sog</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2435</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.007</IRI>
@@ -932,6 +938,8 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2451:version:kat</IRI>
             <name>Georgian translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
             <name>cpg2451-kat</name>
+            <desc>See CPG 2434 for a tradition in which the Eight Thoughts are mingled with the
+                Antirrhetikos, and attributed to Maximos Confessor.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2451:version:rus</IRI>
@@ -953,28 +961,81 @@
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2452:version:syr</IRI>
+            <IRI>tag:evagriusponticus.net,2015:cpg2452:version:syr1</IRI>
             <name>Syriac translation of On Prayer</name>
+            <name>Fifth-century Syriac translation of On Prayer</name>
             <name>cpg2452-syr</name>
+            <name>cpg2452-syr1</name>
+            <desc>Partial translation, fifth century, covering chapters 1-32 (numbered 35 in the
+                Syriac). Of the two known translations, this was the best known, appearing in six
+                manuscripts.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2452:version:syr2</IRI>
+            <name>Seventh-century Syriac translation of On Prayer</name>
+            <name>cpg2452-syr2</name>
+            <desc>Partial translation, seventh or eighth century, under the name of Nilus.
+                Discovered in 1975 as a palimpsest. Largely complete (chapters 24-119), the
+                translation is rather literal.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2452:version:hye</IRI>
             <name>Armenian translation of On Prayer</name>
             <name>cpg2452-hye</name>
+            <desc>Sixth- or seventh-century translation based largely on the Greek.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2452:version:gez</IRI>
             <name>Ethiopic translation of On Prayer</name>
             <name>cpg2452-gez</name>
+            <desc>Likely postdates the 16th century, and preserves 51 chapters: 1, 3 (beginning), 5,
+                6, 9, 11, 15, 16, 17 (beginning), 20, 23, 28, 29 (beginning), 31, 33, 34 (end),
+                35-40, 43, 45, 50, 51 (beginning), 53, 59+60, 63, 67, 68 (end), 70-72, 101
+                (beginning), 102, 110, 118, 119, 121-24, 126, 128, 129, 131, 149, 150, 153. </desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2452:version:kat</IRI>
             <name>Georgian translation of On Prayer</name>
+            <name>Ninth-century Georgian translation of On Prayer</name>
             <name>cpg2452-kat</name>
+            <name>cpg2452-kat1</name>
+            <desc>Ninth-century translation from the Arabic.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2452:version:kat:2</IRI>
+            <name>Eleventh-century Georgian translation of On Prayer</name>
+            <name>cpg2452-kat2</name>
+            <desc>Eleventh-century translation from the Greek.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2452:version:ara</IRI>
+            <IRI>tag:evagriusponticus.net,2015:cpg2452:version:ara1</IRI>
             <name>Arabic translation of On Prayer</name>
+            <name>A1 Arabic translation of On Prayer</name>
             <name>cpg2452-ara</name>
+            <name>cpg2452-ara1</name>
+            <desc>Ninth-century (?) translation based on the Greek.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2452:version:ara2</IRI>
+            <name>A2 Arabic translation of On Prayer</name>
+            <name>cpg2452-ara2</name>
+            <desc>Tenth-century (?) translation based on the Syriac (S2). Translation characterized
+                by Syriacization.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2452:version:ara3</IRI>
+            <name>A3 Arabic translation of On Prayer</name>
+            <name>cpg2452-ara3</name>
+            <desc>Tenth-century (?) revision of A2. Syriacization normalized to more classical
+                Arabic forms. Preserves only 43 chapters, in this order: 21, 22, 27, 28, 31, 32, 46,
+                50, 51, 55, 36, 33, 38, 40, 42-44, 59, 63, 66, 72, 82, 96-98, 89, 90, 92, 101,
+                106-8, 110, 112, 113, 116, 129, 132, 135, 137-39, 141.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2452:version:chu</IRI>
+            <name>Slavonic translation of On Prayer</name>
+            <name>cpg2452-chu</name>
         </item>
         
         <item>
@@ -1061,13 +1122,14 @@
             <desc>The CPG 2458 subentries are based upon von Balthasar's observation (1939, pp.
                 202-6) that there are traces of commentaries by Evagrius other than those on the
                 Psalms and Proverbs, namely Genesis, Numbers, Kingdoms, Ecclesiastes, Song of Songs,
-                Job, and Luke. The first three of these are encompassed by CPG 2458.1, but these are
-                mere fragments that need further study. Based on content, von Balthasar suggested
-                Evagrius was responsible for a number of scholia, as follows. Genesis: PG 12:103n47;
-                109bc; 112cd; 116ab; 126a, c. Numbers: PG 12:577cd, 581bc, 584a. Kingdoms: PG 12:996a.
-                Devreesse's edition of the scholia on the Octateuch includes KG (CPG 2432) 6.61.
-                Studying Byzantine scholia collections with an eye to identifying fragments by
-                Evagrius is greatly needed.</desc>
+                Job, and Luke. The first three of these are encompassed by CPG 2458.1, but point to
+                fragments that suggest the entire category needs further study. Based on internal
+                consistency with Evagrius's other writings, von Balthasar suggested the following
+                scholia should be attributed to him: Genesis: PG 12:103n47; 109bc; 112cd; 116ab;
+                126a, c. Numbers: PG 12:577cd, 581bc, 584a. Kingdoms: PG 12:996a. Devreesse's
+                edition of the scholia on the Octateuch includes KG (CPG 2432) 6.61. Studying
+                Byzantine scholia collections with an eye to identifying fragments by Evagrius is
+                greatly needed.</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2458.2</IRI>
