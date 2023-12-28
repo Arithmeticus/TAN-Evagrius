@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     TAN-version="2021"
+     id="tag:kalvesmaki.com,2014:cpg2444.srp.2023.nesic">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Γνῶμαι κατ᾿ ἀλφάβητον</title>
+            <author>Evagrius Ponticus</author>
+            <respStmt>
+               <resp>translated by</resp>
+               <persName full="yes">
+                  <forename full="yes">Лазар</forename>
+                  <surname full="yes">Нешић</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p/>
+      </encodingDesc>
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name xml:lang="eng">Lazar Nesic's Serbian translation of the Spiritual Chapters Alphabetized of Evagrios Pontikos</name>
+      <name xml:lang="srp">Лазар Нешић, превод оф Изреке према азбучном редоследу, Евагрије Понтски</name>
+      <master-location href="http://evagriusponticus.net/tan/cpg2444/cpg2444.srp.2023.nesic.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Sent alph II"/>
+      <version>
+         <IRI>tag:evagriusponticus.net,2015:cpg2444,srp-2023</IRI>
+         <IRI>tag:kalvesmaki.com,2014:cpg2444,eng-2023</IRI>
+         <name xml:lang="eng">Lazar Nešić's Serbian translation of the Spiritual Chapters Alphabetized of Evagrios Pontikos</name>
+      </version>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2021-06-02"/>
+      </vocabulary>
+      <source which="Nešić 2024"/>
+      <adjustments/>
+      <vocabulary-key/>
+      <file-resp who="kalvesmaki"/>
+      <resp who="kalvesmaki" roles="editor"/>
+      <change when="2023-11-11" who="kalvesmaki">Created TAN template for Nesic translations.</change>
+      <change when="2023-11-16-05:00" who="kalvesmaki">Populated template with content</change>
+      <to-do/>
+   </head>
+   <text>
+      <body xml:lang="srp">
+         <div type="title" n="title">
+            <p>Духовне изреке према азбучном редоследу</p>
+         </div>
+         <div type="chapter" n="1">
+            <p>Бесмислено је да онај који тражи почасти бежи од напора који омогућују саме почасти.</p>
+         </div>
+         <div type="chapter" n="2">
+            <p>Желиш ли да познаш Бога, најпре спознај себе самог.<ref cRef="Јов. 5, 2."/>
+            </p>
+         </div>
+         <div type="chapter" n="3">
+            <p>Истински пријатељ саучествује у туђој муци.</p>
+         </div>
+         <div type="chapter" n="4">
+            <p>Чудно је имати велике намере и мала дела.<ref cRef="Рим. 11, 20; 12, 3."/>
+            </p>
+         </div>
+         <div type="chapter" n="5">
+            <p>Непрестано ројење помисли омета познање.</p>
+         </div>
+         <div type="chapter" n="6">
+            <p>Демон је руководитељ алогосног живота.</p>
+         </div>
+         <div type="chapter" n="7">
+            <p>Племенитост душе се очитује у њеном добром расположењу.</p>
+         </div>
+         <div type="chapter" n="8">
+            <p>Богобојажљив је онај који не говори о себи.</p>
+         </div>
+         <div type="chapter" n="9">
+            <p>Непорочан човек је храм Божији.</p>
+         </div>
+         <div type="chapter" n="10">
+            <p>Најрђавија ствар коју можемо стећи јесте неугледни живот.</p>
+         </div>
+         <div type="chapter" n="11">
+            <p>Говори оно што је потребно и говори у тренутку када је потребно, те нећеш чути ништа непотребно.<ref cRef="Тит. 1, 11; 2, 1."/>
+            </p>
+         </div>
+         <div type="chapter" n="12">
+            <p>Беспрекоран пријатељ је највеће богатство.</p>
+         </div>
+         <div type="chapter" n="13">
+            <p>Славољубива нарав је болест душе.</p>
+         </div>
+         <div type="chapter" n="14">
+            <p>Странац и сиромах су Божија маст за очи.<ref cRef="Откр. 3, 18."/>
+            </p>
+         </div>
+         <div type="chapter" n="15">
+            <p>Онај ко их гостољубиво прима ће брзо прогледати.<ref cRef="Откр. 3, 18."/>
+            </p>
+         </div>
+         <div type="chapter" n="16">
+            <p>Изврсно је свима чинити добро, а нарочито онима који нам не могу узвратити.</p>
+         </div>
+         <div type="chapter" n="17">
+            <p>Праведни говорник је чаша свеже воде.<ref cRef="Мт. 10, 42; Мк. 9, 41."/>
+            </p>
+         </div>
+         <div type="chapter" n="18">
+            <p>Подражавати херувиму значи имати целомудрену и кротку душу.<ref cRef="Изл. 25, 18–22."/>
+            </p>
+         </div>
+         <div type="chapter" n="19">
+            <p>Бити почаствован у старости јесте доказ трудољубивости у младости; старање у младости јесте залог почасти у старости.</p>
+         </div>
+         <div type="chapter" n="20">
+            <p>Истинско сагледавање је најузвишеније стање душе.</p>
+         </div>
+         <div type="chapter" n="21">
+            <p>Љубећи оно што је неприкладно, нећеш љубити оно што је прикладно.</p>
+         </div>
+         <div type="chapter" n="22">
+            <p>Боље је имати лажно златно него лажног пријатеља.</p>
+         </div>
+         <div type="chapter" n="23">
+            <p>Чиста душа у Богу јесте бог.</p>
+         </div>
+         <div type="chapter" n="24">
+            <p>О, тешко самољубљу које све мрзи!</p>
+         </div>
+      </body>
+   </text>
+</TEI>
