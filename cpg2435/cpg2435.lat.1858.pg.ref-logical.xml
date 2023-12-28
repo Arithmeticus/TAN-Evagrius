@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../TAN/TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../../TAN/TAN-2021/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:sententiae_ad_monachos_1858_lat_logical" TAN-version="2021">
+   <head>
+      <name>Latin translation of Ad monachos published in PG 40, logical reference system</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2435/cpg2435.lat.1858.pg.ref-scriptum.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Ad_monachos"/>
+      <source which="pg"/>
+      <model>
+         <IRI>tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:chaptere_ad_monachos_1913</IRI>
+         <name>Greek edition of Ad monachos edited by Gressmann</name>
+         <location accessed-when="2023-12-08T23:04:14.6819687-05:00" href="cpg2435.grc.1913.gressmann.xml"/>
+      </model>
+      
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+      </vocabulary>
+      <vocabulary-key>
+         <div-type xml:id="ln" which="line (physical)"/>
+         <algorithm xml:id="algorithm1"><IRI>tag:textalign.net,2015:stylesheet:remodel-text</IRI><name>Body Remodeler</name><location href="../../../TAN-2022/utilities/Body%20Remodeler/incl/Body%20Remodeler%20core.xsl" accessed-when="2023-12-08T23:18:59.6281729-05:00"/></algorithm>
+      </vocabulary-key>
+      <resp who="kalvesmaki" roles="editor"/><resp who="algorithm1" roles="stylesheet"/>
+      <file-resp who="kalvesmaki"/>
+      <change who="algorithm1" when="2023-12-08T23:18:59.6281729-05:00">Remodeling file:/E:/Joel/Dropbox/TAN/library-arithmeticus/evagrius/cpg2435/cpg2435.lat.1858.pg.ref-logical.xml against file:/E:/Joel/Dropbox/TAN/library-arithmeticus/evagrius/cpg2435/cpg2435.grc.1913.gressmann.xml</change>
+      <change when="2023-12-08" who="kalvesmaki">Started file</change>
+      <change when="2023-12-09T00:08:59.6281729-05:00" who="kalvesmaki">Realigned text</change>
+      <to-do>
+      </to-do>
+   </head>
+   <body xml:lang="lat">
+      <div n="title" type="title">Ad eos qui in coenobiis et xenodochiis habitant fratres. </div>
+      <div n="1" type="chapter">
+         <div n="1" type="ln">Haeredes Dei, audite sermones Dei, </div>
+         <div n="2" type="ln">cohaeredes autem Christi, percipite eloquia Christi, </div>
+         <div n="3" type="ln">ut detis ea cordibus filiorum vestrorum; </div>
+         <div n="4" type="ln">verba autem sapientum doceatis eos. </div>
+      </div>
+      <div n="2" type="chapter">
+         <div n="1" type="ln">Pater bonus erudit filios suos; </div>
+         <div n="2" type="ln">pater autem nequam disperdet eos. </div>
+      </div>
+      <div n="3" type="chapter">
+         <div n="1" type="ln">iFides, nitium charitatis; </div>
+         <div n="2" type="ln">finis autem dilectionis, scientia Dei. </div>
+      </div>
+      <div n="4" type="chapter">
+         <div n="1" type="ln">Timor Domini custodiet animam; </div>
+         <div n="2" type="ln">continentia autem bona confortat illam. </div>
+      </div>
+      <div n="5" type="chapter">
+         <div n="1" type="ln">Sufferentia viri generat spem; </div>
+         <div n="2" type="ln">spes autem bona glorificabit eum. </div>
+      </div>
+      <div n="6" type="chapter">
+         <div n="1" type="ln">Qui servituti subjicit carnes suas, </div>
+         <div n="2" type="ln">impassibilis erit; qui autem nutrit eas, dolebit super illas. </div>
+      </div>
+      <div n="7" type="chapter">
+         <div n="1" type="ln">Spiritus fornicationis in corporibus intemperantium; </div>
+         <div n="2" type="ln">spiritus autem pudicitiae in animis abstinentium. </div>
+      </div>
+      <div n="8" type="chapter">
+         <div n="1" type="ln">Secessio cum charitate purificat cor; </div>
+         <div n="2" type="ln">separatio autem cum odio conturbat illud. </div>
+      </div>
+      <div n="9" type="chapter">
+         <div n="1" type="ln">Melior millesimus in charitate,  </div>
+         <div n="2" type="ln">quam solus cum odio in abditis et speluncis. </div>
+      </div>
+      <div n="10" type="chapter">
+         <div n="1" type="ln">Qui alligat memoriam malitiae in animam suam, </div>
+         <div n="2" type="ln">similis est ei qui abscondit ignem in paleis. </div>
+      </div>
+      <div n="11" type="chapter">
+         <div n="1" type="ln">Ne dederis escas multas corpori tuo, </div>
+         <div n="2" type="ln">et non videbis in somnis phantasias malas; </div>
+         <div n="3" type="ln">sicut enim exstinguit flammam aqua; </div>
+         <div n="4" type="ln">sic phantasmata turpia exstinguit esuries. </div>
+      </div>
+      <div n="12" type="chapter">
+         <div n="1" type="ln">Vir iracundus terrebitur ; </div>
+         <div n="2" type="ln">mansuetus aulem intrepidus erit. </div>
+      </div>
+      <div n="13" type="chapter">
+         <div n="1" type="ln">Ventus validus fugat nubes; </div>
+         <div n="2" type="ln">memoria autem malitiae sensum a scientia. </div>
+      </div>
+      <div n="14" type="chapter">
+         <div n="1" type="ln">Qui orat pro inimicis, hic immemor est malitiae; </div>
+         <div n="2" type="ln">qui autem parcit linguae, non contristabit proximum suum. </div>
+      </div>
+      <div n="15" type="chapter">
+         <div n="1" type="ln">Si exacerbaverit te frater tuus, </div>
+         <div n="2" type="ln">induc eum in domum tuam, </div>
+         <div n="3" type="ln">et ad ipsum ne pigeat te introire, </div>
+         <div n="4" type="ln">sed manduca cum eo panem tuum; </div>
+         <div n="5" type="ln">hoc enim faciens, eripies animam tuam, </div>
+         <div n="6" type="ln">et non erit tibi offendiculum in tempore orationis. </div>
+      </div>
+      <div n="16" type="chapter">
+         <div n="1" type="ln">Sicut charitas gaudet paupertate, </div>
+         <div n="2" type="ln">sic odium delectatur divitiis. </div>
+      </div>
+      <div n="17" type="chapter">
+         <div n="1" type="ln">Non potietur dives scientia, </div>
+         <div n="2" type="ln">et camelus non introibit in foramen acus; </div>
+         <div n="3" type="ln">sed nihil horum impossibile est apud Dominum. </div>
+      </div>
+      <div n="18" type="chapter">
+         <div n="1" type="ln">Qui diligit pecuniam, non videbit scientiam; </div>
+         <div n="2" type="ln">et qui congregat illam, contenebrabitur. </div>
+      </div>
+      <div n="19" type="chapter">
+         <div n="1" type="ln">In tabernaculis humilium commorabitur Dominus; </div>
+         <div n="2" type="ln">in domibus autem superborum multiplicabitur maledictum. </div>
+      </div>
+      <div n="20" type="chapter">
+         <div n="1" type="ln">Inhonorat Deum qui transgreditur legem ejus; </div>
+         <div n="2" type="ln">qui autem custodit eam, glorificat factorem suum. </div>
+      </div>
+      <div n="21" type="chapter">
+         <div n="1" type="ln">Si aemularis Christum, beatus efficieris; </div>
+         <div n="2" type="ln">morte autem ejus morietur anima tua, </div>
+         <div n="3" type="ln">et non coutrahes a carne tua malitiam, </div>
+         <div n="4" type="ln">sed erit processus tuus sicut ortus stellae, </div>
+         <div n="5" type="ln">et resurrectio tua, tanquam sol fulgebit. </div>
+      </div>
+      <div n="22" type="chapter">
+         <div n="1" type="ln">Vae iniquo in die mortis, </div>
+         <div n="2" type="ln">et injustus peribit in tempore malo. </div>
+         <div n="3" type="ln">Quemadmodum enim evolavit corvus e nido suo, </div>
+         <div n="4" type="ln">sic immunda anima e corpore suo. </div>
+      </div>
+      <div n="23" type="chapter">
+         <div n="1" type="ln">Animas justorum deducent angeli, </div>
+         <div n="2" type="ln">animas autem malorum suscipient daemones. </div>
+      </div>
+      <div n="24" type="chapter">
+         <div n="1" type="ln">Quocunque ingressa fuerit malitia, ibi et ignorantia; </div>
+         <div n="2" type="ln">corda autem justorum implebuntur scientia. </div>
+      </div>
+      <div n="25" type="chapter">
+         <div n="1" type="ln">Immisericors monachus inops erit; </div>
+         <div n="2" type="ln">enutriens autem pauperes haereditabit thesauros. </div>
+      </div>
+      <div n="26" type="chapter">
+         <div n="1" type="ln">Melior est paupertas cum scientia, </div>
+         <div n="2" type="ln">quam divitiae cum ignorantia. </div>
+      </div>
+      <div n="27" type="chapter">
+         <div n="1" type="ln">Ornamentum capitis corona; </div>
+         <div n="2" type="ln">ornamentum autem cordis scientia Dei. </div>
+      </div>
+      <div n="28" type="chapter">
+         <div n="1" type="ln">Posside scientiam, et non argentum; </div>
+         <div n="2" type="ln">et sapientiam super divitias multas. </div>
+      </div>
+      <div n="29" type="chapter">
+         <div n="1" type="ln">Justi haereditabunt Dominum; </div>
+         <div n="2" type="ln">sancti autem nutrientur ab eo. </div>
+      </div>
+      <div n="30" type="chapter">
+         <div n="1" type="ln">Qui miseretur pauperibus, exterminat iram ; </div>
+         <div n="2" type="ln">et qui nutrit eos, implebitur bonis. </div>
+      </div>
+      <div n="31" type="chapter">
+         <div n="1" type="ln">In corde mansueto requiescit sapientia; </div>
+         <div n="2" type="ln">sedes autem impassibilitatis, anima bene operans. </div>
+      </div>
+      <div n="32" type="chapter">
+         <div n="1" type="ln">Fabricatores malorum percipient mercedem malam; </div>
+         <div n="2" type="ln">fabricatoribus autem bonorum dabitur merces bona. </div>
+      </div>
+      <div n="33" type="chapter">
+         <div n="1" type="ln">Qui ponit laqueum, comprehenditur in eo; </div>
+         <div n="2" type="ln">et qui occultat illum, disperiet ab eo. </div>
+      </div>
+      <div n="34" type="chapter">
+         <div n="1" type="ln">Melior est saecularis mansuetus, </div>
+         <div n="2" type="ln">quam monachus furiosus et iracundus. </div>
+      </div>
+      <div n="35" type="chapter">
+         <div n="1" type="ln">Scientiam disperdit iracundia; </div>
+         <div n="2" type="ln">longanimis autem congregat eam. </div>
+      </div>
+      <div n="36" type="chapter">
+         <div n="1" type="ln">Sicut ventus auster vehemens est in pelagus, </div>
+         <div n="2" type="ln">sic furor in corde viri. </div>
+      </div>
+      <div n="37" type="chapter">
+         <div n="1" type="ln">Qui orat frequenter effugiet tentationes; </div>
+         <div n="2" type="ln">negligentis autem cor conturbabunt cogitationes. </div>
+      </div>
+      <div n="38" type="chapter">
+         <div n="1" type="ln">Non te delectet vinum </div>
+         <div n="2" type="ln">et te non illiciat caro. </div>
+         <div n="3" type="ln">Ne enutrias carnes corporis tui, </div>
+         <div n="4" type="ln">et cogitationes turpes deficient a te. </div>
+      </div>
+      <div n="39" type="chapter">
+         <div n="1" type="ln">Ne dicas: Hodie festus dies, et bibamus vinum; </div>
+         <div n="2" type="ln">el crastino Pentecoste, et manducabo carnem: </div>
+         <div n="3" type="ln">eo quod non est festivitas apud monachos </div>
+         <div n="4" type="ln">in terra ad replendum ventrem suum. </div>
+      </div>
+      <div n="40" type="chapter">
+         <div n="1" type="ln">Pascha Christi transitus a malitia est; </div>
+         <div n="2" type="ln">Pentecoste autem ejus, resurrectio animae. </div>
+      </div>
+      <div n="42" type="chapter">
+         <div n="1" type="ln">Pentecoste Domini, suscitatio charitatis; </div>
+         <div n="2" type="ln">qui autem odit fratrem suum, cadit in ruina magna. </div>
+      </div>
+      <div n="41" type="chapter">
+         <div n="1" type="ln">Festivitas Dei oblivio malorum; </div>
+         <div n="2" type="ln">retinentem autem malitiam apprehendit luctus. </div>
+      </div>
+      <div n="43" type="chapter">
+         <div n="1" type="ln">Festivitas Dei scientia vera; </div>
+         <div n="2" type="ln">qui autem intendit falsae scientiae, morietur turpiter. </div>
+      </div>
+      <div n="44" type="chapter">
+         <div n="1" type="ln">Melius est jejunium cum mundo corde, </div>
+         <div n="2" type="ln">quam epulatio in immunditia animae. </div>
+      </div>
+      <div n="45" type="chapter">
+         <div n="1" type="ln">Qui disperdit cogitationes malas de corde suo, </div>
+         <div n="2" type="ln">similis est ei qui allidit parvulos ad petram. </div>
+      </div>
+      <div n="46" type="chapter">
+         <div n="1" type="ln">Monachus somniculosus incidit in mala; </div>
+         <div n="2" type="ln">qui autem vigilat, sicut passer volabit. </div>
+      </div>
+      <div n="47" type="chapter">
+         <div n="1" type="ln">Ne dederis te in vigiliis narrationibus supervacuis, </div>
+         <div n="2" type="ln">el non abjicias sermones spiritales, </div>
+         <div n="3" type="ln">quoniam Dominus inspicit cor tuum, </div>
+         <div n="4" type="ln">et non te statuit innocentem ab omni malo. </div>
+      </div>
+      <div n="48" type="chapter">
+         <div n="1" type="ln">Somnus multus incrassat cor; </div>
+         <div n="2" type="ln">vigiliae autem bonae acuunt mentem. </div>
+      </div>
+      <div n="49" type="chapter">
+         <div n="1" type="ln">Somnus multus superducit tentationes; </div>
+         <div n="2" type="ln">qui autem vigilat, effugit eas. </div>
+      </div>
+      <div n="50" type="chapter">
+         <div n="1" type="ln">Sicut ignis liquefacit ceram, </div>
+         <div n="2" type="ln">sic vigiliae bonae cogitationes malas. </div>
+      </div>
+      <div n="51" type="chapter">
+         <div n="1" type="ln">Melior est vir dormiens, </div>
+         <div n="2" type="ln">quam monachus vigilans in sermonibus vanis. </div>
+      </div>
+      <div n="52" type="chapter">
+         <div n="1" type="ln">Somnium angelorum laetificat cor; </div>
+         <div n="2" type="ln">somnium autem daemonum conturbat illud. </div>
+      </div>
+      <div n="53" type="chapter">
+         <div n="1" type="ln">Poenitentia et humilitas erexerunt animam; </div>
+         <div n="2" type="ln">eleemosyna autem et mansuetudo confirmaverunt eam. </div>
+      </div>
+      <div n="54" type="chapter">
+         <div n="1" type="ln">Memento semper patris tui, </div>
+         <div n="2" type="ln">nec obliviscaris judicium aeternum, </div>
+         <div n="3" type="ln">et non erit delictum in anima tua. </div>
+      </div>
+      <div n="55" type="chapter">
+         <div n="1" type="ln">Si spiritus acedie ascenderit super te, ne relinquas domum tuam, </div>
+         <div n="2" type="ln">et non declines in tempore tristitiae: </div>
+         <div n="3" type="ln">sicut enim quis confricat argentum, </div>
+         <div n="4" type="ln">sic splendidum fiet cor tuum, si perseveraveris. </div>
+      </div>
+      <div n="56" type="chapter">
+         <div n="1" type="ln">Spiritus taedii abigit lacrymas; </div>
+         <div n="2" type="ln">spiritus autem tristitiae contribulat orationem. </div>
+      </div>
+      <div n="57" type="chapter">
+         <div n="1" type="ln">Cupiens divitias sollicitus eris multum; </div>
+         <div n="2" type="ln">et amplectens illas lugebis amarissime. </div>
+      </div>
+      <div n="58" type="chapter">
+         <div n="1" type="ln">Non remoretur scorpius in sinu tuo; </div>
+         <div n="2" type="ln">sic nec cogitatio mala in corde tuo. </div>
+      </div>
+      <div n="59" type="chapter">
+         <div n="1" type="ln">Occidere geuimina serpentum ne parcas, </div>
+         <div n="2" type="ln">et non parturies cogitationes eorum. </div>
+      </div>
+      <div n="60" type="chapter">
+         <div n="1" type="ln">Sicut enim aurum et argentum probat ignis, </div>
+         <div n="2" type="ln">sic cor monachi tentatio. </div>
+      </div>
+      <div n="61" type="chapter">
+         <div n="1" type="ln">Aufer a te superbiam et vanam gloriam, </div>
+         <div n="2" type="ln">et jactantiam longe facito a te. </div>
+         <div n="3" type="ln">Qui enim expetita privatur gloria contristabitur; </div>
+         <div n="4" type="ln">qui vero adeptus est, fiet superbus. </div>
+      </div>
+      <div n="62" type="chapter">
+         <div n="1" type="ln">Ne dederis superbiam cordi tuo, </div>
+         <div n="2" type="ln">et ne dixeris in conspectu Domini: Potens sum; </div>
+         <div n="3" type="ln">ut non Dominus derelinquat animam tuam, </div>
+         <div n="4" type="ln">et maligni daemones humilient illam. </div>
+         <div n="5" type="ln">Tunc enim de aere conturbabunt te inimici, </div>
+         <div n="6" type="ln">noctes autem terribiles suscipient te. </div>
+      </div>
+      <div n="63" type="chapter">
+         <div n="1" type="ln">Conversationem monachi custodit scientia; </div>
+         <div n="2" type="ln">qui autem ab ea discedit, incidit in latrones. </div>
+      </div>
+      <div n="64" type="chapter">
+         <div n="1" type="ln">De petra spiritali manat fluvius; </div>
+         <div n="2" type="ln">anima autem bene agens bibit ex eo. </div>
+      </div>
+      <div n="65" type="chapter">
+         <div n="1" type="ln">Vas electionis anima munda; </div>
+         <div n="2" type="ln">immunda autem replebitur amaritudine. </div>
+      </div>
+      <div n="66" type="chapter">
+         <div n="1" type="ln">Absque lacte non enutrietur infans; </div>
+         <div n="2" type="ln">et sine impassibilitate non exaltabitur cor. </div>
+      </div>
+      <div n="67" type="chapter">
+         <div n="1" type="ln">Charitatem antecedit impassibilitas; </div>
+         <div n="2" type="ln">scientiam autem praecedit dilectio. </div>
+      </div>
+      <div n="68" type="chapter">
+         <div n="1" type="ln">Scientiae adjicietur sapientia; </div>
+         <div n="2" type="ln">impassibilitatem vero generat prudentia. </div>
+      </div>
+      <div n="69" type="chapter">
+         <div n="1" type="ln">Timor Domini generat sapientiam; </div>
+         <div n="2" type="ln">fides autem Christi donat timorem Dei. </div>
+      </div>
+      <div n="70" type="chapter">
+         <div n="1" type="ln">Sagitta candens incendit animam; </div>
+         <div n="2" type="ln">vir autem operator boni exstinguit eam. </div>
+      </div>
+      <div n="71" type="chapter">
+         <div n="1" type="ln">Clamorem et blasphemiam aversatur scientia, </div>
+         <div n="2" type="ln">sermones autem dolosos fugit sapientia. </div>
+      </div>
+      <div n="72" type="chapter">
+         <div n="1" type="ln">Suave est mel, et dulcis favus; </div>
+         <div n="2" type="ln">scientia autem Dei dulcior ambobus. </div>
+      </div>
+      <div n="73" type="chapter">
+         <div n="1" type="ln">Audi, monache, sermones patris tui, </div>
+         <div n="2" type="ln">et ne irritas facias eruditiones ejus. </div>
+         <div n="3" type="ln">Cum miserit te, obaudi ei, </div>
+         <div n="4" type="ln">et quantum ad mentem comitere cum eo: </div>
+         <div n="5" type="ln">hoc enim modo effugies cogitationes malas, </div>
+         <div n="6" type="ln">et maligni daemones non praevalebunt adversum te. </div>
+         <div n="7" type="ln">Si crediderit tibi pecuniam, non dispergas illam; </div>
+         <div n="8" type="ln">et si superoperatus fueris, non detineas apud te. </div>
+      </div>
+      <div n="74" type="chapter">
+         <div n="1" type="ln">Malus dispensator contribulabit animas fratrum; </div>
+         <div n="2" type="ln">et memor malitiae non miserebitur eorum. </div>
+      </div>
+      <div n="75" type="chapter">
+         <div n="1" type="ln">Qui disperdit substantiam monasterii, fraudat Deum; </div>
+         <div n="2" type="ln">et qui negligit eam, non erit impunitus. </div>
+      </div>
+      <div n="76" type="chapter">
+         <div n="1" type="ln">Iniquus dispensator distribuit male; </div>
+         <div n="2" type="ln">justus autem ut dignum est dispensabit. </div>
+      </div>
+      <div n="77" type="chapter">
+         <div n="1" type="ln">Qui male loquitur de fratre suo exterminabitur; </div>
+         <div n="2" type="ln">negligens autem egentem non videbit lumen. </div>
+      </div>
+      <div n="78" type="chapter">
+         <div n="1" type="ln">Melior est secularis in infirmitate serviens fratri, </div>
+         <div n="2" type="ln">quam anachoretes qui non miseretur proximo euo. </div>
+      </div>
+      <div n="79" type="chapter">
+         <div n="1" type="ln">Insipiens monachus negligit instrumenta artis suo; </div>
+         <div n="2" type="ln">sapiens autem curam habebit illorum. </div>
+      </div>
+      <div n="80" type="chapter">
+         <div n="1" type="ln">Ne dixeris: Hodie maneo, et cras exibo, </div>
+         <div n="2" type="ln">quia non in sapientia cogitasti de hoc ipso. </div>
+      </div>
+      <div n="81" type="chapter">
+         <div n="1" type="ln">Circuitor monachus meditabitur sermones falsos; </div>
+         <div n="2" type="ln">proprium autem ludificabitur patrem. </div>
+      </div>
+      <div n="82" type="chapter">
+         <div n="1" type="ln">Qui exornat vestimenta sua, et implet ventrem suum, </div>
+         <div n="2" type="ln">hic pascit cogitationes turpes, </div>
+         <div n="3" type="ln">et cum sanctis concilium non habebit. </div>
+      </div>
+      <div n="83" type="chapter">
+         <div n="1" type="ln">Si introiveris in vicum, non proximaveris mulieribus, </div>
+         <div n="2" type="ln">et non moratus fueris sermocinari cum eis: </div>
+         <div n="3" type="ln">quemadmodum enim si quis gludat hamum, </div>
+         <div n="4" type="ln">sic abstrahetur anima tua. </div>
+      </div>
+      <div n="84" type="chapter">
+         <div n="1" type="ln">Longanimus monachus impassibilitate gaudebit; </div>
+         <div n="2" type="ln">qui autem exacerbat fratres suos, odibilis erit. </div>
+      </div>
+      <div n="85" type="chapter">
+         <div n="1" type="ln">Mansuetum monachum diligit Dominus; </div>
+         <div n="2" type="ln">turbulentum autem repellit a se. </div>
+      </div>
+      <div n="86" type="chapter">
+         <div n="1" type="ln">Piger monachus murmurabit; </div>
+         <div n="2" type="ln">et somniculosus dolorem capitis fingit. </div>
+      </div>
+      <div n="87" type="chapter">
+         <div n="1" type="ln">Si contristatus fuerit frater tuus, consolare illum; </div>
+         <div n="2" type="ln">et si dolet, condole illi: </div>
+         <div n="3" type="ln">hoc enim faciens laetificabis cor ejus, </div>
+         <div n="4" type="ln">et thesaurum magnum tibi cumulabis in coelis. </div>
+      </div>
+      <div n="88" type="chapter">
+         <div n="1" type="ln">Monachus, qui dissimulat custodire sermones patris, </div>
+         <div n="2" type="ln">maledicet canis patris sui, </div>
+         <div n="3" type="ln">et derogabit vitae filiorum ejus; </div>
+         <div n="4" type="ln">Dominus autem annullabit eum. </div>
+      </div>
+      <div n="89" type="chapter">
+         <div n="1" type="ln">Qui occasionem quaerit, separabit se a fratribus; </div>
+         <div n="2" type="ln">patrem autem suum incusabit. </div>
+      </div>
+      <div n="90" type="chapter">
+         <div n="1" type="ln">Ne dederis auditum tuum sermonibus qui sunt contra patrem tuum, </div>
+         <div n="2" type="ln">et non suscites animam inhonorantis illum, </div>
+         <div n="3" type="ln">ut non Dominus irascatur in operibus tuis, </div>
+         <div n="4" type="ln">et deleat nomen tuum de libro vivorum. </div>
+      </div>
+      <div n="91" type="chapter">
+         <div n="1" type="ln">Qui obedit patri monasterii, diligit semetipsum : </div>
+         <div n="2" type="ln">qui autem contradicit ei, incidet in mala. </div>
+      </div>
+      <div n="92" type="chapter">
+         <div n="1" type="ln">Beatus monachus, qui custodit precepta Domini; </div>
+         <div n="2" type="ln">et sanctus, qui servat sermones patrum suorum. </div>
+      </div>
+      <div n="93" type="chapter">
+         <div n="1" type="ln">Piger monachus multa detrimenta patietur; </div>
+         <div n="2" type="ln">si autem perstiterit in audacia, et habitum suum adjiciet perdere. </div>
+      </div>
+      <div n="94" type="chapter">
+         <div n="1" type="ln">Qui custodit linguam suam dirigit vias suas; </div>
+         <div n="2" type="ln">et qui servat cor suum implebitur scientia. </div>
+      </div>
+      <div n="95" type="chapter">
+         <div n="1" type="ln">Monachus bilinguis turbat fratres; </div>
+         <div n="2" type="ln">fidelis autem agit quiete. </div>
+      </div>
+      <div n="96" type="chapter">
+         <div n="1" type="ln">Qui confidit in sua continentia, hic cadet; </div>
+         <div n="2" type="ln">qui autem humiliat se ipsum, exaltabitur. </div>
+      </div>
+      <div n="97" type="chapter">
+         <div n="1" type="ln">Ne dederis te saturitati ventris, </div>
+         <div n="2" type="ln">et non implearis somno nocturno: </div>
+         <div n="3" type="ln">hoc enim modo efficieris mundus, </div>
+         <div n="4" type="ln">et spiritus Domini superveniet in te. </div>
+      </div>
+      <div n="98" type="chapter">
+         <div n="1" type="ln">Psallentis viri conquiescet indignatio; </div>
+         <div n="2" type="ln">et qui longanimis est, interritus erit. </div>
+      </div>
+      <div n="99" type="chapter">
+         <div n="1" type="ln">Ex mansuetudine generatur scientia; </div>
+         <div n="2" type="ln">ex ferocia autem inscitia. </div>
+      </div>
+      <div n="100" type="chapter">
+         <div n="1" type="ln">Sicut aqua dat incrementum plantationi, </div>
+         <div n="2" type="ln">sic humiliatio iracundiae exaltat cor. </div>
+      </div>
+      <div n="101" type="chapter">
+         <div n="1" type="ln">Qui investigat convivia, exstinguetur lumen ejus; </div>
+         <div n="2" type="ln">anima autem ejus videbit tenebras. </div>
+      </div>
+      <div n="102" type="chapter">
+         <div n="1" type="ln">Pondera in statera panem tuum, et bibe ad mensuram aquam tuam; </div>
+         <div n="2" type="ln">et spiritus fornicationis fugiet abs te. </div>
+      </div>
+      <div n="103" type="chapter">
+         <div n="1" type="ln">Da senibus vinum, et aeegrotantibus offer escas, </div>
+         <div n="2" type="ln">eo quod contriverunt carnes juventutis suae. </div>
+      </div>
+      <div n="104" type="chapter">
+         <div n="1" type="ln"> Non supplantes fratrem tuum, </div>
+         <div n="2" type="ln"> et in ruina ejus ne congratuleris; </div>
+         <div n="3" type="ln">Dominus enim cognoscit cor tuum, </div>
+         <div n="4" type="ln">et tradet te in die mortis. </div>
+      </div>
+      <div n="105" type="chapter">
+         <div n="1" type="ln">Monachus prudens impassibilis erit; </div>
+         <div n="2" type="ln">imprudens autem exhauriet mala. </div>
+      </div>
+      <div n="106" type="chapter">
+         <div n="1" type="ln">Oculum nequam excaecabit Dominus; </div>
+         <div n="2" type="ln">simplicem autem eripiet a tenebris. </div>
+      </div>
+      <div n="107" type="chapter">
+         <div n="1" type="ln">Sicut lucifer in coelo, et sicut palina in paradiso; </div>
+         <div n="2" type="ln">sic in anima mansueta sensus purus. </div>
+      </div>
+      <div n="108" type="chapter">
+         <div n="1" type="ln">Vir sapiens scrutabitur sermones Dei; </div>
+         <div n="2" type="ln">insipiens autem irridebit eos. </div>
+      </div>
+      <div n="109" type="chapter">
+         <div n="1" type="ln">Qui odit scientiam Dei et rejicit considerationem, </div>
+         <div n="2" type="ln">similis est ei qui lancea pungit cor suum. </div>
+      </div>
+      <div n="110" type="chapter">
+         <div n="1" type="ln">Melior est scientia Trinitatis super scientiam incorporalium, </div>
+         <div n="2" type="ln">et consideratio ejus super rationes omnium saeculorum. </div>
+      </div>
+      <div n="111" type="chapter">
+         <div n="1" type="ln">Cani senum mansuetudo; </div>
+         <div n="2" type="ln">vita autem illorum scientia vera. </div>
+      </div>
+      <div n="112" type="chapter">
+         <div n="1" type="ln">Juvenis mansuetus multa suffert; </div>
+         <div n="2" type="ln">pusillanimem autem senem quis sustinebit? </div>
+         <div n="3" type="ln">Vidi iracundum senem elatum ultra tempus suum: </div>
+         <div n="4" type="ln">spem tamen non habuit junior, quam ille. </div>
+      </div>
+      <div n="113" type="chapter">
+         <div n="1" type="ln">Qui scandalizat saeculares, non erit impunitus; </div>
+         <div n="2" type="ln">et qui exacerbat eos, inhonorabit nomen suum. </div>
+      </div>
+      <div n="114" type="chapter">
+         <div n="1" type="ln">Conturbantem Ecclesiam Domini exterminabit ignis; </div>
+         <div n="2" type="ln">resistentem autem sacerdoti deglutiet terra. </div>
+      </div>
+      <div n="115" type="chapter">
+         <div n="1" type="ln">Qui amat pacem, manducabit favum ejus; </div>
+         <div n="2" type="ln">et qui colligit eam, implebitur melle. </div>
+      </div>
+      <div n="116" type="chapter">
+         <div n="1" type="ln">Honora Dominum, et cognosces incorporalia, et servi illi, </div>
+         <div n="2" type="ln">et ostendet tibi rationes saeculorum. </div>
+      </div>
+      <div n="117" type="chapter">
+         <div n="1" type="ln">Citra scientiam non exaltabitur cor, </div>
+         <div n="2" type="ln">et arbor non florebit sine humore. </div>
+      </div>
+      <div n="118" type="chapter">
+         <div n="1" type="ln">Carnes Christi actuum virlutes; </div>
+         <div n="2" type="ln">qui autem manducat eas, efficitur impassibilis. </div>
+      </div>
+      <div n="119" type="chapter">
+         <div n="1" type="ln">Sanguis Christi consideratio factorum; </div>
+         <div n="2" type="ln">et qui bibit illum, illuminabitur ab eo. </div>
+      </div>
+      <div n="120" type="chapter">
+         <div n="1" type="ln">Pectus Domini scientia Dei; </div>
+         <div n="2" type="ln">qui autem recubuerit super illud, praedicator erit divinorum. </div>
+      </div>
+      <div n="121" type="chapter">
+         <div n="1" type="ln">Plenus scientia, et actor bonorum obviaverunt sibi; </div>
+         <div n="2" type="ln">medius autem inter utrumque stetit Dominus. </div>
+      </div>
+      <div n="122" type="chapter">
+         <div n="1" type="ln">Qui acquisivit dilectionem, acquisivit thesaurum; </div>
+         <div n="2" type="ln"> accepit autem a Domino gratiam magnam. </div>
+      </div>
+      <div n="123" type="chapter">
+         <div n="1" type="ln"> Consilia daemonum cognoscit sapientia; </div>
+         <div n="2" type="ln"> astutiam autem illorum investigavit prudentia. </div>
+      </div>
+      <div n="124" type="chapter">
+         <div n="1" type="ln">Non spernas decreta sancta, </div>
+         <div n="2" type="ln">quae posuerunt patres tui; </div>
+         <div n="3" type="ln">fidem autem baptismi tui non derelinquas, </div>
+         <div n="4" type="ln">et non repellas signaculum spiritale; </div>
+         <div n="5" type="ln">ut adsit Dominus animae tuae, </div>
+         <div n="6" type="ln">et protegat te in die malo. </div>
+      </div>
+      <div n="125" type="chapter">
+         <div n="1" type="ln">Sermones haereticorum nuntii mortis; </div>
+         <div n="2" type="ln">qui autem suscipit illos, perdet animam suam. </div>
+      </div>
+      <div n="126" type="chapter">
+         <div n="1" type="ln">Nunc ergo, fili, audi me, </div>
+         <div n="2" type="ln">et non accedas ad ostia virorum iniquorum, </div>
+         <div n="3" type="ln">neque ambules super laqueos eorum, ut non capiaris. </div>
+         <div n="4" type="ln">Separa animam tuam a scientia falsa: </div>
+         <div n="5" type="ln">etenim ego saepe locutus sum ad eos; </div>
+         <div n="6" type="ln">tenebrosos autem sermones eorum investigavi, </div>
+         <div n="7" type="ln">et venenum aspidum inveni in eis. </div>
+         <div n="8" type="ln">Non est prudentia, et non est sapientia in viis eorum. </div>
+         <div n="9" type="ln">Omnes qui suscipiunt eos peribunt, </div>
+         <div n="10" type="ln">et qui diligunt eos implebuntur malis. </div>
+         <div n="11" type="ln">Vidi ego patres dogmatum illorum, </div>
+         <div n="12" type="ln">et in desertis commisi cum illis. </div>
+         <div n="13" type="ln">Inimici enim Domini obviaverunt mihi, </div>
+         <div n="14" type="ln">et daemones in verbis concertaverunt adversum me, </div>
+         <div n="15" type="ln">et non vidi lumen verum in sermonibus eorum. </div>
+      </div>
+      <div n="127" type="chapter">
+         <div n="1" type="ln">Vir mendax excidet a Deo; </div>
+         <div n="2" type="ln">seducens autem proximum, incidet in mala. </div>
+      </div>
+      <div n="128" type="chapter">
+         <div n="1" type="ln">Melior est paradisus Dei super hortum olusculorem, </div>
+         <div n="2" type="ln">et fluvius Domini superfluvium maguum contenebrantem terram. </div>
+      </div>
+      <div n="129" type="chapter">
+         <div n="1" type="ln">Fidelior aqua coelestis </div>
+         <div n="2" type="ln">super aquam Aegyptiorum sapientium, haurientium de terra. </div>
+      </div>
+      <div n="130" type="chapter">
+         <div n="1" type="ln">Sicut enim qui rotas ascendunt, deorsum descendunt; </div>
+         <div n="2" type="ln">sic qui exaltant verba sua, humiliantur. </div>
+      </div>
+      <div n="131" type="chapter">
+         <div n="1" type="ln">Sapientia Domini exaltat cor; </div>
+         <div n="2" type="ln">intellectus autem ejus purificat illud. </div>
+      </div>
+      <div n="132" type="chapter">
+         <div n="1" type="ln">Rationes providentiae obscurae; et vix intelligibiles considerationes
+            judicii; </div>
+         <div n="2" type="ln">vir autem bene agens cognoscit eas. </div>
+      </div>
+      <div n="133" type="chapter">
+         <div n="1" type="ln">Qui purificat se, conspiciet naturas intelligibiles; </div>
+         <div n="2" type="ln">rationes autem incorporalium cognoscet monachus mitis. </div>
+      </div>
+      <div n="134" type="chapter">
+         <div n="1" type="ln">Qui creaturam dicit Trinitatem, blasphemat Deum; </div>
+         <div n="2" type="ln">et qui spernit Christum ejus, non cognoscit eum. </div>
+      </div>
+      <div n="135" type="chapter">
+         <div n="1" type="ln">Considerationes creaturarum dilatant cor; </div>
+         <div n="2" type="ln">verba autem prudentiae et judicii exaltant illud. </div>
+      </div>
+      <div n="136" type="chapter">
+         <div n="1" type="ln">Scientia incorporalium elevat sensum, </div>
+         <div n="2" type="ln">et sanctae Trinitati applicabit eum. </div>
+      </div>
+      <div n="137" type="chapter">
+         <div n="1" type="ln">Mementote ejus, qui dedit vobis in Domino proverbia luculenta, </div>
+         <div n="2" type="ln">et non obliviscamini animam ejus humilem in tempore </div>
+         <div n="3" type="ln">orationis. </div>
+      </div>
+   </body>
+
+</TAN-T>

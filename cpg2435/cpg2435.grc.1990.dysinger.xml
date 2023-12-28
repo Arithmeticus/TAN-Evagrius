@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../TAN/TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../../TAN/TAN-2021/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       id="tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:chaptere_ad_monachos_dysinger"
+       TAN-version="2021">
+   <head>
+      <name>English translation of Ad monachos by Dysinger</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2435/cpg2435.grc.1990.dysinger.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Ad_monachos"/>
+      <source which="Dysinger_1990"/>
+      <adjustments>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
+            <name>Small caps removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-color-off</IRI>
+            <name>Color removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-italics-off</IRI>
+            <name>Italics removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-xrefs-off</IRI>
+            <name>Translator's references to other primary sources removed.</name>
+         </normalization>
+         <normalization which="no reference markers"/>
+         
+      </adjustments>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+      </vocabulary>
+      <vocabulary-key>
+         <div-type xml:id="ln" which="line_(physical)"/>
+      </vocabulary-key>
+      <resp who="kalvesmaki" roles="editor"/>
+      <file-resp who="kalvesmaki"/>
+      <change when="2023-03-24" who="kalvesmaki">Started file</change>
+      <change when="2023-12-08" who="kalvesmaki">Changed chapter div type to chapter.</change>
+      
+      <to-do/>
+   </head>
+   <body xml:lang="eng">
+      <div n="title" type="title">To the Monks in Cenobia or Communities</div>
+      <div n="1" type="chapter">
+         <div n="1" type="ln">Heirs of God, listen to the logoi of God,</div>
+         <div n="2" type="ln">co-heirs of Christ, receive the maxims of Christ;</div>
+         <div n="3" type="ln">so that you may give them to the hearts of your children,</div>
+         <div n="4" type="ln">and teach them the logoi of the wise.</div>
+      </div>
+      <div n="2" type="chapter">
+         <div n="1" type="ln">A good father trains his sons;</div>
+         <div n="2" type="ln">but an evil father will destroy them.</div>
+      </div>
+      <div n="3" type="chapter">
+         <div n="1" type="ln">Faith is the beginning of love.</div>
+         <div n="2" type="ln">and the [final] end of love is knowledge of God.</div>
+      </div>
+      <div n="4" type="chapter">
+         <div n="1" type="ln">Fear of the Lord guards the soul.</div>
+         <div n="2" type="ln">temperance strengthens it.</div>
+      </div>
+      <div n="5" type="chapter">
+         <div n="1" type="ln">The patient endurance of a man gives birth to hope;</div>
+         <div n="2" type="ln">and good hope will glorify him.</div>
+      </div>
+      <div n="6" type="chapter">
+         <div n="1" type="ln">One who dominates his flesh, will be dispassionate;</div>
+         <div n="2" type="ln">while one who nurtures it, will suffer pain from it.</div>
+      </div>
+      <div n="7" type="chapter">
+         <div n="1" type="ln">[The] spirit of fornication is in the bodies of the intemperate;</div>
+         <div n="2" type="ln">while [the] spirit of chastity is in the souls of the temperate.</div>
+      </div>
+      <div n="8" type="chapter">
+         <div n="1" type="ln">Withdrawal [into solitude] in love purifies the heart;</div>
+         <div n="2" type="ln">while withdrawal [into solitude] accompanied by hatred agitates it.</div>
+      </div>
+      <div n="9" type="chapter">
+         <div n="1" type="ln">Better to be one among a thousand in love</div>
+         <div n="2" type="ln">than solitary, accompanied by hatred, in inaccessible caves.</div>
+      </div>
+      <div n="10" type="chapter">
+         <div n="1" type="ln">One who enchains memory of injury in his soul</div>
+         <div n="2" type="ln">is like one who hides fire in chaff.</div>
+      </div>
+      <div n="11" type="chapter">
+         <div n="1" type="ln">Do not give much food to your body</div>
+         <div n="2" type="ln">and you will not while sleeping see evil fantasies.</div>
+         <div n="3" type="ln">For just as flame consumes the oak tree</div>
+         <div n="4" type="ln">so hunger extinguishes shameful fantasies.</div>
+      </div>
+      <div n="12" type="chapter">
+         <div n="1" type="ln">One who is indignant will be frightened;</div>
+         <div n="2" type="ln">one who is gentle will be fearless.</div>
+      </div>
+      <div n="13" type="chapter">
+         <div n="1" type="ln">A strong wind chases clouds away;</div>
+         <div n="2" type="ln">brooding on wrongs chases the nous away from knowledge.</div>
+      </div>
+      <div n="14" type="chapter">
+         <div n="1" type="ln">One who prays for enemies will be forgetful of wrongs</div>
+         <div n="2" type="ln">One who uses the tongue sparingly will not cause his neighbor sorrow.</div>
+      </div>
+      <div n="15" type="chapter">
+         <div n="1" type="ln">If your brother exasperates you,</div>
+         <div n="2" type="ln">lead him to your house,</div>
+         <div n="3" type="ln">and do not postpone going to his [home],</div>
+         <div n="4" type="ln">but rather eat your morsel with him.</div>
+         <div n="5" type="ln">For by doing this you deliver your soul</div>
+         <div n="6" type="ln">and you will have no obstacle at the time of prayer.</div>
+      </div>
+      <div n="16" type="chapter">
+         <div n="1" type="ln">Just as love delights in poverty,</div>
+         <div n="2" type="ln">so hatred makes merry in wealth.</div>
+      </div>
+      <div n="40" type="chapter">
+         <div n="1" type="ln">Pascha of the Lord - passing over from vices; </div>
+         <div n="2" type="ln">while His Pentecost is resurrection of the soul.</div>
+      </div>
+      <div n="41" type="chapter">
+         <div n="1" type="ln">Festal celebration of God - </div>
+         <div n="2" type="ln">forgetfulness of vices; one who remembers wrongs, will be grasped by sorrow.</div>
+      </div>
+      <div n="42" type="chapter">
+         <div n="1" type="ln">Pentecost of the Lord - </div>
+         <div n="2" type="ln">resurrection of love; while who hates his brother will fall very deeply.</div>
+      </div>
+      <div n="43" type="chapter">
+         <div n="1" type="ln">Festal celebration of God -</div>
+         <div n="2" type="ln">true knowledge; while one who clings to false knowledge will end shamefully.</div>
+      </div>
+      <div n="52" type="chapter">
+         <div n="1" type="ln">An angelic dream rejoices the heart;</div>
+         <div n="2" type="ln">while a demonic dream disturbs it.</div>
+      </div>
+      <div n="118" type="chapter">
+         <div n="1" type="ln">[The] Flesh of Christ - virtues of asceticism (praktiké);</div>
+         <div n="2" type="ln">one who eats it will acquire apatheia.</div>
+      </div>
+      <div n="119" type="chapter">
+         <div n="1" type="ln">[The] Blood of Christ - contemplation of what has come into being</div>
+         <div n="2" type="ln">and one who drinks of it is made wise by it.</div>
+      </div>
+      <div n="120" type="chapter">
+         <div n="1" type="ln">Breast of the Lord - knowledge of God;</div>
+         <div n="2" type="ln">one who rests upon it will be a theologian.</div>
+      </div>
+      <div n="130" type="chapter">
+         <div n="1" type="ln">Just as those who climb up on wheels are brought down again,</div>
+         <div n="2" type="ln">so those who exalt their words are humbled by them.</div>
+      </div>
+      <div n="131" type="chapter">
+         <div n="1" type="ln">The wisdom of the Lord exalts the heart;</div>
+         <div n="2" type="ln">and his prudence purifies it.</div>
+      </div>
+      <div n="132" type="chapter">
+         <div n="1" type="ln">The logoi of providence are dark, and hard for the nous are the contemplations of judgment;</div>
+         <div n="2" type="ln">but the ascetical [praktikos] man will know them.</div>
+      </div>
+      <div n="134" type="chapter">
+         <div n="1" type="ln">One who says that the Holy Trinity is [a] created [being] blasphemes God,</div>
+         <div n="2" type="ln">and one who rejects his Christ will not know him.</div>
+      </div>
+      <div n="135" type="chapter">
+         <div n="1" type="ln">Contemplations of worlds widen the heart</div>
+         <div n="2" type="ln">the logoi of providence and judgment exalt it.</div>
+      </div>
+      <div n="136" type="chapter">
+         <div n="1" type="ln">Knowledge of incorporeal [beings] elevates the nous</div>
+         <div n="2" type="ln">and presents it to the Holy Trinity.</div>
+      </div>
+      <div n="137" type="chapter">
+         <div n="1" type="ln">Remember one who has given you in the Lord clear proverbs,</div>
+         <div n="2" type="ln">and do not forget my humble soul at the time of prayer.</div>
+      </div>
+   </body>
+</TAN-T>

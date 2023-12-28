@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../TAN/TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../../TAN/TAN-2021/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       id="tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:sententiae_ad_monachos_1858_lat"
+       TAN-version="2021">
+   <head>
+      <name>Latin translation of Ad monachos published in PG, local reference system</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2435/cpg2435.lat.1858.pg.ref-scriptum.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Ad_monachos"/>
+      <source which="gressmann_1913"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+      </vocabulary>
+      <vocabulary-key>
+         <div-type xml:id="col" which="column (page)"/>
+         <div-type xml:id="line" which="line (physical)"/>
+      </vocabulary-key>
+      <resp who="kalvesmaki" roles="editor"/>
+      <file-resp who="kalvesmaki"/>
+      <change when="2023-03-24" who="kalvesmaki">Started file</change>
+      <to-do>
+      </to-do>
+   </head>
+   <body xml:lang="lat">
+      <div type="col" n="1277">
+         <div type="subcolumn" n="c">
+            <div type="line" n="1">Haeredes Dei, audite sermones Dei, cohaeredes</div>
+            <div type="line" n="2">autem Christi, percipite eloquia Christi, ut detis ea</div>
+            <div type="line" n="3">cordibus filiorum vestrorum; verba autem sapien­</div>
+            <div type="line" n="4">tum doceatis eos. Pater bonus erudit filios suos;</div>
+            <div type="line" n="5">pater autem nequam disperdet eos. Fides, initium</div>
+            <div type="line" n="6">charitatis; finis autem dilectionis, scientia Dei.</div>
+            <div type="line" n="7">Timor Domini custodiet animam; continentia</div>
+            <div type="line" n="8">autem bona confortat illam. Sufferentia viri gene­</div>
+            <div type="line" n="9">rat spem; spes autem bona glorificabit eum. Qui</div>
+            <div type="line" n="10">servituti subjicit carnes suas, impassibilis erit;</div>
+            <div type="line" n="11">qui autem nutrit eas, dolebit super illas. Spiritus</div>
+            <div type="line" n="12">fornicationis in corporibus intemperantium; spiri­</div>
+            <div type="line" n="13">tus autem pudicitiae in animis abstinentium. Seces­</div>
+            <div type="line" n="14">sio cum charitate purificat cor; separatio autem</div>
+            <div type="line" n="15">cum odio conturbat illud. Melior millesimus in</div>
+         </div>
+         <div type="subcolumn" n="d">
+            <div type="line" n="1">charitate, quam solus cum odio in abditis et spe­</div>
+            <div type="line" n="2">luncis. Qui alligat memoriam malitiae in animam</div>
+            <div type="line" n="3">suam, similis est ei qui abscondit ignem in paleis.</div>
+            <div type="line" n="4">Ne dederis escas multas corpori tuo, et non videbis</div>
+            <div type="line" n="5">in somnis phantasias malas; sicut enim exstinguit</div>
+            <div type="line" n="6">flammam aqua; sic phantasmata turpia exstinguit</div>
+            <div type="line" n="7">esuries. Vir iracundus terrebitur ; mansuetus au­</div>
+            <div type="line" n="8">lem intrepidus erit. Ventus validus fugat nubes;</div>
+            <div type="line" n="9">memoria autem malitiae sensum a scientia. Qui orat</div>
+            <div type="line" n="10">pro inimicis, hic immemor est malitiae; qui autem</div>
+            <div type="line" n="11">parcit linguae, non contristabit proximum suum.</div>
+            <div type="line" n="12">Si exacerbaverit te frater tuus, induc eum in do­</div>
+         </div>
+      </div>
+      <div type="col" n="1278">
+         <div type="subcolumn" n="c">
+            <div type="line" n="1">mum tuam, et ad ipsum ne pigeat te introire, sed</div>
+            <div type="line" n="2">manduca cum eo panem tuum; hoc enim faciens,</div>
+            <div type="line" n="3">eripies animam tuam, et non erit tibi offendiculum</div>
+            <div type="line" n="4">in tempore orationis. Sicut charitas gaudet pau­</div>
+            <div type="line" n="5">pertate, sic odium delectatur divitiis. Non potietur</div>
+            <div type="line" n="6">dives scientia, et camelus non introibit in foramen</div>
+            <div type="line" n="7">acus; sed nihil horum impossibile est apud Domi­</div>
+            <div type="line" n="8">num. Qui diligit pecuniam, non videbit scientiam;</div>
+            <div type="line" n="9">et qui congregat illam, contenebrabitur. In taber­</div>
+            <div type="line" n="10">naculis humilium commorabitur Dominus; in do­</div>
+            <div type="line" n="11">mibus autem superborum multiplicabitur maledi­</div>
+            <div type="line" n="12">ctum. Inhonorat Deum qui transgreditur legem</div>
+            <div type="line" n="13">ejus; qui autem custodit eam, glorificat factorem</div>
+            <div type="line" n="14">suum. Si aemularis Christum, beatus efficieris; morte</div>
+            <div type="line" n="15">autem ejus morietur anima tua, et non coutrahes</div>
+         </div>
+         <div type="subcolumn" n="d">
+            <div type="line" n="1">a carne tua malitiam, sed erit processus tuus sicut</div>
+            <div type="line" n="2">ortus stellae, et resurrectio tua, tanquam sol fulge­</div>
+            <div type="line" n="3">bit. Vae iniquo in die mortis, et injustus peribit in</div>
+            <div type="line" n="4">tempore malo. Quemadmodum enim evolavit cor­</div>
+            <div type="line" n="5">vus e nido suo, sic immunda anima e corpore suo.</div>
+            <div type="line" n="6">Animas justorum deducent angeli, animas autem</div>
+            <div type="line" n="7">malorum suscipient daemones.</div>
+            <div type="line" n="8">Quocunque ingressa fuerit malitia, ibi et igno­</div>
+            <div type="line" n="9">rantia; corda autem justorum implebuntur scientia.</div>
+            <div type="line" n="10">Immisericors monachus inops erit; enutriens au­</div>
+            <div type="line" n="11">tem pauperes haereditabit thesauros. Melior est</div>
+            <div type="line" n="12">paupertas cum scientia, quam divitiae cum ignoran­</div>
+         </div>
+      </div>
+      <div type="col" n="1279">
+         <div type="subcolumn" n="a">
+            <div type="line" n="1">tia. Ornamentum capitis corona; ornamentum au­</div>
+            <div type="line" n="2">tem cordis scientia Dei. Posside scientiam, et non</div>
+            <div type="line" n="3">argentum; et sapientiam super divitias multas. Justi</div>
+            <div type="line" n="4">haereditabunt Dominum; sancti autem nutrientur ab</div>
+            <div type="line" n="5">eo. Qui miseretur pauperibus, exterminat iram ; et</div>
+            <div type="line" n="6">qui nutrit eos, implebitur bonis. In corde mansueto</div>
+            <div type="line" n="7">requiescit sapientia; sedes autem impassibilitatis,</div>
+            <div type="line" n="8">anima bene operans. Fabricatores malorum perci­</div>
+            <div type="line" n="9">pient mercedem malam; fabricatoribus autem bo­</div>
+            <div type="line" n="10">norum dabitur merces bona. Qui ponit laqueum,</div>
+            <div type="line" n="11">comprehenditur in eo; et qui occultat illum, dispe­</div>
+            <div type="line" n="12">riet ab eo. Melior est saecularis mansuetus, quam</div>
+            <div type="line" n="13">monachus furiosus et iracundus. Scientiam disper­</div>
+            <div type="line" n="14">dit iracundia; longanimis autem congregat eam.</div>
+            <div type="line" n="15">Sicut ventus auster vehemens est in pelagus, sic</div>
+         </div>
+         <div type="subcolumn" n="b">
+            <div type="line" n="1">furor in corde viri. Qui orat frequenter effugiet ten­</div>
+            <div type="line" n="2">tationes; negligentis autem cor conturbabunt cogi­</div>
+            <div type="line" n="3">tationes. Non te delectet vinum et te non illiciat</div>
+            <div type="line" n="4">caro. Ne enutrias carnes corporis tui, et cogitationes</div>
+            <div type="line" n="5">turpes deficient a te. Ne dicas: Hodie festus dies,</div>
+            <div type="line" n="6">et bibamus vinum; el crastino Pentecoste, et man­</div>
+            <div type="line" n="7">ducabo carnem: eo quod non est festivitas apud</div>
+            <div type="line" n="8">monachos in terra ad replendum ventrem suum.</div>
+            <div type="line" n="9">Pascha Christi transitus a malitia est; Pentecoste</div>
+            <div type="line" n="10">autem ejus, resurrectio animae. Pentecoste Domini,</div>
+            <div type="line" n="11">suscitatio charitatis; qui autem odit fratrem suum,</div>
+            <div type="line" n="12">cadit in ruina magna. Festivitas Dei oblivio malo­</div>
+            <div type="line" n="13">rum; retinentem autem malitiam apprehendit lu­</div>
+            <div type="line" n="14">ctus. Festivitas Dei scientia vera; qui autem inten­</div>
+            <div type="line" n="15">dit falsae scientiae, morietur turpiter. Melius est je­</div>
+         </div>
+         <div type="subcolumn" n="c">
+            <div type="line" n="1">junium cum mundo corde, quam epulatio in im­</div>
+            <div type="line" n="2">munditia animae. Qui disperdit cogitationes malas</div>
+            <div type="line" n="3">de corde suo, similis est ei qui allidit parvulos ad</div>
+            <div type="line" n="4">petram.</div>
+            <div type="line" n="5">Monachus somniculosus incidit in mala; qui autem</div>
+            <div type="line" n="6">vigilat, sicut passer volabit. Ne dederis te in vigiliis</div>
+            <div type="line" n="7">narrationibus supervacuis, el non abjicias sermones</div>
+            <div type="line" n="8">spiritales, quoniam Dominus inspicit cor tuum, et</div>
+            <div type="line" n="9">non te statuit innocentem ab omni malo. Somnus</div>
+            <div type="line" n="10">multus incrassat cor; vigiliae autem bonae acuunt</div>
+            <div type="line" n="11">mentem. Somnus multus superducit tentationes;</div>
+            <div type="line" n="12">qui autem vigilat, effugit eas. Sicut ignis liquefacit</div>
+            <div type="line" n="13">ceram, sic vigiliae bonae cogitationes malas. Melior</div>
+            <div type="line" n="14">est vir dormiens, quam monachus vigilans in ser­</div>
+         </div>
+         <div type="subcolumn" n="d">
+            <div type="line" n="1">monibus vanis. Somnium angelorum laetificat cor;</div>
+            <div type="line" n="2">somnium autem daemonum conturbat illud. Poeni­</div>
+            <div type="line" n="3">tentia et humilitas erexerunt animam; eleemosyna</div>
+            <div type="line" n="4">autem et mansuetudo confirmaverunt eam. Memento</div>
+            <div type="line" n="5">semper patris tui, nec obliviscaris judicium aeter­</div>
+            <div type="line" n="6">num, et non erit delictum in anima tua. Si spiritus</div>
+            <div type="line" n="7">acedie ascenderit super te, ne relinquas domum</div>
+            <div type="line" n="8">tuam, et non declines in tempore tristitiae: sicut</div>
+            <div type="line" n="9">enim quis confricat argentum, sic splendidum fiet</div>
+            <div type="line" n="10">cor tuum, si perseveraveris. Spiritus taedii abigit</div>
+            <div type="line" n="11">lacrymas; spiritus autem tristitiae contribulat ora­</div>
+            <div type="line" n="12">tionem. Cupiens divitias sollicitus eris multum; et</div>
+            <div type="line" n="13">amplectens illas lugebis amarissime. Non remoretur</div>
+            <div type="line" n="14">scorpius in sinu tuo; sic nec cogitatio mala in corde</div>
+            <div type="line" n="15">tuo. Occidere geuimina serpentum ne parcas, et</div>
+         </div>
+      </div>
+      <div type="col" n="1280">
+         <div type="subcolumn" n="a">
+            <div type="line" n="1">non parturies cogitationes eorum. Sicut enim aurum</div>
+            <div type="line" n="2">et argentum probat ignis, sic cor monachi tentatio.</div>
+            <div type="line" n="3">Aufer a te superbiam et vanam gloriam, et jactan­</div>
+            <div type="line" n="4">tiam longe facito a te. Qui enim expetita privatur</div>
+            <div type="line" n="5">gloria contristabitur; qui vero adeptus est, fiet su­</div>
+            <div type="line" n="6">perbus. Ne dederis superbiam cordi tuo, et ne di­</div>
+            <div type="line" n="7">xeris in conspectu Domini: Potens sum; ut non Do­</div>
+            <div type="line" n="8">minus derelinquat animam tuam, et maligni dae­</div>
+            <div type="line" n="9">mones humilient illam. Tunc enim de aere con­</div>
+            <div type="line" n="10">turbabunt te inimici, noctes autem terribiles susci­</div>
+            <div type="line" n="11">pient te.</div>
+            <div type="line" n="12">Conversationem monachi custodit scientia; qui</div>
+         </div>
+         <div type="subcolumn" n="b">
+            <div type="line" n="1">autem ab ea discedit, incidit in latrones. De petra</div>
+            <div type="line" n="2">spiritali manat fluvius; anima autem bene agens</div>
+            <div type="line" n="3">bibit ex eo. Vas electionis anima munda; immunda</div>
+            <div type="line" n="4">autem replebitur amaritudine. Absque lacte non</div>
+            <div type="line" n="5">enutrietur infans; et sine impassibilitate non exal­</div>
+            <div type="line" n="6">tabitur cor. Charitatem antecedit impassibilitas;</div>
+            <div type="line" n="7">scientiam autem praecedit dilectio. Scientiae adjicie­</div>
+            <div type="line" n="8">tur sapientia; impassibilitatem vero generat pru­</div>
+            <div type="line" n="9">dentia. Timor Domini generat sapientiam; fides</div>
+            <div type="line" n="10">autem Christi donat timorem Dei. Sagitta candens</div>
+            <div type="line" n="11">incendit animam; vir autem operator boni exstin­</div>
+            <div type="line" n="12">guit eam. Clamorem et blasphemiam aversatur</div>
+            <div type="line" n="13">scientia, sermones autem dolosos fugit sapientia.</div>
+            <div type="line" n="14">Suave est mel, et dulcis favus; scientia autem Dei</div>
+            <div type="line" n="15">dulcior ambobus. Audi, monache, sermones patris</div>
+            <div type="line" n="16">tui, et ne irritas facias eruditiones ejus. Cum mi­</div>
+            <div type="line" n="17">serit te, obaudi ei, et quantum ad mentem comi­</div>
+            <div type="line" n="18">tere cum eo: hoc enim modo effugies cogitationes</div>
+         </div>
+         <div type="subcolumn" n="c">
+            <div type="line" n="1">malas, et maligni daemones non praevalebunt adver­</div>
+            <div type="line" n="2">sum te. Si crediderit tibi pecuniam, non dispergas</div>
+            <div type="line" n="3">illam; et si superoperatus fueris, non detineas</div>
+            <div type="line" n="4">apud te. Malus dispensator contribulabit animas</div>
+            <div type="line" n="5">fratrum; et memor malitiae non miserebitur eorum.</div>
+            <div type="line" n="6">Qui disperdit substantiam monasterii, fraudat</div>
+            <div type="line" n="7">Deum; et qui negligit eam, non erit impunitus.</div>
+            <div type="line" n="8">Iniquus dispensator distribuit male; justus autem</div>
+            <div type="line" n="9">ut dignum est dispensabit. Qui male loquitur de</div>
+            <div type="line" n="10">fratre suo exterminabitur; negligens autem egen­</div>
+            <div type="line" n="11">tem non videbit lumen. Melior est secularis in in­</div>
+            <div type="line" n="12">firmitate serviens fratri, quam anachoretes qui non</div>
+            <div type="line" n="13">miseretur proximo euo. Insipiens monachus negli­</div>
+            <div type="line" n="14">git instrumenta artis suo; sapiens autem curam</div>
+         </div>
+         <div type="subcolumn" n="d">
+            <div type="line" n="1">habebit illorum. Ne dixeris: Hodie maneo, et cras</div>
+            <div type="line" n="2">exibo, quia non in sapientia cogitasti de hoc ipso.</div>
+            <div type="line" n="3">Circuitor monachus meditabitur sermones falsos;</div>
+            <div type="line" n="4">proprium autem ludificabitur patrem. Qui exornat</div>
+            <div type="line" n="5">vestimenta sua, et implet ventrem suum, hic pascit</div>
+            <div type="line" n="6">cogitationes turpes, et cum sanctis concilium non</div>
+            <div type="line" n="7">habebit. Si introiveris in vicum, non proximaveris</div>
+            <div type="line" n="8">mulieribus, et non moratus fueris sermocinari cum</div>
+            <div type="line" n="9">eis: quemadmodum enim si quis gludat hamum,</div>
+            <div type="line" n="10">sic abstrahetur anima tua. Longanimus monachus</div>
+            <div type="line" n="11">impassibilitate gaudebit; qui autem exacerbat fra­</div>
+            <div type="line" n="12">tres suos, odibilis erit. Mansuetum monachum dili­</div>
+            <div type="line" n="13">git Dominus; turbulentum autem repellit a se. Pi­</div>
+            <div type="line" n="14">ger monachus murmurabit; et somniculosus dolo­</div>
+            <div type="line" n="15">rem capitis fingit. Si contristatus fuerit frater tuus,</div>
+         </div>
+      </div>
+      <div type="col" n="1281">
+         <div type="subcolumn" n="a">
+            <div type="line" n="1">consolare illum; et si dolet, condole illi: hoc enim</div>
+            <div type="line" n="2">faciens laetificabis cor ejus, et thesaurum magnum</div>
+            <div type="line" n="3">tibi cumulabis in coelis. Monachus, qui dissimulat</div>
+            <div type="line" n="4">custodire sermones patris, maledicet canis patris</div>
+            <div type="line" n="5">sui, et derogabit vitae filiorum ejus; Dominus au­</div>
+            <div type="line" n="6">tem annullabit eum. Qui occasionem quaerit, separa­</div>
+            <div type="line" n="7">bit se a fratribus; patrem autem suum incusabit.</div>
+            <div type="line" n="8">Ne dederis auditum tuum sermonibus qui sunt con­</div>
+            <div type="line" n="9">tra patrem tuum, et non suscites animam inhono­</div>
+            <div type="line" n="10">rantis illum, ut non Dominus irascatur in operibus</div>
+            <div type="line" n="11">tuis, et deleat nomen tuum de libro vivorum.</div>
+            <div type="line" n="12">Qui obedit patri monasterii, diligit semetipsum :</div>
+            <div type="line" n="13">qui autem contradicit ei, incidet in mala. Beatus</div>
+         </div>
+         <div type="subcolumn" n="b">
+            <div type="line" n="1">monachus, qui custodit precepta Domini; et san­</div>
+            <div type="line" n="2">ctus, qui servat sermones patrum suorum. Piger</div>
+            <div type="line" n="3">monachus multa detrimenta patietur; si autem</div>
+            <div type="line" n="4">perstiterit in audacia, et habitum suum adjiciet</div>
+            <div type="line" n="5">perdere. Qui custodit linguam suam dirigit vias</div>
+            <div type="line" n="6">suas; et qui servat cor suum implebitur scientia.</div>
+            <div type="line" n="7">Monachus bilinguis turbat fratres; fidelis autem</div>
+            <div type="line" n="8">agit quiete. Qui confidit in sua continentia, hic ca­</div>
+            <div type="line" n="9">det; qui autem humiliat se ipsum, exaltabitur. Ne</div>
+            <div type="line" n="10">dederis te saturitati ventris, et non implearis somno</div>
+            <div type="line" n="11">nocturno: hoc enim modo efficieris mundus, et spi­</div>
+            <div type="line" n="12">ritus Domini superveniet in te. Psallentis viri con­</div>
+            <div type="line" n="13">quiescet indignatio; et qui longanimis est, interritus</div>
+            <div type="line" n="14">erit. Ex mansuetudine generatur scientia; ex fero­</div>
+            <div type="line" n="15">cia autem inscitia. Sicut aqua dat incrementum</div>
+            <div type="line" n="16">plantationi, sic humiliatio iracundiae exaltat cor.</div>
+            <div type="line" n="17">Qui investigat convivia, exstinguetur lumen ejus;</div>
+         </div>
+         <div type="subcolumn" n="c">
+            <div type="line" n="1">anima autem ejus videbit tenebras. Pondera in sta­</div>
+            <div type="line" n="2">tera panem tuum, et bibe ad mensuram aquam</div>
+            <div type="line" n="3">tuam; et spiritus fornicationis fugiet abs te. Da se­</div>
+            <div type="line" n="4">nibus vinum, et aeegrotantibus offer escas, eo quod</div>
+            <div type="line" n="5">contriverunt carnes juventutis suae. Non supplantes</div>
+            <div type="line" n="6">fravrem tuum, et in ruina ejus ne congratuleris;</div>
+            <div type="line" n="7">Dominus enim cognoscit cor tuum, et tradet te in</div>
+            <div type="line" n="8">die mortis. Monachus prudens impassibilis erit;</div>
+            <div type="line" n="9">imprudens autem exhauriet malae Oculum nequam</div>
+            <div type="line" n="10">excaecabit Dominus; simplicem autem eripiet a te­</div>
+            <div type="line" n="11">nebris. Sicut lucifer in coelo, et sicut palina in pa­</div>
+            <div type="line" n="12">radiso; sic in anima mansueta sensus purus. Vir</div>
+            <div type="line" n="13">sapiens scrutabitur sermones Dei; insipiens autem</div>
+            <div type="line" n="14">irridebit eos. Qui odit scientiam Dei et rejicit</div>
+         </div>
+         <div type="subcolumn" n="d">
+            <div type="line" n="1">considerationem, similis est ei qui lancea pungit cor</div>
+            <div type="line" n="2">suum. Melior est scientia Trinitatis super scientiam</div>
+            <div type="line" n="3">incorporalium, et consideratio ejus super rationes</div>
+            <div type="line" n="4">omnium saeculorum. Cani senum mansuetudo; vita</div>
+            <div type="line" n="5">autem illorum scientia vera. Juvenis mansuetus</div>
+            <div type="line" n="6">multa suffert; pusillanimem autem senem quis</div>
+            <div type="line" n="7">sustinebit? Vidi iracundum senem elatum ultra</div>
+            <div type="line" n="8">tempus suum: spem tamen non habuit junior,</div>
+            <div type="line" n="9">quam ille. Qui scandalizat saeculares, non erit im­</div>
+            <div type="line" n="10">punitus; et qui exacerbat eos, inhonorabit nomen</div>
+            <div type="line" n="11">suum. Conturbantem Ecclesiam Domini extermina­</div>
+            <div type="line" n="12">bit ignis; resistentem autem sacerdoti deglutiet</div>
+         </div>
+      </div>
+      <div type="col" n="1282">
+         <div type="subcolumn" n="a">
+            <div type="line" n="1">terra. Qui amat pacem, manducabit favum ejus;</div>
+            <div type="line" n="2">et qui colligit eam, implebitur melle.</div>
+            <div type="line" n="3">Honora Dominum, et cognosces incorporalia, et</div>
+            <div type="line" n="4">servi illi, et ostendet tibi rationes saeculorum. Citra</div>
+            <div type="line" n="5">scientiam non exaltabitur cor, et arbor non florebit</div>
+            <div type="line" n="6">sine humore. Carnes Christi actuum virlutes; qui</div>
+            <div type="line" n="7">autem manducat eas, efficitur impassibilis. Sanguis</div>
+            <div type="line" n="8">Christi consideratio factorum; et qui bibit illum,</div>
+            <div type="line" n="9">illuminabitur ab eo. Pectus Domini scientia Dei; qui</div>
+            <div type="line" n="10">autem recubuerit super illud, praedicator erit divi­</div>
+            <div type="line" n="11">norum. Plenus scientia, et actor bonorum obviave­</div>
+            <div type="line" n="12">runt sibi; medius autem inter utrumque stetit Do­</div>
+            <div type="line" n="13">minus. Qui acquisivit dilectionem, acquisivit the­</div>
+            <div type="line" n="14">saurum; accepit autem a Domino gratiam magnam.</div>
+            <div type="line" n="15">Consilia daemonum cognoscit sapientia; astutiam</div>
+         </div>
+         <div type="subcolumn" n="b">
+            <div type="line" n="1">autem illorum investigavit prudentia. Non spernas</div>
+            <div type="line" n="2">decreta sancta, quae posuerunt patres tui; fidem</div>
+            <div type="line" n="3">autem baptismi tui non derelinquas, et non repellas</div>
+            <div type="line" n="4">signaculum spiritale; ut adsit Dominus animae tuae,</div>
+            <div type="line" n="5">et protegat te in die malo. Sermones haereticorum</div>
+            <div type="line" n="6">nuntii mortis; qui autem suscipit illos, perdet ani­</div>
+            <div type="line" n="7">mam suam. Nunc ergo, fili, audi me, et non acce­</div>
+            <div type="line" n="8">das ad ostia virorum iniquorum, neque ambules</div>
+            <div type="line" n="9">super laqueos eorum, ut non capiaris. Separa ani­</div>
+            <div type="line" n="10">mam tuam a scientia falsa: etenim ego saepe locu­</div>
+            <div type="line" n="11">tus sum ad eos; tenebrosos autem sermones eorum</div>
+            <div type="line" n="12">investigavi, et venenum aspidum inveni in eis. Non</div>
+            <div type="line" n="13">est prudentia, et non est sapientia in viis eorum.</div>
+            <div type="line" n="14">Omnes qui suscipiunt eos peribunt, et qui diligunt</div>
+            <div type="line" n="15">eos implebuntur malis. Vidi ego patres dogmatum</div>
+         </div>
+         <div type="subcolumn" n="c">
+            <div type="line" n="1">illorum, et in desertis commisi cum illis. Inimici</div>
+            <div type="line" n="2">enim Domini obviaverunt mihi, et daemones in ver­</div>
+            <div type="line" n="3">bis concertaverunt adversum me, et non vidi lumen</div>
+            <div type="line" n="4">verum in sermonibus eorum. Vir mendax excidet a</div>
+            <div type="line" n="5">Deo; seducens autem proximum, incidet in mala. Me­</div>
+            <div type="line" n="6">lior est paradisus Dei super hortum olusculorem, et</div>
+            <div type="line" n="7">fluvius Domini superfluvium maguum contenebrantem</div>
+            <div type="line" n="8">terram. Fidelior aqua coelestis super aquam Aegy­</div>
+            <div type="line" n="9">ptiorum sapientium, haurientium de terra. Sicut</div>
+            <div type="line" n="10">enim qui rotas ascendunt, deorsum descendunt;</div>
+            <div type="line" n="11">sic qui exaltant verba sua, humiliantur. Sapientia</div>
+            <div type="line" n="12">Domini exaltat cor; intellectus autem ejus purificat</div>
+            <div type="line" n="13">illud. Rationes providentiae obscurae; et vix intel­</div>
+            <div type="line" n="14">ligibiles considerationes judicii; vir autem bene</div>
+         </div>
+         <div type="subcolumn" n="d">
+            <div type="line" n="1">agens cognoscit eas. Qui purificat se, conspiciet</div>
+            <div type="line" n="2">naturas intelligibiles; rationes autem incorporalium</div>
+            <div type="line" n="3">cognoscet monachus mitis. Qui creaturam dicit</div>
+            <div type="line" n="4">Trinitatem, blasphemat Deum; et qui spernit Chri­</div>
+            <div type="line" n="5">stum ejus, non cognoscit eum. Considerationes crea­</div>
+            <div type="line" n="6">turarum dilatant cor; verba autem prudentiae et</div>
+            <div type="line" n="7">judicii exaltant illud. Scientia incorporalium elevat</div>
+            <div type="line" n="8">sensum, et sanctae Trinitati applicabit eum. Me­</div>
+            <div type="line" n="9">mentote ejus, qui dedit vobis in Domino proverbia</div>
+            <div type="line" n="10">luculenta, et non obliviscamini animam ejus humi­</div>
+            <div type="line" n="11">lem in tempore orationis.</div>
+         </div>
+      </div>
+   </body>
+
+</TAN-T>

@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../TAN/TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../../TAN/TAN-2021/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       id="tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:chaptere_ad_monachos_1913"
+       TAN-version="2021">
+   <head>
+      <name>Greek edition of Ad monachos edited by Gressmann</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2435/cpg2435.grc.1913.gressmann.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Ad_monachos"/>
+      <source which="gressmann_1913"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+      </vocabulary>
+      <vocabulary-key>
+         <div-type xml:id="ln" which="line_(physical)"/>
+      </vocabulary-key>
+      <resp who="kalvesmaki" roles="editor"/>
+      <file-resp who="kalvesmaki"/>
+      <change when="2020-09-09" who="kalvesmaki">Started file</change>
+      <to-do>
+         <comment when="2020-09-09" who="kalvesmaki">Proofread file contents for completeness, accuracy.</comment>
+      </to-do>
+   </head>
+   <body xml:lang="grc">
+      <div n="title" type="title">Πρὸς τοὺς ἐν κοινοβίοις ἢ συνοδίαις μοναχούς.</div>
+      <div n="1" type="chapter">
+         <div n="1" type="ln">Κληρονόμοι θεοῦ ἀκούσατε λόγων θεοῦ, </div>
+         <div n="2" type="ln">συγκληρονόμοι δὲ Χριστοῦ δέξασθε ῥήσεις Χριστοῦ, </div>
+         <div n="3" type="ln">ἵνα δῶτε αὐτὰς καρδίαις τέκνων ὑμῶν, </div>
+         <div n="4" type="ln">λόγους δὲ σοφῶν διδάξητε αὐτούς. </div>
+      </div>
+      <div n="2" type="chapter">
+         <div n="1" type="ln">Πατὴρ ἀγαθὸς παιδεύει υἱοὺς αὐτοῦ, </div>
+         <div n="2" type="ln">πατὴρ δὲ πονηρὸς ἀπολέσει αὐτούς. </div>
+      </div>
+      <div n="3" type="chapter">
+         <div n="1" type="ln">Πίστις ἀρχὴ ἀγάπης, </div>
+         <div n="2" type="ln">τέλος δὲ ἀγάπης γνῶσις θεοῦ. </div>
+      </div>
+      <div n="4" type="chapter">
+         <div n="1" type="ln">Φόβος κυρίου διατηρήσει ψυχήν, </div>
+         <div n="2" type="ln">ἐγκράτεια δὲ ἀγαθὴ ἐνισχύσει αὐτήν. </div>
+      </div>
+      <div n="5" type="chapter">
+         <div n="1" type="ln">Ὑπομονὴ ἀνδρὸς τίκτει ἐλπίδα, </div>
+         <div n="2" type="ln">ἐλπὶς δὲ ἀγαθὴ δοξάσει αὐτόν. </div>
+      </div>
+      <div n="6" type="chapter">
+         <div n="1" type="ln">Ὁ δουλαγωγῶν σάρκας αὐτοῦ ἀπαθὴς ἔσται, </div>
+         <div n="2" type="ln">ὁ δὲ ἐκτρέφων αὐτὰς ὀδυνηθήσεται ἐπ' αὐταῖς. </div>
+      </div>
+      <div n="7" type="chapter">
+         <div n="1" type="ln">Πνεῦμα πορνείας ἐν σώμασιν ἀκρατῶν, </div>
+         <div n="2" type="ln">πνεῦμα δὲ σωφροσύνης ἐν ψυχαῖς ἐγκρατῶν. </div>
+      </div>
+      <div n="8" type="chapter">
+         <div n="1" type="ln">Ἀναχώρησις ἐν ἀγάπῃ καθαίρει καρδίαν, </div>
+         <div n="2" type="ln">ἀναχώρησις δὲ μετὰ μίσους ἐκταράσσει αὐτήν. </div>
+      </div>
+      <div n="9" type="chapter">
+         <div n="1" type="ln">Κρείσσων χιλιοστὸς ἐν ἀγάπῃ </div>
+         <div n="2" type="ln">ἢ μόνος μετὰ μίσους ἐν ἀδύτοις σπηλαίοις. </div>
+      </div>
+      <div n="10" type="chapter">
+         <div n="1" type="ln">Ὁ ἐναποδεσμεύων μνησικακίαν ἐν ψυχῇ αὐτοῦ </div>
+         <div n="2" type="ln">ὅμοιός ἐστι τῷ κρύπτοντι πῦρ ἐν ἀχύροις. </div>
+      </div>
+      <div n="11" type="chapter">
+         <div n="1" type="ln">Μὴ δῷς βρώματα πολλὰ τῷ σώματί σου, </div>
+         <div n="2" type="ln">καὶ οὐ μὴ ἴδῃς καθ' ὕπνους φαντασίας κακάς. </div>
+         <div n="3" type="ln">ὃν τρόπον γὰρ φλὸξ καταναλίσκει δρυμόν, </div>
+         <div n="4" type="ln">οὕτω φαντασίας αἰσχρὰς σβέννυσι πεῖνα. </div>
+      </div>
+      <div n="12" type="chapter">
+         <div n="1" type="ln">Ἀνὴρ θυμώδης πτοηθήσεται, </div>
+         <div n="2" type="ln">ὁ δὲ πραῢς ἄφοβος ἔσται. </div>
+      </div>
+      <div n="13" type="chapter">
+         <div n="1" type="ln">Ἄνεμος σφοδρὸς ἀποδιώκει νέφη, </div>
+         <div n="2" type="ln">μνησικακία δὲ τὸν νοῦν ἀπὸ γνώσεως. </div>
+      </div>
+      <div n="14" type="chapter">
+         <div n="1" type="ln">Ὁ προσευχόμενος ὑπὲρ ἐχθρῶν ἀμνησίκακος ἔσται, </div>
+         <div n="2" type="ln">φειδόμενος δὲ γλώσσης οὐ λυπήσει τὸν πλησίον αὐτοῦ. </div>
+      </div>
+      <div n="15" type="chapter">
+         <div n="1" type="ln">Ἐὰν παροξύνῃ σε ὁ ἀδελφός σου, </div>
+         <div n="2" type="ln">εἰσάγαγε αὐτὸν εἰς τὸν οἶκόν σου, </div>
+         <div n="3" type="ln">καὶ πρὸς αὐτὸν μὴ ὀκνήσῃς εἰσελθεῖν, </div>
+         <div n="4" type="ln">ἀλλὰ φάγε τὸν ψωμόν σου μετ' αὐτοῦ. </div>
+         <div n="5" type="ln">τοῦτο γὰρ ποιῶν ῥύσῃ σὴν ψυχὴν </div>
+         <div n="6" type="ln">καὶ οὐκ ἔσται σοι πρόσκομμα ἐν καιρῷ προσευχῆς. </div>
+      </div>
+      <div n="16" type="chapter">
+         <div n="1" type="ln">Ὥσπερ ἡ ἀγάπη χαίρει πενίᾳ, </div>
+         <div n="2" type="ln">οὕτω τὸ μῖσος τέρπεται πλούτῳ. </div>
+      </div>
+      <div n="17" type="chapter">
+         <div n="1" type="ln">Οὐκ ἐπιτεύξεται πλούσιος γνώσεως </div>
+         <div n="2" type="ln">καὶ κάμηλος οὐκ εἰσελεύσεται εἰς ὀπὴν ῥαφίδος, </div>
+         <div n="3" type="ln">ἀλλ' οὐδὲν τούτων ἀδυνατήσει παρὰ κυρίῳ </div>
+      </div>
+      <div n="18" type="chapter">
+         <div n="1" type="ln">Ὁ φιλῶν ἀργύριον οὐκ ὄψεται γνῶσιν, </div>
+         <div n="2" type="ln">καὶ ὁ συνάγων αὐτὸ σκοτισθήσεται. </div>
+      </div>
+      <div n="19" type="chapter">
+         <div n="1" type="ln">Ἐν σκηναῖς ταπεινῶν αὐλισθήσεται κύριος, </div>
+         <div n="2" type="ln">ἐν οἴκοις δὲ ὑπερηφάνων πληθυνθήσονται ἀραί. </div>
+      </div>
+      <div n="20" type="chapter">
+         <div n="1" type="ln">Ἀτιμάζει θεὸν ὁ παραβαίνων νόμον αὐτοῦ, </div>
+         <div n="2" type="ln">ὁ δὲ φυλάσσων αὐτὸν δοξάζει τὸν ποιήσαντα αὐτόν. </div>
+      </div>
+      <div n="21" type="chapter">
+         <div n="1" type="ln">Ἐὰν ζηλώσῃς Χριστόν, γενήσῃ μακαριστός, </div>
+         <div n="2" type="ln">τὸν δὲ θάνατον αὐτοῦ ἀποθανεῖται ἡ ψυχή σου, </div>
+         <div n="3" type="ln">καὶ οὐ μὴ ἐπισπάσηται ἀπὸ σαρκὸς αὐτῆς κακίαν, </div>
+         <div n="4" type="ln">ἀλλ' ἔσται ἡ ἔξοδός σου ὡς ἔξοδος ἀστέρος, </div>
+         <div n="5" type="ln">καὶ ἡ ἀνάστασίς σου ὥσπερ ὁ ἥλιος ἐκλάμψει. </div>
+      </div>
+      <div n="22" type="chapter">
+         <div n="1" type="ln">Οὐαὶ ἀνόμῳ ἐν ἡμέρᾳ θανάτου, </div>
+         <div n="2" type="ln">καὶ ἄδικος ὀλεῖται ἐν καιρῷ πονηρῷ. </div>
+         <div n="3" type="ln">ὃν τρόπον γὰρ ἀφίπταται κόραξ ἐκ τῆς αὐτοῦ νοσσιᾶς, </div>
+         <div n="4" type="ln">οὕτως ἀκάθαρτος ψυχὴ ἐκ τοῦ ἰδίου σώματος. </div>
+      </div>
+      <div n="23" type="chapter">
+         <div n="1" type="ln">Ψυχὰς δικαίων ὁδηγοῦσιν ἄγγελοι, </div>
+         <div n="2" type="ln">ψυχὰς δὲ πονηρῶν παραλήψονται δαίμονες. </div>
+      </div>
+      <div n="24" type="chapter">
+         <div n="1" type="ln">Οὗ ἐὰν εἰσέλθῃ κακία, ἐκεῖ καὶ ἀγνωσία, </div>
+         <div n="2" type="ln">καρδίαι δὲ ὁσίων πληρωθήσονται γνώσεως. </div>
+      </div>
+      <div n="25" type="chapter">
+         <div n="1" type="ln">Ἀνελεήμων μοναχὸς ἐνδεὴς ἔσται, </div>
+         <div n="2" type="ln">διατρέφων δὲ πτωχοὺς κληρονομήσει θησαυρούς. </div>
+      </div>
+      <div n="26" type="chapter">
+         <div n="1" type="ln">Κρείσσων πενία μετὰ γνώσεως </div>
+         <div n="2" type="ln">ἢ πλοῦτος μετὰ ἀγνωσίας. </div>
+      </div>
+      <div n="27" type="chapter">
+         <div n="1" type="ln">Κόσμος κεφαλῆς στέφανος, </div>
+         <div n="2" type="ln">κόσμος δὲ καρδίας γνῶσις θεοῦ. </div>
+      </div>
+      <div n="28" type="chapter">
+         <div n="1" type="ln">Κτῆσαι γνῶσιν καὶ μὴ ἀργύριον </div>
+         <div n="2" type="ln">καὶ σοφίαν ὑπὲρ πλοῦτον πολύν. </div>
+      </div>
+      <div n="29" type="chapter">
+         <div n="1" type="ln">Δίκαιοι κληρονομήσουσι κύριον, </div>
+         <div n="2" type="ln">ὅσιοι δὲ τραφήσονται ὑπ' αὐτοῦ. </div>
+      </div>
+      <div n="30" type="chapter">
+         <div n="1" type="ln">Ὁ ἐλεῶν πένητας διαφθείρει θυμόν, </div>
+         <div n="2" type="ln">καὶ ὁ διατρέφων αὐτοὺς πλησθήσεται ἀγαθῶν. </div>
+      </div>
+      <div n="31" type="chapter">
+         <div n="1" type="ln">Ἐν καρδίᾳ πραείᾳ ἀναπαύσεται σοφία, </div>
+         <div n="2" type="ln">θρόνος δὲ ἀπαθείας ψυχὴ πρακτική. </div>
+      </div>
+      <div n="32" type="chapter">
+         <div n="1" type="ln">Τέκτονες πονηρῶν λήψονται μισθὸν κακόν, </div>
+         <div n="2" type="ln">τέκτοσι δὲ ἀγαθῶν δοθήσεται μισθὸς ἀγαθός. </div>
+      </div>
+      <div n="33" type="chapter">
+         <div n="1" type="ln">Ὁ τιθεὶς παγίδα συλληφθήσεται ἐν αὐτῇ </div>
+         <div n="2" type="ln">καὶ ὁ κρύπτων αὐτὴν ἁλώσεται ὑπ' αὐτῆς. </div>
+      </div>
+      <div n="34" type="chapter">
+         <div n="1" type="ln">Κρείσσων κοσμικὸς πραῢς </div>
+         <div n="2" type="ln">μοναχοῦ θυμώδους καὶ ὀργίλου. </div>
+      </div>
+      <div n="35" type="chapter">
+         <div n="1" type="ln">Γνῶσιν διασκορπίζει θυμός, </div>
+         <div n="2" type="ln">μακροθυμία δὲ συνάγει αὐτήν. </div>
+      </div>
+      <div n="36" type="chapter">
+         <div n="1" type="ln">Ὥσπερ νότος ἰσχυρὸς ἐν πελάγει </div>
+         <div n="2" type="ln">οὕτως θυμὸς ἐν καρδίᾳ ἀνδρός. </div>
+      </div>
+      <div n="37" type="chapter">
+         <div n="1" type="ln">Ὁ προσευχόμενος συνεχῶς ἐκφεύγει πειρασμούς, </div>
+         <div n="2" type="ln">ἀμελοῦντος δὲ καρδίαν ἐκταράσσουσι λογισμοί. </div>
+      </div>
+      <div n="38" type="chapter">
+         <div n="1" type="ln">Μὴ εὐφραινέτω σε οἶνος </div>
+         <div n="2" type="ln">καὶ μὴ τερπέτω σε κρέας, </div>
+         <div n="3" type="ln">ἵνα μὴ διαθρέψῃς σάρκας σώματός σου, </div>
+         <div n="4" type="ln">καὶ λογισμοὶ αἰσχροὶ οὐκ ἐκλείψουσιν ἀπό σου. </div>
+      </div>
+      <div n="39" type="chapter">
+         <div n="1" type="ln">Μὴ εἴπῃς· σήμερον ἑορτὴ καὶ πίομαι οἶνον, </div>
+         <div n="2" type="ln">καὶ αὔριον πεντηκοστὴ καὶ φάγομαι κρέα, </div>
+         <div n="3" type="ln">διότι οὐκ ἔστιν ἑορτὴ παρὰ μοναχοῖς </div>
+         <div n="4" type="ln">οὐδὲ τὸ πλῆσαι ἄνθρωπον κοιλίαν αὐτοῦ. </div>
+      </div>
+      <div n="40" type="chapter">
+         <div n="1" type="ln">Πάσχα κυρίου διάβασις ἀπὸ κακίας, </div>
+         <div n="2" type="ln">πεντηκοστὴ δὲ αὐτοῦ ἀνάστασις ψυχῆς. </div>
+      </div>
+      <div n="41" type="chapter">
+         <div n="1" type="ln">Ἑορτὴ θεοῦ ἀμνηστία κακῶν, </div>
+         <div n="2" type="ln">τὸν δὲ μνησικακοῦντα λήψονται πένθη. </div>
+      </div>
+      <div n="42" type="chapter">
+         <div n="1" type="ln">Πεντηκοστὴ κυρίου ἀνάστασις ἀγάπης, </div>
+         <div n="2" type="ln">ὁ δὲ μισῶν τὸν ἀδελφὸν αὐτοῦ πεσεῖται πτῶμα ἐξαίσιον. </div>
+      </div>
+      <div n="43" type="chapter">
+         <div n="1" type="ln">Ἑορτὴ θεοῦ γνῶσις ἀληθής, </div>
+         <div n="2" type="ln">ὁ δὲ προσέχων γνώσει ψευδεῖ τελευτήσει αἰσχρῶς. </div>
+      </div>
+      <div n="44" type="chapter">
+         <div n="1" type="ln">Κρείσσων νηστεία μετὰ καθαρᾶς καρδίας </div>
+         <div n="2" type="ln">ὑπὲρ ἑορτὴν ἐν ἀκαθαρσίᾳ ψυχῆς. </div>
+      </div>
+      <div n="45" type="chapter">
+         <div n="1" type="ln">Ὁ διαφθείρων λογισμοὺς κακοὺς ἀπὸ καρδίας αὐτοῦ </div>
+         <div n="2" type="ln">ὅμοιός ἐστι τῷ ἐδαφίζοντι τὰ νήπια αὐτοῦ πρὸς τὴν πέτραν. </div>
+      </div>
+      <div n="46" type="chapter">
+         <div n="1" type="ln">Μοναχὸς ὑπνώδης ἐμπεσεῖται εἰς κακά, </div>
+         <div n="2" type="ln">ὁ δὲ ἀγρυπνῶν ὡς στρουθίον ἔσται. </div>
+      </div>
+      <div n="47" type="chapter">
+         <div n="1" type="ln">Μὴ δῷς σεαυτὸν ἐν ἀγρυπνίᾳ διηγήμασι κενοῖς </div>
+         <div n="2" type="ln">καὶ μὴ ἀπώσῃ λόγους πνευματικούς, </div>
+         <div n="3" type="ln">ὅτι κύριος σκοπεύει σὴν ψυχὴν </div>
+         <div n="4" type="ln">καὶ οὐ μὴ ἀθωώσῃ σε ἀπὸ παντὸς κακοῦ. </div>
+      </div>
+      <div n="48" type="chapter">
+         <div n="1" type="ln">Ὕπνος πολὺς παχύνει διάνοιαν, </div>
+         <div n="2" type="ln">ἀγρυπνία δὲ ἀγαθὴ λεπτύνει αὐτήν. </div>
+      </div>
+      <div n="49" type="chapter">
+         <div n="1" type="ln">Ὕπνος πολὺς ἐπάγει πειρασμούς, </div>
+         <div n="2" type="ln">ὁ δὲ ἀγρυπνῶν ἐκφεύξεται αὐτούς. </div>
+      </div>
+      <div n="50" type="chapter">
+         <div n="1" type="ln">Ὥσπερ πῦρ τήκει κηρόν, </div>
+         <div n="2" type="ln">οὕτως ἀγρυπνία ἀγαθὴ λογισμοὺς πονηρούς. </div>
+      </div>
+      <div n="51" type="chapter">
+         <div n="1" type="ln">Κρείσσων ἀνὴρ καθεύδων </div>
+         <div n="2" type="ln">ἢ μοναχὸς ἀγρυπνῶν περὶ λογισμοὺς ματαίους. </div>
+      </div>
+      <div n="52" type="chapter">
+         <div n="1" type="ln">Ἐνύπνιον ἀγγελικὸν εὐφραίνει καρδίαν, </div>
+         <div n="2" type="ln">ἐνύπνιον δὲ δαιμονιῶδες ἐκταράσσει αὐτήν. </div>
+      </div>
+      <div n="53" type="chapter">
+         <div n="1" type="ln">Μετάνοια καὶ ταπείνωσις ἀνώρθωσαν ψυχήν, </div>
+         <div n="2" type="ln">ἐλεημοσύνη δὲ καὶ πραΰτης ἐστήριξαν αὐτήν. </div>
+      </div>
+      <div n="54" type="chapter">
+         <div n="1" type="ln">Μέμνησο διὰ παντὸς σῆς ἐξόδου </div>
+         <div n="2" type="ln">καὶ μὴ ἐπιλάθῃ κρίσεως αἰωνίας, </div>
+         <div n="3" type="ln">καὶ οὐκ ἔσται πλημμέλεια ἐν ψυχῇ σου. </div>
+      </div>
+      <div n="55" type="chapter">
+         <div n="1" type="ln">Ἐὰν πνεῦμα ἀκηδίας ἀναβῇ ἐπί σε, οἶκόν σου μὴ ἀφῇς </div>
+         <div n="2" type="ln">καὶ μὴ ἐκκλίνῃς ἐν καιρῷ πάλιν ἐπωφελεῖ. </div>
+         <div n="3" type="ln">ὃν τρόπον γὰρ εἴ τις λευκάνοι ἄργυρον, </div>
+         <div n="4" type="ln">οὕτως λαμπρυνθήσεται ἡ καρδία σου. </div>
+      </div>
+      <div n="56" type="chapter">
+         <div n="1" type="ln">Πνεῦμα ἀκηδίας ἀπελαύνει δάκρυα, </div>
+         <div n="2" type="ln">πνεῦμα δὲ λύπης συντρίβει προσευχήν. </div>
+      </div>
+      <div n="57" type="chapter">
+         <div n="1" type="ln">Ἐπιθυμῶν χρημάτων μεριμνήσεις πολλά, </div>
+         <div n="2" type="ln">καὶ ἀντεχόμενος αὐτῶν πενθήσεις πικρῶς. </div>
+      </div>
+      <div n="58" type="chapter">
+         <div n="1" type="ln">Μὴ χρονιζέτω σκορπίος ἐν κόλπῳ σου </div>
+         <div n="2" type="ln">καὶ λογισμὸς πονηρὸς ἐν καρδίᾳ σου. </div>
+      </div>
+      <div n="59" type="chapter">
+         <div n="1" type="ln">Κτείνειν γεννήματα ὀφέων μὴ φείσῃ, </div>
+         <div n="2" type="ln">καὶ μὴ ὠδίνῃς λογισμοὺς καρδίας αὐτῶν. </div>
+      </div>
+      <div n="60" type="chapter">
+         <div n="1" type="ln">Ὥσπερ ἀργύριον καὶ χρυσίον δοκιμάζει πῦρ, </div>
+         <div n="2" type="ln">οὕτως καρδίαν μοναχοῦ πειρασμοί. </div>
+      </div>
+      <div n="61" type="chapter">
+         <div n="1" type="ln">Περίελε σεαυτοῦ ὑπερηφανίαν </div>
+         <div n="2" type="ln">καὶ κενοδοξίαν μακρὰν ποίησον ἀπό σου. </div>
+         <div n="3" type="ln">ὁ γὰρ ἀποτυχὼν δόξης λυπηθήσεται, </div>
+         <div n="4" type="ln">ὁ δὲ ἐπιτυχὼν ὑπερήφανος ἔσται. </div>
+      </div>
+      <div n="62" type="chapter">
+         <div n="1" type="ln">Μὴ δῷς ὑπερηφανίᾳ σὴν καρδίαν </div>
+         <div n="2" type="ln">καὶ μὴ εἴπῃς πρὸ προσώπου τοῦ θεοῦ· δυνατός εἰμι, </div>
+         <div n="3" type="ln">ἵνα μὴ κύριος ἐγκαταλίπῃ σὴν ψυχήν, </div>
+         <div n="4" type="ln">καὶ πονηροὶ δαίμονες ταπεινώσουσιν αὐτήν. </div>
+         <div n="5" type="ln">τότε γάρ σε δι' ἀέρος πτοήσουσιν οἱ ἐχθροί, </div>
+         <div n="6" type="ln">νύκτες δὲ φοβεραὶ διαδέξονταί σε. </div>
+      </div>
+      <div n="63" type="chapter">
+         <div n="1" type="ln">Πολιτείαν μοναχοῦ διαφυλάττει γνῶσις, </div>
+         <div n="2" type="ln">ὁ δὲ καταβαίνων ἀπὸ γνώσεως περιπεσεῖται λῃσταῖς. </div>
+      </div>
+      <div n="64" type="chapter">
+         <div n="1" type="ln">Ἐκ πέτρας πνευματικῆς ἀπορρεῖ ποταμός, </div>
+         <div n="2" type="ln">ψυχὴ δὲ πρακτικὴ πίεται ἀπ' αὐτοῦ. </div>
+      </div>
+      <div n="65" type="chapter">
+         <div n="1" type="ln">Σκεῦος ἐκλογῆς ψυχὴ καθαρά, </div>
+         <div n="2" type="ln">ἡ δὲ ἀκάθαρτος πλησθήσεται πικρίας. </div>
+      </div>
+      <div n="66" type="chapter">
+         <div n="1" type="ln">Ἄνευ γάλακτος οὐ τραφήσεται παιδίον, </div>
+         <div n="2" type="ln">καὶ χωρὶς ἀπαθείας οὐχ ὑψωθήσεται καρδία. </div>
+      </div>
+      <div n="67" type="chapter">
+         <div n="1" type="ln">Πρὸ ἀγάπης ἡγεῖται ἀπάθεια </div>
+         <div n="2" type="ln">πρὸ δὲ γνώσεως ἀγάπη. </div>
+      </div>
+      <div n="68" type="chapter">
+         <div n="1" type="ln">Γνώσει προστίθεται σοφία, </div>
+         <div n="2" type="ln">ἀπάθειαν δὲ τίκτει φρόνησις. </div>
+      </div>
+      <div n="69" type="chapter">
+         <div n="1" type="ln">Φόβος κυρίου γεννᾷ φρόνησιν, </div>
+         <div n="2" type="ln">πίστις δὲ Χριστοῦ δωρεῖται φόβον θεοῦ. </div>
+      </div>
+      <div n="70" type="chapter">
+         <div n="1" type="ln">Βέλος πεπυρωμένον ἀνάπτει ψυχήν, </div>
+         <div n="2" type="ln">ἀνὴρ δὲ πρακτικὸς κατασβέσει αὐτό. </div>
+      </div>
+      <div n="71" type="chapter">
+         <div n="1" type="ln">Κραυγὴν καὶ βλασφημίαν ἀποστρέφεται γνῶσις, </div>
+         <div n="2" type="ln">λόγους δὲ δολίους φεύγει σοφία. </div>
+      </div>
+      <div n="72" type="chapter">
+         <div n="1" type="ln">Ἡδὺ μέλι καὶ γλυκὺ κηρίον, </div>
+         <div n="2" type="ln">γνῶσις δὲ θεοῦ γλυκυτέρα ἀμφοτέρων. </div>
+      </div>
+      <div n="73" type="chapter">
+         <div n="1" type="ln">Ἄκουε, μοναχέ, λόγους πατρός σου </div>
+         <div n="2" type="ln">καὶ μὴ ἀκύρους ποίει νουθεσίας αὐτοῦ. </div>
+         <div n="3" type="ln">Ἡνίκα ἂν ἀποστείλῃ σε, ἐπάγου αὐτὸν </div>
+         <div n="4" type="ln">καὶ κατὰ διάνοιαν συνόδευε αὐτῷ. </div>
+         <div n="5" type="ln">τούτῳ γὰρ τῷ τρόπῳ διαφεύξῃ λογισμοὺς κακούς, </div>
+         <div n="6" type="ln">καὶ πονηροὶ δαίμονες οὐκ ἰσχύσουσι κατά σου. </div>
+         <div n="7" type="ln">ἐὰν πιστεύσῃ σοι ἀργύριον, οὐ διασκορπιεῖς αὐτό, </div>
+         <div n="8" type="ln">καὶ κἂν ἐπεργάσῃ, ἀποδώσεις αὐτό. </div>
+      </div>
+      <div n="74" type="chapter">
+         <div n="1" type="ln">Πονηρὸς οἰκονόμος ἐκθλίψει ψυχὰς ἀδελφῶν, </div>
+         <div n="2" type="ln">καὶ μνησίκακος οὐκ ἐλεήσει αὐτάς. </div>
+      </div>
+      <div n="75" type="chapter">
+         <div n="1" type="ln">Ὁ διασκορπίζων τὰ ὑπάρχοντα τῆς μονῆς ἀδικεῖ θεόν, </div>
+         <div n="2" type="ln">καὶ ὁ ἀμελῶν αὐτῶν οὐκ ἀτιμώρητος ἔσται. </div>
+      </div>
+      <div n="76" type="chapter">
+         <div n="1" type="ln">Ἄδικος οἰκονόμος διαμεριεῖ κακῶς, </div>
+         <div n="2" type="ln">ὁ δὲ δίκαιος πρὸς ἀξίαν δώσει. </div>
+      </div>
+      <div n="77" type="chapter">
+         <div n="1" type="ln">Ὁ κακολογῶν τὸν ἀδελφὸν αὐτοῦ ἐξολοθρευθήσεται, </div>
+         <div n="2" type="ln">ἀμελῶν δὲ ἀσθενοῦντος οὐκ ὄψεται φῶς. </div>
+      </div>
+      <div n="78" type="chapter">
+         <div n="1" type="ln">Κρείσσων κοσμικὸς ἐν ἀσθενείᾳ δουλεύων ἀδελφῷ </div>
+         <div n="2" type="ln">ὑπὲρ ἀναχωρητὴν μὴ οἰκτείροντα τὸν πλησίον αὐτοῦ. </div>
+      </div>
+      <div n="79" type="chapter">
+         <div n="1" type="ln">Ἄφρων μοναχὸς ἀμελήσει ὀργάνων τέχνης αὐτοῦ, </div>
+         <div n="2" type="ln">ὁ δὲ φρόνιμος ἐπιμελήσεται αὐτῶν. </div>
+      </div>
+      <div n="80" type="chapter">
+         <div n="1" type="ln">Μὴ εἴπῃς· σήμερον μενῶ καὶ αὔριον ἐξελεύσομαι, </div>
+         <div n="2" type="ln">ὅτι οὐκ ἐν φρονήσει λελόγισαι περὶ τούτου. </div>
+      </div>
+      <div n="81" type="chapter">
+         <div n="1" type="ln">Κυκλευτὴς μοναχὸς μελετήσει ῥήσεις ψευδεῖς, </div>
+         <div n="2" type="ln">τὸν δὲ ἑαυτοῦ παραλογίσεται πατέρα. </div>
+      </div>
+      <div n="82" type="chapter">
+         <div n="1" type="ln">Ὁ καλλωπίζων τὰ ἱμάτια αὐτοῦ καὶ πληρῶν γαστέρα αὐτοῦ </div>
+         <div n="2" type="ln">ποιμαίνει λογισμοὺς αἰσχροὺς </div>
+         <div n="3" type="ln">καὶ μετὰ σωφρόνων οὐ συνεδριάζει. </div>
+      </div>
+      <div n="83" type="chapter">
+         <div n="1" type="ln">Ἐὰν εἰσέλθῃς εἰς κώμην, μὴ προσεγγίσῃς γυναιξὶ </div>
+         <div n="2" type="ln">καὶ μὴ χρονίσῃς ἐν λόγοις πρὸς αὐτάς. </div>
+         <div n="3" type="ln">ὃν τρόπον γὰρ εἴ τις ἄγκιστρον καταπίοι, </div>
+         <div n="4" type="ln">οὕτως ἑλκυσθήσεται ἡ ψυχή σου. </div>
+      </div>
+      <div n="84" type="chapter">
+         <div n="1" type="ln">Μακρόθυμος μοναχὸς ἀγαπηθήσεται, </div>
+         <div n="2" type="ln">ὁ δὲ παροξύνων τοὺς ἀδελφοὺς αὐτοῦ μισηθήσεται. </div>
+      </div>
+      <div n="85" type="chapter">
+         <div n="1" type="ln">Πραῢν μοναχὸν ἀγαπᾷ ὁ κύριος, </div>
+         <div n="2" type="ln">τὸν δὲ θρασὺν ἀπώσεται ἀπ' αὐτοῦ. </div>
+      </div>
+      <div n="86" type="chapter">
+         <div n="1" type="ln">Ὀκνηρὸς μοναχὸς γογγύσει πολλά, </div>
+         <div n="2" type="ln">καὶ ὑπνώδης προφασίσεται κεφαλαλγίαν αὐτοῦ. </div>
+      </div>
+      <div n="87" type="chapter">
+         <div n="1" type="ln">Ἐὰν λυπῆται ὁ ἀδελφός σου, παρακάλεσον αὐτόν, </div>
+         <div n="2" type="ln">καὶ ἐὰν ἀλγῇ, συνάλγησον αὐτῷ. </div>
+         <div n="3" type="ln">τοῦτο γὰρ ποιῶν εὐφραίνεις καρδίαν αὐτοῦ, </div>
+         <div n="4" type="ln">καὶ θησαυρὸν μέγαν σωρεύσεις ἐν οὐρανῷ. </div>
+      </div>
+      <div n="88" type="chapter">
+         <div n="1" type="ln">Μοναχὸς ἀπολειπόμενος φυλάξαι λόγους πατρὸς </div>
+         <div n="2" type="ln">βλασφημήσει πολιὰν γεννήσαντος αὐτὸν </div>
+         <div n="3" type="ln">καὶ κακολογήσει βίους τέκνων αὐτοῦ, </div>
+         <div n="4" type="ln">ὁ δὲ κύριος ἐξουδενώσει αὐτόν. </div>
+      </div>
+      <div n="89" type="chapter">
+         <div n="1" type="ln">Ο πρόφασιν ζητῶν χωρίζεται ἀδελφῶν, </div>
+         <div n="2" type="ln">τὸν δὲ ἑαυτοῦ αἰτιάσεται πατέρα. </div>
+      </div>
+      <div n="90" type="chapter">
+         <div n="1" type="ln">Μὴ δῷς ἀκοὴν λόγοις κατὰ πατρός σου </div>
+         <div n="2" type="ln">καὶ μὴ διεγείρῃς ψυχὴν ἀτιμάζοντος αὐτόν, </div>
+         <div n="3" type="ln">ἵνα μὴ κύριος ὀργισθῇ ἐπὶ ποιήμασι σου </div>
+         <div n="4" type="ln">καὶ ἐξαλείψῃ σου τὸ ὄνομα ἐκ βίβλου ζώντων. </div>
+      </div>
+      <div n="91" type="chapter">
+         <div n="1" type="ln">Ὁ ὑπακούων πατρὶ ἑαυτοῦ ἀγαπᾷ ἑαυτόν, </div>
+         <div n="2" type="ln">ὁ δὲ ἀντιλέγων αὐτῷ ἐμπεσεῖται εἰς κακά. </div>
+      </div>
+      <div n="92" type="chapter">
+         <div n="1" type="ln">Μακάριος μοναχὸς ὁ φυλάσσων ἐντολὰς κυρίου </div>
+         <div n="2" type="ln">καὶ ὅσιος ὁ διατηρῶν λόγους πατέρων αὐτοῦ. </div>
+      </div>
+      <div n="93" type="chapter">
+         <div n="1" type="ln">Ὀκνηρὸς μοναχὸς πολλὰ ζημιωθήσεται, </div>
+         <div n="2" type="ln">ἐὰν δὲ θαρσύνηται καὶ τὸ σχῆμα αὐτοῦ προσθήσει. </div>
+      </div>
+      <div n="94" type="chapter">
+         <div n="1" type="ln">Ὁ φυλάσσων γλῶσσαν αὐτοῦ ὀρθοτομεῖ τὰς ὁδοὺς αὐτοῦ, </div>
+         <div n="2" type="ln">καὶ ὁ τηρῶν καρδίαν αὐτοῦ πλησθήσεται γνώσεως. </div>
+      </div>
+      <div n="95" type="chapter">
+         <div n="1" type="ln">Μοναχὸς δίγλωσσος ταράσσει ἀδελφούς, </div>
+         <div n="2" type="ln">ὁ δὲ πιστὸς ἡσυχίαν ἄγει. </div>
+      </div>
+      <div n="96" type="chapter">
+         <div n="1" type="ln">Ὁ πεποιθὼς ἐπὶ ἐγκρατείᾳ αὑτοῦ πεσεῖται, </div>
+         <div n="2" type="ln">ὁ δὲ ταπεινῶν ἑαυτὸν ὑψωθήσεται. </div>
+      </div>
+      <div n="97" type="chapter">
+         <div n="1" type="ln">Μὴ δῷς σεαυτὸν χορτασίᾳ κοιλίας, </div>
+         <div n="2" type="ln">καὶ μὴ πλησθῇς ὕπνου νυκτερινοῦ. </div>
+         <div n="3" type="ln">τούτῳ γὰρ τῷ τρόπῳ γενήσῃ καθαρὸς </div>
+         <div n="4" type="ln">καὶ πνεῦμα κυρίου ἐπελεύσεται ἐπί σε. </div>
+      </div>
+      <div n="98" type="chapter">
+         <div n="1" type="ln">Ψάλλοντος ἡσυχάζει θυμὸς </div>
+         <div n="2" type="ln">καὶ μακροθυμοῦντος ἀπτόητος ἔσται. </div>
+      </div>
+      <div n="99" type="chapter">
+         <div n="1" type="ln">Ἐκ πραΰτητος τίκτεται γνῶσις, </div>
+         <div n="2" type="ln">ἐκ δὲ θρασύτητος ἀγνωσία. </div>
+      </div>
+      <div n="100" type="chapter">
+         <div n="1" type="ln">Ὥσπερ ὕδωρ αὔξει φυτόν, </div>
+         <div n="2" type="ln">οὕτως ταπείνωσις θυμοῦ καρδίαν ὑψοῖ. </div>
+      </div>
+      <div n="101" type="chapter">
+         <div n="1" type="ln">Ἰχνεύοντος συμπόσια σβεσθήσεται λαμπτήρ, </div>
+         <div n="2" type="ln">ἡ δὲ ψυχὴ αὐτοῦ ὄψεται σκότος. </div>
+      </div>
+      <div n="102" type="chapter">
+         <div n="1" type="ln">Στῆσον ζυγῷ τὸν ἄρτον σου καὶ πίε μέτρῳ τὸ ὕδωρ σου </div>
+         <div n="2" type="ln">καὶ πνεῦμα πορνείας φεύξεται ἀπό σου. </div>
+      </div>
+      <div n="103" type="chapter">
+         <div n="1" type="ln">Δὸς γέρουσιν οἶνον καὶ ἀσθενοῦσι πρόσφερε τροφάς, </div>
+         <div n="2" type="ln">διότι κατέτριψαν σάρκας νεότητος αὐτῶν. </div>
+      </div>
+      <div n="104" type="chapter">
+         <div n="1" type="ln">Μὴ ὑποσκελίσῃς τὸν ἀδελφόν σου </div>
+         <div n="2" type="ln">καὶ πτώματι αὐτοῦ μὴ ἐπιχαρῇς. </div>
+         <div n="3" type="ln">ὁ γὰρ κύριος γινώσκει σὴν καρδίαν </div>
+         <div n="4" type="ln">καὶ παραδώσει σε ἐν ἡμέρᾳ θανάτου. </div>
+      </div>
+      <div n="105" type="chapter">
+         <div n="1" type="ln">Μοναχὸς φρόνιμος ἀπαθὴς ἔσται, </div>
+         <div n="2" type="ln">ὁ δὲ ἄφρων ἐξαντλήσει κακά. </div>
+      </div>
+      <div n="106" type="chapter">
+         <div n="1" type="ln">Ὀφθαλμὸν πονηρὸν ἐκτυφλοῖ κύριος, </div>
+         <div n="2" type="ln">τὸν δὲ ἁπλοῦν ῥύσεται ἀπὸ σκότους. </div>
+      </div>
+      <div n="107" type="chapter">
+         <div n="1" type="ln">Ὥσπερ ἑωσφόρος ἐν οὐρανῷ καὶ ὥσπερ φοίνιξ ἐν παραδείσῳ, </div>
+         <div n="2" type="ln">οὕτως ἐν ψυχῇ πραείᾳ νοῦς καθαρός. </div>
+      </div>
+      <div n="108" type="chapter">
+         <div n="1" type="ln">Ἀνὴρ σοφὸς ἐρευνήσει λόγους θεοῦ, </div>
+         <div n="2" type="ln">ὁ δὲ ἄσοφος καταγελάσεται αὐτῶν. </div>
+      </div>
+      <div n="109" type="chapter">
+         <div n="1" type="ln">Ὁ μισῶν γνῶσιν θεοῦ καὶ ἀπωθούμενος θεωρίαν αὐτοῦ </div>
+         <div n="2" type="ln">ὅμοιός ἐστι τῷ λόγχῃ νύσσοντι τὴν καρδίαν αὑτοῦ. </div>
+      </div>
+      <div n="110" type="chapter">
+         <div n="1" type="ln">Κρείσσων γνῶσις τριάδος ὑπὲρ γνῶσιν ἀσωμάτων </div>
+         <div n="2" type="ln">καὶ θεωρία αὐτῆς ὑπὲρ λόγους πάντων τῶν αἰώνων. </div>
+      </div>
+      <div n="111" type="chapter">
+         <div n="1" type="ln">Πολιὰ γερόντων πραΰτης, </div>
+         <div n="2" type="ln">ζωὴ δὲ αὐτῶν γνῶσις ἀληθείας. </div>
+      </div>
+      <div n="112" type="chapter">
+         <div n="1" type="ln">Νέος πραῢς πολλὰ ὑποφέρει, </div>
+         <div n="2" type="ln">ὀλιγόψυχον δὲ γέροντα τίς ὑποίσεται; </div>
+         <div n="3" type="ln">εἶδον ὀργίλον γέροντα ἐπαιρόμενον ἐπὶ θρόνου αὐτοῦ, </div>
+         <div n="4" type="ln">ἐλπίδα δὲ μέντοι μᾶλλον ἔσχεν ὁ νέος αὐτοῦ. </div>
+      </div>
+      <div n="113" type="chapter">
+         <div n="1" type="ln">Ὁ σκανδαλίζων κοσμικοὺς οὐκ ἀτιμώρητος ἔσται, </div>
+         <div n="2" type="ln">καὶ ὁ παροξύνων αὐτοὺς ἀτιμάζει τὸ ὄνομα αὐτοῦ. </div>
+      </div>
+      <div n="114" type="chapter">
+         <div n="1" type="ln">Ταράσσοντα ἐκκλησίαν κυρίου ἐξαναλώσει πῦρ, </div>
+         <div n="2" type="ln">ἀνθιστάμενον δὲ ἱερεῖ καταπίεται γῆ. </div>
+      </div>
+      <div n="115" type="chapter">
+         <div n="1" type="ln">Ὁ ἀγαπῶν μέλισσαν φάγεται κηρίον αὐτῆς </div>
+         <div n="2" type="ln">καὶ ὁ συνάγων αὐτὴν πλησθήσεται πνεύματος. </div>
+      </div>
+      <div n="116" type="chapter">
+         <div n="1" type="ln">Τίμα τὸν κύριον καὶ γνώσῃ λόγους ἀσωμάτων, </div>
+         <div n="2" type="ln">καὶ δούλευε αὐτῷ καὶ δείξει σοι λόγους αἰώνων. </div>
+      </div>
+      <div n="117" type="chapter">
+         <div n="1" type="ln">Χωρὶς γνώσεως οὐχ ὑψωθήσεται καρδία, </div>
+         <div n="2" type="ln">καὶ δένδρον οὐκ ἀνθήσει ἄνευ ποτοῦ. </div>
+      </div>
+      <div n="118" type="chapter">
+         <div n="1" type="ln">Σάρκες Χριστοῦ πρακτικαὶ ἀρεταί, </div>
+         <div n="2" type="ln">ὁ δὲ ἐσθίων αὐτὰς γενήσεται ἀπαθής. </div>
+      </div>
+      <div n="119" type="chapter">
+         <div n="1" type="ln">Αἷμα Χριστοῦ θεωρία τῶν γεγονότων </div>
+         <div n="2" type="ln">καὶ ὁ πίνων αὐτὸ σοφισθήσεται ὑπ' αὐτοῦ. </div>
+      </div>
+      <div n="120" type="chapter">
+         <div n="1" type="ln">Στῆθος κυρίου γνῶσις θεοῦ, </div>
+         <div n="2" type="ln">ὁ δ' ἀναπεσὼν ἐπ' αὐτὸ θεολόγος ἔσται. </div>
+      </div>
+      <div n="121" type="chapter">
+         <div n="1" type="ln">Γνωστικὸς καὶ πρακτικὸς ὑπήντησαν ἀλλήλοις, </div>
+         <div n="2" type="ln">μέσος δὲ ἀμφοτέρων εἱστήκει κύριος. </div>
+      </div>
+      <div n="122" type="chapter">
+         <div n="1" type="ln">Ὃς ἐκτήσατο ἀγάπην, ἐκτήσατο θησαυρόν, </div>
+         <div n="2" type="ln">ἔλαβε δὲ χάριν παρὰ κυρίου. </div>
+      </div>
+      <div n="123" type="chapter">
+         <div n="1" type="ln">Δόγματα δαιμόνων ἐπιγινώσκει σοφία, </div>
+         <div n="2" type="ln">πανουργίαν δὲ αὐτῶν ἐξιχνιάζει φρόνησις. </div>
+      </div>
+      <div n="124" type="chapter">
+         <div n="1" type="ln">Μὴ ἀθετήσῃς δόγματα ἅγια, </div>
+         <div n="2" type="ln">ἃ ἔθεντο οἱ πατέρες σου, </div>
+         <div n="3" type="ln">πίστιν δὲ βαπτίσματός σου μὴ ἐγκαταλίπῃς </div>
+         <div n="4" type="ln">καὶ μὴ ἀπώσῃ σφραγῖδα πνευματικήν, </div>
+         <div n="5" type="ln">ἵνα γένηται κύριος ἐν σῇ ψυχῇ </div>
+         <div n="6" type="ln">καὶ σκεπάσῃ σε ἐν ἡμέρᾳ κακῇ. </div>
+      </div>
+      <div n="125" type="chapter">
+         <div n="1" type="ln">Λόγοι αἱρετικῶν ἄγγελοι θανάτου, </div>
+         <div n="2" type="ln">καὶ ὁ δεχόμενος αὐτοὺς ἀπολεῖ τὴν ἑαυτοῦ ψυχήν. </div>
+      </div>
+      <div n="126" type="chapter">
+         <div n="1" type="ln">Νῦν οὖν, υἱέ, ἄκουέ μου, </div>
+         <div n="2" type="ln">καὶ μὴ προσέλθῃς θύραις ἀνδρῶν ἀνόμων </div>
+         <div n="3" type="ln">μηδὲ περιπατήσῃς ἐπὶ παγίδων αὐτῶν, ἵνα μὴ ἀγρευθῇς. </div>
+         <div n="4" type="ln">ἀπόστησον δὲ σὴν ψυχὴν ἀπὸ γνώσεως ψευδοῦς. </div>
+         <div n="5" type="ln">καὶ γὰρ ἐγὼ πλεονάκις λελάληκα πρὸς αὐτούς, </div>
+         <div n="6" type="ln">σκοτεινοὺς δὲ λόγους αὐτῶν ἐξιχνίασα, </div>
+         <div n="7" type="ln">καὶ ἰὸν ἀσπίδων εὕρηκα ἐν αὐτοῖς. </div>
+         <div n="8" type="ln">οὐκ ἔστι φρόνησις καὶ οὐκ ἔστι σοφία ἐν λόγοις αὐτῶν. </div>
+         <div n="9" type="ln">πάντες οἱ δεχόμενοι αὐτοὺς ἀπολοῦνται, </div>
+         <div n="10" type="ln">καὶ οἱ ἀγαπῶντες αὐτοὺς πλησθήσονται κακῶν. </div>
+         <div n="11" type="ln">εἶδον ἐγὼ πατέρας δογμάτων αὐτῶν </div>
+         <div n="12" type="ln">καὶ ἐν τῇ ἐρήμῳ συνέβαλον αὐτοῖς. </div>
+         <div n="13" type="ln">ἐχθροὶ γὰρ κυρίου ἀπήντησάν μοι </div>
+         <div n="14" type="ln">καὶ δαίμονες ἐν λόγοις ἠγωνίσαντο πρός με </div>
+         <div n="15" type="ln">καὶ οὐκ εἶδον φῶς ἀληθινὸν ἐν ῥήμασιν αὐτῶν. </div>
+      </div>
+      <div n="127" type="chapter">
+         <div n="1" type="ln">Ἀνὴρ ψευδόμενος ἐκπεσεῖται θεοῦ, </div>
+         <div n="2" type="ln">ἀπατῶν δὲ τὸν πλησίον αὐτοῦ ἐμπεσεῖται εἰς κακά. </div>
+      </div>
+      <div n="128" type="chapter">
+         <div n="1" type="ln">Κρείσσων παράδεισος θεοῦ ὑπὲρ κῆπον λαχανίας </div>
+         <div n="2" type="ln">καὶ ποταμὸς κυρίου ὑπὲρ ποταμὸν μέγαν ἐπισκοτοῦντα τῇ γῇ. </div>
+      </div>
+      <div n="129" type="chapter">
+         <div n="1" type="ln">Ἀξιοπιστότερον ὕδωρ οὐράνιον </div>
+         <div n="2" type="ln">ὑπὲρ ὕδωρ Αἰγυπτίων σοφῶν ἀντλούντων ἐκ γῆς. </div>
+      </div>
+      <div n="130" type="chapter">
+         <div n="1" type="ln">Ὃν τρόπον οἱ τοὺς τροχοὺς ἀναβαίνοντες κάτω εἶσιν, </div>
+         <div n="2" type="ln">οὕτως οἱ ὑψοῦντες λόγους αὐτῶν τεταπείνωνται ἐν αὐτοῖς. </div>
+      </div>
+      <div n="131" type="chapter">
+         <div n="1" type="ln">Σοφία κυρίου ὑψοῖ καρδίαν, </div>
+         <div n="2" type="ln">φρόνησις δὲ αὐτοῦ καθαίρει αὐτήν. </div>
+      </div>
+      <div n="132" type="chapter">
+         <div n="1" type="ln">Λόγοι προνοίας σκοτεινοὶ καὶ δυσνόητοι κρίσεως θεωρίαι, </div>
+         <div n="2" type="ln">ἀνὴρ δὲ πρακτικὸς ἐπιγνώσεται αὐτούς. </div>
+      </div>
+      <div n="133" type="chapter">
+         <div n="1" type="ln">Καθαίρων ἑαυτὸν ὄψεται φύσεις νοεράς, </div>
+         <div n="2" type="ln">λόγους δὲ ἀσωμάτων ἐπιγνώσεται μοναχὸς πραΰς. </div>
+      </div>
+      <div n="134" type="chapter">
+         <div n="1" type="ln">Ὁ κτίσμα λέγων τὴν ἁγίαν τριάδα βλασφημεῖ θεὸν </div>
+         <div n="2" type="ln">καὶ ὁ ἀθετῶν τὸν Χριστὸν αὐτοῦ οὐ γνώσεται αὐτόν. </div>
+      </div>
+      <div n="135" type="chapter">
+         <div n="1" type="ln">Κόσμων θεωρίαι πλατύνουσι καρδίαν, </div>
+         <div n="2" type="ln">λόγοι δὲ προνοίας καὶ κρίσεως ὑψοῦσιν αὐτήν. </div>
+      </div>
+      <div n="136" type="chapter">
+         <div n="1" type="ln">Γνῶσις ἀσωμάτων ἐπαίρει τὸν νοῦν </div>
+         <div n="2" type="ln">καὶ τῇ ἁγίᾳ τριάδι παρίστησιν αὐτόν. </div>
+      </div>
+      <div n="137" type="chapter">
+         <div n="1" type="ln">Μέμνησθε τοῦ δεδωκότος ὑμῖν ἐν κυρίῳ σαφεῖς παροιμίας, </div>
+         <div n="2" type="ln">καὶ μὴ ἐπιλάθησθε τῆς ταπεινῆς μου ψυχῆς ἐν καιρῷ </div>
+         <div n="3" type="ln">προσευχῆς. </div>
+      </div>
+   </body>
+</TAN-T>
