@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     TAN-version="2021"
+     id="tag:kalvesmaki.com,2014:cpg2442.srp.2023.nesic">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Κεφάλαια λγʹ κατ᾿ ἀκολουθίαν</title>
+            <author>Evagrius Ponticus</author>
+            <respStmt>
+               <resp>translated by</resp>
+               <persName full="yes">
+                  <forename full="yes">Лазар</forename>
+                  <surname full="yes">Нешић</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p/>
+      </encodingDesc>
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name xml:lang="eng">Lazar Nesic's Serbian translation of the Thirty-Three Chapters of Evagrios Pontikos</name>
+      <name xml:lang="srp">Лазар Нешић, превод оф Тридесет три везана поглавља, Евагрије Понтски</name>
+      <master-location href="http://evagriusponticus.net/tan/cpg2442/cpg2442.srp.2023.nesic.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="33 Chapters"/>
+      <version>
+         <IRI>tag:evagriusponticus.net,2015:cpg2442,srp-2023</IRI>
+         <IRI>tag:kalvesmaki.com,2014:cpg2442,eng-2023</IRI>
+         <name xml:lang="eng">Lazar Nešić's Serbian translation of the Thirty-Three Chapters of Evagrios Pontikos</name>
+      </version>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2021-06-02"/>
+      </vocabulary>
+      <source which="Nešić 2024"/>
+      <adjustments/>
+      <vocabulary-key>
+         <div-type xml:id="recipient">
+            <IRI>tag:kalvesmaki.com,2014:div-type:letter:recipient</IRI>
+            <name>recipient</name>
+            <name>recipient of letter</name>
+         </div-type>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp who="kalvesmaki" roles="editor"/>
+      <change when="2023-11-11" who="kalvesmaki">Created TAN template for Nesic translations.</change>
+      <change when="2023-11-16-05:00" who="kalvesmaki">Populated template with content</change>
+      <to-do/>
+   </head>
+   <text>
+      <body xml:lang="srp">
+         <div type="title" n="title">
+            <p>Тридесет и три везана поглавља</p>
+            <p>(Одређења страсти логосне душе)</p>
+         </div>
+         <div type="chapter" n="1">
+            <p>„Жутица“ је најгора навика логосне душе у којој она види Бога и сагледава створена бића на заблудели начин.<ref cRef="Лев. 26, 16."/>
+            </p>
+         </div>
+         <div type="chapter" n="2">
+            <p>„Сколиоза“ је порок логосне природе у коме она не може да се савије према врлини и познању Бога.<ref cRef="Пнз. 32, 24."/>
+            </p>
+         </div>
+         <div type="chapter" n="3">
+            <p>„Гангрена“ је кључање и кретање гнева које узнемирава логосни део душе.<ref cRef="Лев. 26, 16; Пнз. 28, 32."/>
+            </p>
+         </div>
+         <div type="chapter" n="4">
+            <p>„Слепило“ је незнање ума који не обраћа пажњу на делатне врлине, нити на сагледавање бића.<ref cRef="Лев. 21, 18; 26, 16."/>
+            </p>
+         </div>
+         <div type="chapter" n="5">
+            <p>„Парализа“ је непокретност логосне душе према делатним врлинама.<ref cRef="Лев. 21, 18."/>
+            </p>
+         </div>
+         <div type="chapter" n="6">
+            <p>„Гонореја“ је лењост логосне душе у којој она стиче навику да одбацује речи духовног учења.<ref cRef="Лев. 22, 14."/>
+            </p>
+         </div>
+         <div type="chapter" n="7">
+            <p>„Течење крви“ је немоћ логосне душе у којој она стиче навику да одбацује врлине којима се у њој уобличује Христос.<ref cRef="Лев. 15, 33; 20, 18; Гал. 4, 19."/>
+            </p>
+         </div>
+         <div type="chapter" n="8">
+            <p>„Лепра“ је неверје логосне душе којим она остаје неубеђена чак и када дотиче логосе.<ref cRef="Лев. 22, 4; Лк. 24, 39."/>
+            </p>
+         </div>
+         <div type="chapter" n="9">
+            <p>„Махнитост“ је ново погружење логосне душе у порок, и то након што је пронашла врлину и познање Бога.<ref cRef="Пнз. 28, 28."/>
+            </p>
+         </div>
+         <div type="chapter" n="10">
+            <p>„Потрес мозга“ је најрђавија навика логосне душе у којој она не трага за врлином ради самог добра.<ref cRef="Лев. 22, 24; Пнз. 23, 1–2."/>
+            </p>
+         </div>
+         <div type="chapter" n="11">
+            <p>„Изобличење носа“ јесте лишеност врлине којом се чувствује миомирис Христов.<ref cRef="Лев. 21, 18; 2. Кор. 2, 15."/>
+            </p>
+         </div>
+         <div type="chapter" n="12">
+            <p>„Сакаћење уха“ је отврдлост логосне душе која се опире духовном учењу.<ref cRef="Лев. 21, 18."/>
+            </p>
+         </div>
+         <div type="chapter" n="13">
+            <p>„Мрена на очима“ представља немогућност духовног сагледавања или неистинито разумевање сагледавања бића.<ref cRef="Лев. 21, 20."/>
+            </p>
+         </div>
+         <div type="chapter" n="14">
+            <p>„Муцање“ је обољење логосног дела душе у коме се човек саблажњава због догађаја и не може у свему да благодари Богу.<ref cRef="Ис. 35, 6."/>
+            </p>
+         </div>
+         <div type="chapter" n="15">
+            <p>„Хромост“ је немоћ логосне природе у погледу делања врлине.<ref cRef="Лев. 21, 18."/>
+            </p>
+         </div>
+         <div type="chapter" n="16">
+            <p>„Водена болест“ је поремећеност алогосне душе у којој порок и незнање преовладавају након ишчезнућа врлина.<ref cRef="Лк. 14, 2."/>
+            </p>
+         </div>
+         <div type="chapter" n="17">
+            <p>„Мрав“ је делатни човек који припрема своју храну у овом веку.<ref cRef="Прич. 30, 25."/>
+            </p>
+         </div>
+         <div type="chapter" n="18">
+            <p>„Јежеви“ су нечисти народи који су прихватили заповести Спаситеља нашег Христа.<ref cRef="Прич. 30, 26."/>
+            </p>
+         </div>
+         <div type="chapter" n="19">
+            <p>„Скакавци који немају краља међу собом“ јесу душе над којима не влада смрт и које се хране Божијим семеном.<ref cRef="Прич. 30, 27."/>
+            </p>
+         </div>
+         <div type="chapter" n="20">
+            <p>„Гуштер“ је делатни ум који се ослања на врлине и пребива у познању небесих сила.<ref cRef="Прич. 30, 28."/>
+            </p>
+         </div>
+         <div type="chapter" n="21">
+            <p>„Младунче лава“ је бестрасни човек који влада над зверима порођеним у његовом унутрашњем свету.<ref cRef="Прич. 30, 30."/>
+            </p>
+         </div>
+         <div type="chapter" n="22">
+            <p>„Петао“ је духовни човек испуњен познањем који другим душама благовести дан што свиће посредством умственог сунца.<ref cRef="Прич. 30, 31."/>
+            </p>
+         </div>
+         <div type="chapter" n="23">
+            <p>„Јарац“ је делатни човек који правилно управља расутим помислима у свом унутрашњем свету.<ref cRef="Прич. 30, 31."/> „Цар“ је човек који се удостојио Царства Небеског и који је одгојен да подучава друге.</p>
+         </div>
+         <div type="chapter" n="24">
+            <p>„Пијавица“ је нечиста природа која исисава праведну крв из логосних душа.<ref cRef="Прич. 30, 15."/>
+            </p>
+         </div>
+         <div type="chapter" n="25">
+            <p>„Ад“ је незнање логосне природе које настаје као последица лишености сагледавања Бога.<ref cRef="Прич. 30, 16."/>
+            </p>
+         </div>
+         <div type="chapter" n="26">
+            <p>„Жена“ је неразборитост која логосну душу позива на нечистоту.<ref cRef="Прич. 30, 16."/>
+            </p>
+         </div>
+         <div type="chapter" n="27">
+            <p>„Земља“ је најрђавија навика састављена од непобожности и безакоња.<ref cRef="Прич. 30, 16."/>
+            </p>
+         </div>
+         <div type="chapter" n="28">
+            <p>„Ватра“ је порок логосне природе који уништава Божије врлине.<ref cRef="Прич. 30, 16."/>
+            </p>
+         </div>
+         <div type="chapter" n="29">
+            <p>„Вода“ је лажно познање које гаси истинско познање.<ref cRef="Прич. 30, 16."/>
+            </p>
+         </div>
+         <div type="chapter" n="30">
+            <p>„Подсмешљиво око“ је нечиста природа која се руга познању Бога и презире мудрост која почива у бићима.<ref cRef="Прич. 30, 17."/>
+            </p>
+         </div>
+         <div type="chapter" n="31">
+            <p>„Вране“ су свете силе које уништавају пороке.<ref cRef="Прич. 30, 17."/>
+            </p>
+         </div>
+         <div type="chapter" n="32">
+            <p>„Долине“ су логосне душе опустошене пороком и неспознањем.<ref cRef="Прич. 30, 17."/>
+            </p>
+         </div>
+         <div type="chapter" n="33">
+            <p>„Младунци орла“ су свете силе којима је поверено свргавање нечистих бића.<ref cRef="Прич. 30, 17."/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

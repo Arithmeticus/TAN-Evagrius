@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:lat:logical">
+   <head>
+      <name>Latin translation of Evagrius Ponticus, 33 Chapters from the Patrologia Graeca, logical reference system</name>
+      <master-location
+         href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2442.lat.1858.pg.ref-logical.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="33 Chapters"/>
+      <redivision>
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:scriptum</IRI>
+         <name>Greek text of Capitula xxxiii from the Patrologia Graeca, scriptum reference system</name>
+         <location href="cpg2442.grc.1858.pg.ref-scriptum.xml" accessed-when="2018-04-04"/>
+      </redivision>
+      <source which="Patrologia Graeca"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
+      </vocabulary>
+      <vocabulary-key>
+      
+         <div-type xml:id="ch" which="chapter"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2023-12-13" who="kalvesmaki">Began file</change>
+      <to-do>
+      </to-do>
+   </head>
+   <body xml:lang="lat">
+      <div type="title" n="title">EVAGRII MONACHI CAPITULA XXXIII,
+         
+         Per gradus quosdam disposita consequentiæ.</div>
+      <div type="ch" n="1">Morbus arquatus seu regius, est habitus pessimus animæ rationalis, per
+         quem tum Deum, tum rerum factarum contemplationem erronee intuetur.</div>
+      <div type="ch" n="2"> Convulsio in scapulas, est vitium naturæ rationalis, per quod fit inflexibilis ad virtutem Deique cognitionem.</div>
+      <div type="ch" n="3">Mortificatio partis inflammatæ seu gangrænæ initium, est fervor et motus iracundiæ, perturbans partem animæ rationalem.</div>
+      <div type="ch" n="4">Cæcitas, est ignorantia mentis, quæ ad activas virtutes rerumque creatarum contemplationem quasi collimando non tendit.</div>
+      <div type="ch" n="5">Paralysis seu nervorum dissolutio, est difficultas motus animæ rationalis ad virtutes activas</div>
+      <div type="ch" n="6">Gonorrhoea seu fluxus seminis, est desidia animæ rationalis, per quam abjicere spiritualis doctrinæ sermones consuevit.</div>
+      <div type="ch" n="7">Crebrius iterata sessio, est impotentia animæ rationalis, per quam
+         virtutes assolet rejicere, quae conferunt ad formationem Christi (in corde). </div>
+      <div type="ch" n="8">Lepra, est infidelitas animæ rationalis, per quam non plene persuasum habet, dum contrectat ac perscrutatur sermones.</div>
+      <div type="ch" n="9">Mentis emotio, est animæ rationalis iterata proclivitas ad malitiam post
+         virtutem Deique cognitionem.</div>
+      <div type="ch" n="10">Contusio, est pessimus habitus animæ rationalis, per quem virtutes sectatur non propter ipsam honestatem.</div>
+      <div type="ch" n="11">Truncatio naris, est privatio virtutis, quæ Christi odorem percipiebat.</div>
+      <div type="ch" n="12">Aurium mutilatio, est durities animæ rationalis, quæ spirituali doctrinæ
+         quasi contra trahendo resistit.</div>
+      <div type="ch" n="13">Vitium faciei asperæ, est delapsus a contemplatione, aut speculationis rerum creatarum intelligentia minime vera.</div>
+      <div type="ch" n="14">Linguæ hæsitantia, est passio partis rationalis animæ, per quam eadem
+         rationalitas, scandalum passa in his quæ facit, non potest pro omni re gratias agere
+         Deo.</div>
+      <div type="ch" n="15">Claudicatio, est impotentia naturæ rationalis ad operationem virtutis.</div>
+      <div type="ch" n="16">Hydrops sive aqua intercus, est irrationalis declinatio animæ, per quam, exstinctis virtutibus, malitia et ignorantia dominantur.</div>
+      <div type="ch" n="17">Formica, est homo practicus, seu in agendo positus, in isto sæculo sibi
+         alimentum præparans.</div>
+      <div type="ch" n="18">Choerogrylii seu porci grunnientes, sunt gentes impurae, quae
+         susceperunt praecepta Salvatoris nostri Christi.</div>
+      <div type="ch" n="19">Locustae regem non habentes, sunt animae rationales, quas mors non
+         concutit quaeque a seminibus aluntur.</div>
+      <div type="ch" n="20">Stellio sive animalculum simile lacertae domorum parietes perreptans,
+         est mens activa innixa virtutibus, inque coelestium potestatum cognitionibus
+         inhabitans.</div>
+      <div type="ch" n="21">Catulus leonis, est homo absque passionibus, qui regnavit super feras in
+         suam redactas potestatem.</div>
+      <div type="ch" n="22">Gallus, est homo spiritualis cognitione plenus atque aliis animabus
+         annuntians eum qui ab intellectuali sole gignitur diem.</div>
+      <div type="ch" n="23">Hircus, est vir activus qui recte regit inordinatas, quae in se ipso sunt, cogitationes.</div>
+      <div type="ch" n="24">Hirudo sive sanguisuga, est natura impura emungens justum sanguinem ab animabus rationalibus.</div>
+      <div type="ch" n="25">Infernus, est ignorantia naturae rationalis per privationem
+         contemplationis Dei superveniens.</div>
+      <div type="ch" n="26">Mulier, est dementia rationales animas ad impuritatem provocans.</div>
+      <div type="ch" n="27">Terra, est habitus pessimus ex impietate atque injustitia collectus.</div>
+      <div type="ch" n="28"> Ignis, est malitia naturæ rationalis virtutum Dei corruptrix.</div>
+      <div type="ch" n="29">Aqua, est falsa notitia exstinctiva veræ cognitionis.</div>
+      <div type="ch" n="30">Oculus deridens, est natura impura Dei cognitionem irridens nulloque habens honore seu aspernans sapientiam in his quæ facta sunt.</div>
+      <div type="ch" n="31">Corvi, sunt potestates sanctæ, vitiorum peremptrices.</div>
+      <div type="ch" n="32">Barathra, sunt animæ rationales excavatæ a malitia et ignorantia.</div>
+      <div type="ch" n="33">Aquilarum pulli, sunt potestates sanctæ quæ præsunt ad depellendos impuros.</div>
+   </body>
+</TAN-T>
