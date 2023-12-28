@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       TAN-version="2021"
+       id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2451:lat:1863:ref-logical">
+   <head>
+      <name>Latin translation of cpg 2451 from the Patrologia Graeca, logical reference system</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2451/cpg2451.lat.1863.ref-logical.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Eight_thoughts"/>
+      <source which="Patrologia Graeca"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+      </vocabulary>
+      <model>
+         <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2451:grc:1863:ref-logical</IRI>
+         <name>Greek text of cpg 2451 from the Patrologia Graeca, logical reference system</name>
+         <location accessed-when="2023-12-09T22:17:43.2325195-05:00" href="cpg2451.grc.1863.ref-logical.xml"/>
+      </model>
+      
+      <vocabulary-key>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:kalvesmaki.com,2014:stylesheet:convert-pg-txt-to-tan</IRI>
+            <name>Stylesheet to create a TAN file.</name>
+            <desc>Stylesheet at: </desc>
+            <location href="../../../pre-TAN/pg/convert%20pg%20txt%20to%20tan.xsl" accessed-when="2018-06-13"/>
+         </algorithm>
+         <div-type xml:id="ch" which="chapter"/>
+      </vocabulary-key>
+      <resp roles="editor" who="kalvesmaki"/>
+      <file-resp who="kalvesmaki"/>
+      <change when="2023-12-09" who="kalvesmaki">Began file</change>
+      <to-do>
+         
+      </to-do>
+   </head>
+   <body xml:lang="lat">
+      <div type="title" n="title">EJUSDEM TRACTATUS DE OCTO SPIRITIBUS MALITIAE </div>
+      <div type="section" n="1">
+         <div type="title" n="title">De gula, sive ingluvie. </div>
+         <div type="ch" n="1">Principium fructus afferendi est flos, et principium activae vitæ est
+            temperantia: </div>
+         <div type="ch" n="2">qui ventri dominatur, passiones minuit, qui autem ab eduliis vincitur,
+            auget voluptates. </div>
+         <div type="ch" n="3">Principatus gentium, Amalec, et passionum principatus gula. </div>
+         <div type="ch" n="4">Materies ignis, ligna; materies autem ventris, cibi. </div>
+         <div type="ch" n="5">Ligna multa magnam excitant flammam, et multitudo escarum nutrit
+            cupiditatem. </div>
+         <div type="ch" n="6">Flamma exstinguitur deficiente materia, et ciborum penuria emarcescere facit cupiditatem. </div>
+         <div type="ch" n="7">Qui maxillam obtinuit, alienigenas interfecit, facileque manuum suarum disrupit vincula. </div>
+         <div type="ch" n="8">Interfectio maxillæ fontem aquæ produxit, et gulæ ingluvies interempta practicam peperit contemplationem. </div>
+         <div type="ch" n="9">Clavus tabernaculi invadens maxillam, hostem peremit, et continentiæ sermo passionem reddidit emortuam. </div>
+         <div type="ch" n="10">Edulii cupiditas inobedientiam peperit, et suavis degustatio expulit e paradiso. </div>
+         <div type="ch" n="11">Ciborum sumptuositas delectat guttur, et insomnem nutrit intemperantiæ vermem. </div>
+         <div type="ch" n="12">Venter indigens præparat ad vigilandum in oratione. Porro hic repletus plurimum inducit somnum. </div>
+         <div type="ch" n="13">Sensus sobrius ac vigil in siccissimo consistit victu; at laxa mollisque vita in profundum demergit mentem. </div>
+         <div type="ch" n="14">Jejunantis oratio, pullus est aquilæ sursum volans, at quæ fit ab
+            illo, qui crapulatus est, graviter depressa præ satietate, deorsum trahitur. </div>
+         <div type="ch" n="15">Jejunantis mens, stella est in noctis serenitate splendescens, sed
+            mens cibo, vinoque se ingurgitantis ad crapulam, in tenebrosa, ac illune nocte
+            occultatur. </div>
+         <div type="ch" n="16"> Nebula solares obtegit radios, et crassa escarum ministratio menti
+            caliginem offundit. </div>
+         <div type="ch" n="17">Speculum sordibus obsitum non exprimit distincte objectam formam, et
+            intellectus, saturitate obtusus, ac hebetatus, non suscipit Dei cognitionem. </div>
+         <div type="ch" n="18"> Terra inculta parturit spinas, et mens gulæ dediti turpes germinat
+            cogitationes. </div>
+         <div type="ch" n="19">Non est possibile in cœno odoramenta invenire, nec in guloso
+            contemplationis bene olentem odorem. </div>
+         <div type="ch" n="20">Oculus ventri addicti curiose disquirit convivia, at oculus
+            temperantis, consessus sapientum inquirit. </div>
+         <div type="ch" n="21">Memorias martyrum enumerat anima gulosi, verum temperantis anima
+            vitas imitatur ipsorum. </div>
+         <div type="ch" n="22">Timidus miles horrescit ad tubam, quæ prælium annuntiat, et gulosus
+            temperantiam prænuntiatam pertimescit. </div>
+         <div type="ch" n="23"> Gulosus monachus tributo ventris est obnoxius, atque idem
+            afflictatus quotidianum exigit, vectigal. </div>
+         <div type="ch" n="24"> Velox viator celeriter ad civitatem attinget, et monachus temperans,
+            ad statum pacificum. </div>
+         <div type="ch" n="25"> Tardus viator in solitudine sub dio stabulabitur, et monachus, gulæ
+            subserviens, ad domum vacuitatis passionum non perveniet. </div>
+         <div type="ch" n="26"> Vapor suffimenti aerem suavi replet odore, et temperantis oratio
+            divinum permulcet olfactum. </div>
+         <div type="ch" n="27">Si teipsum cupiditati eduliorum tradideris, nihil sufficiet ad
+            explendam voluptatem: est quippe ignis escarum cupiditas, semper accipiens, et semper
+            inflammata. </div>
+         <div type="ch" n="28"> Mensura sufficiens implevit vas; venter autem diruptus non dicit,
+            sufficit. </div>
+         <div type="ch" n="29"> Manuum extensio vertit Amalec in fugam, et actiones elevatae (nempe
+            ad Deum) carnis subigunt passiones. </div>
+         <div type="ch" n="30">Extermina a te quodcunque vitia spirat, et carnis tuæ membra valide
+            mortifica. Quemadmodum enim bellator interfectus, tibi non incutiet metum, ita corpus
+            mortificatum, tuam non perturbabit animam. </div>
+         <div type="ch" n="31"> Mortuum corpus ignis non novit dolorem, nec temperans voluptatem
+            persentit cupiditatis emortua. </div>
+         <div type="ch" n="32">Si percusseris Ægyptium, in arena ipsum abscondito, et ne in devicta
+            cupiditate pinguefacias corpus: sicut enim absconditum in terra, opima germinat, ita in
+            corpore impinguato repullulat passio. </div>
+         <div type="ch" n="33"> Flamma exstincta relucet, si arida susceperit cremia; et voluptas
+            sopita, iterum accenditur in saturitate ciborum: </div>
+         <div type="ch" n="34">ne miserearis corporis conquerentis ob debilitatem, nec illud
+            impingues apparatu multorum ciborum. Nam, si convaluerit, impetum in te faciet,
+            movebitque adversum te bellum inexpiabile, usquequo animam tuam in servitutem redigat,
+            servumque te tradat impudicitiae passioni. </div>
+         <div type="ch" n="35">Equus bene frenatus est corpus egens alimente, neque dejiciet unquam
+            ascensorem; ille quippe cedit freno constrictus, et aurigae manui paret, corpus autem
+            fame domatur, et vigilia et non resilit ab inscendente cogitatione, nec adhinuit
+            commotum ab impetu passionibus implicito. </div>
+      </div>
+      <div type="section" n="2">
+         <div type="title" n="title">  De luxuria. </div>
+         <div type="ch" n="1"> Continentia temperantiam parit, ingluvies autem gule mater est
+            intemperantiæ. </div>
+         <div type="ch" n="2"> Oleum nutrit lucernæ lampadem, et conversatio mulierum faculam
+            voluptatis accendit. </div>
+         <div type="ch" n="3"> Fluctuum violentia non subburratam agitat navim, et cogitatio
+            luxuriæ, mentem incontinentem. </div>
+         <div type="ch" n="4"> Impudicitia satietatem assumet in adjutorium, dimittet enim ipsam, et
+            stabit cum adversariis, et ad extremum una cum hostibus bellum sociabit. </div>
+         <div type="ch" n="5"> Invulneratus permanet ab inimici jaculis, qui diligit quietem, at,
+            qui simul cum plebe miscetur, continua excipit vulnera. </div>
+         <div type="ch" n="6">Obtutus feminæ telum est veneno imbutum, sauciavit animam, et virus
+            infudit, et quo diutius perdurat, eo majorem causat putrefactionem. </div>
+         <div type="ch" n="7">Qui se custodit ab his telis, non ad frequentes populi conventus
+            progreditur, nec in diebus festis circumibit inhians: melius est enim commorantem domi
+            orationi vacare, quam, dum honorare se quis putat festas solemnitates, ad susceptum opus
+            inimicorum accedere. </div>
+         <div type="ch" n="8">Feminarum conversationem fuge, si continens esse velis, neque des
+            ipsis fiduciam sese tibi confidentes unquam demonstrandi. In principio namque
+            reverentiam, aut habent, aut simulant; at deinde audent omnia impudenter. Etenim in
+            prima conversatione vultum etiam demittunt, mansuete loquuntur; et cum compassione
+            lacrymantur, graviter honesteque componunt habitum, et amare suspirant, interrogant de
+            castitate, ac studiose audiunt: secundo vidisti, et jam paululum caput sursum
+            reflectunt: tertio, inverecunde etiam attendunt: leniter subrisisti tu; illæ biantes
+            effuse rident; dein exornantur, et tibi sese eleganter ostentant, obtutum efformant,
+            annuntiantes affectum supercilia erigunt, et circumagunt palpebras, denudant collum,
+            totoque corpore joculari quadam simulatione utuntur, sermones eloquuntur emollientes
+            affectum, et concinnant voces, ad auditum mulcendum, donec animam omnino expugnent. Hæc
+            tibi hami evadunt, decipientes ad mortem, pedicæque multiplices ad interitum trahentes;
+            ne te in errorem ducant alloquiis benigne utentes, in his enim malignum belluarum est
+            occultatum venenum. </div>
+         <div type="ch" n="9">Appropinqua potius igni ardenti, quam juniori feminæ, cum et ipse sis
+            adolescens; nam ad ignem quidem accedens, doloremque sentiens, celeriter resilies,
+            muliebribus autem verbis delinitus, haud ita facile recedes. </div>
+         <div type="ch" n="10">Floret herba propre aquam sita, et passio intemperantiæ in consortio
+            feminæ; </div>
+         <div type="ch" n="11">qui ventrem implet, simulque temperantem se gerere profitetur,
+            persimilis est asserenti, se frenare ignis effectum in stipula; nam sicut ignis
+            devergentiam in stipula cursitantem haud sistere possumus, sic impetum intemperantem in
+            satietate inflammatum retinere est impossibile. </div>
+         <div type="ch" n="12"> Columna basi innititur, et luxuriæ passio in securitate conquiescit. </div>
+         <div type="ch" n="13">Navis tempestate afflicta, ad portum festino gradu contendit, et
+            anima pudici requirit solitudinem: fugit illa quidem maris undas, periculum comminantes;
+            ista vero feminarum formas exitium cum dolore parientes. </div>
+         <div type="ch" n="14">Forma exornata, decoreque exculta pejus quovis fluctu in profundum
+            demergit gurgitem; et hunc quidem contingit ut quis, præ desiderio vitæ, natando
+            pertranseat; species autem mulieris decipiendo, ipsam quoque vitam contemnere persuadet. </div>
+         <div type="ch" n="15"> Solitarius rubus flammam ignis sine noxa effugit, et pudicus a
+            feminis separatus, non inflammatus est intemperantiæ passione; quemadmodum enim memoria
+            ignis intellectum non exurit, sic neque valet passio, cum materia non adsit. </div>
+         <div type="ch" n="16"/>
+         <div type="ch" n="17"/>
+         <div type="ch" n="18">Si miserearis bellatoris, erit tibi hostis, signe passioni
+            peperceris, adversum te insurget. Intemperantem ad voluptatem irritat aspectus feminæ, </div>
+         <div type="ch" n="19">pudicum vero excitat ad Deum glorificandum; si passio in conversationibus mulierum conquiescat, ne credas ipsi affectuum vacuitatem promittenti. Canis namque caudam movet adblandiens, eo quod populi multitudine sit inferior, foras vero procedens propriam demonstrat malitiam. Quando feminæ recordatio passionibus percita non erit, tunc puta, te ad pudicitiæ terminos pervenisse. Quando vero ipsius effigies te ad spectationen excitet, ejusque jacula tuam comprehendant animam tunc censeas, te esse extra virtutem. Verun neque sic hujuscemodi cogitationibus immoreris, nec diutus cum forma mulieris mente colloquaris; </div>
+         <div type="ch" n="20">est enim reverti solita passio, et prope habet periculum. Quemadmodum
+            namque moderata conflatura ignis argentum expurgat, quæ vero diutino tempore manserit,
+            facile quoque disperdit, ita pudicum habitum corrumpit insidens diutino tempore
+            imaginatio mulieris:  nec diutius cum apparenti vultu converseris, ne in te flammam
+            accendat libidinis, animæque tuæ comburat aream; quia sicut scintilla immorans in paleis
+            flammam suscitat, sic mulieris permanens recordatio incendit cupiditatem. </div>
+      </div>
+      <div type="section" n="3">
+         <div type="title" n="title"/>
+         <div type="ch" n="1"/>
+         <div type="ch" n="2">De avaritia Avaritia, malorum omnium radix est, nutrit que tanquam
+            malignos ramos reliquas passiones, </div>
+         <div type="ch" n="3">neque exsiccari sinet, quæ floruerunt ex ipsa. Qui vult passiones exscindere, radicem exscindat; nam permanente avaritia si ramos amputet, nihil juvat, quamvis enim abscindantur, statim reflorescent. Monachus, </div>
+         <div type="ch" n="4">qui multa possidet, navigium est multis gravatum oneribus, et in undarum tempestate facile submergitur; </div>
+         <div type="ch" n="5">sicut enim navis, cujus exundat sentina, a quolibet perluitur fluctu, </div>
+         <div type="ch" n="6">sic qui multa possidet, sollicitudinibus submergitur. Monachus absque possessione, viator est expeditus, inque omni loco diversorium invenit. Monachus, qui nihil possidet, est aquila ad sublimia pervolans, qui tunc sese volatu ad alimentum demittit, quando necessitas coegerit. Hic talis omni est excelsior tentatione, deridet præsentia, et sublimis attollitur, </div>
+         <div type="ch" n="7">recedit a terrenis, et cum supernis, seu coelestibus conversatur, levem quippe gestat alam curisque minime prægravatam; tribulatio supervenit, cessit ipse loco absque moerore: mors adventavit; et æquo secedit animo, quia nulli terreno vinculo animam alligavit. Qui vero multa possidet, sollicitudinibus, quasi compedibus astrictus est, et velut canis devincitur catena, sique emigrare cogatur, possessionum memorias, grave onus inutilemque circumfert tristitiam; dolore pungitur inque mente vehementer angitur: opes dimisit, et flagellatur moerore. Sique mors supervenerit, miserabiliter dimittit præsentia, </div>
+         <div type="ch" n="8">reddit animam, et oculum non avertit a negotiis; invitus trahitur, ut fugitivum mancipium, dividitur a corpore, et a rebus non separatur; magis eum detinente passione, quam detinere soleant, qui attrahunt. Mare nequaquam impletur, fluminum suscipiens multitudinem, </div>
+         <div type="ch" n="9">et avari cupiditas pecuniis non expletur. Duplicavit divitias, easque reduplicare denuo concupiscit, nec a tali unquam cessat reduplicatione, donec mors inane ac vanum hoc desinere facial studium. Prudens monachus corporis necessitati attendet, et indigentiam ventris pane explebit et aqua, non adulabitur locupletibus ob ventris voluptatem; </div>
+         <div type="ch" n="10">neque multis dominis mentem liberam adiget servam; sufficientes enim sunt manus ad ministrandum corpori, </div>
+         <div type="ch" n="11">et naturalem necessitatem continuo adimplendam. Monachus, qui nihil possidet, pugil est, </div>
+         <div type="ch" n="12">qui per medium apprehendi nequit, levisque est cursor celeriter ad bravium supernæ vocationis perveniens. </div>
+         <div type="ch" n="13">Monachus, qui multa possidet, multis gaudet proventibus; qui vero nihil possidet, </div>
+         <div type="ch" n="14">coronis bene gestorum facinorum perlætatur. Avarus monachus valde
+            laborat, sed qui pauper est, orationibus vacat, et lectionibus. Monachus pecuniæ avidus,
+            auro replet penetralia: at pauper thesaurizat in cœlo.  «Maledictus qui facit idolum, et
+            ponit in abscondito,» similiter et qui avaritiæ passione tenetur; ille quidem adorat non
+            bene expurgatum inutileque metallum, iste vero divitiarum imaginationem, quasi
+            simulacrum, circumfert. </div>
+      </div>
+      <div type="section" n="4">
+         <div type="title" n="title"/>
+         <div type="ch" n="1"/>
+         <div type="ch" n="2"/>
+         <div type="ch" n="3">De iracundia. Iracundia passio est furibunda, eosque, qui pollent scientia, facile mente alienat, </div>
+         <div type="ch" n="4">efferat aniniam, omnemque congressum declinare facit. </div>
+         <div type="ch" n="5">Ventas vehemens non commovebit turrim, et ira non corripiet animam mansuetam. </div>
+         <div type="ch" n="6">Aqua movetur a ventorom violentia, et iracundus turbatur a cogitationibus imprudentibus. </div>
+         <div type="ch" n="7">Monachus iracundus, aper est silvestris et solitarius; vidit aliquem, tunc dentes exacuit. </div>
+         <div type="ch" n="8">Nebulae diffusio crassiorem aerem reddit, et motus iræ mentem iracundi. Solem obfuscavit subiens nebula, et mentem cogitatio injuriarum memor. Leo, qui est in vivario continuo movet cardines ostiorum, </div>
+         <div type="ch" n="9">et iracundus in cella, iræ cogitationes. Visio est delectabilis, mare tranquillatum, sed non est delectabilior pacifico animi statu: Delphines etenim sereno enatant in mari, et in animi pacato statu cogitationes innatant Deo gratæ. Longanimus monachus, fons est quietus, et suavem omnibus præbens potum; </div>
+         <div type="ch" n="10">intellectus autem iracundi assidue perturbatus est neque porriget sitienti aquam, </div>
+         <div type="ch" n="11">sive dabit, illitam cœno, et inutilem proferet. Oculi iracundi turbidi sunt, et subcruenti, cordisque perturbati nuntii; </div>
+         <div type="ch" n="12">facies vero longanimi composita est; oculique benigni recta intuentes. Mansuetudo viri apud Deum est in memoria, </div>
+         <div type="ch" n="13">et anima ira carens templum fit Spiritus sancti. Christus reclinat caput in longanimi spiritu; </div>
+         <div type="ch" n="14">et intellectus pacatus sanctæ Trinitatis est mansio. Vulpes habitant in anima ultrice, </div>
+         <div type="ch" n="15">et bestiæ delitescunt in corde turbato. Vir honestus turpe diversorium effugit, </div>
+         <div type="ch" n="16">et Deus cor injuriæ reminiscens. Lapis illapsus aquam turbavit, et cor hominis malus sermo. Cogitationes iracundiæ ab anima tua expelle, nec ira tuo stabuletur in corde, et in tempore orationis minime turbaberis; </div>
+         <div type="ch" n="17">sicut namque fumus palearum offendit perturbans oculos, ita in orationis tempore mentem injuriarum memoria. </div>
+         <div type="ch" n="18">Cogitationes iracundi viperæ genimina sunt, corque, </div>
+         <div type="ch" n="19">quod ea parturit, exedunt. Furibundi oratio, suflimentum est detestandum; et psalmorum decantatio viri succensi animo, </div>
+         <div type="ch" n="20">sonus est insuavis. Donum injuriarum memoris, hostia est verrucis infestata, </div>
+         <div type="ch" n="21">et non appropinquabit altaribus, ubi lustralis aqua circumaspergitur,
+            iracundus somnia videt perturbata, et incursus imaginatur bestiarum. Vir longanimis
+            congressus sanctorum angelorum aspicit in visione: et vir injuriarum immemor spirituales
+            exercet sermones, et noctu mysteriorum capit solutiones. </div>
+      </div>
+      <div type="section" n="5">
+         <div type="title" n="title"/>
+         <div type="ch" n="1">De tristitia. Monachus tristitiæ deditus non novit spiritualem
+            voluptatem. </div>
+         <div type="ch" n="2">Tristitia vero est animae remissio, et constat e cogitationibus iracundiæ. </div>
+         <div type="ch" n="3">Est quippe ira, vindictae cupiditas, frustratio vero vindicte sumendæ, </div>
+         <div type="ch" n="4">tristitiam generat; porro tristitia est os leonis, facileque devorat contristatum; tristitia est vermis cordis, et parientem matrem exedit. Mater, quæ parit filium, </div>
+         <div type="ch" n="5">dolorem habet ; si peperit, a dolore liberatur. Tristitia vero, dum generatur, multum excitat dolorem, </div>
+         <div type="ch" n="6">postque cruciatus permanens non parvo torquet dolore. Monachus tristitiæ addictus lætitiam non novit spiritualem, eo prorsus modo, </div>
+         <div type="ch" n="7">quo nec mellis gustum, qui vehementi laborat febri, persentit. Monachus tristatus non movebit mentem ad contemplationem, </div>
+         <div type="ch" n="8">nec orationem effundit puram. Tristitia quippe obstaculum est omnis boni. </div>
+         <div type="ch" n="9">Vinculum pedum, cursus est impedimentum, et tristitia, meditationis obstaculum. </div>
+         <div type="ch" n="10">Captivus, a barbaris ligatur ferreis catenis, et tristitia captiva a passionibus abducta vincitur. Tristitia nullam vim habet, cum aliæ non adsint passiones, sicut neque vinculum, cum absint qui vinciant. </div>
+         <div type="ch" n="11">Qui ligatus est a tristitia, superatus est a passionibus, taleque circumfert vinculum, </div>
+         <div type="ch" n="12">suæ cladis argumentum. Tristitia namque constituitur, ex eo quod carnali quis frustratus fuerit cupiditate, cupiditas autem omni conjuncta est passioni. Qui vicit cupiditatem, passiones devicit, qui autem passiones evicit, non superabitur a tristitia. Temperans non contristabitur super defectu escarum, neque continens, quod impudicam nequeat assequi delectationem, </div>
+         <div type="ch" n="13">neque mansuetus, quod ab ultione exciderit, neque humilis, quod humano fuerit orbatus honore, neque qui longe ab aviditate est pecuniæ, si in detrimentum aliquod inciderit, multum enim evitarunt harum rerum cupiditatem, quia sicut thorace indutus nequaquam jaculum admittit, </div>
+         <div type="ch" n="14">sic qui passionum est expers, non vulneratur a tristitia. </div>
+         <div type="ch" n="15">Militi securitas est clypeus, et urbi murus : monacho vero passionum vacuitas, ambobus est securior; et enim sæpe quidem sagitta valido vibrata brachio permeat clypeum, et bellatorum multitudo murum effodit, </div>
+         <div type="ch" n="16">tristitia vero non prævalebit vacuitati passionum. Qui dominatur passionibus, dominatus est tristitiæ, </div>
+         <div type="ch" n="17">devictus autem a voluptate, illius non effugiet vincula: qui tristatur assidue, seque liberum a passionibus fictione profitetur, </div>
+         <div type="ch" n="18">similis est ægrotanti, qui simulat sanitatem ; sicut enim qui morbo laborat, </div>
+         <div type="ch" n="19">a colore manifestatur, ita qui passionibus subest, arguitur e tristitia. Qui diligit mundum valde tristis mœrebit, </div>
+         <div type="ch" n="20">sed qui despicit ea, quæ in ipso sunt, </div>
+         <div type="ch" n="21">semper gaudebit. Avarus, si damno fuerit affectus, amare contristabitur, at qui contemnit pecunias, </div>
+         <div type="ch" n="22">absque tristitia vivet. Qui avidus est gloria, superveniente infamia, incidet in tristitiam; </div>
+         <div type="ch" n="23">verum qui humiliter sapit, eam, veluti sodalem excipiet. Fornax conflatoria non probatum expurgat argentum, </div>
+         <div type="ch" n="25">et tristitia secundum Deum, cor, quod est in peccatis: continua
+            conflatura plumbum imminuit, et mundi tristitia diminuit intellectum. Aciem oculorum
+            perspicacem caligo obfuscat,  et mentem addictam contemplationi hebetat tristitia. Aquæ
+            profunditatem non pervadit solis fulgor, et cor affectum tristitia contemplatio luminis
+            non illustrat: solis ortus, dulce quid hominibus est; at anima, quæ tristitia
+            affligitur, in eo quoque sibi displicet. Morbus arquatus sensum aufert gustus, et
+            tristitia tollit animæ sensum. At qui mundi voluptates contemnit, a cogitationibus
+            tristitiae non turbabitur. </div>
+      </div>
+      <div type="section" n="6">
+         <div type="title" n="title"/>
+         <div type="ch" n="1"/>
+         <div type="ch" n="2"/>
+         <div type="ch" n="3"/>
+         <div type="ch" n="4">De acedia, seu desidia. Acedia est animæ languor, </div>
+         <div type="ch" n="5">animæ vero infirmitas, cum non habeat, quod est secundum naturam, nec adversus tentationes generose persistit. </div>
+         <div type="ch" n="5">Quod enim in corpore bene valenti operatur alimentum, hoc idem tentatio in anima efficit generosa. </div>
+         <div type="ch" n="7">Boreas ventus nutrit germina, et tentationes, animæ constantiam firmant. </div>
+         <div type="ch" n="8">Nubes aqua carens a vento dispellitur, et mens, patientiam non habens, a spiritu desidiæ. </div>
+         <div type="ch" n="9">Ros vernus auget fructum agri, et sermo spiritualis statum animæ in sublime extollit. Fluctus desidiæ monachum expellit e domo sua, </div>
+         <div type="ch" n="10">qui vero tolerat habetque patientiam, quietam semper transigit vitam. </div>
+         <div type="ch" n="11">Infirmorum visitationes prætexit negligens, proprio vero genio, et scopo satisfacit. Monachus piger ad ministerium est velox, </div>
+         <div type="ch" n="12">putatque præceptum esse sui ipsius satisfactionem. </div>
+         <div type="ch" n="13">Aura tenuis infirmam quassat, inflectitque plantam, et peregrinationis imaginatio trahit desidem. </div>
+         <div type="ch" n="14">Bene alteque defixam arborem ventorum non concutit violentia, et desidia firmiter hærentem animam non inflectit. Circuitor monachus aridum virgultum est solitudinis; paululum conquiescit, rursusque fertur invitus. Planta translata fructum non affert, </div>
+         <div type="ch" n="15">et monachus circumforaneus fructum non dabit virtutis. Infirmo ac debili non unum satisfacit alimentum, et pro desidioso monacho non sat est unum opus. Voluptatis cupido una non sufficit femina, et monacho desidi non satis erit una cella. Oculus segnis assidue fenestris intente aspicit, ejusdemque intellectus visitantes imaginatur: janua stridorem edidit, exsiliit ille, vocem audiit, jamque per fenestram inclinatus respexit, nec inde discedit, usquequo sedens, obstupescat. Deses, legendo sæpe oscitat, et ad somnum facile devolvitur, confricat vultum, distenditque manus, </div>
+         <div type="ch" n="16">et avertens oculos a libro, in pariete ipsos defigit: iterum reversus parumper legit, replicansque verborum fines, laborat inaniter, folia enumerat, et quaterniones calculatur, scripturam et ornatum vituperat, ac demum complicans supponit capiti librum, edormitque somnum non valde profundum, fames enim deinceps ipsius excitat animam, </div>
+         <div type="ch" n="17">ac proprias gerit curas. Segnis monachus, piger est ad orationem, </div>
+         <div type="ch" n="18">et verba orationis non eloquetur unquam: quemadmodum enim, qui
+            aegrotat, grave non portat onus, ita et desidiosus, opus Dei nequaquam faciet accurate:
+            nam, destituitur quidem ille viribus corporis, iste vero animæ nervis ac laboribus est
+            dissolutus. Desidiam sanat patientia; omniaque cum multa et assidua facere attentione,
+            et Dei timore. In omni opere modum ordina tibi ipsi, neve prius desistas, quam illud
+            perfeceris, ac simul intelligenter, omnibusque viribus ora, tuncque a te spiritus
+            aufugiet pigritiæ. </div>
+      </div>
+      <div type="section" n="7">
+         <div type="title" n="title"/>
+         <div type="ch" n="1"/>
+         <div type="ch" n="17"/>
+         <div type="ch" n="19"/>
+         <div type="ch" n="2">De vana gloria. Vana gloria est passio irrationalis, facileque omni
+            virtutis operi implicatur. Linea in aqua efformata confunditur, </div>
+         <div type="ch" n="3">et in anima vanæ gloriæ cupida labor virtutis. Manus fit candida in sinu abscondita, et actio occultata luce clarius effulget. </div>
+         <div type="ch" n="4">Arborem hedera circumplectitur, et quando sursum pervenerit radicem exsiceat, </div>
+         <div type="ch" n="5">et vana gloria virtutibus adnascitur, easque non deserit, donec vires exciderit. </div>
+         <div type="ch" n="6">Botrus in humum attractus facile putrelit, et virtus deperit vanae gloriæ inhærens. </div>
+         <div type="ch" n="7">Monachus, qui vana gloria percellitur, operarius est absque mercede, </div>
+         <div type="ch" n="8">laborem subiit, et nullam accepit mercedem. Crumena perforata non conservat, quod immittitur, </div>
+         <div type="ch" n="9">et vana gloria virtutum mercedes disperdit. Continentia vanæ glorie cupidi, </div>
+         <div type="ch" n="10">fumus est camini, inque aerem utraque dissolventur. Ventus delet vestigium viri, </div>
+         <div type="ch" n="12">et vana gloria percitus, eleemosynam. Jactus lapidis non pertingit cœlum, et oratio ejus, qui hominibus placere studet, </div>
+         <div type="ch" n="13">nou ascendet ad Deum. Vana gloria scopulus est sub aqua latens; si alliseris, onus perdidisti. Vir prudens abscondit thesaurum, et monachus sapiens, labores virtutis. In plateis orare vana gloria consulit; </div>
+         <div type="ch" n="16">at qui eam oppugnat, orat in suo penetrali. Vir insipiens suas publicat divitias, </div>
+         <div type="ch" n="20">multosque provocat, ut adversus se ipsum parent insidias. Tu vero tua occulta; in itinere namque latronum es, donec in urbem pacis perveneris, tuncque tuis rebus secure uteris. Virtus ejus, qui vana laborat gloria, obtritum est sacrificium, neque ad Dei offeretur altare. Desidia, vires, ac robur animæ exsolvit, et vana gloria mertem, </div>
+         <div type="ch" n="21">quæ a Deo excidit, eademque ægrotantem reddit sanum, et senem juvene
+            robustiorem, modo adsint multi testes earum, quæ fiunt, rerum; tunc autem vanum erit
+            jejunium, et vigilia, et oratio; laus quippe multorum promptam animi excitat
+            alacritatem. Ne humanis celebritatibus divendas labores, neque futuram prodas gloriam,
+            propter vilem laudis acclamationem: etenim humana gloria humi quiescit, ipsiusque laus
+            in terra exstinguitur, virtutis autem gloria manet in sæculum. </div>
+      </div>
+      <div type="section" n="8">
+         <div type="title" n="title"/>
+         <div type="ch" n="1"/>
+         <div type="ch" n="2"/>
+         <div type="ch" n="3">De superbia. Superbia tumor est animæ sanie plenus; si maturuerit, erumpet, </div>
+         <div type="ch" n="5">multumque redolebit fetorem. Fulguris splendor sonum prænuntiat tonitrus, et præsentia vanæ gloriæ annuntiat superbiam. </div>
+         <div type="ch" n="6">Superbi anima ad magnam ascendit altitudinem, indeque ipsum dejicit in profundum. </div>
+         <div type="ch" n="7">Superbia laborat, qui seipsum a Deo dissociat, propriisque viribus facinora recte patrata ascribit. </div>
+         <div type="ch" n="8">Quemadmodum autem, qui super araneam iuscendit, decidens, fertur deorsum, </div>
+         <div type="ch" n="9">ita concidit, qui propriæ confidit virtuti. Copiosus fructus arboris inflectit ramos, et virtutum copia sensum humiliat viri. Fructus putridus inutilis est agricolæ, </div>
+         <div type="ch" n="10">et virtus superbi Deo non est accepta. Palus, seu pedamentum, ramum sustentat onustum fructibus, et timor Dei animam virtute præditi. Sicuti fructus pondus ramum disrumpit, ita superbia virtute conspicuam demittit animam. Ne superbiæ tuum dedas animum, quia sic tetricis carebis imaginationibus: superbia etenim anima derelinquitur a Deo, fitque dæmonibus materia gaudii. Nocte, bestiarum invadentium imaginatur multitudinem, dieque a cogitationibus timoris turbatur. Si dormit, exsilit assidue, et si vigilet, ad umbram avis perterrefit. Folii rumor superbum exterruit, </div>
+         <div type="ch" n="11">et aquæ sonus ejus diffregit animam. Etenim qui paulo ante se ipsum Deo opponit, illiusque denegat auxilium, postremo a vilibus spectris perterretur. Superbia e cœlis projecit archangelum, fecitque, </div>
+         <div type="ch" n="12">ut ille quasi fulgur ad terram decideret. At humilitas hominem extollit ad cœlum, efficitque ut cum angelis tripudiet! O homo, quid in sublime tolleris, cum natura sis lutum et putredo? Ecquid et supra nubes attolleris? tuam inspice naturam, quod sis pulvis, et cinis, postque parum temporis m pulverem resolveris. Modo fastuosus, et post parum temporis vermis; quid cervicem attollis, quæ paulo post emarcescet? Homo, qui a Deo auxilium assequitur, est magnum quid; derelictus est, imbecillitatemque agnovit naturæ; nihil habes, quod a Deo non accepisti, quid igitur in alieno, tanquam in tuo hebetaris? quid gratia Dei, veluti propria re gloriaris? Agnosce largitorem, neve multum efferaris; creatura es Dei, ne Creatorem asperneris; a Deo adjuvaris, ne renuas benefactorem; ad sublimitatem instituti ascendisti, sed ille te deduxit; recta virtutis opera patrasti, verum ille operatus est; ipsum confitere, qui te exaltavit, ut firmus in altitudine permaneas; agnosce contribulem, quia ejusdem est naturæ, ne per jactantiam recuses cognationem. Humilis est ille, atque modice temperatus; at idem conditor utrumque creavit. Ne humilem contemnas, te namque securior est: </div>
+         <div type="ch" n="14">incedit ille super humum, et non cadit celeriter; qui autem excelsus est, si ceciderit, </div>
+         <div type="ch" n="15">conteretur. Superbus monachus arbor est absque radice, nec venti perferet impetum. </div>
+         <div type="ch" n="16">Mens absque tumore, civitas est moenibus cincta, et qui eam incolit, </div>
+         <div type="ch" n="17">inviolabilis erit. Aura venti siccam extollit festucam, et superbum insultus effert dementiæ. </div>
+         <div type="ch" n="18">Bulla fracta evanescet, et memoria superbi peribit. Humilis sermo ad emolliendam est animam, </div>
+         <div type="ch" n="19">at superbi verbum est arrogantia refertum. Oratio viri humilis Deum inflectit, </div>
+         <div type="ch" n="32">Deum vero exasperat superbi supplicatio. Corona domus est humilitas, tuteque custodit introeuntem. Cum ad apicem virtutum ascenderis, tunc multa opus est tibi tutela; nam, qui cadit e pavimento ocius surgit, qui autem ab alto concidit, ad mortem periclitatur. </div>
+         <div type="ch" n="20">Lapidem pretiosum muniri auro decet, et viri humilitas multis resplendet virtutibus. </div>
+      </div>
+   </body>
+</TAN-T>
