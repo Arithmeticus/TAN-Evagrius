@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../TAN/TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../../TAN/TAN-2021/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       id="tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:ad_virginem_2012"
+       TAN-version="2021">
+   <head>
+      <name>Greek edition of Ad virginem edited by Joest</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2436/cpg2436.grc.2012.joest.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Ad_virginem"/>
+      <source which="evagrius_joest_2012"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+      </vocabulary>
+      <vocabulary-key>
+         <div-type xml:id="ln" which="line_(physical)"/>
+      </vocabulary-key>
+      <resp who="kalvesmaki" roles="editor"/>
+      <file-resp who="kalvesmaki"/>
+      <change when="2023-12-09" who="kalvesmaki">Started file</change>
+      <to-do>
+      </to-do>
+   </head>
+   <body xml:lang="grc">
+      <div n="title" type="title">Παραίνεσις πρὸς παρθένον.</div>
+      <div n="1" type="sententia">
+         <div type="ln" n="1">Ἀγάπα τὸν κύριον </div>
+         <div type="ln" n="2">καὶ ἀγαπήσει σε, </div>
+         <div type="ln" n="3">καὶ δούλευε αὐτῷ </div>
+         <div type="ln" n="4">καὶ φωτιεῖ τὴν καρδίαν σου. </div>
+      </div>
+      <div n="2" type="sententia">
+         <div type="ln" n="1">Τίμα τὴν μητέρα σου </div>
+         <div type="ln" n="2">ὡς μητέρα Χριστοῦ, </div>
+         <div type="ln" n="3">καὶ μὴ παροξύνῃς πολιὰν </div>
+         <div type="ln" n="4">τεκούσης σε. </div>
+      </div>
+      <div n="3" type="sententia">
+         <div type="ln" n="1">Ἀγάπα τὰς ἀδελφάς σου </div>
+         <div type="ln" n="2">ὡς θυγατέρας μητρός σου, </div>
+         <div type="ln" n="3">καὶ μὴ ἐγκαταλίπῃς </div>
+         <div type="ln" n="4">ὁδὸν εἰρήνης. </div>
+      </div>
+      <div n="4" type="sententia">
+         <div type="ln" n="1">Ἀνατέλλων ὁ ἥλιος βλεπέτω </div>
+         <div type="ln" n="2">τὸ βιβλίον ἐν ταῖς χερσί σου, </div>
+         <div type="ln" n="3">καὶ μετὰ δευτέραν ὥραν </div>
+         <div type="ln" n="4">τὸ ἔργον σου. </div>
+      </div>
+      <div n="5" type="sententia">
+         <div type="ln" n="1">Προσεύχου </div>
+         <div type="ln" n="2">ἀδιαλείπτως, </div>
+         <div type="ln" n="3">καὶ μέμνησο Χριστοῦ </div>
+         <div type="ln" n="4">τοῦ γεννήσαντός σε. </div>
+      </div>
+      <div n="6" type="sententia">
+         <div type="ln" n="1">Συντυχίας ἀνδρῶν </div>
+         <div type="ln" n="2">παραιτοῦ, </div>
+         <div type="ln" n="3">ἵνα μὴ γένηται εἴδωλα </div>
+         <div type="ln" n="4">ἐν σῇ ψυχῇ </div>
+         <div type="ln" n="5">καὶ ἔσται σοι πρόσκομμα </div>
+         <div type="ln" n="6">ἐν καιρῷ προσευχῆς. </div>
+      </div>
+      <div n="7" type="sententia">
+         <div type="ln" n="1">Χριστὸν ἔχεις </div>
+         <div type="ln" n="2">ἀγαπητόν· </div>
+         <div type="ln" n="3">ἀπόρριψον ἀπό σου </div>
+         <div type="ln" n="4">ἄνδρας ἅπαντας </div>
+         <div type="ln" n="5">καὶ οὐ μὴ βιώσῃς </div>
+         <div type="ln" n="6">ἐπονείδιστον βίον. </div>
+      </div>
+      <div n="8" type="sententia">
+         <div type="ln" n="1">Θυμὸν καὶ ὀργὴν μακρὰν </div>
+         <div type="ln" n="2">ποίησον ἀπό σου, </div>
+         <div type="ln" n="3">καὶ μνησικακία </div>
+         <div type="ln" n="4">μὴ αὐλιζέσθω ἔν σοι. </div>
+      </div>
+      <div n="9" type="sententia">
+         <div type="ln" n="1">Μὴ εἴπῃς· </div>
+         <div type="ln" n="2">σήμερον </div>
+         <div type="ln" n="3">βρώσομαι </div>
+         <div type="ln" n="4">καὶ αὔριον </div>
+         <div type="ln" n="5">οὐ βρώσομαι, </div>
+         <div type="ln" n="6">ὅτι οὐκ ἐν φρονήσει </div>
+         <div type="ln" n="7">ποιεῖς τοῦτο. </div>
+         <div type="ln" n="8">ἔσται γὰρ βλάβη </div>
+         <div type="ln" n="9">τῷ σώματί σου </div>
+         <div type="ln" n="10">καὶ ὀδύνη </div>
+         <div type="ln" n="11">τῷ στομάχῳ σου. </div>
+      </div>
+      <div n="10" type="sententia">
+         <div type="ln" n="1">Ἐσθίειν κρέα </div>
+         <div type="ln" n="2">οὐ καλὸν καὶ </div>
+         <div type="ln" n="3">πίνειν οἶνον </div>
+         <div type="ln" n="4">οὐκ ἀγαθόν, </div>
+         <div type="ln" n="5">προσφέρειν δὲ χρὴ ταῦτα </div>
+         <div type="ln" n="6">ταῖς ἀσθενούσαις. </div>
+      </div>
+      <div n="11" type="sententia">
+         <div type="ln" n="1">Παρθένος θρασεῖα </div>
+         <div type="ln" n="2">οὐ σωθήσεται </div>
+         <div type="ln" n="3">καὶ σπαταλῶσα </div>
+         <div type="ln" n="4">οὐκ ὄψεται τὸν νυμφίον αὐτῆς. </div>
+      </div>
+      <div n="12" type="sententia">
+         <div type="ln" n="1">Μὴ εἴπῃς, </div>
+         <div type="ln" n="2">ὅτι λελύπηκέ με ἡ θεραπαινὶς καὶ τίσομαι αὐτήν, </div>
+         <div type="ln" n="3">διότι οὐκ ἔστιν δουλεία </div>
+         <div type="ln" n="4">ἐν θυγατράσι Θεοῦ. </div>
+      </div>
+      <div n="13" type="sententia">
+         <div type="ln" n="1">Μὴ δῷς ἀκοήν σου </div>
+         <div type="ln" n="2">λόγοις ματαίοις, </div>
+         <div type="ln" n="3">καὶ διηγήματα γραῶν </div>
+         <div type="ln" n="4">φεῦγε κυκλευουσῶν. </div>
+      </div>
+      <div n="14" type="sententia">
+         <div type="ln" n="1">Ἑορτὰς μεθύσων </div>
+         <div type="ln" n="2">μὴ ἴδῃς, </div>
+         <div type="ln" n="3">καὶ εἰς γάμους ἀλλοτρίων </div>
+         <div type="ln" n="4">μὴ εἰσέλθῃς. </div>
+         <div type="ln" n="5">ἀκάθαρτος γὰρ παρὰ Κυρίῳ </div>
+         <div type="ln" n="6">πᾶσα παρθένος ποιοῦσα ταῦτα. </div>
+      </div>
+      <div n="15" type="sententia">
+         <div type="ln" n="1">Ἄνοιγε σὸν στόμα </div>
+         <div type="ln" n="2">λόγῳ Θεοῦ, </div>
+         <div type="ln" n="3">καὶ κώλυε ἀπὸ πολυλογίας </div>
+         <div type="ln" n="4">τὴν γλῶσσαν σου. </div>
+      </div>
+      <div n="16" type="sententia">
+         <div type="ln" n="1">Ἔναντι Κυρίου </div>
+         <div type="ln" n="2">ταπείνου σεαυτήν, </div>
+         <div type="ln" n="3">καὶ ὑψώσει σε </div>
+         <div type="ln" n="4">ἡ δεξιὰ αὐτοῦ. </div>
+      </div>
+      <div n="17" type="sententia">
+         <div type="ln" n="1">Μὴ ἀποστρέφου πένητα </div>
+         <div type="ln" n="2">ἐν καιρῷ θλίψεως, </div>
+         <div type="ln" n="3">καὶ οὐ λείψει ἔλαιον </div>
+         <div type="ln" n="4">ἐν τῇ λαμπάδι σου. </div>
+      </div>
+      <div n="18" type="sententia">
+         <div type="ln" n="1">Πάντα ποίει </div>
+         <div type="ln" n="2">διὰ τὸν Κύριον, </div>
+         <div type="ln" n="3">καὶ μὴ ζήτει </div>
+         <div type="ln" n="4">παρὰ ἀνθρώπων δόξαν, </div>
+         <div type="ln" n="5">ὅτι δόξα ἀνθρώπων </div>
+         <div type="ln" n="6">ὡς ἄνθος χόρτου, </div>
+         <div type="ln" n="7">δόξα δὲ Κυρίου </div>
+         <div type="ln" n="8">μένει εἰς τὸν αἰῶνα. </div>
+      </div>
+      <div n="19" type="sententia">
+         <div type="ln" n="1">Παρθένον πραεῖαν </div>
+         <div type="ln" n="2">ἀγαπᾷ ὁ κύριος, </div>
+         <div type="ln" n="3">παρθένος δὲ ὀργίλος </div>
+         <div type="ln" n="4">μισηθήσεται. </div>
+      </div>
+      <div n="20" type="sententia">
+         <div type="ln" n="1">Ὑπακούουσα παρθένος </div>
+         <div type="ln" n="2">ἐλεηθήσεται, </div>
+         <div type="ln" n="3">ἡ δὲ ἀντιλέγουσα ἰσχυρῶς </div>
+         <div type="ln" n="4">ἄφρων. </div>
+      </div>
+      <div n="21" type="sententia">
+         <div type="ln" n="1">Γόγγυσον παρθένον </div>
+         <div type="ln" n="2">ἀπολεῖ Κύριος, </div>
+         <div type="ln" n="3">τὴν δὲ εὐχάριστον </div>
+         <div type="ln" n="4">ῥύσεται ἐκ θανάτου. </div>
+      </div>
+      <div n="22" type="sententia">
+         <div type="ln" n="1">Αἰσχρὸν </div>
+         <div type="ln" n="2">γέλως </div>
+         <div type="ln" n="3">καὶ ἐπονείδιστον </div>
+         <div type="ln" n="4">ἀναισχυντία, </div>
+         <div type="ln" n="5">πᾶσα δὲ ἄφρων </div>
+         <div type="ln" n="6">τοῖς τοιούτοις συμπλέκεται. </div>
+      </div>
+      <div n="23" type="sententia">
+         <div type="ln" n="1">Ἡ καλλωπίζουσα </div>
+         <div type="ln" n="2">ἱμάτια αὐτῆς </div>
+         <div type="ln" n="3">καὶ σωφροσύνης </div>
+         <div type="ln" n="4">ἐκτὸς ἔσται. </div>
+      </div>
+      <div n="24" type="sententia">
+         <div type="ln" n="1">Μὴ συναυλίζου </div>
+         <div type="ln" n="2">κοσμικαῖς, </div>
+         <div type="ln" n="3">ἵνα μὴ διαστρέψωσι </div>
+         <div type="ln" n="4">σὴν καρδίαν </div>
+         <div type="ln" n="5">καὶ ἀκύρους ποιήσωσι </div>
+         <div type="ln" n="6">βουλὰς δικαίας. </div>
+      </div>
+      <div n="25" type="sententia">
+         <div type="ln" n="1">Δάκρυσιν ἐν νυκτὶ </div>
+         <div type="ln" n="2">παρακάλει τὸν Κύριον, </div>
+         <div type="ln" n="3">καὶ μηδεὶς αἴσθηται προσευχομένης σου </div>
+         <div type="ln" n="4">καὶ εὑρήσεις χάριν. </div>
+      </div>
+      <div n="26" type="sententia">
+         <div type="ln" n="1">Ἐπιθυμία </div>
+         <div type="ln" n="2">περιπάτων </div>
+         <div type="ln" n="3">καὶ πόθος </div>
+         <div type="ln" n="4">οἰκιῶν ἀλλοτρίων </div>
+         <div type="ln" n="5">ἀνατρέπει </div>
+         <div type="ln" n="6">κατάστασιν ψυχῆς </div>
+         <div type="ln" n="7">καὶ διαφθείρει </div>
+         <div type="ln" n="8">προθυμίαν αὐτῆς. </div>
+      </div>
+      <div n="27" type="sententia">
+         <div type="ln" n="1">Πιστὴ παρθένος </div>
+         <div type="ln" n="2">οὐ δειλιάσει, </div>
+         <div type="ln" n="3">ἡ δὲ ἄπιστος </div>
+         <div type="ln" n="4">φεύξεται καὶ τὴν σκιὰν αὐτῆς. </div>
+      </div>
+      <div n="28" type="sententia">
+         <div type="ln" n="1">Φθόνος </div>
+         <div type="ln" n="2">τήκει ψυχήν, </div>
+         <div type="ln" n="3">καὶ ζῆλος </div>
+         <div type="ln" n="4">κατεσθίει αὐτήν. </div>
+      </div>
+      <div n="29" type="sententia">
+         <div type="ln" n="1">Καταφρονοῦσα </div>
+         <div type="ln" n="2">τῆς ἀδελφῆς τῆς ἀσθενούσης </div>
+         <div type="ln" n="3">καὶ τοῦ Χριστοῦ </div>
+         <div type="ln" n="4">μακρὰν ἔσται. </div>
+      </div>
+      <div n="30" type="sententia">
+         <div type="ln" n="1">Μὴ εἴπῃς· </div>
+         <div type="ln" n="2">ἐμὸν τοῦτο καὶ σὸν τοῦτο. </div>
+         <div type="ln" n="3">ἐν γὰρ Χριστῷ Ἰησοῦ </div>
+         <div type="ln" n="4">τὰ πάντα κοινά. </div>
+      </div>
+      <div n="31" type="sententia">
+         <div type="ln" n="1">Οὐ περιεργάσῃ </div>
+         <div type="ln" n="2">ζωὴν ἀλλοτρίαν, </div>
+         <div type="ln" n="3">καὶ πτώματι ἀδελφῆς σου </div>
+         <div type="ln" n="4">οὐκ ἐπιχαρήσῃ. </div>
+      </div>
+      <div n="32" type="sententia">
+         <div type="ln" n="1">Ἐπάρκει </div>
+         <div type="ln" n="2">δεομέναις παρθένοις, </div>
+         <div type="ln" n="3">καὶ ἐπὶ εὐγενείᾳ σου </div>
+         <div type="ln" n="4">μὴ ἐπαίρου. </div>
+      </div>
+      <div n="33" type="sententia">
+         <div type="ln" n="1">Μὴ προενέγκῃς λόγον ἐκ στόματός σου </div>
+         <div type="ln" n="2">ἐν ἐκκλησίᾳ Κυρίου, </div>
+         <div type="ln" n="3">καὶ μὴ μετεωρίσῃς </div>
+         <div type="ln" n="4">τοὺς ὀφθαλμούς σου. </div>
+         <div type="ln" n="5">ὁ γὰρ Κύριος </div>
+         <div type="ln" n="6">γινώσκει σὴν καρδίαν, </div>
+         <div type="ln" n="7">καὶ πάντας τοὺς διαλογισμούς σου </div>
+         <div type="ln" n="8">σκοπεύει. </div>
+      </div>
+      <div n="34" type="sententia">
+         <div type="ln" n="1">Πᾶσαν κακὴν ἐπιθυμίαν </div>
+         <div type="ln" n="2">ἄπωσαι ἀπό σου, </div>
+         <div type="ln" n="3">καὶ οὐ μὴ λυπήσωσίν σε </div>
+         <div type="ln" n="4">οἱ ἐχθροί σου. </div>
+      </div>
+      <div n="35" type="sententia">
+         <div type="ln" n="1">Ψάλλε </div>
+         <div type="ln" n="2">ἀπὸ καρδίας σου, </div>
+         <div type="ln" n="3">καὶ μὴ κίνει μόνον </div>
+         <div type="ln" n="4">τὴν γλῶσσαν σου ἐν τῷ στόματί σου. </div>
+      </div>
+      <div n="36" type="sententia">
+         <div type="ln" n="1">Ἄφρων παρθένος </div>
+         <div type="ln" n="2">ἀγαπήσει ἀργύριον, </div>
+         <div type="ln" n="3">ἡ δὲ φρονίμη </div>
+         <div type="ln" n="4">προσθήσει καὶ τὸν ψωμὸν αὐτῆς. </div>
+      </div>
+      <div n="37" type="sententia">
+         <div type="ln" n="1">Ὥσπερ ὁρμὴ πυρὸς </div>
+         <div type="ln" n="2">δυσκάθεκτος, </div>
+         <div type="ln" n="3">οὕτως ψυχὴ παρθένου τρωθεῖσα </div>
+         <div type="ln" n="4">δυσίατος. </div>
+      </div>
+      <div n="38" type="sententia">
+         <div type="ln" n="1">Μὴ δώῃς τὴν ψυχήν σου </div>
+         <div type="ln" n="2">διαλογισμοῖς πονηροῖς, </div>
+         <div type="ln" n="3">ἵνα μὴ μιάνωσι </div>
+         <div type="ln" n="4">σὴν καρδίαν </div>
+         <div type="ln" n="5">καὶ καθαρὰν προσευχὴν μακρὰν </div>
+         <div type="ln" n="6">ποιήσωσι ἀπό σου. </div>
+      </div>
+      <div n="39" type="sententia">
+         <div type="ln" n="1">Βαρεῖα λύπη </div>
+         <div type="ln" n="2">καὶ ἀνυπόστατος ἀκηδία, </div>
+         <div type="ln" n="3">δάκρυα δὲ πρὸς Θεὸν </div>
+         <div type="ln" n="4">ἰσχυρότερα ἀμφοτέρων. </div>
+      </div>
+      <div n="40" type="sententia">
+         <div type="ln" n="1">Λιμὸς καὶ δίψα </div>
+         <div type="ln" n="2">μαραίνει ἐπιθυμίας κακάς, </div>
+         <div type="ln" n="3">ἀγρυπνία δὲ ἀγαθὴ </div>
+         <div type="ln" n="4">καθαίρει διάνοιαν. </div>
+      </div>
+      <div n="41" type="sententia">
+         <div type="ln" n="1">Ὀργὴν καὶ θυμὸν </div>
+         <div type="ln" n="2">ἀποστρέφει ἀγάπη, </div>
+         <div type="ln" n="3">μνησικακίαν δὲ </div>
+         <div type="ln" n="4">ἀνατρέπει δῶρα. </div>
+      </div>
+      <div n="42" type="sententia">
+         <div type="ln" n="1">Ἡ καταλαλοῦσα λάθρα </div>
+         <div type="ln" n="2">τῆς ἀδελφῆς αὐτῆς </div>
+         <div type="ln" n="3">ἐξωσθήσεται </div>
+         <div type="ln" n="4">τοῦ νυμφῶνος, </div>
+         <div type="ln" n="5">καὶ βοήσεται </div>
+         <div type="ln" n="6">πρὸς ταῖς θύραις αὐτοῦ </div>
+         <div type="ln" n="7">καὶ οὐκ ἔσται </div>
+         <div type="ln" n="8">ὁ ὑπακούων. </div>
+      </div>
+      <div n="43" type="sententia">
+         <div type="ln" n="1">Παρθένου ἀνελεήμονος </div>
+         <div type="ln" n="2">σβεσθήσεται λαμπάς, </div>
+         <div type="ln" n="3">καὶ οὐ μὴ ἴδῃ προελθόντα </div>
+         <div type="ln" n="4">τὸν νυμφίον αὐτῆς. </div>
+      </div>
+      <div n="44" type="sententia">
+         <div type="ln" n="1">Ὕαλος προσπίπτων λίθῳ </div>
+         <div type="ln" n="2">συντριβήσεται, </div>
+         <div type="ln" n="3">καὶ παρθένος ἁπτομένη ἀνδρὸς </div>
+         <div type="ln" n="4">οὐκ ἀθωωθήσεται. </div>
+      </div>
+      <div n="45" type="sententia">
+         <div type="ln" n="1">Κρείσσων </div>
+         <div type="ln" n="2">γυνὴ πραεῖα </div>
+         <div type="ln" n="3">παρθένου </div>
+         <div type="ln" n="4">ὀργίλου καὶ θυμώδους. </div>
+      </div>
+      <div n="46" type="sententia">
+         <div type="ln" n="1">Ἡ ἐξέλκουσα ἐν γέλωτι </div>
+         <div type="ln" n="2">λόγους ἀνδρός, </div>
+         <div type="ln" n="3">ὁμοία ἐστὶν τῇ περιβαλλούσῃ </div>
+         <div type="ln" n="4">βρόχον τῷ ἑαυτῆς τραχήλῳ. </div>
+      </div>
+      <div n="47" type="sententia">
+         <div type="ln" n="1">Ὥσπερ μαργαρίτης </div>
+         <div type="ln" n="2">ἐν σφενδόνῃ χρυσῇ, </div>
+         <div type="ln" n="3">οὕτως παρθένος </div>
+         <div type="ln" n="4">καλυπτομένη ὑπὸ αἰδοῦς. </div>
+      </div>
+      <div n="48" type="sententia">
+         <div type="ln" n="1">Ὠιδαὶ δαιμόνων καὶ αὐλοὶ </div>
+         <div type="ln" n="2">ἐκλύουσιν ψυχὴν </div>
+         <div type="ln" n="3">καὶ ἀπολλύουσιν </div>
+         <div type="ln" n="4">εὐτονίαν αὐτῆς, </div>
+         <div n="3" type="ln">ἣν φύλαξον διὰ παντός, </div>
+         <div n="4" type="ln">ἵνα μὴ ἐπονείδιστος γένῃ. </div>
+      </div>
+      <div n="49" type="sententia">
+         <div type="ln" n="1">Μὴ τέρπου </div>
+         <div type="ln" n="2">ἐπὶ γελοίοις, </div>
+         <div type="ln" n="3">καὶ ἐπισκωπτούσαις </div>
+         <div type="ln" n="4">μὴ εὐφραίνου, </div>
+         <div type="ln" n="5">ὅτι Κύριος </div>
+         <div type="ln" n="6">ἐγκατέλιπεν αὐτάς. </div>
+      </div>
+      <div n="50" type="sententia">
+         <div type="ln" n="1">Οὐκ ἐξουδενώσεις </div>
+         <div type="ln" n="2">τὴν ἀδελφήν σου ἐσθίουσαν </div>
+         <div type="ln" n="3">καὶ ἐπὶ ἐγκρατείᾳ σου </div>
+         <div type="ln" n="4">μὴ ἐπαρθῇς. </div>
+         <div type="ln" n="5">οὐ γὰρ οἶδας, </div>
+         <div type="ln" n="6">τί βεβούλευται ὁ Κύριος </div>
+         <div type="ln" n="7">ἢ τίς στήσεται </div>
+         <div type="ln" n="8">ἐνώπιον αὐτοῦ. </div>
+      </div>
+      <div n="51" type="sententia">
+         <div type="ln" n="1">Ἡ οἰκτείρουσα </div>
+         <div type="ln" n="2">πελιδνουμένους τοὺς ὀφθαλμοὺς </div>
+         <div n="2" type="ln">καὶ τηκομένας τὰς σάρκας αὐτῆς, </div>
+         <div type="ln" n="4">οὐκ εὐφρανθήσεται </div>
+         <div type="ln" n="5">ἐπὶ ἀπαθείᾳ ψυχῆς. </div>
+      </div>
+      <div n="52" type="sententia">
+         <div type="ln" n="1">Βαρεῖα ἐγκράτεια </div>
+         <div type="ln" n="2">καὶ δυσκατόρθωτος ἁγνεία, </div>
+         <div type="ln" n="3">ἀλλ' οὐδὲν γλυκύτερον </div>
+         <div type="ln" n="4">τοῦ ἐπουρανίου νυμφίου. </div>
+      </div>
+      <div n="53" type="sententia">
+         <div type="ln" n="1">Ψυχαὶ παρθένων </div>
+         <div type="ln" n="2">φωτισθήσονται, </div>
+         <div type="ln" n="3">ψυχαὶ δὲ ἀκαθάρτων </div>
+         <div type="ln" n="4">ὄψονται σκότος. </div>
+      </div>
+      <div n="54" type="sententia">
+         <div type="ln" n="1">Εἶδον ἄνδρας </div>
+         <div type="ln" n="2">φθείροντας παρθένους ἐν δόγμασι </div>
+         <div type="ln" n="3">καὶ ματαίαν ποιοῦντας </div>
+         <div type="ln" n="4">τὴν παρθενείαν αὐτῶν. </div>
+         <div type="ln" n="5">σὺ δὲ ἄκουε, τέκνον, </div>
+         <div type="ln" n="6">δογμάτων ἐκκλησίας Κυρίου, </div>
+         <div type="ln" n="7">καὶ μηδεὶς ἀλλότριος </div>
+         <div type="ln" n="8">μεταπείσῃ σε. </div>
+      </div>
+      <div n="54a" type="sententia">
+         <div type="ln" n="1">Deus fundavit </div>
+         <div type="ln" n="2">coelum et terram, </div>
+         <div type="ln" n="3">et providit omnibus, </div>
+         <div type="ln" n="4">et laetatur in
+            eis. </div>
+         <div type="ln" n="5">Et non est angelus </div>
+         <div type="ln" n="6">non capax malitiae, </div>
+         <div type="ln" n="7">et non est daemon </div>
+         <div type="ln" n="8">naturae malus:
+            </div>
+         <div type="ln" n="9">utrumque enim liberi arbitrii </div>
+         <div type="ln" n="10">fecit Deus. </div>
+         <div type="ln" n="11">Sicut homo </div>
+         <div type="ln" n="12">ex corpore corruptibili </div>
+         <div type="ln" n="13">et
+            anima subsistit rationabili, </div>
+         <div type="ln" n="14">sic enim Dominus noster natus est </div>
+         <div type="ln" n="15">sine peccato,
+            </div>
+         <div type="ln" n="16">manducans manducavit, </div>
+         <div type="ln" n="17">et crucifixus, crucifixus est; </div>
+         <div type="ln" n="18">non erat visio </div>
+         <div type="ln" n="19">fictus in oculis
+            hominum. </div>
+         <div type="ln" n="20">Erit mortuorum resurrectio, </div>
+         <div type="ln" n="21">et mundus transibit iste, </div>
+         <div type="ln" n="22">et nos </div>
+         <div type="ln" n="23">spiritualia
+            accepimus corpora. </div>
+         <div type="ln" n="24">δίκαιοι γὰρ </div>
+         <div type="ln" n="25">κληρονομήσουσι φῶς, </div>
+         <div type="ln" n="26">ἀσεβεῖς δὲ </div>
+         <div type="ln" n="27">οἰκήσουσι σκότος. </div>
+      </div>
+      <div n="55" type="sententia">
+         <div type="ln" n="1">Παρθένοι ὀφθαλμοὶ </div>
+         <div type="ln" n="2">ὄψονται κύριον. </div>
+         <div type="ln" n="3">ἀκοαὶ δὲ παρθένων </div>
+         <div type="ln" n="4">ἀκούσονται λόγων αὐτοῦ. </div>
+         <div type="ln" n="5">παρθένων στόμα </div>
+         <div type="ln" n="6">φιλήσει νυμφίον αὐτοῦ. </div>
+         <div type="ln" n="7">ὄσφρησις δὲ παρθένων </div>
+         <div type="ln" n="8">ἐπ' ὀσμὴν μύρων αὐτοῦ δραμεῖται. </div>
+         <div type="ln" n="9">χεῖρες παρθένοι </div>
+         <div type="ln" n="10">ψηλαφήσουσι κύριον, </div>
+         <div type="ln" n="11">καὶ ἁγνεία σαρκὸς </div>
+         <div type="ln" n="12">εὐπρόσδεκτος ἔσται. </div>
+         <div type="ln" n="13">παρθένος ψυχὴ </div>
+         <div type="ln" n="14">στεφανωθήσεται, </div>
+         <div type="ln" n="15">καὶ μετὰ τοῦ νυμφίου αὐτῆς </div>
+         <div type="ln" n="16">βιώσεται διὰ παντός. </div>
+         <div type="ln" n="17">ἔνδυμα πνευματικὸν </div>
+         <div type="ln" n="18">δοθήσεται αὐτῇ, </div>
+         <div type="ln" n="19">καὶ μετὰ ἀγγέλων ἐν οὐρανοῖς </div>
+         <div type="ln" n="20">ἑορτάσει. </div>
+         <div type="ln" n="21">ἄσβεστον </div>
+         <div type="ln" n="22">ἀνάψει λαμπάδα, </div>
+         <div type="ln" n="23">καὶ ἔλαιον </div>
+         <div type="ln" n="24">οὐ λείψει ἐν τοῖς ἀγγείοις αὐτῆς. </div>
+         <div type="ln" n="25">λήψεται </div>
+         <div type="ln" n="26">πλοῦτον αἰώνιον, </div>
+         <div type="ln" n="27">καὶ κληρονομήσει </div>
+         <div type="ln" n="28">βασιλείαν τὴν τοῦ Θεοῦ. </div>
+      </div>
+      <div n="56" type="sententia">
+         <div type="ln" n="1">Οἱ ἐμοὶ λόγοι, τέκνον, </div>
+         <div type="ln" n="2">εἴρηνται πρός σε, </div>
+         <div type="ln" n="3">τὰ δὲ ἐμὰ ῥήματα </div>
+         <div type="ln" n="4">τηρείτω σὴ καρδία. </div>
+         <div type="ln" n="5">μέμνησο Χριστοῦ </div>
+         <div type="ln" n="6">τοῦ φυλάσσοντός σε, </div>
+         <div type="ln" n="7">καὶ μὴ ἐπιλάθῃ </div>
+         <div type="ln" n="8">τῆς προσκυνητῆς τριάδος. </div>
+      </div>
+   </body>
+</TAN-T>

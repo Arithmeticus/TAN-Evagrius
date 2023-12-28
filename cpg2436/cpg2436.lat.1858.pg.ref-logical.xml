@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../TAN/TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../../TAN/TAN-2021/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:sententiae_ad_virginem_1858_lat_logical" TAN-version="2021">
+   <head>
+      <name>Latin translation of Ad virginem published in PG 40, logical reference system</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2435/cpg2435.lat.1858.pg.ref-scriptum.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Ad_virginem"/>
+      <source which="pg"/>
+      <model>
+         <IRI>tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:ad_virginem_2012</IRI>
+         <name>Greek edition of Ad monachos edited by Joest</name>
+         <location accessed-when="2023-12-08T23:04:14.6819687-05:00" href="cpg2436.grc.2012.joest.xml"/>
+      </model>
+      
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+      </vocabulary>
+      <vocabulary-key>
+         <div-type xml:id="col" which="column (page)"/>
+         <div-type xml:id="ln" which="line (physical)"/>
+      </vocabulary-key>
+      <resp who="kalvesmaki" roles="editor"/>
+      <file-resp who="kalvesmaki"/>
+      <change when="2023-12-09" who="kalvesmaki">Started file</change>
+      <to-do>
+      </to-do>
+   </head>
+   <body xml:lang="lat">
+      <div n="title" type="title">EJUSDEM EVAGRII MONACHI SENTENTIAE AD VIRGINES</div>
+      <div n="1" type="sententia">
+         <div type="ln" n="1">Dilige Dominum,</div>
+         <div type="ln" n="2">et amabit te;</div>
+         <div type="ln" n="3">et servi illi,</div>
+         <div type="ln" n="4">et illuminabit cor tuum.</div>
+      </div>
+      <div n="2" type="sententia">
+         <div type="ln" n="1">Honora matrem tuam</div>
+         <div type="ln" n="2">sicut matrem Christi,</div>
+         <div type="ln" n="3">et ne exasperes canitiem ejus</div>
+         <div type="ln" n="4">quae peperit te.</div>
+      </div>
+      <div n="3" type="sententia">
+         <div type="ln" n="1">Dilige sorores tuas</div>
+         <div type="ln" n="2">sicut filias matris tuae;</div>
+         <div type="ln" n="3">et non derelinquas</div>
+         <div type="ln" n="4">viam pacis.</div>
+      </div>
+      <div n="4" type="sententia">
+         <div type="ln" n="1">Exoriens sol videat</div>
+         <div type="ln" n="2">codicem in manibus tuis,</div>
+         <div type="ln" n="3">et post secundam horam</div>
+         <div type="ln" n="4">opus tuum.</div>
+      </div>
+      <div n="5" type="sententia">
+         <div type="ln" n="1">Ora</div>
+         <div type="ln" n="2">sine intermissione,</div>
+         <div type="ln" n="3">et memento Christi,</div>
+         <div type="ln" n="4">qui genuit te.</div>
+      </div>
+      <div n="6" type="sententia">
+         <div type="ln" n="1">Conventus virorum</div>
+         <div type="ln" n="2">devita,</div>
+         <div type="ln" n="3">ut non fiat idolum</div>
+         <div type="ln" n="4">in anima tua,</div>
+         <div type="ln" n="5">et erit tibi offendiculum</div>
+         <div type="ln" n="6">in tempore orationis.</div>
+      </div>
+      <div n="7" type="sententia">
+         <div type="ln" n="1">Christum habes</div>
+         <div type="ln" n="2">dilectum,</div>
+         <div type="ln" n="3">projice abs te</div>
+         <div type="ln" n="4">viros omnes,</div>
+         <div type="ln" n="5">et non vives</div>
+         <div type="ln" n="6">exprobrabilem vitam.</div>
+      </div>
+      <div n="8" type="sententia">
+         <div type="ln" n="1">Animositatem et iram longe</div>
+         <div type="ln" n="2">facito a te;</div>
+         <div type="ln" n="3">et memoria malitiae</div>
+         <div type="ln" n="4">non demoretur apud te.</div>
+      </div>
+      <div n="9" type="sententia">
+         <div type="ln" n="1">Ne dicas:</div>
+         <div type="ln" n="2">Hodie</div>
+         <div type="ln" n="3">comedo,</div>
+         <div type="ln" n="4">et crastino</div>
+         <div type="ln" n="5">non comedam:</div>
+         <div type="ln" n="6">quonium non in sapientia</div>
+         <div type="ln" n="7">facis hoc.</div>
+         <div type="ln" n="8">Erit enim noxa </div>
+         <div type="ln" n="9">corpori tuo,</div>
+         <div type="ln" n="10">et dolor</div>
+         <div type="ln" n="11">stomacho tuo.</div>
+      </div>
+      <div n="10" type="sententia">
+         <div type="ln" n="1">Edere carnem</div>
+         <div type="ln" n="2">non bonum,</div>
+         <div type="ln" n="3">et bibere vinum</div>
+         <div type="ln" n="4">non optimum;</div>
+         <div type="ln" n="5">offerre autem oportet te</div>
+         <div type="ln" n="6">ista infirmantibus.</div>
+      </div>
+      <div n="11" type="sententia">
+         <div type="ln" n="1">Virgo turbulenta</div>
+         <div type="ln" n="2">non salvabitur;</div>
+         <div type="ln" n="3">et quae in deliciis agit,</div>
+         <div type="ln" n="4">non videbit sponsum suum.</div>
+      </div>
+      <div n="12" type="sententia">
+         <div type="ln" n="1">Ne dicas:</div>
+         <div type="ln" n="2">Contristavit me famula, retribuam ei;</div>
+         <div type="ln" n="3">propterea quod non est servitus</div>
+         <div type="ln" n="4">in filiabus Dei.</div>
+      </div>
+      <div n="13" type="sententia">
+         <div type="ln" n="1">Non des auditum tuum</div>
+         <div type="ln" n="2">verbis vanis,</div>
+         <div type="ln" n="3">et narrationes vetularum</div>
+         <div type="ln" n="4">fuge circumeuntium.</div>
+      </div>
+      <div n="14" type="sententia">
+         <div type="ln" n="1">Ferias ebriosarum</div>
+         <div type="ln" n="2">ne videas,</div>
+         <div type="ln" n="3">et in nuptias alieni</div>
+         <div type="ln" n="4">non abieris;</div>
+         <div type="ln" n="5">immunda enim apud Dominum</div>
+         <div type="ln" n="6">omnis virgo faciens haec.</div>
+      </div>
+      <div n="15" type="sententia">
+         <div type="ln" n="1">Aperi os tuum</div>
+         <div type="ln" n="2">verbo Dei;</div>
+         <div type="ln" n="3">et cohibe a multiloquio</div>
+         <div type="ln" n="4">linguam tuam.</div>
+      </div>
+      <div n="16" type="sententia">
+         <div type="ln" n="1">Coram Deo </div>
+         <div type="ln" n="2">humilia te ipsam;</div>
+         <div type="ln" n="3">exaltabit te</div>
+         <div type="ln" n="4">dextera ejus.</div>
+      </div>
+      <div n="17" type="sententia">
+         <div type="ln" n="1">Ne avertaris a paupere</div>
+         <div type="ln" n="2">in tempore tribulationis,</div>
+         <div type="ln" n="3">et non deficiet oleum</div>
+         <div type="ln" n="4">lampadae tuae.</div>
+      </div>
+      <div n="18" type="sententia">
+         <div type="ln" n="1">Omnia fac</div>
+         <div type="ln" n="2">propter Dominum,</div>
+         <div type="ln" n="3">et noli quaerere</div>
+         <div type="ln" n="4">ab hominibus gloriam,</div>
+         <div type="ln" n="5">quoniam gloria hominis</div>
+         <div type="ln" n="6">sicut flos feni,</div>
+         <div type="ln" n="7">gloria autem Domini</div>
+         <div type="ln" n="8">manet in aeternum.</div>
+      </div>
+      <div n="19" type="sententia">
+         <div type="ln" n="1">Virginem mansuetam</div>
+         <div type="ln" n="2">diligit Dominus;</div>
+         <div type="ln" n="3">virgo autem iracunda</div>
+         <div type="ln" n="4">odibilis est.</div>
+      </div>
+      <div n="20" type="sententia">
+         <div type="ln" n="1">Obaudiens virgo</div>
+         <div type="ln" n="2">misericordiam subsequetur;</div>
+         <div type="ln" n="3">contradicens autem, </div>
+         <div type="ln" n="4">valde insipiens.</div>
+      </div>
+      <div n="21" type="sententia">
+         <div type="ln" n="1">Murmurosam virginem </div>
+         <div type="ln" n="2">disperdit Dominus;</div>
+         <div type="ln" n="3">gratam autem</div>
+         <div type="ln" n="4">liberat a morte.</div>
+      </div>
+      <div n="22" type="sententia">
+         <div type="ln" n="1">Turpis</div>
+         <div type="ln" n="2">risus,</div>
+         <div type="ln" n="3">et exprobrabilis</div>
+         <div type="ln" n="4">impudicitia;</div>
+         <div type="ln" n="5">omnis autem insipiens</div>
+         <div type="ln" n="6">talibus implicabitur.</div>
+      </div>
+      <div n="23" type="sententia">
+         <div type="ln" n="1">Quae exornat</div>
+         <div type="ln" n="2">vestes suas </div>
+         <div type="ln" n="3">etiam pudicitia</div>
+         <div type="ln" n="4">excidet.</div>
+      </div>
+      <div n="24" type="sententia">
+         <div type="ln" n="1">Non commoreris</div>
+         <div type="ln" n="2">saecularibus,</div>
+         <div type="ln" n="3">ut non avertant</div>
+         <div type="ln" n="4">tuum cor,</div>
+         <div type="ln" n="5">et irrita faciant</div>
+         <div type="ln" n="6">consilia justa.</div>
+      </div>
+      <div n="25" type="sententia">
+         <div type="ln" n="1">Lacrymis in nocte</div>
+         <div type="ln" n="2">roga Dominum,</div>
+         <div type="ln" n="3">et nemo orantem te,</div>
+         <div type="ln" n="4">et invenies gratiam.</div>
+      </div>
+      <div n="26" type="sententia">
+         <div type="ln" n="1">Concupiscentia</div>
+         <div type="ln" n="2">deambulationum,</div>
+         <div type="ln" n="3">et desiderium</div>
+         <div type="ln" n="4">alienarum domuum</div>
+         <div type="ln" n="5">avertit</div>
+         <div type="ln" n="6">statum animae,</div>
+         <div type="ln" n="7">et corrumpit</div>
+         <div type="ln" n="8">promptam voluntatem ejus.</div>
+      </div>
+      <div n="27" type="sententia">
+         <div type="ln" n="1">Fidelis virgo</div>
+         <div type="ln" n="2">non formidabit;</div>
+         <div type="ln" n="3">quae autem infidelis est,</div>
+         <div type="ln" n="4">fugiet etiam umbram suam.</div>
+      </div>
+      <div n="28" type="sententia">
+         <div type="ln" n="1">Invidia</div>
+         <div type="ln" n="2">consumit animam,</div>
+         <div type="ln" n="3">et livor</div>
+         <div type="ln" n="4">devorat eam.</div>
+      </div>
+      <div n="29" type="sententia">
+         <div type="ln" n="1">Quae contemnit</div>
+         <div type="ln" n="2">sororem infirmam,</div>
+         <div type="ln" n="3">et a Christo</div>
+         <div type="ln" n="4">longe erit.</div>
+      </div>
+      <div n="30" type="sententia">
+         <div type="ln" n="1">Ne dicas:</div>
+         <div type="ln" n="2">Meum hoc, et tuum illud;</div>
+         <div type="ln" n="3">in Christo enim Jesu</div>
+         <div type="ln" n="4">omnia communia.</div>
+      </div>
+      <div n="31" type="sententia">
+         <div type="ln" n="1">Non inquiras</div>
+         <div type="ln" n="2">vitam alterius,</div>
+         <div type="ln" n="3">et ruinae sororis tuae</div>
+         <div type="ln" n="4">non congaudeas.</div>
+      </div>
+      <div n="32" type="sententia">
+         <div type="ln" n="1">Subministra autem</div>
+         <div type="ln" n="2">indigentibus virginibus;</div>
+         <div type="ln" n="3">et in nobilitate tua</div>
+         <div type="ln" n="4">ne extollaris.</div>
+      </div>
+      <div n="33" type="sententia">
+         <div type="ln" n="1">Non proferas verbum de ore tuo</div>
+         <div type="ln" n="2">in Ecclesia Domini;</div>
+         <div type="ln" n="3">et ne extollas</div>
+         <div type="ln" n="4">oculos tuos:</div>
+         <div type="ln" n="5">etenim Dominus</div>
+         <div type="ln" n="6">cognoscit tuum cor,</div>
+         <div type="ln" n="7">et omnes cogitationes tuas</div>
+         <div type="ln" n="8">inspicit.</div>
+      </div>
+      <div n="34" type="sententia">
+         <div type="ln" n="1">Omnem malam concupiscentiam</div>
+         <div type="ln" n="2">repella a te;</div>
+         <div type="ln" n="3">et non contristabunt te</div>
+         <div type="ln" n="4">inimici tui.</div>
+      </div>
+      <div n="35" type="sententia">
+         <div type="ln" n="1">Psalle</div>
+         <div type="ln" n="2">de corde tuo,</div>
+         <div type="ln" n="3">et non moveas</div>
+         <div type="ln" n="4">tantum linguam tuam.</div>
+      </div>
+      <div n="36" type="sententia">
+         <div type="ln" n="1">Fatua virgo</div>
+         <div type="ln" n="2">diliget argentum;</div>
+         <div type="ln" n="3">prudens autem</div>
+         <div type="ln" n="4">apponet et panem suum.</div>
+      </div>
+      <div n="37" type="sententia">
+         <div type="ln" n="1">Sicut impetus ignis</div>
+         <div type="ln" n="2">difficile compescetur;</div>
+         <div type="ln" n="3">sic anima virginis vulnerata</div>
+         <div type="ln" n="4">vix sanabilis.</div>
+      </div>
+      <div n="38" type="sententia">
+         <div type="ln" n="1">Ne dederis animam tuam</div>
+         <div type="ln" n="2">cogitationibus malis,</div>
+         <div type="ln" n="3">ut non polluant</div>
+         <div type="ln" n="4">tuum cor,</div>
+         <div type="ln" n="5">et mundam orationem</div>
+         <div type="ln" n="6">longe faciant a te.</div>
+      </div>
+      <div n="39" type="sententia">
+         <div type="ln" n="1">Gravis tristitia,</div>
+         <div type="ln" n="2">et intolerabilis acedia;</div>
+         <div type="ln" n="3">lacrymae ad Dominum</div>
+         <div type="ln" n="4">validiores utrorumque.</div>
+      </div>
+      <div n="40" type="sententia">
+         <div type="ln" n="1">Fames et sitis</div>
+         <div type="ln" n="2">marcescere facit concupiscientias malas;</div>
+         <div type="ln" n="3">vigilia autem bona</div>
+         <div type="ln" n="4">purificat sensum.</div>
+      </div>
+      <div n="41" type="sententia">
+         <div type="ln" n="1">Iram et animositatem</div>
+         <div type="ln" n="2">avertit dilectio;</div>
+         <div type="ln" n="3">memoriam autem malitiae</div>
+         <div type="ln" n="4">confundunt munera.</div>
+      </div>
+      <div n="42" type="sententia">
+         <div type="ln" n="1">Qui detrahit</div>
+         <div type="ln" n="2">sorori suae occulte,</div>
+         <div type="ln" n="3">deforis stabit</div>
+         <div type="ln" n="4">a thalamo sponsi,</div>
+         <div type="ln" n="5">et clamabit</div>
+         <div type="ln" n="6">ad januas ejus,</div>
+         <div type="ln" n="7">et non erit</div>
+         <div type="ln" n="8">qui exaudiat eam.</div>
+      </div>
+      <div n="43" type="sententia">
+         <div type="ln" n="1">Virginis immisericordis</div>
+         <div type="ln" n="2">exstinguetur lampada,</div>
+         <div type="ln" n="3">et non videbit advenientem</div>
+         <div type="ln" n="4">sponsum suum.</div>
+      </div>
+      <div n="44" type="sententia">
+         <div type="ln" n="1">Vitrum cadens a saxo</div>
+         <div type="ln" n="2">comminuetur;</div>
+         <div type="ln" n="3">et virgo adjuncta viro</div>
+         <div type="ln" n="4">non erit innocens.</div>
+      </div>
+      <div n="45" type="sententia">
+         <div type="ln" n="1">Melior </div>
+         <div type="ln" n="2">mulier mansueta</div>
+         <div type="ln" n="3">virgine</div>
+         <div type="ln" n="4">animosa et iracunda.</div>
+      </div>
+      <div n="46" type="sententia">
+         <div type="ln" n="1">Quae attrahit in risu</div>
+         <div type="ln" n="2">sermones viri,</div>
+         <div type="ln" n="3">similis est circummittenti</div>
+         <div type="ln" n="4">laqueum collo suo.</div>
+      </div>
+      <div n="47" type="sententia">
+         <div type="ln" n="1">Sicut margarita</div>
+         <div type="ln" n="2">in fundibulo aureo;</div>
+         <div type="ln" n="3">sic virginitas</div>
+         <div type="ln" n="4">cooperta reverentia.</div>
+      </div>
+      <div n="48" type="sententia">
+         <div type="ln" n="1">Cantica daemonum et tibiae</div>
+         <div type="ln" n="2">resolvunt animam,</div>
+         <div type="ln" n="3">et disperdunt </div>
+         <div type="ln" n="4">fortitudinem ejus:</div>
+         <div n="3" type="ln">quam custodi per omnia,</div>
+         <div n="4" type="ln">ut non exprobrabilis fias.</div>
+      </div>
+      <div n="49" type="sententia">
+         <div type="ln" n="1">Non delecteris</div>
+         <div type="ln" n="2">in risu,</div>
+         <div type="ln" n="3">et vituperantibus</div>
+         <div type="ln" n="4">non laeteris,</div>
+         <div type="ln" n="5">quoniam Dominus</div>
+         <div type="ln" n="6">derelinquet eas.</div>
+      </div>
+      <div n="50" type="sententia">
+         <div type="ln" n="1">Non exprobrabis</div>
+         <div type="ln" n="2">sororem tuam edentem,</div>
+         <div type="ln" n="3">et in abstinentia tua</div>
+         <div type="ln" n="4">non exalteris;</div>
+         <div type="ln" n="5">non enim scis</div>
+         <div type="ln" n="6">quid cogitavit Dominus,</div>
+         <div type="ln" n="7">aut quis stabit</div>
+         <div type="ln" n="8">in conspectu ejus.</div>
+      </div>
+      <div n="51" type="sententia">
+         <div type="ln" n="1">Quae miseretur</div>
+         <div type="ln" n="2">liventibus oculis suis,</div>
+         <div n="2" type="ln">et tabescentibus carnibus suis,</div>
+         <div type="ln" n="4">non laetabitur </div>
+         <div type="ln" n="5">super impassibilitate animae.</div>
+      </div>
+      <div n="52" type="sententia">
+         <div type="ln" n="1">Gravis abstinentia,</div>
+         <div type="ln" n="2">et vix dirigibilis castitas;</div>
+         <div type="ln" n="3">sed nihil dulcius</div>
+         <div type="ln" n="4">coelesti sponso.</div>
+      </div>
+      <div n="53" type="sententia">
+         <div type="ln" n="1">Animae virginum </div>
+         <div type="ln" n="2">illuminabuntur;</div>
+         <div type="ln" n="3">animae autem immundarum</div>
+         <div type="ln" n="4">videbunt tenebras.</div>
+      </div>
+      <div n="54" type="sententia">
+         <div type="ln" n="1">Vidi viros</div>
+         <div type="ln" n="2">corrumpentes virgines in doctrinis suis,</div>
+         <div type="ln" n="3">et vanam facientes</div>
+         <div type="ln" n="4">virginitatem earum.</div>
+         <div type="ln" n="5">Tu autem audi, filia,</div>
+         <div type="ln" n="6">doctrinas Ecclesiae Dei,</div>
+         <div type="ln" n="7">et nemo alienus</div>
+         <div type="ln" n="8">pesuadeat tibi.</div>
+      </div>
+      <div n="54a" type="sententia">
+         <div type="ln" n="1">Deus fundavit </div>
+         <div type="ln" n="2">coelum et terram, </div>
+         <div type="ln" n="3">et providit omnibus, </div>
+         <div type="ln" n="4">et laetatur in eis; </div>
+         <div type="ln" n="5">et non est angelus </div>
+         <div type="ln" n="6">non capax malitiae, </div>
+         <div type="ln" n="7">et non est daemon </div>
+         <div type="ln" n="8">naturae malus:
+            </div>
+         <div type="ln" n="9">utrumque enim liberi arbitrii </div>
+         <div type="ln" n="10">fecit Deus. </div>
+         <div type="ln" n="11">Sicut homo </div>
+         <div type="ln" n="12">ex corpore corruptibili </div>
+         <div type="ln" n="13">et
+            anima subsistit rationabili, </div>
+         <div type="ln" n="14">sic enim Dominus noster natus est </div>
+         <div type="ln" n="15">sine peccato,
+            </div>
+         <div type="ln" n="16">manducans manducavit, </div>
+         <div type="ln" n="17">et crucifixus, crucifixus est; </div>
+         <div type="ln" n="18">non erat visio </div>
+         <div type="ln" n="19">ficta in oculis hominum. </div>
+         <div type="ln" n="20">Erit mortuorum resurrectio, </div>
+         <div type="ln" n="21">et mundus transibit iste: </div>
+         <div type="ln" n="22">et nos </div>
+         <div type="ln" n="23">spiritualia
+            accepimus corpora. </div>
+         <div type="ln" n="24">Justi</div>
+         <div type="ln" n="25">haereditabunt lumen;</div>
+         <div type="ln" n="26">impii autem</div>
+         <div type="ln" n="27">inhabitabunt tenebras.</div>
+      </div>
+      <div n="55" type="sententia">
+         <div type="ln" n="1">Virginis oculi</div>
+         <div type="ln" n="2">Deum videbunt;</div>
+         <div type="ln" n="3">aures autem virginis</div>
+         <div type="ln" n="4">audient verba ejus.</div>
+         <div type="ln" n="5">Virginis os </div>
+         <div type="ln" n="6">osculabitur sponsum suum;</div>
+         <div type="ln" n="7">odoratus autem virginum</div>
+         <div type="ln" n="8">in odore unguentorum ejus curret.</div>
+         <div type="ln" n="9">Manus virginis</div>
+         <div type="ln" n="10">palpabunt Dominum;</div>
+         <div type="ln" n="11">et castitas carnis</div>
+         <div type="ln" n="12">accceptabilis illi erit.</div>
+         <div type="ln" n="13">Virgo anima</div>
+         <div type="ln" n="14">coronabitur,</div>
+         <div type="ln" n="15">et cum sponso suo</div>
+         <div type="ln" n="16">vivet semper.</div>
+         <div type="ln" n="17">Vestimentum spiritale</div>
+         <div type="ln" n="18">dabitur ei,</div>
+         <div type="ln" n="19">et cum angelis in coelis</div>
+         <div type="ln" n="20">feriabitur.</div>
+         <div type="ln" n="21">Inexstinguibilem</div>
+         <div type="ln" n="22">accendit lampadem,</div>
+         <div type="ln" n="23">et oleum</div>
+         <div type="ln" n="24">non deficiet in vasis ejus.</div>
+         <div type="ln" n="25">Accipiet</div>
+         <div type="ln" n="26">divitias aeternas,</div>
+         <div type="ln" n="27">et haereditabit</div>
+         <div type="ln" n="28">regnum Dei.</div>
+      </div>
+      <div n="56" type="sententia">
+         <div type="ln" n="1">Mei sermones, filia,</div>
+         <div type="ln" n="2">dicti sunt ad te;</div>
+         <div type="ln" n="3">verba autem haec</div>
+         <div type="ln" n="4">servet cor tuum.</div>
+         <div type="ln" n="5">Memento Christi</div>
+         <div type="ln" n="6">custodientis te,</div>
+         <div type="ln" n="7">nec obliviscaris adorandam</div>
+         <div type="ln" n="8">et unius substantiae Trinitatem.</div>
+      </div>
+   </body>
+
+</TAN-T>

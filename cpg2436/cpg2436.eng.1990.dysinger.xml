@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../TAN/TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../../TAN/TAN-2021/schemas/TAN-T.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       id="tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:sententiae_ad_virginem_dysinger"
+       TAN-version="2021">
+   <head>
+      <name>English translation of Ad virginem by Dysinger</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2436/cpg2436.eng.1990.dysinger.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Virgin"/>
+      <source which="dysinger_1990"/>
+      <adjustments>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>
+            <name>Small caps removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-color-off</IRI>
+            <name>Color removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-italics-off</IRI>
+            <name>Italics removed.</name>
+         </normalization>
+         <normalization>
+            <IRI>tag:kalvesmaki.com,2014:normalization-xrefs-off</IRI>
+            <name>Translator's references to other primary sources removed.</name>
+         </normalization>
+         <normalization which="no reference markers"/>
+         
+      </adjustments>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+      </vocabulary>
+      <vocabulary-key>
+         <div-type xml:id="ln" which="line_(physical)"/>
+      </vocabulary-key>
+      <resp who="kalvesmaki" roles="editor"/>
+      <file-resp who="kalvesmaki"/>
+      <change when="2023-03-24" who="kalvesmaki">Started file</change>
+      <to-do/>
+   </head>
+   <body xml:lang="eng">
+      <div n="1" type="sententia">
+         <div n="1" type="ln">Love the Lord
+            and he will love you;</div>
+         <div n="2" type="ln">and serve him,
+            and he will enlighten your heart.</div>
+      </div>
+      <div n="2" type="sententia">
+         <div n="1" type="ln">Honor your mother as the mother of Christ,</div>
+         <div n="2" type="ln">and do not irritate the grey head of her who bore you.</div>
+      </div>
+      <div n="3" type="sententia">
+         <div n="1" type="ln">Love your sisters as the daughters of your mother,</div>
+         <div n="2" type="ln">and do not abandon the way of peace.</div>
+      </div>
+      <div n="4" type="sententia">
+         <div n="1" type="ln">May the rising sun see the Book in your hands,</div>
+         <div n="2" type="ln">and after the second hour your work.</div>
+      </div>
+      <div n="5" type="sententia">
+         <div n="1" type="ln">Pray ceaselessly</div>
+         <div n="2" type="ln">and remember Christ who begot you.</div>
+      </div>
+      <div n="6" type="sententia">
+         <div n="1" type="ln">Avoid incidents involving men, </div>
+         <div n="2" type="ln">so that images do not arise in your soul;</div>
+         <div n="3" type="ln">for they will be a stumbling block for you at the time of prayer.</div>
+      </div>
+      <div n="7" type="sententia">
+         <div n="1" type="ln">Christ you have as [your] beloved:</div>
+         <div n="2" type="ln">cast away from you all men;</div>
+         <div n="3" type="ln">and you will not live a shameful life.</div>
+      </div>
+      <div n="8" type="sententia">
+         <div n="1" type="ln">Put indignation and anger far away from you,</div>
+         <div n="2" type="ln">and do not let brooding over injury lodge within you.</div>
+      </div>
+      <div n="9" type="sententia">
+         <div n="1" type="ln">Do not say, “Today I will eat but I will not eat tomorrow,”</div>
+         <div n="2" type="ln">for you do not do this with prudence.</div>
+         <div n="3" type="ln">Indeed, this will cause harm to your body</div>
+         <div n="4" type="ln">and pain in your stomach.</div>
+      </div>
+      <div n="10" type="sententia">
+         <div n="1" type="ln">Eating meat is not decent, nor is drinking wine good;</div>
+         <div n="2" type="ln">these should rather be offered to the sick.</div>
+      </div>
+      <div n="11" type="sententia">
+         <div n="1" type="ln">The rash virgin will not be saved;</div>
+         <div n="2" type="ln">the wanton will not see her bridegroom.</div>
+      </div>
+      <div n="15" type="sententia">
+         <div n="1" type="ln">Open your mouth with the word of God, </div>
+         <div n="2" type="ln">and restrain your tongue from prolixity.</div>
+      </div>
+   </body>
+</TAN-T>
