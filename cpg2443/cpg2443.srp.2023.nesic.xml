@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     TAN-version="2021"
+     id="tag:kalvesmaki.com,2014:cpg2443.srp.2023.nesic">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Κεφάλαια ἢ παραίνεσις</title>
+            <author>Evagrius Ponticus</author>
+            <respStmt>
+               <resp>translated by</resp>
+               <persName full="yes">
+                  <forename full="yes">Лазар</forename>
+                  <surname full="yes">Нешић</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p/>
+      </encodingDesc>
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name xml:lang="eng">Lazar Nesic's Serbian translation of the Paraeneticus of Evagrios Pontikos</name>
+      <name xml:lang="srp">Лазар Нешић, превод оф Поглавља и поуке, Евагрије Понтски</name>
+      <master-location href="http://evagriusponticus.net/tan/cpg2443/cpg2443.srp.2023.nesic.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Sent alph I"/>
+      <version>
+         <IRI>tag:evagriusponticus.net,2015:cpg2443,srp-2023</IRI>
+         <IRI>tag:kalvesmaki.com,2014:cpg2443,eng-2023</IRI>
+         <name xml:lang="eng">Lazar Nešić's Serbian translation of the Paraeneticus of Evagrios Pontikos</name>
+      </version>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2021-06-02"/>
+      </vocabulary>
+      <source which="Nešić 2024"/>
+      <adjustments/>
+      <vocabulary-key/>
+      <file-resp who="kalvesmaki"/>
+      <resp who="kalvesmaki" roles="editor"/>
+      <change when="2023-11-11" who="kalvesmaki">Created TAN template for Nesic translations.</change>
+      <change when="2023-11-16-05:00" who="kalvesmaki">Populated template with content</change>
+      <to-do/>
+   </head>
+   <text>
+      <body xml:lang="srp">
+         <div type="title" n="title">
+            <p>Поглавља и поуке</p>
+         </div>
+         <div type="chapter" n="1">
+            <p>Самоосуђивање је почетак спасења.</p>
+         </div>
+         <div type="chapter" n="2">
+            <p>Боље је бацити насумични камен, него насумичну реч. </p>
+         </div>
+         <div type="chapter" n="3">
+            <p>Буди према свима оно што желиш да сви буду према теби.</p>
+         </div>
+         <div type="chapter" n="4">
+            <p>Извршавај праведност више делима него речима.<ref cRef="Пс. 14, 2; Прич. 16, 9; Ис. 32, 17; Рим. 4, 6; 2. Кор. 11, 15; Тит. 3, 5."/>
+            </p>
+         </div>
+         <div type="chapter" n="5">
+            <p>Побожан није онај који показује милост према многима, већ онај који никоме не чини неправду.</p>
+         </div>
+         <div type="chapter" n="6">
+            <p>Боље је живети на сламаном кревету и не плашити се, него имати златни кревет и узнемиравати се. </p>
+         </div>
+         <div type="chapter" n="7">
+            <p>Угодан међу пријатељима јесте онај који храни душу своју.</p>
+         </div>
+         <div type="chapter" n="8">
+            <p>Испоштуј Бога у делима, прослави га у речима, почасти га у помислима.<ref cRef="2. Дн. 29, 30."/>
+            </p>
+         </div>
+         <div type="chapter" n="9">
+            <p>Разборитост, начин живота и племенитост чине свештеника.</p>
+         </div>
+         <div type="chapter" n="10">
+            <p>Најгоре је бити роб бесрамних страсти.</p>
+         </div>
+         <div type="chapter" n="11">
+            <p>Подучавај врлину речима, али је објављуј делима.</p>
+         </div>
+         <div type="chapter" n="12">
+            <p>Не сматрај да је поседовање врлине добра ствар, већ је добра ствар њена употреба на исправан начин.</p>
+         </div>
+         <div type="chapter" n="13">
+            <p>Поштујући закон живећеш према закону.<ref cRef="Рим. 10, 5."/>
+            </p>
+         </div>
+         <div type="chapter" n="14">
+            <p>Странац је онај коме су ствари овог света стране.</p>
+         </div>
+         <div type="chapter" n="15">
+            <p>Завидник сам себи наноси штету, јер чим изговори зло о другом, он сам пострадава од зла.</p>
+         </div>
+         <div type="chapter" n="16">
+            <p>Немој ласкати богаташу, али немој га ни гневити.<ref cRef="Сир. 8, 2."/>
+            </p>
+         </div>
+         <div type="chapter" n="17">
+            <p>Вино укрепљује тело, а реч Божија укрепљује душу.</p>
+         </div>
+         <div type="chapter" n="18">
+            <p>Немој јести укусна, већ корисна јела.</p>
+         </div>
+         <div type="chapter" n="19">
+            <p>Желећи да угодиш гомили, постаћеш сличан гомили.</p>
+         </div>
+         <div type="chapter" n="20">
+            <p>Изнад свега најснажније присиљавај своје тело.</p>
+         </div>
+         <div type="chapter" n="21">
+            <p>Трудољубив је онај који има времена на претек.</p>
+         </div>
+         <div type="chapter" n="22">
+            <p>Не прихватај спољашњи изглед хришћанина, већ унутрашњу намеру његове душе.</p>
+         </div>
+         <div type="chapter" n="23">
+            <p>Оптужити невиног значи сагрешити Богу.</p>
+         </div>
+         <div type="chapter" n="24">
+            <p>Од ушију и језика долази голема невоља.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
