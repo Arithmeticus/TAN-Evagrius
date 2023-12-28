@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:Evagrius_Maxims3_pg40_lat">
+  <head>
+    <name xml:lang="eng">Latin translation of Maxims III (Aliae Sententiae) published in PG 40:1269</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2445/cpg2445.lat.1858.pg40.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Maxims_3"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Patrologia Graeca"/>
+    <adjustments/>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <change when="2022-12-26" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  
+  <body xml:lang="lat">
+    <div n="1" type="section">Principium charitatis, est alteri alterius gloriae mutua
+      responsio.</div>
+    <div n="2" type="section">Bonum est ditescere in mansuetudine et charitate.</div>
+    <div n="3" type="section">Ventilator virtutis est superba cogitatio.</div>
+    <div n="4" type="section">Plana via fit ab eleemosyna.</div>
+    <div n="5" type="section">Injustus judex est conscientia inquinata.</div>
+    <div n="6" type="section">Durum est servire passionibus carnis.</div>
+    <div n="7" type="section">Si volueris esse absque dolore, stude placere Deo.</div>
+    <div n="8" type="section">Qui honeste sui curam gerit, ipsius a Deo cura geritur.</div>
+    <div n="9" type="section">Temperans cor portus est contemplationum.</div>
+    <div n="10" type="section">Quando voles te ipsum nosse quisnam sis, ne compares cum eo, quis
+      eras, sed cum eo qui ab initio fuisti.</div>
+    <div n="11" type="section">Cisterna sine aqua est anima gloriae cupida.</div>
+    <div n="12" type="section">Anima superba taberna est latronum, oditque sonitum scientiae.</div>
+    <div n="13" type="section">Veri viri malus est error nescire Scripturas.</div>
+    <div n="14" type="section">An Deum timeas, agnoscito e lacrymis.</div>
+    <div n="15" type="section">Armatura infracta est humilitas animae.</div>
+    <div n="16" type="section">Arbor paradisi est vir cupidus virtutis.</div>
+    <div n="17" type="section">Jesus Christus est lignum vitae, utere ipso ut oportet, et non
+      morieris in aeternum.</div>
+    <div n="18" type="section">Benefac his qui sunt vere pauperes, et comedes CHristum.</div>
+    <div n="19" type="section">Robur verum est Christi corpus comedere.</div>
+    <div n="20" type="section">Si amas Christum, ejus mandata servare ne obliviscaris.</div>
+    <div n="21" type="section">Inde namque demonstratur qui post Deum est benefactor.</div>
+    <div n="22" type="section">Qui secundum Deum amicus est, lac, et mel, veris fluit
+      sermonibus.</div>
+    <div n="23" type="section">Anima vero pigra talem non habebit amicum.</div>
+    <div n="24" type="section">Crudelis herus, cogitatio cupida voluptatis.</div>
+    <div n="25" type="section">Tacere veritatem est aurum sepelire.</div>
+    <div n="26" type="section">Qui timet Deum, facit omnia secundum Deum.</div>
+  </body>
+  
+</TAN-T>
