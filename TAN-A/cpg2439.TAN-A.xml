@@ -14,6 +14,7 @@
       <source xml:id="grc-garn" accessed-when="2020-09-13" which="cpg2439 grc garnier"/>
       <source xml:id="lat-garn" accessed-when="2020-09-13" which="cpg2439 lat garnier"/>
       <source xml:id="eng-jackson" accessed-when="2020-07-17" which="cpg2439 eng jackson"/>
+      <source xml:id="nesic" accessed-when="2023-12-11" which="cpg2439 srp nesic"/>
       
       <source xml:id="syr-frankenberg" accessed-when="2020-10-03" which="cpg2439 syr frankenberg"/>
       <source xml:id="grc-frankenberg" accessed-when="2020-10-03" which="cpg2439 grc frankenberg"/>
@@ -26,12 +27,13 @@
                href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl"
                accessed-when="2019-06-16T06:58:11.229-04:00"/>
          </algorithm>
-         <alias id="cpg2439" idrefs="Greek Latin English Syriac"/>
+         <alias id="cpg2439" idrefs="Greek Latin English Syriac Serbian"/>
          <alias id="cpg2439_common" idrefs="grc-grib eng-jackson"/>
          <alias xml:id="Greek" idrefs="grc-grib grc-garn grc-eras"/>
          <alias xml:id="Latin" idrefs="lat-garn"/>
          <alias xml:id="English" idrefs="eng-jackson"/>
          <alias xml:id="Syriac" idrefs="syr-frankenberg grc-frankenberg"/>
+         <alias xml:id="Serbian" idrefs="nesic"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
       <resp who="xslt1" roles="stylesheet"/>

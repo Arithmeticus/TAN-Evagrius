@@ -15,6 +15,7 @@
       </vocabulary>
       <source which="cpg2430 grc 1971" xml:id="grc-guillaumont" accessed-when="2020-07-16"/>
       <source which="cpg2430 eng 1997" xml:id="eng-dysinger" accessed-when="2020-07-16"/>
+      <source which="cpg2430 srp 2023" xml:id="nesic" accessed-when="2020-07-16"/>
       <source which="cpg2430 syr S1 14578" xml:id="syr-s1" accessed-when="2020-07-16"/>
       <source which="cpg2430 syr S2 14578" xml:id="syr-s2" accessed-when="2020-07-16"/>
       
@@ -24,15 +25,16 @@
             <name>Converter from TAN 2018 to TAN 2020</name>
             <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-06-02T08:04:13.335-04:00"/>
          </algorithm>
-         <alias id="all" idrefs="Greek Syriac English"/>
+         <alias id="all" idrefs="Greek Syriac modern"/>
          <alias id="Greek" idrefs="grc-guillaumont"/>
          <alias id="Syriac" idrefs="syr-s1 syr-s2"/>
-         <alias id="English" idrefs="eng-dysinger"/>
+         <alias id="modern" idrefs="eng-dysinger nesic"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
       <resp who="xslt1" roles="stylesheet"/>
       <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
+      <change when="2023-12-11" who="kalvesmaki">Added Serbian version</change>
       <change when="2018-03-05" who="kalvesmaki">Created file</change>
       <change who="xslt1" when="2019-06-02T08:04:13.335-04:00">Converted from 2018 to 2020 schemas.</change>
       <to-do>

@@ -4,7 +4,7 @@
 <TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:patrologia:text:cpg2447:logical">
    <head>
       <name>Greek text of Tractatus ad Eulogium from the Patrologia Graeca, logical reference
-         system</name>
+         system used in PG</name>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <work><IRI>tag:kalvesmaki.com,2014:work:cpg2447</IRI><name xml:lang="lat">Ad Eulogium</name><name xml:lang="eng">To Eulogios</name><name xml:lang="eng">Evagrius of Pontus, To Eulogios</name><name>CPG 2447</name><name xml:lang="lat">Ad Eul.</name><name xml:lang="grc">Λόγος πρὸς Εὐλόγιον μοναχόν</name><name xml:lang="eng">Treatise to the Monk Eulogius or To Eulogius on the Confession
                     of Thoughts and Counsel in Their Regard</name><name>Eulogios</name></work>
@@ -19,6 +19,7 @@
             reference system</name>
          <location href="cpg2447.grc.1858.pg.ref-scriptum.xml" accessed-when="2018-04-03"/>
       </redivision>
+      <redivision which="cpg2447 grc PG 40 ref fogielman"/>
       <source which="Patrologia Graeca"/>
       <vocabulary-key>
          <algorithm xml:id="xslt1">
@@ -37,6 +38,7 @@
       <change when="2018-04-03" who="kalvesmaki">Corrected for soft hyphen in redivision.</change>
       <change who="xslt1" when="2019-05-30T22:14:18.07-04:00">Converted from 2018 to 2020 schemas.</change>
       <change when="2020-02-28" who="kalvesmaki">Adjusted redivision ref</change>
+      <change when="2023-12-27" who="kalvesmaki">Added new redivision</change>
       <to-do>
          <comment when="2018-04-03" who="kalvesmaki">File is still in progress.</comment>
       </to-do>

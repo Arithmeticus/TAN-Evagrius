@@ -18,6 +18,7 @@
          <name>Greek text of Tractatus%20ad%20Eulogium from the Patrologia Graeca, logical reference system</name>
          <location href="cpg2447.grc.1858.pg.ref-logical.xml" accessed-when="2018-04-03"/>
       </redivision>
+      <redivision which="cpg2447 grc PG 40 ref fogielman"/>
       <source which="Patrologia Graeca"/>
       <vocabulary-key>
          <algorithm xml:id="xslt1">
@@ -36,6 +37,7 @@
       <change when="2018-04-03" who="kalvesmaki">Corrected for soft hyphen.</change>
       <change who="xslt1" when="2019-05-30T22:18:14.878-04:00">Converted from 2018 to 2020 schemas.</change>
       <change when="2020-02-28" who="kalvesmaki">Adjusted redivision ref</change>
+      <change when="2023-12-27" who="kalvesmaki">Added new redivision</change>
       <to-do>
          <comment when="2018-04-03" who="kalvesmaki">File is still in progress.</comment>
       </to-do>

@@ -65,7 +65,7 @@
   </teiHeader>
   <head xmlns="tag:textalign.net,2015:ns">
     <name xml:lang="eng">Luke Dysinger's English translation of the Praktikos of Evagrios Pontikos</name>
-    <master-location href="http://evagriusponticus.net/tan/cpg2430.eng.1990.dysinger.xml"/>
+    <master-location href="http://evagriusponticus.net/tan/cpg2430/cpg2430.eng.1990.dysinger.xml"/>
     <license which="by_4.0" licensor="kalvesmaki"/>
     <work which="Prak."/>
     <version>

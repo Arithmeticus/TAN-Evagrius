@@ -13,13 +13,16 @@
       </vocabulary>
       <source accessed-when="2020-11-01" xml:id="grc-pg40" which="cpg2450 grc PG 40"/>
       <source accessed-when="2020-11-01" xml:id="grc-pg79" which="cpg2450 grc PG 79"/>
+      <source accessed-when="2023-12-27" xml:id="nesic" which="cpg2450 srp Nesic"/>
       <vocabulary-key>
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
             <name>Converter from TAN 2018 to TAN 2020</name>
             <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-06-16T07:00:03.719-04:00"/>
          </algorithm>
-         <alias idrefs="grc-pg40 grc-pg79" id="Greek"/>
+         <alias id="cpg2450" idrefs="Greek Serbian"/>
+         <alias id="Greek" idrefs="grc-pg40 grc-pg79"/>
+         <alias id="Serbian" idrefs="nesic"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
       <resp who="xslt1" roles="stylesheet"/>
@@ -30,7 +33,9 @@
       <change when="2018-06-03" who="kalvesmaki">Created file</change>
       <change who="xslt1" when="2019-06-16T07:00:03.719-04:00">Converted from 2018 to 2020 schemas.</change>
       <to-do>
-         <comment when="2020-07-18" who="kalvesmaki">Identify, add other transcriptions</comment>
+         <comment when="2023-12-27" who="kalvesmaki">Add Gehin's SC Greek edition</comment>
+         <comment when="2023-12-27" who="kalvesmaki">Add Latin translation from PG 40</comment>
+         <comment when="2023-12-27" who="kalvesmaki">Add Latin translation from PG 79</comment>
       </to-do>
    </head>
    <body claimant="xslt1"/>

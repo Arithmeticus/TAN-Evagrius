@@ -24,6 +24,7 @@
     <file-resp who="kalvesmaki"/>
     <resp roles="editor" who="kalvesmaki"/>
     <change when="2022-12-26" who="kalvesmaki">Started file</change>
+    <change when="2022-12-14" who="kalvesmaki">Adjusted 2 chapter divisions</change>
     <to-do/>
   </head>
   
@@ -49,10 +50,10 @@
       εἰς τὸν αἰῶνα. </div>
     <div n="18" type="section">Εὐεργέτει τοὺς ὄντως πτωχοὺς καὶ βρώσῃ Χριστόν. </div>
     <div n="19" type="section">Ῥώμη ἀληθὴς τὸ τοῦ Χριστοῦ σῶμα ἐσθίειν. </div>
-    <div n="20" type="section">Εἰ φιλεῖς τὸν Χριστόν, τὰς ἐντολὰς αὐτοῦ τηρεῖν οὐκ ἐπιλήσῃ· ἐκεῖθεν
-      γὰρ ἀναφαίνεται εὐεργέτης μετὰ θεόν. </div>
-    <div n="22" type="section">Ὁ κατὰ θεὸν φίλος ῥέει γάλα καὶ μέλι τοῖς ἀληθέσι λόγοις,
-      ῥᾴθυμος δὲ ψυχὴ τοιοῦτον οὐχ ἕξει φίλον. </div>
+    <div n="20" type="section">Εἰ φιλεῖς τὸν Χριστόν, τὰς ἐντολὰς αὐτοῦ τηρεῖν οὐκ ἐπιλήσῃ· </div>
+    <div n="21" type="section">ἐκεῖθεν γὰρ ἀναφαίνεται εὐεργέτης μετὰ θεόν. </div>
+    <div n="22" type="section">Ὁ κατὰ θεὸν φίλος ῥέει γάλα καὶ μέλι τοῖς ἀληθέσι λόγοις, </div>
+    <div n="23" type="section">ῥᾴθυμος δὲ ψυχὴ τοιοῦτον οὐχ ἕξει φίλον. </div>
     <div n="24" type="section">Ὠμὸς δεσπότης φιλήδονος λογισμός. </div>
     <div n="25" type="section">Σιγᾶν τὴν ἀλήθειαν χρυσόν ἐστι θάπτειν. </div>
     <div n="26" type="section">Ὁ φοβούμενος τὸν θεὸν κατὰ θεὸν πάντα ποιεῖ. </div>

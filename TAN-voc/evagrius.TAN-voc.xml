@@ -58,7 +58,7 @@
                 <desc>A digital service or resource that provided an auxiliary role in making the source or data available.</desc>
             </item>
         </group>
-        <group affects-element="source">
+        <group affects-element="source redivision">
             <!-- Class-1 Files -->
             <!-- 2430: Praktikos -->
             <item>
@@ -87,6 +87,15 @@
                 <name>Syriac translation S2 of the Praktikos in BL Add. 14,578</name>
                 <location href="../cpg2430/cpg2430.syr.0700.bl14578.s2.tei.xml" accessed-when="2020-10-02"/>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2430.srp.2023.nesic</IRI>
+                <name>cpg2430 srp 2023</name>
+                <name>cpg2430 srp nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the Praktikos of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф Делатељ, Евагрије Понтски</name>
+                <location accessed-when="2023-12-12T00:33:52.239461-05:00" href="../cpg2430/cpg2430.srp.2023.nesic.xml"/>
+            </item>
+            
             
             <!-- 2431: Gnostikos -->
             <item>
@@ -315,6 +324,172 @@
                 <location href="../cpg2432/cpg2432.grc.1722.wolf.xml" accessed-when="2015-08-08-04:00"/>
             </item>
             
+            <!-- CPG 2433: Reflections -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Reflections_Dysinger</IRI>
+                <name>cpg2433 eng 1990</name>
+                <name>cpg2433 eng Dysinger</name>
+                <name xml:lang="eng">English translation of Reflections (Skemmata) by Dysinger</name>
+                <location accessed-when="2022-02-17T02:06:57.040276-05:00" href="../cpg2433/cpg2433.eng.1990.dysinger.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Reflections_Suarez</IRI>
+                <name>cpg2433 lat 1673</name>
+                <name>cpg2433 lat Suarez</name>
+                <name xml:lang="eng">Latin translation of Reflections (Skemmata/Capita Cognoscitiva) by Jos. Maria Suarez as edited by Muyldermans</name>
+                <location accessed-when="2022-02-17T02:06:57.040276-05:00" href="../cpg2433/cpg2433.lat.1673.suarez.1931.muyldermans.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Skemmata_Muyldermans-1931-barb-gr-515</IRI>
+                <name>cpg2433 grc 1931 Barb Gr 515</name>
+                <name xml:lang="eng">Fragments of the Reflections (Skemmata) preserved in Barb. Gr.
+                    515, edited by Muyldermans</name>
+                <location accessed-when="2022-02-17T02:09:37.098645-05:00"
+                    href="../cpg2433/cpg2433.grc.1931.muyldermans.barb-gr-515.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Skemmata_Muyldermans-1931-paris-gr-1055</IRI>
+                <name>cpg2433 grc 1931 Paris Gr 1055</name>
+                <name xml:lang="eng">Fragments of the Reflections (Skemmata) preserved in Paris. Gr.
+                    1055, edited by Muyldermans</name>
+                <location accessed-when="2022-02-17T02:09:37.098645-05:00"
+                    href="../cpg2433/cpg2433.grc.1931.muyldermans.paris-gr-1055.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Skemmata_Muyldermans-1931-paris-gr-3098</IRI>
+                <name>cpg2433 grc 1931 Paris Gr 3098</name>
+                <name xml:lang="eng">Fragments of the Reflections (Skemmata) preserved in Paris. Gr.
+                    3098, collated with Paris. supp. gr. 870, edited by Muyldermans</name>
+                <location accessed-when="2022-02-17T02:07:45.067665-05:00"
+                    href="../cpg2433/cpg2433.grc.1931.muyldermans.paris-gr-3098.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Skemmata_Muyldermans-1931-paris-gr-913</IRI>
+                <name>cpg2433 grc 1931 Paris Gr 913</name>
+                <name xml:lang="eng">Fragments of the Reflections (Skemmata) preserved in Paris. Gr.
+                    913, collated with Paris. gr. 3098, edited by Muyldermans</name>
+                <location accessed-when="2022-02-17T02:10:32.518228-05:00"
+                    href="../cpg2433/cpg2433.grc.1931.muyldermans.paris-gr-913.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Skemmata_Sinkewicz_2003</IRI>
+                <name>cpg2433 grc 2003</name>
+                <name>cpg2433 grc Sinkewicz</name>
+                <name xml:lang="eng">Fragments of the Reflections (Skemmata) documented by Sinkewicz in his 2003 translation</name>
+                <location accessed-when="2022-02-17T02:11:13.910407-05:00" href="../cpg2433/cpg2433.grc.2003.sinkewicz.xml"/>
+            </item>
+            
+            
+            <!-- CPG 2434: Antirrhetikos -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:evagrius.cpg2434.syr.Frankenberg.TAN-TEI</IRI>
+                <name>cpg2434 syr 1912</name>
+                <name>cpg2434 syr Frankenberg</name>
+                <name xml:lang="eng">Frankenberg's Syriac transcription of Antirrhetikos</name>
+                <location accessed-when="2023-12-07T21:24:43.9413354-05:00" href="../cpg2434/cpg2434.syr.1912.frankenberg.tei.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:evagrius.cpg2434.grc.Frankenberg.TAN-TEI</IRI>
+                <name>cpg2434 grc 1912</name>
+                <name>cpg2434 grc Frankenberg</name>
+                <name xml:lang="eng">Frankenberg's Greek retroversion of Antirrhetikos</name>
+                <location accessed-when="2023-12-07T21:25:39.2882996-05:00" href="../cpg2434/cpg2434.grc.1912.frankenberg.tei.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2434.srp.2023.nesic</IRI>
+                <name>cpg2434 srp 2023</name>
+                <name>cpg2434 srp nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the Antirrhetikos of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф Противречитељ, Евагрије Понтски</name>
+                <location accessed-when="2023-12-07T21:26:06.9782846-05:00" href="../cpg2434/cpg2434.srp.2023.nesic.xml"/>
+            </item>
+            
+            <!-- CPG 2435: Ad monachos -->
+            <item>
+                <IRI>tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:chaptere_ad_monachos_1913</IRI>
+                <name>cpg2435 grc 1913</name>
+                <name>cpg2435 grc gressmann</name>
+                <name>Greek edition of Ad monachos edited by Gressmann</name>
+                <location accessed-when="2023-12-08T22:57:37.9627541-05:00" href="../cpg2435/cpg2435.grc.1913.gressmann.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:chaptere_ad_monachos_dysinger</IRI>
+                <name>cpg2435 eng 1990</name>
+                <name>cpg2435 eng dysinger</name>
+                <name>English translation of Ad monachos by Dysinger</name>
+                <location accessed-when="2023-12-08T22:57:48.7933891-05:00" href="../cpg2435/cpg2435.grc.1990.dysinger.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:ad_monachos_2012</IRI>
+                <name>cpg2435 grc 2012</name>
+                <name>cpg2435 grc joest</name>
+                <name>Greek edition of Ad monachos edited by Joest</name>
+                <location accessed-when="2023-12-08T22:58:01.0770844-05:00" href="../cpg2435/cpg2435.grc.2012.joest.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:sententiae_ad_monachos_1858_lat_logical</IRI>
+                <name>cpg2435 lat 1858 logical</name>
+                <name>cpg2435 lat pg logical</name>
+                <name>Latin translation of Ad monachos published in PG 40, local reference system</name>
+                <location accessed-when="2023-12-09T00:05:45.5798691-05:00" href="../cpg2435/cpg2435.lat.1858.pg.ref-logical.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:sententiae_ad_monachos_1858_lat</IRI>
+                <name>cpg2435 lat 1858 scriptum</name>
+                <name>cpg2435 lat pg scriptum</name>
+                <name>Latin translation of Ad monachos published in PG, local reference system</name>
+                <location accessed-when="2023-12-08T22:58:11.6272013-05:00" href="../cpg2435/cpg2435.lat.1858.pg.ref-scriptum.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2435.srp.2023.nesic</IRI>
+                <name>cpg2435 srp 2023</name>
+                <name>cpg2435 srp nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the Chapters to Monks of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф Монасима у манастирима и заједницама, Евагрије Понтски</name>
+                <location accessed-when="2023-12-08T22:58:22.1776202-05:00" href="../cpg2435/cpg2435.srp.2023.nesic.xml"/>
+            </item>
+            
+            <!-- CPG 2436: Ad virginem -->
+            <item>
+                <IRI>tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:sententiae_ad_virginem_1913</IRI>
+                <name>cpg2436 grc 1913</name>
+                <name>cpg2436 grc gressmann</name>
+                <name>Greek edition of Ad virginem edited by Gressmann</name>
+                <location accessed-when="2023-12-09T12:44:31.343533-05:00" href="../cpg2436/cpg2436.grc.1913.gressmann.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:ad_virginem_2012</IRI>
+                <name>cpg2436 grc 2012</name>
+                <name>cpg2436 grc joest</name>
+                <name>Greek edition of Ad virginem edited by Joest</name>
+                <location accessed-when="2023-12-09T13:24:02.0777182-05:00" href="../cpg2436/cpg2436.grc.2012.joest.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:sententiae_ad_virginem_1858_lat_logical</IRI>
+                <name>cpg2435 lat 1858</name>
+                <name>cpg2435 lat pg</name>
+                <name>Latin translation of Ad virginem published in PG 40, logical reference system</name>
+                <location accessed-when="2023-12-09T14:20:37.3206233-05:00" href="../cpg2436/cpg2436.lat.1858.pg.ref-logical.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:sententiae_ad_virginem_dysinger</IRI>
+                <name>cpg2436 eng 1990</name>
+                <name>cpg2436 eng dysinger</name>
+                <name>English translation of Ad virginem by Dysinger</name>
+                <location accessed-when="2023-12-09T12:44:42.9824022-05:00" href="../cpg2436/cpg2436.grc.1990.dysinger.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2436.srp.2023.nesic</IRI>
+                <name>cpg2436 srp 2023</name>
+                <name>cpg2436 srp nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the Chapters to a Virgin of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф Поука девици, Евагрије Понтски</name>
+                <location accessed-when="2023-12-09T12:44:53.7297976-05:00" href="../cpg2436/cpg2436.srp.2023.nesic.xml"/>
+            </item>
+            
+            
             <!-- CPG 2437: Letters -->
             <item>
                 <IRI>tag:kalvesmaki.com,2014:transcription:cpg2437:syr:frankenberg</IRI>
@@ -412,6 +587,15 @@
                 <location href="../cpg2437/cpg2437.grc.1994.gehin.xml"
                     accessed-when="2020-10-02-04:00"/>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2437.srp.2023.nesic</IRI>
+                <name>cpg2437 srp 2023</name>
+                <name>cpg2437 srp nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the 62 Letters of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф Изабрана писма, Евагрије Понтски</name>
+                <location accessed-when="2023-12-12T00:37:08.5474131-05:00" href="../cpg2437/cpg2437.srp.2023.nesic.xml"/>
+            </item>
+            
             
             <!-- CPG 2438: Great Letter / Letter to Melania -->
             <item>
@@ -440,63 +624,6 @@
                 <location href="../cpg2438/cpg2438.syr.1964.vitestam.xml"
                     accessed-when="2020-10-02-04:00"/>
             </item>
-            
-            <!-- CPG 2433: Reflections -->
-            <item>
-                <IRI>tag:kalvesmaki.com,2014:Evagrius_Reflections_Dysinger</IRI>
-                <name>cpg2433 eng 1990</name>
-                <name>cpg2433 eng Dysinger</name>
-                <name xml:lang="eng">English translation of Reflections (Skemmata) by Dysinger</name>
-                <location accessed-when="2022-02-17T02:06:57.040276-05:00" href="../cpg2433/cpg2433.eng.1990.dysinger.xml"/>
-            </item>
-            <item>
-                <IRI>tag:kalvesmaki.com,2014:Evagrius_Reflections_Suarez</IRI>
-                <name>cpg2433 lat 1673</name>
-                <name>cpg2433 lat Suarez</name>
-                <name xml:lang="eng">Latin translation of Reflections (Skemmata/Capita Cognoscitiva) by Jos. Maria Suarez as edited by Muyldermans</name>
-                <location accessed-when="2022-02-17T02:06:57.040276-05:00" href="../cpg2433/cpg2433.lat.1673.suarez.1931.muyldermans.xml"/>
-            </item>
-            
-            <item>
-                <IRI>tag:kalvesmaki.com,2014:Evagrius_Skemmata_Muyldermans-1931-barb-gr-515</IRI>
-                <name>cpg2433 grc 1931 Barb Gr 515</name>
-                <name xml:lang="eng">Fragments of the Reflections (Skemmata) preserved in Barb. Gr.
-                    515, edited by Muyldermans</name>
-                <location accessed-when="2022-02-17T02:09:37.098645-05:00"
-                    href="../cpg2433/cpg2433.grc.1931.muyldermans.barb-gr-515.xml"/>
-            </item>
-            <item>
-                <IRI>tag:kalvesmaki.com,2014:Evagrius_Skemmata_Muyldermans-1931-paris-gr-1055</IRI>
-                <name>cpg2433 grc 1931 Paris Gr 1055</name>
-                <name xml:lang="eng">Fragments of the Reflections (Skemmata) preserved in Paris. Gr.
-                    1055, edited by Muyldermans</name>
-                <location accessed-when="2022-02-17T02:09:37.098645-05:00"
-                    href="../cpg2433/cpg2433.grc.1931.muyldermans.paris-gr-1055.xml"/>
-            </item>
-            <item>
-                <IRI>tag:kalvesmaki.com,2014:Evagrius_Skemmata_Muyldermans-1931-paris-gr-3098</IRI>
-                <name>cpg2433 grc 1931 Paris Gr 3098</name>
-                <name xml:lang="eng">Fragments of the Reflections (Skemmata) preserved in Paris. Gr.
-                    3098, collated with Paris. supp. gr. 870, edited by Muyldermans</name>
-                <location accessed-when="2022-02-17T02:07:45.067665-05:00"
-                    href="../cpg2433/cpg2433.grc.1931.muyldermans.paris-gr-3098.xml"/>
-            </item>
-            <item>
-                <IRI>tag:kalvesmaki.com,2014:Evagrius_Skemmata_Muyldermans-1931-paris-gr-913</IRI>
-                <name>cpg2433 grc 1931 Paris Gr 913</name>
-                <name xml:lang="eng">Fragments of the Reflections (Skemmata) preserved in Paris. Gr.
-                    913, collated with Paris. gr. 3098, edited by Muyldermans</name>
-                <location accessed-when="2022-02-17T02:10:32.518228-05:00"
-                    href="../cpg2433/cpg2433.grc.1931.muyldermans.paris-gr-913.xml"/>
-            </item>
-            <item>
-                <IRI>tag:kalvesmaki.com,2014:Evagrius_Skemmata_Sinkewicz_2003</IRI>
-                <name>cpg2433 grc 2003</name>
-                <name>cpg2433 grc Sinkewicz</name>
-                <name xml:lang="eng">Fragments of the Reflections (Skemmata) documented by Sinkewicz in his 2003 translation</name>
-                <location accessed-when="2022-02-17T02:11:13.910407-05:00" href="../cpg2433/cpg2433.grc.2003.sinkewicz.xml"/>
-            </item>
-            
             
             <!-- CPG 2439: Epistula fidei -->
             <item>
@@ -562,6 +689,15 @@
                 <location href="../cpg2439/cpg2439.grc.1912.frankenberg.tan-tei.xml"
                     accessed-when="2020-10-03-04:00"/>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2439.srp.2023.nesic</IRI>
+                <name>cpg2439 srp 2023</name>
+                <name>cpg2439 srp Nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the Dogmatic Letter of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф Писмо о вери и оправдање Кесаријцима због одласка, Евагрије Понтски</name>
+                <location accessed-when="2023-12-12T00:40:57.9326773-05:00" href="../cpg2439/cpg2439.srp.2023.nesic.xml"/>
+            </item>
+            
             
             
             <!-- CPG 2441: Hypotyposis -->
@@ -572,15 +708,58 @@
                 <name>Evagrius of Pontus, Hypotyposis, Greek</name>
                 <location href="../cpg2441/cpg2441.grc.1858.pg40.xml" accessed-when="2018-06-03-04:00"/>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:transcription:cpg2441:lat:PG</IRI>
+                <name>cpg2441 lat 1858</name>
+                <name>cpg2441 lat PG 40</name>
+                <name>Evagrius of Pontus, Hypotyposis, Latin</name>
+                <location accessed-when="2023-12-13T23:58:01.1772072-05:00" href="../cpg2441/cpg2441.lat.1858.pg40.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2441.srp.2023.nesic</IRI>
+                <name>cpg2441 srp 2023</name>
+                <name>cpg2441 srp Nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the Hypotyposis or Principles of the Monastic Life of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф Основе или темељи монашког живота и излагање начина тиховања, Евагрије Понтски</name>
+                <location accessed-when="2023-12-12T00:44:51.9537054-05:00" href="../cpg2441/cpg2441.srp.2023.nesic.xml"/>
+            </item>
+            
+            
             <!-- CPG 2442: 33 Chapters -->
             <item>
                 <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:logical</IRI>
                 <name>cpg2442 grc 1858</name>
                 <name>cpg2442 grc PG 40</name>
+                <name>cpg2442 grc 1858 logical</name>
+                <name>cpg2442 grc PG 40 logical</name>
                 <name>Greek text of Evagrius Ponticus, 33 Chapters from the Patrologia Graeca, logical
                     reference system</name>
                 <location href="../cpg2442/cpg2442.grc.1858.pg.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:scriptum</IRI>
+                <name>cpg2442 grc 1858 scriptum</name>
+                <name>cpg2442 grc PG 40 scriptum</name>
+                <name>Greek text of Evagrius Ponticus, Capitula xxxiii from the Patrologia Graeca, scriptum
+                    reference system</name>
+                <location accessed-when="2023-12-14T22:55:42.1952391-05:00" href="../cpg2442/cpg2442.grc.1858.pg.ref-scriptum.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2442:lat:logical</IRI>
+                <name>cpg2442 lat 1858 logical</name>
+                <name>cpg2442 lat PG 40 logical</name>
+                <name>Latin translation of Evagrius Ponticus, 33 Chapters from the Patrologia Graeca, logical reference system</name>
+                <location accessed-when="2023-12-14T22:56:21.0395675-05:00" href="../cpg2442/cpg2442.lat.1858.pg.ref-logical.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2442.srp.2023.nesic</IRI>
+                <name>cpg2442 srp 2023</name>
+                <name>cpg2442 srp Nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the Thirty-Three Chapters of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф Тридесет три везана поглавља, Евагрије Понтски</name>
+                <location accessed-when="2023-12-14T22:56:29.9915484-05:00" href="../cpg2442/cpg2442.srp.2023.nesic.xml"/>
+            </item>
+            
 
             <!-- CPG 2443: Maxims 1 -->
             <item>
@@ -601,6 +780,30 @@
                 <name>cpg2443 grc 1931</name>
                 <location accessed-when="2022-12-26T16:28:46.3994862-05:00" href="../cpg2443/cpg2443.grc.1931.muyldermans.paris-gr-1055.xml"/>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2443.srp.2023.nesic</IRI>
+                <name>cpg2443 srp 2023</name>
+                <name>cpg2443 srp nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the Paraeneticus of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф Поглавља и поуке, Евагрије Понтски</name>
+                <location accessed-when="2023-12-14T23:02:45.8052719-05:00" href="../cpg2443/cpg2443.srp.2023.nesic.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Maxims1_PG_grc</IRI>
+                <name>cpg2443 grc 1858</name>
+                <name>cpg2443 grc PG 79</name>
+                <name xml:lang="eng">Greek Fragments of Maxims I (Sent. alph. I) published in PG 79:1250-52</name>
+                <location accessed-when="2023-12-15T00:33:28.140619-05:00" href="../cpg2443/cpg2443.grc.1863.pg.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Maxims1_PG_lat</IRI>
+                <name>cpg2443 lat 1858</name>
+                <name>cpg2443 lat PG 79</name>
+                <name xml:lang="eng">Latin translation of Maxims I (Sent. alph. I) published in PG 79:1250-52</name>
+                <location accessed-when="2023-12-15T00:33:50.4614067-05:00" href="../cpg2443/cpg2443.lat.1863.pg.xml"/>
+            </item>
+            
+            
             
             <!-- CPG 2444: Maxims 2 -->
             <item>
@@ -615,6 +818,29 @@
                 <name>cpg2444 grc 1892</name>
                 <location accessed-when="2022-12-26T16:28:34.2607495-05:00" href="../cpg2444/cpg2444.grc.1892.elter.xml"/>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2444.srp.2023.nesic</IRI>
+                <name>cpg2444 srp 2023</name>
+                <name>cpg2444 srp Nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the Spiritual Chapters Alphabetized of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф Изреке према азбучном редоследу, Евагрије Понтски</name>
+                <location accessed-when="2023-12-14T23:05:08.842158-05:00" href="../cpg2444/cpg2444.srp.2023.nesic.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Maxims2_pg_grc</IRI>
+                <name>cpg2444 grc 1858</name>
+                <name>cpg2444 grc PG 40</name>
+                <name xml:lang="eng">Greek Fragments of Maxims II (Sent. alph. II) published in PG 40:1268-69</name>
+                <location accessed-when="2023-12-15T00:35:58.9509046-05:00" href="../cpg2444/cpg2444.grc.1858.pg40.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Maxims2_pg_lat</IRI>
+                <name>cpg2444 lat 1858</name>
+                <name>cpg2444 lat PG 40</name>
+                <name xml:lang="eng">Latin translation of Maxims II (Sent. alph. II) published in PG 40:1268-69</name>
+                <location accessed-when="2023-12-15T00:36:08.3345798-05:00" href="../cpg2444/cpg2444.lat.1858.pg40.xml"/>
+            </item>
+            
             
             <!-- CPG 2445: Maxims 3 -->
             <item>
@@ -636,9 +862,38 @@
                 <location accessed-when="2022-12-26T18:26:10.7650145-05:00"
                     href="../cpg2445/cpg2445.grc.1931.muyldermans.paris-gr-1055.xml"/>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2445.srp.2023.nesic</IRI>
+                <name>cpg2445 srp 2023</name>
+                <name>cpg2445 srp Nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the Assorted Chapters of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф Друге изреке, Евагрије Понтски</name>
+                <location accessed-when="2023-12-15T00:32:22.8404196-05:00" href="../cpg2445/cpg2445.srp.2023.nesic.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Maxims3_pg40_grc</IRI>
+                <name>cpg2445 grc 1858</name>
+                <name>cpg2445 grc PG 40</name>
+                <name xml:lang="eng">Greek Fragments of Maxims III (Aliae Sententiae) published in PG 40:1269</name>
+                <location accessed-when="2023-12-15T00:36:23.5603305-05:00" href="../cpg2445/cpg2445.grc.1858.pg40.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Maxims3_pg40_lat</IRI>
+                <name>cpg2445 lat 1858</name>
+                <name>cpg2445 lat PG 40</name>
+                <name xml:lang="eng">Latin translation of Maxims III (Aliae Sententiae) published in PG 40:1269</name>
+                <location accessed-when="2023-12-15T00:36:33.413609-05:00" href="../cpg2445/cpg2445.lat.1858.pg40.xml"/>
+            </item>
             
             
             <!-- CPG 2447: To Eulogios -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2447.grc.2018.fogielman</IRI>
+                <name>cpg2447 grc 2018</name>
+                <name>cpg2447 grc Fogielman</name>
+                <name xml:lang="eng">C.-A. Fogielman's Greek edition of Ad Eulogium</name>
+                <location accessed-when="2023-12-27T10:42:11.4056151-05:00" href="../cpg2447/cpg2447.grc.2018.fogielman.xml"/>
+            </item>
             <item>
                 <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg2447:logical</IRI>
                 <name>cpg2447 grc 1858</name>
@@ -647,6 +902,66 @@
                     system</name>
                 <location href="../cpg2447/cpg2447.grc.1858.pg.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg2447:logical-fogielman</IRI>
+                <name>cpg2447 grc 1858 ref fogielman</name>
+                <name>cpg2447 grc PG 40 ref fogielman</name>
+                <name>Greek text of Tractatus ad Eulogium from the Patrologia Graeca, logical reference
+                    system used in Fogielman's critical edition</name>
+                <location accessed-when="2023-12-27T10:57:48.0550341-05:00" href="../cpg2447/cpg2447.grc.1858.pg.ref-fogielman.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg2447:scriptum</IRI>
+                <name>cpg2447 grc 1858 scriptum</name>
+                <name>cpg2447 grc PG 40 scriptum</name>
+                <name>Greek text of Tractatus ad Eulogium from the Patrologia Graeca, scriptum reference
+                    system</name>
+                <location accessed-when="2023-12-15T00:48:03.9343789-05:00" href="../cpg2447/cpg2447.grc.1858.pg.ref-scriptum.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2447.srp.2023.nesic</IRI>
+                <name>cpg2447 srp 2023</name>
+                <name>cpg2447 srp Nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the Treatise to the Monk Eulogius or To Eulogius on the Confession of
+                    Thoughts and Counsel in Their Regard of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф Евлогију монаху, Евагрије Понтски</name>
+                <location accessed-when="2023-12-15T00:48:16.8442033-05:00" href="../cpg2447/cpg2447.srp.2023.nesic.xml"/>
+            </item>
+
+
+            <!-- CPG 2448: Vices and Virtues -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2448.grc.2018.fogielman</IRI>
+                <name>cpg2448 grc 2018</name>
+                <name>cpg2448 grc Fogielman</name>
+                <name xml:lang="eng">C.-A. Fogielman's Greek edition of Vices and Virtues, (preferred) recension B</name>
+                <location accessed-when="2023-12-27T10:43:36.3480192-05:00" href="../cpg2448/cpg2448.grc.2018.fogielman.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2448.grc.2018.fogielman.rescension_a1</IRI>
+                <name>cpg2448 grc a1 2018</name>
+                <name>cpg2448 grc a1 Fogielman</name>
+                <name xml:lang="eng">C.-A. Fogielman's Greek edition of Vices and Virtues, recension A (mutilated)</name>
+                <location accessed-when="2023-12-27T10:43:47.8868819-05:00" href="../cpg2448/cpg2448.grc.2018.fogielman.a1.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2448.grc.2018.fogielman.rescension_a2</IRI>
+                <name>cpg2448 grc a2 2018</name>
+                <name>cpg2448 grc a2 Fogielman</name>
+                <name xml:lang="eng">C.-A. Fogielman's Greek edition of Vices and Virtues, recension B (revised)</name>
+                <location accessed-when="2023-12-27T10:43:57.629502-05:00" href="../cpg2448/cpg2448.grc.2018.fogielman.a2.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2448.srp.2023.nesic</IRI>
+                <name>cpg2448 srp 2023</name>
+                <name>cpg2448 srp Nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the On the Vices Opposed to the Virtues of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф О пороцима који се супротстављају врлинама, Евагрије Понтски</name>
+                <location accessed-when="2023-12-27T10:44:07.5216672-05:00" href="../cpg2448/cpg2448.srp.2023.nesic.xml"/>
+            </item>
+            
+            
+            
             <!-- CPG 2449: Masters and Disciples -->
             <item>
                 <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2449:grc:1908:logical</IRI>
@@ -678,6 +993,8 @@
                 <name>Latin text of Van Den Ven's 1907 edition, scriptum-based reference system</name>
                 <location href="../cpg2449/cpg2449.lat.1908.van-den-ven.ref-scriptum.xml" accessed-when="2018-06-03-04:00"/>
             </item>
+            
+            
             <!-- CPG 2450: On Evil Thoughts -->
             <item>
                 <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1858:ref-logical-after-1998</IRI>
@@ -695,6 +1012,124 @@
                     reference system</name>
                 <location href="../cpg2450/cpg2450.grc.1863.pg.ref-logical-after-1998.xml" accessed-when="2018-06-03-04:00"/>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2450.srp.2023.nesic</IRI>
+                <name>cpg2450 srp 2023</name>
+                <name>cpg2450 srp Nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the On the [Evil] Thoughts of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф О различитим злим помислима, Евагрије Понтски</name>
+                <location accessed-when="2023-12-28T17:24:15.855181-05:00" href="../cpg2450/cpg2450.srp.2023.nesic.xml"/>
+            </item>
+            
+            
+
+            <!-- CPG 2451: Eight Thoughts -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2451:grc:1863:ref-logical</IRI>
+                <name>cpg2451 grc 1863 logical</name>
+                <name>cpg2451 grc PG 79 logical</name>
+                <name>Greek text of cpg 2451 from the Patrologia Graeca, logical reference system</name>
+                <location accessed-when="2023-12-11T11:43:47.8510802-05:00" href="../cpg2451/cpg2451.grc.1863.ref-logical.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2451:grc:1863:ref-scriptum</IRI>
+                <name>cpg2451 grc 1863 scriptum</name>
+                <name>cpg2451 grc PG 79 scriptum</name>
+                <name>Greek text of cpg 2451 from the Patrologia Graeca, scriptum reference system</name>
+                <location accessed-when="2023-12-11T11:44:20.7789723-05:00" href="../cpg2451/cpg2451.grc.1863.ref-scriptum.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2451:lat:1863:ref-logical</IRI>
+                <name>cpg2451 lat 1863 logical</name>
+                <name>cpg2451 lat PG 79 logical</name>
+                <name>Latin translation of cpg 2451 from the Patrologia Graeca, logical reference system</name>
+                <location accessed-when="2023-12-11T11:44:31.4244842-05:00" href="../cpg2451/cpg2451.lat.1863.ref-logical.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2451.srp.2023.nesic</IRI>
+                <name>cpg2451 srp 2023</name>
+                <name>cpg2451 srp Nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the The Eight Spirits of Wickedness of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф О осам порочних духова, Евагрије Понтски</name>
+                <location accessed-when="2023-12-11T11:44:42.3412723-05:00" href="../cpg2451/cpg2451.srp.2023.nesic.xml"/>
+            </item>
+            
+            
+            <!-- CPG 2452: On Prayer -->
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_OnPrayer_eng_Dysinger.TAN-TEI</IRI>
+                <name>cpg2452 eng 1990</name>
+                <name>cpg2452 eng dysinger</name>
+                <name xml:lang="eng">Luke Dysinger's English translation of the Praktikos of Evagrios Pontikos</name>
+                <location accessed-when="2023-12-12T00:03:12.576361-05:00" href="../cpg2452/cpg2452.eng.1990.dysinger.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2452:grc:1863:ref-logical</IRI>
+                <name>cpg2452 grc 1863 logical</name>
+                <name>cpg2452 grc PG 79 logical</name>
+                <name>Greek text of cpg 2452 from the Patrologia Graeca, logical reference system</name>
+                <location accessed-when="2023-12-12T00:03:22.987467-05:00" href="../cpg2452/cpg2452.grc.1863.ref-logical.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2452:grc:1863:ref-scriptum</IRI>
+                <name>cpg2452 grc 1863 scriptum</name>
+                <name>cpg2452 grc PG 79 scriptum</name>
+                <name>Greek text of cpg 2452 from the Patrologia Graeca, scriptum reference system</name>
+                <location accessed-when="2023-12-12T00:03:33.2572727-05:00" href="../cpg2452/cpg2452.grc.1863.ref-scriptum.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2452:grc:2017:géhin</IRI>
+                <name>cpg2452 grc 2017</name>
+                <name>cpg2452 grc géhin</name>
+                <name>Greek text of cpg 2452 from the edition of Géhin, logical reference system</name>
+                <location accessed-when="2023-12-12T00:03:43.0047323-05:00" href="../cpg2452/cpg2452.grc.2017.g%C3%A9hin.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2452:lat:1863:ref-logical</IRI>
+                <name>cpg2452 lat 1863 logical</name>
+                <name>cpg2452 lat PG 79 logical</name>
+                <name>Latin translation of the Greek text of cpg 2452 from the Patrologia Graeca, logical reference system</name>
+                <location accessed-when="2023-12-12T00:03:52.5866405-05:00" href="../cpg2452/cpg2452.lat.1863.ref-logical.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2452.srp.2023.nesic</IRI>
+                <name>cpg2452 srp 2023</name>
+                <name>cpg2452 srp nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the On Prayer of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф О молитви, Евагрије Понтски</name>
+                <location accessed-when="2023-12-12T00:04:02.3405198-05:00" href="../cpg2452/cpg2452.srp.2023.nesic.xml"/>
+            </item>
+            
+            
+            
+            
+            <!-- CPG 2454: Counsel to Monks -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2454.grc.2012.joest</IRI>
+                <name>cpg2454 grc 2012</name>
+                <name>cpg2454 grc Joest</name>
+                <name xml:lang="eng">Christof Joest's Greek edition of the Counsel to Monks of Evagrios Pontikos</name>
+                <location accessed-when="2023-12-08T17:37:01.0841798-05:00" href="../cpg2454/cpg2454.grc.2012.joest.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki@gmail.com,2014:tan-t:greek-lit:evagrius:exhortations_to_monks_dysinger</IRI>
+                <name>cpg2454 eng 1990</name>
+                <name>cpg2454 eng Dysinger</name>
+                <name>English translation of Counsel to Monks by Dysinger</name>
+                <location accessed-when="2023-12-11T23:56:25.7307136-05:00" href="../cpg2454/cpg2454.eng.1990.dysinger.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2454.srp.2023.nesic</IRI>
+                <name>cpg2454 srp 2023</name>
+                <name>cpg2454 srp Nesic</name>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the Counsel to Monks of Evagrios Pontikos</name>
+                <name xml:lang="srp">Лазар Нешић, превод оф Поуке монасима, Евагрије Понтски</name>
+                <location accessed-when="2023-12-08T17:37:38.6298347-05:00" href="../cpg2454/cpg2454.srp.2023.nesic.xml"/>
+            </item>
+            
+            
 
             <!-- CPG 2455: Scholia on Psalms -->
             <item>
@@ -919,6 +1354,40 @@
                 <desc>Hyphens and en dashes that are meant to function as em dashes have been
                     normalized to em dashes, with space closed up as specified by the Chicago Manual
                     of Style.</desc>
+            </item>
+        </group>
+        <group affects-element="div-type">
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:div-type:letter:sender</IRI>
+                <name>sender</name>
+                <name>sender of letter</name>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:div-type:cpg2434:book-reference</IRI>
+                <name>book reference</name>
+                <name>book ref</name>
+                <desc>Reference to one or more books of the Bible in the Antirrhetikos</desc>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:div-type:cpg2434:situation</IRI>
+                <name>situation</name>
+                <desc>Description of a tempting moment in the Antirrhetikos</desc>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:div-type:cpg2434:scripture</IRI>
+                <name>scripture quotation</name>
+                <name>scripture</name>
+                <desc>Quotation from Scripture in the Antihhretikos</desc>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:div-type:letter:recipient</IRI>
+                <name>recipient</name>
+                <name>recipient of letter</name>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:div-type:admonition</IRI>
+                <name>admonition</name>
+                <desc>Specific to CPG 2454.</desc>
             </item>
         </group>
     </body>

@@ -14,13 +14,15 @@
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2020-07-18"/>
       </vocabulary>
       <source accessed-when="2020-11-01" xml:id="grc-pg" which="cpg2441 grc PG 40"/>
+      <source accessed-when="2020-11-01" xml:id="lat-pg" which="cpg2441 lat PG 40"/>
+      <source accessed-when="2020-11-01" xml:id="nesic" which="cpg2441 srp nesic"/>
       <vocabulary-key>
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
             <name>Converter from TAN 2018 to TAN 2020</name>
             <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-06-16T06:59:55.776-04:00"/>
          </algorithm>
-         <alias idrefs="grc-pg" id="Greek"/>
+         <alias idrefs="grc-pg lat-pg nesic" id="Greek"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
       <resp who="xslt1" roles="stylesheet"/>
@@ -34,5 +36,5 @@
          <comment when="2020-07-18" who="kalvesmaki">Identify, add other transcriptions</comment>
       </to-do>
    </head>
-   <body claimant="xslt1"/>
+   <body claimant="kalvesmaki"/>
 </TAN-A>

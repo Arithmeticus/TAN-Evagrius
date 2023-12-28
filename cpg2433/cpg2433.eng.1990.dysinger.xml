@@ -26,7 +26,7 @@
       <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
     </vocabulary>
     
-    <source which="Dysinger 1990"/>
+    <source which="Dysinger_1990"/>
     <adjustments>
       <normalization>
         <IRI>tag:kalvesmaki.com,2014:normalization-small-caps-off</IRI>

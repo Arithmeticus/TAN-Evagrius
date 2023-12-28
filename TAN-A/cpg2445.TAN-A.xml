@@ -12,15 +12,20 @@
       
       <source xml:id="Elter" which="cpg2445_grc_Elter" accessed-when="2022-12-26"/>
       <source xml:id="Muyldermans" which="cpg2445 grc Muyldermans" accessed-when="2022-12-26"/>
+      <source xml:id="grc-PG" which="cpg2445 grc PG 40" accessed-when="2023-12-14"/>
+      <source xml:id="lat-PG" which="cpg2445 lat PG 40" accessed-when="2023-12-14"/>
       <source xml:id="Dysinger" which="cpg2445_eng_Dysinger" accessed-when="2022-12-26"/>
-      
+      <source xml:id="Nesic" which="cpg2445 srp nesic" accessed-when="2023-12-13"/>
       
       
       <vocabulary-key>
-         <alias xml:id="cpg2445" idrefs="Greek"/>
+         <alias xml:id="cpg2445" idrefs="Greek Latin English Serbian"/>
          
-         <alias xml:id="Greek" idrefs="Elter Muyldermans Dysinger"/>
-
+         <alias xml:id="Greek" idrefs="Elter Muyldermans grc-PG"/>
+         <alias xml:id="Latin" idrefs="lat-PG"/>
+         <alias xml:id="English" idrefs="Dysinger"/>
+         <alias xml:id="Serbian" idrefs="Nesic"/>
+         
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
       <file-resp who="kalvesmaki"/>

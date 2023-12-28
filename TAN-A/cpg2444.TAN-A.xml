@@ -11,15 +11,20 @@
       </vocabulary>
       
       <source xml:id="Elter" which="cpg2444_grc_Elter" accessed-when="2022-12-26"/>
+      <source xml:id="grc-PG" which="cpg2444 grc PG 40" accessed-when="2023-12-14"/>
+      <source xml:id="lat-PG" which="cpg2444 lat PG 40" accessed-when="2023-12-14"/>
       <source xml:id="Dysinger" which="cpg2444_eng_Dysinger" accessed-when="2022-12-26"/>
-      
+      <source xml:id="Nesic" which="cpg2444 srp nesic" accessed-when="2023-12-13"/>
       
       
       <vocabulary-key>
-         <alias xml:id="cpg2444" idrefs="Greek"/>
+         <alias xml:id="cpg2444" idrefs="Greek Latin English Serbian"/>
          
-         <alias xml:id="Greek" idrefs="Elter Dysinger"/>
-
+         <alias xml:id="Greek" idrefs="Elter grc-PG"/>
+         <alias xml:id="Latin" idrefs="lat-PG"/>
+         <alias xml:id="English" idrefs="Dysinger"/>
+         <alias xml:id="Serbian" idrefs="Nesic"/>
+         
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
       <file-resp who="kalvesmaki"/>

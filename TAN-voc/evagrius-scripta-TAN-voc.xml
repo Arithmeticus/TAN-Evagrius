@@ -179,6 +179,25 @@
          <desc>Bacht, Heinrich. “Evagrios Pontikos.”  In Grosse Mystiker: Leben und Wirken, pp. 36–50. Munich: C. H. Beck, 1984. </desc>
       </item>
       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:badilita-1997</IRI>
+         <name>Evagrius Ponticus and Bădiliţă 1997</name>
+         <name>badilita 1997</name>
+         <desc>Evagrius Ponticus. Tratatul practic-Gnosticul. Translated by Cristian Bădiliţă. 1st ed. Polirom: Iași, 1997.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:badilita-2003</IRI>
+         <name>Evagrius Ponticus and Bădiliţă 2003</name>
+         <name>badilita 2003</name>
+         <desc>Evagrius Ponticus. Tratatul practic-Gnosticul. Translated by Cristian Bădiliţă. 2nd ed. Polirom: Iași, 2003.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:badilita-2009</IRI>
+         <name>Evagrius Ponticus and Bădiliţă 2009</name>
+         <name>badilita 2009</name>
+         <desc>Evagrius Ponticus. Tratatul practic-Gnosticul. Translated by Cristian Bădiliţă. Stiinta si Religie. Bucurest: Curtea Veche, 2009.</desc>
+      </item>
+       
+      <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:bady-tchernetska-2002</IRI>
          <name>Bady and Tchernetska 2002</name>
          <name>bady tchernetska 2002</name>
@@ -1374,7 +1393,13 @@
          <name>evagrius driscoll 2003</name>
          <desc>Evagrius Ponticus. Evagrius Ponticus: Ad monachos. Translated by Jeremy Driscoll. Ancient Christian Writers 59. New York: Newman Press, 2003. </desc>
       </item>
-      <item>
+       <item>
+          <IRI>tag:evagriusponticus.net,2012:scriptum:evagrius-ica-2006</IRI>
+          <name>Evagrius Ponticus and Ică 2006</name>
+          <name>evagrius ica 2006</name>
+          <desc>Evagrius Ponticus. În luptă cu gândurile: Despre cele opt gânduri ale răutății și Replici împotriva lor. Translated by Ioan I. Ică. Sibiu: Deisis, 2006.</desc>
+       </item>
+       <item>
          <IRI>urn:isbn:978-3-451-30956-4</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:evagrius-joest-2012</IRI>
          <name>Evagrius Ponticus and Joest 2012</name>
@@ -3127,6 +3152,11 @@
          <IRI>tag:evagriusponticus.net,2012:scriptum:nešić-2014</IRI>
          <name>Nešić 2014</name>
          <desc>Nešić, Lazar. “Евагрије Понтски: Монасима у манастирима и заједницама (Εὐαγρίου Ποντικοῦ: Πρὸς τοὺς ἐν κοινοβίοις ἢ συνοδίαις μοναχούς) - превод (translation).” Theological Views 47, no. 1 (2014): 13–32.academia.edu</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:nešić-2024</IRI>
+         <name>Nešić 2024</name>
+         <desc>Evagrius Ponticus, and Lazar Nešić. Аскетска дела и писма. Beseda, Diocese Backa: Novi Sad, 2024.</desc>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:niculescu-2004</IRI>

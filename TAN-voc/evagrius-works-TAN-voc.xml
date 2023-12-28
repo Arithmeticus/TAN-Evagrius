@@ -491,6 +491,7 @@
             <IRI>tag:evagriusponticus.net,2015:tlg4110.008</IRI>
             <name>Ad virg.</name>
             <name>Ad virg</name>
+            <name>Ad virginem</name>
             <name>Virgin</name>
             <name xml:lang="grc">Παραίνεσις πρὸς παρθένον</name>
             <name xml:lang="eng">Chapters to a Virgin</name>
@@ -799,6 +800,21 @@
                 from vainglory, (8) jealousy vesus freedom from jealousy, (9) pride versus humility.
                 This departs from the traditional eight vices, because Evagrius inserts jealousy
                 (recurs in CPG 2447).</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2448:version:grcA1</IRI>
+            <name>Greek recension A1 of Vices</name>
+            <name>cpg2448-grc-a1</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2448:version:grcA2</IRI>
+            <name>Greek recension A2 of Vices</name>
+            <name>cpg2448-grc-a2</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2448:version:grcB</IRI>
+            <name>Greek recension B of Vices</name>
+            <name>cpg2448-grc-b</name>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2448:version:syr</IRI>

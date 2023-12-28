@@ -13,14 +13,21 @@
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
+      
       <source accessed-when="2020-11-01" xml:id="grc-pg" which="cpg2442 grc PG 40"/>
+      <source accessed-when="2023-12-13" xml:id="lat-pg" which="cpg2442 lat PG 40 logical"/>
+      <source accessed-when="2023-12-13" xml:id="nesic" which="cpg2442 srp nesic"/>
+      
       <vocabulary-key>
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
             <name>Converter from TAN 2018 to TAN 2020</name>
             <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-06-16T06:59:58.3-04:00"/>
          </algorithm>
+         <alias xml:id="cpg2442" idrefs="Greek Latin Serbian"/>
          <alias idrefs="grc-pg" id="Greek"/>
+         <alias xml:id="Latin" idrefs="lat-pg"/>
+         <alias xml:id="Serbian" idrefs="nesic"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
       <resp who="xslt1" roles="stylesheet"/>
