@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-A-lm.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-A-lm.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A-lm xmlns="tag:textalign.net,2015:ns"
+          TAN-version="2021"
+          id="tag:kalvesmaki.com,2014:tan-a-lm:evagrius:tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG"><!-- fix @id -->
+   <head>
+      <name>Lexico-morphological data for: Evagrius of Pontus, Hypotyposis, Greek</name>
+      <!-- fix name -->
+      <license which="by 4.0" licensor="kalvesmaki"/>
+      <token-definition which="letters and apostrophes"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+      </vocabulary>
+      <source>
+         <IRI>tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG</IRI>
+         <name>Evagrius of Pontus, Hypotyposis, Greek</name>
+         <location accessed-when="2021-04-11" href="../cpg2441/cpg2441.grc.1858.pg40.xml"/>
+      </source>
+      <vocabulary-key>
+         <algorithm xml:id="xslt2">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
+            <name>Converter from TAN 2018 to TAN 2020</name>
+            <location href="../../../TAN-2021/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl"
+                      accessed-when="2019-06-16T21:59:40.501-04:00"/>
+         </algorithm>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:create-tan-a-lm</IRI>
+            <name>Stylesheet to create a TAN file.</name>
+            <name>TAN-A-lm builder</name>
+            <desc>Stylesheet at: ../../do%20things/create/create%20TAN-A-lm.xsl</desc>
+            <location href="../../../TAN-2021/applications/create/create%20TAN-A-lm.xsl"
+                      accessed-when="2019-06-16"/>
+            <location href="../../../TAN-2021/applications/create/create%20TAN-A-lm%20-%20Copy.xsl"
+                      accessed-when="2019-06-16"/>
+         </algorithm>
+         <lexicon xml:id="LSJ" which="Liddell-Scott-Jones 9+"/>
+         <morphology xml:id="perseus-dik"
+                     which="Perseus Greek categorized"
+                     accessed-when="2020-07-17"/>
+         <person xml:id="dik" which="Helma Dik"/>
+         <algorithm xml:id="algorithm-1">
+            <IRI>tag:textalign.net,2015:algorithm:org.perseus:tools:morpheus.v1</IRI>
+            <name>Tufts morphology service</name>
+            <location href="http://services.perseids.org/bsp/morphologyservice"
+                      accessed-when="2019-06-16"/>
+         </algorithm>
+         <person which="Joel Kalvesmaki" xml:id="kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="stylesheet" who="xslt1 xslt2"/>
+      <resp roles="source" who="dik algorithm-1"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <resp who="xslt1" roles="stylesheet"/>
+      <change who="xslt1" when="2021-04-25T05:18:40.959-04:00">Generated lexico-morphological data for tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG based on the following sources:
+Morpheus online service
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-bible/lxx.grc.rahlfs.lang-TAN-A-lm.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-bible/nt.grc.sbl-2010.lang-TAN-A-lm.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CE%B1%CF%80%CE%BF%CE%B8.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CE%B3%CE%B5.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CE%B3%CF%85.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CE%B5%CE%B9%CF%81.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CE%B5%CE%BD.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CE%B8%CE%B1.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CE%B8%CF%85.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CE%B9%CE%B5.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CE%BA%CE%B1%CE%B9.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CE%BA%CF%85.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CE%BB%CE%B1.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CE%BB%CE%B5.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CE%BC%CE%B7.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CE%BD%CE%BF.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CE%BF%CF%84.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CF%80%CE%B5%CF%81%CE%B9.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CF%83%CE%B5.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CF%83%CF%85.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CF%84%CE%B1%CE%B4.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CF%84%CE%BF.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CF%84%CF%89.xml
+file:/E:/Joel/Dropbox/TAN/library-lm/grc/lm-perseus/grc-tan-a-lm-%CF%85%CE%B9.xml</change>
+      <change who="xslt1" when="2018-05-19T17:46:01.735-04:00">Created TAN-A-lm from tag:kalvesmaki.com,2014:transcription:cpg2441:grc:PG(file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/evagrius/cpg2441.grc.PG.xml)</change>
+      <change who="xslt2" when="2019-06-16T21:59:40.501-04:00">Converted from 2018 to 2020 schemas.</change>
+      <to-do>
+         <comment who="kalvesmaki" when="2020-02-29">Add &lt;lm&gt; data for 11 tokens</comment>
+         <comment who="kalvesmaki" when="2020-02-29">Fill out empty &lt;m&gt; elements; fix missing links to algorithms</comment>
+      </to-do>
+   </head>
+   <body lexicon="LSJ" morphology="perseus-dik" claimant="xslt2">
+
+         <!--Lexicomorphological data found for 27 tokens-->
+
+
+         <!--23 tokens have ambiguous lexicomorphological data-->
+      <ana>
+         <!--Ἐν θανάτῳ νοσερῷ …. -->
+         <tok val="ἀποθανοῦνται" ref="1"/>
+         <lm cert="0.666666666666666667">
+            <l>ἀποθνήσκω</l>
+            <m cert="0.5">v - 3 p f i m</m>
+            <m cert="0.5">v - - p f i m</m>
+         </lm>
+         <lm cert="0.333333333333333333">
+            <l>ἀποθνῄσκω</l>
+            <m cert="1">v - 3 p f i m</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--τῶν θυγατέρων τῶν … ἐν τῷ τόπῳ-->
+         <tok val="γεννωμένων" ref="1"/>
+         <lm cert="1">
+            <l>γεννάω</l>
+            <m cert="0.266666666666666667">v - - p p p e f g</m>
+            <m cert="0.266666666666666667">v - - p p p e m g</m>
+            <m cert="0.266666666666666667">v - - p p p e n g</m>
+            <m cert="0.2">v - - p p p p m g</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--Ἐν τῷ Ἱερεμίᾳ … τὸ, Καὶ σὺ-->
+         <tok val="εἵρηται" ref="1"/>
+         <lm cert="0.4">
+            <l>εἴρω</l>
+            <m cert="0.5">v - - s a s m</m>
+            <m cert="0.5">v - - s p s e</m>
+         </lm>
+         <lm cert="0.2">
+            <l>ἔρομαι</l>
+            <m cert="1">v - - s p s e</m>
+         </lm>
+         <lm cert="0.2">
+            <l>ἐρῶ</l>
+            <m cert="1">v - - s r i e</m>
+         </lm>
+         <lm cert="0.2">
+            <l>εἴρω2</l>
+            <m cert="1">v - - s p s m</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--… τῷ Ἱερεμίᾳ εἵρηται-->
+         <tok val="Ἐν" ref="1" pos="1"/>
+         <!--τῷ τόπῳ τούτῳ· … θανάτῳ νοσερῷ ἀποθανοῦνται-->
+         <tok val="Ἐν" ref="1" pos="2"/>
+         <lm cert="0.75">
+            <l>ἐν</l>
+            <m cert="1">r</m>
+         </lm>
+         <lm cert="0.25">
+            <l>εἰς</l>
+            <m cert="1">r</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--λάβῃς σεαυτῷ γυναῖκα … τῷ τόπῳ τούτῳ-->
+         <tok val="ἐν" ref="1" pos="1"/>
+         <!--θυγατέρων τῶν γεννωμένων … τῷ τόπῳ τούτῳ-->
+         <tok val="ἐν" ref="1" pos="2"/>
+         <lm cert="0.8">
+            <l>ἐν</l>
+            <m cert="0.875">r</m>
+            <m cert="0.125">d</m>
+         </lm>
+         <lm cert="0.2">
+            <l>εἰς</l>
+            <m cert="1">r</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--τόπῳ τούτῳ· Ἐν … νοσερῷ ἀποθανοῦνται. -->
+         <tok val="θανάτῳ" ref="1"/>
+         <lm cert="1">
+            <l>θάνατος</l>
+            <m cert="0.875">n - - s - - - m d</m>
+            <m cert="0.125">n e - s - - - m d</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--Ἱερεμίᾳ εἵρηται τὸ, … σὺ μὴ λάβῃς-->
+         <tok val="Καὶ" ref="1"/>
+         <lm cert="1">
+            <l>καί</l>
+            <m cert="0.8039860321705858333333333333333333">c</m>
+            <m cert="0.1960139678294141666666666666666667">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--περὶ τῶν υἱῶν … τῶν θυγατέρων τῶν-->
+         <tok val="καὶ" ref="1"/>
+         <lm cert="1">
+            <l>καί</l>
+            <m cert="0.851756127543499148">c</m>
+            <m cert="0.148243872456500852">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--ὅτι τάδε λέγει … περὶ τῶν υἱῶν-->
+         <tok val="Κύριος" ref="1"/>
+         <lm cert="0.7767857142857142857143">
+            <l>κύριος</l>
+            <m cert="0.367816091954022989">n - - s - - - m n</m>
+            <m cert="0.367816091954022989">a - - s - - - m n</m>
+            <m cert="0.183908045977011494">a - - s - - - f n</m>
+            <m cert="0.022988505747126437">a - - s - - - f a</m>
+            <m cert="0.01436781609195402299">a - - s - - - m a</m>
+            <m cert="0.01436781609195402299">a - - s - - - n n</m>
+            <m cert="0.01436781609195402299">a - - s - - - n v</m>
+            <m cert="0.01436781609195402299">a - - s - - - n a</m>
+         </lm>
+         <lm cert="0.142857142857142857">
+            <l>κῦρος</l>
+            <m cert="1">n - - s - - - n g</m>
+         </lm>
+         <lm cert="0.0446428571428571428571">
+            <l>κύριος2</l>
+            <m cert="1">n - - s - - - m a</m>
+         </lm>
+         <lm cert="0.03571428571428571429">
+            <l>κυρέω</l>
+            <m cert="0.5">v - 3 p i i a</m>
+            <m cert="0.5">v - 1 s i i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--Καὶ σὺ μὴ … σεαυτῷ γυναῖκα ἐν-->
+         <tok val="λάβῃς" ref="1"/>
+         <lm cert="1">
+            <l>λαμβάνω</l>
+            <m cert="0.666666666666666667">v - 2 s a s a</m>
+            <m cert="0.333333333333333333">v - - s a s a</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--τούτῳ· ὅτι τάδε … Κύριος περὶ τῶν-->
+         <tok val="λέγει" ref="1"/>
+         <lm cert="0.333333333333333333">
+            <l>λέγω</l>
+            <m cert="0.8333333333333333333">v - 3 s p i a</m>
+            <m cert="0.1666666666666666667">v - 2 s p i e</m>
+         </lm>
+         <lm cert="0.222222222222222222">
+            <l>λέγω1</l>
+            <m cert="0.5">v - - s p i e</m>
+            <m cert="0.5">v - - s p i a</m>
+         </lm>
+         <lm cert="0.222222222222222222">
+            <l>λέγω2</l>
+            <m cert="0.5">v - - s p i e</m>
+            <m cert="0.5">v - - s p i a</m>
+         </lm>
+         <lm cert="0.222222222222222222">
+            <l>λέγω3</l>
+            <m cert="0.5">v - - s p i e</m>
+            <m cert="0.5">v - - s p i a</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--τὸ, Καὶ σὺ … λάβῃς σεαυτῷ γυναῖκα-->
+         <tok val="μὴ" ref="1"/>
+         <lm cert="1">
+            <l>μή</l>
+            <m cert="0.602952232522172473">d</m>
+            <m cert="0.383292941223001272">c</m>
+            <m cert="0.013754826254826255">g</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--τούτῳ· Ἐν θανάτῳ … ἀποθανοῦνται. -->
+         <tok val="νοσερῷ" ref="1"/>
+         <lm cert="1">
+            <l>νοσερός</l>
+            <m cert="0.666666666666666667">a - - s - - - m d</m>
+            <m cert="0.333333333333333333">a - - s - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--τῷ τόπῳ τούτῳ· … τάδε λέγει Κύριος-->
+         <tok val="ὅτι" ref="1"/>
+         <lm cert="0.380952380952380949">
+            <l>ὅστις</l>
+            <m cert="0.375">p - - s - - - n n</m>
+            <m cert="0.375">p - - s - - - n a</m>
+            <m cert="0.0625">p r - s - - - n n</m>
+            <m cert="0.0625">p r - s - - - n a</m>
+            <m cert="0.0624999999999999999">p i - s - - - n n</m>
+            <m cert="0.0624999999999999999">p i - s - - - n a</m>
+         </lm>
+         <lm cert="0.30952380952380953">
+            <l>ὅτι</l>
+            <m cert="0.894899536321483773">c</m>
+            <m cert="0.105100463678516227">d</m>
+         </lm>
+         <lm cert="0.166666666666666665">
+            <l>ὅτι2</l>
+            <m cert="1">c</m>
+         </lm>
+         <lm cert="0.142857142857142856">
+            <l>ὅτι1</l>
+            <m cert="1">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--τάδε λέγει Κύριος … τῶν υἱῶν καὶ-->
+         <tok val="περὶ" ref="1"/>
+         <lm cert="1">
+            <l>περί</l>
+            <m cert="0.875">r</m>
+            <m cert="0.125">d</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--σὺ μὴ λάβῃς … γυναῖκα ἐν τῷ-->
+         <tok val="σεαυτῷ" ref="1"/>
+         <lm cert="0.571428571428571429">
+            <l>σαυτοῦ</l>
+            <m cert="0.5">p - - s - - - m d</m>
+            <m cert="0.5">p - - s - - - n d</m>
+         </lm>
+         <lm cert="0.428571428571428571">
+            <l>σεαυτοῦ</l>
+            <m cert="0.333333333333333333">p p - s - - - m d</m>
+            <m cert="0.333333333333333333">p d - s - - - m d</m>
+            <m cert="0.1666666666666666667">p k - s - - - m d</m>
+            <m cert="0.1666666666666666667">p k - s - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--εἵρηται τὸ, Καὶ … μὴ λάβῃς σεαυτῷ-->
+         <tok val="σὺ" ref="1"/>
+         <lm cert="0.999652777777777778">
+            <l>σύ</l>
+            <m cert="0.624001389371309481">p p - s - - - - n</m>
+            <m cert="0.25008683570684265">p - - s - - - - n</m>
+            <m cert="0.123827717957624181">p s - s - - - - n</m>
+            <m cert="0.000868357068426537">p p - s - - - f n</m>
+            <m cert="0.000868357068426537">p s - s - - - f n</m>
+            <m cert="0.000173671413685307">p p - s - - - - a</m>
+            <m cert="0.000173671413685307">p s - s - - - - a</m>
+         </lm>
+         <lm cert="0.000347222222222222">
+            <l>ἐγώ</l>
+            <m cert="0.5">p p - s - - - - a</m>
+            <m cert="0.5">p s - s - - - - a</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--τόπῳ τούτῳ· ὅτι … λέγει Κύριος περὶ-->
+         <tok val="τάδε" ref="1"/>
+         <lm cert="0.999090081892629663">
+            <l>ὅδε</l>
+            <m cert="0.166120218579234974">p d - p - - - n a</m>
+            <m cert="0.142987249544626594">p - - p - - - n a</m>
+            <m cert="0.142987249544626594">p - - p - - - n n</m>
+            <m cert="0.142987249544626594">p - - d - - - f a</m>
+            <m cert="0.142987249544626594">p - - d - - - f n</m>
+            <m cert="0.142987249544626594">p - - d - - - f v</m>
+            <m cert="0.033151183970856102">p d - p - - - n n</m>
+            <m cert="0.028597449908925319">p d - d - - - f a</m>
+            <m cert="0.028597449908925319">p d - d - - - f n</m>
+            <m cert="0.028597449908925319">p d - d - - - f v</m>
+         </lm>
+         <lm cert="0.000909918107370337">
+            <l>ὁδε</l>
+            <m cert="1">p d - p - - - n a</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--τῷ Ἱερεμίᾳ εἵρηται …, Καὶ σὺ μὴ-->
+         <tok val="τὸ" ref="1"/>
+         <lm cert="0.916638781997657687">
+            <l>ὁ</l>
+            <m cert="0.304303805334401292">p a - s - - - n a</m>
+            <m cert="0.181823712829872996">- a - s - - - n n</m>
+            <m cert="0.181823712829872996">- a - s - - - n v</m>
+            <m cert="0.181823712829872996">- a - s - - - n a</m>
+            <m cert="0.150103373918773849">p a - s - - - n n</m>
+            <m cert="0.000060841128602936">p a - s - - - m a</m>
+            <m cert="0.000030420564301468">p d - s - - - n n</m>
+            <m cert="0.000030420564301468">p d - s - - - n a</m>
+         </lm>
+         <lm cert="0.083333333333333334">
+            <l>ὅς</l>
+            <m cert="0.5">p r - s - - - n n</m>
+            <m cert="0.5">p r - s - - - n a</m>
+         </lm>
+         <lm cert="0.000027884669008979">
+            <l>τό</l>
+            <m cert="1">p a - s - - - n n</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--ἐν τῷ τόπῳ …· ὅτι τάδε λέγει-->
+         <tok val="τούτῳ" ref="1" pos="1"/>
+         <!--ἐν τῷ τόπῳ …· Ἐν θανάτῳ νοσερῷ-->
+         <tok val="τούτῳ" ref="1" pos="2"/>
+         <lm cert="1">
+            <l>οὗτος</l>
+            <m cert="0.358311302048909457">p d - s - - - m d</m>
+            <m cert="0.241688697951090546">p d - s - - - n d</m>
+            <m cert="0.199999999999999998">p - - s - - - m d</m>
+            <m cert="0.199999999999999998">p - - s - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--Ἐν … Ἱερεμίᾳ εἵρηται τὸ-->
+         <tok val="τῷ" ref="1" pos="1"/>
+         <!--σεαυτῷ γυναῖκα ἐν … τόπῳ τούτῳ· ὅτι-->
+         <tok val="τῷ" ref="1" pos="2"/>
+         <!--τῶν γεννωμένων ἐν … τόπῳ τούτῳ· Ἐν-->
+         <tok val="τῷ" ref="1" pos="3"/>
+         <lm cert="0.535668414154652678">
+            <l>ὁ</l>
+            <m cert="0.36047327192134697">p a - s - - - m d</m>
+            <m cert="0.233353314656912527">- a - s - - - m d</m>
+            <m cert="0.233353314656912527">- a - s - - - n d</m>
+            <m cert="0.172648830277006389">p a - s - - - n d</m>
+            <m cert="0.000085634243910794">p a - s - - - n g</m>
+            <m cert="0.000085634243910794">p a - s - - - - d</m>
+         </lm>
+         <lm cert="0.160714285714285717">
+            <l>τίς</l>
+            <m cert="0.777777777777777778">n - - s - - - - d</m>
+            <m cert="0.111111111111111111">p i - s - - - c d</m>
+            <m cert="0.111111111111111111">p i - s - - - n d</m>
+         </lm>
+         <lm cert="0.142880078636959374">
+            <l>τῷ</l>
+            <m cert="0.999839475313596441">d</m>
+            <m cert="0.000160524686403559">p a - s - - - m d</m>
+         </lm>
+         <lm cert="0.125000000000000002">
+            <l>τις</l>
+            <m cert="1">p - - s - - - - d</m>
+         </lm>
+         <lm cert="0.035714285714285715">
+            <l>ὅς</l>
+            <m cert="0.5">p r - s - - - m d</m>
+            <m cert="0.5">p r - s - - - n d</m>
+         </lm>
+         <lm cert="0.000022935779816514">
+            <l>ὅ</l>
+            <m cert="1">p a - s - - - n d</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--λέγει Κύριος περὶ … υἱῶν καὶ τῶν-->
+         <tok val="τῶν" ref="1" pos="1"/>
+         <!--τῶν υἱῶν καὶ … θυγατέρων τῶν γεννωμένων-->
+         <tok val="τῶν" ref="1" pos="2"/>
+         <!--καὶ τῶν θυγατέρων … γεννωμένων ἐν τῷ-->
+         <tok val="τῶν" ref="1" pos="3"/>
+         <lm cert="0.885416666666666667">
+            <l>ὁ</l>
+            <m cert="0.259940183748442948">p a - p - - - m g</m>
+            <m cert="0.188235294117647058">- a - p - - - f g</m>
+            <m cert="0.188235294117647058">- a - p - - - m g</m>
+            <m cert="0.188235294117647058">- a - p - - - n g</m>
+            <m cert="0.105008475120847858">p a - p - - - n g</m>
+            <m cert="0.070247402538429083">p a - p - - - f g</m>
+            <m cert="0.000098056239338938">p a - p - - - - g</m>
+         </lm>
+         <lm cert="0.0625">
+            <l>ὅς</l>
+            <m cert="0.333333333333333333">p r - p - - - f g</m>
+            <m cert="0.333333333333333333">p r - p - - - m g</m>
+            <m cert="0.333333333333333333">p r - p - - - n g</m>
+         </lm>
+         <lm cert="0.052083333333333333">
+            <l>τίς</l>
+            <m cert="0.5">p i - p - - - c g</m>
+            <m cert="0.5">p i - p - - - n g</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--Κύριος περὶ τῶν … καὶ τῶν θυγατέρων-->
+         <tok val="υἱῶν" ref="1"/>
+         <lm cert="0.685714285714285714">
+            <l>υἱόω</l>
+            <m cert="0.166666666666666667">v - - s p p a m v</m>
+            <m cert="0.166666666666666667">v - - s p p a n n</m>
+            <m cert="0.166666666666666667">v - - s p p a n v</m>
+            <m cert="0.166666666666666667">v - - s p p a n a</m>
+            <m cert="0.166666666666666667">v - - s p p a m n</m>
+            <m cert="0.166666666666666667">v - - - p n a</m>
+         </lm>
+         <lm cert="0.314285714285714286">
+            <l>υἱός</l>
+            <m cert="1">n - - p - - - m g</m>
+         </lm>
+      </ana>
+      <!--4 tokens have unambiguous lexicomorphological data-->
+      <ana>
+         <!--μὴ λάβῃς σεαυτῷ … ἐν τῷ τόπῳ-->
+         <tok val="γυναῖκα" ref="1"/>
+         <lm cert="1">
+            <l>γυνή</l>
+            <m cert="1">n - - s - - - f a</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--υἱῶν καὶ τῶν … τῶν γεννωμένων ἐν-->
+         <tok val="θυγατέρων" ref="1"/>
+         <lm cert="1">
+            <l>θυγάτηρ</l>
+            <m cert="1">n - - p - - - f g</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--Ἐν τῷ … εἵρηται τὸ, Καὶ-->
+         <tok val="Ἱερεμίᾳ" ref="1"/>
+         <lm cert="1">
+            <l>Ἱερεμίας</l>
+            <m cert="1">n e - s - - - m d</m>
+         </lm>
+      </ana>
+      <ana>
+         <!--γυναῖκα ἐν τῷ … τούτῳ· ὅτι τάδε-->
+         <tok val="τόπῳ" ref="1" pos="1"/>
+         <!--γεννωμένων ἐν τῷ … τούτῳ· Ἐν θανάτῳ-->
+         <tok val="τόπῳ" ref="1" pos="2"/>
+         <lm cert="1">
+            <l>τόπος</l>
+            <m cert="1">n - - s - - - m d</m>
+         </lm>
+      </ana>
+   </body>
+</TAN-A-lm>

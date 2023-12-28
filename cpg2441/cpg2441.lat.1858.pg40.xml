@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:transcription:cpg2441:lat:PG">
+   <head>
+      <name>Evagrius of Pontus, Hypotyposis, Latin</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2441.lat.1858.pg40.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="hypotyposis"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+      </vocabulary>
+      
+      <source>
+         <IRI>http://dbpedia.org/resource/Patrologia_Graeca</IRI>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:migne-1857</IRI>
+         <name>Patrologia Graeca</name>
+         <desc>Hypotyposis appears at 40:1251-63</desc>
+      </source>
+      <vocabulary-key>
+         <div-type which="section" xml:id="sect"/>
+         
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2023-12-13" who="kalvesmaki">Started file</change>
+      <to-do/>
+   </head>
+   <body xml:lang="lat">
+      <div type="title" n="title">EVAGRII MONACHI, Rerum monachalium rationes, earumque juxta
+         quietem appositio.</div>
+      <div type="sect" n="1">Dictum est in Jeremia hoc : «Et tu ne accipias tibi uxorem in loco
+         isto, quia hæc dicit Dominus de filiis et filiabus et qui generantur in loco isto: In morte
+         morbosa morientur.» Qui sermo indicat, quod, juxta Apostolum, vir «qui cum uxore est,
+         sollicitus est quæ sunt mundi, quo modo placeat uxori, et divisus est; et mulier quæ nupta
+         est, cogitat quæ sunt mundi, quo modo placeat viro.» Atqui manifestum est quod non solum de
+         filiis et filiabus ex connubiali vita proventuris dictum sit apud prophetam illud : «In
+         morte morbosa morientur;» sed etiam de filiis et filiabus in corde eorum natis, hoc est,
+         carnalibus cogitationibus et cupiditatibus, quod in morbido et infirmo languidoque mundi
+         hujus consilio illi quoque morientur, nec vitam consequentur cœlestem ac perpetuam. «Qui»
+         autem «sine uxore est,» inquit, «sollicitus est quæ Domini sunt, quo modo placeat Domino,»
+         et semper vividos immortalesque coelestis vitæ fructus producet.</div>
+      <div type="sect" n="2">Talis est monachus, et ita se habere decet monachum, qui nempe
+         abstineat a muliere, nec gignat filium aut filiam in prædicto loco; quinetiam sit Christi
+         miles materiæ expers, curæ vacuus, extra omnem negotiosam cogitationem actionemque positus,
+         quemadmodum et Apostolus ait: «Nemo militans implicat se negotiis sæcularibus, ut ei
+         placeat qui ipsum militem conscripsit.» In hisce progrediatur monachus, præcipue qui
+         universam sæculi hujus materiam dereliquit, et ad speciosa praeclaraque quietis tropæa
+         accurrit. Quam speciosa enim et præclara per quietem exercitatio monastica, quam speciosa
+         vere ac præclara! Est quippe suave jugum illius, et onus leve; dulcis vila, jucunda
+         operatio.</div>
+      <div type="sect" n="3">Vis igitur, dilecte, monasticam vitam qualis est capessere, et ad
+         quietis tropaea recurrere? illic dimitte mundi curas, illisque præsidentes principatus ac
+         potestates; hoc est, expers sis materiae, et affectuum, atque extra omnem cupiditatem, ut
+         ab incommodis quæ inde exoriuntur alienus, præclare tranquillam vitam possis ducere. Nisi
+         enim quis se ab illis subtraxerit, in hac vitæ ratione nequaquam poterit proficere. Cibum
+         brevem et nullius pretii, non autem multum ac magna cura egentem cape. Quod si prætextu
+         hospitalitatis de sumptuoso in mentem venerit, eam abjice cogitationem, nec illi adhæreas.
+         Per illam quippe insidiatur tibi adversarius, insidiatur quo te a quiete avertat. Habes
+         Dominum Jesum, qui Martham, animam ista consectantem arguit quodammodo, ac dicit: Quare
+         «erga plurima» versaris et «turbaris? Unum est necessarium,» nempe, inquit, divinum audire
+         verbum; post quod cætera hæc sine labore inveniuntur. Unde statim subdit, dicens: «Maria»
+         enim «bonam partem elegit, quæ non auferetur ab ea.» Habes pariter Sarephthanæ viduae
+         exemplum, in quibusnam illa prophetam hospitio susceperit. Licet panem duntaxat habueris,
+         aut sal, aut aquam, potes per haec mercedem hospitalitatis acquirere; quod si ne illa
+         quidem habueris, tantummodo autem bono affectu peregrinum exceperis benignoque sermone eum
+         donaveris, consimili ratione potes hospitalitatis mercedem consequi. Dictum est enim:
+         «Verbum melius quam datum.»</div>
+      <div type="sect" n="4"> Hæc de eleemosyna sentire debes. Ne igitur desideraveris opes habere
+         ad distributionem erga pauperes. Nam hæc quoque mali fraus est, quæ ad vanam gloriam saepe
+         vergit, mentemque in negotiationis causas injicit. Habes in Evangelio a Domino Jesu
+         testimonio ornatam viduam, quæ per duo duntaxat minuta, divitum affectum ac vires
+         superavit. «Illi enim,» inquit, «ex abundanti miserunt in gazophylacium; hæc vero omnia quæ
+         habuit.» Quod autem spectat ad vestes, noli desiderare multorum superfluorumque
+         vestimentorum possessionem, provide tantum de iis quae ad necessitatem corporis suffectura
+         sunt. Jacta potius super Dominum curam tuam, et ipse tibi providebit. Ipsi quippe, inquit,
+         cura est de nobis. Si alimentis vel vestibus indigeas, ne erubescas tibi ab aliis oblata
+         accipere; hoc namque est superbiæ species. At si tu hisce abundaveris, ei qui caret
+         tradito. Sic Deus vult famulis suis subveniri. Quocirca ad Corinthios scribens Apostolus,
+         de inopibus dixit: «Vestra abundantia illorum inopiam suppleat, ut et illorum abundantia
+         vestrae inopiae sit supplementum; ut fiat aequalitas, sicut scriptum est: Qui multum, non
+         abundavit; et qui modicum, non minoravit.» Obtinens ergo præsenti tempori necessaria, de
+         futuro ne sis sollicitus, verbi gratia in diem unum, vel hebdomadem, vel annum, aut menses.
+         Nondum enim elapso crastino, idipsum tempus necessaria suppeditabit, praesertim si regnum
+         coelorum justitiamque Dei quaesieris. Ait quippe Dominus: «Quærite regnum Dei, et justitiam
+         ejus; et haec omnia adjicientur vobis.»</div>
+      <div type="sect" n="5">Ne habeas apud te puerum, ne forte adversarius per eum aliquod in te
+         moveat scandalum, conturbetque animum tuum, ut de cibis maxime sumptuosis curam gerat.
+         Neque enim amplius poteris solus de te esse sollicitus; atque si ea cogitatio quasi propter
+         corporis requiem subierit, tu tamen quod præstantius est considera, spiritalem inquam
+         quietem: revera enim melior est spiritalis refectio corporali. Quod si juvandi pueri gratia
+         in mentem venerit, ne credas: hoc enim non est nostri muneris; ad alios pertinet opus,
+         sanctos videlicet coenobiorum patres. Tui solius commodum specta et silentii quietisque
+         mores amplectere. Noli amare habitationem cum hominibus materiæ addictis ac negotiosis; aut
+         solus mane, aut cum fratribus materia carentibus, tibique consentaneis. Nam qui habitat cum
+         hominibus materialibus ac impeditis, et ipse prorsus eorum turbulenti status particeps
+         futurus est, servietque humanis mandatis, vanis colloquiis, caeterisque omnibus vitiis,
+         iræ, tristitiæ, insaniæ erga res materiales, timori, scandalo. Ne corripiaris curis
+         parentalibus, aut cognatorum amicitiis: quinimo et assiduos cum iis congressus vita, ne
+         forte a cellae quiete te auferant, et ad sua traducant negotia. «Dimitte,» inquit Dominus,
+         «mortuos sepelire mortuos suos; tu vero veni, sequere me.» Si vero cella in qua resides
+         impedimento sit, fugito, neque illi pareas, nec in amorem ejus resolvaris: omnia fac, omnia
+         age, quo tranquille vivere et vacare queas, nec non contende in Dei voluntatibus ac in
+         pugna adversus invisibilia consistere.</div>
+      <div type="sect" n="6">Si in tua regione non potes facile vitam quietam ducere, propositum
+         tuum ad peregrinationem tradito, atque ad illam ipsam incita animum tuum. Esto velut
+         optimus negotiator, cuncta ad quietem probans, quæque ad eam constabiliendam conducunt
+         omnino retinens. Cæterum dico tibi, peregrinationem dilige; te enim ab incommoditatibus
+         patriae tuæ liberabit, efficietque ut solus silentii emolumento fruaris. In urbe commorari
+         fuge, in solitudine perdura. «Ecce» enim, ait sanctus vir, «elongavi fugiens, et mansi in
+         solitudine.» Si fieri potest, nullatenus ad urbem proficiscaris; nihil quippe commodum,
+         nihil utile, nihil conducibile professioni tuæ illic intueberis. Iterum ait sanctus: «Vidi
+         iniquitatem et contradictionem in civitate.» Loca ergo secreta et quieta sectare, neque
+         formides illorum inopiam. Quod si illic dæmonum spectra apparuerint, noli terreri, neque a
+         stadio emolumenti nostri aufugias: interritus permane, et «magnalia» Dei conspicies,
+         auxilium, curam, reliquamque omnem de salute plenitudinem. «Exspectabam» enim, ait beatus
+         ille vir, «eum qui salvum me fecit a pusillanimitate spiritus et a tempestate.» Vagationis
+         desiderium animi tui sententiam non vincat: «Inconstantia» enim «cum concupiscentia,
+         transvertit sensum sine malitia.» Multæ ea de causa exsistunt contentiones. Time casum, et
+         in cella tua stabilis firmusque sis.</div>
+      <div type="sect" n="7">Si amicos habueris, continuos cum illis congressus fuge: cum enim longa
+         per intervalla collocutus eis fueris, utilis eris. Sin vero senseris tibi per eosdem damnum
+         afferri, nullatenus appropinques. Nam oportet habere te amicos utiles et ad vitæ tuæ
+         institutum aptos. Sed et fugito pravorum virorum et pugnacium congressus; cum horum nullo
+         ne habites; quinimo pravas illorum intentiones repudia; non enim Deo adhærent, neque in eo
+         permanent. Pacifici homines amici tibi sint, fratres spirituales, Patres sancti: hos namque
+         eo modo appellavit Dominus, dicens: «Mater mea et fratres mei et patres hi sunt qui faciunt
+         voluntatem Patris mei qui in coelis est.» Cum distractis seu negotiosis noli commorari,
+         neque ad convivium cum ipsis pergas; ne te forsan ad suas deceptiones trahant, et a
+         silentii tranquillitatisque disciplina abducant: hic est namque in illis affectus. Ne
+         declines aurem tuam ad eorum sermones, neque sensa cordis eorum admittas. Nam re vera noxii
+         sunt. Ad fideles terræ sit tibi desiderium, et labor cordis tui in æmulationem luctus
+         eorum. «Oculi» enim «mei ad fideles terræ, ut sedeant ipsi mecum.» Quodsi quispiam ex iis
+         qui secundum charitatem Dei incedunt, ad te veniens, ad manducandum te invitaverit, ac
+         volueris proficisci, proficiscere quidem, sed cito revertere ad cellam tuam. Si fieri
+         potest, extra eam ne dormieris unquam; ut in te semper maneat quietis gratia; et hujus
+         propositi cultum absque impedimento retinebis.</div>
+      <div type="sect" n="8">Non sis lautorum ciborum cupidus, nec illecebræ deliciarum. «Nam quæ in
+         deliciis est, vivens mortua est,» quemadmodum ait Apostolus. Ne cibis extraneorum
+         satiaveris ventrem tuum, ut ne tibi eorum cupiditas obveniat, atque desiderium externarum
+         mensarum inferat. Dictum quippe fuit: «Ne seducaris saturitate ventris.» Quod si te videris
+         assidue extra cellam tuam vocari, recusa. Noxia enim est continua extra cellam tuam
+         commoratio; gratiam aufert, obnubilat prudentiam, ardorem restinguit. Vide mihi dolium
+         vini, quod multo tempore in eodem loco exstitit, manetque inconcussum, quo pacto vinum
+         reddat splendidum, sedatum, odoriferum; contra si huc illucque circumferatur, turbidum,
+         tetricum, omnem simul ex fæcis vitio contractam injucunditatem exhibens. Cum hoc ergo te
+         ipsum conferens, quod usui est experire, abscinde multorum affectus, ne mens tua
+         distrahatur, et quietis modum conturbet. Operari manibus cura, idque pro viribus die ac
+         nocte, ne quem graves, quin potius aliis tribuas, quemadmodum hortatur ac dicit sacer
+         apostolus Paulus; ut in eo etiam tædii dæmonem vincas, cæterasque omnes hostis cupiditates
+         avellas. Adjacet enim pigritiæ tædii dæmon, atque in desideriis est, sicut inquit.
+         Traditionis et acceptionis peccatum effugias. Sive ergo vendis, sive emis, parum te de
+         justo pretio frauda, ne in mores nimium exactos aut erga pretium lucri cupidos inductus, ad
+         noxias animae causas decidas, contentionem, perjurium, per sermonis tui permutationem;
+         atque in iis venerandam instituti nostri dignitatem contumelia et ignominia afficias. Eo
+         modo ipse cogitans, in traditione et acceptione tua cautionem serva. Sed si quod melius est
+         elegeris, idane possis, in alium fidum hominem curam tuam rejice, quo ita factus alacer et
+         tranquillus, spe bona jucundaque perfruaris.</div>
+      <div type="sect" n="9">Hæc tibi eo pacto suadere novit commoda modus quietis. Age vero, etiam
+         rerum quæ deinde in ea continentur sensum tibi apponam; tu vero mihi ausculta, et quæ
+         præcipio tibi exsequere. Cum sedes in cella tua, collige mentem tuam; memento diei mortis;
+         vide tunc corporis mortificationem; cogita calamitatem; laborem doloremque assume; condemna
+         vanitatem hujus mundi; curam gere modestiæ et sedulitatis, ut possis manere semper in eodem
+         quietæ vitæ proposito, nec in infirmitatem incidas. Memor quoque esto status præsentis in
+         inferno; reputa quemadmodum illic degant animæ, in quo amarissimo silentio, aut in quo
+         acerbissime gemitu, in quali timore, anxietate, exspectatione quanam: [reputa] nunquam
+         desinentem dolorem, lacrymas animae quæ fine carent. Sed et recordare diei resurrectionis
+         ac exhibitionis coram Deo; imaginare tremendum et horribile illud judicium; profer in
+         medium quæ peccatoribus reposita sunt, ignominiam in conspectu Dei et Christi ejus,
+         angelorum, archangelorum, potestatum, cunctorumque hominum; item supplicia omnia, ignem
+         æternum, vermem immortalem, tartarum, tenebras, et super hæc universa stridorem dentium,
+         terrores ac tormenta. Profer quoque ea quæ justis reposita sunt bona, fiduciam cum Deo
+         Patre et Christo ejus, angelis, archangelis, potestatibus, atque omni populo, regnum,
+         ejusque dona, gaudium, voluptatem. Horum utrorumque memoriam adduc in mentem tuam; ac de
+         peccatorum quidem judicio ingemisce, fle, indue habitum luctus, veritus ne tu quoque in
+         illis consistas; de bonis vero quæ justis reposita sunt, gaude et exsulta et lætare; atque
+         tum his frui contende, tum ab illis esse alienus. Cave ne unquam horum obliviscaris, sive
+         intra in cella tua sis, sive extra alicubi; mentem tuam noli ab horum recordatione
+         avertere; quo vel per ea sordidas noxiasque cogitationes effugias.</div>
+      <div type="sect" n="10">Jejunium pro virili coram Deo excole. Illud delicta et peccata tua
+         expiabit; animam ornat, mentem sanctam efficit, pellit dæmones, Deum prope nos adducit.
+         Porro cum semel in die comederis, ne iterum manducare concupiscas, ut non fias sumptuosus,
+         animumque tuum conturbes. Hinc poteris tum ad beneficentiæ opera abundare, tum ipsius
+         corporis affectus exstinguere. Quando autem advenerint fratres, et necesse fuerit te bis
+         terque comedere, ne ingemiscas aut moestus sis; quin potius gaudeto, quod necessitati
+         obtemperes; atque bis vel ter manducans, gratias age Deo, eo quod legem claritatis
+         impleveris, quodque ipsum sane Deum nostræ vitae dispensatorem habiturus sis. Quandoque
+         etiam corporis invaletudo contingit, adeo ut bis et ter sæpiusque edere oporteat; ad id
+         mens tua parata șit. Non enim corporales professionis nostræ labores locum in morbis habere
+         debent, sed quædam remittenda sunt, quo citius ad sanitatem quis reversus, iterum iisdem
+         austeræ vitæ sese exerceat laboribus. Caeterum de abstinentia a cibis, nihil divinus sermo,
+         ne manducaremus, prohibuit, sed dixit: «Ecce dedi vobis omnia, quasi olera herbæ.
+         Manducate, nihil interrogantes;» et, «Non quæ intrant in os, coinquinant hominem.» Quocirca
+         a cibis abstinere, id nostræ voluntatis et animæ labor est.</div>
+      <div type="sect" n="11">Humi cubationem et vigilias cæterasque austeritates libenter tolera,
+         respiciens ad futuram gloriam quæ revelabitur tibi cum omnibus sanctis. «Non» enim, inquit,
+         «sunt condignæ passiones hujus temporis ad futuram gloriam quæ revelabitur in nobis.» Si
+         animo dejecto es, ora, sicut scriptum est; ora autem cum timore, tremore, et labore, sobrie
+         et vigilanter. Ita oportet orare, maxime proper malignos malitiæque vacantes inaspectabiles
+         inimicos nostros, qui in hoc nobis negotium facessere volunt. Ii quoties viderint nos ad
+         orationem stare, toties sedulo adoriuntur, eaque menti suggerunt quæ precum tempore
+         nequaquam cogitare et considerare debemus, quo animum nostrum captiviam abducant,
+         otiosamque, vanam et inutilem reddant precis postulationem et supplicationem. Inanis enim
+         revera est ac inutilis oratio, petitio, supplicatio, quando non, sicut supra diximus, cum
+         timore et tremore, sobrie ac vigilanter peracta fuerit. Adhæc ad hominem quidem regem
+         accedens quilibet, cum timore et tremore et cautione, deprecationem eo modo exsequitur.
+         Nonne multo magis Deo cunctorum Domino, et Christo Regi regnantium, et Principi principum
+         consimiliter assistendum est, atque offerenda observatio ac supplicatio? Quoniam Deo gloria
+         in sæcula. Amen.</div>
+   </body>
+</TAN-T>
