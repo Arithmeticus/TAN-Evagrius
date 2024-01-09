@@ -590,7 +590,7 @@
                 have been written around 380 to a community in Caesarea, and reflects Evagrius's
                 tutelage with Gregory of Nazianzus during the latter's stormy tenure in
                 Constantinople. Kalvesmaki has argued (2012) that the letter was addressed to
-                Constantinopolitans, and so was written 384 or 385 in Egypt.</desc>
+                Constantinopolitans, and so was written after 381.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2439:version:syr</IRI>
@@ -1104,6 +1104,8 @@
             <name xml:lang="eng">Commentary on the Parables and the Proverbs</name>
             <name xml:lang="lat">Expositio in Parabolas et in Proverbia Salomonis</name>
             <name>cpg2457</name>
+			<desc>A collection of 28 sentences glossing words found in Proverbs. Survives in Syriac and
+			Greek (Ambrosianus C 69 sup. [16th c.], fol. 211).</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2457:version:syr</IRI>
@@ -1198,6 +1200,7 @@
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2459</IRI>
             <name xml:lang="lat">De cherubim</name>
+            <name xml:lang="eng">On the Cherubim</name>
             <name xml:lang="eng">Commentary on the Cherubim</name>
             <name>cpg2459</name>
         </item>
@@ -1215,6 +1218,7 @@
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2460</IRI>
             <name xml:lang="lat">De seraphim</name>
+            <name xml:lang="eng">On the Seraphim</name>
             <name xml:lang="eng">Commentary on the Seraphim</name>
             <name>cpg2460</name>
         </item>
@@ -1254,7 +1258,8 @@
         
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2463</IRI>
-            <name xml:lang="eng">On the Imitation of the Song of Songs</name>
+            <name xml:lang="eng">Toward an Imitation of the Song of Songs</name>
+            <name xml:lang="eng">Imitation of the Song of Songs</name>
             <name>Imitation Cant.</name>
             <name xml:lang="lat">Ad imitationem Cantici canticorum</name>
             <name>cpg2463</name>
@@ -1267,8 +1272,9 @@
         
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2464a</IRI>
+            <name xml:lang="eng">Toward an Imitation of the Proverbs of Solomon</name>
             <name xml:lang="eng">From the Proverbs of Solomon</name>
-            <name xml:lang="eng">On the Imitation of Proverbs</name>
+            <name xml:lang="eng">Imitation of Proverbs</name>
             <name xml:lang="lat">Ex Proverbiis Salomon</name>
             <name xml:lang="lat">Ad imitationem Proverbiorum</name>
             <name>cpg2464a</name>
@@ -1281,7 +1287,8 @@
         
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2464</IRI>
-            <name xml:lang="eng">On the Imitation of Ecclesiastes</name>
+            <name xml:lang="eng">Toward an Imitation of Ecclesiastes</name>
+            <name xml:lang="eng">Imitation of Ecclesiastes</name>
             <name>Imitation Eccles.</name>
             <name xml:lang="lat">Ad imitationem Ecclesiastae</name>
             <name>cpg2464</name>
@@ -1327,6 +1334,18 @@
             <name xml:lang="eng">Admonition on the Marks of Serenity</name>
             <name xml:lang="lat">Admonitio de signis quietis</name>
             <name>cpg2469</name>
+            <desc>Set of twenty chapters on the ascetic life, addressed to residents of Jerusalem. 
+                Known in two recensions.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2469:version:recension-1</IRI>
+            <name>First recension of Admonition on the Marks of Serenity</name>
+            <name>cpg2469 recension 1</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2469:version:recension-2</IRI>
+            <name>Second recension of Admonition on the Marks of Serenity</name>
+            <name>cpg2469 recension 2</name>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2469:version:syr</IRI>

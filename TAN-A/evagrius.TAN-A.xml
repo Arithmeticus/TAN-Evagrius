@@ -89,6 +89,7 @@
             <name>eastern Mediterranean</name>
          </place>
          
+         <period from="0370-01-01" to="0382-12-31" xml:id="mid-life"/>
          <period from="0383-01-01" to="0399-05-01" xml:id="late-life"/>
          <period from="0379-01-01" to="0382-12-31" xml:id="constantinopolitan-period"/>
          
@@ -118,8 +119,9 @@
    </head>
    <body subject="evagrius" claimant="kalvesmaki">
       <!-- authorship -->
+	  <claim verb="wrote" where="eastern-mediterranean" period="mid-life" object="cpg2432"/>
       <claim verb="wrote" where="eastern-mediterranean" period="late-life"
-         object="cpg2430 cpg2431 cpg2432 cpg2433 cpg2434 cpg2435 cpg2436 cpg2437 cpg2438 cpg2441 cpg2442 cpg2443 
+         object="cpg2430 cpg2431 cpg2433 cpg2434 cpg2435 cpg2436 cpg2437 cpg2438 cpg2441 cpg2442 cpg2443 
          cpg2444 cpg2445 cpg2447 cpg2448 cpg2450 cpg2451 cpg2452 cpg2453 cpg2454 cpg2455 cpg2456 cpg2457 cpg2458.1 cpg2458.2 
          cpg2458.3 cpg2458.4 cpg2458.5 cpg2458.6 cpg2459 cpg2460 cpg2461 cpg2463 cpg2464 cpg2464a nocpg02 nocpg03 nocpg04 nocpg05 
          nocpg06 nocpg07"/>
@@ -294,6 +296,9 @@
          cpg2477-hye cpg2482a-ara cpg2483-syr nocpg06-hye" verb="survives-in-original-language">
          <object units="portion">1.0</object>
       </claim>
+      <claim subject="cpg2457" verb="survives-in-original-language">
+         <object units="portion">0.95</object>
+      </claim>
       <claim subject="cpg2431 cpg2452-syr2" verb="survives-in-original-language">
          <object units="portion">0.6</object>
       </claim>
@@ -306,7 +311,7 @@
       <claim subject="cpg2437 nocpg07" verb="survives-in-original-language">
          <object units="portion">0.05</object>
       </claim>
-      <claim subject="cpg2434 cpg2438 cpg2440 cpg2457 cpg2459 cpg2460 cpg2461 cpg2464a nocpg02"
+      <claim subject="cpg2434 cpg2438 cpg2440 cpg2459 cpg2460 cpg2461 cpg2464a nocpg02"
          verb="survives-in-original-language">
          <object units="portion">0.0</object>
       </claim>
@@ -965,7 +970,7 @@
       <!-- cpg2457 -->
       <claim subject="géhin_1987" verb="edits" object="cpg2457"/>
       <claim subject="géhin_1987" verb="translates" object="cpg2457" in-lang="fra"/>
-      <claim subject="muyldermans_1952" verb="edits" object="cpg2457-syr"/>
+      <claim subject="muyldermans_1952" verb="edits translates" object="cpg2457-syr"/>
       
       <!-- cpg2458 -->
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2458.1"
