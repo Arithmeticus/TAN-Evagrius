@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021"
+   id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2458.4:grc:1987:logical">
+   <head>
+      <name>Géhin's French translation of Evagrius's 33 Chapters = Commentary on Proverbs 30, logical reference
+         system</name>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Comm. par. et Prov."/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
+      </vocabulary>
+      <source>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:géhin-1987</IRI>
+         <name>Géhin's 1987 edition of Evagrius's Scholia on Proverbs</name>
+      </source>
+
+      <vocabulary-key>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+
+      <change when="2024-10-19" who="kalvesmaki">Started file</change>
+      <to-do>
+         <comment when="2024-10-19" who="kalvesmaki">Text needs to be proofread</comment>
+      </to-do>
+   </head>
+   <body xml:lang="fra">
+      <div type="chapter" n="17">La « fourmi », c’est l’homme pratique qui prépara « sa nourriture » pendant ce siècle.</div>
+      <div type="chapter" n="18">Les « porcs-épics », ce sont les nations impures qui ont reçu les commandements de notre Sauveur, le Christ.</div>
+      <div type="chapter" n="19">Les « sauterelles sans roi », ce sont les âmes raisonnables qui ne sont pas soumises à la mort et qui se nourrissent des semences de Dieu.</div>
+      <div type="chapter" n="20">Le « lézard », c’est l’intellect pratique qui s’appuie sur les vertus et « demeure » dans les connaissances des puissances célestes.</div>
+      <div type="chapter" n="21">Le « petit du lion », c’est l’homme impassible qui règne sur les fauves qui se trouvent en lui.</div>
+      <div type="chapter" n="22">Le « coq », c’est l’homme spirituel qui est comblé de science et qui annonce aux autres âmes la bonne nouvelle du jour produit par le soleil intelligible.</div>
+      <div type="chapter" n="23">Le « boue », c’est l’homme pratique qui montre le droit chemin aux pensées désordonnées qui sont en lui.</div>
+      <div type="chapter" n="23b">Le « roi », c’est l’homme jugé digne du royaume des cieux qui est chargé d’enseigner autrui.</div>
+      <div type="chapter" n="24">La « sangsue », c’est la nature impure qui suce le juste sang des âmes raisonnables.</div>
+      <div type="chapter" n="25">L’ « Hadès », c’est l’ignorance de la nature raisonnable, qui se produit lorsqu’elle est privée de la contemplation de Dieu.</div>
+      <div type="chapter" n="26">La « femme », c’est la folie qui incite les âmes raisonnables à commettre l’impureté.</div>
+      <div type="chapter" n="27">La « terre », c’est l’état mauvais composé de l’impiété et de l’iniquité.</div>
+      <div type="chapter" n="28">Le « feu », c’est la malice de l’âme raisonnable qui détruit les vertus de Dieu.</div>
+      <div type="chapter" n="29">L’ « eau », c’est la fausse science qui éteint la science véritable.</div>
+      <div type="chapter" n="30">L’ « œil qui se moque », c’est la nature impure qui « se moque » de la science de Dieu et « méprise » la sagesse qui est dans les êtres.</div>
+      <div type="chapter" n="31">Les « corbeaux », ce sont les puissances saintes qui détruisent les vices.</div>
+      <div type="chapter" n="32">Les « ravins », ce sont les âmes raisonnables creusées par la malice et l’ignorance.</div>
+      <div type="chapter" n="33">Les « aiglons », ce sont les puissances saintes chargées de terrasser les êtres impurs.</div>
+   </body>
+</TAN-T>

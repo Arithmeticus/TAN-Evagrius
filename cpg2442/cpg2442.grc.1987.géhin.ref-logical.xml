@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021"
+   id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2458.4:grc:1987:logical">
+   <head>
+      <name>Greek text of Géhin's edition of Evagrius's 33 Chapters = Commentary on Proverbs 30, logical reference
+         system</name>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Comm. par. et Prov."/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
+      </vocabulary>
+      <source>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:géhin-1987</IRI>
+         <name>Géhin's 1987 edition of Evagrius's Scholia on Proverbs</name>
+      </source>
+
+      <vocabulary-key>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+
+      <change when="2024-10-19" who="kalvesmaki">Started file</change>
+      <to-do>
+         <comment when="2024-10-19" who="kalvesmaki">Text needs to be proofread</comment>
+      </to-do>
+   </head>
+   <body xml:lang="grc">
+      <div type="chapter" n="17">Μύρμηξ ἐστὶν ἄνθρωπος πρακτικὸς τὴν ἑαυτοῦ τροφὴν ἐν τῷ αἰῶνι τούτῳ παρασκευάζων.</div>
+      <div type="chapter" n="18">Χοιρογρύλλιοι εἰσιν ἔθνη ἀκάθαρτα τὰς ἐντολὰς δεξάμενα τοῦ σωτῆρος ἡμῶν Χριστοῦ.</div>
+      <div type="chapter" n="19">Ἀβασίλευτοι ἀκρίδες εἰσὶ ψυχαὶ λογικαὶ μὴ βασιλευόμεναι ὑπὸ τοῦ θανάτου καὶ ὑπὸ τῶν τοῦ θεοῦ σπερμάτων διατρεφόμεναι.</div>
+      <div type="chapter" n="20">Ἀσκαλαβότης ἐστὶ νοῦς πρακτικὸς ἐπερειδόμενος ἀρεταῖς καὶ κατοικῶν ἐν ταῖς γνώσεσι τῶν οὐρανίων δυνάμεων.</div>
+      <div type="chapter" n="21">Σκύμνος λέοντός ἐστιν ἄνθρωπος ἀπαθὴς τῶν ἐν αὐτῷ γενομένων βασιλεύσας θηρίων. </div>
+      <div type="chapter" n="22">Ἀλεκτρυών ἐστιν ἄνθρωπος πνευματικὸς πληρούμενος γνώσεως καὶ ἑτέραις εὐαγγελιζόμενος ψυχαῖς τὴν παρὰ τοῦ νοητοῦ ἡλίου γενομένην ἡμέραν.</div>
+      <div type="chapter" n="23">Τράγος ἐστὶν ἀνὴρ πρακτικὸς τῶν ἐν αὐτῷ ἀτάκτων λογισμῶν ὀρθῶς καθηγούμενος.</div>
+      <div type="chapter" n="23b">Βασιλεύς ἐστιν ἄνθρωπος καταξιωθεὶς τῆς βασιλείας τῶν οὐρανῶν διδάσκειν ἑτέρους πεπαιδευμένος.</div>
+      <div type="chapter" n="24">Βδέλλα ἐστὶ φύσις ἀκάθαρτος τὸ δίκαιον αἷμα ἐκ τῶν λογικῶν ψυχῶν ἐκμυζῶσα.</div>
+      <div type="chapter" n="25">ᾍδης ἐστὶν ἄγνοια φύσεως λογικῆς κατὰ στέρησιν τῆς τοῦ Θεοῦ θεωρίας ἐπισυμβαίνουσα.</div>
+      <div type="chapter" n="26">Γυνή ἐστιν ἀφροσύνη λογικὰς ψυχὰς ἐπὶ ἀκαθαρσίαν προσκαλουμένη.</div>
+      <div type="chapter" n="27">Γῆ ἐστιν ἕξις χειρίστη ἐξ ἀσεβείας καὶ παρανομίας συλλεγομένη.</div>
+      <div type="chapter" n="28">Πῦρ ἐστι κακία φύσεως λογικῆς φθαρτικὴ τῶν τοῦ θεοῦ ἀρετῶν.</div>
+      <div type="chapter" n="29">Ὕδωρ ἐστὶ γνῶσις ψευδὴς σβεστικὴ γνώσεως ἀληθοῦς.</div>
+      <div type="chapter" n="30">Ὀφθαλμὸς καταγελῶν ἐστι φύσις ἀκάθαρτος τῆς τοῦ θεοῦ καταγελῶσα γνώσεως καὶ ἀτιμάζουσα τὴν ἐν τοῖς γεγονόσι σοφίαν.</div>
+      <div type="chapter" n="31">Κόρακές εἰσι δυνάμεις ἅγιαι φθαρτικαὶ τῶν κακιῶν.</div>
+      <div type="chapter" n="32">Φάραγγές εἰσι ψυχαὶ λογικαὶ κοιλανθεῖσαι ἀπὸ κακίας καὶ ἀγνωσίας.</div>
+      <div type="chapter" n="33">Νεοσσοὶ ἀετῶν εἰσι δυνάμεις ἅγιαι τοὺς ἀκαθάρτους καταβάλλειν πεπιστευμέναι. </div>
+      
+   </body>
+</TAN-T>

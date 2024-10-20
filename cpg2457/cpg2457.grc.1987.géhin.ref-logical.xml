@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021"
+   id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2458.4:grc:1987:logical">
+   <head>
+      <name>Greek text of Géhin's edition of Evagrius's Explication of Proverbs, logical reference
+         system</name>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Comm. par. et Prov."/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
+      </vocabulary>
+      <source>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:géhin-1987</IRI>
+         <name>Géhin's 1987 edition of Evagrius's Scholia on Proverbs</name>
+      </source>
+
+      <vocabulary-key>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+
+      <change when="2024-10-19" who="kalvesmaki">Started file</change>
+      <to-do>
+         <comment when="2024-10-19" who="kalvesmaki">Text needs to be proofread</comment>
+      </to-do>
+   </head>
+   <body xml:lang="grc">
+      <div type="chapter" n="2">Σὰρξ ἐν ταῖς γραφαῖς τὸ ἐπιθυμητικὸν τῆς ψυχῆς λέγεται.</div>
+      <div type="chapter" n="3">Βλέφαρα τὰ περὶ τοῦ νοῦ ἐνεργήματα, οἱ λογισμοὶ τοῦ νοῦ.</div>
+      <div type="chapter" n="4">Αἱ ὁδοὶ αἱ πράξεις καὶ αἱ ἀρεταί.</div>
+      <div type="chapter" n="5">Τὰ ἀριστερὰ τὰ χαλεπὰ καὶ ἀηδῆ.</div>
+      <div type="chapter" n="6">Δεξιὰ τὰ εὔθυμα καὶ κρείττονα καὶ εὐρύτερα.</div>
+      <div type="chapter" n="7">Φαύλη γυνὴ ἡ διαλεκτική.</div>
+      <div type="chapter" n="8">Ἀγγεῖα αἱ πράξεις αἱ ὑποδεχόμεναι καὶ χωροῦσαι θεωρίαν.</div>
+      <div type="chapter" n="9">Ὕδατα οἱ λόγοι.</div>
+      <div type="chapter" n="10">Φρέαρ τὸ τοῦ νοῦ βάθος.</div>
+      <div type="chapter" n="11">Ἔλαφος ἐπὶ ἀλεξικάκου εἴρηται.</div>
+      <div type="chapter" n="12">Πῶλος ὁ τῶν κακῶν ἀνεπίδεκτος· ἐνίοτε καὶ κατὰ τοῦ ἐναντίου λέγεται.</div>
+      <div type="chapter" n="13">Χάριτες αἱ ἀρεταί.</div>
+      <div type="chapter" n="14">Φίλος ὡς πρὸς τὴν ψυχὴν πολλάκις τὸ σῶμα ἐκλήθη.</div>
+      <div type="chapter" n="15">Παῖδες νόθοι οἱ τῶν ἑτεροδόξων λόγοι.</div>
+      <div type="chapter" n="16">Χάρις τὸ ἐκ τῆς παντελείας τῶν ἀρετῶν γινόμενον.</div>
+      <div type="chapter" n="17">Πονηρία καὶ ἀπόνοια ἡ ἀμαθία καὶ ἡ ἄνοια.</div>
+      <div type="chapter" n="18">Πλοῦτος πολλάκις τὰ ἀγαθὰ καὶ αἱ ἀρεταί.</div>
+      <div type="chapter" n="19">Ἀπώλεια ἡ κόλασις.</div>
+      <div type="chapter" n="20">Βακτηρία τὰ ἠθικὰ παιδεύματα.</div>
+      <div type="chapter" n="21">Ῥάβδος ἐνίοτε ἐπὶ κόλασιν.</div>
+      <div type="chapter" n="22">Τροφαὶ οἱ λόγοι.</div>
+      <div type="chapter" n="23">Φάτναι τὰ ἠθικὰ παιδεύματα.</div>
+      <div type="chapter" n="24">Βόες ἱερεῖς καὶ διδάσκαλοι.</div>
+      <div type="chapter" n="25">Γενήματα οἱ ἐξ ἰδίας ἕξεως λόγοι προσφερόμενοι σοφοί.</div>
+      <div type="chapter" n="26">Χείλη σοφὰ οἱ ὀρθοὶ λογισμοί.</div>
+      <div type="chapter" n="27">Πλάνη τὸ μὴ εἰδέναι τὰς γραφὰς μηδὲ τὴν δύναμιν τοῦ θεοῦ.</div>
+      <div type="chapter" n="28">Γινώσκει τὰ παρὰ πάντων ὁ κύριος οὐκ αἰσθήσει χρώμενος· φῶς γάρ ἐστι ἀληθινόν.</div>
+      
+   </body>
+</TAN-T>
