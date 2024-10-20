@@ -79,7 +79,8 @@
     <file-resp who="kalvesmaki"/>
     <resp roles="editor" who="kalvesmaki"/>
     <resp roles="stylesheet" who="xslt1 xslt2"/>
-    
+
+    <change when="2024-08-18" who="kalvesmaki">Corrected typo</change>
     <change when="2020-10-02" who="kalvesmaki">Moved file; cleaned tags</change>
     <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Adjusted &lt;name&gt;</change>
     <change when="2015-10-13" who="kalvesmaki">Adapted for inclusions</change>
@@ -94,7 +95,7 @@
   <text>
     <body xml:lang="grc">
       <div type="century" n="IV">
-        <div type="chapter" n="50"><milestone unit="volume" n="86a"/><pb n="1285"/> <p> Εἶς πόθος ἀγαθὸς καὶ αἰώνιος ὁ τῆς <lb/>ἀληθοῦς γνώσεως ἐφιέμενος</p> </div>
+        <div type="chapter" n="50"><milestone unit="volume" n="86a"/><pb n="1285"/> <p> Εἷς πόθος ἀγαθὸς καὶ αἰώνιος ὁ τῆς <lb/>ἀληθοῦς γνώσεως ἐφιέμενος</p> </div>
       </div>
     </body>
   </text>

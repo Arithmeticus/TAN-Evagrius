@@ -84,6 +84,7 @@
     <resp roles="editor" who="kalvesmaki"/>
     <resp roles="stylesheet" who="xslt1 xslt2"/>
     
+    <change when="2024-08-18" who="kalvesmaki">Corrected typo</change>
     <change when="2020-10-02" who="kalvesmaki">Moved file; cleaned tags</change>
     <change who="kalvesmaki" when="2020-09-25">Added fragments for KG 1.78-80.</change>
     <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Adjusted &lt;name&gt;</change>
@@ -110,7 +111,7 @@
         <div type="chapter" n="85">
           <pb n="246"/>
           <p>Κυκλεύει γὰρ ὁ νοῦς ἐμπαθὴς ὢν <lb/>καὶ δυσκάθεκτος γίνεται τὰς ποιητικὰς τῶν
-            ἡδονῶν ὕλας <lb/>ἐπισκεπτόμενος· ἵσταται δἐ τῆς πλάνης ἀπαθὴς γεγονὼς <lb/>καὶ τοῖς
+            ἡδονῶν ὕλας <lb/>ἐπισκεπτόμενος· ἵσταται δὲ τῆς πλάνης ἀπαθὴς γεγονὼς <lb/>καὶ τοῖς
             ἀσωμάτοις περιτυχὼν τοῖς ἀποπληροῦσι τὰς <lb/>πνευματικὰς ἐπιθυμίας αὐτῷ. </p>
         </div>
         <div type="chapter" n="78">

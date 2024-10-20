@@ -123,6 +123,7 @@
     <resp who="xslt1 xslt2" roles="stylesheet"/>
     <resp roles="editor" who="kalvesmaki"/>
     
+    <change when="2024-08-09" who="kalvesmaki">Typos repaired.</change>
     <change when="2020-10-02" who="kalvesmaki">Moved file; cleaned tags</change>
     <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Set @in-progress to false (Bible refs should be extracted to TAN-A-div).</change>
     <change when="2017-05-14" who="kalvesmaki">Removed stray metadata punctuation marks</change>
@@ -228,21 +229,21 @@
         <div type="chapter" n="90"> <p n="S1">If today is the Friday when our Savior was crucified, all those who have died in Christ are the symbol of his tomb because with them the justice of God was buried, that which will be resuscitated on the third day, re clothed in a spiritual body. True indeed, is the word of our Savior, that "today and tomorrow He works miracles and on the third day it is completed."</p> </div>
       </div>
       <div type="century" n="II">
-        <div type="chapter" n="6"> <p n="S1"> The praktike soul that by the grace of God has triumphed and is part of the body will be in those regions of knowledge where the wings of its apatheia will sendit.</p> </div>
+        <div type="chapter" n="6"> <p n="S1"> The praktike soul that by the grace of God has triumphed and is part of the body will be in those regions of knowledge where the wings of its apatheia will send it.</p> </div>
         <div type="chapter" n="10"> <p n="S1">Desirable are things that are known through the organs of sense, but most desirable is the contemplation of true knowledge. But because sensation cannot attain knowledge due to its infirmity, it regards as superior what is closer, rather than that which is distant and [truly superior to it.</p> </div>
-        <div type="chapter" n="32"> <p n="S1">Just as is not material things that nourish the body, but rather their powers; so also it is not [external] matters themselves that make the soulgrow, but the varieties of the knowledge of [external matters.</p> </div>
+        <div type="chapter" n="32"> <p n="S1">Just as is not material things that nourish the body, but rather their powers; so also it is not [external] matters themselves that make the soul grow, but the varieties of the knowledge of [external matters.</p> </div>
         <div type="chapter" n="35"> <p n="S1">The nous, also, has five spiritual senses, by which it sees and feels the minds of creatures. Vision shows it beings as [external objects; through hearing it receives the logoi that concern them; through smell it revels in the holy and unmixed fragrance, while the palate of his mouth delights in them;by touching it receives exactly the certainty that is true in them.</p> </div>
-        <div type="chapter" n="45"> <p n="S1">The sense organs and the nous share in sensible [things, but the only the nous has understanding of both both the intelligible (noetic) and sensible, indeed, itbecomes a seer of both objects and their logoi.</p> </div>
-        <div type="chapter" n="83"> <p n="S1"> Just as in the organs of sense, the senses are changed by differentqualities and colors, so too the nous is changed when it gazes upon different contemplations</p> </div>
+        <div type="chapter" n="45"> <p n="S1">The sense organs and the nous share in sensible [things, but the only the nous has understanding of both both the intelligible (noetic) and sensible, indeed, it becomes a seer of both objects and their logoi.</p> </div>
+        <div type="chapter" n="83"> <p n="S1"> Just as in the organs of sense, the senses are changed by different qualities and colors, so too the nous is changed when it gazes upon different contemplations</p> </div>
       </div>
       <div type="century" n="III">
         <div type="chapter" n="31"> <p n="S1">It is possible to say what the movement of the nous is, but its nature is ineffable, because it has not been constituted of the four elements.</p> </div>
-        <div type="chapter" n="35"> <p n="S1">The nous is healed by knowledge; the thumos, by love; and theépithumia, by chastity. And the cause of the first is the second, and that of the second is the third.</p> </div>
+        <div type="chapter" n="35"> <p n="S1">The nous is healed by knowledge; the thumos, by love; and the épithumia, by chastity. And the cause of the first is the second, and that of the second is the third.</p> </div>
         <div type="chapter" n="36"> <p n="S1">The world is the sustasis of the natures that have been constituted of different bodies and contain different logikoi for growth in the knowledge of God.</p> </div>
-        <div type="chapter" n="59"> <p n="S1"> If all evil is created by the three parts of the soul, that is by thelogistikon, by epithumia, or by thumos, and if it is possible to use these either well or badly, it is clear that evil is created by their use contrary to nature. And if this is the case, there is nothing that has been created by God that is evil.</p> </div>
+        <div type="chapter" n="59"> <p n="S1"> If all evil is created by the three parts of the soul, that is by the logistikon, by epithumia, or by thumos, and if it is possible to use these either well or badly, it is clear that evil is created by their use contrary to nature. And if this is the case, there is nothing that has been created by God that is evil.</p> </div>
         <div type="chapter" n="69"> <p n="S1">Of all creation, only the nous is receptive of the knowledge of the Holy Trinity.</p> </div>
-        <div type="chapter" n="76"> <p n="S1"> When we were formed in the womb we lived the life of plants, when we were children, we lived the lives of animals, and when we becameadults, we live the life either of angels or of demons; that is, by virtue or bycontempt.</p> </div>
-        <div type="chapter" n="78"> <p n="S1"> The angels and the demons approach our world but we do notapproach their worlds. Indeed, we can not move closer to God's angels, nor can we imagine defiling the demons worse than they are.</p> </div>
+        <div type="chapter" n="76"> <p n="S1"> When we were formed in the womb we lived the life of plants, when we were children, we lived the lives of animals, and when we became adults, we live the life either of angels or of demons; that is, by virtue or by contempt.</p> </div>
+        <div type="chapter" n="78"> <p n="S1"> The angels and the demons approach our world but we do not approach their worlds. Indeed, we can not move closer to God's angels, nor can we imagine defiling the demons worse than they are.</p> </div>
         <div type="chapter" n="90"> <p n="S1"> The demons do not cease slandering the gnostic, even when it is not at fault in order to attract them to the nous by thumos. Indeed, it is as if a dark cloud stands before the mind and drives the nous away at the time of contemplation if the demons are not reproved as slanderers.</p> </div>
       </div>
       <div type="century" n="IV">

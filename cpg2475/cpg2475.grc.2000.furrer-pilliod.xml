@@ -39,6 +39,7 @@
     <resp roles="editor" who="kalvesmaki"/>
     <resp roles="transcriber" who="kalvesmaki"/>
 
+    <change when="2024-10-17" who="kalvesmaki">Corrected typos</change>
     <change when="2021-12-25" who="kalvesmaki">Started file</change>
     <comment when="2021-12-15" who="kalvesmaki">Numbering begins with 1; Muyldermans begins with 27,
       respecting Syriac manuscript numeration, where the work appears after several other
@@ -57,7 +58,7 @@
       <milestone unit="section" n="192"/>
       <div type="chapter" n="11">
         <ab resp="cfp">ἀργύριον πεπυρωμένον δοκίμιον τῇ γῇ κεκαθαρισμένον ἑπταπλασίως ἐστὶ τὸ σῶμα
-          τοῦ Κυρίου ἡμῶν Ἱησοῦ Χριστοῦ τὸ καταπατῆσαν τὰς ἑπτὰ δυνάμεις τοῦ δράκοντος τοῦ ἀποστάτου
+          τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ τὸ καταπατῆσαν τὰς ἑπτὰ δυνάμεις τοῦ δράκοντος τοῦ ἀποστάτου
           διὰ τῆς ἑπταδυνάμου δυνάμεως τοῦ πληρώματος τοῦ ἁγίου καὶ ἀχράντου πνεύματος αὐτοῦ, ὡς ἐν
           τῷ Ἡσαίᾳ</ab>
       </div>
@@ -114,7 +115,7 @@
       <pb n="177"/>
       <milestone unit="section" n="150"/>
       <div type="chapter" n="6">
-        <ab resp="cfp">πέτρα στερεά ἐστι πίστις ἀρραγὴς τοῦ κύριου ἡμῶν Ἰησοῦ Χριστοῦ εἰς οἰκοδομὴν
+        <ab resp="cfp">πέτρα στερεά ἐστι πίστις ἀρραγὴς τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ εἰς οἰκοδομὴν
           ψυχῆς ἐν τῷ ἡγεμονικῷ προθεμελιουμένη</ab>
       </div>
       <pb n="177"/>
@@ -127,7 +128,7 @@
       <pb n="179"/>
       <milestone unit="section" n="181"/>
       <div type="chapter" n="13">
-        <ab resp="cfp">παρασκευή ἐστι παρασκευασία τῶν ἐν τῷ ἕκτῳ ἀριθμῷ επὶ τὴν κατάπαυσιν</ab>
+        <ab resp="cfp">παρασκευή ἐστι παρασκευασία τῶν ἐν τῷ ἕκτῳ ἀριθμῷ ἐπὶ τὴν κατάπαυσιν</ab>
       </div>
       <milestone unit="letter" n="σ"/>
       <pb n="189"/>

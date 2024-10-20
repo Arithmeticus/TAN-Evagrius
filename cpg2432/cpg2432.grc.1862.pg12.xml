@@ -79,6 +79,7 @@
       <resp roles="editor" who="kalvesmaki"/>
       <resp roles="stylesheet" who="xslt1 xslt2"/>
       
+      <change when="2024-08-18" who="kalvesmaki">Corrected typo</change>
       <change when="2020-10-02" who="kalvesmaki">Moved file; cleaned tags</change>
       <change when="2018-03-05" who="kalvesmaki">Removed extraneous TEI attributes. Adjusted &lt;name&gt;</change>
       <change when="2017-05-14" who="kalvesmaki">Commented out &lt;desc&gt; until TAN files for the

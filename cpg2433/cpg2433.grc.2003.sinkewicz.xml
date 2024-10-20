@@ -35,6 +35,7 @@
     <file-resp who="kalvesmaki"/>
     <resp roles="editor" who="kalvesmaki"/>
     
+    <change when="2024-09-01" who="kalvesmaki">Typo corrected</change>
     <change when="2023-03-24" who="kalvesmaki">Normalized Greek</change>
     <change when="2022-02-16" who="kalvesmaki">Started file</change>
     <to-do/>
@@ -53,7 +54,7 @@
         </ab>
       </div>
       <div type="section" n="S2">
-        <ab>Λογισμὸς δαιμονιῶδης ἐστὶ νόημα πράγματος αἰσθητοῦ, θυμὸν ἢ ἐπιθυμίαν παρὰ φύσιν
+        <ab>Λογισμὸς δαιμονιώδης ἐστὶ νόημα πράγματος αἰσθητοῦ, θυμὸν ἢ ἐπιθυμίαν παρὰ φύσιν
           κινῶν.</ab>
       </div>
       <div type="section" n="S3">
