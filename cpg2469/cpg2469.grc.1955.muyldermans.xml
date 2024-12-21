@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:cpg2469:grc:muyldermans:1955">
+  <head>
+    <name xml:lang="eng">Greek edition of Admonitio de signis quietis, rescension from Athens BN 1050, pp. 291-293</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2469/cpg2469.grc.1955.muyldermans.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="admonitio de signis quietis"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Muyldermans 1955a"/>
+    <adjustments>
+      <normalization which="accents normalized"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <change when="2024-10-27" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  
+  <body xml:lang="grc">
+    <div n="1" type="chapter">Ὅσοι θέλουσιν εὐσεβῶς ζῆν ἐν Χριστῷ Ἰησοῦ, ταῦτα φυλαττέτωσαν, τοῦ
+      Θεοῦ συνεργοῦντος αὐτοῖς.</div>
+    <div n="2" type="chapter">Πρὸ πάντων μὲν ἡσυχίαν ἀσκεῖν καὶ ἀπὸ ἀργολογίας φυλάξαι τὸ στόμα
+      ὅτι καθὼς γέγραπται· « ἀπὸ πολυλογίας, οὐκ ἐκφεύξεται ἁμαρτία ».</div>
+    <div n="3" type="chapter">Εἰ ἔστι σοι λόγος συνετός, ἀποκρίθητι τῷ πλησίον· εἰ δὲ μή, ἡ χεῖρ σου
+      ἔστω ἐπὶ τῷ στόματί σου.</div>
+    <div n="4" type="chapter">Τέκνον, μὴ καταλάλει ἀδελφοῦ· μηδὲ ἀνέχου καταλαλούντων· ἵνα μή, καθὼς
+      λέγει τὸ Πνεῦμα τὸ ἅγιον, ἐκδιωχθῇς ἐν ταῖς σαῖς δεήσεσι καταισχυμμένος
+      « τὸν » γὰρ « καταλαλοῦντα λάθρα τὸν πλησίον αὐτοῦ, τοῦτον ἐξεδίωκον ».
+      ἀλλὰ μᾶλλον ἐὰν γένηται χρεία, ἐν ἀγαπῇ Θεοῦ ἔλεγξον.
+      « ὁ γὰρ ἐλέγχων, ὡς γέγραπται, μετὰ παρρησίας εἰρηνοποιεῖ ».</div>
+    <div n="5" type="chapter">Τέκνον, ἃ μισεῖς, ἄλλῳ μὴ ποιήσῃς· καὶ ὃ θέλεις, ἵνα ποιήσῃ σοι ὁ πλησίον.
+      καὶ σὺ τὸ ὅμοιον ποίει.</div>
+    <div n="6" type="chapter">Τέκνον, γέλωτα ἄκαιρον καὶ ἀπρεπῆ, ἔκκοψον ἀπὸ σοῦ.</div>
+    <div n="7" type="chapter">Σπούδασον μὴ λυπῆσαι ἀδελφόν, καὶ μὴ ἀποδώσῃς κακὸν ἀντὶ κακοῦ τινι·
+      ἀλλὰ νίκα ἐν τῷ ἀγαθῷ τὸ κακόν.</div>
+    <div n="8" type="chapter">Τέκνον, εἰς ὑπακοὴν ἕτοιμος ἔσο, ὅση σοι δύναμίς ἐστιν.</div>
+    <div n="9" type="chapter">Πρόσεχε μὴ ποιεῖν τι πρὸς τὸ τοῖς ἀνθρώποις ἀρέσκειν· ἵνα μὴ ζημιωθῇς. ἀλλὰ
+      πᾶν ὃ ἐὰν ποιῇς, ὡς ἐπόπτην τὸν Θεὸν ἔχων ποίει, καὶ οὐχ ἁμαρτήσῃς ποτέ.</div>
+    <div n="10" type="chapter">Τέκνον, πρόσεχε σεαυτῷ ἐν πάσῃ σου ἐργασίᾳ· καὶ μὴ ἐκκλίνῃς δεξιὰ μήτε
+      ἀριστερά· ἀλλὰ τὸ ἴσον κράτει, ἐν παντὶ πράγματι.</div>
+    <div n="11" type="chapter">Τέκνον, τοὺς λογισμούς σου διάκρινε, εἰ κατὰ Θεόν εἰσιν· ἐὰν δὲ οὐ δύνασαι,
+      ἐρώτησον τὸν δυνάμενον εὐθὺς διακρῖναι. Τέκνον, ἐὰν ἔλθῃ σοι λογισμὸς 
+      αἰσχρὸς ἢ ἀπρεπής, εὐθέως τὴν μέλλουσαν κόλασιν διάγραψον ἐν ἑαυτῷ, καὶ
+      δραπετεύει.</div>
+    <div n="12" type="chapter">Ὕπνον ἄμετρον μὴ θῇς ἐν ἑαυτῷ· ἐν δὲ ταῖς ὑπηρεσίαις, νηφόντως ἐργάζου
+      ἐπί σοι πονηρόν· καὶ προσεύχου ἀδιαλείπτως, εὐχαριστῶν τῷ Θεῷ· ὅτι 
+      ἀπέσπασέν σε ἀπὸ τῆς δουλείας τοῦ διαβόλου, καὶ κατηξίωσέν σε ἔρχου, οὗ ἄγγελοι
+      ποιοῦσιν.</div>
+    <div n="13" type="chapter">Μὴ ἐξουθενήσῃς ἀδελφόν, μήτε ἐν τῇ καρδίᾳ σου, μήτε ἐν τῇ γλώσσῃ σου.
+      ἀλλ' ἔσχατον πάντων, ἑαυτὸν εἶναι νόμιζε.</div>
+    <div n="14" type="chapter">Τέκνον, ὃ οὐκ ἔστι σοι χρεία, μὴ περιεργάζου.</div>
+    <div n="15" type="chapter">Ἐν θλίψεσι διαφόροις ὑπόμενε εὐχαρίστως διὰ τὴν μέλλουσαν ἀνταπόδοσιν.</div>
+    <div n="16" type="chapter">Ἔστω σοι τὸ ναί, ναί· καὶ τὸ οὔ, οὔ. Τέκνον, ὑπὲρ τῆς ἀληθείας δὲ
+      ἐξαιρέτως, μέχρι θανάτου, ἀγώνισαι· τὴν πίστιν τῆς Τριάδος φύλαξον, ἐν
+      ἐλπίδι ἀγαθῇ.</div>
+    <div n="20" type="chapter">Τέκνον, ὅτον ταῦτα πάντα ποιήσῃς, ὅρα μὴ ὑψωθῇ ἡ καρδία σου· ἀλλ'
+      εἰπὲ ἑαυτὸν ἀχρεῖον δοῦλον· καὶ ὅτι ὃ ὤφειλον ποιῆσαι, πεποίηκα.</div>
+    <div n="17" type="chapter">Πρόσεχε σεαυτῷ μή ποτε γένηται κρυπτὸν ἀνόμημα ἐν τῇ καρδίᾳ σου 
+      πονηρόν· ὦ τέκνον, πάσῃ φυλακῇ τηρεῖ σὴν καρδίαν· ἐκ γὰρ ταύτης ἔξοδοι ζωῆς.</div>
+    <div n="18" type="chapter">Ἃ προσετάγη σοι, ταῦτα διανοοῦ· οὐ γὰρ ἔστιν σοι τῶν ξένων καὶ 
+      ἀλλοτρίων χρεία ἔχειν τὴν μέριμναν.</div>
+    <div n="19" type="chapter">Πρὸ πάντων δὲ ἀγάπησον τὸν Θεόν σου, ἐξ ὅλης καρδίας σου καὶ διανοίας
+      σου· μετ' αὐτῶν δέ, τὸν πλησίον σου ὡς ἑαυτόν.</div>
+    <div n="ep" type="epilogue">Οὕτως γὰρ ζῶν, καὶ οὕτως πολιτευόμενος, φυλαχθήσῃ καὶ τηρηθήσῃ
+      ὑπὸ τοῦ ἀψευδοῦς Θεοῦ τοῦ φήσαντος· ὁ ἀγαπῶν με τὰ ἐντολάς μου τηρήσει·
+      κἀγὼ τηρήσω αὐτὸν ἑμαυτῷ, ᾧ ἡ δόξα καὶ τὸ κράτος, σὺν Πατρὶ ἀνάρχῳ καὶ
+      Πνεύματι ἁγίῳ, εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.
+    </div>
+
+  </body>
+  
+</TAN-T>
