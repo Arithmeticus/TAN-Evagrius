@@ -37,6 +37,7 @@
     <resp roles="editor" who="kalvesmaki podbielski"/>
     <resp roles="transcriber" who="podbielski"/>
     
+    <change when="2024-11-24" who="kalvesmaki">Corrected breathing typo</change>
     <change when="2021-06-11" who="kalvesmaki">Started file</change>
     <change when="2021-12-31" who="kalvesmaki">Added comments that supply refs to F-P's edition</change>
     <to-do>
@@ -82,7 +83,7 @@
         <pb n="92"/>
         <div type="chapter" n="53"><!-- Α.β.33 --><ab>βέλος ἐστὶ νοητὸν τὸ πρῶτον ἐκ τοῦ παθητικοῦ μέρους τῆς ψυχῆς συνιστάμενον νόημα</ab></div>
         <pb n="94"/>
-        <div type="chapter" n="31, 32"><!-- Α.γ.11 --><ab>γεννητὸν ἐστὶ τὸ ἔκ τινος ὡς ἐκ πατρὸς γεννηθἐν· γεννητὸν δὲ τὸ ἔκ τινος ὡς δημιουργοῦ ποιηθέν</ab></div>
+        <div type="chapter" n="31, 32"><!-- Α.γ.11 --><ab>γεννητὸν ἐστὶ τὸ ἔκ τινος ὡς ἐκ πατρὸς γεννηθέν· γεννητὸν δὲ τὸ ἔκ τινος ὡς δημιουργοῦ ποιηθέν</ab></div>
       </div>
       <pb n="96"/>
       <div type="century" n="6">

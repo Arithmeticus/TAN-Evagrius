@@ -83,7 +83,11 @@
             <name xml:lang="eng">Definitions</name>
             <name>nocpg03</name>
             <desc>Twelve brief chapters culled from Doctrina Patrum §34. See Casiday, Evagrius
-                Ponticus 183–84</desc>
+                Ponticus 183–84. These chapters are a portion of a larger set of definitions
+                that can be found in the Definitions and Descriptions (Furrer-Pilliod ed. 2000),
+                for which we have no edition. See Kalvesmaki forthcoming for a general description
+                and checklist of chapters.
+            </desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:nocpg04</IRI>
@@ -892,9 +896,9 @@
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2451</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.023</IRI>
+            <name>Eight Thoughts</name>
             <name xml:lang="grc">Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
             <name xml:lang="eng">The Eight Spirits of Wickedness</name>
-            <name>Eight Thoughts</name>
             <name xml:lang="lat">De octo spiritibus malitiae</name>
             <name>cpg2451</name>
             <desc>A brief but rich treatise of eight chapters, one for each evil thought (in this
@@ -1194,7 +1198,8 @@
             <name>cpg2458.6</name>
             <desc>Several lengthy scholia survive. The original shape of this work remains murky,
                 because many scholia are atypically lengthy, and only select parts of Luke are
-                discussed.</desc>
+                discussed. Scholion 1 is identical to Disciples 199 - 206 and scholion 2, to 
+                Disciples 207.</desc>
         </item>
         
         <item>
@@ -1542,6 +1547,14 @@
             <name xml:lang="eng">199 Chapters of Evagrius's Disciples</name>
             <name xml:lang="lat">Capita cic auctoribus discipulis Evagrii</name>
             <name>cpg2483</name>
+            <desc>A set of roughly 200 chapters that have passed under the name of
+                the disciples of Evagrius. The largest collection of 198 kephalaia survive in
+                Athens Benaki T A 72 (gr. 53), from the 13th century. Kephalaia 199 through 222
+                derive from different collections, and have overlap with other other parts of
+                Evagrius's writings. Chapters 199 through 207, for example, are identical
+                to Scholia 1 and 2 on Luke. Bunge has argued that the text as a whole represents
+                a missing link between the teachings of Evagrius and the 6th-century condemnations.
+            </desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2483:version:syr</IRI>

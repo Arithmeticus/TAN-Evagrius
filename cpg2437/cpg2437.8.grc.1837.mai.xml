@@ -23,19 +23,23 @@
          <name>Mai Scriptorum Nova Collectio</name>
          <desc>This fragment taken from vol. 9, p. 675.</desc>
       </source>
+      <adjustments>
+         <normalization which="accents normalized"/>
+      </adjustments>
       <vocabulary-key>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
 
       <file-resp who="kalvesmaki"/>
       <resp who="kalvesmaki" roles="editor"/>
+      <change when="2024-11-14" who="kalvesmaki">Normalized accent</change>
       <change when="2020-10-01" who="kalvesmaki">Started file</change>
       <to-do/>
    </head>
 
    <body xml:lang="grc">
       <div type="letter" n="8">
-         <div n="3" type="section">Ὁ μὲν Μωϋσῆς τὸν ἄνθρωπον ἐκ τῆς κατ' ἐνέργειαν ἁμαρτίας ἐξάγει· ὁ δὲ Ἰησοῦς διαδεχόμενος, ἐκ δεύτερου περιτέμνει, τοὐτέστι τὸ κατὰ διάνοιαν ἁμάρτημα· </div>
+         <div n="3" type="section">Ὁ μὲν Μωϋσῆς τὸν ἄνθρωπον ἐκ τῆς κατ' ἐνέργειαν ἁμαρτίας ἐξάγει· ὁ δὲ Ἰησοῦς διαδεχόμενος, ἐκ δευτέρου περιτέμνει, τουτέστι τὸ κατὰ διάνοιαν ἁμάρτημα· </div>
       </div>
 
    </body>
