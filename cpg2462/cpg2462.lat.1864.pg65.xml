@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:cpg2462:grc:pg65:logical-reference">
+  <head>
+    <name xml:lang="eng">Latin translation of the Apophthegmata patrum, alphabetical collection,
+      pertaining to Evagrius, published in PG 65:174-175</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2462/cpg2462.lat.1864.pg65.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="apophthegmata"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Patrologia Graeca"/>
+    <adjustments/>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <change when="2024-10-27" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  
+  <body xml:lang="lat">
+    <div n="1" type="chapter">Dixit abbas Evagrius: Cum sedes in cella
+    collige mentem tuam; memento diei mortis; tunc
+    vide corporis mortificationem: cogita calamitatem;
+    laborem assume; condemna vanitatem mundi; quo
+    possis manere semper in quietae vitae proposito nec
+    in infirmitatem incidas. Memor quoque esto status
+    praesentis in inferno: reputa quemadmodum illic
+    degant animae, in quo gravissimo silentio, in quo
+    amarissimo gemitu, in quali timore, certamine,
+    exspectatione; reputa nunquam desinentem dolorem,
+    lacrymas animae easque interminatas. Sed et
+    recordare diei resurrectionis, ac exhibitionis ad Deum:
+    imaginare horribile tremendumque illud judicium.
+    Profer in medium quae reposita sunt peccatoribus,
+    ignominiam coram Deo, angelis, archangelis,
+    cunctis hominibus; supplicia, ignem sempiternum,
+    vermem nunquam dormientem, tartarum, tenebras,
+    stridorem dentium, terrores, tormenta. Profer
+    pariter justis bona reposita, fiduciam cum Deo Patre,
+    et Christo ejus, angelis, archangelis, cuncto
+    sanctorum coetu, regnum coelorum, ejusque dona,
+    gaudium ejusque voluptatem. Horum utrorumque 
+    memoriam adduc in mentem tuam; ac de peccatorum
+    quidem judicio, fle, luge, veritus ne tu quoque
+    inter illos consistas; de iis vero quae reposita sunt
+    justis, gaude ac laetare. Atque tum his frui contende,
+    tum ab illis esse alienus. Cave ne unquam, sive
+    intra cellam tuam resideas, sive extra sis, haec e
+    memoria elabantur; quo vel per haec eadem 
+    sordidas noxiasque effugias cogitationes.</div>
+    <div n="2" type="chapter">Dixit iterum: Abscinde multorum affectus;
+    ne meus tua affligatur, et quietis modum conturbet.</div>
+    <div n="3" type="chapter">Alia ejusdem sententia: Magnum quidem
+    est, orare sine distractione; sed majus est sine 
+    distractione psallere.</div>
+    <div n="4" type="chapter">Adhuc dixit: Semper memento exitus tui
+    ex hac vita, nec obliviscaris aeterni judicii; neque
+    erit delictum in anima tua.</div>
+    <div n="5" type="chapter">Item: Tolle tentationes, et nullus salvus
+    erit.</div>
+    <div n="6" type="chapter">Hoc etiam: Dixit quidam e Patribus: Aridior
+    et non inaequalis victus cum charitate conjunctus,
+    cito monachum inducit in portum 
+    impassibilitatis.</div>
+    <div n="7" type="chapter">Factus est aliquando consessus in Cellis
+    pro negotio quodam, atque locutus est abbas 
+    Evagrius. Dicit ei presbyter: SCimus, abba, quod si
+    esses in regione tua, et episcopus saepe et
+    multorum caput constitutus fuisses; nunc vero tanquam 
+    peregrinus hic sedes. Ille compunctione ductus non
+    turbatus est, sed capite moto dixit ei: Sane ita 
+    est, Pater. Verum semet locutus sum; et iterum non
+    adjiciam.</div>
+
+  </body>
+  
+</TAN-T>

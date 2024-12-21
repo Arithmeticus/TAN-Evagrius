@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:cpg2462:grc:pg65:logical-reference">
+  <head>
+    <name xml:lang="eng">Benedicta Ward's English translation of the Apophthegmata patrum, alphabetical collection,
+      Evagrius</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2462/cpg2462.eng.1975.ward.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="apophthegmata"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="ward 1984"/>
+    <adjustments/>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <change when="2024-10-27" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  
+  <body xml:lang="eng">
+    <!-- page 63 -->
+    <div n="1" type="chapter">Abba Evagrius said, 'Sit in your cell, collecting your thoughts.
+    Remember the day of your death. See then what the death of your
+    body will be; let your spirit be heavy, take pains, condemn the
+    vanity of the world, so as to be able to live always in the peace you 
+    have in view without weakening. Remember also what happens in 
+    hell and think about the state of the souls down there, their painful
+    silence, their most bitter groanings, their fear, their strife, their
+    waiting. Think of their grief without end and the tears their souls 
+    shed eternally. But keep the day of resurrection and of presentation
+    to God in remembrance also. Imagine the fearful and terrible
+    judgement. Consider the fate kept for sinners, their shame before the face
+    of God and the angels and archangels and all men, that is to say, the
+    punishments, the eternal fire, worms that rest not, the darkness,
+    gnashing of teeth, fear and supplications. Consider also the good
+    things in store for the righteous: confidence in the face of God the 
+    Father and His Son, the angels and archangels and all the people of 
+    the saints, the kingdom of heaven, and the gifts of that realm, joy
+    and beatitude.
+    'Keep in mind the remembrance of these two realities. Weep for
+    the judgement of sinners, afflict yourself for fear lest you too feel
+    those pains. But rejoice and be glad at the lot of the righteous. Strive
+    to obtain those joys but be a stranger to those pains. Whether you
+    be inside or outside your cell, be careful that the remembrance of
+    these things never leaves you, so that, thanks to their remembrance,
+    you may at least flee wrong and harmful thoughts.'</div>
+    <div n="2" type="chapter">He also said, 'Restrain yourself from affection towards many
+    people, for fear lest your spirit be distracted, so that your interior
+    peace may not be disturbed.</div>
+    <div n="3" type="chapter">He also said, 'It is a great thing to pray without distraction but
+    to chant psalms without distraction is even greater.'</div>
+    <div n="4" type="chapter">He also said, 'Always keep your death in mind and do not
+    forget the eternal judgement, then there will be no fault in your
+    soul.</div>
+    <div n="5" type="chapter">He also said, 'Take away temptations and no-one will be
+    saved.</div>
+    <div n="6" type="chapter">He also said that one of the Fathers used to say, 'Eat a little 
+      without irregularity; if charity is joined to this, it leads the monk 
+    rapidly to the threshhold of apatheia.'</div>
+    <div n="7" type="chapter">One day at the Cells, there was an assembly about some matter
+    or other and Abba Evagrius held forth. Then the priest said to him,
+    'Abba, we know that if you were living in your own country you
+    would probably be a bishop and a great leader; but at present you
+    sit here as a stranger.' He was filled with compunction, but was not
+    at all upset and bending his head he replied, 'I have spoken once and
+    will not answer, twice but I will proceed no further.'</div>
+
+  </body>
+  
+</TAN-T>
