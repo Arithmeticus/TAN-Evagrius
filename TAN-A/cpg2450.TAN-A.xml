@@ -11,6 +11,7 @@
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
+      <source accessed-when="2024-12-21" xml:id="grc-gehin" which="cpg2450 grc Géhin"/>
       <source accessed-when="2020-11-01" xml:id="grc-pg40" which="cpg2450 grc PG 40"/>
       <source accessed-when="2020-11-01" xml:id="grc-pg79" which="cpg2450 grc PG 79"/>
       <source accessed-when="2023-12-27" xml:id="nesic" which="cpg2450 srp Nesic"/>
@@ -21,7 +22,7 @@
             <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-06-16T07:00:03.719-04:00"/>
          </algorithm>
          <alias id="cpg2450" idrefs="Greek Serbian"/>
-         <alias id="Greek" idrefs="grc-pg40 grc-pg79"/>
+         <alias id="Greek" idrefs="grc-gehin grc-pg40 grc-pg79"/>
          <alias id="Serbian" idrefs="nesic"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
@@ -33,7 +34,8 @@
       <change when="2018-06-03" who="kalvesmaki">Created file</change>
       <change who="xslt1" when="2019-06-16T07:00:03.719-04:00">Converted from 2018 to 2020 schemas.</change>
       <to-do>
-         <comment when="2023-12-27" who="kalvesmaki">Add Gehin's SC Greek edition</comment>
+         <comment when="2024-12-21" who="kalvesmaki">Add Gehin's SC Greek edition</comment>
+         <comment when="2023-12-27" who="kalvesmaki">Add Nesic's Serbian edition</comment>
          <comment when="2023-12-27" who="kalvesmaki">Add Latin translation from PG 40</comment>
          <comment when="2023-12-27" who="kalvesmaki">Add Latin translation from PG 79</comment>
       </to-do>

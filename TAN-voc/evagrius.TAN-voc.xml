@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2021/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="../../../TAN-2021/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TAN-voc xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:evagrius" TAN-version="2021">
     <head>
         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
@@ -997,6 +997,14 @@
             
             <!-- CPG 2450: On Evil Thoughts -->
             <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:gehin:1998</IRI>
+                <name>cpg2450 grc 1998</name>
+                <name>cpg2450 grc Géhin</name>
+                <name>Greek text of De malignis cogitationibus edited by P. Géhin, logical
+                    reference system</name>
+                <location href="../cpg2450/cpg2450.grc.1998.g%C3%A9hin.xml" accessed-when="2024-12-21"/>
+            </item>
+            <item>
                 <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2450:grc:1858:ref-logical-after-1998</IRI>
                 <name>cpg2450 grc 1858</name>
                 <name>cpg2450 grc PG 40</name>
@@ -1157,6 +1165,33 @@
                 <location href="../cpg2458.4/cpg2458.4.grc.1987.g%C3%A9hin.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
             </item>
             
+            <!-- CPG 2462: Apophthegmata -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2462:grc:pg65:logical-reference</IRI>
+                <name>cpg2462 grc 1864</name>
+                <name>cpg2462 grc PG 65</name>
+                <name>Greek text of Evagrius Ponticus, Apophthegmata, from the Patrologia Graeca, logical
+                    reference system</name>
+                <location href="../cpg2462/cpg2462.grc.1864.pg65.xml" accessed-when="2018-06-03-04:00"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2462:lat:pg65:logical-reference</IRI>
+                <name>cpg2462 lat 1858</name>
+                <name>cpg2462 lat PG 65</name>
+                <name>Latin translation of the Greek text of Evagrius Ponticus, Apophthegmata, from
+                    the Patrologia Graeca, scriptum reference system</name>
+                <location accessed-when="2023-12-14T22:55:42.1952391-05:00" href="../cpg2462/cpg2462.lat.1864.pg65.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2462:eng:ward</IRI>
+                <name>cpg2462 eng 1975</name>
+                <name>cpg2462 eng Ward</name>
+                <name xml:lang="eng">Benedicta Ward's English translation of the Apophthegmata patrum, alphabetical collection,
+                    Evagrius</name>
+                <location accessed-when="2024-12-21T16:10:58.0261413-05:00" href="../cpg2462/cpg2462.eng.1975.ward.xml"/>
+            </item>
+            
+            
             <!-- CPG 2463: Imitation of Song of Songs -->
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Imitation_Song_Songs_grc_Gehin-1996</IRI>
@@ -1211,6 +1246,24 @@
                 <name>Counsel, translated by Muyldermans into French</name>
                 <location href="../cpg2475/cpg2475.fra.1952.muyldermans.xml" accessed-when="2021-12-25"/>
             </item>
+            
+            <!-- CPG 2469: Admonitio de signis quietis, not by Evagris -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2469:grc:muyldermans:1953</IRI>
+                <name>cpg2469 grc Muyldermans 1953</name>
+                <name>cpg2469 grc 1953</name>
+                <name xml:lang="eng">Greek edition of Admonitio de signis quietis, rescension from London, BM Add. 28,825, fol. 60rv</name>
+                <location accessed-when="2024-12-21T16:27:12.2760202-05:00" href="../cpg2469/cpg2469.grc.1953.muyldermans.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2469:grc:muyldermans:1955</IRI>
+                <name>cpg2469 grc Muyldermans 1955</name>
+                <name>cpg2469 grc 1955</name>
+                <name xml:lang="eng">Greek edition of Admonitio de signis quietis, rescension from Athens BN 1050, pp. 291-293</name>
+                <location accessed-when="2024-12-21T16:26:06.8987663-05:00" href="../cpg2469/cpg2469.grc.1955.muyldermans.xml"/>
+            </item>
+            
             
             <!-- CPG 2476: Perfection -->
             <item>
