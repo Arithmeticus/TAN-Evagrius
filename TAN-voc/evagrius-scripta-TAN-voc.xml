@@ -85,6 +85,12 @@
          <desc>Aimilianos, Elder. On Prayer: An Interpretation of St. Neilos / Περὶ προσευχῆς: Ἑρμηνεία στὸν ὅσιο Νείλο τοῦ ἀσκητή. Athens: Indiktos, 2016. </desc>
       </item>
       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:aemilianos-2019</IRI>
+         <name>Aimilianos 2019</name>
+         <name>Aimilianos Corbu 2019</name>
+         <desc>Aimilianos, Elder. Despre rugăciune: Tâlcuire la Avva Evagrie. Translated by Agapie Corbu. Arad: Sfântul Nectarie, 2019.</desc>
+      </item>
+      <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:alfeyev-1997</IRI>
          <name>Alfeyev 1997</name>
          <desc>Alfeyev, Hilarion. “The Patristic Background of St. Symeon the New Theologian's Doctrine of the Divine Light.” Studia Patristica 32 (1997): 229–38.</desc>
@@ -126,6 +132,11 @@
          <IRI>tag:evagriusponticus.net,2012:scriptum:arras-1986</IRI>
          <name>Arras 1986</name>
          <desc>Arras, Victor. Geronticon. Corpus scriptorum Christianorum Orientalium. Scriptores Aethiopici 79–80. Louvain: Peeters, 1986. </desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:arzhanov-2009</IRI>
+         <name>arzhanov 2009</name>
+         <desc>Arzhanov, Yury. “Евагрий Понтийский, Послание к Мелании - Evagrius Ponticus, Letter to Melania (Russian translation, with introduction and commentary).” In Anthology of Oriental Christian Theology, 1:465–97, 2009. https://www.academia.edu/38752115/%D0%95%D0%B2%D0%B0%D0%B3%D1%80%D0%B8%D0%B9_%D0%9F%D0%BE%D0%BD%D1%82%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%9F%D0%BE%D1%81%D0%BB%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BA_%D0%9C%D0%B5%D0%BB%D0%B0%D0%BD%D0%B8%D0%B8_Evagrius_Ponticus_Letter_to_Melania_Russian_translation_with_introduction_and_commentary_.</desc>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:arzhanov-2015</IRI>
@@ -863,6 +874,11 @@
          <desc>Cook, Christopher. The Philokalia and the Inner Life on Passions and Prayer. London: James Clarke and Co, 2011. jamesclarke.co</desc>
       </item>
       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:corbu-2020</IRI>
+         <name>corbu 2020</name>
+         <desc>Corbu, Agapie, trans. Capete filocalice. Arad: Sfântul Nectarie, 2020. https://www.academia.edu/44065183/Ucenicii_lui_Evagrie_Capete_filocalice_Traduse_%C5%9Fi_comentate_de_Ieromonah_Agapie_Corbu_Ed_Sf_Nectarie_Arad_2020_Philokalical_Chapters_of_Evagriuss_Disciples_Bilingual_Edition_Romanian_Translation_and_Commentaries_by_Hieromonk_Agapie_Corbu_St_Nectarie_Publishing_House_Arad_2020_.</desc>
+      </item>
+      <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:corrigan-2007</IRI>
          <name>Corrigan and Stern-Gillet 2007</name>
          <name>corrigan 2007</name>
@@ -1426,6 +1442,13 @@
          <desc>Evagrius Ponticus. De la prière à la perfection: Au moine euloge. Translated by Marie Ange Jourdan-Gueyer and Marie-Odile Goudet. Les Pères dans la Foi 47. Paris: Migne, 1992. </desc>
       </item>
       <item>
+         <IRI>urn:isbn:978-90-429-4701-6</IRI>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:young-karapetian-2021</IRI>
+         <name>Evagrius Ponticus, Karapetian, and Young 2024</name>
+         <name>evagrius karapetian young 2024</name>
+         <desc>Evagrius Ponticus. Evagrius Letters in Armenian Translation. Edited by Robin Darling Young and Hovsep Karapetian. Corpus Scriptorum Christianorum Orientalium 704. Louvain: Peeters, 2022.</desc>
+      </item>
+      <item>
          <IRI>urn:isbn:978-9972-212-44-4</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:evagrius-lazzeri-egrejas-2010</IRI>
          <name>Evagrius Ponticus, Lazzeri, and Egrejas 2010</name>
@@ -1467,7 +1490,14 @@
          <name>evagrius moutsoulas 2002</name>
          <desc>Evagrius Ponticus. Euagrios Pontikos (Meros 1). Translated by Ēlias D. Moutsoulas. Βιβλιοθήκη Ἑλλήνων Πατέρων καὶ Ἐκκλησιαστικῶν Συγγράφεων 78. Athens: Αποστολική Διακονία της Εκκλησίας της Ελλάδος, 2002. </desc>
       </item>
-      <item>
+       <item>
+          <IRI>urn:isbn:978-85-5638-368-6</IRI>
+          <IRI>tag:evagriusponticus.net,2012:scriptum:evagrius-nara-2023</IRI>
+          <name>Evagrius Ponticus and Nara 2023</name>
+          <name>evagrius nara 2023</name>
+          <desc>Evagrius Ponticus. Enunciados sobre a oração. Translated by João Carlos Nara Jr. 1ª edição. São Paulo, SP: Cultor de Livros, 2023.</desc>
+       </item>
+       <item>
          <IRI>urn:isbn:978-1-291-01733-5</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:evagrius-nau-2012</IRI>
          <name>Evagrius Ponticus and Nau 2012</name>
@@ -1485,7 +1515,7 @@
          <IRI>urn:isbn:2226060898</IRI>
          <IRI>urn:isbn:0755-1835</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:evagrius-ponticus-1992</IRI>
-         <name>Evagrius Ponticus, Leloup, Guillaumont, and Guill 1992</name>
+         <name>Evagrius Ponticus, Leloup, Guillaumont, and Guillaumont 1992</name>
          <name>evagrius ponticus 1992</name>
          <desc>Evagrius Ponticus, Antoine. Praxis et gnosis d'Evagre le Pontique, ou, La guérison de l'esprit; Textes choisis. Translated by Antoine Guillaumont and Claire Guill. Spiritualités vivantes 102. Paris: A. Michel, 1992. </desc>
       </item>
@@ -1613,6 +1643,13 @@
          <name>Evagrius Ponticus and Fogielman 2017</name>
          <name>fogielman 2018</name>
          <desc>Evagrius Ponticus. A Euloge: Les vices opposés aux vertus. Sources Chrétiennes 591. Paris: Les Éditions du Cerf, 2017. </desc>
+      </item>
+      <item>
+         <IRI>urn:isbn:978-2-204-16170-1</IRI>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:fogielman-2024</IRI>
+         <name>Evagrius Ponticus and Fogielman 2024</name>
+         <name>fogielman 2024</name>
+         <desc>Evagrius Ponticus. Antirrhétique. Edited by Charles-Antoine Fogielman. Sources chrétiennes 640. Paris: CERF, 2024.</desc>
       </item>
       <item>
          <IRI>urn:isbn:88-05-03731-1</IRI>
@@ -2560,7 +2597,7 @@
          <IRI>tag:evagriusponticus.net,2012:scriptum:karapetyan-2000</IRI>
          <name>Karapetyan 2000-2001</name>
          <name>karapetyan 2000</name>
-         <desc>Karapetyan, T. “Kirakos Erznkaci's On the Eight Thoughts of Evagrius..” St. Nersess Theological Review 5–6 (2000–2001): 39–118.</desc>
+         <desc>Karapetyan, T. “Kirakos Erznkaci's On the Eight Thoughts of Evagrius.” St. Nersess Theological Review 5–6 (2000–2001): 39–118.</desc>
       </item>
       <item>
          <IRI>urn:isbn:0-19-969696-9</IRI>
@@ -3147,6 +3184,11 @@
          <desc>Mühmelt, Martin. “Zu der neuen lateinischen Übersetzung des Mönchsspiegels des Euagrius.” Vigiliae Christianae 8 (1954): 101–3.</desc>
       </item>
       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:nemeš-2013</IRI>
+         <name>Nemeš 2013</name>
+         <desc>Nemeš, Jaroslav. “Evagrius z Pontu : Myšlienky / Evagrius of Pontus : Sentences.” Kultúrne dejiny / Cultural History 4, no. 1 (2013): 67–93.</desc>
+      </item>
+      <item>
          <IRI>urn:isbn:2-204-06490-4</IRI>
          <IRI>urn:isbn:978-2-204-06490-3</IRI>
          <IRI>http://lccn.loc.gov/98122568</IRI>
@@ -3168,6 +3210,8 @@
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:nešić-2024</IRI>
+         <name>Evagrius Ponticus and Nešić 2024</name>
+         <name>evagrius nešić 2024</name>
          <name>Nešić 2024</name>
          <desc>Evagrius Ponticus, and Lazar Nešić. Аскетска дела и писма. Beseda, Diocese Backa: Novi Sad, 2024.</desc>
       </item>
@@ -3349,6 +3393,11 @@
          <IRI>tag:evagriusponticus.net,2012:scriptum:outtier-2016</IRI>
          <name>Outtier 2016</name>
          <desc>Outtier, Bernard. “La traduction arménienne des Chapitres sur la prière d’Évagre le Pontique.” In Manuscripta graeca et orientalia: Mélanges monastiques et patristiques en l’honneur de Paul Géhin, edited by André Binggeli, Anne Bouvarel-Boud’hors, and Matthieu Cassin, 523–38. Bibliothèque de Byzantion 12. Leuven; Paris; Bristol, CT: Peeters, 2016.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:outtier-géhin-2022</IRI>
+         <name>Outtier Géhin 2022</name>
+         <desc>Outtier, Bernard, and Paul Géhin. “L’Importante découverte de deux traités d’Évagre le Pontique sous le nom de Maxime le Confesseur en géorgien.” Le Muséon 135 (2022): 393–416.</desc>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:palladius-1918</IRI>
@@ -3588,6 +3637,11 @@
          <IRI>tag:evagriusponticus.net,2012:scriptum:plested-2004</IRI>
          <name>Plested 2004</name>
          <desc>Plested, Marcus. “Macarius and Evagrius.”  In The Macarian Legacy: The Place of Macarius-Symeon in the Eastern Christian Tradition, pp. 59–71. Oxford Theological Monographs. Oxford and New York: Oxford University Press, 2004. </desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:prado-neto-2023</IRI>
+         <name>Prado Neto 2023</name>
+         <desc>Prado Neto, Benedito de Pina Almeida. “O Praktikós e o Gnōstikós de Evágrio Pôntico: estudo, tradução e comentários.” Universidade de São Paulo, 2023. https://doi.org/10.11606/D.8.2023.tde-19052023-191340.</desc>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:prieur-1993</IRI>
@@ -3963,6 +4017,11 @@
          <desc>Spörri, W. “Gnome.”  In Der Kleine Pauly: Lexikon der Antike, pp. 822–829. Munich: Druckenmüller, 1964–1975. </desc>
       </item>
       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:stadel-2019</IRI>
+         <name>Stadel 2019</name>
+         <desc>Stadel, Seth M. “Prayer without Anger and Sadness: The Syriac Adaptation of Evagrius’ Chapters on Prayer.” Parole de l’Orient 45 (2019): 341–62.</desc>
+      </item>
+      <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:stadler-1994</IRI>
          <name>Stadler 1994</name>
          <desc>Stadler, Karin. “Méditation crétienne et techniques de méditation orientale.” Esprit et Vie. L'ami du Clergé 104 (1994): 593–608.</desc>
@@ -4106,6 +4165,26 @@
          <IRI>tag:evagriusponticus.net,2012:scriptum:tiso-2005</IRI>
          <name>Tiso 2005</name>
          <desc>Tiso, Francis. “Evagrius of Pontus and Buddhist Abhidharma.” Religion East &amp; West 5 (2005): 41–72.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:tkebuchava-2020a</IRI>
+         <name>Tkebuchava 2020a</name>
+         <desc>Tkebuchava, Lasha. “ევაგრე პონტოელის „ანტირეტიკოსი“ და მისი წმ. ექვთიმე ათონელისეული თარგმანი. &quot;Antirrheticus&quot; of Evagrius Ponticus And Its Translated Version by St. Euthymius the Athonite.” The Scroll, Ecclesiastical-Scientific Collection 7 (2020): 167–96.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:tkebuchava-2020b</IRI>
+         <name>Tkebuchava 2020b</name>
+         <desc>Tkebuchava, Lasha. “ევაგრე პონტოელის შრომა „ბოროტების რვა სულის შესახებ“ და მისი წმ. ექვთიმე ათონელისეული თარგმანი. The Treatise of Evagrius Ponticus &quot;On the Eight Evil Spirits&quot; and Its Translation Made by St. Euthymius the Athonite.” Theological-Scientific Works (Tbilisi) 10–11 (2020): 183–264.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:tkebuchava-2021a</IRI>
+         <name>Tkebuchava 2021a</name>
+         <desc>Tkebuchava, Lasha. “ევაგრე პონტოელის მე-4 ეპისტოლე და მისი წმ. ექვთიმე ათონელისეული თარგმანი. Evagrius Ponticus’s Fourth Epistle and Its Georgian Version Translated by Saint Euthymius the Athonite.” The Scroll, Ecclesiastical-Scientific Collection 8 (2021). https://www.academia.edu/79801902/%E1%83%94%E1%83%95%E1%83%90%E1%83%92%E1%83%A0%E1%83%94_%E1%83%9E%E1%83%9D%E1%83%9C%E1%83%A2%E1%83%9D%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1_%E1%83%9B%E1%83%94_4_%E1%83%94%E1%83%9E%E1%83%98%E1%83%A1%E1%83%A2%E1%83%9D%E1%83%9A%E1%83%94_%E1%83%93%E1%83%90_%E1%83%9B%E1%83%98%E1%83%A1%E1%83%98_%E1%83%AC%E1%83%9B_%E1%83%94%E1%83%A5%E1%83%95%E1%83%97%E1%83%98%E1%83%9B%E1%83%94_%E1%83%90%E1%83%97%E1%83%9D%E1%83%9C%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1%E1%83%94%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%97%E1%83%90%E1%83%A0%E1%83%92%E1%83%9B%E1%83%90%E1%83%9C%E1%83%98_Evagrius_Ponticus_s_Fourth_Epistle_and_Its_Georgian_Version_Translated_by_Saint_Euthymius_the_Athonite.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:tkebuchava-2021b</IRI>
+         <name>Tkebuchava 2021b</name>
+         <desc>Tkebuchava, Lasha. “ევაგრე პონტოელის აპოფთეგმის ექვთიმე ათონელისეული თარგმანი. Euthymios the Hagiorite’s Translation of Evagrius Ponticus’ Apophthegmata.” Enriko Gabidzashvili 90 (2021). https://www.academia.edu/87660323/%E1%83%94%E1%83%95%E1%83%90%E1%83%92%E1%83%A0%E1%83%94_%E1%83%9E%E1%83%9D%E1%83%9C%E1%83%A2%E1%83%9D%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1_%E1%83%90%E1%83%9E%E1%83%9D%E1%83%A4%E1%83%97%E1%83%94%E1%83%92%E1%83%9B%E1%83%98%E1%83%A1_%E1%83%94%E1%83%A5%E1%83%95%E1%83%97%E1%83%98%E1%83%9B%E1%83%94_%E1%83%90%E1%83%97%E1%83%9D%E1%83%9C%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1%E1%83%94%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%97%E1%83%90%E1%83%A0%E1%83%92%E1%83%9B%E1%83%90%E1%83%9C%E1%83%98_EUTHYMIOS_THE_HAGIORITE_S_TRANSLATION_OF_EVAGRIUS_PONTICUS_APOPHTHEGMATA.</desc>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:tobon-2010</IRI>
@@ -4514,6 +4593,12 @@
          <name>Young 2016</name>
          <desc>Young, Robin Darling. “The Role of Letters in the Works of Evagrius.”  In Evagrius and His Legacy. Edited by Joel Kalvesmaki and Robin Darling Young, pp. 154–174. South Bend: University of Notre Dame Press, 2016. </desc>
       </item>
+       <item>
+          <IRI>tag:evagriusponticus.net,2012:scriptum:young-et-al-2024</IRI>
+          <name>Young et al 2024</name>
+          <desc>Evagrius Ponticus. Evagrius of Pontus: The Gnostic Trilogy. Translated by Robin Darling Young, Joel Kalvesmaki, Columba Stewart, Luke Dysinger, and Charles M. Stang. New York: Oxford University Press, 2024.
+          </desc>
+       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:zigmund-cerbu-1959</IRI>
          <name>Zigmund-Cerbu 1959</name>

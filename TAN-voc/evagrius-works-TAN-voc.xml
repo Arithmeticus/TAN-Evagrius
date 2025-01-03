@@ -557,6 +557,12 @@
             <name>Armenian translation of Ep.</name>
             <name>cpg2437-hye</name>
         </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2437:version:kat</IRI>
+            <name>Georgian translation of Ep.</name>
+            <name>cpg2437-kat</name>
+            <desc>Partially translated; see Tkebuchava 2023.</desc>
+        </item>
         
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2438</IRI>
@@ -652,6 +658,15 @@
             <name>Armenian translation of Ὑπωτύπωσις ἢ Τῶν κατὰ μοναχῶν πραγμάτων τὰ αἰτία, καὶ ἡ καθ᾿
                 ἡσυχίαν τούτων παράθεσις</name>
             <name>cpg2441-hye</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2441:version:kat</IRI>
+            <name>Georgian translation of Hypotyposis</name>
+            <name>Georgian translation of Foundations</name>
+            <name>Georgian translation of Ὑπωτύπωσις ἢ Τῶν κατὰ μοναχῶν πραγμάτων τὰ αἰτία, καὶ ἡ καθ᾿
+                ἡσυχίαν τούτων παράθεσις</name>
+            <name>cpg2441-kat</name>
+            <desc>Partially translated; see Tkebuchava 2021, 2023.</desc>
         </item>
         
         <item>
@@ -892,6 +907,17 @@
             <name>Syriac translation of Thoughts</name>
             <name>cpg2450-syr</name>
         </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2450:version:ara</IRI>
+            <name>Arabic translation of Thoughts</name>
+            <name>cpg2450-ara</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2450:version:kat</IRI>
+            <name>Georgian translation of Thoughts</name>
+            <name>cpg2450-kat</name>
+            <desc>Partially translated; see Tkebuchava 2023.</desc>
+        </item>
         
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2451</IRI>
@@ -1071,6 +1097,12 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2454:version:syr</IRI>
             <name>Syriac translation of Exhortations to Monks</name>
             <name>cpg2454-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2454:version:kat</IRI>
+            <name>Georgian translation of Exhortations to Monks</name>
+            <name>cpg2454-kat</name>
+            <desc>Partially translated; see Tkebuchava 2023.</desc>
         </item>
         
         <item>

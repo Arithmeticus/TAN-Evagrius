@@ -26,7 +26,7 @@
       <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
     </vocabulary>
     
-    <source which="Muyldermans 1931a"/>
+    <source which="Muyldermans 1931c"/>
     
     <vocabulary-key>
       <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
