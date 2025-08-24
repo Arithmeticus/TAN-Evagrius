@@ -515,7 +515,7 @@
       <claim subject="evagrius_rubio_sadia_1995" verb="translates" object="cpg2430" in-lang="spa"/>
       <!-- cpg2430 ancient versions -->
       <claim subject="young_et_al_2024" verb="translates" object="cpg2430-syr-S1 cpg2430-syr-S2"/>
-      <claim subject="lolasvili_1984" verb="edits" object="cpg2430-kat"/>
+      <claim subject="makharashvili_1984" verb="edits" object="cpg2430-kat"/>
       <claim subject="Arras_1986" verb="edits" object="cpg2430-gez"/>
       
       <!-- cpg2431 -->
@@ -631,6 +631,8 @@
       <claim subject="Guillaumont_1958" verb="translates" in-lang="fra" object="cpg2432 cpg2432-syr-s1 cpg2432-syr-s2"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2432" in-lang="slv"/>
       <claim subject="sargisean_1907" verb="edits" object="cpg2432-hye"/>
+      <claim subject="evagrius_davis_2024" verb="edits" object="cpg2432-ara"/>
+      <claim subject="evagrius_davis_2024" verb="translates" object="cpg2432-ara" in-lang="eng"/>
       
       <!-- cpg2433 -->
       <claim
@@ -662,7 +664,6 @@
       <claim subject="evagrius_ica_2006" verb="translates" object="cpg2434" in-lang="rum"/>
       <claim subject="fogielman_2024" verb="translates" object="cpg2434" in-lang="fra"/>
       <claim subject="sargisean_1907" verb="edits" object="cpg2434-hye"/>
-      <claim subject="lolasvili_1984" verb="edits" object="cpg2434-kat"/>
       <claim subject="sims_williams_1985 Hansen_1955" verb="edits" object="cpg2434-sog"/>
       <claim subject="frankenberg_1912 fogielman_2024" verb="edits" object="cpg2434-syr"/>
       <claim subject="k'oč'lamazašvili_2019 tkebuchava_2020a" verb="edits" object="cpg2434-kat"/>
@@ -693,6 +694,7 @@
       <claim subject="muyldermans_1952b" verb="translates" object="cpg2435-hye" in-lang="fra"/>
       <claim subject="Mühmelt_1954 Leclercq_1951 migne_1857" verb="edits" object="cpg2435-lat"/>
       <claim subject="gressmann_1913b" verb="edits" object="cpg2435-syr"/>
+      <claim subject="makharashvili_1984" verb="edits" object="cpg2435-kat"/>
       <claim subject="evagrius_nešić_2024" verb="translates" object="cpg2435" in-lang="srp"/>
       
       <!-- cpg2436 -->
@@ -718,8 +720,8 @@
       <claim subject="evagrius_nešić_2024" verb="translates" object="cpg2436" in-lang="srp"/>
       
       <!-- cpg2437 -->
-      <claim subject="Géhin_1996 Géhin_1994 Dysinger_1990 guillaumont_1987c 
-         Muyldermans_1932 Outtier_Géhin_2022"
+      <claim subject="géhin_2025 Outtier_Géhin_2022 Géhin_1996 Géhin_1994 Dysinger_1990 guillaumont_1987c 
+         Muyldermans_1932"
          verb="edits" object="cpg2437"/>
       <claim subject="evagrius_bunge_1986" verb="translates" object="cpg2437" in-lang="deu"/>
       <claim subject="frankenberg_1912" verb="translates" object="cpg2437" in-lang="grc"/>
@@ -736,9 +738,10 @@
          in-lang="eng"/>
       <claim subject="Lantschoot_1964 sargisean_1907 evagrius_karapetian_young_2024" 
          verb="edits" object="cpg2437-hye"/>
-      <claim subject="frankenberg_1912" verb="edits" object="cpg2437-syr"/>
+      <claim subject="frankenberg_1912 géhin_2025" verb="edits" object="cpg2437-syr"/>
       <claim subject="evagrius_nešić_2024" verb="translates" object="cpg2437" in-lang="srp"/>
       <claim subject="tkebuchava_2021a" verb="edits" object="cpg2437-kat"/>
+      <claim subject="géhin_2025" verb="translates" object="cpg2437" in-lang="fra"/>
       
       <!-- cpg2438 -->
       <claim subject="evagrius_bunge_1986" verb="translates" object="cpg2438" in-lang="deu"/>
@@ -750,10 +753,12 @@
       <claim subject="evagrius_nieścior_1998" verb="translates" object="cpg2438" in-lang="pol"/>
       <claim subject="arzhanov_2009" verb="translates" object="cpg2438" in-lang="rus"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2438" in-lang="slv"/>
-      <claim subject="evagrius_vitestam_1964 frankenberg_1912" verb="edits" object="cpg2438-syr"/>
+      <claim subject="géhin_2025" verb="edits" object="cpg2438"/>
+      <claim subject="evagrius_vitestam_1964 frankenberg_1912 géhin_2025" verb="edits" object="cpg2438-syr"/>
+      <claim subject="géhin_2025" verb="translates" object="cpg2438" in-lang="fra"/>
       
       <!-- cpg2439 -->
-      <claim subject="forlin_patrucco_1983 mcguire_deferrari_1926_v1 migne_1857 erasmus_1532"
+      <claim subject="géhin_2025 forlin_patrucco_1983 mcguire_deferrari_1926_v1 migne_1857 erasmus_1532"
          verb="edits" object="cpg2439"/>
       <claim subject="evagrius_bunge_1986" verb="translates" object="cpg2439" in-lang="deu"/>
       <claim subject="frankenberg_1912" verb="translates" object="cpg2439-syr" in-lang="grc"/>
@@ -767,6 +772,7 @@
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2439" in-lang="slv"/>
       <claim subject="frankenberg_1912" verb="edits" object="cpg2439-syr"/>
       <claim subject="evagrius_nešić_2024" verb="translates" object="cpg2439" in-lang="srp"/>
+      <claim subject="géhin_2025" verb="translates" object="cpg2439" in-lang="fra"/>
       
       <!-- cpg2440 -->
       <claim subject="frankenberg_1912" verb="translates" object="cpg2440" in-lang="grc"/>
@@ -889,7 +895,7 @@
       <claim subject="evagrius_nieścior_1998" verb="translates" object="cpg2447" in-lang="pol"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2447" in-lang="slv"/>
       <claim subject="sargisean_1907" verb="edits" object="cpg2447-hye"/>
-      <claim subject="lolasvili_1984" verb="edits" object="cpg2447-kat"/>
+      <claim subject="makharashvili_1984" verb="edits" object="cpg2447-kat"/>
       <claim subject="evagrius_nešić_2024" verb="translates" object="cpg2447" in-lang="srp"/>
       
       <!-- cpg2448 -->
@@ -902,7 +908,7 @@
       <claim subject="evagrius_nieścior_1998" verb="translates" object="cpg2448" in-lang="pol"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2448" in-lang="slv"/>
       <claim subject="evagrius_ica_2006" verb="translates" object="cpg2448" in-lang="rum"/>
-      <claim subject="lolasvili_1984" verb="edits" object="cpg2448-kat"/>
+      <claim subject="makharashvili_1984" verb="edits" object="cpg2448-kat"/>
       <claim subject="evagrius_nešić_2024" verb="translates" object="cpg2448" in-lang="srp"/>
       
       <!-- cpg2449 -->
@@ -946,8 +952,10 @@
       <claim subject="Arras_1963 Spies_1932 grébaut_1913c grébaut_1913b Bachmann_1893"
          verb="edits" object="cpg2451-gez"/>
       <claim subject="Muyldermans_1939" verb="edits" object="cpg2451-hye"/>
-      <claim subject="lolasvili_1984 Garitte_1956" verb="edits" object="cpg2451-kat"/>
+      <claim subject="makharashvili_1984 Garitte_1956" verb="edits" object="cpg2451-kat"/>
       <claim subject="Bigot_1680" verb="edits" object="cpg2451-lat"/>
+      <claim subject="Marchini_2024" verb="edits" object="cpg2451-lat cpg2451-lat2"/>
+      <claim subject="Marchini_2024" verb="translates" object="cpg2451-lat cpg2451-lat2" in-lang="ita"/>
       <claim subject="muyldermans_1952" verb="edits" object="cpg2451-syr"/>
       <claim subject="k'oč'lamazašvili_2019 tkebuchava_2020b" verb="edits" object="cpg2451-kat"/>
       <claim subject="evagrius_nešić_2024" verb="translates" object="cpg2451" in-lang="srp"/>
@@ -980,6 +988,7 @@
       <claim subject="evagrius_nara_2023" verb="translates" object="cpg2452" in-lang="por"/>
       <claim subject="evagrius_nešić_2024" verb="translates" object="cpg2452" in-lang="srp"/>
       <claim subject="aimilianos_corbu_2019" verb="translates" object="cpg2452" in-lang="rom"/>
+      <claim subject="K'oč'lamazašvili_2017" verb="edits" object="cpg2452-kat2"/>
       
       <!-- cpg2453 -->
       <claim subject="evagrius_casiday_2006" verb="translates" object="cpg2453" in-lang="eng"/>

@@ -1001,6 +1001,12 @@
          <name>darling young 2002</name>
          <desc>Darling Young, Robin. “Appropriating Genesis and Exodus in Evagrius's On Prayer.”  In In Dominico Eloquio – in Lordly Eloquence: Essays on Patristic Exegesis in Honor of Robert Louis Wilken. Edited by Angela Russell Christman, David Hunter, Robin Darling Young, and Paul M. Blowers, pp. 242–258. Grand Rapids: Eerdmans, 2002. </desc>
       </item>
+      
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:evagrius-davis-2024</IRI>
+         <name>evagrius davis 2024</name>
+         <desc>Evagrius Ponticus. The Gnostic Chapters: A Critical Edition and Translation of Evagrius Ponticus’ Kephalaia Gnostika in Arabic. Edited by Stephen J. Davis. Arabic Christianity 5. Leiden [The Netherlands] ; Boston [Massachusetts]: Brill, 2023.</desc>
+      </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:de-aldama-1963</IRI>
          <name>de Aldama 1963</name>
@@ -2239,6 +2245,14 @@
          <desc>Evagrius Ponticus. Chapitres sur la prière. Sources chrétiennes 589. Paris: Les Éditions du Cerf, 2017. </desc>
       </item>
       <item>
+         <IRI>urn:isbn:2-204-16441-2 </IRI>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:géhin-2025</IRI>
+         <name>Evagrius Ponticus and Géhin 2025</name>
+         <name>SC 652</name>
+         <name>géhin 2025</name>
+         <desc>Evagrius Ponticus, Lettres: Lettre sur la foi, corpus des 62 lettres et Grande lettre, ed. Paul Géhin, Sources chrétiennes 652 (Paris: Editions du Cerf, 2025).</desc>
+      </item>
+      <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:göbel-2002</IRI>
          <name>Göbel 2002</name>
          <desc>Göbel, C. “Philosophie des Mönchseins: Am Beispiel des Ad Monachos des Evagrius Ponticus und seines Bezuges zum 'asketischen' Charakter der antiken Ethik.” Wissenschaft und Weisheit 65 (2002): 3–23.</desc>
@@ -2647,11 +2661,19 @@
          <name>Kocijančič and Širca, Spisi in Pisma</name>
       </item>
       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:kochlamazashvili-2017</IRI>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:k'oč'lamazašvili-2017</IRI>
+         <name>K'oč'lamazašvili 2017</name>
+         <name>K'oč'lamazašvili, Old Georgian Version of On Prayer</name>
+         <desc>K’oč’lamazašvili, Ekʻvtʻime. “Teachings about Prayer Ascribed to St. Nilus of Sinai and Its Georgian Translation.” Studies in Christian Archeology 9 (2017): 192–230.</desc>
+      </item>
+      <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:kochlamazashvili-2019</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:k'oč'lamazašvili-2019</IRI>
          <name>K'oč'lamazašvili 2019</name>
          <name>Old Georgian Version of Antirrhetikos</name>
          <name>K'oč'lamazašvili, Old Georgian Version of Antirrhetikos</name>
+         <desc>K’oč’lamazašvili, Ekʻvtʻime. Evagre Pontoelis Antirrhetikos - is żveli kʻartʻuli tʻargmani / The Old Georgian Version of Antirrhetikos. Tbilisi: Logosi, 2019.</desc>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:kohlbacher-1994</IRI>
@@ -2800,12 +2822,6 @@
          <desc>Linge, David E. “Leading the Life of Angels: Ascetic Practice and Reflection in the Writings of Evagrius of Pontus.” Journal of the American Academy of Religion 68 (2000): 537–68.</desc>
       </item>
       <item>
-         <IRI>tag:evagriusponticus.net,2012:scriptum:lolasvili-1984</IRI>
-         <name>Lolasvili 1984-1985</name>
-         <name>lolasvili 1984</name>
-         <desc>Lolasvili, Ivane. Zveli k`art`uli mcerlobis matiane. Tbilisi: Mec`niereba, 1984–1985. </desc>
-      </item>
-      <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:lossky-1972</IRI>
          <name>Lossky 1972</name>
          <desc>Lossky, Vladimir. “The Problem of the Vision Face to Face and Byzantine Patristic Tradition.” The Greek Orthodox Theological Review 17 (1972): 231–54.</desc>
@@ -2870,6 +2886,13 @@
          <desc>Eastern Orthodox Church. Velikija Minei Cetij sobrannyja vserossijskim mitropolitom Makariem. St. Petersburg: [n.p.], 1868. </desc>
       </item>
       <item>
+          <IRI>tag:evagriusponticus.net,2012:scriptum:makharashvili-1984</IRI>
+          <name>Makharashvili 1984-1985</name>
+          <name>makharashvili 1984</name>
+          <name>Maxarašvili 1984</name>
+          <desc>Makharashvili, Soso. “ევაგრე პონტოელის ცხოვრება-მოღვაწეობა და მის თხზულებათა ქართული თარგმანი.” In ძველი ქართული მწერლობის მატიანე, edited by Ivane Lolashvili, 1:3–39. Tbilisi: Mec`niereba, 1984.</desc>
+       </item>
+       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:maraval-1988</IRI>
          <name>Maraval 1988</name>
          <desc>Maraval, Pierre. “Un correspondant de Grégoire de Nazianze identifié: Pansophios d'Ibora.” Vigiliae Christianae 66 (1988): 24–27.</desc>
@@ -2879,6 +2902,11 @@
          <name>Marchini, Heidl, and Somos 2009</name>
          <name>marchini 2009</name>
          <desc>Marchini, Diego. “La tradizione latina del De octo spiritibus malitiae di Evagrio Pontico.”  In Origeniana nona: Origen and the Religious Practice of His Time; Papers of the 9th International Origen Congress, Pécs, Hungary, 29 August - 2 September 2005. Edited by György Heidl and Róbert Somos, pp. 565–575. Bibliotheca Ephemeridum theologicarum Lovaniensium 228. Leuven: Peeters, 2009. </desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:marchini-2024</IRI>
+         <name>Marchini 2024</name>
+         <desc>Evagrius Ponticus. Gli otto spiriti della malvagità: edizione e traduzione di due antiche versioni latine. Edited by Diego Marchini. Città nuova, 2024. https://www.academia.edu/125864555/Evagrio_Pontico_Gli_otto_spiriti_della_malvagit%C3%A0_antiche_versioni_latine.</desc>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:marsili-1936</IRI>

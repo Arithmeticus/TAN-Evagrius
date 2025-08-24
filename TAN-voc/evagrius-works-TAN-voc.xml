@@ -439,11 +439,10 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2434:version:kat</IRI>
             <name>Georgian translation of Antirrh.</name>
             <name>cpg2434-kat</name>
-            <desc>In one tradition (seventeen mss.), each of the eight chapters are preceded by the
-            corresponding part of Eight Spirits (CPG 2451), and presented as a treatise by Maximus
-            Confessor, prefaced by a letter that is a mixture of the preface to the Antirrhetikos,
-            Letter 4, and the Catechesis of Theodore Stoudites.
-            </desc>
+            <desc>The Georgian version, attributed to St. Maximus the Confessor (perhaps by the
+                translator himself, Euthymius the Hagiorite), combines both the Antirrhetikos and
+                the Eight Thoughts (B version, from De gula and De luxuria), and is completely
+                independent of the Syriac-Armenian line of translation.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2434:version:sog</IRI>
@@ -938,6 +937,12 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2451:version:lat</IRI>
             <name>Latin translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
             <name>cpg2451-lat</name>
+            <name>cpg2451-lat1</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2451:version:lat2</IRI>
+            <name>Second Latin translation of Περὶ τῶν οκτῶ πνευμάτων τῆς πονηρίας</name>
+            <name>cpg2451-lat2</name>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2451:version:syr</IRI>
@@ -1035,7 +1040,8 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2452:version:kat:2</IRI>
             <name>Eleventh-century Georgian translation of On Prayer</name>
             <name>cpg2452-kat2</name>
-            <desc>Eleventh-century translation from the Greek.</desc>
+            <desc>Eleventh-century translation from the Greek, argued by Kochlamazashvili to be
+                by Ephrem Mtsire (the Lesser).</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2452:version:ara</IRI>
