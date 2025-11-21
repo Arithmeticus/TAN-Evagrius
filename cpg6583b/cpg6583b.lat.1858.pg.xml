@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" id="tag:kalvesmaki.com,2014:patrologia:text:cpg6583b:lat">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name>Latin translation of the Greek text of Maxims Useful for Life, part two from the Patrologia Graeca, 79:1240-1250</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg6583b/cpg6583b.lat.1958.pg.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="cpg6583b"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
+      </vocabulary>
+      <!-- PG 79:1240-1250 -->
+      <source which="Patrologia Graeca"/>
+      <vocabulary-key>
+         <div-type xml:id="ch" which="chapter"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2025-11-03" who="kalvesmaki">Started file</change>
+      <to-do> </to-do>
+   </head>
+   <text>
+      <body xml:lang="lat">
+         <milestone unit="column" n="1239"/>
+         <div type="ch" n="1">
+            <p n="1">Via ad virtutem bona et brevis, est
+               saeculi fuga.</p>
+         </div>
+         <div type="ch" n="2">
+               <p n="2">Oportet, ut qui concupiscit iucorruptibilia, pro
+               nihilo ducat corruptibilia.</p>
+         </div>
+         <div type="ch" n="3">
+               <p n="3">Si veram desideras vitam, humanam mortem
+               semper exspecta.</p>
+         </div>
+         <div type="ch" n="4">
+               <p n="4">Praesentem vitam odio habeas, vides quippe
+               ipsius totam absque ordine convolvi.</p>
+         </div>
+         <div type="ch" n="5">
+               <p n="5">Ne desideres bona, quorum usus praeterit, et
+               possessio deperit.</p>
+         </div>
+         <div type="ch" n="6">
+               <p n="6">Rideto eos quibus res prospere succedunt, et
+               infeliciter degentibus compatere; hoc enim 
+               mercedem, illud vero sapientiam comparat.</p>
+         </div>
+         <milestone unit="column" n="1242"/>
+         <div type="ch" n="7">
+            <p n="7">Exerce patientiam, eam, quam novimus 
+               exercuisse martyres, quandoquidem a nobis etiam 
+               conscientiae testimonium reposcitur.</p>
+         </div>
+         <div type="ch" n="8">
+               <p n="8">Prae omnibus animam aestima, sicque virtutis
+               cursus sine labore perficitur: omnia namque 
+               corruptibilia sunt, anima vero immortalis; convenit
+               igitur eam, quae mortis est expers, pluris facere
+               quam corruptibilia.</p>
+         </div>
+         <div type="ch" n="9">
+               <p n="9">Praepara te ad ea quae molesta sunt, et plura
+               lucraberis.</p>
+         </div>
+         <div type="ch" n="10">
+            <p n="10">Ne quaeras a Deo suavia, sed ea sola quae sunt
+               utilia; illa enim requisitus Deus, non dat; si 
+               autem et acceperis, corrumpuntur.</p>
+         </div>
+         <div type="ch" n="11">
+            <p n="11">Ne conqueraris de paupertate, haec
+               quippe certatorem efficit a lege indistractum.</p>
+         </div>
+         <div type="ch" n="12">
+               <p n="12">Ne oblecteris divitiis; nam curae quae de
+               ipsis habentur, ut plurimum et contra animi 
+               sententiam, separant hominem a Deo.</p>
+         </div>
+         <div type="ch" n="13">
+               <p n="13">Prope est finis; qui pigritat, ad flagra 
+               praeparetur.</p>
+         </div>
+         <div type="ch" n="14">
+               <p n="14">Νοn procul est aestas; agrum igitur animae
+               e spinis liberemus.</p>
+         </div>
+         <div type="ch" n="15">
+               <p n="15">Nihil Deum latet, ita ut, dum peccamus, 
+               frustra Deum latere festinemus.</p>
+         </div>
+         <div type="ch" n="16">
+            <p n="16">Prae hominibus verecundare angelos, multi
+               nempe nobis astant; ideoque ab omni sejungere
+               turpi actione.</p>
+         </div>
+         <div type="ch" n="17">
+               <p n="17">Sollicitus esto de lance Judicis, et si quid
+               tibi sordidum est tentationis saecularis, ejicietur.</p>
+         </div>
+         <div type="ch" n="18">
+            <p n="18">Puta, otium, et requiem esse damnum, et
+            festina facere quidpiam eorum quae a nobis sunt
+            repetenda.</p>
+         </div>
+         <div type="ch" n="19">
+               <p n="19">Semper cogita inconstantiam vitae, nihilque
+               illorum quae in ea sunt, te poterit distrahere.</p>
+         </div>
+         <div type="ch" n="20">
+               <p n="20">Splendida bona terrae nequaquam te 
+               delectent, quia temporaria sunt, hami namque 
+               exsistunt, animam veluti piscem decipientes, et 
+               retibus includentes.</p>
+         </div>
+         <div type="ch" n="21">
+               <p n="21">Abstine a tentationibus, teque promptum 
+               exhibe ad fortitudinem.</p>
+         </div>
+         <div type="ch" n="22">
+               <p n="22">Nunquam pauperem despicias lacrymantem,
+               ne tuae orationis lacrymae despiciantur.</p>
+         </div>
+         <div type="ch" n="23">
+               <p n="23">Sapientia, possessio est hominibus eximia,
+               cumque sola sit hominibus, soli possidenti vult
+               conjungi.</p>
+         </div>
+         <div type="ch" n="24">
+               <p n="24">Virtus, tunica Dei est, ipsam texe, et eius
+               evades vestiarius, qui terrarum induit 
+               orbem.</p>
+         </div>
+         <div type="ch" n="25">
+               <p n="25">Quaecunque sunt super terram furto 
+               substrahuntur; operare tu coelestia, ista quippe digitos
+               rapientium non subeunt.</p>
+         </div>
+         <div type="ch" n="26">
+               <p n="26">Recusare oportet delicias, trahunt enim ad
+               actus a quibus, post sobrietatem, gemitus 
+               procreantur.</p>
+         </div>
+         <div type="ch" n="27">
+               <p n="27">Melius est abominari cogitationes amicas 
+               carnis corrumpunt enim corpus, et animam
+               inquinant.</p>
+         </div>   
+         <div type="ch" n="28">
+               <p n="28">Neque bona terrena quis comparabit absque
+         <milestone unit="column" n="1243"/>
+               laboribus, cur igitur coelestia propter laborem 
+               declinamus?</p>
+         </div>
+         <div type="ch" n="29">
+            <p n="29">Vis absque labore operari virtutem? cogita,
+               quod labor temporarius est, et merces aeterna.</p>
+         </div>
+         <div type="ch" n="30">
+               <p n="30">Quicunque ad inhonestas voluptates 
+               tabefacti, seu consumpti sunt, brevitatem fruitionis et
+               prolixitatem supplicii computent.</p>
+         </div>
+         <div type="ch" n="31">
+               <p n="31">Quam sordida, bestialis, ac stolida haec vita
+               sit, jure merito, tum anima, tum rationalis meus,
+               tum ii qui a semetipsis detrimentum perpessi sunt,
+               lugere debent.</p>
+         </div>
+         <div type="ch" n="32">
+               <p n="32">Omnia existima corruptibilia, virtutem vero
+               esse incorruptibilem.</p>
+         </div>
+         <div type="ch" n="33">
+               <p n="33">Neglige alia, quaecunque pecudis instar 
+               evadere faciunt hominem; ea vero perage quae te 
+               coelestem habere originem ostendere possunt.</p>
+         </div>
+         <div type="ch" n="34">
+               <p n="34">Curam habeto virtutis, ipsa quippe Adamum
+               exhibet Deum per sapientiam.</p>
+         </div>
+         <div type="ch" n="35">
+               <p n="35">Contines ventrem? contine et linguam, ne
+               per hunc fias servus, per illam vero liber evadas
+               inutilis.</p>
+         </div>
+         <div type="ch" n="36">
+               <p n="36">Dilige Deum, supra ipsum autem, ne sis
+               addictus, seu affectione adhaereas domesticis; ne
+               forte secundum ejus vocem, eo, uti non vis,
+               indignus comperiaris.</p>
+         </div>
+         <div type="ch" n="37">
+               <p n="37">Constanter perfer tribulationes ac aerumnas;
+               in ipsis quippe certantibus plectitur corona.</p>
+         </div>
+         <div type="ch" n="38">
+               <p n="38">Beata res est male pati, at male facere 
+               miserrimum est; qui namque patitur, fit Christi 
+               haeres; qui vero male facit, diaboli evadit cohaeres.</p>
+         </div>
+         <div type="ch" n="39">
+               <p n="39">Bonus est jejunii panis; quandoquidem liber
+               est a voluptatum fermento.</p>
+         </div>
+         <div type="ch" n="40">
+               <p n="40">Sancta est ara orationis, quia trahit ad nos
+               Sanctum sanctorum.</p>
+         </div>
+         <div type="ch" n="41">
+               <p n="41">Ne censeas justitiam esse virtutis 
+               appendicem; nam absque illa omnis actio est impura.</p>
+         </div>
+         <div type="ch" n="42">
+               <p n="42">Si dissemines pauperibus, tua dissemina,
+               aliena quippe sunt zizaniis amariora.</p>
+         </div>
+         <div type="ch" n="43">
+               <p n="43">Misericors caecus est, nisi fuerit justus, dum
+               agrum excolit, quem metere minime potest.</p>
+         </div>
+         <div type="ch" n="44">
+               <p n="44">Semper quidem exspecta mortem, at ne 
+               timeas; utrumque enim vera est nota 
+               philosophiae.</p>
+         </div>
+         <div type="ch" n="45">
+               <p n="45">Virtutis figuram indue, non ut decipias, sed
+               ut adjuves aspicientes.</p>
+         </div>
+         <div type="ch" n="46">
+               <p n="46">Dicere oportet honesta eum etiam, qui eadem
+               non facit honesta, ut incipiat opera, reveritus 
+               sermones.</p>
+         </div>
+         <div type="ch" n="47">
+               <p n="47">Si coelum desideras, nihil tibi, et terrae, nec
+               enim ista sinit ad illud evolare.</p>
+         </div>
+         <div type="ch" n="48">
+               <p n="48">Ne ditescere velis causa mendicis charitative
+               opitulandi; Deus enim lege sancivit, quod Justus
+               e propriis [al. e juste partis] misereatur.</p>
+         </div>
+         <div type="ch" n="49">
+               <p n="49">Si poculum aquae frigidae justificat 
+               misericordem, quanta succedet retributio ei qui mendicis
+               omnia dispergit?</p>
+         </div>
+         <div type="ch" n="50">
+               <p n="50">Patres virtutum sunt castitas, et 
+         <milestone unit="column" n="1246"/>
+                  compassio; igitur sine hac, vel illa non licet sub
+               Christo militare.</p>
+         </div>
+         <div type="ch" n="51">
+            <p n="51">Ne compassionem negligas, opus enim, quod
+               ex ipsa processit, exhibuit hominibus eum, qui
+               propter nos carnem suscepit.</p>
+         </div>
+         <div type="ch" n="52">
+               <p n="52">Ne dicas: Ultionem sumam de inimico; 
+               judicem enim justum obtinuimus in coelo.</p>
+         </div>
+         <div type="ch" n="53">
+               <p n="53">Ne velis locupletari, neve gloriae causa 
+               aestimari; sunt quippe ista saeculi corruptio, nos 
+               autem non sumus ut corruptibiles.</p>
+         </div>
+         <div type="ch" n="54">
+               <p n="54">Super demortuo ne lugeas, communis 
+               namque est via, et qui pervenit, est beatus.</p>
+         </div>
+         <div type="ch" n="55">
+               <p n="55">Peccantem defle, non autem mendicantem;
+               iste quippe coronatur, ille vero punitur.</p>
+         </div>
+         <div type="ch" n="56">
+               <p n="56">Ride quidem vitae rotam inordinate volutam;
+               at eam cave rotam, in quam devolvuntur ii qui
+               dormitant in ipsa.</p>
+         </div>
+         <div type="ch" n="57">
+               <p n="57">Multa cum Deo loquere, et paucissima cum
+               hominibus; legis autem meditatione utraque 
+               prospere patrabis</p>
+         </div>
+         <div type="ch" n="58">
+               <p n="58">Lacryma orationis lavacrum bonum est
+               animae, sed post orationem memento cujus gratia
+               lacrymatus es.</p>
+         </div>
+         <div type="ch" n="59">
+               <p n="59">Potentes saeculi ne praedices beatos; 
+               potentes namque potenter tormenta patientur; unde
+               ipsi judicem habebunt austeriorem.</p>
+         </div>
+         <div type="ch" n="60">
+               <p n="60">Oportet Adamum laborare; nos vero in lege
+               laborantes lucrabimur retributionem.</p>
+         </div>
+         <div type="ch" n="61">
+               <p n="61">Necesse est ut haeredes Evae afflictentur; at
+               quando afflictiones cum gratiarum actione toleramus
+               in benedictionem nobis commutatur maledictio.</p>
+         </div>
+         <div type="ch" n="62">
+               <p n="62">Conscientia utere veluti lucerna ad
+               actiones tuas; demonstrat enim ista quales in
+               vita bonae sunt.</p>
+         </div>
+         <div type="ch" n="63">
+               <p n="63">Nos ipsos judicemus, et Judex reconciliatus
+               est; gaudet enim ut bonus, dum videt peccatorem
+               onus dispergentem.</p>
+         </div>
+         <div type="ch" n="64">
+               <p n="64">Si quid sordidum factum fuerit poenitentia
+               perluamus; debemus namque puram imaginem
+               architectari.</p>
+         </div>
+         <div type="ch" n="65">
+               <p n="65">Antequam denudemur, animae ulcera 
+               curemus, ut flagella, seu divinam ultionem vitando
+               lucremur.</p>
+         </div>
+         <div type="ch" n="66">
+               <p n="66">Quemadmodum vincti difficulter gradiuntur,
+               ita saeculo impliciti, purum virtutis curriculum non
+               perficiunt.</p>
+         </div>
+         <div type="ch" n="67">
+               <p n="67">Oportet odisse peccatum, sic enim ex ipsius
+               reti celerius quis exibit, etsi in illud fuerit 
+               delapsus.</p>
+         </div>
+         <div type="ch" n="68">
+               <p n="68">Qui non odit peccatum, etsi minime faciat
+               peccatum, inter peccatores iudicatur.</p>
+         </div>
+         <milestone unit="column" n="1247"/>
+         <div type="ch" n="69">
+            <p n="69">Super proximo peccante geme, ut et super
+               teipso gemas, omnes enim sumus peccatis obnoxii.</p>
+         </div>
+         <div type="ch" n="70">
+               <p n="70">Commemora Judicis amicum, qui lapsus est,
+               tuumque illinies vulnus; remedium quippe consilii
+               commune est.</p>
+         </div>
+         <div type="ch" n="71">
+               <p n="71">Cum dicturus aut facturus es aliquid, 
+               curam gere defensionis paulo post adhibendae sicque
+               a timore correctus, eris temperans.</p>
+         </div>
+         <div type="ch" n="72">
+               <p n="72">Time peccati supplicium, et dedecus non
+               sustineas; molestia namque utriusque immensa.</p>
+         </div>
+         <div type="ch" n="73">
+               <p n="73">Futurorum bonorum, et pulchritudo, et 
+               multitudo infinita; ista vero sunt umbra, et fumus, et
+               bullae.</p>
+         </div>
+         <div type="ch" n="74">
+               <p n="74">Ne semines male, quia prope imminet aestas,
+               et spinarum agricolam ignis exspectat.</p>
+         </div>
+         <div type="ch" n="75">
+               <p n="75">Hypocritae, seu simulatores, avidi plus 
+               habendi, voluptatibus dediti, rosae sunt saeculi;
+               sed tantillum exspecta, inspiciesque  conculcatam
+               herbam.</p>
+         </div>
+         <div type="ch" n="76">
+               <p n="76">Omnis actio mala diabolum obarmat, 
+               obarmatus autem molestiis afficit eos qui ipsum 
+               armarunt.</p>
+         </div>
+         <div type="ch" n="77">
+               <p n="77">Vis ut inimicus debilitetur? peccatum 
+               praescinde, sicque aliis denudatus ille, veluti 
+               passerculus, deluditur.</p>
+         </div>
+         <div type="ch" n="78">
+               <p n="78">Vae impio, quia, quando illuminantur omnes,
+               tunc ille obtenebratur.</p>
+         </div>
+         <div type="ch" n="79">
+               <p n="79">Vae blasphemo, alligatur nempe ipsi lingua,
+               et ullo modo se defendere apud Judicem non potest.</p>
+         </div>
+         <div type="ch" n="80">
+               <p n="80">Vae iniusto, ad Judicem quippe austerum,
+               justumque abit legislatorem.</p>
+         </div>
+         <div type="ch" n="81">
+               <p n="81">Vae alienorum avido, divitiae ipsum fugiunt,
+               et ignis suscipit.</p>
+         </div>
+         <div type="ch" n="82">
+               <p n="82">Vae pigro, quaeret tempus, quod male 
+               iusumpsit.</p>
+         </div>
+         <div type="ch" n="83">
+               <p n="83">Vae superbo, quando sepulcrum ingressus
+               fuerit, quisnam exsistat, edocetur.</p>
+         </div>
+         <div type="ch" n="84">
+               <p n="84">Vae meretricum amatori, inquinanti vestem
+               nuptialem, jam quoque e regiis nuptiis ejicitur cum
+               dedecore.</p>
+         </div>
+         <div type="ch" n="85">
+               <p n="85">Vae contumelioso, et cum ipso simul ebrioso,
+               quia cum homicidis collocantur, et cum adulteris
+               puniuntur.</p>
+         </div>
+         <div type="ch" n="86">
+               <p n="86">Vae luxurianti parvo tempore, is, quasi 
+               vitulus ad occisionem destinatus, impinguatur.</p>
+         </div>
+         <div type="ch" n="87">
+               <p n="87">Vae hypocritae, seu simulatori, pastor ipsum
+               abnegat, et lupum judex demonstrat.</p>
+         </div>
+         <div type="ch" n="88">
+               <p n="88">Beatus, qui per angustam viam iter facit,
+               coronam quippe gestans coelum ingreditur.</p>
+         </div>
+         <div type="ch" n="89">
+               <p n="89">Beatus, qui voluptates conculcat, tremunt
+               enim daemones coram ipso.</p>
+         </div>
+         <div type="ch" n="90">
+               <p n="90">Beatus, qui purus est virtute caretque 
+               simulatione in anima, quia judicaturus est mundum,
+               non vero a mundo judicandus.</p> 
+         </div>   
+         <div type="ch" n="91">
+               <p n="91">Beatus, qui sublimem agit vitam, sensum
+         <milestone unit="column" n="1250"/>
+               vero humilem; Christum etenim imitatur, cumque
+               ipso considet.
+               </p>
+         </div>
+         <div type="ch" n="92">
+            <p n="92">Beatus, cujus a lingua lex minime deficit,
+            ab ejus namque tabernaculo Deus nequaquam
+            separatur.</p>
+         </div>
+         <div type="ch" n="93">
+            <p n="93">Beatus, qui plurimis benefacit, multos enim,
+               dum judicatur, inveniet advocatos.</p>
+         </div>
+         <div type="ch" n="94">
+               <p n="94">Beatus, qui non adulterat virtutem; quia
+               judicis non illuditur ventilabrum.</p>
+         </div>
+         <div type="ch" n="95">
+               <p n="95">Beatus, qui actiones suas adornat, antequam
+               appareat ignis quo probantur omnia.</p>
+         </div>
+         <div type="ch" n="96">
+               <p n="96">Beatus, qui ad futuram vitam festinat; res
+               namque praesentes redolent corruptionem, et ad
+               mortem trahuntur.</p>
+         </div>
+         <div type="ch" n="97">
+               <p n="97">Beatus, qui dispergit improba, quae 
+               congregavit, et purus puro Judici astat.</p>
+         </div>
+         <div type="ch" n="98">
+               <p n="98">Praecipuum autem, summumque sermonis
+               est. Anima ne sis negligens; nam paulo post
+               subibis lancem tremendi judicii Christi Dei nostri.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

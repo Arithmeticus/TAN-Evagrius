@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" id="tag:kalvesmaki.com,2014:patrologia:text:cpg6583b:grc:b">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name>Fragment of Greek text of Maxims Useful for Life, part two from the Patrologia Graeca, 79:1261, 1264</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg6583b/cpg6583b.grc.1958.pg.b.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="cpg6583b"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
+      </vocabulary>
+      <!-- PG 79:1261, 1264 -->
+      <source which="Patrologia Graeca"/>
+      <vocabulary-key>
+         <div-type xml:id="ch" which="chapter"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2025-11-04" who="kalvesmaki">Started file</change>
+      <to-do> </to-do>
+   </head>
+   <text>
+      <body xml:lang="grc">
+         <milestone unit="column" n="1261"/>
+         <div type="ch" n="91">
+            <p>Μακάριος ὁ τὸν βίον ὑψηλὸν ἔχων, ταπεινὸν δὲ 
+               φρόνημα. Χριστὸν γὰρ μιμεῖται, καὶ αὐτῷ
+               συγκαθίσεται.</p>
+         </div>
+         <div type="ch" n="92">
+            <p>Μακάριος οὗ τῆς γλώττης ὁ νόμος οὐκ ἀφίσταται·
+               τούτου γὰρ τῆς σκηνῆς ὁ Θεὸς οὐ χωρίζεται.</p>
+         </div>
+         <div type="ch" n="93">
+            <p>Μακάριος ὁ πολλοὺς εὐποιῶν· πολλοὺς γὰρ εὑρήσκει
+               συνηγόρους κρινόμενος.</p>
+         </div>
+         <div type="ch" n="94">
+            <p>Μακάριος ὁ μὴ νοθεύων ἀρετήν· τοῦ κριτοῦ γὰρ 
+               τὸ πτύον οὐκ ἐμπαίζεται.</p>
+         </div>
+         <div type="ch" n="95">
+            <p>Μακάριος ὁ τὰς ἑαυτοῦ πράξεις κατακοσμῶν· 
+               μέλλει γὰρ πῦρ ἀναφθῆναι, ᾧ τὰ πάντα 
+               δοκιμάζεται.</p>
+         </div>
+         <div type="ch" n="96">
+            <p>Μακάριος ὁ σπεύδων πρὸς τὴν ζωὴν τὴν 
+               μέλλουσαν· τὰ παρόντα γὰρ ὄζει φθορᾶς, καὶ πρὸς θάνατον 
+               ἕλκει.</p>
+         </div>
+         <milestone unit="column" n="1264"/>
+         <div type="ch" n="97">
+            <p>Μακάριος ὁ τὰ φαῦλα σκορπίζων ἃ συνήγαγε 
+               καθαρὸς καθαρῷ τῷ κριτῇ παριστάμενος.</p>
+         </div>
+         <div type="ch" n="98">
+            <p>Κεφάλαιον δὲ ἐπὶ τοῖς εἰρημένοις. Ψυχὴ μὴ 
+               ἀμέλει· μέλλεις γὰρ τὸν ζυγὸν μετὰ μικρὸν ὑπέρχεσθαι 
+               τοῦ φοβεροῦ κριτηρίου Χριστοῦ τοῦ Θεοῦ ἡμῶν. ὡς 
+               οὐκ οἶδας γὰρ ὁ θάνατος ἔρχεται.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

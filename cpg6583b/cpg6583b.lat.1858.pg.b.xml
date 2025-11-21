@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021"
+   id="tag:kalvesmaki.com,2014:patrologia:text:cpg6583b:lat:b">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name>Latin translation of the fragment of Greek text of Maxims Useful for Life, part two from the Patrologia Graeca, 79:1261-64</name>
+      <master-location
+         href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg6583b/cpg6583b.lat.1958.pg.b.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="cpg6583b"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
+      </vocabulary>
+      <!-- PG 79:1262-1263 -->
+      <source which="Patrologia Graeca"/>
+      <vocabulary-key>
+         <div-type xml:id="ch" which="chapter"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2025-11-04" who="kalvesmaki">Started file</change>
+      <to-do> </to-do>
+   </head>
+   <text>
+      <body xml:lang="lat">
+         <milestone unit="column" n="1262"/>
+         <div type="ch" n="91">
+               <p>Beatus, qui vitam habet sublimem, humilem vero
+                     animi sensum. Christum enim imitatur, et cum
+               ipse considebit.
+               </p>
+         </div>
+         <div type="ch" n="92">
+            <p>Beatus, cujus a lingua lex non deficit, ab ejus 
+                  enim tabernaculo Deus non separatur.</p>
+         </div>
+         <div type="ch" n="93">
+            <p>Beatus, qui multis beneficum se praestat, multos 
+                  quippe invenit advocatos, dum judicatur.</p>
+         </div>
+         <div type="ch" n="94">
+               <p>Beatus, qui non corrumpit virtutem, judicis 
+                     enim ventilabrum non illuditur.</p>
+         </div>
+         <div type="ch" n="95">
+               <p>Beatus, qui suos actus adornat, accendetur enim
+               ignis, quo probantur omnia.</p>
+         </div>
+         <div type="ch" n="96">
+               <p>Beatus qui festinat ad vitam futuram, redolent
+               quippe praesentia corruptionem, et ad mortem
+               trahunt.</p>
+         </div>
+         <milestone unit="column" n="1263"/>
+         <div type="ch" n="97">
+               <p>Beatus, qui mala dissipat, quae congregavit
+                     purus judici puro astans.</p>
+         </div>
+         <div type="ch" n="98">
+               <p>Capitulum super praefatis. Anima, ne neglige,
+               debes enim trutinam paulo post subire terribilis
+               judicii Christi Dei nostri, quia minime nosti, nec
+               quando mors venit.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

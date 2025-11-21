@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021"
+   id="tag:kalvesmaki.com,2014:text:cpg6583a:lat:neandro-1559">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name>Latin translation of the Greek text of Maxims Useful for Life, part one from Neandro (1559)</name>
+      <master-location
+         href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg6583a/cpg6583a.grc.1559.neandro.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="cpg6583a"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
+      </vocabulary>
+      <source which="Neandro 1559"/>
+      <adjustments>
+         <normalization which="accents normalized"/>
+      </adjustments>
+      <vocabulary-key>
+         <div-type xml:id="ch" which="chapter"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2025-11-03" who="kalvesmaki">Started file</change>
+      <to-do> </to-do>
+   </head>
+   <text>
+      <body xml:lang="lat">
+         <milestone unit="page" n="11"/>
+         <div type="ch" n="1">
+            <p>Timorem &amp; desiderium Dei habeto, &amp; puro conscientiae testimonio 
+               erga omnes utere.</p>
+         </div>
+         <div type="ch" n="2">
+            <p>Deum ipsum semper praesentem adesse existima, in omnibus quae agis.</p>
+         </div>
+         <div type="ch" n="3">
+            <p>Fugito laudem, &amp; caveto vituperium.</p>
+         </div>
+         <div type="ch" n="4">
+            <p>Gaude quando virtutem exerces: verum ne efferaris, ne quando in portu 
+               naufragium accidat.</p>
+         </div>
+         <div type="ch" n="5">
+            <p>Quanto magis in lege proficis, tanto magis te abesse a perfectione intelliges.</p>
+         </div>
+         <milestone unit="page" n="13"/>
+         <div type="ch" n="6">
+            <p>Uniuscujusque rei finem ante initium considera.</p>
+         </div>
+         <div type="ch" n="7">
+            <p>Diu noctuque ad ultimam horam respice.</p>
+         </div>
+         <div type="ch" n="8">
+            <p>Ne converseris isti, quem a bonis vides culpari.</p>
+         </div>
+         <div type="ch" n="9">
+            <p>Studeas nemini damnum dare, his quae seu facis, seu dicis, seu cogitas.</p>
+         </div>
+         <div type="ch" n="10">
+            <p>Ne laeteris floridis vitae: flos enim gramineus, cum attrectaveris, flaccescit.</p>
+         </div>
+         <div type="ch" n="11">
+            <p>In tristibus gratias age, &amp; iugum afflictionum leve erit.</p>
+         </div>
+         <div type="ch" n="12">
+            <p>In tentationibus sis fortis: multos enim etiam maiorum arguerunt.</p>
+         </div>
+         <div type="ch" n="13">
+            <p>Ne incusa Dei longanimitatem: commune enim est pharmacum.</p>
+         </div>
+         <div type="ch" n="14">
+            <p>Inaequalitatem vitae odio prosequere, propter eam vero Deum ne criminator.</p>
+         </div>
+         <div type="ch" n="15">
+            <p>Attendamus nobis ipsis, &amp; alios non reprehendemus:</p>
+         </div>
+         <div type="ch" n="16">
+            <p>Multa enim in nobis sunt, propter quae alios taxamus.</p>
+         </div>
+         <div type="ch" n="17">
+            <p>Psalmus precationis sit tibi in ore tuo: Deus enim nominatus lugat daemonas.</p>
+         </div>
+         <div type="ch" n="18">
+            <p>Oratio cum sobrietate fiat, ne a Deo petamus, quae ipsi non grata sunt.</p>
+         </div>
+         <div type="ch" n="19">
+            <p>Semper recordare Dei, &amp; coelum sit cogitatio tua.</p>
+         </div>
+         <div type="ch" n="20">
+            <p>Cohibe oculum: cum enim non attenderis, circumvolvitur.</p>
+         </div>
+         <div type="ch" n="21">
+            <p>Parce utere lingua: saepe enim profert, quae melius fuisset celari.</p>
+         </div>
+         <div type="ch" n="22">
+            <p>Meditatione legis mentem colito: extirpat enim malas cogitationes, 
+               continue frequentata.</p>
+         </div>
+         <div type="ch" n="23">
+            <p>Virtutes tuas celato: testes vero vitae tuae multos acquirere stude.</p>
+         </div>
+         <div type="ch" n="24">
+            <p>Odio prosequere carnis voluptates: sordidam enim animam cum corpore 
+               efficiunt.</p>
+         </div>
+         <div type="ch" n="25">
+            <p>Corpori solum quantum indiget impende, non quantum cupit.</p>
+         </div>
+         <div type="ch" n="26">
+            <p>Delicate vivere ne eligas. amorem enim hujus vitae conciliat: inimicitia 
+               autem adversus Deum ex utroque nascitur.</p>
+         </div>
+         <div type="ch" n="27">
+            <p>Aversare in vita gaudium: ipsum enim lubricum est, &amp; praecipitat exultantes.</p>
+         </div>
+         <div type="ch" n="28">
+            <p>Divitias si habes, distribue: si vero non habes, ne collige.</p>
+         </div>
+         <div type="ch" n="29">
+            <p>Armaturam enim ieiunium, orationem murum, &amp; balneum lacrymas 
+               esse putato.</p> 
+         </div>
+         <div type="ch" n="30">
+            <p>Quaecunque inique fecisti, omnia cum gemitibus recordare. oritur enim hinc 
+               animae continua compunctio.</p>
+         </div>
+         <div type="ch" n="31">
+            <p>Pauperes foveto: ipsi enim iudicem nobis conciliant.</p>
+         </div>
+         <div type="ch" n="32">
+            <p>Inopiae sanctorum subveni: per eos enim tibi cum Deo contigit societas.</p>
+         </div>
+         <div type="ch" n="33">
+            <p>Ecclesiam non secus ac coelum frequenta: nihilque in ipsa seu loquere, seu 
+               cogita terrenum.</p>
+         </div>
+         <div type="ch" n="34">
+            <p>Necessarium existima, suis rebus contentum esse: permitte autem Deo 
+               eius rei curam.</p>
+         </div>
+         <div type="ch" n="35">
+            <p>Carnem tuam debilitato bonis laboribus, penitus vero eam non domari 
+               posse existima.</p>
+         </div>
+         <milestone unit="page" n="15"/>
+         <div type="ch" n="36">
+            <p>Vinum bibe valde modicum, quantum enim offendit, tantum etiam 
+               corroborat bibentes.</p>
+         </div>
+         <div type="ch" n="37">
+            <p>Iram compesce: insaniam enim parit, modum excedens.</p>
+         </div>
+         <div type="ch" n="38">
+            <p>In morbis, oratione prius quam medicis &amp; pharmacis utere.</p>
+         </div>
+         <div type="ch" n="39">
+            <p>Sacerdotes omnes honora, bonis vero tantum conversare.</p>
+         </div>
+         <div type="ch" n="40">
+            <p>Venerare Dei domus, domum vero Dei etiam teipsum effice.</p>
+         </div>
+         <div type="ch" n="41">
+            <p>In ecclesiam frequenter venias: a perturbationibus enim &amp; 
+               fluctuationibus exterioribus, liberare nos solet.</p>
+         </div>
+         <div type="ch" n="42">
+            <p>Quaecunque in terra sunt, temporanea exsistunt: ne te ergo perturbet, quod tibi 
+               aufertur.</p>
+         </div>
+         <div type="ch" n="43">
+            <p>Quando te voluptatis affectus invaserit, oppone ipsi metum hominum, &amp; 
+               Dei offensam.</p>
+         </div>
+         <div type="ch" n="44">
+            <p>Μunitο auditum, &amp; oculos: per illa enim omnia, tela malitiae ingrediuntur.</p>
+         </div>
+         <div type="ch" n="45">
+            <p>Cum oraveris, mentem ad Deum attolle: &amp; etiamsi inde abstracta 
+               descenderit, iterum tamen ipsam recollige.</p>
+         </div>
+         <div type="ch" n="46">
+            <p>Mens humana non unquam cessat generare (cogitationes:) tu vero malas 
+               quidem expelle, bonas vero colendo exerce.</p>
+         </div>
+         <div type="ch" n="47">
+            <p>Humilitate gaude: altitudo enim eius firma est, nec ruere potest.</p>
+         </div>
+         <div type="ch" n="48">
+            <p>Ita exerce corpus, ut compescas carnis motus: et si aeger fueris, corpus 
+               cura, ut sanitatem adipiscatur, non ut deliciis eneruetur.</p>
+         </div>
+         <div type="ch" n="49">
+            <p>Pravas cogitationes aliis cogitationibus (melioribus) abige.</p>
+         </div>
+         <div type="ch" n="50">
+            <p>Considera coelestium bonorum decorem, &amp; nullum te capiet desiderium 
+               terrae, nec aliud ex ea dulcium.</p>
+         </div>
+         <div type="ch" n="51">
+            <p>Quando tibi aliqua de Deo subit cogitatio, non Deum, sed teipsum. Nihil 
+               enim tutum est quod modum excedit: quem servare conuenit.</p>
+         </div>
+         <div type="ch" n="52">
+            <p>Pravas cogitationes semen esse diaboli existima. sic enim ipsae desinunt, 
+               ipseque seminator confunditur.</p>
+         </div>
+         <div type="ch" n="53">
+            <p>Excessum risus fugito: eneruat enim animam. Anima vero eneruata, facile 
+               a freno legis exuitur.</p>
+         </div>
+         <div type="ch" n="54">
+            <p>In labores &amp; orationes oportet animam partiri: sic enim non multos in 
+               nobis introitus inveniet diabolus.</p>
+         </div>
+         <div type="ch" n="55">
+            <p>Laborem esse non mediocrem putato legis meditationem: quando mens simul &amp; 
+               lingua cognoscere quid volens, in libris cum labore versatur.</p>
+         </div>
+         <div type="ch" n="56">
+            <p>Cum ad labores manum moveris, lingua psallat, &amp; mens oret. Exigit 
+               enim Deus ut eius semper memores simus.</p>
+         </div>
+         <div type="ch" n="57">
+            <p>Omne quod agis, oratione obsignato: id vero maxime, de quo mentem 
+               vides dubitantem.</p>
+         </div>
+         <div type="ch" n="58">
+            <p>Si vis manuum tuarum labores divinos &amp; non terrenos fieri, quaedam ex 
+               iis communicabis cum egentibus.</p>
+         </div>
+         <milestone unit="page" n="17"/>
+         <div type="ch" n="59">
+            <p>Gaude sanctorum colloquio: per eos enim Deus tibi manifestatur.</p>
+         </div>
+         <div type="ch" n="60">
+            <p>Vere sanctos ab operibus dignosce. Unaquaeque namque arbor e fructu 
+               dignoscitur.</p>
+         </div>
+         <div type="ch" n="61">
+            <p>Semper lucrari aliquid stude ex sanctorum contemplatione. Observa 
+               vero ipsorum aspectum &amp; habitum: utrumque enim perutile est.</p>
+         </div>
+         <div type="ch" n="62">
+            <p>Exerce puritatem in corde, &amp; castitatem in corpore. Ea enim utraque 
+               templum Dei te efficiunt.</p>
+         </div>
+         <div type="ch" n="63">
+            <p>Sic itaque templum custodi, ut Dei, qui extruxerit: &amp; iudicare volentis, &amp; 
+               imaginem tuam (quae est ipsius imago) puram ad regulam exigentis.</p>
+         </div>
+         <div type="ch" n="64">
+            <p>Saecularium conversationes mentem a Deo segregant: quapropter ipsos nec 
+               alloquere, sed alloquentes declina.</p>
+         </div>
+         <div type="ch" n="65">
+            <p>Quando conviciis peteris, considera an aliquid a te factum sit convicio dignum. Si 
+               vero nihil a te admissum fuerit, fumum fugientem convicium esse existimato.</p> 
+         </div>
+         <div type="ch" n="66">
+            <p>In omnibus, in quibus iniuria afficeris, ad  patientiam confugito: et super 
+               iniuriantes nocumentum devolvetur.</p> 
+         </div>
+         <div type="ch" n="67">
+            <p>Cum vides divitias, aut gloriam, aut mundanam potentiam, considera 
+               labilitatem ipsorum, &amp; effugies illecebram.</p> 
+         </div>
+         <div type="ch" n="68">
+            <p>Tolera tribulationes: inter ipsas enim virtutes, quemadmodum inter 
+               spinas rosae, nascuntur &amp; germinant.</p> 
+         </div>
+         <div type="ch" n="69">
+            <p>Nihil cum virtute dignitate conferendum esse existima: imago enim Dei 
+               est. Ideoque, quemadmodum ipse, immutabilis est.</p> 
+         </div>
+         <div type="ch" n="70">
+            <p>Luge peccatorem foelicem: gladius enim iustitiae ipsi imminet.</p> 
+         </div>
+         <div type="ch" n="71">
+            <p>Matrem vitiorum ignaviam existima. Bona enim quae iam tenes, 
+               depraedatur: quae vero nondum possides, non sinit acquirere.</p> 
+         </div>
+         <div type="ch" n="72">
+            <p>Quando iniqua agens quis, propter ea tamen nullo pudore afficitur, vulnus 
+               magis exasperat, &amp; error ipsius tendit ad desperationem.</p> 
+         </div>
+         <div type="ch" n="73">
+            <p>Quotiescunque tristaris, reputa quanta bona fidelibus praeparata sint: &amp; 
+               fructus spiritus facile tibi aderit.</p>
+         </div>
+         <div type="ch" n="74">
+            <p>Decet fidelem humiliter se gerere erga omnes: coram quibusdam enim 
+               tantum humiliari, fictam quamdam humilitatem arguit.</p> 
+         </div>
+         <div type="ch" n="75">
+            <p>Nihil amori proximi praeferas, praeterquam ea, propter quae charitas Deum 
+               non recte intuetur.</p> 
+         </div>
+         <div type="ch" n="76">
+            <p>Nemini contra legem Dei adhaereto, neque auxiliator. Indignum enim facit 
+               Deum, qui ipsi praefert alium.</p> 
+         </div>
+         <div type="ch" n="77">
+            <p>Ne patrocineris malis: ipsos enim ad mala provocas, tu vero contaminaris 
+               peccati communione.</p> 
+         </div>
+         <div type="ch" n="78">
+            <p>Admoneto peccantem, ne vero accusa errantem: alterum enim 
+               conviciatoris est proprium, alterum vero castigantis.</p> 
+         </div>
+         <milestone unit="page" n="19"/>
+         <div type="ch" n="79">
+            <p>Semper audire et loqui stude, quae sancta sunt: ad bonum enim zelum 
+               animam extimulant.</p>
+         </div>
+         <div type="ch" n="80">
+            <p>Quandoquidem domi nostrae, Ecclesiam, mentem quisque suam, habemus: 
+               peragere etiam debemus in ipsa Ecclesiae sacrificia.</p>
+         </div>
+         <div type="ch" n="81">
+            <p>Si peragitur congregatio in Ecclesia, &amp; tu adesto: si vero non peragitur, 
+               tu psallens apostolicum Evangelium, abito.</p>
+         </div>
+         <div type="ch" n="82">
+            <p>Virtutis gloriam sanctorum aspicito: ipsorum enim gloria immortalis est, 
+               etiam post obitum.</p>
+         </div>
+         <div type="ch" n="83">
+            <p>Tunc malitiam maxime oderis, quando cogitabis quod daemonum sit 
+               fulgurans contra nos gladius.</p>
+         </div>
+         <div type="ch" n="84">
+            <p>Si peccantem admones, misce compassionis verba: &amp; aures emollientur, 
+               cor vero illuminabitur.</p>
+         </div>
+         <div type="ch" n="85">
+            <p>Cum inter sanctos loqueris, quae spiritus sunt loquere: si vero talibus non 
+               loquaris, de iis ne loquaris quicquam.</p>
+         </div>
+         <div type="ch" n="86">
+            <p>Semper bonas actiones urge, ne quando relictis illis semiperfectus abeas.</p>
+         </div>
+         <div type="ch" n="87">
+            <p>Sic curre, ut assequaris scopum: hoc est, indesinenter. Oportet enim 
+               (iuxta) virtutem vivere, donec vitae stadium exuperemus.</p>
+         </div>
+         <div type="ch" n="88">
+            <p>Ne sis in studio mandatorum Dei negligens: talibus enim labor inanis, 
+               laborem super laborem aggerit.</p>
+         </div>
+         <div type="ch" n="89">
+            <p>Patientiam etiam antequam necesse est exerce, ut ipsius armaturam 
+               paratam invenias, etiam in necessitate.</p>
+         </div>
+         <div type="ch" n="90">
+            <p>Improbis resiste cogitationibus, &amp; responde ipsis quae in lege dicuntur:</p>
+         </div>
+         <div type="ch" n="91">
+            <p>Diligentia multa oculos a vita hac abstrahe: fumus enim perniciosus ex 
+               ipsa veniens, turbidam reddit animam.</p>
+         </div>
+         <div type="ch" n="92">
+            <p>Si consuetudine aliqua mala detentus fueris, paulatim eam rescinde: &amp; 
+               sine ullo negocio ab anima spinam eradicabis.</p>
+         </div>
+         <div type="ch" n="93">
+            <p>Deum purum existentem, pure quoque dilige: &amp; prae eo, in omnibus omnia 
+               secundo loco habenda esse existimato.</p>
+         </div>
+         <div type="ch" n="94">
+            <p>Si vis esse templum Dei: sacrificium assiduitatis, assiduam scilicet 
+               orationem, assidue ipsi offeras.</p>
+         </div>
+         <div type="ch" n="95">
+            <p>Negligenter &amp; prave viventem ne accersas consultorem: malis enim 
+               gaudens, bona simul odisse, &amp; consulere eadem non potest.</p>
+         </div>
+         <div type="ch" n="96">
+            <p>Ab omni corruptione abstine, &amp; mysticae coenae omni die particeps fias: 
+               sic enim Christi corpus nostrum fieri incipit.</p>
+         </div>
+         <div type="ch" n="97">
+            <p>In omnibus quando a Deo corriperis, ne murmura: castigat enim ut pater. 
+               ideoque ut benefactor dignus est, ut gratiarum actione celebretur.</p>
+         </div>
+         <div type="ch" n="98">
+            <p>Si ignominia affectus fueris, gaude: siquidem enim injuste, merces tua 
+               copiosa erit: si vero iuste, &amp; si resipueris, iam liberatus es a flagello.</p>
+         </div>
+         <milestone unit="page" n="21"/>
+         <div type="ch" n="99">
+            <p>Umbrae et rotae, &amp; tristia &amp; laeta hujus vitae compara. nam 
+               quemadmodum umbra non manent, &amp; ut rota vertuntur.</p>
+         </div>
+         <div type="ch" n="100">
+            <p>Semper proficere in Deo conare: modicum enim modico addens, brevi 
+               colliget divitias ab omnibus expetitas.</p>
+         </div>
+         <div type="ch" n="101">
+            <p>Si vis supplicij effugere molestiam, neminem unquam convicijs afficies. eo
+               enim Deus exasperatur.</p>
+         </div>
+         <div type="ch" n="102">
+            <p>Si vis e domo tua expellere omne flagellum, ne maledictis incessas
+               contribulem hominem: qui enim ipsum creavit Deus, merito ad iram 
+               provocatur.</p>
+         </div>
+         <div type="ch" n="103">
+            <p>Si omni peccato vis esse superior, res alienas ne curiose inquirito: multa
+               enim in te sunt, de quibus alium suspectum habes.</p>
+         </div>
+         <div type="ch" n="104">
+            <p>Superbiam fugito o homo, etiamsi dives sis: ne forte Deum adversum tibi 
+               habeas.</p>
+         </div>
+         <div type="ch" n="105">
+            <p>Dilige humilitatem, etiamsi magnus sis: ut exalteris in die iudicij.</p>
+         </div>
+         <div type="ch" n="106">
+            <p>Ne cavillis petas hominem, &amp; reprehensionem non incurres in omni 
+               vita tua.</p>
+         </div>
+         <div type="ch" n="107">
+            <p>Cum existis in ecclesia, ne eleueris: coram rege enim stantes necque rident,
+               necque superbiunt.</p>
+         </div>
+         <div type="ch" n="108">
+            <p>Ne negligenter habeas vitam tuam, nec temere contra legem facito: ne 
+               contra legem faciens, perniciem incurras.</p>
+         </div>
+         <div type="ch" n="109">
+            <p>Memor sis horum praeceptorum cum omni studio, ut te clarum in vita reddant.</p>
+         </div>
+         <div type="ch" n="110">
+            <p>Puram aemulator vitam, ut habeas liberam  potestatem increpandi 
+               peccantes.</p>
+         </div>
+         <div type="ch" n="111">
+            <p>Abige a te contumaciam, neque increpa quenquam (temere), ne condemneris
+               ut arrogantia inflatus.</p>
+         </div>
+         <div type="ch" n="112">
+            <p>In alterius infortunio ne rideas, ne ridearis a quibus non velis.</p>
+         </div>
+         <div type="ch" n="113">
+            <p>Observa abominationes istas, ut coronam tibi gloriae concilient.</p>
+         </div>
+         <div type="ch" n="114">
+            <p>Sis observans horum praeceptorum, ut te clarum efficiant hominibus, &amp; 
+               acceptum Deo: sic enim gaudio afficitur Deus, &amp; huiusmodi 
+               operibus colitur Deus.</p>
+         </div>
+         <div type="ch" n="115">
+            <p>Semper proficere in bonis operibus studeto: vitae enim fuga,</p>
+         </div>
+      </body>
+   </text>
+</TEI>
