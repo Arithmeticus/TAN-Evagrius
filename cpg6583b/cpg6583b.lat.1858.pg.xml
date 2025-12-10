@@ -39,6 +39,11 @@
    <text>
       <body xml:lang="lat">
          <milestone unit="column" n="1239"/>
+         <div type="title" n="title">
+            <p>EIUSDEM SANCTI PATRIS NOSTRI
+            NILI
+            Sententiae abducentes hominem a corruptibilibus, et incorruptibilibus unientes.</p>
+         </div>
          <div type="ch" n="1">
             <p n="1">Via ad virtutem bona et brevis, est
                saeculi fuga.</p>
