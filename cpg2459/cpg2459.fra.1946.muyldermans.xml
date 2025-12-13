@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021"
+  id="tag:kalvesmaki.com,2014:cpg2459:fra:muyldermans:1946">
+  <head>
+    <name xml:lang="eng">French translation of the Syriac version of On the Cherubim (CPG 2459) by Evagrius</name>
+    <master-location
+      href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2460/cpg2460.fra.1946.muyldermans.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="on the cherubim"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+
+    <source which="Muyldermans 1946"/>
+    <adjustments>
+      <normalization which="accents normalized"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <change when="2025-10-09" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+
+  <body xml:lang="fra">
+    <div n="1" type="section">Les Chérubins aux yeux multiples sont des êtres raisonnables dotés
+      d'une puissante connaissance intellective. Celui, en effet, qui a des yeux nombreux, remarque
+      beaucoup et est éclairé de tous côtés, et il reste sans ombres à cause de la présence et de
+      l'action de l'Esprit-Saint. « Car ton bon esprit me conduira dans une terre droite ». La
+      rectitude (en question), c'est la clarté et l'absence d'erreur affectant la contemplation
+      sainte, soit (la contemplation) naturelle première, soit celle de la sainte et adorable
+      Trinité, qui couronne de la couronne de justice l'intelligence qui aime Dieu, qui est celle
+      qui est dite première, (et qui est) une contemplation sainte et immatérielle, j'entends
+      (contemplation de) l'Unité dans la Trinité et (de) la Trinité dans l'Unité, Père et Fils et
+      Esprit-Saint, à qui soit gloire dans les siècles des siècles. Amen.</div>
+  </body>
+
+</TAN-T>
