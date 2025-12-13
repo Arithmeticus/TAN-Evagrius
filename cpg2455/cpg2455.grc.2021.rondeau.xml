@@ -41,6 +41,7 @@
       <file-resp who="kalvesmaki"/>
       <resp roles="keyboarder" who="Luke_Dysinger"/>
       <resp roles="editor" who="kalvesmaki"/>
+      <change when="2025-09-25" who="kalvesmaki">Corrected ref to sch 7 on Ps 108 (was sch 6)</change>
       <change when="2024-12-26" who="kalvesmaki">Corrected typos</change>
       <change when="2024-11-14" who="kalvesmaki">Moved 37.sch13 within div</change>
       <change when="2024-10-12" who="kalvesmaki">Corrected typos</change>
@@ -6928,9 +6929,9 @@
                   <ab>καὶ τὴν ἐπισκοπὴν αὐτοῦ λάβοι ἕτερος</ab>
                </div>
             </div>
-            <div n="sch6" type="scholion"><ab>Τοῦτον τὸν στίχον ἐπὶ τοῦ Ἰούδα ὁ Πέτρος τέθεικεν ἐν ταῖς Πράξεσι τῶν ἀποστόλων. </ab></div>
+            <div n="sch7" type="scholion"><ab>Τοῦτον τὸν στίχον ἐπὶ τοῦ Ἰούδα ὁ Πέτρος τέθεικεν ἐν ταῖς Πράξεσι τῶν ἀποστόλων. </ab></div>
             <div n="9" type="verse"><ab>Γενηθήτωσαν οἱ υἱοὶ αὐτοῦ ὀρφανοὶ καὶ ἡ γυνὴ αὐτοῦ χήρα</ab></div>
-            <div n="sch6" type="scholion"><ab>Οὐ καταρᾶσθαι ὁ δίκαιος, ἀλλὰ προσεύχεσθαί μοι δοκεῖ· <quote>Εὐλογεῖτε</quote> γὰρ <quote>τοὺς
+            <div n="sch7" type="scholion"><ab>Οὐ καταρᾶσθαι ὁ δίκαιος, ἀλλὰ προσεύχεσθαί μοι δοκεῖ· <quote>Εὐλογεῖτε</quote> γὰρ <quote>τοὺς
                      ἐχθροὺς ὑμῶν</quote>, φησὶν ὁ ἀπόστολος, <quote>εὐλογεῖτε καὶ μὴ
                      καταρᾶσθε</quote>. Ὀρφανοὶ τοίνυν εἰσὶν λογισμοὶ πονηροὶ τὸν ἑαυτοῦ θάψαντες
                   πατέρα τὸν σατανᾶν· χήρα δὲ ψυχὴ ἡ μηκέτι λαμβάνουσα σπέρματα παρὰ τοῦ διαβόλου.
@@ -7415,7 +7416,7 @@
             <div n="sch8" type="scholion"><ab>Ὁ ποιήσας πάντα τὰ συντελοῦντα πρὸς τὴν γνῶσιν τὴν τοῦ θεοῦ, οὗτος λεγέτω καὶ τῷ κυρίῳ τὸ
                   ἀνταπόδος τῷ δούλῳ σου.</ab></div>
             <div n="18" type="verse"><ab>ἀποκάλυψον τοὺς ὀφθαλμούς μου, καὶ κατανοήσω τὰ θαυμάσιά σου ἐκ τοῦ νόμου σου </ab></div>
-            <div n="sch8" type="scholion">
+            <div n="sch9" type="scholion">
                <ab>Ὁ νόμος ἀποκαλύψεως δεῖται. Ἡ γὰρ <quote>ἐντολὴ κυρίου τηλαυγής</quote> ἐστιν·
                   νόμον δὲ ἐνταῦθα ὠνόμασεν τὴν πνευματικῶς ἀλληγορουμένην τῆς γραφῆς ἱστορίαν, ὅπερ
                   καὶ Παῦλος πεποίηκεν ἐν τῇ πρὸς Γαλάτας ἐπιστολῇ γράφων· <quote>Λέγετέ

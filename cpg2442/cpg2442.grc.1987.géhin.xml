@@ -6,6 +6,8 @@
    <head>
       <name>Greek text of Géhin's edition of Evagrius's 33 Chapters = Commentary on Proverbs 30, logical reference
          system</name>
+      <master-location
+         href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2442/cpg2442.grc.1989.géhin.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <work which="Comm. par. et Prov."/>
       <vocabulary>
@@ -13,7 +15,7 @@
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
       </vocabulary>
-      <source which="hagedorn hagedorn 1994"/>
+      <source which="géhin 1987"/>
 
       <vocabulary-key>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
