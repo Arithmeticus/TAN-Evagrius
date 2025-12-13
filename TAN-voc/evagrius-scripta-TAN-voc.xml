@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2021/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="../../../TAN-2021/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TAN-voc xmlns="tag:textalign.net,2015:ns"
          id="tag:kalvesmaki.com,2014:tan-key:evagrius-scripta"
          TAN-version="2021">
@@ -269,6 +269,7 @@
          <IRI>tag:evagriusponticus.net,2012:scriptum:cam-1855</IRI>
          <name>Benedictina Congregatio Mechitarista</name>
          <name>CAM 1855</name>
+         <name>Armenian 1855</name>
          <desc>Benedictina Congregatio Mechitarista. Vark’ srboc haranc ew k’alak’avarut’iwnk’ nocin est krkin t’argmanut’ean naxneac. 2 vols. Matenagrowt’iwnk’ naxneac’. I Venetik: I Tparani Srboyn Lazaru, 1855. https://archive.org/details/VarkSrbotsHarants2.</desc>
       </item>
       <item>
@@ -288,6 +289,11 @@
          <name>Bertrand, Bienert, and Kühneweg 1999</name>
          <name>bertrand 1999</name>
          <desc>Bertrand, Dominique. “L'implication du "nous" dans la prière chez Origène et Évagre le Pontique.”  In Origeniana septima: Origenes in den Auseinandersetzungen des 4. Jahrhunderts. Edited by Wolfgang Bienert and Uwe Kühneweg, pp. 355–63. Bibliotheca Ephemeridum theologicarum Lovaniensium 137. Leuven: Leuven University Press, 1999. </desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:bettiolo-1983</IRI>
+         <name>bettiolo 1983</name>
+         <desc>Bettiolo, Paolo, ed. Gli scritti siriaci di Nilo il solitario. Publications de l’Institut orientaliste de Louvain 30. Université catholique de Louvain, Institut orientaliste, 1983.</desc>
       </item>
       <item>
          <IRI>urn:isbn:88-7961-022-8</IRI>
@@ -1206,6 +1212,11 @@
          <desc>Drączkowski, Franciszek and Palucki, Jerzy. “Sticki ideal zgodnosci z natura w nauce Ewagriusza z Pontu [The Stoic ideal of harmony with nature in Evagrius Ponticus teaching].”  In Godnosc chrzescijanina w nauczaniu ojców kosciola, pp. 115–136. Lublin: Polihymnia, 1996. </desc>
       </item>
       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:duc-1624</IRI>
+         <name>Duc 1624</name>
+         <desc>Duc, Fronto du. Bibliothecae veterum patrum, seu scriptorum ecclesiasticorum, tomus primus [... secundus] Graecolatinus. 2 vols. Compagnie du Navire, 1624.</desc>
+      </item>
+      <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:durand-1976</IRI>
          <name>Durand 1976</name>
          <desc>Durand, Georges-Matthieu de. “Évagre le Pontique et le Dialogue Sur la Vie de Saint Jean Chrysostome.” Bulletin de Littérature Ecclésiastique 77 (1976): 191–206.</desc>
@@ -1713,6 +1724,11 @@
          <desc>Gendle, Nicholas. “Cappadocian Elements in the Mystical Theology of Evagrius Ponticus.” Studia Patristica 16.2 (1985): 373–84.</desc>
       </item>
       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:getov-2014</IRI>
+         <name>Getov 2014</name>
+         <desc>Getov, Dorotei. “The Alphabetic Chapters Attributed to St. Neilos: An Edition.” Scripta &amp; E-Scripta 13 (2014): 77–87.</desc>
+      </item>
+      <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:gianfrancesco-2008</IRI>
          <name>Gianfrancesco January-March 2008</name>
          <name>gianfrancesco 2008</name>
@@ -2108,6 +2124,11 @@
          <desc>Géhin, Paul. “Un nouvel inédit d'Évagre le Pontique: son commentaire de l'Ecclésiaste.” Byzantion 49 (1979): 188–98.</desc>
       </item>
       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:bara-2012</IRI>
+         <name>Bara 2012</name>
+         <desc>Evagrius Ponticus and Péter Bara, Eulogioshoz, Lectio divina (Szt. Mauríciusz Monostor ; L’Harmattan, 2012).</desc>
+      </item>
+      <item>
          <IRI>urn:isbn:2-204-02885-1</IRI>
          <IRI>tag:evagriusponticus.net,2012:scriptum:géhin-1987</IRI>
          <name>Evagrius Ponticus and Géhin 1987</name>
@@ -2261,6 +2282,11 @@
          <IRI>tag:evagriusponticus.net,2012:scriptum:göbel-2003</IRI>
          <name>Göbel 2003</name>
          <desc>Göbel, C. “Wahrheit und Methode: Platonische Dialektik und Evagrische Seelenführung.” Teresianum 54 (2003): 231–60.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:grynaeus-1569</IRI>
+         <name>Grynaeus 1569</name>
+         <desc>Grynaeus, Johann Jacob, and Georg Fabricius, eds. Monumenta s. patrum orthodoxographa , hoc est, theologiae sacrosanctæ ac syncerioris fidei doctores, numero circiter L X X X V, ecclesiae columina luminaque clarissima, authores partim græci, partim latini, ob vetustatem &amp; eruditionem venerandi, quorum quidam hactenus non æditi latuerunt: verbis breves, divini verò spiritus doctrina multorum scriptorum quantumvis prolixa volumina superantes, ut verè possint appellari theologica bibliotheca, abundè satis sufficiens theologo in omnem usum futura,. Cum Gratia &amp; Privilegio Caes. Majest. Basileæ. M. D. LXIX, 1569. http://gallica.bnf.fr/ark:/12148/bpt6k9116970z.</desc>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:hadot-1978</IRI>
@@ -3055,6 +3081,16 @@
          <desc>Moreschini, Claudio. I Padri cappadoci: Storia, letteratura, teologia. Rome: Città nuova, 2008. </desc>
       </item>
       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:morozov-2024</IRI>
+         <name>Morozov 2024</name>
+         <desc>Morozov, Alexey. “Evagrius Ponticus. «Antirrheticus» (Discourses III–IV). Translation of the Syriac Version, Preface and Notes (in Russian).” Diakrisis 23, no. 3 (2024): 59–96. https://doi.org/10.54700/diakrisis.2024.3.23.003.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:morozov-2025</IRI>
+         <name>Morozov 2025</name>
+         <desc>Morozov, Alexey. “Evagrius Ponticus. Antirrheticus (Discourse V). Translation of the Syriac Version, Preface and Notes (in Russian).” Diakrisis 27, no. 3 (2025): 55–80. https://doi.org/10.54700/diakrisis.2025.3.27.003.</desc>
+      </item>
+      <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:muckle-1942</IRI>
          <name>Muckle 1942</name>
          <desc>Muckle, J. T. “Greek Works Translated Directly into Latin Before 1350.” Medieval Studies 4 (1942): 33–42.</desc>
@@ -3227,6 +3263,11 @@
          <desc>Barsanuphius, John of Gaza, and Neyt, François. Correspondance: vol. 2, pt. 2, Aux cénobites, Lettres 399–616. Sources chrétiennes 451. Paris: Éditions du Cerf, 2001. </desc>
       </item>
       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:neandro-1559</IRI>
+         <name>Neandro 1559</name>
+         <desc>Neandro, Michael, ed. Neilou episkopou kai martyros Kephalaia, L· paraneseis. Nili episcopi et martyris capita, seu praeceptiones de vita piè, Christiané ac honestè exigenda, Graecolatiné. A’ Michaele Neandro Sorauiense conuersae &amp; expositae. 1559. http://archive.org/details/bub_gb_kDXj6FaHfNsC.</desc>
+      </item>
+      <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:nešić-2013</IRI>
          <name>Nešić 2013</name>
          <desc>Nešić, Lazar. “Изабрана писма Писмо прво [Меланији].” Теолошки погледи / Theological Views 46, no. 2 (2013): 331–336.</desc>
@@ -3353,6 +3394,7 @@
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:nilus-1673</IRI>
          <name>Nilus and Suarez 1673</name>
+         <name>Suarez 1673</name>
          <name>nilus 1673</name>
          <desc>Nilus, of Ancyra. Τοῦ ἐν ἁγίοις πατρὸς ἡμῶν Νείλου Ἡγουμένου λόγοι / Sancti patris nostri Nili Abbatis tractatus, seu opscula ex codicibus manuscriptis Vaticanis, Cassinensibus, Barberinis, &amp; Altaempsianis eruta. Rome: Typis Barberinis excudebat Michael Hercules, 1673. </desc>
       </item>
@@ -3401,6 +3443,11 @@
          <name>O'Laughlin, Bienert, and Kühneweg 1999</name>
          <name>olaughlin 1999</name>
          <desc>O'Laughlin, Michael. “Closing the Gap between Antony and Evagrius.”  In Origeniana septima: Origenes in den Auseinandersetzungen des 4. Jahrhunderts, pp. 345–54. Bibliotheca Ephemeridum theologicarum Lovaniensium 137. Leuven: Leuven University Press, 1999. </desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:orelli-1819</IRI>
+         <name>Orelli 1819</name>
+         <desc>Orelli, Johann Konrad. Opuscula graecorum veterum sententiosa et moralia: Graece et Latine. Weidmannia, 1819. https://archive.org/details/opusculagraecoru01oreluoft.</desc>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:orlandi-1982</IRI>
@@ -3927,6 +3974,16 @@
          <desc>Schenke, H-M. “Das Berliner Evagrius-Ostrakon (P. Berol. 14700).” Zeitschrift für ägyptische Sprache und Altertumskunde 116 (1989): 90–107.</desc>
       </item>
       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:schöning-1608</IRI>
+         <name>Schöning 1608</name>
+         <desc>Nilus. Neilou episkopou Paraineseis. = Nili episcopi Admonitiones: in Latinam linguam traducta: ac testimoniis tum sacris, tum profanis illustratæ. Edited by Stephanus Schöning. Excudebat Aegidius Radaeus, ordinum Frisiæ typographus., 1608. https://mdz-nbn-resolving.de/details:bsb11287648.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:schöning-1679</IRI>
+         <name>Schöning 1679</name>
+         <desc>Nilus (Ancyranus). Nili episcopi, Admonitiones, e, Graeco Sermone in Latinum. Edited by Stephanus Schöning. Impensis Christophori Schuberti, typis Haered. Chr. Zipperi, 1679. https://www.google.com/books/edition/Nili_episcopi_Admonitiones_e_Graeco_Serm/i4PzfhOKKlUC?hl=en.</desc>
+      </item>
+      <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:schuster-1902</IRI>
          <name>Schuster 1902</name>
          <desc>Schuster, D Ildefonso. “Della basilica di San Martino e di alcuni Ricordi Farfensi.” Nuovo bullettino di archeologia cristiana 8 (1902): 47–54.</desc>
@@ -4215,6 +4272,26 @@
          <desc>Tkebuchava, Lasha. “ევაგრე პონტოელის აპოფთეგმის ექვთიმე ათონელისეული თარგმანი. Euthymios the Hagiorite’s Translation of Evagrius Ponticus’ Apophthegmata.” Enriko Gabidzashvili 90 (2021). https://www.academia.edu/87660323/%E1%83%94%E1%83%95%E1%83%90%E1%83%92%E1%83%A0%E1%83%94_%E1%83%9E%E1%83%9D%E1%83%9C%E1%83%A2%E1%83%9D%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1_%E1%83%90%E1%83%9E%E1%83%9D%E1%83%A4%E1%83%97%E1%83%94%E1%83%92%E1%83%9B%E1%83%98%E1%83%A1_%E1%83%94%E1%83%A5%E1%83%95%E1%83%97%E1%83%98%E1%83%9B%E1%83%94_%E1%83%90%E1%83%97%E1%83%9D%E1%83%9C%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1%E1%83%94%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%97%E1%83%90%E1%83%A0%E1%83%92%E1%83%9B%E1%83%90%E1%83%9C%E1%83%98_EUTHYMIOS_THE_HAGIORITE_S_TRANSLATION_OF_EVAGRIUS_PONTICUS_APOPHTHEGMATA.</desc>
       </item>
       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:tkebuchava-2023a</IRI>
+         <name>Tkebuchava 2023a</name>
+         <desc>Tkebuchava, Lasha. “ევაგრე პონტოელის სწავლათა წმ. ექვთიმე ათონელისეული თარგმანები. Translations of the Studies of Evagrius Ponticus Made by Euthymius the Hagiorite.” Spekali 17 (2023). https://www.academia.edu/109448784/%E1%83%94%E1%83%95%E1%83%90%E1%83%92%E1%83%A0%E1%83%94_%E1%83%9E%E1%83%9D%E1%83%9C%E1%83%A2%E1%83%9D%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1_%E1%83%A1%E1%83%AC%E1%83%90%E1%83%95%E1%83%9A%E1%83%90%E1%83%97%E1%83%90_%E1%83%AC%E1%83%9B_%E1%83%94%E1%83%A5%E1%83%95%E1%83%97%E1%83%98%E1%83%9B%E1%83%94_%E1%83%90%E1%83%97%E1%83%9D%E1%83%9C%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1%E1%83%94%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%97%E1%83%90%E1%83%A0%E1%83%92%E1%83%9B%E1%83%90%E1%83%9C%E1%83%94%E1%83%91%E1%83%98_Translations_of_the_Studies_of_Evagrius_Ponticus_Made_by_Euthymius_the_Hagiorite.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:tkebuchava-2023b</IRI>
+         <name>Tkebuchava 2023b</name>
+         <desc>Tkebuchava, Lasha. “Ევაგრე Პონტოელის Შრომათა Ძველი Ქართული Თარგმანები (Წინაათონური) Და Მათ Შორის Ერთი Უცნობი Შეგონება „ცუდადზუაობისათვის“.” Mravaltavi, Philological and Historical Researches 29 (2023): 109–27.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:tkebuchava-2024a</IRI>
+         <name>Tkebuchava 2024a</name>
+         <desc>Tkebuchava, Lasha. “ევაგრე პონტოელის სწავლება „გულისზრახვებთან სიტყვისმგებლობის შესახებ“ და მისი კვალი ასკეტურ ტრადიციაში. Evagrius Ponticus’s Teaching ‘About Refutation of Passions’ and Its Imprint in the Ascetic Tradition.” The Scroll, Ecclesiastical-Scientific Collection 10 (2024): 133–60.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:tkebuchava-2024b</IRI>
+         <name>Tkebuchava 2024b</name>
+         <desc>Tkebuchava, Lasha. “ფსევდონილოს სინელის (ევაგრე პონტოელი) „სენტენციების“ (Sententiae) ძველი ქართული თარგმანი. Old Georgian Translation of Sententiae by Pseudo-Nilus of Sinai (Evagrius Ponticus).” The Scroll, Ecclesiastical-Scientific Collection 10 (2024): 161–98.</desc>
+      </item>
+      <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:tobon-2010</IRI>
          <name>Tobon 2010</name>
          <desc>Tobon, Monica. “The Health of the Soul: Ἀπάθεια in Evagrius Ponticus.” Studia Patristica 47 (2010): 187–202.</desc>
@@ -4364,6 +4441,16 @@
          <IRI>tag:evagriusponticus.net,2012:scriptum:vasquez-2011</IRI>
          <name>Vasquez 2011</name>
          <desc>Vasquez, Michel F. “Evagrius and the Naked Nous.” From Bodhgaya to the Cuyahoga 1 (2011): 49–73.fbttc.org</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:veder-2008</IRI>
+         <name>Veder 2008</name>
+         <desc>Veder, William R. Knjažii izbornik za vzpitanie na kanartikina. 2 vols. Univ. Izdat. “Sv. Sv. Kiril i Metodij,” 2008. https://www.academia.edu/47830275/%D0%9A%D1%8A%D0%BD%D1%A7%D0%B6%D0%B8%D0%B8_%D0%98%D0%B7%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA%D1%8A.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:veder-2018</IRI>
+         <name>Veder 2018</name>
+         <desc>Veder, William R. Evagrius Ponticus: Sententiae (variously ascribed to Hesychius or Nilus) Collation. 2008. https://www.academia.edu/102389393/Evagrius_Ponticus_Sententiae_variously_ascribed_to_Hesychius_or_Nilus_Collation.</desc>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:viller-1930</IRI>

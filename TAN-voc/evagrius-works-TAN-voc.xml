@@ -45,120 +45,6 @@
     <body affects-element="work">
         <!-- PRIMARY WORKS -->
         <item>
-            <IRI>tag:evagriusponticus.net,2015:nocpg01</IRI>
-            <name>Loukios</name>
-            <name xml:lang="eng">Letter of Loukios</name>
-            <name>nocpg01</name>
-            <desc>Included in this corpus because of its importance for contextualizing the
-                Antirrhetikos, and because it has no CPG number.</desc>
-        </item>
-        <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:nocpg01:version:ara</IRI>
-            <name>Arabic translation of Loukios</name>
-            <name>nocpg01-ara</name>
-        </item>
-        <item>
-            <IRI>tag:evagriusponticus.net,2015:nocpg02</IRI>
-            <name xml:lang="eng">14 Chapters</name>
-            <name>nocpg02</name>
-            <desc>Fourteen chapters.</desc>
-            <desc>Part of the pseudo-supplement to the Kephalaia Gnostika (BL Add. 14578, fols.
-                148v-149; Frankenberg ed. 460-68 [nos. 44-57]; also in Armenian). See also Skemmata
-                (CPG 2433).</desc>
-        </item>
-        <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:nocpg02:version:syr</IRI>
-            <name>Syriac translation of 14 Chapters</name>
-            <name>nocpg02-syr</name>
-        </item>
-        <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:nocpg02:version:hye</IRI>
-            <name>Armenian translation of 14 Chapters</name>
-            <name>nocpg02-hye</name>
-        </item>
-        <item>
-            <IRI>tag:evagriusponticus.net,2015:nocpg03</IRI>
-            <name>Def</name>
-            <name>Def.</name>
-            <name xml:lang="eng">Definitions</name>
-            <name>nocpg03</name>
-            <desc>Twelve brief chapters culled from Doctrina Patrum §34. See Casiday, Evagrius
-                Ponticus 183–84. These chapters are a portion of a larger set of definitions
-                that can be found in the Definitions and Descriptions (Furrer-Pilliod ed. 2000),
-                for which we have no edition. See Kalvesmaki forthcoming for a general description
-                and checklist of chapters.
-            </desc>
-        </item>
-        <item>
-            <IRI>tag:evagriusponticus.net,2015:nocpg04</IRI>
-            <name>Exc.</name>
-            <name>Exc</name>
-            <name xml:lang="eng">Excerpts</name>
-            <name>nocpg04</name>
-            <desc>Paris BN 2748, ff. 153–83v, published by Muyldermans. Of the 69 chapters, 53 are
-                drawn from other chapters in the corpus. See Casiday, Evagrius Ponticus
-                172–73</desc>
-        </item>
-        <item>
-            <IRI>tag:evagriusponticus.net,2015:nocpg05</IRI>
-            <name>Sch. Ac.</name>
-            <name xml:lang="eng">Scholia on Acts</name>
-            <name xml:lang="lat">Scholia in Acta apostolorum</name>
-            <name>nocpg05</name>
-            <desc>Fragment preserved on Acts 10:11-12; edited in Cramer’s Catenæ græcorum patrum in
-                novum testamentum, 3:177</desc>
-        </item>
-        
-        <item>
-            <IRI>tag:evagriusponticus.net,2015:nocpg06</IRI>
-            <name>Instr</name>
-            <name xml:lang="eng">Word of Instruction</name>
-            <name xml:lang="fra">Parole d'Instruction</name>
-            <name>nocpg06</name>
-            <desc>Eighteen kephalaia preserved in Barb. gr. 515 and in various Armenian manuscripts.
-                Because these kephalaia were presented in the context of Muyldermans's studies on
-                the Capita cognoscitiva (CPG 2433), and because they did not feature in the KG
-                supplements, they have been overlooked by modern cataloguing efforts.</desc>
-        </item>
-        <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:nocpg06:version:hye</IRI>
-            <name>Armenian translation of Word of Instruction</name>
-            <name>nocpg06-hye</name>
-        </item>
-        
-        <item>
-            <IRI>tag:evagriusponticus.net,2015:nocpg07</IRI>
-            <name xml:lang="eng">Beginning of Knowledge</name>
-            <name xml:lang="lat">Principium scientiae veritatis in anima (est) motio eius a Spiritu
-                sancto</name>
-            <name>nocpg07</name>
-            <desc>A block of nine kephalaia, preserved in Syriac, the Armenian KG Supplement (nos.
-                13-22) and Armenian letter 24. The title is identical to Disciples 191, and
-                kephalaia nos. 1, 5, 6, and 7 correspond to Disciples 192, 220, 221, and 222 in the
-                Greek. Gehin inferred that the other five kephalaia must be part of the same work,
-                so he included nos. 2, 3, 4, 8, and 9 in his edition of Disciples, numbering them
-                218-222. But a distinct feature of Disciples is that it closes with kephalaia that
-                can be found elsewhere, suggesting that the author of Disciples drew from other
-                collections, such as the present one, not the other way around. The preservation of
-                these nine kephalaia en bloc in four Syriac manuscripts and a number of Armenian
-                ones suggests that this short work circulated as a whole, and was the subject of
-                excerption by the complier of the Disciples.</desc>
-        </item>
-        <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:nocpg07:version:syr</IRI>
-            <name>Syriac translation of Beginning of Knowledge</name>
-            <name>nocpg07-syr</name>
-        </item>
-        <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:nocpg07:version:hye</IRI>
-            <name>Armenian translation of Beginning of Knowledge</name>
-            <name>nocpg07-hye</name>
-        </item>
-        
-        
-        
-        
-        <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2430</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.001</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.X01</IRI>
@@ -679,7 +565,7 @@
             <name>cpg2442</name>
             <desc>Collection of 33 chapters relating physical and spiritual ailments to each other.
                 The first sixteen are aphoristic definitions of physical maladies, interpreted
-                spiriptually. The last seventeen are definitions drawn from the book of Proverbs.</desc>
+                spiritually. The last seventeen are definitions drawn from the book of Proverbs.</desc>
         </item>
         
         <item>
@@ -687,15 +573,13 @@
             <IRI>tag:evagriusponticus.net,2015:tlg4110.016</IRI>
             <name>Sent alph I</name>
             <name>Sent. alph. I</name>
-            <name xml:lang="grc">Κεφάλαια ἢ παραίνεσις</name>
-            <name xml:lang="eng">Paraeneticus</name>
             <name>Maxims 1</name>
-            <name xml:lang="lat">Capita paraenetica</name>
             <name>cpg2443</name>
             <desc>Three works, CPG 2443 through 2445, are very similar, comprising 24, 24, and 26
                 proverbs, respectively. These brief texts resemble other ancient Christian
                 collections of proverbs, many of which originate with non-Christian authors, but
-                adapted to a Christian context.</desc>
+                adapted to a Christian context. For specifically, Evagrius writes in the mode
+                of the Pythagorean maxims, highly compressed gnomic sayings.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2443:version:syr</IRI>
@@ -706,6 +590,34 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2443:version:hye</IRI>
             <name>Armenian translation of Sent. alph. I</name>
             <name>cpg2443-hye</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2443:version:chu-hes</IRI>
+            <name>Oldest Hesychian Old Church Slavonic translation of Sent. alph. I</name>
+            <name>cpg2443-chu-hes</name>
+            <desc>Tenth-century translation in the so-called Knjažeski Izbornik (Princely
+                Collection), attested in Izbornik 1076 (one of the oldest extant Slavic 
+                manuscripts), based on a Greek manuscript that attributed the work to
+                Hesychius.  See Miltenova 2011.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2443:version:chu-nil</IRI>
+            <name>Oldest Nilian Old Church Slavonic translation of Sent. alph. I</name>
+            <name>cpg2443-chu-nil</name>
+            <desc>Tenth-century translation based on a Greek manuscript that attributed the work to
+                Nilus. See Miltenova 2011.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2443:version:chu-2</IRI>
+            <name>Medieval Old Church Slavonic translation of Sent. alph. I</name>
+            <name>cpg2443-chu-2</name>
+            <desc>Thirteenth/fourteenth translation, associated with MS Hilander 382. See Miltenova 2011.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2443:version:chu-3</IRI>
+            <name>Old miscellany-based Old Church Slavonic translation of Sent. alph. I</name>
+            <name>cpg2443-chu-3</name>
+            <desc>Translation associated with the Slavic Pčela (the Bee) miscellany. See Miltenova 2011.</desc>
         </item>
         
         <item>
@@ -877,6 +789,13 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2449:version:hye</IRI>
             <name>Armenian translation of On Masters and Disciples</name>
             <name>cpg2449-hye</name>
+            <desc>Translation of the original Greek.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2449:version:hye2</IRI>
+            <name>Second Armenian translation of On Masters and Disciples</name>
+            <name>cpg2449-hye2</name>
+            <desc>Translation of the Syriac translation.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2449:version:ara</IRI>
@@ -1040,8 +959,9 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2452:version:kat:2</IRI>
             <name>Eleventh-century Georgian translation of On Prayer</name>
             <name>cpg2452-kat2</name>
-            <desc>Eleventh-century translation from the Greek, argued by Kochlamazashvili to be
-                by Ephrem Mtsire (the Lesser).</desc>
+            <desc>Eleventh-century translation from the Greek, argued by Kochlamazashvili to be by
+                Ephrem Mtsire (the Lesser). Preserved in NCM A-60 (XIII century), 130v-138r (pp.
+                270-285)</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2452:version:ara</IRI>
@@ -1577,6 +1497,7 @@
             <name>Arabic translation of Letter to a Bishop of Antioch Concerning Patience</name>
             <name>cpg2482a-ara</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2483</IRI>
             <name>Disc.</name>
@@ -1599,6 +1520,332 @@
             <name>Syriac translation of Disc.</name>
             <name>cpg2483-syr</name>
         </item>
+        
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg6583a</IRI>
+            <name xml:lang="eng">Maxims Useful for Life, part one</name>
+            <name xml:lang="lat">Capita paraenetica</name>
+            <name xml:lang="lat">Sententiae vitae utiles</name>
+            <name xml:lang="grc">Κεφάλαια ἢ παραίνεσις</name>
+            <name xml:lang="eng">Paraeneticus</name>
+            <name>cpg6583a</name>
+            <desc>The treatises 6583a and 6583b were originally a single set of approximately 220
+                gnomic sayings, exhorting readers to ascetic discipline. The work has been
+                traditionally assigned to Nilus or Hesychius, but recently some scholars (Veder,
+                Miltenova, and Tkebuchava have credited the work to Evagrius on the basis of
+                Slavonic and Georgian translations. The text has suffered. At some point, an editor
+                or scribe broke the maxims into two halves. We have manuscripts that attest to an
+                integral edition, as well as manuscripts that attest only to the first or the second
+                half. The PG edition, the most accessible and familiar, draws largely from Orelli's
+                1819 edition, and is not based upon the best manuscripts. It lacks at least one
+                kephalaion and has suboptimal readings. A new edition is needed. Regarding the
+                title: the most common title in Greek manuscripts is γρῶμαι βιωφελεῖς ἀπάγουσαι τῶν
+                φθαρτῶν καὶ κολλῶσαι τοῖς ἀφθάρτοις τὸν ἄνθρωπον, Maxims Useful for Life, Cleaving a
+                Person from the Corrupt and toward the Incorrupt. The CPG assigns to 6583a Capita
+                paraenetica and to 6583b Sententiae abducentes hominem a corruptibilibus. The first
+                CPG title, in my opinion, should be avoided, to prevent confusion with other
+                paraenetic works by Evagrius. The second CPG title is inexact, incomplete, and ill
+                suited for either a short or long title. I therefore adopt the longer Greek title
+                mentioned above, and for a shortened title, prefer "Maxims Useful for Life" (Latin
+                "Sententiae vitae utiles"). The PG reference system for the work is problematic. I
+                have provided a single, consecutive numeration system for the entire work, 1-115 for
+                the first half and 116-218 for the second. </desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583a:version:syr</IRI>
+            <name>Syriac translation of Maxims Useful for Life, part one</name>
+            <name>cpg6583a-syr</name>
+            <desc>The Maxims Useful for Life were translated into Syriac sometime no later than the
+                seventh century, but under the name of Nilus, and the title "Pearls" (CPG 6068). The
+                one hundred sixty chapters, is a nearly complete translation of CPG 6583a and 6583b,
+                but in a completely different order than what is transmitted in the Greek
+                tradition.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583a:version:chu-hes</IRI>
+            <name>Oldest Hesychian Old Church Slavonic translation of Maxims Useful for Life, part one</name>
+            <name>cpg6583a-chu-hes</name>
+            <desc>Tenth-century translation in the so-called Knjažeski Izbornik (Princely
+                Collection), attested in Izbornik 1076 (one of the oldest extant Slavic 
+                manuscripts), based on a Greek manuscript that attributed the work to
+                Hesychius.  See Miltenova 2011.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583a:version:chu-nil</IRI>
+            <name>Oldest Nilian Old Church Slavonic translation of Maxims Useful for Life, part one</name>
+            <name>cpg6583a-chu-nil</name>
+            <desc>Tenth-century translation based on a Greek manuscript that attributed the work to
+                Nilus. See Miltenova 2011.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583a:version:chu-2</IRI>
+            <name>Medieval Old Church Slavonic translation of Maxims Useful for Life, part one</name>
+            <name>cpg6583a-chu-2</name>
+            <desc>Thirteenth/fourteenth translation, associated with MS Hilander 382. See Miltenova 2011.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583a:version:chu-3</IRI>
+            <name>Old miscellany-based Old Church Slavonic translation of Maxims Useful for Life, part one</name>
+            <name>cpg6583a-chu-3</name>
+            <desc>Translation associated with the Slavic Pčela (the Bee) miscellany. See Miltenova 2011.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583a:version:kat</IRI>
+            <name>Georgian translation of Maxims Useful for Life, part one</name>
+            <name>cpg6583a-kat</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583a:version:hye</IRI>
+            <name>Armenian translation of Maxims Useful for Life, part one</name>
+            <name>cpg6583a-hye</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583a:version:hye2</IRI>
+            <name>Second Armenian translation of Capita paraenetica altera</name>
+            <name>cpg6583a-hye2</name>
+            <desc>Muyldermans (1943) indicates that this translation is be more 
+                precise than the other Armenian translation. It also stops halfway through.</desc>
+        </item>
+        
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg6583b</IRI>
+            <name xml:lang="eng">Maxims Useful for Life, part two</name>
+            <name xml:lang="eng">Sentences Leading a Man away from the Corrupt</name>
+            <name xml:lang="lat">Sententiae abducentes hominem a corruptibilibus</name>
+            <name>cpg6583b</name>
+            <desc>The treatises 6583a and 6583b were originally a single set of approximately 220
+                gnomic sayings, exhorting readers to ascetic discipline. The work has been
+                traditionally assigned to Nilus or Hesychius, but recently some scholars (Veder,
+                Miltenova, and Tkebuchava have credited the work to Evagrius on the basis of
+                Slavonic and Georgian translations. The text has suffered. At some point, an editor
+                or scribe broke the maxims into two halves. We have manuscripts that attest to an
+                integral edition, as well as manuscripts that attest only to the first or the second
+                half. The PG edition, the most accessible and familiar, draws largely from Orelli's
+                1819 edition, and is not based upon the best manuscripts. It lacks at least one
+                kephalaion and has suboptimal readings. A new edition is needed. Regarding the
+                title: the most common title in Greek manuscripts is γρῶμαι βιωφελεῖς ἀπάγουσαι τῶν
+                φθαρτῶν καὶ κολλῶσαι τοῖς ἀφθάρτοις τὸν ἄνθρωπον, Maxims Useful for Life, Cleaving a
+                Person from the Corrupt and toward the Incorrupt. The CPG assigns to 6583a Capita
+                paraenetica and to 6583b Sententiae abducentes hominem a corruptibilibus. The first
+                CPG title, in my opinion, should be avoided, to prevent confusion with other
+                paraenetic works by Evagrius. The second CPG title is inexact, incomplete, and ill
+                suited for either a short or long title. I therefore adopt the longer Greek title
+                mentioned above, and for a shortened title, prefer "Maxims Useful for Life" (Latin
+                "Sententiae vitae utiles"). The PG reference system for the work is problematic. I
+                have provided a single, consecutive numeration system for the entire work, 1-115 for
+                the first half and 116-218 for the second. </desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583b:version:syr</IRI>
+            <name>Syriac translation of Sententiae abducentes hominem a corruptibilibus</name>
+            <name>cpg6583b-syr</name>
+            <desc>The Maxims Useful for Life were translated into Syriac sometime no later than the
+                seventh century, but under the name of Nilus, and the title "Pearls" (CPG 6068). The
+                one hundred sixty chapters, is a nearly complete translation of CPG 6583a and 6583b,
+                but in a completely different order than what is transmitted in the Greek
+                tradition.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583b:version:chu-hes</IRI>
+            <name>Oldest Hesychian Old Church Slavonic translation of Sententiae abducentes hominem a corruptibilibus</name>
+            <name>cpg6583b-chu-hes</name>
+            <desc>Tenth-century translation in the so-called Knjažeski Izbornik (Princely
+                Collection), attested in Izbornik 1076 (one of the oldest extant Slavic 
+                manuscripts), based on a Greek manuscript that attributed the work to
+                Hesychius.  See Miltenova 2011.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583b:version:chu-nil</IRI>
+            <name>Oldest Nilian Old Church Slavonic translation of Sententiae abducentes hominem a corruptibilibus</name>
+            <name>cpg6583b-chu-nil</name>
+            <desc>Tenth-century translation based on a Greek manuscript that attributed the work to
+                Nilus. See Miltenova 2011.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583b:version:chu-2</IRI>
+            <name>Medieval Old Church Slavonic translation of Sententiae abducentes hominem a corruptibilibus</name>
+            <name>cpg6583b-chu-2</name>
+            <desc>Thirteenth/fourteenth translation, associated with MS Hilander 382. See Miltenova 2011.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583b:version:chu-3</IRI>
+            <name>Old miscellany-based Old Church Slavonic translation of Sententiae abducentes hominem a corruptibilibus</name>
+            <name>cpg6583b-chu-3</name>
+            <desc>Translation associated with the Slavic Pčela (the Bee) miscellany. See Miltenova 2011.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583b:version:kat</IRI>
+            <name>Georgian translation of Sententiae abducentes hominem a corruptibilibus</name>
+            <name>cpg6583b-kat</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583b:version:hye</IRI>
+            <name>Armenian translation of Sententiae abducentes hominem a corruptibilibus</name>
+            <name>cpg6583b-hye</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg6583b:version:hye2</IRI>
+            <name>Second Armenian translation of Sententiae abducentes hominem a corruptibilibus</name>
+            <name>cpg6583b-hye2</name>
+            <desc>According to Muyldermans (1943), more recent than the first translation, but more precise. Lacks sentences 50, 82, 87.</desc>
+        </item>
+        
+
+
+
+
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg01</IRI>
+            <name>Loukios</name>
+            <name xml:lang="eng">Letter of Loukios</name>
+            <name>nocpg01</name>
+            <desc>Included in this corpus because of its importance for contextualizing the
+                Antirrhetikos, and because it has no CPG number.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg01:version:ara</IRI>
+            <name>Arabic translation of Loukios</name>
+            <name>nocpg01-ara</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg02</IRI>
+            <name xml:lang="eng">14 Chapters</name>
+            <name>nocpg02</name>
+            <desc>Fourteen chapters.</desc>
+            <desc>Part of the pseudo-supplement to the Kephalaia Gnostika (BL Add. 14578, fols.
+                148v-149; Frankenberg ed. 460-68 [nos. 44-57]; also in Armenian). See also Skemmata
+                (CPG 2433).</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg02:version:syr</IRI>
+            <name>Syriac translation of 14 Chapters</name>
+            <name>nocpg02-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg02:version:hye</IRI>
+            <name>Armenian translation of 14 Chapters</name>
+            <name>nocpg02-hye</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg03</IRI>
+            <name>Def</name>
+            <name>Def.</name>
+            <name xml:lang="eng">Definitions</name>
+            <name>nocpg03</name>
+            <desc>Twelve brief chapters culled from Doctrina Patrum §34. See Casiday, Evagrius
+                Ponticus 183–84. These chapters are a portion of a larger set of definitions
+                that can be found in the Definitions and Descriptions (Furrer-Pilliod ed. 2000),
+                for which we have no edition. See Kalvesmaki forthcoming for a general description
+                and checklist of chapters.
+            </desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg04</IRI>
+            <name>Exc.</name>
+            <name>Exc</name>
+            <name xml:lang="eng">Excerpts</name>
+            <name>nocpg04</name>
+            <desc>Paris BN 2748, ff. 153–83v, published by Muyldermans. Of the 69 chapters, 53 are
+                drawn from other chapters in the corpus. See Casiday, Evagrius Ponticus
+                172–73</desc>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg05</IRI>
+            <name>Sch. Ac.</name>
+            <name xml:lang="eng">Scholia on Acts</name>
+            <name xml:lang="lat">Scholia in Acta apostolorum</name>
+            <name>nocpg05</name>
+            <desc>Fragment preserved on Acts 10:11-12; edited in Cramer’s Catenæ græcorum patrum in
+                novum testamentum, 3:177</desc>
+        </item>
+        
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg06</IRI>
+            <name>Instr</name>
+            <name xml:lang="eng">Word of Instruction</name>
+            <name xml:lang="fra">Parole d'Instruction</name>
+            <name>nocpg06</name>
+            <desc>Eighteen kephalaia preserved in Barb. gr. 515 and in various Armenian manuscripts.
+                Because these kephalaia were presented in the context of Muyldermans's studies on
+                the Capita cognoscitiva (CPG 2433), and because they did not feature in the KG
+                supplements, they have been overlooked by modern cataloguing efforts.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg06:version:hye</IRI>
+            <name>Armenian translation of Word of Instruction</name>
+            <name>nocpg06-hye</name>
+        </item>
+        
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg07</IRI>
+            <name xml:lang="eng">Beginning of Knowledge</name>
+            <name xml:lang="lat">Principium scientiae veritatis in anima (est) motio eius a Spiritu
+                sancto</name>
+            <name>nocpg07</name>
+            <desc>A block of nine kephalaia, preserved in Syriac, the Armenian KG Supplement (nos.
+                13-22) and Armenian letter 24. The title is identical to Disciples 191, and
+                kephalaia nos. 1, 5, 6, and 7 correspond to Disciples 192, 220, 221, and 222 in the
+                Greek. Gehin inferred that the other five kephalaia must be part of the same work,
+                so he included nos. 2, 3, 4, 8, and 9 in his edition of Disciples, numbering them
+                218-222. But a distinct feature of Disciples is that it closes with kephalaia that
+                can be found elsewhere, suggesting that the author of Disciples drew from other
+                collections, such as the present one, not the other way around. The preservation of
+                these nine kephalaia en bloc in four Syriac manuscripts and a number of Armenian
+                ones suggests that this short work circulated as a whole, and was the subject of
+                excerption by the complier of the Disciples.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg07:version:syr</IRI>
+            <name>Syriac translation of Beginning of Knowledge</name>
+            <name>nocpg07-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg07:version:hye</IRI>
+            <name>Armenian translation of Beginning of Knowledge</name>
+            <name>nocpg07-hye</name>
+        </item>
+        
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg08</IRI>
+            <name xml:lang="eng">Instruction to Younger Monks</name>
+            <name xml:lang="lat">Ad juniores monachos instructio</name>
+            <name>nocpg08</name>
+            <desc>Letter 3.303 of Nilus of Ancyra (PG 79:532D9-533B3), a brief admonition to younger
+                monks concerning proper discipline, is preserved in Georgian translation in Sin.
+                georg. 35 (copied 907), where it is credited to Evagrius, and where it appears along
+                with other fragments of Evagrius's writings in Georgian translation. Tkebuchava
+                regards the work as authentic.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg08:version:kat</IRI>
+            <name>Georgian translation of Instruction to Younger Monks</name>
+            <name>nocpg08-kat</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg08:version:hye</IRI>
+            <name>Armenian translation of Instruction to Younger Monks</name>
+            <name>nocpg08-hye</name>
+        </item>
+        
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg09</IRI>
+            <name xml:lang="eng">On Vainglory</name>
+            <name xml:lang="lat">De vana gloria</name>
+            <name>nocpg09</name>
+            <desc>Brief admonition (about 500 words) to humility, and combatting spiritual pride.
+                Tkebuchava argues that the work, which appears in three Georgian manuscripts,
+                frequently in company with other works by Evagrius, is authentic. A Greek original
+                has not been identified.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg09:version:kat</IRI>
+            <name>Georgian translation of On Vainglory</name>
+            <name>nocpg09-kat</name>
+        </item>
+        
+        
+        
+        
         <!-- SECONDARY WORKS -->
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2432-notes,S1-fra-Guillaumont</IRI>
@@ -1612,5 +1859,7 @@
             <name>Notes to the Kephalaia gnostika Syriac S2 translation</name>
             <name>cpg2432-notes,S2-fra-Guillaumont</name>
         </item>
+
+
     </body>
 </TAN-voc>

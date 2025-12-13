@@ -1165,6 +1165,26 @@
                 <location href="../cpg2458.4/cpg2458.4.grc.1987.g%C3%A9hin.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
             </item>
             
+            <!-- CPG 2459: On the Cherubim -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2459:fra:muyldermans:1946</IRI>
+                <name xml:lang="eng">French translation of the Syriac version of On the Cherubim (CPG 2459) by Evagrius</name>
+                <location accessed-when="2025-10-09T21:02:53.0911195-04:00" href="../cpg2459/cpg2459.fra.1946.muyldermans.xml"/>
+            </item>
+            
+            
+            <!-- CPG 2460: On the Seraphim -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2460:syr:fra:muyldermans:1946</IRI>
+                <name xml:lang="eng">French translation of the Syriac version of On the Seraphim (CPG 2460) by Evagrius</name>
+                <location accessed-when="2025-10-09T21:02:53.0911195-04:00" href="../cpg2460/cpg2460.fra.1946.muyldermans_syr.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2460:hye:fra:muyldermans:1946</IRI>
+                <name xml:lang="eng">French translation of the Armenian version of On the Seraphim (CPG 2460) by Evagrius</name>
+                <location accessed-when="2025-10-09T21:02:53.0911195-04:00" href="../cpg2460/cpg2460.fra.1946.muyldermans_hye.xml"/>
+            </item>
+            
             <!-- CPG 2462: Apophthegmata -->
             <item>
                 <IRI>tag:kalvesmaki.com,2014:cpg2462:grc:pg65:logical-reference</IRI>
@@ -1280,6 +1300,189 @@
                 <location accessed-when="2022-12-27T17:09:06.9131671-05:00" href="../cpg2476/cpg2476.fra.1952.muyldermans.xml"/>
             </item>
             
+            <!-- CPG 6583a: Capita paraenetica altera -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583a:chu-cyrl:veder-2008</IRI>
+                <name>cpg6583a chu-cyrl Veder</name>
+                <name>cpg6583a chu-cyrl 2008</name>
+                <name>Old Church Slavonic translation, in Cyrillic, of the Greek text of Capita paraenetica [altera] from Neandro (1559)</name>
+                <location accessed-when="2025-11-12T22:54:42.9317859-05:00" href="../cpg6583a/cpg6583a.chu-cyrl.2008.veder.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583a:chu-glag:veder-2008</IRI>
+                <name>cpg6583a chu-glag Veder</name>
+                <name>cpg6583a chu-glag 2008</name>
+                <name>Old Church Slavonic translation, in Glagolitic, of the Greek text of Capita paraenetica [altera] from Neandro (1559)</name>
+                <location accessed-when="2025-11-12T22:54:55.1325469-05:00" href="../cpg6583a/cpg6583a.chu-glag.2008.veder.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583a:grc:neandro-1559</IRI>
+                <name>cpg6583a grc Neandro</name>
+                <name>cpg6583a grc 1559</name>
+                <name>Greek text of Capita paraenetica [altera] from Neandro (1559)</name>
+                <location accessed-when="2025-11-12T22:56:51.0577336-05:00" href="../cpg6583a/cpg6583a.grc.1559.neandro.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583a:grc:grynaeus-1569</IRI>
+                <name>cpg6583a grc Grynaeus</name>
+                <name>cpg6583a grc 1569</name>
+                <name>Greek text of Capita paraenetica [altera] from Grynaeus, Monumenta s. patrum orthodoxograph (1569)</name>
+                <location accessed-when="2025-11-12T22:57:02.3982754-05:00" href="../cpg6583a/cpg6583a.grc.1569.grynaeus.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg6583a:grc</IRI>
+                <name>cpg6583a grc PG</name>
+                <name>cpg6583a grc 1865</name>
+                <name>Greek text of Capita paraenetica [altera] from the Patrologia Graeca, 79:1252-1262</name>
+                <location accessed-when="2025-11-12T22:57:18.0010436-05:00" href="../cpg6583a/cpg6583a.grc.1858.pg.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583a:lat:neandro-1559</IRI>
+                <name>cpg6583a lat Neandro</name>
+                <name>cpg6583a lat 1559</name>
+                <name>Latin translation of the Greek text of Capita paraenetica [altera] from Neandro (1559)</name>
+                <location accessed-when="2025-11-12T22:57:39.8686963-05:00" href="../cpg6583a/cpg6583a.lat.1559.neandro.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg6583a:lat</IRI>
+                <name>cpg6583a lat PG</name>
+                <name>cpg6583a lat 1865</name>
+                <name>Latin translation of the Greek text of Capita paraenetica [altera] from the Patrologia Graeca, 79:1252-1262</name>
+                <location accessed-when="2025-11-12T22:57:50.9850257-05:00" href="../cpg6583a/cpg6583a.lat.1858.pg.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583a:syr:bettiolo-1983</IRI>
+                <name>cpg6583a syr Bettiolo</name>
+                <name>cpg6583a syr 1983</name>
+                <name>Syriac translation of the Greek text of Maxims Useful for Life, part one, edited by Bettiolo (1983)</name>
+                <location accessed-when="2025-11-18T23:42:31.987873-05:00" href="../cpg6583a/cpg6583a.syr.1983.bettiolo.xml"/>
+            </item>
+            
+            
+            
+            <!-- CPG 6583b: Sententiae abducentes hominem a corruptibilibus -->
+
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583b:chu-cyrl:veder-2008</IRI>
+                <name>cpg6583b chu-cyrl Veder</name>
+                <name>cpg6583b chu-cyrl 2008</name>
+                <name>Old Church Slavonic translation, in Cyrillic, of the Greek text of Sententiae abducentes hominem a corruptibilibus from Neandro (1559)</name>
+                <location accessed-when="2025-11-12T22:59:13.4706379-05:00" href="../cpg6583b/cpg6583b.chu-cyrl.2008.veder.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583b:chu-glag:veder-2008</IRI>
+                <name>cpg6583b chu-glag Veder</name>
+                <name>cpg6583b chu-glag 2008</name>
+                <name>Old Church Slavonic translation, in Glagolitic, of the Greek text of Sententiae abducentes hominem a corruptibilibus from Neandro (1559)</name>
+                <location accessed-when="2025-11-12T22:59:24.2759679-05:00" href="../cpg6583b/cpg6583b.chu-glag.2008.veder.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583b:grc:neandro-1559</IRI>
+                <name>cpg6583b grc Neandro</name>
+                <name>cpg6583b grc 1559</name>
+                <name>Greek text of Sententiae abducentes hominem a corruptibilibus from Neandro (1559)</name>
+                <location accessed-when="2025-11-12T22:59:34.7448747-05:00" href="../cpg6583b/cpg6583b.grc.1559.neandro.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583b:grc:grynaeus-1569</IRI>
+                <name>cpg6583b grc Grynaeus</name>
+                <name>cpg6583b grc 1569</name>
+                <name>Greek text of Sententiae abducentes hominem a corruptibilibus from Grynaeus, Monumenta s. patrum orthodoxograph (1569)</name>
+                <location accessed-when="2025-11-12T22:59:45.008781-05:00" href="../cpg6583b/cpg6583b.grc.1569.grynaeus.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg6583b:grc:b</IRI>
+                <name>cpg6583b grc PG frag</name>
+                <name>cpg6583b grc 1865 frag</name>
+                <name>Fragment of Greek text of Sententiae abducentes hominem a corruptibilibus from the Patrologia Graeca, 79:1261, 1264</name>
+                <location accessed-when="2025-11-12T22:59:56.1879633-05:00" href="../cpg6583b/cpg6583b.grc.1858.pg.b.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg6583b:grc</IRI>
+                <name>cpg6583b grc PG</name>
+                <name>cpg6583b grc 1865</name>
+                <name>Greek text of Sententiae abducentes hominem a corruptibilibus from the Patrologia Graeca, 79:1240-1250</name>
+                <location accessed-when="2025-11-12T23:00:06.7439818-05:00" href="../cpg6583b/cpg6583b.grc.1858.pg.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583b:kat:tkebuchava:1</IRI>
+                <name>cpg6583b kat Tkebuchava</name>
+                <name>cpg6583b kat 2024</name>
+                <name>Georgian translation of Sententiae abducentes hominem a corruptibilibus, edited by Tkebuchava</name>
+                <location accessed-when="2025-11-12T23:00:17.7476614-05:00" href="../cpg6583b/cpg6583b.kat.2024.tkebuchava.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583b:lat:neandro-1559</IRI>
+                <name>cpg6583b lat Neandro</name>
+                <name>cpg6583b lat 1559</name>
+                <name>Latin translation of Greek text of Sententiae abducentes hominem a corruptibilibus from Neandro (1559)</name>
+                <location accessed-when="2025-11-12T23:00:30.4649106-05:00" href="../cpg6583b/cpg6583b.lat.1559.neandro.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583b:lat:grynaeus-1569</IRI>
+                <name>cpg6583b lat Grynaeus</name>
+                <name>cpg6583b lat 1569</name>
+                <name>Latin translation of Greek text of Sententiae abducentes hominem a corruptibilibus from Grynaeus, Monumenta s. patrum orthodoxograph (1569)</name>
+                <location accessed-when="2025-11-12T23:00:41.3775534-05:00" href="../cpg6583b/cpg6583b.lat.1569.grynaeus.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg6583b:lat:b</IRI>
+                <name>cpg6583b lat PG frag</name>
+                <name>cpg6583b lat 1865 frag</name>
+                <name>Latin translation of the fragment of Greek text of Sententiae abducentes hominem a corruptibilibus from the Patrologia Graeca, 79:1261-64</name>
+                <location accessed-when="2025-11-12T23:00:52.007098-05:00" href="../cpg6583b/cpg6583b.lat.1858.pg.b.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg6583b:lat</IRI>
+                <name>cpg6583b lat PG</name>
+                <name>cpg6583b lat 1865</name>
+                <name>Latin translation of the Greek text of Sententiae abducentes hominem a corruptibilibus from the Patrologia Graeca, 79:1240-1250</name>
+                <location accessed-when="2025-11-12T23:01:02.8033392-05:00" href="../cpg6583b/cpg6583b.lat.1858.pg.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583b:hye:venice-1855:a</IRI>
+                <name>cpg6583b hye 1855 version a</name>
+                <name>First Armenian translation of the Greek text of Maxims Useful for Life, part two from the Vitae Patrum (1855)</name>
+                <location accessed-when="2025-11-14T00:45:48.8308235-05:00" href="../cpg6583b/cpg6583b.hye.1855.venice.a.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583b:hye:venice-1855:b</IRI>
+                <name>cpg6583b hye 1855 version b</name>
+                <name>Second Armenian translation of the Greek text of Maxims Useful for Life, part two from the Vitae Patrum (1855)</name>
+                <location accessed-when="2025-11-14T00:46:02.1947567-05:00" href="../cpg6583b/cpg6583b.hye.1855.venice.b.xml"/>
+            </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583b:syr:bettiolo-1983</IRI>
+                <name>cpg6583b syr Bettiolo</name>
+                <name>cpg6583b syr 1983</name>
+                <name>Syriac translation of the Greek text of Maxims Useful for Life, part two, edited by Bettiolo (1983)</name>
+                <location accessed-when="2025-11-18T23:42:31.987873-05:00" href="../cpg6583b/cpg6583b.syr.1983.bettiolo.xml"/>
+            </item>
+            
+            
+            
+            
+            
+            
             <!-- No CPG 6: Word of Instruction -->
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Word_of_Instruction_Muyldermans-1931-grc</IRI>
@@ -1299,6 +1502,30 @@
                 <name>nocpg06 eng 1990</name>
                 <location accessed-when="2023-01-03T23:53:15.1474151-05:00" href="../nocpg06/nocpg06.eng.1990.dysinger.xml"/>
             </item>
+            
+            <!-- No CPG 8: Admonition to Younger Monks -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:nocpg08:grc</IRI>
+                <name>Greek text of Admonition to Younger Monks from the Patrologia Graeca, 79:532-533</name>
+                <name>nocpg08 grc PG</name>
+                <location accessed-when="2025-10-30T00:30:26.469217-04:00" href="../nocpg08/nocpg08.grc.1858.pg.ref-logical.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:nocpg08:lat</IRI>
+                <name>nocpg08 lat PG</name>
+                <name>Latin translation of the Greek text of Admonition to Younger Monks from the Patrologia
+                    Graeca, 79:531-534</name>
+                <location accessed-when="2025-10-30T00:30:53.4533171-04:00" href="../nocpg08/nocpg08.lat.1858.pg.ref-logical.xml"/>
+            </item>
+
+            <!-- No CPG 9: On Vainglory -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:nocpg09:kat</IRI>
+                <name>nocpg09 kat Ktebuchava</name>
+                <name>Edition of the Georgian translation of On Vainglory, ascribed to Evagrius</name>
+                <location accessed-when="2025-10-30T00:55:12.3528627-04:00" href="../nocpg09/nocpg09.kat.2023.tkebuchava.xml"/>
+            </item>
+            
             
             
         </group>

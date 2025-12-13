@@ -112,22 +112,25 @@
       <change who="xslt2" when="2019-06-16T07:03:55.426-04:00">Converted from 2018 to 2020 schemas.</change>
       <change when="2020-06-30" who="kalvesmaki">commented out @work and @version in objects with a @scriptum. This needs to be developed further.</change>
       <change when="2021-12-31" who="kalvesmaki">Clarified, added incipit; Muyldermans transl.</change>
+      <change when="2025-10-30" who="kalvesmaki">Added new works</change>
       <to-do>
          <comment when="2018-04-05-04:00" who="kalvesmaki">File is still in progress.</comment>
          <comment when="2020-06-30" who="kalvesmaki">Develop in light of objects whose @scriptum should be work-version constrained.</comment>
       </to-do>
    </head>
    <body subject="evagrius" claimant="kalvesmaki">
-      <!-- authorship -->
-	  <claim verb="wrote" where="eastern-mediterranean" period="mid-life" object="cpg2432"/>
+      <!-- authorship when and where -->
+	   <claim verb="wrote" where="eastern-mediterranean" period="mid-life" object="cpg2432"/>
       <claim verb="wrote" where="eastern-mediterranean" period="late-life"
          object="cpg2430 cpg2431 cpg2433 cpg2434 cpg2435 cpg2436 cpg2437 cpg2438 cpg2441 cpg2442 cpg2443 
          cpg2444 cpg2445 cpg2447 cpg2448 cpg2450 cpg2451 cpg2452 cpg2453 cpg2454 cpg2455 cpg2456 cpg2457 cpg2458.1 cpg2458.2 
-         cpg2458.3 cpg2458.4 cpg2458.5 cpg2458.6 cpg2459 cpg2460 cpg2461 cpg2463 cpg2464 cpg2464a nocpg02 nocpg03 nocpg04 nocpg05 
-         nocpg06 nocpg07"/>
+         cpg2458.3 cpg2458.4 cpg2458.5 cpg2458.6 cpg2459 cpg2460 cpg2461 cpg2463 cpg2464 cpg2464a cpg6583a cpg6583b nocpg02 nocpg03 nocpg04 nocpg05 
+         nocpg06 nocpg07 nocpg08 nocpg09"/>
       <claim verb="wrote" where="eastern-mediterranean" period="constantinopolitan-period"
          object="cpg2439"/>
-      <claim adverb="possibly" verb="wrote" object="cpg2475 cpg2482"/>
+      
+      <!-- authorship agency, certainty -->
+      <claim adverb="possibly" verb="wrote" object="cpg2475 cpg2482 cpg6583a cpg6583b nocpg08 nocpg09"/>
       <claim adverb="improbably" verb="wrote" object="cpg2440 cpg2446 cpg2449 cpg2465 cpg2466 cpg2467 cpg2468 cpg2469 cpg2470 cpg2471 
          cpg2472 cpg2473 cpg2474 cpg2476 cpg2477 cpg2478 cpg2479 cpg2480 cpg2481.1 cpg2481.2 cpg2481.3 cpg2481.4 cpg2481.5 
          cpg2481.6 cpg2482a"/>
@@ -135,10 +138,10 @@
       <claim subject="apop-editors" verb="wrote" object="cpg2462"/>
       <claim subject="disc-editors" verb="wrote" object="cpg2483"/>
       <claim subject="Loukios" verb="wrote" object="nocpg01"/>
-      <claim subject="Nilus" adverb="possibly" verb="wrote" object="cpg2449"/>
+      <claim subject="Nilus" adverb="possibly" verb="wrote" object="cpg2449 nocpg08"/>
       
       <!-- languages for works & versions -->
-      <claim subject="cpg2430 cpg2431 cpg2432 cpg2433 cpg2434 cpg2435 cpg2436 cpg2437 cpg2438 cpg2439 cpg2440 cpg2441 cpg2442 cpg2443 cpg2444 cpg2445 cpg2446 cpg2447 cpg2448 cpg2449 cpg2450 cpg2451 cpg2452 cpg2453 cpg2454 cpg2455 cpg2456 cpg2457 cpg2458.1 cpg2458.2 cpg2458.3 cpg2458.4 cpg2458.5 cpg2458.6 cpg2459 cpg2460 cpg2461 cpg2462 cpg2463 cpg2464 cpg2464a cpg2469 cpg2475 cpg2477 cpg2482 cpg2483 nocpg01 nocpg02 nocpg03 nocpg04 nocpg05 nocpg06 nocpg07" verb="written-in" in-lang="grc"/>
+      <claim subject="cpg2430 cpg2431 cpg2432 cpg2433 cpg2434 cpg2435 cpg2436 cpg2437 cpg2438 cpg2439 cpg2440 cpg2441 cpg2442 cpg2443 cpg2444 cpg2445 cpg2446 cpg2447 cpg2448 cpg2449 cpg2450 cpg2451 cpg2452 cpg2453 cpg2454 cpg2455 cpg2456 cpg2457 cpg2458.1 cpg2458.2 cpg2458.3 cpg2458.4 cpg2458.5 cpg2458.6 cpg2459 cpg2460 cpg2461 cpg2462 cpg2463 cpg2464 cpg2464a cpg2469 cpg2475 cpg2477 cpg2482 cpg2483 cpg6583a cpg6583b nocpg01 nocpg02 nocpg03 nocpg04 nocpg05 nocpg06 nocpg07 nocpg08 nocpg09" verb="written-in" in-lang="grc"/>
       <claim subject="cpg2465 cpg2466 cpg2467 cpg2468 cpg2470 cpg2471 cpg2472 cpg2473 cpg2474 cpg2476 cpg2478 cpg2479 cpg2480 cpg2481.1 cpg2482a" adverb="probably" verb="written-in" in-lang="syr"/>
       <claim subject="cpg2481.2" adverb="probably" verb="written-in" in-lang="hye"/>
       <claim subject="cpg2481.3" adverb="probably" verb="written-in" in-lang="cop"/>
@@ -147,11 +150,21 @@
       <claim subject="cpg2481.6" adverb="probably" verb="written-in" in-lang="ara"/>
       
       <claim subject="nocpg01-ara cpg2430-ara cpg2432-ara cpg2447-ara cpg2449-ara cpg2451-ara cpg2452-ara cpg2461-ara cpg2463-ara cpg2464a-ara cpg2464-ara cpg2482a-ara" verb="written-in" in-lang="ara"/>
-      <claim subject="cpg2430-syr-S1 cpg2430-syr-S2 cpg2430-syr-S3 nocpg02-syr cpg2431-syr-S1 cpg2431-syr-S2 cpg2431-syr-S3 cpg2432-syr-S1 cpg2432-syr-S2 cpg2433-syr cpg2434-syr cpg2435-syr cpg2436-syr cpg2437-syr cpg2438-syr cpg2439-syr cpg2440-syr cpg2441-syr cpg2443-syr cpg2444-syr cpg2445-syr cpg2447-syr cpg2448-syr cpg2449-syr cpg2450-syr cpg2451-syr cpg2452-syr cpg2453-syr cpg2454-syr cpg2457-syr cpg2459-syr cpg2460-syr cpg2469-syr cpg2470-syr cpg2475-syr cpg2477-syr cpg2483-syr nocpg07-syr" verb="written-in" in-lang="syr"/>
-      <claim subject="nocpg02-hye cpg2430-hye cpg2431-hye cpg2432-hye cpg2433-hye cpg2434-hye cpg2435-hye cpg2436-hye cpg2437-hye cpg2441-hye cpg2443-hye cpg2444-hye cpg2445-hye cpg2447-hye cpg2449-hye cpg2451-hye cpg2452-hye cpg2459-hye cpg2470-hye cpg2477-hye nocpg07-hye" verb="written-in" in-lang="hye"/>
+      <claim subject="cpg2430-syr-S1 cpg2430-syr-S2 cpg2430-syr-S3 nocpg02-syr cpg2431-syr-S1 
+         cpg2431-syr-S2 cpg2431-syr-S3 cpg2432-syr-S1 cpg2432-syr-S2 cpg2433-syr cpg2434-syr 
+         cpg2435-syr cpg2436-syr cpg2437-syr cpg2438-syr cpg2439-syr cpg2440-syr cpg2441-syr 
+         cpg2443-syr cpg2444-syr cpg2445-syr cpg2447-syr cpg2448-syr cpg2449-syr cpg2450-syr 
+         cpg2451-syr cpg2452-syr cpg2453-syr cpg2454-syr cpg2457-syr cpg2459-syr cpg2460-syr 
+         cpg2469-syr cpg2470-syr cpg2475-syr cpg2477-syr cpg2483-syr cpg6583a-syr cpg6583b-syr nocpg07-syr" verb="written-in" in-lang="syr"/>
+      <claim subject="nocpg02-hye nocpg07-hye nocpg08-hye cpg2430-hye cpg2431-hye cpg2432-hye cpg2433-hye cpg2434-hye cpg2435-hye cpg2436-hye cpg2437-hye cpg2441-hye cpg2443-hye cpg2444-hye cpg2445-hye cpg2447-hye cpg2449-hye cpg2451-hye cpg2452-hye cpg2459-hye cpg2470-hye cpg2477-hye" verb="written-in" in-lang="hye"/>
       <claim subject="cpg2430-lat-vetus cpg2430-lat cpg2431-lat cpg2434-lat cpg2435-lat cpg2436-lat cpg2449-lat cpg2451-lat" verb="written-in" in-lang="lat"/>
       <claim subject="cpg2430-gez cpg2435-gez cpg2447-gez cpg2451-gez cpg2452-gez" verb="written-in" in-lang="gez"/>
-      <claim subject="cpg2430-kat cpg2434-kat cpg2435-kat cpg2447-kat cpg2448-kat cpg2451-kat cpg2452-kat" verb="written-in" in-lang="kat"/>
+      <claim subject="cpg2430-kat cpg2434-kat cpg2435-kat cpg2447-kat cpg2448-kat cpg2451-kat cpg2452-kat cpg6583a-kat cpg6583b-kat" verb="written-in" in-lang="kat"/>
+      <claim subject="
+         cpg6583a-chu-hes cpg6583b-chu-hes 
+         cpg6583a-chu-nil cpg6583b-chu-nil 
+         cpg6583a-chu-2 cpg6583b-chu-2 
+         cpg6583a-chu-3 cpg6583b-chu-3" verb="written-in" in-lang="chu"/>
       <claim subject="cpg2434-sog" verb="written-in" in-lang="sog"/>
       <claim subject="cpg2435-cop cpg2451-cop cpg2461-cop" verb="written-in" in-lang="cop"/>
       <claim subject="cpg2451-orv" verb="written-in" in-lang="orv"/>
@@ -261,11 +274,21 @@
          <object xml:lang="grc">Ὁ ἰατρὸς ἅμα ἰατρός, ἅμα ἔχει τὴν ἰατρικὴν· καὶ μὴ ἐνεργῶν δὲ
             λέγεται πρῶτον ἀπ’ αὐτῆς· πρῶτον γὰρ τέμνει καὶ δεύτεραν θεραπεύει.</object>
       </claim>
+      <claim subject="cpg6583a" verb="has-incipit">
+         <object xml:lang="grc">Φόβον ἔχε θεοῦ καὶ πόθον</object>
+      </claim>
+      <claim subject="cpg6583b" verb="has-incipit">
+         <object xml:lang="grc">Ὁδὸς εἰς ἀρετὴν, ἡ τοῦ βίου φυγή</object>
+      </claim>
       <claim subject="nocpg06" verb="has-incipit">
          <object xml:lang="grc">Οὐχ ἁρμόσει ἄφρονι γνῶσις</object>
       </claim>
       <claim subject="nocpg07" verb="has-incipit">
          <object xml:lang="grc">Ἀρχὴ γνώσεως ἀληθοῦς ψυχῇ ἐνθουσιασμὸς πνεὐματος ἁγίου</object>
+      </claim>
+      <claim subject="nocpg08" verb="has-incipit">
+         <object xml:lang="grc">Δεῖ τὸν νέον ἀσκεῖν σώματος ἡσυχίαν, καὶ κοσμιότητα σχήματος, φωνὴν
+            σύμμετρον</object>
       </claim>
       
       <!-- survival -->
@@ -277,7 +300,7 @@
          cpg2462 cpg2463 cpg2464 cpg2465 cpg2466 cpg2467 cpg2468 cpg2469 cpg2470 cpg2471           
          cpg2472 cpg2473 cpg2474 cpg2475 cpg2476 cpg2477 cpg2478 cpg2479 cpg2480 
          cpg2481.1 cpg2481.2 cpg2481.3 cpg2481.4           
-         cpg2481.5 cpg2481.6 cpg2482 cpg2482a cpg2483 nocpg01 nocpg03 nocpg04 nocpg05 nocpg06"
+         cpg2481.5 cpg2481.6 cpg2482 cpg2482a cpg2483 cpg6583a cpg6583b nocpg01 nocpg03 nocpg04 nocpg05 nocpg06 nocpg08"
          verb="survives-in-original-language">
          <object units="portion">1.0</object>
       </claim>
@@ -293,14 +316,17 @@
          cpg2452-syr cpg2452-hye cpg2452-kat2 cpg2452-ara cpg2452-ara2 cpg2452-chu cpg2453-syr cpg2454-syr 
          cpg2457-syr cpg2459-syr cpg2459-hye cpg2460-syr cpg2461-cop cpg2461-ara cpg2463-ara 
          cpg2464a-ara cpg2464-ara cpg2469-syr cpg2470-syr cpg2470-hye cpg2475-syr cpg2477-syr 
-         cpg2477-hye cpg2482a-ara cpg2483-syr nocpg06-hye" verb="survives-in-original-language">
+         cpg2477-hye cpg2482a-ara cpg2483-syr cpg6583a-syr cpg6583b-syr cpg6583a-kat cpg6583a-hye cpg6583b-kat cpg6583b-hye nocpg06-hye nocpg08-kat nocpg08-hye nocpg09-kat" verb="survives-in-original-language">
          <object units="portion">1.0</object>
       </claim>
-      <claim subject="cpg2457" verb="survives-in-original-language">
+      <claim subject="cpg2457 cpg6583b-hye2" verb="survives-in-original-language">
          <object units="portion">0.95</object>
       </claim>
       <claim subject="cpg2431 cpg2452-syr2" verb="survives-in-original-language">
          <object units="portion">0.6</object>
+      </claim>
+      <claim subject="cpg6583a-hye2" verb="survives-in-original-language">
+         <object units="portion">0.5</object>
       </claim>
       <claim subject="cpg2453 cpg2452-ara3 cpg2452-gez cpg2452-kat1" verb="survives-in-original-language">
          <object units="portion">0.3</object>
@@ -311,7 +337,7 @@
       <claim subject="cpg2437 nocpg07" verb="survives-in-original-language">
          <object units="portion">0.05</object>
       </claim>
-      <claim subject="cpg2434 cpg2438 cpg2440 cpg2459 cpg2460 cpg2461 cpg2464a nocpg02"
+      <claim subject="cpg2434 cpg2438 cpg2440 cpg2459 cpg2460 cpg2461 cpg2464a nocpg02 nocpg09"
          verb="survives-in-original-language">
          <object units="portion">0.0</object>
       </claim>
@@ -325,6 +351,8 @@
       <claim subject="nocpg02-syr nocpg02-hye" verb="translates" object="nocpg02"/>
       <claim subject="nocpg06-hye" verb="translates" object="nocpg06"/>
       <claim subject="nocpg07-syr nocpg07-hye" verb="translates" object="nocpg07"/>
+      <claim subject="nocpg08-kat nocpg08-hye" verb="translates" object="nocpg08"/>
+      <claim subject="nocpg09-kat" verb="translates" object="nocpg09"/>
       <claim subject="cpg2430-lat cpg2430-lat-vetus cpg2430-syr-S1 cpg2430-syr-S2 cpg2430-syr-S3 cpg2430-hye cpg2430-gez cpg2430-kat cpg2430-ara" verb="translates" object="cpg2430"/>
       <claim subject="cpg2431-lat cpg2431-syr-s1 cpg2431-syr-s2 cpg2431-syr-s3 cpg2431-hye" verb="translates" object="cpg2431"/>
       <claim subject="cpg2432-syr-s1 cpg2432-syr-s2 cpg2432-hye cpg2432-ara" verb="translates" object="cpg2432"/>
@@ -343,6 +371,7 @@
       <claim subject="cpg2447-syr cpg2447-hye cpg2447-gez cpg2447-kat cpg2447-ara" verb="translates" object="cpg2447"/>
       <claim subject="cpg2448-syr cpg2448-kat" verb="translates" object="cpg2448"/>
       <claim subject="cpg2449-lat cpg2449-syr cpg2449-hye cpg2449-ara" verb="translates" object="cpg2449"/>
+      <claim subject="cpg2449-hye2" verb="translates" object="cpg2449-syr"/>
       <claim subject="cpg2450-syr" verb="translates" object="cpg2450"/>
       <claim subject="cpg2451-lat cpg2451-syr cpg2451-hye cpg2451-ara cpg2451-cop cpg2451-gez cpg2451-kat cpg2451-orv" verb="translates" object="cpg2451"/>
       <claim subject="cpg2452-syr cpg2452-hye cpg2452-gez cpg2452-kat cpg2452-kat2 cpg2452-ara cpg2452-ara2 cpg2452-ara3" verb="translates" object="cpg2452"/>
@@ -365,6 +394,12 @@
       <claim subject="cpg2477-syr cpg2477-hye" verb="translates" object="cpg2477"/>
       <claim subject="cpg2482a-ara" verb="translates" object="cpg2482a"/>
       <claim subject="cpg2483-syr" verb="translates" object="cpg2483"/>
+      <claim subject="cpg6583a-syr" verb="translates" object="cpg6583a"/>
+      <claim subject="cpg6583b-syr" verb="translates" object="cpg6583b"/>
+      <claim subject="cpg6583a-chu-hes cpg6583a-chu-nil cpg6583a-chu-2 cpg6583a-chu-3 
+         cpg6583a-kat cpg6583a-hye cpg6583a-hye2" verb="translates" object="cpg6583a"/>
+      <claim subject="cpg6583b-chu-hes cpg6583b-chu-nil cpg6583b-chu-2 cpg6583b-chu-3 
+         cpg6583b-kat cpg6583b-hye cpg6583b-hye2" verb="translates" object="cpg6583b"/>
       
       <!-- ancient/medieval scripta -->
       <comment when="2019-12-27" who="kalvesmaki">Only a few manuscripts have been logged, namely
@@ -428,7 +463,9 @@
       <!-- modern works -->
       <claim verb="annotates" subject="kg-comm-s1-guillaumont kg-comm-s2-guillaumont" object="cpg2432"/>
       
-      <!-- modern editions and translations -->
+      
+      <!-- MODERN EDITIONS AND TRANSLATIONS -->
+      
       <!-- cpg2430 Greek -->
       <claim subject="Guillaumont_1971" verb="edits" object="cpg2430"/>
       <claim verb="edits">
@@ -668,6 +705,7 @@
       <claim subject="frankenberg_1912 fogielman_2024" verb="edits" object="cpg2434-syr"/>
       <claim subject="k'oč'lamazašvili_2019 tkebuchava_2020a" verb="edits" object="cpg2434-kat"/>
       <claim subject="evagrius_nešić_2024" verb="translates" object="cpg2434" in-lang="srp"/>
+      <claim subject="morozov_2024 morozov_2025" verb="translates" object="cpg2434" in-lang="rus"/>
       
       <!-- cpg2435 -->
       <claim
@@ -758,7 +796,8 @@
       <claim subject="géhin_2025" verb="translates" object="cpg2438" in-lang="fra"/>
       
       <!-- cpg2439 -->
-      <claim subject="géhin_2025 forlin_patrucco_1983 mcguire_deferrari_1926_v1 migne_1857 erasmus_1532"
+      <claim subject="géhin_2025 forlin_patrucco_1983 mcguire_deferrari_1926_v1 
+         suarez_1673 migne_1857 erasmus_1532"
          verb="edits" object="cpg2439"/>
       <claim subject="evagrius_bunge_1986" verb="translates" object="cpg2439" in-lang="deu"/>
       <claim subject="frankenberg_1912" verb="translates" object="cpg2439-syr" in-lang="grc"/>
@@ -767,7 +806,7 @@
          verb="translates" object="cpg2439" in-lang="eng"/>
       <claim subject="evagrius_bunge_1995 forlin_patrucco_1983" verb="translates" object="cpg2439"
          in-lang="ita"/>
-      <claim subject="migne_1857" verb="translates" object="cpg2439" in-lang="lat"/>
+      <claim subject="suarez_1673 migne_1857" verb="translates" object="cpg2439" in-lang="lat"/>
       <claim subject="evagrius_wagenaar_1987" verb="translates" object="cpg2439" in-lang="nld"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2439" in-lang="slv"/>
       <claim subject="frankenberg_1912" verb="edits" object="cpg2439-syr"/>
@@ -801,37 +840,61 @@
       <claim subject="tkebuchava_2021b" verb="edits" object="cpg2441-kat"/>
       
       <!-- cpg2442 -->
-      <claim subject="gallandi_1765 géhin_1987 migne_1857" verb="edits" object="cpg2442"/>
+      <claim subject="gallandi_1765 suarez_1673 migne_1857 géhin_1987" verb="edits" object="cpg2442"/>
       <claim subject="evagrius_sinkewicz_2003" verb="translates" object="cpg2442" in-lang="eng"/>
       <claim subject="géhin_1987" verb="translates" object="cpg2442" in-lang="fra"/>
-      <claim subject="migne_1857" verb="translates" object="cpg2442" in-lang="lat"/>
+      <claim subject="suarez_1673 migne_1857" verb="translates" object="cpg2442" in-lang="lat"/>
       <claim subject="evagrius_wagenaar_1987" verb="translates" object="cpg2442" in-lang="nld"/>
       <claim subject="evagrius_nieścior_1998" verb="translates" object="cpg2442" in-lang="pol"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2442" in-lang="slv"/>
       <claim subject="evagrius_nešić_2024" verb="translates" object="cpg2442" in-lang="srp"/>
       
       <!-- cpg2443 -->
-      <claim subject="elter_1892 migne_1857" verb="edits" object="cpg2443"/>
+      <claim subject="elter_1892 neandro_1559 grynaeus_1569 schöning_1608 schöning_1679 
+         orelli_1819 duc_1624" verb="edits" object="cpg2443"/>
+      <claim verb="edits" object="cpg2443">
+         <subject scriptum="migne_1857">
+            <div n="79" type="volume">
+               <div n="1249, 1252" type="column"/>
+            </div>
+         </subject>
+      </claim>
       <claim subject="Dysinger_1990 evagrius_sinkewicz_2003" verb="translates" object="cpg2443" in-lang="eng"/>
       <claim subject="Muyldermans_1943" verb="translates" object="cpg2443" in-lang="fra"/>
-      <claim subject="migne_1857" verb="translates" object="cpg2443" in-lang="lat"/>
+      <claim subject="neandro_1559 grynaeus_1569 schöning_1608 schöning_1679 
+         orelli_1819 duc_1624" verb="translates" object="cpg2443" in-lang="lat"/>
+      <claim verb="translates" object="cpg2443" in-lang="lat">
+         <subject scriptum="migne_1857">
+            <div n="79" type="volume">
+               <div n="1250-1251" type="column"/>
+            </div>
+         </subject>
+      </claim>
       <claim subject="evagrius_wagenaar_1987" verb="translates" object="cpg2443" in-lang="nld"/>
       <claim subject="evagrius_nieścior_1998" verb="translates" object="cpg2443" in-lang="pol"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2443" in-lang="slv"/>
+      <claim verb="edits" object="cpg2443-hye">
+         <subject scriptum="Armenian_1855">
+            <div n="2" type="volume">
+               <div n="672-673" type="page"/>
+            </div>
+         </subject>
+      </claim>
       <claim subject="sargisean_1907" verb="edits" object="cpg2443-hye"/>
       <claim verb="transcribes">
          <subject scriptum="Dysinger_1990"/>
          <object scriptum="migne_1857">
             <div n="79" type="volume">
-               <div n="1249, 1253" type="column"/>
+               <div n="1249, 1252" type="column"/>
             </div>
          </object>
       </claim>
       <claim subject="evagrius_nešić_2024" verb="translates" object="cpg2443" in-lang="srp"/>
       
       <!-- cpg2444 -->
-      <claim subject="gallandi_1765 elter_1892 migne_1857" verb="edits" object="cpg2444"/>
+      <claim subject="suarez_1673 migne_1857 gallandi_1765 elter_1892" verb="edits" object="cpg2444"/>
       <claim subject="Dysinger_1990 evagrius_sinkewicz_2003" verb="translates" object="cpg2444" in-lang="eng"/>
+      <claim subject="suarez_1673" verb="translates" object="cpg2444" in-lang="lat"/>
       <claim verb="translates" object="cpg2444" in-lang="lat">
          <subject scriptum="migne_1857">
             <div n="40" type="volume">
@@ -855,9 +918,10 @@
       <claim subject="evagrius_nešić_2024" verb="translates" object="cpg2444" in-lang="srp"/>
       
       <!-- cpg2445 -->
-      <claim subject="gallandi_1765 elter_1892 migne_1857" verb="edits" object="cpg2445"/>
+      <claim subject="suarez_1673 gallandi_1765 migne_1857 elter_1892" verb="edits" object="cpg2445"/>
       <claim subject="Dysinger_1990 evagrius_casiday_2006 evagrius_sinkewicz_2003" verb="translates"
          object="cpg2445" in-lang="eng"/>
+      <claim subject="suarez_1673" verb="translates" object="cpg2445" in-lang="lat"/>
       <claim verb="translates" object="cpg2445" in-lang="lat">
          <subject scriptum="migne_1857">
             <div n="40" type="volume">
@@ -886,24 +950,25 @@
       
       <!-- cpg2447 -->
       <claim
-         subject="fogielman_2018 Fogielman_2015 evagrius_sinkewicz_2003 Muyldermans_1941 migne_1857"
+         subject="suarez_1673 migne_1857 fogielman_2018 Fogielman_2015 evagrius_sinkewicz_2003 Muyldermans_1941"
          verb="edits" object="cpg2447"/>
       <claim subject="evagrius_sinkewicz_2003" verb="translates" object="cpg2447" in-lang="eng"/>
       <claim subject="fogielman_2018 Fogielman_2015 evagrius_jourdan_gueyer_goudet_1992"
          verb="translates" object="cpg2447" in-lang="fra"/>
-      <claim subject="migne_1857" verb="translates" object="cpg2447" in-lang="lat"/>
+      <claim subject="suarez_1673 migne_1857" verb="translates" object="cpg2447" in-lang="lat"/>
       <claim subject="evagrius_nieścior_1998" verb="translates" object="cpg2447" in-lang="pol"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2447" in-lang="slv"/>
       <claim subject="sargisean_1907" verb="edits" object="cpg2447-hye"/>
       <claim subject="makharashvili_1984" verb="edits" object="cpg2447-kat"/>
       <claim subject="evagrius_nešić_2024" verb="translates" object="cpg2447" in-lang="srp"/>
+      <claim subject="bara_2012" verb="translates" object="cpg2447" in-lang="hun"/>
       
       <!-- cpg2448 -->
-      <claim subject="fogielman_2018 Fogielman_2015 migne_1857" verb="edits" object="cpg2448"/>
+      <claim subject="suarez_1673 migne_1857 fogielman_2018 Fogielman_2015" verb="edits" object="cpg2448"/>
       <claim subject="evagrius_sinkewicz_2003" verb="translates" object="cpg2448" in-lang="eng"/>
       <claim subject="fogielman_2018 Fogielman_2015" verb="translates" object="cpg2448"
          in-lang="fra"/>
-      <claim subject="migne_1857" verb="translates" object="cpg2448" in-lang="lat"/>
+      <claim subject="suarez_1673 migne_1857" verb="translates" object="cpg2448" in-lang="lat"/>
       <claim subject="evagrius_wagenaar_1987" verb="translates" object="cpg2448" in-lang="nld"/>
       <claim subject="evagrius_nieścior_1998" verb="translates" object="cpg2448" in-lang="pol"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2448" in-lang="slv"/>
@@ -914,11 +979,43 @@
       <!-- cpg2449 -->
       <claim subject="van_den_Ven_1908" verb="edits" object="cpg2449"/>
       <claim subject="van_den_Ven_1908" verb="translates" object="cpg2449" in-lang="lat"/>
+      <claim verb="edits" object="cpg2449-hye">
+         <subject scriptum="Armenian_1855">
+            <div n="2" type="volume">
+               <div n="674-676" type="page"/>
+            </div>
+         </subject>
+      </claim>
+      <claim verb="edits" object="cpg2449-hye2">
+         <subject scriptum="sargisean_1907">
+            <div n="359-360" type="page"/>
+         </subject>
+      </claim>
+      <claim verb="edits" object="cpg2449-syr">
+         <subject scriptum="muyldermans_1943">
+            <div n="87-88" type="page"/>
+         </subject>
+      </claim>
+      <claim verb="transcribes" object="cpg2449">
+         <subject scriptum="muyldermans_1943">
+            <div n="88" type="page"/>
+         </subject>
+      </claim>
+      <claim verb="translates" object="cpg2449-syr cpg2449-hye2" in-lang="lat">
+         <subject scriptum="muyldermans_1943">
+            <div n="88" type="page"/>
+         </subject>
+      </claim>
+      <claim verb="translates" object="cpg2449-hye" in-lang="lat">
+         <subject scriptum="muyldermans_1943">
+            <div n="89" type="page"/>
+         </subject>
+      </claim>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2449" in-lang="slv"/>
       
       <!-- cpg2450 -->
       <claim
-         subject="géhin_1998 Dysinger_1990 philokalia_1957 Muyldermans_1932 migne_1857 cotelerius_1677_vol3"
+         subject="cotelerius_1677_vol3 suarez_1673 migne_1857 géhin_1998 Dysinger_1990 philokalia_1957 Muyldermans_1932"
          verb="edits" object="cpg2450"/>
       <claim
          subject="philokalia_2008 theophanes_2006 evagrius_casiday_2006 evagrius_sinkewicz_2003 Dysinger_1990 philokalia_1979"
@@ -926,7 +1023,7 @@
       <claim subject="géhin_1998 philokalia_1995 philokalia_1987 philokalia_1982"
          verb="translates" object="cpg2450" in-lang="fra"/>
       <claim subject="evagrius_moscatelli_1996" verb="translates" object="cpg2450" in-lang="ita"/>
-      <claim subject="migne_1857 cotelerius_1677_vol3" verb="translates" object="cpg2450"
+      <claim subject="suarez_1673 migne_1857 cotelerius_1677_vol3" verb="translates" object="cpg2450"
          in-lang="lat"/>
       <claim subject="evagrius_wagenaar_1987" verb="translates" object="cpg2450" in-lang="nld"/>
       <claim subject="evagrius_nieścior_1998 nieścior_1996b" verb="translates" object="cpg2450"
@@ -935,14 +1032,14 @@
       <claim subject="evagrius_nešić_2024" verb="translates" object="cpg2450" in-lang="srp"/>
       
       <!-- cpg2451 -->
-      <claim subject="Schenke_1989 Muyldermans_1939 migne_1857" verb="edits" object="cpg2451"/>
+      <claim subject="suarez_1673 Schenke_1989 Muyldermans_1939 migne_1857" verb="edits" object="cpg2451"/>
       <claim subject="Schenke_1989" verb="translates" object="cpg2451" in-lang="deu"/>
       <claim subject="evagrius_sinkewicz_2003" verb="translates" object="cpg2451" in-lang="eng"/>
       <claim subject="Arras_1963 Muyldermans_1939" verb="translates" object="cpg2451"
          in-lang="fra"/>
       <claim subject="evagrius_coco_2010 evagrius_moscatelli_1996" verb="translates"
          object="cpg2451" in-lang="ita"/>
-      <claim subject="migne_1857" verb="translates" object="cpg2451" in-lang="lat"/>
+      <claim subject="suarez_1673 migne_1857" verb="translates" object="cpg2451" in-lang="lat"/>
       <claim subject="evagrius_wagenaar_1987" verb="translates" object="cpg2451" in-lang="nld"/>
       <claim subject="evagrius_nieścior_1998" verb="translates" object="cpg2451" in-lang="pol"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2451" in-lang="slv"/>
@@ -951,6 +1048,13 @@
       <claim subject="Schenke_1989 schenke_1984" verb="edits" object="cpg2451-cop"/>
       <claim subject="Arras_1963 Spies_1932 grébaut_1913c grébaut_1913b Bachmann_1893"
          verb="edits" object="cpg2451-gez"/>
+      <claim verb="edits" object="cpg2451-hye">
+         <subject scriptum="Armenian_1855">
+            <div n="2" type="volume">
+               <div n="641-657" type="page"/>
+            </div>
+         </subject>
+      </claim>
       <claim subject="Muyldermans_1939" verb="edits" object="cpg2451-hye"/>
       <claim subject="makharashvili_1984 Garitte_1956" verb="edits" object="cpg2451-kat"/>
       <claim subject="Bigot_1680" verb="edits" object="cpg2451-lat"/>
@@ -962,7 +1066,7 @@
       
       <!-- cpg2452 -->
       <claim
-         subject="géhin_2017 vittis_1997 kohlbacher_1994 Dysinger_1990 philokalia_1957 muyldermans_1952 migne_1857"
+         subject="suarez_1673 géhin_2017 vittis_1997 kohlbacher_1994 Dysinger_1990 philokalia_1957 muyldermans_1952 migne_1857"
          verb="edits" object="cpg2452"/>
       <claim subject="evagrius_joos_2011" verb="translates" object="cpg2452" in-lang="deu"/>
       <claim
@@ -972,7 +1076,7 @@
          subject="géhin_2017 vittis_1997 philokalia_1995 evagrius_jourdan_gueyer_goudet_1992 philokalia_1987 philokalia_1982 hausherr_1960 hausherr_1959b philokalia_1953 muyldermans_1952 Hausherr_1934 evagrius_1925"
          verb="translates" object="cpg2452" in-lang="fra"/>
       <claim subject="evagrius_messana_1994" verb="translates" object="cpg2452" in-lang="ita"/>
-      <claim subject="migne_1857" verb="translates" object="cpg2452" in-lang="lat"/>
+      <claim subject="suarez_1673 migne_1857" verb="translates" object="cpg2452" in-lang="lat"/>
       <claim subject="evagrius_wagenaar_1987 evagrius_1965" verb="translates" object="cpg2452"
          in-lang="nld"/>
       <claim subject="evagrius_nieścior_1998" verb="translates" object="cpg2452" in-lang="pol"/>
@@ -983,12 +1087,19 @@
       <claim subject="suryani_1986" verb="edits" object="cpg2452-ara"/>
       <claim subject="hausherr_1939a" verb="edits" object="cpg2452-syr"/>
       <claim subject="stadel_2019" verb="translates" object="cpg2452-syr" in-lang="eng"/>
-      <claim subject="cam_1855" verb="edits" object="cpg2452-hye"/>
+      <claim verb="edits" object="cpg2452-hye">
+         <subject scriptum="Armenian_1855">
+            <div n="2" type="volume">
+               <div n="700-716" type="page"/>
+            </div>
+         </subject>
+      </claim>
       <claim subject="outtier_2016" verb="translates" object="cpg2452-hye" in-lang="fra"/>
       <claim subject="evagrius_nara_2023" verb="translates" object="cpg2452" in-lang="por"/>
       <claim subject="evagrius_nešić_2024" verb="translates" object="cpg2452" in-lang="srp"/>
       <claim subject="aimilianos_corbu_2019" verb="translates" object="cpg2452" in-lang="rom"/>
       <claim subject="K'oč'lamazašvili_2017" verb="edits" object="cpg2452-kat2"/>
+      
       
       <!-- cpg2453 -->
       <claim subject="evagrius_casiday_2006" verb="translates" object="cpg2453" in-lang="eng"/>
@@ -999,11 +1110,11 @@
       <claim subject="evagrius_nara_2023" verb="translates" object="cpg2453" in-lang="por"/>
       
       <!-- cpg2454 -->
-      <claim subject="evagrius_joest_2012 Muyldermans_1938 migne_1857" verb="edits"
+      <claim subject="suarez_1673 evagrius_joest_2012 Muyldermans_1938 migne_1857" verb="edits"
          object="cpg2454"/>
       <claim subject="evagrius_joest_2012" verb="translates" object="cpg2454" in-lang="deu"/>
       <claim subject="evagrius_sinkewicz_2003" verb="translates" object="cpg2454" in-lang="eng"/>
-      <claim subject="migne_1857" verb="translates" object="cpg2454" in-lang="lat"/>
+      <claim subject="suarez_1673 migne_1857" verb="translates" object="cpg2454" in-lang="lat"/>
       <claim subject="evagrius_wagenaar_1987" verb="translates" object="cpg2454" in-lang="nld"/>
       <claim subject="evagrius_nieścior_1998" verb="translates" object="cpg2454" in-lang="pol"/>
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2454" in-lang="slv"/>
@@ -1050,9 +1161,11 @@
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2459" in-lang="slv"/>
       <claim subject="Muyldermans_1946" verb="edits" object="cpg2459-hye"/>
       <claim subject="Muyldermans_1946" verb="edits" object="cpg2459-syr"/>
+      <claim subject="Muyldermans_1946" verb="translates" object="cpg2459-syr cpg2459-hye" in-lang="fra"/>
       
       <!-- cpg2460 -->
       <claim subject="kocijančič_and_širca_2015" verb="translates" object="cpg2460" in-lang="slv"/>
+      <claim subject="Muyldermans_1946" verb="translates" object="cpg2460-syr" in-lang="fra"/>
       <claim subject="Muyldermans_1946" verb="edits" object="cpg2460-syr"/>
       
       <!-- cpg2461 -->
@@ -1064,7 +1177,7 @@
       <claim subject="evagrius_nara_2023" verb="translates" object="cpg2461" in-lang="por"/>
       
       <!-- cpg2462 -->
-      <claim subject="migne_1857" verb="edits" object="cpg2462"/>
+      <claim subject="migne_1857 getov_2014" verb="edits" object="cpg2462"/>
       <claim subject="Ward_1984" verb="translates" object="cpg2462" in-lang="eng"/>
       <claim subject="migne_1857" verb="translates" object="cpg2462" in-lang="lat"/>
       <claim subject="evagrius_nara_2023" verb="translates" object="cpg2462" in-lang="por"/>
@@ -1171,6 +1284,70 @@
       <claim subject="géhin_2007" verb="translates" object="cpg2483" in-lang="fra"/>
       <claim subject="corbu_2020" verb="translates" object="cpg2483" in-lang="rom"/>
       <claim subject="guillaumont_1975b" verb="edits" object="cpg2483-syr"/>
+
+
+
+      <!-- cpg6583a -->
+      <claim subject="neandro_1559 grynaeus_1569 schöning_1608 schöning_1679 
+         orelli_1819 duc_1624" verb="edits" object="cpg6583a"/>
+      <claim subject="neandro_1559 grynaeus_1569 schöning_1608 schöning_1679 
+         orelli_1819 duc_1624" verb="translates" object="cpg6583a" in-lang="lat"/>
+      <claim verb="edits" object="cpg6583a">
+         <subject scriptum="migne_1857">
+            <div n="79" type="volume">
+               <div n="1251-1262" type="column"/>
+            </div>
+         </subject>
+      </claim>
+      <claim verb="translates" object="cpg6583a" in-lang="lat">
+         <subject scriptum="migne_1857">
+            <div n="79" type="volume">
+               <div n="1251-1262" type="column"/>
+            </div>
+         </subject>
+      </claim>
+      <claim subject="bettiolo_1983" verb="edits" object="cpg6583a-syr cpg6583b-syr"/>
+      <claim subject="bettiolo_1983" verb="translates" object="cpg6583a-syr cpg6583b-syr" in-lang="ita"/>
+      <claim subject="veder_2008 veder_2018" verb="edits" object="cpg6583a-chu-hes cpg6583b-chu-hes"/>
+      <claim subject="tkebuchava_2024b" verb="edits" object="cpg6583b-kat"/>
+      <claim verb="edits" object="cpg6583a-hye cpg6583a-hye2">
+         <subject scriptum="Armenian_1855">
+            <div n="2" type="volume">
+               <div n="692-699" type="page"/>
+            </div>
+         </subject>
+      </claim>
+
+
+      <!-- cpg6583b -->
+      <claim subject="neandro_1559 grynaeus_1569 schöning_1608 schöning_1679 
+         duc_1624 suarez_1673 orelli_1819" verb="edits" object="cpg6583b"/>
+      <claim subject="neandro_1559 grynaeus_1569 schöning_1608 schöning_1679 
+         duc_1624 suarez_1673 orelli_1819" verb="translates" object="cpg6583b" in-lang="lat"/>
+      <claim verb="edits" object="cpg6583b-hye cpg6583b-hye2">
+         <subject scriptum="Armenian_1855">
+            <div n="2" type="volume">
+               <div n="684-692" type="page"/>
+            </div>
+         </subject>
+      </claim>
+      <claim verb="edits" object="cpg6583b">
+         <subject scriptum="migne_1857">
+            <div n="79" type="volume">
+               <div n="1240-1249" type="column"/>
+               <div n="1261, 1264" type="column"/>
+            </div>
+         </subject>
+      </claim>
+      <claim verb="translates" object="cpg6583b" in-lang="lat">
+         <subject scriptum="migne_1857">
+            <div n="79" type="volume">
+               <div n="1239-1250" type="column"/>
+               <div n="1262-1263" type="column"/>
+            </div>
+         </subject>
+      </claim>
+      
       
       <!-- no cpg numbers -->
       <claim subject="Hausherr_1940" verb="translates" object="nocpg01" in-lang="ell"/>
@@ -1190,6 +1367,18 @@
       <claim subject="muyldermans_1934a géhin_2007" verb="edits" object="nocpg07"/>
       <claim subject="muyldermans_1934a géhin_2007" verb="translates" object="nocpg07" in-lang="fra"/>
       <claim subject="sargisean_1907" verb="edits" object="nocpg07"/>
+      
+      <claim subject="migne_1857 makharashvili_1984" verb="edits" object="nocpg08"/>
+      <claim subject="migne_1857" verb="translates" object="nocpg08" in-lang="lat"/>
+      <claim verb="edits" object="nocpg08-hye">
+         <subject scriptum="Armenian_1855">
+            <div n="2" type="volume">
+               <div n="676-677" type="page"/>
+            </div>
+         </subject>
+      </claim>
+
+      <claim subject="tkebuchava_2023b" verb="edits" object="nocpg09-kat"/>
    
    </body>
 </TAN-A>
