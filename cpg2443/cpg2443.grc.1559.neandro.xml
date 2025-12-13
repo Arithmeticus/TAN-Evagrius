@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" 
+  id="tag:kalvesmaki.com,2014:Evagrius_Maxims1_neandro_grc">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Greek text of Maxims I (Sent. alph. I) published by Michael Neandro (1559)</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2443/cpg2443.grc.1559.neandro.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Maxims_1"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Neandro 1559"/>
+    <adjustments/>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <change when="2025-11-04" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  <text>
+    <body xml:lang="grc">
+      <div n="1" type="section"><p>ἀρχὴ σωτηρίας, ἡ ἑαυτοῦ κατάγνωσις. </p></div>
+      <div n="2" type="section"><p>βέλτιον εἰκῆ ἐμβάλλειν λίθον, ἢ λόγον. </p></div>
+      <div n="3" type="section"><p>γενοῦ τοῖς πᾶσιν, ὡς σὺ θέλεις πάντας.</p></div>
+      <div n="4" type="section"><p>δικαιοσύνην μᾶλλον ἔργῳ, ἢ λόγῳ ἄσκει. </p></div>
+      <div n="5" type="section"><p>εὐσεβὴς οὐχ ὁ πολλοὺς ἐλεῶν, ἀλλ' ὁ μηδένα ἀδικῶν. </p></div>
+      <div n="6" type="section"><p>ζῆν ἄμεινον ἐπὶ στιβάδος, καὶ θαῤῥεῖν, ἢ χρυσῆν ἔχοντα κλίνην.</p></div>
+      <div n="7" type="section"><p>ἡδὺς ἐκεῖνος ὁ φίλος, ὁ τὴν ψυχὴν διατρέφων. </p></div>
+      <div n="8" type="section"><p>θεὸν μὲν λόγοις ὕμνει, ἔργοις δὲ σέβου, ἐννοίᾳ δὲ τίμα. </p></div>
+      <div n="9" type="section"><p>ἱερέα φρόνησις, καὶ βίος, καὶ εὐγένεια ποιεῖ. </p></div>
+      <div n="10" type="section"><p>κάκιστόν ἐστι πάσι δουλεύειν αἰσχροῖς. </p></div>
+      <div n="11" type="section"><p>λόγῳ μὲν τὴν ἀρετὴν δίδασκε, ἔργῳ δὲ αὐτὴν κήρυττε. </p></div>
+      <div n="12" type="section"><p>μὴ τὸ ἔχειν ἀρετὴν καλὸν νόμιζε, ἀλλὰ τὸ ὡς δεῖ. </p></div>
+      <div n="13" type="section"><p>νόμον τιμῶν, κατὰ νόμον ζήσεις. </p></div>
+      <div n="14" type="section"><p>ξένος ἐκεῖνος, οὗ ξένα τὰ τοῦ κόσμου.</p></div>
+      <div n="15" type="section"><p>ὁ φθονῶν ἑαυτὸν ζημιοῖ· ὁ γὰρ κατ' ἄλλου φθεγγόμενος, φθάνει 
+        πάσχων ὑφ' ἑαυτοῦ κακῶς.</p></div>
+      <div n="16" type="section"><p>πλούσιον μήτε κολάκευε, μήτε παρόξυνε. </p></div>
+      <div n="17" type="section"><p>ῥώννυσι μὲν οἶνος τὸ σῶμα, τὴν δὲ ψυχὴν λόγος θεοῦ. </p></div>
+      <div n="18" type="section"><p>σιτίοις χρῶ, οὐ τοῖς ἡδέσιν, ἀλλὰ τοῖς ὠφελίμοις. </p></div>
+      <div n="19" type="section"><p>τοῖς ὄχλοις πειρώμενος ἀρέσκειν, τῶν ὄχλων ὅμοιος ἔσο. </p></div>
+      <div n="20" type="section"><p>ὑπὲρ πάντα καταχρῶ τῷ σώματί σου. </p></div>
+      <div n="21" type="section"><p>φιλόπονος ἐκεῖνος, ᾧ χρόνος οὐ περισσεύει. </p></div>
+      <div n="22" type="section"><p>χριστιανοῦ ἀνδρὸς μὴ τὸ σχῆμα ἀποδέχου, ἀλλὰ τὸ τῆς ψυχῆς 
+        φρόνημα. </p></div>
+      <div n="23" type="section"><p>ψέγειν ἀνεπίληπτον εἰς θεὸν ἁμαρτία. </p></div>
+      <div n="24" type="section"><p>ὤτων καὶ γλώσσης, μέγας ὁ κίνδυνος. </p></div>
+    </body>
+    
+  </text>
+  
+</TEI>

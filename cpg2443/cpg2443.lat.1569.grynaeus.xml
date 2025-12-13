@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" 
+  id="tag:kalvesmaki.com,2014:text:cpg2443:lat:grynaeus-1569">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Latin translation of the Greek text of Maxims I (Sent. alph. I) published by Grynaeus (1569), after Michael Neandro (1559)</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2443/cpg2443.lat.1569.grynaeus.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="Maxims_1"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+    
+    <source which="Grynaeus 1569"/>
+    <adjustments/>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <change when="2025-11-05" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+  <text>
+    <body xml:lang="lat">
+      <div n="1" type="section">
+        <p>Initium salutis est, 
+          sui ipsius accusatio.</p>
+      </div>
+      <div n="2" type="section">
+        <p>Satius est temere 
+          mittere lapidem, quam 
+          verbum.</p>
+      </div>
+      <div n="3" type="section">
+        <p>Fac omnibus, 
+          quemadmodum tu vis omnes (facere tibi).</p>
+      </div>
+      <div n="4" type="section">
+        <p>Iusticiam magis opere quam verbo exerce.</p>
+      </div>
+      <div n="5" type="section">
+        <p>Pius est, non qui multorum miseretur, 
+          sed qui neminem injuria afficit.</p>
+      </div>
+      <div n="6" type="section">
+        <p>Satis est humi cubantem vivere, &amp; 
+          bono esse animo, quam perturbatum 
+          in aureo lecto.</p>
+      </div>
+      <div n="7" type="section">
+        <p>Dulcis ille amicus est, qui animam pascit.</p>
+      </div>
+      <div n="8" type="section">
+        <p>Deum verbis quidem lauda, operibus 
+          cole, &amp; cogitatione honora.</p>
+      </div>
+      <div n="9" type="section">
+        <p>Sacerdotem facit intelligentia, &amp; vita, 
+          &amp; morum integritas.</p>
+      </div>
+      <div n="10" type="section">
+        <p>Pessima res est, omnibus servire 
+          turpitudinibus.</p>
+      </div>
+      <div n="11" type="section">
+        <p>Verbo virtutem doceto, opere autem 
+          eandem declara.</p>
+      </div>
+      <div n="12" type="section">
+        <p>Non habere virtutem praeclarum
+          putato, sed quemadmodum decet (ea uti).</p>
+      </div>
+      <div n="13" type="section">
+        <p>Legem honorans, iuxta legem vives.</p>
+      </div>
+      <div n="14" type="section">
+        <p>Hospes ille est, cui sordent mundana.</p>
+      </div>
+      <div n="15" type="section">
+        <p>Invidus seipsum mulctat. qui enim 
+          adversus alterum loquitur, seipsum inscius malis afficit.</p>
+      </div>
+      <milestone unit="page" n="170"/>
+      <div n="16" type="section">
+        <p>Diviti neque adulare, neque eumdem irrita.</p>
+      </div>
+      <div n="17" type="section">
+        <p>Vinum roborat corpus, animam autem 
+          verbum Dei.</p>
+      </div>
+      <div n="18" type="section">
+        <p>Cibis utere non dulcibus, sed salutaribus.</p>
+      </div>
+      <div n="19" type="section">
+        <p>Si conaris placere vulgo, vulgo 
+          similis fias.</p>
+      </div>
+      <div n="20" type="section">
+        <p>Super omnia autem mortifica, corpus tuum.</p>
+      </div>
+      <div n="21" type="section">
+        <p>Ille laboriosus est, cui non tempus superat.</p>
+      </div>
+      <div n="22" type="section">
+        <p>Ne recipito Christiani homini formam 
+          tantum, sed animae potius prudentiam.</p>
+      </div>
+      <div n="23" type="section">
+        <p>Culpam transferre in Deum non 
+          culpandum, peccatum est.</p>
+      </div>
+      <div n="24" type="section">
+        <p>Aurium et linguae magnum est periculum.</p>
+      </div>
+    </body>
+    
+  </text>
+  
+</TEI>
