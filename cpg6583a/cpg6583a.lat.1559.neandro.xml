@@ -17,7 +17,7 @@
       </fileDesc>
    </teiHeader>
    <head xmlns="tag:textalign.net,2015:ns">
-      <name>Latin translation of the Greek text of Maxims Useful for Life, part one from Neandro (1559)</name>
+      <name>Latin translation of the Greek text of Maxims Useful for Life, part one, by Neandro (1559)</name>
       <master-location
          href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg6583a/cpg6583a.grc.1559.neandro.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>

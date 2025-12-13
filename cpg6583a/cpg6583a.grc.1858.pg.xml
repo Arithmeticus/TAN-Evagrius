@@ -16,7 +16,10 @@
       </fileDesc>
    </teiHeader>
    <head xmlns="tag:textalign.net,2015:ns">
-      <name>Greek text of Maxims Useful for Life, part one from the Patrologia Graeca, 79:1252-1262</name>
+      <name>Greek text of Maxims Useful for Life, part one, from the Patrologia Graeca, 79:1252-1262</name>
+      <desc>Reproduces the edition by Orelli, with minor changes. The PG reference numerals presume
+         that Maxims I is part of the work, which flies against manuscript evidence. New reference
+         numerals were introduced by J. Kalvesmaki in 2025.</desc>
       <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg6583a/cpg6583a.grc.1858.pg.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <work which="cpg6583a"/>
@@ -42,6 +45,11 @@
    <text>
       <body xml:lang="grc">
          <milestone unit="column" n="1252"/>
+         <div type="title" n="title">
+            <p>ΝΕΙΛΟΥ ΕΠΙΣΚΟΠΟΥ 
+               ΚΑΙ ΜΑΡΤΥΡΟΣ
+               ΚΕΦΑΛΑΙΑ Η ΠΑΡΑΙΝΕΣΙΣ</p>
+         </div>
          <div type="ch" n="1">
             <p n="25">Φόβον ἔχε Θεοῦ, καὶ πόθον, καὶ καθαρὸν πρὸς 
                πάντας τῷ μαρτυρίῳ τοῦ συνειδότος κέχρησο.</p>
@@ -373,7 +381,7 @@
                τῶν τῆς σοφίας θησαυρῶν, καὶ ὅσον ἐν χάριτι
                αὐξάνει, τοσοῦτον προκόπτει εἰς τὸ γινώσκειν τὰ τῆς
                κακίας νοήματα, τοῦ Δεσπότου Χριστοῦ βοηθοῦντος
-               αὐτῷ, ᾧ ἡ δόξα καὶ τὸ κράτος εἰς τοῦς αἰῶνας.
+               αὐτῷ, ᾧ ἡ δόξα καὶ τὸ κράτος εἰς τοὺς αἰῶνας.
                Ἀμήν.</p>
          </div>
          <div type="ch" n="74">
@@ -518,7 +526,7 @@
          </div>
          <div type="ch" n="103">
             <p n="127">Εἰ θέλεις πάσης ἁμαρτίας ἀνώτερος εἶναι, πράξεις 
-               ἀλλοτρίας μὴ καταμάθανε· πολλὰ γὰρ εἰσὶν ἐν σοὶ, 
+               ἀλλοτρίας μὴ καταμάνθανε· πολλὰ γὰρ εἰσὶν ἐν σοὶ, 
                ἀφ' ὧν ἕτερον ὑπολαμβάνεις.</p>
          </div>
          <div type="ch" n="104">
@@ -526,7 +534,7 @@
                πλούσιος ᾖ, μήποτε τὸν Θεὸν ἀντιτασσόμενον ἕξεις.</p>
          </div>
          <div type="ch" n="105">
-            <p n="129">Φίλει τὴν ταπεινοφροσύνην, κἂν γέγας ὑπάρχεις, 
+            <p n="129">Φίλει τὴν ταπεινοφροσύνην, κἂν μέγας ὑπάρχεις, 
                ἵνα ὑψωθὴς ἐν ἡμέρᾳ κρίσεως.</p>
          </div>
          <div type="ch" n="106">
@@ -536,7 +544,7 @@
          <div type="ch" n="107">
             <p n="131">Ὅταν ἐν Ἐκκλησίᾳ ὑπάρχεις, μὴ μετεωρίζου· 
                ἐνώπιον γὰρ βασιλέως οἱ ἑστῶτες, οὔτε γελῶσιν, 
-               ὄτε μετεωρίζονται.</p>
+               ὅτε μετεωρίζονται.</p>
          </div>
          <div type="ch" n="108">
             <p n="132">Μὴ καταφρόνει τῆς ζωῆς σου, καὶ ἀδιαφόρως 

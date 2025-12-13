@@ -18,6 +18,8 @@
    </teiHeader>
    <head xmlns="tag:textalign.net,2015:ns">
       <name>Greek text of Maxims Useful for Life, part one from Grynaeus, Monumenta s. patrum orthodoxograph (1569)</name>
+      <desc>Reproduces Neandro's editions, with minor changes. Reference numerals introduced by J.
+         Kalvesmaki in 2025.</desc>
       <master-location
          href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg6583a/cpg6583a.grc.1569.grynaeus.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
@@ -533,7 +535,7 @@
          </div>
          <div type="ch" n="103">
             <p>εἰ θέλεις πάσης ἁμαρτίας ἀνώτερον εἶναι,
-               πράξεις ἀλλοτρίας μὴ καταμάθανε·
+               πράξεις ἀλλοτρίας μὴ καταμάνθανε·
                πολλὰ γάρ εἰσιν ἐν σοὶ, ἀφ' ὧν ἕτερον
                ὑπολαμβάνεις.</p>
          </div>
@@ -543,17 +545,17 @@
                ἀντιτασσόμενον ἕξεις.</p>
          </div>
          <div type="ch" n="105">
-            <p>φίλει τὴν ταπεινοφροσύνην, κἂν γέγας
+            <p>φίλει τὴν ταπεινοφροσύνην, κἂν μέγας
                ὑπάρχεις, ἵνα ὑψωθὴς ἐν ἡμέρα κρίσεως.</p>
          </div>
          <div type="ch" n="106">
             <p>μὴ σκώψῃς ἄνθρωπον, καὶ μῶμον οὐχ ἕξεις· ἐν
-               πάσῃ ζωῃ σοῦ.</p>
+               πάσῃ ζωῇ σοῦ.</p>
          </div>
          <div type="ch" n="107">
             <p>ὅταν ἐν ἐκκλησίᾳ ὑπάρχεις, μὴ μετεωρίζου. 
                ἐνώπιον γὰρ βασιλέως οἱ ἑστῶτες, οὔτε 
-               γελῶσιν, ὄτε μετεωρίζονται.</p>
+               γελῶσιν, ὅτε μετεωρίζονται.</p>
          </div>
          <div type="ch" n="108">
             <p>μὴ καταφρόνει τῆς ζωῆς σοῦ, καὶ ἀδιαφόρως
