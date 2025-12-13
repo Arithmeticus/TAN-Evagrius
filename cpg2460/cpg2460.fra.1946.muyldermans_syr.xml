@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021"
+  id="tag:kalvesmaki.com,2014:cpg2460:syr:fra:muyldermans:1946">
+  <head>
+    <name xml:lang="eng">French translation of the Syriac version of On the
+      Seraphim (CPG 2460) by Evagrius</name>
+    <master-location
+      href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2460/cpg2460.fra.1946.muyldermans.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="on the seraphim"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+
+    <source which="Muyldermans 1946"/>
+    <adjustments>
+      <normalization which="accents normalized"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <change when="2025-10-09" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+
+  <body xml:lang="fra">
+    <div n="1" type="section">Les Séraphins aux six ailes sont des êtres raisonnables; ils ont (en
+      propre) la contemplation des choses (les plus) profondes; l'excellence (sur tous les autres)
+      et la connaissance intellective.</div>
+    <div n="2" type="section">Que de deux ailes ils se couvrent la face, c'est (pour signifier)
+      qu'ils ne regardent pas avec témérité les choses inscrutables. Que de deux ailes (ils se
+      couvrent) les pieds, c'est (pour signifier) qu'ils ne disent pas le secret ineffable du
+      jugement et (ce qui fait l'objet de) la prescience providentielle de Dieu. Que de deux (ailes)
+      ils volent de deux côtés, c'est (pour signifier) qu'ils voient, à droite, les choses
+      inscrutables, et se soutiennent. Qu'ils clament et disent: «Saint, Saint, Saint!», c'est la
+      confession incessante et la proclamation de la gloire de la sainte Trinité, car cette
+      glorification croît avec les êtres raisonnables et elle les affecte à proportion de la
+      perfection de (leur) intelligence et elle les élève, afin qu'ils confessent de toute leur âme
+      la grandeur de la sainteté de (cette) gloire.</div>
+    <div n="3" type="section"> Car la règle de la contemplation spirituelle, c'est non seulement que
+      nous admirions; mais aussi que nous n'osions pas scruter toute chose, ni l'ineffable, ce qui
+      serait (user) de la face, ni ce qui a trait au jugement, ce qui serait user des pieds, mais
+      les choses qui sont scrutées par la prescience providentielle, ce qui est (user) des ailes
+      ouvertes et éployées. </div>
+    <div n="4" type="section">Double est la puissance de l'intelligence: la rationalité et
+      l'intellectivité. La rationalité est (le domaine de) ce qui s'exprime; l'intellectivité est
+      (le domaine de) l'ineffable (qui procède) par l'obéissance de la foi. Car la droite de
+      l'intelligence, c'est la foi; sa gauche, c'est le verbe; sa face, c'est la révélation; les
+      pieds, c'est la non-rationalité procédant par l'esprit et l'étude; la clameur, c'est la
+      proclamation inspirée par une volonté bonne; le triple «Sanctus!», c'est la glorification
+      mystérieuse qui fait l'objet du ministère des êtres incorporels auprès de la divine, glorieuse
+      et consubstantielle Trinité du Seigneur Sabaoth, de la gloire duquel sont remplis les cieux et
+      la terre. Ses œuvres, en effet, proclament justement sa gloire, mais surtout la nature
+      raisonnable, qui a été faite à son image et conformément à sa ressemblance, entendez:
+      conformément au Fils et à l'Esprit-Saint; quand, (en effet), le Père saint commanda, c'est
+      avec eux aussi qu'il créa. </div>
+  </body>
+
+</TAN-T>

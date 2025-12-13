@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021"
+  id="tag:kalvesmaki.com,2014:cpg2460:syr:muyldermans:1946">
+  <head>
+    <name xml:lang="eng">Syriac translation of On the Seraphim (CPG 2460) by Evagrius</name>
+    <master-location
+      href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2460/cpg2460.fra.1946.muyldermans.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="on the seraphim"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2022-01-07"/>
+    </vocabulary>
+
+    <source which="Muyldermans 1946"/>
+    <adjustments>
+      <normalization which="accents normalized"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+    </vocabulary-key>
+
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <change when="2025-10-09" who="kalvesmaki">Started file</change>
+    <to-do/>
+  </head>
+
+  <body xml:lang="syr">
+    <div n="1" type="section">ܕܥܠ ܣܪ̈ܦܐ
+      ܣܪ̈ܦܐ ܕܫܬܐ ܓܦܝܗ̈ܘܢ. ܩܢܘܡ̈ܐ ܡ̈ܠܝܠܐ ܐܝܬܝܗܘܢ.
+      ܬܐܘܪ̈ܝܐ ܕܝܢ ܕܣܘ̈ܦܐ ܐܝܬ ܠܗܘܢ. ܡܝܬܪܘܬܐ ܕܝܢ
+      ܘܝܕܥܬܐ ܗܘܢܢܝܬܐ: 
+    </div>
+    <div n="2" type="section">ܗܿܝ ܕܒܬܪ̈ܝܢ ܡܿܢ ܡܟܣܝܢ ܦܪܨܘܦܐ :
+      ܕܠܐ ܚܨܝܦܐܝܬ ܢܚܘܪܘܢ ܒܠܐ ܡܬܕܪ̈ܟܢܝܬܐ: ܗܝܕܝܢ
+      ܕܒܬܪ̈ܝܢ ܪ̈ܓܠܝܗܘܢ܆ ܕܠܐ ܢܐܡܪܘܢ ܡܥܠܝܬ ܡܢ ܡܡܠܠܐ
+      ܟܣܝܘܬܗ ܕܕܝܢܐ܇ ܘܡܩܕܡܘܬ ܝܕܥܬܗ ܕܐܠܗܐ ܡܕܒܪܢܝܬܐ
+      ܗ̇ܝ ܕܝܢ ܕܒܬܪ̈ܝܢ ܦܪܚܝܢ ܒܬܪ̈ܝܗܘܢ ܓܒ̈ܐ ܐܝܟ ܕܒܝܡܝܢܐ
+      ܚܙܝܙ ܠܐ ܡܬܕܪ̈ܟܢܝܬܐ ܘܡܬܛܥܢܝܢ: ܗܝܕܝܢ ܕܩܥܝܢ ܘܐܡܪܝܢ
+      ܩܕܝܫ ܩܕܝܫ ܩܕܝܫ. ܬܘܕܝܬܐ ܐܝܬܝܗ̇ ܕܠܐ ܫܠܘܐ܇ ܘܡܘܕܝܢܘܬܐ
+      ܕܬܫܒܘܚܬܐ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ. ܕܗܝ ܗܕܐ ܬܫܒܘܚܬܐ
+      ܝܪܒܐ ܥܡ ܡ̈ܠܝܠܐ܆ ܘܠܘܬ ܡܫܡܠܝܘܬܐ ܕܗܘܢܐ ܡܩܪܒܐ 
+      ܠܗܘܢ ܘܡܥܠܝܐ ܠܗܘܢ. ܕܡܢ ܟܠܗܿ ܢܦܫܗܘܢ ܢܘܕܘܢ
+      ܠܡܪܘܬܐ ܕܩܕܝܫܘܬܐ ܕܬܫܒܘܚܬܐ. 
+    </div>
+    <div n="3" type="section">ܩܢܘܢ ܓܝܪ ܕܬܐܘܪܝܐ
+      ܪܘܚܢܝܬܐ. ܠܘ ܒܠܚܘܕ ܕܢܬܘܪ .ܐܠܐ ܘܕܠܐ ܢܡܪܚ ܢܒܨܐ
+      ܟܠ ܡܕܡ. ܘܠܐ ܬܘܒ ܗܿܘ ܡܕܡ ܕܠܐ ܡܬܡܠܠ ܐܝܟ
+      ܕܒܦܪܨܘܦܐ. ܠܐ ܕܝܢ ܬܘܒ ܗܠܝܢ ܕܕܝܢܐ ܐܝܟ ܕܒܪ̈ܓܠܐ:
+      ܐܠܐ ܗܠܝܢ ܕܠܡܩܕܡܘܬ ܝܕܥܬܐ ܡܕܒܪܢܝܬܐ ܡܬܕܪܟܝܢ.
+      
+      ܐܝܟ  ܕܒܝܕ ܫܪ̈ܝܐ ܘܡܚܪܪ̈ܐ ܓܦ̈ܐ. 
+    </div>
+    <div n="4" type="section">ܥܦܝܦܬܐ ܐܝܬܝܗܿ
+      ܚܝܠܬܢܘܬܐ ܕܗܘܢܐ ܿ ܡܠܝܠܘܬܐ ܘܗܘܢܢܘܬܐ. ܡܠܝܠܘܬܐ ܡܿܢ
+      ܐܝܬܝܗܿ܆ ܡܕܡ ܕܡܬܡܠܠ. ܗܘܢܢܘܬܐ ܕܝܢ ܕܠܐ ܡܬܡܠܐ.
+      ܒܝܕ ܡܬܛܦܝܤܢܘܬܐ ܕܗܝܡܢܘܬܐ: ܝܡܝܢܗ ܓܝܪ ܕܗܘܢܐ
+      ܗܝܡܢܘܬܐ: ܣܡܠܗ ܕܝܢ ܡܠܬܐ. ܦܪܨܘܦܗ ܕܝܢ
+      ܡܬܓܠܝܢܘܬܐ: ܪ̈ܓܠܐ ܕܝܢ ܠܐ ܡܠܝܠܘܬܐ ܕܒܝܕ ܬܐܪܬܐ
+      ܘܝܨܝܦܘܬܐ: ܩܥܬܐ ܕܝܢ ܡܘܕܥܢܘܬܐ ܕܥܠ ܨܒܝܢܐ ܫܦܝܪܐ
+      ܗ̇ܘ ܕܝܢ ܩܘܕܫܐ ܬܠܝܬܝܐ: ܬܫܒܘܚܬܐ ܐܪܙܢܬܐ
+      ܕܬܫܡܫܬܐ ܕܠܐ ܦܓܪ̈ܢܐ. ܠܘܬ ܐܠܗܝܬܐ ܘܡܫܒܚܬܐ
+      ܘܒܪܬ ܟܝܢܐ ܝܚܝܕܝܬܐ܇ ܬܠܝܬܝܘܬܐ ܕܡܪܝܐ ܨܒܐܘܬ. ܗܿܘ
+      ܕܡ̈ܠܝܢ ܫܡܝܐ ܘܐܪܥܐ ܬܫ̈ܒܚܬܗ: ܥܿܒܕ̈ܘܗܝ ܓܝܪ ܙܕܩܐܝܬ
+      ܡܘܕܝܢ ܬܫܒܘܚܬܗ܇ ܝܬܝܪܐܝܬ ܕܝܢ ܟܝܢܐ ܡܠܝܠܐ: ܗܿܘ
+      ܕܐܝܟ ܨܠܡܗ ܐܬܥܒܕ ܘܒܕܡܘܬܗ: ܗܕܐ ܕܝܢ ܐܝܬܝܗܿ.
+      ܒܒܪܐ ܘܒܪܘܚܐ ܕܩܘܕܫܐ ܟܕ ܐܒܐ ܩܕܝܫܐ ܦܩܿܕ. ܐܦ
+      ܥܡܗܘܢ ܒܪܐ.
+    </div>
+  </body>
+
+</TAN-T>
