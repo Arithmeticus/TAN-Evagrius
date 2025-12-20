@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021"
+  id="tag:kalvesmaki.com,2014:text:cpg2477:fra:muyldermans">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <ab/>
+      </publicationStmt>
+      <sourceDesc>
+        <ab/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Counsel, translated by Muyldermans into French</name>
+    <master-location
+      href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2477/cpg2477.fra.1952.muyldermans.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    
+    <work which="Instructions (Prov.)"/>
+    
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+    </vocabulary>
+    
+
+    <source which="Muyldermans 1952"/>
+    <adjustments>
+      <normalization which="no reference markers"/>
+      <normalization which="no hyphens"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      <div-type xml:id="ch" which="chapter"/>
+    </vocabulary-key>
+
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    <resp roles="transcriber" who="kalvesmaki"/>
+
+    <change when="2025-12-19" who="kalvesmaki">Started file</change>
+    <to-do>
+      <comment when="2021-12-25" who="kalvesmaki">Needs proofreading.</comment>
+    </to-do>
+  </head>
+
+  <text>
+
+    <body xml:lang="fra">
+      <milestone unit="page" n="165"/>
+      <div type="title" n="title">
+        <p>PROVERBES ET COMMENTAIRES</p>
+      </div>
+      <div type="ch" n="1">
+        <p>1. J'offre au Christ les prémices de mon aire et de mon pressoir, et au Paraclet une corbeille de raisins (Num. XVIII, 27 sqq.). 
+          2.  
+          3.  
+          4.  
+          5.  
+          6. 
+          7. 
+          8. 
+          9. 
+          10. 
+          11.  
+          12. Les fils des sages ne plaisent pas aux insensés, et celui qui est privé de raison, ne les comprend pas (grec no 51). 
+          13. Une longue vie (litt. temps) ne donne pas la sagesse (cf. JOB XXXII, 9), et de nombreuses années ne procurent pas la gnose (grec no 52). 
+          14. Si tu possèdes la charité, tu comprendras les paroles des sages; si tu recherches la paix, tu hériteras les fruits de leur ventre (cf. Ps. CXXVI, 3; grec no 55). 
+        </p>
+      </div>
+      <div type="ch" n="2">
+        <p>Qui boira l'eau du puits, qui verra les sources sous le ciel?</p>
+      </div>
+      <div type="ch" n="3">
+        <p>Celui qui bouche la source, est semblable à l'homme qui détruit son âme; celui qui la purifie, en jouira.</p>
+      </div>
+      <div type="ch" n="4">
+        
+        <p>L'arc tordu n'atteint pas le gibier, et les flêches de la corde du péché seront sans effet.</p>
+      </div>
+      
+      <div type="ch" n="5">
+        <p>La gnose ne convient pas à l'insensé, comme une pierre sans valeur ne convient pas dans un anneau d'or (grec no 50) 118.</p>
+      </div>
+      <div type="ch" n="6">
+        <p>Ceux qui bénissent le Seigneur, verront la lumière, mais les ténèbres sont dans les âmes des impies. </p>
+      </div>
+      <div type="ch" n="7">
+        <p>Malheur à ceux qui ne sont pas armés au jour du combat, et ceux qui sont nus mourront au jour de l'hiver. </p>
+        
+      </div>
+      <div type="ch" n="8">
+        
+        <p>La gnose affranchit l'homme qui croit (cf. JOH. VIII, 32), mais celui qui est sans foi sera à jamais asservi. </p>
+      </div>
+      <div type="ch" n="9">
+        
+        <p>Les hommes impies ne seront pas rassasiés de pain, et les justes seront les maîtres des trésors 119. </p>
+      </div>
+      <div type="ch" n="10">
+        
+        <p>Comme le courant impétueux du fleuve est difficile (à arrêter), ainsi en va-t-il de l'avidité de l'homme injuste (grec no 53). </p>
+      </div>
+      <div type="ch" n="11">
+        <p>Comme le ver dans le bois (cf. Prov. xxv, 20), ainsi est la parole dans l'âme de celui qui garde rancune (grec no 54).</p>
+      </div>
+      <div type="ch" n="12">
+        
+        <p></p>
+      </div>
+      <div type="ch" n="13">
+        <p></p>
+      </div>
+      <div type="ch" n="14">
+        <p></p>
+      </div>
+      <milestone unit="page" n="166"/>
+      <div type="ch" n="15">
+        
+        <p xml:id="p15" next="#p16">15. L'homme irascible ne les connaîtra pas, et l'impur ne les comprendra pas (grec no 56). 
+          16. L'homme doux boira l'eau de la vérité; l'eau du mensonge sera donnée à l'homme irascible (grec no 57). 
+          17. La fourmi excitera 120 l'affamé, et l'abeille celui qui cherche la gnose (Prov. VI, 6). 
+          18. Conserve en tout temps les richesses que tu as obtenues de tes pères, et n'oublie pas celui qui t'a engendré (grec no 58). 
+          19. L'homme endormi perdra l'argent qu'il a dans son sein, et celui qui est ivre, sa ceinture 121 (grec no 59). 
+          20. J'ai vu des hommes s'élevant comme des vautours et descendant de nouveau à terre à l'odeur des cadavres (cf. MATTH. XXIV, 28; grec no 60). 21. L'homme miséricordieux gardera ses richesses, mais l'irascible perdra son vêtement (grec no 61). 
+          22. Si tu aimes la discipline, tu affligeras tes adversaires, et si tu cherches la sagesse, tu les réprimeras (grec no 62). 
+          23. Les fils pécheurs dissipent la richesse, et les insensés ne verront pas les trésors de leurs pères (grec no 63). 
+          24. Ne dis pas à ton père: Chasse maintenant tous ceux qui réclament mon héritage, car ce n'est pas en un an qu'il les chassera 122. 
+          25. Lorsque les éléments seront détruits, les justes se réjouiront, mais les âmes des injustes pleureront amèrement (grec no 64). 
+          26. Si la nuit vient, ce sont les ténèbres (il fait noir), et elle déprime les injustes et tout le peuple tout ensemble. 
+          27. Les bâtons des doux produiront des amandes, et leurs âmes se revêtiront d'une robe de gloire. 
+          28. Les ruches des justes se rempliront de rayons de miel, et les abeilles fortes mangeront leur miel. 
+          29. Ls pauvres se saisiront des biens des riches, et les humbles distri- bueront leurs richesses (grec no 65). 
+          30. C'est par le travail que sont travaillées les tables (et que) les cœurs de pierre reçoivent la loi de Dieu. 
+          31. Les préceptes sont cachés et scellés, et comment pourrions-nous les comprendre? 
+        </p>
+      </div>
+      <div type="ch" n="16">
+        <p xml:id="p16" prev="#p15"></p>
+      </div>
+      <div type="ch" n="17">
+        
+        
+        <p></p>
+      </div>
+      <div type="ch" n="18">
+        
+        <p></p>
+      </div>
+      <div type="ch" n="19">
+        
+        <p></p>
+        
+      </div>
+      <div type="ch" n="20">
+        <p></p>
+      </div>
+      <div type="ch" n="21">
+        <p></p>
+      </div>
+      <div type="ch" n="22">
+        
+        <p></p>
+      </div>
+      <div type="ch" n="23">
+        
+        <p></p>
+      </div>
+      <div type="ch" n="24">
+        
+        <p></p>
+      </div>
+      <div type="ch" n="25">
+        <p></p>
+      </div>
+      <div type="ch" n="26">
+        
+        <p></p>
+      </div>
+      <div type="ch" n="27">
+        
+        <p></p>
+        
+      </div>
+      <div type="ch" n="28">
+        <p></p>
+        
+      </div>
+      <div type="ch" n="29">
+        <p></p>
+      </div>
+      <div type="ch" n="30">
+        
+        <p></p>
+      </div>
+      <div type="ch" n="31">
+        
+        <p></p>
+      </div>
+      
+      <milestone unit="page" n="167"/>
+      <div type="ch" n="32">
+        <p>32. Dresse une stèle et verse de l'huile sur elle (cf. Gen. XXVIII, 18), et tu trouveras un trésor dans ton sein. 
+          33. Le maître insensé rassasie le ventre de son serviteur, mais le (maître) sage l'affame grandement. 
+          34. Le loup affamé 123 suit la piste du troupeau, et l'esprit de luxure (recherche) ceux qui se remplissent le ventre (grec no 66). 
+          35. Les maisons des avares se rempliront de bêtes de colère, et l'oiseau de tristesse s'y installera (grec no 67). 
+          36. L'humble voit l'étoile de la prière, et l'homme qui jeûne chasse de son cœur les mauvaises visions. 
+          37. Lorsque l'intelligence évite des paroles de haine, elle profère de bonnes paroles. 
+          38. Celui qui riposte aux pensées impures, rend vaine la sagesse de ses ennemis. 
+          39. A un homme colère et perfide n'est pas avantageuse une réponse calme. 
+          40. Que celui qui a des visions, fasse usage des paroles de Dieu. 41. Les guêpes sauvages mangeront le miel et se rassasieront des doux gâteaux de miel. 
+          42. Les cœurs des moines comprendront les paroles et ils y découvriront l'artifice des démons. 
+          43. L'insensé n'aime pas le sentier étroit, parce qu'il préfère le chemin large. 
+          44, Celui qui porte envie à celui qui a trouvé la gnose, connaîtra les ténèbres; celui qui se réjouira dans la joie qu'éprouve le frère, sera glorifié. 
+          45. Sers la Trinité, reconnais-la 124, adore-la et les jours de ta vie se multiplieront. 
+        </p>
+      </div>
+      <div type="ch" n="33">
+        <p></p>
+      </div>
+      <div type="ch" n="34">
+        
+        <p></p>
+      </div>
+      <div type="ch" n="35">
+        
+        <p></p>
+      </div>
+      <div type="ch" n="36">
+        
+        <p></p>
+      </div>
+      <div type="ch" n="37">
+        <p></p>
+      </div>
+      
+      <div type="ch" n="38">
+        
+        <p></p>
+      </div>
+      <div type="ch" n="39">
+        <p></p>
+      </div>
+      <div type="ch" n="40">
+        <p></p>
+      </div>
+      <div type="ch" n="41">
+        <p></p>
+      </div>
+      <div type="ch" n="42">
+        
+        <p></p>
+      </div>
+      <div type="ch" n="43">
+        
+        <p></p>
+      </div>
+      <div type="ch" n="44">
+        
+        <p></p>
+      </div>
+      <div type="ch" n="45">
+        
+        <p></p>
+        
+      </div>
+      
+    </body>
+  </text>
+
+</TEI>
