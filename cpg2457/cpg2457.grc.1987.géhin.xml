@@ -6,6 +6,8 @@
    <head>
       <name>Greek text of Géhin's edition of Evagrius's Explication of Proverbs, logical reference
          system</name>
+      <master-location
+         href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2457/cpg2457.grc.1987.géhin.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <work which="Comm. par. et Prov."/>
       <vocabulary>
