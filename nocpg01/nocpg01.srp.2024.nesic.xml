@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     TAN-version="2021"
+     id="tag:kalvesmaki.com,2014:nocpg01.srp.2024.nesic">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p/>
+      </encodingDesc>
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name xml:lang="eng">Lazar Nesic's Serbian translation of the letter of Loukios to Evagrios Pontikos</name>
+      <master-location href="http://evagriusponticus.net/tan/nocpg01/nocpg01.srp.2024.nesic.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="nocpg01"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2021-06-02"/>
+      </vocabulary>
+      <source which="Nešić 2024"/>
+      <adjustments/>
+      <vocabulary-key>
+         <div-type xml:id="sender">
+            <IRI>tag:kalvesmaki.com,2014:div-type:letter:sender</IRI>
+            <name>sender</name>
+            <name>sender of letter</name>
+         </div-type>
+         <div-type xml:id="recipient">
+            <IRI>tag:kalvesmaki.com,2014:div-type:letter:recipient</IRI>
+            <name>recipient</name>
+            <name>recipient of letter</name>
+         </div-type>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp who="kalvesmaki" roles="editor"/>
+      <change when="2025-12-22" who="kalvesmaki">Started file, cut from CPG 2434</change>
+      <to-do/>
+   </head>
+   <text>
+      <body xml:lang="srp">
+         <div type="letter" n="4">
+            <div type="sender" n="sender">
+               <p>Ава Лукијан</p>
+            </div>
+            <div type="recipient" n="recipient">
+               <p>Писмо ави Евагрију</p>
+            </div>
+            <div type="chapter" n="1">
+               <p>У име Оца и Сина и Светога Духа, једнога Бога! Писмо светог оца Лукијана светом оцу Евагрију. Нека нам Господ подари двоструки благослов молитвама њиховим.</p>
+            </div>
+            <div type="chapter" n="2">
+               <p>Оче, много година си провео у пустињи, као у мајчиним недрима, водећи борбу с невидљивим непријатељима. О, часни оче Евгарије, обукао си се у оружје доличних подвижничких напора душе и постао си искусан борац против духова зла! И не само да си постао страх и трепет међу демонима, већ си призвао и друге подвижнике како би се борили против злих духова и нечистих помисли.</p>
+            </div>
+            <div type="chapter" n="3">
+               <p>Стога молим твоје очинско старање да разврста борбу против ових бића таме, те молим твоју светост да ми састави лакоразумљиви спис на ову тему и упозна ме са свим лукавствима демонским, које они властитим трудом и напором предузимају против монашког начина живота. Пошаљи нам наведени спис, еда бисмо и ми, пријатељи твоји, могли одбацивати од себе њихове зле наговоре. Знајући да ћеш се побринути за онога који тражи разјашњење духовних ствари, обратих се теби с овом молбом. Поздрав у Господу!</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
