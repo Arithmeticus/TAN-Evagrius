@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" 
+   id="tag:kalvesmaki.com,2014:transcription:cpg2467:grc:1994:gehin">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <ab/>
+         </publicationStmt>
+         <sourceDesc>
+            <ab/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name>Géhin's edition of Greek fragments of On Fasting</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2467/cpg2467.grc.1994.gehin.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Fasting"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2025-12-19"/>
+      </vocabulary>
+      <source which="Géhin 1994"/>
+      
+      <adjustments>
+         <normalization which="no hyphens"/>
+      </adjustments>
+      <vocabulary-key>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <div-type xml:id="ch" which="chapter"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2025-12-19" who="kalvesmaki">Started file</change>
+      <to-do/>
+   </head>
+   <text>
+      <body xml:lang="grc">
+         <div type="ch" n="1">
+            <p>Ἀρξάμενος διὰ νηστείας χαλίνωσον τὴν γλῶσσάν σου· τὸ &lt;...&gt; συμποδίσας βιβλίῳ
+               καὶ κέλλῃ καὶ λογισμῷ εὐσεβείας· ῥῆξον φωνὴν βοῶν πρὸς Χριστὸν εἰ ἥμαρτες ἐν γνώσει,
+               τὸ βάπτισμα μιάνας· Ἰησοῦς γὰρ ἐπέστη μετάνοιαν κηρύσσων· ἡ χρεία γὰρ τῆς σαρκὸς εἰς
+               δόξαν θεοῦ ἐκτίσθη, καὶ τῆς σαρκὸς καὶ τῆς ψυχῆς Ἰησοῦς ἐστιν ἰατρός· χρῆσαι οὖν τῇ
+               σαρκί σου πρὸς τὰς εὐλόγους χρείας ὑποπιάσας ἐν πᾶσι, πορνείαν καὶ ὀργὴν νίκησον,
+               βάδιζε δὲ νηφόντως, πάντοτε τὴν σάρκα σου κολαφίζων· μείζονα γὰρ αὐτῆς ἐχθρὸν οὐκ
+               ἔχεις ὑπὸ τὸν οὐρανόν.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
