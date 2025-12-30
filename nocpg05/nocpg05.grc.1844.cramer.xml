@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" 
+  id="tag:kalvesmaki.com,2014:text:nocpg05:grc:cramer">
+  <teiHeader xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
+    <fileDesc>
+      <titleStmt>
+        <title>Scholion on Acts</title>
+        <author>Evagrius Ponticus</author>
+        <respStmt>
+          <resp>edited by</resp>
+          <persName instant="false" full="yes"><forename full="yes">John</forename> Anthony
+            <surname full="yes">Cramer</surname></persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Cramer's edition of a scholium on Acts by Evagrius Ponticus</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/nocpg05/nocpg05.grc.1844.cramer.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="nocpg05"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2025-12-23"/>
+    </vocabulary>
+    
+    <source which="Cramer 1844"/>
+    
+    <adjustments>
+      <normalization which="no reference markers"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      <div-type xml:id="ch" which="chapter"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    
+    <change when="2025-12-23" who="kalvesmaki">Started TAN-TEI file.</change>
+    <to-do/>
+  </head>
+  <text>
+    <body xml:lang="grc">
+      <milestone unit="page" prev="177"/>
+      <div type="ch" n="1">
+        <p>Αἱ τέσσαρες ἀρχαὶ τὰ τέσσαρα στοιχεῖα δηλοῦσι, καὶ τὸ φανὲν σκεῦος τὸν παχύτερον κόσμον
+          σημαίνει· καὶ τὰ διάφορα ζῶα τῆς τῶν ἀνθρώπων ἐστὶ καταστάσεως σύμβολα.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
