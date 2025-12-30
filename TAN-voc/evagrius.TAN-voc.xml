@@ -58,7 +58,7 @@
                 <desc>A digital service or resource that provided an auxiliary role in making the source or data available.</desc>
             </item>
         </group>
-        <group affects-element="source redivision">
+        <group affects-element="source redivision model">
             <!-- Class-1 Files -->
             <!-- 2430: Praktikos -->
             <item>
@@ -404,6 +404,21 @@
                 <name xml:lang="srp">Лазар Нешић, превод оф Противречитељ, Евагрије Понтски</name>
                 <location accessed-when="2023-12-07T21:26:06.9782846-05:00" href="../cpg2434/cpg2434.srp.2023.nesic.xml"/>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:evagrius.cpg2434.rus.2024.morozov</IRI>
+                <name xml:lang="eng">Morozov's Russian translation of Frankenberg's Syriac text of the Antirrhetikos, books III-IV</name>
+                <name>cpg2434 rus 2024</name>
+                <name>cpg2434 rus morozov 2024</name>
+                <location accessed-when="2025-12-22T23:02:52.6585382-05:00" href="../cpg2434/cpg2434.rus.2024.morozov.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:evagrius.cpg2434.rus.2025.morozov</IRI>
+                <name xml:lang="eng">Morozov's Russian translation of Gehin's Syriac text of the Antirrhetikos, book V</name>
+                <name>cpg2434 rus 2025</name>
+                <name>cpg2434 rus morozov 2025</name>
+                <location accessed-when="2025-12-22T23:02:52.6585382-05:00" href="../cpg2434/cpg2434.rus.2025.morozov.xml"/>
+            </item>
+            
             
             <!-- CPG 2435: Ad monachos -->
             <item>
@@ -582,11 +597,19 @@
             <item>
                 <IRI>tag:kalvesmaki.com,2014:transcription:cpg2437:grc:1994:géhin</IRI>
                 <name>cpg2437 grc 1994</name>
-                <name>cpg2437 grc Géhin</name>
+                <name>cpg2437 grc Géhin fragments</name>
                 <name>Géhin's edition of Greek fragments of the letters of Evagrius Ponticus</name>
                 <location href="../cpg2437/cpg2437.grc.1994.gehin.xml"
                     accessed-when="2020-10-02-04:00"/>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:transcription:cpg2437:grc:2025:gehin</IRI>
+                <name>cpg2437 grc 2025</name>
+                <name>cpg2437 grc Géhin</name>
+                <name>Géhin's edition of the sixty-two letters of Evagrius Ponticus</name>
+                <location accessed-when="2025-12-21T16:10:06.1629289-05:00" href="../cpg2437/cpg2437.grc.2025.gehin.xml"/>
+            </item>
+            
             <item>
                 <IRI>tag:kalvesmaki.com,2014:cpg2437.srp.2023.nesic</IRI>
                 <name>cpg2437 srp 2023</name>
@@ -927,6 +950,15 @@
                 <name xml:lang="srp">Лазар Нешић, превод оф Евлогију монаху, Евагрије Понтски</name>
                 <location accessed-when="2023-12-15T00:48:16.8442033-05:00" href="../cpg2447/cpg2447.srp.2023.nesic.xml"/>
             </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2447.kat.1984.makharashvili</IRI>
+                <name>cpg2447 kat 1984</name>
+                <name>cpg2447 kat Makharashvili</name>
+                <name xml:lang="eng">Makharashvili's edition of the medieval Georgian translation of Ad
+                    Eulogium</name>
+                <location accessed-when="2025-12-16T00:15:53.3949867-05:00" href="../cpg2447/cpg2447.kat.1984.makharashvili.xml"/>
+            </item>
+            
 
 
             <!-- CPG 2448: Vices and Virtues -->
@@ -958,6 +990,14 @@
                 <name xml:lang="eng">Lazar Nesic's Serbian translation of the On the Vices Opposed to the Virtues of Evagrios Pontikos</name>
                 <name xml:lang="srp">Лазар Нешић, превод оф О пороцима који се супротстављају врлинама, Евагрије Понтски</name>
                 <location accessed-when="2023-12-27T10:44:07.5216672-05:00" href="../cpg2448/cpg2448.srp.2023.nesic.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:cpg2448.kat.1984.makharashvili</IRI>
+                <name>cpg2448 kat 1984</name>
+                <name>cpg2448 kat Makharashvili</name>
+                <name xml:lang="eng">Makharashvili's edition of the medieval Georgian translation of 
+                    Vices and Virtues</name>
+                <location accessed-when="2025-12-16T01:00:12.7340707-05:00" href="../cpg2448/cpg2448.kat.1984.makharashvili.xml"/>
             </item>
             
             
@@ -1155,14 +1195,14 @@
             </item>
             
             
-            <!-- CPG 2458.4: Scholia on Proverbs -->
+            <!-- CPG 2456: Scholia on Proverbs -->
             <item>
-                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2458.4:grc:1987:logical</IRI>
-                <name>cpg2458.4 grc 1987</name>
-                <name>cpg2458.4 grc Géhin</name>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:cpg-2456:grc:1987:logical</IRI>
+                <name>cpg2456 grc 1987</name>
+                <name>cpg2456 grc Géhin</name>
                 <name>Greek text of Géhin's edition of Evagrius's Scholia on Proverbs, logical reference
                     system</name>
-                <location href="../cpg2458.4/cpg2458.4.grc.1987.g%C3%A9hin.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
+                <location href="../cpg2456/cpg2456.grc.1987.g%C3%A9hin.ref-logical.xml" accessed-when="2018-06-03-04:00"/>
             </item>
             
             <!-- CPG 2459: On the Cherubim -->
@@ -1243,6 +1283,17 @@
             </item>
             
             
+            <!-- CPG 2467: On Fasting -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:transcription:cpg2467:grc:1994:gehin</IRI>
+                <name>Géhin's edition of Greek fragments of On Fasting</name>
+                <name>cpg 2467 grc Géhin</name>
+                <name>cpg 2467 grc 1994</name>
+                <location accessed-when="2025-12-23T12:24:56.7664566-05:00" href="../cpg2467/cpg2467.grc.1994.gehin.xml"/>
+            </item>
+            
+            
+            
             <!-- CPG 2475: Counsel -->
             <item>
                 <IRI>tag:kalvesmaki.com,2014:Evagrius_Counsel_grc_Furrer-Pilliod.TAN-TEI</IRI>
@@ -1299,6 +1350,56 @@
                 <name>cpg2476 fra 1952</name>
                 <location accessed-when="2022-12-27T17:09:06.9131671-05:00" href="../cpg2476/cpg2476.fra.1952.muyldermans.xml"/>
             </item>
+
+
+            <!-- CPG 2477: Instructiones ad imitationem Prouerbiorum -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Word_of_Instruction_Muyldermans-1931-grc</IRI>
+                <name>cpg2477 grc Muyldermans</name>
+                <name>cpg2477 grc 1931</name>
+                <location accessed-when="2023-01-03T23:52:36.2803337-05:00" href="../cpg2477/cpg2477.grc.1931.muyldermans.barb-gr-515.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Word_of_Instruction_Muyldermans-1931-fra</IRI>
+                <name>cpg2477 fra Muyldermans</name>
+                <name>cpg2477 fra 1931</name>
+                <location accessed-when="2023-01-03T23:52:58.9199985-05:00" href="../cpg2477/cpg2477.fra.1931.muyldermans.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:Evagrius_Word_of_Instruction_Dysinger-1990-eng</IRI>
+                <name>cpg2477 eng Dysinger</name>
+                <name>cpg2477 eng 1990</name>
+                <location accessed-when="2023-01-03T23:53:15.1474151-05:00" href="../cpg2477/cpg2477.eng.1990.dysinger.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg2477:grc:markesinis</IRI>
+                <name>cpg2477 grc Markesinis</name>
+                <name>cpg2477 grc 2004</name>
+                <name>Markesinis's edition of a Greek fragment of Instructiones ad imitationem Prouerbiorum</name>
+                <location accessed-when="2025-12-19T23:42:35.4052522-05:00" href="../cpg2477/cpg2477.grc.2004.markesinis.xml"/>
+            </item>
+            
+            
+            <!-- CPG 2484.1: Body of Christ -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg2484.1:grc:markesinis</IRI>
+                <name>Markesinis's edition of the Greek text of Concerning the Harmony in Observation of the Body of the Lord and
+                    of Those Partaking of Him</name>
+                <location accessed-when="2025-12-20T14:21:20.3155282-05:00" href="../cpg2484.1/cpg2484.1.grc.2004.markesinis.xml"/>
+            </item>
+            
+            
+            
+            <!-- CPG 2484.2: Four chapters -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg2484.2:grc:markesinis</IRI>
+                <name>Markesinis's edition of the Greek text of Four Chapters on the Person of Christ</name>
+                <location accessed-when="2025-12-20T14:22:33.1731053-05:00" href="../cpg2484.2/cpg2484.2.grc.2004.markesinis.xml"/>
+            </item>
+            
+            
+            
+            
             
             <!-- CPG 6583a: Capita paraenetica altera -->
             <item>
@@ -1363,6 +1464,20 @@
                 <name>Syriac translation of the Greek text of Maxims Useful for Life, part one, edited by Bettiolo (1983)</name>
                 <location accessed-when="2025-11-18T23:42:31.987873-05:00" href="../cpg6583a/cpg6583a.syr.1983.bettiolo.xml"/>
             </item>
+            
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583a:hye:venice-1855:a</IRI>
+                <name>cpg6583a hye 1855 version a</name>
+                <name>First Armenian translation of the Greek text of Maxims Useful for Life, part one from the Vitae Patrum (1855)</name>
+                <location accessed-when="2025-12-28T00:01:55.1283841-05:00" href="../cpg6583a/cpg6583a.hye.1855.venice.a.xml"/>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:cpg6583a:hye:venice-1855:b</IRI>
+                <name>cpg6583a hye 1855 version b</name>
+                <name>Second Armenian translation of the Greek text of Maxims Useful for Life, part one from the Vitae Patrum (1855)</name>
+                <location accessed-when="2025-12-28T00:01:55.1283841-05:00" href="../cpg6583a/cpg6583a.hye.1855.venice.b.xml"/>
+            </item>
+            
             
             
             
@@ -1480,52 +1595,74 @@
             
             
             
-            
-            
-            
-            <!-- No CPG 6: Word of Instruction -->
+            <!-- No CPG 01: letter by Loukios -->
             <item>
-                <IRI>tag:kalvesmaki.com,2014:Evagrius_Word_of_Instruction_Muyldermans-1931-grc</IRI>
-                <name>nocpg06 grc Muyldermans</name>
-                <name>nocpg06 grc 1931</name>
-                <location accessed-when="2023-01-03T23:52:36.2803337-05:00" href="../nocpg06/nocpg06.grc.1931.muyldermans.barb-gr-515.xml"/>
-            </item>
-            <item>
-                <IRI>tag:kalvesmaki.com,2014:Evagrius_Word_of_Instruction_Muyldermans-1931-fra</IRI>
-                <name>nocpg06 fra Muyldermans</name>
-                <name>nocpg06 fra 1931</name>
-                <location accessed-when="2023-01-03T23:52:58.9199985-05:00" href="../nocpg06/nocpg06.fra.1931.muyldermans.xml"/>
-            </item>
-            <item>
-                <IRI>tag:kalvesmaki.com,2014:Evagrius_Word_of_Instruction_Dysinger-1990-eng</IRI>
-                <name>nocpg06 eng Dysinger</name>
-                <name>nocpg06 eng 1990</name>
-                <location accessed-when="2023-01-03T23:53:15.1474151-05:00" href="../nocpg06/nocpg06.eng.1990.dysinger.xml"/>
+                <IRI>tag:kalvesmaki.com,2014:nocpg01.grc.1940.hausherr</IRI>
+                <name xml:lang="eng">Irénée Hausherr's Greek retroversion of the 
+                    Arabic translation of the letter by Loukios to Evagrios Pontikos</name>
+                <name>nocpg01 grc 1940</name>
+                <name>nocpg01 grc Hausherr</name>
+                <location accessed-when="2025-12-23T12:15:07.0764975-05:00" href="../nocpg01/nocpg01.grc.1940.hausherr.xml"/>
             </item>
             
-            <!-- No CPG 8: Admonition to Younger Monks -->
             <item>
-                <IRI>tag:kalvesmaki.com,2014:patrologia:text:nocpg08:grc</IRI>
+                <IRI>tag:kalvesmaki.com,2014:nocpg01.srp.2024.nesic</IRI>
+                <name xml:lang="eng">Lazar Nesic's Serbian translation of the letter of Loukios to Evagrios Pontikos</name>
+                <name>nocpg01 srp 2024</name>
+                <name>nocpg01 srp Nesic</name>
+                <location accessed-when="2025-12-23T12:15:25.4887503-05:00" href="../nocpg01/nocpg01.srp.2024.nesic.xml"/>
+            </item>
+            
+            
+            
+            
+            <!-- No CPG 04: 16 excerpts -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:nocpg04:grc:muyldermans</IRI>
+                <name xml:lang="eng">Muyldermans's edition of the Greek Excerpts (nocpg04) from MS Paris BnF gr.
+                    2748</name>
+                <name>nocpg04 grc 1932</name>
+                <name>nocpg04 grc Muyldermans</name>
+                <location accessed-when="2025-12-20T22:55:55.2336952-05:00" href="../nocpg04/nocpg04.grc.1932.muyldermans.xml"/>
+            </item>
+            
+            
+            <!-- No CPG 05: scholion on Acts -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:text:nocpg05:grc:cramer</IRI>
+                <name>nocpg05 grc 1844</name>
+                <name>nocpg05 grc Cramer</name>
+                <name xml:lang="eng">Cramer's edition of a scholium on Acts by Evagrius Ponticus</name>
+                <location accessed-when="2025-12-23T14:29:44.1765099-05:00" href="../nocpg05/nocpg05.grc.1844.cramer.xml"/>
+            </item>
+            
+            
+            
+            <!-- No CPG 08: On Vainglory -->
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:nocpg08:kat</IRI>
+                <name>nocpg08 kat Ktebuchava</name>
+                <name>Edition of the Georgian translation of On Vainglory</name>
+                <location accessed-when="2025-10-30T00:55:12.3528627-04:00" href="../nocpg08/nocpg08.kat.2023.tkebuchava.xml"/>
+            </item>
+            
+            
+            <!-- No CPG 11: Admonition to Younger Monks -->
+            <!-- Doubtful. -->
+            <!--<item>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:nocpg11:grc</IRI>
                 <name>Greek text of Admonition to Younger Monks from the Patrologia Graeca, 79:532-533</name>
-                <name>nocpg08 grc PG</name>
-                <location accessed-when="2025-10-30T00:30:26.469217-04:00" href="../nocpg08/nocpg08.grc.1858.pg.ref-logical.xml"/>
+                <name>nocpg11 grc PG</name>
+                <location accessed-when="2025-10-30T00:30:26.469217-04:00" href="../nocpg11/nocpg11.grc.1858.pg.ref-logical.xml"/>
             </item>
             <item>
-                <IRI>tag:kalvesmaki.com,2014:patrologia:text:nocpg08:lat</IRI>
-                <name>nocpg08 lat PG</name>
+                <IRI>tag:kalvesmaki.com,2014:patrologia:text:nocpg11:lat</IRI>
+                <name>nocpg11 lat PG</name>
                 <name>Latin translation of the Greek text of Admonition to Younger Monks from the Patrologia
                     Graeca, 79:531-534</name>
-                <location accessed-when="2025-10-30T00:30:53.4533171-04:00" href="../nocpg08/nocpg08.lat.1858.pg.ref-logical.xml"/>
-            </item>
+                <location accessed-when="2025-10-30T00:30:53.4533171-04:00" href="../nocpg11/nocpg11.lat.1858.pg.ref-logical.xml"/>
+            </item>-->
 
-            <!-- No CPG 9: On Vainglory -->
-            <item>
-                <IRI>tag:kalvesmaki.com,2014:patrologia:text:nocpg09:kat</IRI>
-                <name>nocpg09 kat Ktebuchava</name>
-                <name>Edition of the Georgian translation of On Vainglory, ascribed to Evagrius</name>
-                <location accessed-when="2025-10-30T00:55:12.3528627-04:00" href="../nocpg09/nocpg09.kat.2023.tkebuchava.xml"/>
-            </item>
-            
             
             
         </group>

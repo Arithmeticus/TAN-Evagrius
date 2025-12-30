@@ -17,14 +17,16 @@
       <source accessed-when="2022-12-27" xml:id="fogielman-a1" which="cpg2448 grc a1 fogielman"/>
       <source accessed-when="2022-12-27" xml:id="fogielman-a2" which="cpg2448 grc a2 fogielman"/>
       <source accessed-when="2022-12-27" xml:id="nesic" which="cpg2448 srp nesic"/>
+      <source accessed-when="2025-12-16" xml:id="makharashvili" which="cpg2448 kat makharashvili"/>
       <vocabulary-key>
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
             <name>Converter from TAN 2018 to TAN 2020</name>
             <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2019-06-16T07:00:00.068-04:00"/>
          </algorithm>
-         <alias id="cpg2447" idrefs="Greek Serbian"/>
+         <alias id="cpg2448" idrefs="Greek Georgian Serbian"/>
          <alias id="Greek" idrefs="fogielman fogielman-a1 fogielman-a2"/>
+         <alias id="Georgian" idrefs="makharashvili"/>
          <alias id="Serbian" idrefs="nesic"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
@@ -36,6 +38,7 @@
       <change when="2018-06-03" who="kalvesmaki">Created file</change>
       <change who="xslt1" when="2019-06-16T07:00:00.068-04:00">Converted from 2018 to 2020 schemas.</change>
       <change when="2023-12-27" who="kalvesmaki">Added new versions</change>
+      <change when="2025-12-16" who="kalvesmaki">Added Georgian</change>
       <to-do>
          <comment when="2023-12-27" who="kalvesmaki">Incorporate PG Greek edition from 79:1140b-44d</comment>
          <comment when="2023-12-27" who="kalvesmaki">Incorporate PG Latin translation</comment>

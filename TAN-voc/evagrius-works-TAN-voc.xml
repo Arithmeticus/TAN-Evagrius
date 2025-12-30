@@ -124,6 +124,7 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2430:version:kat</IRI>
             <name>Georgian translation of Praktikos</name>
             <name>cpg2430-kat</name>
+            <desc>Only kephalaia 1-16 are extant.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2430:version:ara</IRI>
@@ -250,6 +251,72 @@
                 translation of the Kephalaia Gnostika at BL Add. 14,578</name>
             <name>cpg2432-grc-1912</name>
         </item>
+        
+        
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2432a</IRI>
+            <name xml:lang="eng">Complements to the Kephalaia gnostika</name>
+            <name>cpg2432a</name>
+            <desc>Because each century in the KG consists of only 90 chapters, the full work appears
+                to be sixty short of the six hundred chapters promised. The Syriac text followed by
+                Babai the Great includes sixty complementary kephalaia (CPG 2432a1). Nos. 1-23, 26-42 come from
+                the Skemmata (CPG 2433); nos. 24 and 25, from CPG 2450; nos. 43, 58-60, from CPG 2432a3a;
+                and 44-57, from CPG 2432a3b. </desc>
+            <desc>In the Armenian counterpart to the Syriac, nos. 1-13a come from CPG 2432a3b; nos.
+                13b through 22, from CPG 2432a3a; nos. 23-53, from CPG 2433; nos. 54-55, from CPG
+                2450; nos. 56-60, from CPG 2476.</desc>
+        </item>
+        
+
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2432a3a</IRI>
+            <name xml:lang="eng">Beginning of Knowledge</name>
+            <name xml:lang="lat">Capitula X, principium scientiae</name>
+            <name xml:lang="lat">Principium scientiae veritatis in anima (est) motio eius a Spiritu
+                sancto</name>
+            <name>cpg2432a3a</name>
+            <desc>A block of ten kephalaia (sometimes presented as a title plus nine kephalaia),
+                preserved in Syriac, the Armenian KG Supplement (nos. 13-22) and Armenian letter 24.
+                The preservation of these ten kephalaia en bloc in four Syriac manuscripts and a
+                number of Armenian ones suggests that this short work circulated as a whole. Nos. 1,
+                2, 5, 9, and 10 were excerpted by the author/editor of Disciples (Disciples
+                191-195), and are the only ones to survive in Greek. </desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2432a3a:version:syr</IRI>
+            <name>Syriac translation of Beginning of Knowledge</name>
+            <name>cpg2432a3a-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2432a3a:version:hye</IRI>
+            <name>Armenian translation of Beginning of Knowledge</name>
+            <name>cpg2432a3a-hye</name>
+        </item>
+        
+
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2432a3b</IRI>
+            <name xml:lang="eng">14 Chapters</name>
+            <name xml:lang="lat">Capitula XIV</name>
+            <name>cpg2432a3b</name>
+            <desc>Fourteen chapters.</desc>
+            <desc>Part of the pseudo-supplement to the Kephalaia Gnostika (BL Add. 14578, fols.
+                148v-149; Frankenberg ed. 460-68 [nos. 44-57]; also in Armenian). See also CPG 2432a.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2432a3b:version:syr</IRI>
+            <name>Syriac translation of 14 Chapters</name>
+            <name>cpg2432a3b-syr</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2432a3b:version:hye</IRI>
+            <name>Armenian translation of 14 Chapters</name>
+            <name>cpg2432a3b-hye</name>
+        </item>
+        
+        
+        
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2433</IRI>
             <name xml:lang="eng">Skemmata</name>
@@ -346,9 +413,10 @@
             <name xml:lang="lat">Sententiae ad monachos</name>
             <name>cpg2435</name>
             <desc>A set of 137 chapters on the monastic life, written in distychs, in imitation of
-                the Proverbs, directed probably to a monastic community in Jerusalem associated with
-                Melania and Rufinus. Evagrius discusses matters foundational to the coenobitic
-                monastic life, so the material resembles, in some ways, a rule.</desc>
+                the Proverbs (like CPG 2464a and 2477), directed probably to a monastic community in
+                Jerusalem associated with Melania and Rufinus. Evagrius discusses matters
+                foundational to the coenobitic monastic life, so the material resembles, in some
+                ways, a rule.</desc>
             <desc>Often associated with CPG 2436 under the designation 'The Mirrors.'</desc>
         </item>
         <item affects-element="version">
@@ -392,9 +460,9 @@
             <name xml:lang="eng">Chapters to a Virgin</name>
             <name xml:lang="lat">Sententiae ad Virginem</name>
             <name>cpg2436</name>
-            <desc>56 sentences of spiritual instruction addressed to a virgin (unnamed, but probably
+            <desc>Fifty-six sentences of spiritual instruction addressed to a virgin (unnamed, but probably
                 an associate of Melania and Rufinus), written in distychs, in imitation of the
-                Proverbs. Evagrius discusses matters foundational to the coenobitic monastic life
+                Proverbs (like CPG 2464a and 2477). Evagrius discusses matters foundational to the coenobitic monastic life
                 for women, so the material resembles, in some ways, a rule.</desc>
             <desc>Often associated with CPG 2435 under the designation 'The Mirrors.'</desc>
         </item>
@@ -422,13 +490,11 @@
             <name xml:lang="eng">62 Letters</name>
             <name xml:lang="lat">Epistula lxii</name>
             <name>cpg2437</name>
-            <desc>The majority of Evagrius's extant letters survive in a corpos of 62 letters of
+            <desc>The majority of Evagrius's extant letters survive in a corpus of 62 letters of
                 various lengths, all providing spiritual counsel to various figures such as Rufinus,
-                St. Melania the Elder, St. Gregory Nazianzus, Bp. John of Jerusalem. These survive
-                entirely in Syriac, with fragmentary survival in Greek. Some letters may actually be
-                extracts that were, for one reason or another, included in his letters. The Armenian
-                translation of the corpus is restricted to thirty letters, and is framed as if a
-                correspondence between Evagrius and Melania. For letters not included in this
+                St. Melania the Elder, St. Gregory Nazianzus, Bp. John of Jerusalem. The letters,
+                which feature a considerable amount of material that he used in other works, survive
+                entirely in Syriac, and only fragmentarily in Greek. For letters not included in this
                 corpus, see CPG 2438, 2439; cover letters to other treatises, e.g., CPG 2430, 2434.
             </desc>
         </item>
@@ -441,6 +507,8 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2437:version:hye</IRI>
             <name>Armenian translation of Ep.</name>
             <name>cpg2437-hye</name>
+            <desc>The Armenian translation of the corpus is restricted to thirty letters, and is
+                framed as if a correspondence between Evagrius and Melania. </desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2437:version:kat</IRI>
@@ -712,6 +780,7 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2447:version:kat</IRI>
             <name>Georgian translation of Eul.</name>
             <name>cpg2447-kat</name>
+            <desc>Only a portion of the preface remains.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2447:version:ara</IRI>
@@ -766,6 +835,8 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2448:version:kat</IRI>
             <name>Georgian translation of Vices</name>
             <name>cpg2448-kat</name>
+            <desc>Has six antithetical pairs instead of nine. Preserved
+                in O/Sin. georg. 35, 32v-35v.</desc>
         </item>
         
         <item>
@@ -910,7 +981,7 @@
             <name xml:lang="lat">De oratione</name>
             <name>cpg2452</name>
             <desc>One of Evagrius's most widely read treatises, consisting of a prologue and 153
-                chapters on prayer. The work is credited to Nilus in the Byzantine manuscript
+                enumerated chapters on prayer. The work is credited to Nilus in the Byzantine manuscript
                 tradition.</desc>
         </item>
         <item affects-element="version">
@@ -953,7 +1024,8 @@
             <name>Ninth-century Georgian translation of On Prayer</name>
             <name>cpg2452-kat</name>
             <name>cpg2452-kat1</name>
-            <desc>Ninth-century translation from the Arabic.</desc>
+            <desc>Ninth-century translation from the Arabic. The manuscript (NCM H-622, 57r-61v)
+            contains only 48 of the 153 kephalaia.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2452:version:kat:2</IRI>
@@ -999,7 +1071,9 @@
             <name xml:lang="eng">Three Chapters on Prayer</name>
             <name xml:lang="lat">Capita tria de oratione</name>
             <name>cpg2453</name>
-            <desc>First chapter is taken from the Hypotyposis (CPG 2441).</desc>
+            <desc>CPG 2453 refers to a set of three kephalaia. The first is from Hypotyposis (CPG
+                2441), and the last two are considered inauthentic by Géhin (Revue des Etudes
+                Byzantines 57 [1999]: 310).</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2453:version:syr</IRI>
@@ -1049,14 +1123,18 @@
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2456</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.028</IRI>
+            <name>Sch Prov</name>
+            <name>Sch. Prov.</name>
             <name>Comm Prov</name>
             <name>Comm. Prov.</name>
+            <name xml:lang="eng">Scholia on Proverbs</name>
             <name xml:lang="eng">Commentary on the Proverbs</name>
             <name xml:lang="eng">Commentary on Proverbs</name>
+            <name xml:lang="grc">Σχόλια εἰς τὰς Παροιμίας</name>
+            <name xml:lang="lat">Scholia in Proverbia</name>
             <name xml:lang="lat">Expositio in Proverbia Salomonis</name>
             <name>cpg2456</name>
-            <desc>This CPG number should be avoided, in favor of 2458.4, the scholia on Proverbs.
-                There is no evidence that Evagrius wrote a systematic commentary on Proverbs</desc>
+            <desc>Collection of 384 scholia on the book of Proverbs.</desc>
         </item>
         
         <item>
@@ -1066,8 +1144,9 @@
             <name xml:lang="eng">Commentary on the Parables and the Proverbs</name>
             <name xml:lang="lat">Expositio in Parabolas et in Proverbia Salomonis</name>
             <name>cpg2457</name>
-			<desc>A collection of 28 sentences glossing words found in Proverbs. Survives in Syriac and
-			Greek (Ambrosianus C 69 sup. [16th c.], fol. 211).</desc>
+            <desc>A collection of 28 sentences glossing words found in Proverbs. Survives in Syriac
+                and Greek (Monacensis gr. 230 [13th c.], 296rv; Ambrosianus C 69 sup. [16th c.],
+                fol. 211).</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2457:version:syr</IRI>
@@ -1126,13 +1205,13 @@
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2458.4</IRI>
             <IRI>tag:evagriusponticus.net,2015:tlg4110.030</IRI>
-            <name>Sch Prov</name>
-            <name>Sch. Prov.</name>
-            <name xml:lang="grc">Σχόλια εἰς τὰς Παροιμίας</name>
-            <name xml:lang="eng">Scholia on Proverbs</name>
-            <name xml:lang="lat">Scholia in Proverbia</name>
+            <!--<name>Sch Prov</name>-->
+            <!--<name>Sch. Prov.</name>-->
+            <!--<name xml:lang="grc">Σχόλια εἰς τὰς Παροιμίας</name>-->
+            <!--<name xml:lang="eng">Scholia on Proverbs</name>-->
+            <!--<name xml:lang="lat">Scholia in Proverbia</name>-->
             <name>cpg2458.4</name>
-            <desc>Collection of 384 scholia on the book of Proverbs. The work survives whole.</desc>
+            <desc>This CPG number should be avoided, in favor of 2456.</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2458.5</IRI>
@@ -1197,6 +1276,9 @@
             <name>Lord's Prayer</name>
             <name xml:lang="lat">Expositio in orationem dominicam</name>
             <name>cpg2461</name>
+            <desc>This explication of the Our Father survives only in Bohairic Coptic, in an
+                exegetical chain. Framed as a letter by Evagrius to "Your Charity," each phrase in
+                the prayer is paraphrased.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2461:version:cop</IRI>
@@ -1226,11 +1308,29 @@
             <name>Imitation Cant.</name>
             <name xml:lang="lat">Ad imitationem Cantici canticorum</name>
             <name>cpg2463</name>
+            <desc>A collection of ten kephalaia written in imitation of the book of the Song of
+                Songs (see also CPG 2463, 2464a, and 2477).</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2463:version:ara</IRI>
             <name>Arabic translation of On the Imitation of the Song of Songs</name>
             <name>cpg2463-ara</name>
+        </item>
+        
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2464</IRI>
+            <name xml:lang="eng">Toward an Imitation of Ecclesiastes</name>
+            <name xml:lang="eng">Imitation of Ecclesiastes</name>
+            <name>Imitation Eccles.</name>
+            <name xml:lang="lat">Ad imitationem Ecclesiastae</name>
+            <name>cpg2464</name>
+            <desc>A collection of eight kephalaia written in imitation of 
+                the book of Ecclesiastes (see also CPG 2463, 2464a, and 2477).</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2464:version:ara</IRI>
+            <name>Arabic translation of On the Imitation of Ecclesiastes</name>
+            <name>cpg2464-ara</name>
         </item>
         
         <item>
@@ -1241,25 +1341,13 @@
             <name xml:lang="lat">Ex Proverbiis Salomon</name>
             <name xml:lang="lat">Ad imitationem Proverbiorum</name>
             <name>cpg2464a</name>
+            <desc>A collection of four kephalaia written in imitation of 
+                the book of Proverbs (see also CPG 2463, 2464, and 2477).</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2464a:version:ara</IRI>
             <name>Arabic translation of On the Imitation of Proverbs</name>
             <name>cpg2464a-ara</name>
-        </item>
-        
-        <item>
-            <IRI>tag:evagriusponticus.net,2015:cpg2464</IRI>
-            <name xml:lang="eng">Toward an Imitation of Ecclesiastes</name>
-            <name xml:lang="eng">Imitation of Ecclesiastes</name>
-            <name>Imitation Eccles.</name>
-            <name xml:lang="lat">Ad imitationem Ecclesiastae</name>
-            <name>cpg2464</name>
-        </item>
-        <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:cpg2464:version:ara</IRI>
-            <name>Arabic translation of On the Imitation of Ecclesiastes</name>
-            <name>cpg2464-ara</name>
         </item>
         
         <item>
@@ -1276,8 +1364,23 @@
             <name xml:lang="eng">Humility</name>
             <name xml:lang="lat">De humilitate</name>
             <name>cpg2466</name>
-            <desc>This work on humility is now regarded as a work of Marcian of Bethlehem, CPG
+            <desc>This work on humility is now regarded as a work of Mark the Monk, CPG
                 3889.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2466:version:recension-1</IRI>
+            <name>Short recension of On Humility</name>
+            <name>cpg2466 short recension</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2466:version:recension-2</IRI>
+            <name>Long recension of On Humility</name>
+            <name>cpg2466 long recension</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2466:version:recension-3</IRI>
+            <name>Greek adaptation of On Humility</name>
+            <name>cpg2466 adaptation</name>
         </item>
         
         <item>
@@ -1285,20 +1388,38 @@
             <name xml:lang="eng">Fasting</name>
             <name xml:lang="lat">De ieiunio</name>
             <name>cpg2467</name>
+            <desc>This short work on fasting exists in two recensions: a longer one of seventeen
+                chapters, extant only in Syriac, and a shorter, attested fragmentarily in Greek and
+                Syriac. The shorter recension travels in Syriac texts ascribed to St. Isaiah of
+                Sketis.</desc>
         </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2467:version:recension-1</IRI>
+            <name>Long recension of On Fasting</name>
+            <name>cpg2467 long recension</name>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2467:version:recension-2</IRI>
+            <name>Short recension of On Fasting</name>
+            <name>cpg2467 short recension</name>
+        </item>
+
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2468</IRI>
             <name xml:lang="eng">Silence</name>
             <name xml:lang="lat">De silentio</name>
             <name>cpg2468</name>
         </item>
+
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2469</IRI>
             <name xml:lang="eng">Admonition on the Marks of Serenity</name>
             <name xml:lang="lat">Admonitio de signis quietis</name>
             <name>cpg2469</name>
-            <desc>Set of twenty chapters on the ascetic life, addressed to residents of Jerusalem. 
-                Known in two recensions.</desc>
+            <desc>Set of twenty chapters on the ascetic life, addressed to residents of Jerusalem.
+                Known in three recensions, the first ascribed to John of Lycopolis, the
+            second to Epihpanius, and the third to Macarius of Eygpt. The Syriac version
+            travels under the name of Evagrius.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2469:version:recension-1</IRI>
@@ -1362,20 +1483,25 @@
         
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2475</IRI>
+            <name xml:lang="eng">Definitions and Counsel</name>
             <name xml:lang="eng">Counsel</name>
             <name xml:lang="lat">Paraenesis</name>
+            <name xml:lang="lat">Definitiones et paraenesis</name>
             <name>cpg2475</name>
             <desc>Fifteen chapters focusing on definitions, e.g., fire, silver. In the Syriac
                 version published by Muyldermans in 1952 (pp. 88-89 comments; 130-33 ed.; 160-63,
                 trans.), numbering begins with 27, after Reflections (CPG 2433) and On Perfection
-                (CPG 2476). Although classified as dubia/spuria in the CPG, these may be authentic,
-                given that many Greek fragments survive in the Byzantine definition collections.
-                Manuscripts: BL Add. 17167, BL Add. 17192 (no title), BL Add. 12175 (missing title
-                and first keph.), BL Add. 14578, BL Add. 14621, 7190 Rich. (missing first eight
-                keph.)</desc>
+                (CPG 2476). Although classified as dubia/spuria in early editions of the CPG, these
+                are now considered authentic, given that many Greek fragments survive in the
+                Byzantine definition collections. Manuscripts: BL Add. 17167, BL Add. 17192 (no
+                title), BL Add. 12175 (missing title and first keph.), BL Add. 14578, BL Add. 14621,
+                7190 Rich. (missing first eight keph.). Other kephalaia in the definitions
+                collections may be candidates for inclusion in this work, classified as
+                nocpg03.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2475:version:syr</IRI>
+            <name>Syriac translation of Definitions and Counsel</name>
             <name>Syriac translation of Counsel</name>
             <name>cpg2475-syr</name>
         </item>
@@ -1384,6 +1510,7 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2476</IRI>
             <name xml:lang="eng">Perfection</name>
             <name xml:lang="lat">De perfectione</name>
+            <name xml:lang="lat">De perfectione capitula xvii</name>
             <name>cpg2476</name>
             <desc>Seventeen chapters concerning knowledge and the soul. This material was translated into Armenian as Letter 24, and into Arabic as a supplement to the KG.</desc>
         </item>
@@ -1401,12 +1528,20 @@
         
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2477</IRI>
+            <name xml:lang="eng">Instructions for Imitating Proverbs</name>
             <name xml:lang="eng">Proverbs and Their Interpretation</name>
             <name>Instructions (Prov.)</name>
+            <name xml:lang="lat">Instructiones ad imitationem Prouerbiorum</name>
             <name xml:lang="lat">De proverbiis et eorundem expositionibus</name>
             <name>cpg2477</name>
-            <desc>Gennadius's reference to "sententiae obscurae" may attest to an early Latin
-                translation of this text.</desc>
+            <desc>A collection of forty-five kephalaia written in imitation of the book of the
+                Proverbs (see also CPG 2463, 2464, and 2464a). Géhin suggests that this work was the
+                first of a trilogy, followed by CPG 2464 (Ecclesiastes) then 2463 (Song of Songs).
+                In Arabic, CPG 2477 is not extant, but only 2464a, which Géhin regards as a
+                customized substitute. Eighteen of these chapters (5, 10-16, 18-23, 25, 29, 34-35,
+                preserved in Barb. gr. 515, 60v-61r, formerly classified under the number "nocpg06")
+                are found as extracts, sometimes under the title "Word of Instruction" or as part of
+                the supplemental KG kephalaia.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2477:version:syr</IRI>
@@ -1418,29 +1553,38 @@
             <name>Armenian translation of Proverbs and Their Interpretation</name>
             <name>cpg2477-hye</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2478</IRI>
             <name xml:lang="eng">Profession of Faith</name>
             <name xml:lang="lat">Professio fidei</name>
             <name>cpg2478</name>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2479</IRI>
-            <name xml:lang="eng">Excerpt</name>
+            <name xml:lang="lat">Excerpta</name>
             <name>cpg2479</name>
+            <desc>A collection of extracts and notes relating to Evagrius's ideas.</desc>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2480</IRI>
             <name xml:lang="eng">Chapters of Counsel and Instructive Sermon</name>
             <name xml:lang="lat">Capitula paraenetica et Sermo paraeneticus</name>
             <name>cpg2480</name>
+            <desc>A collection of texts in Syriac attributed to Evagrius, but drawn from other
+                authors.</desc>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2481.1</IRI>
             <name>frag. syr.</name>
             <name xml:lang="eng">Syriac Fragments</name>
             <name xml:lang="lat">Fragmenta syriaca</name>
             <name>cpg2481.1</name>
+            <desc>Some sayings attributed to Evagrius in the Syriac tradition have not been
+                identified as part of his known works.</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2481.2</IRI>
@@ -1469,6 +1613,15 @@
             <name xml:lang="eng">Georgian Fragments</name>
             <name xml:lang="lat">Fragmenta georgica</name>
             <name>cpg2481.5</name>
+            <desc>Attested uniquely in Georgian is On Vainglory; see No CPG 08. </desc>
+            <desc>Nilus, letter 3.303, Ad juniores monachos instructio (PG 79:532D9-533B3), is also
+                ascribed to Evagrius in Sin. georg. 35 (copied 907), fol. 27r, in the middle of a
+                series of other authentic works credited to Evagrius. Upon the basis of attribution
+                alone, Tkebuchava concludes that the work is by Evagrius, but without analysis of
+                the text itself. Manuscript attribution is an unreliable basis for determining
+                authorship, especially for this work, which is attributed in Greek manuscripts not
+                only to Nilus but also to Basil of Caesarea (On Ascetic Discipline 12, CPG 2890; see
+                also Life of St. Basil the Great by Amphilochius).</desc>
         </item>
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg2481.6</IRI>
@@ -1521,35 +1674,91 @@
             <name>cpg2483-syr</name>
         </item>
         
+        
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2484.1</IRI>
+            <name xml:lang="eng">Body of the Lord</name>
+            <name xml:lang="eng">Concerning the Harmony in Observation of the Body of the Lord and
+                of Those Partaking of Him. Unattributed.</name>
+            <name xml:lang="grc">Περὶ τῆς κατὰ θεωρίαν ἁρμονίας τοῦ σώματος τοῦ Κυρίου καὶ τῶν
+                μετόχων αὐτοῦ· ἀπεπίγραφον.</name>
+            <name xml:lang="lat">De harmonia inter corpus Domini et participantes corpori eius</name>
+            <name>cpg2484.1</name>
+            <desc>Set of eleven enumerated kephalaia that are thematically bound as a meditation on
+                the head and throat of Christ. Each kephalaion defines the body part theologically,
+                then interpretis the definition to relate to the experience of Christians. The
+                content has strong affiliation with the Kephalaia gnostika and the Imitation of the
+                Song of Songs. The work is attested only in Vat. gr. 504, and is attributed by the
+                editor, Markesinis, to Evagrius.</desc>
+        </item>
+        
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2484.2</IRI>
+            <name xml:lang="eng">Four Chapters on the Person of Christ</name>
+            <name xml:lang="lat">Capitula iv de persona Christi</name>
+            <name>cpg2484.2</name>
+            <desc>Set of four kephalaia that are thematically bound as a meditation on stages in the
+                life of Christ: birth, swathing, cross, and resurrection. The content has strong
+                affiliation with KG 6.38, 39, 40, and 42. The work is attested in Scorialensis
+                Ψ.III.8 (gr. 463; 13th c.), 253r and Romanus, Angelicus gr. 58 (15th c.), 238r, and
+                is attributed by the editor, Markesinis, to Evagrius.</desc>
+        </item>
+        
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2484.3</IRI>
+            <name xml:lang="eng">Supplications to the Archangels and Angels, Cherubim and Seraphim</name>
+            <name xml:lang="lat">Supplicationes ad archangelos et angelos, Cherubim et Seraphim</name>
+            <name>cpg2484.3</name>
+        </item>
+        
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:cpg2484.4</IRI>
+            <name>Florilegium</name>
+            <name>cpg2484.4</name>
+            <desc>Short florilegium preserved only in Old Church Slavonic.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:cpg2484.4-chu</IRI>
+            <name>Old Church Slavonic translation of Florilegium</name>
+            <name>cpg2484.4-chu</name>
+        </item>
+        
+        
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg6583a</IRI>
             <name xml:lang="eng">Maxims Useful for Life, part one</name>
+            <name xml:lang="eng">Maxims Useful for Life, Leading a Person away from the Corrupt and
+                Binding Him to the Incorrupt, part one</name>
             <name xml:lang="lat">Capita paraenetica</name>
             <name xml:lang="lat">Sententiae vitae utiles</name>
             <name xml:lang="grc">Κεφάλαια ἢ παραίνεσις</name>
             <name xml:lang="eng">Paraeneticus</name>
             <name>cpg6583a</name>
-            <desc>The treatises 6583a and 6583b were originally a single set of approximately 220
-                gnomic sayings, exhorting readers to ascetic discipline. The work has been
-                traditionally assigned to Nilus or Hesychius, but recently some scholars (Veder,
-                Miltenova, and Tkebuchava have credited the work to Evagrius on the basis of
-                Slavonic and Georgian translations. The text has suffered. At some point, an editor
-                or scribe broke the maxims into two halves. We have manuscripts that attest to an
-                integral edition, as well as manuscripts that attest only to the first or the second
-                half. The PG edition, the most accessible and familiar, draws largely from Orelli's
-                1819 edition, and is not based upon the best manuscripts. It lacks at least one
-                kephalaion and has suboptimal readings. A new edition is needed. Regarding the
-                title: the most common title in Greek manuscripts is γρῶμαι βιωφελεῖς ἀπάγουσαι τῶν
-                φθαρτῶν καὶ κολλῶσαι τοῖς ἀφθάρτοις τὸν ἄνθρωπον, Maxims Useful for Life, Cleaving a
-                Person from the Corrupt and toward the Incorrupt. The CPG assigns to 6583a Capita
-                paraenetica and to 6583b Sententiae abducentes hominem a corruptibilibus. The first
-                CPG title, in my opinion, should be avoided, to prevent confusion with other
-                paraenetic works by Evagrius. The second CPG title is inexact, incomplete, and ill
-                suited for either a short or long title. I therefore adopt the longer Greek title
-                mentioned above, and for a shortened title, prefer "Maxims Useful for Life" (Latin
-                "Sententiae vitae utiles"). The PG reference system for the work is problematic. I
-                have provided a single, consecutive numeration system for the entire work, 1-115 for
-                the first half and 116-218 for the second. </desc>
+            <desc>The works assigned CPG numbers 6583a and 6583b were originally a single set of
+                more than two hundred gnomic sayings, exhorting readers to ascetic discipline. The
+                work has been traditionally assigned to Nilus or Hesychius, but recently some
+                scholars (Veder, Miltenova, and Tkebuchava have credited the work to Evagrius on the
+                basis of Slavonic and Georgian translations. The text has suffered. At some point,
+                an editor or scribe broke the maxims into two halves (in the middle of ch. 115). We
+                have manuscripts that attest to an integral edition, as well as manuscripts that
+                attest only to the first or the second half. Many of these versions travel with
+                other treatises that are ascribed to Nilus, but are now securely identified as being
+                by Evagrius. The PG edition, the most accessible and familiar, draws largely from
+                Orelli's 1819 edition, and is not based upon the best manuscripts. It lacks at least
+                one kephalaion and has suboptimal readings. A new edition is needed. </desc>
+            <desc>Regarding the title: the most common title in Greek manuscripts is γρῶμαι
+                βιωφελεῖς ἀπάγουσαι τῶν φθαρτῶν καὶ κολλῶσαι τοῖς ἀφθάρτοις τὸν ἄνθρωπον, Maxims
+                Useful for Life, Leading a Person away from the Corrupt and Binding Him to the
+                Incorrupt. The CPG assigns to 6583a Capita paraenetica and to 6583b Sententiae
+                abducentes hominem a corruptibilibus. The first CPG title, in my opinion, should be
+                avoided, to prevent confusion with other paraenetic works by Evagrius. The second
+                CPG title is inexact, incomplete, and ill suited for either a short or long title. I
+                therefore adopt the longer Greek title mentioned above, and for a shortened title,
+                prefer "Maxims Useful for Life" (Latin "Sententiae vitae utiles"). </desc>
+            <desc>The PG reference system for the work is problematic. I have provided a single,
+                consecutive numeration system for the entire work, 1-115 for the first half and
+                115-214 for the second. </desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg6583a:version:syr</IRI>
@@ -1603,75 +1812,49 @@
             <IRI>tag:evagriusponticus.net,2015:cpg6583a:version:hye2</IRI>
             <name>Second Armenian translation of Capita paraenetica altera</name>
             <name>cpg6583a-hye2</name>
-            <desc>Muyldermans (1943) indicates that this translation is be more 
+            <desc>Muyldermans (1943) indicates that this translation is more 
                 precise than the other Armenian translation. It also stops halfway through.</desc>
         </item>
         
         <item>
             <IRI>tag:evagriusponticus.net,2015:cpg6583b</IRI>
             <name xml:lang="eng">Maxims Useful for Life, part two</name>
+            <name xml:lang="eng">Maxims Useful for Life, Leading a Person away from the Corrupt and
+                Binding Him to the Incorrupt, part two</name>
             <name xml:lang="eng">Sentences Leading a Man away from the Corrupt</name>
             <name xml:lang="lat">Sententiae abducentes hominem a corruptibilibus</name>
             <name>cpg6583b</name>
-            <desc>The treatises 6583a and 6583b were originally a single set of approximately 220
-                gnomic sayings, exhorting readers to ascetic discipline. The work has been
-                traditionally assigned to Nilus or Hesychius, but recently some scholars (Veder,
-                Miltenova, and Tkebuchava have credited the work to Evagrius on the basis of
-                Slavonic and Georgian translations. The text has suffered. At some point, an editor
-                or scribe broke the maxims into two halves. We have manuscripts that attest to an
-                integral edition, as well as manuscripts that attest only to the first or the second
-                half. The PG edition, the most accessible and familiar, draws largely from Orelli's
-                1819 edition, and is not based upon the best manuscripts. It lacks at least one
-                kephalaion and has suboptimal readings. A new edition is needed. Regarding the
-                title: the most common title in Greek manuscripts is γρῶμαι βιωφελεῖς ἀπάγουσαι τῶν
-                φθαρτῶν καὶ κολλῶσαι τοῖς ἀφθάρτοις τὸν ἄνθρωπον, Maxims Useful for Life, Cleaving a
-                Person from the Corrupt and toward the Incorrupt. The CPG assigns to 6583a Capita
-                paraenetica and to 6583b Sententiae abducentes hominem a corruptibilibus. The first
-                CPG title, in my opinion, should be avoided, to prevent confusion with other
-                paraenetic works by Evagrius. The second CPG title is inexact, incomplete, and ill
-                suited for either a short or long title. I therefore adopt the longer Greek title
-                mentioned above, and for a shortened title, prefer "Maxims Useful for Life" (Latin
-                "Sententiae vitae utiles"). The PG reference system for the work is problematic. I
-                have provided a single, consecutive numeration system for the entire work, 1-115 for
-                the first half and 116-218 for the second. </desc>
+            <desc>See CPG 6583a.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg6583b:version:syr</IRI>
             <name>Syriac translation of Sententiae abducentes hominem a corruptibilibus</name>
             <name>cpg6583b-syr</name>
-            <desc>The Maxims Useful for Life were translated into Syriac sometime no later than the
-                seventh century, but under the name of Nilus, and the title "Pearls" (CPG 6068). The
-                one hundred sixty chapters, is a nearly complete translation of CPG 6583a and 6583b,
-                but in a completely different order than what is transmitted in the Greek
-                tradition.</desc>
+            <desc>See CPG 6583a, Syriac translation.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg6583b:version:chu-hes</IRI>
             <name>Oldest Hesychian Old Church Slavonic translation of Sententiae abducentes hominem a corruptibilibus</name>
             <name>cpg6583b-chu-hes</name>
-            <desc>Tenth-century translation in the so-called Knjažeski Izbornik (Princely
-                Collection), attested in Izbornik 1076 (one of the oldest extant Slavic 
-                manuscripts), based on a Greek manuscript that attributed the work to
-                Hesychius.  See Miltenova 2011.</desc>
+            <desc>See CPG 6583a, Old Church Slavonic translation.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg6583b:version:chu-nil</IRI>
             <name>Oldest Nilian Old Church Slavonic translation of Sententiae abducentes hominem a corruptibilibus</name>
             <name>cpg6583b-chu-nil</name>
-            <desc>Tenth-century translation based on a Greek manuscript that attributed the work to
-                Nilus. See Miltenova 2011.</desc>
+            <desc>See CPG 6583a, Old Church Slavonic translation.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg6583b:version:chu-2</IRI>
             <name>Medieval Old Church Slavonic translation of Sententiae abducentes hominem a corruptibilibus</name>
             <name>cpg6583b-chu-2</name>
-            <desc>Thirteenth/fourteenth translation, associated with MS Hilander 382. See Miltenova 2011.</desc>
+            <desc>See CPG 6583a, Old Church Slavonic translation.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg6583b:version:chu-3</IRI>
             <name>Old miscellany-based Old Church Slavonic translation of Sententiae abducentes hominem a corruptibilibus</name>
             <name>cpg6583b-chu-3</name>
-            <desc>Translation associated with the Slavic Pčela (the Bee) miscellany. See Miltenova 2011.</desc>
+            <desc>See CPG 6583a, Old Church Slavonic translation.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg6583b:version:kat</IRI>
@@ -1687,7 +1870,6 @@
             <IRI>tag:evagriusponticus.net,2015:cpg6583b:version:hye2</IRI>
             <name>Second Armenian translation of Sententiae abducentes hominem a corruptibilibus</name>
             <name>cpg6583b-hye2</name>
-            <desc>According to Muyldermans (1943), more recent than the first translation, but more precise. Lacks sentences 50, 82, 87.</desc>
         </item>
         
 
@@ -1699,33 +1881,20 @@
             <name>Loukios</name>
             <name xml:lang="eng">Letter of Loukios</name>
             <name>nocpg01</name>
-            <desc>Included in this corpus because of its importance for contextualizing the
-                Antirrhetikos, and because it has no CPG number.</desc>
+            <desc>Letter from a monk named Loukios to Evagrius, asking for a treatise on how to deal
+                with demonic temptation. The work is included in this checklist of Evagrius's
+                writings because of its importance for contextualizing the Antirrhetikos, which
+                Evagrius sent to him with a prefatory letter (letter 4), and because it has no CPG
+                number. The letter survives only in Arabic translation.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:nocpg01:version:ara</IRI>
             <name>Arabic translation of Loukios</name>
             <name>nocpg01-ara</name>
         </item>
-        <item>
-            <IRI>tag:evagriusponticus.net,2015:nocpg02</IRI>
-            <name xml:lang="eng">14 Chapters</name>
-            <name>nocpg02</name>
-            <desc>Fourteen chapters.</desc>
-            <desc>Part of the pseudo-supplement to the Kephalaia Gnostika (BL Add. 14578, fols.
-                148v-149; Frankenberg ed. 460-68 [nos. 44-57]; also in Armenian). See also Skemmata
-                (CPG 2433).</desc>
-        </item>
-        <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:nocpg02:version:syr</IRI>
-            <name>Syriac translation of 14 Chapters</name>
-            <name>nocpg02-syr</name>
-        </item>
-        <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:nocpg02:version:hye</IRI>
-            <name>Armenian translation of 14 Chapters</name>
-            <name>nocpg02-hye</name>
-        </item>
+        
+        <!-- No CPG 02 retired; now CPG 2432a3b. -->
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:nocpg03</IRI>
             <name>Def</name>
@@ -1733,22 +1902,27 @@
             <name xml:lang="eng">Definitions</name>
             <name>nocpg03</name>
             <desc>Twelve brief chapters culled from Doctrina Patrum §34. See Casiday, Evagrius
-                Ponticus 183–84. These chapters are a portion of a larger set of definitions
-                that can be found in the Definitions and Descriptions (Furrer-Pilliod ed. 2000),
-                for which we have no edition. See Kalvesmaki forthcoming for a general description
-                and checklist of chapters.
-            </desc>
+                Ponticus 183–84. These chapters are a portion of a larger set of definitions that
+                can be found in the Definitions and Descriptions (Furrer-Pilliod ed. 2000), for
+                which we have no edition. See Kalvesmaki (forthcoming in Studia Patristica) for a
+                general description and checklist of chapters. For another collection of
+                definitions, see CPG 2475. In the future the classification No CPG 03 may be merged
+                into an expanded definition of CPG 2475. </desc>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:nocpg04</IRI>
             <name>Exc.</name>
             <name>Exc</name>
             <name xml:lang="eng">Excerpts</name>
             <name>nocpg04</name>
-            <desc>Paris BN 2748, ff. 153–83v, published by Muyldermans. Of the 69 chapters, 53 are
-                drawn from other chapters in the corpus. See Casiday, Evagrius Ponticus
-                172–73</desc>
+            <desc>Paris BN 2748, ff. 153–165v, published in 1932 by Muyldermans. Of the 69 chapters,
+                53 are drawn from known works (Casiday, Evagrius Ponticus, 172–73). The category
+                nocpg04 is devoted to the sixteen kephalaia that are not found in any other work
+                (nos. 8, 9, 12, 26, 31, 32, 38-41, 48, 50, 65, 67-69). The original works from which
+                these kephalaia were drawn are unknown.</desc>
         </item>
+        
         <item>
             <IRI>tag:evagriusponticus.net,2015:nocpg05</IRI>
             <name>Sch. Ac.</name>
@@ -1759,57 +1933,34 @@
                 novum testamentum, 3:177</desc>
         </item>
         
-        <item>
-            <IRI>tag:evagriusponticus.net,2015:nocpg06</IRI>
-            <name>Instr</name>
-            <name xml:lang="eng">Word of Instruction</name>
-            <name xml:lang="fra">Parole d'Instruction</name>
-            <name>nocpg06</name>
-            <desc>Eighteen kephalaia preserved in Barb. gr. 515 and in various Armenian manuscripts.
-                Because these kephalaia were presented in the context of Muyldermans's studies on
-                the Capita cognoscitiva (CPG 2433), and because they did not feature in the KG
-                supplements, they have been overlooked by modern cataloguing efforts.</desc>
-        </item>
-        <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:nocpg06:version:hye</IRI>
-            <name>Armenian translation of Word of Instruction</name>
-            <name>nocpg06-hye</name>
-        </item>
-        
-        <item>
-            <IRI>tag:evagriusponticus.net,2015:nocpg07</IRI>
-            <name xml:lang="eng">Beginning of Knowledge</name>
-            <name xml:lang="lat">Principium scientiae veritatis in anima (est) motio eius a Spiritu
-                sancto</name>
-            <name>nocpg07</name>
-            <desc>A block of nine kephalaia, preserved in Syriac, the Armenian KG Supplement (nos.
-                13-22) and Armenian letter 24. The title is identical to Disciples 191, and
-                kephalaia nos. 1, 5, 6, and 7 correspond to Disciples 192, 220, 221, and 222 in the
-                Greek. Gehin inferred that the other five kephalaia must be part of the same work,
-                so he included nos. 2, 3, 4, 8, and 9 in his edition of Disciples, numbering them
-                218-222. But a distinct feature of Disciples is that it closes with kephalaia that
-                can be found elsewhere, suggesting that the author of Disciples drew from other
-                collections, such as the present one, not the other way around. The preservation of
-                these nine kephalaia en bloc in four Syriac manuscripts and a number of Armenian
-                ones suggests that this short work circulated as a whole, and was the subject of
-                excerption by the complier of the Disciples.</desc>
-        </item>
-        <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:nocpg07:version:syr</IRI>
-            <name>Syriac translation of Beginning of Knowledge</name>
-            <name>nocpg07-syr</name>
-        </item>
-        <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:nocpg07:version:hye</IRI>
-            <name>Armenian translation of Beginning of Knowledge</name>
-            <name>nocpg07-hye</name>
-        </item>
-        
+        <!-- No CPG 06 retired; now CPG 2477. -->
+        <!-- No CPG 07 retired; now CPG 2432a3a. -->
+
         <item>
             <IRI>tag:evagriusponticus.net,2015:nocpg08</IRI>
+            <name xml:lang="eng">On Vainglory</name>
+            <name xml:lang="lat">De vana gloria</name>
+            <name>nocpg08</name>
+            <desc>Brief admonition (about 500 words) to humility, and combatting spiritual pride.
+                Tkebuchava argues that the work, which appears in three Georgian manuscripts,
+                frequently in company with other works by Evagrius, is authentic. It is credited to
+                Evagrius by Sin. georg. 35 (dated 907). A Greek original has not been identified.
+                This work is not assigned to 2481.5 because in the future a parallel to the work may
+                be found in another language tradition, and because the rules for assigning subwork
+                numbers for CPG 2481.5 are unclear.</desc>
+        </item>
+        <item affects-element="version">
+            <IRI>tag:evagriusponticus.net,2015:nocpg08:version:kat</IRI>
+            <name>Georgian translation of On Vainglory</name>
+            <name>nocpg08-kat</name>
+        </item>
+        
+        <!-- I doubt this is really by Evagrius, but maybe. Placeholder description at 2481.5. -->
+        <!--<item>
+            <IRI>tag:evagriusponticus.net,2015:nocpg11</IRI>
             <name xml:lang="eng">Instruction to Younger Monks</name>
             <name xml:lang="lat">Ad juniores monachos instructio</name>
-            <name>nocpg08</name>
+            <name>nocpg11</name>
             <desc>Letter 3.303 of Nilus of Ancyra (PG 79:532D9-533B3), a brief admonition to younger
                 monks concerning proper discipline, is preserved in Georgian translation in Sin.
                 georg. 35 (copied 907), where it is credited to Evagrius, and where it appears along
@@ -1817,31 +1968,15 @@
                 regards the work as authentic.</desc>
         </item>
         <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:nocpg08:version:kat</IRI>
+            <IRI>tag:evagriusponticus.net,2015:nocpg11:version:kat</IRI>
             <name>Georgian translation of Instruction to Younger Monks</name>
-            <name>nocpg08-kat</name>
+            <name>nocpg11-kat</name>
         </item>
         <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:nocpg08:version:hye</IRI>
+            <IRI>tag:evagriusponticus.net,2015:nocpg11:version:hye</IRI>
             <name>Armenian translation of Instruction to Younger Monks</name>
-            <name>nocpg08-hye</name>
-        </item>
-        
-        <item>
-            <IRI>tag:evagriusponticus.net,2015:nocpg09</IRI>
-            <name xml:lang="eng">On Vainglory</name>
-            <name xml:lang="lat">De vana gloria</name>
-            <name>nocpg09</name>
-            <desc>Brief admonition (about 500 words) to humility, and combatting spiritual pride.
-                Tkebuchava argues that the work, which appears in three Georgian manuscripts,
-                frequently in company with other works by Evagrius, is authentic. A Greek original
-                has not been identified.</desc>
-        </item>
-        <item affects-element="version">
-            <IRI>tag:evagriusponticus.net,2015:nocpg09:version:kat</IRI>
-            <name>Georgian translation of On Vainglory</name>
-            <name>nocpg09-kat</name>
-        </item>
+            <name>nocpg11-hye</name>
+        </item>-->
         
         
         

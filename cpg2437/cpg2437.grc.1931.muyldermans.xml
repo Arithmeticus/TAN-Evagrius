@@ -39,6 +39,7 @@
 
     <file-resp who="kalvesmaki"/>
     <resp roles="editor" who="kalvesmaki"/>
+    <change when="2025-12-21" who="kalvesmaki">Updated to 2025 reference system.</change>
     <change when="2020-12-30" who="kalvesmaki">Added @ref-alias</change>
     <change when="2020-10-02" who="kalvesmaki">Started file.</change>
     <to-do/>
@@ -47,12 +48,12 @@
     <body xml:lang="grc">
       <div type="letter" n="43">
         <div type="section" n="2">
-          <p part="N">Ἀρετῆς μὲν γεγόναμεν ἔχοντες σπέρματα, κακίας δὲ οὔ· <lb/>οὐ γὰρ εἴ τινος δεκτικοί
+          <p>Ἀρετῆς μὲν γεγόναμεν ἔχοντες σπέρματα, κακίας δὲ οὔ· <lb/>οὐ γὰρ εἴ τινος δεκτικοί
             ἐσμεν, τούτου πάντως καὶ τὴν δύναμιν <lb/>ἔχομεν· ἐπεὶ καὶ μὴ εἶναι δυνάμενοι, τοῦ μὴ
             ὄντος οὐκ ἔχομεν <lb/>δύναμιν, εἴπερ αἱ δυνάμεις ποιότητες, τὸ δὲ μὴ ὂν οὐκ ἔστιν
             ποιότης. </p>
         </div>
-        <div type="section" n="3" ref-alias="59 3">
+        <div type="section" n="3" ref-alias="59 2">
           <p part="N">Ἦν ὅτε οὐκ ἦν κακία, καὶ ἔσται ὅτε οὐκ ἔσται· οὐκ ἦν δὲ <lb/>ὅτε οὐκ ἦν ἀρετὴ, οὐ δὲ
             ἔσται ὅτε οὐκ ἔσται· πείθει δέ με ὁ ἐν τῷ <pb n="58"/> ᾅδῃ πλούσιος διὰ κακίαν, καὶ
             ἐλεῶν τοὺς ἀδελφούς· τὸ δὲ ἐλεεῖν <lb/>ἀρετή.</p>

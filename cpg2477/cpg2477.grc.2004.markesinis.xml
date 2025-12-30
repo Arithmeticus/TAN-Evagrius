@@ -17,7 +17,7 @@
       </fileDesc>
    </teiHeader>
    <head xmlns="tag:textalign.net,2015:ns">
-      <name>Markesinis's edition of the Greek text of Birth of Christ</name>
+      <name>Markesinis's edition of a Greek fragment of Instructiones ad imitationem Prouerbiorum</name>
       <master-location
          href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2477/cpg2477.grc.2004.markesinis.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>

@@ -4,8 +4,8 @@
 <TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2021" 
    id="tag:kalvesmaki@gmail.com,2014:tan-a:cpg6583a">
    <head>
-      <name>Evagrius Ponticus, Maxims Useful for Life, Cleaving a Person from the Corrupt and toward
-         the Incorrupt, Part One</name>
+      <name>Evagrius Ponticus, Maxims Useful for Life, Leading a Person away from the Corrupt and
+         Binding Him to the Incorrupt, part one</name>
       <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg6583a.TAN-A.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <vocabulary>
@@ -18,13 +18,16 @@
       <source accessed-when="2025-11-18" xml:id="syr-Bettiolo" which="cpg6583a syr Bettiolo"/>
       <source accessed-when="2025-11-12" xml:id="chu-cyrl-Veder" which="cpg6583a chu-cyrl Veder"/>
       <source accessed-when="2025-11-12" xml:id="chu-glag-Veder" which="cpg6583a chu-glag Veder"/>
+      <source accessed-when="2025-12-27" xml:id="hye-Venice-A" which="cpg6583a hye 1855 version a"/>
+      <source accessed-when="2025-12-27" xml:id="hye-Venice-B" which="cpg6583a hye 1855 version b"/>
       <source accessed-when="2025-11-12" xml:id="lat-Neandro" which="cpg6583a lat Neandro"/>
       <source accessed-when="2025-11-12" xml:id="lat-PG" which="cpg6583a lat PG"/>
       <vocabulary-key>
-         <alias id="all" idrefs="Greek Syriac Slavonic Latin"/>
+         <alias id="all" idrefs="Greek Syriac Slavonic Armenian Latin"/>
          <alias id="Syriac" idrefs="syr-Bettiolo"/>
          <alias id="Greek" idrefs="grc-Neandro grc-PG"/>
          <alias id="Slavonic" idrefs="chu-cyrl-Veder chu-glag-Veder"/>
+         <alias id="Armenian" idrefs="hye-Venice-A hye-Venice-B"/>
          <alias id="Latin" idrefs="lat-Neandro lat-PG"/>
 
          <alias id="Neandro" idrefs="grc-Neandro lat-Neandro"/>

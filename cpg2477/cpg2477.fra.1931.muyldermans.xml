@@ -17,9 +17,9 @@
   </teiHeader>
   <head xmlns="tag:textalign.net,2015:ns">
     <name xml:lang="eng">French translation of Word of Instruction preserved Armenian, edited by Muyldermans</name>
-    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/nocpg06/nocpg06.fra.1931.muyldermans.xml"/>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2477/cpg2477.fra.1931.muyldermans.xml"/>
     <license which="by_4.0" licensor="kalvesmaki"/>
-    <work which="Instr"/>
+    <work which="Instructions for Imitating Proverbs"/>
     <vocabulary>
       <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
       <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
@@ -35,6 +35,8 @@
     <file-resp who="kalvesmaki"/>
     <resp roles="editor" who="kalvesmaki"/>
     
+    <change when="2022-12-19" who="kalvesmaki">Changed work from nocpg06 to CPG 2477, converted to
+      correct reference system (based on the 45 chapters of the original).</change>
     <change when="2022-01-25" who="kalvesmaki">Started file</change>
     <comment when="2022-01-25" who="kalvesmaki">I have opted for the Armenian as the basic reference
       system.</comment>
@@ -42,74 +44,74 @@
   </head>
   <text>
     <body xml:lang="fra">
-      <div type="section" n="1">
+      <div type="section" n="5">
         <ab>La connaissance (γνῶσις) ne convient pas à l’insensé, et la pierre sans valeur à un
           diadème d’or.</ab>
       </div>
-      <div type="section" n="2">
+      <div type="section" n="10">
         <ab>De même qu'il est difficile d'arrêter le cours impétueux du fleuve, ainsi l’avarice de
           l’homme impie est insatiable.</ab>
       </div>
-      <div type="section" n="3">
+      <div type="section" n="11">
         <ab>Le ver (est) au cœur du bois, et les paroles de ceux qui gardent rancune, sont dans
           leurs âmes.</ab>
       </div>
-      <div type="section" n="4">
+      <div type="section" n="12">
         <ab>Les enfants des sages ne plaisent pas &lt; à l’insensé >, et celui qui est sans
           intelligence, les méprisera.</ab>
       </div>
-      <div type="section" n="5">
+      <div type="section" n="13">
         <ab>Un long (μακρός) temps ne donne pas la connaissance (γνῶσις), et de longues (πολύς)
           années ne donnent pas la sagesse (σοφία).</ab>
       </div>
-      <div type="section" n="6">
+      <div type="section" n="14">
         <ab>Si tu possèdes la charité (ἀγάπη), tu comprendras les paroles des sages, tu rechercheras
           la paix et tu ne mépriseras pas les fruits de leur ventre. </ab>
       </div>
-      <div type="section" n="7">
+      <div type="section" n="15">
         <ab>L'homme irascible ne les connaîtra pas, et celui qui est impur ne (les) comprendra
           pas.</ab>
       </div>
-      <div type="section" n="8">
+      <div type="section" n="16">
         <ab>L'homme doux et paisible boira l’eau de la vérité, et l’eau du mensonge sera donnée à
           l’homme colère.</ab>
       </div>
-      <div type="section" n="9">
+      <div type="section" n="18">
         <ab>Garde le trésor paternel avant toute chose, et n'oublie pas celui qui t'a engendré.</ab>
       </div>
-      <div type="section" n="10">
+      <div type="section" n="19">
         <ab>Le serviteur endormi perd l'or qu’il a dans le pli du manteau (κόλπος), et l'homme ivre
           sa vie.</ab>
       </div>
-      <div type="section" n="11">
+      <div type="section" n="20">
         <ab>Vois les hommes comme les petits des vautours, s'élevant dans leur vol et, à l'odeur des
           cadavres, descendant de nouveau à terre. </ab>
       </div>
-      <div type="section" n="12">
+      <div type="section" n="21">
         <ab>L'homme miséricordieux gardera ses trésors, mais celui qui est insensé, y ajoutera son
           vêtement. </ab>
       </div>
-      <div type="section" n="13">
+      <div type="section" n="22">
         <ab>Celui qui désire la connaissance (γνῶσις), irrite ses ennemis, et celui qui recherche la
           sagesse (σοφία), les afflige.</ab>
       </div>
-      <div type="section" n="14">
+      <div type="section" n="23">
         <ab>Les fils impies dissipent la richesse, et les insensés ne verront pas les trésors de
           leurs pères.</ab>
       </div>
-      <div type="section" n="15">
+      <div type="section" n="25">
         <ab>A la destruction du culte des créatures, les justes se réjouissent, les âmes des
           injustes seront désolées.</ab>
       </div>
-      <div type="section" n="16">
+      <div type="section" n="29">
         <ab>Les pauvres partageront les trésors des riches, et les humbles partageront leurs
           richesses.</ab>
       </div>
-      <div type="section" n="17">
+      <div type="section" n="34">
         <ab>Le loup affamé suit la trace des troupeaux, et l'esprit de l'impureté de ceux qui
           remplissent leur ventre.</ab>
       </div>
-      <div type="section" n="18">
+      <div type="section" n="35">
         <ab>La maison des avares se remplira des bêtes féroces de la colère, et les oiseaux de la
           tristesse y feront leurs nids.</ab>
         

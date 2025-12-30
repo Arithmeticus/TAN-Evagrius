@@ -32,6 +32,7 @@
 
       <file-resp who="kalvesmaki"/>
       <resp who="kalvesmaki" roles="editor"/>
+      <change when="2025-12-22" who="kalvesmaki">Changed to Gehin's 2025 reference system.</change>
       <change when="2024-11-14" who="kalvesmaki">Normalized accent</change>
       <change when="2020-10-01" who="kalvesmaki">Started file</change>
       <to-do/>
@@ -39,7 +40,8 @@
 
    <body xml:lang="grc">
       <div type="letter" n="8">
-         <div n="3" type="section">Ὁ μὲν Μωϋσῆς τὸν ἄνθρωπον ἐκ τῆς κατ' ἐνέργειαν ἁμαρτίας ἐξάγει· ὁ δὲ Ἰησοῦς διαδεχόμενος, ἐκ δευτέρου περιτέμνει, τουτέστι τὸ κατὰ διάνοιαν ἁμάρτημα· </div>
+         <div n="2" type="section">Ὁ μὲν Μωϋσῆς τὸν ἄνθρωπον ἐκ τῆς κατ' ἐνέργειαν ἁμαρτίας ἐξάγει· 
+            ὁ δὲ Ἰησοῦς διαδεχόμενος, ἐκ δευτέρου περιτέμνει, τουτέστι τὸ κατὰ διάνοιαν ἁμάρτημα· </div>
       </div>
 
    </body>

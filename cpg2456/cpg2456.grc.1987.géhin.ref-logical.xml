@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
 <?xml-model href="../../../TAN-2021/schemas/tan.sch"?>
-<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2458.4:grc:1987:logical">
+<TAN-T xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki.com,2014:patrologia:text:cpg-2456:grc:1987:logical">
    <head>
       <name>Greek text of Géhin's edition of Evagrius's Scholia on Proverbs, logical reference system</name>
       <license which="by_4.0" licensor="kalvesmaki"/>

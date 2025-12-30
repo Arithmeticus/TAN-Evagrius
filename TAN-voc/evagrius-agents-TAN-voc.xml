@@ -21,6 +21,7 @@
             <IRI>tag:kalvesmaki.com,2014:self</IRI>
             <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
             <name>Joel Kalvesmaki</name>
+            <name>Kalvesmaki</name>
         </item>
         <item>
             <IRI>http://viaf.org/viaf/94205197</IRI>
@@ -42,6 +43,10 @@
         <item>
             <IRI>http://viaf.org/viaf/58166835607735941810</IRI>
             <name>Hovsep Karapetyan</name>
+        </item>
+        <item>
+            <IRI>tag:evagriusponticus.net,2015:person:tkebuchava:lasha</IRI>
+            <name>Lasha Tkebuchava</name>
         </item>
         
         <item>
@@ -68,6 +73,16 @@
             <IRI>http://dbpedia.org/resource/Nilus_of_Sinai</IRI>
             <name>Nilus of Ancyra</name>
             <name>Nilus of Sinai</name>
+        </item>
+        <item>
+            <IRI>http://dbpedia.org/resource/Marcus_Eremita</IRI>
+            <name>Mark the Monk</name>
+            <name>Mark the Ascetic</name>
+            <name>Marcus Eremita</name>
+        </item>
+        <item>
+            <IRI>http://dbpedia.org/resource/Hesychius_of_Jerusalem</IRI>
+            <name>Hesychius of Jerusalem</name>
         </item>
     </body>
 </TAN-voc>

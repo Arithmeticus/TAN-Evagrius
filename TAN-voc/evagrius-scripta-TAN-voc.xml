@@ -1009,8 +1009,18 @@
       </item>
       
       <item>
-         <IRI>tag:evagriusponticus.net,2012:scriptum:evagrius-davis-2024</IRI>
-         <name>evagrius davis 2024</name>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:davis-2024</IRI>
+         <name>davis 2024</name>
+         <desc>Davis, Stephen J. “The Biblical and Ascetic Wisdom of Evagrius Ponticus in Arabic:  Three Short Works in Imitation of Proverbs, Ecclesiastes, and the Song of Songs.” Le Muséon 137, nos. 1–2 (2024): 241–64. https://doi.org/10.2143/MUS.137.1.3293321.</desc>
+      </item>
+       <item>
+          <IRI>tag:evagriusponticus.net,2012:scriptum:draguet-1972</IRI>
+          <name>Draguet 1972</name>
+          <desc>Draguet, René. Commentaire du livre d'abba Isaïe (logoi I-XV). Corpus scriptorum Christianorum Orientalium. Scriptores Syri 144–145. 326–327. Louvain,: Secrétariat du CSCO, 1972. </desc>
+       </item>
+       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:evagrius-davis-2023</IRI>
+         <name>evagrius davis 2023</name>
          <desc>Evagrius Ponticus. The Gnostic Chapters: A Critical Edition and Translation of Evagrius Ponticus’ Kephalaia Gnostika in Arabic. Edited by Stephen J. Davis. Arabic Christianity 5. Leiden [The Netherlands] ; Boston [Massachusetts]: Brill, 2023.</desc>
       </item>
       <item>
@@ -2806,6 +2816,11 @@
          <desc>Severus of Antioch and Sergius the Grammarian. Severi Antiocheni Orationes ad Nephalium: Eiusdem ac Sergii Grammatici epistulae mutuae. Corpus scriptorum Christianorum Orientalium 119–120. Louvain: L. Durbecq, 1949. </desc>
       </item>
       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:lebon-1968</IRI>
+         <name>lebon 1968</name>
+         <desc>Lebon, Joseph. Le moine saint Marcien: Étude critique des sources. Édition de ses écrits. Spicilegium sacrum Lovaniense 36. Spicilegium sacrum Lovaniense, 1968.</desc>
+      </item>
+      <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:leboulluec-1991</IRI>
          <name>LeBoulluec 1991-1992</name>
          <name>leboulluec 1991</name>
@@ -2933,6 +2948,11 @@
          <IRI>tag:evagriusponticus.net,2012:scriptum:marchini-2024</IRI>
          <name>Marchini 2024</name>
          <desc>Evagrius Ponticus. Gli otto spiriti della malvagità: edizione e traduzione di due antiche versioni latine. Edited by Diego Marchini. Città nuova, 2024. https://www.academia.edu/125864555/Evagrio_Pontico_Gli_otto_spiriti_della_malvagit%C3%A0_antiche_versioni_latine.</desc>
+      </item>
+      <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:markesinis-2004</IRI>
+         <name>Markesinis 2004</name>
+         <desc>Markesinis, Basile. “Evagriana Dans Le Vaticanus Graecus 504 et Ailleurs.” In Studies in Greek and Byzantine Texts Presented to Jacques Noret for His Sixty-Fifth Birthday: Etudes de Patristique Grecque et Textes Byzantins Offerts à Jacques Noret à l’occasion de Ses Soixante-Cinq Ans, edited by B. Janssens, B. Roosen, and P. Van Deun. Peeters, 2004.</desc>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:marsili-1936</IRI>
@@ -4483,6 +4503,11 @@
          <desc>Vittis, Eusebios N. and Evagrius. "Aux cimes de l'intelligible..": "le Traité de la prière" de Saint Nil l'Ascète = Titre grec, "Eis ypsos moēton.." : "Logos peri proseuchēs" tou 'Agiou Neilou tou' Askētou. [n.p.]: [n.p.], 1997. </desc>
       </item>
       <item>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:vilotta-2011</IRI>
+         <name>Vilotta 2011</name>
+         <desc>Vilotta, P. “I trattati Sui Serafini e Sui Cherubini attribuiti ad Evagrio Pontico.” Studi sull’Oriente Cristiano 15, no. 1 (2011): 5–28.</desc>
+      </item>
+      <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:vivian-2000</IRI>
          <name>Vivian 2000</name>
          <desc>Vivian, Tim. “Coptic Palladiana II: The Life of Evagrius (Lausiac History 38).” Coptic Church Review 21, no. 1 (2000): 8–23.</desc>
@@ -4741,12 +4766,6 @@
          <name>Đjakovac 2014</name>
          <name>đakovac 2014</name>
          <desc>Đjakovac, Aleksandar. “Теолошке основе аскетске традиције Евагрија Понтијског (Theological Basis of Ascetic Tradition of Evagrius Ponticus).” Зборник Матице српске за друштвене науке 149, no. 4 (2014): 949–957.academia.edunb.rs</desc>
-      </item>
-      <item>
-         <IRI>tag:evagriusponticus.net,2012:scriptum:ḳaṭraya-draguet-1972</IRI>
-         <name>Ḳaṭraya and Draguet 1972</name>
-         <name>ḳaṭraya draguet 1972</name>
-         <desc>Ḳaṭraya, Dadishoʻ and Draguet, René. Commentaire du livre d'abba Isaïe (logoi I-XV). Corpus scriptorum Christianorum Orientalium. Scriptores Syri 144–145. 326–327. Louvain,: Secrétariat du CSCO, 1972. </desc>
       </item>
       <item>
          <IRI>tag:evagriusponticus.net,2012:scriptum:聡-1998</IRI>

@@ -10,21 +10,31 @@
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2023-12-08"/>
       </vocabulary>
       
-      <source xml:id="frank-syr" which="cpg2434_syr_frankenberg" accessed-when="2023-12-07"/>
-      <source xml:id="frank-grc" which="cpg2434_grc_frankenberg" accessed-when="2023-12-07"/>
-      <source xml:id="nesic" which="cpg2434_srp_nesic" accessed-when="2023-12-07"/>
+      <source xml:id="frank-syr" which="cpg2434_syr_frankenberg" 
+         accessed-when="2023-12-07"/>
+      <source xml:id="frank-grc" which="cpg2434_grc_frankenberg" 
+         accessed-when="2023-12-07"/>
+      <source xml:id="nesic" which="cpg2434_srp_nesic" 
+         accessed-when="2023-12-07"/>
+      <source xml:id="morozov-2024" which="cpg2434_rus_morozov_2024" 
+         accessed-when="2025-12-22"/>
+      <source xml:id="morozov-2025" which="cpg2434_rus_morozov_2025" 
+         accessed-when="2025-12-22"/>
       
       
       
       <vocabulary-key>
-         <alias xml:id="cpg2434" idrefs="Syriac"/>
+         <alias xml:id="cpg2434" idrefs="Syriac Frankenberg-retroversion"/>
          
-         <alias xml:id="Syriac" idrefs="frank-syr frank-grc nesic"/>
+         <alias xml:id="Syriac" idrefs="frank-syr morozov-2024 morozov-2025"/>
+         <alias xml:id="Frankenberg-retroversion" idrefs="frank-grc nesic"/>
+         
 
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
       <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
+      <change when="2025-12-22" who="kalvesmaki">Added Morozov translations.</change>
       <change when="2023-12-07" who="kalvesmaki">Created file</change>
       <to-do/>
    </head>

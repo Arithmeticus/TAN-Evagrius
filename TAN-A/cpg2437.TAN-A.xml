@@ -10,15 +10,19 @@
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
       
-      <source xml:id="grc-1987-hier-sab-157" which="cpg2437 grc 1987a" accessed-when="2020-10-02"/>
-      <source xml:id="grc-1987-sinai-462" which="cpg2437 grc 1987b" accessed-when="2020-10-02"/>
-      <source xml:id="grc-géhin" which="cpg2437 grc Géhin" accessed-when="2020-10-02"/>
+      <source xml:id="grc-géhin" which="cpg2437 grc 2025" accessed-when="2025-12-21"/>
+      <!-- Gehin does not include the Mai fragment. -->
       <source xml:id="mai-catena" which="cpg2437 grc Mai" accessed-when="2020-10-02"/>
-      <source xml:id="hausherr" which="cpg2437 grc Hausherr" accessed-when="2020-10-02"/>
-      <source xml:id="prov-scholia" which="cpg2437 grc SchProv" accessed-when="2020-10-02"/>
-      <source xml:id="thoughts" which="cpg2437 grc Thoughts" accessed-when="2020-10-02"/>
-      <source xml:id="muyldermans" which="cpg2437 grc Muyldermans" accessed-when="2020-10-02"/>
       <source xml:id="nesic" which="cpg2437 srp Nesic" accessed-when="2020-10-02"/>
+      
+      <!-- Rendered obsolete by Gehin 2025? -->
+      <!--<source xml:id="grc-1987-hier-sab-157" which="cpg2437 grc 1987a" accessed-when="2020-10-02"/>
+      <source xml:id="grc-1987-sinai-462" which="cpg2437 grc 1987b" accessed-when="2020-10-02"/>
+      <source xml:id="grc-géhin-frag" which="cpg2437 grc 1994" accessed-when="2020-10-02"/>
+      <source xml:id="hausherr" which="cpg2437 grc Hausherr" accessed-when="2020-10-02"/>
+      <source xml:id="thoughts" which="cpg2437 grc Thoughts" accessed-when="2020-10-02"/>
+      <source xml:id="prov-scholia" which="cpg2437 grc SchProv" accessed-when="2020-10-02"/>
+      <source xml:id="muyldermans" which="cpg2437 grc Muyldermans" accessed-when="2020-10-02"/>-->
       
       
       <source xml:id="syr-frankenberg" which="cpg2437 syr Frankenberg" accessed-when="2020-10-02"/>
@@ -33,11 +37,13 @@
       <vocabulary-key>
          <alias xml:id="cpg2437" idrefs="Greek Syriac"/>
          
-         <alias xml:id="Greek" idrefs="grc-1987-hier-sab-157 grc-1987-sinai-462 grc-géhin mai-catena hausherr 
-            prov-scholia thoughts muyldermans nesic"/>
+         <!-- grc-1987-hier-sab-157 grc-1987-sinai-462 grc-géhin-frag hausherr 
+            thoughts prov-scholia muyldermans -->
+         <alias xml:id="Greek" idrefs="grc-géhin mai-catena"/>
          
          <alias xml:id="Syriac" idrefs="syr-frankenberg Syriac_translations"/>
-         <alias xml:id="Syriac_translations" idrefs="grc-frankenberg syr-57-kalv"/>
+         <alias xml:id="Syriac_translations" idrefs="grc-frankenberg syr-57-kalv Retroversion_translations"/>
+         <alias xml:id="Retroversion_translations" idrefs="nesic"/>
          
          <work xml:id="ep" which="Epistulae"/>
 
@@ -45,6 +51,7 @@
       </vocabulary-key>
       <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
+      <change when="2025-12-20" who="kalvesmaki">Moved Nesic</change>
       <change when="2020-09-16" who="kalvesmaki">Created file</change>
       <to-do>
          <comment when="2020-10-02" who="kalvesmaki">Add Armenian</comment>

@@ -6,8 +6,7 @@
       <name>Greek text of Tractatus ad Eulogium from the Patrologia Graeca, logical reference
          system used in PG</name>
       <license which="by_4.0" licensor="kalvesmaki"/>
-      <work><IRI>tag:kalvesmaki.com,2014:work:cpg2447</IRI><name xml:lang="lat">Ad Eulogium</name><name xml:lang="eng">To Eulogios</name><name xml:lang="eng">Evagrius of Pontus, To Eulogios</name><name>CPG 2447</name><name xml:lang="lat">Ad Eul.</name><name xml:lang="grc">Λόγος πρὸς Εὐλόγιον μοναχόν</name><name xml:lang="eng">Treatise to the Monk Eulogius or To Eulogius on the Confession
-                    of Thoughts and Counsel in Their Regard</name><name>Eulogios</name></work>
+      <work which="Eul"/>
       <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
          <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
@@ -19,7 +18,7 @@
             reference system</name>
          <location href="cpg2447.grc.1858.pg.ref-scriptum.xml" accessed-when="2018-04-03"/>
       </redivision>
-      <redivision which="cpg2447 grc PG 40 ref fogielman"/>
+      <redivision which="cpg2447 grc PG 40 ref fogielman" accessed-when="2025-12-16"/>
       <source which="Patrologia Graeca"/>
       <vocabulary-key>
          <algorithm xml:id="xslt1">

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki@gmail.com,2014:tan-a:nocpg06">
+<TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2021" id="tag:kalvesmaki@gmail.com,2014:tan-a:cpg2477">
    <head>
       <name>Evagrios Pontikos, Word of Instruction</name>
-      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/nocpg06.TAN-A.xml"/>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/TAN-A/cpg2477.TAN-A.xml"/>
       <license which="by_4.0" licensor="kalvesmaki"/>
       <vocabulary>
          <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
@@ -10,15 +10,16 @@
          <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
       </vocabulary>
       
-      <source which="nocpg06 grc Muyldermans" xml:id="Muyldermans" accessed-when="2023-01-03"/>
-      <source which="nocpg06 fra Muyldermans" xml:id="Muyldermans_trans" accessed-when="2023-01-03"/>
-      <source which="nocpg06 eng Dysinger" xml:id="Dysinger" accessed-when="2023-01-03"/>
+      <source which="cpg2477 grc Muyldermans" xml:id="Muyldermans" accessed-when="2023-01-03"/>
+      <source which="cpg2477 fra Muyldermans" xml:id="Muyldermans_trans" accessed-when="2023-01-03"/>
+      <source which="cpg2477 eng Dysinger" xml:id="Dysinger" accessed-when="2023-01-03"/>
+      <source which="cpg2477 grc Markesinis" xml:id="Markesinis" accessed-when="2025-12-20"/>
       
       
       <vocabulary-key>
          <alias xml:id="cpg2463" idrefs="Greek"/>
          
-         <alias xml:id="Greek" idrefs="Muyldermans Muyldermans_trans Dysinger"/>
+         <alias xml:id="Greek" idrefs="Muyldermans Markesinis Muyldermans_trans Dysinger"/>
 
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
       </vocabulary-key>
