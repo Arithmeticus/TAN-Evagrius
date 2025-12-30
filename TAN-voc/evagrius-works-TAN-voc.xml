@@ -55,13 +55,14 @@
             <name xml:lang="lat">Practicus et epistula ad Anatolium</name>
             <name>cpg2430</name>
             <desc>The Praktikos contains 100 chapters discussing foundational discipline of the
-                ascetic life, namely fighting the passions and their attendant demons. It is
+                ascetic life, namely, fighting the passions and their attendant demons. It is
                 prefaced by a letter to Anatolius (otherwise unknown). The work, considered one of
                 his most important, is the first of a trilogy that continues with the Gnostikos and
-                the Kephalaia gnostika. Unusually, numerous manuscripts both attest to the original
-                Greek and attribute the work to Evagrius, rather than reassigning it to Nilus or
-                another less controversial author. The Praktikos exercised an enormous influence on
-                Christian monastic asceticism in the medieval period.</desc>
+                the Kephalaia gnostika. Numerous manuscripts both attest to the original Greek and
+                attribute the work to Evagrius, rather than reassigning it to Nilus or another less
+                controversial author, likely because the 5th-c. historians Socrates and Gennadius
+                had already indicated he was the author. The Praktikos exercised an enormous
+                influence on Christian monastic asceticism in the medieval period.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2430:version:lat-vetus</IRI>
@@ -149,11 +150,12 @@
             <name>Gnostikos</name>
             <name xml:lang="lat">Gnosticus</name>
             <name>cpg2431</name>
-            <desc>The Gnostikos, a treatise comprising 50 chapters, treats objects of knowledge,
-                and the foundations of spiritual observation. It is the second part of a trilogy
-                that begins with the Praktikos and concludes with the Kephalaia gnostika. It survives
-                only partially in Greek, via quotations and compilations.
-            </desc>
+            <desc>The Gnostikos, a treatise comprising 50 chapters, treats objects of knowledge, and
+                the foundations of spiritual observation. It is directed toward the teacher of those
+                who are on the road. As received, it is the second part of a trilogy that begins
+                with the Praktikos and concludes with the Kephalaia gnostika. Attributed to Evagrius
+                by the fifth-century historians Socrates and Gennadius, it survives only partially
+                in Greek, via quotations and compilations. </desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2431:version:lat</IRI>
@@ -210,13 +212,14 @@
             <name xml:lang="eng">Kephalaia gnostika</name>
             <name xml:lang="lat">Capita gnostica</name>
             <name>cpg2432</name>
-            <desc>The Kephalaia gnostika comprises 540 chapters (90 chapters in six "centuries")
-                discussing the highest levels of spiritual and natural observation. The work, which
-                is the final part of a trilogy that begins with the Praktikos and the Gnostikos, is
-                marked by philosophical erudition and is written cryptically. It is generally
-                considered to be a core text behind the condemnations of Origen in 553. Because of
-                how little survives in Greek, the Syriac translations are key, especially the
-                so-called unexpurgated version (termed version S2). </desc>
+            <desc>The Kephalaia gnostika, perhaps Evagrius's most controversial and difficult work,
+                comprises 540 chapters (90 chapters in six "centuries") discussing the highest
+                levels of spiritual and natural observation. The work, received as the final part of
+                a trilogy that begins with the Praktikos and the Gnostikos, is marked by
+                philosophical erudition and is written cryptically. It is generally considered to be
+                a core text behind the condemnations of Origen in 553. Because of only one fourth
+                survives in Greek fragments, the Syriac translations are key, especially the
+                so-called unexpurgated version (called version S2). </desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2432:version:syr:s1</IRI>
@@ -257,14 +260,15 @@
             <IRI>tag:evagriusponticus.net,2015:cpg2432a</IRI>
             <name xml:lang="eng">Complements to the Kephalaia gnostika</name>
             <name>cpg2432a</name>
-            <desc>Because each century in the KG consists of only 90 chapters, the full work appears
-                to be sixty short of the six hundred chapters promised. The Syriac text followed by
-                Babai the Great includes sixty complementary kephalaia (CPG 2432a1). Nos. 1-23, 26-42 come from
-                the Skemmata (CPG 2433); nos. 24 and 25, from CPG 2450; nos. 43, 58-60, from CPG 2432a3a;
-                and 44-57, from CPG 2432a3b. </desc>
-            <desc>In the Armenian counterpart to the Syriac, nos. 1-13a come from CPG 2432a3b; nos.
-                13b through 22, from CPG 2432a3a; nos. 23-53, from CPG 2433; nos. 54-55, from CPG
-                2450; nos. 56-60, from CPG 2476.</desc>
+            <desc>Because each century in the Kephalaia gnostika consists of only 90 chapters, the
+                full work appears to be sixty short of the six hundred chapters promised. The Syriac
+                text commented on by Babai the Great (classified as CPG 2432a1) includes sixty
+                complementary kephalaia (CPG 2432a1). Nos. 1-23, 26-42 come from the Skemmata (CPG
+                2433); nos. 24 and 25, from CPG 2450; nos. 43, 58-60, from CPG 2432a3a; and 44-57,
+                from CPG 2432a3b. </desc>
+            <desc>In the Armenian counterpart to the Syriac (classified as CPG 2432a2), nos. 1-13a
+                come from CPG 2432a3b; nos. 13b through 22, from CPG 2432a3a; nos. 23-53, from CPG
+                2433; nos. 54-55, from CPG 2450; nos. 56-60, from CPG 2476.</desc>
         </item>
         
 
@@ -280,7 +284,7 @@
                 The preservation of these ten kephalaia en bloc in four Syriac manuscripts and a
                 number of Armenian ones suggests that this short work circulated as a whole. Nos. 1,
                 2, 5, 9, and 10 were excerpted by the author/editor of Disciples (Disciples
-                191-195), and are the only ones to survive in Greek. </desc>
+                191-195), and are the only parts to survive in Greek. </desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2432a3a:version:syr</IRI>
@@ -369,9 +373,9 @@
             <name>Antirrhetikos</name>
             <name xml:lang="lat">Antirrheticus</name>
             <name>cpg2434</name>
-            <desc>Lists of Scriptures that are effective in combatting the eight passions. The text
-                is organized according to the eight passions with scriptures listed according to
-                their biblical order.</desc>
+            <desc>Lists of Scriptures that are effective in combatting the eight passions. This long
+                text is organized in eight books, each assigned to one of the passion. Scriptures
+                are presented in biblical order.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2434:version:lat</IRI>
@@ -460,11 +464,12 @@
             <name xml:lang="eng">Chapters to a Virgin</name>
             <name xml:lang="lat">Sententiae ad Virginem</name>
             <name>cpg2436</name>
-            <desc>Fifty-six sentences of spiritual instruction addressed to a virgin (unnamed, but probably
-                an associate of Melania and Rufinus), written in distychs, in imitation of the
-                Proverbs (like CPG 2464a and 2477). Evagrius discusses matters foundational to the coenobitic monastic life
-                for women, so the material resembles, in some ways, a rule.</desc>
-            <desc>Often associated with CPG 2435 under the designation 'The Mirrors.'</desc>
+            <desc>Fifty-six sentences of spiritual instruction addressed to a virgin (unnamed, but
+                probably an associate of Melania and Rufinus), written in distychs, in imitation of
+                the Proverbs (like CPG 2464a and 2477). Evagrius discusses matters foundational to
+                the coenobitic monastic life for women, so the material resembles, in some ways, a
+                rule.</desc>
+            <desc>Often associated with CPG 2435 under the designation "The Mirrors."</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2436:version:lat</IRI>
@@ -494,9 +499,9 @@
                 various lengths, all providing spiritual counsel to various figures such as Rufinus,
                 St. Melania the Elder, St. Gregory Nazianzus, Bp. John of Jerusalem. The letters,
                 which feature a considerable amount of material that he used in other works, survive
-                entirely in Syriac, and only fragmentarily in Greek. For letters not included in this
-                corpus, see CPG 2438, 2439; cover letters to other treatises, e.g., CPG 2430, 2434.
-            </desc>
+                entirely in Syriac, and only fragmentarily in Greek. For letters not included in
+                this corpus, see CPG 2438, 2439; and letters attached to other treatises, e.g., CPG
+                2430, 2434. </desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2437:version:syr</IRI>
@@ -526,11 +531,12 @@
             <name>cpg2438</name>
             <desc>Evagrius's longest and presumably last extant letter. It deals extensively with
                 Christology and the act of letter writing, as well as the apokatastasis (the
-                restoration of all things at the end of time). Although one Syriac MS describes the
-                recipient as Melania the Elder (attested in Jerome's 'ad eam'?), this is generally
-                regarded as incorrect. See the arguments of Bunge (in his German translation), who
-                considers Rufinus to be more likely. The first half of the letter is extant in BL
-                Add. 14,578 whereas the second half is extant only in BL Add. 17,192.</desc>
+                restoration of all things at the end of time). Although one Syriac manuscript
+                describes the recipient as Melania the Elder (attested in Jerome's "ad eam"?), this
+                is generally regarded as incorrect. See the arguments of Bunge (in his German
+                translation), who considers Rufinus to be more likely. The first half of the letter
+                is extant in BL Add. 14,578 whereas the second half is extant only in BL Add.
+                17,192.</desc>
         </item>
         <item affects-element="version">
             <IRI>tag:evagriusponticus.net,2015:cpg2438:version:syr</IRI>
@@ -549,9 +555,9 @@
             <name xml:lang="lat">Sermo sive dogmatica epistula de sanctissima trinitate</name>
             <name>cpg2439</name>
             <desc>Evagrius's earliest datable letter, dealing with Trinitarian doctrine and his
-                flight from Pontus, among other things. Conventionally, the letter is thought to
-                have been written around 380 to a community in Caesarea, and reflects Evagrius's
-                tutelage with Gregory of Nazianzus during the latter's stormy tenure in
+                flight (from a place unspecified), among other things. Conventionally, the letter is
+                thought to have been written around 380 to a community in Caesarea, and reflects
+                Evagrius's tutelage with Gregory of Nazianzus during the latter's stormy tenure in
                 Constantinople. Kalvesmaki has argued (2012) that the letter was addressed to
                 Constantinopolitans, and so was written after 381.</desc>
         </item>
