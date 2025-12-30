@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-T.rnc"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021"
+   id="tag:kalvesmaki.com,2014:text:cpg2484.2:grc:markesinis">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name>Markesinis's edition of the Greek text of Four Chapters on the Person of Christ</name>
+      <master-location
+         href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2484.2/cpg2484.2.grc.2004.markesinis.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="cpg2484.2"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2018-05-29-04:00"/>
+      </vocabulary>
+      <source which="Markesinis 2004"/>
+      <vocabulary-key>
+         <div-type xml:id="ch" which="chapter"/>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2025-12-19" who="kalvesmaki">Started file</change>
+      <to-do> </to-do>
+   </head>
+   <text>
+      <body xml:lang="grc">
+         <milestone unit="page" n="428"/>
+         <div type="ch" n="1">
+            <p>Χριστοῦ γέννησις ἐστί, Θεοῦ Λόγου σύνθετος γέννησις ἐκ Παρθένου.</p>
+         </div>
+         <div type="ch" n="2">
+            <p>Χριστοῦ σπαργάνωσις ἐστίν, ἔνδυσις καὶ συγκάλυψις <quote>τοῦ ἔσω ἡμῶν ἀνθρώπου</quote><ref cRef="2Cor. 4.16; Eph. 3.16"/>.</p>
+         </div>
+         <div type="ch" n="3">
+            <p>Χριστοῦ σταυρὸς ἐστί, <quote>πολυποικίλου σοφίας</quote><ref cRef="Eph. 3.10"/> τετραμερὴς φανέρωσις· ἢ δύναμις <quote>τοῦ ἔσω ἡμῶν ἀνθρώπου</quote><ref cRef="2Cor. 4.16; Eph. 3.16"/>, καὶ πονηροῦ τελεία κατάλυσις.</p>
+         </div>
+         <div type="ch" n="4">
+            <p>Χριστοῦ ἀνάστασις ἐστί, μετάθεσις τῆς λογικῆς φύσεως ἐκ φθορᾶς εἰς τὴν ἀφθαρσίαν, καὶ ἀπὸ τῆς ἀγνοίας ἐπὶ τὴν ἀπλανῆ τῶν ὄντων γνῶσιν.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
