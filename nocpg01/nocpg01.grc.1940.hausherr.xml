@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     TAN-version="2021"
+     id="tag:kalvesmaki.com,2014:nocpg01.grc.1940.hausherr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p/>
+      </encodingDesc>
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name xml:lang="eng">Irénée Hausherr's Greek retroversion of the 
+         Arabic translation of the letter by Loukios to Evagrios Pontikos</name>
+      <master-location href="http://evagriusponticus.net/tan/nocpg01/nocpg01.grc.1940.hausherr.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="nocpg01"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2021-06-02"/>
+      </vocabulary>
+      <source which="Nešić 2024"/>
+      <adjustments/>
+      <vocabulary-key>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp who="kalvesmaki" roles="editor"/>
+      <change when="2025-12-23" who="kalvesmaki">Started file.</change>
+      <to-do/>
+   </head>
+   <text>
+      <body xml:lang="grc">
+         <div type="letter" n="4">
+            <div type="chapter" n="2">
+               <p>Σὺ μέν, ὦ πάτερ, ἐν ἐρήμῳ ὡς ἐν κόλπῳ μητρὸς κατοικεῖς ταῦτα τὰ ἔτη τὰ πολλά, προσμαχόμενος τοῖς ἀοράτοις ἐχθροῖς, ὦ πάτερ τίμιε Εὐάγριε, τὰ ὅπλα ἐνδυσάμενος τῶν πρεπόντων τῇ ψυχῇ πόνων, καὶ ἀγωνιστὴς ἔμπειρος κατὰ τῶν πνευμάτων τῆς πονηρίας εἰς τοσοῦτον γενόμενος, ὥστε μὴ σὲ παρὰ τοῖς δαιμονίοις φοβερὸν γενέσθαι μόνον, ἀλλὰ καὶ ἑτέρους προσκαλεῖσθαι, ἵνα γίνωνται καὶ αὐτοὶ ἀγωνισταὶ ἐναντίον τῶν πνευμάτων τῶν ἀκαθάρτων καὶ τῶν λογισμῶν τῶν ῥυπαρῶν.</p>
+            </div>
+            <div type="chapter" n="3">
+               <p>Ἐρωτῶ οὖν τὴν πατρότητά σου τίνι τρόπῳ προσπολεμήσω τοῖς τοῦ σκότους, καὶ ἀντιβολῶ τὴν ἁγιωσύνην σου, ἵνα συντίθῃς μοι λόγον τινὰ σαφῆ τοῦ γνωρίσαι μοι πᾶσαν τὴν τῶν δαιμόνων πανουργίαν ἣν τῇ ἰδίᾳ ὁρμῇ ἐν τῇ ὁδῷ τοῦ μοναχισμοῦ ἀπεργάζονται, καὶ ἵνα τοῦτον ἐπιστέλλῃς πρὸς ὑμᾶς, ὅπως καὶ ἡμεῖς ἐκεῖνα τὰ βουλεύματα αὐτῶν τὰ πονηρὰ ἐξ ἡμῶν αὐτῶν ἐκβαλῶμεν ῥᾳδίως. Οἶδα γάρ σε ὅτι ἐπακούεις τοῦ αἰτουμένου σε πνευματικά, καὶ τούτου χάριν ἐπέτρεψά σοι τοῦτο. Ἔρρωσο ἐν Κυρίῳ.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
