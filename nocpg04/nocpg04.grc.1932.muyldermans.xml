@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" 
+  id="tag:kalvesmaki.com,2014:text:nocpg04:grc:muyldermans">
+  <teiHeader xmlns:tan="tag:textalign.net,2015:ns" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
+    <fileDesc>
+      <titleStmt>
+        <title>Excerpts</title>
+        <author>Evagrius Ponticus</author>
+        <respStmt>
+          <resp>edited by</resp>
+          <persName instant="false" full="yes"><forename full="yes">Joseph</forename>
+            <surname full="yes">Muyldermans</surname></persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc default="false">
+        <listBibl default="false">
+          <bibl default="false" status="draft"><persName instant="false" full="yes"><surname full="yes">Muyldermans</surname>, <forename full="yes">Joseph</forename></persName>.
+              <title>À travers la tradition Manuscrite d’Evagre Le Pontique: Essai Sur Les
+              Manuscrits Grecs Conservés à La Bibliothèque Nationale De Paris</title>.
+              <series>Bibliothèque Du Muséon</series> 3. Louvain: Bureaux du Muséon,
+              <date instant="false">1932</date>.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <head xmlns="tag:textalign.net,2015:ns">
+    <name xml:lang="eng">Muyldermans edition of the Greek Excerpts (nocpg04) from MS Paris BnF gr.
+      2748</name>
+    <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/nocpg04/nocpg04.grc.1932.muyldermans.xml"/>
+    <license which="by_4.0" licensor="kalvesmaki"/>
+    <work which="nocpg04"/>
+    <vocabulary>
+      <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+      <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+      <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+    </vocabulary>
+    
+    <source which="Muyldermans 1932"/>
+    
+    <adjustments>
+      <normalization which="no reference markers"/>
+    </adjustments>
+    <vocabulary-key>
+      <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      <div-type xml:id="ch" which="chapter"/>
+    </vocabulary-key>
+    
+    <file-resp who="kalvesmaki"/>
+    <resp roles="editor" who="kalvesmaki"/>
+    
+    <change when="2025-12-20" who="kalvesmaki">Started TAN-TEI file.</change>
+    <to-do/>
+  </head>
+  <text>
+    <body xml:lang="grc">
+      <div type="ch" n="1">
+        <p n="8">Τὰς νυκτερινὰς ἡμῖν ἐπάγουσιν οἱ πόλεμοι φαντασίας, ἵνα μεθ' ἡμέραν ἢ τὸν θυμὸν ἢ τὴν
+          ἐπιθυμίαν εὐχερέστερον συνταράξωσι· ταῦτα γὰρ ἐν ὕπνοις προκινηθέντα, ῥᾷον ἐξάπτονται.</p>
+      </div>
+      <div type="ch" n="2">
+        <p n="9">Τινές φασιν ὅτι τῶν μορίων τοῦ σώματος οἱ δαίμονες κατὰ τοὺς ὕπνους ἁπτόμενοι, κινοῦσι τὸ
+          πάθος τῆς πορνείας· τοῦτο δὲ κινούμενον ἀναφέρει τὰς μιαρὰς φαντασίας ἐπὶ τὸν νοῦν. Τινὲς
+          δὲ ὅτι τῷ μὲν νοῒ σχήμασιν αἰσχροῖς παραφαινόμενοι, τῶν δὲ μορίων ἐπαφώμενοι, κινοῦσι τὴν
+          ὄρεξιν.</p>
+      </div>
+      <div type="ch" n="3">
+        <p n="12">Σημεῖον ἀπαθείας, τὸ ψιλὰ τὰ νοήματα τῶν πραγμάτων ἀεὶ ἀναβαίνειν ἐπὶ τὴν καρδίαν, καὶ
+          ἐγρηγορότος τοῦ σώματος, καὶ κατὰ τοὺς ὕπνους.</p>
+      </div>
+      <div type="ch" n="4">
+        <p n="26">Σάλπιγξ μὲν ἠχοῦσα συνάγει στρατιώτας· ψαλμῳδία δὲ, ἀγγέλους· ᾠδὴ δὲ ἄσεμνος,
+          δαίμονας.</p>
+      </div>
+      <div type="ch" n="5">
+        <p n="31">Ἀληθής ἐστιν ἡσυχία, τὸ καθήμενον ἐν τῷ κελλίῳ, μηδεμίαν μνήμην ἔχειν κοσμικοῦ
+          πράγματος· ἐργασία δὲ τελεία, τὸ προσέχειν ἀπερισπάστως μόνῳ Θεῷ.</p>
+      </div>
+      <div type="ch" n="6">
+        <p n="32">Εἰ καὶ οἱ πατέρες τῆς Σκήτεως ἀντέλεγον τοῖς πονηροῖς λογισμοῖς, ἀλλ' ἐκεῖνοι
+          πολλὴν εἶχον ἁπλότητα καὶ φόβον Θεοῦ· ἡμῖν δὲ τὸ τοιοῦτον οὐ πᾶσιν ἀσφαλὲς, οὐ γὰρ
+          ἀπορήσει λόγον ὁ πονηρός. Καὶ λοιπὸν ὅλην τὴν ἡμέραν ἀδολεσχοῦντες, ὑποκλαπησόμεθα τὴν
+          πρὸς Θεὸν ὁμιλίαν, συλλαλοῦντες τῷ πολεμίῳ.</p>
+      </div>
+      <div type="ch" n="7">
+        <p n="38">Σφόδρα λυμαίνεται τῷ μνημονικῷ τῆς ψυχῆς, ἐναποτεθείσα μνησικακία.</p>
+      </div>
+      <div type="ch" n="8">
+        <p n="39">Μνησίκακος προσευχόμενος, σπείρει κατὰ πέτρας.</p>
+      </div>
+      <div type="ch" n="9">
+        <p n="40">Προσευχόμενος ὑπὲρ ἐχθρῶν, ἀπελάσεις μνησικακίαν.</p>
+      </div>
+      <div type="ch" n="10">
+        <p n="41">Πάντας μὲν ἀγαπᾶν ἐπίσης, χαλεπόν· πᾶσι δὲ ἐντυγχάνειν ἀπαθῶς, δυνατόν.</p>
+      </div>
+      <div type="ch" n="11">
+        <p n="48">Ἡ πηγὴ μὲν καθαρισθεῖσα, διειδὲς ὕδωρ νάει· νοῦς δὲ καθαρθεὶς, λαμπρὰ πηγάζει νοήματα.</p>
+      </div>
+      <div type="ch" n="12">
+        <p n="50">Ὥσπερ τόπος, οὕτω καὶ ψυχὴ, δι' ἐπιμελείας ἐξημεροῦται.</p>
+      </div>
+      <div type="ch" n="13">
+        <p n="65">Σοφῶν παλαιῶν ὁ λόγος· τοὺς φρονίμους μᾶλλον ἀπὸ τῶν ἀφρόνων, ἢ τοὺς ἄφρονας ἀπὸ
+          τῶν φρονίμων ὠφελεῖσθαι· οὗτοι μὲν γὰρ φυλάττονται τὰς ἐκείνων ἁμαρτίας· ἐκεῖνοι δὲ τὰ
+          τούτων οὐ μιμοῦνται κατορθώματα.</p>
+      </div>
+      <div type="ch" n="14">
+        <p n="67">Ὁ εἰς γνώσιν ἐλθὼν, ἔχει τὸν μετ' αὐτόν· ὁ εἰς ἄγνοιαν ἐλθὼν, οὐκ ἔχει τὸν μετ'
+          αὐτόν· δύο δὲ ἄγνοιαι, καὶ μία γνῶσις· τί βούλεται δηλοῦν ὁ λογος; ὅτι διττή ἐστιν ἡ
+          ἄγνοια· ἡ μὲν ἐξ ἀμαθίας, ὡς ἡ τῶν παίδων· ἡ δὲ ἐκ ταπεινοφροσύνης, ὡς ἡ τῶν ἐναρέτων
+          ἀνδρῶν· ὁ τοίνυν ἐλθὼν εἴτε εἰς ταύτην εἴτε εἰς ἐκείνην, οὐ προτίθησιν ἑαυτόν τινος· ἀλλ'
+          ὁ μὲν παῖς ἄκων τοῦτο ποιεῖ, ὁ δὲ ἐνάρετος ἑκών· ἰδοὺ δύο ἄγνοιαι· ἡ μὲν ἐκ φύσεως, ἡ δὲ
+          ἐκ προαιρέσεως· μία δὲ γνῶσις ἡ φυσιοῦσα, εἰς ἣν ὁ ἐλθὼν, προτίθησιν ἑαυτόν τινος, διὰ τὴν
+          φυσίωσιν.</p>
+      </div>
+      <div type="ch" n="15">
+        <p n="68">Ἀρχὴ σωτηρίας, φόβος Θεοῦ· οὗτος τίκτει καταφρόνησιν πάντων τῶν τοῦ κόσμου
+          τερπνῶν· αὕτη δὲ γεννᾷ τὴν ταπείνωσιν. Σημεῖα δὲ ταπεινώσεως, νέκρωσις ἰδίου θελήματος,
+          ἐξομολόγησις ἐγκάρδιος καὶ ἔργων καὶ λόγων καὶ ἐνθυμήσεων· τὸ μὴ πιστεύειν τῇ οἰκείᾳ
+          συνέσει, ἀλλὰ τῷ κατὰ πνεῦμα πατρὶ πάντα ἀνατίθεσθαι καὶ τῶν τούτου λόγων ἐκκρέμασθαι, καὶ
+          δουλεύειν τοῖς αὐτοῦ προστάγμασιν ἀνεπαισχύντως· τὸ μὴ τολμᾶν ὑβρίσαι τινὰ τῶν ἁπάντων,
+          ἀλλὰ καὶ μᾶλλον πᾶσαν ὕβριν ὑπομένειν παρὰ παντός· τὸ μὴ μετρεῖν ἑαυτόν· τὸ μὴ ἐπιχειρεῖν
+          καὶ νεωτέρῳ πράγματι παρὰ τὸν κανόνα τῶν πατέρων· τὸ ἀρκεῖσθαι τῇ εὐτελείᾳ, καὶ μὴ δὲ
+          ταύτης ἄξιον ἑαυτὸν ὁμολογεῖν· τὸ πάντων ἑαυτὸν ἔσχατον ἡγεῖσθαι, καὶ πράξει καὶ λόγῳ· ἐν
+          ἁπάσῃ πληροφορίᾳ, τὸ γλώσσης κρατεῖν, καὶ μήτε ἐν λόγοις προπετεύεσθαι, μήτε τῇ φωνῇ
+          τραχύνειν· τὸ μὴ προχείρως γελᾶν. Τούτοις καὶ τοῖς τοιούτοις ἡ ταπείνωσις κατορθουμένη
+          πρὸς τὸ τῆς θείας ἀγάπης ὕψος ἀνάγει, τῆς μηκέτι φόβον κολάσεως ἐχούσης, ἀλλὰ πόθον τοῦ
+          νυμφίου διαπυρώτατον.</p>
+      </div>
+      <div type="ch" n="16">
+        <p n="69">Χαρακτῆρες τῆς τελείας ἀγάπης, τὸ τοὺς ἐχθροὺς ἀγαπᾶν· <quote>«Ἀγαπᾶτε γὰρ, φησὶ,
+          τοὺς ἐχθροὺς ὑμῶν·»</quote><ref cRef="Mt. 5.44"/> τὸ τοὺς μισοῦντας εὐεργετεῖν·
+            <quote>«Καλῶς γὰρ, φησὶ, ποιεῖτε τοῖς μισοῦσιν ὑμᾶς·»</quote><ref cRef="Mt. 5.44"/> τὸ
+          ὑπερεύχεσθαι τῶν ἀδικούντων· <quote>«Προσεύχεσθε γὰρ, φυσὶν, ὑπὲρ τῶν ἐπηρεαζόντων
+            ὑμᾶς»</quote><ref cRef="Mt. 5.44"/>· τὸ μὴ μόνον μὴ ἀποδιδόναι κακὸν ἀντὶ κακοῦ, ἀλλὰ
+          καὶ μᾶλλον ἀγαθοποιεῖν· <quote>«Νίκα γὰρ, φησὶν, ἐ&lt;ν> τῷ ἀγαθῷ τὸ κακόν»</quote><ref
+            cRef="Rom. 12.21"/>· τὸ χαίρειν μὲν ἐπὶ τοῖς κατορθώμασι τοῦ πλησίον· λυπεῖσθαι δὲ ἐπὶ
+          τοῖς ἀτυχήμασιν αὐτοῦ, καὶ συνδιατίθεσθαι τούτῳ πρὸς ἀμφότερα· <quote>«Χαίρειν γὰρ, φησὶ,
+            μετὰ χαιρόντων, καὶ κλαίειν μετὰ κλαιόντων»</quote><ref cRef="Rom. 12.15"/>· τὸ τοὺς
+          ἀμαθεῖς διδάσκειν καὶ χειραγωγεῖν ἐπὶ σωτηρίᾳ· τὸ τοῖς χρῄζουσι δανείζειν τὸν ἔλεον ἐν
+          ἱλαρότητι καρδίας· τὸ οἰκειοῦσθαι τὰ πλημμελήματα τῶν ἁμαρτανόντων, καὶ οὕτως ἐπ' αὐτοῖς
+          ἀλγεῖν καὶ θρηνεῖν, καὶ θερμῶς ἐξιλεοῦσθαι τὸν Θεὸν ὡς ἐπὶ ἰδίοις· τὸ τὴν ψυχὴν τιθέναι
+          ὑπὲρ τῶν φίλων. Οὗτοι τῆς τελείας ἀγάπης οἱ χαρακτῆρες χριστομίμητον ποιοῦσι τὸν ἄνθρωπον·
+          ἥδ' ἐν τραπέζαις καὶ ἀστειότησι καὶ τοιαύταις ἑταιρίαις, πεπλανημένη καὶ ψευδὴς καὶ σκιὰ
+          ἀγάπης ἐστίν :-</p>
+      </div>
+    </body>
+  </text>
+</TEI>
