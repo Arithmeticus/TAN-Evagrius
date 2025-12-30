@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021" id="tag:kalvesmaki.com,2014:evagrius.cpg2434.rus.2025.morozov">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ἀντιῤῥητικός</title>
+            <author>Evagrius Ponticus</author>
+            <respStmt>
+               <resp>translated by</resp>
+               <persName instant="false" full="yes">A. <surname full="yes">Morozov</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name xml:lang="eng">Morozov's Russian translation of Gehin's Syriac text of the Antirrhetikos, book V</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Evagrius/master/cpg2434/cpg2434.rus.2025.morozov.xml"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Antirrh"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <name>General keywords associated with the TAN collection for Evagrius of Pontus</name>
+         <location href="../TAN-voc/evagrius.TAN-voc.xml" accessed-when="2017-12-16-05:00"/>
+      </vocabulary>
+      <source which="Morozov 2025"/>
+      <adjustments>
+         <normalization which="no notes"/>
+         <normalization which="no reference markers"/>
+      </adjustments>
+      <vocabulary-key/>
+      <file-resp who="kalvesmaki"/>
+      <resp who="kalvesmaki" roles="editor"/>
+      <change when="2025-12-22" who="kalvesmaki">Started file</change>
+      <to-do/>
+   </head>
+   <text>
+      <body xml:lang="rus">
+         <div type="book" n="5">
+            <div type="title" n="title">
+               <p>Пятое слово: против беса гнева</p>
+            </div>
+            <div type="book_ref" n="1_pref">
+               <p>Из [книги] Бытия</p>
+            </div>
+            <div type="section" n="1">
+               <div type="situation" n="situation">
+                  <p>К душе, не ведающей, что затянувшаяся вражда брата легко усмиряется даром:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Сказал же Иаков</quote> Исаву<quote>: «Если я снискал благоволение в очах твоих, прими из рук моих дар мой, ибо</quote> ныне <quote>я узрел лик твой, как бы узрел лик</quote> ангела<quote>, и ты был милостив ко мне; прими</quote> дары мои, <quote>который я принес тебе, ибо Бог</quote> смилостивился надо мною<quote>, ибо у меня есть все, в чем я нуждаюсь»</quote><ref cRef="Быт. 33, 10–11"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="2">
+               <div type="situation" n="situation">
+                  <p>Против гневных помыслов, встречающихся на пути добродетелей:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Не ссорьтесь в пути</quote><ref cRef="Быт. 45, 24"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="3_pref">
+               <p>Из [книги] Исход</p>
+            </div>
+            <div type="section" n="3">
+               <div type="situation" n="situation">
+                  <p>Против помысла, производящего ложное свидетельство, рожденное от гнева:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Не произноси на брата твоего ложного свидетельства</quote><ref cRef="Исх. 20, 16"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="4">
+               <div type="situation" n="situation">
+                  <p>Против помысла, исходящего от клеветника, возбуждающего и разжигающего раздражительную часть души против брата:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Не оправдывай ложного слуха</quote><ref cRef="Исх. 23, 1"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="5">
+               <div type="situation" n="situation">
+                  <p>Против помысла, пробуждаемого гневом и желающего оскорбить братьев:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>От всякого лживого слова удаляйся</quote><ref cRef="Исх. 23, 7"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="6">
+               <div type="situation" n="situation">
+                  <p>Против помысла, который рисует в уме брата, c ненавистью произносящего худое или слушающего враждебное; это, как объяснял пророк Иоанн, прозорливец из Фиваиды, может не произойти, если это, то есть сия ненависть, возникает из-за имущества или пищи; если же ненависть из-за людской славы, то с великим трудом она искореняется:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Не возненавидь брата твоего в сердце твоем, но обличи ближнего твоего, да не приимешь за него грех</quote><ref cRef="Лев. 19, 17"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="7_pref">
+               <p>Из [книги] Чисел</p>
+            </div>
+            <div type="section" n="7">
+               <div type="situation" n="situation">
+                  <p>К душе, полагающей, что природе чужда совершенная кротость:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Моисей был кратчайший из всех людей, живущих на земле</quote><ref cRef="Чис. 12, 3"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="8_pref">
+               <p>Из [книги] Самуила</p>
+            </div>
+            <div type="section" n="8">
+               <div type="situation" n="situation">
+                  <p>К душе, не разумеющей, что, тогда поругания от людей приходят, когда Бог оставил ее, дабы испытать:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Давид сказал Ависсе и всем слугам своим: «Вот сын мой, вышедший из чресл моих, хочет отнять у меня жизнь; тем более теперь сыновья Вениамина! Оставьте его, пусть злословит, ибо Господь сказал ему так. Быть может, Господь воззрит на это и воздаст мне благом за сегодняшние поругания»</quote><ref cRef="2 Цар. 16, 11–12"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="9_pref">
+               <p>Из [книги Псалмов] Давида</p>
+            </div>
+            <div type="section" n="9">
+               <div type="situation" n="situation">
+                  <p>К душе, пренебрегающей кротостью, но желающей научиться путям Господним:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>И Он ведет смиренных судом и научает убогих пути Своему</quote><ref cRef="Пс. 24, 9"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="10">
+               <div type="situation" n="situation">
+                  <p>К душе, принимающей гневные помыслы и собирающей против братьев злобу и ложные подозрения:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Упразднись от ярости и упразднись от гнева и не ревнуй делающему зло, ибо злые погибнут, а те, которые надеются на Господа, наследуют землю</quote><ref cRef="Пс. 36, 8–9"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="11">
+               <div type="situation" n="situation">
+                  <p>К уму, смущенному клеветою братьев и облаком, порождаемым раздражительной частью души, покрывающему душу его:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Ты сидел и помышлял о брате твоем и насмехался над сыном матери твоей</quote><ref cRef="Пс. 49, 20"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="12">
+               <div type="situation" n="situation">
+                  <p>Господу, о том, что ум постиг: от смущения раздражительной части души рождаются ночью кошмарные видения; и что он также уразумел: они угашаются милосердием и долготерпением: </p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«Сделай меня мудрее врагов моих, ибо заповеди Твои сохранил я; вразуми меня более всех учителей моих, ибо свидетельство Твое является для меня предметом размышления»<ref cRef="ср. Пс. 24, 9"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="13">
+               <div type="situation" n="situation">
+                  <p>Против беса, возбуждающего раздражительную часть души против братьев и затем принуждающего нас воспевать тот гимн, в котором упоминается заповедь о долготерпении, которую мы не сохранили; он делает это, дабы посмеяться над нами, когда мы воспеваем сию заповедь, которой на деле мы пренебрегли:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Как мы воспоем вам песни Господни на земле чужой</quote><ref cRef="Пс. 136, 4"/> ?</p>
+               </div>
+            </div>
+            <div type="book_ref" n="14_pref">
+               <p>Из [книги] Притчей Соломоновых</p>
+            </div>
+            <div type="section" n="14">
+               <div type="situation" n="situation">
+                  <p>Против помысла, который собирает худые рассуждения о брате, как о нерадивом, злоречивом и ничего, что необходимо, не исполняющем:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Не помыслишь зла о ближнем твоем, сидящем с тобою в тишине</quote><ref cRef="Притч. 3, 29"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="15">
+               <div type="situation" n="situation">
+                  <p>Против помысла, происходящего от ненависти и стремящегося к ссоре с братом ради преходящего имущества: </p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«Ненависть возбуждает тяжбу, но стыд покрывает всех неправедных»<ref cRef="ср. Притч. 10, 12"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="16">
+               <div type="situation" n="situation">
+                  <p>Против помысла, принуждающего нас произнести проклятие на братьев:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«Замышляют вражду уста неправедных; кто произносит проклятие, тот лишен рассудительности»<ref cRef="ср. Притч. 10, 18"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="17">
+               <div type="situation" n="situation">
+                  <p>Против раздражительной части души, которая возмущается против брата и во время молитвы делает ум растленным:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«Душа благословенная преуспеет, а человек гневливый — растленен»<ref cRef="ср. Притч. 11, 25"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="18">
+               <div type="situation" n="situation">
+                  <p>Против помысла, который возбуждает раздражительную часть нашей души на домашний скот, идущий не по прямому пути:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Праведник разумеет душу скота своего, а нечестивых жестоко сердце</quote><ref cRef="Притч. 12, 10"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="19">
+               <div type="situation" n="situation">
+                  <p>Против помысла, который внезапно возбуждается гневом и по ничтожному поводу смущает наш ум:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«Глупый в тот же день изъявляет гнев свой, а хитрый скрывает досаду свою»<ref cRef="ср. Притч. 12, 16"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="20">
+               <div type="situation" n="situation">
+                  <p>Против помысла, замышляющего обмануть брата:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«Не достанется добыча нечестному человеку, а драгоценное сокровище — чистый человек»<ref cRef="ср. Притч. 12, 27"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="21">
+               <div type="situation" n="situation">
+                  <p>К душе, идущей путем злопамятства и побуждающей ум посредством помыслов воспламеняться в раздражительной части души; но затем помысел этой страсти растягивается во времени, и размышление о словах или о вещах преходящих покрывает и затопляет ум:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«На пути правды — жизнь, а путь злопамятных к смерти» <ref cRef="ср. Притч. 12, 28"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="22">
+               <div type="situation" n="situation">
+                  <p>Против помысла, который смущает и искореняет долготерпение и побуждает нас помышлять о делах сего безумия, сила которого исходит от стремления к стяжанию; вместо этого должно пробуждаться смирение:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«Долготерпеливый исполнен мудрости, а нетерпеливый — весь глупость»<ref cRef="ср. Притч. 14, 29"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="23">
+               <div type="situation" n="situation">
+                  <p>Против гневного помысла, который препятствует нам смиренно отвечать тем, кто обличает нас по праву:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Гнев губит и мудрых, но кроткое слово укрощает раздражительность; а жестокое слово возбуждает гнев</quote><ref cRef="Притч. 15, 1"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="24">
+               <div type="situation" n="situation">
+                  <p>Против помысла, который подстрекает нас к распре с братьями и мешает прекратить причины раздора:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«Человек гневливый возбуждает ссору, а человек долготерпеливый утихомиряет уже начавшийся»<ref cRef="ср. Притч. 15, 18"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="25">
+               <div type="situation" n="situation">
+                  <p>К душе, считающей, что не сама мысль гнева мерзка пред Богом, а лишь грех, происходящий от нее:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«Мерзость пред Господом — помыслы злые, а словеса кроткие чисты»<ref cRef="ср. Притч. 15, 26"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="25a">
+               <div type="situation" n="situation">
+                  <p>Против помысла, который приготовляет нас к борьбе и спору с братом ради пустого и суетного и возмущает наш ум против мира с врагом; ибо прежде всего такие помыслы вносят смятение и беззаконие, а затем приводят к совершению беззакония на деле:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«Не говори: «Я одолею врага своего», но потерпи ради Господа, и Он будет тебе опорой»<ref cRef="ср. Притч. 20, 22"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="25b">
+               <div type="situation" n="situation">
+                  <p>Против души, желающей клеветать на братьев и облекающейся злобою под воздействием помыслов:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«Не люби клеветы, дабы не умереть; открой очи твои, и насытишься хлебом»<ref cRef="ср. Притч. 20, 13"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="25c">
+               <div type="situation" n="situation">
+                  <p>Против помыслов злопамятства, которые смущают наш ум и обрушиваются на нас во время молитвы:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«Злой человек именуется грубым, надменным и гордым, и злопамятный также нечестив»<ref cRef="ср. Притч. 21, 24"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="26">
+               <div type="situation" n="situation">
+                  <p>Против помысла, который советует нам дружить с людьми раздражительными и исполненными гнева:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Не дружи с человеком гневливым и к мужу исполненному гнева не входи, дабы не научиться путям его и не найти преткновение душе своей</quote><ref cRef="Притч. 22, 24–25"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="27">
+               <div type="situation" n="situation">
+                  <p>К душе, потерпевшей обиду и желающей воздать [обидчику] тем же — что есть признак злобной страсти души, любящей суетное:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Не говори: «Я поступлю с ним так, как он поступил со мною, воздам человеку по делам его»</quote><ref cRef="Притч. 24, 29"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="28">
+               <div type="situation" n="situation">
+                  <p>К уму, который не милует и не жалеет врага своего, видя его в крайней нищете, и не хочет, разделив с ним трапезу, прекратить вражду:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Если будет голоден враг твой — накорми его; если жаждет — напои его; ибо, делая сие, ты соберешь горящие угли на главу его, и Господь воздаст тебе</quote><ref cRef="Притч. 25, 21–22"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="29_pref">
+               <p>Из [книги] Екклесиаста</p>
+            </div>
+            <div type="section" n="29">
+               <div type="situation" n="situation">
+                  <p>Против помысла души, внезапно воспламеняющейся от раздражительности и жестоко озлобляющейся на братьев, отчего рождается грубое слово и злые дела:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Не спеши сердцем своим на гнев, ибо гнев покоится в груди глупых</quote><ref cRef="Еккл. 7, 9"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="30">
+               <div type="situation" n="situation">
+                  <p>К душе, которая не желает отказаться от причин раздражительности, но вожделевает пищи, одежды, имущества и преходящей славы; ради этих вещей возбуждаемая раздражительность не отступает от сердца, но погружает ум в «погибель погибелей» <ref cRef="ср. 1 Тим. 6, 9"/>:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«Отгони гнев от сердца твоего и удали злобу от плоти твоей, ибо юность и неведение — суета»<ref cRef="ср. Еккл. 11, 10"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="31_pref">
+               <p>Из [книги] Песни песней</p>
+            </div>
+            <div type="section" n="31">
+               <div type="situation" n="situation">
+                  <p>Против беса, который посредством многих искушений стремится угасить нашу любовь к братьям:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Воды великие не могут потушить любовь, и реки не зальют ее</quote><ref cRef="Песн. 8, 7"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="32_pref">
+               <p>Из [книги] пророка Исаии</p>
+            </div>
+            <div type="section" n="32">
+               <div type="situation" n="situation">
+                  <p>Против помысла, который побуждает меня писать тому, кто нас огорчил, слова упрека, ранящие его сердце:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«Горе тем, которые обнародуют законы и пишут неправду»<ref cRef="Ис. 10, 1"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="33_pref">
+               <p>Из [книги] Плача Иеремии</p>
+            </div>
+            <div type="section" n="33">
+               <div type="situation" n="situation">
+                  <p>Господу — за то, что помыслы гнева более не пребывают во мне:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Ты рассудил, Господи, дело души моей и спас жизнь мою; Ты увидел, Господи, уничижение мое, Ты рассудил тяжбу мою; Ты увидел все мщение их и все, что они замышляли против меня</quote><ref cRef="Плач. 3, 58–60"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="34_pref">
+               <p>Из Евангелия от Матфея</p>
+            </div>
+            <div type="section" n="34">
+               <div type="situation" n="situation">
+                  <p>Против помыслов гнева, которые возбуждают в нас отцы и братья наши, когда они гонят нас ради имени Господня:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Блаженны гонимые за правду, ибо их есть Царство Небесное</quote><ref cRef="Мф. 5, 10"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="35">
+               <div type="situation" n="situation">
+                  <p>Против помысла, который из-за подозрения смущается по поводу брата:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Всякий, гневающийся на брата своего напрасно, подлежит суду</quote><ref cRef="Мф. 5, 22"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="36">
+               <div type="situation" n="situation">
+                  <p>К уму, который раздражается на того, кто его ударил, и не хочет вторым ударом положить конец помыслу, возникшему от первого удара:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Ударившему тебя в правую щеку обрати и другую</quote><ref cRef="Мф. 5, 39"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="37">
+               <div type="situation" n="situation">
+                  <p>Против помыслов, которые побуждают нас ненавидеть и злословить врагов наших:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Любите врагов ваших, благословляйте проклинающих вас, творите добро ненавидящим вас и молитесь за гонящих вас, да будете сынами Отца вашего Небесного</quote><ref cRef="Мф. 5, 44–45"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="38_pref">
+               <p>Из Евангелия от Луки</p>
+            </div>
+            <div type="section" n="38">
+               <div type="situation" n="situation">
+                  <p>Против помысла гнева, которому недостаточно покаяния брата и который вновь обращается с горечью против него:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Если согрешит брат твой — обличи его; и если покается — прости ему. И если семь раз в день прегрешит против тебя и семь раз в день обратится к тебе и скажет: «Каюсь», — прости ему</quote><ref cRef="Лк. 17, 3–4"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="39_pref">
+               <p>Из Евангелия от Иоанна</p>
+            </div>
+            <div type="section" n="39">
+               <div type="situation" n="situation">
+                  <p>К уму, принимающему помыслы гнева на братьев и разоряющего заповедь о любви, которая названа новой:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Повелеваю вам любить друг друга; как Я возлюбил вас, так и вы да любите друг друга</quote><ref cRef="Ин. 13, 34"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="40_pref">
+               <p>Из Послания к Римлянам</p>
+            </div>
+            <div type="section" n="40">
+               <div type="situation" n="situation">
+                  <p>Против помыслов гнева, которые ожесточаются против любви:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Кто отлучит</quote> меня <quote>от любви</quote> Христовой<quote>? Скорбь ли, или теснота,</quote> или бедность, <quote>или гонение, или голод, или нагота, или опасность, или меч?</quote><ref cRef="Рим. 8, 35"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="41">
+               <div type="situation" n="situation">
+                  <p>Против помыслов зависти, которые радуются падению врагов наших:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Радуйтесь с радующимися и плачьте с плачущими; будьте единомысленны между собою</quote> и по отношению к братьям вашим<ref cRef="Рим. 12, 15–16"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="42">
+               <div type="situation" n="situation">
+                  <p>Против помысла, который удерживает злопамятство и старается воздать злом тому, кто обидел его:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Не воздавайте злом за зло, но пекитесь о том, чтобы делать добро пред всеми человеками</quote><ref cRef="Рим. 12, 17"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="43_pref">
+               <p>Из Первого Послания к Коринфянам</p>
+            </div>
+            <div type="section" n="43">
+               <div type="situation" n="situation">
+                  <p>Против помыслов гнева, которые советуют нам обижать и притеснять ближнего:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Для чего бы вам лучше не терпеть лишения? Для чего бы вам лучше не оставаться обиженными? Но вы сами обижаете и обираете, да еще и братьев ваших</quote><ref cRef="1 Кор. 6, 7–8"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="44">
+               <div type="situation" n="situation">
+                  <p>Против помысла гнева, который раздражается на того, кто обозвал нас рабами:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Ты призван быть рабом? Не смущайся; но если можешь освободиться,</quote>осободись. <quote>Ибо раб, призванный Господом, есть свободный</quote> в Господе нашем<ref cRef="1 Кор. 7, 21–22"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="45">
+               <div type="situation" n="situation">
+                  <p>К душе, не утешающейся дерзновением любви и по причине помысла гнева лишившейся его:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Если я говорю всеми языками человеческими и ангельскими, а любви не имею — то я медь звенящая или кимвал звучащий. И если имею дар пророчества, и знаю все тайны и все познание, и всю веру, так что могу и горы переставлять, а не имею любви — то я ничто. И если раздам все, что имею, бедным и даже отдам тело мое на сожжение, а любви не имею — нет мне в том никакой пользы.</quote> Любовь долготерливая и милосердная; <quote>любовь не завидует</quote> и не раздражается, <quote>любовь не превозносится</quote>, не прославляется, не ищет ничего, что подходит только ей одной, но также и для ее ближних. <quote>Любовь не раздражается, не мыслит зла, не радуется</quote> несчастью других, <quote>а радуется истине; любовь все терпит, всему верит, всего надеется, все переносит. Любовь никогда не перестает</quote><ref cRef="1 Кор. 13, 1–8"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="46_pref">
+               <p>Из Послания к Галатам</p>
+            </div>
+            <div type="section" n="46">
+               <div type="situation" n="situation">
+                  <p>К душе, которая сильно гневается и стремится найти в самой себе предел познания истины:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Плоды же Духа</quote> — <quote>любовь, радость, мир, долготерпение,</quote> кротость, <quote>благость, вера,</quote> смирение и незлобие<ref cRef="Гал. 5, 22"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="47">
+               <div type="situation" n="situation">
+                  <p>Против помыслов, которые ввергают нас в скорбь по причине недостатков братьев:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Носите бремена друг друга, и таким образом исполните закон Христов</quote><ref cRef="Гал. 6, 2"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="48">
+               <div type="situation" n="situation">
+                  <p>Против помысла души, который пробуждается гневом на человека, получившего от нее много благ, но снова начавшего роптать против нее:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Делая добро, да не унываем; ибо в свое время пожнем, если не ослабеем</quote><ref cRef="Гал. 6, 9"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="49_pref">
+               <p>Из Послания к Ефесянам</p>
+            </div>
+            <div type="section" n="49">
+               <div type="situation" n="situation">
+                  <p>Против помыслов гнева, которые не дают нам примириться с братом, представляя перед глазами благовидные причины — стыд, страх, честь, — будто бы чтобы не впал вновь в те же старые ошибки тот, кто согрешил этим; это есть признак хитрости беса, который не желает, чтобы ум был свободен от злопамятства:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Солнце да не зайдет во гневе вашем,</quote> и не давайте места клеветнику<ref cRef="Еф. 4, 26–27"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="50">
+               <div type="situation" n="situation">
+                  <p>Против всяческих помыслов, порождаемых раздражительной частью души о разнообразных предметах:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Всякое раздражение, и гнев, и ярость, и крик, и злоречие да будут удалены от вас со всякою злобою</quote><ref cRef="Еф. 4, 31"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="51_pref">
+               <p>Из Послания к Филиппийцам</p>
+            </div>
+            <div type="section" n="51">
+               <div type="situation" n="situation">
+                  <p>Против помыслов гнева, которые осмеливаются роптать на служение братьев:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Все то, что вы делаете, пусть будет без ропота и сомнения, но будьте</quote> в простоте непорочны <quote>и чисты, как чада Божии, пребывающие среди рода развращенного</quote> и лукавого<ref cRef="Флп. 2, 14–15"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="52_pref">
+               <p>Из Послания к Колоссянам</p>
+            </div>
+            <div type="section" n="52">
+               <div type="situation" n="situation">
+                  <p>Против помыслов, происходящих от разжигающейся раздражительной части души и рождающих в своей горячности хулу и ложь:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p>«А теперь отложите все это: гнев, ярость, злобу, хулу, сквернословие и оскорбления из уст ваших да не исходят; и не помышляйте так друг о друге»<ref cRef="ср. Кол. 3, 8–9"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="53_pref">
+               <p>Из Первого Послания к Фессалоникийцам</p>
+            </div>
+            <div type="section" n="53">
+               <div type="situation" n="situation">
+                  <p>Против помыслов, стремящихся воздать злом за зло, через которые бесы, желающие омрачить ум мстящих, ослепляют их согрешениями их и затем обступают их, уничтоженных через них грехами, чтобы посрамить их:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Смотрите, чтобы никто среди вас не воздавал злом за зло; но всегда ищите добра и друг ко другу, и к всякому человеку</quote><ref cRef="1 Фес. 5, 15"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="54_pref">
+               <p>Из Первого Послания к Тимофею</p>
+            </div>
+            <div type="section" n="54">
+               <div type="situation" n="situation">
+                  <p>К душе, не разумеющей цели заповеди Божией и искажающей ее гневными помыслами:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Цель же</quote> заповеди <quote>— любовь от сердца чистого, совести доброй и веры нелицемерной</quote><ref cRef="1 Тим. 1, 5"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="55_pref">
+               <p>Из Второго Послания к Тимофею</p>
+            </div>
+            <div type="section" n="55">
+               <div type="situation" n="situation">
+                  <p>К уму, который через помыслы порождает раздор в разуме:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Рабу Господа нашего не должно ссориться, но быть кротким со всеми</quote><ref cRef="2 Тим. 2, 24"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="56">
+               <div type="situation" n="situation">
+                  <p>Против помысла гнева, приходящего ко мне из-за гонения, которое я терплю от родителей и близких ради имени Господня:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>И все, желающие жить праведно во Иисусе Христе, будут гонимы</quote><ref cRef="2 Тим. 3, 12"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="57_pref">
+               <p>Из Послания к Филимону</p>
+            </div>
+            <div type="section" n="57">
+               <div type="situation" n="situation">
+                  <p>Против помысла, возбуждающего в нас гнев на брата, который получил деньги или что-либо иное для своих нужд, но не старается вернуть долг:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Если он чем обидел тебя или должен тебе, я возвращу</quote><ref cRef="Флм. 18"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="58_pref">
+               <p>Из Послания Иакова</p>
+            </div>
+            <div type="section" n="58">
+               <div type="situation" n="situation">
+                  <p>К душе, внезапно гневающейся и требующей правды Божией:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Пусть всякий человек, возлюбленные мои, будет скор на слышание, медлен на слова, медлен на гнев; ибо гнев человека не творит правды Божией</quote><ref cRef="Иак. 1, 19–20"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="59">
+               <div type="situation" n="situation">
+                  <p>К уму, исполненного помысла гнева и стремящегося узреть себя в премудрости Божией:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Премудрость, сходящая свыше, чиста, кротка, скромна, послушлива, полна милосердия и добрых плодов, беспристрастна и нелицеприятна; плоды же правды в мире сеются у тех, которые хранят мир</quote><ref cRef="Иак. 3, 17–18"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="60">
+               <div type="situation" n="situation">
+                  <p>Против помысла, побуждающего к клевете на братьев и презирающего Законодателя за то, что Он [будто бы] несправедливо установил этот закон, который заповедует и говорит: «Не клевещи на брата твоего»:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Кто злословит брата или судит брата своего, тот злословит Закон и судит Закон; а если ты судишь Закон, то ты не исполнитель Закона, но судия его. Ибо один Законодатель и Судия, могущий оживить и погубить</quote><ref cRef="Иак. 4, 11–12"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="61_pref">
+               <p>Из Послания Петра</p>
+            </div>
+            <div type="section" n="61">
+               <div type="situation" n="situation">
+                  <p>К уму, желающего воздать злом за зло или ругательством за ругательство, и не стремящегося благословением обмануть оскорбительные и клеветнические помыслы:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Не воздавайте злом за зло или ругательством за ругательство, но, напротив, благословляйте, ибо к тому вы и призваны, чтобы наследовать благословение</quote><ref cRef="1 Пет. 3, 9"/>.</p>
+               </div>
+            </div>
+            <div type="book_ref" n="62_pref">
+               <p>Из Послания Иоанна</p>
+            </div>
+            <div type="section" n="62">
+               <div type="situation" n="situation">
+                  <p>К уму, который утверждает, что он имеет страх Божий, но «ненавидит брата своего»<ref cRef="ср. 1 Ин. 4, 20"/>:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Кто говорит, что он во свете, а брата своего ненавидит, тот еще во тьме</quote><ref cRef="1 Ин. 2, 9"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="63">
+               <div type="situation" n="situation">
+                  <p>Против помыслов, рождающихся из ненависти и делающих ум братоубийцей:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Всякий, ненавидящий брата своего, есть человекоубийца; а вы знаете, что никакой человекоубийца не имеет жизни вечной</quote><ref cRef="1 Ин. 3, 15"/>.</p>
+               </div>
+            </div>
+            <div type="section" n="64">
+               <div type="situation" n="situation">
+                  <p>К уму, который говорит, что любит Бога, но по ненависти к брату отрекается от Изначальной Любви:</p>
+               </div>
+               <div type="scripture" n="scripture">
+                  <p><quote>Если кто-то говорит, что любит Господа, а брата своего ненавидит, тот лжец и истины нет в нем; ибо кто не любит брата своего, которого видит, как может любить Бога, которого не видел?</quote><ref cRef="1 Ин. 4, 20"/></p>
+               </div>
+            </div>
+            <div type="epilogue" n="ep">
+               <p>Благословен Господь наш Иисус Христос, Бог наш, даровавший нам победу над помыслами беса гнева!</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
